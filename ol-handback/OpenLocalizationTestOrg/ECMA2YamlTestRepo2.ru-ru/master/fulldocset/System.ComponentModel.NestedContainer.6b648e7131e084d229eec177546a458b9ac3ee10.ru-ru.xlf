@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da43b1cd743b18a64a4ade7bbd474cea30fea2f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.NestedContainer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2eccf58dd2e1a892e973be9cfbab052b7bfb23a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20e1ff09577a568da8fae95447e0c184e8ef9546</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base implementation for the <bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, which enables containers to have an owning component.</source>
+          <target state="translated">Предоставляет базовую реализацию для <bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейс, позволяющий контейнерам иметь компонента-владельца.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NestedContainer class is a simple implementation of the &lt;xref:System.ComponentModel.INestedContainer&gt; interface, which defines a component that logically contains zero or more other components and is owned by a parent component.</source>
+          <target state="translated">Класс NestedContainer является простой реализации &lt;xref:System.ComponentModel.INestedContainer&gt;интерфейс, который определяет компонент, который логически содержит ноль или более компонентов и принадлежащих родительского компонента.&lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The behavior of nested containers differs from a standard &lt;xref:System.ComponentModel.Container&gt; in a number of ways, including the following:      -   Site characteristics such as &lt;xref:System.ComponentModel.Component.DesignMode%2A&gt; and &lt;xref:System.ComponentModel.Component.GetService%2A&gt; are routed through the owning component’s site.</source>
+          <target state="translated">Поведение вложенных контейнеров отличается от стандартного &lt;xref:System.ComponentModel.Container&gt;несколькими способами, включая следующие:-сайта характеристики, такие как &lt;xref:System.ComponentModel.Component.DesignMode%2A&gt;и &lt;xref:System.ComponentModel.Component.GetService%2A&gt;, маршрутизируются через узел компонента-владельца.&lt;/xref:System.ComponentModel.Component.GetService%2A&gt; &lt;/xref:System.ComponentModel.Component.DesignMode%2A&gt; &lt;/xref:System.ComponentModel.Container&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The site’s &lt;xref:System.ComponentModel.ISite.Name%2A&gt; property is a qualified name that includes the owning component’s name followed by a period (.) and the child component’s name.</source>
+          <target state="translated">-Сайта &lt;xref:System.ComponentModel.ISite.Name%2A&gt;свойство — это полное имя, которая включает имя компонента-владельца, а затем точку (.) и имя дочернего компонента.&lt;/xref:System.ComponentModel.ISite.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt; provides support for the &lt;xref:System.ComponentModel.INestedContainer&gt; as a service.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt;обеспечивает поддержку &lt;xref:System.ComponentModel.INestedContainer&gt;как служба.&lt;/xref:System.ComponentModel.INestedContainer&gt; &lt;/xref:System.ComponentModel.NestedContainer.GetService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the owning component is disposed, the container is disposed as well.</source>
+          <target state="translated">— При удалении компонента-владельца, контейнера, также удаляется.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, designers treat nested containers differently.</source>
+          <target state="translated">Кроме того конструкторы работают с вложенными контейнерами по-разному.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A designer host is only interested in one container—the one associated with the host.</source>
+          <target state="translated">Узел конструктора заинтересован только в одном контейнере, связанном с узлом.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, component add and remove events are not raised when a component is added to or removed from a nested container.</source>
+          <target state="translated">Таким образом, добавления и удаления события не вызываются, когда компонент добавлен или удален из вложенных контейнеров.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, because services flow through to the nested container, component change events are raised when a component in a nested container is changed.</source>
+          <target state="translated">Тем не менее так как службы доходят до вложенного контейнера, события изменения компонента вызываются при изменении компонента в вложенных контейнеров.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This disparity in event tracking also impacts undo functionality, which is closely tied to serialization.</source>
+          <target state="translated">Это несоответствие в контроле событий также влияет на возможность отмены действий, тесно связанную с сериализацией.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The standard undo engine uses &lt;xref:System.ComponentModel.Design.IReferenceService&gt; to track changes made to components.</source>
+          <target state="translated">Использует ядро Стандартная отмены &lt;xref:System.ComponentModel.Design.IReferenceService&gt;для отслеживания изменений, внесенных в компоненты.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the undo engine cannot identify a name for a component through the reference service, the engine will ignore any changes for that component.</source>
+          <target state="translated">Если механизм отмены действий не может определить имя компонента с помощью службы ссылок, он игнорирует любые изменения для этого компонента.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service automatically recognizes changes to contained components only if they are exposed as public read-only properties of the same name in their owners.</source>
+          <target state="translated">Эта служба автоматически распознает изменения содержащихся в нем компонентов только в том случае, если они представляются как открытые свойства только для чтения с тем же именем в их владельцев.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the developer must pass component change events up to the owner.</source>
+          <target state="translated">В противном случае разработчик должен передать события изменения компонента до владельца.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a nested component’s <ph id="ph1">`Text`</ph> property is resurfaced on its owning component as an <ph id="ph2">`Address`</ph> property, when the <ph id="ph3">`Text`</ph> property is changed, a property change must be programmatically made for the corresponding <ph id="ph4">`Address`</ph> property or else that change will not be tracked by undo.</source>
+          <target state="translated">Например, если компонент вложенных <ph id="ph1">`Text`</ph> свойство является передается как компонента-владельца <ph id="ph2">`Address`</ph> свойство, когда <ph id="ph3">`Text`</ph> изменить свойство, изменение свойств для программным образом для соответствующего <ph id="ph4">`Address`</ph> свойство иначе, изменения не будут отслеживаться отмены.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor enlists in its owner's &lt;xref:System.ComponentModel.IComponent.Disposed&gt; event so that the nested container's &lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; method will automatically be called.</source>
+          <target state="translated">Этот конструктор выполняет зачисление в его владельцу &lt;xref:System.ComponentModel.IComponent.Disposed&gt;событий, чтобы вложенных контейнеров &lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt;автоматически будет вызван метод.&lt;/xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; &lt;/xref:System.ComponentModel.IComponent.Disposed&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Которому принадлежит этот вложенных контейнеров.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a site for the component within the container.</source>
+          <target state="translated">Создает узел для компонента в контейнере.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`name`</ph> parameter is <ph id="ph2">`null`</ph>, the &lt;xref:System.ComponentModel.IComponent&gt; is added to the nested container without an identifying name.</source>
+          <target state="translated">Если <ph id="ph1">`name`</ph> параметр <ph id="ph2">`null`</ph>, &lt;xref:System.ComponentModel.IComponent&gt;добавляется вложенных контейнеров без уникальное имя.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a site for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для создания сайта для.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name to assign to <ph id="ph1">`component`</ph>, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to skip the name assignment.</source>
+          <target state="translated">Имя, присваиваемое <ph id="ph1">`component`</ph>, или <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> пропустить назначение имени.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The newly created <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Вновь созданный <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the nested container.</source>
+          <target state="translated">Освобождает ресурсы, используемые вложенных контейнеров.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Этот метод вызывается методом открытые <ph id="ph1">`Dispose()`</ph> метод и &lt;xref:System.Object.Finalize%2A&gt;метод.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>вызывает защищенный <ph id="ph2">`Dispose(Boolean)`</ph> метод с <ph id="ph3">`disposing`</ph> равным <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;вызывает <ph id="ph1">`Dispose`</ph> с <ph id="ph2">`disposing`</ph> значение <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.NestedContainer&gt; references.</source>
+          <target state="translated">При <ph id="ph1">`disposing`</ph> параметр имеет значение true, данный метод освобождает все ресурсы, занятые любыми управляемыми объектами, которые &lt;xref:System.ComponentModel.NestedContainer&gt;ссылки.&lt;/xref:System.ComponentModel.NestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Этот метод вызывает <ph id="ph1">`Dispose()`</ph> метод для каждого объекта, на который указывает ссылка.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для освобождения управляемых и неуправляемых ресурсов; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для освобождения только неуправляемых ресурсов.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the service object of the specified type, if it is available.</source>
+          <target state="translated">Получает объект службы указанного типа, если он доступен.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Этот метод переопределяет &lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;метод.&lt;/xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation only resolves requests for the &lt;xref:System.ComponentModel.INestedContainer&gt; and &lt;xref:System.ComponentModel.IContainer&gt; services.</source>
+          <target state="translated">Эта реализация разрешает только запросы &lt;xref:System.ComponentModel.INestedContainer&gt;и &lt;xref:System.ComponentModel.IContainer&gt;служб.&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Извлекаемой службы.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements the requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">&lt;xref:System.Object&gt;, Реализующий запрошенную службу, или <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если службу не удается разрешить.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the owning component for this nested container.</source>
+          <target state="translated">Возвращает компонент-владелец для этого вложенного контейнера.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The owning component is the characteristic that differentiates nested containers from ordinary containers.</source>
+          <target state="translated">Компонент-владелец является характеристикой, отличающий вложенные контейнеры от обычных контейнеров.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Которому принадлежит этот вложенных контейнеров.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the name of the owning component.</source>
+          <target state="translated">Возвращает имя компонента-владельца.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property may be overridden to provide a custom owner name.</source>
+          <target state="translated">Это свойство может быть переопределено для предоставления настраиваемое имя владельца.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation searches the owner's site for &lt;xref:System.ComponentModel.INestedSite&gt; and calls &lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;, or &lt;xref:System.ComponentModel.ISite.Name%2A&gt; if there is no nested site.</source>
+          <target state="translated">Реализация по умолчанию выполняет узел владельца &lt;xref:System.ComponentModel.INestedSite&gt;и вызывает метод &lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;, или &lt;xref:System.ComponentModel.ISite.Name%2A&gt;Если сайт не вложенные.&lt;/xref:System.ComponentModel.ISite.Name%2A&gt; &lt;/xref:System.ComponentModel.INestedSite.FullName%2A&gt; &lt;/xref:System.ComponentModel.INestedSite&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If neither is available, this property returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Если ни один не доступны, это свойство возвращает <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The name of the owning component.</source>
+          <target state="translated">Имя компонента-владельца.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

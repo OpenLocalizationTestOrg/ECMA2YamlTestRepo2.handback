@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">155867c4670ef09fb3a1269cd217b6a09eb340b3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Visual.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b4a651d1448192a6d3e8d036fccea60d44b1e40</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca2857412345171c3d3f27b740ecd4adebfed0f0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides rendering support in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, which includes hit testing, coordinate transformation, and bounding box calculations.</source>
+          <target state="translated">Zapewnia obsługę renderowania w <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, w tym trafień testowania i przekształcenia współrzędnych i ograniczenia pole obliczeń.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Visual class is the basic abstraction from which every &lt;xref:System.Windows.FrameworkElement&gt; object derives.</source>
+          <target state="translated">Klasa wizualna jest podstawowe abstrakcji, z których każdy &lt;xref:System.Windows.FrameworkElement&gt;pochodzi z obiektu.&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also serves as the entry point for writing new controls in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, and in many ways can be thought of as an equivalent of a window handle (HWND) in the <ph id="ph2">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph> application model.</source>
+          <target state="translated">Służy również jako punkt wejścia dla zapisywania nowych formantów <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>i na wiele sposobów można traktować jako równoważne uchwyt okna (HWND) w <ph id="ph2">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph> modelu aplikacji.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Visual object is a core <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> object, whose primary role is to provide rendering support.</source>
+          <target state="translated">Obiekt Visual jest podstawowa <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> obiektu, którego podstawową rolą jest zapewnia obsługę renderowania.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>User interface controls, such as &lt;xref:System.Windows.Controls.Button&gt; and &lt;xref:System.Windows.Controls.TextBox&gt;, derive from the Visual class, and use the Visual defined properties for persisting their rendering data.</source>
+          <target state="translated">Formanty interfejsu użytkownika, takich jak &lt;xref:System.Windows.Controls.Button&gt;i &lt;xref:System.Windows.Controls.TextBox&gt;, pochodzi z klasy Visual i przechowywanie ich renderowania danych na użytek Visual zdefiniowanych właściwości.&lt;/xref:System.Windows.Controls.TextBox&gt; &lt;/xref:System.Windows.Controls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Visual object provides support for the following:      -   Output display: Rendering the persisted, serialized drawing content of a visual.</source>
+          <target state="translated">Obiekt wizualny obsługuje następujące:-Output wyświetlania: renderowanie utrwalonego, serializacji rysowania zawartości obiektu visual.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Transformations: Performing transformations on a visual.</source>
+          <target state="translated">-Przekształcenia: Przekształcenia element wizualny.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Clipping: Providing clipping region support for a visual.</source>
+          <target state="translated">-Wycinka: Zapewnianie wycinka region obsługi dla obiektu visual.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Hit testing: Determining whether a specified coordinate (point) or geometry is contained within the bounds of a visual.</source>
+          <target state="translated">-Testowania trafień: Określanie, czy określony współrzędnych (punkt) lub geometrii znajduje się w granicach obiektu visual.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Bounding box calculations: Determining the bounding rectangle of a visual.</source>
+          <target state="translated">-Ograniczenia pole obliczenia: Określanie prostokąt ograniczający element wizualny.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Architecturally, the Visual object does not include support for other application development requirements / <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> features that are not immediately related to its rendering, such as the following:      -   Event handling      -   Layout      -   Styles      -   Data binding      -   Globalization       Visual is provided as a public abstract class from which further classes can be derived.</source>
+          <target state="translated">Pod względem architektury, obiekt Visual nie obejmuje obsługę innych wymagań rozwoju aplikacji / <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> funkcje, które nie są bezpośrednio związane z jego renderowania, takie jak następujące: — Obsługa - Layout - zdarzeń style — wiązanie danych - globalizacji Visual jest dostępna w publicznej klasy abstrakcyjnej, z którego dalsze klasy mogą pochodzić.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following illustration shows the hierarchy of the existing visual objects that are defined in the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> architecture.</source>
+          <target state="translated">Na poniższej ilustracji przedstawiono hierarchii istniejących obiektów visual, które są zdefiniowane w <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> architektury.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">![</bpt>Diagram of classes derived from the Visual object<ept id="p1">]</ept><bpt id="p2">(~/add/media/visualclass01.png "</bpt>Diagram of classes derived from the Visual object<ept id="p2">")</ept>   Visual class hierarchy       In some cases, members that are defined as protected in Visual are exposed as more readily accessible members with similar names in the derived &lt;xref:System.Windows.UIElement&gt; class.</source>
+          <target state="translated"><bpt id="p1">![</bpt>Diagram klas pochodnych obiekt wizualny<ept id="p1">]</ept><bpt id="p2">(~/add/media/visualclass01.png "</bpt>Diagram klas pochodzących od obiektu Visual<ept id="p2">")</ept> hierarchii klas Visual w niektórych przypadkach elementów członkowskich, które są zdefiniowane jako chroniony w języku Visual są widoczne jako bardziej łatwo dostępne elementy członkowskie o podobnej nazwie w pochodnej &lt;xref:System.Windows.UIElement&gt;klasie.&lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>WPF Graphics Rendering Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>Przegląd renderowania grafiki WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Visual has a limited number of levels.</source>
+          <target state="translated">Element wizualny ma ograniczoną liczbę poziomów.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In previous versions of the .NET Framework, this maximum depth was 255.</source>
+          <target state="translated">W poprzednich wersjach programu .NET Framework to maksymalna głębokość został 255.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limit is inadequate for some layouts that have many levels in the visual tree.</source>
+          <target state="translated">Ten limit jest nieodpowiedni dla układy, które mają wiele poziomów w drzewie wizualnym.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the maximum depth of a Visual is 2047, which enables much deeper visual trees.</source>
+          <target state="translated">W <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, maksymalną głębokość element wizualny jest 2047, co pozwala znacznie lepszą drzewa wizualnego.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most applications, there is not enough stack space to traverse so many levels, and the result is a &lt;xref:System.StackOverflowException&gt; during layout.</source>
+          <target state="translated">W większości aplikacji nie istnieje wystarczająca ilość miejsca na stosie przejść przez wiele poziomów, a w rezultacie &lt;xref:System.StackOverflowException&gt;podczas układu.&lt;/xref:System.StackOverflowException&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default stack size, this exception is usually thrown when the tree depth is approximately 800, which corresponds to about 190 nested &lt;xref:System.Windows.Controls.TreeViewItem&gt; objects.</source>
+          <target state="translated">Domyślny rozmiar stosu, zgłoszenia tego wyjątku zwykle gdy głębokość drzewa wynosi około 800, co odpowiada około 190 zagnieżdżone &lt;xref:System.Windows.Controls.TreeViewItem&gt;obiektów.&lt;/xref:System.Windows.Controls.TreeViewItem&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this exception is thrown by your application and you need to have a deeper visual tree, you can increase the application's stack size.</source>
+          <target state="translated">Jeśli wyjątek przez aplikację, musisz mieć bardziej drzewa wizualnego może zwiększyć rozmiar stosu aplikacji.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can increase the size of the stack by using the /STACK option at compile time or by using the EDITBIN utility.</source>
+          <target state="translated">Przy użyciu opcji /STACK w czasie kompilacji lub za pomocą narzędzia polecenia EDITBIN można zwiększyć rozmiar stosu.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Increasing the stack size may affect your application's performance.</source>
+          <target state="translated">Zwiększanie rozmiaru stosu mogą wpływać na wydajność aplikacji.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Stack Allocations<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=165510)</ept> and <bpt id="p2">[</bpt>EDITBIN Options<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=165511)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>alokacji stosu<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=165510)</ept> i <bpt id="p2">[</bpt>opcje polecenia EDITBIN<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=165511)</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Provides the base initialization for objects derived from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Zapewnia podstawowe inicjowania obiekty pochodne <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Defines the parent-child relationship between two visuals.</source>
+          <target state="translated">Definiuje relacji nadrzędny podrzędny między dwoma elementami Visual.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddVisualChild method sets up the parent-child relationship between two visual objects.</source>
+          <target state="translated">Metoda AddVisualChild skonfigurowanie relacji nadrzędny podrzędny między dwoma obiektami visual.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method must be used when you need greater low-level control over the underlying storage implementation of visual child objects.</source>
+          <target state="translated">Tej metody należy użyć, gdy będziesz potrzebować większą kontrolę niskiego poziomu nad ta implementacja magazynu obiektów podrzędnych visual.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.VisualCollection&gt; can be used as a default implementation for storing child objects.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.VisualCollection&gt;może służyć jako domyślną implementację do przechowywania obiektów podrzędnych.&lt;/xref:System.Windows.Media.VisualCollection&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The child visual object to add to parent visual.</source>
+          <target state="translated">Podrzędny obiekt visual do dodania do elementu nadrzędnego visual.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Returns the common ancestor of two visual objects.</source>
+          <target state="translated">Zwraca element nadrzędny wspólnej dwóch obiektów visual.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2D and 3D objects can have common visual ancestors, so it is possible to pass a &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; for <ph id="ph1">`otherVisual`</ph>.</source>
+          <target state="translated">Obiekty 2W i 3W mogą mieć wspólne visual obiektów nadrzędnych, dlatego można przekazać &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;dla <ph id="ph1">`otherVisual`</ph>.&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A visual object of type <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obiekt wizualny typu <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The common ancestor of the visual object and <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">otherVisual</ph><ept id="p1">&lt;/code&gt;</ept> if one exists; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wspólnego elementu nadrzędnego obiektu visual i <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">otherVisual</ph> <ept id="p1">&lt;/code&gt;</ept> jeśli taki istnieje; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Returns the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the parent <bpt id="p2">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca określony <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w obiekcie nadrzędnym <bpt id="p2">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a &lt;xref:System.Windows.Media.Visual&gt; has no children.</source>
+          <target state="translated">Domyślnie &lt;xref:System.Windows.Media.Visual&gt;nie ma elementów podrzędnych.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the default implementation always throws an &lt;xref:System.ArgumentOutOfRangeException&gt;.</source>
+          <target state="translated">W związku z tym Domyślna implementacja zawsze zwraca &lt;xref:System.ArgumentOutOfRangeException&gt;.&lt;/xref:System.ArgumentOutOfRangeException&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The index of the visual object in the <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Indeks obiektu visual w <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The child in the <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p2">&lt;/code&gt;</ept> value.</source>
+          <target state="translated">Obiekt podrzędny w <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pod określonym <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p2">&lt;/code&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Determines whether a geometry value is within the bounds of the visual object.</source>
+          <target state="translated">Określa, czy wartości geometrycznej znajduje się w granicach obiektu visual.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override default hit testing support for a visual object by overriding the &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt; method.</source>
+          <target state="translated">Można zastąpić domyślne trafień testowania pomocy technicznej dla obiekt wizualny przez zastąpienie &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt;metody.&lt;/xref:System.Windows.Media.Visual.HitTestCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that when you invoke the &lt;xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt; method, your overridden implementation of &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt; is called.</source>
+          <target state="translated">Oznacza to, że po wywołaniu &lt;xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt;Metoda, implementacji przesłoniętych &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt;jest wywoływana.&lt;/xref:System.Windows.Media.Visual.HitTestCore%2A&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your overridden method is called when a hit test falls within the bounding rectangle of the visual object, even if the coordinate falls outside the geometry of the visual object.</source>
+          <target state="translated">Przesłoniętą metodę wywoływaną, gdy testu trafienia mieści się w prostokątem obiektu visual nawet jeśli Współrzędna wypada poza geometrii obiektu visual.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.GeometryHitTestParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to hit test against.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.GeometryHitTestParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który określa <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> trafienie badanie.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.GeometryHitTestResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the result of the hit test.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.GeometryHitTestResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący wynik testu trafienia.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Determines whether a point coordinate value is within the bounds of the visual object.</source>
+          <target state="translated">Określa, czy wartość współrzędnych punktu znajduje się w granicach obiektu visual.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the default hit testing support on visual objects by overriding the &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt; method.</source>
+          <target state="translated">Można zastąpić trafień domyślnego badania obsługi obiektów visual przez zastąpienie &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt;metody.&lt;/xref:System.Windows.Media.Visual.HitTestCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that when you invoke the &lt;xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt; method, your overridden implementation of &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt; is called.</source>
+          <target state="translated">Oznacza to, że po wywołaniu &lt;xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt;Metoda, implementacji przesłoniętych &lt;xref:System.Windows.Media.Visual.HitTestCore%2A&gt;jest wywoływana.&lt;/xref:System.Windows.Media.Visual.HitTestCore%2A&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.HitTest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your overridden method is called when a hit test falls within the bounding rectangle of the visual object, even if the coordinate falls outside the geometry of the visual object.</source>
+          <target state="translated">Przesłoniętą metodę wywoływaną, gdy testu trafienia mieści się w prostokątem obiektu visual nawet jeśli Współrzędna wypada poza geometrii obiektu visual.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.PointHitTestParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to hit test against.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.PointHitTestParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który określa <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> trafienie badanie.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that is returned from a hit test.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> która jest zwracana z testu trafienia.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Determines whether the visual object is an ancestor of the descendant visual object.</source>
+          <target state="translated">Określa, czy obiekt visual jest elementem nadrzędnym elementów podrzędnych obiektu visual.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the visual object is an ancestor of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">descendant</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli obiekt visual jest elementem nadrzędnym <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">descendant</ph> <ept id="p2">&lt;/code&gt;</ept>; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Determines whether the visual object is a descendant of the ancestor visual object.</source>
+          <target state="translated">Określa, czy obiekt visual jest podrzędny elementu nadrzędnego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the visual object is a descendant of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">ancestor</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli obiekt visual jest elementem potomnym <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">ancestor</ph> <ept id="p2">&lt;/code&gt;</ept>; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Called when the DPI at which this View is rendered changes.</source>
+          <target state="translated">Wywoływane, gdy wartość DPI, w którym ten widok jest renderowany zmiany.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The previous DPI scale setting.</source>
+          <target state="translated">Skali DPI poprzedniego ustawienia.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The new DPI scale setting.</source>
+          <target state="translated">Skala DPI nowe ustawienie.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Called when the <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the visual object is modified.</source>
+          <target state="translated">Wywoływane, gdy <bpt id="p1">&lt;xref href="System.Windows.Media.VisualCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu visual jest modyfikowany.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was added to the collection</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Który został dodany do kolekcji</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was removed from the collection</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Który został usunięty z kolekcji</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Called when the parent of the visual object is changed.</source>
+          <target state="translated">Wywoływane, gdy zostanie zmieniona visual obiekt nadrzędny.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A class that derives from &lt;xref:System.Windows.Media.Visual&gt; can choose to override this method.</source>
+          <target state="translated">Klasa, która pochodzi z &lt;xref:System.Windows.Media.Visual&gt;można przesłonić tę metodę.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no "VisualParentChanged" event provided that reports this change to instances.</source>
+          <target state="translated">Brak żadne zdarzenie "VisualParentChanged", pod warunkiem, aby raporty do wystąpień tej zmiany.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must override this method to handle notification scenarios and provide an instance version of the notification if that is part of your scenario.</source>
+          <target state="translated">W związku z tym muszą przesłaniać tę metodę, aby obsługiwać scenariusze powiadomień i podaj wersją wystąpienia powiadomienia, jeśli jest częścią Twojego scenariusza.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the previous parent of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący poprzedniego elementu nadrzędnego <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object did not have a previous parent, the value of the parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Jeśli <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt nie ma nadrzędnego poprzedniej, wartość parametru jest <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Converts a <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in screen coordinates into a <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that represents the current coordinate system of the <bpt id="p3">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Konwertuje <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> we współrzędnych ekranu do <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> reprezentujący bieżący współrzędnych <bpt id="p3">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Media.Visual.PointToScreen%2A&gt; method to convert a &lt;xref:System.Windows.Point&gt; that represents the current coordinate system of the &lt;xref:System.Windows.Media.Visual&gt; into a &lt;xref:System.Windows.Point&gt; in screen coordinates.</source>
+          <target state="translated">Użyj &lt;xref:System.Windows.Media.Visual.PointToScreen%2A&gt;metodę, aby przekonwertować &lt;xref:System.Windows.Point&gt;reprezentujący bieżący współrzędnych &lt;xref:System.Windows.Media.Visual&gt;do &lt;xref:System.Windows.Point&gt;we współrzędnych ekranu.&lt;/xref:System.Windows.Point&gt; &lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Point&gt; &lt;/xref:System.Windows.Media.Visual.PointToScreen%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value in screen coordinates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Wartość we współrzędnych ekranu.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The converted <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the current coordinate system of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Skonwertowany <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość, która reprezentuje bieżący współrzędnych <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Converts a <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current coordinate system of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> into a <bpt id="p3">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> in screen coordinates.</source>
+          <target state="translated">Konwertuje <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący bieżący współrzędnych <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> do <bpt id="p3">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> we współrzędnych ekranu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Media.Visual.PointFromScreen%2A&gt; method to convert a &lt;xref:System.Windows.Point&gt; in screen coordinates into a &lt;xref:System.Windows.Point&gt; that represents the current coordinate system of the &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">Należy użyć &lt;xref:System.Windows.Media.Visual.PointFromScreen%2A&gt;metody, aby przekonwertować &lt;xref:System.Windows.Point&gt;we współrzędnych ekranu do &lt;xref:System.Windows.Point&gt;reprezentujący bieżący układ współrzędnych &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Point&gt; &lt;/xref:System.Windows.Point&gt; &lt;/xref:System.Windows.Media.Visual.PointFromScreen%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the current coordinate system of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Wartość, która reprezentuje bieżący współrzędnych <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The converted <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value in screen coordinates.</source>
+          <target state="translated">Skonwertowany <bpt id="p1">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość we współrzędnych ekranu.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Removes the parent-child relationship between two visuals.</source>
+          <target state="translated">Usuwa relacji nadrzędny podrzędny między dwoma elementami Visual.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RemoveVisualChild method removes the parent-child relationship between two visuals.</source>
+          <target state="translated">Metoda RemoveVisualChild usuwa relacji nadrzędny podrzędny między dwoma elementami Visual.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method, along with the &lt;xref:System.Windows.Media.Visual.AddVisualChild%2A&gt; method, must be used when you need greater low-level control over the underlying storage implementation of visual child objects.</source>
+          <target state="translated">Ta metoda wraz z programem &lt;xref:System.Windows.Media.Visual.AddVisualChild%2A&gt;metody, należy użyć, jeśli potrzebujesz większej kontroli niskiego poziomu nad ta implementacja magazynu obiektów podrzędnych visual.&lt;/xref:System.Windows.Media.Visual.AddVisualChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.VisualCollection&gt; can be used as a default implementation for storing child objects.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.VisualCollection&gt;może służyć jako domyślną implementację do przechowywania obiektów podrzędnych.&lt;/xref:System.Windows.Media.VisualCollection&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The child visual object to remove from the parent visual.</source>
+          <target state="translated">Podrzędny obiekt visual do usunięcia z elementu nadrzędnego visual.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Returns a transform that can be used to transform coordinates from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> ancestor of the visual object.</source>
+          <target state="translated">Zwraca przekształcania, który może służyć do przekształcenia współrzędnych z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonego <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elementu nadrzędnego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the coordinates are transformed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Są przekształcone współrzędne.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A transform that can be used to transform coordinates from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> ancestor of the visual object.</source>
+          <target state="translated">Przekształcanie, który może służyć do przekształcenia współrzędnych z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonego <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elementu nadrzędnego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns a transform that can be used to transform coordinates from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> ancestor of the visual object.</source>
+          <target state="translated">Zwraca przekształcania, który może służyć do przekształcenia współrzędnych z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonego <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elementu nadrzędnego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use the &lt;xref:System.Windows.Media.VisualTreeHelper.GetOffset%2A?displayProperty=fullName&gt; method to retrieve the offset of a visual object relative to its parent.</source>
+          <target state="translated">Alternatywnie można użyć &lt;xref:System.Windows.Media.VisualTreeHelper.GetOffset%2A?displayProperty=fullName&gt;Metoda pobierania przesunięcie obiektu visual względem jego elementu nadrzędnego.&lt;/xref:System.Windows.Media.VisualTreeHelper.GetOffset%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The offset values are contained within the returned &lt;xref:System.Windows.Vector&gt; value.</source>
+          <target state="translated">Wartości przesunięcia są zawarte w zwróconym &lt;xref:System.Windows.Vector&gt;wartość.&lt;/xref:System.Windows.Vector&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets#VisualSnippet2<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet2)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets#VisualSnippet2<ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet2)</ept><ept id="p3">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets #VisualSnippet2<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet2)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets #VisualSnippet2  <ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet2)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the coordinates are transformed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Są przekształcone współrzędne.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ancestor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ancestor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ancestor&lt;/code&gt;</ph> is not an ancestor of the visual.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ancestor&lt;/code&gt;</ph>nie jest elementem nadrzędnym elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The visual objects are not related.</source>
+          <target state="translated">Obiekt visual nie są powiązane.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Returns a transform that can be used to transform coordinates from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified visual object descendant.</source>
+          <target state="translated">Zwraca przekształcania, który może służyć do przekształcenia współrzędnych z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na element podrzędny określonego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the coordinates are transformed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Są przekształcone współrzędne.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;descendant&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;descendant&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The visual is not an ancestor of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">descendant</ph><ept id="p1">&lt;/code&gt;</ept> visual.</source>
+          <target state="translated">Element wizualny nie jest elementem nadrzędnym <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">descendant</ph> <ept id="p1">&lt;/code&gt;</ept> visual.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The visual objects are not related.</source>
+          <target state="translated">Obiekt visual nie są powiązane.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Returns a transform that can be used to transform coordinates from the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified visual object.</source>
+          <target state="translated">Zwraca przekształcania, który może służyć do przekształcenia współrzędnych z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; and &lt;xref:System.Windows.Media.Visual.TransformToDescendant%2A&gt; methods can also be used to return a transform for a visual object.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;i &lt;xref:System.Windows.Media.Visual.TransformToDescendant%2A&gt;metody mogą służyć do zwrócenia transformacji dla obiekt wizualny.&lt;/xref:System.Windows.Media.Visual.TransformToDescendant%2A&gt; &lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the coordinates are transformed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Są przekształcone współrzędne.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartości typu <bpt id="p1">&lt;xref href="System.Windows.Media.GeneralTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;visual&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;visual&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The visual objects are not related.</source>
+          <target state="translated">Obiekt visual nie są powiązane.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The bitmap effect for this visual object.</source>
+          <target state="translated">Efekt mapy bitowej dla tego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The bitmap effect input value for this visual object.</source>
+          <target state="translated">Wartość wejściowa efekt mapy bitowej dla tego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.BitmapScalingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.BitmapScalingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dla <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.BitmapScalingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.BitmapScalingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets or sets a cached representation of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia buforowane reprezentację <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the VisualCacheMode property when you need to increase performance for content that is time-consuming to render.</source>
+          <target state="translated">Ustaw właściwość VisualCacheMode, jeśli należy zwiększyć wydajność w przypadku zawartości, która jest czasochłonne do renderowania.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Media.BitmapCache&gt;.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz &lt;xref:System.Windows.Media.BitmapCache&gt;.&lt;/xref:System.Windows.Media.BitmapCache&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds a cached representation of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przechowuje buforowane reprezentację <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets the number of child elements for the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera liczbę elementów podrzędnych dla <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a &lt;xref:System.Windows.Media.Visual&gt; has no children.</source>
+          <target state="translated">Domyślnie &lt;xref:System.Windows.Media.Visual&gt;nie ma elementów podrzędnych.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the default implementation always returns 0.</source>
+          <target state="translated">W związku z tym Domyślna implementacja zawsze zwraca wartość 0.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The number of child elements.</source>
+          <target state="translated">Liczba elementów podrzędnych.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.ClearTypeHint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that determines how ClearType is rendered in the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.ClearTypeHint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> określający, jak ClearType jest renderowany w <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.ClearTypeHint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.ClearTypeHint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets or sets the clip region of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as a <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Pobiera lub ustawia obszar przycinania z <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jako <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The clip region value of the visual as a <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">Wartości regionu klip visual jako <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> typu.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets or sets the edge mode of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Pobiera lub ustawia tryb edge <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jako <bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value of the visual.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Wartość elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets or sets the bitmap effect to apply to the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia efekt mapy bitowej do zastosowania do <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the bitmap effect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Reprezentujący efekt mapy bitowej.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets or sets the offset value of the visual object.</source>
+          <target state="translated">Pobiera lub ustawia wartość przesunięcia obiektu visual.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the offset value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa wartość przesunięcia.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets or sets the opacity of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia nieprzezroczystość <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the opacity of the &lt;xref:System.Windows.Media.Visual&gt; is expressed as a value between 0 and 1.</source>
+          <target state="translated">Wartość nieprzezroczystość &lt;xref:System.Windows.Media.Visual&gt;jest wyrażony jako wartość z zakresu od 0 do 1.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates that the element is completely transparent, whereas a value of 1 indicates that the element is completely opaque.</source>
+          <target state="translated">Wartość 0 wskazuje, czy element jest całkowicie niewidoczne, natomiast wartość 1 oznacza, że element jest całkowicie nieprzezroczysta.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0.5 indicates that the element is 50 percent opaque.</source>
+          <target state="translated">Wartość 0,5 oznacza element 50 procent przezroczystości.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values that are less than 0 are treated as 0; values that are greater than 1 are treated as 1.</source>
+          <target state="translated">Wartości, które jest mniejsza niż 0 są traktowane jako 0; wartości, które są większe niż 1 są traktowane jako 1.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The opacity value of the visual.</source>
+          <target state="translated">Wartość nieprzezroczystości elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the opacity mask of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość, która reprezentuje maskę przezroczystości <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opacity mask is a &lt;xref:System.Windows.Media.Brush&gt; that is applied to any alpha-channel masking for the rendered content of this visual.</source>
+          <target state="translated">Maska nieprzezroczystość jest &lt;xref:System.Windows.Media.Brush&gt;do dowolnego maskowania kanału alfa dla renderowanej zawartości tym visual zastosowano.&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the opacity mask value of the visual.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący wartość maski nieprzezroczystość elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the visual tree parent of the visual object.</source>
+          <target state="translated">Pobiera element nadrzędny drzewa wizualnego obiektu visual.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parent.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Nadrzędnej.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets or sets a clipped scrollable area for the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia przyciętą przewijany obszar dla <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the VisualScrollableAreaClip property to enable accelerated scrolling when rendering in software.</source>
+          <target state="translated">Ustaw właściwość VisualScrollableAreaClip, aby włączyć przewijanie przyspieszonego podczas renderowania w oprogramowaniu.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful in remote rendering scenarios, such as running over Remote Desktop or running in a virtual machine.</source>
+          <target state="translated">Jest to przydatne w scenariuszach renderowania zdalnego, takich jak uruchomiony za pośrednictwem pulpitu zdalnego lub działający na maszynie wirtualnej.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set this property on the parent element whose children will be scrolled.</source>
+          <target state="translated">Ustaw tę właściwość w elemencie nadrzędnym, którego elementy podrzędne będą przewijane.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the VisualScrollableAreaClip property has no effect when rendering is hardware accelerated.</source>
+          <target state="translated">Ustawienie właściwości VisualScrollableAreaClip nie ma znaczenia w przypadku renderowania przyspieszony sprzętu.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VisualScrollableAreaClip property enables specific, advanced scenarios.</source>
+          <target state="translated">Właściwość VisualScrollableAreaClip umożliwia określone, zaawansowanych scenariuszy.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list shows the caveats that apply when you use the VisualScrollableAreaClip property.</source>
+          <target state="translated">Poniższa lista zawiera ostrzeżenia, które są stosowane przy użyciu właściwości VisualScrollableAreaClip.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The background of the scrolled area must be opaque, or scrolling artifacts will occur.</source>
+          <target state="translated">-Tła obszaru przewijane musi być nieprzezroczyste, lub nastąpi przewijanie artefaktów.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The VisualScrollableAreaClip property accelerates scrolling only when WPF is rendering in software.</source>
+          <target state="translated">-Właściwość VisualScrollableAreaClip przyspiesza przewijanie tylko podczas renderowania WPF w oprogramowaniu.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, this situation occurs when the application is running over Remote Desktop or running locally in a virtual machine.</source>
+          <target state="translated">Na przykład ta sytuacja występuje, gdy aplikacja jest uruchomiona za pośrednictwem pulpitu zdalnego lub działa lokalnie na maszynie wirtualnej.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The scrolling behavior is unchanged when rendering in hardware.</source>
+          <target state="translated">-Zachowanie przewijania niezmieniona podczas renderowania sprzętu.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent differences in scrolling behavior, you should keep the VisualScrollableAreaClip property enabled for both hardware and software.</source>
+          <target state="translated">Aby zapobiec różnice w zachowanie przewijania, należy mieć właściwość VisualScrollableAreaClip włączone dla sprzętu i oprogramowania.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Rotate and skew transforms disable accelerated scrolling.</source>
+          <target state="translated">-Transformacje obracanie i pochylanie wyłączyć przyspieszonego przewijania.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scale transforms and horizontal or vertical translations above the scrolled region work correctly and do not disable scrolling acceleration.</source>
+          <target state="translated">Transformacje skali poziomej lub pionowej tłumaczeń powyżej przewijane region działa poprawnie i nie można wyłączyć przyspieszanie przewijania.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Changing the subtree or triggering parts of the scrollable area to redraw via animation behave as expected, but lose the benefit of accelerated scrolling for the redrawn area.</source>
+          <target state="translated">-Zmiana poddrzewo lub wyzwalania części przewijany obszar ponowne za pośrednictwem animacji działać zgodnie z oczekiwaniami, ale utracone korzyści przyspieszonego przewijania ponownie wystawionych obszaru.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any animation that invalidates the scrolled area during the same frame in which scrolling occurs eliminates the benefit of this optimization.</source>
+          <target state="translated">Wszelkie animacji, która unieważnia obszaru przewijane w tej samej ramki, w których przewijanie występuje eliminuje zaletą tego rodzaju optymalizacji.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The VisualScrollableAreaClip rectangle snaps inward to pixels.</source>
+          <target state="translated">-Prostokąt VisualScrollableAreaClip czynnego przyciąganie do pikseli.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the snapped size of the scrolling rectangle is always less than or equal to the size you have set.</source>
+          <target state="translated">W związku z tym przypięty rozmiar przewijania prostokąt jest zawsze mniejsze lub równe rozmiarowi ustawiony.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Offsets snap downward.</source>
+          <target state="translated">-Przesunięcia snap w dół.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that the difference of the previous snapped offset and current snapped offset is always an integer number of pixels.</source>
+          <target state="translated">Oznacza to, że różnica poprzedniego przypięty przesunięcie i przesunięcie przypięty bieżącego jest zawsze liczby całkowitej określającej liczbę pikseli.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Hit tests can be off by up to a pixel.</source>
+          <target state="translated">-Trafień testy mogą być wyłączone przez maksymalnie jeden piksel.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Layout rounding should be turned on, because it ensures that the edges of scrollable areas and the boundary window client area are snapped to pixel boundaries, resulting in correct alignment.</source>
+          <target state="translated">— Zaokrąglanie układ powinna być włączona, ponieważ zapewnia krawędzi przewijanego obszarami i obszarem klienckim okna granic mają być przyciągane do pikseli, co powoduje wyrównanie poprawne.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Scrolling acceleration does not work on layered windows.</source>
+          <target state="translated">-Przewijanie przyspieszenie nie działa na warstwowego systemu windows.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means windows in which AllowTransparency == true, window.windowstyle == none, and so on.</source>
+          <target state="translated">Oznacza to windows, w których AllowTransparency == window.windowstyle ma wartość true, brak == i tak dalej.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Scrolling acceleration does not occur during full-window rendering.</source>
+          <target state="translated">-Przewijanie przyspieszenie nie występuje podczas renderowania pełnego okna.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Scrolling acceleration does not work when the window straddles two monitors.</source>
+          <target state="translated">-Przewijanie przyspieszenie nie działa, gdy okno pokrywającej dwóch monitorów.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Scrolling acceleration does not work in the presence of intermediate render targets in the parent chain of the scrolled element.</source>
+          <target state="translated">-Przewijanie przyspieszenie nie działa, obecności obiektów docelowych renderowania pośrednie w łańcuchu przewijane elementu nadrzędnego.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list shows some of these intermediate render targets.</source>
+          <target state="translated">Poniższa lista przedstawia niektóre z nich pośrednich elementy docelowe renderowania.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Clips          -   Effects          -   DrawingBrushes          -   VisualBrushes          -   OpacityMasks          -   Opacity      -   Only one accelerated scroll can happen per frame.</source>
+          <target state="translated">— Przycina - efekty - DrawingBrushes - VisualBrushes - OpacityMasks - Opacity — tylko jeden przyspieszonego przewijania może się zdarzyć na klatkę.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There can be multiple accelerated scroll areas, but only one of them can perform an accelerated scroll during a frame.</source>
+          <target state="translated">Może istnieć wiele obszarów przyspieszonego przewijania, ale tylko jeden z nich można wykonywać przyspieszonego przewijania w ramce.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Which area is scrolled is indeterminate.</source>
+          <target state="translated">Obszar jest przewijane jest nieokreślony.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Scrolling acceleration supports content above the scrolling region (in z-order) that is not scrolled with the rest of the content.</source>
+          <target state="translated">-Przewijanie przyspieszenie obsługuje zawartość powyżej regionie przewijania (w kolejności), które nie jest przewijane z resztą zawartości.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The system calculates all necessary dirty regions and completes the accelerated scroll, but it sends several additional bitmaps over the wire to move the unintentionally scrolled portion back to its correct position on screen.</source>
+          <target state="translated">System oblicza wszystkie niezbędne zanieczyszczone regiony i kończy działanie z przyspieszonego przewijania, ale wysyła kilka dodatkowych bitmapy przez sieć można przenieść przypadkowo przewijane części z powrotem do odpowiedniej pozycji, na ekranie.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the scrollable clipping area, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no clipping area is assigned.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący obszaru przycinania przewijanego lub <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli nie przypisano żadnych obszaru przycinania.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.TextHintingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.TextHintingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.TextHintingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.TextHintingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.TextRenderingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.TextRenderingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.TextRenderingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.TextRenderingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The transform value of the visual.</source>
+          <target state="translated">Wartość transformacji elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets or sets the x-coordinate (vertical) guideline collection.</source>
+          <target state="translated">Pobiera lub ustawia kolekcję współrzędną x wytyczne (pionową).</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">Przyciąganie do pikseli to proces, w którym układ zawartości jest ustalona tak, aby krawędzie obiektów mają być renderowane na następującą liczbę pikseli urządzenia.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> Grafiki system używa jednostki niezależnych od urządzenia, aby umożliwić niezależność rozdzielczość i urządzenia.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">Każdego piksela niezależnie od urządzenia jest automatycznie skalowany w systemie <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> ustawienie.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">Zapewnia to <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> aplikacji odpowiednie skalowanie dla różnych <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> ustawienia i powoduje, że aplikacja automatycznie <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>— pamiętać.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">Jednak to <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> niezależność można utworzyć renderowania nieregularne krawędzi, z powodu wygładzanie.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These artifacts, commonly seen as blurry or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">Te artefakty często postrzegane jako krawędzi rozmyte lub "słowo soft", może wystąpić, gdy lokalizację krawędzi znajduje się w środku pikseli urządzenia, a nie od pikseli urządzenia.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">Aby rozwiązać ten problem, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> umożliwia krawędzie obiektów w drzewie wizualnym "przyciągane" do pikseli urządzenia wyeliminowanie nietrwałego krawędzi utworzonego przez wygładzanie.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The x-coordinate guideline collection of the visual.</source>
+          <target state="translated">Kolekcja wytyczne współrzędną x elementu wizualnego.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets or sets the y-coordinate (horizontal) guideline collection.</source>
+          <target state="translated">Pobiera lub ustawia współrzędną y (poziomy) wskazówek dotyczących kolekcji.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">Przyciąganie do pikseli to proces, w którym układ zawartości jest ustalona tak, aby krawędzie obiektów mają być renderowane na następującą liczbę pikseli urządzenia.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> Grafiki system używa jednostki niezależnych od urządzenia, aby umożliwić niezależność rozdzielczość i urządzenia.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">Każdego piksela niezależnie od urządzenia jest automatycznie skalowany w systemie <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> ustawienie.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">Zapewnia to <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> aplikacji odpowiednie skalowanie dla różnych <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> ustawienia i powoduje, że aplikacja automatycznie <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>— pamiętać.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">Jednak to <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> niezależność można utworzyć renderowania nieregularne krawędzi, z powodu wygładzanie.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These artifacts, commonly seen as blurry, or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">Te artefakty często postrzegane jako krawędzi rozmyte lub "słowo soft", może wystąpić, gdy lokalizację krawędzi znajduje się w środku pikseli urządzenia, a nie od pikseli urządzenia.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">Aby rozwiązać ten problem, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> umożliwia krawędzie obiektów w drzewie wizualnym "przyciągane" do pikseli urządzenia wyeliminowanie nietrwałego krawędzi utworzonego przez wygładzanie.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The y-coordinate guideline collection of the visual.</source>
+          <target state="translated">Kolekcja wytyczne współrzędną y elementu wizualnego.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">163793503c4b699daba2ba1eec272db317037590</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlBulkCopy.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff6a50590baef7b54a9cd9bf97745bb371d98c1e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5af9721caf8d70f0f2f10d1c2e6116b2ace07bd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Lets you efficiently bulk load a SQL Server table with data from another source.</source>
+          <target state="translated">Permite-lhe eficientemente carregamento em massa uma tabela de SQL Server com a dados a partir de outra origem.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Microsoft SQL Server includes a popular command-prompt utility named <bpt id="p1">**</bpt>bcp<ept id="p1">**</ept> for moving data from one table to another, whether on a single server or between servers.</source>
+          <target state="translated">Microsoft SQL Server inclui um utilitário de linha de comandos popular denominado <bpt id="p1">**</bpt>bcp<ept id="p1">**</ept> para mover dados de uma tabela para outro, se um único servidor ou entre servidores.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlBulkCopy class lets you write managed code solutions that provide similar functionality.</source>
+          <target state="translated">A classe de SqlBulkCopy permite-lhe escrever soluções de código gerido que fornecem uma funcionalidade semelhante.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are other ways to load data into a SQL Server table (INSERT statements, for example), but SqlBulkCopy offers a significant performance advantage over them.</source>
+          <target state="translated">Existem outras formas de carregar dados para uma tabela de SQL Server (instruções INSERT, por exemplo), mas SqlBulkCopy oferece das vantagens de desempenho significativas por cima deles.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlBulkCopy class can be used to write data only to SQL Server tables.</source>
+          <target state="translated">A classe de SqlBulkCopy pode ser utilizada para escrever dados apenas às tabelas de SQL Server.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the data source is not limited to SQL Server; any data source can be used, as long as the data can be loaded to a &lt;xref:System.Data.DataTable&gt; instance or read with a &lt;xref:System.Data.IDataReader&gt; instance.</source>
+          <target state="translated">No entanto, a origem de dados não está limitada ao SQL Server; qualquer origem de dados pode ser utilizada, desde que os dados podem ser carregados para uma &lt;xref:System.Data.DataTable&gt;instância ou ler com uma &lt;xref:System.Data.IDataReader&gt;instância.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SqlBulkCopy will fail when bulk loading a &lt;xref:System.Data.DataTable&gt; column of type &lt;xref:System.Data.SqlTypes.SqlDateTime&gt; into a SQL Server column whose type is one of the date/time types added in SQL Server 2008.</source>
+          <target state="translated">SqlBulkCopy irão falhar quando carregamento em massa um &lt;xref:System.Data.DataTable&gt;coluna do tipo &lt;xref:System.Data.SqlTypes.SqlDateTime&gt;para um SQL Server coluna cujo tipo é um dos tipos de data/hora adicionado no SQL Server 2008.&lt;/xref:System.Data.SqlTypes.SqlDateTime&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified open instance of <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizando especificada instância aberta da <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the connection is already open when the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; instance is initialized, the connection remains open after the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; instance is closed.</source>
+          <target state="translated">Porque a ligação já está aberta quando a &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;instância foi inicializado, a ligação permanece aberta após o &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;instância está fechada.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`connection`</ph> argument is null, an &lt;xref:System.ArgumentNullException&gt; is thrown.</source>
+          <target state="translated">Se o <ph id="ph1">`connection`</ph> argumento é nulo, um &lt;xref:System.ArgumentNullException&gt;é emitida.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The already open <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that will be used to perform the bulk copy operation.</source>
+          <target state="translated">Já aberta <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância que será utilizada para efetuar a operação de cópia em massa.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If your connection string does not use <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you can use <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to pass the user ID and password more securely than by specifying the user ID and password as text in the connection string.</source>
+          <target state="translated">Se não utilizar a cadeia de ligação <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, pode utilizar <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para passar o ID de utilizador e palavra-passe de forma mais segura do que ao especificar o ID de utilizador e palavra-passe como texto na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes and opens a new instance of <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> based on the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Inicializa e abre uma nova instância do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com base no fornecido <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The constructor uses the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize a new instance of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">O construtor utiliza o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para inicializar uma nova instância do <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection is automatically closed at the end of the bulk copy operation.</source>
+          <target state="translated">A ligação é fechada automaticamente no final da operação de cópia em massa.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`connectionString`</ph> is null, an &lt;xref:System.ArgumentNullException&gt; is thrown.</source>
+          <target state="translated">Se <ph id="ph1">`connectionString`</ph> é nulo, um &lt;xref:System.ArgumentNullException&gt;é emitida.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`connectionString`</ph> is an empty string, an &lt;xref:System.ArgumentException&gt; is thrown.</source>
+          <target state="translated">Se <ph id="ph1">`connectionString`</ph> é uma cadeia vazia, um &lt;xref:System.ArgumentException&gt;é emitida.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The string defining the connection that will be opened for use by the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">A cadeia a definir a ligação que será aberta para utilização pelo <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If your connection string does not use <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you can use <ph id="ph1">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph4">&amp;gt;</ph> and <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to pass the user ID and password more securely than by specifying the user ID and password as text in the connection string.</source>
+          <target state="translated">Se não utilizar a cadeia de ligação <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, pode utilizar <ph id="ph1">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph2">&amp;gt;</ph> ou <ph id="ph3">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph4">&amp;gt;</ph> e <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para passar o ID de utilizador e palavra-passe de forma mais segura do que ao especificar o ID de utilizador e palavra-passe como texto na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes and opens a new instance of <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> based on the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Inicializa e abre uma nova instância do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com base no fornecido <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The constructor uses that <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize a new instance of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">O construtor utiliza esse <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para inicializar uma nova instância do <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance behaves according to options supplied in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">copyOptions</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância comporta-se de acordo com as opções fornecidas no <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">copyOptions</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain detailed information about all the bulk copy options in the &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt; topic.</source>
+          <target state="translated">Pode obter informações detalhadas sobre todas as opções de cópia em massa no &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt;tópico.&lt;/xref:System.Data.SqlClient.SqlBulkCopyOptions&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The string defining the connection that will be opened for use by the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">A cadeia a definir a ligação que será aberta para utilização pelo <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If your connection string does not use <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you can use <ph id="ph1">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph4">&amp;gt;</ph> and <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to pass the user ID and password more securely than by specifying the user ID and password as text in the connection string.</source>
+          <target state="translated">Se não utilizar a cadeia de ligação <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, pode utilizar <ph id="ph1">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph2">&amp;gt;</ph> ou <ph id="ph3">&amp;lt;</ph>xref:System.Data.SqlClient.SqlBulkCopy.%23ctor%2A<ph id="ph4">&amp;gt;</ph> e <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para passar o ID de utilizador e palavra-passe de forma mais segura do que ao especificar o ID de utilizador e palavra-passe como texto na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A combination of values from the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that determines which data source rows are copied to the destination table.</source>
+          <target state="translated">Uma combinação de valores do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração que determina que linhas da origem de dados são copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied existing open instance of <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizando fornecida instância aberta existente da <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance behaves according to options supplied in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">copyOptions</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância comporta-se de acordo com as opções fornecidas no <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">copyOptions</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If a non-null <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is supplied, the copy operations will be performed within that transaction.</source>
+          <target state="translated">Se um não-nulos <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> é fornecido, as operações de cópia serão efetuadas esse transação.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If options include <ph id="ph1">`UseInternalTransaction`</ph> and the <ph id="ph2">`externalTransaction`</ph> argument is not null, an <bpt id="p1">**</bpt>InvalidArgumentException<ept id="p1">**</ept> is thrown.</source>
+          <target state="translated">Se as opções incluem <ph id="ph1">`UseInternalTransaction`</ph> e <ph id="ph2">`externalTransaction`</ph> argumento não é nulo, um <bpt id="p1">**</bpt>InvalidArgumentException<ept id="p1">**</ept> é emitida.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For examples demonstrating how to use <ph id="ph1">`SqlBulkCopy`</ph> in a transaction, see <bpt id="p1">[</bpt>Transaction and Bulk Copy Operations<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter exemplos demonstra como utilizar <ph id="ph1">`SqlBulkCopy`</ph> numa transação, consulte <bpt id="p1">[</bpt>transação e operações de cópia em massa<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The already open <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that will be used to perform the bulk copy.</source>
+          <target state="translated">Já aberta <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância que será utilizada para efetuar a cópia em massa.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If your connection string does not use <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you can use <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to pass the user ID and password more securely than by specifying the user ID and password as text in the connection string.</source>
+          <target state="translated">Se não utilizar a cadeia de ligação <bpt id="p1">&lt;xref uid="langword_csharp_Integrated Security = true" name="Integrated Security = true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, pode utilizar <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCredential"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para passar o ID de utilizador e palavra-passe de forma mais segura do que ao especificar o ID de utilizador e palavra-passe como texto na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A combination of values from the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that determines which data source rows are copied to the destination table.</source>
+          <target state="translated">Uma combinação de valores do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração que determina que linhas da origem de dados são copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An existing <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance under which the bulk copy will occur.</source>
+          <target state="translated">Existente <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância em que ocorrerá a cópia em massa.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Number of rows in each batch.</source>
+          <target state="translated">Número de linhas em cada lote.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>At the end of each batch, the rows in the batch are sent to the server.</source>
+          <target state="translated">No final de cada lote, as linhas no batch são enviadas para o servidor.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A batch is complete when BatchSize rows have been processed or there are no more rows to send to the destination data source.</source>
+          <target state="translated">Um lote está concluído quando foram processadas BatchSize linhas ou existirem mais linhas para enviar para a origem de dados de destino.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Zero (the default) indicates that each &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; operation is a single batch.</source>
+          <target state="translated">Zero (o predefinido) indica que cada &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;operação é um único lote.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; instance has been declared without the &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt; option in effect, rows are sent to the server BatchSize rows at a time, but no transaction-related action is taken.</source>
+          <target state="translated">Se o &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;instância foi declarada sem o &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt;opção em vigor, as linhas são enviadas para as linhas de BatchSize de servidor numa altura, mas foi efetuada nenhuma ação relacionadas com a transação.&lt;/xref:System.Data.SqlClient.SqlBulkCopyOptions&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt; is in effect, each batch of rows is inserted as a separate transaction.</source>
+          <target state="translated">Se &lt;xref:System.Data.SqlClient.SqlBulkCopyOptions&gt;está em vigor, cada lote de linhas é inserido como uma transação separada.&lt;/xref:System.Data.SqlClient.SqlBulkCopyOptions&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BatchSize property can be set at any time.</source>
+          <target state="translated">A propriedade BatchSize pode ser definida em qualquer altura.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a bulk copy is already in progress, the current batch is sized according to the previous batch size.</source>
+          <target state="translated">Se uma cópia em massa já está em curso, o batch atual é um tamanho, de acordo com o tamanho de lote anterior.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent batches use the new size.</source>
+          <target state="translated">Lotes subsequentes utilizam o novo tamanho.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the BatchSize is initially zero and changed while a &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; operation is already in progress, that operation loads the data as a single batch.</source>
+          <target state="translated">Se o BatchSize inicialmente for zero e alterados durante um &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;operação já está em curso, que a operação carrega os dados como um único lote.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any subsequent &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; operations on the same &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; instance use the new BatchSize.</source>
+          <target state="translated">Qualquer subsequentes &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;operações no mesmo &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;instância utilizar o novo BatchSize.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The integer value of the BatchSize property, or zero if no value has been set.</source>
+          <target state="translated">O valor de número inteiro da propriedade BatchSize, ou zero se nenhum valor foi definido.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Number of seconds for the operation to complete before it times out.</source>
+          <target state="translated">Número de segundos para a operação seja concluída antes de atingir o tempo limite.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the operation does time out, the transaction is not committed and all copied rows are removed from the destination table.</source>
+          <target state="translated">Se a operação de tempo limite, a transação não está consolidada e todas as linhas copiadas são removidas da tabela de destino.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The integer value of the BulkCopyTimeout property.</source>
+          <target state="translated">O valor de número inteiro da propriedade BulkCopyTimeout.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default is 30 seconds.</source>
+          <target state="translated">A predefinição é 30 segundos.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates no limit; the bulk copy will wait indefinitely.</source>
+          <target state="translated">Um valor de 0 indica sem limite; a cópia em massa irá aguardar indefinidamente.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Fecha o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call a Close on the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; object, no other operation will succeed.</source>
+          <target state="translated">Depois de chamar o um fecho no &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;objeto, nenhuma outra operação terá êxito.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calls to the &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; method will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Chamadas para o &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;método irá gerar um &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Close method from the &lt;xref:System.Data.SqlClient.SqlBulkCopy.SqlRowsCopied&gt; event causes an &lt;xref:System.InvalidOperationException&gt; to be thrown.</source>
+          <target state="translated">Chamar o método de fechar o &lt;xref:System.Data.SqlClient.SqlBulkCopy.SqlRowsCopied&gt;evento faz com que um &lt;xref:System.InvalidOperationException&gt;para ser emitida.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.SqlRowsCopied&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that open &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; instances are closed implicitly at the end of a <ph id="ph1">`using`</ph> block.</source>
+          <target state="translated">Tenha em atenção que abra &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;instâncias são implicitamente fechadas no final de um <ph id="ph1">`using`</ph> bloco.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns a collection of <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyColumnMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> items.</source>
+          <target state="translated">Devolve uma coleção de <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopyColumnMapping"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> itens.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Column mappings define the relationships between columns in the data source and columns in the destination.</source>
+          <target state="translated">Mapeamentos da coluna definem as relações entre as colunas na origem de dados e colunas no destino.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source and the destination table have the same number of columns, and the ordinal position of each source column within the data source matches the ordinal position of the corresponding destination column, the ColumnMappings collection is unnecessary.</source>
+          <target state="translated">Se a origem de dados e a tabela de destino têm o mesmo número de colunas e a posição ordinal de cada coluna de origem numa origem de dados corresponde a posição ordinal da coluna de destino correspondente, a coleção de ColumnMappings é desnecessária.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the column counts differ, or the ordinal positions are not consistent, you must use ColumnMappings to make sure that data is copied into the correct columns.</source>
+          <target state="translated">No entanto, se o número de coluna é diferente ou as posições ordinais não são consistentes, tem de utilizar ColumnMappings para se certificar de que os dados são copiados para as colunas corretas.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the execution of a bulk copy operation, this collection can be accessed, but it cannot be changed.</source>
+          <target state="translated">Durante a execução de uma operação de cópia em massa, é possível aceder esta coleção, mas não pode ser alterada.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to change it will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Qualquer tentativa de alterá-la irá gerar um &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A collection of column mappings.</source>
+          <target state="translated">Uma coleção de mapeamentos da coluna.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, it is an empty collection.</source>
+          <target state="translated">Por predefinição, é uma coleção vazia.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Name of the destination table on the server.</source>
+          <target state="translated">Nome da tabela de destino no servidor.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If DestinationTableName has not been set when &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; is called, an &lt;xref:System.ArgumentNullException&gt; is thrown.</source>
+          <target state="translated">Se não tiver sido definida DestinationTableName quando &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;é chamado um &lt;xref:System.ArgumentNullException&gt;é emitida.&lt;/xref:System.ArgumentNullException&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If DestinationTableName is modified while a &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; operation is running, the change does not affect the current operation.</source>
+          <target state="translated">Se DestinationTableName é modificada enquanto um &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;operação está em execução, a alteração não afeta a operação atual.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The new DestinationTableName value is used the next time a &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt; method is called.</source>
+          <target state="translated">O novo valor de DestinationTableName é utilizado da próxima vez que um &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;método é chamado.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DestinationTableName is a three-part name (<ph id="ph1">`&lt;database&gt;.&lt;owningschema&gt;.&lt;name&gt;`</ph>).</source>
+          <target state="translated">DestinationTableName é um nome de três partes (<ph id="ph1">`&lt;database&gt;.&lt;owningschema&gt;.&lt;name&gt;`</ph>).</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can qualify the table name with its database and owning schema if you choose.</source>
+          <target state="translated">Pode qualificar o nome da tabela com a base de dados e o esquema de proprietário, se escolher.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the table name uses an underscore ("_") or any other special characters, you must escape the name using surrounding brackets as in (<ph id="ph1">`[&lt;database&gt;.&lt;owningschema&gt;.&lt;name_01&gt;]`</ph>).</source>
+          <target state="translated">No entanto, se o nome da tabela utiliza um caráter de sublinhado ("_") ou carateres especiais, tem de escape nome utilizando parênteses Retos envolvente do (<ph id="ph1">`[&lt;database&gt;.&lt;owningschema&gt;.&lt;name_01&gt;]`</ph>).</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Identifiers" in SQL Server Books Online.</source>
+          <target state="translated">Para obter mais informações, consulte "Identificadores" no SQL Server Books Online.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can bulk-copy data to a temporary table by using a value such as <ph id="ph1">`tempdb..#table`</ph> or <ph id="ph2">`tempdb.&lt;owner&gt;.#table`</ph> for the DestinationTableName property.</source>
+          <target state="translated">Pode dados de cópia em massa para uma tabela temporária, utilizando um valor, tal como <ph id="ph1">`tempdb..#table`</ph> ou <ph id="ph2">`tempdb.&lt;owner&gt;.#table`</ph> para a propriedade DestinationTableName.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The string value of the DestinationTableName property, or null if none as been supplied.</source>
+          <target state="translated">O valor da cadeia da propriedade DestinationTableName ou nulo se nenhum conforme foi fornecido.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Enables or disables a <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to stream data from an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object</source>
+          <target state="translated">Ativa ou desativa um <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto para dados de sequência de um <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When EnableStreaming is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; reads from an &lt;xref:System.Data.IDataReader&gt; object using &lt;xref:System.Data.CommandBehavior&gt;, optimizing memory usage by using the &lt;xref:System.Data.IDataReader&gt; streaming capabilities.</source>
+          <target state="translated">Quando é EnableStreaming <ph id="ph1">`true`</ph>, &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;lê a partir de um &lt;xref:System.Data.IDataReader&gt;objeto utilizando &lt;xref:System.Data.CommandBehavior&gt;, otimizar utilização da memória utilizando o &lt;xref:System.Data.IDataReader&gt;capacidades de transmissão em fluxo.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.CommandBehavior&gt; &lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When it’s set to false, the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; class loads all the data returned by the &lt;xref:System.Data.IDataReader&gt; object into memory before sending it to <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> or SQL Azure.</source>
+          <target state="translated">Quando for definida como false, o &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;classe carrega todos os dados devolvidos pelo &lt;xref:System.Data.IDataReader&gt;objeto na memória antes de a enviar para <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> ou SQL Azure.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object can stream data from an <bpt id="p3">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object; otherwise, false.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se um <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto pode transmitir dados a partir de um <bpt id="p3">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto; caso contrário, FALSO.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Defines the number of rows to be processed before generating a notification event.</source>
+          <target state="translated">Define o número de linhas a serem processados antes de gerar um evento de notificação.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is designed for user interface components that illustrate the progress of a bulk copy operation.</source>
+          <target state="translated">Esta propriedade foi concebida para componentes de interface de utilizador que ilustram o progresso de uma operação de cópia em massa.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It indicates the number of rows to be processed before generating a notification event.</source>
+          <target state="translated">Indica o número de linhas a serem processados antes de gerar um evento de notificação.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NotifyAfter property can be set at any time, even while a bulk copy operation is underway.</source>
+          <target state="translated">A propriedade NotifyAfter pode ser definida em qualquer altura, mesmo quando está em curso uma operação de cópia em massa.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made during a bulk copy operation take effect after the next notification.</source>
+          <target state="translated">As alterações efetuadas durante uma operação de cópia em massa entram em vigor após a seguinte notificação.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The new setting applies to all subsequent operations on the same instance.</source>
+          <target state="translated">A nova definição aplica-se a todas as operações subsequentes na mesma instância.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If NotifyAfter is set to a number less than zero, an &lt;xref:System.ArgumentOutOfRangeException&gt; is thrown.</source>
+          <target state="translated">Se NotifyAfter estiver definido como um número inferior a zero, um &lt;xref:System.ArgumentOutOfRangeException&gt;é emitida.&lt;/xref:System.ArgumentOutOfRangeException&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The integer value of the NotifyAfter property, or zero if the property has not been set.</source>
+          <target state="translated">O valor de número inteiro da propriedade NotifyAfter, ou zero se a propriedade não foi definida.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Occurs every time that the number of rows specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter*&gt; property have been processed.</source>
+          <target state="translated">Ocorre sempre que o número de linhas especificado pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter*&gt;propriedade foram processados.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the settings of &lt;xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter%2A&gt; and &lt;xref:System.Data.SqlClient.SqlBulkCopy.BatchSize%2A&gt; are independent.</source>
+          <target state="translated">Tenha em atenção que as definições de &lt;xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter%2A&gt;e &lt;xref:System.Data.SqlClient.SqlBulkCopy.BatchSize%2A&gt;são independentes.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.BatchSize%2A&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.NotifyAfter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Receipt of a SqlRowsCopied event does not imply that any rows have been sent to the server or committed.</source>
+          <target state="translated">A receção de um evento de SqlRowsCopied não implica que foram enviadas para o servidor ou consolidadas quaisquer linhas.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call SqlBulkCopy.Close (&lt;xref:System.Data.SqlClient.SqlBulkCopy.Close%2A&gt;) or SqlConnection.Close (&lt;xref:System.Data.SqlClient.SqlConnection.Close%2A&gt;) from this event.</source>
+          <target state="translated">Não é possível chamar SqlBulkCopy.Close (&lt;xref:System.Data.SqlClient.SqlBulkCopy.Close%2A&gt;) ou SqlConnection.Close (&lt;xref:System.Data.SqlClient.SqlConnection.Close%2A&gt;) deste evento.&lt;/xref:System.Data.SqlClient.SqlConnection.Close%2A&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Doing this will cause an &lt;xref:System.InvalidOperationException&gt; being thrown, and the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; object state will not change.</source>
+          <target state="translated">Ao fazê-lo, Isto fará com que um &lt;xref:System.InvalidOperationException&gt;que está a ser emitida e o &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;não irá alterar o estado do objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user wants to cancel the operation from the event, the &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt; property of the &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs&gt; can be used.</source>
+          <target state="translated">Se o utilizador que pretende cancelar a operação do evento, o &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt;propriedade o &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs&gt;pode ser utilizado.&lt;/xref:System.Data.SqlClient.SqlRowsCopiedEventArgs&gt; &lt;/xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(See <bpt id="p1">[</bpt>Transaction and Bulk Copy Operations<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for examples that use the &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt; property.)       No action, such as transaction activity, is supported in the connection during the execution of the bulk copy operation, and it is recommended that you not use the same connection used during the SqlRowsCopied event.</source>
+          <target state="translated">(Consulte <bpt id="p1">[</bpt>transação e operações de cópia em massa<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> para obter exemplos que utilizam o &lt;xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt;propriedade.)&lt;/xref:System.Data.SqlClient.SqlRowsCopiedEventArgs.Abort%2A&gt;       Nenhuma ação, como a atividade de transação, é suportada na ligação durante a execução da operação de cópia em massa e é recomendado que não utilize a mesma ligação utilizada durante o evento SqlRowsCopied.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can open a different connection.</source>
+          <target state="translated">No entanto, pode abrir uma ligação diferente.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Versões de todos os recursos utilizados pela instância atual do <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call <ph id="ph1">`Dispose`</ph> when you are finished using the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;.</source>
+          <target state="translated">Chamar <ph id="ph1">`Dispose`</ph> quando tiver terminado de utilizando &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Dispose`</ph> method leaves the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; in an unusable state.</source>
+          <target state="translated">O <ph id="ph1">`Dispose`</ph> método mantém o &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;num Estado não utilizável.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling <ph id="ph1">`Dispose`</ph>, you must release all references to the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; was occupying.</source>
+          <target state="translated">Após a chamada <ph id="ph1">`Dispose`</ph>, tem de libertar todas as referências ao &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;para que o recoletor de lixo pode reclame a memória que a &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;foi occupying.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>recursos não geridos limpeza<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p2">[</bpt>implementar um método eliminar<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call <ph id="ph2">`Dispose`</ph> before you release your last reference to the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Sempre chamada <ph id="ph2">`Dispose`</ph> antes de libertar a última referência &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">Caso contrário, os recursos que está a utilizar não irão ser libertados até que as chamadas de recoletor de lixo a &lt;xref:System.Data.SqlClient.SqlBulkCopy&gt;do objeto <ph id="ph1">`Finalize`</ph> método.&lt;/xref:System.Data.SqlClient.SqlBulkCopy&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Copies all rows from the supplied <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia todas as linhas a partir de fornecido <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;propriedade o <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Copies all rows from the supplied <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia todas as linhas a partir de fornecido <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;propriedade o <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the bulk copy operation is in progress, the associated destination &lt;xref:System.Data.SqlClient.SqlConnection&gt; is busy serving it, and no other operations can be performed on the connection.</source>
+          <target state="translated">Enquanto a operação de cópia em massa está em curso, o destino associado &lt;xref:System.Data.SqlClient.SqlConnection&gt;está ocupado a servi-lo e outras operações não podem ser efetuadas na ligação.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt; collection maps from the &lt;xref:System.Data.DataRow&gt; columns to the destination database table.</source>
+          <target state="translated">O &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;coleção mapas do &lt;xref:System.Data.DataRow&gt;colunas à tabela de base de dados de destino.&lt;/xref:System.Data.DataRow&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that will be copied to the destination table.</source>
+          <target state="translated">Uma matriz de <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos que serão copiados para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Copies all rows in the supplied <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia todas as linhas a fornecido <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;propriedade o <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All rows in the &lt;xref:System.Data.DataTable&gt; are copied to the destination table except those that have been deleted.</source>
+          <target state="translated">Todas as linhas a &lt;xref:System.Data.DataTable&gt;são copiados para a tabela de destino, exceto aqueles que tenham sido eliminadas.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the bulk copy operation is in progress, the associated destination &lt;xref:System.Data.SqlClient.SqlConnection&gt; is busy serving it, and no other operations can be performed on the connection.</source>
+          <target state="translated">Enquanto a operação de cópia em massa está em curso, o destino associado &lt;xref:System.Data.SqlClient.SqlConnection&gt;está ocupado a servi-lo e outras operações não podem ser efetuadas na ligação.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt; collection maps from the &lt;xref:System.Data.DataTable&gt; columns to the destination database table.</source>
+          <target state="translated">O &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;coleção mapas do &lt;xref:System.Data.DataTable&gt;colunas à tabela de base de dados de destino.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Copies all rows in the supplied <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia todas as linhas a fornecido <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;propriedade o <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The copy operation starts at the next available row in the reader.</source>
+          <target state="translated">Inicia a operação de cópia da linha seguinte disponível no leitor.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time, the reader was just returned by &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt; or a similar call, so the next available row is the first row.</source>
+          <target state="translated">Na maioria das vezes, o leitor apenas foi devolvido por &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;ou uma chamada semelhante, pelo que a linha seguinte disponível é a primeira linha.&lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To process multiple results, call &lt;xref:System.Data.IDataReader.NextResult%2A&gt; on the data reader and call WriteToServer again.</source>
+          <target state="translated">Para processar vários resultados, chame &lt;xref:System.Data.IDataReader.NextResult%2A&gt;no leitor de dados e chamada WriteToServer novamente.&lt;/xref:System.Data.IDataReader.NextResult%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that using WriteToServer modifies the state of the reader.</source>
+          <target state="translated">Tenha em atenção que utilizar WriteToServer modifica o estado do leitor.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method will call &lt;xref:System.Data.IDataReader.Read%2A&gt; until it returns false, the operation is aborted, or an error occurs.</source>
+          <target state="translated">O método irá chamar &lt;xref:System.Data.IDataReader.Read%2A&gt;até devolve false, a operação foi abortada ou ocorre um erro.&lt;/xref:System.Data.IDataReader.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that the data reader will be in a different state, probably at the end of the result set, when the WriteToServer operation is complete.</source>
+          <target state="translated">Isto significa que o leitor de dados estará num Estado diferente, provavelmente, no final do conjunto de resultados, quando a operação de WriteToServer foi concluída.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the bulk copy operation is in progress, the associated destination &lt;xref:System.Data.SqlClient.SqlConnection&gt; is busy serving it, and no other operations can be performed on the connection.</source>
+          <target state="translated">Enquanto a operação de cópia em massa está em curso, o destino associado &lt;xref:System.Data.SqlClient.SqlConnection&gt;está ocupado a servi-lo e outras operações não podem ser efetuadas na ligação.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt; collection maps from the data reader columns to the destination database table.</source>
+          <target state="translated">O &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;coleção mapeia os dados colunas do leitor para a tabela de base de dados de destino.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Copies only rows that match the supplied row state in the supplied <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia apenas as linhas que correspondem o estado de linha fornecido o fornecido na <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;propriedade o <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName*&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only rows in the &lt;xref:System.Data.DataTable&gt; that are in the states indicated in the <ph id="ph1">`rowState`</ph> argument and have not been deleted are copied to the destination table.</source>
+          <target state="translated">Apenas as linhas no &lt;xref:System.Data.DataTable&gt;que estão nos Estados indicados a <ph id="ph1">`rowState`</ph> argumento e não ter sido eliminado são copiados para a tabela de destino.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If &lt;xref:System.Data.DataRowState&gt; is specified, any &lt;xref:System.Data.DataRowState&gt;, &lt;xref:System.Data.DataRowState&gt;, and &lt;xref:System.Data.DataRowState&gt; rows will also be copied to the server.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se &lt;xref:System.Data.DataRowState&gt;for especificado, quaisquer &lt;xref:System.Data.DataRowState&gt;, &lt;xref:System.Data.DataRowState&gt;, e &lt;xref:System.Data.DataRowState&gt;linhas também serão copiadas para o servidor.&lt;/xref:System.Data.DataRowState&gt; &lt;/xref:System.Data.DataRowState&gt; &lt;/xref:System.Data.DataRowState&gt; &lt;/xref:System.Data.DataRowState&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No exception will be raised.</source>
+          <target state="translated">Será desencadeada sem exceção.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the bulk copy operation is in progress, the associated destination &lt;xref:System.Data.SqlClient.SqlConnection&gt; is busy serving it, and no other operations can be performed on the connection.</source>
+          <target state="translated">Enquanto a operação de cópia em massa está em curso, o destino associado &lt;xref:System.Data.SqlClient.SqlConnection&gt;está ocupado a servi-lo e outras operações não podem ser efetuadas na ligação.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt; collection maps from the &lt;xref:System.Data.DataTable&gt; columns to the destination database table.</source>
+          <target state="translated">O &lt;xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;coleção mapas do &lt;xref:System.Data.DataTable&gt;colunas à tabela de base de dados de destino.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.SqlClient.SqlBulkCopy.ColumnMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>A value from the <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Um valor entre o <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Only rows matching the row state are copied to the destination.</source>
+          <target state="translated">Apenas as linhas correspondentes o estado de linha são copiadas para o destino.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows from the supplied <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas do fornecido <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows from the supplied <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas do fornecido <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that will be copied to the destination table.</source>
+          <target state="translated">Uma matriz de <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos que serão copiados para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync multiple times for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync várias vezes para a mesma instância antes da conclusão da tarefa.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt; for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync e &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;para a mesma instância antes da conclusão da tarefa.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The connection drops or is closed during WriteToServerAsync execution.</source>
+          <target state="translated">A ligação ignora ou é fechada durante a execução de WriteToServerAsync.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows in the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas a fornecido <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync multiple times for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync várias vezes para a mesma instância antes da conclusão da tarefa.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt; for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync e &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;para a mesma instância antes da conclusão da tarefa.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The connection drops or is closed during WriteToServerAsync execution.</source>
+          <target state="translated">A ligação ignora ou é fechada durante a execução de WriteToServerAsync.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows in the supplied <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas a fornecido <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync multiple times for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync várias vezes para a mesma instância antes da conclusão da tarefa.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt; for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync e &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;para a mesma instância antes da conclusão da tarefa.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The connection drops or is closed during WriteToServerAsync execution.</source>
+          <target state="translated">A ligação ignora ou é fechada durante a execução de WriteToServerAsync.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was closed before the completed &lt;xref:System.Threading.Tasks.Task&gt; returned.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> foi fechada antes da conclusão &lt;xref:System.Threading.Tasks.Task&gt;devolveu.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s associated connection was closed before the completed &lt;xref:System.Threading.Tasks.Task&gt; returned.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>da ligação associada foi fechada antes da conclusão &lt;xref:System.Threading.Tasks.Task&gt;devolveu.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows from the supplied <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas do fornecido <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The cancellation instruction.</source>
+          <target state="translated">A instrução de cancelamento.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.CancellationToken.None<bpt id="p1">*</bpt>&gt; value in this parameter makes this method equivalent to &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valor neste parâmetro faz com que este método equivalente ao &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Threading.Tasks.Task&gt;.</source>
+          <target state="translated">Devolve &lt;xref:System.Threading.Tasks.Task&gt;.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows from the supplied <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> array to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas do fornecido <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> matriz a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The cancellation token can be used to request that the operation be abandoned before the command timeout elapses.</source>
+          <target state="translated">O token de cancelamento pode ser utilizado para pedir que a operação ser abandonada antes do tempo limite do comando decorrida.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Exceptions will be reported via the returned Task object.</source>
+          <target state="translated">Exceções serão comunicadas através do objeto de tarefa devolvido.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that will be copied to the destination table.</source>
+          <target state="translated">Uma matriz de <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos que serão copiados para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The cancellation instruction.</source>
+          <target state="translated">A instrução de cancelamento.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.CancellationToken.None<bpt id="p1">*</bpt>&gt; value in this parameter makes this method equivalent to &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valor neste parâmetro faz com que este método equivalente ao &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<bpt id="p1">*</bpt>&gt; multiple times for the same instance before task completion.       Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt; and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p2">*</bpt>&gt; for the same instance before task completion.       The connection drops or is closed during &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p2">*</ept>&gt; execution.</source>
+          <target state="translated">Chamar &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; várias vezes para a mesma instância antes da conclusão da tarefa.       Chamar &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; e &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; para a mesma instância antes da conclusão da tarefa.       A ligação ignora ou é fechado durante &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; execução.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies only rows that match the supplied row state in the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia apenas as linhas que correspondem o estado de linha fornecido o fornecido na <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A value from the <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Um valor entre o <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Only rows matching the row state are copied to the destination.</source>
+          <target state="translated">Apenas as linhas correspondentes o estado de linha são copiadas para o destino.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync multiple times for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync várias vezes para a mesma instância antes da conclusão da tarefa.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Calling WriteToServerAsync and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt; for the same instance before task completion.</source>
+          <target state="translated">Chamar WriteToServerAsync e &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;para a mesma instância antes da conclusão da tarefa.&lt;/xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer*&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The connection drops or is closed during WriteToServerAsync execution.</source>
+          <target state="translated">A ligação ignora ou é fechada durante a execução de WriteToServerAsync.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows in the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas a fornecido <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The cancellation token can be used to request that the operation be abandoned before the command timeout elapses.</source>
+          <target state="translated">O token de cancelamento pode ser utilizado para pedir que a operação ser abandonada antes do tempo limite do comando decorrida.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Exceptions will be reported via the returned Task object.</source>
+          <target state="translated">Exceções serão comunicadas através do objeto de tarefa devolvido.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The cancellation instruction.</source>
+          <target state="translated">A instrução de cancelamento.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.CancellationToken.None<bpt id="p1">*</bpt>&gt; value in this parameter makes this method equivalent to &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valor neste parâmetro faz com que este método equivalente ao &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<bpt id="p1">*</bpt>&gt; multiple times for the same instance before task completion.       Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt; and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p2">*</bpt>&gt; for the same instance before task completion.       The connection drops or is closed during &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p2">*</ept>&gt; execution.</source>
+          <target state="translated">Chamar &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; várias vezes para a mesma instância antes da conclusão da tarefa.       Chamar &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; e &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; para a mesma instância antes da conclusão da tarefa.       A ligação ignora ou é fechado durante &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; execução.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies all rows in the supplied <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia todas as linhas a fornecido <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The cancellation token can be used to request that the operation be abandoned before the command timeout elapses.</source>
+          <target state="translated">O token de cancelamento pode ser utilizado para pedir que a operação ser abandonada antes do tempo limite do comando decorrida.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Exceptions will be reported via the returned Task object.</source>
+          <target state="translated">Exceções serão comunicadas através do objeto de tarefa devolvido.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The cancellation instruction.</source>
+          <target state="translated">A instrução de cancelamento.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.CancellationToken.None<bpt id="p1">*</bpt>&gt; value in this parameter makes this method equivalent to &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valor neste parâmetro faz com que este método equivalente ao &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<bpt id="p1">*</bpt>&gt; multiple times for the same instance before task completion.       Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt; and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p2">*</bpt>&gt; for the same instance before task completion.       The connection drops or is closed during &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p2">*</ept>&gt; execution.</source>
+          <target state="translated">Chamar &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; várias vezes para a mesma instância antes da conclusão da tarefa.       Chamar &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; e &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; para a mesma instância antes da conclusão da tarefa.       A ligação ignora ou é fechado durante &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; execução.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was closed before the completed &lt;xref:System.Threading.Tasks.Task&gt; returned.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> foi fechada antes da conclusão &lt;xref:System.Threading.Tasks.Task&gt;devolveu.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s associated connection was closed before the completed &lt;xref:System.Threading.Tasks.Task&gt; returned.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>da ligação associada foi fechada antes da conclusão &lt;xref:System.Threading.Tasks.Task&gt;devolveu.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The asynchronous version of &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p1">*</bpt>&gt;, which copies only rows that match the supplied row state in the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to a destination table specified by the &lt;xref:System.Data.SqlClient.SqlBulkCopy.DestinationTableName<ept id="p1">*</ept>&gt; property of the <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A versão assíncrona de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, que copia apenas as linhas que correspondem o estado de linha fornecido o fornecido na <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a uma tabela de destino especificada pelo &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade o <bpt id="p3">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The cancellation token can be used to request that the operation be abandoned before the command timeout elapses.</source>
+          <target state="translated">O token de cancelamento pode ser utilizado para pedir que a operação ser abandonada antes do tempo limite do comando decorrida.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Exceptions will be reported via the returned Task object.</source>
+          <target state="translated">Exceções serão comunicadas através do objeto de tarefa devolvido.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about asynchronous programming in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Data Provider for <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, see <bpt id="p1">[</bpt>Asynchronous Programming<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a programação assíncrona no <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> fornecedor de dados para <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>, consulte <bpt id="p1">[</bpt>programação assíncrona<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose rows will be copied to the destination table.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujas linhas serão copiadas para a tabela de destino.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>A value from the <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Um valor entre o <bpt id="p1">&lt;xref href="System.Data.DataRowState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Only rows matching the row state are copied to the destination.</source>
+          <target state="translated">Apenas as linhas correspondentes o estado de linha são copiadas para o destino.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The cancellation instruction.</source>
+          <target state="translated">A instrução de cancelamento.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.CancellationToken.None<bpt id="p1">*</bpt>&gt; value in this parameter makes this method equivalent to &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valor neste parâmetro faz com que este método equivalente ao &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>A task representing the asynchronous operation.</source>
+          <target state="translated">Uma tarefa que representa a operação assíncrona.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<bpt id="p1">*</bpt>&gt; multiple times for the same instance before task completion.       Calling &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p1">*</ept>&gt; and &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServer<bpt id="p2">*</bpt>&gt; for the same instance before task completion.       The connection drops or is closed during &lt;xref:System.Data.SqlClient.SqlBulkCopy.WriteToServerAsync<ept id="p2">*</ept>&gt; execution.</source>
+          <target state="translated">Chamar &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; várias vezes para a mesma instância antes da conclusão da tarefa.       Chamar &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; e &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; para a mesma instância antes da conclusão da tarefa.       A ligação ignora ou é fechado durante &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; execução.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed during the method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlBulkCopy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado durante a execução do método.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, there was a connection pool timeout.</source>
+          <target state="translated">Devolvido do objeto de tarefa, Ocorreu um tempo de limite do conjunto de ligação.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed before method execution.</source>
+          <target state="translated">Devolveu o objeto de tarefa, o <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está fechado antes da execução do método.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified in the connection string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Context Connection=true" name="Context Connection=true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>foi especificado na cadeia de ligação.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Returned in the task object, any error returned by <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that occurred while opening the connection.</source>
+          <target state="translated">Devolvido do objeto de tarefa, quaisquer erros devolvidos pelo <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> que ocorreu ao abrir a ligação.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

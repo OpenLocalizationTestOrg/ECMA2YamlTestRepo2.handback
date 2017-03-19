@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f86253333e53ca3871219758020441b2d701ecce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.DurableInstancing.InstancePersistenceContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc6c493243eb5a7b53b5da949e47c4d1a06a3097</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">990124a075b4e789241961da4beb47ac45bb9a0e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents execution state information while a persistence command is being executed.</source>
+          <target state="translated">持續性命令執行時，表示執行狀態資訊。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An instance of this class is passed to the TryCommand method of persistence provider implementations.</source>
+          <target state="translated">這個類別的執行個體傳遞至持續性提供者實作的 TryCommand 方法。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Persistence providers use this class to inspect the in-memory view of the instance as well as indicate the results of operations on the external store which may affect the view or other in-memory context.</source>
+          <target state="translated">持續性提供者會使用這個類別來檢查執行個體的記憶體中檢視，以及指出外部存放區可能會影響檢視或其他記憶體中的內容上的作業結果。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully associated a key to the current instance in the instance store.</source>
+          <target state="translated">表示持續性提供者已成功關聯到目前的執行個體的執行個體存放區中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">做為參數指定之金鑰識別碼。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The instance key must be unassociated.</source>
+          <target state="translated">執行個體索引鍵必須是無關聯。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The instance key identifier  for the key that has been associated.</source>
+          <target state="translated">已產生關聯的索引鍵的執行個體索引鍵的識別碼。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Begin an asynchronous operation to bind an existing lock on an instance to the current instance handle.</source>
+          <target state="translated">開始非同步作業以將現有的鎖定繫結至目前的執行個體控制代碼的執行個體上。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The version of the existing lock is passed as a parameter.</source>
+          <target state="translated">現有的鎖定版本會做為參數傳遞。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When attempting to acquire a lock, the persistence provider may decide that the current instance is already locked in the current store.</source>
+          <target state="translated">當嘗試取得鎖定，持續性提供者可能會決定目前的執行個體已被鎖定在目前的存放區。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the lock token matches the current handle’s lock token, then the persistence provider can attempt to reclaim the lock by inspecting its version and passing it to BeginBindReclaimedLock.</source>
+          <target state="translated">如果其鎖定權杖符合目前控制代碼的鎖定權杖，持續性提供者可以嘗試回收鎖定，方式是檢查其版本，以及將它傳遞給 BeginBindReclaimedLock。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The persistence provider must not make changes to the instance until the lock is successfully reclaimed.</source>
+          <target state="translated">持續性提供者不得對進行變更的執行個體成功回收鎖定之前。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If no other handle is bound to the lock, then the BeginBindReclaimedLock operation succeeds and the current handle becomes bound to the lock.</source>
+          <target state="translated">如果沒有其他控制代碼已繫結至鎖定，則 BeginBindReclaimedLock 作業就會成功，而且目前的控制代碼會變成繫結至鎖定。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Otherwise, BeginBindReclaimedLock or EndBindReclaimedLock throws InstanceHandleConflictException.</source>
+          <target state="translated">否則，BeginBindReclaimedLock 或 EndBindReclaimedLock 會擲回 InstanceHandleConflictException。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If commands are in progress on other handles, the operation may not complete while waiting for the outcome of those commands to decide whether the lock can be reclaimed.</source>
+          <target state="translated">如果命令正在進行其他控制代碼，此作業可能不會完成等候這些命令，來決定是否能夠回收鎖定的結果。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體和鎖定擁有者。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The instance must not be completed.</source>
+          <target state="translated">執行個體不得為完成。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock.</source>
+          <target state="translated">鎖定擁有者相關聯的鎖定權杖用來識別鎖定的擁有者。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">一旦鎖定繫結至控制代碼，它就會控制代碼的存留期間繫結。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">可以變更鎖定權杖都執行個體版本。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">鎖定版本保留在執行個體，則為零，但如果持續性提供者沒有實作鎖定版本。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The timeout period for the asynchronous operation.</source>
+          <target state="translated">非同步作業的逾時期限。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">與非同步作業相關聯的狀態資訊。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">非同步作業的狀態。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Begins executing a persistence command asynchronously.</source>
+          <target state="translated">開始以非同步方式執行持續性命令。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A persistence provider can use this method to execute sub-commands as part of a command.</source>
+          <target state="translated">持續性提供者可以使用這個方法，將子命令當做命令的一部分執行。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The sub-command will be executed using BeginTryCommand, similar to commands passed to InstanceStore.BeginExecute.</source>
+          <target state="translated">此子命令將使用 BeginTryCommand 來執行，類似於命令傳遞給 InstanceStore.BeginExecute 的。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Commands can be nested, but a command must not execute more than one sub-command at a time.</source>
+          <target state="translated">命令可以巢狀化，但命令只能執行一個以上的子命令一次。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The persistence command to be executed.</source>
+          <target state="translated">要執行的持續性命令。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">作業的逾時值。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">委派會接收非同步通知接收要求作業完成。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">狀態資訊。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">非同步作業的狀態。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Binds a newly acquired lock on an instance to the current instance handle.</source>
+          <target state="translated">將新取得的鎖定繫結至目前的執行個體控制代碼的執行個體上。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The version of the acquired lock is passed as a parameter.</source>
+          <target state="translated">取得的鎖定版本會做為參數傳遞。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If a persistence provider implements lock versioning, then each time a lock is acquired on the instance, the version must be incremented by one in the external store.</source>
+          <target state="translated">如果持續性提供者實作鎖定版本，然後每次在執行個體，取得鎖定版本都必須遞增一外部存放區中。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The first time the instance is locked, the version should be 1.</source>
+          <target state="translated">第一次鎖定執行個體時，版本應為 1。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each lock acquisition invalidates the previous lock.</source>
+          <target state="translated">取得每個鎖定會使先前的鎖定失效。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體和鎖定擁有者。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The instance must not be completed.</source>
+          <target state="translated">執行個體不得為完成。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock       Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">鎖定擁有者相關聯的鎖定權杖用來識別鎖定的擁有者一旦鎖定繫結至控制代碼，則仍會保持此控制代碼的存留期間繫結。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">可以變更鎖定權杖都執行個體版本。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Version of the lock acquired on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">取得執行個體，或為零，如果持續性提供者沒有實作鎖定版本的鎖定版本。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Binds an <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to an instance handle.</source>
+          <target state="translated">將繫結<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至執行個體控制代碼。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing information about the event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含事件的相關資訊。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Binds an instance whose identifier is specified as a parameter to the current instance handle.</source>
+          <target state="translated">將繫結執行個體的識別碼會指定為目前的執行個體控制代碼的參數。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Once an instance is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">一旦執行個體已繫結至控制代碼，它就會控制代碼的存留期間繫結。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>No other instance can ever be bound to the handle.</source>
+          <target state="translated">其他執行個體曾經繫結至控制代碼。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An instance identifier.</source>
+          <target state="translated">執行個體識別碼。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Binds an instance owner to the current instance handle.</source>
+          <target state="translated">將執行個體擁有者繫結至目前的執行個體控制代碼。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Once an instance owner is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">一旦執行個體擁有者已繫結至控制代碼，它就會控制代碼的存留期間繫結。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>No other instance owner can ever be bound to the handle.</source>
+          <target state="translated">其他執行個體擁有者可以無法繫結至控制代碼。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The identifier for the instance owner.</source>
+          <target state="translated">執行個體擁有者的識別項。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The lock token of the instance owner.</source>
+          <target state="translated">執行個體擁有者的鎖定權杖。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A persistence provider may choose to use the same value for the instance owner identifier and the owner’s lock token.</source>
+          <target state="translated">持續性提供者可以選擇的執行個體擁有者識別碼和擁有者的鎖定權杖使用相同的值。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Binds an existing lock on an instance to the current instance handle.</source>
+          <target state="translated">將現有的鎖定繫結至目前的執行個體控制代碼的執行個體上。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The version of the existing lock is passed as a parameter.</source>
+          <target state="translated">現有的鎖定版本會做為參數傳遞。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When attempting to acquire a lock, the persistence provider may decide that the current instance is already locked in the current store.</source>
+          <target state="translated">當嘗試取得鎖定，持續性提供者可能會決定目前的執行個體已被鎖定在目前的存放區。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the lock token matches the current handle’s lock token, then the persistence provider can attempt to reclaim the lock by inspecting its version and passing it to BindReclaimedLock.</source>
+          <target state="translated">如果其鎖定權杖符合目前控制代碼的鎖定權杖，然後持續性提供者可以嘗試檢查它的版本，並將其傳遞給 BindReclaimedLock 來回收鎖定。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The persistence provider must not make changes to the instance until the lock is successfully reclaimed.</source>
+          <target state="translated">持續性提供者不得對進行變更的執行個體成功回收鎖定之前。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If no other handle is bound to the lock, then BindReclaimedLock succeeds and the current handle becomes bound to the lock.</source>
+          <target state="translated">如果沒有其他控制代碼已繫結至鎖定，然後 BindReclaimedLock 就會成功，和目前的控制代碼會變成繫結至鎖定。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Otherwise, BindReclaimedLock throws InstanceHandleConflictException.</source>
+          <target state="translated">否則，BindReclaimedLock 會擲回 InstanceHandleConflictException。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If commands are in progress on other handles, BindReclaimedLock may block waiting for the outcome of those commands before deciding whether the lock can be reclaimed.</source>
+          <target state="translated">如果命令正在進行其他控制代碼，BindReclaimedLock 可能會封鎖等候這些命令的結果，然後再決定是否能夠回收鎖定。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體和鎖定擁有者。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The instance must not be completed.</source>
+          <target state="translated">執行個體不得為完成。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock.</source>
+          <target state="translated">鎖定擁有者相關聯的鎖定權杖用來識別鎖定的擁有者。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">一旦鎖定繫結至控制代碼，它就會控制代碼的存留期間繫結。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">可以變更鎖定權杖都執行個體版本。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">鎖定版本保留在執行個體，則為零，但如果持續性提供者沒有實作鎖定版本。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">作業的逾時值。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully marked the current instance as complete in the instance store.</source>
+          <target state="translated">表示持續性提供者已經成功地標示為已完成執行個體存放區中的目前執行個體。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The instance must be initialized and not be already completed.</source>
+          <target state="translated">執行個體必須進行初始化，而且尚未完成。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>(An instance is initialized if a set of instance data has ever been persisted to it.) All of the keys associated to the instance must be completed.</source>
+          <target state="translated">（如果執行個體資料集曾經保存到它已初始化執行個體）。必須完成所有的執行個體相關聯的金鑰。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully marked a key as complete in the external store.</source>
+          <target state="translated">表示持續性提供者已經成功地標示為已完成在外部存放區中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">做為參數指定之金鑰識別碼。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The instance key must be associated to the current instance and not be already completed.</source>
+          <target state="translated">執行個體索引鍵必須是目前的執行個體相關聯，而且尚未完成。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key that has been completed.</source>
+          <target state="translated">已完成之索引鍵的執行個體索引鍵識別碼。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Creates an instance of an exception which can be thrown from TryCommand to trigger BindReclaimedLock behavior.</source>
+          <target state="translated">建立從 TryCommand 以觸發 BindReclaimedLock 行為可能會擲回的例外狀況的執行個體。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Sample code:      <ph id="ph1">```      protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       throw context.CreateBindReclaimedLockException(5);   }   is equivalent to   protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       context.BindReclaimedLock(5, timeout);       throw new OperationCanceledException();   }      ```</ph></source>
+          <target state="translated">範例程式碼︰<ph id="ph1">```      protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       throw context.CreateBindReclaimedLockException(5);   }   is equivalent to   protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       context.BindReclaimedLock(5, timeout);       throw new OperationCanceledException();   }      ```</ph></target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">鎖定版本保留在執行個體，則為零，但如果持續性提供者沒有實作鎖定版本。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An exception.</source>
+          <target state="translated">例外狀況。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation started by the &lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt; method.</source>
+          <target state="translated">結束非同步作業來啟動&lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt;方法。&lt;/xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The result of the asynchronous operation.</source>
+          <target state="translated">非同步作業的結果。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation.</source>
+          <target state="translated">結束非同步作業。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">非同步作業的狀態。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Executes a persistence command.</source>
+          <target state="translated">執行持續性命令。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A persistence provider can use this method to execute sub-commands as part of a command.</source>
+          <target state="translated">持續性提供者可以使用這個方法，將子命令當做命令的一部分執行。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The sub-command will be executed using TryCommand, similar to commands passed to InstanceStore.Execute.</source>
+          <target state="translated">此子命令將使用 TryCommand 來執行，與命令傳遞給 InstanceStore.Execute。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Commands can be nested, but a command must not execute more than one sub-command at a time.</source>
+          <target state="translated">命令可以巢狀化，但命令只能執行一個以上的子命令一次。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The persistence command to be executed.</source>
+          <target state="translated">要執行的持續性命令。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">作業的逾時值。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets the current instance handle.</source>
+          <target state="translated">取得目前的執行個體控制代碼。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The current instance handle.</source>
+          <target state="translated">目前的執行個體控制代碼。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the version of the lock held on the current instance by the current instance handle.</source>
+          <target state="translated">取得目前的執行個體上保留目前的執行個體控制代碼的鎖定版本。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The persistence provider should check this value against the lock version of the lock held on an instance in the instance store when performing an operation that requires a lock (such as persisting instance data) using a handle bound to the lock.</source>
+          <target state="translated">持續性提供者應該檢查此值，針對保留執行個體存放區中執行個體上執行的作業需要使用控制代碼的鎖定 （例如保存執行個體資料） 會繫結至鎖定時的鎖定與鎖定版本。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If the lock version doesn’t match, the command should fail with InstanceLockLostException.</source>
+          <target state="translated">如果鎖定版本不符，此命令應該會由於 instancelocklostexception。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The version of the instance lock bound to the current instance handle, or -1 if the handle isn’t bound to a lock.</source>
+          <target state="translated">如果控制代碼沒有繫結至鎖定，執行個體鎖定版本繫結至目前的執行個體控制代碼，則為-1。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the instance view object that represents the in-memory state of the current instance.</source>
+          <target state="translated">取得表示目前的執行個體的記憶體中狀態的執行個體檢視物件。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This view reflects updates as they are made by the command in progress.</source>
+          <target state="translated">此檢視反映在進行中的命令來進行更新。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The instance view object.</source>
+          <target state="translated">執行個體檢視物件。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully retrieved the current instance from the instance store.</source>
+          <target state="translated">表示持續性提供者已成功擷取目前的執行個體從執行個體存放區。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If the instance handle is bound to a lock or the loaded instance is marked as complete, the loaded data is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">如果執行個體控制代碼繫結至鎖定或標示為完成載入的執行個體，所載入的資料會被視為一致的。否則，它會被視為不確定。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">執行個體狀態資訊。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The instance data as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">做為字典的執行個體資料&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Instance metadata as a collection of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">執行個體中繼資料，做為集合&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Associated instance key metadata as a dictionary of instance identifier and instance key metadata, which is a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">相關聯執行個體索引鍵的中繼資料，做為字典的執行個體識別碼和執行個體索引鍵的中繼資料，這是一個字典的&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Completed instance metadata as a dictionary of instance identifier and instance key metadata, which is a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">完成執行個體中繼資料做為字典的執行個體識別碼和執行個體索引鍵的中繼資料，這是一個字典的&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the lock token of the instance owner bound to the current instance handle.</source>
+          <target state="translated">取得語彙基元繫結至目前的執行個體控制代碼的執行個體擁有者的鎖定。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The persistence provider should check this value against the lock token of the lock held on an instance in the instance store when performing an operation that requires a lock (such as persisting instance data) using a handle bound to the lock.</source>
+          <target state="translated">持續性提供者應該檢查此值，針對保留執行個體存放區中執行個體上執行的作業需要使用控制代碼的鎖定 （例如保存執行個體資料） 會繫結至鎖定時的鎖定的鎖定權杖。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If the lock token doesn’t match, the command should fail with InstanceLockLostException.</source>
+          <target state="translated">如果鎖定權杖不符，此命令應該會由於 instancelocklostexception。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The persistence provider should use this value as the lock token when acquiring a new lock on an instance (such as persisting instance data using a handle not already bound to a lock).</source>
+          <target state="translated">持續性提供者應該使用這個值當做鎖定權杖，取得執行個體 （例如使用尚未繫結至鎖定的控制代碼的保存執行個體資料） 的新鎖定時。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If the instance is already locked in the instance store and the lock token matches this lock token, the persistence provider can attempt to reclaim the instance using BindReclaimedLock.</source>
+          <target state="translated">如果執行個體已經鎖定執行個體存放區中，而且其鎖定權杖符合這個鎖定權杖，持續性提供者可以嘗試回收使用 BindReclaimedLock 的執行個體。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The lock token bound to the current instance handle, or Guid.Empty if the handle isn’t bound to an instance owner.</source>
+          <target state="translated">如果控制代碼沒有繫結至執行個體擁有者，其鎖定權杖繫結至目前的執行個體控制代碼，則為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully persisted a set of instance data to the instance store.</source>
+          <target state="translated">表示持續性提供者已經成功保存執行個體存放區的執行個體資料集。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This has the effect of initializing the instance if it wasn’t already.</source>
+          <target state="translated">如果尚未初始化執行個體的這個效果。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Each set of instance data completely replaces the previous set.</source>
+          <target state="translated">每個執行個體資料集完全取代先前的設定。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The set of instance data may be null – this is the same as empty.</source>
+          <target state="translated">執行個體資料集可能為 null，這相當於空白。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Persisting a null set of instance data deletes the existing set of instance data.</source>
+          <target state="translated">保存集合執行個體資料為 null，就會刪除現有的執行個體資料集。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>(Persisting a set of instance data has no effect on instance metadata.)</source>
+          <target state="translated">（保存執行個體資料集沒有任何作用，執行個體中繼資料）。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Instance data as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">做為字典的執行個體資料&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Adds the <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed as a parameter to a list of <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects in an <bpt id="p3">&lt;xref href="System.Runtime.DurableInstancing.InstanceView"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>做為參數傳遞給清單中的<bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>中的物件<bpt id="p3">&lt;xref href="System.Runtime.DurableInstancing.InstanceView"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The results of a query against an instance store.</source>
+          <target state="translated">針對執行個體存放區查詢的結果。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully read some instance key metadata for a key associated to the current instance from the instance store.</source>
+          <target state="translated">表示持續性提供者已經成功地讀取某些執行個體索引鍵中繼資料從執行個體存放區目前的執行個體相關聯的索引鍵。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If the instance handle is bound to a lock or the current instance is marked as complete, the metadata is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">如果執行個體控制代碼繫結至鎖定或目前的執行個體標示為完成，中繼資料會被視為一致的。否則，它會被視為不確定。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key whose metadata was read.</source>
+          <target state="translated">已讀取其中繼資料的索引鍵的執行個體索引鍵的識別碼。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The metadata as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">將中繼資料的字典當做&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the metadata represents all of the metadata associated to the instance key, otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果中繼資料代表全部的中繼資料與相關聯的執行個體索引鍵，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully read some instance metadata for the current instance from the instance store.</source>
+          <target state="translated">表示持續性提供者已經成功讀取某些執行個體的中繼資料目前的執行個體從執行個體存放區。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The metadata as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">將中繼資料的字典當做&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the metadata represents all of the metadata associated to the instance, otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果中繼資料代表執行個體，否則相關聯的中繼資料的所有<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Sets the instance owner metadata using the data passed in the parameter.</source>
+          <target state="translated">設定使用參數中傳遞的資料執行個體擁有者中繼資料。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If the instance handle is bound to a lock or the current instance is marked as complete, the metadata is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">如果執行個體控制代碼繫結至鎖定或目前的執行個體標示為完成，中繼資料會被視為一致的。否則，它會被視為不確定。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">字典&lt;xref:System.Xml.Linq.XName&gt;和<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value to specify whether the consistency to be set to <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的值是否設為 「 一致性<bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Sets the cancellation handler to be called when the cancel of an operation is requested.</source>
+          <target state="translated">設定要求取消作業時呼叫了取消處理常式。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If the cancellation handler is called, the persistence provider should cancel all pending operations and throw OperationCanceledException from TryCommand to indicate that the persistence command was interrupted before it could be completed.</source>
+          <target state="translated">如果呼叫了取消處理常式，持續性提供者應該取消所有暫止的作業，並擲回 OperationCanceledException，從 TryCommand 來指示它在完成之前，已中斷的持續性命令。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The reference to a function to be called.</source>
+          <target state="translated">要呼叫的函式的參考。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully disassociated a key from the current instance in the instance store.</source>
+          <target state="translated">表示持續性提供者已成功中斷目前的執行個體的執行個體存放區中的索引鍵。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">做為參數指定之金鑰識別碼。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The instance key must be associated to the current instance and must be marked complete.</source>
+          <target state="translated">執行個體索引鍵必須是目前的執行個體相關聯，而且必須標示為完成。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The current instance must not be marked complete.</source>
+          <target state="translated">目前的執行個體必須不是標示為完成。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key that has been unassociated.</source>
+          <target state="translated">已經解除關聯索引鍵的執行個體索引鍵識別碼。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets the user context information attached to the current instance handle.</source>
+          <target state="translated">取得附加至目前的執行個體控制代碼的使用者內容資訊。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The object is the one that is returned from InstanceStore.OnNewInstanceHandle for the current instance handle.</source>
+          <target state="translated">物件是從 InstanceStore.OnNewInstanceHandle 傳回目前執行個體控制代碼。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The user context information.</source>
+          <target state="translated">使用者內容資訊。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for an instance key that is associated with the current instance to the instance store</source>
+          <target state="translated">表示持續性提供者已經成功地寫入執行個體存放區目前的執行個體相關聯執行個體索引鍵的中繼資料值</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及鎖定該執行個體上。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The instance key must be associated with the current instance and must not be completed.</source>
+          <target state="translated">執行個體索引鍵必須是目前的執行個體相關聯，而且不得為完成。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key.</source>
+          <target state="translated">索引鍵的執行個體索引鍵識別碼。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">不得為 Guid.Empty。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">中繼資料屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">中繼資料屬性的值。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for the current instance to the external instance store.</source>
+          <target state="translated">表示持續性提供者已經成功地寫入目前的執行個體的中繼資料值到外部的執行個體存放區。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance as well as has a lock on that instance.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結至執行個體，以及該執行個體上具有鎖定。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The instance must not be completed.</source>
+          <target state="translated">執行個體不得為完成。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">中繼資料屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">中繼資料屬性的值。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for the current instance owner to the instance store.</source>
+          <target state="translated">表示持續性提供者已經成功寫入的中繼資料值為目前的執行個體擁有者執行個體存放區。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The current instance handle must be bound to an instance owner.</source>
+          <target state="translated">目前的執行個體控制代碼必須繫結執行個體擁有者。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">中繼資料屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">中繼資料屬性的值。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

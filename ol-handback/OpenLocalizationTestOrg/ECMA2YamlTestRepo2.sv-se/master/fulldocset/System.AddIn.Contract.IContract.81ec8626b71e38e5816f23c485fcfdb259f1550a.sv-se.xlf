@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88255d013ec63dafde278e80877be7391eb3c839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.AddIn.Contract.IContract.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">feb2f3e2d5b9c25f941f2d177aeb124b6f393d9d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b707ae3fd617884192b78742e24b8a98f3ee32d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base interface for all contracts that are used for communication between components that are updated independently.</source>
+          <target state="translated">Representerar det grundläggande gränssnittet för alla kontrakt som används för kommunikation mellan komponenter som är uppdaterade oberoende av varandra.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IContract interface defines a contract that independently updated components, such as an application and an add-in, can use to communicate.</source>
+          <target state="translated">IContract-gränssnittet definierar ett kontrakt som oberoende uppdaterade komponenter, t.ex. ett program och ett tillägg, kan använda för att kommunicera.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Components can use IContract to communicate across process or application domain boundaries, or to communicate with other components in the same process or application domain.</source>
+          <target state="translated">Komponenter kan använda IContract kan kommunicera över processen eller domängränser för programmet, eller för att kommunicera med andra komponenter i samma process eller programdomän.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IContract serves a similar purpose for components created using the .NET Framework as the <ph id="ph1">`IUnknown`</ph> interface serves for components created using COM.</source>
+          <target state="translated">IContract har en liknande funktion för komponenter som skapats med hjälp av .NET Framework som de <ph id="ph1">`IUnknown`</ph> -gränssnittet fungerar för komponenter som skapats med hjälp av COM.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether an object implements a particular contract, use the &lt;xref:System.AddIn.Contract.IContract.QueryContract%2A&gt; method.</source>
+          <target state="translated">Använd för att fastställa om ett objekt som implementerar ett visst kontrakt, den &lt;xref:System.AddIn.Contract.IContract.QueryContract%2A&gt;metoden.&lt;/xref:System.AddIn.Contract.IContract.QueryContract%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Specifies that the contract is accessible to a client until the client revokes the contract.</source>
+          <target state="translated">Anger att kontraktet är tillgänglig för en klient tills klienten återkallar kontraktet.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients of an object that implements &lt;xref:System.AddIn.Contract.IContract&gt; call the AcquireLifetimeToken method to notify the object that the client requires access to the contract.</source>
+          <target state="translated">Klienter för ett objekt som implementerar &lt;xref:System.AddIn.Contract.IContract&gt;anropa metoden AcquireLifetimeToken för att meddela objektet att klienten kräver åtkomst till kontraktet.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.AddIn.Contract.IContract&gt; is guaranteed to be usable as long as at least one lifetime token that it passed to a client has not been revoked.</source>
+          <target state="translated">En &lt;xref:System.AddIn.Contract.IContract&gt;garanterat användas så länge som minst en livslängdstoken som den som skickades till en klient inte har återkallats.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To revoke a contract, clients call the &lt;xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt; method.</source>
+          <target state="translated">Återkalla ett kontrakt, klienter anropet den &lt;xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt;metoden.&lt;/xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A value, also known as a lifetime token, that identifies the client that has acquired the contract.</source>
+          <target state="translated">Ett värde, även kallat en livslängdstoken som identifierar den klient som har fått kontraktet.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a hash code for the <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar en Hashkod för den <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A hash code for the <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En Hashkod för den <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Returns a contract that is implemented by this contract.</source>
+          <target state="translated">Returnerar ett kontrakt som implementerats av det här kontraktet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The QueryContract method enables &lt;xref:System.AddIn.Contract.IContract&gt; objects to expose other contracts.</source>
+          <target state="translated">Metoden QueryContract aktiverar &lt;xref:System.AddIn.Contract.IContract&gt;objekt att visa andra avtal.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>QueryContract serves a purpose similar to that of the <ph id="ph1">`IUnknown.QueryInterface`</ph> method in COM.</source>
+          <target state="translated">QueryContract har ett syfte som är samma som den <ph id="ph1">`IUnknown.QueryInterface`</ph> metod i COM.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format of the strings used to identify contracts is defined by the &lt;xref:System.AddIn.Contract.IContract&gt; implementation.</source>
+          <target state="translated">Formatet på strängar som används för att identifiera kontrakt som definieras av den &lt;xref:System.AddIn.Contract.IContract&gt;implementering.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that you use the &lt;xref:System.Type.AssemblyQualifiedName%2A&gt; of the contract that is being queried.</source>
+          <target state="translated">Det rekommenderas att du använder den &lt;xref:System.Type.AssemblyQualifiedName%2A&gt;kontraktets frågas.&lt;/xref:System.Type.AssemblyQualifiedName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A string that identifies the contract that is being requested.</source>
+          <target state="translated">En sträng som identifierar kontraktet som efterfrågas.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a contract that a client is requesting from the current contract; <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current contract does not support the contract that is requested.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar ett kontrakt som en klient begär från det aktuella kontraktet. <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om det aktuella kontraktet inte stöder kontrakt som begärs.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified contract is equal to this <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anger om det angivna kontraktet är lika med detta <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The contract to compare with this <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kontraktet ska jämföras med den här <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">contract</ph><ept id="p2">&lt;/code&gt;</ept> is equal to this <bpt id="p3">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">contract</ph><ept id="p2">&lt;/code&gt;</ept> is equal to this <bpt id="p3">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of the current <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar en strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A string representation of the current <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies that the contract is no longer accessible to a client.</source>
+          <target state="translated">Anger att kontraktet inte längre är tillgänglig för en klient.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients of an object that implements &lt;xref:System.AddIn.Contract.IContract&gt; call the RevokeLifetimeToken method to notify the object that the client no longer needs the contract.</source>
+          <target state="translated">Klienter för ett objekt som implementerar &lt;xref:System.AddIn.Contract.IContract&gt;anropa metoden RevokeLifetimeToken för att meddela objektet att klienten inte längre behöver kontraktet.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.AddIn.Contract.IContract&gt; is guaranteed to be usable as long as at least one lifetime token that it passed to a client has not been revoked.</source>
+          <target state="translated">En &lt;xref:System.AddIn.Contract.IContract&gt;garanterat användas så länge som minst en livslängdstoken som den som skickades till en klient inte har återkallats.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To acquire a contract, clients call the &lt;xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt; method.</source>
+          <target state="translated">Att hämta ett kontrakt, klienter anropet den &lt;xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt;metoden.&lt;/xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A value, also known as a lifetime token, that identifies the client that is revoking the contract.</source>
+          <target state="translated">Ett värde, även kallat en livslängdstoken som identifierar den klient som återkallar kontraktet.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
