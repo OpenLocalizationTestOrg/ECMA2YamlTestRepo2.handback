@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6932b2e3121c971bbf3626d444598d3e69d16db1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.CodeDomSerializerBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84281accd7ec08b6c4c7c52e5256987b1b754509</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">919911bbb75cd038efaf38a3e35e1b29b611f214</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> classes.</source>
+          <target state="translated">提供的基底類別<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The CodeDomSerializerBase class is used as a shared base between the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt; and &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt; classes.</source>
+          <target state="translated">CodeDomSerializerBase 類別做為共用基底之間&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;和&lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt;類別。&lt;/xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt; &lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Public &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt; classes derive from the CodeDomSerializerBase class.</source>
+          <target state="translated">公用&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;類別衍生自 CodeDomSerializerBase 類別。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each public class defines its own public API.</source>
+          <target state="translated">每個公用類別定義自己的公用 API。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The CodeDomSerializerBase class defines no public API, but does offer a multitude of utility methods that can be used to aid the serialization process.</source>
+          <target state="translated">CodeDomSerializerBase 類別定義任何公用 API，但是也提供許多公用程式方法，可用來協助序列化程序。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Deserializes the given expression into an in-memory object.</source>
+          <target state="translated">還原序列化指定的記憶體中物件的運算式。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is a helper method that derived classes can call to deserialize an expression.</source>
+          <target state="translated">這是 helper 方法，衍生類別可以還原序列化運算式呼叫。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It deserializes the statement by interpreting and executing the CodeDOM expression specified by the <ph id="ph1">`expression`</ph> parameter, and then returns the results.</source>
+          <target state="translated">還原序列化解譯及執行所指定的 CodeDOM 運算式陳述式<ph id="ph1">`expression`</ph>參數，然後傳回結果。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If an object needs to be created as a result of this expression, it will be given the name specified by the <ph id="ph1">`name`</ph> parameter.</source>
+          <target state="translated">如果物件必須先建立這個運算式的結果，會授與它所指定的名稱<ph id="ph1">`name`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The name can be <ph id="ph1">`null`</ph> if there is no need to name the object.</source>
+          <target state="translated">名稱可以是<ph id="ph1">`null`</ph>如果不需要命名的物件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following table describes how specific expressions are handled.</source>
+          <target state="translated">下表描述如何指定運算式的處理。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>|Expression|Behavior|   |----------------|--------------|   |&lt;xref:System.CodeDom.CodeThisReferenceExpression&gt;|This expression represents <ph id="ph1">`this`</ph> or <ph id="ph2">`Me`</ph>.</source>
+          <target state="translated">|運算式 |行為 |  |----------------|--------------|  |&lt;xref:System.CodeDom.CodeThisReferenceExpression&gt;|這個運算式表示<ph id="ph1">`this`</ph>或<ph id="ph2">`Me`</ph>。&lt;/xref:System.CodeDom.CodeThisReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To locate the object that is associated with this expression, the DeserializeExpression method will look in the context stack for a &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.</source>
+          <target state="translated">若要找出與這個運算式相關聯的物件，DeserializeExpression 方法會查詢&lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;內容堆疊</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This object contains the root object of the graph and the expression that represents it.</source>
+          <target state="translated">此物件包含圖形和運算式，表示它的根物件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the object is present and the expression matches, the root object will be returned.</source>
+          <target state="translated">如果物件存在，並且運算式比對，就會傳回根物件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An error is reported if an instance cannot be located.|   |&lt;xref:System.CodeDom.CodeFieldReferenceExpression&gt;|If the target of the field reference evaluates to the root object, the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method of the manager parameter will be used to retrieve the object instance based on name.</source>
+          <target state="translated">如果找不到執行個體，則會報告錯誤。 |  |&lt;xref:System.CodeDom.CodeFieldReferenceExpression&gt;|如果欄位參考的目標評估為根物件，&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;的管理員參數的方法將會用來擷取以名稱為基礎的物件執行個體。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; &lt;/xref:System.CodeDom.CodeFieldReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Otherwise, standard reflection is used against the target object to locate the requested field.</source>
+          <target state="translated">否則，一般使用反映對目標物件找不到要求的欄位。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An error is reported if the field cannot be located.|   |&lt;xref:System.CodeDom.CodeVariableReferenceExpression&gt;|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method of the <ph id="ph1">`manager`</ph> parameter is used to locate the instance representing the given variable name.</source>
+          <target state="translated">如果找不到欄位，會報告錯誤。 |  |&lt;xref:System.CodeDom.CodeVariableReferenceExpression&gt;|&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;方法<ph id="ph1">`manager`</ph>參數用來找出此執行個體表示指定的變數名稱。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; &lt;/xref:System.CodeDom.CodeVariableReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An error is reported if an instance cannot be located.|       DeserializeExpression continues to interpret expressions until they are completely resolved to an object, or until it can no longer simplify the expression.</source>
+          <target state="translated">如果找不到執行個體，則會報告錯誤。 |      DeserializeExpression 會繼續解譯運算式，直到它們完全解析至物件，或直到它不再可以簡化的運算式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In this case, DeserializeExpression will return a &lt;xref:System.CodeDom.CodeExpression&gt; that contains the most simplified expression.</source>
+          <target state="translated">在此情況下，將會傳回 DeserializeExpression &lt;xref:System.CodeDom.CodeExpression&gt;，其中包含最簡化的運算式。&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following expressions are not supported:      -   &lt;xref:System.CodeDom.CodeEventReferenceExpression&gt;      -   &lt;xref:System.CodeDom.CodeMethodReferenceExpression&gt;      -   &lt;xref:System.CodeDom.CodeDelegateCreateExpression&gt;</source>
+          <target state="translated">不支援下列運算式:- &lt;xref:System.CodeDom.CodeEventReferenceExpression&gt;- &lt;xref:System.CodeDom.CodeMethodReferenceExpression&gt;- &lt;xref:System.CodeDom.CodeDelegateCreateExpression&gt;&lt;/xref:System.CodeDom.CodeDelegateCreateExpression&gt; &lt;/xref:System.CodeDom.CodeMethodReferenceExpression&gt; &lt;/xref:System.CodeDom.CodeEventReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the object that results from the expression.</source>
+          <target state="translated">運算式產生的物件名稱。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no need to name the object.</source>
+          <target state="translated">可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果不需要命名的物件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to interpret.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>來解譯。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An object resulting from interpretation of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">expression</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">物件所產生的解譯<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">expression</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Returns an instance of the given type.</source>
+          <target state="translated">傳回指定型別的執行個體。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The DeserializeInstance method is invoked during deserialization to obtain an instance of an object.</source>
+          <target state="translated">DeserializeInstance 方法會取得物件的執行個體還原序列化期間叫用。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When this is called, an instance of the requested type should be returned.</source>
+          <target state="translated">此呼叫時，應該會傳回所要求類型的執行個體。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default implementation invokes the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt; method of the <ph id="ph1">`manager`</ph> parameter.</source>
+          <target state="translated">預設實作會叫用&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;方法<ph id="ph1">`manager`</ph>參數。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the instance to return.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要傳回之執行個體。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The parameters to pass to the constructor for <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">要傳遞給建構函式的參數<ph id="ph1">`type`</ph>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the deserialized object.</source>
+          <target state="translated">還原序列化的物件名稱。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add this object to the design container; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要將此物件加入設計容器，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object must implement <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this to have any effect.</source>
+          <target state="translated">物件必須實作<bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，才能發生效用。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Deserializes properties on the given object from the invariant culture’s resource bundle.</source>
+          <target state="translated">還原序列化而異的文化特性的資源配套從指定的物件上的屬性。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The DeserializePropertiesFromResources method is a helper method that derived classes can call.</source>
+          <target state="translated">DeserializePropertiesFromResources 方法是在衍生類別的 helper 方法可呼叫。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It looks for properties on the given object and attempts to load their values out of the invariant culture’s resource bundle.</source>
+          <target state="translated">它會尋找指定的物件上的屬性，並嘗試載入它們的值，不因文化特性而異的資源配套。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This is generally used to handle design-time properties that are not emitted into source code.</source>
+          <target state="translated">這通常用來處理不會發出至原始碼的設計階段屬性。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It should not be used for localized properties because it only operates on the invariant culture.</source>
+          <target state="translated">它應該不會用於當地語系化屬性因為它只作用於文化特性而異。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method inspects all of the properties of the <ph id="ph1">`value`</ph> parameter that match the attributes specified by the <ph id="ph2">`filter`</ph> parameter, and then checks for those properties in a resource binary object.</source>
+          <target state="translated">這個方法會檢查所有的屬性<ph id="ph1">`value`</ph>參數符合指定的屬性<ph id="ph2">`filter`</ph>參數，然後檢查這些資源的二進位物件中的屬性。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This is useful for deserializing properties that cannot be represented in code, such as design-time properties.</source>
+          <target state="translated">這可用於無法在程式碼，例如設計階段屬性中的還原序列化屬性。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This method requires that a designer loader offers an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to read resources.</source>
+          <target state="translated">此方法需要設計工具載入器提供&lt;xref:System.ComponentModel.Design.IResourceService&gt;讀取資源。&lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.ComponentModel.Design.IResourceService&gt; provides a &lt;xref:System.Resources.ResXResourceReader&gt; for the invariant culture, then DeserializePropertiesFromResources will read resources from the XML resource (.resx) file’s metadata section, which is not included in final compiled code.</source>
+          <target state="translated">如果&lt;xref:System.ComponentModel.Design.IResourceService&gt;提供&lt;xref:System.Resources.ResXResourceReader&gt;而異的文化特性，然後 DeserializePropertiesFromResources 將資源從讀取 XML 資源 (.resx) 檔案的中繼資料區段不會包含在最終編譯的程式碼。&lt;/xref:System.Resources.ResXResourceReader&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If this service is not available, no resources will be read.</source>
+          <target state="translated">如果此服務無法使用，將會不讀取任何資源。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The object from which the properties are to be deserialized.</source>
+          <target state="translated">從中的屬性是要還原序列化物件。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be deserialized.</source>
+          <target state="translated">&lt;xref:System.Attribute&gt;陣列，可篩選的屬性將進行還原序列化。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Deserializes a statement by interpreting and executing a CodeDOM statement.</source>
+          <target state="translated">解譯及執行 CodeDOM 陳述式，還原序列化的陳述式。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The DeserializeStatement method is a helper method that derived classes can call.</source>
+          <target state="translated">DeserializeStatement 方法是在衍生類別的 helper 方法可呼叫。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It interprets the <ph id="ph1">`statement`</ph> parameter.</source>
+          <target state="translated">它可解譯<ph id="ph1">`statement`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.CodeStatement&gt; being deserialized will be pushed on the context stack.</source>
+          <target state="translated">&lt;xref:System.CodeDom.CodeStatement&gt;在還原序列化會推入內容堆疊。&lt;/xref:System.CodeDom.CodeStatement&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to deserialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>還原序列化。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">取得專案的目標版本的.NET framework 中定義的屬性集合。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The target type.</source>
+          <target state="translated">目標類型。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">.NET Framework 專案的目標版本中所定義的屬性集合。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">取得專案的目標版本的.NET framework 中定義的屬性集合。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">目標類型的物件。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">.NET Framework 專案的目標版本中所定義的屬性集合。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a collection of events as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">取得專案的目標版本的.NET framework 中定義事件的集合。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">目標類型的物件。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An array of attributes to pass to the target version of the .NET Framework.</source>
+          <target state="translated">屬性的陣列傳遞至.NET Framework 目標版本。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A collection of events as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">.NET Framework 專案的目標版本中所定義的事件的集合。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns an expression for the given object.</source>
+          <target state="translated">傳回指定之物件的運算式。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The GetExpression method returns an expression representing the given object.</source>
+          <target state="translated">GetExpression 方法會傳回代表指定之物件的運算式。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It can return <ph id="ph1">`null`</ph>, indicating that no expression has been set that describes the object.</source>
+          <target state="translated">它可以傳回<ph id="ph1">`null`</ph>，這表示，沒有運算式已設定之描述的物件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Expressions are acquired in one of three ways:      -   The expression could be the result of a prior call to the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method.</source>
+          <target state="translated">取得運算式中有三種:-運算式可能在先前呼叫的結果&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-   The expression could have been found in the &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.</source>
+          <target state="translated">-此運算式無法中已找到&lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-   The expression could be derived through &lt;xref:System.ComponentModel.Design.IReferenceService&gt;.</source>
+          <target state="translated">無法透過&lt;xref:System.ComponentModel.Design.IReferenceService&gt;.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;衍生-運算式</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To derive expressions through &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, the GetExpression method queries the reference service for a name for the given object.</source>
+          <target state="translated">若要衍生透過運算式&lt;xref:System.ComponentModel.Design.IReferenceService&gt;，GetExpression 方法查詢參考服務中的指定物件的名稱。&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the expression service returns a valid name, &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, the GetExpression method checks to see if there is a "." in the name.</source>
+          <target state="translated">如果運算式服務傳回有效的名稱， &lt;xref:System.ComponentModel.Design.IReferenceService&gt;，GetExpression 方法會檢查以查看是否有"。"的名稱。&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This indicates that the expression service found this object as the return value of a read-only property on another object.</source>
+          <target state="translated">這表示運算式服務找到此物件的唯讀屬性的傳回值為另一個物件。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If there is a ".", GetExpression will split the reference into parts.</source>
+          <target state="translated">如果沒有"。"，GetExpression 會分割成組件的參考。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The leftmost part is a name that will be evaluated with the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method.</source>
+          <target state="translated">最左邊的部分是要評估與名稱&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For each subsequent part, a property reference expression will be built.</source>
+          <target state="translated">對於每個後續的部分，將建置屬性參考運算式。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The final expression will then be returned.</source>
+          <target state="translated">最終的運算式，則會傳回。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the object did not have an expression set, or if the object was not found in the reference service, GetExpression will return <ph id="ph1">`null`</ph>, indicating there is no existing expression for the object.</source>
+          <target state="translated">如果物件沒有運算式設定，或如果參考服務中找不到物件，將會傳回 GetExpression <ph id="ph1">`null`</ph>，指出物件沒有現有的運算式。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The object for which to get an expression.</source>
+          <target state="translated">要取得運算式物件。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing v<bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">alue</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if there is no existing expression for v<bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">alue</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表 v<bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">alue</ph><ept id="p2">&lt;/code&gt;</ept>，或<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> v 沒有現有的運算式是否<bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">alue</ph><ept id="p4">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of properties as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">取得專案的目標版本的.NET framework 中定義的屬性集合。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">目標類型的物件。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of attributes to pass to the target version of the .NET Framework.</source>
+          <target state="translated">屬性的陣列傳遞至.NET Framework 目標版本。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A collection of properties as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">.NET Framework 專案的目標版本中所定義的屬性的集合。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets a reflection type generated from type metadata.</source>
+          <target state="translated">取得型別中繼資料從產生的反映型別。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The return value will not be equal to <ph id="ph1">`type`</ph> and should not be used for comparison with non-reflection types.</source>
+          <target state="translated">傳回值將不會等於<ph id="ph1">`type`</ph>與且不應該使用非反映類型與比較。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The type to use metadata from.</source>
+          <target state="translated">若要使用來自中繼資料類型。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A reflection type generated from the metadata of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">產生的中繼資料的反映型別<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets a reflection type generated from object metadata.</source>
+          <target state="translated">取得從物件中繼資料產生的反映型別。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The return value will not be equal to the type of object and should not be used for comparison with non-reflection types.</source>
+          <target state="translated">傳回的值不會等於物件的型別，並不應該用於非反映類型與比較。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">序列化管理員。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The object to use metadata from.</source>
+          <target state="translated">若要使用來自中繼資料物件。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reflection type generated from the metadata of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">object</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">產生的中繼資料的反映型別<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">object</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Locates a serializer for the given object value.</source>
+          <target state="translated">找出給定的物件值的序列化程式。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The GetSerializer method is an extension to the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">GetSerializer 方法是擴充功能&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method takes an object type, rather than an object value.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;方法會採用物件類型，而非物件值。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If an external party had overridden metadata for a specific object through &lt;xref:System.ComponentModel.TypeDescriptor&gt;, that metadata override would not be seen by the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method, which only takes a type.</source>
+          <target state="translated">如果外部合作對象已覆寫透過特定物件的中繼資料&lt;xref:System.ComponentModel.TypeDescriptor&gt;，該中繼資料覆寫會無法看到&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;方法，只接受型別。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The GetSerializer method checks the metadata of the value and the value’s type.</source>
+          <target state="translated">GetSerializer 方法會檢查中繼資料值和值的類型。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the two differ, GetSerializer will look to see if there is a custom designer serializer attribute on the value.</source>
+          <target state="translated">如果兩個不同，GetSerializer 會尋找以查看是否有自訂設計工具的序列化程式屬性的值。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If so, GetSerializer will attempt to use it.</source>
+          <target state="translated">如果是這樣，GetSerializer 會嘗試使用它。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Otherwise, it will defer to &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">否則，它會由&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The object specifying the serializer to retrieve.</source>
+          <target state="translated">物件，指定要擷取的序列化程式。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is appropriate for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>適合<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Locates a serializer for the given type.</source>
+          <target state="translated">找出指定類型的序列化程式。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The GetSerializer method is an extension to the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">GetSerializer 方法是擴充功能&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method takes an object type, rather than an object value.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;方法會採用物件類型，而非物件值。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; specifying the serializer to retrieve.</source>
+          <target state="translated">&lt;xref:System.Type&gt;指定要擷取的序列化程式。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is appropriate for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">valueType</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>適合<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">valueType</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;valueType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;valueType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is aware of the target version of the .NET Framework, for use in type filtering.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>能夠知道目標版本的.NET Framework 中，以用於型別篩選。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The type description provider service.</source>
+          <target state="translated">類型描述提供者服務。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>An object from which the type description provider service can be derived, if <ph id="ph1">`provider`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">衍生的來源類型描述提供者服務可以是，如果物件<ph id="ph1">`provider`</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A .NET Framework-aware type description provider.</source>
+          <target state="translated">.NET Framework 感知的類型描述提供者。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Returns a unique name for the given object.</source>
+          <target state="translated">傳回指定之物件的唯一名稱。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The GetUniqueName method calls the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt; method.</source>
+          <target state="translated">GetUniqueName 方法呼叫&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If this method does not return a name, then GetUniqueName uses &lt;xref:System.ComponentModel.Design.Serialization.INameCreationService&gt; to fabricate a valid name for the object.</source>
+          <target state="translated">如果這個方法不會傳回一個名稱，則使用 GetUniqueName&lt;xref:System.ComponentModel.Design.Serialization.INameCreationService&gt;要由此物件的有效名稱。&lt;/xref:System.ComponentModel.Design.Serialization.INameCreationService&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If the service is not available, GetUniqueName will fabricate a name based on the short type name combined with an index number to make it unique.</source>
+          <target state="translated">如果服務無法使用，GetUniqueName 將由此根據 short 型別名稱結合的索引編號，使它成為唯一的名稱。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The resulting name is associated with the serialization manager by calling the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt; method before the new name is returned.</source>
+          <target state="translated">產生的名稱是藉由呼叫相關聯的序列化管理員&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt;方法之前會傳回新的名稱。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The object for which the name will be retrieved.</source>
+          <target state="translated">物件，將會擷取名稱。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A unique name for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">唯一名稱<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the given object has been serialized.</source>
+          <target state="translated">傳回值，指出是否已序列化給定的物件。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For the <ph id="ph1">`value`</ph> parameter to be considered serialized, the <ph id="ph2">`manager`</ph> parameter or another serializer must have called the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method to create a relationship between <ph id="ph3">`value`</ph> and a referring expression.</source>
+          <target state="translated">如<ph id="ph1">`value`</ph>視為參數序列化，則<ph id="ph2">`manager`</ph>參數或另一個序列化程式必須先呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;方法來建立之間的關聯性<ph id="ph3">`value`</ph>和參考的運算式。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The object to test for previous serialization.</source>
+          <target state="translated">要測試先前序列化的物件。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> has been serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>已序列化，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the given object has been serialized, optionally considering preset expressions.</source>
+          <target state="translated">傳回值，指出是否已經序列化給定的物件中，選擇性地考量預設的運算式。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For the <ph id="ph1">`value`</ph> parameter to be considered serialized, the <ph id="ph2">`manager`</ph> parameter or another serializer must have called the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method to create a relationship between <ph id="ph3">`value`</ph> and a referring expression.</source>
+          <target state="translated">如<ph id="ph1">`value`</ph>視為參數序列化，則<ph id="ph2">`manager`</ph>參數或另一個序列化程式必須先呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;方法來建立之間的關聯性<ph id="ph3">`value`</ph>和參考的運算式。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The object to test for previous serialization.</source>
+          <target state="translated">要測試先前序列化的物件。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include preset expressions; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要包含預設的運算式。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> has been serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>已序列化，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Returns an expression representing the creation of the given object.</source>
+          <target state="translated">傳回代表指定之物件的建立的運算式。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The SerializeCreationExpression method can be used to serialize an expression that represents the creation of the <ph id="ph1">`value`</ph> parameter.</source>
+          <target state="translated">SerializeCreationExpression 方法可用來將序列化代表建立運算式<ph id="ph1">`value`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>It is aware of instance descriptors.</source>
+          <target state="translated">它會感知執行個體描述項。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`isComplete`</ph> parameter is set to <ph id="ph2">`true`</ph> if the expression represents a fully configured object, or <ph id="ph3">`false`</ph> if further serialization must be done on the object’s properties.</source>
+          <target state="translated"><ph id="ph1">`isComplete`</ph>參數設定為<ph id="ph2">`true`</ph>如果運算式代表完整設定的物件，或<ph id="ph3">`false`</ph>如果序列化進一步必須對物件的屬性。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <ph id="ph1">`value`</ph> was fully serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<ph id="ph1">`value`</ph>已完全序列化，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An expression representing the creation of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">運算式，表示建立<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Serializes the given event into the given statement collection.</source>
+          <target state="translated">將指定的事件序列化至指定的陳述式集合。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The SerializeEvent method is a helper method that derived classes can call to serialize a single event into the given &lt;xref:System.CodeDom.CodeStatementCollection&gt;.</source>
+          <target state="translated">SerializeEvent 方法是在衍生類別的 helper 方法可呼叫以單一事件序列化至指定&lt;xref:System.CodeDom.CodeStatementCollection&gt;。&lt;/xref:System.CodeDom.CodeStatementCollection&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>SerializeEvent queries the serialization manager for a &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; for the given event, and then asks the &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; to serialize it.</source>
+          <target state="translated">SerializeEvent 查詢的序列化管理員&lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;所指定的事件，並詢問&lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;要序列化該&lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;&lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>SerializeEvent places the <ph id="ph1">`statements`</ph> and <ph id="ph2">`descriptor`</ph> parameters on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">SerializeEvent 數位<ph id="ph1">`statements`</ph>和<ph id="ph2">`descriptor`</ph> &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt;參數</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>SerializeEvent requires an &lt;xref:System.ComponentModel.Design.IEventBindingService&gt; to discover event bindings to methods that are not compiled.</source>
+          <target state="translated">需要 SerializeEvent&lt;xref:System.ComponentModel.Design.IEventBindingService&gt;探索事件繫結至未編譯的方法。&lt;/xref:System.ComponentModel.Design.IEventBindingService&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If this service is not present, event bindings to non-compiled methods will not be written.</source>
+          <target state="translated">如果此服務不存在，將不會寫入事件繫結至未編譯的方法。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Event bindings to compiled methods will still be serialized if the objects to which the events are bound can be converted into expressions.</source>
+          <target state="translated">如果要將事件繫結的物件可以轉換為運算式，仍會序列化事件繫結至已編譯的方法。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the event will be serialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>事件序列化為。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The object to which <ph id="ph1">`descriptor`</ph> is bound.</source>
+          <target state="translated">目標物件<ph id="ph1">`descriptor`</ph>繫結。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the event to serialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定要序列化的事件。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;descriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;descriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IEventBindingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not available.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IEventBindingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>無法使用。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Serializes the specified events into the given statement collection.</source>
+          <target state="translated">將指定的事件序列化至指定的陳述式集合。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The SerializeEvents method is a helper method that derived classes can call.</source>
+          <target state="translated">SerializeEvents 方法是在衍生類別的 helper 方法可呼叫。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>It looks at events on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt; method for each event.</source>
+          <target state="translated">它會查看事件<ph id="ph1">`value`</ph>參數，它符合<ph id="ph2">`filter`</ph>參數，然後呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt;每個事件的方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The SerializeEvents method places the &lt;xref:System.ComponentModel.InheritanceAttribute&gt; for <ph id="ph1">`value`</ph> on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">SerializeEvents 方法上的芳鄰&lt;xref:System.ComponentModel.InheritanceAttribute&gt;如<ph id="ph1">`value`</ph> &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.InheritanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the event will be serialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>事件序列化為。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The object on which events will be serialized.</source>
+          <target state="translated">物件，將會在其序列化事件。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which events will be serialized.</source>
+          <target state="translated">&lt;xref:System.Attribute&gt;陣列可篩選要序列化的事件。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Serializes the properties on the given object into the given statement collection.</source>
+          <target state="translated">將指定物件上的屬性序列化至指定的陳述式集合。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The SerializeProperties method is a helper method that derived classes can call.</source>
+          <target state="translated">SerializeProperties 方法是在衍生類別的 helper 方法可呼叫。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>It looks at properties on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt; method for each property.</source>
+          <target state="translated">它會查看屬性<ph id="ph1">`value`</ph>參數，它符合<ph id="ph2">`filter`</ph>參數，然後呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt;每一個屬性的方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The SerializeProperties method places the &lt;xref:System.ComponentModel.InheritanceAttribute&gt; for <ph id="ph1">`value`</ph> on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">SerializeProperties 方法上的芳鄰&lt;xref:System.ComponentModel.InheritanceAttribute&gt;如<ph id="ph1">`value`</ph> &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.InheritanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the properties will be serialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>屬性序列化為。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The object on which the properties will be serialized.</source>
+          <target state="translated">屬性會序列化物件。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be serialized.</source>
+          <target state="translated">&lt;xref:System.Attribute&gt;陣列，可篩選要序列化的屬性。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Serializes the properties on the given object into the invariant culture’s resource bundle.</source>
+          <target state="translated">將指定的物件上的內容序列化至因文化特性而異的資源配套。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The SerializePropertiesToResources method is a helper method that derived classes can call.</source>
+          <target state="translated">SerializePropertiesToResources 方法是在衍生類別的 helper 方法可呼叫。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>It looks at properties on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it serializes the properties into the invariant culture resource bundle.</source>
+          <target state="translated">它會查看屬性<ph id="ph1">`value`</ph>參數，它符合<ph id="ph2">`filter`</ph>參數，然後將內容序列化至的文化特性而異的資源配套。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If the resource service returns a &lt;xref:System.Resources.ResXResourceWriter&gt;, the property values will be stored in the metadata section of the XML resource (.resx) file.</source>
+          <target state="translated">如果資源服務傳回&lt;xref:System.Resources.ResXResourceWriter&gt;，屬性值會儲存在中繼資料區段的 XML 資源 (.resx) 檔。&lt;/xref:System.Resources.ResXResourceWriter&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`statements`</ph> parameter is not used.</source>
+          <target state="translated"><ph id="ph1">`statements`</ph>不使用參數。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To be serialized as a resource, a property must be simple (not a content property) and its value must be serializable.</source>
+          <target state="translated">若要序列化為資源，屬性必須是簡單 （而不是內容屬性），而且其值必須是可序列化。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Properties that do not conform to this pattern will be skipped.</source>
+          <target state="translated">將略過不符合此模式的屬性。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>SerializePropertiesToResources requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the invariant culture.</source>
+          <target state="translated">需要 SerializePropertiesToResources&lt;xref:System.ComponentModel.Design.IResourceService&gt;取得&lt;xref:System.Resources.ResourceWriter&gt;寫入而異的文化特性的資源。&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If this service is not available, no resources will be written.</source>
+          <target state="translated">如果此服務無法使用，則會不寫入任何資源。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Not used.</source>
+          <target state="translated">未使用。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The object whose properties will be serialized.</source>
+          <target state="translated">將序列化其屬性的物件。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be serialized.</source>
+          <target state="translated">&lt;xref:System.Attribute&gt;陣列，可篩選要序列化的屬性。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Serializes a property on the given object.</source>
+          <target state="translated">將序列化給定物件上的屬性。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The SerializeProperty method retrieves a &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; for the <ph id="ph1">`propertyToSerialize`</ph> parameter and delegates to it.</source>
+          <target state="translated">SerializeProperty 方法會擷取&lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;如<ph id="ph1">`propertyToSerialize`</ph>參數，該委派&lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>SerializeProperty places the <ph id="ph1">`statements`</ph> and <ph id="ph2">`propertyToSerialize`</ph> parameters on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">SerializeProperty 數位<ph id="ph1">`statements`</ph>和<ph id="ph2">`propertyToSerialize`</ph> &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt;參數</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the property will be serialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>屬性序列化為。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The object on which the property will be serialized.</source>
+          <target state="translated">屬性會序列化物件。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The property to serialize.</source>
+          <target state="translated">要序列化的屬性。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;propertyToSerialize&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;propertyToSerialize&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into a resource bundle using the given resource name.</source>
+          <target state="translated">將指定的物件序列化至使用指定的資源名稱的資源配套。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The SerializeResource method is a helper method that serializes a value to a resource bundle under the given name.</source>
+          <target state="translated">SerializeResource 方法是 helper 方法，會將序列化值，以指定的名稱下的資源配套。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The culture that the resource is written to is determined by searching the serialization manager’s &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt; collection for a property called <ph id="ph1">`ResourceCulture`</ph>.</source>
+          <target state="translated">寫入資源的文化特性由搜尋序列化管理員的&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt;集合中的之屬性呼叫<ph id="ph1">`ResourceCulture`</ph>。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>If this property exists, resources will be written to that culture.</source>
+          <target state="translated">如果這個屬性存在，會將資源寫入該文化特性。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Otherwise, resources will be written to the invariant culture.</source>
+          <target state="translated">否則，會將資源寫入文化特性而異。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`value`</ph> parameter must be serializable.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>參數必須是可序列化。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>SerializeResource requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the correct culture.</source>
+          <target state="translated">需要 SerializeResource&lt;xref:System.ComponentModel.Design.IResourceService&gt;取得&lt;xref:System.Resources.ResourceWriter&gt;寫入正確的文化特性的資源。&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If this service is not available, SerializeResource will instead build a binary object in code that represents the resource.</source>
+          <target state="translated">如果此服務無法使用，SerializeResource 將改為建立代表資源的程式碼中的二進位物件。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The name of the resource bundle into which <ph id="ph1">`value`</ph> will be serialized.</source>
+          <target state="translated">資源配套，其中名稱<ph id="ph1">`value`</ph>會序列化。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into a resource bundle using the given resource name.</source>
+          <target state="translated">將指定的物件序列化至使用指定的資源名稱的資源配套。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The resource is always written to the invariant culture.</source>
+          <target state="translated">資源就一定會寫入到文化特性而異。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`value`</ph> parameter must be serializable.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>參數必須是可序列化。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The SerializeResourceInvariant method requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the correct culture.</source>
+          <target state="translated">SerializeResourceInvariant 方法需要&lt;xref:System.ComponentModel.Design.IResourceService&gt;取得&lt;xref:System.Resources.ResourceWriter&gt;寫入正確的文化特性的資源。&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If this service is not available, &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt; will instead build a binary object in code that represents the resource.</source>
+          <target state="translated">如果此服務無法使用，&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;會改為建立代表資源的程式碼中的二進位物件。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The name of the resource bundle into which <ph id="ph1">`value`</ph> will be serialized.</source>
+          <target state="translated">資源配套，其中名稱<ph id="ph1">`value`</ph>會序列化。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression.</source>
+          <target state="translated">將指定的物件序列化成運算式。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`value`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case a primitive expression will be returned.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>參數可以是<ph id="ph2">`null`</ph>，在此情況下會傳回原始的運算式。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The SerializeToExpression method uses the following rules for serializing types:      1.</source>
+          <target state="translated">SerializeToExpression 方法會序列化型別使用下列規則︰ 1。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>It first calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method to see if an expression has already been created for the object.</source>
+          <target state="translated">它會先呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;若要查看運算式是否已建立物件的方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If so, it returns the existing expression.</source>
+          <target state="translated">如果是的話，它會傳回現有的運算式。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>It then locates the object’s serializer, and asks it to serialize.</source>
+          <target state="translated">然後，找出物件的序列化程式，並讓其進行序列化。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If the return value of the object’s serializer is a &lt;xref:System.CodeDom.CodeExpression&gt;, the expression is returned.</source>
+          <target state="translated">如果物件的序列化程式傳回值是&lt;xref:System.CodeDom.CodeExpression&gt;，則會傳回運算式。&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>It makes one last call to &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; to see if the serializer added an expression.</source>
+          <target state="translated">它會呼叫最後一個&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;以查看是否序列化程式新增運算式。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Finally, it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">最後，它會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>If no expression could be created and no suitable serializer could be found, an error will be reported through the serialization manager.</source>
+          <target state="translated">如果無法建立沒有運算式，而且找不到任何適合的序列化程式，則會報告錯誤，透過序列化管理員。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>No error will be reported if a serializer was found but it failed to produce an expression.</source>
+          <target state="translated">如果找不到序列化程式，但它無法產生運算式，將會不報告任何錯誤。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>In this case, it is assumed that the serializer either already reported the error or it did not attempt to serialize the object.</source>
+          <target state="translated">在此情況下，它會假設序列化程式已報告錯誤，或是它未嘗試序列化物件。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>If the serializer returned a statement or a collection of statements, those statements will not be discarded.</source>
+          <target state="translated">如果序列化程式傳回的陳述式或陳述式集合，這些陳述式不會被捨棄。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The SerializeToExpression method will first look for a &lt;xref:System.ComponentModel.Design.Serialization.StatementContext&gt; on the context stack and add statements to the statement context object's &lt;xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt; property.</source>
+          <target state="translated">SerializeToExpression 方法會先尋找&lt;xref:System.ComponentModel.Design.Serialization.StatementContext&gt;內容堆疊，並將陳述式加入至陳述式內容物件&lt;xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt;屬性。&lt;/xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.StatementContext&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>If there is no statement context, the SerializeToExpression method will look in the context for a &lt;xref:System.CodeDom.CodeStatementCollection&gt; and add the statements there.</source>
+          <target state="translated">如果沒有陳述式內容，SerializeToExpression 方法會尋找的內容中&lt;xref:System.CodeDom.CodeStatementCollection&gt;然後加入那里的陳述式。&lt;/xref:System.CodeDom.CodeStatementCollection&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>If no place can be found to add the statements, an error will be generated.</source>
+          <target state="translated">如果沒有地方可以找到加入陳述式，將會產生錯誤。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should not call the SerializeToExpression method within &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt; when serializing your own object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 您不應該呼叫內的 SerializeToExpression 方法&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt;時將您自己的物件序列化。&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Instead, you should call &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;.</source>
+          <target state="translated">相反地，您應該呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If it returns <ph id="ph1">`null`</ph>, create your own expression and call &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;.</source>
+          <target state="translated">如果它傳回<ph id="ph1">`null`</ph>、 建立您自己的運算式，並呼叫&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Then proceed with the rest of your serialization.</source>
+          <target state="translated">然後繼續進行其餘部分的序列化。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> can be serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>可以序列化，否則<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression.</source>
+          <target state="translated">將指定的物件序列化成運算式。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; method is a helper method that serializes a value to a resource expression.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;方法是 helper 方法，會將值變更為資源運算式序列化。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This is in contrast to the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt; method, which writes a value to a resource binary object.</source>
+          <target state="translated">這是相對於&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;方法，將值寫入資源二進位物件。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; goes one step further and returns an expression that can be used to recover the resource.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;進一步移一個步驟，並傳回可用於復原之資源的運算式。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>For example, the return value might be "rm.GetValue("SomeBitmap");".</source>
+          <target state="translated">例如，傳回的值可能是 「 rm。GetValue("SomeBitmap");"。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The name of the resource is calculated from the &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;, if one can be found on the context stack.</source>
+          <target state="translated">資源的名稱會計算從&lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;，如果找到一個內容堆疊上。&lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; method will look on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt; for the following objects:      -   &lt;xref:System.CodeDom.CodeStatementCollection&gt;—a collection of statements to add a resource manager to, if one needs to be declared.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;方法將會尋找&lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;下列物件:- &lt;xref:System.CodeDom.CodeStatementCollection&gt;— 陳述式來加入資源管理員，如果您需要將宣告的集合。&lt;/xref:System.CodeDom.CodeStatementCollection&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;—the root expression, which is needed to create a resource manager.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;— 根運算式，但需要建立資源管理員。&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;—used to fabricate a name for the resource and to decide what type of resource manager call to make.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;— 用來製造資源的名稱，以及決定何種類型的資源管理員呼叫，讓。&lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> as a serialized expression.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>做為序列化的運算式。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression appropriate for the invariant culture.</source>
+          <target state="translated">將指定的物件序列化至適當的文化特性而異的運算式。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ensureInvariant`</ph> parameter is <ph id="ph2">`true`</ph>, the SerializeToResourceExpression method will also write the resource value into the invariant culture’s resource file if the current <ph id="ph3">`ResourceCulture`</ph> is not the invariant culture..</source>
+          <target state="translated">如果<ph id="ph1">`ensureInvariant`</ph>參數是<ph id="ph2">`true`</ph>，SerializeToResourceExpression 方法將也寫入資源值而異的文化特性資源檔如果目前<ph id="ph3">`ResourceCulture`</ph>不是文化特性而異。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to serialize into the invariant culture; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>將序列化為文化特性而異。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> as a serialized expression.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>做為序列化的運算式。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Associates an object with an expression.</source>
+          <target state="translated">將物件關聯的運算式。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The SetExpression method is a helper method that associates a &lt;xref:System.CodeDom.CodeExpression&gt; with an object.</source>
+          <target state="translated">SetExpression 方法是 helper 方法相關聯的&lt;xref:System.CodeDom.CodeExpression&gt;的物件。&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Objects that have been associated with expressions in this way are accessible through the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">與這種方式中的運算式相關聯的物件都是可透過存取&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>SetExpression stores its expression table as an appended object on the context stack so it is accessible by any serializer’s &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">SetExpression 會儲存其運算式資料表做為附加的物件內容堆疊上的任何序列化程式的存取&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to associate <ph id="ph1">`value`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與相關聯<ph id="ph1">`value`</ph>。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;expression&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;expression&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Associates an object with an expression, optionally specifying a preset expression.</source>
+          <target state="translated">將物件關聯的運算式，並選擇性地指定預設的運算式。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The SetExpression method is a helper method that associates a &lt;xref:System.CodeDom.CodeExpression&gt; with an object.</source>
+          <target state="translated">SetExpression 方法是 helper 方法相關聯的&lt;xref:System.CodeDom.CodeExpression&gt;的物件。&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Objects that have been associated with expressions in this way are accessible through the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">與這種方式中的運算式相關聯的物件都是可透過存取&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>The SetExpression stores its expression table as an appended object on the context stack so it is accessible by any serializer’s &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">SetExpression 會儲存其運算式資料表做為附加的物件內容堆疊上的任何序列化程式的存取&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>供序列化使用。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">要序列化的物件。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to associate <ph id="ph1">`value`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與相關聯<ph id="ph1">`value`</ph>。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify a preset expression; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要指定預設的運算式。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

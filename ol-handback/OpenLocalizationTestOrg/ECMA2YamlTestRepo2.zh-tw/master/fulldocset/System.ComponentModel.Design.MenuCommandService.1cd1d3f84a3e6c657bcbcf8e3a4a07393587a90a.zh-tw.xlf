@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">349f40645525c276c7c4161c56320c9e84d6b66a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.MenuCommandService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bbb1c37fe20d6ff2ba728b3d72ed24d177e9c87a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">135ed7fa15e3f44be5535dbea2556c5d1c638420</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">實作<bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>介面。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The MenuCommandService class implements the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface, which is the managed interface used to add handlers for menu commands and to define verbs.</source>
+          <target state="translated">MenuCommandService 類別會實作&lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;介面，這是用來加入的功能表命令的處理常式，並定義動詞命令的受管理的介面。&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The MenuCommandService class is automatically offered by the package class to offer global commands for an entire package, and it is also offered by the <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> class to offer commands for the current window.</source>
+          <target state="translated">封裝類別會提供全域整個封裝，命令會自動提供 MenuCommandService 類別和也提供的<ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph>類別，以提供目前視窗的命令。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This offering is always done through the service container, so anyone deriving from the package or window pane classes can remove or replace the default implementation of the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface.</source>
+          <target state="translated">此供應項目都是透過服務容器，所以任何人都衍生自封裝或視窗窗格的類別可以移除或取代的預設實作&lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;介面。&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The MenuCommandService class utilizes several other services.</source>
+          <target state="translated">MenuCommandService 類別會使用數個其他服務。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All of these services are optional, so the behavior of the MenuCommandService class degrades if one or more services are missing.</source>
+          <target state="translated">所有這些服務都是選擇性，因此 MenuCommandService 類別的行為會降低，如果遺漏一個或多個服務。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following table shows which services are used and for what purpose.</source>
+          <target state="translated">下表顯示所使用的服務及原因。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>|Service|Purpose|   |-------------|-------------|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Used to discover the current selection in order to obtain verbs offered by the currently selected designer.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to obtain the designer for the currently selected component, if any.|   |<ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>|Used to notify <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> that the command status has changed.|   |<ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>|Used to show context menus.|</source>
+          <target state="translated">|服務 |目的 |  |-------------|-------------|  |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|用來探索目前選取範圍以取得目前選取的設計工具提供的動詞命令。 |  |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|如果有的話，用來取得目前選取的元件的設計工具。 |  |<ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>|用來通知<ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph>命令狀態已變更。 |  |<ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>|用來顯示內容功能表。 |&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the service is being used with a designer, the <ph id="ph1">`serviceProvider`</ph> parameter should be the service provider for the designer, as is the case with &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">如果與設計工具，使用服務時<ph id="ph1">`serviceProvider`</ph>參數應該是設計工具中，服務提供者，使用&lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;案例</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The service provider that this service uses to obtain other services.</source>
+          <target state="translated">此服務用來取得其他服務服務提供者。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adds a command handler to the menu command service.</source>
+          <target state="translated">將命令處理常式加入至功能表命令服務。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The AddCommand method adds a command handler to the menu command service.</source>
+          <target state="translated">AddCommand 方法會將功能表命令服務中的命令處理常式。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Command handlers do not define the text, shortcut, or placement of a menu item.</source>
+          <target state="translated">Text、 快速鍵或功能表項目的位置，請勿定義命令處理常式。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Rather, they define the menu item’s behavior if the item is clicked.</source>
+          <target state="translated">相反地，會定義功能表項目的行為，如果按下項目。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A command handler <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">命令處理常式<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept>已經存在。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds a verb to the verb table of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">加入至的動詞命令資料表的動詞命令<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This verb is available regardless of what designer is currently selected.</source>
+          <target state="translated">無論何種設計工具目前已選取使用此動詞命令。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Unlike menu commands, verbs can define the text that is displayed to the user, but they do not define the placement of the command on the actual menu.</source>
+          <target state="translated">功能表與命令不同，動詞命令可以定義使用者顯示的文字，但它們不會定義命令的位置上的實際的功能表。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源全部釋出<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">當您完成使用&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;呼叫 Dispose</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; in an unusable state.</source>
+          <target state="translated">Dispose 方法會使&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;中無法使用的狀態。&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; was occupying.</source>
+          <target state="translated">在呼叫 Dispose 之後，您必須釋放所有參考&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;讓記憶體回收行程可以回收記憶體的&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;所佔用。&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; &lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>清除 Unmanaged 資源上<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>實作 Dispose 方法<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 永遠呼叫 Dispose 之後，再放開您的最後一個參考至&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;。&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">否則，它所使用的資源將不會釋放直到記憶體回收行程呼叫&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;物件的<ph id="ph1">`Finalize`</ph>方法。&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源全部釋出<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">這個方法會呼叫公用<ph id="ph1">`Dispose()`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>叫用受保護<ph id="ph2">`Dispose(Boolean)`</ph>方法<ph id="ph3">`disposing`</ph>參數設定為<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;叫用<ph id="ph1">`Dispose`</ph>與<ph id="ph2">`disposing`</ph>設<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; references.</source>
+          <target state="translated">當<ph id="ph1">`disposing`</ph>參數為 true，這個方法的任何 managed 物件所持有的資源全部釋出這個&lt;xref:System.ComponentModel.Design.MenuCommandService&gt;參考。&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">這個方法會叫用<ph id="ph1">`Dispose()`</ph>每個參考物件的方法。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Ensures that the verb list has been created.</source>
+          <target state="translated">可確保已經建立的指令動詞清單。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The EnsureVerbs method creates the verb list if it has not already been created.</source>
+          <target state="translated">如果它已經尚未建立，EnsureVerbs 方法建立的動詞命令清單。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command ID.</source>
+          <target state="translated">搜尋<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的命令識別碼相關聯</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to find.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>尋找。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與指定的命令相關聯，否則<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果找不到命令。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command.</source>
+          <target state="translated">搜尋<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的命令相關聯。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The GUID of the command.</source>
+          <target state="translated">命令的 GUID。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The ID of the command.</source>
+          <target state="translated">命令的識別碼。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與指定的命令相關聯，否則<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果找不到命令。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the command list for a given GUID.</source>
+          <target state="translated">取得指定 GUID 的命令清單。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The GUID of the command list.</source>
+          <target state="translated">命令清單的 GUID。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of commands.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;的命令。&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the requested service.</source>
+          <target state="translated">取得所要求的服務參考。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要擷取的服務。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A reference to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service is not found.</source>
+          <target state="translated">若要參考<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>，否則<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果找不到服務。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Invokes the given command on the local form or in the global environment.</source>
+          <target state="translated">叫用指定的命令在本機的表單上或在全域環境中。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">本機表單第一次搜尋中有指定的命令識別碼。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">如果找到，它會叫用。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">否則，命令識別碼會傳遞給全域環境命令處理常式中，如果有的話。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">要叫用的命令。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找不到命令。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Invokes the given command with the given parameter on the local form or in the global environment.</source>
+          <target state="translated">叫用具有指定的參數區域的表單上，或在全域環境中指定的命令。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">本機表單第一次搜尋中有指定的命令識別碼。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">如果找到，它會叫用。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">否則，命令識別碼會傳遞給全域環境命令處理常式中，如果有的話。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">要叫用的命令。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A parameter for the invocation.</source>
+          <target state="translated">引動過程的參數。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找不到命令。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when the status of a menu command has changed.</source>
+          <target state="translated">功能表命令狀態已變更時發生。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The OnCommandsChanged method is called by a menu command when its status has changed.</source>
+          <target state="translated">OnCommandsChanged 方法是由功能表命令呼叫，其狀態變更時。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The OnCommandsChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnCommandsChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Removes the given menu command from the document.</source>
+          <target state="translated">從文件中移除指定的功能表命令。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If there are no more commands in the command group, the group is removed.</source>
+          <target state="translated">如果命令群組中有沒有更多的命令，會移除群組。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The command to remove.</source>
+          <target state="translated">要移除的命令。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Removes the given verb from the document.</source>
+          <target state="translated">從文件中移除指定的動詞命令。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The verb to remove.</source>
+          <target state="translated">若要移除動詞命令。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Shows the shortcut menu with the given command ID at the given location.</source>
+          <target state="translated">顯示指定的命令 id，在指定位置的捷徑功能表。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default implementation does nothing.</source>
+          <target state="translated">預設實作沒有任何作用。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The shortcut menu to display.</source>
+          <target state="translated">要顯示的捷徑功能表。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The x-coordinate of the shortcut menu's location.</source>
+          <target state="translated">快顯功能表的位置的 x 座標。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The y-coordinate of the shortcut menu's location.</source>
+          <target state="translated">快顯功能表的位置的 y 座標。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the designer verbs that are currently available.</source>
+          <target state="translated">取得目前可用的設計工具動詞的集合。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The Verbs property provides a collection of verbs.</source>
+          <target state="translated">Verbs 屬性提供的指令動詞的集合。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>These verbs come from two places:      -   Verbs added through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method of Verbs.</source>
+          <target state="translated">這些動詞命令來自兩個地方:-動詞命令加入透過&lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;動詞命令的方法。&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-   Verbs offered by the currently selected designer.</source>
+          <target state="translated">-提供的目前選取的設計工具動詞命令。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Verbs added to this service through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method are called global verbs because they are global to this service, but generally there is one instance of this service for each tool or document window.</source>
+          <target state="translated">加入透過這個服務的指令動詞&lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;方法會呼叫全域動詞命令，因為它們是全域範圍中這項服務，但通常是一個針對每個工具或文件視窗的這個服務執行個體。&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Designer verbs are obtained by querying the service provider for &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.</source>
+          <target state="translated">設計工具動詞命令會取得藉由查詢&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;和&lt;xref:System.ComponentModel.Design.ISelectionService&gt;。&lt;/xref:System.ComponentModel.Design.ISelectionService&gt;&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;的服務提供者</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the selection service offers a primary selection, and a designer can be obtained for that selection from &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, the designer’s verbs are added to this list.</source>
+          <target state="translated">如果選取項目服務提供主要選取項目，而且設計工具可以從該選取項目取得&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;，在設計工具動詞命令會加入至這份清單。&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If the name of a global verb conflicts with the name of a designer verb, the designer-provided designer verb takes precedence.</source>
+          <target state="translated">如果與設計工具動詞的名稱衝突的全域動詞命令的名稱，設計工具提供的設計工具動詞的優先順序較高。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the designer verbs that are currently available.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>目前可用的設計工具動詞命令。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

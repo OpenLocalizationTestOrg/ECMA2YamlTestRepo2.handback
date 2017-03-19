@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f46f26f817ff4ccf6cdac6af6745ea987544feb4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.Schema.XamlTypeInvoker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6052aa85ef25d0eb52f1eebe762f2de1f0e2971</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ed2f65b53c0363f360d41a10ec4c1b54e4ec8cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an extension point that can construct instances of a XAML type through techniques other than reflection and constructors.</source>
+          <target state="translated">Biedt een extensiepunt die exemplaren van een XAML-type door middel van technieken dan reflectie en constructors kunt samenstellen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of XamlTypeInvoker is to enable an extensible XAML type system, schema, and a working run time that does not rely as fully on CLR features such as CLR attributes, reflection information through &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">Het doel van XamlTypeInvoker is het inschakelen van een uitbreidbare XAML-typesysteem, schema en een werkende uitvoeringstijd die niet zo volledig afhankelijk van de CLR-functies zoals CLR-kenmerken, informatie via reflectie &lt;xref:System.Type&gt;en &lt;xref:System.Reflection.MemberInfo&gt;, enzovoort.&lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subclasses of XamlTypeInvoker are used as input parameters for the alternate constructors of XAML schema classes such as &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">Subklassen van XamlTypeInvoker worden gebruikt als invoerparameters voor de alternatieve constructors van XAML schemaklassen zoals &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You subclass &lt;xref:System.Xaml.XamlType&gt; and pass the XamlTypeInvoker through to the base constructor.</source>
+          <target state="translated">U subklasse &lt;xref:System.Xaml.XamlType&gt;en de XamlTypeInvoker via doorgeven aan de basis constructor.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Along with defining a XamlTypeInvoker for the constructor, you must also provide overrides for at least some of the <ph id="ph1">`Lookup`</ph> methods of &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">Samen met het definiëren van een XamlTypeInvoker voor de constructor, moet u ook opgeven overschrijvingen voor ten minste enkele van de <ph id="ph1">`Lookup`</ph> methoden van &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XamlTypeInvoker has a default implementation.</source>
+          <target state="translated">XamlTypeInvoker heeft een standaardimplementatie.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation follows a similar model to the default implementation of XAML schema types &lt;xref:System.Xaml.XamlType&gt; and &lt;xref:System.Xaml.XamlMember&gt;: the CLR type system is used for instantiation, values and lookups, including using CLR attributes, &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">De standaardimplementatie volgt een vergelijkbare model naar de standaardimplementatie van XAML schematypen &lt;xref:System.Xaml.XamlType&gt;en &lt;xref:System.Xaml.XamlMember&gt;: het CLR-systeem wordt gebruikt voor instantiëring, waarden en zoekacties, inclusief het gebruik van CLR-kenmerken &lt;xref:System.Type&gt;en &lt;xref:System.Reflection.MemberInfo&gt;, enzovoort.&lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Xaml.XamlMember&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XamlTypeInvoker provides methods for basic instantiation (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;) and methods that are relevant for types where the &lt;xref:System.Xaml.XamlType&gt; represents a collection, dictionary or array (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;).</source>
+          <target state="translated">XamlTypeInvoker biedt methoden voor het basic instantiëring (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;) en de methoden die relevant zijn voor typen waarbij de &lt;xref:System.Xaml.XamlType&gt;vertegenwoordigt een verzameling, een woordenlijst of een matrix (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;).&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;&lt;/xref:System.Xaml.XamlType&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation is empty.</source>
+          <target state="translated">De standaardimplementatie is leeg.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is invoked internally to provide a value for &lt;xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt;.</source>
+          <target state="translated">Deze constructor wordt intern aangeroepen om een waarde opgeven voor &lt;xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt;.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; subclass, it is expected that you either use the &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; signature for construction or provide an override that calls &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; as base.</source>
+          <target state="translated">Voor een &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;subklasse, er wordt verwacht dat u gebruiken de &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt;handtekening voor de constructie of geef een onderdrukking die aanroept &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt;als basis.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Providing the &lt;xref:System.Xaml.XamlType&gt; implements a default pattern where &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is immutable.</source>
+          <target state="translated">Geven de &lt;xref:System.Xaml.XamlType&gt;implementeert een standaard patroon waar &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;is onveranderbaar.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, based on a provided <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse, op basis van een opgegeven <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called internally based on the &lt;xref:System.Xaml.XamlType&gt; where the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is used for construction.</source>
+          <target state="translated">Deze constructor is aangeroepen intern op basis van de &lt;xref:System.Xaml.XamlType&gt;waar de &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;wordt gebruikt voor de constructie.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`type`</ph> provided here is relevant to all other method calls for &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;.</source>
+          <target state="translated">De <ph id="ph1">`type`</ph> opgegeven hier relevant is voor alle andere methode aanroept voor &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specific XAML type relevant to this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor het type van de relevant is voor deze specifieke XAML <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds the provided item to an instance of the type that is relevant to this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het opgegeven item wordt toegevoegd aan een exemplaar van het type dat relevant is voor dit <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method on a &lt;xref:System.Xaml.XamlType&gt; that represents a collection.</source>
+          <target state="translated">U moet deze methode alleen aanroepen voor een &lt;xref:System.Xaml.XamlType&gt;die staat voor een verzameling.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een exemplaar van het type dat is opgegeven door de <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt voor het maken van dit <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The item to add.</source>
+          <target state="translated">Het item om toe te voegen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze methode wordt aangeroepen op een <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dat is gebaseerd op een onbekende <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a collection.</source>
+          <target state="translated"><bpt id="p1">**</bpt>- of -<ept id="p1">**</ept> deze methode wordt aangeroepen op een <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> het gewenste type is waar geen verzameling.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>XRef:System.XAML.schema.XamlTypeInvoker.GetAddMethod%2a?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> voor deze <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> retourneert <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds the provided key and item value to an instance of the type that is relevant to this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Voegt de opgegeven waarde voor de sleutel en item toe aan een exemplaar van het type dat relevant is voor dit <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method on a &lt;xref:System.Xaml.XamlType&gt; that represents a dictionary.</source>
+          <target state="translated">U moet deze methode alleen aanroepen voor een &lt;xref:System.Xaml.XamlType&gt;die staat voor een woordenlijst.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een exemplaar van het type dat is opgegeven door de <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt voor het maken van dit <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Dictionary key for the item to add.</source>
+          <target state="translated">Woordenboeksleutel voor het item om toe te voegen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The item value to add.</source>
+          <target state="translated">De waarde van het item om toe te voegen.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze methode wordt aangeroepen op een <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dat is gebaseerd op een onbekende <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a dictionary.</source>
+          <target state="translated"><bpt id="p1">**</bpt>- of -<ept id="p1">**</ept> deze methode wordt aangeroepen op een <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> waarbij het gewenste type is niet een woordenlijst.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>XRef:System.XAML.schema.XamlTypeInvoker.GetAddMethod%2a?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> voor deze <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> retourneert <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates an object instance based on the construction-initiated <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee maakt u een exemplaar van het object op basis van de door de constructie geïnitieerde <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An array of objects that supply the <bpt id="p1">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the instance.</source>
+          <target state="translated">Een matrix met objecten die de <bpt id="p1">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor het exemplaar.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for types that do not require or use <bpt id="p2">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mogelijk <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor typen die niet vereist of gebruikt <bpt id="p2">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The created instance based on the construction-initiated <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het exemplaar gemaakt op basis van het bouw geïnitieerd <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Could not resolve a constructor.</source>
+          <target state="translated">Een constructor kan niet worden omgezet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Returns the relevant <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method for a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that is relevant to a collection or dictionary.</source>
+          <target state="translated">Retourneert de relevante <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> methode voor een <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> die relevant is voor een verzameling of woordenlijst.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should return <ph id="ph1">`null`</ph> for cases where the &lt;xref:System.Xaml.XamlType&gt; for this &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is not a writeable collection or dictionary.</source>
+          <target state="translated">Deze methode als resultaat moet geven <ph id="ph1">`null`</ph> voor gevallen waarin de &lt;xref:System.Xaml.XamlType&gt;voor deze &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;is niet schrijfbaar verzameling of woordenlijst.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, should return <ph id="ph1">`null`</ph> for cases where &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt; returns <ph id="ph2">`None`</ph>.</source>
+          <target state="translated">In het bijzonder als resultaat moet geven <ph id="ph1">`null`</ph> voor gevallen waarin &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;retourneert <ph id="ph2">`None`</ph>.&lt;/xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If you are not accessing a fully trusted XAML type system, this method has the potential to report false &lt;xref:System.Reflection.MethodInfo&gt; information to callers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Als u geen toegang hebben tot een volledig vertrouwd XAML-typesysteem, heeft deze methode kunnen rapport false &lt;xref:System.Reflection.MethodInfo&gt;informatie voor aanroepers.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the item type that is used by the <bpt id="p2">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>voor het itemtype dat wordt gebruikt door de <bpt id="p2">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> methode.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>CLR &lt;xref:System.Reflection.MethodInfo&gt; information for the <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method, or null.</source>
+          <target state="translated">CLR &lt;xref:System.Reflection.MethodInfo&gt;informatie voor de <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> methode, of null.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns an object representing a method that can enumerate over items.</source>
+          <target state="translated">Retourneert een object dat een methode die items kan inventariseren.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Should return <ph id="ph1">`null`</ph> for cases where &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt; returns <ph id="ph2">`None`</ph>.</source>
+          <target state="translated">Als resultaat moet geven <ph id="ph1">`null`</ph> voor gevallen waarin &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;retourneert <ph id="ph2">`None`</ph>.&lt;/xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If you are not accessing a fully trusted XAML type system, this method has the potential to report false &lt;xref:System.Reflection.MethodInfo&gt; information to callers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Als u geen toegang hebben tot een volledig vertrouwd XAML-typesysteem, heeft deze methode kunnen rapport false &lt;xref:System.Reflection.MethodInfo&gt;informatie voor aanroepers.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Reflection.MethodInfo&gt; for an enumerator method, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.MethodInfo&gt;voor een methode enumerator of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; object representing the set of items.</source>
+          <target state="translated">Retourneert een &lt;xref:System.Collections.IEnumerator&gt;object dat de set met items.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een exemplaar van het type dat is opgegeven door de <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt voor het maken van dit <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">An &lt;xref:System.Collections.IEnumerator&gt; object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze methode wordt aangeroepen op een <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dat is gebaseerd op een onbekende <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a collection or dictionary.</source>
+          <target state="translated"><bpt id="p1">**</bpt>- of -<ept id="p1">**</ept> deze methode wordt aangeroepen op een <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> waar het relevante type is geen verzameling of woordenlijst.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the handler to use when a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calls into an implemented &lt;xref:System.Windows.Markup.MarkupExtension&gt;.</source>
+          <target state="translated">Met deze eigenschap wordt de handler moet worden gebruikt wanneer een <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aanroepen in een geïmplementeerde &lt;xref:System.Windows.Markup.MarkupExtension&gt;.&lt;/xref:System.Windows.Markup.MarkupExtension&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event handler is based on &lt;xref:System.EventHandler%601&gt; constrained with &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; event data.</source>
+          <target state="translated">De gebeurtenis-handler is gebaseerd op &lt;xref:System.EventHandler%601&gt;met beperkte &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt;gebeurtenisgegevens.&lt;/xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; &lt;/xref:System.EventHandler%601&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value returned invokes the &lt;xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt; behavior of the &lt;xref:System.Xaml.XamlType&gt; that the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is based on.</source>
+          <target state="translated">De waarde geretourneerd roept de &lt;xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt;gedrag van de &lt;xref:System.Xaml.XamlType&gt;die de &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;is gebaseerd op.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is <ph id="ph1">`null`</ph> for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; that is based on an unknown &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">De geretourneerde waarde is <ph id="ph1">`null`</ph> voor een &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;die is gebaseerd op een onbekende &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A handler implementation that handles this case.</source>
+          <target state="translated">Een handler-implementatie die verantwoordelijk is voor deze aanvraag.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the handler to use when a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calls into a CLR-implemented <bpt id="p2">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Met deze eigenschap wordt de handler moet worden gebruikt wanneer een <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aanroepen voor CLR-geïmplementeerd <bpt id="p2">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event handler is based on &lt;xref:System.EventHandler%601&gt; constrained with &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; event data.</source>
+          <target state="translated">De gebeurtenis-handler is gebaseerd op &lt;xref:System.EventHandler%601&gt;met beperkte &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt;gebeurtenisgegevens.&lt;/xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; &lt;/xref:System.EventHandler%601&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value returned invokes the &lt;xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt; behavior of the &lt;xref:System.Xaml.XamlType&gt; that the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is based on.</source>
+          <target state="translated">De waarde geretourneerd roept de &lt;xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt;gedrag van de &lt;xref:System.Xaml.XamlType&gt;die de &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;is gebaseerd op.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is <ph id="ph1">`null`</ph> for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; that is based on an unknown &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">De geretourneerde waarde is <ph id="ph1">`null`</ph> voor een &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;die is gebaseerd op een onbekende &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A handler implementation that handles this case.</source>
+          <target state="translated">Een handler-implementatie die verantwoordelijk is voor deze aanvraag.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Provides a static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Geeft een statische waarde die staat voor een onbekend, niet volledig geïmplementeerd <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supplying this value for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; parameter of System.Xaml defined API will typically cause the called code to throw exceptions.</source>
+          <target state="translated">Deze waarde voor levert een &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;parameter van System.Xaml gedefinieerd API doorgaans, zal de aangeroepen code uitzonderingen genereert.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een statische waarde met een onbekend, niet volledig geïmplementeerd <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

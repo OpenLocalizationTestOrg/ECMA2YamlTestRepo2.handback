@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c562ce3bd1aba9e7033cb25440098817301cf2b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.Eventing.EventProviderTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64c703bc0909c47bbe3a1513e61f2f3aec13329c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eee64e123fb342fdb4630368ebd25103233b2a00</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A listener for <bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that writes events to the ETW subsytem.</source>
+          <target state="translated">接聽程式<bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件寫入 ETW 子系統。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>All event data (trace or debug) from the source event is written to the ETW subsystem as a string.</source>
+          <target state="translated">所有事件資料 （追蹤或偵錯） 從來源事件會都寫入 ETW 子系統做為字串。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The data elements are delimited using a comma.</source>
+          <target state="translated">使用逗號分隔的資料元素。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To specify a different delimiter, use the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt; property.</source>
+          <target state="translated">若要指定不同的分隔符號，請使用&lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;屬性。&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adding the listener to &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; registers the provider with the ETW subsystem.</source>
+          <target state="translated">加入至接聽程式&lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;註冊提供者與 ETW 子系統。&lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You must create an ETW trace session using the Logman.exe executable program (or something similar) to write the events to a log file.</source>
+          <target state="translated">您必須建立 ETW 追蹤工作階段使用 Logman.exe 可執行程式 （或類似的項目） 將事件寫入記錄檔。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">您不需要的資訊清單，以取用事件接聽程式，因為事件資料的單一字串。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you call the &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; methods to write events, you pass a &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration value.</source>
+          <target state="translated">當您呼叫&lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;方法寫入事件，您將傳遞&lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;列舉值。&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The enumeration contains both level and keyword values.</source>
+          <target state="translated">列舉包含的層級和關鍵字的值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you enable a trace listener provider from an ETW session, the level value that you specify can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Critical (value is 1)      -   Error (value is 2)      -   Information (value is 8)      -   Verbose (value is 16)      -   Warning (value is 4)       The keyword value that you specify for the session can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Resume (value is 2,048)      -   Start (value is 256)      -   Stop (value is 512)      -   Suspend (value is 1,024)      -   Transfer (value is 4,096)</source>
+          <target state="translated">當您啟用 ETW 工作階段的追蹤接聽程式提供者時，您指定的層級值可以是下列&lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;列舉值的其中一個相關聯的值:-重大 （值為 1）-錯誤 （值為 2）-資訊 （值為 8） 的詳細資訊 （值為 16）-警告 （值為 4） 您指定的工作階段可與下列&lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;列舉值的其中一個相關聯之值的關鍵字值:-繼續 （值為 2048）-入門 （值為 256）-停止 （值是 512-） 暫停 （值為 1024-） （值為 4096） 傳輸&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的提供者的識別碼。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">唯一字串&lt;xref:System.Guid&gt;，識別提供者。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier and name of the listener.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的提供者的識別項和接聽程式名稱。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">唯一字串&lt;xref:System.Guid&gt;，識別提供者。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">接聽程式的名稱。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier, name of the listener, and delimiter.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的提供者的識別碼，接聽程式，與分隔符號的名稱。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">唯一字串&lt;xref:System.Guid&gt;，識別提供者。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">接聽程式的名稱。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Delimiter used to delimit the event data.</source>
+          <target state="translated">用來分隔的事件資料的分隔符號。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>(For more details, see the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt; property.)</source>
+          <target state="translated">(如需詳細資訊，請參閱&lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;屬性。)&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Closes the output stream so it no longer receives tracing or debugging output.</source>
+          <target state="translated">關閉輸出資料流，所以它不再接收追蹤或偵錯輸出。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delimiter used to delimit the event data that is written to the ETW subsystem.</source>
+          <target state="translated">取得及設定用來分隔事件資料寫入 ETW 子系統的分隔符號。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The listener converts the data elements to strings and then concatenates the strings together, using the specified delimiter to delimit each data element in the string.</source>
+          <target state="translated">接聽程式將資料項目轉換為字串，然後串連字串，使用指定的分隔符號來分隔字串中的每個資料項目。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The string is then written as the event data in the ETW subsystem.</source>
+          <target state="translated">字串接著會寫入為 ETW 子系統中的事件資料。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To successfully parse the string, the consumer must know the delimiter that was used.</source>
+          <target state="translated">若要成功剖析字串，取用者必須知道所使用的分隔符號。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the data contains a string that may contain a comma, specify an appropriate delimiter, so that the event data can be correctly parsed.</source>
+          <target state="translated">如果資料包含可包含逗號的字串，指定適當的分隔符號，如此可正確剖析事件資料。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">您不需要的資訊清單，以取用事件接聽程式，因為事件資料的單一字串。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The delimiter applies to event data written using the &lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">分隔符號會套用至事件資料寫入使用&lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The delimiter used to delimit the event data.</source>
+          <target state="translated">用來分隔事件資料的分隔符號。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default delimiter is a comma.</source>
+          <target state="translated">預設的分隔符號是逗號。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Emits an error message and a detailed error message to the listener you create when you implement the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">會發出錯誤訊息和詳細的錯誤訊息的接聽程式時，您建立實作<bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A message to emit.</source>
+          <target state="translated">要發出的訊息。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A detailed message to emit.</source>
+          <target state="translated">要發出的詳細的訊息。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Flushes the output buffer.</source>
+          <target state="translated">清除輸出緩衝區。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the custom attributes supported by the trace listener.</source>
+          <target state="translated">取得由追蹤接聽項支援的自訂屬性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string array naming the custom attributes supported by the trace listener, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no custom attributes.</source>
+          <target state="translated">追蹤接聽程式支援的自訂屬性命名的字串陣列或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果沒有任何自訂屬性。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the trace listener is thread safe.</source>
+          <target state="translated">取得值，指出追蹤接聽程式是否具備執行緒安全。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the trace listener is thread safe; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>追蹤接聽程式是否具備執行緒安全。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤資訊、 資料物件和事件資訊至特定接聽程式的輸出。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定引發追蹤的事件類型的值。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The trace data to emit.</source>
+          <target state="translated">要發出的追蹤資料。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤資訊、 資料物件和事件資訊至特定接聽程式的輸出。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定引發追蹤的事件類型的值。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An array of objects to emit as data.</source>
+          <target state="translated">要發出做為資料的物件陣列。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Writes trace and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤和事件資訊至特定接聽程式的輸出。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定引發追蹤的事件類型的值。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤資訊、 訊息和事件資訊至特定接聽程式的輸出。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定引發追蹤的事件類型的值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">要寫入的訊息。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤資訊、 格式化的物件與事件資訊至特定接聽程式的輸出陣列。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定引發追蹤的事件類型的值。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items, which correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">格式字串，包含零或多個格式項目，其對應至物件中<ph id="ph1">`args`</ph>陣列。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>陣列，其中包含零或多個要格式化的物件。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, a related activity identity and event information to the listener specific output.</source>
+          <target state="translated">寫入追蹤資訊、 訊息、 相關的活動身分識別與事件資訊至特定接聽程式的輸出。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含目前處理序識別碼、 執行緒 ID 和堆疊追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">用來識別輸出，通常就是產生追蹤事件的應用程式名稱的名稱。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的數值識別項。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">要寫入的訊息。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; object identifying a related activity.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;物件，辨識相關的活動。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes the specified message to the listener you create in the derived class.</source>
+          <target state="translated">在衍生類別中覆寫，將指定的訊息寫入至接聽程式建立衍生類別中。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">要寫入的訊息。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes a message to the listener you create in the derived class, followed by a line terminator.</source>
+          <target state="translated">當在衍生類別中覆寫時，將訊息寫入接聽程式建立在衍生類別中，後面接著行結束字元。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">要寫入的訊息。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
