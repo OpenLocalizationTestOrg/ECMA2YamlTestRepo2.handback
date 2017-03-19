@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ae57a649531c96bdae4b358bb3d6b15487f94ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.HierarchicalDataSourceControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ca27af465530af0016c82c0be534698ae5ada4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed260eae41b1315699b105eaa04ef471b09e3367</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for data source controls that represent hierarchical data.</source>
+          <target state="translated">Fornece uma classe base para controlos de origem de dados que representam dados hierárquicos.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET supports a controls data-binding architecture that enables Web server controls to bind to data and present it in a consistent fashion.</source>
+          <target state="translated">ASP.NET suporta uma arquitetura de enlace de dados de controlos que permite que os controlos de servidor Web vincular a dados e apresentá-lo de forma consistente.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web server controls that bind to data are called data-bound controls, and the classes that facilitate binding are called data source controls.</source>
+          <target state="translated">Controlos de servidor Web que vincular a dados são designadas por controlos vinculados a dados e as classes que facilitam o enlace são denominadas controlos de origem de dados.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls can represent any data source: a file, a stream, a relational database, a business object, and so on.</source>
+          <target state="translated">Controlos de origem de dados podem representar qualquer origem de dados: um ficheiro, um fluxo, uma base de dados relacional, um objecto de negócio e assim sucessivamente.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls present data in a consistent way to data-bound controls, regardless of the source or format of the underlying data.</source>
+          <target state="translated">Origem de dados controla presentes dados de forma consistente para controlos vinculados a dados, independentemente de origem ou o formato dos dados subjacentes.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls that represent hierarchical data derive from the HierarchicalDataSourceControl class, while data source controls that represent lists or tables of data derive from the &lt;xref:System.Web.UI.DataSourceControl&gt; class.</source>
+          <target state="translated">Controlos de origem de dados que representam dados hierárquicos derivam da classe de HierarchicalDataSourceControl, ao controlos de origem de dados que representam listas ou tabelas de dados de derivam da &lt;xref:System.Web.UI.DataSourceControl&gt;classe.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HierarchicalDataSourceControl class is the base implementation of the &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface, which defines a single method to retrieve hierarchical data source view objects associated with the data source control, &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.</source>
+          <target state="translated">A classe de HierarchicalDataSourceControl é a implementação de &lt;xref:System.Web.UI.IHierarchicalDataSource&gt;interface, que define um único método para obter os objetos de vista de origem de dados hierárquica associada ao controlo de origem de dados, &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.&lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; &lt;/xref:System.Web.UI.IHierarchicalDataSource&gt; base</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can think of a data source control as the combination of the HierarchicalDataSourceControl object and its associated views on the underlying data, called data source view objects.</source>
+          <target state="translated">Pode considerar um controlo de origem de dados como a combinação de objeto HierarchicalDataSourceControl e respetivas vistas associadas nos dados subjacentes, denominados objetos de vista de origem de dados.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While data source controls that represent tabular data are typically associated with only one named view, the HierarchicalDataSourceControl class supports a data source view for each level of hierarchical data that the data source control represents.</source>
+          <target state="translated">Enquanto os controlos de origem de dados que representam dados de tabela são normalmente associados a apenas uma vista com nome, a classe de HierarchicalDataSourceControl suporta uma vista de origem de dados para cada nível de dados hierárquicos que representa o controlo de origem de dados.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The level of hierarchical data is identified by a unique hierarchical path, passed to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method in the <ph id="ph1">`viewPath`</ph> parameter.</source>
+          <target state="translated">O nível de dados hierárquicos é identificado por um caminho de hierárquico exclusivo, transmitido para o &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;método o <ph id="ph1">`viewPath`</ph> parâmetro.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; object defines the capabilities of a data source control for the hierarchical level represented, and performs operations such as insert, update, delete, and sort.</source>
+          <target state="translated">Cada &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;objeto define as capacidades de um controlo de origem de dados para o nível hierárquico representado e efetua operações como insert, update, delete e ordenação.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web server controls that derive from the &lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt; class, such as &lt;xref:System.Web.UI.WebControls.TreeView&gt;, use hierarchical data source controls to bind to hierarchical data.</source>
+          <target state="translated">Web controlos de servidor derivam a &lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;classe, tal como &lt;xref:System.Web.UI.WebControls.TreeView&gt;, utilizar controlos de origem de dados hierárquica para vincular a dados hierárquicos.&lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls are implemented as controls to enable declarative persistence and to optionally permit participation in state management.</source>
+          <target state="translated">Controlos de origem de dados são implementados como controlos para ativar a persistência declarativa e para, opcionalmente, permitir a participação na gestão de estado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls have no visual rendering, and therefore do not support themes.</source>
+          <target state="translated">Controlos de origem de dados não tem nenhum composição visual e, por conseguinte, não suportam temas.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applies the style properties that are defined in the page style sheet to the control.</source>
+          <target state="translated">Aplica-se as propriedades de estilo que são definidas na folha de estilo de página para o controlo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the control.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém o controlo.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the server control identifier generated by ASP.NET.</source>
+          <target state="translated">Obtém o identificador de controlo de servidor gerado pelo ASP.NET.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The server control identifier generated by ASP.NET.</source>
+          <target state="translated">O identificador de controlo de servidor gerado pelo ASP.NET.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Esta propriedade não é utilizada para controlos de origem de dados.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property of the &lt;xref:System.Web.UI.Control&gt; base class is not used for data source controls because data source controls do not render markup.</source>
+          <target state="translated">Esta propriedade do &lt;xref:System.Web.UI.Control&gt;classe base não é utilizada para controlos de origem de dados porque os controlos de origem de dados não são apresentadas markup.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Esta propriedade não é utilizada para controlos de origem de dados.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the child controls for a specified server control in the UI hierarchy.</source>
+          <target state="translated">Obtém um <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa os controlos subordinados de um controlo de servidor especificado na hierarquia de IU.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the specified server control.</source>
+          <target state="translated">A coleção de controlos subordinados para o controlo de servidor especificado.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to hold the child controls (both literal and server) of the server control.</source>
+          <target state="translated">Cria uma nova <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto para conter controlos subordinados (literal e servidor) do controlo de servidor.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateControlCollection method is overridden by the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class to prevent child controls from being added.</source>
+          <target state="translated">O método CreateControlCollection é substituído pelo &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe para impedir que os controlos subordinados a serem adicionados.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that prevents any child controls from being added.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> quaisquer controlos subordinados que impede de ser adicionada.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this control supports themes.</source>
+          <target state="translated">Obtém um valor que indica se este controlo suporta temas.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, it does not support themes.</source>
+          <target state="translated">Porque o &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe não tem nenhum composição visual, não suporta temas.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>em todos os casos.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the EnableTheming property.</source>
+          <target state="translated">Foi efetuada uma tentativa para definir o valor da propriedade EnableTheming.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Searches the current naming container for a server control with the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Procura o contentor de nomenclatura atual para um controlo de servidor especificado com <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The identifier for the control to be found.</source>
+          <target state="translated">O identificador para o controlo a ser encontrado.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The specified control, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified control does not exist.</source>
+          <target state="translated">O controlo especificado, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o controlo especificado não existe.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sets input focus to the control.</source>
+          <target state="translated">Define o foco ao controlo de entrada.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, calling the Focus method on it throws a &lt;xref:System.NotSupportedException&gt; exception.</source>
+          <target state="translated">Porque o &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe não tem nenhum composição visual, chamar o foco método emite um &lt;xref:System.NotSupportedException&gt;exceção.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An attempt was made to call the Focus method.</source>
+          <target state="translated">Foi efetuada uma tentativa para chamar o método de foco.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">Obtém a vista do objeto de programa auxiliar para o <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface para o caminho especificado.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This GetHierarchicalView method provides the default implementation for the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class, which simply returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Este método GetHierarchicalView fornece a implementação predefinida para o &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe, que devolve simplesmente <ph id="ph1">`null`</ph>.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that derive from the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class override this method and provide an implementation to return a strongly typed view that derives from &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.</source>
+          <target state="translated">Classes que derivam da &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe, este método de substituição e fornecer uma implementação para devolver uma vista com tipo seguro que deriva de &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">O caminho hierárquico da vista para obter.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa uma visão única dos dados no nível hierárquico identificado pelo <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Determines if the server control contains any child controls.</source>
+          <target state="translated">Determina se o controlo de servidor contém quaisquer controlos subordinados.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains other controls; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo contém outros controlos; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceChanged method notifies a data-bound control that the underlying data source or the data cached in memory has changed, that the control should rebind, and that any necessary work should be performed.</source>
+          <target state="translated">O método OnDataSourceChanged notifica um controlo de dados vinculados os dados em cache na memória ou a origem de dados subjacente foi alterada, que o controlo deve efetuar o reenlace e que deve ser efetuado qualquer trabalho necessário.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: gerar um evento<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnDataSourceChanged também permite que as classes derivadas processar o evento sem anexar um delegado.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Este é a preferido técnica para processar o evento de uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém dados de eventos.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Outputs server control content to a provided <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and stores tracing information about the control if tracing is enabled.</source>
+          <target state="translated">Produz o conteúdo do controlo de servidor para um fornecido <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> de objeto e armazena informações de rastreio sobre o controlo se o rastreio está ativado.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that receives the control content.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que recebe o conteúdo do controlo.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the skin to apply to the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém ou define a skin para aplicar ao <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; has no visual rendering, it does not support themes or skins.</source>
+          <target state="translated">Porque o &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;não tem nenhum visual composição, que não suporta temas ou das máscaras.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> in all cases.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> em todos os casos.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the SkinID property.</source>
+          <target state="translated">Foi efetuada uma tentativa para definir o valor da propriedade SkinID.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">Obtém a vista do objeto de programa auxiliar para o <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface para o caminho especificado.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; method is called by clients when a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; is manipulated as an &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;método é denominado por clientes quando um &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;é manipulado como um &lt;xref:System.Web.UI.IHierarchicalDataSource&gt;interface.&lt;/xref:System.Web.UI.IHierarchicalDataSource&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt; &lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It delegates to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method, which derived classes override to return strongly typed &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; objects.</source>
+          <target state="translated">-Delega o &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;substituir o método, que deriva de classes para devolver com tipo seguro &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;objetos.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">O caminho hierárquico da vista para obter.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Devolve um <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa uma visão única dos dados no nível hierárquico identificado pelo <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control is visually displayed.</source>
+          <target state="translated">Obtém ou define um valor que indica se o controlo visualmente é apresentado.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, Visible always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Porque o &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;classe não tem nenhum composição visual, Visible sempre devolve <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>em todos os casos.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the Visible property.</source>
+          <target state="translated">Foi efetuada uma tentativa para definir o valor da propriedade visível.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

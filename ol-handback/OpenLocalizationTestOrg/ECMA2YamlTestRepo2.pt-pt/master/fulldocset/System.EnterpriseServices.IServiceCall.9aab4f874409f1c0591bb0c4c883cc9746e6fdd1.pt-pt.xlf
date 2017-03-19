@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c77963c6010be9574fdfcf2b56acef768111c56b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EnterpriseServices.IServiceCall.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a0de8919eaaf5da4b0ebe69e2fea5aad52b324d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">637ec01a5ffcaf43c3a935063d978f1c62042a8b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the batch work that is submitted through the activity created by <bpt id="p1">&lt;xref href="System.EnterpriseServices.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Implementa o trabalho de batch que é submetido através de actividade criada por <bpt id="p1">&lt;xref href="System.EnterpriseServices.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use IServiceCall to perform batch work that uses COM+ services without creating a component specifically for using those services.</source>
+          <target state="translated">Utilize IServiceCall para efetuar o trabalho de batch que utiliza serviços do COM+ sem criar um componente especificamente para a utilização desses serviços.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Script environments such as Internet Information Services (IIS) and ASP.NET can use this interface to utilize COM+ services without the need to create a COM+ component.</source>
+          <target state="translated">Ambientes de script como serviços de informação Internet (IIS) e o ASP.NET podem utilizar esta interface para utilizar COM os serviços do COM+ sem a necessidade de criar um componente do COM+.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Starts the execution of the batch work implemented in this method.</source>
+          <target state="translated">Inicia a execução do trabalho batch implementado neste método.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The batch work that is run in this method runs in the context and thread apartment of the activity created by the call to &lt;xref:System.EnterpriseServices.Activity&gt;.</source>
+          <target state="translated">O trabalho do batch com este método é executado no contexto e o thread de apartamento da atividade criada por chamada para &lt;xref:System.EnterpriseServices.Activity&gt;.&lt;/xref:System.EnterpriseServices.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The batch work in this method is run by a call to either &lt;xref:System.EnterpriseServices.Activity.SynchronousCall%2A?displayProperty=fullName&gt; or &lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">O trabalho do batch neste método é executado por uma chamada para um &lt;xref:System.EnterpriseServices.Activity.SynchronousCall%2A?displayProperty=fullName&gt;ou &lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A?displayProperty=fullName&gt;.&lt;/xref:System.EnterpriseServices.Activity.AsynchronousCall%2A?displayProperty=fullName&gt; &lt;/xref:System.EnterpriseServices.Activity.SynchronousCall%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  You must ensure that this method is thread safe in situations where the activity object created by &lt;xref:System.EnterpriseServices.Activity&gt; is not created with a synchronized context, because in such situations many calls to OnCall can run at the same time.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Tem de garantir que este método é threads em situações em que o objeto de atividade criado pelo &lt;xref:System.EnterpriseServices.Activity&gt;não foi criado com um contexto sincronizado, porque estas situações demasiadas chamadas para OnCall podem executar em simultâneo.&lt;/xref:System.EnterpriseServices.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To achieve the best performance from the system, the context configuration of the activity created by &lt;xref:System.EnterpriseServices.Activity&gt; should be matched to the batch work performed by the OnCall method.</source>
+          <target state="translated">Para alcançar o melhor desempenho do sistema, a configuração de contexto da atividade criada pelo &lt;xref:System.EnterpriseServices.Activity&gt;deve ser correspondido com o trabalho do batch efetuado pelo método OnCall.&lt;/xref:System.EnterpriseServices.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the batch work in the OnCall method uses poolable objects, the activity created by &lt;xref:System.EnterpriseServices.Activity&gt; should be configured to use the multithreaded apartment (MTA).</source>
+          <target state="translated">Por exemplo, se o trabalho do batch no método OnCall utiliza poolable objetos, a atividade criado pelo &lt;xref:System.EnterpriseServices.Activity&gt;deve ser configurado para utilizar o apartamento multithread (MTA).&lt;/xref:System.EnterpriseServices.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about poolable objects, see the topic "Requirements for Poolable Objects" in the Platform SDK in MSDN.</source>
+          <target state="translated">Para obter informações sobre objetos poolable, consulte o tópico "Requisitos para Poolable objetos" no SDK plataforma no MSDN.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
