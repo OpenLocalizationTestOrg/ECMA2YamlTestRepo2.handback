@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01f4fcfd0dab5d932e39f791cb9498e75f2095c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlObjectWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47b660eb52f713a4eaae86b1bc39d8b53aacd4e9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccaa85da6afa8c83ee32cc538c7f313b515358e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates an object graph from a source XAML node stream.</source>
+          <target state="translated">建立從來源 XAML 節點資料流的物件圖形。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Write`</ph> methods of XamlObjectWriter implement a pattern so that the XamlObjectWriter uses the &lt;xref:System.Xaml.XamlWriter&gt; that is defined by the &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; method.</source>
+          <target state="translated"><ph id="ph1">`Write`</ph> XamlObjectWriter 方法實作模式，以便讓 XamlObjectWriter 使用&lt;xref:System.Xaml.XamlWriter&gt;所定義的&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;方法。&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt; &lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; logic switches between the <ph id="ph1">`Write`</ph> methods, depending on which node type is at the current position in the reader.</source>
+          <target state="translated">&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;邏輯交換器之間<ph id="ph1">`Write`</ph>方法，根據哪個節點型別是讀取器中目前的位置。&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Scope    A XamlObjectWriter has a concept of scope; that is, the XamlObjectWriter maintains a conceptual point of reference in its output object graph.</source>
+          <target state="translated">範圍 XamlObjectWriter 具有範圍; 的概念也就是說，XamlObjectWriter 維護概念的其輸出的物件圖形中的參考點。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For a particular scope, certain operations might be valid or invalid, or produce a no-operation result.</source>
+          <target state="translated">針對特定範圍，某些作業可能會有效或無效，或產生無作業的結果。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, if you call &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; to write directives for initialization on an object that already exists as an instance, the default implementation throws an exception.</source>
+          <target state="translated">例如，如果您呼叫&lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;物件上的初始化已存在做為執行個體，請撰寫指示詞的預設實作會擲回例外狀況。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A possible technique for tracking scope in a custom XamlObjectWriter is to align the node actions with a stack or frame class.</source>
+          <target state="translated">追蹤中自訂 XamlObjectWriter 範圍可能技巧是將對齊堆疊或框架的類別使用的節點動作。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The stack or frame can keep track of push and pop for each level of object-model depth that is entered or exited while the XamlObjectWriter writes the object graph.</source>
+          <target state="translated">框架的堆疊可以追蹤的 push 和 pop 每個層級的物件模型的深度，進入或離開而 XamlObjectWriter 寫入物件圖形。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Callbacks    To support intermediate and advanced XamlObjectWriter scenarios, the mechanism of writing an object graph provides callback entry points that occur when a XamlObjectWriter commits or is about to commit certain actions.</source>
+          <target state="translated">回呼以支援中繼和進階 XamlObjectWriter 案例中，撰寫物件圖形的機制提供回呼 XamlObjectWriter 認可或即將認可特定動作時，會發生的進入點。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Some callbacks are enabled in the settings and are not specific to the object type or the member being written; however, callback information is often available in context or is in the event data that is sent through the callback.</source>
+          <target state="translated">某些回呼會在設定中啟用和並非所特有物件類型或成員正在寫入;不過，回呼資訊通常是在內容中使用，或者是在事件會透過回呼傳送的資料。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following is a list of relevant callbacks:      -   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">下列是一份相關回呼:-由宣告回呼&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;時範圍會移入新的物件，並在叫用&lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt;階段建立的每個物件的物件存留期。&lt;/xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">由宣告-回呼&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;時範圍會移入新的物件，並在叫用&lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt;階段建立的每個物件的物件存留期。&lt;/xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt; is invoked when the scope starts in an object, and occurs when the first &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">由宣告-回呼&lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;範圍物件，一開始，而發生時叫用時第一個&lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;呼叫該物件範圍時進行，但尚未認可。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt; is invoked when the scope starts in an object, and happens when the &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">由宣告-回呼&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;範圍物件，一開始，而發生時叫用時&lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;呼叫該物件範圍時進行，但尚未認可。&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is invoked when &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; is called.</source>
+          <target state="translated">由宣告-回呼&lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;時叫用&lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt;稱為。&lt;/xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Writing Dictionary Keys    The default implementation of XamlObjectWriter supports type conversion on the constraints of a &lt;xref:System.Collections.Generic.Dictionary%602&gt; before the dictionary contents are added to the object graph.</source>
+          <target state="translated">撰寫 XamlObjectWriter 的預設實作的字典索引鍵的條件約束支援的型別轉換&lt;xref:System.Collections.Generic.Dictionary%602&gt;之前字典內容加入物件圖形。&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this manner, a generic dictionary can be keyed at run time by objects and can match the relevant generic <ph id="ph1">`Add`</ph> and indexer behavior.</source>
+          <target state="translated">如此一來，在泛型字典可以在執行階段物件索引鍵，而且符合相關的一般<ph id="ph1">`Add`</ph>和索引子的行為。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, as implemented for the base XamlObjectWriter, this capability exists only for object graph creation from the base &lt;xref:System.Collections.Generic.Dictionary%602&gt; class and not for derived classes of &lt;xref:System.Collections.Generic.Dictionary%602&gt;.</source>
+          <target state="translated">不過，實作的基底 XamlObjectWriter，這項功能存在物件圖形建立基底&lt;xref:System.Collections.Generic.Dictionary%602&gt;類別，不能用於在衍生類別的&lt;xref:System.Collections.Generic.Dictionary%602&gt;。&lt;/xref:System.Collections.Generic.Dictionary%602&gt; &lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Checks for Disposed    XAML writers are potentially used for deferred operations or where a call is made against a XAML writer instance that has been disposed in the interim.</source>
+          <target state="translated">處置 XAML 寫入器檢查可能用來延後的作業，或其中針對在過渡期中已處置的 XAML 寫入器執行個體進行呼叫。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Various APIs of XamlObjectWriter might throw &lt;xref:System.ObjectDisposedException&gt; in these cases.</source>
+          <target state="translated">XamlObjectWriter 的各種應用程式開發介面可能會擲回&lt;xref:System.ObjectDisposedException&gt;在這些情況下。&lt;/xref:System.ObjectDisposedException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using  the XAML schema context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用 XAML 結構描述內容，以供<bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">XAML 讀取器所提供的節點進行寫入與共用的 XAML 結構描述內容。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and its settings.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用的內容，以供<bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>及其設定。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">XAML 讀取器所提供的節點進行寫入與共用的 XAML 結構描述內容。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A settings object that specifies certain options for <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> behavior and output.</source>
+          <target state="translated">指定的特定選項的設定物件<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>行為和輸出。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resets all possible frames and clears the object graph.</source>
+          <target state="translated">重設所有可能的框架，並清除物件圖形。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and optionally, releases the managed resources.</source>
+          <target state="translated">所使用的 unmanaged 的資源釋出<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，並選擇性地釋放 managed 的資源。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release the managed resources; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 的資源，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">叫用任何&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;相關聯的方法<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個<bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">要報告的物件。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">物件會封裝到<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>叫用處理常式的時機。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">叫用任何&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;相關聯的方法<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個<bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">要報告的物件。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value  is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">值會封裝到<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>叫用處理常式的時機。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">叫用任何&lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;參考方法相關聯<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個<bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">要報告的物件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">這封裝成<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>叫用處理常式的時機。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">叫用任何&lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;參考方法相關聯<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個<bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value to pass through <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">值通過<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>叫用處理常式的時機。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this writer, as long as <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">handled</ph><ept id="p2">&lt;/code&gt;</ept> in <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> event data is not <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">叫用任何&lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;參考方法相關聯<bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個寫入器，只要<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">handled</ph> <ept id="p2">&lt;/code&gt;</ept>中<bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>事件資料不是<bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。&lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`SetValue`</ph> operation for this XAML writer has an associated handler (a &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is declared in &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), this method creates new &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt; and passes them to the handler.</source>
+          <target state="translated">如果<ph id="ph1">`SetValue`</ph>此 XAML 寫入器的作業有關聯的處理常式 (&lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;中宣告&lt;xref:System.Xaml.XamlObjectWriterSettings&gt;)，這個方法建立新&lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt;並將其傳遞至處理常式。&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The return value is set by reading the &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt; value that is passed through the event data.</source>
+          <target state="translated">傳回的值由讀取設定&lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;事件資料會傳遞的值。&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If no handler exists and this method is invoked, the call returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">如果處理常式不存在，而且這個方法會叫用，則呼叫會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to report as the source to the handler.</source>
+          <target state="translated">要報表做為來源至處理常式的物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of the property to set, which is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要設定屬性名稱的一部分傳遞至處理常式<bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value to provide for the property that is named by <ph id="ph1">`property`</ph>.</source>
+          <target state="translated">值，可提供屬性來命名的<ph id="ph1">`property`</ph>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值會傳遞至處理常式的一部分<bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is set by any associated handler; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">布林值，設定任何相關聯的處理常式。否則， <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt;。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the last object that was written.</source>
+          <target state="translated">取得上次寫入的物件。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Typically only called when the node stream is at its end and the object graph is complete.</source>
+          <target state="translated">通常只稱為其結尾會在節點資料流和已完成的物件圖形時。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The most typical usage of Result is to call it only when the node stream is known to be at its end, and the object graph is complete.</source>
+          <target state="translated">結果的最常見用法是，只有在節點資料流已知為其結尾，且已完成的物件圖形呼叫它。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Otherwise, the object graph is likely to be incomplete, and is not useful for most platform scenarios.</source>
+          <target state="translated">否則，物件圖形可能會不完整，並不是適用於大部分平台案例。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Result typically only contains a non-null value if it is called immediately after a call to &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, and if the current scope is in the member where the object provides a value.</source>
+          <target state="translated">結果通常只包含非 null 值，如果呼叫之後立即呼叫&lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;，而且如果目前的範圍是處於其中的物件會提供值的成員。&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The last object written, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">寫入的最後一個物件或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the absolute node root of the XAML object writer.</source>
+          <target state="translated">取得&lt;xref:System.Windows.Markup.INameScope&gt;維護絕對節點根目錄的 XAML 物件寫入器的 XAML 名稱範圍的服務。&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The value of this property may come from the object writer context.</source>
+          <target state="translated">這個屬性的值可能來自物件寫入器內容。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the current root of the object writer.</source>
+          <target state="translated">&lt;xref:System.Windows.Markup.INameScope&gt;服務，可維護的 XAML 名稱範圍的物件寫入器目前的根目錄。&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the active XAML schema context.</source>
+          <target state="translated">取得作用中的 XAML 結構描述內容。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>XAML schema context is a necessary information source for most practical object-writing scenarios.</source>
+          <target state="translated">XAML 結構描述內容是最實用的物件撰寫案例所需的資訊來源。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The XAML schema context influences the type lookup for backing types and holds information about the assemblies where backing types exist.</source>
+          <target state="translated">XAML 結構描述內容影響的備份類型的型別查閱，並保留其中備份類型，存在於組件的相關資訊。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default XAML schema context is based on CLR type-mapping rules.</source>
+          <target state="translated">預設 XAML 結構描述內容為基礎 CLR 型別對應規則。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Frameworks typically provide their own XAML schema context in order to assure that that the assembly-loading mechanisms match the framework's programming amd application models.</source>
+          <target state="translated">通常，架構會提供自己的 XAML 結構描述內容以確保組件載入機制符合架構的程式設計 amd 應用程式模型。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The XAML schema context.</source>
+          <target state="translated">XAML 結構描述內容。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Implements <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> and provides line information for exceptions.</source>
+          <target state="translated">實作<ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> ，並提供例外狀況的行資訊。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This service method is not intended to be called directly from your code.</source>
+          <target state="translated">此服務方法不是直接從您的程式碼呼叫。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>However, if you are creating a derived class from &lt;xref:System.Xaml.XamlObjectWriter&gt; and expect to report a context where line numbers are unavailable or not useful, this method may be called.</source>
+          <target state="translated">不過，如果您要建立衍生的類別從&lt;xref:System.Xaml.XamlObjectWriter&gt;並預期要報告的內容位置的行號會無法使用或不實用，這個方法可能會呼叫。&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The line number from the reader.</source>
+          <target state="translated">從讀取器的行號。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The line position from the reader.</source>
+          <target state="translated">從讀取器的行位置。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a value that reports whether a line information service should provide values and therefore, should also call the &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt; method when it is relevant.</source>
+          <target state="translated">取得值，報告行資訊服務是否應該提供值，並因此，也應該呼叫&lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;方法時相關。&lt;/xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This implementation always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">這個實作一律會傳回<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if line information is used by the writer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果行資訊由寫入器。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Closes the current member scope, and may write the value of the member scope while it closes.</source>
+          <target state="translated">關閉目前的成員範圍內，並可能寫入成員範圍的值，而它會關閉。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The new scope becomes the parent object scope of the member.</source>
+          <target state="translated">新領域會成為該成員的父物件範圍。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Failed to create member value from a value node that is encountered between this call and a previous <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">無法從遇到這個呼叫與舊版之間的值節點中建立成員值<bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Closes the current object scope in the writer.</source>
+          <target state="translated">關閉目前的物件範圍的寫入器。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The new object scope becomes the parent member scope.</source>
+          <target state="translated">新的物件範圍會成為父成員的範圍。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If this <ph id="ph1">`EndObject`</ph> position scope is closing the root object, the new object scope becomes the root scope.</source>
+          <target state="translated">如果這個<ph id="ph1">`EndObject`</ph>位置範圍關閉的根物件，新的物件範圍會成為根範圍。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The call to &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; might not yet have created the object because an object member might be a necessary initialization pathway, such as initialization text or initialization parameters.</source>
+          <target state="translated">若要呼叫&lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;可能尚未建立物件的物件成員可能是必要的初始化路徑，例如初始文字或初始化參數因為。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For these cases, the call to WriteEndObject actually writes the object.</source>
+          <target state="translated">這些情況下，呼叫 WriteEndObject 實際寫入的物件。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Writes the conceptual <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the object graph when the specified object is a default or implicit value of the parent property.</source>
+          <target state="translated">寫入的概念性<bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至物件圖形中指定的物件時的預設值或隱含的父屬性的值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The implicit value comes from information that is obtained from the XAML schema context and backing type information, instead of being specified as an object value in the input XAML node set.</source>
+          <target state="translated">隱含的值來自於取自 XAML 結構描述內容的資訊以及支援類型資訊，而不是指定為輸入的 XAML 節點集的物件值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The difference between writing with WriteGetObject and writing with &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; can be seen in the resulting object graph.</source>
+          <target state="translated">與 WriteGetObject 撰寫和撰寫與之間的差異&lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;結果物件圖形中可以看到。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>WriteGetObject does not construct an instance of a type because the WriteGetObject API has no information to inform the object graph of what to construct.</source>
+          <target state="translated">WriteGetObject 不建構類型的執行個體，因為 WriteGetObject API 不有任何資訊來通知所要建構的物件圖形。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Instead, the object was created when the parent property was initialized; so a &lt;xref:System.Xaml.XamlObjectWriter&gt; does not need to construct it.</source>
+          <target state="translated">初始化 parent 屬性; 時，相反地，建立物件因此&lt;xref:System.Xaml.XamlObjectWriter&gt;不需要進行建構。&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In contrast, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; specifies that an instance of that type should be constructed and inserted into the object graph.</source>
+          <target state="translated">相反地，&lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;指定應該建構該類型的執行個體，並插入的物件圖形。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you think of the XAML node stream as a series of frames, a WriteGetObject is balanced to a &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call.</source>
+          <target state="translated">如果您將 XAML 節點資料流視為一系列的框架，以平衡 WriteGetObject&lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;呼叫。&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Therefore, the number of WriteGetObject plus &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; calls should equal the number of &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; calls as part of a complete object-writing evaluation of the XAML node stream.</source>
+          <target state="translated">因此，加號 WriteGetObject 數目&lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;呼叫應該會等於數目&lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;呼叫做為 XAML 節點資料流的完整物件寫入評估的一部分。&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The conceptual <ph id="ph1">`StartObject`</ph> position for an implicit object in the object graph is necessary because although the object value itself is an implicit default, that object might still have members that need to be written based on the XAML node stream.</source>
+          <target state="translated">將概念<ph id="ph1">`StartObject`</ph>位置物件圖形中的隱含物件是必要的因為雖然本身的物件值的隱含預設值，該物件仍可能需要寫入可根據 XAML 節點資料流的成員。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A typical scenario where this occurs is when &lt;xref:System.Xaml.XamlObjectWriter&gt; writes member nodes for a collection property, and the collection initialization is implicit to creating the object that owns the collection property.</source>
+          <target state="translated">典型的案例，這種情況是當&lt;xref:System.Xaml.XamlObjectWriter&gt;寫入成員節點的集合屬性，以及集合初始設定是隱含建立擁有集合屬性的物件。&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines a namespace declaration that applies to the next object scope or member scope.</source>
+          <target state="translated">定義套用到下一個物件的範圍或成員範圍內的命名空間宣告。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A namespace declaration can be written if the current scope is a root scope, object scope, or member scope.</source>
+          <target state="translated">如果目前的範圍是根範圍、 物件範圍或成員範圍可以寫入命名空間宣告。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>However, WriteNamespace can only be called immediately before a call to one of the following: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.</source>
+          <target state="translated">不過，WriteNamespace 只能呼叫之前呼叫下列其中之一︰ WriteNamespace， &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;，或&lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The consecutive WriteNamespace case is for writing multiple namespace declarations to the same node.</source>
+          <target state="translated">連續 WriteNamespace 案例是撰寫多個命名空間宣告相同的節點。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Eventually, either &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; must be called.</source>
+          <target state="translated">最後，請&lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;或&lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;必須呼叫。&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>WriteNamespace does not use a <ph id="ph1">`Start`</ph><ph id="ph2">/</ph><ph id="ph3">`End`</ph> metaphor.</source>
+          <target state="translated">不會使用 WriteNamespace <ph id="ph1">`Start`</ph> <ph id="ph2">/</ph> <ph id="ph3">`End`</ph>比喻。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Although a XAML namespace has members in the CLR representation sense, the members are known and do not need to be represented as a special type of &lt;xref:System.Xaml.XamlMember&gt; for extensibility.</source>
+          <target state="translated">雖然 XAML 命名空間中的 CLR 表示意義成員，成員為已知，而且不需要表示為一種特殊型別的&lt;xref:System.Xaml.XamlMember&gt;擴充性。&lt;/xref:System.Xaml.XamlMember&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To access the values of a &lt;xref:System.Xaml.NamespaceDeclaration&gt;, you access its &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; and &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; properties.</source>
+          <target state="translated">若要存取的值&lt;xref:System.Xaml.NamespaceDeclaration&gt;，您存取其&lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt;和&lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt;屬性。&lt;/xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A namespace declaration may have a &lt;xref:System.String.Empty?displayProperty=fullName&gt; value for the prefix.</source>
+          <target state="translated">命名空間宣告可能&lt;xref:System.String.Empty?displayProperty=fullName&gt;前置詞的值。&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String.Empty?displayProperty=fullName&gt; prefix represents a declaration of the default XAML namespace.</source>
+          <target state="translated">A&lt;xref:System.String.Empty?displayProperty=fullName&gt;前置詞表示的預設 XAML 命名空間宣告。&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Do not attempt to use null to represent the default prefix;  it throws an exception in this API.</source>
+          <target state="translated">請勿嘗試使用 null 來代表預設前置詞。 這個 API 中擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Xaml.NamespaceDeclaration&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Xaml.NamespaceDeclaration&gt;.&lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The namespace declaration to write.</source>
+          <target state="translated">若要撰寫命名空間宣告。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Tried to write a XAML namespace node in an invalid scope.</source>
+          <target state="translated">嘗試寫入無效的範圍中的 XAML 命名空間節點。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Writes a new member node into the current object scope, and the scope becomes a new member scope.</source>
+          <target state="translated">將新的成員節點寫入至目前的物件範圍，而範圍會變成新的成員範圍。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The XAML property to write.</source>
+          <target state="translated">要寫入的 XAML 屬性。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader through the XAML node stream intermediate.</source>
+          <target state="translated">通常您會從 XAML 讀取器透過中繼 XAML 節點資料流取得此值。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> passed, which indicates that the XAML node stream contained content for an object that does not support content.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph>傳遞，這表示在 XAML 節點資料流所包含的物件不支援內容的內容。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start member in an invalid scope.</source>
+          <target state="translated">-或者-嘗試寫入無效的範圍中的開始成員。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> specifies a property that is already explicitly set in the parent object scope.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>指定父物件範圍中已明確設定的屬性。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Writes an object node into the current scope, and sets the scope to a new object scope.</source>
+          <target state="translated">將物件節點寫入至目前的範圍，並將範圍設定為新的物件範圍。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The type to write.</source>
+          <target state="translated">要寫入的類型。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader.</source>
+          <target state="translated">通常您會從 XAML 讀取器取得此值。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Processing an &lt;xref:System.Xaml.XamlType.IsUnknown*&gt; type and cannot create an object.</source>
+          <target state="translated">處理&lt;xref:System.Xaml.XamlType.IsUnknown*&gt;輸入，而且無法建立物件。&lt;/xref:System.Xaml.XamlType.IsUnknown*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start object in an invalid scope.</source>
+          <target state="translated">-或者-嘗試在無效的範圍中撰寫的啟動物件。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Attempted to write a root object when the root object was already provided in the settings.</source>
+          <target state="translated">嘗試寫入時的設定中已經提供的根物件的根物件。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Writes a value to the current member scope.</source>
+          <target state="translated">將值寫入目前的成員範圍。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the current scope is inside a collection, dictionary, or array object, the value should be added to the collection, dictionary, or array.</source>
+          <target state="translated">如果目前的範圍內集合、 字典或陣列物件，值應加入至集合、 字典或陣列。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value to write.</source>
+          <target state="translated">要寫入的值。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Attempted to write a value in an invalid scope.</source>
+          <target state="translated">嘗試寫入無效的範圍中的值。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

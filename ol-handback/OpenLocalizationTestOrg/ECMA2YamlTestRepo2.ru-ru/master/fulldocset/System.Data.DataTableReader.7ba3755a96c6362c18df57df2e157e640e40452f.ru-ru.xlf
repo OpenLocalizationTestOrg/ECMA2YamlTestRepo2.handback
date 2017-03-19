@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae7883ac016d898fb61f8ff024054878e9b16ff2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.DataTableReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a47440c8743ef76c0d2aa275b702c0b2975c9659</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78fcb4893c6e1f06b978de0a798527a82f480235</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DataTableReader obtains the contents of one or more <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the form of one or more read-only, forward-only result sets.</source>
+          <target state="translated">DataTableReader Получает содержимое одного или нескольких <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов в форме одного или нескольких наборов результатов только для чтения, только вперед.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataTableReader works much like any other data reader, such as the &lt;xref:System.Data.SqlClient.SqlDataReader&gt;, except that the DataTableReader provides for iterating over rows in a &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">DataTableReader работает во многом подобно любой другой модуль чтения данных, например &lt;xref:System.Data.SqlClient.SqlDataReader&gt;за исключением того, что обеспечивает итерацию строк в &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; DataTableReader&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, it provides for iterating over rows in a cache.</source>
+          <target state="translated">Другими словами он обеспечивает итерацию строк в кэше.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The cached data can be modified while the DataTableReader is active, and the reader automatically maintains its position.</source>
+          <target state="translated">Кэшированные данные могут быть изменены, пока DataTableReader активен, и средство чтения автоматически сохраняет свое положение.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a DataTableReader from a &lt;xref:System.Data.DataTable&gt;, the resulting DataTableReader object contains one result set with the same data as the &lt;xref:System.Data.DataTable&gt; from which it was created, except for any rows that have been marked as deleted.</source>
+          <target state="translated">При создании DataTableReader из &lt;xref:System.Data.DataTable&gt;, полученный объект DataTableReader содержит один результирующий набор с теми же данными, как &lt;xref:System.Data.DataTable&gt;из которой он был создан, за исключением любых строк, которые были помечены как удаленные.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The columns appear in the same order as in the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Столбцы отображаются в том же порядке, как и в исходном &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The structure of the returned result is identical in schema and data to the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Структура возвращенный результат идентична схеме и данным исходного &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A DataTableReader that was created by calling the &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method of a &lt;xref:System.Data.DataSet&gt; object contains multiple result sets if the &lt;xref:System.Data.DataSet&gt;contains more than one table.</source>
+          <target state="translated">DataTableReader, который был создан путем вызова &lt;xref:System.Data.DataSet.GetDataReader%2A&gt;метод &lt;xref:System.Data.DataSet&gt;объект содержит несколько результирующих наборов, если &lt;xref:System.Data.DataSet&gt;содержит более одной таблицы.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet.GetDataReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results are in the same sequence as the &lt;xref:System.Data.DataTable&gt;objects in the &lt;xref:System.Data.DataTableCollection&gt; of the &lt;xref:System.Data.DataSet&gt; object.</source>
+          <target state="translated">Результаты возвращаются в той же последовательности, что &lt;xref:System.Data.DataTable&gt;объекты в &lt;xref:System.Data.DataTableCollection&gt;из &lt;xref:System.Data.DataSet&gt;объекта.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableCollection&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned result set contains only the current version of each &lt;xref:System.Data.DataRow&gt;; rows that are marked for deletion are skipped.</source>
+          <target state="translated">Возвращаемый результирующий набор содержит только текущей версии каждого &lt;xref:System.Data.DataRow&gt;; строки, помеченные для удаления, пропускаются.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`DataTableReader`</ph> provides a stable iterator; that is, the contents of the <ph id="ph2">`DataTableReader`</ph> are not invalidated if the size of the underlying collection is modified during iteration.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph> Обеспечивает стабильность итератора, то есть содержимое <ph id="ph2">`DataTableReader`</ph> остаются действительными, если размер базовой коллекции изменяется во время итерации.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if one or more rows in the &lt;xref:System.Data.DataTable.Rows%2A&gt; collection are deleted or removed during iteration, the current position within the <ph id="ph1">`DataTableReader`</ph> is maintained appropriately and it does not invalidate the iterator.</source>
+          <target state="translated">Например, если один или более строк в &lt;xref:System.Data.DataTable.Rows%2A&gt;удалены или удаленных во время итерации, текущее положение в коллекции <ph id="ph1">`DataTableReader`</ph> соответствующим образом изменяется и сделать недействительным итератор.&lt;/xref:System.Data.DataTable.Rows%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using data from the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , используя данные из предоставленного <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> obtains its result set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Откуда новый <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> получает ее результирующий набор.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied array of <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, используя указанный массив <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объектов.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you must create a &lt;xref:System.Data.DataTableReader&gt; based on all or a subset of the tables within a specific &lt;xref:System.Data.Dataset&gt;, call the <ph id="ph1">`DataSet`</ph>'s &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method.</source>
+          <target state="translated">Если необходимо создать &lt;xref:System.Data.DataTableReader&gt;на основе всех или подмножества таблиц в пределах конкретного &lt;xref:System.Data.Dataset&gt;, вызовите <ph id="ph1">`DataSet`</ph> &lt;xref:System.Data.DataSet.GetDataReader%2A&gt;метод.&lt;/xref:System.Data.DataSet.GetDataReader%2A&gt; &lt;/xref:System.Data.Dataset&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to create a new &lt;xref:System.Data.DataTableReader&gt; instance based on a group of <ph id="ph1">`DataTable`</ph> instances that are not otherwise related, use this constructor.</source>
+          <target state="translated">Если вы хотите создать новую &lt;xref:System.Data.DataTableReader&gt;экземпляра на основе группы из <ph id="ph1">`DataTable`</ph> экземпляров, которые другим образом не связаны, используйте этот конструктор.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also take advantage of this constructor to rearrange the ordering of the <ph id="ph1">`DataTables`</ph> within the <ph id="ph2">`DataTableReader`</ph>, if their ordering within their source <ph id="ph3">`DataSet`</ph> does not meet your needs.</source>
+          <target state="translated">Можно также воспользоваться преимуществами конструктора, чтобы изменить порядок <ph id="ph1">`DataTables`</ph> в <ph id="ph2">`DataTableReader`</ph>, если их порядок в исходном <ph id="ph3">`DataSet`</ph> не соответствует потребностям.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The array of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that supplies the results for the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Массив <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты, которые предоставляет результаты для нового <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Closes the current <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Закрывает текущий <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <ph id="ph1">`Close()`</ph> on a closed <ph id="ph2">`DataTableReader`</ph> object does not raise an error.</source>
+          <target state="translated">Вызов <ph id="ph1">`Close()`</ph> для закрытого <ph id="ph2">`DataTableReader`</ph> не вызывает ошибку.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Глубина вложенности для текущей строки <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`DataTableReader`</ph> does not support nesting.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph>не поддерживает вложение.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Depth`</ph> property always returns zero.</source>
+          <target state="translated"><ph id="ph1">`Depth`</ph> Свойство всегда возвращает ноль.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row; always zero.</source>
+          <target state="translated">Глубина вложенности для текущей строки; всегда равно нулю.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the number of columns in the current row.</source>
+          <target state="translated">Возвращает число столбцов в текущей строке.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When not positioned in a valid result set, 0; otherwise the number of columns in the current row.</source>
+          <target state="translated">При размещении в допустимый результирующий набор, 0; в противном случае число столбцов в текущей строке.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve the field count in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка получить число полей в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Boolean&gt;.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.Boolean&gt;.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must either already be a Boolean or coercible to a Boolean, or an exception is generated.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные либо уже должен приводиться к типу Boolean или логическое значение, или создается исключение.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Указанный столбец не содержит <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде байта.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte or coercible to a byte.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должны иметь тип byte или приводиться к байт.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte.</source>
+          <target state="translated">Указанный столбец не содержит байт.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes starting at the specified column offset into the buffer as an array starting at the specified buffer offset.</source>
+          <target state="translated">Считывает поток байтов, начиная с указанного смещения столбца в буфер в виде массива, начиная с указанного смещения.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetBytes`</ph> returns the number of available bytes in the field.</source>
+          <target state="translated"><ph id="ph1">`GetBytes`</ph>Возвращает число доступных байтов в поле.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">В большинстве случаев это точная длина поля.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetBytes`</ph> has already been used to obtain bytes from the field.</source>
+          <target state="translated">Однако возвращенное число может быть меньше фактической длины поля, если <ph id="ph1">`GetBytes`</ph> уже используется для получения байтов из поля.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, when the &lt;xref:System.Data.DataTableReader&gt; is reading a large data structure into a buffer       If you pass a buffer that is <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic), <ph id="ph3">`GetBytes`</ph> returns the length of the entire field in bytes, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">Это может случиться, например, если &lt;xref:System.Data.DataTableReader&gt;читает большую структуру данных в буфер при передаче буфера, находящегося <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> в Visual Basic), <ph id="ph3">`GetBytes`</ph> возвращает длину всего поля в байтах, не оставшийся размер, в зависимости от параметра смещения буфера.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte array or coercible to a byte array.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен массив байтов или приводиться в массив байтов.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">Индекс внутри поля, с которого следует начать операцию чтения.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of bytes.</source>
+          <target state="translated">Буфер, в который необходимо считать поток байтов.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">Индекс в буфере, с которого начинается вставка данных.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">Максимальная длина для копирования в буфер.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">Фактическое число считанных байтов.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte array.</source>
+          <target state="translated">Указанный столбец не содержит массив байтов.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a character.</source>
+          <target state="translated">Возвращает значение указанного столбца как символ.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a character or coercible to a character.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен приводиться к символ или символ.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">Значение столбца.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The specified field does not contain a character.</source>
+          <target state="translated">Указанное поле не содержит символ.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Returns the value of the specified column as a character array.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде массива символов.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetChars`</ph> returns the number of available characters in the field.</source>
+          <target state="translated"><ph id="ph1">`GetChars`</ph>Возвращает количество доступных символов в поле.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">В большинстве случаев это точная длина поля.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetChars`</ph> has already been used to obtain characters from the field.</source>
+          <target state="translated">Однако возвращенное число может быть меньше фактической длины поля, если <ph id="ph1">`GetChars`</ph> уже используется для получения символов из поля.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual number of characters read can be less than the requested length, if the end of the field is reached.</source>
+          <target state="translated">Фактическое число считанных символов может быть меньше запрошенного длины, если достигнут конец поля.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is null (<ph id="ph1">`Nothing`</ph> in Visual Basic), <ph id="ph2">`GetChars`</ph> returns the length of the entire field in characters, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">При передаче буфера, который имеет значение null (<ph id="ph1">`Nothing`</ph> в Visual Basic), <ph id="ph2">`GetChars`</ph> возвращает длину всего поля в символах не оставшийся размер, в зависимости от параметра смещения буфера.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data to be retrieved must already be a character array or coercible to a character array.</source>
+          <target state="translated">Преобразования не выполняются; Поэтому извлекаемые данные уже должен массив знаков или быть приводимыми к массиву символов.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">Индекс внутри поля, с которого следует начать операцию чтения.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of chars.</source>
+          <target state="translated">Буфер, в который выполняется считывание потока символов.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">Индекс в буфере, с которого начинается вставка данных.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">Максимальная длина для копирования в буфер.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">Фактическое число считанных символов.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a character array.</source>
+          <target state="translated">Указанный столбец не содержит массив символов.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a string representing the data type of the specified column.</source>
+          <target state="translated">Получает строку, представляющую тип данных указанного столбца.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetDataTypeName method always returns the type of the underlying &lt;xref:System.Data.DataColumn&gt; instead of a provider-specific type.</source>
+          <target state="translated">Метод GetDataTypeName всегда возвращает базовый тип &lt;xref:System.Data.DataColumn&gt;вместо типа поставщика.&lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A string representing the column's data type.</source>
+          <target state="translated">Строка, представляющая тип данных столбца.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.DateTime&gt;объекта.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.DateTime&gt; or coercible to a <ph id="ph1">`DataTime`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен быть &lt;xref:System.DateTime&gt;или приводиться к <ph id="ph1">`DataTime`</ph>.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a DateTime value.</source>
+          <target state="translated">Указанный столбец не содержит значения даты и времени.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt;.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.Decimal&gt;.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Decimal&gt; or coercible to a <ph id="ph1">`Decimal`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен быть &lt;xref:System.Decimal&gt;или приводиться к <ph id="ph1">`Decimal`</ph>.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Указанный столбец не содержит <bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значение.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the value of the column as a double-precision floating point number.</source>
+          <target state="translated">Возвращает значение столбца в виде числа с плавающей запятой двойной точности.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a double-precision floating point number or must be coercible to a double-precision floating point number.</source>
+          <target state="translated">Преобразования не выполняются; Таким образом извлеченные данные уже должны представлять число двойной точности с плавающей запятой или должен приводиться к числа с плавающей запятой двойной точности.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The zero-based ordinal of the column.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a double-precision floating point number.</source>
+          <target state="translated">Указанный столбец не содержит числа с плавающей запятой двойной точности.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that can be used to iterate through the item collection.</source>
+          <target state="translated">Возвращает перечислитель, который может использоваться для итерации по коллекции элементов.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enumerators only allow for reading the data in the &lt;xref:System.Data.DataTableReader&gt;.</source>
+          <target state="translated">Перечислителей можно только для чтения данных в списке &lt;xref:System.Data.DataTableReader&gt;.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enumerators cannot be used to modify the underlying collection.</source>
+          <target state="translated">Перечислители не может использоваться для изменения коллекции.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At first, the enumerator is positioned before the first element in the collection.</source>
+          <target state="translated">Изначально перечислитель располагается перед первым элементом в коллекции.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this position, calling &lt;xref:System.Collections.IEnumerator.Current%2A&gt; throws an exception.</source>
+          <target state="translated">В этой позиции вызов &lt;xref:System.Collections.IEnumerator.Current%2A&gt;приводит к возникновению исключения.&lt;/xref:System.Collections.IEnumerator.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`MoveNext`</ph> to advance the enumerator to the first element of the collection before reading the value of <ph id="ph2">`Current`</ph>.</source>
+          <target state="translated">Поэтому необходимо вызвать метод <ph id="ph1">`MoveNext`</ph> Чтобы переместить перечислитель к первому элементу коллекции до считывания значения свойства <ph id="ph2">`Current`</ph>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Current`</ph> returns a &lt;xref:System.Data.Common.DbDataRecord&gt;, and returns the same object until either &lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt; or &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; is called.</source>
+          <target state="translated"><ph id="ph1">`Current`</ph>Возвращает &lt;xref:System.Data.Common.DbDataRecord&gt;и возвращает тот же объект, пока не &lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt;или &lt;xref:System.Collections.IEnumerator.Reset%2A&gt;называется.&lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; &lt;/xref:System.Collections.IEnumerator.MoveNext%2A&gt; &lt;/xref:System.Data.Common.DbDataRecord&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`MoveNext`</ph> sets <ph id="ph2">`Current`</ph> to the next element.</source>
+          <target state="translated"><ph id="ph1">`MoveNext`</ph>Задает <ph id="ph2">`Current`</ph> к следующему элементу.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the end of the collection is passed, the enumerator is positioned after the last element in the collection, and calling <ph id="ph1">`MoveNext`</ph> returns false.</source>
+          <target state="translated">После окончания коллекции перечислитель помещается за последним элементом в коллекции и при вызове метода <ph id="ph1">`MoveNext`</ph> возвращает значение false.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the last call to <ph id="ph1">`MoveNext`</ph> returned <ph id="ph2">`false`</ph>, calling <ph id="ph3">`Current`</ph> throws an exception.</source>
+          <target state="translated">Если последний вызов метода <ph id="ph1">`MoveNext`</ph> возвращается <ph id="ph2">`false`</ph>, вызов <ph id="ph3">`Current`</ph> приводит к возникновению исключения.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, because the &lt;xref:System.Data.DataTableReader&gt; provides forward-only access to its data, calling the &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; method of the IEnumerator throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Кроме того поскольку &lt;xref:System.Data.DataTableReader&gt;предоставляет прямой доступ к данным, вызов &lt;xref:System.Collections.IEnumerator.Reset%2A&gt;метода IEnumerator вызывает &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.DataTableReader&gt; provides a stable enumerator.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader&gt;Обеспечивает стабильные перечислитель.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that even if row deletions or additions occur within the underlying data, the enumerator returned by a call to GetEnumerator is still valid.</source>
+          <target state="translated">Это означает, что даже при удалении или добавлении строк базовых данных, возвращаемых вызовом метода GetEnumerator перечислителя действительна.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that represents the item collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;Объект, представляющий коллекцию элементов.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">Возвращает &lt;xref:System.Type&gt;который является типом данных объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Который является типом данных объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating point number.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде числа с плавающей запятой одиночной точности.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a single-precision floating point number or must be coercible to a single-precision floating point number.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен быть одиночной точности с плавающей запятой или должен приводиться к числа с плавающей запятой одиночной точности.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">Значение столбца.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a single-precision floating point number.</source>
+          <target state="translated">Указанный столбец не содержит числа с плавающей запятой одиночной точности.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally-unique identifier (GUID).</source>
+          <target state="translated">Возвращает значение указанного столбца в виде глобально уникальный идентификатор (GUID).</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Guid&gt; or coercible to a <ph id="ph1">`Guid`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; поэтому извлеченные данные уже должен быть &lt;xref:System.Guid&gt;или приводиться к <ph id="ph1">`Guid`</ph>.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a GUID.</source>
+          <target state="translated">Указанный столбец не содержит идентификатор GUID.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 16-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int16&gt; or coercible to an <ph id="ph1">`Int16`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; Таким образом, извлеченные данные уже должны быть &lt;xref:System.Int16&gt;или приводиться к <ph id="ph1">`Int16`</ph>.&lt;/xref:System.Int16&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 16-bit signed integer.</source>
+          <target state="translated">Указанный столбец не содержит 16-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 32-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int32&gt; or coercible to an <ph id="ph1">`Int32`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; Таким образом, извлеченные данные уже должны быть &lt;xref:System.Int32&gt;или приводиться к <ph id="ph1">`Int32`</ph>.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 32-bit signed integer value.</source>
+          <target state="translated">Указанный столбец не содержит 32-разрядное знаковое целочисленное значение.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 64-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int64&gt; or coercible to an <ph id="ph1">`Int64`</ph>.</source>
+          <target state="translated">Преобразования не выполняются; Таким образом, извлеченные данные уже должны быть &lt;xref:System.Int64&gt;или приводиться к <ph id="ph1">`Int64`</ph>.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 64-bit signed integer value.</source>
+          <target state="translated">Указанный столбец не содержит значение 64-разрядное знаковое целое число.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.String&gt;.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`GetName`</ph> and &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; methods provide inverse functionality.</source>
+          <target state="translated"><ph id="ph1">`GetName`</ph> И &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;методы обратный заработал.&lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, calling <ph id="ph1">`GetOrdinal`</ph> on the return value of calling <ph id="ph2">`GetName`</ph> should return the original parameter passed to <ph id="ph3">`GetName`</ph>; the same applies to calling the procedures in the opposite order.</source>
+          <target state="translated">То есть вызов <ph id="ph1">`GetOrdinal`</ph> для возвращаемого значения вызова <ph id="ph2">`GetName`</ph> должен вернуть исходный параметр, передаваемый <ph id="ph3">`GetName`</ph>; это же правило применяется при вызове процедур в обратном порядке.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">Имя указанного столбца.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal, given the name of the column.</source>
+          <target state="translated">Возвращает порядковый номер столбца, заданному имени столбца.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because most of the methods provided by the &lt;xref:System.Data.DataTableReader&gt; class must be provided with an ordinal column number, you can use the <ph id="ph1">`GetOrdinal`</ph> method to retrieve the column number, given the name of the column.</source>
+          <target state="translated">Так как большинство методов, предоставляемых &lt;xref:System.Data.DataTableReader&gt;класса должны быть указаны в порядковый номер столбца, можно использовать <ph id="ph1">`GetOrdinal`</ph> метод для извлечения номера столбца, заданному имени столбца.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetOrdinal`</ph> performs a case-sensitive lookup first.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>сначала выполняет поиск с учетом регистра.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">В случае неудачи выполняется второй поиска без учета регистра.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column number is not found an <ph id="ph1">`IndexOutOfRangeException`</ph> is thrown.</source>
+          <target state="translated">Если номер столбца не найден <ph id="ph1">`IndexOutOfRangeException`</ph> возникает исключение.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetOrdinal`</ph> is kana-width insensitive.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>не учитывает ширину японской азбуки.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because ordinal-based lookups are more efficient than named lookups, it is inefficient to call <ph id="ph1">`GetOrdinal`</ph> within a loop.</source>
+          <target state="translated">Поскольку порядковым числительным более эффективны, чем поиск по имени, неэффективно вызывать <ph id="ph1">`GetOrdinal`</ph> в цикле.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Save time by calling <ph id="ph1">`GetOrdinal`</ph> one time and assigning the results to an integer variable for use within the loop</source>
+          <target state="translated">Экономия времени при вызове <ph id="ph1">`GetOrdinal`</ph> один раз и назначьте полученные результаты целочисленной переменной для использования в цикле</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Имя столбца.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">Указанное имя не является допустимым именем столбца.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Gets the type of the specified column in provider-specific format.</source>
+          <target state="translated">Возвращает тип указанного столбца в формате конкретного поставщика.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificFieldType method always returns the same type as the type stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Поскольку &lt;xref:System.Data.DataTableReader&gt;всегда возвращает тип хранящихся в базовых &lt;xref:System.Data.DataColumn&gt;вызвав метод GetProviderSpecificFieldType всегда возвращает того же типа, как тип, хранимый в &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; возвращаемое значение&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificFieldType method returns the same type as calling the &lt;xref:System.Type.GetType%2A&gt; method.</source>
+          <target state="translated">При работе с &lt;xref:System.Data.DataTableReader&gt;класса, вызывая метод GetProviderSpecificFieldType возвращает тот же тип, что и вызов метода &lt;xref:System.Type.GetType%2A&gt;метод.&lt;/xref:System.Type.GetType%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Который является типом данных объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in provider-specific format.</source>
+          <target state="translated">Возвращает значение указанного столбца в формате конкретного поставщика.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificValue method always returns data of the same type as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Поскольку &lt;xref:System.Data.DataTableReader&gt;всегда возвращает тип хранящихся в базовых &lt;xref:System.Data.DataColumn&gt;значение, возвращаемое вызовом метода GetProviderSpecificValue всегда возвращает данные совпадает с типом данных, хранящихся в &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValue method returns the same value and type as calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">При работе с &lt;xref:System.Data.DataTableReader&gt;класс, вызвав метод GetProviderSpecificValue возвращает такое же значение и тип, что и вызов метода &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;метод.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The zero-based number of the column whose value is retrieved.</source>
+          <target state="translated">Отсчитываемый от нуля номер столбца, значение которого извлекается.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in provider-specific format.</source>
+          <target state="translated">Значение указанного столбца в формате конкретного поставщика.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Fills the supplied array with provider-specific type information for all the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Заполняет указанный массив сведения о типе поставщика для всех столбцов в <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the data of the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the values returned by calling the GetProviderSpecificValues method is always of the same types as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Поскольку &lt;xref:System.Data.DataTableReader&gt;всегда возвращает данные типа, хранимых в базовых &lt;xref:System.Data.DataColumn&gt;значения, возвращенные вызовом GetProviderSpecificValues, метод очень всегда совпадает с типом данных, хранящихся в &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValues method returns the same values and types as calling the &lt;xref:System.Data.DataTableReader.GetValues%2A&gt; method.</source>
+          <target state="translated">При работе с &lt;xref:System.Data.DataTableReader&gt;класса, вызывая метод GetProviderSpecificValues возвращает одинаковые типы и значения в виде вызова &lt;xref:System.Data.DataTableReader.GetValues%2A&gt;метод.&lt;/xref:System.Data.DataTableReader.GetValues%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>An array of objects to be filled in with type information for the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов, которые заполнены сведения о типе для столбцов в <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">Количество значений столбцов, копируемых в массив.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , описывающий метаданные столбца <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSchemaTable method returns metadata about each column in the following order:      |DataReader column|Description|   |-----------------------|-----------------|   |ColumnName|The name of the column as it appears in the &lt;xref:System.Data.DataTable&gt;.|   |ColumnOrdinal|The ordinal of the column|   |ColumnSize|-1 if the &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; (or &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;) property of the &lt;xref:System.Data.DataColumn&gt; cannot be determined or is not relevant; otherwise, 0 or a positive integer that contains the <ph id="ph1">`MaxLength`</ph> value.|   |NumericPrecision|If the column type is a numeric type, this is the maximum precision of the column.</source>
+          <target state="translated">Метод GetSchemaTable возвращает метаданные о каждом столбце в следующем порядке: | Столбец DataReader | Описание |   |-----------------------|-----------------|   | ColumnName | Имя столбца, как он отображается в &lt;xref:System.Data.DataTable&gt;. |   | ColumnOrdinal | Порядковый номер столбца |   | ColumnSize |-1, если &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt;(или &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;) не может быть определено или не имеет значения свойства &lt;xref:System.Data.DataColumn&gt;; в противном случае — 0 или положительное целое число, содержащее <ph id="ph1">`MaxLength`</ph> значение. |   | NumericPrecision | Если типом столбца является числовой тип, то это максимальная точность столбца.&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column type is not a numeric data type, this is a null value.|   |NumericScale|If column data type has a scale component, return the number of digits to the right of the decimal point.</source>
+          <target state="translated">Если тип столбца не является числовым типом данных, это значение null. |   | NumericScale | Если тип данных столбца имеет компонент масштаба, возвращает количество цифр справа от десятичной запятой.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, return a null value.|   |DataType|The underlying type of the column.|   |ProviderType|The indicator of the column's data type.</source>
+          <target state="translated">В противном случае возвращает значение null. |   | Тип данных | Базовый тип столбца. |   | ProviderType | Индикатор типа данных столбца.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data type of the column varies from row to row, this value is &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Если тип данных столбца меняется от строки к строке, это значение равно &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This column cannot contain a null value.|   |IsLong|<ph id="ph1">`true`</ph> if the data type of the column is &lt;xref:System.String&gt; and its &lt;xref:System.Data.DataColumn.MaxLength%2A&gt; property is -1.</source>
+          <target state="translated">Этот столбец не может содержать значение null. |   | IsLong | <ph id="ph1">`true`</ph> Если тип данных столбца является &lt;xref:System.String&gt;и его &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;свойство имеет значение -1.&lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, <ph id="ph1">`false`</ph>.|   |AllowDBNull|<ph id="ph2">`true`</ph> if the AllowDbNull constraint is set to true for the column; otherwise, <ph id="ph3">`false`</ph>.|   |IsReadOnly|<ph id="ph4">`true`</ph> if the column cannot be modified; otherwise <ph id="ph5">`false`</ph>.|   |IsRowVersion|<ph id="ph6">`false`</ph>, for every column.|   |IsUnique|<ph id="ph7">`true`</ph>: No two rows in the &lt;xref:System.Data.DataTable&gt; can have the same value in this column.</source>
+          <target state="translated">В противном случае <ph id="ph1">`false`</ph>. |   | AllowDBNull | <ph id="ph2">`true`</ph> Если ограничение AllowDbNull задано значение true для столбца; в противном случае — <ph id="ph3">`false`</ph>. |   | IsReadOnly | <ph id="ph4">`true`</ph> Если столбец не может быть изменен; в противном случае <ph id="ph5">`false`</ph>. |   | IsRowVersion | <ph id="ph6">`false`</ph>, для каждого столбца. |   | IsUnique | <ph id="ph7">`true`</ph>: Никакие две строки в &lt;xref:System.Data.DataTable&gt;может иметь то же значение в этом столбце.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`IsUnique`</ph> is guaranteed to be true if the column represents a key by itself or if there is a constraint of type UNIQUE that applies only to this column.</source>
+          <target state="translated"><ph id="ph1">`IsUnique`</ph>гарантированно будет значение true, если столбец представляет собой ключ или если имеется ограничение типа UNIQUE, которое применяется только к этому столбцу.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column can contain duplicate values in the <ph id="ph2">`DataTable`</ph>.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: Столбец может содержать повторяющиеся значения в <ph id="ph2">`DataTable`</ph>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |IsKey|<ph id="ph2">`true`</ph>: The column is one of a set of columns that, taken together, uniquely identify the row in the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">По умолчанию этот столбец имеет <ph id="ph1">`false`</ph>. |   | IsKey | <ph id="ph2">`true`</ph>: Столбец является элементом набора столбцов, взятых вместе, однозначно идентифицируют строку в списке &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of columns with <ph id="ph1">`IsKey`</ph> set to <ph id="ph2">`true`</ph> must uniquely identify a row in the <ph id="ph3">`DataTable`</ph>.</source>
+          <target state="translated">Набор столбцов с <ph id="ph1">`IsKey`</ph> присвоено <ph id="ph2">`true`</ph> должен однозначно определять строку в <ph id="ph3">`DataTable`</ph>.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no requirement that this set of columns is a minimal set of columns.</source>
+          <target state="translated">Нет необходимости, этот набор столбцов является минимальным набором столбцов.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This set of columns may be generated from a <ph id="ph1">`DataTable`</ph> primary key, a unique constraint or a unique index.</source>
+          <target state="translated">Этот набор столбцов может быть создан из <ph id="ph1">`DataTable`</ph> первичного ключа, уникального ограничения или уникального индекса.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column is not required to uniquely identify the row.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: Столбец не требуется для уникальной идентификации строки.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is <ph id="ph1">`true`</ph> if the column participates in a single or composite primary key.</source>
+          <target state="translated">Это значение является <ph id="ph1">`true`</ph> Если столбец участвует в одном или составного первичного ключа.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, its value is <ph id="ph1">`false`</ph>.|   |IsAutoIncrement|<ph id="ph2">`true`</ph>: The column assigns values to new rows in fixed increments.</source>
+          <target state="translated">В противном случае его значение равно <ph id="ph1">`false`</ph>. |   | IsAutoIncrement | <ph id="ph2">`true`</ph>: Столбец присваивает значения новым строкам с фиксированным приращением.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column does not assign values to new rows in fixed increments.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: Столбец не присваивает значения новым строкам с фиксированным приращением.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |BaseCatalogName|The name of the catalog in the data store that contains the column.</source>
+          <target state="translated">По умолчанию этот столбец имеет <ph id="ph1">`false`</ph>. |   | BaseCatalogName | Имя каталога в хранилище данных, содержащем столбец.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Null`</ph> if the base catalog name cannot be determined.</source>
+          <target state="translated"><ph id="ph1">`Null`</ph>Если не удается определить имя базового каталога.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for this column is a <ph id="ph1">`null`</ph> value.|   |BaseSchemaName|This value is always <ph id="ph2">`Null`</ph>.|   |BaseTableName|The name of the &lt;xref:System.Data.DataTable&gt;.|   |BaseColumnName|The name of the column in the &lt;xref:System.Data.DataTable&gt;.|   |AutoIncrementSeed|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; property.|   |AutoIncrementStep|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; property.|   |DefaultValue|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.DefaultValue%2A&gt; property.|   |Expression|The expression string, if the current column is an expression column and all columns used in the expression belong to the same <ph id="ph3">`T:System.Data.DataTable`</ph> that contains the expression column; otherwise <ph id="ph4">`null`</ph>.|   |ColumnMapping|The &lt;xref:System.Data.MappingType&gt; value associated with the &lt;xref:System.Data.DataColumn&gt;.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — <ph id="ph1">`null`</ph> значение. |   | BaseSchemaName | Это значение всегда равно <ph id="ph2">`Null`</ph>. |   | BaseTableName | Имя &lt;xref:System.Data.DataTable&gt;. |   | BaseColumnName | Имя столбца в &lt;xref:System.Data.DataTable&gt;. |   | AutoIncrementSeed | Значение свойства &lt;xref:System.Data.DataTable&gt; &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt;. |   | AutoIncrementStep | Значение свойства &lt;xref:System.Data.DataTable&gt; &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt;. |   | Значение DefaultValue | Значение свойства &lt;xref:System.Data.DataColumn&gt; &lt;xref:System.Data.DataColumn.DefaultValue%2A&gt;. |   | Выражение | Строка выражения, если текущий столбец является столбцом выражений и все столбцы, используемые в выражении относятся к тому же <ph id="ph3">`T:System.Data.DataTable`</ph> , содержащий столбец выражения; в противном случае <ph id="ph4">`null`</ph>. |   | ColumnMapping | &lt;xref:System.Data.MappingType&gt;Значение, связанное с &lt;xref:System.Data.DataColumn&gt;.&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.MappingType&gt; &lt;/xref:System.Data.DataColumn.DefaultValue%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type can be one of <ph id="ph1">`Attribute`</ph>, <ph id="ph2">`Element`</ph>, <ph id="ph3">`Hidden`</ph>, or <ph id="ph4">`SimpleContent`</ph>.</source>
+          <target state="translated">Тип может принимать одно из <ph id="ph1">`Attribute`</ph>, <ph id="ph2">`Element`</ph>, <ph id="ph3">`Hidden`</ph>, или <ph id="ph4">`SimpleContent`</ph>.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`Element`</ph>.|   |BaseTableNamespace|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataTable.Namespace%2A&gt; property.|   |BaseColumnNamespace|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.Namespace%2A&gt; property.|</source>
+          <target state="translated">Значение по умолчанию — <ph id="ph1">`Element`</ph>. |   | BaseTableNamespace | Значение свойства &lt;xref:System.Data.DataTable&gt; &lt;xref:System.Data.DataTable.Namespace%2A&gt;. |   | BaseColumnNamespace | Значение &lt;xref:System.Data.DataColumn&gt;в &lt;xref:System.Data.DataColumn.Namespace%2A&gt;свойство. |&lt;/xref:System.Data.DataColumn.Namespace%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTable.Namespace%2A&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , описывающий метаданные столбца.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a string.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде строки.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;, чтобы определить наличие значений null перед вызовом этого метода.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a string.</source>
+          <target state="translated">Указанный столбец не содержит строку.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format.</source>
+          <target state="translated">Возвращает значение указанного столбца в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you can call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method, you do not have to do this.</source>
+          <target state="translated">Несмотря на то, что вы можете вызвать &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;для просмотра, если значения null перед вызовом этого метода, у вас это сделать.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Значение указанного столбца.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for null columns.</source>
+          <target state="translated">Этот метод возвращает <bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для столбцов со значениями null.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access columns in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцам в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">Заполняет массив объектов значениями столбца текущей строки.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most applications, this method provides an efficient means for retrieving all columns, instead of retrieving each column individually.</source>
+          <target state="translated">Для большинства приложений этот метод предоставляет эффективные средства для извлечения всех столбцов вместо извлечения каждого столбца отдельно.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your intent is to retrieve all the column values from a row within the &lt;xref:System.Data.DataTableReader&gt;, the <ph id="ph1">`GetValues`</ph> method provides the most efficient solution.</source>
+          <target state="translated">Если вашей целью является получение значения всех столбцов из строки в &lt;xref:System.Data.DataTableReader&gt;, <ph id="ph1">`GetValues`</ph> метод предоставляет наиболее эффективным решением.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can pass an &lt;xref:System.Object&gt; array that contains fewer than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">Можно передать &lt;xref:System.Object&gt;массив, который содержит меньшее число столбцов, содержащихся в результирующей строке.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the amount of data the <ph id="ph1">`Object`</ph> array can hold is copied to the array.</source>
+          <target state="translated">Объем данных <ph id="ph1">`Object`</ph> массив может содержать копируется в массив.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also pass an <ph id="ph1">`Object`</ph> array whose length is more than the number of columns that are contained in the resulting row, in which case the additional array elements remains unchanged by the method call.</source>
+          <target state="translated">Можно также передать <ph id="ph1">`Object`</ph> массив, длина которого превышает количество столбцов, содержащихся в результирующей строке, в котором регистр дополнительные элементы массива остаются без изменений при вызове этого метода.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method places <ph id="ph1">`DBNull`</ph> in the output array for null columns.</source>
+          <target state="translated">Этот метод помещает <ph id="ph1">`DBNull`</ph> в выходном массиве для столбцов со значениями null.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the column values from the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив &lt;xref:System.Object&gt;в который копируются значения столбцов из <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">Количество значений столбцов, копируемых в массив.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит одну или несколько строк.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`HasRows`</ph> property returns information about the current result set.</source>
+          <target state="translated"><ph id="ph1">`HasRows`</ph> Свойство возвращает сведения о текущем результирующем наборе.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.DataTableReader&gt; contains multiple result sets, you can examine the value of the <ph id="ph1">`HasRows`</ph> property immediately after you call the &lt;xref:System.Data.DataTableReader.NextResult%2A&gt; method in order to determine whether the new result set contains rows.</source>
+          <target state="translated">Если &lt;xref:System.Data.DataTableReader&gt;содержит несколько результирующих наборов, можно проверить значение <ph id="ph1">`HasRows`</ph> свойство сразу после вызова метода &lt;xref:System.Data.DataTableReader.NextResult%2A&gt;метод, чтобы определить, содержит ли нового результирующего набора строк.&lt;/xref:System.Data.DataTableReader.NextResult%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`HasRows`</ph> property to avoid the requirement to call the &lt;xref:System.Data.DataTableReader.Read%2A&gt; method of the &lt;xref:System.Data.DataTableReader&gt; if there are no rows within the current result set.</source>
+          <target state="translated">Используйте <ph id="ph1">`HasRows`</ph> свойства, чтобы избежать требование вызова &lt;xref:System.Data.DataTableReader.Read%2A&gt;метод &lt;xref:System.Data.DataTableReader&gt;Если нет ни одной строки в текущем результирующем наборе.&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> содержит одну или несколько строк; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve information about a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка получить сведения о закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> закрыт.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.DataTableReader.Close%2A&gt; is the only method and <ph id="ph1">`IsClosed`</ph> and &lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt; are the only properties that can be accessed after the &lt;xref:System.Data.DataTableReader&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader.Close%2A&gt;является единственным способом и <ph id="ph1">`IsClosed`</ph> и &lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt;являются единственными свойствами, доступных после &lt;xref:System.Data.DataTableReader&gt;было закрыто.&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.RecordsAffected%2A&gt;&lt;/xref:System.Data.DataTableReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> закрыт; в противном случае — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains non-existent or missing values.</source>
+          <target state="translated">Возвращает значение, указывающее, содержит ли столбец несуществующие или отсутствующие значения.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to see if there are null column values before calling the typed get methods (for example, &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;, &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;, and so on) to avoid raising an error.</source>
+          <target state="translated">Вызовите этот метод, чтобы выяснить наличие значений null столбцов перед вызовом методов типизированный get (например, &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;, &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;и так далее) во избежание возникновения ошибки.&lt;/xref:System.Data.DataTableReader.GetChar%2A&gt; &lt;/xref:System.Data.DataTableReader.GetByte%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column value is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если значение указанного столбца эквивалентно <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column ordinal.</source>
+          <target state="translated">Возвращает значение указанного столбца в его собственном формате по порядковому номеру столбца.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload for &lt;xref:System.Data.DataTableReader.Item%2A&gt; behaves identically to the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">Эта перегрузка для &lt;xref:System.Data.DataTableReader.Item%2A&gt;работает идентично &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;метод.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Значение указанного столбца в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.DataTableReader.FieldCount*&gt;- 1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column name.</source>
+          <target state="translated">Возвращает значение указанного столбца в его собственном формате по имени столбца.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A case-sensitive lookup is performed first.</source>
+          <target state="translated">Сначала выполняется поиск с учетом регистра.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">В случае неудачи выполняется второй поиска без учета регистра.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is kana-width insensitive.</source>
+          <target state="translated">Этот метод не учитывает ширину японской азбуки.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overloaded version of &lt;xref:System.Data.DataTableReader.Item%2A&gt; corresponds to calling the &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; method, and then subsequently calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">Перегруженная версия &lt;xref:System.Data.DataTableReader.Item%2A&gt;соответствует вызову &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;метод и последующем вызове &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;метода.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Имя столбца.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Значение указанного столбца в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">Указанное имя не является допустимым именем столбца.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">Была предпринята попытка для извлечения данных из удаленной строки.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next result set, if any.</source>
+          <target state="translated">Перемещает <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> к следующему результирующему набору, если таковые имеются.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used to process multiple results that can be generated by creating a &lt;xref:System.Data.DataTableReader&gt; over a &lt;xref:System.Data.DataSet&gt; that contains two or more tables, or an array that contains two or more &lt;xref:System.Data.DataTable&gt; instances.</source>
+          <target state="translated">Используется для обработки нескольких результатов, которые могут быть созданы путем создания &lt;xref:System.Data.DataTableReader&gt;через &lt;xref:System.Data.DataSet&gt;, содержащий несколько таблиц или массив, содержащий два или более &lt;xref:System.Data.DataTable&gt;экземпляров.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A new &lt;xref:System.Data.DataTableReader&gt; is positioned on the first result.</source>
+          <target state="translated">Новый &lt;xref:System.Data.DataTableReader&gt;расположено на первый результат.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another result set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>в случае отсутствия другой результирующий набор; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>An attempt was made to navigate within a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Была предпринята попытка для перемещения в пределах закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next record.</source>
+          <target state="translated">Перемещает <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> к следующей записи.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of the &lt;xref:System.Data.DataTableReader&gt; is before the first record.</source>
+          <target state="translated">По умолчанию &lt;xref:System.Data.DataTableReader&gt;— перед первой записью.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`Read`</ph> to start accessing any data.</source>
+          <target state="translated">Поэтому необходимо вызвать метод <ph id="ph1">`Read`</ph> для запуска, доступ к данным.</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another row to read; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>в случае отсутствия другой строки для чтения; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">Была предпринята попытка чтения или доступ к столбцу в закрытый <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> .</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows inserted, changed, or deleted by execution of the SQL statement.</source>
+          <target state="translated">Возвращает число строк, которые вставлены, изменены или удалены инструкцией SQL.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not support this property and always returns 0.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не поддерживает это свойство и всегда возвращает значение 0.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
