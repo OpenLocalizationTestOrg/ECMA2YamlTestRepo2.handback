@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d21ada5b35943a2fa934c826d5298b8bfc6d82d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Threading.DispatcherTimer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c09a3a84ec6ad203ff0c117bca689f8e7f3abcf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">019a22c0922ee46c7b5ea8239861ec5d9aaa500e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A timer that is integrated into the <bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> queue which is processed at a specified interval of time and at a specified priority.</source>
+          <target state="translated">集成到一个计时器<bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在指定时间间隔和指定的优先级处理的队列。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DispatcherTimer is reevaluated at the top of every &lt;xref:System.Windows.Threading.Dispatcher&gt; loop.</source>
+          <target state="translated">DispatcherTimer 进行重新计算顶部的每个&lt;xref:System.Windows.Threading.Dispatcher&gt;循环。&lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Timers are not guaranteed to execute exactly when the time interval occurs, but they are guaranteed to not execute before the time interval occurs.</source>
+          <target state="translated">若要执行的确切时间发生的时间间隔，但可确保不执行的时间间隔发生之前，不保证都计时器。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is because DispatcherTimer operations are placed on the &lt;xref:System.Windows.Threading.Dispatcher&gt; queue like other operations.</source>
+          <target state="translated">这是因为 DispatcherTimer 操作放在&lt;xref:System.Windows.Threading.Dispatcher&gt;队列与其他操作一样。&lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the DispatcherTimer operation executes is dependent on the other jobs in the queue and their priorities.</source>
+          <target state="translated">DispatcherTimer 操作执行时所依赖的其他作业在队列和其优先级。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Timers.Timer?displayProperty=fullName&gt; is used in a <ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph> application, it is worth noting that the &lt;xref:System.Timers.Timer?displayProperty=fullName&gt; runs on a different thread then the <ph id="ph2">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread.</source>
+          <target state="translated">如果&lt;xref:System.Timers.Timer?displayProperty=fullName&gt;中使用<ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph>应用程序，它是值得注意&lt;xref:System.Timers.Timer?displayProperty=fullName&gt;一个不同的线程上运行则<ph id="ph2">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>线程。&lt;/xref:System.Timers.Timer?displayProperty=fullName&gt; &lt;/xref:System.Timers.Timer?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In order to access objects on the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread, it is necessary to post the operation onto the &lt;xref:System.Windows.Threading.Dispatcher&gt; of the <ph id="ph2">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread using &lt;xref:System.Windows.Threading.Dispatcher.Invoke%2A&gt; or &lt;xref:System.Windows.Threading.Dispatcher.BeginInvoke%2A&gt;.</source>
+          <target state="translated">若要访问对象上<ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>线程，它是发布到该操作所需&lt;xref:System.Windows.Threading.Dispatcher&gt;的<ph id="ph2">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>线程使用&lt;xref:System.Windows.Threading.Dispatcher.Invoke%2A&gt;或&lt;xref:System.Windows.Threading.Dispatcher.BeginInvoke%2A&gt;.&lt;/xref:System.Windows.Threading.Dispatcher.BeginInvoke%2A&gt; &lt;/xref:System.Windows.Threading.Dispatcher.Invoke%2A&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Reasons for using a DispatcherTimer opposed to a &lt;xref:System.Timers.Timer?displayProperty=fullName&gt; are that the DispatcherTimer runs on the same thread as the &lt;xref:System.Windows.Threading.Dispatcher&gt; and a &lt;xref:System.Windows.Threading.DispatcherPriority&gt; can be set on the DispatcherTimer.</source>
+          <target state="translated">使用而不是 DispatcherTimer 原因&lt;xref:System.Timers.Timer?displayProperty=fullName&gt;DispatcherTimer 在同一个线程运行的是&lt;xref:System.Windows.Threading.Dispatcher&gt;和&lt;xref:System.Windows.Threading.DispatcherPriority&gt;可针对 DispatcherTimer 设置。&lt;/xref:System.Windows.Threading.DispatcherPriority&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt; &lt;/xref:System.Timers.Timer?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A DispatcherTimer will keep an object alive whenever the object's methods are bound to the timer.</source>
+          <target state="translated">DispatcherTimer 将使对象处于活动状态时对象的方法绑定到计时器。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文本用法</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Threading.DispatcherTimer&gt; runs on the &lt;xref:System.Windows.Threading.Dispatcher&gt; of the current thread at &lt;xref:System.Windows.Threading.DispatcherPriority&gt; priority.</source>
+          <target state="translated">&lt;xref:System.Windows.Threading.DispatcherTimer&gt;在上运行&lt;xref:System.Windows.Threading.Dispatcher&gt;在当前线程的&lt;xref:System.Windows.Threading.DispatcherPriority&gt;优先级。&lt;/xref:System.Windows.Threading.DispatcherPriority&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt;&lt;/xref:System.Windows.Threading.DispatcherTimer&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To specify a different &lt;xref:System.Windows.Threading.Dispatcher&gt;, use the following constructor: &lt;xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29?displayProperty=fullName&gt;.</source>
+          <target state="translated">若要指定不同&lt;xref:System.Windows.Threading.Dispatcher&gt;，使用以下构造函数︰ &lt;xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29?displayProperty=fullName&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class which processes timer events at the specified priority.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>处理按指定的优先级的计时器事件的类。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Threading.DispatcherTimer&gt; runs on the &lt;xref:System.Windows.Threading.Dispatcher&gt; of the current thread.</source>
+          <target state="translated">&lt;xref:System.Windows.Threading.DispatcherTimer&gt;在上运行&lt;xref:System.Windows.Threading.Dispatcher&gt;当前线程。&lt;/xref:System.Windows.Threading.Dispatcher&gt;&lt;/xref:System.Windows.Threading.DispatcherTimer&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To specify a different &lt;xref:System.Windows.Threading.Dispatcher&gt;, use the following constructor: &lt;xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29&gt;.</source>
+          <target state="translated">若要指定不同&lt;xref:System.Windows.Threading.Dispatcher&gt;，使用以下构造函数︰ &lt;xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29&gt;.&lt;/xref:System.Windows.Threading.DispatcherTimer.%23ctor%28System.Windows.Threading.DispatcherPriority%2CSystem.Windows.Threading.Dispatcher%29&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The priority at which to invoke the timer.</source>
+          <target state="translated">在其调用计时器优先级。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class which runs on the specified <bpt id="p2">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> at the specified priority.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类上指定运行<bpt id="p2">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>按指定的优先级。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The priority at which to invoke the timer.</source>
+          <target state="translated">在其调用计时器优先级。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The dispatcher the timer is associated with.</source>
+          <target state="translated">调度程序计时器关联的。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dispatcher&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dispatcher&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class which uses the specified time interval, priority, event handler, and <bpt id="p2">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类该类使用指定的时间间隔、 优先级别、 事件处理程序和<bpt id="p2">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The period of time between ticks.</source>
+          <target state="translated">计时周期之间的时间段。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The priority at which to invoke the timer.</source>
+          <target state="translated">在其调用计时器优先级。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The event handler to call when the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event occurs.</source>
+          <target state="translated">事件处理程序时调用<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件发生。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The dispatcher the timer is associated with.</source>
+          <target state="translated">调度程序计时器关联的。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;interval&lt;/code&gt;</ph> is less than 0 or greater than <ph id="ph2">&lt;xref:System.Int32.MaxValue&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;interval&lt;/code&gt;</ph>小于 0 或大于<ph id="ph2">&lt;xref:System.Int32.MaxValue&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与此关联<bpt id="p2">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Dispatcher property is determined at the creation of the &lt;xref:System.Windows.Threading.DispatcherTimer&gt; object.</source>
+          <target state="translated">在创建时确定的调度程序属性&lt;xref:System.Windows.Threading.DispatcherTimer&gt;对象。&lt;/xref:System.Windows.Threading.DispatcherTimer&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Threading.Dispatcher&gt; property is set to the current &lt;xref:System.Windows.Threading.Dispatcher&gt; at the time of creation unless a different &lt;xref:System.Windows.Threading.Dispatcher&gt; is specified.</source>
+          <target state="translated">&lt;xref:System.Windows.Threading.Dispatcher&gt;属性设置为当前&lt;xref:System.Windows.Threading.Dispatcher&gt;时创建的除非不同&lt;xref:System.Windows.Threading.Dispatcher&gt;指定。&lt;/xref:System.Windows.Threading.Dispatcher&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt; &lt;/xref:System.Windows.Threading.Dispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The dispatcher.</source>
+          <target state="translated">调度程序。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets the period of time between timer ticks.</source>
+          <target state="translated">获取或设置计时器刻度之间的时间段。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Timers are not guaranteed to execute exactly when the time interval occurs, but they are guaranteed to not execute before the time interval occurs.</source>
+          <target state="translated">若要执行的确切时间发生的时间间隔，但可确保不执行的时间间隔发生之前，不保证都计时器。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is because &lt;xref:System.Windows.Threading.DispatcherTimer&gt; operations are placed on the &lt;xref:System.Windows.Threading.Dispatcher&gt; queue like other operations.</source>
+          <target state="translated">这是因为&lt;xref:System.Windows.Threading.DispatcherTimer&gt;操作不会放置&lt;xref:System.Windows.Threading.Dispatcher&gt;队列与其他操作一样。&lt;/xref:System.Windows.Threading.Dispatcher&gt; &lt;/xref:System.Windows.Threading.DispatcherTimer&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.Threading.DispatcherTimer&gt; operation executes is dependent on the other jobs in the queue and their priorities.</source>
+          <target state="translated">当&lt;xref:System.Windows.Threading.DispatcherTimer&gt;操作执行依赖于队列和其优先级中的其他作业。&lt;/xref:System.Windows.Threading.DispatcherTimer&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="XAMLTextUsage_Interval"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="XAMLTextUsage_Interval"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文本用法</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The period of time between ticks.</source>
+          <target state="translated">计时周期之间的时间段。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is 00:00:00.</source>
+          <target state="translated">默认值为 00:00:00。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;interval&lt;/code&gt;</ph> is less than 0 or greater than <ph id="ph2">&lt;xref:System.Int32.MaxValue&gt;</ph> milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;interval&lt;/code&gt;</ph>小于 0 或大于<ph id="ph2">&lt;xref:System.Int32.MaxValue&gt;</ph>毫秒。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the timer is running.</source>
+          <target state="translated">获取或设置一个值，指示计时器是否正在运行。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>IsEnabled must be set to <ph id="ph1">`true`</ph> for the &lt;xref:System.Windows.Threading.DispatcherTimer.Tick&gt; event to be raised.</source>
+          <target state="translated">IsEnabled 必须设置为<ph id="ph1">`true`</ph>为&lt;xref:System.Windows.Threading.DispatcherTimer.Tick&gt;引发事件。&lt;/xref:System.Windows.Threading.DispatcherTimer.Tick&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Windows.Threading.DispatcherTimer.Start%2A&gt; sets IsEnabled to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Threading.DispatcherTimer.Start%2A&gt;将 IsEnabled 设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Threading.DispatcherTimer.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Windows.Threading.DispatcherTimer.Stop%2A&gt; sets IsEnabled to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Threading.DispatcherTimer.Stop%2A&gt;将 IsEnabled 设置为<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Threading.DispatcherTimer.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="XAMLTextUsage_IsEnabled"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="XAMLTextUsage_IsEnabled"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文本用法</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the timer is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果计时器处于启用状态;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Starts the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">启动<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`false`</ph> when the timer is started stops the timer.</source>
+          <target state="translated">设置&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`false`</ph>计时器在启动时停止计时器。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`true`</ph> when the timer is stopped starts the timer.</source>
+          <target state="translated">设置&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`true`</ph>当停止计时器启动计时器。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Start sets &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">启动组&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Start resets the timer &lt;xref:System.Windows.Threading.DispatcherTimer.Interval%2A&gt;.</source>
+          <target state="translated">开始重置计时器&lt;xref:System.Windows.Threading.DispatcherTimer.Interval%2A&gt;.&lt;/xref:System.Windows.Threading.DispatcherTimer.Interval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Stops the <bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">停止<bpt id="p1">&lt;xref href="System.Windows.Threading.DispatcherTimer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`false`</ph> when the timer is started stops the timer.</source>
+          <target state="translated">设置&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`false`</ph>计时器在启动时停止计时器。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`true`</ph> when the timer is stopped starts the timer.</source>
+          <target state="translated">设置&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`true`</ph>当停止计时器启动计时器。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Calling Stop sets &lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">调用停止集&lt;xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;到<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Threading.DispatcherTimer.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a user-defined data object.</source>
+          <target state="translated">获取或设置用户定义数据对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="XAMLTextUsage_Tag"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="XAMLTextUsage_Tag"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文本用法</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The user-defined data.</source>
+          <target state="translated">用户定义的数据。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Occurs when the timer interval has elapsed.</source>
+          <target state="translated">计时器间隔已过去时发生。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Tick"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Tick"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文本用法</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
