@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85258bc99773f880fcfe1a81fb0fd16cfcd5a582</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.QueryStringConverter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">309e0af260ebe96ead79fe9db3a1a74ee59cd405</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85d96c773104b256e9b64ae72a79599d6fb37502</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>This class converts a parameter in a query string to an object of the appropriate type.</source>
+          <target state="translated">이 클래스는 적절 한 형식의 개체에 쿼리 문자열의 매개 변수를 변환합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It can also convert a parameter from an object to its query string representation.</source>
+          <target state="translated">또한 개체에서 매개 변수 쿼리 문자열 표현으로 변환할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Parameters can be specified in a query string within a URL.</source>
+          <target state="translated">URL 내의 쿼리 문자열에 매개 변수를 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class takes those parameters specified in a string and converts them into objects.</source>
+          <target state="translated">이 클래스는 문자열에 지정 된 이러한 매개 변수를 사용 하며 개체로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following contract is defined.</source>
+          <target state="translated">예를 들어 다음 계약은 정의 됩니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   [ServiceContract]   interface Calculator   {      [WebGet(UriTemplate="Add?n1={n1}&amp;n2={n2}")]      [OperationContract]      long Add(long n1, long n2);   }   ```</ph>       A <ph id="ph2">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service implements this interface and exposes it on an endpoint with the &lt;xref:System.ServiceModel.Description.WebHttpBehavior&gt; at http://localhost:8000/MyCalcService.</source>
+          <target state="translated"><ph id="ph1">```   [ServiceContract]   interface Calculator   {      [WebGet(UriTemplate="Add?n1={n1}&amp;n2={n2}")]      [OperationContract]      long Add(long n1, long n2);   }   ```</ph>A <ph id="ph2">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> 서비스는이 인터페이스를 구현 하 고 끝점에 노출 된 &lt;xref:System.ServiceModel.Description.WebHttpBehavior&gt;Http://localhost:8000/mycalcservice에서.&lt;/xref:System.ServiceModel.Description.WebHttpBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Add`</ph> service operation can be called by sending an HTTP GET to http://localhost:8000/MyCalcService/Add?n1=10&amp;n2=5.</source>
+          <target state="translated"><ph id="ph1">`Add`</ph> : //localhost:&amp;8000;/MyCalcService/Add를 HTTP GET을 전송 하 여 서비스 작업을 호출할 수 있습니까? n1/10 / n2 = =&amp;5;.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The QueryStringConverter receives this URL and converts the two parameters (n1 and n2) specified in the URL into two <ph id="ph1">`long`</ph> objects with the appropriate values.</source>
+          <target state="translated">있으며가이 URL을 수신 하 고 두 개의 매개 변수 (n1 및 n2) 두 개로 URL에 지정 된 변환 <ph id="ph1">`long`</ph> 적절 한 값이 있는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can derive a class from QueryStringConverter to control how query string parameters are mapped into a service operation's parameters.</source>
+          <target state="translated">쿼리 문자열 매개 변수가 서비스 작업의 매개 변수에 매핑되는 방식을 제어할 수 있으며에서 클래스를 파생 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The QueryStringConverter supports the following types by default:      -   &lt;xref:System.Byte&gt;      -   &lt;xref:System.SByte&gt;      -   &lt;xref:System.Int16&gt;      -   &lt;xref:System.Int32&gt;      -   &lt;xref:System.Int64&gt;      -   &lt;xref:System.UInt16&gt;      -   &lt;xref:System.UInt32&gt;      -   &lt;xref:System.UInt64&gt;      -   &lt;xref:System.Single&gt;      -   &lt;xref:System.Double&gt;      -   &lt;xref:System.Char&gt;      -   &lt;xref:System.Decimal&gt;      -   &lt;xref:System.Boolean&gt;      -   &lt;xref:System.String&gt;      -   &lt;xref:System.DateTime&gt;      -   &lt;xref:System.TimeSpan&gt;      -   &lt;xref:System.Guid&gt;      -   &lt;xref:System.Byte&gt; array      -   &lt;xref:System.Uri&gt;      -   &lt;xref:System.Object&gt;      -   &lt;xref:System.DateTimeOffset&gt;      -   Enums      -   Types that have a <ph id="ph1">`TypeConverterAttribute`</ph> that can convert the type to and from a string representation.</source>
+          <target state="translated">있으며 기본적으로 다음 형식을 지원:- &lt;xref:System.Byte&gt;- &lt;xref:System.SByte&gt;- &lt;xref:System.Int16&gt;- &lt;xref:System.Int32&gt;- &lt;xref:System.Int64&gt;- &lt;xref:System.UInt16&gt;- &lt;xref:System.UInt32&gt;- &lt;xref:System.UInt64&gt;- &lt;xref:System.Single&gt;- &lt;xref:System.Double&gt;- &lt;xref:System.Char&gt;- &lt;xref:System.Decimal&gt;- &lt;xref:System.Boolean&gt;- &lt;xref:System.String&gt;- &lt;xref:System.DateTime&gt;- &lt;xref:System.TimeSpan&gt;- &lt;xref:System.Guid&gt;- &lt;xref:System.Byte&gt;array- &lt;xref:System.Uri&gt;- &lt;xref:System.Object&gt;- &lt;xref:System.DateTimeOffset&gt;요소가 있는-열거형-유형에 <ph id="ph1">`TypeConverterAttribute`</ph> 문자열 표현과 형식을 서로 변환할 수 있는.&lt;/xref:System.DateTimeOffset&gt; &lt;/xref:System.Object&gt; &lt;/xref:System.Uri&gt; &lt;/xref:System.Byte&gt; &lt;/xref:System.Guid&gt; &lt;/xref:System.TimeSpan&gt; &lt;/xref:System.DateTime&gt; &lt;/xref:System.String&gt; &lt;/xref:System.Boolean&gt; &lt;/xref:System.Decimal&gt; &lt;/xref:System.Char&gt; &lt;/xref:System.Double&gt; &lt;/xref:System.Single&gt; &lt;/xref:System.UInt64&gt; &lt;/xref:System.UInt32&gt; &lt;/xref:System.UInt16&gt; &lt;/xref:System.Int64&gt; &lt;/xref:System.Int32&gt; &lt;/xref:System.Int16&gt; &lt;/xref:System.SByte&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.QueryStringConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.QueryStringConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified type can be converted to and from a string representation.</source>
+          <target state="translated">지정된 된 형식의 문자열 표현과 변환 될 수 있는지 여부를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Type&gt;변환할.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether the type can be converted.</source>
+          <target state="translated">형식을 변환 될 수 있는지 여부를 지정 하는 값입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Converts a query string parameter to the specified type.</source>
+          <target state="translated">쿼리 문자열 매개 변수를 지정 된 형식으로 변환합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`parameterType`</ph> is a value type and the parameter is <ph id="ph2">`null`</ph>, then the default value of the <ph id="ph3">`parameterType`</ph> is returned.</source>
+          <target state="translated">경우는 <ph id="ph1">`parameterType`</ph> 값 형식이 고 매개 변수가 <ph id="ph2">`null`</ph>의 기본 값은 <ph id="ph3">`parameterType`</ph> 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The string form of the parameter and value.</source>
+          <target state="translated">매개 변수 및 값의 문자열 형식입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the parameter to.</source>
+          <target state="translated">&lt;xref:System.Type&gt;매개 변수를 변환할.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The converted parameter.</source>
+          <target state="translated">변환 된 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The provided string does not have the correct format.</source>
+          <target state="translated">제공된 된 문자열에는 올바른 형식이 없습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Converts a parameter to a query string representation.</source>
+          <target state="translated">매개 변수는 쿼리 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The parameter to convert.</source>
+          <target state="translated">변환할 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the parameter to convert.</source>
+          <target state="translated">&lt;xref:System.Type&gt;변환할 매개 변수입니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The parameter name and value.</source>
+          <target state="translated">매개 변수 이름 및 값입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

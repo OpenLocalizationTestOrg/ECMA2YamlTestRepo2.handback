@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f5540e6c5fa52a7fb07812489dca702f5d0d07a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Lifetime.ILease.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45e38805615699c79712350027a835033186690d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61b43a52af76d032a62ac13781d0eb18c77ef2e0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a lifetime lease object that is used by the remoting lifetime service.</source>
+          <target state="translated">Definiál egy élettartama bérleti objektumot, amely a távoli eljáráshívás élettartama szolgáltatás által használt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Distributed garbage collection controls when server applications can be deleted.</source>
+          <target state="translated">Elosztott szemétgyűjtési gyűjtemény vezérlők kiszolgálóalkalmazások törlésekor.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Traditionally, distributed garbage collection uses reference counts and pinging for control.</source>
+          <target state="translated">Hagyományosan elosztott szemétgyűjtés hivatkozás számát, valamint a pingelés vezérlő használja.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This works well when there are a few clients per object, but does not work well when there are thousands of clients per each object.</source>
+          <target state="translated">Ez jól működik, ha néhány ügyfél objektumonként, de nem működik jól, ha ügyfelek az egyes objektumok száma ezer van.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lifetime service can assume the function of a traditional distributed garbage collector, and scales well when the number of clients increases.</source>
+          <target state="translated">Az élettartam szolgáltatás egy hagyományos elosztott szemétgyűjtő, és méretezik funkciót feltételezheti, megfelelő, ha az ügyfelek számát növeli.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lifetime service associates a lease with each remotely activated object.</source>
+          <target state="translated">Az élettartam szolgáltatás társítja a címbérlet minden távolról aktivált objektum.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the lease expires, the object is removed.</source>
+          <target state="translated">Amikor bérlete lejár, a rendszer eltávolítja az objektumhoz.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A lease can specify that an object has an infinite lifetime.</source>
+          <target state="translated">A címbérlet adhatja meg, hogy az objektum rendelkezik-e végtelen élettartammal.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.AppDomain&gt; contains a lease manager that administers the leases in the domain.</source>
+          <target state="translated">Minden egyes &lt;xref:System.AppDomain&gt;tartalmaz, amely felügyeli a tartomány a bérletek bérleti vezető.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease manager periodically examines the leases for time expiration.</source>
+          <target state="translated">A bérleti manager rendszeres időközönként megvizsgálja a bérletek a lejárati idő.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a lease has expired, it can either be canceled by removing its reference to the lease, or renewed by invoking one or more of the lease's sponsors.</source>
+          <target state="translated">Ha lejárt a címbérlet, azt is kell megszakította a címbérlet mutató hivatkozás eltávolítását vagy megújítani az legalább egy, a címbérlet szponzorok meghívása.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A lease contains properties that determine its policies, and methods that renew the lease time.</source>
+          <target state="translated">A címbérlet tartalmaz, a házirendek meghatározó tulajdonságok és metódusok újítsa meg a bérleti idő.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease exposes the ILease interface.</source>
+          <target state="translated">A bérlet elérhetővé teszi a ILease adaptert.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example showing how to use the ILease interface see <bpt id="p1">[</bpt>Lifetimes<ept id="p1">](http://msdn.microsoft.com/en-us/334a30e5-33cb-4f0f-a38a-ed4abc5560fa)</ept>.</source>
+          <target state="translated">A ILease felülettel bemutató példa: <bpt id="p1">[</bpt>élettartama<ept id="p1">](http://msdn.microsoft.com/en-us/334a30e5-33cb-4f0f-a38a-ed4abc5560fa)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the amount of time remaining on the lease.</source>
+          <target state="translated">Lekérdezi a címbérlet hátralévő időt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The amount of time remaining on the lease.</source>
+          <target state="translated">A bérlet hátralévő idő mennyiségét.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the lease.</source>
+          <target state="translated">Lekérdezi az aktuális <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a címbérlet.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the lease.</source>
+          <target state="translated">Az aktuális <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a címbérlet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets or sets the initial time for the lease.</source>
+          <target state="translated">Lekérdezi vagy beállítja a bérlet kezdeti időpontját.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the InitialLeaseTime property is set to &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, then the lease will never time out and the object associated with it will have an infinite lifetime.</source>
+          <target state="translated">Ha az InitialLeaseTime tulajdonság értéke &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, majd a címbérlet sosem fog túllépi az időkorlátot, és a hozzá társított objektumot kell határozatlan.&lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The initial time for the lease.</source>
+          <target state="translated">A bérlet kezdeti időpontját.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Registers a sponsor for the lease without renewing the lease.</source>
+          <target state="translated">A megbízó a címbérlet regisztrálja a címbérlet megújítása nélkül.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a sponsor is registered with the current method, the lease is not renewed.</source>
+          <target state="translated">A megbízó regisztrálva van az aktuális metódust, ha nem hosszabbítja meg bérleti idejét.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The callback object of the sponsor.</source>
+          <target state="translated">A megbízó visszahívási objektum.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Registers a sponsor for the lease, and renews it by the specified &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">A megbízó a címbérlet regisztrálja, és azt a megadott &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt; megújítja</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The callback object of the sponsor.</source>
+          <target state="translated">A megbízó visszahívási objektum.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The length of time to renew the lease by.</source>
+          <target state="translated">Mennyi ideig által a címbérlet megújítása.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Renews a lease for the specified time.</source>
+          <target state="translated">A címbérlet megújítása a megadott időpontban.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease time is set to the maximum of the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; or the current time plus the renewal time.</source>
+          <target state="translated">A bérleti idő a maximális értéke a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;vagy a jelenlegi időpontnál a megújítási idejének.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The length of time to renew the lease by.</source>
+          <target state="translated">Mennyi ideig által a címbérlet megújítása.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The new expiration time of the lease.</source>
+          <target state="translated">Az új lejárati időt a címbérlet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time by which a call to the remote object renews the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.</source>
+          <target state="translated">Lekérdezi vagy beállítja azt az időt, amely szerint a távoli objektum hívása megújítja a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you make a call to a remote object, the lifetime service adds the RenewOnCallTime to the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; only if the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; has dropped below the RenewOnCallTime.</source>
+          <target state="translated">Ha a távoli objektumok hívása, az élettartam szolgáltatás hozzáadja a RenewOnCallTime a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;csak akkor, ha a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;a RenewOnCallTime alá esett.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; &lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sequential calls therefore do not increase the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; without bound.</source>
+          <target state="translated">Egymást követő hívások ezért ne növelje a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;kötött nélkül.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, immediately after any call, the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; is guaranteed to be the RenewOnCallTime or longer.</source>
+          <target state="translated">Ehelyett közvetlenül semmilyen hívásban, után a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;garantált, hogy a RenewOnCallTime vagy hosszabb.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The amount of time by which a call to the remote object renews the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.</source>
+          <target state="translated">Ennyi idő alatt, amely szerint a távoli objektum hívása megújítja a &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time to wait for a sponsor to return with a lease renewal time.</source>
+          <target state="translated">Lekérdezi vagy beállítja a megbízó vissza a bérlet megújítási idejének a várakozási idő.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SponsorshipTimeout is &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, then this lease will not take sponsors.</source>
+          <target state="translated">Ha a SponsorshipTimeout &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, akkor a címbérlet nem lépnek szponzorok.&lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a sponsor does not respond to a call to renew a lease within the time-out period, it is assumed to be dead and is removed from the list of sponsors for the current lease.</source>
+          <target state="translated">Ha a megbízó nem válaszol az időkorláton belül a címbérlet megújítása hívás, inaktív adottnak, és törlődik az aktuális címbérlet szponzorok listája.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The amount of time to wait for a sponsor to return with a lease renewal time.</source>
+          <target state="translated">A várakozási idő a megbízó és a bérlet megújítási idejének vissza a mennyisége.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Removes a sponsor from the sponsor list.</source>
+          <target state="translated">A megbízó távolít el egy megbízó.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The lease sponsor to unregister.</source>
+          <target state="translated">A bérleti megbízó regisztrációjának törlése.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">A közvetlen hívónak hivatkozni kell a felületen keresztül a hívást, és nincs engedélye infrastruktúra.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

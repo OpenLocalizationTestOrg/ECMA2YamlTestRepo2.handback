@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7e30c7bffed07c13e208d6728f4d0aa024cc921</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.TypeDelegator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">642acb21f93ac7261eb95c74fe9eee498f4f12f1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92f77c6300604b67af47b47e5fa168aa971028c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wraps a <ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object and delegates methods to that <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ラップする<ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>オブジェクトおよびデリゲートのメソッドを<bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Derive from this type and override only those members you have to provide customization in, plus any members that are required by your program and not already implemented by TypeDelegator.</source>
+          <target state="translated">この型から派生し、カスタマイズを提供する必要があるメンバーだけと、プログラムに必要な TypeDelegator によって実装されていないすべてのメンバーをオーバーライドします。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>TypeDelegator derives from &lt;xref:System.Type?displayProperty=fullName&gt; and implements most of the properties and methods of &lt;xref:System.Type&gt;.</source>
+          <target state="translated">TypeDelegator が&lt;xref:System.Type?displayProperty=fullName&gt;&lt;xref:System.Type&gt;。&lt;/xref:System.Type&gt;のメソッドとプロパティのほとんどを実装および&lt;/xref:System.Type?displayProperty=fullName&gt;から派生します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For each member it implements, TypeDelegator automatically delegates to the corresponding member of an internal &lt;xref:System.Type&gt; object, which is supplied as an argument to the constructor.</source>
+          <target state="translated">実装する各メンバーに対して TypeDelegator に自動的に委任内部の対応するメンバーに&lt;xref:System.Type&gt;はコンス トラクターに渡す引数として渡されたオブジェクト&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This internal &lt;xref:System.Type&gt; object is exposed to deriving classes by the <ph id="ph1">`protected`</ph>&lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field.</source>
+          <target state="translated">この内部&lt;xref:System.Type&gt;別にクラスを派生するオブジェクトが公開されている、 <ph id="ph1">`protected`</ph> &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;フィールド&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt;&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Some members of TypeDelegator have implementations even though the members themselves are simply inherited from &lt;xref:System.Type&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; TypeDelegator の一部のメンバー、メンバーそのものが&lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;から継承されただけでも実装しています。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In these cases, the implementation is provided by an overridden <ph id="ph1">`protected`</ph> method that has a name that ends in "Impl".</source>
+          <target state="translated">このような場合は、実装が提供されるによってオーバーライドされた<ph id="ph1">`protected`</ph>"Impl"で終わる名前を持つメソッドです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, the implementation for all overloads of the &lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt; method is supplied by the overridden &lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt; method.</source>
+          <target state="translated">すべてのオーバー ロードの実装など、&lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;メソッドが提供されて、オーバーライドされたによって&lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt;メソッド&lt;/xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt;&lt;/xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The implementation for inherited properties such as &lt;xref:System.Type.IsPublic%2A&gt; and &lt;xref:System.Type.IsNestedAssembly%2A&gt; is provided by the overridden &lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt; method.</source>
+          <target state="translated">実装などのプロパティを継承&lt;xref:System.Type.IsPublic%2A&gt;と&lt;xref:System.Type.IsNestedAssembly%2A&gt;が指定されて、オーバーライドされたによって&lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt;メソッド&lt;/xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt;&lt;/xref:System.Type.IsNestedAssembly%2A&gt;&lt;/xref:System.Type.IsPublic%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Deriving classes can provide a public constructor that takes a &lt;xref:System.Type&gt; object as its parameter and simply passes that object to the &lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt; constructor, or can set the internal &lt;xref:System.Type&gt; object in some other way.</source>
+          <target state="translated">受け取るパブリック コンス トラクターを提供できるクラスを派生させる、&lt;xref:System.Type&gt;オブジェクトのオブジェクトを渡すだけで、パラメーターとして、&lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt;コンス トラクターを内部で設定できますか&lt;xref:System.Type&gt;他の何らかの方法でオブジェクト&lt;/xref:System.Type&gt;&lt;/xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt;&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If a deriving class uses a member that is not implemented by TypeDelegator, it must override that member and provide an implementation.</source>
+          <target state="translated">派生クラスでは、TypeDelegator によって実装されていないメンバーを使用する場合はそのメンバーをオーバーライドする必要があり、実装を提供します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The simplest implementation is to call the corresponding member on the internal &lt;xref:System.Type&gt; object exposed by the &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field, but you can provide any implementation your application requires.</source>
+          <target state="translated">最も単純な実装では、内部で、対応するメンバーを呼び出す&lt;xref:System.Type&gt;オブジェクトによって公開されている、&lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;がフィールドに、アプリケーションに必要なすべての実装を提供できます&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt;&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It is not necessary to override these members if they are not used by your application or by library functions your application calls (for example, by the &lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt; constructor).</source>
+          <target state="translated">ライブラリで、アプリケーションの呼び出しを機能または、アプリケーションで使用されていない場合は、これらのメンバーをオーバーライドする必要はありません (たとえば、&lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;コンス トラクター).&lt;/xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following virtual methods (<ph id="ph1">`Overridable`</ph> methods in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.MakeGenericType%2A&gt;, &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.GetGenericArguments%2A&gt;, &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt;, &lt;xref:System.Type.MakeArrayType%2A&gt;, &lt;xref:System.Type.MakeByRefType%2A&gt;, &lt;xref:System.Type.MakePointerType%2A&gt;, &lt;xref:System.Type.GetEnumNames%2A&gt;, &lt;xref:System.Type.GetEnumValues%2A&gt;, &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt;, &lt;xref:System.Type.GetTypeCodeImpl%2A&gt;, &lt;xref:System.Type.IsEnumDefined%2A&gt;, &lt;xref:System.Type.IsEquivalentTo%2A&gt;.</source>
+          <target state="translated">次の仮想メソッド (<ph id="ph1">`Overridable`</ph> Visual Basic でのメソッド) の&lt;xref:System.Type&gt;TypeDelegator によって実装されていない: &lt;xref:System.Type.MakeGenericType%2A&gt; &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt; &lt;xref:System.Type.GetGenericArguments%2A&gt; &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt; &lt;xref:System.Type.MakeArrayType%2A&gt; &lt;xref:System.Type.MakeByRefType%2A&gt; &lt;xref:System.Type.MakePointerType%2A&gt; &lt;xref:System.Type.GetEnumNames%2A&gt; &lt;xref:System.Type.GetEnumValues%2A&gt; &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt; &lt;xref:System.Type.GetTypeCodeImpl%2A&gt; &lt;xref:System.Type.IsEnumDefined%2A&gt; &lt;xref:System.Type.IsEquivalentTo%2A&gt;.&lt;/xref:System.Type.IsEquivalentTo%2A&gt; &lt;/xref:System.Type.IsEnumDefined%2A&gt; &lt;/xref:System.Type.GetTypeCodeImpl%2A&gt; &lt;/xref:System.Type.GetEnumUnderlyingType%2A&gt; &lt;/xref:System.Type.GetEnumValues%2A&gt; &lt;/xref:System.Type.GetEnumNames%2A&gt; &lt;/xref:System.Type.MakePointerType%2A&gt; &lt;/xref:System.Type.MakeByRefType%2A&gt; &lt;/xref:System.Type.MakeArrayType%2A&gt; &lt;/xref:System.Type.GetGenericParameterConstraints%2A&gt; &lt;/xref:System.Type.GetGenericArguments%2A&gt; &lt;/xref:System.Type.GetGenericTypeDefinition%2A&gt; 、&lt;/xref:System.Type.MakeGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following virtual properties (<ph id="ph1">`Overridable`</ph> properties in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.IsGenericType%2A&gt;, &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.IsGenericParameter%2A&gt;, &lt;xref:System.Type.ContainsGenericParameters%2A&gt;, &lt;xref:System.Type.DeclaringMethod%2A&gt;, &lt;xref:System.Type.GenericParameterAttributes%2A&gt;, &lt;xref:System.Type.GenericParameterPosition%2A&gt;, &lt;xref:System.Type.IsSecurityCritical%2A&gt;, &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt;, &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.</source>
+          <target state="translated">次の仮想プロパティ (<ph id="ph1">`Overridable`</ph> Visual Basic でのプロパティ) の&lt;xref:System.Type&gt;TypeDelegator によって実装されていない: &lt;xref:System.Type.IsGenericType%2A&gt; &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt; &lt;xref:System.Type.IsGenericParameter%2A&gt; &lt;xref:System.Type.ContainsGenericParameters%2A&gt; &lt;xref:System.Type.DeclaringMethod%2A&gt; &lt;xref:System.Type.GenericParameterAttributes%2A&gt; &lt;xref:System.Type.GenericParameterPosition%2A&gt; &lt;xref:System.Type.IsSecurityCritical%2A&gt; &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt; &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.&lt;/xref:System.Type.IsSecurityTransparent%2A&gt; &lt;/xref:System.Type.IsSecuritySafeCritical%2A&gt; &lt;/xref:System.Type.IsSecurityCritical%2A&gt; &lt;/xref:System.Type.GenericParameterPosition%2A&gt; &lt;/xref:System.Type.GenericParameterAttributes%2A&gt; &lt;/xref:System.Type.DeclaringMethod%2A&gt; &lt;/xref:System.Type.ContainsGenericParameters%2A&gt; &lt;/xref:System.Type.IsGenericParameter%2A&gt; &lt;/xref:System.Type.IsGenericTypeDefinition%2A&gt; 、&lt;/xref:System.Type.IsGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default properties.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>既定のプロパティを持つクラス。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying the encapsulating instance.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>カプセル化するインスタンスを指定するクラス。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor is called from a class to generate a delegate based upon the <ph id="ph1">`Type`</ph> object for the class defining the method.</source>
+          <target state="translated">このコンス トラクターがに基づいてデリゲートを生成するクラスから呼び出される、<ph id="ph1">`Type`</ph>メソッドを定義するクラスのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The instance of the class &lt;xref:System.Type&gt; that encapsulates the call to the method of an object.</source>
+          <target state="translated">クラスのインスタンス&lt;xref:System.Type&gt;オブジェクトのメソッドの呼び出しをカプセル化する&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the assembly of the implemented type.</source>
+          <target state="translated">実装されている型のアセンブリを取得します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Assemblies are the deployment units in the common language runtime.</source>
+          <target state="translated">アセンブリは、共通言語ランタイムでの配置単位です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Assemblies establish the namespace for resolving requests and determine which resources are exposed externally and which are accessible from within the assembly.</source>
+          <target state="translated">アセンブリは、要求を解決する名前空間を確立し、どのリソースが外部で公開されているか、アセンブリ内からアクセスを決定します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The common language runtime can determine and locate the assembly for any running object.</source>
+          <target state="translated">共通言語ランタイムでは、判断でき、任意の実行中のオブジェクトのアセンブリを検索することができます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object representing the assembly of the implemented type.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>実装されている型のアセンブリを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the assembly's fully qualified name.</source>
+          <target state="translated">アセンブリの完全修飾名を取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the assembly's fully qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アセンブリの完全修飾名を格納します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the base type for the current type.</source>
+          <target state="translated">現在の型の基本型を取得します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The base type is the type from which this type directly inherits.</source>
+          <target state="translated">基本型は、この型の直接の継承元となる型です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Since the &lt;xref:System.Object&gt; class type is the ultimate base class of all the other types, it is the only type that does not have a base type.</source>
+          <target state="translated">以降、&lt;xref:System.Object&gt;クラス型が他のすべての型の基本クラスは、基本型を持たない唯一の種類&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this case, <ph id="ph1">`null`</ph> is returned as the base type of the <ph id="ph2">`Object`</ph> type.</source>
+          <target state="translated">この場合、<ph id="ph1">`null`</ph>の基本型として返される、<ph id="ph2">`Object`</ph>型です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The base type for a type.</source>
+          <target state="translated">型の基本データ型。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified name of the implemented type.</source>
+          <target state="translated">実装されている型の完全修飾名を取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">現在の完全修飾名を含む文字列<ph id="ph1">`TypeDelegator`</ph>です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's fully qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>型の完全修飾名を格納します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the attributes assigned to the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">割り当てられている属性を取得、 <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method can be used to determine if the <ph id="ph1">`TypeDelegator`</ph> is abstract, public, and so on.</source>
+          <target state="translated">このメソッドは、かどうかを使用できます、<ph id="ph1">`TypeDelegator`</ph>は abstract、公開、およびなどです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the implementation attribute flags.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>実装属性フラグを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the constructor that implemented the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">実装されているコンス トラクターを取得、 <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated"><ph id="ph1">`callConvention`</ph>パラメーターは、エントリ ポイントの呼び出し規則を示します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If no calling convention is specified, a default &lt;xref:System.Reflection.CallingConventions&gt; value of <ph id="ph1">`Standard`</ph> is used.</source>
+          <target state="translated">呼び出し規約が指定されていない場合、既定値&lt;xref:System.Reflection.CallingConventions&gt;値<ph id="ph1">`Standard`</ph>を使用します&lt;/xref:System.Reflection.CallingConventions&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">バインディング、引数の強制変換を有効にするオブジェクトの種類、メンバーの呼び出し、および取得<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リフレクションを使用するオブジェクトします。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">場合<ph id="ph1">`binder`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>既定のバインダーが使用されます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">呼び出し規約。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>パラメーターの数、順序、および種類の一覧を格納します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">型にすることはできません<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; 適切な使用<bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>メソッドまたは空の配列をパラメーターなしのメソッドを検索します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>と同じ長さを持つ、<ph id="ph1">`types`</ph>要素が取得するメソッドのパラメーターに関連付けられた属性を表す配列。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した条件に一致するメソッドのオブジェクトまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>一致が見つからない場合。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.ConstructorInfo&gt; objects representing constructors defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列を返します&lt;xref:System.Reflection.ConstructorInfo&gt;現在によってラップされた型に対して定義されているコンス トラクターを表すオブジェクト<bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.ConstructorInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Class initializers are available only through <ph id="ph1">`GetMember`</ph>, <ph id="ph2">`GetMembers`</ph>, <ph id="ph3">`FindMembers`</ph>, and <ph id="ph4">`GetConstructors`</ph>.</source>
+          <target state="translated">クラス初期化子はを通してのみ入手できます<ph id="ph1">`GetMember`</ph>、 <ph id="ph2">`GetMembers`</ph>、 <ph id="ph3">`FindMembers`</ph>、および<ph id="ph4">`GetConstructors`</ph>です。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the specified constructors defined for this class.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクラスに定義された指定のコンス トラクターを含むです。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If no constructors are defined, an empty array is returned.</source>
+          <target state="translated">コンス トラクターが定義されていない場合は、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Depending on the value of a specified parameter, only public constructors or both public and non-public constructors will be returned.</source>
+          <target state="translated">指定されたパラメーターの値は、パブリック コンス トラクターまたはパブリックと非パブリックの両方のコンス トラクターのみが返されます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns all the custom attributes defined for this type, specifying whether to search the type's inheritance chain.</source>
+          <target state="translated">型の継承チェーンを検索するかどうかを指定する、この型に対して定義されているすべてのカスタム属性を返します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">属性を見つけるにこの型の継承チェーンを検索するかどうかを指定します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An array of objects containing all the custom attributes defined for this type.</source>
+          <target state="translated">この型に対して定義されているすべてのカスタム属性を格納するオブジェクトの配列。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">カスタム属性の型を読み込むことができません。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns an array of custom attributes identified by type.</source>
+          <target state="translated">型で識別されるカスタム属性の配列を返します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">型で識別されるカスタム属性の配列。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">属性を見つけるにこの型の継承チェーンを検索するかどうかを指定します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the custom attributes defined in this type that match the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> parameter, specifying whether to search the type's inheritance chain, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no custom attributes are defined on this type.</source>
+          <target state="translated">一致する、この型で定義されたカスタム属性を含むオブジェクトの配列、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept> 、型の継承チェーンを検索するかどうかを指定する、パラメーターまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>カスタム属性がこの型で定義されていない場合。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">カスタム属性の型を読み込むことができません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or ByRef.</source>
+          <target state="translated">返します、&lt;xref:System.Type&gt;包含または現在の配列、ポインター、または ByRef によって参照されるオブジェクトの&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or <bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current &lt;xref:System.Type&gt; is not an array, a pointer or a <bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Type&gt;包含または現在の配列によって参照されるオブジェクトのポインターまたは<bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、または<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合、現在&lt;xref:System.Type&gt;、配列ではないポインターや<bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>&lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the specified event.</source>
+          <target state="translated">指定したイベントを返します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>, the case of the <ph id="ph3">`name`</ph> parameter is ignored.</source>
+          <target state="translated">場合<ph id="ph1">`bindingAttr`</ph>は&lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>のケース、<ph id="ph3">`name`</ph>パラメーターは無視されます&lt;/xref:System.Reflection.BindingFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The name of the event to get.</source>
+          <target state="translated">取得するイベントの名前。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.EventInfo&gt; object representing the event declared or inherited by this type with the specified name.</source>
+          <target state="translated">&lt;xref:System.Reflection.EventInfo&gt;宣言または指定した名前には、この型によって継承されたイベントを表すオブジェクトします&lt;/xref:System.Reflection.EventInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such event is found.</source>
+          <target state="translated">このメソッドが戻る<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>そのようなイベントが検出されない場合。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.EventInfo&gt; objects representing all the public events declared or inherited by the current <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列を返します&lt;xref:System.Reflection.EventInfo&gt;オブジェクトのすべてのパブリック イベントを表す宣言または継承されている現在の<bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.EventInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns an array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the events declared or inherited by the current type.</source>
+          <target state="translated">型の配列を返します<bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>宣言または現在の型によって継承されたすべてのイベントを含むです。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">イベントがない、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns the events specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定されたイベントを返します<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept>は宣言または継承されている現在の<bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the events specified in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>で指定されたイベントを含む<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">イベントがない、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.Reflection.FieldInfo&gt; object representing the field with the specified name.</source>
+          <target state="translated">返します、&lt;xref:System.Reflection.FieldInfo&gt;指定の名前を持つフィールドを表すオブジェクト&lt;/xref:System.Reflection.FieldInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">使用して、 <ph id="ph1">`bindingAttr`</ph> &lt;xref:System.Reflection.BindingFlags&gt;のです。すべてのパブリックおよび非パブリック フィールドを返す nonPublic&lt;/xref:System.Reflection.BindingFlags&gt; 。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`BindingFlags.IgnoreCase`</ph> to ignore the case of the fields, as the search is case-sensitive by default.</source>
+          <target state="translated">使用して<ph id="ph1">`BindingFlags.IgnoreCase`</ph>小文字を区別しない、フィールドのように検索では、既定では大文字小文字を区別します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the field to find.</source>
+          <target state="translated">検索するフィールドの名前。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the field declared or inherited by this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトのフィールドを表す宣言または継承されているこの<bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>指定した名前です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such field is found.</source>
+          <target state="translated">返します<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このようなフィールドが存在しない場合。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.FieldInfo&gt; objects representing the data fields defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列を返します&lt;xref:System.Reflection.FieldInfo&gt;オブジェクトをラップし、現在の種類に対して定義のデータ フィールドを表す<bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.FieldInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The GetFields method does not return fields in a particular order, such as alphabetical or declaration order.</source>
+          <target state="translated">GetFields メソッドで返されないフィールドを特定の順序など、アルファベットまたは宣言の順序。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Your code must not depend on the order in which fields are returned, because that order can vary.</source>
+          <target state="translated">その順序が異なるので、コードは、フィールドが返される順序に依存しない必要があります。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">使用して、 <ph id="ph1">`bindingAttr`</ph> &lt;xref:System.Reflection.BindingFlags&gt;のです。すべてのパブリックおよび非パブリック フィールドを返す nonPublic&lt;/xref:System.Reflection.BindingFlags&gt; 。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the fields declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>フィールドを含む宣言または継承されている現在の<bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An empty array is returned if there are no matched fields.</source>
+          <target state="translated">一致するフィールドがない場合は、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Returns the specified interface implemented by the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定されたインターフェイスをラップし、現在の型によって実装を返します<bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the interface implemented by the current class.</source>
+          <target state="translated">現在のクラスによって実装されるインターフェイスの完全修飾名。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the case is to be ignored; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>大文字と小文字が無視する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the interface implemented (directly or indirectly) by the current class with the fully qualified name matching the specified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を指定した名前と一致する完全修飾名を持つ、(直接または間接的に) を現在のクラスによって実装されるインターフェイスを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If no interface that matches name is found, null is returned.</source>
+          <target state="translated">名前と一致するインターフェイスがない場合が存在すると、null が返されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Returns an interface mapping for the specified interface type.</source>
+          <target state="translated">指定したインターフェイス型に対するインターフェイス マップを返します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The interface map denotes how an interface is mapped into the actual methods on a class that implements that interface.</source>
+          <target state="translated">インターフェイス マップは、そのインターフェイスを実装するクラスの実際のメソッドにインターフェイスをマップする方法を示します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the interface to retrieve a mapping of.</source>
+          <target state="translated">&lt;xref:System.Type&gt;のマッピングを取得するインターフェイスの&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.InterfaceMapping&gt; object representing the interface mapping for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">interfaceType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.InterfaceMapping&gt;に対するインターフェイス マップを表すオブジェクトを<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">interfaceType</ph> <ept id="p1">&lt;/code&gt;</ept>&lt;/xref:System.Reflection.InterfaceMapping&gt; 。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">現在のクラスとその基本クラスで実装されたすべてのインターフェイスを返します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の現在のクラスとその基本クラスで実装されたすべてのインターフェイスを含むです。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If none are defined, an empty array is returned.</source>
+          <target state="translated">定義されていない場合は、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns members (properties, methods, constructors, fields, events, and nested types) specified by the given <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">type</ph><ept id="p2">&lt;/code&gt;</ept>, and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">bindingAttr</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">指定されたメンバー (プロパティ、メソッド、コンス トラクター、フィールド、イベント、および入れ子にされた型) を返します、指定された<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">type</ph> <ept id="p2">&lt;/code&gt;</ept>、および<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">bindingAttr</ph><ept id="p3">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.非公開のすべてのメンバーと見なされます&lt;/xref:System.Reflection.BindingFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">一致がない、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The name of the member to get.</source>
+          <target state="translated">取得するメンバーの名前です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The type of members to get.</source>
+          <target state="translated">取得するメンバーの型。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base class meeting the specified criteria.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の現在のクラスとその基本クラスを指定した条件を満たすすべてのメンバーを格納します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Returns members specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">指定されたメンバーを返します。 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.非公開のすべてのメンバーと見なされます&lt;/xref:System.Reflection.BindingFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">一致がない、空の配列が返されます。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base classes that meet the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> filter.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の現在のクラスとその基本クラスを満たすすべてのメンバーを含む、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept>フィルター。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Searches for the specified method whose parameters match the specified argument types and modifiers, using the specified binding constraints and the specified calling convention.</source>
+          <target state="translated">指定したメソッドの修飾子を指定したバインディング制約および指定した呼び出し規約を使用して、指定した引数型と一致するパラメーターを検索します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated"><ph id="ph1">`callConvention`</ph>パラメーターは、エントリ ポイントの呼び出し規則を示します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If no &lt;xref:System.Reflection.CallingConventions&gt; is specified, a default <ph id="ph1">`CallingConventions`</ph> value of <ph id="ph2">`Standard`</ph> is used.</source>
+          <target state="translated">ない場合は&lt;xref:System.Reflection.CallingConventions&gt;を指定すると、既定値<ph id="ph1">`CallingConventions`</ph>の値<ph id="ph2">`Standard`</ph>を使用します&lt;/xref:System.Reflection.CallingConventions&gt;。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The method name.</source>
+          <target state="translated">メソッドの名前。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">バインディング、引数の強制変換を有効にするオブジェクトの種類、メンバーの呼び出し、および取得<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リフレクションを使用するオブジェクトします。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">場合<ph id="ph1">`binder`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>既定のバインダーが使用されます。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">呼び出し規約。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>パラメーターの数、順序、および種類の一覧を格納します。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">型にすることはできません<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; 適切な使用<bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>メソッドまたは空の配列をパラメーターなしのメソッドを検索します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>と同じ長さを持つ、<ph id="ph1">`types`</ph>要素が取得するメソッドのパラメーターに関連付けられた属性を表す配列。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the implementation method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>実装メソッドの指定した条件に一致するオブジェクトまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>一致が見つからない場合。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.MethodInfo&gt; objects representing specified methods of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列を返します&lt;xref:System.Reflection.MethodInfo&gt;現在によってラップされた型の指定したメソッドを表すオブジェクト<bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.MethodInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing the methods defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列<bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>これで定義されたメソッドを表すオブジェクト<bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Returns a nested type specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> and in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> that are declared or inherited by the type represented by the current <bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定された入れ子にされた型を返します<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>し、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept>はで宣言または継承現在によって表される型<bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The nested type's name.</source>
+          <target state="translated">入れ子にされた型の名前です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the nested type.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を入れ子にされた型を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Returns the nested types specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the type wrapped by the current <bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定された入れ子にされた型を返します<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept>を宣言またはラップし、現在の型によって継承されて<bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the nested types.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>入れ子になった型を格納します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.PropertyInfo&gt; objects representing properties of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列を返します&lt;xref:System.Reflection.PropertyInfo&gt;現在によってラップされた型のプロパティを表すオブジェクト<bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.PropertyInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing properties defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">配列<bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>これで定義されたプロパティを表すオブジェクト<bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, searches for the specified property whose parameters match the specified argument types and modifiers, using the specified binding constraints.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定した引数の型および修飾子は、指定したバインディング制約を使用すると一致するパラメーターの指定したプロパティを検索します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The property to get.</source>
+          <target state="translated">取得するプロパティ。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">検索を実行する方法に影響を与えるビットマスク。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">値の&amp;0; 個以上のビット フラグの組み合わせは、 <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">バインディング、引数の強制変換を有効にするオブジェクトの種類、メンバーの呼び出し、および取得<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リフレクションを使用してオブジェクト。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">場合<ph id="ph1">`binder`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>既定のバインダーが使用されます。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The return type of the property.</source>
+          <target state="translated">プロパティの戻り値の型。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A list of parameter types.</source>
+          <target state="translated">パラメーターの型の一覧。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The list represents the number, order, and types of the parameters.</source>
+          <target state="translated">一覧は、数、順序、およびパラメーターの型を表します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Types cannot be null; use an appropriate <bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">型を null にすることはできません。適切な使用<bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>メソッドまたは空の配列をパラメーターなしのメソッドを検索します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An array of the same length as types with elements that represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">取得するメソッドのパラメーターに関連付けられた属性を表す要素を持つ型と同じ長さの配列。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.PropertyInfo&gt; object for the property that matches the specified criteria, or null if a match cannot be found.</source>
+          <target state="translated">A&lt;xref:System.Reflection.PropertyInfo&gt;指定した条件に一致するプロパティのオブジェクト、または一致するものが見つからない場合は null です&lt;/xref:System.Reflection.PropertyInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Gets the GUID (globally unique identifier) of the implemented type.</source>
+          <target state="translated">実装されている型の GUID (グローバルに一意の識別子) を取得します。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The GUID (globally unique identifier) is a 128-bit unique identification string used to identify a class or an interface.</source>
+          <target state="translated">GUID (グローバルに一意の識別子) は、クラスまたはインターフェイスの識別に使用される 128 ビットの一意な識別文字列です。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>It is primarily useful for interoperability between the Microsoft .NET Framework and COM.</source>
+          <target state="translated">これは主に Microsoft .NET Framework および COM の相互運用性</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A GUID.</source>
+          <target state="translated">GUID。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current &lt;xref:System.Type&gt; encompasses or refers to another type; that is, whether the current &lt;xref:System.Type&gt; is an array, a pointer or a ByRef.</source>
+          <target state="translated">示す値を取得するかどうか現在&lt;xref:System.Type&gt;包含または参照である別の型をかどうか、現在&lt;xref:System.Type&gt;が配列、ポインターまたは参照渡し&lt;/xref:System.Type&gt;&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array, a pointer or a ByRef; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 &lt;xref:System.Type&gt;、配列、ポインターまたは参照渡し; は、それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Invokes the specified member.</source>
+          <target state="translated">指定したメンバーを呼び出します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The method that is to be invoked must be accessible and provide the most specific match with the specified argument list, under the constraints of the specified binder and invocation attributes.</source>
+          <target state="translated">呼び出すメソッドは、アクセスできるし、制約の指定したバインダーと呼び出し属性の下で、指定した引数リストを最も具体的な一致を提供する必要があります。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A method will be invoked if both the following conditions are true:      -   The number of parameters in the method declaration equals the number of arguments in the specified argument list (unless default arguments are defined on the member).</source>
+          <target state="translated">次の両方の条件に該当する場合、メソッドが呼び出されます。 数値をメソッド宣言のパラメーターの数に等しければ、指定した引数リスト内の引数 (メンバーには、既定の引数が定義されている) 場合を除き、- です。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-   The type of each arguments can be converted by the binder to the type of the parameter.</source>
+          <target state="translated">各引数の型は、バインダーによってパラメーターの型に変換できます。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The binder will find all the matching methods.</source>
+          <target state="translated">バインダーでは、すべての一致するメソッドを検索します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>These methods are found based upon the type of binding requested (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>, <ph id="ph2">`BindingFlags.GetProperties`</ph>, and so on).</source>
+          <target state="translated">要求されたバインディングの種類に基づくこれらのメソッドが検出された (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>、<ph id="ph2">`BindingFlags.GetProperties`</ph>など)。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The set of methods is filtered by the name, number of arguments, and a set of search modifiers defined in the binder.</source>
+          <target state="translated">メソッドのセットは、名前、引数の数と、バインダーで定義されている検索修飾子のセットによってフィルターされています。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>After the method is selected, it will be invoked.</source>
+          <target state="translated">メソッドを選択した後に呼び出されます。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Accessibility is checked at that point.</source>
+          <target state="translated">ユーザー補助機能がその時点でチェックされます。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The search may control which set of methods are searched based upon the accessibility attribute associated with the method.</source>
+          <target state="translated">検索では、メソッドに関連付けられているユーザー補助属性に基づいて、メソッドのセットを検索するかを制御できます。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt; method is responsible for selecting the method to be invoked.</source>
+          <target state="translated">&lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;メソッドが呼び出されるメソッドを選択します&lt;/xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The default binder selects the most specific match.</source>
+          <target state="translated">既定のバインダーは、最も具体的な一致を選択します。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Access restrictions are ignored for fully trusted code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; アクセス制限では、完全に信頼されたコードが無視されます。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>That is, private constructors, methods, fields, and properties can be accessed and invoked using reflection whenever the code is fully trusted.</source>
+          <target state="translated">つまり、private のコンス トラクター、メソッド、フィールド、およびプロパティにアクセスできるし、コードが完全に信頼できる場合は、リフレクションを使用して呼び出されます。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Currently, <ph id="ph1">`InvokeMember`</ph> performs the Microsoft .NET Framework reflection semantics for every type of object.</source>
+          <target state="translated">現在、<ph id="ph1">`InvokeMember`</ph>オブジェクトの種類ごとに Microsoft .NET Framework リフレクション セマンティクスを実行します。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If the member specified by name is an array and the <ph id="ph1">`BindingFlags.GetField`</ph> flag is set on <ph id="ph2">`invokeAttr`</ph>, the <ph id="ph3">`args`</ph> array specifies the elements whose values are to be returned.</source>
+          <target state="translated">名前によって指定されたメンバーが配列である場合、<ph id="ph1">`BindingFlags.GetField`</ph>にフラグが設定<ph id="ph2">`invokeAttr`</ph>、<ph id="ph3">`args`</ph>配列が返されるには、値が要素を指定します。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For example, the following call through <ph id="ph1">`Type`</ph> object <ph id="ph2">`t`</ph> returns the value of the first element of the string array MyArray, which is a member of the calling object:       <ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph>       You can use <ph id="ph4">`InvokeMember`</ph> to set one or more elements of a member array.</source>
+          <target state="translated">次の呼び出しなど、<ph id="ph1">`Type`</ph>オブジェクト<ph id="ph2">`t`</ph>MyArray、呼び出し元のオブジェクトのメンバーである文字列の配列の最初の要素の値を返します:<ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph>使用することができます<ph id="ph4">`InvokeMember`</ph>メンバー配列の&amp;1; つまたは複数の要素を設定します。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>All elements are set to the same value.</source>
+          <target state="translated">すべての要素は、同じ値に設定されます。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`args`</ph> array must be formatted as follows:      <ph id="ph2">```   {index1,       index2,, value}   ```</ph>       For example, to set the first member of MyArray from the previous example, the syntax is as follows:      <ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></source>
+          <target state="translated"><ph id="ph1">`args`</ph>配列は次のように書式設定する必要があります:<ph id="ph2">```   {index1,       index2,, value}   ```</ph>たとえば、前の例から MyArray の最初のメンバーを設定する構文は次のようにします。<ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of the member to invoke.</source>
+          <target state="translated">呼び出すメンバーの名前。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This may be a constructor, method, property, or field.</source>
+          <target state="translated">これには、コンス トラクター、メソッド、プロパティ、またはフィールドがあります。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>If an empty string ("") is passed, the default member is invoked.</source>
+          <target state="translated">場合、空の文字列 ("") が渡されると、既定のメンバーが呼び出されます。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The invocation attribute.</source>
+          <target state="translated">呼び出し属性。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A suitable invocation attribute must be specified.</source>
+          <target state="translated">適切な呼び出し属性を指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If a static member is to be invoked, the <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> flag must be set.</source>
+          <target state="translated">静的メンバーが呼び出される場合、 <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>フラグを設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">バインディング、引数の強制変換を有効にするオブジェクトの種類、メンバーの呼び出し、および取得<bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リフレクションを使用してオブジェクト。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">場合<ph id="ph1">`binder`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>既定のバインダーが使用されます。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The object on which to invoke the specified member.</source>
+          <target state="translated">指定したメンバーを呼び出す対象となるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the number, order, and type of the parameters of the member to be invoked.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を呼び出すには、数、順序、およびメンバーのパラメーターの型を格納しています。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph> contains an uninitialized <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is treated as empty, which, with the default binder, can be widened to 0, 0.0 or a string.</source>
+          <target state="translated">場合<ph id="ph1">`args`</ph>格納、初期化されていない<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>0、0.0 または文字列で、既定のバインダーを拡張できるを空として扱われます。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the same length as <ph id="ph1">`args`</ph>, with elements that represent the attributes associated with the arguments of the member to be invoked.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>は、長さと同じ<ph id="ph1">`args`</ph>、呼び出されるメンバーの引数に関連付けられている属性を表す要素。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A parameter has attributes associated with it in the member's signature.</source>
+          <target state="translated">パラメーターには、メンバーのシグネチャに関連付けられている属性があります。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For ByRef, use <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and for none, use <bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ByRef を使用して<bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、none の場合、使用して<bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The default binder does exact matching on these.</source>
+          <target state="translated">既定のバインダーを厳密に一致これらです。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Attributes such as <bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> are not used in binding, and can be viewed using <bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">などの属性<bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>と<bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>バインディングで使用されていないと見なすことができますを使用して<bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to govern the coercion of types.</source>
+          <target state="translated">インスタンス<bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>型の強制変換を制御するために使用します。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>This is necessary, for example, to convert a string that represents 1000 to a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value, since 1000 is represented differently by different cultures.</source>
+          <target state="translated">これは、必要に応じて、たとえば、1000 を表す文字列を変換する、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値、1000 の表記が異なるカルチャによって異なるためです。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`culture`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the current thread's <bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">場合<ph id="ph1">`culture`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 、現在のスレッドの<bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>を使用します。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing parameter names that match up, starting at element zero, with the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">型の配列<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要素、0 から始まる、一致するパラメーター名を含む、<ph id="ph1">`args`</ph>配列。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>There must be no holes in the array.</source>
+          <target state="translated">-H-1 穴配列にします。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">If <ph id="ph1">`args`</ph>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is greater than <ph id="ph1">`namedParameters`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>大きい<ph id="ph1">`namedParameters`</ph>です。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the remaining parameters are filled in order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>、残りのパラメーターが順に設定します。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the return value of the invoked member.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>呼び出されたメンバーの戻り値を表します。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is an array.</source>
+          <target state="translated">示す値を返すかどうか、&lt;xref:System.Type&gt;配列です&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Type&gt;配列ですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified type can be assigned to this type.</source>
+          <target state="translated">指定した型をこの型に割り当てることがあるかどうかを示す値を返します。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The type to check.</source>
+          <target state="translated">確認する型。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified type can be assigned to this type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定した型は、この型に割り当てることができる場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is passed by reference.</source>
+          <target state="translated">示す値を返すかどうか、&lt;xref:System.Type&gt;は参照によって渡されます&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is passed by reference; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Type&gt;が参照渡しですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a COM object.</source>
+          <target state="translated">示す値を返すかどうか、 &lt;xref:System.Type&gt;COM オブジェクトです&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a COM object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 &lt;xref:System.Type&gt;COM オブジェクト、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this object represents a constructed generic type.</source>
+          <target state="translated">このオブジェクトが構築されたジェネリック型を表すかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this object represents a constructed generic type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このオブジェクトが構築されたジェネリック型を表す場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Indicates whether a custom attribute identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> is defined.</source>
+          <target state="translated">カスタム属性が識別されるかどうかを示す<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept>が定義されています。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">属性を見つけるにこの型の継承チェーンを検索するかどうかを指定します。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">型で識別されるカスタム属性の配列。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a custom attribute identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p2">&lt;/code&gt;</ept> is defined; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合によって識別されるカスタム属性<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p2">&lt;/code&gt;</ept>が定義されている、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The custom attribute type cannot be loaded.</source>
+          <target state="translated">カスタム属性の型を読み込むことができません。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a pointer.</source>
+          <target state="translated">示す値を返すかどうか、&lt;xref:System.Type&gt;のポインターです&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a pointer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Type&gt;のポインターですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is one of the primitive types.</source>
+          <target state="translated">示す値を返すかどうか、&lt;xref:System.Type&gt;プリミティブ型の&amp;1; つです&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is one of the primitive types; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Type&gt;はプリミティブ型の&amp;1; つですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the type is a value type; that is, not a class or an interface.</source>
+          <target state="translated">型が値型であるかどうかを示す値を返しますつまり、いないクラスまたはインターフェイス。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type is a value type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>型が値型である場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets a value that identifies this entity in metadata.</source>
+          <target state="translated">メタデータ内のこのエンティティを識別する値を取得します。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The tokens obtained using this property can be passed to the unmanaged reflection API.</source>
+          <target state="translated">このプロパティを使用して取得したトークンは、アンマネージのリフレクション API に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Unmanaged Reflection API<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>アンマネージ リフレクション API<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>です。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>A value which, in combination with the module, uniquely identifies this entity in metadata.</source>
+          <target state="translated">モジュールとの組み合わせでメタデータ内のこのエンティティを一意に識別する値。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the module that contains the implemented type.</source>
+          <target state="translated">実装されている型を含むモジュールを取得します。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>A module is a loadable unit that can contain type declarations and implementations.</source>
+          <target state="translated">モジュールは、型の宣言と実装を含めることができる読み込み可能な単位です。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Modules contain enough information to enable the common language runtime to locate all implementation bits when the module is loaded.</source>
+          <target state="translated">モジュールには、モジュールが読み込まれるときに、実装のすべてのビットを検索する共通言語ランタイムを有効にするための十分な情報が含まれています。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Module&gt; object representing the module of the implemented type.</source>
+          <target state="translated">A&lt;xref:System.Reflection.Module&gt;実装されている型のモジュールを表すオブジェクト&lt;/xref:System.Reflection.Module&gt;。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Gets the name of the implemented type, with the path removed.</source>
+          <target state="translated">削除するパスを持つ、実装された型の名前を取得します。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>A string containing the name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">現在の名前を含む文字列<ph id="ph1">`TypeDelegator`</ph>です。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Only the simple name, not the fully qualified name, is returned.</source>
+          <target state="translated">簡易名、だけであり、完全修飾名ではなくが返されます。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>To get the name and the path, use &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;.</source>
+          <target state="translated">名前とパスを取得するには、 &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;。&lt;/xref:System.Reflection.TypeDelegator.FullName%2A&gt;を使用します。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's non-qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>型の非修飾名を格納します。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets the namespace of the implemented type.</source>
+          <target state="translated">実装されている型の名前空間を取得します。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>This property gets a string containing the namespace of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">このプロパティは、現在の名前空間を含む文字列を取得<ph id="ph1">`TypeDelegator`</ph>です。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`TypeDelegator`</ph> is &lt;xref:System.Reflection.TypeFilter&gt;, the returned namespace is &lt;xref:System.Reflection&gt;.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`TypeDelegator`</ph>は&lt;xref:System.Reflection.TypeFilter&gt;返される名前空間は&lt;xref:System.Reflection&gt;.&lt;/xref:System.Reflection&gt; &lt;/xref:System.Reflection.TypeFilter&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's namespace.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>型の名前空間を含むです。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the internal metadata representation of an implemented type.</source>
+          <target state="translated">実装されている型の内部メタデータ表現へのハンドルを取得します。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>A type handle is a unique integer value associated with each type.</source>
+          <target state="translated">型ハンドルは、各種類に関連付けられた一意の整数値です。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The handle is unique during the runtime.</source>
+          <target state="translated">ハンドルは、実行時に一意です。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A value indicating type information.</source>
+          <target state="translated">型情報を示す値。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Type&gt; that represents the implemented type.</source>
+          <target state="translated">基になる取得&lt;xref:System.Type&gt;実装されている型を表す&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The underlying type.</source>
+          <target state="translated">基になる型。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

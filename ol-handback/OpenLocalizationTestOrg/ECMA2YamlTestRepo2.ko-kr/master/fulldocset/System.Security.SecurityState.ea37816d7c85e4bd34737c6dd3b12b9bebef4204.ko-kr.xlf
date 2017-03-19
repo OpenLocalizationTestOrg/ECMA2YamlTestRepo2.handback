@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6192fed36bda0a7b5e70974f848fb228e9bda75</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.SecurityState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7976edb71e99320253ef70ab665267398f44ff4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a187ea7f8d3b11b0ee08f45050d2dbf64a5d581</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for requesting the security status of an action from the <bpt id="p1">&lt;xref href="System.AppDomainManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">작업의 보안 상태를 요청에 대 한 기본 클래스를 제공는 <bpt id="p1">&lt;xref href="System.AppDomainManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must inherit from this class to provide a class that includes a property that specifies the security-sensitive action to be performed.</source>
+          <target state="translated">보안 관련 작업을 수행할 수를 지정 하는 속성을 포함 하는 클래스를 제공 하려면이 클래스에서 상속 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SecurityState object that is instantiated from the derived class is passed to the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method to determine whether the host allows that action to be performed.</source>
+          <target state="translated">파생된 클래스에서 인스턴스화된 SecurityState 개체는 전달 된 &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;호스트가 해당 작업을 수행 하도록 허용 하는지 여부를 결정 하는 메서드.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">기본 구현에서 &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;메서드는 항상 반환 <ph id="ph1">`false`</ph>.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method must be overridden to detect the actions that are allowed.</source>
+          <target state="translated">허용 되는 작업을 감지 하는 메서드를 재정의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you want to access a Web camera in your library code, you would create a <ph id="ph1">`WebcamSecurityState`</ph> object and call the &lt;xref:System.Security.SecurityState.EnsureState%2A&gt; method to determine whether the host allows Web camera access, as shown in the following example.</source>
+          <target state="translated">예를 들어 웹 카메라 라이브러리 코드에 액세스 하려는 경우 만들면 됩니다는 <ph id="ph1">`WebcamSecurityState`</ph> 개체와 호출은 &lt;xref:System.Security.SecurityState.EnsureState%2A&gt;메서드를 다음 예제와 같이 호스트 웹 카메라 액세스를 허용 하는지 여부를 확인 합니다.&lt;/xref:System.Security.SecurityState.EnsureState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(You can find the code for <ph id="ph1">`WebcamSecurityState`</ph> in the "Example" section.)      <ph id="ph2">```   WebcamSecurityState securityState = new WebcamSecurityState("Safe access to Webcam", WebcamSecurityOptions.SafeAccess);   try   {      securityState.EnsureState();      // Allocate memory.      }   catch (ApplicationException e)   {       // Handle any exception that is thrown.       System.Diagnostics.Debug.WriteLine(e.Message);   }   ```</ph>       To process the call the &lt;xref:System.AppDomainManager&gt; must be made aware of <ph id="ph3">`WebcamSecurityState`</ph> through an override of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method, as shown in the following example.</source>
+          <target state="translated">(에 대 한 코드를 찾을 수 <ph id="ph1">`WebcamSecurityState`</ph> "예" 섹션에 있습니다.)      <ph id="ph2">```   WebcamSecurityState securityState = new WebcamSecurityState("Safe access to Webcam", WebcamSecurityOptions.SafeAccess);   try   {      securityState.EnsureState();      // Allocate memory.      }   catch (ApplicationException e)   {       // Handle any exception that is thrown.       System.Diagnostics.Debug.WriteLine(e.Message);   }   ```</ph>호출을 처리 하는 &lt;xref:System.AppDomainManager&gt;의 인식 <ph id="ph3">`WebcamSecurityState`</ph> 재정의 통해는 &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;메서드를 다음 예에서 같이.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; &lt;/xref:System.AppDomainManager&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, ensures that the state that is represented by <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is available on the host.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 확인 된 나타내는 상태 <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 호스트에서 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation of this method should be similar to the following example.</source>
+          <target state="translated">이 메서드의 구현은 다음 예제와 유사 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the state for this implementation of the <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class is available on the current host.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부이 구현에 대 한 상태는 <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스는 현재 호스트에서 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsStateAvailable calls the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method to determine whether the state that is represented by this class is available on the host.</source>
+          <target state="translated">IsStateAvailable 호출은 &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;메서드를이 클래스가 나타내는 상태는 호스트에서 사용할 수 있는지 확인 합니다.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Security.SecurityState&gt; class for an example implementation of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; method.</source>
+          <target state="translated">참조는 &lt;xref:System.Security.SecurityState&gt;의 예제 구현은 대 한 클래스는 &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;메서드.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; &lt;/xref:System.Security.SecurityState&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the state is available; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>상태를 사용할 수 없는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
