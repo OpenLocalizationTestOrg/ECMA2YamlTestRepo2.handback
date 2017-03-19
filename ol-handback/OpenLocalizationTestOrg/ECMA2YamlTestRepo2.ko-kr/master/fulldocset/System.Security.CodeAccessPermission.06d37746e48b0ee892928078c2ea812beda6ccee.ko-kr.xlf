@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93899f77dbe9a89a757dd2011e2fe034a73757a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.CodeAccessPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6c7b2b7e90fd68ad6a457daa1122eac8c49b1e5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">620f466bc0c7923a43efc9b1250f57dc037351b1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the underlying structure of all code access permissions.</source>
+          <target state="translated">모든 코드 액세스 권한의 기본 구조를 정의합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access permissions use a stack walk to ensure that all callers of the code have been granted a permission.</source>
+          <target state="translated">코드 액세스 권한 스택 워크를 사용 하 여 사용 권한을 코드의 모든 호출자에 게 부여 되어 있는지 확인 하십시오.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a permission object is <ph id="ph1">`null`</ph>, it is handled the same as a permission object with the state &lt;xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt;.</source>
+          <target state="translated">사용 권한 개체가 <ph id="ph1">`null`</ph>, &lt;xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt; 상태와 사용 권한 개체와 동일한 처리</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">호출 스택의 호출 스택의 상위 메서드를 호출할 낮은 호출 스택에 있도록 하향식으로 일반적으로 표현 됩니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Inheritors of the CodeAccessPermission class must be granted full trust to function correctly as permissions extending the security infrastructure.</source>
+          <target state="translated">CodeAccessPermission 클래스의 상속 자가 보안 인프라를 확장 하는 권한으로 제대로 작동 하려면 완전 신뢰를 부여 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine that the inheritors are fully trusted, CodeAccessPermission issues an &lt;xref:System.Security.Permissions.SecurityAction&gt; for &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt; = <ph id="ph1">`true`</ph> and &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt; = <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">상속자는 완전히 신뢰할 수 있는, CodeAccessPermission 문제를 확인 하는 &lt;xref:System.Security.Permissions.SecurityAction&gt;에 대 한 &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt;= <ph id="ph1">`true`</ph> 및 &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt;= <ph id="ph2">`true`</ph>.&lt;/xref:System.Security.Permissions.SecurityPermissionFlag&gt; &lt;/xref:System.Security.Permissions.SecurityPermissionFlag&gt; &lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called to initialize state in the type whenever an instance of the derived class is created.</source>
+          <target state="translated">이 생성자를 호출 하 여 파생된 클래스의 인스턴스를 만들 때마다 형식의 상태를 초기화 하 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you can explicitly call this constructor in the constructor declaration of the derived class constructor, this is not usually necessary; most compilers will automatically generate the call for you.</source>
+          <target state="translated">파생된 클래스 생성자의 생성자 선언에이 생성자를 명시적으로 호출할 수, 있지만이 대개 필요는 없습니다. 대부분의 컴파일러에서는 사용자에 대 한 호출을 자동으로 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Declares that the calling code can access the resource protected by a permission demand through the code that calls this method, even if callers higher in the stack have not been granted permission to access the resource.</source>
+          <target state="translated">호출 코드에서 스택의 상위 호출자가 리소스에 액세스할 수 있는 권한이 부여 되지 않았습니다 하는 경우에이 메서드를 호출 하는 코드를 통해 사용 권한 요구로 보호 되는 리소스를 액세스할 수 있음을 선언 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Using Assert can create security issues.</source>
+          <target state="translated">Assert를 사용 하 여 보안 문제가 발생할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">호출 스택의 호출 스택의 상위 메서드를 호출할 낮은 호출 스택에 있도록 하향식으로 일반적으로 표현 됩니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling Assert prevents a stack walk originating lower in the call stack from proceeding up the call stack beyond the code that calls this method.</source>
+          <target state="translated">Assert를 호출 하면이 메서드를 호출 하는 코드를 넘어 진행에서 호출 스택의 하위 원래 스택 워크를 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, even if callers higher on the call stack do not have the requisite permissions to access a resource, they can still access it through the code that calls this method on the necessary permission.</source>
+          <target state="translated">따라서 호출 스택의 상위 호출자에 리소스를 액세스할 수 있는 필수 권한이 없는 경우에은 여전히 액세스할 수는 데 필요한 사용 권한을이 메서드를 호출 하는 코드를 통해.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An assertion is effective only if the code that calls Assert passes the security check for the permission that it is asserting.</source>
+          <target state="translated">어설션을 Assert를 호출 하는 코드 어설션하는 사용 권한에 대해 보안 검사를 통과 하는 경우에 유효 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to Assert is effective until the calling code returns to its caller.</source>
+          <target state="translated">Assert 호출 호출 하는 코드는 호출자에 반환 될 때까지 유효 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one Assert can be active on a frame.</source>
+          <target state="translated">하나의 Assert 프레임에서 활성화할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call Assert when an active Assert exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">현재 Assert &lt;xref:System.Security.SecurityException&gt;.&lt;/xref:System.Security.SecurityException&gt; 프레임 결과에 있을 때 Assert 호출 하려는 경우</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active Assert.</source>
+          <target state="translated">호출 &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;또는 &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;활성 Assert를 제거 하려면.&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assert is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">Assert 권한에 대 한 요청이 실패 합니다 부여 되지 않은 권한은 대해 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if code lower on the call stack calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call Assert.</source>
+          <target state="translated">그러나 코드가 호출 스택에 낮은 호출 &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;권한에 대해는 &lt;xref:System.Security.SecurityException&gt;스택 워크 Assert 호출 하려고 하는 코드에 도달 하면 throw 됩니다.&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens because the code that called Assert has not been granted the permission, even though it tried to Assert it.</source>
+          <target state="translated">이것은에 부여 하 려 했지만 어설션을 호출한 하는 코드에는 권한이 부여 되지 있기 때문입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because calling Assert removes the requirement that all code in the call chain must be granted permission to access the specified resource, it can open up security issues if used incorrectly or inappropriately.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 메서드를 잘못 사용 하는 경우 보안 문제가 발생할 수 있습니다는 모든 코드 호출 체인에 지정된 된 리소스를 액세스할 수 있는 권한이 부여 되어야 하는 요구 사항을 제거 Assert를 호출 하기 때문에 있습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it should be used with great caution.</source>
+          <target state="translated">따라서 매우 주의 해 서 사용 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The calling code does not have <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 코드에 없는 <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       There is already an active Assert for the current frame.</source>
+          <target state="translated">-또는-현재 프레임에 대 한 활성 Assert가 이미 있습니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, creates and returns an identical copy of the current permission object.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 만들고 현재 권한 개체의 동일한 복사본을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A copy of a permission object represents the same access to resources as the original permission object.</source>
+          <target state="translated">사용 권한 개체의 복사본을 원래 권한 개체 리소스에 동일한 액세스를 권한을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission object.</source>
+          <target state="translated">현재 권한 개체의 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Forces a &lt;xref:System.Security.SecurityException&gt; at run time if all callers higher in the call stack have not been granted the permission specified by the current instance.</source>
+          <target state="translated">강제로 &lt;xref:System.Security.SecurityException&gt;런타임 시 경우 모든 호출 스택의 상위 호출자가 현재 인스턴스가 지정한 사용 권한이 부여 되지 않았습니다.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">이 메서드는 일반적으로 호출자에 게 리소스에 액세스할 수 있는 권한이 있는지 확인 하려면 보안 라이브러리에서 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a file class in a secure class library calls Demand for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">예를 들어 보안 클래스 라이브러리의 파일 클래스 호출 필요한에 대 한 수요가 &lt;xref:System.Security.Permissions.FileIOPermission&gt;는 호출자가 요청한 파일 작업을 수행 하기 전에.&lt;/xref:System.Security.Permissions.FileIOPermission&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">이 메서드를 호출 하는 코드의 사용 권한은 검사 하지 않습니다. 검사 해당 코드의 직접 실행 호출자에서 시작 되 고 스택 위로 진행 됩니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">호출 스택의 호출 스택의 상위 메서드를 호출할 낮은 호출 스택에 있도록 하향식으로 일반적으로 표현 됩니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Demand succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">요청이 없는 경우에 성공 하면 &lt;xref:System.Security.SecurityException&gt;발생 합니다.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A caller higher in the call stack does not have the permission specified by the current instance.</source>
+          <target state="translated">호출 스택의 상위 호출자가 현재 인스턴스에 의해 지정 된 사용 권한이 없습니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       A caller higher in the call stack has called &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; on the current permission object.</source>
+          <target state="translated">-또는-호출 스택의 상위 호출자가 호출 &lt;xref:System.Security.CodeAccessPermission.Deny*&gt;현재 권한 개체입니다.&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Prevents callers higher in the call stack from using the code that calls this method to access the resource specified by the current instance.</source>
+          <target state="translated">현재 인스턴스가 지정 된 리소스에 액세스 하려면이 메서드를 호출 하는 코드를 사용 하 여 호출 스택의 상위 호출자가 되지 않도록 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The Deny method should be used only to protect resources from accidental access by fully trusted code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Deny 메서드 완전히 신뢰할 수 있는 코드에 의해 실수로 액세스 로부터 리소스를 보호에 사용할 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should not be used to protect resources from intentional misuse by untrusted code.</source>
+          <target state="translated">하지 신뢰할 수 없는 코드 리소스 의도적인 악용 으로부터 보호 하기 위해 사용 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if method <ph id="ph1">`A`</ph> issues a Deny for a permission and then calls method <ph id="ph2">`B`</ph>, method <ph id="ph3">`B`</ph> can overtly override the Deny by issuing an &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.</source>
+          <target state="translated">예를 들어 경우 메서드 <ph id="ph1">`A`</ph> 에 대 한 사용 권한 거부 하 고 다음 메서드를 호출 <ph id="ph2">`B`</ph>, 메서드 <ph id="ph3">`B`</ph> 명백히 Deny &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt; 를 실행 하 여 재정의할 수 있습니다</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The called method is always higher in the stack.</source>
+          <target state="translated">호출된 된 메서드가 스택의 항상 높습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if method <ph id="ph1">`B`</ph> tries to access a protected resource, the security system begins checking for permissions with it because method <ph id="ph2">`B`</ph> is the immediate caller, and then walks down the stack to confirm that there is no Deny or &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; lower in the stack.</source>
+          <target state="translated">따라서 경우 메서드 <ph id="ph1">`B`</ph> 보안 시스템에서 보호 된 리소스에 액세스 하려고 하기 때문에 여 사용 권한을 확인 하기 시작 메서드 <ph id="ph2">`B`</ph> 직접 실행 호출자 이며 워크 없습니다 거부 되어 있는지 확인 하기 위해 스택의 우선 또는 &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;스택의 더 낮은.&lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Method <ph id="ph1">`B`</ph>, which is trying to access the resource, can stop the stack walk immediately by using the &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; method.</source>
+          <target state="translated">메서드 <ph id="ph1">`B`</ph>, 리소스에 액세스 하려고 하는 수는 스택 워크 즉시 사용 하 여 중지 된 &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;메서드.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the Deny placed on the stack by method <ph id="ph1">`A`</ph> (the calling method) is never discovered.</source>
+          <target state="translated">메서드에서 Deny 스택에 배치 하는 경우 <ph id="ph1">`A`</ph> (호출 하는 방법)가 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method prevents callers higher in the call stack from accessing the protected resource through the code that calls this method, even if those callers have been granted permission to access it.</source>
+          <target state="translated">이 메서드는 호출 스택의 상위 호출자가 해당 호출자가 액세스할 수 있는 권한이 부여 되어 있는 경우에이 메서드를 호출 하는 코드를 통해 보호 된 리소스에 액세스 하지 못하도록 방지 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">호출 스택의 호출 스택의 상위 메서드를 호출할 낮은 호출 스택에 있도록 하향식으로 일반적으로 표현 됩니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deny can limit the liability of the programmer or help prevent accidental security issues because it helps prevent the method that calls Deny from being used to access the resource protected by the denied permission.</source>
+          <target state="translated">Deny는 프로그래머의 책임을 제한 하거나에서 거부 된 권한으로 보호 되는 리소스에 액세스 하는 데 사용 되 고 거부를 호출 하는 메서드를 방지할 수 있으므로 실수로 인 한 보안 문제를 방지할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a method calls Deny on a permission, and if a &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission is invoked by a caller lower in the call stack, that security check will fail when it reaches the Deny.</source>
+          <target state="translated">메서드는 사용 권한에서 거부를 호출 하는 경우는 &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;Deny에 도달 하면 해당 보안 검사에서 실패에 해당 권한이 하위 호출 스택의 호출자가 호출 됩니다.&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to Deny is effective until the calling code returns to its caller.</source>
+          <target state="translated">호출 하는 코드는 호출자에 반환 될 때까지 거부에 대 한 호출 효과적입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one Deny can be active on a frame.</source>
+          <target state="translated">하나의 거부 프레임에서 활성화할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call Deny when an active Deny exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">현재 거부 &lt;xref:System.Security.SecurityException&gt;.&lt;/xref:System.Security.SecurityException&gt; 프레임 결과에 있을 때 거부를 호출 하려고</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active Deny.</source>
+          <target state="translated">호출 &lt;xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt;또는 &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;활성 거부를 제거 하려면.&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deny is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">거부 권한에 대 한 요청이 실패 합니다 부여 되지 않은 권한은 대해 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>There is already an active Deny for the current frame.</source>
+          <target state="translated">현재 프레임에 대 한 활성 Deny는 이미입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is equal to the current <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">확인 여부를 지정 된 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 현재 개체가 같은지 <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Object.Equals%2A&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Object.Equals%2A&gt;.&lt;/xref:System.Object.Equals%2A&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare with the current <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 현재와 비교할 개체 <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is equal to the current <bpt id="p3">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 지정 된 <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 현재 개체가 같은지 <bpt id="p3">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, 그렇지 않으면 <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, reconstructs a security object with a specified state from an XML encoding.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우에 포함 된 XML 인코딩에서 지정된 된 상태의 보안 개체를 다시 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom code that extends security objects needs to implement the &lt;xref:System.Security.CodeAccessPermission.ToXml%2A&gt; and FromXml methods to make the objects security-encodable.</source>
+          <target state="translated">보안 개체를 확장 하는 사용자 지정 코드를 구현 해야는 &lt;xref:System.Security.CodeAccessPermission.ToXml%2A&gt;및 보안을 인코딩할 수 있는 개체를 만드는 FromXml 메서드.&lt;/xref:System.Security.CodeAccessPermission.ToXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the security object.</source>
+          <target state="translated">XML은 보안 개체를 다시 만드는 데 사용할 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not contain the XML encoding for an instance of the same type as the current instance.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">elem</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 현재 인스턴스와 동일한 형식의 인스턴스에 대 한 XML 인코딩이 포함 되어 있지 않습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-or-       The version number of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not supported.</source>
+          <target state="translated">-또는-의 버전 번호는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">elem</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 지원 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a hash code for the <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is suitable for use in hashing algorithms and data structures such as a hash table.</source>
+          <target state="translated">에 대 한 해시 코드를 가져옵니다는 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체 해시 알고리즘 및 데이터 해시 테이블 같은 구조에 적합 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hash code for two instances of the same permission might be different, hence a hash code should not be used to compare two &lt;xref:System.Security.CodeAccessPermission&gt; objects.</source>
+          <target state="translated">두 인스턴스가 같은 권한의 대 한 해시 코드 서로 다를 수 있으므로 해시 코드를 사용 두 개를 비교 하 &lt;xref:System.Security.CodeAccessPermission&gt;개체입니다.&lt;/xref:System.Security.CodeAccessPermission&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">현재에 대 한 해시 코드 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 만들고 있는 현재 사용 권한 및 지정한 사용 권한의 공통 사용 권한을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">두 사용 권한의 공통 사항에는 모두 공통으로 설명 하는 작업 집합을 설명 하는 권한입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">원래 사용 권한을 모두 전달 하는 요구만 교집합에 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">현재 사용 권한 집합과 교차 하는 사용 권한입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">현재 사용 권한과 동일한 형식 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">현재 사용 권한 및 지정한 사용 권한의의 교차 부분을 나타내는 새 사용 권한.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">이 새로운 사용 권한은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 교집합이 비어 있는 경우.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not an instance of the same class as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 않습니다 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 및 현재 사용 권한과 동일한 클래스의 인스턴스가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">파생된 클래스에서 구현 하는 경우에 현재 사용 권한이 지정된 된 사용 권한의 하위 집합 인지 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">권한 하위 집합 관계에 대해 테스트 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">이 사용 권한은 현재 권한과 동일한 형식 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>현재 사용 권한이 지정 된 사용 권한의 하위 집합이 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 않습니다 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 아니고 현재 사용 권한과 동일한 형식이 있습니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Prevents callers higher in the call stack from using the code that calls this method to access all resources except for the resource specified by the current instance.</source>
+          <target state="translated">현재 인스턴스가 지정 된 리소스를 제외한 모든 리소스에 액세스 하려면이 메서드를 호출 하는 코드를 사용 하 여 호출 스택의 상위 호출자가 되지 않도록 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The PermitOnly method should be used only to protect resources from accidental access by fully trusted code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; PermitOnly 메서드는 완전히 신뢰할 수 있는 코드에 의해 실수로 액세스 로부터 리소스를 보호에 사용할 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should not be used to protect resources from intentional misuse by untrusted code.</source>
+          <target state="translated">하지 신뢰할 수 없는 코드 리소스 의도적인 악용 으로부터 보호 하기 위해 사용 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if method <ph id="ph1">`A`</ph> issues a PermitOnly for a permission and then calls method <ph id="ph2">`B`</ph>, method <ph id="ph3">`B`</ph> can overtly override the PermitOnly by issuing an &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.</source>
+          <target state="translated">예를 들어 경우 메서드 <ph id="ph1">`A`</ph> 사용 권한에 대해 PermitOnly 발급 하 고 다음 메서드를 호출 <ph id="ph2">`B`</ph>, 메서드 <ph id="ph3">`B`</ph> 명백히는 PermitOnly &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt; 를 실행 하 여 재정의할 수 있습니다</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The called method is always higher in the stack.</source>
+          <target state="translated">호출된 된 메서드가 스택의 항상 높습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if method <ph id="ph1">`B`</ph> tries to access a protected resource, the security system begins checking for permissions with it because method <ph id="ph2">`B`</ph> is the immediate caller, and then walks down the stack to confirm that there is no &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; or PermitOnly lower in the stack.</source>
+          <target state="translated">따라서 경우 메서드 <ph id="ph1">`B`</ph> 보안 시스템에서 보호 된 리소스에 액세스 하려고 하기 때문에 여 사용 권한을 확인 하기 시작 메서드 <ph id="ph2">`B`</ph> 직접 실행 호출자 이며 워크 우선이 있는지 확인 하기 위해 스택의 없습니다 &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;또는 PermitOnly는 스택의 하위.&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Method <ph id="ph1">`B`</ph>, which is trying to access the resource, can stop the stack walk immediately by using the &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; method.</source>
+          <target state="translated">메서드 <ph id="ph1">`B`</ph>, 리소스에 액세스 하려고 하는 수는 스택 워크 즉시 사용 하 여 중지 된 &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;메서드.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the PermitOnly placed on the stack by method <ph id="ph1">`A`</ph> (the calling method) is never discovered.</source>
+          <target state="translated">메서드에서 PermitOnly 스택에 배치 하는 경우 <ph id="ph1">`A`</ph> (호출 하는 방법)가 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PermitOnly is similar to &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, in that both cause stack walks to fail when they would otherwise succeed.</source>
+          <target state="translated">PermitOnly는 비슷합니다 &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;그렇지 않은 경우는 성공 시 작동이 실패 하도록 스택 워크 있는 상황에서,.&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The difference is that &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; specifies permissions that will cause the stack walk to fail, but PermitOnly specifies the only permissions that do not cause the stack walk to fail.</source>
+          <target state="translated">차이점은 &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;지정 스택을 사용 하면 사용 권한을 워크 실패 하지만 PermitOnly 스택 워크 실패 하지 않게 되는 유일한 권한을 지정 합니다.&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to ensure that your code can be used to access only the specified resources.</source>
+          <target state="translated">코드 지정 된 리소스에만 액세스할 수 사용 될 수 있도록 하려면이 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to PermitOnly is effective until the calling code returns to its caller.</source>
+          <target state="translated">PermitOnly에 대 한 호출 호출 하는 코드는 호출자에 반환 될 때까지 유효 합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one PermitOnly can be active on a frame.</source>
+          <target state="translated">하나의 PermitOnly 프레임에서 활성화할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call PermitOnly when an active PermitOnly exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">현재 PermitOnly &lt;xref:System.Security.SecurityException&gt;.&lt;/xref:System.Security.SecurityException&gt; 프레임 결과에 있을 때 PermitOnly 호출 하려는 경우</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active PermitOnly.</source>
+          <target state="translated">호출 &lt;xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt;또는 &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;활성 PermitOnly를 제거 하려면.&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PermitOnly is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">PermitOnly는 권한에 대 한 요청이 실패 합니다 부여 되지 않은 사용 권한을 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if code lower on the call stack later calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call PermitOnly.</source>
+          <target state="translated">그러나 코드에 대 한 호출에 낮은 나중 스택 하는 경우 호출 &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;권한에 대해는 &lt;xref:System.Security.SecurityException&gt;스택 워크 PermitOnly을 호출 하려고 하는 코드에 도달 하면 throw 됩니다.&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the code that called PermitOnly has not been granted the permission, even though it called PermitOnly for that permission.</source>
+          <target state="translated">해당 권한이 PermitOnly 호출 했지만 PermitOnly를 호출 하는 코드에는 권한이 부여 되지 때문입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">호출 스택의 호출 스택의 상위 메서드를 호출할 낮은 호출 스택에 있도록 하향식으로 일반적으로 표현 됩니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>There is already an active PermitOnly for the current frame.</source>
+          <target state="translated">현재 프레임에 대 한 활성 PermitOnly는 이미입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Causes all previous overrides for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">모든 이전 재정의가 제거 될 현재 프레임에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no overrides (&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, or &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;) for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">재정의 없는 경우 (&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, 또는 &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;) 현재 프레임에 대 한는 &lt;xref:System.ExecutionEngineException&gt;throw 됩니다.&lt;/xref:System.ExecutionEngineException&gt; &lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert<bpt id="p1">*</bpt>&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny<ept id="p1">*</ept>&gt;, or &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame.</source>
+          <target state="translated">인 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;, 또는 &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Assert*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">이전의 모든 &lt;xref:System.Security.CodeAccessPermission.Assert*&gt;제거할 현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.Assert*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">없는 경우 없는 &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;현재 프레임에 대 한는 &lt;xref:System.ExecutionEngineException&gt;throw 됩니다.&lt;/xref:System.ExecutionEngineException&gt; &lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert*&gt; for the current frame.</source>
+          <target state="translated">인 &lt;xref:System.Security.CodeAccessPermission.Assert*&gt;현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.Assert*&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">이전의 모든 &lt;xref:System.Security.CodeAccessPermission.Deny*&gt;제거할 현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">없는 경우 없는 &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;현재 프레임에 대 한는 &lt;xref:System.ExecutionEngineException&gt;throw 됩니다.&lt;/xref:System.ExecutionEngineException&gt; &lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; for the current frame.</source>
+          <target state="translated">인 &lt;xref:System.Security.CodeAccessPermission.Deny*&gt;현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">이전의 모든 &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;제거할 현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">없는 경우 없는 &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;현재 프레임에 대 한는 &lt;xref:System.ExecutionEngineException&gt;throw 됩니다.&lt;/xref:System.ExecutionEngineException&gt; &lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame.</source>
+          <target state="translated">인 &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;현재 프레임에 대 한.&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Creates and returns a string representation of the current permission object.</source>
+          <target state="translated">만들고 현재 권한 개체의 문자열 표현을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is useful in debugging when you need to display the permission as a string.</source>
+          <target state="translated">이 메서드는 사용 권한을 문자열로 표시 하기 위해 필요한 경우 디버깅에 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A string representation of the current permission object.</source>
+          <target state="translated">현재 권한 개체의 문자열 표현입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates an XML encoding of the security object and its current state.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 보안 개체 및 현재 상태에 대 한 XML 인코딩을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom code that extends security objects needs to implement the ToXml and &lt;xref:System.Security.CodeAccessPermission.FromXml%2A&gt; methods to make the objects security-encodable.</source>
+          <target state="translated">보안 개체를 확장 하는 사용자 지정 코드는 ToXml 구현 해야 하 고 &lt;xref:System.Security.CodeAccessPermission.FromXml%2A&gt;보안 인코딩할 수 있는 개체를 만드는 메서드.&lt;/xref:System.Security.CodeAccessPermission.FromXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the security object, including any state information.</source>
+          <target state="translated">모든 상태 정보를 포함 하는 보안 개체의 XML 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 현재 사용 권한 및 지정한 사용 권한을 합한 사용 권한을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">Union에 대 한 호출의 결과는 현재 사용 권한 및 지정한 사용 권한의 둘 다로 나타나는 모든 작업을 나타내는 권한입니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">사용 권한 중 하나를 전달 하는 모든 요청의 합집합을 통과 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">현재 사용 권한과 결합할 사용 권한</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">현재 사용 권한과 동일한 형식 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">현재 사용 권한 및 지정한 사용 권한의 합집합을 나타내는 새 사용 권한.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This method is only supported at this level when passed <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 메서드는 전달 될 때이 수준의 지원만 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
