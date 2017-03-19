@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d080e942bc01bdab55cc0fa71bb2f058252c627</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceInstaller.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce5af86ddd62334644e7a50fbc270bcccd1f31ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">932ee898a773c28235a19471fbf564156f98032e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installs a class that extends <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to implement a service.</source>
+          <target state="translated">Устанавливает класс, расширяющий <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для реализации службы.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is called by the install utility when installing a service application.</source>
+          <target state="translated">Этот класс вызывается программой установки при установке служебного приложения.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Чтобы установить службу, создайте класс установщика проектов, наследуемый от &lt;xref:System.Configuration.Install.Installer&gt;и укажите &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;атрибута класса, чтобы <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">В проекте, создать его &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;экземпляра для каждого приложения службы и один &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляра для каждой службы в приложении.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">В конструкторе класса установщика проекта, задать свойства установки для службы с помощью &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;и &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляров и добавления экземпляров в &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceInstaller constructor automatically generates an event log source whose &lt;xref:System.Diagnostics.EventLog.Log%2A&gt; property is set to the computer's Application log, and an &lt;xref:System.Diagnostics.EventLogInstaller&gt;.</source>
+          <target state="translated">ServiceInstaller конструктор автоматически создает источник журнала событий, которого &lt;xref:System.Diagnostics.EventLog.Log%2A&gt;задано в журнале приложения на компьютере и &lt;xref:System.Diagnostics.EventLogInstaller&gt;.&lt;/xref:System.Diagnostics.EventLogInstaller&gt; &lt;/xref:System.Diagnostics.EventLog.Log%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, which should be identical to the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; of the service, the &lt;xref:System.Diagnostics.EventLog.Source%2A&gt; property of the event log is automatically set to the same value.</source>
+          <target state="translated">При задании &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;из &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, который должен быть идентичен &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;службы, &lt;xref:System.Diagnostics.EventLog.Source%2A&gt;Свойства журнала событий, автоматически присваивается то же значение.&lt;/xref:System.Diagnostics.EventLog.Source%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The source is deleted automatically in the case of an installation failure.</source>
+          <target state="translated">Источник будет автоматически удалена в случае сбоя установки.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceInstaller constructor sets the &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt; property to <ph id="ph1">`ServiceStartMode.Manual`</ph> to specify that a user start the service.</source>
+          <target state="translated">ServiceInstaller конструктора задает &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;Свойства <ph id="ph1">`ServiceStartMode.Manual`</ph> для указания, что пользователь запустить службу.&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can reset the property to <ph id="ph1">`ServiceStartMode.Automatic`</ph> to specify that the service start when the computer reboots.</source>
+          <target state="translated">Вы можете сбросить свойства <ph id="ph1">`ServiceStartMode.Automatic`</ph> для указания, что служба запущена после перезагрузки компьютера.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Copies properties from an instance of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to this installer.</source>
+          <target state="translated">Копирует свойства из экземпляра <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> этот установщик.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will rarely be called within your code.</source>
+          <target state="translated">Этот метод будет вызван редко в вашем коде.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CopyFromComponent is usually called only by designers.</source>
+          <target state="translated">CopyFromComponent обычно вызывается только конструкторами.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CopyFromComponent saves the service name of the <ph id="ph1">`component`</ph> parameter to the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance.</source>
+          <target state="translated">CopyFromComponent сохраняет имя службы <ph id="ph1">`component`</ph> параметр &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;из &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляра.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(Because the parameter must be an instance of a class that derives from &lt;xref:System.ServiceProcess.ServiceBase&gt;, <ph id="ph1">`component`</ph> is guaranteed to have a &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; property.)      &gt; <ph id="ph2">[!NOTE]</ph> &gt;  If you are using the Visual Studio designer, this method is called at design time when the user clicks <ph id="ph3">`Add Installer`</ph> on a component that specified this class as its installer.</source>
+          <target state="translated">(Поскольку параметр должен быть экземпляром класса, производного от &lt;xref:System.ServiceProcess.ServiceBase&gt;, <ph id="ph1">`component`</ph> гарантированно имеет свойство &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;.)      Настроек <ph id="ph2">[!NOTE]</ph> настроек при использовании конструктора Visual Studio данный метод вызывается во время разработки, когда пользователь щелкает <ph id="ph3">`Add Installer`</ph> для компонента, задавшего этот класс в качестве своего установщика.&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The installer takes all information it can from the live component and stores it for use at install time.</source>
+          <target state="translated">Программа установки получает все сведения из динамического компонента и сохранить их для использования во время установки.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which to copy.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Из которого выполняется копирование.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The component you are associating with this installer does not inherit from <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Компонент, который связывается с данным установщиком не является производным от <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service should be delayed from starting until other automatically started services are running.</source>
+          <target state="translated">Возвращает или задает значение, которое указывает, отложена ли служба запуститься, пока другие автоматически запускающиеся службы.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DelayedAutoStart property can be applied to any service, but it is ignored unless the service's start mode is &lt;xref:System.ServiceProcess.ServiceStartMode&gt;.</source>
+          <target state="translated">Свойство DelayedAutoStart может применяться к любой службе, но он учитывается, если режим запуска для службы не &lt;xref:System.ServiceProcess.ServiceStartMode&gt;.&lt;/xref:System.ServiceProcess.ServiceStartMode&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The setting takes effect the next time the system is restarted.</source>
+          <target state="translated">Параметр вступает в силу при следующей перезагрузке системы.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Service Control Manager does not guarantee a specific start time for the service.</source>
+          <target state="translated">Диспетчер управления службами не гарантирует определенное время запуска для службы.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A delayed automatic start service cannot be a member of a load ordering group, but it can depend on another automatic start service.</source>
+          <target state="translated">Отложенный автоматический запуск службы не может быть членом группы упорядочения загрузки, но оно может зависеть от другой службы автоматический запуск.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an application calls a delayed automatic start service before it is loaded, the call fails.</source>
+          <target state="translated">Если приложение вызывает службу отложенного автоматического запуска перед загрузкой, вызов завершается неудачей.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On operating systems that do not support delayed automatic start, setting this property has no effect.</source>
+          <target state="translated">В операционных системах, которые не поддерживают отложенный автоматический запуск Установка этого свойства не оказывает влияния.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delay automatic start of the service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для задержки автоматического запуска службы; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the description for the service.</source>
+          <target state="translated">Возвращает или задает описание для службы.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Description property to describe the purpose of the installed service to the user.</source>
+          <target state="translated">Используйте свойство Description для описания цели установленной службы для пользователя.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user can view the service description in applications that display details for installed services.</source>
+          <target state="translated">В приложениях, в которых отображаются подробные сведения об установленных служб, пользователь может просмотреть описание службы.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, using Windows XP, you can view the service description with the Service Control command-line utility (Sc.exe) or you can view the service description within the <bpt id="p1">**</bpt>Services<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Computer Management<ept id="p2">**</ept> console.</source>
+          <target state="translated">Например, с помощью Windows XP, можно просмотреть описание службы с помощью программы командной строки управления службой (Sc.exe) или можно просмотреть описание службы внутри <bpt id="p1">**</bpt>службы<ept id="p1">**</ept> узел <bpt id="p2">**</bpt>Управление компьютером<ept id="p2">**</ept> консоли.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The description of the service.</source>
+          <target state="translated">Описание службы.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Значение по умолчанию — пустая строка (»»).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates the friendly name that identifies the service to the user.</source>
+          <target state="translated">Указывает понятное имя, определяющее службу для пользователя.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name associated with the service, used frequently for interactive tools.</source>
+          <target state="translated">Имя, связанное со службой, часто используются для интерактивных средств.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Installs the service by writing service application information to the registry.</source>
+          <target state="translated">Устанавливает службу путем записи в реестр сведения о служебном приложении.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">Этот метод предназначен для использования средствами установки, которые автоматически обрабатывают соответствующие методы.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Как правило, не будет вызывать методы на &lt;xref:System.ServiceProcess.ServiceInstaller&gt;вашей программы; они обычно вызываются только программой установки.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install method during installation.</source>
+          <target state="translated">Программа установки автоматически вызывает метод установки во время установки.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt; on the object that generated the exception.</source>
+          <target state="translated">При необходимости он обрабатывает сбои, вызывая &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;для объекта, вызвавшего исключение.&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components that were already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Программа установки приложения автоматического сохранения сведений об компоненты, которые уже были установлены, с помощью установщика проектов &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Install as the <ph id="ph1">`stateSaver`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Сведения о состоянии, переданные в установке как <ph id="ph1">`stateSaver`</ph> параметра, постоянно обновляются при &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;экземпляр и каждый &lt;xref:System.ServiceProcess.ServiceInstaller&gt;установлен экземпляр служебной программой.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Обычно нет необходимости явно изменять сведения о состоянии в коде.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; associated with your project installation class installs information common to all &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances in the project.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;Связанные с в проект установки класс устанавливает сведения общие для всех &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляров в проекте.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service has anything that separates it from the other services in the installation project, that service-specific information is installed by this method.</source>
+          <target state="translated">Если эта служба имеет об отличиях от других служб в проекте, эти сведения для конкретной службы устанавливается с помощью данного метода.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Чтобы установить службу, создайте класс установщика проектов, наследуемый от &lt;xref:System.Configuration.Install.Installer&gt;и укажите &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;атрибута класса, чтобы <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">В проекте, создать его &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;экземпляра для каждого приложения службы и один &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляра для каждой службы в приложении.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">В конструкторе класса установщика проекта, задать свойства установки для службы с помощью &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;и &lt;xref:System.ServiceProcess.ServiceInstaller&gt;экземпляров и добавления экземпляров в &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is recommended that you use the constructor for adding installer instances; however, if you need to add to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in the Install method, be sure to perform the same additions to the collection in the &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; method.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек рекомендуется использовать конструктор для добавления экземпляров установщика; тем не менее, если вам нужно добавить &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;не забудьте выполнить же добавления в коллекцию в коллекцию в методе установки &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;метод.&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods.</source>
+          <target state="translated">Для всех классов, производных от &lt;xref:System.Configuration.Install.Installer&gt;класса состояние &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции должны быть одинаковыми в установку и &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;методы.&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can avoid the maintenance of the collection across the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">Тем не менее, можно избежать обслуживания коллекции для установки и &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;методов при добавлении экземпляров установщика &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции в конструкторе класса настраиваемого установщика.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий контекстные данные, связанные с установкой.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The installation does not contain a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the executable.</source>
+          <target state="translated">Установка не содержит <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для исполняемого файла.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-or-       The file name for the assembly is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">- или - имя файла для сборки — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> или является пустой строкой.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-or-       The service name is invalid.</source>
+          <target state="translated">- или - недопустимое имя службы.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The Service Control Manager could not be opened.</source>
+          <target state="translated">- или - не удалось открыть диспетчер управления службами.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The display name for the service is more than 255 characters in length.</source>
+          <target state="translated">Отображаемое имя для службы является более 255 символов.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The system could not generate a handle to the service.</source>
+          <target state="translated">Системе не удалось создать дескриптор для службы.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       A service with that name is already installed.</source>
+          <target state="translated">- или - служба с таким именем уже установлена.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Indicates whether two installers would install the same service.</source>
+          <target state="translated">Указывает, служба будет устанавливаться два установщика.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsEquivalentInstaller indicates, for example, whether two installers would install the same service under the same user account.</source>
+          <target state="translated">IsEquivalentInstaller указывает, к примеру, ли два установщика устанавливать той же службе в той же учетной записью.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you are comparing the current installer.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> к которой выполняется сравнение текущего установщика.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if calling &lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt; on both of these installers would result in installing the same service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если вызов &lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt;на обоих установщиков приведет к тому же установки службы, в противном случае — <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Rolls back service application information written to the registry by the installation procedure.</source>
+          <target state="translated">Отменяет сведения о служебном приложении, записанные в реестр в процессе установки.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">Этот метод предназначен для использования средствами установки, которые автоматически обрабатывают соответствующие методы.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Как правило, не будет вызывать методы на &lt;xref:System.ServiceProcess.ServiceInstaller&gt;вашей программы; они обычно вызываются только программой установки.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; method during the installation process.</source>
+          <target state="translated">Вызывается автоматически &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;метод во время установки.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling Rollback on the object that generated the exception.</source>
+          <target state="translated">Он обрабатывает сбои, при необходимости путем вызова отката для объекта, вызвавшего исключение.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Программа установки приложения автоматического сохранения сведений об уже установленных компонентах, с помощью установщика проектов &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Rollback as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Сведения о состоянии, переданные в отката как <ph id="ph1">`savedState`</ph> параметра, постоянно обновляются при &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;экземпляр и каждый &lt;xref:System.ServiceProcess.ServiceInstaller&gt;установлен экземпляр служебной программой.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Обычно нет необходимости явно изменять сведения о состоянии в коде.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий контекстные данные, связанные с установкой.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Indicates the name used by the system to identify this service.</source>
+          <target state="translated">Указывает имя, используемое для идентификации этой службы в системе.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This property must be identical to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> of the service you want to install.</source>
+          <target state="translated">Это свойство должно быть идентично <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> службы вы хотите установить.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name of the service to be installed.</source>
+          <target state="translated">Имя установленной службы.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value must be set before the install utility attempts to install the service.</source>
+          <target state="translated">Это значение должно быть установлено до установки программа пытается установить службу.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The ServiceName property is invalid.</source>
+          <target state="translated">Недопустимое свойство ServiceName.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates the services that must be running for this service to run.</source>
+          <target state="translated">Указывает службы, которые должны выполняться для запуска этой службы.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A service can require other services to be running before it can start.</source>
+          <target state="translated">Служба может потребовать другие службы перед его запуска.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information from this property is written to a key in the registry.</source>
+          <target state="translated">Сведения из этого свойства записываются на ключ в реестре.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the user (or the system, in the case of automatic startup) tries to run the service, the Service Control Manager (SCM) verifies that each of the services in the array has already been started.</source>
+          <target state="translated">При попытке запуска службы пользователь (или системы при автоматическом запуске) диспетчер управления службами (SCM) проверяет, что каждой из служб в массиве уже запущен.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the array is not running then, the SCM tries to start them.</source>
+          <target state="translated">Если любой из служб массива не запущена, SCM пытается запустить ее.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes services with <ph id="ph1">`Manual`</ph>&lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;.</source>
+          <target state="translated">Это относится к службам <ph id="ph1">`Manual`</ph> &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service upon which this service depends fails to start, this service will not start.</source>
+          <target state="translated">Если все службы, от которой зависит данная служба не запускается, эта служба не запустится.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is not thrown if the system is not started because there is no exception handling at the system level to detect this.</source>
+          <target state="translated">Исключение не возникает, если система не запущена, так как отсутствует обработчик исключений на уровне системы, чтобы это обнаружить.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Decide how to handle service start failures and implement this in your code.</source>
+          <target state="translated">Выберите способ обработки ошибок при запуске службы и реализовать его в коде.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a dialog appears to the user at startup if a service fails to start.</source>
+          <target state="translated">Как правило если служба не запускается, пользователю во время запуска откроется диалоговое окно.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service does not start, an entry is written to the Application event log.</source>
+          <target state="translated">Если служба не запускается, записи в журнал событий приложений.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The services upon which this service depends do not need to be in the same executable.</source>
+          <target state="translated">Службы, от которых зависит данная служба не обязательно должны находиться в одном исполняемом объекте.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An array of services that must be running before the service associated with this installer can run.</source>
+          <target state="translated">Массив служб, которые должны быть запущены перед запуском службы, связанной с данным установщиком.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Indicates how and when this service is started.</source>
+          <target state="translated">Указывает, как и когда эта служба запущена.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the StartType to specify either that the service be started automatically after reboot or that a user must manually start the service.</source>
+          <target state="translated">Задайте StartType, чтобы указать, что служба запускается автоматически после перезагрузки или, пользователь должен вручную запустить службу.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A service can also be disabled, specifying that it cannot be started, either manually or programmatically, until it is enabled.</source>
+          <target state="translated">Службу можно также отключить, указав, что она не может быть запущена, вручную или программным путем, пока не будет включена.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot change &lt;xref:System.ServiceProcess.ServiceInstaller&gt; property values after installation.</source>
+          <target state="translated">Невозможно изменить &lt;xref:System.ServiceProcess.ServiceInstaller&gt;значения свойств после установки.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the StartType, you either have to uninstall and reinstall your service, or manually change the setting using the Service Control Manager.</source>
+          <target state="translated">Чтобы изменить StartType, придется удалить и переустановить службу, либо вручную изменить параметр, с помощью диспетчера управления службами.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the way the service is started.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , предоставляющее способ запуска службы.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which specifies that the service will not automatically start after reboot.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, которое указывает, что служба не будет запускаться автоматически после перезагрузки.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The start mode is not a value of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Режим запуска не является значением из <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> перечисления.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Uninstalls the service by removing information about it from the registry.</source>
+          <target state="translated">Удаляет службу путем удаления сведений о нем из реестра.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Uninstall first attempts to stop the service before uninstalling it.</source>
+          <target state="translated">Uninstall пытается остановить службу перед ее удалением.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service cannot be stopped, no exception is caught, and the method continues with the removal of the service.</source>
+          <target state="translated">Если не удается остановить службу, то исключение перехватывается и метод переходит к удалению службы.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Как правило, не будет вызывать методы на &lt;xref:System.ServiceProcess.ServiceInstaller&gt;вашей программы; они обычно вызываются только программой установки.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstallUtil is used to uninstall services as well as install them; uninstalling takes a switch in the command line call.</source>
+          <target state="translated">InstallUtil используется для удаления службы, а также установить их; При удалении необходимо указать переключатель в командной строке.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's uninstall routine maintains information automatically about the components being uninstalled, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Подпрограмма удалить приложение сохраняет сведения автоматически о компонентах, выполняется удаление с помощью установщика проектов &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Uninstall as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Сведения о состоянии, переданные в удаления как <ph id="ph1">`savedState`</ph> параметра, постоянно обновляются при &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;экземпляр и каждый &lt;xref:System.ServiceProcess.ServiceInstaller&gt;установлен экземпляр служебной программой.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Обычно нет необходимости явно изменять сведения о состоянии в коде.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods.</source>
+          <target state="translated">Для всех классов, производных от &lt;xref:System.Configuration.Install.Installer&gt;класса состояние &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции должны быть одинаковыми в &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;и удаления методов.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can avoid the maintenance of the collection across the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">Тем не менее, можно избежать обслуживания коллекции между &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;и при добавлении экземпляров установщика для удаления методы &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции в конструкторе класса настраиваемого установщика.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no rollback mechanism for uninstalling, so if one service fails to uninstall, this does not affect the other services (usually within the same installation project) being uninstalled.</source>
+          <target state="translated">Отсутствует механизм отката для удаления, поэтому не удается удалить одну службу, это не влияет на процесс удаления других служб (обычно в рамках одного проекта установки).</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий контекстные данные, связанные с установкой.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The Service Control Manager could not be opened.</source>
+          <target state="translated">Не удалось открыть диспетчер управления службами.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       The system could not get a handle to the service.</source>
+          <target state="translated">- или - не удалось получить дескриптор для службы.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

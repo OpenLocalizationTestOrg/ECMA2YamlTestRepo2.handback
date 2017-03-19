@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">893d6eea6ed798ce6777d83ebd7055ac54a2a3c7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.ExecutionProperties.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e5eeaf774b9ebf17de8babd540aa09388d759e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85322df919adc316883a119b3802918135ddd943</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the collection of properties at a particular scope.</source>
+          <target state="translated">表示特定范围内的属性的集合。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Through thread local storage (TLS), the CLR maintains an execution context for each thread.</source>
+          <target state="translated">通过线程本地存储区 (TLS)，CLR 可维护每个线程的执行上下文。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This execution context governs well-known thread properties such as the thread identity, the ambient transaction, and the current permission set as well as user-defined thread properties like named slots.</source>
+          <target state="translated">此执行上下文管理已知的线程属性，例如，线程标识、 环境事务、 和当前权限集以及用户定义的线程属性，如已命名的槽。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Unlike programs directly targeting the CLR, workflow programs are hierarchically-scoped trees that execute in a thread-agnostic environment.</source>
+          <target state="translated">与直接面向 CLR 的程序，不同工作流程序是在线程不可知的环境中执行的以分层形式划分作用域树。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This implies that the standard TLS mechanisms cannot directly be used to determine what context is in scope for a given work item.</source>
+          <target state="translated">这意味着，标准的 TLS 机制无法直接用于确定给定的工作项范围所在的上下文。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, two parallel branches of execution might use different identities yet the scheduler might interleave their execution on the same CLR thread.</source>
+          <target state="translated">例如，两个并行执行分支可能使用不同的标识，但计划程序可能交错在同一 CLR 线程上的执行。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Execution properties allow an activity to declare which properties are in scope for its sub-tree as well as provide hooks for setting up and tearing down TLS to properly interoperate with CLR objects.</source>
+          <target state="translated">执行属性允许活动声明哪些属性在其子树范围内，以及提供了用于设置和关闭 TLS 以与 CLR 对象正确交互的挂钩。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registers a new property using the specified name.</source>
+          <target state="translated">注册一个新的属性，使用指定的名称。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">属性的名称。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The object that represents the property.</source>
+          <target state="translated">表示属性的对象。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registers a property using the specified name and child visibility.</source>
+          <target state="translated">注册使用指定的名称和子级可见性属性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">属性的名称。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The object that represents the property.</source>
+          <target state="translated">表示属性的对象。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A value that determines whether this property is visible to the children of the owning activity.</source>
+          <target state="translated">一个值，确定此属性是否对所属活动的子级可见。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns the nearest property of the given name.</source>
+          <target state="translated">返回最接近给定名称的属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Find finds the nearest visible property using hierarchical scoping.</source>
+          <target state="translated">查找查找最接近的可见属性使用分层范围。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If two properties have the same name, the closest property at the parent scope is returned.</source>
+          <target state="translated">如果两个属性具有相同的名称，则返回在父范围内最接近的属性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">属性的名称。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The nearest property of the given name.</source>
+          <target state="translated">最接近给定名称的属性。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the collection of properties.</source>
+          <target state="translated">返回循环访问的属性的集合的枚举。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An enumerator that iterates through the collection of properties.</source>
+          <target state="translated">一个枚举器循环访问的属性的集合。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether there are properties registered at the current scope.</source>
+          <target state="translated">获取一个值，该值指示是否存在已注册的当前作用域属性。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are properties registered; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果注册; 的属性，否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Unregisters the property with the specified name.</source>
+          <target state="translated">注销具有指定名称的属性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Properties are automatically unregistered when the activity completes.</source>
+          <target state="translated">当活动完成时，会自动注销属性。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This method can be used to unregister a property before the activity completes.</source>
+          <target state="translated">此方法可以用于在活动完成之前注销属性。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the property to unregister.</source>
+          <target state="translated">要注销的属性名称。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property was unregistered; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果属性已注销;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the collection of properties.</source>
+          <target state="translated">返回循环访问的属性的集合的枚举。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An enumerator that iterates through the collection of properties.</source>
+          <target state="translated">一个枚举器循环访问的属性的集合。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

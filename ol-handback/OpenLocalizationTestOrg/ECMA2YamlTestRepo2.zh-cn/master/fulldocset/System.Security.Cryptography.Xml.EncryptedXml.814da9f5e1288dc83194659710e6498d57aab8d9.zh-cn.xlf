@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12f80ed60245d7c52ea0edc1401cacfa93aa4f6a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.EncryptedXml.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc6c38d7d44d423559190e2dd54da2289ef15352</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa9e34d6a63bddb1a486bbf636a935b8b823b9f6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the process model for implementing XML encryption.</source>
+          <target state="translated">表示用于实现 XML 加密的进程模型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The EncryptedXml class is the main class used for XML encryption in the .NET Framework.</source>
+          <target state="translated">EncryptedXml 类是.NET Framework 中的 XML 加密所用的主类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>XML Encryption is a standards-based, interoperable way to encrypt all or part of an XML document or any arbitrary data.</source>
+          <target state="translated">XML 加密是一种基于标准的、 可互操作的方式来加密所有或部分 XML 文档或任何任意数据。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The .NET Framework XML encryption classes implement the World Wide Web Consortium (W3C) specification for XML encryption located at http://www.w3.org/TR/xmlenc-core/.</source>
+          <target state="translated">.NET Framework XML 加密类实现 XML 加密位于 http://www.w3.org/TR/xmlenc-core/ World Wide Web Consortium (W3C) 规范。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the EncryptedXml class whenever you need to share encrypted XML data between applications or organizations in a standard way.</source>
+          <target state="translated">无论何时需要以一种标准方式共享应用程序或组织之间的加密的 XML 数据，请使用 EncryptedXml 类。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Any data encrypted using this class can be decrypted by any implementation of the W3C specification for XML encryption.</source>
+          <target state="translated">可以由任何实现 XML 加密的 W3C 规范解密使用此类加密的任何数据。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>XML encryption replaces any plain text XML element or document with the <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element, which contains an encrypted (or cipher text) representation of plain text XML or any arbitrary data.</source>
+          <target state="translated">XML 加密将任何纯文本 XML 元素或文档替换<ph id="ph1">`&lt;EncryptedData&gt;`</ph>元素，它包含已加密 （或对密码文本） 的纯文本 XML 的表示形式或任意数据。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element can optionally contain information about where to find a key that will decrypt the cipher text, and which cryptographic algorithm was used to encrypt the plain text.</source>
+          <target state="translated"><ph id="ph1">`&lt;EncryptedData&gt;`</ph>元素可以根据需要包含有关在何处可以找到将解密密码文本的密钥信息和哪种加密算法用于加密纯文本。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element is similar to the <ph id="ph2">`&lt;EncryptedData&gt;`</ph> element in style and usage, except that it allows you to encrypt a key that will decrypt the value of the <ph id="ph3">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated"><ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素是类似于<ph id="ph2">`&lt;EncryptedData&gt;`</ph>样式和使用情况，但还允许你将对的值进行解密的密钥进行加密的元素<ph id="ph3">`&lt;EncryptedData&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element and the <ph id="ph2">`&lt;EncryptedData&gt;`</ph> element will never contain an unencrypted key.</source>
+          <target state="translated">请注意，<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素和<ph id="ph2">`&lt;EncryptedData&gt;`</ph>元素将永远不会包含未加密的密钥。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use one of the following methods to exchange key information:      -   Do not include any key information.</source>
+          <target state="translated">使用以下方法之一来交换密钥信息:-不包含任何密钥信息。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you choose this option, both parties must agree on an algorithm and key before they exchange encrypted data.</source>
+          <target state="translated">如果选择此选项，则双方必须在交换加密的数据之前上算法和密钥达成一致。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Include the location of the key in the Uniform Resource Identifier (URI) attribute of the <ph id="ph1">`&lt;RetrievalMethod&gt;`</ph> element.</source>
+          <target state="translated">包含密钥的位置的统一资源标识符 (URI) 特性中<ph id="ph1">`&lt;RetrievalMethod&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Both parties must agree on the key location ahead of time and this location must be kept secret.</source>
+          <target state="translated">双方必须同意在提前项的位置上，此位置必须保密。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   Include a string name that maps to a key in the <ph id="ph1">`&lt;KeyName&gt;`</ph> element.</source>
+          <target state="translated">-包括映射到中的键的字符串名称<ph id="ph1">`&lt;KeyName&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Both parties must agree on the key name mapping before they exchange encrypted data and this mapping must be kept secret.</source>
+          <target state="translated">双方必须达成一致的密钥名称映射之前在交换加密的数据，并且必须将此映射保密。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   Include an encrypted key in the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">-Include 中的加密的密钥<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Both parties must agree on the key that decrypts the encrypted key before they exchange encrypted data.</source>
+          <target state="translated">双方上在交换加密的数据之前对加密的密钥进行解密的密钥必须一致。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can optionally include a name or location of the key that will decrypt the key in the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">你可以选择性地包含的名称或位置将解密中的密钥的密钥<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is the default constructor for the main class for XML encryption in the .NET Framework.</source>
+          <target state="translated">这是为.NET Framework 中的 XML 加密的主类的默认构造函数。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified XML document.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用指定的 XML 文档。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use this constructor to create an &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object when you want to specify the XML document to encrypt.</source>
+          <target state="translated">使用此构造函数创建&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;对象时您想要指定要加密的 XML 文档。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`document`</ph> parameter comprises the XML elements that later form the encrypted XML.</source>
+          <target state="translated"><ph id="ph1">`document`</ph>参数包含的 XML 元素的更高版本窗体中加密的 XML。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to initialize the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用于初始化对象<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified XML document and evidence.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用指定的 XML 文档和证据。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Use this constructor to create an &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object when you want to specify the XML document to encrypt and provide security evidence.</source>
+          <target state="translated">使用此构造函数创建&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;对象时您想要指定要加密，并提供安全证据的 XML 文档。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`document`</ph> parameter comprises the XML elements that later form the encrypted XML.</source>
+          <target state="translated"><ph id="ph1">`document`</ph>参数包含的 XML 元素的更高版本窗体中加密的 XML。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to initialize the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用于初始化对象<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>与关联的对象<bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Defines a mapping between a key name and a symmetric key or an asymmetric key.</source>
+          <target state="translated">定义密钥名称和对称密钥或非对称密钥之间的映射。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The AddKeyNameMapping method allows you to map a symmetric key or an asymmetric key to a string name.</source>
+          <target state="translated">AddKeyNameMapping 方法，可将对称密钥或非对称密钥映射到的字符串名称。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This method adds the values of the <ph id="ph1">`keyName`</ph> and <ph id="ph2">`keyObject`</ph> parameters to a table of valid key name mappings.</source>
+          <target state="translated">此方法将添加的值<ph id="ph1">`keyName`</ph>和<ph id="ph2">`keyObject`</ph>参数到有效的密钥的表名称映射。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt; method to clear the key name mappings table.</source>
+          <target state="translated">使用&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt;方法来清除密钥名称映射表。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The name to map to <ph id="ph1">`keyObject`</ph>.</source>
+          <target state="translated">要映射到的名称<ph id="ph1">`keyObject`</ph>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The symmetric key to map to <ph id="ph1">`keyName`</ph>.</source>
+          <target state="translated">要映射到的对称密钥<ph id="ph1">`keyName`</ph>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyObject</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyObject</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyObject</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an RSA algorithm or a symmetric key.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyObject</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是 RSA 算法或对称密钥。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Resets all key name mapping.</source>
+          <target state="translated">重置所有密钥名称映射。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use this method to clear all key name mapping that you have set using the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt; method.</source>
+          <target state="translated">使用此方法清除你使用设置的所有密钥名称映射&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt;方法。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using the specified symmetric algorithm.</source>
+          <target state="translated">解密<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的对称算法的元素。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use the DecryptData method to decrypt an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; element using a symmetric key.</source>
+          <target state="translated">DecryptData 方法用于解密&lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;使用对称密钥的元素。&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Note that the DecryptData method only decrypts top-level &lt;<ph id="ph1">`EncryptedData`</ph>&gt; tags.</source>
+          <target state="translated">请注意 DecryptData 方法仅解密顶级<ph id="ph1">`EncryptedData`</ph>1&gt; 标记。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In cases where one or more &lt;<ph id="ph1">`EncryptedData`</ph>&gt; tags have been encrypted and are contained within higher level &lt;<ph id="ph2">`EncryptedData`</ph>&gt; tags, you can call the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt; method separately for each one.</source>
+          <target state="translated">在情况下其中一个或多个<ph id="ph1">`EncryptedData`</ph>1&gt; 标记已加密，并且包含在更高级别的<ph id="ph2">`EncryptedData`</ph>1&gt; 标记，你可以调用&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;为每个单独的方法。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt; method for a code example.</source>
+          <target state="translated">请参阅&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;有关代码示例的方法。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The data to decrypt.</source>
+          <target state="translated">要解密的数据。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to decrypt <ph id="ph1">`encryptedData`</ph>.</source>
+          <target state="translated">对称密钥用于解密<ph id="ph1">`encryptedData`</ph>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the raw decrypted plain text.</source>
+          <target state="translated">一个包含已解密的原始纯文本的字节数组。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Decrypts all <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> elements of the XML document that were specified during initialization of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">解密所有<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在初始化过程中指定的 XML 文档的元素<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The DecryptDocument method decrypts all <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements of the XML document loaded during initialization.</source>
+          <target state="translated">DecryptDocument 方法来解密所有<ph id="ph1">`&lt;EncryptedData&gt;`</ph>在初始化期间加载 XML 文档的元素。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>After you call this method, all <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements in the document are replaced with plain text versions.</source>
+          <target state="translated">调用此方法之后, 所有<ph id="ph1">`&lt;EncryptedData&gt;`</ph>文档中的元素替换为纯文本版本。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The DecryptDocument method decrypts only top-level <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements.</source>
+          <target state="translated">DecryptDocument 方法仅解密顶级<ph id="ph1">`&lt;EncryptedData&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you need to decrypt a super-encrypted document (a document that is encrypted more than once), you must call the DecryptDocument method repeatedly until all the <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements have been decrypted.</source>
+          <target state="translated">如果你需要解密超级加密的文档 （不止一次加密的文档），则必须调用 DecryptDocument 方法重复直至所有<ph id="ph1">`&lt;EncryptedData&gt;`</ph>已解密元素。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DecryptDocument method decrypts only valid XML data.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; DecryptDocument 方法对仅有效的 XML 数据进行解密。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To decrypt arbitrary data, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt; method.</source>
+          <target state="translated">若要解密的任意数据，使用&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt;方法。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To use XML Encryption with X.509 certificates, you must have the Microsoft Enhanced Cryptographic Provider installed and the X.509 certificate must use the Enhanced Provider.</source>
+          <target state="translated">若要使用 XML 加密 X.509 证书，你必须具有 Microsoft 增强加密提供程序安装和 X.509 证书必须使用增强的提供程序。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you do not have the Microsoft Enhanced Cryptographic Provider installed or the X.509 certificate does not use the Enhanced Provider, a &lt;xref:System.Security.Cryptography.CryptographicException&gt; with an "Unknown Error" will be thrown when you decrypt an XML document.</source>
+          <target state="translated">如果你没有 Microsoft 增强加密提供程序安装或 X.509 证书不使用增强的提供程序， &lt;xref:System.Security.Cryptography.CryptographicException&gt;"未知错误"时，将引发解密 XML 文档。&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The cryptographic key used to decrypt the document was not found.</source>
+          <target state="translated">找不到用来解密文档的加密密钥。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Determines the key represented by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">确定所表示的密钥<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The DecryptEncryptedKey method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">DecryptEncryptedKey 方法对中包含加密的密钥进行解密<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>XML 文档的元素。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This recursive method finds the key represented by the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object.</source>
+          <target state="translated">此递归方法查找所表示的密钥&lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;对象。&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Note that an &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object can contain another &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object that specifies its &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt; value.</source>
+          <target state="translated">请注意，&lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;对象可以包含另一个&lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;对象，它指定其&lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt;值。&lt;/xref:System.Security.Cryptography.Xml.KeyInfo&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the key to retrieve.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含要检索的密钥。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key.</source>
+          <target state="translated">包含密钥的字节数组。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedKey</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedKey</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是三重 DES 密钥包装算法或 （也称为 Rijndael） 的高级加密标准 (AES) 密钥包装算法。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using a symmetric algorithm.</source>
+          <target state="translated">解密<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用对称算法的元素。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt; method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt;方法对中包含加密的密钥进行解密<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>XML 文档的元素。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method accepts a value for the <ph id="ph1">`symmetricAlgorithm`</ph> parameter that represents either the Triple DES algorithm or the AES key wrap algorithm (also called Rijndael).</source>
+          <target state="translated">此方法接受的值<ph id="ph1">`symmetricAlgorithm`</ph>表示三重 DES 算法或 AES 密钥换行算法 （也称为 Rijndael） 的参数。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents an encrypted <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">表示已加密的字节数组<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to decrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">对称密钥用于解密<ph id="ph1">`keyData`</ph>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the plain text key.</source>
+          <target state="translated">包含纯文本密钥的字节数组。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> element is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>元素不是三重 DES 密钥包装算法或 （也称为 Rijndael） 的高级加密标准 (AES) 密钥包装算法。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using an asymmetric algorithm.</source>
+          <target state="translated">解密<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用非对称算法的元素。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The DecryptKey method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">DecryptKey 方法对中包含加密的密钥进行解密<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>XML 文档的元素。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This method accepts a value for the <ph id="ph1">`rsa`</ph> parameter that represents either the RSA PKCS#1 v1.5 algorithm or the RSA PKCS#1 type 2 algorithm (also called OAEP padding).</source>
+          <target state="translated">此方法接受的值<ph id="ph1">`rsa`</ph>表示 RSA PKCS #1 v1.5 算法或 RSA PKCS #1 类型 2 算法 （也称为 OAEP 填充） 的参数。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents an encrypted <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">表示已加密的字节数组<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The asymmetric key used to decrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">非对称密钥用于解密<ph id="ph1">`keyData`</ph>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether to use Optimal Asymmetric Encryption Padding (OAEP).</source>
+          <target state="translated">一个值，指定是否使用最优非对称加密填充 (OAEP)。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the plain text key.</source>
+          <target state="translated">包含纯文本密钥的字节数组。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rsa</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets or sets the evidence of the <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from which the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is constructed.</source>
+          <target state="translated">获取或设置的证据<bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从中对象<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>构造对象。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the XML document used to create the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object has any security evidence, you should add the evidence to the DocumentEvidence property.</source>
+          <target state="translated">如果 XML 文档用于创建&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;对象中的任何安全证据，你应该添加到 DocumentEvidence 属性的证据。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you do not set this property, any associated &lt;xref:System.Security.Cryptography.Xml.CipherReference&gt; objects will not be dereferenced because they will not be granted the required permission set.</source>
+          <target state="translated">如果你未设置此属性，任何关联&lt;xref:System.Security.Cryptography.Xml.CipherReference&gt;对象将不被取消引用因为它们将不授予所需的权限集。&lt;/xref:System.Security.Cryptography.Xml.CipherReference&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encoding used for XML encryption.</source>
+          <target state="translated">获取或设置 XML 加密所用的编码。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>UTF-8 encoding is the default encoding for XML encryption.</source>
+          <target state="translated">Utf-8 编码是将的默认编码为 XML 加密。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can use this property to specify other types of encoding from the &lt;xref:System.Text.Encoding&gt; class, such as UTF-16 or ASCII.</source>
+          <target state="translated">你可以使用此属性指定其他类型的编码从&lt;xref:System.Text.Encoding&gt;类，例如 utf-16 或 ASCII。&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Text.Encoding&gt; object.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;对象。&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Encrypts the outer XML of an element using the specified X.509 certificate.</source>
+          <target state="translated">对使用指定的 X.509 证书对元素的外部 XML 进行加密。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The Encrypt method is a convenient way to encrypt the outer XML of an element using a certificate.</source>
+          <target state="translated">加密方法是一种简便的方式使用证书对元素的外部 XML 进行加密。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This method generates a 256-bit Advanced Encryption Standard (AES) session key to encrypt an XML element and then encrypts and signs the AES key using the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object.</source>
+          <target state="translated">此方法生成 256 位高级加密标准 (AES) 会话密钥加密的 XML 元素然后进行加密和签名 AES 密钥使用&lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;对象。&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The Encrypt method then returns the resulting XML as an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; element.</source>
+          <target state="translated">该加密方法随后返回得到的 XML 作为&lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;元素。&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you need more control over the encryption, so you can place the encrypted information into a <ph id="ph1">`&lt;CipherReference&gt;`</ph> element or specify whether the entire XML element or just its contents should be encrypted, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt; method overloads.</source>
+          <target state="translated">如果你需要更好地控制加密，因此你可以加密将信息放入<ph id="ph1">`&lt;CipherReference&gt;`</ph>元素或指定是否应将整个 XML 元素或只是其内容加密，使用&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;方法重载。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To use XML Encryption with X.509 certificates, you must have the Microsoft Enhanced Cryptographic Provider installed and the X.509 certificate must use the Enhanced Provider.</source>
+          <target state="translated">若要使用 XML 加密 X.509 证书，你必须具有 Microsoft 增强加密提供程序安装和 X.509 证书必须使用增强的提供程序。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If you do not have the Microsoft Enhanced Cryptographic Provider installed or the X.509 certificate does not use the Enhanced Provider, a &lt;xref:System.Security.Cryptography.CryptographicException&gt; with an "Unknown Error" will be thrown when you decrypt an XML document.</source>
+          <target state="translated">如果你没有 Microsoft 增强加密提供程序安装或 X.509 证书不使用增强的提供程序， &lt;xref:System.Security.Cryptography.CryptographicException&gt;"未知错误"时，将引发解密 XML 文档。&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The XML element to encrypt.</source>
+          <target state="translated">要加密的 XML 元素。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The X.509 certificate to use for encryption.</source>
+          <target state="translated">要用于加密的 X.509 证书。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element that represents the encrypted XML data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示已加密的 XML 数据的元素。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not represent an RSA key algorithm.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept>参数不表示 RSA 算法。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Encrypts the outer XML of an element using the specified key in the key mapping table.</source>
+          <target state="translated">对在密钥映射表中使用指定的键的元素的外部 XML 进行加密。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This method is a convenient way to encrypt the outer XML of an element using a key name.</source>
+          <target state="translated">此方法是元素的一种简便的方式使用密钥名称的外部 XML 进行加密。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If you need more control over the encryption, so you can place the encrypted information into a <ph id="ph1">`&lt;CipherReference&gt;`</ph> element or specify whether the entire XML element or just its contents should be encrypted, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt; method overloads.</source>
+          <target state="translated">如果你需要更好地控制加密，因此你可以加密将信息放入<ph id="ph1">`&lt;CipherReference&gt;`</ph>元素或指定是否应将整个 XML 元素或只是其内容加密，使用&lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;方法重载。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For a list of all supported algorithms, see the list of constant fields associated with the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; class.</source>
+          <target state="translated">有关所有受支持的算法的列表，请参阅与&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;类&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;相关联的常量字段的列表</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The XML element to encrypt.</source>
+          <target state="translated">要加密的 XML 元素。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A key name that can be found in the key mapping table.</source>
+          <target state="translated">密钥名称可以在密钥映射表中找到。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the encrypted XML data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示已加密的 XML 数据的对象。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not match a registered key name pair.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept>参数与已注册的密钥名称对不匹配。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic key described by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not supported.</source>
+          <target state="translated">-所描述的加密密钥<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept>不支持参数。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Encrypts data in the specified byte array using the specified symmetric algorithm.</source>
+          <target state="translated">使用指定的对称算法对指定的字节数组中的数据进行加密。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The returned byte array can be placed into a <ph id="ph1">`&lt;CipherValue&gt;`</ph> element.</source>
+          <target state="translated">返回的字节数组可以放入<ph id="ph1">`&lt;CipherValue&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This method assumes that the data specified in the <ph id="ph1">`plaintext`</ph> parameter is a byte array that contains XML data.</source>
+          <target state="translated">此方法假定数据中指定<ph id="ph1">`plaintext`</ph>参数是一个包含 XML 数据的字节数组。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The data to encrypt.</source>
+          <target state="translated">要加密的数据。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The symmetric algorithm to use for encryption.</source>
+          <target state="translated">要用于加密的对称算法。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A byte array of encrypted data.</source>
+          <target state="translated">加密数据的字节数组。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">plaintext</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">plaintext</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The data could not be encrypted using the specified parameters.</source>
+          <target state="translated">不会使用指定的参数加密数据。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Encrypts the specified element or its contents using the specified symmetric algorithm.</source>
+          <target state="translated">对指定的元素或其内容，使用指定的对称算法进行加密。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The returned byte array data is the value of the <ph id="ph1">`&lt;CipherValue&gt;`</ph> element.</source>
+          <target state="translated">返回的字节数组数据是值<ph id="ph1">`&lt;CipherValue&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The element or its contents to encrypt.</source>
+          <target state="translated">元素或其内容进行加密。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The symmetric algorithm to use for encryption.</source>
+          <target state="translated">要用于加密的对称算法。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to encrypt only the contents of the element; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to encrypt the entire element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要加密仅元素; 的内容<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>整个元素进行加密。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the encrypted data.</source>
+          <target state="translated">包含加密的数据的字节数组。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Encrypts a key using a symmetric algorithm that a recipient uses to decrypt an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">使用接收方用来解密对称算法加密密钥<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Use the EncryptKey method to encrypt the key that a recipient uses to decrypt an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated">使用 EncryptKey 方法接收方用来解密的密钥进行加密<ph id="ph1">`&lt;EncryptedData&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This method accepts a value for the <ph id="ph1">`symmetricAlgorithm`</ph> parameter that represents either the Triple DES algorithm or the AES key wrap algorithm (also called Rijndael).</source>
+          <target state="translated">此方法接受的值<ph id="ph1">`symmetricAlgorithm`</ph>表示三重 DES 算法或 AES 密钥换行算法 （也称为 Rijndael） 的参数。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Note that this method does not automatically place the encrypted key within an <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">请注意，此方法将不会自动施加加密的密钥放<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You must manually create the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element within your document.</source>
+          <target state="translated">你必须手动创建<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>文档中的元素。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The key to encrypt.</source>
+          <target state="translated">要加密的密钥。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to encrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">用于加密的对称密钥<ph id="ph1">`keyData`</ph>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A byte array that represents the encrypted value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">一个表示的加密的值的字节数组<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是三重 DES 密钥包装算法或 （也称为 Rijndael） 的高级加密标准 (AES) 密钥包装算法。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Encrypts the key that a recipient uses to decrypt an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">接收方用来解密的密钥加密<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Use the EncryptKey method to encrypt the key that a recipient uses to decrypt an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated">使用 EncryptKey 方法接收方用来解密的密钥进行加密<ph id="ph1">`&lt;EncryptedData&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This method accepts a value for <ph id="ph1">`rsa`</ph> that represents either the RSA PKCS#1 v1.5 algorithm or the RSA PKCS#1 type 2 algorithm (also called OAEP).</source>
+          <target state="translated">此方法接受的值<ph id="ph1">`rsa`</ph>表示 RSA PKCS #1 v1.5 算法或 RSA PKCS #1 类型 2 算法 （也称为 OAEP）。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Note that this method does not automatically place the encrypted key within an <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">请注意，此方法将不会自动施加加密的密钥放<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You must manually create the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element within your document.</source>
+          <target state="translated">你必须手动创建<ph id="ph1">`&lt;EncryptedKey&gt;`</ph>文档中的元素。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The key to encrypt.</source>
+          <target state="translated">要加密的密钥。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The asymmetric key used to encrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">非对称密钥用于加密<ph id="ph1">`keyData`</ph>。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether to use Optimal Asymmetric Encryption Padding (OAEP).</source>
+          <target state="translated">一个值，指定是否使用最优非对称加密填充 (OAEP)。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A byte array that represents the encrypted value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">一个表示的加密的值的字节数组<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rsa</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Retrieves the decryption initialization vector (IV) from an <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">从中检索解密初始化向量 (IV) <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Given an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; object, this method retrieves the decryption initialization vector (IV).</source>
+          <target state="translated">给定&lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;对象，此方法检索解密初始化向量 (IV)。&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default behavior retrieves the IV as the first bytes of the &lt;xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt; byte array.</source>
+          <target state="translated">默认行为以第一个字节的形式检索 IV&lt;xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt;字节数组。&lt;/xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For a list of Uniform Resource Identifier (URI) values supported by the <ph id="ph1">`symmetricAlgorithmUri`</ph> parameter, see the list of constant fields associated with the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; class.</source>
+          <target state="translated">有关支持的统一资源标识符 (URI) 值的列表<ph id="ph1">`symmetricAlgorithmUri`</ph>参数，请参阅与&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;类&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;相关联的常量字段的列表</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the initialization vector (IV) to retrieve.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含对象的初始化向量 (IV) 来检索。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Identifier (URI) that describes the cryptographic algorithm associated with the <ph id="ph1">`encryptedData`</ph> value.</source>
+          <target state="translated">描述与关联的加密算法的统一资源标识符 (URI)<ph id="ph1">`encryptedData`</ph>值。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the decryption initialization vector (IV).</source>
+          <target state="translated">包含解密初始化向量 (IV) 的字节数组。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter has an &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt; property that is null.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数具有&lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;为 null 的属性。&lt;/xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithmUrisymAlgUri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a supported algorithm.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithmUrisymAlgUri</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是受支持的算法。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Retrieves the decryption key from the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">从指定检索的解密密钥<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Given an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; object, this method looks for the decryption key that can be used to retrieve the plain text data.</source>
+          <target state="translated">给定&lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;对象，此方法查找可用来检索纯文本数据的解密密钥。&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If a key name is specified, the method looks for the symmetric algorithm or asymmetric algorithm that is associated with the key name as defined in the key name mapping.</source>
+          <target state="translated">如果指定的密钥名称，则该方法中寻找对称算法或密钥名称与关联的密钥名称映射中定义的非对称算法。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Otherwise, if a retrieval method or an &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object is specified, the method loads the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object and calls the GetDecryptionKey method.</source>
+          <target state="translated">否则为如果检索方法或&lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;指定对象，该方法加载&lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;对象，然后调用 GetDecryptionKey 方法。&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the decryption key to retrieve.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含要检索的解密密钥。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The size of the decryption key to retrieve.</source>
+          <target state="translated">要检索的解密密钥的大小。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the decryption key.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>与解密密钥关联的对象。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The encryptedData parameter has an &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt; property that is null.</source>
+          <target state="translated">EncryptedData 参数具有&lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;为 null 的属性。&lt;/xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>-or-       The encrypted key cannot be retrieved using the specified parameters.</source>
+          <target state="translated">-或者-无法检索加密的密钥，使用指定的参数。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Determines how to resolve internal Uniform Resource Identifier (URI) references.</source>
+          <target state="translated">确定如何解析内部统一资源标识符 (URI) 引用。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The GetIdElement method determines how to resolve internal Uniform Resource Identifiers (URIs).</source>
+          <target state="translated">GetIdElement 方法确定如何解析内部统一资源标识符 (Uri)。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>It looks for elements with a specified value or for elements with an ID attribute that has a specified value.</source>
+          <target state="translated">它查找具有指定值的元素，或具有 ID 属性具有指定的值的元素。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains an element with an ID value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含具有 ID 值的元素。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A string that represents the ID value.</source>
+          <target state="translated">表示的 ID 值的字符串。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains an ID indicating how internal Uniform Resource Identifiers (URIs) are to be resolved.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含此 ID 指示如何将内部统一资源标识符 (Uri)，则为已解决。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets or sets the cipher mode used for XML encryption.</source>
+          <target state="translated">获取或设置 XML 加密所用的密码模式。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Cipher Block Chaining (CBC) mode is the default cipher mode for XML encryption.</source>
+          <target state="translated">密码块链接 (CBC) 模式是 XML 加密的默认密码模式。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You can use this property to specify other cipher modes of the &lt;xref:System.Security.Cryptography.CipherMode&gt; enumeration, such as Cipher Feedback (CFB) mode.</source>
+          <target state="translated">你可以使用此属性指定的其他密码模式&lt;xref:System.Security.Cryptography.CipherMode&gt;枚举，如密码反馈 (CFB) 模式。&lt;/xref:System.Security.Cryptography.CipherMode&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets or sets the padding mode used for XML encryption.</source>
+          <target state="translated">获取或设置 XML 加密所用的填充模式。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>ISO-10126 padding is the default padding mode for XML encryption.</source>
+          <target state="translated">ISO&amp;10126; 填充状态是 XML 加密的默认填充模式。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can use this property to specify other padding modes of the &lt;xref:System.Security.Cryptography.PaddingMode&gt; enumeration, such as ANSI X9.23 or PKCS#5.</source>
+          <target state="translated">你可以使用此属性指定的其他填充模式&lt;xref:System.Security.Cryptography.PaddingMode&gt;枚举，如 ANSI X9.23 或 PKCS&amp;#5;。&lt;/xref:System.Security.Cryptography.PaddingMode&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the type of padding used for encryption.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定加密所用的填充类型的值。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the encrypted key information.</source>
+          <target state="translated">获取或设置加密的密钥信息的收件人。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You can access the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object referenced by a key name by examining the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt; property.</source>
+          <target state="translated">你可以访问&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;通过检查引用的密钥名称对象&lt;xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt;属性。&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Use the Recipient property to identify the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; element that the current recipient can decrypt to retrieve a decryption key.</source>
+          <target state="translated">接收方属性用于标识&lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;当前收件人可以解密要检索的解密密钥的元素。&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The recipient of the encrypted key information.</source>
+          <target state="translated">加密的密钥信息的收件人。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Replaces an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element with a specified decrypted sequence of bytes.</source>
+          <target state="translated">替换<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与指定的解密字节序列的元素。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The ReplaceData method replaces an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element with the value of the <ph id="ph2">`decryptedData`</ph> parameter.</source>
+          <target state="translated">ReplaceData 方法替换<ph id="ph1">`&lt;EncryptedData&gt;`</ph>具有的值的元素<ph id="ph2">`decryptedData`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element to replace.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要替换元素。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The decrypted data to replace <ph id="ph1">`inputElement`</ph> with.</source>
+          <target state="translated">已解密的数据替换<ph id="ph1">`inputElement`</ph>使用。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">decryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">decryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Replaces the specified element with the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定的元素替换指定<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The ReplaceElement method replaces the <ph id="ph1">`inputElement`</ph> parameter with the value specified by the <ph id="ph2">`encryptedData`</ph> parameter.</source>
+          <target state="translated">ReplaceElement 方法替换<ph id="ph1">`inputElement`</ph>参数与指定的值<ph id="ph2">`encryptedData`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The element to replace with an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">要替换的元素<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to replace the <ph id="ph1">`inputElement`</ph> parameter with.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象替换<ph id="ph1">`inputElement`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to replace only the contents of the element; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to replace the entire element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要仅元素; 的内容替换<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>用于替换整个元素。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used by the Document Object Model (DOM) to resolve external XML references.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>由文档对象模型 (DOM) 用于解析外部 XML 引用的对象。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>This property contains an &lt;xref:System.Xml.XmlResolver&gt; object used to resolve external XML resources such as entities, document type definitions (DTDs), or schemas.</source>
+          <target state="translated">此属性包含&lt;xref:System.Xml.XmlResolver&gt;对象用于解析外部 XML 资源，如实体、 文档类型定义 (Dtd) 或架构。&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XML digital signature recursion depth to prevent infinite recursion and stack overflow.</source>
+          <target state="translated">获取或设置 XML 数字签名递归深度以避免无穷递归和堆栈溢出。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This might happen if the digital signature XML contains the URI which then points back to the original XML.</source>
+          <target state="translated">如果数字签名 XML 包含随后指回原始 XML 的 URI，则可能发生此错误。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Int32&gt;.</source>
+          <target state="translated">返回&lt;xref:System.Int32&gt;.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 128-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">表示 128 位高级加密标准 (AES) 密钥包装算法 （也称作 Rijndael 密钥包装算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES128KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes128".</source>
+          <target state="translated">XmlEncAES128KeyWrapUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#kw-aes128"。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 128-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">表示 128 位高级加密标准 (AES) 算法 （也称为 Rijndael 算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES128Url field is "http://www.w3.org/2001/04/xmlenc#aes128-cbc".</source>
+          <target state="translated">XmlEncAES128Url 字段的值是"http://www.w3.org/2001/04/xmlenc#aes128-cbc"。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 192-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">表示 192 位高级加密标准 (AES) 密钥包装算法 （也称作 Rijndael 密钥包装算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES192KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes192".</source>
+          <target state="translated">XmlEncAES192KeyWrapUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#kw-aes192"。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 192-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">表示 192 位高级加密标准 (AES) 算法 （也称为 Rijndael 算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES192Url field is "http://www.w3.org/2001/04/xmlenc#aes192-cbc".</source>
+          <target state="translated">XmlEncAES192Url 字段的值是"http://www.w3.org/2001/04/xmlenc#aes192-cbc"。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 256-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">表示 256 位高级加密标准 (AES) 密钥包装算法 （也称作 Rijndael 密钥包装算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES256KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes256".</source>
+          <target state="translated">XmlEncAES256KeyWrapUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#kw-aes256"。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 256-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">表示 256 位高级加密标准 (AES) 算法 （也称为 Rijndael 算法） 的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncAES256Url field is "http://www.w3.org/2001/04/xmlenc#aes256-cbc".</source>
+          <target state="translated">XmlEncAES256Url 字段的值是"http://www.w3.org/2001/04/xmlenc#aes256-cbc"。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the Digital Encryption Standard (DES) algorithm.</source>
+          <target state="translated">表示数字加密标准 (DES) 算法的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncDESUrl field is "http://www.w3.org/2001/04/xmlenc#des-cbc".</source>
+          <target state="translated">XmlEncDESUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#des-cbc"。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for XML encryption element content.</source>
+          <target state="translated">表示 XML 加密元素内容的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncElementContentUrl field is "http://www.w3.org/2001/04/xmlenc#Content".</source>
+          <target state="translated">XmlEncElementContentUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#Content"。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for an XML encryption element.</source>
+          <target state="translated">表示 XML 加密元素的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncElementUrl field is "http://www.w3.org/2001/04/xmlenc#Element".</source>
+          <target state="translated">XmlEncElementUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#Element"。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the XML encryption <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">表示 XML 加密的命名空间统一资源标识符 (URI) <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncEncryptedKeyUrl field is "http://www.w3.org/2001/04/xmlenc#EncryptedKey".</source>
+          <target state="translated">XmlEncEncryptedKeyUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#EncryptedKey"。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for XML encryption syntax and processing.</source>
+          <target state="translated">表示 XML 加密语法和处理的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncNamespaceUrl field is "http://www.w3.org/2001/04/xmlenc#".</source>
+          <target state="translated">XmlEncNamespaceUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#"。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the RSA Public Key Cryptography Standard (PKCS) Version 1.5 algorithm.</source>
+          <target state="translated">表示 RSA 公钥加密标准 (PKCS) 1.5 版算法对应的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncRSA15Url field is "http://www.w3.org/2001/04/xmlenc#rsa-1_5".</source>
+          <target state="translated">XmlEncRSA15Url 字段的值是"http://www.w3.org/2001/04/xmlenc#rsa-1_5"。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the RSA Optimal Asymmetric Encryption Padding (OAEP) encryption algorithm.</source>
+          <target state="translated">表示 RSA 最优非对称加密填充 (OAEP) 加密算法的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncRSAOAEPUrl field is "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p".</source>
+          <target state="translated">XmlEncRSAOAEPUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the SHA-256 algorithm.</source>
+          <target state="translated">表示 sha-256 算法对应的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncSHA256Url field is "http://www.w3.org/2001/04/xmlenc#sha256".</source>
+          <target state="translated">XmlEncSHA256Url 字段的值是"http://www.w3.org/2001/04/xmlenc#sha256"。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the SHA-512 algorithm.</source>
+          <target state="translated">表示 sha-512 算法对应的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncSHA512Url field is "http://www.w3.org/2001/04/xmlenc#sha512".</source>
+          <target state="translated">XmlEncSHA512Url 字段的值是"http://www.w3.org/2001/04/xmlenc#sha512"。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the TRIPLEDES key wrap algorithm.</source>
+          <target state="translated">表示 TRIPLEDES 密钥换行算法的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncTripleDESKeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-tripledes".</source>
+          <target state="translated">XmlEncTripleDESKeyWrapUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#kw-tripledes"。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the Triple DES algorithm.</source>
+          <target state="translated">表示三重 DES 算法对应的命名空间统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">此字段为常数。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>The value of the XmlEncTripleDESUrl field is "http://www.w3.org/2001/04/xmlenc#tripledes-cbc".</source>
+          <target state="translated">XmlEncTripleDESUrl 字段的值是"http://www.w3.org/2001/04/xmlenc#tripledes-cbc"。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

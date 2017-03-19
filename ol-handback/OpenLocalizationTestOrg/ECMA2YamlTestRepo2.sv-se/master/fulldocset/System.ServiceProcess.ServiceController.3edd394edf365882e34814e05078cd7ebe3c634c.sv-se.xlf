@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8726a92759c697345e37daf2a6c047e116443cbd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceController.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e1f55d6ddab357c6d46a00e1cbe4f84aaf19673</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e908aa01071028bf42f34ded53086d90a1e6aed0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a Windows service and allows you to connect to a running or stopped service, manipulate it, or get information about it.</source>
+          <target state="translated">Representerar en Windows-tjänst och gör att du kan ansluta till en tjänst som körs eller stoppas kan ändra den eller hämta information om den.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the ServiceController class to connect to and control the behavior of existing services.</source>
+          <target state="translated">Du kan använda en ServiceController klassen för att ansluta till och styra beteendet för befintliga tjänster.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of the ServiceController class, you set its properties so it interacts with a specific Windows service.</source>
+          <target state="translated">När du skapar en instans av klassen en ServiceController ange egenskaper så att den interagerar med en specifik windowstjänst.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use the class to start, stop, and otherwise manipulate the service.</source>
+          <target state="translated">Du kan sedan använda klassen för att starta, stoppa och ändra tjänsten.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will most likely use the ServiceController component in an administrative capacity.</source>
+          <target state="translated">Troligen använder du en ServiceController-komponenten i en administrativ kapacitet.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you could create a Windows or Web application that sends custom commands to a service through the ServiceController instance.</source>
+          <target state="translated">Du kan till exempel skapa ett Windows- eller program som skickar kommandon till en tjänst via en ServiceController-instans.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This would be useful, because the Service Control Manager (SCM) Microsoft Management Console snap-in does not support custom commands.</source>
+          <target state="translated">Detta kan vara användbart, eftersom Service Control Manager (SCM) Microsoft Management Console-snapin-modulen inte stöder anpassade kommandon.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you create an instance of ServiceController, you must set two properties on it to identify the service with which it interacts: the computer name and the name of the service you want to control.</source>
+          <target state="translated">När du har skapat en instans av en ServiceController måste du ange två egenskaper på den för att identifiera tjänsten som samverkar: datornamnet och namnet på den tjänst som du vill styra.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt; is set to the local computer, so you do not need to change it unless you want to set the instance to point to another computer.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Som standard &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;är inställd på den lokala datorn, så du inte behöver ändra det om du inte vill ange instansen som ska peka på en annan dator.&lt;/xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, the service author writes code that customizes the action associated with a specific command.</source>
+          <target state="translated">I allmänhet skriver service författaren kod som anpassar den åtgärd som är associerad med ett visst kommando.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a service can contain code to respond to an &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt; command.</source>
+          <target state="translated">Till exempel en tjänst kan innehålla kod som svarar på ett &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;kommando.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the custom processing for the &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt; task runs before the system pauses the service.</source>
+          <target state="translated">I så fall, anpassade bearbetning för den &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt;aktiviteten körs innan systemet pausar tjänsten.&lt;/xref:System.ServiceProcess.ServiceController.Pause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of commands a service can process depends on its properties; for example, you can set the &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt; property for a service to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">En uppsättning kommandon som en tjänst kan bearbeta beror på dess egenskaper. Du kan till exempel ange det &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;-egenskapen för en tjänst <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting renders the <ph id="ph1">`Stop`</ph> command unavailable on that particular service; it prevents you from stopping the service from the SCM by disabling the necessary button.</source>
+          <target state="translated">Den här inställningen återger den <ph id="ph1">`Stop`</ph> kommandot är inte tillgängligt på den specifika tjänsten; den förhindrar att du stoppar tjänsten från SCM genom att inaktivera knappen nödvändiga.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to stop the service from your code, the system raises an error and displays the error message "Failed to stop <ph id="ph1">`servicename`</ph>."</source>
+          <target state="translated">Om du försöker stoppa tjänsten från din kod systemet genererar ett fel och visas felmeddelandet "Det gick inte att stoppa <ph id="ph1">`servicename`</ph>."</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is not associated with a specific service.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass som inte är associerad med en specifik tjänst.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the local computer.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass som är associerad med en befintlig tjänst på den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">Det namn som identifierar tjänsten i systemet.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Det kan också vara visningsnamnet för tjänsten.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the specified computer.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass som är associerad med en befintlig tjänst på den angivna datorn.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`machineName`</ph> parameter, you can use "." to represent the local computer.</source>
+          <target state="translated">För den <ph id="ph1">`machineName`</ph> parameter, kan du använda "." som representerar den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">Det namn som identifierar tjänsten i systemet.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Det kan också vara visningsnamnet för tjänsten.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The computer on which the service resides.</source>
+          <target state="translated">Den dator där tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> är ogiltig.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">Hämtar ett värde som anger om tjänsten pausas och återupptas.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om tjänsten kan pausas; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">Hämtar ett värde som anger om tjänsten ska aviseras när systemet stängs av.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om tjänsten ska aviseras när systemet stängs av; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be stopped after it has started.</source>
+          <target state="translated">Hämtar ett värde som anger om tjänsten kan stoppas när den har startats.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om tjänsten kan stoppas och &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;metoden anropas; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Disconnects this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from the service and frees all the resources that the instance allocated.</source>
+          <target state="translated">Kopplar från detta <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instansen från tjänsten och frigör alla resurser som allokerats för instansen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Close releases all the handles associated with the &lt;xref:System.ServiceProcess.ServiceController&gt; instance.</source>
+          <target state="translated">Stäng släpper alla referenser som är associerade med den &lt;xref:System.ServiceProcess.ServiceController&gt;instans.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Continues a service after it has been paused.</source>
+          <target state="translated">Återupptar en tjänst när den har pausats.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call Continue for a service, its status is first changed to <ph id="ph1">`ContinuePending`</ph> and then, when the Continue method returns, it is changed to <ph id="ph2">`Running`</ph>.</source>
+          <target state="translated">När du anropar Fortsätt för en tjänst, dess status ändras först till <ph id="ph1">`ContinuePending`</ph> och sedan, när metoden Continue returnerar den ändras till <ph id="ph2">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call Continue for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Du kan inte anropa Fortsätt för tjänsten tills status för tjänsten domänkontrollanten är <ph id="ph1">`Paused`</ph>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the set of services that depends on the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hämtar en uppsättning tjänster som beror på tjänsten som är associerade med den här <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DependentServices array represents the services that the system stops if your application calls &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for this service.</source>
+          <target state="translated">Matrisen DependentServices representerar de tjänster som systemet stannar om programmet anropar &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;för den här tjänsten.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that depends on this service.</source>
+          <target state="translated">En matris med <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instanser som är associerad med en tjänst som är beroende av den här tjänsten.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a friendly name for the service.</source>
+          <target state="translated">Hämtar eller anger ett eget namn för tjänsten.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the DisplayName to an empty string (""), but setting the property to <ph id="ph1">`null`</ph> throws an exception.</source>
+          <target state="translated">Du kan ange DisplayName till en tom sträng (""), men egenskapen <ph id="ph1">`null`</ph> genererar ett undantag.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The friendly name of the service, which can be used to identify the service.</source>
+          <target state="translated">Eget namn på tjänsten, som kan användas för att identifiera tjänsten.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The DisplayName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">DisplayName är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Släpper de ohanterade resurser som används av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och släpper du de hantera resurserna.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas av allmänheten <ph id="ph1">`Dispose()`</ph>metod och &lt;xref:System.Object.Finalize%2A&gt;metod.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>anropar den skyddade <ph id="ph2">`Dispose(Boolean)`</ph> metod med den <ph id="ph3">`disposing`</ph> parametern <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;anropar <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> inställd på <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ServiceProcess.ServiceController&gt; references.</source>
+          <target state="translated">När den <ph id="ph1">`disposing`</ph> parametern är true, den här metoden Frigör alla resurser som innehas av alla hanterade objekt som den här &lt;xref:System.ServiceProcess.ServiceController&gt;referenser.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Den här metoden startar den <ph id="ph1">`Dispose()`</ph> metod för varje refererade till objekt.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Executes a custom command on the service.</source>
+          <target state="translated">Kör ett anpassat kommando på tjänsten.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call ExecuteCommand, the status of the service does not change.</source>
+          <target state="translated">När du anropar ExecuteCommand, ändras inte status för tjänsten.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was started, the status remains <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Om tjänsten har startats, förblir statusen <ph id="ph1">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was stopped, the status remains <ph id="ph1">`Stopped`</ph>, and so on.</source>
+          <target state="translated">Om tjänsten har stoppats, förblir statusen <ph id="ph1">`Stopped`</ph>och så vidare.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To process the custom command, the service must override the &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt; method and provide a handler for the command identified by the <ph id="ph1">`command`</ph> parameter.</source>
+          <target state="translated">För att bearbeta det anpassade kommandot tjänsten måste åsidosätta den &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;metod och ange en hanterare för kommandot som identifieras av den <ph id="ph1">`command`</ph> parameter.&lt;/xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An application-defined command flag that indicates which custom command to execute.</source>
+          <target state="translated">En tillämpningsdefinierad kommandot flagga som anger vilka anpassade kommando som ska köras.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value must be between 128 and 256, inclusive.</source>
+          <target state="translated">Värdet måste vara mellan 128 och 256, inklusive.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the local computer.</source>
+          <target state="translated">Hämtar drivrutinen-tjänster för enheter på den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetDevices returns only the device driver services from the local computer.</source>
+          <target state="translated">GetDevices returnerar endast enheten drivrutiner från den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Om du vill hämta icke-enhetsdrivrutinstjänster eller tjänster som inte är anropa den &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;metoden.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Ihop ger de två metoderna åtkomst till alla tjänster på en dator.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the local computer.</source>
+          <target state="translated">En matris av typen <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där varje element är associerad med en enhet drivrutinen tjänst på den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the specified computer.</source>
+          <target state="translated">Hämtar drivrutinen-tjänster för enheter på den angivna datorn.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; returns only the device driver services from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;Returnerar endast enheten drivrutiner från den angivna datorn.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Om du vill hämta icke-enhetsdrivrutinstjänster eller tjänster som inte är anropa den &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;metoden.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Ihop ger de två metoderna åtkomst till alla tjänster på en dator.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the device driver services.</source>
+          <target state="translated">Den dator som du vill hämta drivrutinen-tjänster för enheter.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the specified computer.</source>
+          <target state="translated">En matris av typen <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där varje element är associerad med en enhet drivrutinen tjänst på den angivna datorn.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> parametern har ogiltig syntax.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the local computer, except for the device driver services.</source>
+          <target state="translated">Hämtar alla tjänster på den lokala datorn, förutom enheten drivrutinstjänster.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetServices returns only the non-device driver services and the services that are not drivers from the local computer.</source>
+          <target state="translated">GetServices returnerar endast de icke-enhetsdrivrutinstjänster och de tjänster som inte är från den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Om du vill hämta drivrutiner anropa den &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;metoden.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Ihop ger de två metoderna åtkomst till alla tjänster på en dator.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the local computer.</source>
+          <target state="translated">En matris av typen <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där varje element är associerad med en tjänst på den lokala datorn.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the specified computer, except for the device driver services.</source>
+          <target state="translated">Hämtar alla tjänster på den angivna datorn förutom enheten drivrutinstjänster.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; returns only the non-device driver services and the services that are not drivers from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;Returnerar endast de icke-enhetsdrivrutinstjänster och de tjänster som inte är från den angivna datorn.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Om du vill hämta drivrutiner anropa den &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;metoden.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Ihop ger de två metoderna åtkomst till alla tjänster på en dator.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the services.</source>
+          <target state="translated">Den dator som du vill hämta tjänsterna.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the specified computer.</source>
+          <target state="translated">En matris av typen <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där varje element är associerad med en tjänst på den angivna datorn.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> parametern har ogiltig syntax.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the computer on which this service resides.</source>
+          <target state="translated">Hämtar eller anger namnet på den dator som den här tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The computer name is the name of the server that is running this service, without the preceding backslash characters (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</source>
+          <target state="translated">Datornamnet är namnet på den server som kör den här tjänsten, utan föregående omvända snedstreck (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of the computer that is running the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Namnet på den dator som kör tjänsten som är associerade med den här <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the local computer (".").</source>
+          <target state="translated">Standardvärdet är den lokala datorn (".").</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The MachineName syntax is invalid.</source>
+          <target state="translated">MachineName syntax är ogiltig.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Suspends a service's operation.</source>
+          <target state="translated">Pausar en tjänståtgärd.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt; for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Du kan inte anropa &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt;för tjänsten tills status för tjänsten domänkontrollanten är <ph id="ph1">`Paused`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Continue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Refreshes property values by resetting the properties to their current values.</source>
+          <target state="translated">Uppdaterar egenskapsvärden genom att återställa egenskaper till sina aktuella värden.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Refresh method causes the &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, and &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt; properties to be reset to their current values when they are next referenced.</source>
+          <target state="translated">Uppdateringsmetoden gör den &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, och &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt;Egenskaper återställs till sina aktuella värden när de refereras bredvid.&lt;/xref:System.ServiceProcess.ServiceController.Status%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the handle for the service.</source>
+          <target state="translated">Hämtar referensen för tjänsten.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that contains the handle for the service.</source>
+          <target state="translated">En &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;som innehåller referensen för tjänsten.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name that identifies the service that this instance references.</source>
+          <target state="translated">Hämtar eller anger det namn som identifierar den tjänst som refererar till den här instansen.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">ServiceName identifierar tjänsten till Service Control Manager.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing this property causes the &lt;xref:System.ServiceProcess.ServiceController&gt; instance to bind to another service, it does not change what the Service Control Manager's Microsoft Management Console snap-in displays.</source>
+          <target state="translated">Ändra den här egenskapen gör den &lt;xref:System.ServiceProcess.ServiceController&gt;instans om du vill binda till en annan tjänst ändras inte vilka Service Control Manager's Microsoft Management Console snapin-modulen visar.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are implementing a custom service, the value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; property of the corresponding &lt;xref:System.ServiceProcess.ServiceInstaller&gt; class.</source>
+          <target state="translated">När du implementerar en anpassad tjänst måste värdet för den här egenskapen vara identiskt med namnet registreras för tjänsten i &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;egenskapen för motsvarande &lt;xref:System.ServiceProcess.ServiceInstaller&gt;klass.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">ServiceName anges i koden, oftast i den <ph id="ph1">`main()`</ph> funktionen för den körbara filen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you reset the ServiceName property, the method that sets the property sets this instance's &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt; to an empty string ("").</source>
+          <target state="translated">När du återställer egenskapen ServiceName metoden som anger egenskapen anger den här instansen &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;till en tom sträng ("").&lt;/xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service that this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references.</source>
+          <target state="translated">Det namn som identifierar tjänsten som den här <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instansen referenser.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The ServiceName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ServiceName är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The syntax of the ServiceName property is invalid.</source>
+          <target state="translated">Egenskapen ServiceName syntax är ogiltig.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The set of services that this service depends on.</source>
+          <target state="translated">En uppsättning tjänster som är beroende av den här tjänsten.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the ServicesDependedOn array is not running, you will not be able to start this service.</source>
+          <target state="translated">Om inte alla tjänster i matrisen ServicesDependedOn körs, kan du inte starta tjänsten.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that must be running for this service to run.</source>
+          <target state="translated">En matris med <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instanser som är associerad med en tjänst som måste köras för den här tjänsten ska köras.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the type of service that this object references.</source>
+          <target state="translated">Hämtar typ av tjänst som refererar till det här objektet.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service type indicates how the service is used by the system.</source>
+          <target state="translated">Tjänsttypen anger hur tjänsten används av systemet.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the ServiceType property represents a set of flags combined using the bitwise OR operator.</source>
+          <target state="translated">Värdet på egenskapen ServiceType representerar flaggor som kombineras med operatorn binär eller.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, used to indicate the network service type.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som används för att ange network service-typen.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Starts the service, passing no arguments.</source>
+          <target state="translated">Startar tjänsten skickar utan argument.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Du kan inte anropa &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;för tjänsten tills status för tjänsten domänkontrollanten är <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Starts a service, passing the specified arguments.</source>
+          <target state="translated">Startar en tjänst, passerar de angivna argumenten.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Du kan inte anropa &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;för tjänsten tills status för tjänsten domänkontrollanten är <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An array of arguments to pass to the service when it starts.</source>
+          <target state="translated">En matris med argument som ska skickas till tjänsten när den startar.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The service cannot be started.</source>
+          <target state="translated">Det går inte att starta tjänsten.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       A member of the array is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - medlem i matrisen är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates how the service represented by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object starts.</source>
+          <target state="translated">Hämtar ett värde som anger hur tjänsten representeras av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt startar.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A value that indicates how the service starts.</source>
+          <target state="translated">Ett värde som anger hur tjänsten startas.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets the status of the service that is referenced by this instance.</source>
+          <target state="translated">Hämtar status för tjänsten som refereras av den här instansen.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The status indicates the current state of the service.</source>
+          <target state="translated">Statusen anger det aktuella tillståndet för tjänsten.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of possible values includes several that indicate whether a state-changing command is pending.</source>
+          <target state="translated">Uppsättning av möjliga värden innehåller flera som indikerar om ett kommando för ändring av tillstånd väntar.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the service is running, stopped, or paused, or whether a start, stop, pause, or continue command is pending.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som anger om tjänsten körs, stoppas eller pausas, eller om starta, stoppa, pausa eller fortsätta kommandot väntar.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Stops this service and any services that are dependent on this service.</source>
+          <target state="translated">Stoppar tjänsten och tjänster som är beroende av den här tjänsten.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any services depend on this service for their operation, they will be stopped before this service is stopped.</source>
+          <target state="translated">Om några tjänster är beroende av den här tjänsten för driften, kommer de att stoppas innan den här tjänsten stoppas.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; property contains the set of services that depend on this one.</source>
+          <target state="translated">Den &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;-egenskapen innehåller en uppsättning tjänster som är beroende av den här.&lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you stop a service that this service depends on, call the Stop method on this service within the Stop method of the parent service.</source>
+          <target state="translated">Om du stoppar en tjänst som är beroende av den här tjänsten kan du anropa metoden stoppa på den här tjänsten inom Stop-metoden i den överordnade tjänsten.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt; property contains the services that this service depends on.</source>
+          <target state="translated">Den &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;egenskapen innehåller de tjänster som är beroende av den här tjänsten.&lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ett fel uppstod vid åtkomst till ett system API.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">Tjänsten kunde inte hittas.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Infinitely waits for the service to reach the specified status.</source>
+          <target state="translated">Oändligt väntar på att tjänsten för att nå den angivna statusen.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use WaitForStatus to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">Använd WaitForStatus för att pausa tills tjänsten har nått krävs status bearbetning av ett program.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;metoden väntar cirka 250 millisekunder mellan varje statuskontroll.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;Det går inte att identifiera fall av tjänsten observerade ändra till den <ph id="ph1">`desiredStatus`</ph> och sedan omedelbart till en annan status i intervallet.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">Status för.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är inte någon av de värden som definieras i den <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> uppräkning.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Waits for the service to reach the specified status or for the specified time-out to expire.</source>
+          <target state="translated">Väntar för tjänsten för att nå den angivna statusen eller för den angivna timeout ska upphöra att gälla.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">Använd &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;att pausa ett program bearbetningstid tills tjänsten har nått krävs status.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;metoden väntar cirka 250 millisekunder mellan varje statuskontroll.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;Det går inte att identifiera fall av tjänsten observerade ändra till den <ph id="ph1">`desiredStatus`</ph> och sedan omedelbart till en annan status i intervallet.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">Status för.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; object specifying the amount of time to wait for the service to reach the specified status.</source>
+          <target state="translated">En &lt;xref:System.TimeSpan&gt;-objekt som anger hur lång tid att vänta på att tjänsten för att nå den angivna statusen.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är inte någon av de värden som definieras i den <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> uppräkning.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter expires.</source>
+          <target state="translated">Det angivna värdet för den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parametern upphör att gälla.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
