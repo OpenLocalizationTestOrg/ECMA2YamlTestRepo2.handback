@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e0f5d39fc1393baa9d1627f221838bea604e70d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.AccessControl.CommonSecurityDescriptor.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d7a1e9a1a58bf2947aeac3e9f9ad904f3f2e24a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8ffcfdc4136594562da64cc5ee160cb2b47f552</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a security descriptor.</source>
+          <target state="translated">表示一个安全描述符。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A security descriptor includes an owner, a primary group, a Discretionary Access Control List (DACL), and a System Access Control List (SACL).</source>
+          <target state="translated">安全描述符包括所有者、 主要组、 自定义访问控制列表 (DACL) 和系统访问控制列表 (SACL)。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified <bpt id="p2">&lt;xref href="System.Security.AccessControl.RawSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从指定的类<bpt id="p2">&lt;xref href="System.Security.AccessControl.RawSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the underlying security descriptor from which the new &lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt; object is created contains <ph id="ph1">`null`</ph> for its discretionary access control list (DACL), a single access control entry (ACE) that allows everyone full access (AEFA) is added to the DACL.</source>
+          <target state="translated">如果从中的基础安全描述符新&lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt;创建对象包含<ph id="ph1">`null`</ph>其自定义访问控制列表 (DACL)，允许每个人单一访问控制项 (ACE) 完全访问权限 (AEFA) 添加到 DACL。&lt;/xref:System.Security.AccessControl.RawSecurityDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If an application modifies the DACL of a security descriptor to which an AEFA ACE has been added, the AEFA ACE is persisted with the DACL when that DACL is persisted.</source>
+          <target state="translated">如果应用程序修改的 DACL 中向其添加 AEFA ACE 的安全描述符，如果该 DACL 保持不变，通过 DACL 已持久化 AEFA ACE。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This can result in an application unintentionally allowing access to principals.</source>
+          <target state="translated">这可能导致无意中允许主体访问应用程序。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because of this, an application should check for the existence of an AEFA ACE and remove it before modifying any security descriptor.</source>
+          <target state="translated">因此，应用程序应检查 AEFA ACE 存在，并将其删除才能修改任何安全描述符。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a container object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与容器对象关联。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a directory object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与 directory 对象关联。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.AccessControl.RawSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from which to create the new <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.AccessControl.RawSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>从中创建新对象<bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified Security Descriptor Definition Language (SDDL) string.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类从指定的安全描述符定义语言 (SDDL) 字符串。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the underlying security descriptor from which the new &lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt; object is created contains <ph id="ph1">`null`</ph> for its discretionary access control list (DACL), a single access control entry (ACE) that allows everyone full access (AEFA) is added to the DACL.</source>
+          <target state="translated">如果从中的基础安全描述符新&lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt;创建对象包含<ph id="ph1">`null`</ph>其自定义访问控制列表 (DACL)，允许每个人单一访问控制项 (ACE) 完全访问权限 (AEFA) 添加到 DACL。&lt;/xref:System.Security.AccessControl.RawSecurityDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If an application modifies the DACL of a security descriptor to which an AEFA ACE has been added, the AEFA ACE is persisted with the DACL when that DACL is persisted.</source>
+          <target state="translated">如果应用程序修改的 DACL 中向其添加 AEFA ACE 的安全描述符，如果该 DACL 保持不变，通过 DACL 已持久化 AEFA ACE。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This can result in an application unintentionally allowing access to principals.</source>
+          <target state="translated">这可能导致无意中允许主体访问应用程序。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because of this, an application should check for the existence of an AEFA ACE and remove it before modifying any security descriptor.</source>
+          <target state="translated">因此，应用程序应检查 AEFA ACE 存在，并将其删除才能修改任何安全描述符。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a container object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与容器对象关联。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a directory object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与 directory 对象关联。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The SDDL string from which to create the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">从中创建新的 SDDL 字符串<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified array of byte values.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>来自指定数组的字节值的类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the underlying security descriptor from which the new &lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt; object is created contains <ph id="ph1">`null`</ph> for its discretionary access control list (DACL),a single access control entry (ACE) that allows everyone full access (AEFA) is added to the DACL.</source>
+          <target state="translated">如果从中的基础安全描述符新&lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt;创建对象包含<ph id="ph1">`null`</ph>其自定义访问控制列表 (DACL)，允许每个人单一访问控制项 (ACE) 完全访问权限 (AEFA) 添加到 DACL。&lt;/xref:System.Security.AccessControl.RawSecurityDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If an application modifies the DACL of a security descriptor to which an AEFA ACE has been added, the AEFA ACE is persisted with the DACL when that DACL is persisted.</source>
+          <target state="translated">如果应用程序修改的 DACL 中向其添加 AEFA ACE 的安全描述符，如果该 DACL 保持不变，通过 DACL 已持久化 AEFA ACE。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This can result in an application unintentionally allowing access to principals.</source>
+          <target state="translated">这可能导致无意中允许主体访问应用程序。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Because of this, an application should check for the existence of an AEFA ACE and remove it before modifying any security descriptor.</source>
+          <target state="translated">因此，应用程序应检查 AEFA ACE 存在，并将其删除才能修改任何安全描述符。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a container object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与容器对象关联。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a directory object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与 directory 对象关联。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The array of byte values from which to create the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">从中创建新的字节值数组<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The offset in the <ph id="ph1">`binaryForm`</ph> array at which to begin copying.</source>
+          <target state="translated">中的偏移量<ph id="ph1">`binaryForm`</ph>从此处开始复制的数组。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified information.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从指定的信息的类。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the underlying security descriptor from which the new &lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt; object is created contains <ph id="ph1">`null`</ph> for its discretionary access control list (DACL), a single access control entry (ACE) that allows everyone full access (AEFA) is added to the DACL.</source>
+          <target state="translated">如果从中的基础安全描述符新&lt;xref:System.Security.AccessControl.RawSecurityDescriptor&gt;创建对象包含<ph id="ph1">`null`</ph>其自定义访问控制列表 (DACL)，允许每个人单一访问控制项 (ACE) 完全访问权限 (AEFA) 添加到 DACL。&lt;/xref:System.Security.AccessControl.RawSecurityDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If an application modifies the DACL of a security descriptor to which an AEFA ACE has been added, the AEFA ACE is persisted with the DACL when that DACL is persisted.</source>
+          <target state="translated">如果应用程序修改的 DACL 中向其添加 AEFA ACE 的安全描述符，如果该 DACL 保持不变，通过 DACL 已持久化 AEFA ACE。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This can result in an application unintentionally allowing access to principals.</source>
+          <target state="translated">这可能导致无意中允许主体访问应用程序。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Because of this, an application should check for the existence of an AEFA ACE and remove it before modifying any security descriptor.</source>
+          <target state="translated">因此，应用程序应检查 AEFA ACE 存在，并将其删除才能修改任何安全描述符。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a container object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与容器对象关联。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the new security descriptor is associated with a directory object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新的安全描述符是否与 directory 对象关联。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Flags that specify behavior of the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定新的行为的标志<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The owner for the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新的所有者<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The primary group for the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新的主要组<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The System Access Control List (SACL) for the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">系统访问控制列表 (SACL) 新<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Discretionary Access Control List (DACL) for the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新自由访问控制列表 (DACL) <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl*&gt; property for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance and sets the <bpt id="p2">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> flag.</source>
+          <target state="translated">设置&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl*&gt;此属性<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例并设置<bpt id="p2">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>标志。&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The constructor for the &lt;xref:System.Security.AccessControl.DiscretionaryAcl&gt; uses the &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt; and &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt; properties for this &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;.</source>
+          <target state="translated">有关&lt;xref:System.Security.AccessControl.DiscretionaryAcl&gt;使用&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt;和&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt;的属性。 此&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt;&lt;/xref:System.Security.AccessControl.DiscretionaryAcl&gt;构造函数</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The revision level of the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.DiscretionaryAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新的修订级别<bpt id="p1">&lt;xref href="System.Security.AccessControl.DiscretionaryAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The number of Access Control Entries (ACEs) this <bpt id="p1">&lt;xref href="System.Security.AccessControl.DiscretionaryAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object can contain.</source>
+          <target state="translated">访问控制项 (Ace) 数这<bpt id="p1">&lt;xref href="System.Security.AccessControl.DiscretionaryAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象可以包含。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This number is to be used only as a hint.</source>
+          <target state="translated">此数值可用于仅作为提示。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl*&gt; property for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance and sets the <bpt id="p2">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> flag.</source>
+          <target state="translated">设置&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl*&gt;此属性<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例并设置<bpt id="p2">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>标志。&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The constructor for the &lt;xref:System.Security.AccessControl.SystemAcl&gt; uses the &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt; and &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt; properties for this &lt;xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;.</source>
+          <target state="translated">有关&lt;xref:System.Security.AccessControl.SystemAcl&gt;使用&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt;和&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt;的属性。 此&lt;xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.IsDS%2A&gt;&lt;/xref:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer%2A&gt;&lt;/xref:System.Security.AccessControl.SystemAcl&gt;构造函数</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The revision level of the new <bpt id="p1">&lt;xref href="System.Security.AccessControl.SystemAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新的修订级别<bpt id="p1">&lt;xref href="System.Security.AccessControl.SystemAcl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets values that specify behavior of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取指定的行为的值<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>One or more values of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration combined with a logical OR operation.</source>
+          <target state="translated">一个或多个值<bpt id="p1">&lt;xref href="System.Security.AccessControl.ControlFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举结合逻辑或运算。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets the discretionary access control list (DACL) for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取或设置此自定义访问控制列表 (DACL) <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The DACL contains access rules.</source>
+          <target state="translated">DACL 包含访问规则。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If this property is set to <ph id="ph1">`null`</ph>, a single access control entry (ACE) that allows everyone full access (AEFA) is added to the DACL.</source>
+          <target state="translated">如果此属性设置为<ph id="ph1">`null`</ph>，允许每个人完全访问权限 (AEFA) 添加到 DACL 单一访问控制项 (ACE)。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If an application modifies the DACL of a security descriptor to which an AEFA ACE has been added, the AEFA ACE is persisted with the DACL when that DACL is persisted.</source>
+          <target state="translated">如果应用程序修改的 DACL 中向其添加 AEFA ACE 的安全描述符，如果该 DACL 保持不变，通过 DACL 已持久化 AEFA ACE。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This can result in an application unintentionally allowing access to principals.</source>
+          <target state="translated">这可能导致无意中允许主体访问应用程序。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Because of this, an application should check for the existence of an AEFA ACE and remove it before modifying any security descriptor.</source>
+          <target state="translated">因此，应用程序应检查 AEFA ACE 存在，并将其删除才能修改任何安全描述符。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The DACL for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">此 DACL <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets the primary group for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取或设置此的主要组<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The primary group for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">这的主要组<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value that specifies whether the object associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is a container object.</source>
+          <target state="translated">获取一个布尔值，指定与此关联的对象是否<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象是容器对象。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object associated with this <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is a container object; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果与此相关的对象<bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象是容器对象; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value that specifies whether the Discretionary Access Control List (DACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in canonical order.</source>
+          <target state="translated">获取一个布尔值，指定与此关联的自由访问控制列表 (DACL) 是否<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象处于规范顺序。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the DACL associated with this <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is in canonical order; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果与此关联的 DACL <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>对象处于规范顺序; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value that specifies whether the object associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is a directory object.</source>
+          <target state="translated">获取一个布尔值，指定与此关联的对象是否<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象是目录对象。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object associated with this <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is a directory object; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果与此相关的对象<bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象是目录对象; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value that specifies whether the System Access Control List (SACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in canonical order.</source>
+          <target state="translated">获取一个布尔值，指定与此关联的系统访问控制列表 (SACL) 是否<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象处于规范顺序。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the SACL associated with this <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is in canonical order; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果与此关联的 SACL <bpt id="p2">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>对象处于规范顺序; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the owner of the object associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取或设置与此关联的对象的所有者<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The owner of the object associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">与此关联的对象的所有者<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Removes all access rules for the specified security identifier from the Discretionary Access Control List (DACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">与此关联的指定的安全标识符从自由访问控制列表 (DACL) 中移除所有访问规则<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To avoid unintentionally allowing access to principals, applications should check for the existence of an allow everyone full access (AEFA) access control entry (ACE) and remove it before modifying a DACL.</source>
+          <target state="translated">若要避免无意中允许主体访问，应用程序应检查是否存在的允许每个人都完全访问 (AEFA) 访问控制项 (ACE)，并将其删除之前修改 DACL。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The security identifier for which to remove access rules.</source>
+          <target state="translated">个要删除其访问规则的安全标识符。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Removes all audit rules for the specified security identifier from the System Access Control List (SACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">与此关联的指定的安全标识符从系统访问控制列表 (SACL) 中移除所有审核规则<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The security identifier for which to remove audit rules.</source>
+          <target state="translated">个要删除其审核规则的安全标识符。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Sets the inheritance protection for the Discretionary Access Control List (DACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">与此关联的自由访问控制列表 (DACL) 设置继承保护<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>DACLs that are protected do not inherit access rules from parent containers.</source>
+          <target state="translated">受保护的 Dacl 不继承父容器的访问规则。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to protect the DACL from inheritance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要防止继承 DACL。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to keep inherited access rules in the DACL; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to remove inherited access rules from the DACL.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要保留继承 DACL; 中的访问规则<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>从 DACL 删除继承的访问规则。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Sets the inheritance protection for the System Access Control List (SACL) associated with this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">与此关联的系统访问控制列表 (SACL) 设置继承保护<bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>SACLs that are protected do not inherit audit rules from parent containers.</source>
+          <target state="translated">受保护的 Sacl 不继承父容器的审核规则。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to protect the SACL from inheritance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要防止继承 SACL。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to keep inherited audit rules in the SACL; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to remove inherited audit rules from the SACL.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要在 SACL; 中保留继承的审核规则<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>从 SACL 删除继承的审核规则。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the System Access Control List (SACL) for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取或设置此系统访问控制列表 (SACL) <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The SACL contains audit rules.</source>
+          <target state="translated">SACL 包含审核规则。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The SACL for this <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">此 SACL <bpt id="p1">&lt;xref href="System.Security.AccessControl.CommonSecurityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

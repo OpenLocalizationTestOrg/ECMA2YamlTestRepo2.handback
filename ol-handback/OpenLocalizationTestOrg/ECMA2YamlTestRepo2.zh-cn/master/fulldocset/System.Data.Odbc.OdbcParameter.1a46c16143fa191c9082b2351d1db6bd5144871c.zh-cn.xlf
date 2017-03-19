@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">505ad292410fcf09494fb89a755fe33df4865c32</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcParameter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">36399b88a25101546f5aa5408d98ddcac04744c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5832cb2c5df8e5220f81e045e0ec4ce149cbda8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a parameter to an <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally, its mapping to a <bpt id="p2">&lt;xref href="System.Data.DataColumn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">表示参数传递给<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和 （可选） 到其映射<bpt id="p2">&lt;xref href="System.Data.DataColumn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Parameter names are not case sensitive.</source>
+          <target state="translated">参数名称不区分大小写。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When querying an Oracle database using the Microsoft OLE DB Provider for Oracle (MSDAORA) and the ODBC .NET Framework Data Provider, using the <ph id="ph1">`LIKE`</ph> clause to query values in fixed-length fields might not return all expected matches.</source>
+          <target state="translated">在查询用于 Oracle (MSDAORA) 和 ODBC.NET Framework 数据提供程序的 Microsoft OLE DB 提供程序的 Oracle 数据库时，使用<ph id="ph1">`LIKE`</ph>子句为固定长度字段中的查询值可能不会返回所有预期的匹配项。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The reason is that when Oracle matches values for fixed-length fields in a <ph id="ph1">`LIKE`</ph> clause, it matches the entire length of the string, including any padding trailing spaces.</source>
+          <target state="translated">原因是当 Oracle 匹配中的固定长度字段值时<ph id="ph1">`LIKE`</ph>子句，它与相匹配的字符串，包括任何填充尾随空格的整个长度。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, if a table in an Oracle database contains a field named "Field1" that is defined as <ph id="ph1">`char(3)`</ph>, and you enter the value "a" into a row of that table, the following code will not return the row.</source>
+          <target state="translated">例如，如果表中的 Oracle 数据库包含一个名为"Field1"定义为字段<ph id="ph1">`char(3)`</ph>，并输入值"a"到该表中，下面的代码的行不会返回行。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```vb#   Dim queryString As String = "SELECT * FROM Table1 WHERE Field1 LIKE ?"   Dim command As OleDbCommand = New OleDbCommand(queryString, connection)   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a"   Dim reader As OleDbDataReader = command.ExecuteReader()   ```</ph>      <ph id="ph2">```c#   string queryString = "SELECT * FROM Table1 WHERE Field1 LIKE ?";   OleDbCommand command = new OleDbCommand(queryString, connection);   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a";   OleDbDataReader reader = command.ExecuteReader();   ```</ph>       This is because Oracle stores the column value as "a  " (padding "a", with trailing spaces, to the fixed field length of 3), which Oracle does not treat as a match for the parameter value of "a" in the case of a <ph id="ph3">`LIKE`</ph> comparison of fixed-length fields.</source>
+          <target state="translated"><ph id="ph1">```vb#   Dim queryString As String = "SELECT * FROM Table1 WHERE Field1 LIKE ?"   Dim command As OleDbCommand = New OleDbCommand(queryString, connection)   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a"   Dim reader As OleDbDataReader = command.ExecuteReader()   ```</ph>      <ph id="ph2">```c#   string queryString = "SELECT * FROM Table1 WHERE Field1 LIKE ?";   OleDbCommand command = new OleDbCommand(queryString, connection);   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a";   OleDbDataReader reader = command.ExecuteReader();   ```</ph>这是因为 Oracle 存储"a"形式的列值 (填充"a"以尾随空格，以达到固定的字段长度为 3)，其中 Oracle 不会将其作为"a"的参数值的匹配项的情况下<ph id="ph3">`LIKE`</ph>固定长度的字段的比较。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, append a percentage ("%") wildcard character to the parameter value (<ph id="ph1">`"a%"`</ph>), or use an SQL <ph id="ph2">`=`</ph> comparison instead.</source>
+          <target state="translated">若要解决此问题，请将百分比 （"%"） 通配符字符追加到的参数值 (<ph id="ph1">`"a%"`</ph>)，或改用 SQL<ph id="ph2">`=`</ph>比较相反。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The base constructor initializes all fields to their default values.</source>
+          <target state="translated">基构造函数初始化为其默认值的所有字段。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name and data type.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称和数据类型。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">中提供的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是无效的后端数据类型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name and an <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称和<bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use caution when you are using this overload of the &lt;xref:System.Data.Odbc.OdbcParameter&gt; constructor to specify integer parameter values.</source>
+          <target state="translated">你使用的此重载时要格外小心&lt;xref:System.Data.Odbc.OdbcParameter&gt;构造函数来指定整数参数值。&lt;/xref:System.Data.Odbc.OdbcParameter&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Because this overload takes a <ph id="ph1">`value`</ph> of type &lt;xref:System.Object&gt;, you must convert the integral value to an &lt;xref:System.Object&gt; type when the value is zero, as the following C# example demonstrates.</source>
+          <target state="translated">因为此重载接受<ph id="ph1">`value`</ph>类型的&lt;xref:System.Object&gt;，必须将转换到的整数值&lt;xref:System.Object&gt;键入时的值为零，如下面的 C# 示例所示。&lt;/xref:System.Object&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   Parameter = new OdbcParameter("@pname", Convert.ToInt32(0));   ```</ph>       If you do not perform this conversion, the compiler assumes that you are trying to call the &lt;xref:System.Data.Odbc.OdbcParameter.%23ctor%2A?displayProperty=fullName&gt; constructor overload.</source>
+          <target state="translated"><ph id="ph1">```   Parameter = new OdbcParameter("@pname", Convert.ToInt32(0));   ```</ph>如果不执行此转换，则编译器将认为你尝试调用&lt;xref:System.Data.Odbc.OdbcParameter.%23ctor%2A?displayProperty=fullName&gt;构造函数重载。&lt;/xref:System.Data.Odbc.OdbcParameter.%23ctor%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, and length.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称、 数据类型和长度。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">参数的长度。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">中提供的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是无效的后端数据类型。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, and source column name.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称、 数据类型、 长度和源列名。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">参数的长度。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">源列的名称。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">中提供的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是无效的后端数据类型。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, source column name, parameter direction, numeric precision, and other properties.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称、 数据类型、 长度、 源列名、 参数方向、 数值精度和其他属性。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">参数的长度。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the value of the field can be null; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字段的值可以为 null;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The total number of digits to the left and right of the decimal point to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">总数的位数向左和向其小数点右侧&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The total number of decimal places to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">小数位数的总数&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">源列的名称。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;的值<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">中提供的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是无效的后端数据类型。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, source column name, parameter direction, numeric precision, and other properties.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类使用参数名称、 数据类型、 长度、 源列名、 参数方向、 数值精度和其他属性。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">参数的名称。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>One of the &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType*&gt; values.</source>
+          <target state="translated">之一&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType*&gt;值。&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">参数的长度。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The total number of digits to the left and right of the decimal point to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">总数的位数向左和向其小数点右侧&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The total number of decimal places to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">小数位数的总数&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">源列的名称。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the corresponding source column is nullable; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it is not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果相应的源列可以为 null;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果它不是。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;的值<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">中提供的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是无效的后端数据类型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的参数。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; and DbType are linked.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;和链接的 DbType。&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Therefore, setting the DbType changes the &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; to a supporting &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;.</source>
+          <target state="translated">因此，设置 DbType 更改&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;到支持&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;。&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; &lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For a list of the supported data types, see the appropriate &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; member.</source>
+          <target state="translated">有关支持的数据类型的列表，请参阅相应&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;成员。&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>DataAdapter 参数<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  &lt;xref:System.Data.DbType&gt; is not supported by the Microsoft .NET Framework Data Provider for ODBC.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;&lt;xref:System.Data.DbType&gt;用于 ODBC 的 Microsoft.NET Framework 数据提供程序不支持。&lt;/xref:System.Data.DbType&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The default is &lt;xref:System.String&gt;.</source>
+          <target state="translated">默认值为&lt;xref:System.String&gt;。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The property was not set to a valid <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">该属性未设置为有效<bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the parameter is input-only, output-only, bidirectional, or a stored procedure return value parameter.</source>
+          <target state="translated">获取或设置一个值，该值指示参数是只可输入，输出、 双向参数还是存储的过程返回值参数。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.ParameterDirection&gt; is <ph id="ph1">`Output`</ph>, and execution of the associated &lt;xref:System.Data.Odbc.OdbcCommand&gt; does not return a value, the &lt;xref:System.Data.Odbc.OdbcParameter&gt; will contain a null value.</source>
+          <target state="translated">如果&lt;xref:System.Data.ParameterDirection&gt;是<ph id="ph1">`Output`</ph>，和执行的关联&lt;xref:System.Data.Odbc.OdbcCommand&gt;不返回一个值，&lt;xref:System.Data.Odbc.OdbcParameter&gt;将包含 null 值。&lt;/xref:System.Data.Odbc.OdbcParameter&gt; &lt;/xref:System.Data.Odbc.OdbcCommand&gt; &lt;/xref:System.Data.ParameterDirection&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Null values are handled using the &lt;xref:System.DBNull&gt; class.</source>
+          <target state="translated">处理 null 值使用&lt;xref:System.DBNull&gt;类。&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Output`</ph>, <ph id="ph2">`InputOut`</ph>, and <ph id="ph3">`ReturnValue`</ph> parameters returned by calling &lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt; cannot be accessed until you call &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt; or <ph id="ph4">`Dispose`</ph> on the &lt;xref:System.Data.Odbc.OdbcDataReader&gt;.</source>
+          <target state="translated"><ph id="ph1">`Output`</ph><ph id="ph2">`InputOut`</ph>，和<ph id="ph3">`ReturnValue`</ph>参数返回通过调用&lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;无法访问，直到你调用&lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;或<ph id="ph4">`Dispose`</ph> &lt;xref:System.Data.Odbc.OdbcDataReader&gt;。&lt;/xref:System.Data.Odbc.OdbcDataReader&gt; &lt;/xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt; &lt;/xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Input" name="Input" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_Input" name="Input" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The property was not set to one of the valid <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">该属性未设置为一个有效<bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the parameter accepts null values.</source>
+          <target state="translated">获取或设置一个值，该值指示参数是否接受 null 值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Null values are handled using the &lt;xref:System.DBNull&gt; class.</source>
+          <target state="translated">处理 null 值使用&lt;xref:System.DBNull&gt;类。&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if null values are accepted; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果接受 null 值;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的参数。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The OdbcType and &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; are linked.</source>
+          <target state="translated">OdbcType 和&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;链接。&lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Therefore, setting the &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; changes the OdbcType to a supporting &lt;xref:System.Data.Odbc.OdbcType&gt;.</source>
+          <target state="translated">因此，设置&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;更改为支持&lt;xref:System.Data.Odbc.OdbcType&gt;。&lt;/xref:System.Data.Odbc.OdbcType&gt; OdbcType&lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For a list of the supported data types, see the appropriate &lt;xref:System.Data.Odbc.OdbcType&gt; member.</source>
+          <target state="translated">有关支持的数据类型的列表，请参阅相应&lt;xref:System.Data.Odbc.OdbcType&gt;成员。&lt;/xref:System.Data.Odbc.OdbcType&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>DataAdapter 参数<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值是<bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>的参数。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Nchar" name="Nchar" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_Nchar" name="Nchar" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取或设置的名称<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Instead of named parameters, the ODBC .NET Provider uses positional parameters that are marked with a question mark (?) in the syntax of the command text.</source>
+          <target state="translated">使用而不是命名参数，ODBC.NET 提供程序用问号 （？） 标记的位置参数在命令文本的语法。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Parameter objects in the &lt;xref:System.Data.Odbc.OdbcParameterCollection&gt; and the actual parameters accepted by the stored procedure or parameterized SQL statement correspond to each other based on the order in which the &lt;xref:System.Data.Odbc.OdbcParameter&gt; objects are inserted into the collection instead of by parameter name.</source>
+          <target state="translated">中的参数对象&lt;xref:System.Data.Odbc.OdbcParameterCollection&gt;和实际参数接受的存储过程或参数化的 SQL 语句对应于根据的顺序彼此&lt;xref:System.Data.Odbc.OdbcParameter&gt;对象插入到的集合，而不是由参数名称。&lt;/xref:System.Data.Odbc.OdbcParameter&gt; &lt;/xref:System.Data.Odbc.OdbcParameterCollection&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Parameter names can be supplied, but will be ignored during parameter object binding.</source>
+          <target state="translated">参数名称可以提供，但将参数对象绑定过程中忽略。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">名称<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of digits used to represent the &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; property.</source>
+          <target state="translated">获取或设置用于表示的数字个数&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;属性。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Setting this property to a value other than the value in the database depends on the implementation of the data provider and may return an error code, truncate, or round data.</source>
+          <target state="translated">此属性设置为数据库中的值以外的值取决于数据提供程序的实现，并可能会返回错误代码，截断或舍入数据。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The Precision property only affects parameters whose &lt;xref:System.Data.Odbc.OdbcType&gt; is <ph id="ph1">`Decimal`</ph> or <ph id="ph2">`Numeric`</ph>.</source>
+          <target state="translated">精度属性仅会影响参数其&lt;xref:System.Data.Odbc.OdbcType&gt;是<ph id="ph1">`Decimal`</ph>或<ph id="ph2">`Numeric`</ph>。&lt;/xref:System.Data.Odbc.OdbcType&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For other data types, Precision is ignored.</source>
+          <target state="translated">对于其他数据类型，则忽略精度。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use of this property to coerce data passed to the database is not supported.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 不支持此属性的使用将数据强制传递到数据库。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To round, truncate, or otherwise coerce data before passing it to the database, use the &lt;xref:System.Math&gt; class that is part of the <ph id="ph1">`System`</ph> namespace prior to assigning a value to the parameter's <ph id="ph2">`Value`</ph> property.</source>
+          <target state="translated">若要舍入、 截断，或者将其传递到数据库之前强制数据，使用&lt;xref:System.Math&gt;类属于<ph id="ph1">`System`</ph>之前将值分配给参数的命名空间<ph id="ph2">`Value`</ph>属性。&lt;/xref:System.Math&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The maximum number of digits used to represent the &lt;xref:System.Data.Odbc.OdbcParameter.Value<bpt id="p1">*</bpt>&gt; property. The default value is 0, which indicates that the data provider sets the precision for &lt;xref:System.Data.Odbc.OdbcParameter.Value<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">用于表示的数字的最大数&lt;&gt; <bpt id="p1">*</bpt>1&gt; 属性。默认值为 0，它表示的数据提供程序设置的精度&lt;&gt; <ept id="p1">*</ept>1&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Resets the type associated with this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">重置与此关联的类型<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When executing a command that includes parameter values, code can either set the type of a parameter explicitly, or the parameter can infer its type from its value.</source>
+          <target state="translated">执行命令时包括参数值、 代码可以显式设置参数的类型或参数可以推断出类型的值。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Calling this method resets the parameter so that it can again infer its type from the value passed in the parameter.</source>
+          <target state="translated">调用此方法将重置参数，以便它可以再次推断出类型参数中传递的值。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Calling this method affects both the &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; and &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; properties of the &lt;xref:System.Data.Odbc.OdbcParameter&gt;.</source>
+          <target state="translated">调用此方法会影响这两个的&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;和&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;的&lt;xref:System.Data.Odbc.OdbcParameter&gt;。&lt;/xref:System.Data.Odbc.OdbcParameter&gt;属性&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;&lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Calling ResetDbType resets &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; to its default value (String).</source>
+          <target state="translated">调用 ResetDbType 重置&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;为其默认值 （字符串）。&lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Resets the type associated with this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">重置与此关联的类型<bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When executing a command that includes parameter values, code can either set the type of a parameter explicitly, or the parameter can infer its type from its value.</source>
+          <target state="translated">执行命令时包括参数值、 代码可以显式设置参数的类型或参数可以推断出类型的值。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Calling this method resets the parameter so that it can again infer its type from the value passed in the parameter.</source>
+          <target state="translated">调用此方法将重置参数，以便它可以再次推断出类型参数中传递的值。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Calling this method affects both the &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; and &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; properties of the &lt;xref:System.Data.Odbc.OdbcParameter&gt;.</source>
+          <target state="translated">调用此方法会影响这两个的&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;和&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;的&lt;xref:System.Data.Odbc.OdbcParameter&gt;。&lt;/xref:System.Data.Odbc.OdbcParameter&gt;属性&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;&lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of decimal places to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">获取或设置到的小数位数&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The Scale property is used only for decimal and numeric input parameters.</source>
+          <target state="translated">小数位数属性仅用于 decimal 和 numeric 输入参数。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The effect of setting this property to a value other than the value in the database depends on the implementation of the data provider and may return an error code, or truncate or round data.</source>
+          <target state="translated">为数据库中的值以外的值设置此属性的效果取决于数据提供程序的实现并可能返回错误代码，或截断或舍入的数据。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The Scale property only affects parameters whose &lt;xref:System.Data.Odbc.OdbcType&gt; is <ph id="ph1">`Decimal`</ph> or <ph id="ph2">`Numeric`</ph>.</source>
+          <target state="translated">缩放属性仅会影响参数其&lt;xref:System.Data.Odbc.OdbcType&gt;是<ph id="ph1">`Decimal`</ph>或<ph id="ph2">`Numeric`</ph>。&lt;/xref:System.Data.Odbc.OdbcType&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For other data types, Scale is ignored.</source>
+          <target state="translated">对于其他数据类型，则忽略缩放。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When using SQL Server Native Client 10 (or later) to bind a parameter whose type is Decimal, Numeric, VarNumeric, DBDate, or DBTimeStamp, you must manually specify an appropriate Scale value.</source>
+          <target state="translated">使用 SQL Server 本机客户端时 10 （或更高版本） 若要绑定的类型为 Decimal、 Numeric、 VarNumeric、 DBDate 或 DBTimeStamp 的参数，必须手动指定适当的缩放值。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use of this property to coerce data passed to the database is not supported.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 不支持此属性的使用将数据强制传递到数据库。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To round, truncate, or otherwise coerce data before passing it to the database, use the &lt;xref:System.Math&gt; class that is part of the <ph id="ph1">`System`</ph> namespace prior to assigning a value to the parameter's <ph id="ph2">`Value`</ph> property.</source>
+          <target state="translated">若要舍入、 截断，或者将其传递到数据库之前强制数据，使用&lt;xref:System.Math&gt;类属于<ph id="ph1">`System`</ph>之前将值分配给参数的命名空间<ph id="ph2">`Value`</ph>属性。&lt;/xref:System.Math&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  .NET Framework data providers that are included with the .NET Framework version 1.0 do not verify the <ph id="ph2">`scale`</ph> of &lt;xref:System.Decimal&gt; parameter values.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 附带.NET Framework 1.0 版的.NET framework 数据提供程序不验证<ph id="ph2">`scale`</ph>的&lt;xref:System.Decimal&gt;参数值。&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This can cause modified data being inserted at the data source.</source>
+          <target state="translated">这会导致修改后的数据在数据源处插入。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If you are using .NET Framework version 1.0, validate the s<ph id="ph1">`cale`</ph> of d<ph id="ph2">`ecimal`</ph> values before setting the parameter value.</source>
+          <target state="translated">如果你使用的.NET Framework 1.0 版，验证 s<ph id="ph1">`cale`</ph>的 d<ph id="ph2">`ecimal`</ph>之前设置参数值的值。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When you use .NET Framework version 1.1 or later versions, <ph id="ph1">`scale`</ph> values that exceed the <ph id="ph2">`decimal`</ph> parameter scale might only be truncated in scale, if that is the behavior of the underlying ODBC driver.</source>
+          <target state="translated">当你使用.NET Framework 1.1 版或更高版本，<ph id="ph1">`scale`</ph>值超出了<ph id="ph2">`decimal`</ph>参数的小数位数可能仅会被截断在刻度中，如果是基础的 ODBC 驱动程序的行为。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The number of decimal places to which &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt; is resolved.</source>
+          <target state="translated">小数位数数&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;得到解决。&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The default is 0.</source>
+          <target state="translated">默认值为 0。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum size of the data within the column.</source>
+          <target state="translated">获取或设置列中数据的最大大小。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The Size property is used for binary and string types.</source>
+          <target state="translated">大小属性用于二进制和字符串类型。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For nonstring data types and ANSI string data, the Size property refers to the number of bytes.</source>
+          <target state="translated">对于非字符串数据类型和 ANSI 字符串数据，大小属性引用的字节数。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For Unicode string data, Size refers to the number of characters.</source>
+          <target state="translated">Unicode 字符串数据大小是指的字符数。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The count for strings does not include the terminating character.</source>
+          <target state="translated">字符串的计数不包括结尾的字符。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For variable-length data types, <ph id="ph1">`Size`</ph> describes the maximum amount of data to transmit to the server.</source>
+          <target state="translated">对于可变长度数据类型，<ph id="ph1">`Size`</ph>描述数据传输到服务器的最大数量。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, for a Unicode string value, <ph id="ph1">`Size`</ph> could be used to limit the amount of data sent to the server to the first one hundred characters.</source>
+          <target state="translated">例如，对于 Unicode 字符串值，<ph id="ph1">`Size`</ph>无法用于限制发送到服务器以首先一百个字符的数据量。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For bidirectional and output parameters, and return values, you must set the value of <ph id="ph1">`Size`</ph>.</source>
+          <target state="translated">对于双向和输出参数和返回值，你必须设置的值<ph id="ph1">`Size`</ph>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This is not required for input parameters, and if not explicitly set, the value of is inferred from the actual size of the specified parameter when a parameterized statement is executed.</source>
+          <target state="translated">这不是必需的输入参数，并且如果没有显式设置的值推断从指定的参数的实际大小执行参数化的语句时。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DbParameter.DbType%2A&gt;, &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;, and Size properties of a parameter can be inferred by setting &lt;xref:System.Data.Odbc.OdbcParameter.Value%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbParameter.DbType%2A&gt;， &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;，并且可以通过设置&lt;xref:System.Data.Odbc.OdbcParameter.Value%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcParameter.Value%2A&gt;推断的参数的大小属性&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;&lt;/xref:System.Data.Common.DbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Therefore, you are not required to specify them.</source>
+          <target state="translated">因此，不需要指定它们。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>However, they are not exposed in &lt;xref:System.Data.Odbc.OdbcParameter&gt; property settings.</source>
+          <target state="translated">但是，它们未公开在&lt;xref:System.Data.Odbc.OdbcParameter&gt;属性设置。&lt;/xref:System.Data.Odbc.OdbcParameter&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>For example, if the size of the parameter has been inferred, <ph id="ph1">`Size`</ph> does not contain inferred value after statement execution.</source>
+          <target state="translated">例如，如果已推断出参数的大小，<ph id="ph1">`Size`</ph>语句执行后，不包含推断的值。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For an <ph id="ph2">`OdbcParameter`</ph> with a &lt;xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt; of <ph id="ph3">`ParameterDirection.Output`</ph>, <ph id="ph4">`ParameterDirection.InputOutput`</ph>, or <ph id="ph5">`ParameterDirection.ReturnValue`</ph>, an exception is thrown when the command is executed if the size of the value returned by the data source exceeds the specified <ph id="ph6">`Size`</ph> of the &lt;xref:System.Data.Odbc.OdbcParameter&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 为<ph id="ph2">`OdbcParameter`</ph>与&lt;xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt;的<ph id="ph3">`ParameterDirection.Output`</ph>， <ph id="ph4">`ParameterDirection.InputOutput`</ph>，或<ph id="ph5">`ParameterDirection.ReturnValue`</ph>，如果数据源返回的值的大小超过指定执行命令时，将引发异常<ph id="ph6">`Size`</ph>的&lt;xref:System.Data.Odbc.OdbcParameter&gt;。&lt;/xref:System.Data.Odbc.OdbcParameter&gt; &lt;/xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For fixed-length data types, the value of <ph id="ph1">`Size`</ph> is ignored.</source>
+          <target state="translated">对于固定长度的数据类型的值<ph id="ph1">`Size`</ph>将被忽略。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>It can be retrieved for informational purposes, and returns the maximum amount of bytes the provider uses when transmitting the value of the parameter to the server.</source>
+          <target state="translated">它可以检索用于信息说明，并返回最大传输到服务器参数的值时，提供程序使用的字节数。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The maximum size of the data within the column.</source>
+          <target state="translated">列中数据的最大大小。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The default value is inferred from the parameter value.</source>
+          <target state="translated">根据参数值，默认值进行推断。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the source column mapped to the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and used for loading or returning the &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;.</source>
+          <target state="translated">获取或设置映射到的源列的名称<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和用于加载或返回&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;.&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When SourceColumn is set to anything other than an empty string, the value of the parameter is retrieved from the column with the <ph id="ph1">`SourceColumn`</ph> name.</source>
+          <target state="translated">参数的值在 SourceColumn 设置为一个空字符串之外的任何内容，从具有的列检索<ph id="ph1">`SourceColumn`</ph>名称。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt; is set to <ph id="ph1">`Input`</ph>, the value is taken from the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">如果&lt;xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt;设置为<ph id="ph1">`Input`</ph>，值取自&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Odbc.OdbcParameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Direction`</ph> is set to <ph id="ph2">`Output`</ph>, the value is taken from the data source.</source>
+          <target state="translated">如果<ph id="ph1">`Direction`</ph>设置为<ph id="ph2">`Output`</ph>，从数据源中获取的值。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`Direction`</ph> of <ph id="ph2">`InputOutput`</ph> is a combination of both.</source>
+          <target state="translated">A<ph id="ph1">`Direction`</ph>的<ph id="ph2">`InputOutput`</ph>是这两者的组合。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For more information about how to use the SourceColumn property, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Updating Data Sources with DataAdapters<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关如何使用 SourceColumn 属性的详细信息，请参阅<bpt id="p1">[</bpt>DataAdapter 参数<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>使用 Dataadapter 更新数据源<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The name of the source column that will be used to set the value of this parameter.</source>
+          <target state="translated">将用于设置此参数的值的源列的名称。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Sets or gets a value which indicates whether the source column is nullable.</source>
+          <target state="translated">设置或获取一个值，该值指示源列是否可以为 null。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This lets <bpt id="p1">&lt;xref href="System.Data.Common.DbCommandBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> correctly generate Update statements for nullable columns.</source>
+          <target state="translated">这样<bpt id="p1">&lt;xref href="System.Data.Common.DbCommandBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>正确地生成 Update 语句为 null 的列。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>SourceColumnNullMapping is used by the &lt;xref:System.Data.Common.DbCommandBuilder&gt; to correctly generate update commands when dealing with nullable columns.</source>
+          <target state="translated">通过使用 SourceColumnNullMapping&lt;xref:System.Data.Common.DbCommandBuilder&gt;时处理可以为 null 的列正确生成更新命令。&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Generally, use of SourceColumnNullMapping is limited to developers inheriting from &lt;xref:System.Data.Common.DbCommandBuilder&gt;.</source>
+          <target state="translated">通常情况下，使用 SourceColumnNullMapping 受到开发人员从&lt;xref:System.Data.Common.DbCommandBuilder&gt;.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;继承</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Common.DbCommandBuilder&gt; uses this property to determine whether the source column is nullable, and sets this property to <ph id="ph1">`true`</ph> if it is nullable, and <ph id="ph2">`false`</ph> if it is not.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbCommandBuilder&gt;使用此属性来确定源列是否可以为 null，并将此属性设置为<ph id="ph1">`true`</ph>是否可以为 null，和<ph id="ph2">`false`</ph>如果它不是。&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>When &lt;xref:System.Data.Common.DbCommandBuilder&gt; is generating its Update statement, it examines the SourceColumnNullMapping for each parameter.</source>
+          <target state="translated">当&lt;xref:System.Data.Common.DbCommandBuilder&gt;是生成其 Update 语句，检查每个参数 SourceColumnNullMapping。&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the property is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Common.DbCommandBuilder&gt; generates a WHERE clauses like the following example.</source>
+          <target state="translated">如果属性是<ph id="ph1">`true`</ph>，&lt;xref:System.Data.Common.DbCommandBuilder&gt;生成 WHERE 子句，如下例所示。&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>In this query expression, "FieldName" represents the name of the field:      <ph id="ph1">```   ((@IsNull_FieldName = 1 AND FieldName IS NULL) OR      (FieldName = @Original_FieldName))   ```</ph>       If SourceColumnNullMapping for the field is false, &lt;xref:System.Data.Common.DbCommandBuilder&gt; generates the following WHERE clause:      <ph id="ph2">```   FieldName = @OriginalFieldName   ```</ph>       In addition, <ph id="ph3">@IsNull_FieldName</ph> contains 1 if the source field contains null, and 0 if it does not.</source>
+          <target state="translated">在此查询表达式中，"FieldName"表示的字段的名称︰<ph id="ph1">```   ((@IsNull_FieldName = 1 AND FieldName IS NULL) OR      (FieldName = @Original_FieldName))   ```</ph>字段如果 SourceColumnNullMapping 为 false，&lt;xref:System.Data.Common.DbCommandBuilder&gt;生成以下 WHERE 子句︰<ph id="ph2">```   FieldName = @OriginalFieldName   ```</ph>此外，<ph id="ph3">@IsNull_FieldName</ph>如果源字段包含 null 值和 0，如果它不包含 1。&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This mechanism allows for a performance optimization in SQL Server, and provides for common code that works across multiple providers.</source>
+          <target state="translated">此机制允许 SQL Server 中的一个性能优化，并提供的可以在多个提供程序的通用代码。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the source column is nullable; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it is not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果源列可以为 null;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果它不是。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use when you load &lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>加载&lt;xref:System.Data.Odbc.OdbcParameter.Value*&gt;.&lt;/xref:System.Data.Odbc.OdbcParameter.Value*&gt;时要使用</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`SourceVersion`</ph> is used by &lt;xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt; during an &lt;xref:System.Data.DbDataAdapter.Common.Update%2A&gt; operation to determine whether the parameter value is set to Current or Original.</source>
+          <target state="translated"><ph id="ph1">`SourceVersion`</ph>由&lt;xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt;期间&lt;xref:System.Data.DbDataAdapter.Common.Update%2A&gt;操作，以确定是否将参数值设置为当前或原始。&lt;/xref:System.Data.DbDataAdapter.Common.Update%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>This allows primary keys to be updated.</source>
+          <target state="translated">这样，要更新的主键。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>This property is set to the version of the &lt;xref:System.Data.DataRow&gt; used by either the <ph id="ph1">`Item`</ph> property (<ph id="ph2">`DataRow`</ph> indexer), or the &lt;xref:System.Data.DataRow.GetChildRows%2A&gt; method.</source>
+          <target state="translated">此属性设置为的新版&lt;xref:System.Data.DataRow&gt;通过以下任一方法使用<ph id="ph1">`Item`</ph>属性 (<ph id="ph2">`DataRow`</ph>索引器)，或&lt;xref:System.Data.DataRow.GetChildRows%2A&gt;方法。&lt;/xref:System.Data.DataRow.GetChildRows%2A&gt; &lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The default is Current.</source>
+          <target state="translated">默认值为当前。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">有关此成员的说明，请参阅<ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Odbc.OdbcParameter&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Data.Odbc.OdbcParameter&gt;实例被强制转换为&lt;xref:System.ICloneable&gt;接口。&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.Odbc.OdbcParameter&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">一个新&lt;xref:System.Object&gt;，它是此实例的副本。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the &lt;xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;.</source>
+          <target state="translated">获取一个字符串，包含&lt;xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;.&lt;/xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>A string that contains the &lt;xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;.</source>
+          <target state="translated">一个字符串，包含&lt;xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;.&lt;/xref:System.Data.Odbc.OdbcParameter.ParameterName*&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the parameter.</source>
+          <target state="translated">获取或设置参数的值。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For input parameters, the value is bound to the &lt;xref:System.Data.Odbc.OdbcCommand&gt; that is sent to the server.</source>
+          <target state="translated">用于输入参数的值绑定到&lt;xref:System.Data.Odbc.OdbcCommand&gt;，发送到服务器。&lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>For output and return-value parameters, the value is set on completion of the &lt;xref:System.Data.Odbc.OdbcCommand&gt; and after the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is closed.</source>
+          <target state="translated">对于输出参数和返回值参数，该数值将在完成&lt;xref:System.Data.Odbc.OdbcCommand&gt;后&lt;xref:System.Data.Odbc.OdbcDataReader&gt;已关闭。&lt;/xref:System.Data.Odbc.OdbcDataReader&gt; &lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>When you send a null parameter value to the server, the user must specify &lt;xref:System.DBNull&gt;, not null.</source>
+          <target state="translated">当你向服务器发送 null 参数值时，用户必须指定&lt;xref:System.DBNull&gt;，而不是 null。&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>A null value in the system is an empty object that has no value.</source>
+          <target state="translated">系统中的 null 值是一个空的对象具有任何值。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.DBNull&gt; is used to represent null values.</source>
+          <target state="translated">&lt;xref:System.DBNull&gt;用于表示 null 值。&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>If the parameter is used to call a stored procedure with parameters that have default values, setting Value to null causes the default value to be used.</source>
+          <target state="translated">如果使用参数调用存储的过程参数具有默认值，将值设置为 null 的原因要使用的默认值。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>If the application specifies the database type, the bound value is converted to that type when the provider sends the data to the server.</source>
+          <target state="translated">如果应用程序指定数据库类型，绑定的值转换为该类型时提供程序将数据发送到服务器。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The provider tries to convert any type of value if it supports the &lt;xref:System.IConvertible&gt; interface.</source>
+          <target state="translated">提供程序尝试将任何类型的值的转换，如果它支持&lt;xref:System.IConvertible&gt;接口。&lt;/xref:System.IConvertible&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Conversion errors may result if the specified type is not compatible with the value.</source>
+          <target state="translated">如果指定的类型不兼容的值，可能会导致转换错误。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt; and &lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; properties can be inferred by setting Value.</source>
+          <target state="translated">同时&lt;xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;和&lt;xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt;属性可以通过设置值推断出。&lt;/xref:System.Data.Odbc.OdbcParameter.OdbcType%2A&gt; &lt;/xref:System.Data.Odbc.OdbcParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If applicable, the size, precision, and scale is also inferred from Value when the parameterized statement is executed.</source>
+          <target state="translated">如果适用，大小、 精度和小数位数是同样被推断从值执行参数化的语句时。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>However, inferred values are not exposed to the user.</source>
+          <target state="translated">但是，不向用户公开推断出的值。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The Value property is overwritten by the <ph id="ph1">`Update`</ph> method.</source>
+          <target state="translated">Value 属性会被覆盖<ph id="ph1">`Update`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the parameter.</source>
+          <target state="translated">&lt;xref:System.Object&gt;的参数的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default value is null.</source>
+          <target state="translated">默认值为 null。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

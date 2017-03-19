@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4559175f127761102557e1a1f0edc7eec30732e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Packaging.PackageDigitalSignature.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9847e18d164c879c980364077674d53090a912a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0924f3452c57b3bc80e5ae7e876f06e9560f22d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a digital signature that is applied to a set of package parts and relationships.</source>
+          <target state="translated">Reprezentuje podpis cyfrowy jest stosowany do zestawu części pakietów i relacje.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A PackageDigitalSignature object is immutable and cannot be altered after it is created.</source>
+          <target state="translated">Obiekt PackageDigitalSignature jest niemodyfikowalna i nie można zmienić po jego utworzeniu.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For security, a PackageDigitalSignature can be associated with parts within a &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">Dla bezpieczeństwa może być skojarzony z części &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt; PackageDigitalSignature</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A PackageDigitalSignature incorporates an X.509 certificate that provides two features:      -   Identifies and authenticates the originator of the part.</source>
+          <target state="translated">PackageDigitalSignature zawiera certyfikat X.509, który zawiera dwie funkcje: - identyfikuje i uwierzytelnia inicjatorem części.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Validates that the part has not been modified.</source>
+          <target state="translated">— Weryfikuje, czy element nie został zmodyfikowany.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The digital signature does not preclude a part from being modified, but a validation check against the signature fails if the part has changed in any way.</source>
+          <target state="translated">Podpis cyfrowy nie uniemożliwia części jest modyfikowany, ale sprawdzanie poprawności względem podpis zakończy się niepowodzeniem, jeśli element został zmieniony w dowolny sposób.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application can then take appropriate action—for example, it can prevent the part from opening or it can notify the user that the part has been modified and is not secure.</source>
+          <target state="translated">Aplikację można następnie automatycznie podjąć odpowiednie działania — na przykład części może zablokować możliwość otwierania lub jego powiadamia użytkownika, że element został zmodyfikowany i nie jest bezpieczna.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about package digital signatures, see the MSDN article <bpt id="p1">[</bpt>Digital Signing Framework of the Open Packaging Conventions<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=74494)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat podpisów cyfrowych pakietu, zobacz artykuł w witrynie MSDN <bpt id="p1">[</bpt>cyfrowego podpisywania struktura otwartych Konwencji pakietów<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=74494)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets the X.509 certificate embedding option.</source>
+          <target state="translated">Pobiera certyfikat X.509 osadzanie opcji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>X.509 certificates used to validate a package may be stored in one of three locations:      |||   |-|-|   |&lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;|In its own certificate &lt;xref:System.IO.Packaging.PackagePart&gt; in the package.</source>
+          <target state="translated">Certyfikaty X.509 używany do sprawdzania poprawności pakietu może być przechowywany w jednym z trzech miejscach: |||   |-|-|   | &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;| W swoim własnym certyfikacie &lt;xref:System.IO.Packaging.PackagePart&gt;w pakiecie.&lt;/xref:System.IO.Packaging.PackagePart&gt; &lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The X.509 certificate can be obtained through the &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt; property.|   |&lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;|Within the content of the &lt;xref:System.IO.Packaging.PackageDigitalSignature.SignaturePart%2A&gt; in the package.</source>
+          <target state="translated">Certyfikat X.509 można uzyskać za pośrednictwem właściwości &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt;. |   | &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;| W zawartości &lt;xref:System.IO.Packaging.PackageDigitalSignature.SignaturePart%2A&gt;w pakiecie.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.SignaturePart%2A&gt; &lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt; &lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The X.509 certificate can be obtained through the &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt; property.|   |&lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;|External to the package in a location known by both the application that creates the signature and the application that later uses the signature for validation.|</source>
+          <target state="translated">Certyfikat X.509 można uzyskać za pośrednictwem właściwości &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt;. |   | &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;| Zewnętrzne do pakietu w lokalizacji rozpoznawany na podstawie zarówno aplikacja, która tworzy podpis, jak i aplikacji, która później używa do weryfikacji podpisu. |&lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt; &lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Packaging.CertificateEmbeddingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the option for the digital signature.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Packaging.CertificateEmbeddingOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa opcję dla podpisu cyfrowego.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns an ordered list of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operations applied to a given part.</source>
+          <target state="translated">Zwraca uporządkowaną listę <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Transform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operacji stosowane do danej części.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to return the transform list for.</source>
+          <target state="translated">&lt;xref:System.Uri&gt;z <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do zwrócenia for. lista transformacji&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An ordered list of URI strings, such as <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, that represents the canonical XML transformations applied to the part with the given <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">partName</ph><ept id="p3">&lt;/code&gt;</ept> URI.</source>
+          <target state="translated">Ciągi uporządkowaną listę identyfikatora URI, takich jak <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, reprezentujący canonical transformacji XML stosowane do części o danym <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">partName</ph> <ept id="p3">&lt;/code&gt;</ept> identyfikatora URI.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XML digital signature.</source>
+          <target state="translated">Pobiera lub ustawia podpis cyfrowy XML.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signature provides access to the foundation class that performs type-specific signature cryptographic functions and serialization to and from the &lt;xref:System.IO.Packaging.PackagePart&gt; that hosts the signature.</source>
+          <target state="translated">Podpis zapewnia dostęp do klasy foundation, który wykonuje funkcje kryptograficzne podpisu określonego typu i serializacja do i z &lt;xref:System.IO.Packaging.PackagePart&gt;obsługującego podpisu.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The XML digital signature.</source>
+          <target state="translated">Podpis cyfrowy XML.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The digital Signature has been deleted.</source>
+          <target state="translated">Podpis cyfrowy został usunięty.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the signature.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawiera podpis.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The signature's package part is frequently accessed when the signature is countersigned.</source>
+          <target state="translated">Części pakietu z podpisem często jest dostępny, gdy są podpisane podpisem.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The package part that contains the signature.</source>
+          <target state="translated">Części pakietu, który zawiera podpis.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> string that identifies the signature type.</source>
+          <target state="translated">Pobiera <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> ciąg identyfikujący typ podpisu.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> string that identifies the signature type.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> ciąg identyfikujący typ podpisu.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the encrypted hash value of the &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;.</source>
+          <target state="translated">Pobiera wartość skrótu zaszyfrowanych &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the encrypted hash value of the &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;.</source>
+          <target state="translated">Tablica bajtów zawierająca wartość skrótu zaszyfrowanych &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets a collection of all the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects signed with the signature.</source>
+          <target state="translated">Pobiera kolekcję wszystkich <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów podpisane podpisem.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A collection that contains all the package parts signed with the signature.</source>
+          <target state="translated">Kolekcja zawierająca wszystkie części pakietów podpisany z podpisem.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets the list of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parts that have been signed with the signature.</source>
+          <target state="translated">Pobiera listę <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementy, które zostały podpisane podpisem.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The list of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parts that have been signed with the signature.</source>
+          <target state="translated">Lista <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementy, które zostały podpisane podpisem.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the X.509 certificate of the signer.</source>
+          <target state="translated">Pobiera certyfikat X.509 osoby podpisującej.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signer returns the X.509 certificate of the signer when the digital certificate is stored within the package (that is, when &lt;xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt; is &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt; or &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;).</source>
+          <target state="translated">Osoba podpisująca zwraca certyfikat X.509 osoby podpisującej, gdy certyfikatu cyfrowego jest przechowywana w pakiecie (to znaczy gdy &lt;xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt;jest &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;lub &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;).&lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt; &lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt; &lt;/xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signer returns <ph id="ph1">`null`</ph> when the X.509 certificate is not stored in the package (that is, when &lt;xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt; is &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;).</source>
+          <target state="translated">Zwraca osoby podpisującej <ph id="ph1">`null`</ph> gdy certyfikat X.509 nie jest przechowywana w pakiecie (to znaczy gdy &lt;xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt;jest &lt;xref:System.IO.Packaging.CertificateEmbeddingOption&gt;).&lt;/xref:System.IO.Packaging.CertificateEmbeddingOption&gt; &lt;/xref:System.IO.Packaging.PackageDigitalSignature.CertificateEmbeddingOption%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The digital certificate of the signer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the certificate is not stored in the <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Certyfikat cyfrowy osoby podpisującej, lub <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli certyfikat nie jest przechowywany w <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the date and time that the signature was created.</source>
+          <target state="translated">Pobiera datę i godzinę utworzenia podpisu.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Packaging.PackageDigitalSignature.TimeFormat%2A&gt; property specifies the format of the date.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackageDigitalSignature.TimeFormat%2A&gt;Właściwość określa format daty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.TimeFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format of the SigningTime string is based on the &lt;xref:System.IO.Packaging.PackageDigitalSignatureManager.TimeFormat%2A?displayProperty=fullName&gt; property in effect when the signature was created.</source>
+          <target state="translated">Format ciągu SigningTime opiera się na &lt;xref:System.IO.Packaging.PackageDigitalSignatureManager.TimeFormat%2A?displayProperty=fullName&gt;Właściwości efekty, jeśli został utworzony podpis.&lt;/xref:System.IO.Packaging.PackageDigitalSignatureManager.TimeFormat%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SigningTime is based on the system time of the computer where the signing took place.</source>
+          <target state="translated">SigningTime opiera się na czas systemowy komputera, na którym podpisania nastąpiło.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SigningTime is not a "secure TimeStamp" and is not from trusted Time Stamp Authority.</source>
+          <target state="translated">SigningTime nie jest "Bezpiecznego sygnaturę czasową" i nie pochodzi z zaufanego urzędu sygnatury czasu.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A secure TimeStamp must be obtained and applied through a trusted Time Stamp Authority.</source>
+          <target state="translated">Bezpieczne sygnatura czasowa musi być uzyskane i stosowane przez zaufany urząd sygnatury czasu.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The date and time that the signature was created.</source>
+          <target state="translated">Data i godzina utworzenia podpisu.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets the format of the date and time returned by the &lt;xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt; property.</source>
+          <target state="translated">Pobiera format daty i godziny zwrócony przez &lt;xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt;Właściwości.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Date/time formats follow the syntax of the W3C <bpt id="p1">[</bpt>Date and Time Formats<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=84446)</ept> note.</source>
+          <target state="translated">Data i godzina formaty zgodne ze składnią W3C <bpt id="p1">[</bpt>formaty daty i godziny<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=84446)</ept> Uwaga.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The components shown in the following table must use the syntax and punctuation shown.</source>
+          <target state="translated">Składniki pokazano w poniższej tabeli, należy użyć składni i znaki interpunkcyjne wyświetlane.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|TimeFormat|Description|Example|   |----------------|-----------------|-------------|   |YYYY|Year|2005|   |YYYY-MM|Year and month|2005-07|   |YYYY-MM-DD|Complete date|2005-07-28|   |YYYY-MM-DDThh:mmTZD|Complete date plus hours and minutes|2005-07-28T19:20-01:00|   |YYYY-MM-DDThh:mm:ssTZD|Complete date plus hours, minutes, and seconds|2005-07-28T19:20:45-01:00|   |YYYY-MM-DDThh:mm:ss.sTZD|Complete date plus hours, minutes, and seconds with a decimal fraction|2005-07-28T19:20:45.75-01:00|       where:      |||   |-|-|   |YYYY|four-digit year (for example 2006)|   |MM|two-digit month (01=January)|   |DD|two-digit day of month (01 through 31)|   |Thh|two-digit hour (00 through 23, 24-hour time)|   |mm|two digits of minutes (00 through 59)|   |ss|two digits of seconds (00 through 59)|   |s|one or more digits representing a decimal fraction of a second|   |TZD|time zone designator (Z or +hh:mm or -hh:mm)|</source>
+          <target state="translated">| Właściwość | Opis elementu | Przykład |   |----------------|-----------------|-------------|   | RRRR | Rok | 2005 |   | RRRR MM | Rok i miesiąc | 2005-07 |   | RRRR MM-DD | Data ukończenia | 2005-07-28 |   | RRRR-MM-DDThh:mmTZD | Zakończenie daty i godziny i minuty | 2005-07-28T19:20-01:00 |   | RRRR-MM-DDThh:mm:ssTZD | Zakończenie daty i godziny, minuty i sekundy | 2005-07-28T19:20:45-01:00 |   | RRRR MM-DDThh:mm:ss.sTZD| Zakończenie daty i godziny, minuty i sekundy z ułamek dziesiętny | 2005-07-28T19:20:45.75-01:00 |       gdzie: |||   |-|-|   | RRRR | czterocyfrowy rok (na przykład 2006) |   | MM | dwucyfrowe miesiąc (01 stycznia =) |   | DD | dwucyfrowe dzień miesiąca (01 do 31) |   | Thh | dwucyfrowe godzina (00 do 23, 24-godzinnym) |   | mm | dwie cyfry minut (00 do 59) |   | ss | dwie cyfry sekund (od 00 do 59) |   | s | co najmniej jedną cyfrę reprezentujący ułamek dziesiętny sekundy |   | TZD | oznaczeniem strefy czasowej (Z lub + GG: mm lub - hh: mm) |</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The format of the date and time returned by the &lt;xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt; property.</source>
+          <target state="translated">Format daty i godziny zwrócony przez &lt;xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt;Właściwości.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.SigningTime*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Verifies the digital signature against an X.509 certificate.</source>
+          <target state="translated">Weryfikuje podpis cyfrowy względem certyfikatu X.509.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method verifies the signature against an embedded X.509 certificate stored in the &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">Ta metoda sprawdza podpis przed osadzony certyfikat X.509 przechowywane w &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the verification succeeded; otherwise, one of the <bpt id="p2">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> values that identifies a problem.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli weryfikacja zakończyła się pomyślnie; w przeciwnym razie wartość spośród <bpt id="p2">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wartości, które identyfikuje problem.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Verifies the digital signature against a given X.509 certificate.</source>
+          <target state="translated">Weryfikuje podpis cyfrowy względem danego certyfikatu X.509.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The signer's X.509 certificate to verify the digital signature against.</source>
+          <target state="translated">Certyfikat X.509 podpisującej można zweryfikować podpisu cyfrowego przed.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the verification succeeded; otherwise, one of the <bpt id="p2">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> values that identifies a problem.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli weryfikacja zakończyła się pomyślnie; w przeciwnym razie wartość spośród <bpt id="p2">&lt;xref href="System.IO.Packaging.VerifyResult"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wartości, które identyfikuje problem.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The digital &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt; has been deleted.</source>
+          <target state="translated">Cyfrowego &lt;xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;został usunięty.&lt;/xref:System.IO.Packaging.PackageDigitalSignature.Signature*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

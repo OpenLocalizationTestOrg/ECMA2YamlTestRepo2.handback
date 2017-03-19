@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c231658a86f40d1ab2b69484646ccdd23473e80f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.RSAParameters.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c737308c0a5f238757327e5981329ce6bc01408</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58371a00afa2079ec926141aaf065a8450d99356</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the standard parameters for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示的标准参数<bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.RSA&gt; class exposes an &lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; method that enables you to retrieve the raw RSA key in the form of an RSAParameters structure.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.RSA&gt;类会公开&lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt;方法，可用于检索 RSAParameters 结构的窗体中的原始 RSA 密钥。&lt;/xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; &lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understanding the contents of this structure requires familiarity with how the &lt;xref:System.Security.Cryptography.RSA&gt; algorithm works.</source>
+          <target state="translated">了解此结构的内容，将需要熟悉如何&lt;xref:System.Security.Cryptography.RSA&gt;算法的工作原理。&lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The next section discusses the algorithm briefly.</source>
+          <target state="translated">下一步部分简要讨论算法。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>RSA Algorithm    To generate a key pair, you start by creating two large prime numbers named p and q.</source>
+          <target state="translated">RSA 算法复制到生成的密钥对，你首先创建两个名为 p 和 q 的大型质数。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These numbers are multiplied and the result is called n.</source>
+          <target state="translated">这两个数相乘和的结果称为 n。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because p and q are both prime numbers, the only factors of n are 1, p, q, and n.</source>
+          <target state="translated">因为 p 和 q 都是质数，n 是 1、 p、 q 和 n 的唯一因素。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If we consider only numbers that are less than n, the count of numbers that are relatively prime to n, that is, have no factors in common with n, equals (p - 1)(q - 1).</source>
+          <target state="translated">如果我们认为少于 n 个的数字的数字是质数为 n，也就是说，计数具有任何因素共同点 n，等于 (p-1)(q-1)。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Now you choose a number e, which is relatively prime to the value you calculated.</source>
+          <target state="translated">现在您选择在多少 e，这是质数计算所得的值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The public key is now represented as {e, n}.</source>
+          <target state="translated">中的公共密钥现在表示为 {e、 n}。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To create the private key, you must calculate d, which is a number such that (d)(e) mod (p - 1)(q - 1) = 1.</source>
+          <target state="translated">若要创建的私钥，必须计算 d，是一个数字以便 (d)(e) mod (p-1)(q-1) = 1。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In accordance with the Euclidean algorithm, the private key is now {d, n}.</source>
+          <target state="translated">根据欧几里得算法，私有密钥现在是 {d，n}。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Encryption of plaintext m to ciphertext c is defined as c = (m ^ e) mod n.</source>
+          <target state="translated">加密的纯文本 m 到已加密文本 c 定义为 c = (m ^ e) mod n。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Decryption would then be defined as m = (c ^ d) mod n.</source>
+          <target state="translated">解密然后都将定义为 m = (c ^ d) mod n。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Summary of Fields    Section A.1.2 of the <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept> on the RSA Laboratories Web site defines a format for RSA private keys.</source>
+          <target state="translated">摘要字段部分 A.1.2 的<bpt id="p1">[</bpt>PKCS #1: RSA 加密标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>在 RSA Laboratories Web 上找到站点定义的 RSA 私钥格式。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following table summarizes the fields of the RSAParameters structure.</source>
+          <target state="translated">下表总结了 RSAParameters 结构的字段。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The third column provides the corresponding field in section A.1.2 of <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>.</source>
+          <target state="translated">第三个列提供部分 A.1.2 中的对应字段的<bpt id="p1">[</bpt>PKCS #1: RSA 加密标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>|RSAParameters field|Contains|Corresponding PKCS #1 field|   |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|   |&lt;xref:System.Security.Cryptography.RSAParameters.D&gt;|d, the private exponent|privateExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;|d mod (p - 1)|exponent1|   |&lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;|d mod (q - 1)|exponent2|   |&lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;|e, the public exponent|publicExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;|(InverseQ)(q) = 1 mod p|coefficient|   |&lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;|n|modulus|   |&lt;xref:System.Security.Cryptography.RSAParameters.P&gt;|p|prime1|   |&lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;|q|prime2|       The security of RSA derives from the fact that, given the public key { e, n }, it is computationally infeasible to calculate d, either directly or by factoring n into p and q.</source>
+          <target state="translated">|RSAParameters 字段 |包含 |相应的 PKCS #1 字段 |  |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|  |&lt;xref:System.Security.Cryptography.RSAParameters.D&gt;| d，专用指数 | privateExponent |  |&lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;| d mod (p-1) | exponent1 |  |&lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;| d mod (q-1) | exponent2 |  |&lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;| e、 公共指数 | publicExponent |  |&lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;|(InverseQ)（q） = 1 mod p | 系数 |  |&lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;| n | 取模 |  |&lt;xref:System.Security.Cryptography.RSAParameters.P&gt;| p | prime1 |  |&lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;| q | prime2 |      RSA 安全派生自这一事实，给定公钥 {e、 n}，它无法以直接或通过将 n 分解到 p 和问︰ 计算 d，计算方式&lt;/xref:System.Security.Cryptography.RSAParameters.Q&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.P&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.DQ&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.DP&gt;&lt;/xref:System.Security.Cryptography.RSAParameters.D&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Therefore, any part of the key related to d, p, or q must be kept secret.</source>
+          <target state="translated">因此，与 d、 p 或 q 相关的任何的密钥部分必须是保密。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you call       &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt; and ask for only the public key information, this is why you will receive only &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt; and &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;.</source>
+          <target state="translated">如果调用&lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;，并仅将公共密钥的信息要求这就是为什么你将收到只有&lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;和&lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;。&lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The other fields are available only if you have access to the private key, and you request it.</source>
+          <target state="translated">仅当你有权访问私钥，且你请求，将可使用其他字段。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>RSAParameters is not encrypted in any way, so you must be careful when you use it with the private key information.</source>
+          <target state="translated">RSAParameters 不会加密以任何方式，因此在使用私钥信息时必须小心。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In fact, none of the fields that contain private key information can be serialized.</source>
+          <target state="translated">事实上，包含私钥信息的字段均不可以进行序列化。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you try to serialize an RSAParameters structure with a remoting call or by using one of the serializers, you will receive only public key information.</source>
+          <target state="translated">如果尝试序列化 RSAParameters 结构通过远程处理调用，或通过使用一个序列化程序，你将收到仅公共密钥信息。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you want to pass private key information, you will have to manually send that data.</source>
+          <target state="translated">如果你想要将传递私钥信息，你将需要手动将该数据的发送。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In all cases, if anyone can derive the parameters, the key that you transmit becomes useless.</source>
+          <target state="translated">在所有情况下，如果任何人都可以是派生的参数，您传输的密钥将毫无用处。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">表示<bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数<bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>算法。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
