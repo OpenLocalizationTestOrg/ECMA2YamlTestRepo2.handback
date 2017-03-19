@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3c4d32798479b92dd9b5f2f0afaecd87bce6ada</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d185d010fc4cb83ca6f3433b4485cd2a597f778d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1539eab434c1817e69b823ac966b2008dc66360</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a persistence service that uses a SQL database to store workflow state information.</source>
+          <target state="translated">Rappresenta un servizio di persistenza che utilizza un database SQL per archiviare informazioni sullo stato del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The SqlWorkflowPersistenceService class represents a fully-functional persistence service.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>La classe SqlWorkflowPersistenceService rappresenta un servizio di persistenza completamente funzionale.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this service out-of-box to persist and retrieve workflow state information about a workflow instance when requested to by the workflow runtime engine.</source>
+          <target state="translated">È possibile utilizzare questo servizio out-of-box per rendere persistenti e recuperare informazioni sullo stato del flusso di lavoro su un'istanza del flusso di lavoro, quando richiesto dal motore di runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlWorkflowPersistenceService participates in the workflow transaction batching functionality provided by the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.</source>
+          <target state="translated">La funzionalità di invio in batch delle transazioni del flusso di lavoro fornita da &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; fa parte di SqlWorkflowPersistenceService</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, it adds objects that represent pending writes to the SQL database to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; and implements the &lt;xref:System.Workflow.Runtime.IPendingWork&gt; interface.</source>
+          <target state="translated">Vale a dire, aggiunge gli oggetti che rappresentano in sospeso vengono scritti nel database SQL per il &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;e implementa il &lt;xref:System.Workflow.Runtime.IPendingWork&gt;interfaccia.&lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlWorkflowPersistenceService supports locking of workflow instances.</source>
+          <target state="translated">Il SqlWorkflowPersistenceService supporta il blocco delle istanze del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This feature is used when several workflow runtimes share the same database.</source>
+          <target state="translated">Questa funzionalità viene utilizzata quando diversi runtime del flusso di lavoro condividono lo stesso database.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A column in the SQL database table is used to mark a workflow instance as locked whenever it is being used by a workflow runtime.</source>
+          <target state="translated">Una colonna nella tabella di database SQL viene utilizzata per contrassegnare un'istanza del flusso di lavoro come bloccata ogni volta che viene utilizzato da un runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlWorkflowPersistenceService does not load a workflow instance that is marked as "in use" by another runtime.</source>
+          <target state="translated">Il SqlWorkflowPersistenceService non carica un'istanza del flusso di lavoro che è contrassegnata come "in uso" da un altro runtime.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically these locks are released when the workflow instance is persisted, for example, on idle, completion, or termination.</source>
+          <target state="translated">In genere questi blocchi vengono rilasciati quando l'istanza del flusso di lavoro è persistente, ad esempio, su inattivo, completamento o chiusura.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The locks can also be released automatically after a period of inactivity.</source>
+          <target state="translated">I blocchi possono essere rilasciati anche automaticamente dopo un periodo di inattività.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This period of inactivity can be set using the constructor of the SqlWorkflowPersistenceService class.</source>
+          <target state="translated">In questo periodo di inattività può essere impostato utilizzando il costruttore della classe SqlWorkflowPersistenceService.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also be set through the configuration file.</source>
+          <target state="translated">Può inoltre essere impostato tramite il file di configurazione.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph> persistence services in general, see the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt; class.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph>servizi di persistenza in generale, vedere la &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt;classe.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Workflow instances can contain timers, for example, if they have a &lt;xref:System.Workflow.Activities.DelayActivity&gt;.</source>
+          <target state="translated">Le istanze del flusso di lavoro possono contenere timer, ad esempio, se hanno un &lt;xref:System.Workflow.Activities.DelayActivity&gt;.&lt;/xref:System.Workflow.Activities.DelayActivity&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For workflows that contain timers, the SqlWorkflowPersistenceService records the time when the workflow's next timer expires.</source>
+          <target state="translated">Per i flussi di lavoro che contengono timer, il SqlWorkflowPersistenceService registra l'ora di scadenza timer successivo del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlWorkflowPersistenceService periodically polls the database, looking for workflows whose timers have expired.</source>
+          <target state="translated">Il SqlWorkflowPersistenceService esegue periodicamente il polling del database, cercando flussi di lavoro i cui timer sono scaduti.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The frequency of the polling interval can be set using the SqlWorkflowPersistenceService constructor or using a configuration file.</source>
+          <target state="translated">Utilizzando il costruttore SqlWorkflowPersistenceService o tramite un file di configurazione, è possibile impostare la frequenza dell'intervallo di polling.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When using both the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; and the SqlWorkflowPersistenceService in a workflow application, it is recommended to use a single database for both persistence and tracking.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Quando si utilizzano i &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;e SqlWorkflowPersistenceService in un'applicazione flusso di lavoro, è consigliabile utilizzare un unico database per la persistenza e rilevamento.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified parameters.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizzando i parametri specificati.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is invoked when the workflow runtime engine loads services from an application configuration file.</source>
+          <target state="translated">Questo costruttore viene richiamato quando il motore di runtime del flusso di lavoro Carica servizi da un file di configurazione dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also be programmatically invoked with the <ph id="ph1">`NameValueCollection`</ph> parameter.</source>
+          <target state="translated">Può anche essere richiamato a livello di codice con il <ph id="ph1">`NameValueCollection`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid parameters are <ph id="ph1">`ConnectionString`</ph>, <ph id="ph2">`OwnershipTimeoutSeconds`</ph>, <ph id="ph3">`UnloadOnIdle`</ph>, and <ph id="ph4">`EnableRetries`</ph>.</source>
+          <target state="translated">I parametri validi sono <ph id="ph1">`ConnectionString`</ph>, <ph id="ph2">`OwnershipTimeoutSeconds`</ph>, <ph id="ph3">`UnloadOnIdle`</ph>, e <ph id="ph4">`EnableRetries`</ph>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.ArgumentException&gt; is thrown if parameters contain any other keys.</source>
+          <target state="translated">Un &lt;xref:System.ArgumentException&gt;viene generata se i parametri contengono altre chiavi.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains startup parameters.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene i parametri di avvio.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph> contains an invalid database connection string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph>contiene una stringa di connessione di database non valido.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parameters &lt;/code&gt;</ph>is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parameters &lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the database connection string.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe usando la stringa di connessione di database.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A valid database connection string.</source>
+          <target state="translated">Una stringa di connessione di database valido.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionString&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionString&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a database connection string and other parameters.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizzando una stringa di connessione di database e altri parametri.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that using this constructor (which provides a value for <ph id="ph1">`instanceOwnershipDuration`</ph>) enables locking.</source>
+          <target state="translated">Si noti che utilizza questo costruttore (che fornisce un valore per <ph id="ph1">`instanceOwnershipDuration`</ph>) abilita il blocco.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a persistence service that does not enable locking, use a different constructor that does not specify <ph id="ph1">`instanceOwnershipDuration`</ph>.</source>
+          <target state="translated">Per creare un servizio di persistenza che non abilita il blocco, utilizzare un costruttore diverso che non specifica <ph id="ph1">`instanceOwnershipDuration`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A valid database connection string.</source>
+          <target state="translated">Una stringa di connessione di database valido.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to unload the workflow when it is in an idle state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per scaricare il flusso di lavoro quando è in uno stato di inattività.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The length of time that locks are maintained on idle workflows.</source>
+          <target state="translated">Il periodo di tempo che vengono mantenuti i blocchi su flussi di lavoro inattivi.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The frequency at which the persistence service polls the database for workflows with expired timers.</source>
+          <target state="translated">La frequenza con cui il servizio di persistenza esegue il polling del database per i flussi di lavoro con timer scaduti.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionString&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionString&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets and sets a value that specifies whether the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> retries committing a work batch.</source>
+          <target state="translated">Ottiene e imposta un valore che specifica se il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tentativi di esecuzione di un batch di lavoro.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following work items cannot be batched and any transaction retries must be handled through the <ph id="ph1">`EnableRetries`</ph> property:      -   Polling for expired database timers.</source>
+          <target state="translated">I seguenti elementi di lavoro non possono essere eseguiti in batch e qualsiasi tentativo di transazione deve essere gestito tramite il <ph id="ph1">`EnableRetries`</ph> proprietà:-il Polling dei timer del database scaduti.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Loading workflow instance states.</source>
+          <target state="translated">-Durante il caricamento di stati dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Reloading workflow instances when the workflow run-time engine starts.</source>
+          <target state="translated">-Ricaricare le istanze del flusso di lavoro quando il motore di runtime del flusso di lavoro viene avviato.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calling &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.GetAllWorkflows%2A&gt;.</source>
+          <target state="translated">-Chiamata &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.GetAllWorkflows%2A&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.GetAllWorkflows%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Besides being set programmatically, this functionality can be enabled through a configuration file.</source>
+          <target state="translated">Oltre a essere impostata a livello di programmazione, questa funzionalità può essere abilitata tramite un file di configurazione.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph> how to set this property through a configuration file, see <bpt id="p1">[</bpt>Workflow Configuration Files<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph>come impostare questa proprietà tramite un file di configurazione, vedere <bpt id="p1">[</bpt>i file di configurazione del flusso di lavoro<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For general information about retrying work batch transactions, see <bpt id="p1">[</bpt>Batching State Information in Workflows<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>.</source>
+          <target state="translated">Per informazioni generali sul nuovo tentativo di transazioni di batch di lavoro, vedere <bpt id="p1">[</bpt>informazioni sullo stato dell'invio in batch nei flussi di lavoro<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should retry committing the work batch; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il servizio deve ritentare l'esecuzione del commit del batch di lavoro; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Retrieves instance descriptions of all persisted workflows.</source>
+          <target state="translated">Recupera le descrizioni di tutti i flussi di lavoro persistente dell'istanza.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A list of all persisted workflows.</source>
+          <target state="translated">Un elenco di tutti i flussi di lavoro persistente.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Retrieves the specified completed scope from the database.</source>
+          <target state="translated">Recupera l'ambito completato specificato dal database.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine uses LoadCompletedContextActivity during compensation.</source>
+          <target state="translated">Il motore di runtime del flusso di lavoro utilizza LoadCompletedContextActivity durante la compensazione.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>LoadCompletedContextActivity should only be called by the workflow run-time engine.</source>
+          <target state="translated">LoadCompletedContextActivity deve essere chiamato solo dal motore di runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the scope activity.</source>
+          <target state="translated">Il &lt;xref:System.Guid&gt;attività di ambiti.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encloses the scope activity.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che racchiude l'attività di ambiti.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the completed scope.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'ambito completato.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A scope that matches <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> could not be found in the database.</source>
+          <target state="translated">Un ambito che corrisponde a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> non è stata trovata nel database.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Retrieves a list of ids for workflows with expired timers.</source>
+          <target state="translated">Recupera un elenco di ID per i flussi di lavoro con timer scaduti.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A list of ids for workflows with expired timers.</source>
+          <target state="translated">Un elenco di ID per flussi di lavoro con timer scaduti.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the length of the loading interval.</source>
+          <target state="translated">Ottiene la lunghezza dell'intervallo di caricamento.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 2 minutes.</source>
+          <target state="translated">Il valore predefinito è 2 minuti.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The frequency at which the persistence service polls the database for workflows with expired timers.</source>
+          <target state="translated">La frequenza con cui il servizio di persistenza esegue il polling del database per i flussi di lavoro con timer scaduti.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Retrieves the specified workflow instance state from the database.</source>
+          <target state="translated">Recupera lo stato dell'istanza del flusso di lavoro specificato dal database.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>LoadWorkflowInstanceState should only be called by the workflow run-time engine.</source>
+          <target state="translated">LoadWorkflowInstanceState deve essere chiamato solo dal motore di runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance state.</source>
+          <target state="translated">Il &lt;xref:System.Guid&gt;dello stato dell'istanza del flusso di lavoro.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root activity of the workflow instance.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'attività radice dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A workflow instance state that matches <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> could not be found in the database.</source>
+          <target state="translated">Stato di un'istanza del flusso di lavoro che corrisponde a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> non è stata trovata nel database.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Starts a new timer and recovers running workflow instances.</source>
+          <target state="translated">Avvia un nuovo timer e recupera le istanze del flusso di lavoro in esecuzione.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Saves the state of the specified completed scope.</source>
+          <target state="translated">Salva lo stato dell'ambito completato specificato.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`completedScopeActivity`</ph> is serialized and added to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated"><ph id="ph1">`completedScopeActivity`</ph>viene serializzato e aggiunto a &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the completed scope.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'ambito completato.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Saves the specified workflow instance state.</source>
+          <target state="translated">Salva lo stato dell'istanza del flusso di lavoro specificato.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`rootActivity`</ph> is serialized and written to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated"><ph id="ph1">`rootActivity`</ph>viene serializzato e scritto &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The out-of-box &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; implements locking of the workflow instance state.</source>
+          <target state="translated">Out-of-box &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;implementa il blocco del flusso di lavoro stato dell'istanza.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user must configure the <ph id="ph1">`instanceOwnershipDuration`</ph> parameter in the constructor.</source>
+          <target state="translated">L'utente deve configurare il <ph id="ph1">`instanceOwnershipDuration`</ph> parametro nel costruttore.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value decides the time interval during which the instance can be locked by a host.</source>
+          <target state="translated">Questo valore decide l'intervallo di tempo durante il quale l'istanza può essere bloccata da un host.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If multiple hosts share the same persistence service and database, and another host tries to load the instance during this interval, a &lt;xref:System.Workflow.Runtime.WorkflowOwnershipException&gt; occurs.</source>
+          <target state="translated">Se più host condividono lo stesso servizio di persistenza e lo stesso database e un altro host tenta di caricare l'istanza durante questo intervallo, un &lt;xref:System.Workflow.Runtime.WorkflowOwnershipException&gt;si verifica.&lt;/xref:System.Workflow.Runtime.WorkflowOwnershipException&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph> the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt; class.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph>la &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt;classe.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The root activity of the workflow instance.</source>
+          <target state="translated">L'attività radice dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow instance should not be locked; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the workflow instance should be locked.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'istanza del flusso di lavoro non deve essere bloccato. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se l'istanza del flusso di lavoro deve essere bloccato.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the service instance identifier.</source>
+          <target state="translated">Ottiene l'identificatore dell'istanza del servizio.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`Guid.Empty`</ph>.</source>
+          <target state="translated">Il valore predefinito è <ph id="ph1">`Guid.Empty`</ph>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The service instance identifier.</source>
+          <target state="translated">L'identificatore dell'istanza del servizio.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Starts the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Avvia il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Start must only be called by the workflow run-time engine.</source>
+          <target state="translated">Inizio deve essere chiamato solo dal motore di runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Stops the service and the timer.</source>
+          <target state="translated">Arresta il servizio e il timer.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Writes an &lt;xref:System.Collections.ICollection&gt; of serialized state objects to the database.</source>
+          <target state="translated">Scrive un &lt;xref:System.Collections.ICollection&gt;oggetti di stato serializzati nel database.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialized state objects that are contained in <ph id="ph1">`items`</ph> are written to the database.</source>
+          <target state="translated">Gli oggetti di stato serializzati contenuti in <ph id="ph1">`items`</ph> vengono scritti nel database.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.ICollection&gt; of work items to be written to the database.</source>
+          <target state="translated">Il &lt;xref:System.Collections.ICollection&gt;di elementi di lavoro da scrivere nel database.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to write to the database.</source>
+          <target state="translated">Si è verificato un errore durante il tentativo di scrivere nel database.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Completes the work batch and releases any resources.</source>
+          <target state="translated">Completamento del batch di lavoro e rilascia qualsiasi risorsa.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the out-of-box implementation of the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;,       &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt; is a no-op.</source>
+          <target state="translated">Nell'implementazione di &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt;è un risultato no-op&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; out-of-box</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you inherit from and extend the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; class, you may use &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt; to perform any actions required on <ph id="ph1">`items`</ph> dictated by your implementation.</source>
+          <target state="translated">Se eredita da ed estendere il &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;(classe), è possibile utilizzare &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt;per eseguire qualsiasi azione richiesta su <ph id="ph1">`items`</ph> dipende dall'implementazione.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Complete%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the commit succeeded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il commit riesce. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of serialized state objects.</source>
+          <target state="translated">Un &lt;xref:System.Collections.ICollection&gt;oggetti di stato serializzati.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the collection of serialized state objects should be written to the database.</source>
+          <target state="translated">Restituisce un valore che indica se la raccolta di oggetti di stato serializzati deve essere scritta nel database.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit%2A&gt; always returns <ph id="ph1">`true`</ph>, which instructs the workflow run-time engine to invoke &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Commit%2A&gt; on the batch.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit%2A&gt;Restituisce sempre <ph id="ph1">`true`</ph>, che indica al motore di runtime del flusso di lavoro di richiamare &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Commit%2A&gt;sul batch.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.Commit%2A&gt;&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of serialized state objects to be written to the database.</source>
+          <target state="translated">Un &lt;xref:System.Collections.ICollection&gt;oggetti di stato serializzati da scrivere nel database.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicates that the batch should be committed; &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit*&gt; always returns <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>indica che il batch deve essere eseguito il commit. &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit*&gt;restituisce sempre <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.System.Workflow.Runtime.IPendingWork.MustCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the workflow is unloaded when it is in an idle state.</source>
+          <target state="translated">Restituisce un valore che indica se il flusso di lavoro viene scaricato quando è in uno stato di inattività.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root activity of the workflow instance.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'attività radice dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow is unloaded when it is in an idle state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il flusso di lavoro viene scaricato quando è in uno stato inattivo; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Unlocks access to the specified workflow instance state.</source>
+          <target state="translated">Sblocca l'accesso allo stato dell'istanza del flusso di lavoro specificato.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by the workflow runtime to unlock a workflow instance state in the data store without persistence and is called by the workflow runtime if the runtime must unlock the state without persisting, for example, in the case of an &lt;xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt;.</source>
+          <target state="translated">Questo metodo viene utilizzato dal runtime del flusso di lavoro per sbloccare uno stato dell'istanza del flusso di lavoro nell'archivio dati senza persistenza e viene chiamato dal runtime del flusso di lavoro se il runtime deve sbloccare lo stato senza renderlo persistente, ad esempio, nel caso di un &lt;xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root activity of the workflow instance.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'attività radice dell'istanza del flusso di lavoro.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

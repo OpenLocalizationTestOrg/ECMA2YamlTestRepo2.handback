@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3abe19725c02ecc4b4800a8438430c82743c4e4e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.DeadLetterQueue.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba88c4c289429cd35e68f184fda09c7641c7b9d8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ca4d178d517ca191056895d986502b448f027c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the type of dead-letter queue to be used.</source>
+          <target state="translated">Geeft het type van de wachtrij voor onbestelbare berichten moeten worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dead-letter queue is a queue on the queue manager of the sending application for expired messages that have failed to be delivered.</source>
+          <target state="translated">De wachtrij voor onbestelbare berichten is een wachtrij op de wachtrijbeheerder van de verzendende toepassing voor verlopen berichten die niet worden bezorgd.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeadLetterQueue enumeration specifies the type of dead-letter queue to use.</source>
+          <target state="translated">De opsomming DeadLetterQueue geeft het type van de wachtrij voor onbestelbare berichten te gebruiken.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values are:      -   None: No dead-letter queue is required.</source>
+          <target state="translated">De waarden zijn:-geen: Er is geen wachtrij voor onbestelbare berichten is vereist.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a message fails delivery, no record of it is maintained in the dead-letter queue.</source>
+          <target state="translated">Als een bericht bezorging is mislukt, is geen record van deze wordt bijgehouden in de wachtrij voor onbestelbare berichten.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default value when &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Dit is de standaardinstelling waarde wanneer &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;is ingesteld op <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   System: The system-wide, dead-letter queue is used to record messages that fail delivery.</source>
+          <target state="translated">-Systeem: De wachtrij met het hele systeem, onbestelbare berichten wordt gebruikt voor het vastleggen van berichten die niet voldoen aan levering.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MSMQ has a transactional, system, dead-letter queue and a non-transactional, system, dead-letter queue to record expired messages that failed delivery from transactional and non-transactional queues, respectively.</source>
+          <target state="translated">MSMQ is een transactionele, systeem, wachtrij voor onbestelbare berichten en een niet-transactionele, systeem, wachtrij voor onbestelbare berichten verlopen berichten die levering transactionele en niet-transactionele wachtrijen, respectievelijk niet vastleggen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default value when &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt; is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Dit is de standaardinstelling waarde wanneer &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;is ingesteld op <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Custom: The queue specified in the &lt;xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt; is used to record messages that fail delivery.</source>
+          <target state="translated">-Aangepaste: De opgegeven wachtrij de &lt;xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt;wordt gebruikt voor berichten in de record die niet voldoen aan levering.&lt;/xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A message can fail to reach the receiving application for any of the following reasons:      -   A transactional message is sent to a non-transactional queue.</source>
+          <target state="translated">Een bericht niet kan bereiken van de ontvangende toepassing voor een van de volgende oorzaken hebben:-een transactioneel bericht wordt verzonden naar een niet-transactionele wachtrij.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A non-transactional message is sent to a transactional queue.</source>
+          <target state="translated">-Een niet-transactionele bericht wordt verzonden naar een transactionele wachtrij.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An unauthenticated message is sent to a queue that accepts only authenticated messages.</source>
+          <target state="translated">-Een niet-geverifieerde bericht is verzonden naar een wachtrij alleen geverifieerde berichten accepteert.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An unencrypted message is sent to a queue that accepts only encrypted messages.</source>
+          <target state="translated">-Een niet-versleutelde bericht is verzonden naar een wachtrij die alleen versleutelde berichten accepteert.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The message's time-to-live value expires before the message is delivered to a receiver.</source>
+          <target state="translated">-Time-to-live de bericht-waarde is verlopen voordat het bericht wordt geleverd aan een ontvanger.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The message storage quota of the target computer or the storage quota of the destination queue is exceeded, or there is no available storage space on the target computer when the message arrives.</source>
+          <target state="translated">-De bericht-opslagquotum van de doelcomputer of de opslaglimiet van de doelwachtrij is overschreden of er geen opslagruimte beschikbaar is op de doelcomputer wanneer het bericht aankomt.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The sender does not have the <bpt id="p1">[</bpt>access rights<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=96167)</ept> required to place the message in the destination queue.</source>
+          <target state="translated">-De afzender niet over de <bpt id="p1">[</bpt>toegangsrechten<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=96167)</ept> vereist voor het bericht in de doelwachtrij plaatsen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The digital signature attached to the message is not valid.</source>
+          <target state="translated">-De digitale handtekening die is gekoppeld aan het bericht is niet geldig.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An encrypted message cannot be decrypted by the destination queue manager.</source>
+          <target state="translated">-Een gecodeerd bericht kan niet worden ontsleuteld door de wachtrijbeheerder van de bestemming.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The destination queue is purged or deleted before the message is retrieved.</source>
+          <target state="translated">-De doelwachtrij is opgeschoond of verwijderd voordat het bericht wordt opgehaald.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Custom dead-letter queue.</source>
+          <target state="translated">Aangepaste wachtrij met onbestelbare berichten.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No dead-letter queue is to be used.</source>
+          <target state="translated">Er is geen wachtrij voor onbestelbare berichten wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use the system-wide, dead-letter queue.</source>
+          <target state="translated">Het hele systeem, onbestelbare wachtrij gebruiken.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

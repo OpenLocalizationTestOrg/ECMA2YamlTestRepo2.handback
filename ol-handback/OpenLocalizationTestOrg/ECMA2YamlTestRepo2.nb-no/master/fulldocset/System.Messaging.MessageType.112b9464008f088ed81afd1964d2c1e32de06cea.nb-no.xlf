@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33301b58e9960ac55c750df9b1eb56dd13de84be</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageType.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0af104dbdc56f6c30d83c3c820f616df78a64845</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5fec6749d4ff288574619989b2b37b653ef4a1c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the type of a message.</source>
+          <target state="translated">Identifiserer en melding.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A message can be a typical Message Queuing message, a positive (arrival and read) or negative (arrival and read) acknowledgment message, or a report message.</source>
+          <target state="translated">En melding kan være et vanlig Message Queuing-melding, et positivt (overgangen og lese) eller negativt (overgangen og lese) bekreftelse melding eller en rapportmelding.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typical (<ph id="ph1">`Normal`</ph> type) messages are those that you send to a queue using either the &lt;xref:System.Messaging.Message&gt; class or any overload of the &lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Vanlige (<ph id="ph1">`Normal`</ph> typen) meldinger er de som du sender til en kø ved hjelp av den &lt;xref:System.Messaging.Message&gt;klasse eller en overbelastning av den &lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing generates acknowledgment messages whenever the sending application requests one.</source>
+          <target state="translated">Message Queuing genererer bekreftelsesmeldinger når avsenderprogrammet ber om en.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you send a message using the &lt;xref:System.Messaging.Message&gt; class, you can use its &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property to specify the types of acknowledgments to receive.</source>
+          <target state="translated">Hvis du sender en melding ved hjelp av &lt;xref:System.Messaging.Message&gt;klasse, kan du bruke den &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;til å angi hvilke typer bekreftelser til å motta.&lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, Message Queuing can generate positive or negative messages to indicate that the original message arrived or was read.</source>
+          <target state="translated">Message Queuing kan for eksempel generere positivet eller negativt meldinger for å angi at den opprinnelige meldingen ankom eller ble lest.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing returns the appropriate acknowledgment message to the administration queue specified by the sending application.</source>
+          <target state="translated">Message Queuing returnerer riktig bekreftelsesmelding administrasjonskøen angitt av avsenderprogrammet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you receive or peek an acknowledgment message using a &lt;xref:System.Messaging.Message&gt;, its &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt; property indicates the reason Message Queuing sent the acknowledgment.</source>
+          <target state="translated">Når du mottar eller Kikk på en bekreftelse melding med en &lt;xref:System.Messaging.Message&gt;, den &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt;egenskapen angir årsak Message Queuing sendt bekreftelsen.&lt;/xref:System.Messaging.Message.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing generates report messages whenever a report queue is defined at the source queue manager.</source>
+          <target state="translated">Message Queuing genererer rapportmeldinger når en rapportkø er definert på købehandlingen kilde.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When tracing is enabled (by setting the &lt;xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt; property on the original message), Message Queuing sends a report message to the Message Queuing report queue each time the original message enters or leaves a Message Queuing server.</source>
+          <target state="translated">Når sporing er aktivert (ved å angi den &lt;xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt;egenskap i den opprinnelige meldingen), Message Queuing sender en rapportmelding til rapportkøen Message Queuing hver gang den opprinnelige meldingen aktiverer eller deaktiverer Message Queuing-server.&lt;/xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An acknowledgment message.</source>
+          <target state="translated">En bekreftelsesmelding.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A normal Message Queuing message.</source>
+          <target state="translated">En vanlig Message Queuing-melding.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A report message.</source>
+          <target state="translated">En rapportmelding som.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

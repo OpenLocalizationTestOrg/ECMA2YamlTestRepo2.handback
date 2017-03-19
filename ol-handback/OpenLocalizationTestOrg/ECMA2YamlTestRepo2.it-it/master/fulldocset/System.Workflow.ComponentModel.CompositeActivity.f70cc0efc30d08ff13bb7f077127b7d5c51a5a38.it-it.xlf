@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45509a7426e84d888cee6a962fbb91f86e89af64</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.CompositeActivity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5023f31c74a0e0424baa9465de91480ad5683be6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c0de478275512c5e4ce609cd867a91824fb70d8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Derivative of <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the base class for all activities that contain other activities.</source>
+          <target state="translated">Derivativo di <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che è la classe base per tutte le attività contenenti altre attività.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A CompositeActivity is responsible for managing the execution of its child activities.</source>
+          <target state="translated">Una CompositeActivity è responsabile per la gestione dell'esecuzione delle relative attività figlio.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A CompositeActivity manages the execution of its child activities using &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt; class methods and events defined on the &lt;xref:System.Workflow.ComponentModel.Activity&gt; class.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>Una CompositeActivity gestisce l'esecuzione di attività figlio utilizzando &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;metodi della classe e gli eventi definiti nella &lt;xref:System.Workflow.ComponentModel.Activity&gt;classe.&lt;/xref:System.Workflow.ComponentModel.Activity&gt; &lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a child activity is scheduled for execution using the &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt; of &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;.</source>
+          <target state="translated">Ad esempio, un'attività figlio è pianificata per l'esecuzione usando &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt; &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt; &lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A CompositeActivity activity can be notified when a child activity completes its execution by subscribing to the &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt; event defined on &lt;xref:System.Workflow.ComponentModel.Activity&gt;.</source>
+          <target state="translated">Un'attività CompositeActivity può ricevere notifiche quando un'attività figlio completa l'esecuzione per la sottoscrizione all' &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt;evento definito in &lt;xref:System.Workflow.ComponentModel.Activity&gt;.&lt;/xref:System.Workflow.ComponentModel.Activity&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Closed&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime enforces certain constraints on CompositeActivity execution, the most fundamental of which is that a CompositeActivity activity cannot move to the &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt; state if any child activities are still in a &lt;xref:System.Workflow.ComponentModel.Activity.Executing&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Canceling&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Compensating&gt;, or &lt;xref:System.Workflow.ComponentModel.Activity.Faulting&gt;, state.</source>
+          <target state="translated">Il runtime del flusso di lavoro applica alcuni vincoli sull'esecuzione di CompositeActivity, il più importante dei quali è che un'attività CompositeActivity non può spostare il &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt;se qualsiasi attività figlio si trova ancora nello stato di un &lt;xref:System.Workflow.ComponentModel.Activity.Executing&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Canceling&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Compensating&gt;, o &lt;xref:System.Workflow.ComponentModel.Activity.Faulting&gt;, stato.&lt;/xref:System.Workflow.ComponentModel.Activity.Faulting&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Compensating&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Canceling&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Executing&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Closed&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from an &lt;xref:System.Object&gt; which implements the &lt;xref:System.Collections.IEnumerable&gt; interface with type <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inizializza una nuova istanza del <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe da un &lt;xref:System.Object&gt;che implementa il &lt;xref:System.Collections.IEnumerable&gt;interfaccia con il tipo <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; implementing the &lt;xref:System.Collections.IEnumerable&gt; interface with type <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il &lt;xref:System.Object&gt;che implementa il &lt;xref:System.Collections.IEnumerable&gt;interfaccia con il tipo <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, along with the name for that activity.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (classe), insieme al nome dell'attività.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The name for the instance.</source>
+          <target state="translated">Il nome per l'istanza.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the object representing the collection, <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, of all child activities.</source>
+          <target state="translated">Ottiene l'oggetto che rappresenta la raccolta, <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, di tutte le attività figlio.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Represents the collection of child activities managed by the composite activity.</source>
+          <target state="translated">Rappresenta la raccolta delle attività figlio gestita dall'attività composita.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This collection can be updated.</source>
+          <target state="translated">Questa raccolta può essere aggiornata.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of all child activities.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>di tutte le attività figlio.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Applies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> manifest in the parameter to this instance.</source>
+          <target state="translated">Si applica il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> manifesto nel parametro per questa istanza.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to apply.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da applicare.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowChanges&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowChanges&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value which controls whether the individual activities within &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; can be modified.</source>
+          <target state="translated">Ottiene o imposta un valore che controlla se le singole attività all'interno di &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;può essere modificato.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the individual activities within &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; can be modified; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se le singole attività all'interno di &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;può essere modificata; in caso contrario <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Calls &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose<bpt id="p1">*</bpt>&gt; on this instance, and optionally calls &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose<ept id="p1">*</ept>&gt; on all child activities of this instance.</source>
+          <target state="translated">Chiamate &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; su questa istanza e facoltativamente chiama &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; in tutte le attività figlio di questa istanza.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Throughout an activity's lifetime, several .NET objects may be created or disposed.</source>
+          <target state="translated">Per tutta la durata di un'attività, diversi oggetti .NET possono essere creati o eliminati.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every time a workflow instance is unloaded from memory, the .NET objects corresponding to the activities in the workflow tree are disposed (the &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt; method is called on each activity).</source>
+          <target state="translated">Ogni volta che un'istanza del flusso di lavoro viene scaricata dalla memoria, gli oggetti .NET corrispondenti alle attività nell'albero del flusso di lavoro vengono eliminati (il &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt;metodo viene chiamato su ogni attività).&lt;/xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the workflow instance is loaded back into memory, a new .NET object is created for each activity with the state from the corresponding unload.</source>
+          <target state="translated">Quando l'istanza del flusso di lavoro viene caricata in memoria, viene creato un nuovo oggetto .NET per ogni attività con lo stato conseguente lo scaricamento corrispondente.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources used by this instance and all child activities of this instance; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only the unmanaged resources of this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per rilasciare le risorse gestite e non gestite utilizzate dall'istanza e tutte le attività figlio di questa istanza; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per rilasciare solo le risorse non gestite di questa istanza.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the read-only collection that represents the subset of &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; that are enabled.</source>
+          <target state="translated">Ottiene la raccolta di sola lettura che rappresenta il sottoinsieme delle &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;che sono abilitati.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The read-only collection that represents the subset of &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; that are enabled.</source>
+          <target state="translated">La raccolta di sola lettura che rappresenta il sottoinsieme di &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;che sono abilitati.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns an array that contains all of the currently executing instances of the specified activity.</source>
+          <target state="translated">Restituisce una matrice che contiene tutte le istanze dell'attività specificata attualmente in esecuzione.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Specificato <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An array of activity instances that are currently executing.</source>
+          <target state="translated">Matrice di istanze di attività attualmente in esecuzione.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Called when an exception is raised within the context of the execution of this instance.</source>
+          <target state="translated">Chiamato quando viene generata un'eccezione all'interno del contesto di esecuzione di questa istanza.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this instance.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per questa istanza.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; that caused this fault.</source>
+          <target state="translated">Il &lt;xref:System.Exception&gt;che ha causato l'errore.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that results from an attempt to cancel this instance.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> risultante dal tentativo di annullamento di questa istanza.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes all appropriate child activities of this instance and the specified &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">Inizializza tutte le attività figlio appropriate di questa istanza e specificata &lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The specified &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">Specificata &lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Calls when an activity is added.</source>
+          <target state="translated">Chiamato quando viene aggiunta un'attività.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Specificato <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Specificato <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;addedActivity&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;addedActivity&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Called when an activity is removed.</source>
+          <target state="translated">Chiamato quando viene rimossa un'attività.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Current implementation provides no functionality.</source>
+          <target state="translated">Implementazione corrente non fornisce alcuna funzionalità.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Specificato <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Specificato <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine every time the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this activity is loaded.</source>
+          <target state="translated">Chiamato dal motore di runtime del flusso di lavoro ogni volta il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per questa attività viene caricata.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">Un &lt;xref:System.Object&gt;che implementa &lt;xref:System.IServiceProvider&gt;e fornisce servizi a questa istanza.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine every time the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this activity is unloaded.</source>
+          <target state="translated">Chiamato dal motore di runtime del flusso di lavoro ogni volta il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per questa attività viene scaricata.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">Un &lt;xref:System.Object&gt;che implementa &lt;xref:System.IServiceProvider&gt;e fornisce servizi a questa istanza.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Performs additional processing when the &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; property changes.</source>
+          <target state="translated">Esegue un'elaborazione aggiuntiva quando la &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;le modifiche alle proprietà.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollectionChangeEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> broadcast by the event.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollectionChangeEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> trasmesso dall'evento.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Event that occurs before a change being made to the underlying &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;.</source>
+          <target state="translated">Evento che si verifica prima di una modifica apportata al &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; sottostante</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.EventArgs&gt; relating to the event.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;relativi all'evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Called after changes have been made to the collection &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; of this instance.</source>
+          <target state="translated">Chiamato dopo che sono state apportate modifiche alla raccolta &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;di questa istanza.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When overridden in a derived class, provides processing for this event.</source>
+          <target state="translated">Quando sottoposto a override in una classe derivata, fornisce l'elaborazione di questo evento.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this instance.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associata a questa istanza.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine when an activity transitions into the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">Chiamato dal motore di runtime del flusso di lavoro quando un'attività esegue la transizione di <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dello stato dal <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> stato.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used for activity cleanup, such as clearing dependency properties and deleting queues.</source>
+          <target state="translated">Questo metodo viene utilizzato per attività di pulizia, quali la cancellazione delle proprietà di dipendenza e l'eliminazione di code.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">Un &lt;xref:System.Object&gt;che implementa &lt;xref:System.IServiceProvider&gt;e fornisce servizi a questa istanza.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

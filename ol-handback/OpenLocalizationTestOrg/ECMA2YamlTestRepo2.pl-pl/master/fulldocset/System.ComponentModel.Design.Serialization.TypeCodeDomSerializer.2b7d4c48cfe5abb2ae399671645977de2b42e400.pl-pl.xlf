@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51a0d5ce91f2a5965601d5393328e3271f62cda2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0178b1f2a3c59ca8bd08cf7f0849f6e5924d039</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6316eb7a14139e3850c25c65a9b2cfcf556f0720</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes an object to a new type.</source>
+          <target state="translated">Serializuje obiekt do nowego typu.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TypeCodeDomSerializer class performs the same tasks as a &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;, but serializing an object through this class defines a new type.</source>
+          <target state="translated">Klasa TypeCodeDomSerializer wykonuje te same zadania jako &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;, ale szeregowania obiektu za pomocą tej klasy definiuje nowy typ.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.TypeCodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.TypeCodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Deserializes the given type declaration.</source>
+          <target state="translated">Deserializuje deklaracji danego typu.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Deserialize method deserializes a previously serialized code type declaration.</source>
+          <target state="translated">Metoda Deserialize deserializuje deklaracji typu kodu wcześniej serializacji.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the tasks default implementation performs.</source>
+          <target state="translated">Poniższa tabela przedstawia wykonuje domyślną implementację zadania.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Task|Description|   |----------|-----------------|   |Case Sensitivity Checks|The implementation searches for a &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt; service to decide if it should treat members as case sensitive or case insensitive.|   |Statement Sorting|All member variables and local variables from init methods are stored in a table.</source>
+          <target state="translated">| Zadanie | Opis elementu |   |----------|-----------------|   | Przypadek kontroli czułości | Implementacja szuka usługi &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;zdecydować, czy elementy Członkowskie powinny traktować jako wielkość liter lub bez uwzględniania wielkości liter. |   | Sortowanie instrukcji | Wszystkie zmienne Członkowskie i zmienne lokalne z metody init są przechowywane w tabeli.&lt;/xref:System.CodeDom.Compiler.CodeDomProvider&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then each statement in an init method is added to a statement collection grouped according to its left-hand side, so all statements assigning or operating on a particular variable are grouped under that variable.</source>
+          <target state="translated">Każda instrukcja metody init jest dodawana do kolekcji instrukcji pogrupowane według jego po lewej stronie, aby wszystkie deklaracje Przypisywanie lub działających na konkretnej zmiennej są zgrupowane w tej zmiennej.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Variables that have no statements are discarded.|   |Deserialization|The statement collections for each variable are deserialized according to the variable.|       The following table shows the services the Deserialize method requires.</source>
+          <target state="translated">Zmienne, które mają żadnych instrukcji zostaną odrzucone. |   | Deserializacja | Kolekcje instrukcji dla każdej zmiennej są rozszeregować zgodnie ze zmienną. |       W poniższej tabeli przedstawiono usługi, które wymaga metody Deserialize.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;|While not strictly necessary, the service, if available, is used to determine if the serialization should be case sensitive or case insensitive.|   |&lt;xref:System.ComponentModel.IContainer&gt;|If an object does not exist in the name table during deserialization, a query for &lt;xref:System.ComponentModel.IContainer&gt; is made.</source>
+          <target state="translated">| Usługa | Opis elementu |   |-------------|-----------------|   | &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;| Gdy nie niezbędne, usługi, jeśli jest dostępna, służy do określania Jeśli serializacji powinny być uwzględniana wielkość liter lub bez uwzględniania wielkości liter. |   | &lt;xref:System.ComponentModel.IContainer&gt;| Jeśli obiekt nie istnieje w tabeli nazw podczas deserializacji, zapytanie dotyczące &lt;xref:System.ComponentModel.IContainer&gt;staje się.&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this query succeeds, the container is checked for the object.</source>
+          <target state="translated">Jeśli ta kwerenda zakończy się powodzeniem, kontener jest sprawdzany pod kątem obiektu.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The container is also used as a stand-in for any container argument needed by components.|</source>
+          <target state="translated">Kontener jest również używany jako elementu zastępczego argumentu kontenera, wymagane przez składniki. |</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The serialization manager to use for serialization.</source>
+          <target state="translated">Tego menedżera serializacji do użycia na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Type declaration to use for serialization.</source>
+          <target state="translated">Deklaracji do użycia na potrzeby serializacji typu.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The root object.</source>
+          <target state="translated">Główny obiekt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Returns the method where statements used to serialize a member are stored.</source>
+          <target state="translated">Zwraca metodę przechowywania instrukcje służący do serializowania elementu członkowskiego.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetInitializeMethod method returns the method to emit all of the initialization code for the given member.</source>
+          <target state="translated">Metoda GetInitializeMethod zwraca metodę, aby emitować cały kod inicjowania dla danego elementu członkowskiego.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns an empty constructor.</source>
+          <target state="translated">Domyślna implementacja zwraca pustego konstruktora.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the same method is to be returned for multiple values, the same instance of the method should be returned.</source>
+          <target state="translated">Jeśli ta sama metoda jest zwracana dla wielu wartości, to samo wystąpienie metody ma zostać zwrócony.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.CodeDom.CodeObject.UserData%2A?displayProperty=fullName&gt; dictionary to remember methods you have created.</source>
+          <target state="translated">Można użyć &lt;xref:System.CodeDom.CodeObject.UserData%2A?displayProperty=fullName&gt;słownika do zapamiętania metod, które zostały utworzone.&lt;/xref:System.CodeDom.CodeObject.UserData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`typeDecl`</ph> parameter can also be used to add infrastructure methods.</source>
+          <target state="translated"><ph id="ph1">`typeDecl`</ph> Parametr można również dodać metod infrastruktury.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you want to emit a separate method for each object, you need a single method that calls all of these methods in turn.</source>
+          <target state="translated">Na przykład jeśli chcesz Emituj oddzielnych metodach dla każdego obiektu, należy pojedynczej metody, która wywołuje wszystkie te metody z kolei.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be added to the code type declaration as needed.</source>
+          <target state="translated">Tej metody można dodać do deklaracji typu kodu, w razie potrzeby.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The serialization manager to use for serialization.</source>
+          <target state="translated">Tego menedżera serializacji do użycia na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The type declaration to use for serialization.</source>
+          <target state="translated">Deklaracja typu na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The value to use for serialization.</source>
+          <target state="translated">Wartość do użycia na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The method used to emit all of the initialization code for the given member.</source>
+          <target state="translated">Metoda używana do wysyłania cały kod inicjowania dla danego elementu członkowskiego.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns an array of methods to be interpreted during deserialization.</source>
+          <target state="translated">Zwraca tablicę metod, które należy interpretować podczas deserializacji.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns a single-element array with the constructor in it.</source>
+          <target state="translated">Domyślna implementacja zwraca tablicą jednego elementu z konstruktora.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The serialization manager to use for serialization.</source>
+          <target state="translated">Tego menedżera serializacji do użycia na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The type declaration to use for serialization.</source>
+          <target state="translated">Deklaracja typu na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeMemberMethod"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array of methods to be interpreted during deserialization.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeMemberMethod"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tablicy metod, które należy interpretować podczas deserializacji.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;typeDecl&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Serializes the object root by creating a new type declaration that defines root.</source>
+          <target state="translated">Serializuje obiekt główny, tworząc nowe deklaracji typu, która definiuje katalogu głównego.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Serialize method serializes the given root object and optional collection of members to create a new type definition.</source>
+          <target state="translated">Metoda serializacja wykonuje serializację obiektu danego głównego i opcjonalne kolekcję elementów, aby utworzyć nową definicję typu.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`members`</ph> collection contains values, these values are serialized.</source>
+          <target state="translated">Jeśli <ph id="ph1">`members`</ph> kolekcja zawiera wartości, te wartości są serializowane.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values themselves may serialize as either member variables or local variables.</source>
+          <target state="translated">Same wartości może serializować jako zmienne Członkowskie lub zmiennych lokalnych.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This determination is done by searching for an extender property on the object called <ph id="ph1">`GenerateMember`</ph>.</source>
+          <target state="translated">To jest realizowane przez wyszukiwanie właściwości rozszerzeń dla obiektu o nazwie <ph id="ph1">`GenerateMember`</ph>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`true`</ph>, a member is generated.</source>
+          <target state="translated">Jeśli <ph id="ph1">`true`</ph>, generowany jest elementem członkowskim.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a local variable is generated.</source>
+          <target state="translated">W przeciwnym razie wartość zmiennej lokalnej jest generowany.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, the <ph id="ph1">`members`</ph> collection can contain the root object.</source>
+          <target state="translated">Dla wygody <ph id="ph1">`members`</ph> Kolekcja może zawierać obiektu głównego.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the root object is not also added as a member or local variable.</source>
+          <target state="translated">W takim przypadku główny obiekt nie jest również dodać jako elementu członkowskiego lub zmiennej lokalnej.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the returned type is taken from the root object’s name, if it was a named object.</source>
+          <target state="translated">Nazwa zwróconego typu jest pobierana z nazwy obiektu głównego, jeśli był nazwanego obiektu.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not, a name is fabricated from the simple type name of the root class.</source>
+          <target state="translated">Jeśli nie, nazwę jest wykonane z nazwy typu prostego klasy głównym.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the tasks performed by the default implementation of the Serialize method.</source>
+          <target state="translated">W poniższej tabeli przedstawiono zadania wykonywane przez domyślną implementację metody serializacja.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Task|Description|   |----------|-----------------|   |Context Seeding|The serialization context is initialized with data including the &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt; and &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;|   |Member Serialization|Next, Serialize walks all of the members and calls &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt;.</source>
+          <target state="translated">| Zadanie | Opis elementu |   |----------|-----------------|   | Wstępne wypełnianie kontekstu | Kontekst serializacji jest inicjowany z danych w tym &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;i &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;|   | Serializacja elementu członkowskiego | Następnie przeprowadzi wszystkie elementy członkowskie i wywołania &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt; serializacja&lt;/xref:System.CodeDom.CodeTypeDeclaration&gt; &lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because serialization is done opportunistically in &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt;, this ensures that serialization is not done twice.|   |Root Serialization|Next, the root object is serialized and its statements are added to the statement collection.|   |Statement Integration|After all objects are serialized, the Serialize method orders the statements and adds them to a method returned from &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt;.</source>
+          <target state="translated">Ponieważ serializacja jest wykonywana tylko wtedy w &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt;, gwarantuje to, że serializacji nie jest wykonywane dwukrotnie. |   | Główny serializacji | Następnie serializowany jest obiekt główny i jego instrukcje są dodawane do kolekcji instrukcji. |   | Integracja instrukcji | Po wszystkie obiekty są serializowane, metoda serializacja porządkuje instrukcje i dodaje je do metody zwrócony z &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, a constructor is fabricated that calls all of the methods returned from &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt;.|      -       The following table shows the objects the Serialize method places on the context stack.</source>
+          <target state="translated">Na koniec jest wykonane konstruktora, który wywołuje wszystkie metody zwrócony z &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt;. |      — W poniższej tabeli przedstawiono obiekty miejsca metody serializacja na stos kontekstu.&lt;/xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer.GetInitializeMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Instance|Description|   |--------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt;|This serializer.</source>
+          <target state="translated">| Wystąpienie | Opis elementu |   |--------------|-----------------|   | &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt;| Ten serializator.&lt;/xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deriving classes may find it useful to add public properties to this class.|   |&lt;xref:System.CodeDom.CodeTypeDeclaration&gt;|The type being created.</source>
+          <target state="translated">Wyprowadzanie klas może być przydatna w celu dodania właściwości publicznej do tej klasy. |   | &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;| Typ tworzonego.&lt;/xref:System.CodeDom.CodeTypeDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most objects do not need direct access to this.|</source>
+          <target state="translated">Większość obiektów nie są bezpośredni dostęp do tego. |</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The serialization manager to use for serialization.</source>
+          <target state="translated">Tego menedżera serializacji do użycia na potrzeby serializacji.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">Obiekt do zserializowania.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Optional collection of members.</source>
+          <target state="translated">Opcjonalne kolekcji elementów członkowskich.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">Może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub jest pusty.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeDeclaration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the root object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeDeclaration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> definiuje obiekt główny.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;root&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;root&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

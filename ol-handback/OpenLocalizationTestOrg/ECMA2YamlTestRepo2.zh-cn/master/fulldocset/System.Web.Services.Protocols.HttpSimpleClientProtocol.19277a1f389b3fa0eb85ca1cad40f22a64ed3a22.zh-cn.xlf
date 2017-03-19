@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b352603427619325e2d92555cf414618fd3aada</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.HttpSimpleClientProtocol.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ccc46b0861f5768930a4b6cd8fe4e30bd96bc3a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cdf76f50c251430b28698b0fb769e1ea97ed0281</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base class for communicating with an XML Web service using the simple HTTP-GET and HTTP-POST protocols bindings.</source>
+          <target state="translated">表示用于与使用简单的 HTTP GET 和 HTTP POST 协议绑定的 XML Web 服务进行通信的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class specifies most of the implementation for communicating with an XML Web service over HTTP using encoders to encode the parameters and return values into common MIME formats.</source>
+          <target state="translated">此类指定大部分用于通过 HTTP 使用编码器进行编码的参数和返回值转换常见 MIME 格式与 XML Web 服务进行通信的实现。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These encoders derive from the &lt;xref:System.Web.Services.Protocols.MimeFormatter&gt; class.</source>
+          <target state="translated">这些编码器派生&lt;xref:System.Web.Services.Protocols.MimeFormatter&gt;类。&lt;/xref:System.Web.Services.Protocols.MimeFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>By default, a proxy class deriving from HttpSimpleClientProtocol encodes parameters using the application/x-www-form-urlencoded MIME type and the response in plain XML.</source>
+          <target state="translated">默认情况下，从 HttpSimpleClientProtocol 派生的代理类将编码在纯 XML 中使用的应用程序/x-响应客户-窗体-urlencoded MIME 类型和响应的参数。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Custom mime formatters can be specified using the &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt; attribute, however, there is no support for integrating this into a service description and proxy generation.</source>
+          <target state="translated">可以使用指定自定义的 mime 格式化程序&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;属性，但是，没有将其集成到服务说明和代理生成的支持。&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Notes to Inheritors:`</ph> When you override this class, you can introduce methods in the derived class that are specific to a particular type of an XML Web service.</source>
+          <target state="translated"><ph id="ph1">`Notes to Inheritors:`</ph>当你重写此类时，可引入派生类中特定于特定类型的 XML Web 服务的方法。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The methods simply capture the parameters, and call the base class to do the work of communicating with the site.</source>
+          <target state="translated">方法只需捕获参数，并调用基类，来执行与站点通信的工作。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the introduced methods are asynchronous, call the &lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke%2A&gt; and &lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke%2A&gt; methods.</source>
+          <target state="translated">引入的方法是异步的如果调用&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke%2A&gt;和&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke%2A&gt; &lt;/xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the introduced methods are synchronous, call the &lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.Invoke%2A&gt; method.</source>
+          <target state="translated">引入的方法是同步的如果调用&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.Invoke%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The overridden constructor typically sets the &lt;xref:System.Web.Services.Protocols.WebClientProtocol.Url%2A&gt; property to the URI of the XML Web service method.</source>
+          <target state="translated">重写构造函数通常设置&lt;xref:System.Web.Services.Protocols.WebClientProtocol.Url%2A&gt;到 XML Web service 方法的 URI 的属性。&lt;/xref:System.Web.Services.Protocols.WebClientProtocol.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Web Services Description Language tool (Wsdl.exe) generates derived classes of HttpSimpleClientProtocol for a given Service Description.</source>
+          <target state="translated">为给定的服务说明，Web 服务描述语言工具 (Wsdl.exe) 生成 HttpSimpleClientProtocol 派生的的类。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.HttpSimpleClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.HttpSimpleClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Starts an asynchronous invocation of a method of an XML Web service.</source>
+          <target state="translated">启动异步调用的 XML Web 服务的方法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`methodName`</ph> parameter is used to find the types of the parameters and return values of the method that is invoking the BeginInvoke method.</source>
+          <target state="translated"><ph id="ph1">`methodName`</ph>参数用于查找的参数类型和返回值调用 BeginInvoke 方法的方法。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is also used to find custom attributes that may have been added to the method.</source>
+          <target state="translated">它还用于查找可能已添加到该方法的自定义属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt;, &lt;xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt;, and &lt;xref:System.Xml.Serialization.XmlElementAttribute&gt; provide additional information on the derived method that is required for the HTTP protocol.</source>
+          <target state="translated">&lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt;&lt;xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt;，和&lt;xref:System.Xml.Serialization.XmlElementAttribute&gt;派生方法所需的 HTTP 协议提供其他信息。&lt;/xref:System.Xml.Serialization.XmlElementAttribute&gt; &lt;/xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt;&lt;/xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`asyncState`</ph> is passed into <ph id="ph2">`callback`</ph> and is included in the &lt;xref:System.IAsyncResult&gt; that is returned from the BeginInvoke method.</source>
+          <target state="translated"><ph id="ph1">`asyncState`</ph>传递到<ph id="ph2">`callback`</ph>并且包含在&lt;xref:System.IAsyncResult&gt;从 BeginInvoke 方法返回。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It is useful for passing information from the context of the asynchronous call to the handling of the asynchronous result in <ph id="ph1">`callback`</ph>.</source>
+          <target state="translated">它可用于将信息从对中的异步结果的处理的异步调用的上下文中传递<ph id="ph1">`callback`</ph>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name of the XML Web service method.</source>
+          <target state="translated">XML Web service 方法的名称。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The URL to use when creating the &lt;xref:System.Net.WebRequest&gt;.</source>
+          <target state="translated">要在创建&lt;xref:System.Net.WebRequest&gt;.&lt;/xref:System.Net.WebRequest&gt;时使用的 URL</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the parameters to pass to the XML Web service method.</source>
+          <target state="translated">包含要传递到 XML Web service 方法的参数的对象的数组。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The order of the values in the array corresponds to the order of the parameters in the calling method of the derived class.</source>
+          <target state="translated">在派生类调用方法中的参数顺序对应数组中的值的顺序。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the asynchronous method call is complete.</source>
+          <target state="translated">要在异步方法调用已完成时调用的委托。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`callback`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the delegate is not called.</source>
+          <target state="translated">如果<ph id="ph1">`callback`</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，不会调用的委托。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The additional information supplied by a client.</source>
+          <target state="translated">客户端提供的其他信息。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that can be passed to the &lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke*&gt; method to obtain the return values from the XML Web service method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;，可以传递给&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke*&gt;方法来获取从 XML Web service 方法的返回值。&lt;/xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.EndInvoke*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The request reached the server computer, but was not processed successfully.</source>
+          <target state="translated">请求到达服务器计算机上，但未成功处理。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Completes asynchronous invocation of an XML Web service method using HTTP.</source>
+          <target state="translated">完成异步调用 XML Web 服务方法使用 HTTP。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned from the &lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;从返回&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke*&gt;方法。&lt;/xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the return value and any by reference or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">out</ph><ept id="p1">&lt;/code&gt;</ept> parameters for the XML Web service method.</source>
+          <target state="translated">包含返回值和任何按引用对象的数组或<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">out</ph> <ept id="p1">&lt;/code&gt;</ept>参数 XML Web 服务方法。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> is not the return value from the <ph id="ph2">&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke*&gt;</ph> method.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>不是中的返回值<ph id="ph2">&lt;xref:System.Web.Services.Protocols.HttpSimpleClientProtocol.BeginInvoke*&gt;</ph>方法。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Invokes an XML Web service method using HTTP.</source>
+          <target state="translated">调用 XML Web 服务方法使用 HTTP。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`methodName`</ph> parameter is used to find the types of the parameters and return values of the method that is invoking the Invoke method.</source>
+          <target state="translated"><ph id="ph1">`methodName`</ph>参数用于查找的参数类型和返回值调用 Invoke 方法的方法。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It is also used to find custom attributes which may have been added to the method.</source>
+          <target state="translated">它还用于查找自定义属性添加到该方法。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt; and &lt;xref:System.Xml.Serialization.XmlElementAttribute&gt; provide additional information on the derived method that is required for the SOAP protocol.</source>
+          <target state="translated">&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;和&lt;xref:System.Xml.Serialization.XmlElementAttribute&gt;派生方法所需的 SOAP 协议提供其他信息。&lt;/xref:System.Xml.Serialization.XmlElementAttribute&gt;&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name of the XML Web service method in the derived class that is invoking the Invoke method.</source>
+          <target state="translated">在调用 Invoke 方法的派生类中的 XML Web 服务方法的名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The URL of the XML Web service method that the client is requesting.</source>
+          <target state="translated">客户端正在请求的 XML Web 服务方法的 URL。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the parameters to pass to the remote XML Web service.</source>
+          <target state="translated">包含要传递到远程的 XML Web 服务的参数的对象的数组。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The order of the values in the array corresponds to the order of the parameters in the calling method of the derived class.</source>
+          <target state="translated">在派生类调用方法中的参数顺序对应数组中的值的顺序。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the return value and any by-reference or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">out</ph><ept id="p1">&lt;/code&gt;</ept> parameters of the derived class method.</source>
+          <target state="translated">包含返回值和任何引用的对象的数组或<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">out</ph> <ept id="p1">&lt;/code&gt;</ept>的派生的类方法的参数。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The request reached the server computer, but was not processed successfully.</source>
+          <target state="translated">请求到达服务器计算机上，但未成功处理。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Invokes the specified method asynchronously.</source>
+          <target state="translated">以异步方式调用指定的方法。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The name of the method to invoke.</source>
+          <target state="translated">要调用的方法的名称。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The request URL of the invoked web service.</source>
+          <target state="translated">调用的 web 服务的请求 URL。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The parameters to pass to the method.</source>
+          <target state="translated">要传递给方法的参数。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The delegate called when the method invocation has completed.</source>
+          <target state="translated">当方法调用尚未完成时，将调用委托。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Invokes the specified method asynchronously while maintaining an associated state.</source>
+          <target state="translated">同时保持关联的状态以异步方式调用指定的方法。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The name of the method to invoke.</source>
+          <target state="translated">要调用的方法的名称。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The request URL of the invoked web service.</source>
+          <target state="translated">调用的 web 服务的请求 URL。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The parameters to pass to the method.</source>
+          <target state="translated">要传递给方法的参数。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The delegate called when the method invocation has completed.</source>
+          <target state="translated">当方法调用尚未完成时，将调用委托。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An object containing associated state information that is passed to the <ph id="ph1">`callback`</ph> delegate when the method has completed.</source>
+          <target state="translated">一个对象，其中包含关联状态信息传递给<ph id="ph1">`callback`</ph>时已完成的方法的委托。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

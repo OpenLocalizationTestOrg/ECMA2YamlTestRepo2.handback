@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">189542aedb51f4d3adb04936be56db8504c793f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">323155dda4f7e407e26f8366ea9a6988b93df005</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d43d22ac2c9688487600bcb56ce48e6f6f6030b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a way to expose a custom <bpt id="p1">&lt;xref href="System.Runtime.Caching.FileChangeMonitor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a cache implementation.</source>
+          <target state="translated">Definiuje sposób ujawniać niestandardowego <bpt id="p1">&lt;xref href="System.Runtime.Caching.FileChangeMonitor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu implementacji pamięci podręcznej.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In ASP.NET, the IFileChangeNotificationSystem interface provides access to internal file-change notification management.</source>
+          <target state="translated">W programie ASP.NET interfejs IFileChangeNotificationSystem zapewnia dostęp do zarządzania powiadomień wewnętrznych zmianę pliku.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IFileChangeNotificationSystem interface is used internally by the &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class.</source>
+          <target state="translated">Interfejs IFileChangeNotificationSystem jest używana wewnętrznie przez &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;klasę.&lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a cache implementation runs in an ASP.NET application domain, ASP.NET implements an IFileChangeNotificationSystem interface through the &lt;xref:System.Runtime.Caching.ObjectCache.Host%2A&gt; property.</source>
+          <target state="translated">Po uruchomieniu implementację buforu w domenie aplikacji ASP.NET, ASP.NET implementuje interfejs IFileChangeNotificationSystem za pośrednictwem &lt;xref:System.Runtime.Caching.ObjectCache.Host%2A&gt;Właściwości.&lt;/xref:System.Runtime.Caching.ObjectCache.Host%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class detects this property and uses the ASP.NET file-change notification system to evict cache entries based on file-change notification.</source>
+          <target state="translated">&lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;Klasy wykrywa tej właściwości i używa systemu powiadomień platformy ASP.NET zmianę pliku, aby wykluczyć wpisy w pamięci podręcznej oparte na powiadomienia o zmianie pliku.&lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In non-ASP.NET applications, there is no host environment that implements a custom IFileChangeNotificationSystem interface.</source>
+          <target state="translated">W aplikacji ASP.NET nie nie ma nie środowisku hosta, który implementuje interfejs IFileChangeNotificationSystem niestandardowy.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, the &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class uses the &lt;xref:System.IO.FileSystemWatcher&gt; class of the CLR.</source>
+          <target state="translated">W związku z tym &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;klasy używa &lt;xref:System.IO.FileSystemWatcher&gt;klasy CLR.&lt;/xref:System.IO.FileSystemWatcher&gt; &lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registers a file path to monitor with the host environment.</source>
+          <target state="translated">Rejestruje ścieżkę pliku do monitorowania środowiska hosta.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by custom cache objects and custom change monitors that implement the host environment's &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt; interface in order to register file paths for monitoring with the host environment.</source>
+          <target state="translated">Ta metoda jest używana przez obiekty niestandardowe pamięci podręcznej i niestandardowe zmienić monitory, które implementują środowisku hosta &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;interfejs do zarejestrowania ścieżki plików do monitorowania za pomocą środowiska hosta.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StartMonitoring method is called by implementers of the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt; interface in order to register a file or directory for change monitoring.</source>
+          <target state="translated">Metoda StartMonitoring jest wywoływana przez implementacje z &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;interfejs do zarejestrowania plik lub katalog do monitorowania zmian.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The fully qualified physical path of a directory or file to monitor for changes.</source>
+          <target state="translated">Pełna ścieżka fizyczna katalogu lub pliku do monitorowania zmian.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A reference to a method that implements the <bpt id="p1">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate.</source>
+          <target state="translated">Odwołanie do metody, która implementuje <bpt id="p1">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegowanie.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the monitored file or directory changes, the host environment's implementation of the <bpt id="p1">&lt;xref href="System.Runtime.Caching.Hosting.IFileChangeNotificationSystem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface raises an event by calling the <bpt id="p2">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Monitorowane pliku lub katalogu zmiany, wdrożenia w środowisku hosta <bpt id="p1">&lt;xref href="System.Runtime.Caching.Hosting.IFileChangeNotificationSystem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interfejsu zgłasza zdarzenie, wywołując <bpt id="p2">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The state that is supplied by the host environment.</source>
+          <target state="translated">Stan, która jest dostarczana przez środowisko hosta.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cache implementations and custom change monitors should treat the state value as opaque.</source>
+          <target state="translated">Implementacje pamięci podręcznej i monitory niestandardowe zmiany powinny traktować jako nieprzezroczyste wartość stanu.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, the state must be stored so that it can be sent to the host environment when the cache implementation calls the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt; method.</source>
+          <target state="translated">Jednak musi być przechowywany stan, aby mógł zostać wysłany do środowiska hosta podczas wywołania implementację buforu &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt;metody.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the last date and time that a write operation occurred on <ph id="ph1">`filePath`</ph>.</source>
+          <target state="translated">Po powrocie z tej metody zawiera ostatnich Data i godzina wystąpienia operacji zapisu na <ph id="ph1">`filePath`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ten parametr jest przekazywany jako niezainicjowany.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This parameter is returned from the host environment.</source>
+          <target state="translated">Ten parametr jest zwracana w środowisku hosta.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total size of the monitored <ph id="ph1">`filePath`</ph>.</source>
+          <target state="translated">Po powrocie z tej metody zawiera łączny rozmiar monitorowanych <ph id="ph1">`filePath`</ph>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ten parametr jest przekazywany jako niezainicjowany.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This parameter is returned from the host environment.</source>
+          <target state="translated">Ten parametr jest zwracana w środowisku hosta.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ends change monitoring.</source>
+          <target state="translated">Kończy się zmienić monitorowania.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StopMonitoring method must be called by custom caches and custom change monitors that are being disposed by the host environment in order to stop monitoring file paths and directories.</source>
+          <target state="translated">Metoda StopMonitoring musi zostać wywołana przez niestandardowe pamięci podręcznych i monitory niestandardowe zmiany, które usuwany przez środowisko hosta, aby zatrzymać monitorowanie ścieżki do plików i katalogów.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The path of the file or folder to stop monitoring.</source>
+          <target state="translated">Ścieżka pliku lub folderu, aby zatrzymać monitorowanie.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This should match a file path value that was passed in an earlier call to the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt; method.</source>
+          <target state="translated">Powinna odpowiadać wartości ścieżki pliku, który został przekazany w wywołaniu wcześniejszych &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;metody.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The state information that was originally supplied by the host environment during an earlier call to the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt; method.</source>
+          <target state="translated">Informacje o stanie, który pierwotnie został dostarczony przez środowisko hosta podczas wywołania wcześniejszych &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;metody.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
