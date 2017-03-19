@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0705198e620b4a2a170fc979c981db08213c2c87</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.WindowsAuthenticationModule.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a83f7005d06a7aa804636fc463df23d16defef2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c12fced380a1f299d02818684b98beb5d52a15c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Sets the identity of the user for an ASP.NET application when Windows authentication is enabled.</source>
+          <target state="translated">Angir identiteten til brukeren om en ASP.NET-programmet når Windows-godkjenning er aktivert.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Denne klassen kan ikke arves.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the authentication &lt;xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt; is set to &lt;xref:System.Web.Configuration.AuthenticationMode&gt;, the WindowsAuthenticationModule sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; to an &lt;xref:System.Security.Principal.IPrincipal&gt; object that represents the Windows identity supplied by IIS for the current request.</source>
+          <target state="translated">Når godkjenningen &lt;xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt;er satt til &lt;xref:System.Web.Configuration.AuthenticationMode&gt;, WindowsAuthenticationModule angir den &lt;xref:System.Web.HttpContext.User%2A&gt;for gjeldende &lt;xref:System.Web.HttpContext&gt;til en &lt;xref:System.Security.Principal.IPrincipal&gt;objektet som representerer Windows-ID som er angitt av IIS for gjeldende forespørsel.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Configuration.AuthenticationMode&gt; &lt;/xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If IIS uses anonymous authentication, then the WindowsAuthenticationModule uses the identity returned by the &lt;xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt; method.</source>
+          <target state="translated">Hvis IIS bruker for anonym godkjenning, vil WindowsAuthenticationModule bruker identiteten som ble returnert av den &lt;xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt;metoden.&lt;/xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WindowsAuthenticationModule exposes an &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt; event that enables you to provide a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object for the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">WindowsAuthenticationModule viser en &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;hendelsen som gjør det mulig å angi et egendefinert &lt;xref:System.Security.Principal.IPrincipal&gt;objekt for &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen for gjeldende &lt;xref:System.Web.HttpContext&gt;.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt; event is accessed by specifying a subroutine named <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> in the Global.asax file for your ASP.NET application.</source>
+          <target state="translated">Den &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;hendelsen brukes ved å angi en underrutine navnet <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> i filen Global.asax for ASP.NET-program.&lt;/xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In IIS 7.0, using the WindowsAuthenticationModule class with the &lt;xref:System.Web.Security.FormsAuthenticationModule&gt; class is not supported.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I IIS 7.0, ved hjelp av WindowsAuthenticationModule klassen med den &lt;xref:System.Web.Security.FormsAuthenticationModule&gt;klassen støttes ikke.&lt;/xref:System.Web.Security.FormsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about compatibility issues in Integrated mode, see <bpt id="p1">[</bpt>Moving an ASP.NET Application from IIS 6.0 to IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon om kompatibilitetsproblemer i integrert modus, se <bpt id="p1">[</bpt>flytter en ASP.NET-programmet fra IIS 6.0 til IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Oppretter en forekomst av den <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be called from application code.</source>
+          <target state="translated">Denne konstruktøren skal ikke kalles fra programmet kode.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET calls this constructor to create an instance of the &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; class.</source>
+          <target state="translated">ASP.NET kaller denne konstruktøren for å opprette en forekomst av &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;klassen.&lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling the constructor, it calls the &lt;xref:System.Web.Security.WindowsAuthenticationModule.Init%2A&gt; method to initialize the new &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; object.</source>
+          <target state="translated">Etter kall til konstruktøren, kaller den &lt;xref:System.Web.Security.WindowsAuthenticationModule.Init%2A&gt;metode for å initialisere den nye &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;objektet.&lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationModule.Init%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Occurs when the application authenticates the current request.</source>
+          <target state="translated">Forekommer når programmet godkjenner til gjeldende forespørsel.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate event is raised during the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event.</source>
+          <target state="translated">Godkjenn denne hendelsen oppstår under den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;hendelsen.&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the Authenticate event of the &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; class by specifying a subroutine named <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> in the Global.asax file for your ASP.NET application.</source>
+          <target state="translated">Du har tilgang til hendelsen Godkjenn for den &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;klassen ved å angi en underrutine navnet <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> i filen Global.asax for ASP.NET-program.&lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt; property of the &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs&gt; object supplied to the <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> event to set the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; to a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">Du kan bruke den &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt;for den &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs&gt;objektet som er angitt for den <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> -hendelsen for å angi den &lt;xref:System.Web.HttpContext.User%2A&gt;for gjeldende &lt;xref:System.Web.HttpContext&gt;til en egendefinert &lt;xref:System.Security.Principal.IPrincipal&gt;objektet.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationEventArgs&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a value for the &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt; property during the <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> event, the Windows identity supplied by IIS is used as the identity for the current request.</source>
+          <target state="translated">Hvis du ikke angir en verdi for den &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt;egenskapen under den <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> hendelsen Windows identiteten som ble levert av IIS brukes som identitet for gjeldende forespørsel.&lt;/xref:System.Web.Security.WindowsAuthenticationEventArgs.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If IIS uses anonymous authentication, then the &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.Identity%2A&gt; property is set to the identity returned by the &lt;xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt; method.</source>
+          <target state="translated">Hvis IIS bruker for anonym godkjenning, og deretter den &lt;xref:System.Web.Security.WindowsAuthenticationEventArgs.Identity%2A&gt;er satt til identiteten som ble returnert av den &lt;xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt;metoden.&lt;/xref:System.Security.Principal.WindowsIdentity.GetAnonymous%2A&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationEventArgs.Identity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> event is raised only when the authentication &lt;xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt; is set to &lt;xref:System.Web.Configuration.AuthenticationMode&gt; and the &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; is an active HTTP module for the application.</source>
+          <target state="translated">Den <bpt id="p1">**</bpt>WindowsAuthentication_OnAuthenticate<ept id="p1">**</ept> hendelsen skjer bare når godkjenningen &lt;xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt;er satt til &lt;xref:System.Web.Configuration.AuthenticationMode&gt;og &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;er en aktive HTTP-modul for applikasjonen.&lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt; &lt;/xref:System.Web.Configuration.AuthenticationMode&gt; &lt;/xref:System.Web.Configuration.AuthenticationSection.Mode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In IIS 7.0 running in Integrated Mode, the Authenticate event of the &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; is not raised when both the ASP.NET &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; and the IIS <ph id="ph2">`AnonymousAuthenticationModule`</ph> modules are enabled.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I IIS 7.0 kjører i integrert modus, hendelsen Godkjenn for den &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;oppstår ikke når både ASP.NET &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;og IIS <ph id="ph2">`AnonymousAuthenticationModule`</ph> moduler er aktivert.&lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, to receive authentication notification, subscribe to the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event of the &lt;xref:System.Web.HttpApplication&gt; instance.</source>
+          <target state="translated">I dette tilfellet for å motta varsel authentication abonnere på den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;hendelsen til den &lt;xref:System.Web.HttpApplication&gt;forekomsten.&lt;/xref:System.Web.HttpApplication&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about compatibility issues in Integrated modes, see <bpt id="p1">[</bpt>Moving an ASP.NET Application from IIS 6.0 to IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon om kompatibilitetsproblemer i integrert modus, se <bpt id="p1">[</bpt>flytter en ASP.NET-programmet fra IIS 6.0 til IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases all resources, other than memory, used by the <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigir alle ressurser enn minnet som brukes av den <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Denne metoden skal ikke kalles fra programmet kode.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Initialiserer den <bpt id="p1">&lt;xref href="System.Web.Security.WindowsAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Denne metoden skal ikke kalles fra programmet kode.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Init method ensures that the &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt; is included in the processing of the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event.</source>
+          <target state="translated">Init-metoden sikrer at den &lt;xref:System.Web.Security.WindowsAuthenticationModule&gt;er inkludert i behandlingen av den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;hendelsen.&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt; &lt;/xref:System.Web.Security.WindowsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Gjeldende <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

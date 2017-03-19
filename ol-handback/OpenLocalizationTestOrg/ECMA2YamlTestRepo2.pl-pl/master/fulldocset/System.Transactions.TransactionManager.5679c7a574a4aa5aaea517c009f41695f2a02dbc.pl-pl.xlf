@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8b7a8effd49f748548eb5733219f293891b12a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5206dcf24bd4de6ae1bfd0ea064d1e33ad5da709</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d92b0c9d819d5bfe87f151c6d1e1c89e777b335a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods used for transaction management.</source>
+          <target state="translated">Zawiera metody używane do zarządzania transakcji.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ta klasa nie może być dziedziczona.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class contains static properties and methods used to obtain information about the default transaction options.</source>
+          <target state="translated">Ta klasa zawiera statycznej właściwości i metody używane do uzyskiwania informacji na temat domyślne opcje transakcji.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also contains several static methods used for recovery of a durable resource when the durable resource fails.</source>
+          <target state="translated">Zawiera on również kilka metod statycznych użyty do odzyskiwania trwałe zasobu, gdy zasób trwały nie powiodło się.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No special action is required of a durable resource if the Microsoft Distributed Transaction Coordinator (MSDTC) fails.</source>
+          <target state="translated">Żadna specjalna akcja jest wymagany trwałe zasobu, jeśli MSDTC Microsoft Distributed Transaction Coordinator () nie powiedzie się.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gets the default timeout interval for new transactions.</source>
+          <target state="translated">Pobiera domyślny limit czasu dla nowych transakcji.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The timeout interval of a transaction is the time within which the transaction must be completed.</source>
+          <target state="translated">Interwał limitu czasu transakcji to czas, w ramach którego transakcja musi zostać zakończona.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager has not heard from all transaction participants within the timeout interval, it aborts the transaction.</source>
+          <target state="translated">Jeśli Menedżer transakcji nie ma heard wszystkich uczestników transakcji w obrębie interwał limitu czasu, przerywa transakcję.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`DefaultSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Tę wartość można ustawić w <ph id="ph1">`DefaultSettingsSection`</ph> pliku konfiguracji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the timeout interval for new transactions.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;wartość, która określa interwał limitu czasu dla nowych transakcji.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Indicates that a distributed transaction has started.</source>
+          <target state="translated">Wskazuje, czy transakcja rozproszona została uruchomiona.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event degrades the performance of all distributed transactions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Uwaga<ept id="p1">**</ept> rejestracji dla tego zdarzenia powoduje spadek wydajności transakcji rozproszonych wszystkie.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Local transactions are not monitored as performance is affected even more.</source>
+          <target state="translated">Lokalne transakcje nie są monitorowane, jak to wpływ na wydajność jeszcze bardziej.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Uwaga<ept id="p1">**</ept> ta metoda używa &lt;xref:System.Security.Permissions.SecurityAction&gt;Aby zapobiec jest wywoływany z kodu niezaufane; jednak tylko bezpośredniego obiektu wywołującego jest wymagany do posiadał <ph id="ph1">`FullTrust`</ph> zestaw uprawnień.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a custom transaction factory.</source>
+          <target state="translated">Pobiera lub ustawia fabrykę niestandardowych transakcji.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Uwaga<ept id="p1">**</ept> ta metoda używa &lt;xref:System.Security.Permissions.SecurityAction&gt;Aby zapobiec jest wywoływany z kodu niezaufane; jednak tylko bezpośredniego obiektu wywołującego jest wymagany do posiadał <ph id="ph1">`FullTrust`</ph> zestaw uprawnień.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom transaction factory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający fabryki niestandardowych transakcji.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the default maximum timeout interval for new transactions.</source>
+          <target state="translated">Pobiera domyślny maksymalny limit czasu dla nowych transakcji.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an explanation of the timeout interval, see the documentation for the &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt; property.</source>
+          <target state="translated">Aby uzyskać informacje o limicie czasu interwału, zobacz dokumentację dla &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;Właściwości.&lt;/xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`MachineSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Tę wartość można ustawić w <ph id="ph1">`MachineSettingsSection`</ph> pliku konfiguracji.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the maximum timeout interval that is allowed when creating new transactions.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;wartość, która określa maksymalną wartość limitu czasu jest dozwolona podczas tworzenia nowych transakcji.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Notifies the transaction manager that a resource manager recovering from failure has finished reenlisting in all unresolved transactions.</source>
+          <target state="translated">Wysyła powiadomienie do Menedżera transakcji Menedżera zasobów odzyskiwanie po awarii zakończenie reenlisting w wszystkich nierozwiązanych transakcji.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All durable resource managers should do recovery when they first start up by calling the &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt; method for each outstanding transaction.</source>
+          <target state="translated">Wszyscy menedżerowie zasobów trwałe powinien wykonać odzyskiwanie po ich pierwszym uruchomieniu przez wywołanie metody &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt;metody dla każdej transakcji oczekujących.&lt;/xref:System.Transactions.TransactionManager.Reenlist%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only when all of the reenlistments are done should the resource manager call RecoveryComplete.</source>
+          <target state="translated">Tylko wtedy, gdy są wykonywane wszystkie reenlistments Menedżera zasobów wywołać Metoda RecoveryComplete.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji dotyczących odzyskiwania, zobacz <bpt id="p1">[</bpt>wykonywania odzyskiwania<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Uwaga<ept id="p1">**</ept> ta metoda używa &lt;xref:System.Security.Permissions.SecurityAction&gt;Aby zapobiec jest wywoływany z kodu niezaufane; jednak tylko bezpośredniego obiektu wywołującego jest wymagany do posiadał <ph id="ph1">`FullTrust`</ph> zestaw uprawnień.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource to be recovered from.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;który unikatowo identyfikuje zasobów, które mają zostać odzyskane z.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reenlists a durable participant in a transaction.</source>
+          <target state="translated">Reenlists trwałego uczestnika transakcji.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource manager facilitates resolution of durable enlistments in a transaction by reenlisting the transaction participant after resource failure.</source>
+          <target state="translated">Menedżer zasobów ułatwia rozpoznawania trwałych rejestracji w transakcji przez reenlisting uczestnika transakcji po awarii zasobów.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`resourceManagerIdentifier`</ph> parameter is used to consistently label the participant of a transaction in the event of a resource failure.</source>
+          <target state="translated"><ph id="ph1">`resourceManagerIdentifier`</ph> Parametr jest używany do spójnie etykietę uczestnika transakcji w przypadku awarii zasobów.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When calling the Reenlist method, the resource manager must provide the same <ph id="ph1">`resourceManagerIdentifier`</ph> as it used when it originally called the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method during enlistment, or a &lt;xref:System.Transactions.TransactionException&gt; is thrown.</source>
+          <target state="translated">Menedżer zasobów podczas wywołania metody Reenlist metody, musisz podać takie same <ph id="ph1">`resourceManagerIdentifier`</ph> wyczerpuje po pierwotnie wywołaniu &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;metody podczas rejestracji, lub &lt;xref:System.Transactions.TransactionException&gt;jest generowany.&lt;/xref:System.Transactions.TransactionException&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a participant is reenlisted using this method, the phase 2 methods of &lt;xref:System.Transactions.IEnlistmentNotification&gt; that correspond to the transaction's outcome (that is, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; , &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; ) are called as appropriate.</source>
+          <target state="translated">Jeśli uczestnik jest reenlisted za pomocą tej metody, metody Faza 2 &lt;xref:System.Transactions.IEnlistmentNotification&gt;odpowiadające jej wyniku (oznacza to, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;lub &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;) są nazywane odpowiednio.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the participants are successfully reenlisted, you should then call &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt; to complete the recovery.</source>
+          <target state="translated">Po pomyślnie zostały reenlisted uczestników, powinny wywoływać &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;Aby zakończyć odzyskiwanie.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method when a resource manager restarts from failure.</source>
+          <target state="translated">Tej metody powinny wywoływać tylko w przypadku, gdy Menedżer zasobów zostanie uruchomiony ponownie po awarii.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, you should only reenlist unresolved transactions logged by a resource manager during the initial Prepare phase of a two-phase commit.</source>
+          <target state="translated">Ponadto użytkownik należy tylko ponownie zarejestrować cytatu nierozwiązanych transakcji zarejestrowane przez Menedżera zasobów w fazie przygotowanie początkowej dwufazowe zatwierdzanie.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to call this method at invalid times can produce erroneous results.</source>
+          <target state="translated">Każda próba ta metoda jest wywoływana przez nieprawidłowy czas może wygenerować błędne wyniki.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager fails, and your resource manager performs recovery only a short time after you called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method on an enlistment in phase 1 of the Two-Phase Commit protocol, your resource manager might either receive the &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; callback.</source>
+          <target state="translated">Jeśli Menedżer transakcji nie powiedzie się i Menedżera zasobów wykonuje odzyskiwania tylko przez krótki czas po wywołana &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;Metoda rejestracji w fazie 1 protokołu dwufazowy proces zatwierdzania, Menedżera zasobów albo może odbierać &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;lub &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;wywołania zwrotnego.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji dotyczących odzyskiwania, zobacz <bpt id="p1">[</bpt>wykonywania odzyskiwania<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Uwaga<ept id="p1">**</ept> ta metoda używa &lt;xref:System.Security.Permissions.SecurityAction&gt;Aby zapobiec jest wywoływany z kodu niezaufane; jednak tylko bezpośredniego obiektu wywołującego jest wymagany do posiadał <ph id="ph1">`FullTrust`</ph> zestaw uprawnień.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource manager.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;który unikatowo identyfikuje Menedżera zasobów.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Contains additional information of recovery information.</source>
+          <target state="translated">Zawiera dodatkowe informacje o odzyskiwaniu.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A resource object that implements <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive notifications.</source>
+          <target state="translated">Obiekt zasobu, który implementuje <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do odbierania powiadomień.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Opisujący rejestracji.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-or-       Transaction Manager information in <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> does not match the configured transaction manager.</source>
+          <target state="translated">- lub - informacji Menedżera transakcji w <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> nie jest zgodny ze skonfigurowanym menedżerem transakcji.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> is not recognized by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> nie jest rozpoznawany przez <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt; has already been called for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;została już wywołana dla określonego <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The reenlistment is rejected.</source>
+          <target state="translated">Ponownej rejestracji zostanie odrzucone.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> does not match the content of the specified recovery information in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">recoveryInformation</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept> Nie pasuje do zawartości określonego odzyskiwania informacji w <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">recoveryInformation</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
