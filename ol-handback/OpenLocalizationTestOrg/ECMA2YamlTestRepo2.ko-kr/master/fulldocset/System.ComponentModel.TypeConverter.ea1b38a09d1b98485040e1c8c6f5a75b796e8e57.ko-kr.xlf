@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22ef00ff8e29bcf055dac4b83a0263b7ccaf7420</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.TypeConverter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93b40b4d0133d219f68057ef3a05a31d2944bf8a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85f8101833ab2c5ec4b8919718650ce813d8b407</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a unified way of converting types of values to other types, as well as for accessing standard values and subproperties.</source>
+          <target state="translated">다른 형식으로, 물론 표준 값과 하위 속성에 액세스 하기 위한 값의 형식을 변환 하는 단일화 된 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common type of converter is one that converts to and from a text representation.</source>
+          <target state="translated">변환기의 가장 일반적인 유형은 텍스트 표현을 상호 변환 하는 하나입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type converter for a class is bound to the class with a &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.</source>
+          <target state="translated">클래스에 대 한 형식 변환기에 &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt; 클래스에 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless this attribute is overridden, all classes that inherit from this class use the same type converter as the base class.</source>
+          <target state="translated">이 특성을 재정의 하지 않는 한 기본 클래스와 동일한 형식 변환기를 사용 하는이 클래스에서 상속 하는 모든 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For general type system purposes, do not access a type converter directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 일반 형식 시스템을 위해 직접 액세스 하지 않습니다는 형식 변환기입니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, access the appropriate converter by using &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">대신 적절 한 변환기 &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; 를 사용 하 여 액세스</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the code examples provided.</source>
+          <target state="translated">자세한 내용은 제공 된 코드 예제를 참조 하세요.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> For XAML purposes, a XAML processor searches for the &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; directly, instead of going through &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept> XAML 용도에서는 XAML 프로세서는 &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; 을 통하지 않고 직접&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt; 에 대 한 검색</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For cases where you do want a &lt;xref:System.ComponentModel.TypeDescriptor&gt; instance from code, or where you create a shared instance in WPF resources, it is acceptable to construct it directly without referencing &lt;xref:System.ComponentModel.TypeDescriptor&gt; or other reflection and type system support.</source>
+          <target state="translated">원하는 경우에는 &lt;xref:System.ComponentModel.TypeDescriptor&gt;코드에서 인스턴스 또는 WPF의 공유 인스턴스를 만들 위치 리소스를 사용할 수 있기를 참조 하지 않고 직접 생성 하 &lt;xref:System.ComponentModel.TypeDescriptor&gt;또는 기타 리플렉션 및 형식 시스템을 지원 합니다.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes derived from TypeConverter are often referenced as part of how a XAML processor converts an attribute or initialization text value from markup (which is inherently a string) and generates an object for a run-time representation.</source>
+          <target state="translated">TypeConverter에서 파생 된 클래스는 주로 XAML 프로세서에서 태그 (기본적으로 문자열) 특성 또는 초기화 텍스트 값을 변환 하는 방법의 일부로 참조 런타임 표현에 대 한 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a TypeConverter class that supports their own unique <ph id="ph1">`ConvertFrom`</ph> behavior from a string.</source>
+          <target state="translated">지 원하는 자체의 고유한 TypeConverter 클래스를 구현 하는 사용자 지정 형식 작성자는 일반적으로 XAML에 대 한 형식 변환 동작을 지 원하는 데 <ph id="ph1">`ConvertFrom`</ph> 문자열에서 동작 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">이 동작은 XAML 특성 값으로 제공 하는 문자열 형식 변환할 수 있습니다 하 고 구문 분석 된 개체 그래프에서 개체를 생성 될 수 있도록 문자열에서 개체를 만드는 데 필요한 지원으로 XAML 프로세서를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom TypeConverter implementation.</source>
+          <target state="translated">사용자 정의 형식 또는 사용자 지정 형식의 멤버를 적용 하 여 표시 됩니다 &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;는 정의에 특성으로 참조 하는 사용자 지정 TypeConverter 구현을.&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>XAML 개요에 대 한 유형 변환기<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter.</source>
+          <target state="translated">이 변환기 지정 된 형식의 개체를이 변환기의 형식으로 변환할 수 있는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It never returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">반환 하지 않습니다 <ph id="ph1">`true`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;에서 변환할 형식을 나타내는.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 변환기에서 변환을; 수행할 수 있는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.</source>
+          <target state="translated">이 변환기의 지정된 된 컨텍스트를 사용 하 여이 변환기 형식으로 지정 된 형식의 개체를 변환할 수 있는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method returns <ph id="ph1">`false`</ph>, unless <ph id="ph2">`sourceType`</ph> is an &lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;.</source>
+          <target state="translated">이 메서드가 반환 하는이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>하지 않는 한, <ph id="ph2">`sourceType`</ph> 은 &lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;에서 변환할 형식을 나타내는.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 변환기에서 변환을; 수행할 수 있는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type.</source>
+          <target state="translated">이 변환기 개체를 지정된 된 형식으로 변환할 수 있는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">경우 <ph id="ph1">`destinationType`</ph> 는 문자열의 기본 구현은 &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;항상 반환 <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;를 변환할 형식을 나타내는.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 변환기에서 변환을; 수행할 수 있는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type, using the specified context.</source>
+          <target state="translated">이 변환기 개체를 지정된 된 컨텍스트를 사용 하 여 지정 된 형식으로 변환할 수 있는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">경우 <ph id="ph1">`destinationType`</ph> 는 문자열의 기본 구현은 &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;항상 반환 <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;를 변환할 형식을 나타내는.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 변환기에서 변환을; 수행할 수 있는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Converts the given value to the type of this converter.</source>
+          <target state="translated">이 변환기의 형식 지정된 값으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Converts the given object to the type of this converter, using the specified context and culture information.</source>
+          <target state="translated">지정 된 컨텍스트 및 문화권 정보를 사용 하 여이 변환기의 형식으로 지정된 된 개체를 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports ConvertFrom behavior from a string.</source>
+          <target state="translated">사용자 지정 형식 작성자는 일반적으로 XAML에 대 한 형식 변환 동작을 지원 하기 위해 구현는 &lt;xref:System.ComponentModel.TypeConverter&gt;문자열에서 ConvertFrom 동작을 지 원하는 클래스입니다.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">이 동작은 XAML 특성 값으로 제공 하는 문자열 형식 변환할 수 있습니다 하 고 구문 분석 된 개체 그래프에서 개체를 생성 될 수 있도록 문자열에서 개체를 만드는 데 필요한 지원으로 XAML 프로세서를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom &lt;xref:System.ComponentModel.TypeConverter&gt; implementation.</source>
+          <target state="translated">사용자 정의 형식 또는 사용자 지정 형식의 멤버를 적용 하 여 표시 됩니다 &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;는 정의에 특성으로 참조 하는 사용자 지정 &lt;xref:System.ComponentModel.TypeConverter&gt;구현.&lt;/xref:System.ComponentModel.TypeConverter&gt; &lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For XAML purposes, you do not typically provide branching implementations based on <ph id="ph1">`culture`</ph>.</source>
+          <target state="translated">XAML 용도에서는 일반적으로 제공 하지 않으면 분기 구현을 기반으로 <ph id="ph1">`culture`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because XAML is precompiled in a development environment context, and culture-specific information for runtime XAML is not relevant for XAML type conversion.</source>
+          <target state="translated">개발 환경 컨텍스트에서 미리 컴파일된 XAML 및 문화 별 정보가 런타임에 대 한 XAML은 XAML 형식 변환에 대 한와 관련이 없습니다 때문입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>XAML 개요에 대 한 유형 변환기<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.CultureInfo&gt; to use as the current culture.</source>
+          <target state="translated">&lt;xref:System.Globalization.CultureInfo&gt;현재 문화권으로 사용할.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture.</source>
+          <target state="translated">고정 문화권을 사용 하 여이 변환기의 형식으로 지정된 된 문자열을 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">기본 구현에서는 항상 반환 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;변환할.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환된 된 텍스트를 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture and the specified context.</source>
+          <target state="translated">고정 문화권 및 지정된 된 컨텍스트를 사용 하 여이 변환기의 형식으로 지정된 된 문자열을 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">문자열을 적절 한 개체로 변환할 수 없는 경우 예외가 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">기본 구현에서는 항상 반환 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;변환할.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환된 된 텍스트를 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Converts the specified text to an object.</source>
+          <target state="translated">지정된 된 텍스트를 개체로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">기본 구현에서는 항상 반환 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The text representation of the object to convert.</source>
+          <target state="translated">변환할 개체의 텍스트 표현입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환된 된 텍스트를 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The string cannot be converted into the appropriate object.</source>
+          <target state="translated">문자열을 적절 한 개체로 변환할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context.</source>
+          <target state="translated">지정된 된 컨텍스트를 사용 하 여 개체에 지정된 된 텍스트를 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">문자열을 적절 한 개체로 변환할 수 없는 경우 예외가 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">기본 구현에서는 항상 반환 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;변환할.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환된 된 텍스트를 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context and culture information.</source>
+          <target state="translated">지정 된 컨텍스트 및 문화권 정보를 사용 하 여 개체에 지정된 된 텍스트를 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">문자열을 적절 한 개체로 변환할 수 없는 경우 예외가 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">기본 구현에서는 항상 반환 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 전달 되 면 현재 문화권이 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;변환할.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환된 된 텍스트를 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the arguments.</source>
+          <target state="translated">인수를 사용 하 여 지정 된 형식으로 지정된 된 값 개체를 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common type to convert to and from is a string object.</source>
+          <target state="translated">가장 일반적인 형식 간에 변환 하는 문자열 개체입니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object, if the object is valid and if the destination type is a string.</source>
+          <target state="translated">이 구현에서는 호출 &lt;xref:System.Object.ToString%2A&gt;개체에는 개체가 올바른지 및 대상 형식 문자열인 경우.&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">&lt;xref:System.Type&gt;변환 하는 <ph id="ph1">`value`</ph> 매개 변수를.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the specified context and culture information.</source>
+          <target state="translated">지정 된 컨텍스트 및 문화권 정보를 사용 하 여 지정 된 형식으로 지정된 된 값 개체를 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common types to convert are to and from a string object.</source>
+          <target state="translated">String 개체에서 가장 일반적인 형식 변환 하는입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object if the object is valid and if the destination type is a string.</source>
+          <target state="translated">이 구현에서는 호출 &lt;xref:System.Object.ToString%2A&gt;개체에는 개체가 올바른지 및 대상 형식 문자열인 경우.&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; behavior from a string.</source>
+          <target state="translated">사용자 지정 형식 작성자는 일반적으로 XAML에 대 한 형식 변환 동작을 지원 하기 위해 구현는 &lt;xref:System.ComponentModel.TypeConverter&gt;지 원하는 클래스 &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;문자열에서 동작 합니다.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These type converters might also implement ConvertTo to support serialization back to XAML.</source>
+          <target state="translated">이러한 형식 변환기를 XAML로 직렬화를 지원 하기 위해 ConvertTo 구현할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some XAML serialization scenarios cannot be adequately addressed with &lt;xref:System.ComponentModel.TypeConverter&gt; alone.</source>
+          <target state="translated">일부 XAML serialization 시나리오와 적절 하 게 해결할 수 없으면 &lt;xref:System.ComponentModel.TypeConverter&gt;단독.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, it may be necessary to also define a &lt;xref:System.Windows.Markup.ValueSerializer&gt; that handles the serialization cases that would otherwise be handled by ConvertTo.</source>
+          <target state="translated">이러한 경우에도 정의 해야 할 수 있습니다는 &lt;xref:System.Windows.Markup.ValueSerializer&gt;ConvertTo에 의해 처리 될 수 있는 직렬화 사례를 처리 하는.&lt;/xref:System.Windows.Markup.ValueSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Markup.ValueSerializer&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Windows.Markup.ValueSerializer&gt;.&lt;/xref:System.Windows.Markup.ValueSerializer&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 전달 되 면 현재 문화권이 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">&lt;xref:System.Type&gt;변환 하는 <ph id="ph1">`value`</ph> 매개 변수를.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation.</source>
+          <target state="translated">지정된 된 값을 고정 문화권의 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`context`</ph> parameter can be used to extract additional information about the environment from which this converter is being invoked.</source>
+          <target state="translated"><ph id="ph1">`context`</ph> 매개 변수를 사용 하 여이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출할 수 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be <ph id="ph1">`null`</ph>, so always check.</source>
+          <target state="translated">이 수 <ph id="ph1">`null`</ph>, 있으므로 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">값 포맷터의 구현에 따라 개체의 인스턴스를 다시 만들려고 값 포맷터에 다시 반환 된 문자열을 전달할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A &lt;xref:System.String&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation, using the specified context.</source>
+          <target state="translated">지정된 된 값을 지정된 된 컨텍스트를 사용 하 여 고정 문화권의 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">값 포맷터의 구현에 따라 개체의 인스턴스를 다시 만들려고 값 포맷터에 다시 반환 된 문자열을 전달할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A &lt;xref:System.String&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a string representation.</source>
+          <target state="translated">지정된 된 값을 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">값 포맷터의 구현에 따라 개체의 인스턴스를 다시 만들려고 값 포맷터에 다시 반환 된 문자열을 전달할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the given context.</source>
+          <target state="translated">지정된 된 값을 지정 된 컨텍스트를 사용 하는 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">값 포맷터의 구현에 따라 개체의 인스턴스를 다시 만들려고 값 포맷터에 다시 반환 된 문자열을 전달할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the specified context and culture information.</source>
+          <target state="translated">지정된 된 값을 지정 된 컨텍스트 및 문화권 정보를 사용 하는 문자열 표현으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">값 포맷터의 구현에 따라 개체의 인스턴스를 다시 만들려고 값 포맷터에 다시 반환 된 문자열을 전달할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 전달 되 면 현재 문화권이 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환 된 값을 나타내는입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Re-creates an &lt;xref:System.Object&gt; given a set of property values for the object.</source>
+          <target state="translated">다시 생성 한 &lt;xref:System.Object&gt;개체에 대 한 속성 값 집합을 제공 합니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">이 메서드를 사용 하 여 변경할 수 없는 있지만 변경할 수 있는 속성을 제공 하려는 개체에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dictionary provided by the <ph id="ph1">`propertyValues`</ph> parameter has a series of name/value pairs, one for each property returned from &lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.</source>
+          <target state="translated">제공 하는 사전은 <ph id="ph1">`propertyValues`</ph> &lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt; 에서 반환 된 각 속성에 대 한 매개 변수는 이름/값 쌍</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that represents a dictionary of new property values.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;새 속성 값의 사전을 나타내는.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">&lt;xref:System.Object&gt;나타내는 주어진 &lt;xref:System.Collections.IDictionary&gt;, 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 만들 수 없는 경우.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 메서드는 항상 반환 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the type that this <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with, using the specified context, given a set of property values for the object.</source>
+          <target state="translated">형식의 인스턴스를 만들고이 <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 가 연결 된 지정된 된 컨텍스트를 사용 하 여 개체에 대 한 속성 값 집합을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">이 메서드를 사용 하 여 변경할 수 없는 있지만 변경할 수 있는 속성을 제공 하려는 개체에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; of new property values.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;새 속성 값의.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">&lt;xref:System.Object&gt;나타내는 주어진 &lt;xref:System.Collections.IDictionary&gt;, 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 만들 수 없는 경우.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 메서드는 항상 반환 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없을 때 발생 하는 예외를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 사용할 수 없는 경우.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;변환을 수행할 수 없을 때 발생 하는 예외를 나타내는입니다.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">자동으로이 메서드에 의해 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">변환을 수행할 수 없을 때 발생 하는 예외를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변환할 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 사용할 수 없는 경우.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type the conversion was trying to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;변환으로 변환 하려고 했던 형식을 나타내는.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;변환을 수행할 수 없을 때 발생 하는 예외를 나타내는입니다.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">자동으로이 메서드에 의해 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to the &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; method to create a new value.</source>
+          <target state="translated">이 개체의 값 변경에 대 한 호출 해야 하는지 여부를 반환 합니다.는 &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;메서드는 새 값을 생성 합니다.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우에 호출 해야이 개체에서 속성을 변경 &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;를 통해 새 값을 만드는 그렇지 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value, using the specified context.</source>
+          <target state="translated">이 개체의 값 변경에 대 한 호출 해야 하는지 여부를 반환 합니다. &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;지정된 된 컨텍스트를 사용 하 여 새 값을 만듭니다.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우에 호출 해야이 개체에서 속성을 변경 &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;를 통해 새 값을 만드는 그렇지 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter.</source>
+          <target state="translated">값 매개 변수로 지정 된 배열 형식에 대 한 속성의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">기본적으로 형식 속성을 반환 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">이 메서드의 쉽게 구현을 호출할 수 &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;올바른 데이터 형식에 대 한.&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;속성을 가져올 배열 형식을 지정 하는.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 데이터 형식에 노출 되는 속성을 가진 또는 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 속성이 없는 경우.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.</source>
+          <target state="translated">지정된 된 컨텍스트를 사용 하 여 값 매개 변수로 지정 된 배열 형식에 대 한 속성의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">기본적으로 형식 속성을 반환 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">이 메서드의 쉽게 구현을 호출할 수 &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;올바른 데이터 형식에 대 한.&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;속성을 가져올 배열 형식을 지정 하는.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 데이터 형식에 노출 되는 속성을 가진 또는 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 속성이 없는 경우.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context and attributes.</source>
+          <target state="translated">지정 된 컨텍스트 및 특성을 사용 하 여 값 매개 변수로 지정 된 배열 형식에 대 한 속성의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;속성을 가져올 배열 형식을 지정 하는.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">형식의 배열 &lt;xref:System.Attribute&gt;필터로 사용 되는.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 데이터 형식에 노출 되는 속성을 가진 또는 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 속성이 없는 경우.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties.</source>
+          <target state="translated">이 개체 속성을 지원 하는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;고, 그렇지 않으면이 개체의 속성을 찾기 위해 호출 해야 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties, using the specified context.</source>
+          <target state="translated">이 개체가 지정된 된 컨텍스트를 사용 하 여 속성을 지원 하는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;고, 그렇지 않으면이 개체의 속성을 찾기 위해 호출 해야 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values from the default context for the data type this type converter is designed for.</source>
+          <target state="translated">이 형식 변환기 용인지 데이터 형식에 대 한 기본 컨텍스트에서 표준 값 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; containing a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;표준 유효한 값이 포함 된 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 형식이 표준 값 집합을 지원 하지 않습니다.&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.</source>
+          <target state="translated">형식 컨텍스트와 함께 제공 되는 경우이 형식 변환기에 대 한 설계 된 데이터 형식에 대 한 표준 값의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in &lt;xref:System.ComponentModel.TypeConverter&gt;, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">구현 될 때 &lt;xref:System.ComponentModel.TypeConverter&gt;,이 메서드는 항상 반환 <ph id="ph1">`null`</ph>.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context that can be used to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 하는이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 하는 데 사용할 수 있는 형식 컨텍스트를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This parameter or properties of this parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 매개 변수 또는이 매개 변수는 속성 수 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; that holds a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;유효한 값의 표준 집합을 포함 하는 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 형식이 표준 값 집합을 지원 하지 않습니다.&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list.</source>
+          <target state="translated">표준 값 컬렉션 반환 되는지 반환 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;단독 목록 인지.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">열거형 데이터 형식에서와 같은 단독 목록인 경우 다른 값은 유효한 합니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">표준 값 목록 단독 아닌 경우, 다른 유효한 값 목록 외에 있을 수 있습니다는 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;메서드를 제공 합니다.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">목록에서 반환 값이 배타적, &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;이러한 값을 편집할 수 없도록 해야 합니다.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;에서 반환 되는 단독 목록이 가능한 값이 있습니다. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 다른 값은 가능한 경우.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list of possible values, using the specified context.</source>
+          <target state="translated">표준 값 컬렉션 반환 되는지 반환 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;의 가능한 값을 지정된 된 컨텍스트를 사용 하 여 단독 목록 인지.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">열거형 데이터 형식에서와 같은 단독 목록인 경우 다른 값은 유효한 합니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">표준 값 목록 단독 아닌 경우, 다른 유효한 값 목록 외에 있을 수 있습니다는 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;메서드를 제공 합니다.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">목록에서 반환 값이 배타적, &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;이러한 값을 편집할 수 없도록 해야 합니다.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;에서 반환 되는 단독 목록이 가능한 값이 있습니다. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 다른 값은 가능한 경우.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list.</source>
+          <target state="translated">이 개체가 목록에서 선택할 수 있는 값의 표준 집합을 지원 하는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;개체가 지 원하는 값의 공통 집합을 찾기 위해 호출 건너뛸 필요가 없으면, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.</source>
+          <target state="translated">이 개체가 지정된 된 컨텍스트를 사용 하 여 목록에서 선택할 수 있는 값의 표준 집합을 지원 하는지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">이 메서드는 항상 반환이 클래스에서 구현 된 대로 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;개체가 지 원하는 값의 공통 집합을 찾기 위해 호출 건너뛸 필요가 없으면, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type.</source>
+          <target state="translated">지정된 된 값 개체가이 형식에 대해 올바른지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">부터는 <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;메서드 예외를 catch는 &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;및 &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;메서드.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">입력된 값 형식 발생 하는 경우 &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;반환할 <ph id="ph1">`false`</ph>, 입력된 값에 따른 경우 또는 &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;에서 예외가 발생 하는 &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;메서드 반환 <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">레거시 동작을 사용 하려면 예를 들어 application1.exe.config 응용 프로그램의 구성 파일에 다음 줄을 삽입 합니다.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The object to test for validity.</source>
+          <target state="translated">유효성을 테스트할 개체입니다.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정된 된 값이이 개체에 대 한 유효한 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type and for the specified context.</source>
+          <target state="translated">지정된 된 값 개체가 지정된 된 컨텍스트 및이 형식에 대해 유효한 지 여부를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`context`</ph> 매개 변수를이 변환기가 호출 되는 환경에 대 한 추가 정보를 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">이 매개 변수 수 <ph id="ph1">`null`</ph>, 항상 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">또한 컨텍스트 개체의 속성을 반환할 수 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the IsValid method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">부터는 <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, IsValid 메서드 예외를 catch는 &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;및 &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;메서드.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the IsValid method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">입력된 값 형식 발생 하는 경우 &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;반환할 <ph id="ph1">`false`</ph>, 입력된 값에 따른 경우 또는 &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;IsValid 메서드는 예외를 발생 시키기 위해 반환 <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">레거시 동작을 사용 하려면 예를 들어 application1.exe.config 응용 프로그램의 구성 파일에 다음 줄을 삽입 합니다.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 형식 컨텍스트를 제공 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to test for validity.</source>
+          <target state="translated">&lt;xref:System.Object&gt;유효성을 테스트할.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정된 된 값이이 개체에 대 한 유효한 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Sorts a collection of properties.</source>
+          <target state="translated">속성의 컬렉션을 정렬합니다.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All properties in the collection that are not already in the array of names are added alphabetically to the end.</source>
+          <target state="translated">아직 이름의 배열이 되지 않은 컬렉션의 모든 속성은 사전순으로 끝에 추가 됩니다.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`names`</ph> parameter is an empty array or <ph id="ph2">`null`</ph>, all the properties in the collection are sorted alphabetically.</source>
+          <target state="translated">경우는 <ph id="ph1">`names`</ph> 매개 변수는 빈 배열 또는 <ph id="ph2">`null`</ph>, 컬렉션의 모든 속성은 사전순으로 정렬 됩니다.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that has the properties to sort.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정렬 속성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>An array of names in the order you want the properties to appear in the collection.</source>
+          <target state="translated">속성 컬렉션을 원하는 순서로 이름 배열입니다.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the sorted properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정렬된 속성이 들어 있는입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

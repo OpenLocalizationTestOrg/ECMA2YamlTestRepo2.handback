@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7e30c7bffed07c13e208d6728f4d0aa024cc921</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.TypeDelegator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a6b6cc84793aaa09a1ad0ffd974894bed1e5aed</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92f77c6300604b67af47b47e5fa168aa971028c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wraps a <ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object and delegates methods to that <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Создает оболочку для <ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> методы объекта и делегаты, <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derive from this type and override only those members you have to provide customization in, plus any members that are required by your program and not already implemented by TypeDelegator.</source>
+          <target state="translated">Являются производными от этого типа и переопределить только те элементы, которые необходимо производить настройку, а также все члены, которые необходимы программе и еще не реализован TypeDelegator.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TypeDelegator derives from &lt;xref:System.Type?displayProperty=fullName&gt; and implements most of the properties and methods of &lt;xref:System.Type&gt;.</source>
+          <target state="translated">TypeDelegator наследует &lt;xref:System.Type?displayProperty=fullName&gt;и реализует большинство свойств и методов &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt; &lt;/xref:System.Type?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each member it implements, TypeDelegator automatically delegates to the corresponding member of an internal &lt;xref:System.Type&gt; object, which is supplied as an argument to the constructor.</source>
+          <target state="translated">Для каждого элемента, он реализует, TypeDelegator автоматически делегирует соответствующий член внутренним &lt;xref:System.Type&gt;объект, который предоставляется в качестве аргумента конструктору.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This internal &lt;xref:System.Type&gt; object is exposed to deriving classes by the <ph id="ph1">`protected`</ph>&lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field.</source>
+          <target state="translated">Это внутреннее &lt;xref:System.Type&gt;объект предоставляется производными классами, <ph id="ph1">`protected`</ph> &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;поля.&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Some members of TypeDelegator have implementations even though the members themselves are simply inherited from &lt;xref:System.Type&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек некоторые из членов TypeDelegator имеют реализации, несмотря на то, что самих элементов просто наследуются от &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, the implementation is provided by an overridden <ph id="ph1">`protected`</ph> method that has a name that ends in "Impl".</source>
+          <target state="translated">В этих случаях реализация предоставляется по переопределенный <ph id="ph1">`protected`</ph> метод, который имеет имя, которое заканчивается суффиксом «Impl».</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the implementation for all overloads of the &lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt; method is supplied by the overridden &lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt; method.</source>
+          <target state="translated">Например, реализация для всех перегруженных версий &lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;указанный метод, переопределенный &lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt;метод.&lt;/xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt; &lt;/xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation for inherited properties such as &lt;xref:System.Type.IsPublic%2A&gt; and &lt;xref:System.Type.IsNestedAssembly%2A&gt; is provided by the overridden &lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt; method.</source>
+          <target state="translated">Реализацию для унаследованные свойства, такие как &lt;xref:System.Type.IsPublic%2A&gt;и &lt;xref:System.Type.IsNestedAssembly%2A&gt;предоставляется переопределенным &lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt;метод.&lt;/xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt; &lt;/xref:System.Type.IsNestedAssembly%2A&gt; &lt;/xref:System.Type.IsPublic%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deriving classes can provide a public constructor that takes a &lt;xref:System.Type&gt; object as its parameter and simply passes that object to the &lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt; constructor, or can set the internal &lt;xref:System.Type&gt; object in some other way.</source>
+          <target state="translated">Наследование классов может предоставить открытый конструктор, принимающий &lt;xref:System.Type&gt;объекта в качестве параметра и просто передает объект, чтобы &lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt;конструктор, или можно установить внутренний &lt;xref:System.Type&gt;объект другим способом.&lt;/xref:System.Type&gt; &lt;/xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a deriving class uses a member that is not implemented by TypeDelegator, it must override that member and provide an implementation.</source>
+          <target state="translated">Если производный класс использует член, который не реализован TypeDelegator, необходимо переопределить этот элемент и предоставить реализацию.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The simplest implementation is to call the corresponding member on the internal &lt;xref:System.Type&gt; object exposed by the &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field, but you can provide any implementation your application requires.</source>
+          <target state="translated">Простой реализации является вызов соответствующего члена на внутренний &lt;xref:System.Type&gt;объекту, предоставленному &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;поле, но может обеспечить реализацию вашему приложению.&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not necessary to override these members if they are not used by your application or by library functions your application calls (for example, by the &lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt; constructor).</source>
+          <target state="translated">Это не требуется переопределять эти элементы, если они не используются приложением или библиотекой функции приложение вызывает (например, с &lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;конструктор).&lt;/xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following virtual methods (<ph id="ph1">`Overridable`</ph> methods in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.MakeGenericType%2A&gt;, &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.GetGenericArguments%2A&gt;, &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt;, &lt;xref:System.Type.MakeArrayType%2A&gt;, &lt;xref:System.Type.MakeByRefType%2A&gt;, &lt;xref:System.Type.MakePointerType%2A&gt;, &lt;xref:System.Type.GetEnumNames%2A&gt;, &lt;xref:System.Type.GetEnumValues%2A&gt;, &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt;, &lt;xref:System.Type.GetTypeCodeImpl%2A&gt;, &lt;xref:System.Type.IsEnumDefined%2A&gt;, &lt;xref:System.Type.IsEquivalentTo%2A&gt;.</source>
+          <target state="translated">Следующие виртуальные методы (<ph id="ph1">`Overridable`</ph> методы в Visual Basic) для &lt;xref:System.Type&gt;не реализован TypeDelegator: &lt;xref:System.Type.MakeGenericType%2A&gt;( &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt;), &lt;xref:System.Type.GetGenericArguments%2A&gt;( &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt;), &lt;xref:System.Type.MakeArrayType%2A&gt;( &lt;xref:System.Type.MakeByRefType%2A&gt;), &lt;xref:System.Type.MakePointerType%2A&gt;( &lt;xref:System.Type.GetEnumNames%2A&gt;), &lt;xref:System.Type.GetEnumValues%2A&gt;( &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt;), &lt;xref:System.Type.GetTypeCodeImpl%2A&gt;( &lt;xref:System.Type.IsEnumDefined%2A&gt;), &lt;xref:System.Type.IsEquivalentTo%2A&gt;.&lt;/xref:System.Type.IsEquivalentTo%2A&gt; &lt;/xref:System.Type.IsEnumDefined%2A&gt; &lt;/xref:System.Type.GetTypeCodeImpl%2A&gt; &lt;/xref:System.Type.GetEnumUnderlyingType%2A&gt; &lt;/xref:System.Type.GetEnumValues%2A&gt; &lt;/xref:System.Type.GetEnumNames%2A&gt; &lt;/xref:System.Type.MakePointerType%2A&gt; &lt;/xref:System.Type.MakeByRefType%2A&gt; &lt;/xref:System.Type.MakeArrayType%2A&gt; &lt;/xref:System.Type.GetGenericParameterConstraints%2A&gt; &lt;/xref:System.Type.GetGenericArguments%2A&gt; &lt;/xref:System.Type.GetGenericTypeDefinition%2A&gt; &lt;/xref:System.Type.MakeGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following virtual properties (<ph id="ph1">`Overridable`</ph> properties in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.IsGenericType%2A&gt;, &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.IsGenericParameter%2A&gt;, &lt;xref:System.Type.ContainsGenericParameters%2A&gt;, &lt;xref:System.Type.DeclaringMethod%2A&gt;, &lt;xref:System.Type.GenericParameterAttributes%2A&gt;, &lt;xref:System.Type.GenericParameterPosition%2A&gt;, &lt;xref:System.Type.IsSecurityCritical%2A&gt;, &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt;, &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.</source>
+          <target state="translated">Следующие свойства виртуального (<ph id="ph1">`Overridable`</ph> свойств в Visual Basic) для &lt;xref:System.Type&gt;не реализован TypeDelegator: &lt;xref:System.Type.IsGenericType%2A&gt;, &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt;( &lt;xref:System.Type.IsGenericParameter%2A&gt;), &lt;xref:System.Type.ContainsGenericParameters%2A&gt;( &lt;xref:System.Type.DeclaringMethod%2A&gt;), &lt;xref:System.Type.GenericParameterAttributes%2A&gt;( &lt;xref:System.Type.GenericParameterPosition%2A&gt;), &lt;xref:System.Type.IsSecurityCritical%2A&gt;( &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt;), &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.&lt;/xref:System.Type.IsSecurityTransparent%2A&gt; &lt;/xref:System.Type.IsSecuritySafeCritical%2A&gt; &lt;/xref:System.Type.IsSecurityCritical%2A&gt; &lt;/xref:System.Type.GenericParameterPosition%2A&gt; &lt;/xref:System.Type.GenericParameterAttributes%2A&gt; &lt;/xref:System.Type.DeclaringMethod%2A&gt; &lt;/xref:System.Type.ContainsGenericParameters%2A&gt; &lt;/xref:System.Type.IsGenericParameter%2A&gt; &lt;/xref:System.Type.IsGenericTypeDefinition%2A&gt; &lt;/xref:System.Type.IsGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default properties.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса со свойствами по умолчанию.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying the encapsulating instance.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, задавая инкапсулирующий экземпляр.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called from a class to generate a delegate based upon the <ph id="ph1">`Type`</ph> object for the class defining the method.</source>
+          <target state="translated">Данный конструктор вызывается из класса для создания делегата на основе <ph id="ph1">`Type`</ph> объект для класса, определяющего метод.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The instance of the class &lt;xref:System.Type&gt; that encapsulates the call to the method of an object.</source>
+          <target state="translated">Экземпляр класса &lt;xref:System.Type&gt;, инкапсулирующий вызов метода объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the assembly of the implemented type.</source>
+          <target state="translated">Получает сборку реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are the deployment units in the common language runtime.</source>
+          <target state="translated">Сборки представляют собой единицы развертывания в среде CLR.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies establish the namespace for resolving requests and determine which resources are exposed externally and which are accessible from within the assembly.</source>
+          <target state="translated">Сборки образуют пространство имен для разрешения запросов и определить, какие ресурсы доступны извне и доступные в пределах сборки.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime can determine and locate the assembly for any running object.</source>
+          <target state="translated">Общеязыковая среда выполнения определяет и найти сборку для любого выполняющегося объекта.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object representing the assembly of the implemented type.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> объект, представляющий сборку реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the assembly's fully qualified name.</source>
+          <target state="translated">Возвращает полное имя сборки.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the assembly's fully qualified name.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащая полное имя сборки.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the base type for the current type.</source>
+          <target state="translated">Возвращает базовый тип текущего типа.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base type is the type from which this type directly inherits.</source>
+          <target state="translated">Базовый тип является типом, от которого непосредственно наследуется этот тип.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the &lt;xref:System.Object&gt; class type is the ultimate base class of all the other types, it is the only type that does not have a base type.</source>
+          <target state="translated">Поскольку &lt;xref:System.Object&gt;тип класса является исходным базовым классом для всех других типов, он является единственным типом, у которого нет базового типа.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, <ph id="ph1">`null`</ph> is returned as the base type of the <ph id="ph2">`Object`</ph> type.</source>
+          <target state="translated">В этом случае <ph id="ph1">`null`</ph> возвращается как базовый тип <ph id="ph2">`Object`</ph> типа.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The base type for a type.</source>
+          <target state="translated">Базовый тип для типа.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified name of the implemented type.</source>
+          <target state="translated">Возвращает полное имя реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A string containing the fully qualified name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Строка, содержащая полное имя текущего <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's fully qualified name.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий полное имя типа.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the attributes assigned to the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает атрибуты, назначенные <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to determine if the <ph id="ph1">`TypeDelegator`</ph> is abstract, public, and so on.</source>
+          <target state="translated">Этот метод можно использовать для определения <ph id="ph1">`TypeDelegator`</ph> является абстрактным, открытым и т. д.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the implementation attribute flags.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, представляющий флаги атрибутов реализации.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the constructor that implemented the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Получает конструктор, который реализован <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated"><ph id="ph1">`callConvention`</ph> Указывает соглашение о вызовах для точки входа.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no calling convention is specified, a default &lt;xref:System.Reflection.CallingConventions&gt; value of <ph id="ph1">`Standard`</ph> is used.</source>
+          <target state="translated">Если соглашение о вызовах не указан, значение по умолчанию &lt;xref:System.Reflection.CallingConventions&gt;значение <ph id="ph1">`Standard`</ph> используется.&lt;/xref:System.Reflection.CallingConventions&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">Объект, позволяющий осуществлять привязку, приведение аргументов типов, вызов элементов и извлечение <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов с помощью отражения.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Если <ph id="ph1">`binder`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, используется связыватель по умолчанию.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">Соглашения о вызовах.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> списком номер параметра, порядок и типы.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Типы не могут быть <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; использовать соответствующий <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> метода или пустой массив для поиска метода без параметров.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> документ одной длины: как <ph id="ph1">`types`</ph> массив, элементы которого представляют атрибуты, связанные с параметрами метода.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект для метода, который соответствует заданным критериям, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> найденные совпадения.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.ConstructorInfo&gt; objects representing constructors defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает массив &lt;xref:System.Reflection.ConstructorInfo&gt;объектов, представляющих конструкторы, определенные для типа, оболочкой для которого текущий <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.ConstructorInfo&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Class initializers are available only through <ph id="ph1">`GetMember`</ph>, <ph id="ph2">`GetMembers`</ph>, <ph id="ph3">`FindMembers`</ph>, and <ph id="ph4">`GetConstructors`</ph>.</source>
+          <target state="translated">Инициализаторы класса доступны только через <ph id="ph1">`GetMember`</ph>, <ph id="ph2">`GetMembers`</ph>, <ph id="ph3">`FindMembers`</ph>, и <ph id="ph4">`GetConstructors`</ph>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the specified constructors defined for this class.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий заданные конструкторы, определенные для этого класса.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If no constructors are defined, an empty array is returned.</source>
+          <target state="translated">Если конструкторы не определены, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Depending on the value of a specified parameter, only public constructors or both public and non-public constructors will be returned.</source>
+          <target state="translated">В зависимости от значения, заданного параметра возвращаются только открытые конструкторы или открытые и закрытые конструкторы.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns all the custom attributes defined for this type, specifying whether to search the type's inheritance chain.</source>
+          <target state="translated">Возвращает все настраиваемые атрибуты, определенные для этого типа, указывая, следует ли выполнять поиск в цепочке наследования этого типа.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Указывает, следует ли выполнять поиск в цепочке наследования этого типа для поиска атрибутов.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An array of objects containing all the custom attributes defined for this type.</source>
+          <target state="translated">Массив объектов, содержащий все настраиваемые атрибуты, определенные для этого типа.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">Не удается загрузить тип пользовательского атрибута.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns an array of custom attributes identified by type.</source>
+          <target state="translated">Возвращает массив настраиваемых атрибутов, принадлежащих указанному типу.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">Массив настраиваемых атрибутов, принадлежащих указанному типу.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Указывает, следует ли выполнять поиск в цепочке наследования этого типа для поиска атрибутов.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the custom attributes defined in this type that match the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> parameter, specifying whether to search the type's inheritance chain, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no custom attributes are defined on this type.</source>
+          <target state="translated">Массив объектов, содержащий настраиваемые атрибуты, определенные в этом типе, которые соответствуют <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept> параметр, указывающий, следует ли выполнять поиск в цепочке наследования этого типа, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Если пользовательские атрибуты не определены для данного типа.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">Не удается загрузить тип пользовательского атрибута.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or ByRef.</source>
+          <target state="translated">Возвращает &lt;xref:System.Type&gt;включенных объекта, на который ссылается данный массив, указатель или ByRef.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or <bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current &lt;xref:System.Type&gt; is not an array, a pointer or a <bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Объекта, используемого или упоминаемого в текущем массиве, указатель или <bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> если текущего &lt;xref:System.Type&gt;не является массивом, указателем или параметром <bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the specified event.</source>
+          <target state="translated">Возвращает указанное событие.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>, the case of the <ph id="ph3">`name`</ph> parameter is ignored.</source>
+          <target state="translated">Если <ph id="ph1">`bindingAttr`</ph> — &lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>, вариант <ph id="ph3">`name`</ph> параметр учитывается.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The name of the event to get.</source>
+          <target state="translated">Имя события.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.EventInfo&gt; object representing the event declared or inherited by this type with the specified name.</source>
+          <target state="translated">&lt;xref:System.Reflection.EventInfo&gt;Объектов, представляющих события, объявленные или наследованные данным типом, с указанным именем.&lt;/xref:System.Reflection.EventInfo&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such event is found.</source>
+          <target state="translated">Этот метод возвращает <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если такое событие найдено.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.EventInfo&gt; objects representing all the public events declared or inherited by the current <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает массив &lt;xref:System.Reflection.EventInfo&gt;объектов, представляющих все открытые события, объявленные или наследуемые текущим <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.EventInfo&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns an array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the events declared or inherited by the current type.</source>
+          <target state="translated">Возвращает массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит все события объявлено или унаследовано текущим типом.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">Если события отсутствуют, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns the events specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает события, указанного в <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept> , объявленные или наследуемые текущим <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the events specified in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит события, указанного в <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">Если события отсутствуют, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.Reflection.FieldInfo&gt; object representing the field with the specified name.</source>
+          <target state="translated">Возвращает &lt;xref:System.Reflection.FieldInfo&gt;объект, представляющий поле с указанным именем.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">Используйте <ph id="ph1">`bindingAttr`</ph> из &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, чтобы вернуть все открытые и закрытые поля.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`BindingFlags.IgnoreCase`</ph> to ignore the case of the fields, as the search is case-sensitive by default.</source>
+          <target state="translated">Используйте <ph id="ph1">`BindingFlags.IgnoreCase`</ph> учитывать регистр полей, как поиск с учетом регистра по умолчанию.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the field to find.</source>
+          <target state="translated">Имя поля для поиска.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the field declared or inherited by this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified name.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> предоставляющий поле, объявленное или унаследованное этим <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> с указанным именем.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such field is found.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если поле не найден.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.FieldInfo&gt; objects representing the data fields defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает массив &lt;xref:System.Reflection.FieldInfo&gt;объектов, представляющих поля данных определено для типа, оболочкой для которого текущий <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetFields method does not return fields in a particular order, such as alphabetical or declaration order.</source>
+          <target state="translated">GetFields-метод возвращает поля в определенном порядке, например алфавитном или в порядке объявления.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your code must not depend on the order in which fields are returned, because that order can vary.</source>
+          <target state="translated">Код не должен зависеть порядка, в котором возвращаются поля, так как этот порядок может меняться.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">Используйте <ph id="ph1">`bindingAttr`</ph> из &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, чтобы вернуть все открытые и закрытые поля.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the fields declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий поля, объявленные или наследуемые текущим <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An empty array is returned if there are no matched fields.</source>
+          <target state="translated">Если нет соответствующих полей, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Returns the specified interface implemented by the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает указанный интерфейс, реализованный тип в оболочку текущим <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the interface implemented by the current class.</source>
+          <target state="translated">Полное имя интерфейса, реализуемого в текущем классе.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the case is to be ignored; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если регистр не должен учитываться; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the interface implemented (directly or indirectly) by the current class with the fully qualified name matching the specified name.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, представляющий интерфейс, реализованный (прямо или косвенно) в текущем классе с полным именем, совпадающий с указанным именем.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If no interface that matches name is found, null is returned.</source>
+          <target state="translated">Если интерфейс с совпадающим именем не найден, значение null возвращается.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Returns an interface mapping for the specified interface type.</source>
+          <target state="translated">Возвращает сопоставление для интерфейса заданного типа.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interface map denotes how an interface is mapped into the actual methods on a class that implements that interface.</source>
+          <target state="translated">В сопоставлении интерфейса указывается способ отображения интерфейса в фактических методах для класса, реализующего этот интерфейс.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the interface to retrieve a mapping of.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Интерфейса для извлечения сопоставление.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.InterfaceMapping&gt; object representing the interface mapping for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">interfaceType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.InterfaceMapping&gt;Объект, представляющий сопоставление интерфейса для <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">interfaceType</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Reflection.InterfaceMapping&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">Возвращает все интерфейсы, реализованные в текущем классе и его базовых классов.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий все интерфейсы, реализованные в текущем классе и его базовых классов.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If none are defined, an empty array is returned.</source>
+          <target state="translated">Если они не определены, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns members (properties, methods, constructors, fields, events, and nested types) specified by the given <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">type</ph><ept id="p2">&lt;/code&gt;</ept>, and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">bindingAttr</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Возвращает члены (свойства, методы, конструкторы, поля, события и вложенные типы), задаваемые по данной <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">type</ph> <ept id="p2">&lt;/code&gt;</ept>, и <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">bindingAttr</ph> <ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, все члены будут считаться.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">Если совпадений не найдено, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The name of the member to get.</source>
+          <target state="translated">Имя получаемого элемента.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The type of members to get.</source>
+          <target state="translated">Тип возвращаемых элементов.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base class meeting the specified criteria.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащего все элементы текущего класса и его базовых классов, удовлетворяющие указанным критериям.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Returns members specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Возвращает элементы, указанные по <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, все члены будут считаться.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">Если совпадений не найдено, возвращается пустой массив.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base classes that meet the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> filter.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащего все элементы текущего класса и его базовых классов, которые соответствуют <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept> фильтра.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Searches for the specified method whose parameters match the specified argument types and modifiers, using the specified binding constraints and the specified calling convention.</source>
+          <target state="translated">Ищет указанный метод, параметры которого соответствуют указанным типам аргументов и модификаторам, используя заданные ограничения привязки и соглашение о вызовах.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated"><ph id="ph1">`callConvention`</ph> Указывает соглашение о вызовах для точки входа.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:System.Reflection.CallingConventions&gt; is specified, a default <ph id="ph1">`CallingConventions`</ph> value of <ph id="ph2">`Standard`</ph> is used.</source>
+          <target state="translated">Если не &lt;xref:System.Reflection.CallingConventions&gt;указан, значение по умолчанию <ph id="ph1">`CallingConventions`</ph> значение <ph id="ph2">`Standard`</ph> используется.&lt;/xref:System.Reflection.CallingConventions&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The method name.</source>
+          <target state="translated">Имя метода.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">Объект, позволяющий осуществлять привязку, приведение аргументов типов, вызов элементов и извлечение <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов с помощью отражения.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Если <ph id="ph1">`binder`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, используется связыватель по умолчанию.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">Соглашения о вызовах.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> списком номер параметра, порядок и типы.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Типы не могут быть <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; использовать соответствующий <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> метода или пустой массив для поиска метода без параметров.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> документ одной длины: как <ph id="ph1">`types`</ph> массив, элементы которого представляют атрибуты, связанные с параметрами метода.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the implementation method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта для реализации метода, который соответствует заданным критериям, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> найденные совпадения.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.MethodInfo&gt; objects representing specified methods of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает массив &lt;xref:System.Reflection.MethodInfo&gt;объекты, представляющие методы указанного оболочкой для текущего типа <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing the methods defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты, представляющие методы, определенные для данного <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Returns a nested type specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> and in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> that are declared or inherited by the type represented by the current <bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает вложенный тип, заданный путем <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept> и <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept> , объявленные или унаследованные типом, представленный текущим <bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The nested type's name.</source>
+          <target state="translated">Имя вложенного типа.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the nested type.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, предоставляющий вложенный тип.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Returns the nested types specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the type wrapped by the current <bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает вложенные типы, заданные в <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept> , объявленные или унаследованные типом, оболочкой для которого текущий <bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the nested types.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий вложенные типы.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.PropertyInfo&gt; objects representing properties of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает массив &lt;xref:System.Reflection.PropertyInfo&gt;объекты, представляющие свойства типа, оболочкой для которого текущий <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing properties defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив <bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов, представляющих свойства, определенные для данного <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, searches for the specified property whose parameters match the specified argument types and modifiers, using the specified binding constraints.</source>
+          <target state="translated">При переопределении в производном классе ищет указанное свойство, параметры которого соответствуют указанным типам аргументов и модификаторам, используя заданные ограничения привязки.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The property to get.</source>
+          <target state="translated">Возвращаемое свойство.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Битовая маска, влияющая на способ, в котором выполняется поиск.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение представляет собой сочетание нуля или более битовых флагов из <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">Объект, позволяющий осуществлять привязку, приведение аргументов типов, вызов элементов и извлечение <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> их с помощью отражения.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Если <ph id="ph1">`binder`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, используется связыватель по умолчанию.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The return type of the property.</source>
+          <target state="translated">Возвращаемый тип свойства.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A list of parameter types.</source>
+          <target state="translated">Список типов параметров.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The list represents the number, order, and types of the parameters.</source>
+          <target state="translated">Список представляет число, порядок и типы параметров.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Types cannot be null; use an appropriate <bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Типы не могут иметь значение null; использовать соответствующий <bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> метода или пустой массив для поиска метода без параметров.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An array of the same length as types with elements that represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">Массив такую же длину, что и типы элементов, представляющих атрибуты, связанные с параметрами метода.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.PropertyInfo&gt; object for the property that matches the specified criteria, or null if a match cannot be found.</source>
+          <target state="translated">Объект &lt;xref:System.Reflection.PropertyInfo&gt;объекта для свойства, которое соответствует заданным критериям, или значение null, если совпадение не найдено.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Gets the GUID (globally unique identifier) of the implemented type.</source>
+          <target state="translated">Возвращает идентификатор GUID (глобальный уникальный идентификатор) реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GUID (globally unique identifier) is a 128-bit unique identification string used to identify a class or an interface.</source>
+          <target state="translated">Глобально уникальный идентификатор (GUID) — 128-разрядный уникальный идентификационный строка, используемая для определения класса или интерфейса.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is primarily useful for interoperability between the Microsoft .NET Framework and COM.</source>
+          <target state="translated">В основном полезно для обеспечения взаимодействия между Microsoft .NET Framework и COM.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A GUID.</source>
+          <target state="translated">ИДЕНТИФИКАТОР GUID.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current &lt;xref:System.Type&gt; encompasses or refers to another type; that is, whether the current &lt;xref:System.Type&gt; is an array, a pointer or a ByRef.</source>
+          <target state="translated">Возвращает значение, указывающее ли текущий &lt;xref:System.Type&gt;непосредственно другой тип; иными словами, является ли текущий &lt;xref:System.Type&gt;является массивом, указателем или параметром ByRef.&lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array, a pointer or a ByRef; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;является массивом, указателем или параметром ByRef; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Invokes the specified member.</source>
+          <target state="translated">Вызывает указанный член.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The method that is to be invoked must be accessible and provide the most specific match with the specified argument list, under the constraints of the specified binder and invocation attributes.</source>
+          <target state="translated">Вызываемый метод должен быть доступен и обеспечивать наиболее точное соответствие указанному списку аргументов, с учетом ограничений заданного модуля привязки и атрибутов вызова.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A method will be invoked if both the following conditions are true:      -   The number of parameters in the method declaration equals the number of arguments in the specified argument list (unless default arguments are defined on the member).</source>
+          <target state="translated">Метод будет вызван, если выполняются следующие условия: - число параметров в объявлении метода равно количеству аргументов в списке аргументов (если аргументы по умолчанию не определены в элементе).</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The type of each arguments can be converted by the binder to the type of the parameter.</source>
+          <target state="translated">— Тип каждого аргумента может преобразовываться связывателем тип параметра.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The binder will find all the matching methods.</source>
+          <target state="translated">Связыватель найдет все подходящие методы.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods are found based upon the type of binding requested (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>, <ph id="ph2">`BindingFlags.GetProperties`</ph>, and so on).</source>
+          <target state="translated">Эти методы находятся в зависимости от типа связывания (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>, <ph id="ph2">`BindingFlags.GetProperties`</ph>и так далее).</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of methods is filtered by the name, number of arguments, and a set of search modifiers defined in the binder.</source>
+          <target state="translated">Набор методов фильтруется по имени, количество аргументов и набор модификаторов поиска, определенных в модуле привязки.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the method is selected, it will be invoked.</source>
+          <target state="translated">После выбора метод будет вызван.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Accessibility is checked at that point.</source>
+          <target state="translated">На этом этапе проверяется доступность.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The search may control which set of methods are searched based upon the accessibility attribute associated with the method.</source>
+          <target state="translated">Средство поиска может управлять поиском определения набора методов на основе связанного с методом атрибута доступности.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt; method is responsible for selecting the method to be invoked.</source>
+          <target state="translated">&lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;Метод отвечает за выбор вызываемого метода.&lt;/xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default binder selects the most specific match.</source>
+          <target state="translated">Связыватель по умолчанию выбирает наиболее точное соответствие.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Access restrictions are ignored for fully trusted code.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек ограничения доступа игнорируются для полностью доверенный код.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, private constructors, methods, fields, and properties can be accessed and invoked using reflection whenever the code is fully trusted.</source>
+          <target state="translated">То есть закрытые конструкторы, методы, поля и свойства доступны и с использованием отражения, если полностью доверенный код.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, <ph id="ph1">`InvokeMember`</ph> performs the Microsoft .NET Framework reflection semantics for every type of object.</source>
+          <target state="translated">В настоящее время <ph id="ph1">`InvokeMember`</ph> выполняет семантику отражения Microsoft .NET Framework для каждого типа объекта.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the member specified by name is an array and the <ph id="ph1">`BindingFlags.GetField`</ph> flag is set on <ph id="ph2">`invokeAttr`</ph>, the <ph id="ph3">`args`</ph> array specifies the elements whose values are to be returned.</source>
+          <target state="translated">Если элемент, заданный по имени является массивом и <ph id="ph1">`BindingFlags.GetField`</ph> установлен флаг <ph id="ph2">`invokeAttr`</ph>, <ph id="ph3">`args`</ph> массив задает элементы, значения которых должны быть возвращены.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following call through <ph id="ph1">`Type`</ph> object <ph id="ph2">`t`</ph> returns the value of the first element of the string array MyArray, which is a member of the calling object:       <ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph>       You can use <ph id="ph4">`InvokeMember`</ph> to set one or more elements of a member array.</source>
+          <target state="translated">Например, следующий вызов с помощью <ph id="ph1">`Type`</ph> объекта <ph id="ph2">`t`</ph> возвращает значение первого элемента строкового массива MyArray, который является членом вызывающего объекта: <ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph> можно использовать <ph id="ph4">`InvokeMember`</ph> для задания одного или нескольких элементов массива членов.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All elements are set to the same value.</source>
+          <target state="translated">Все элементы, присваивается то же значение.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`args`</ph> array must be formatted as follows:      <ph id="ph2">```   {index1,       index2,, value}   ```</ph>       For example, to set the first member of MyArray from the previous example, the syntax is as follows:      <ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></source>
+          <target state="translated"><ph id="ph1">`args`</ph> Массива должен иметь следующий формат: <ph id="ph2">```   {index1,       index2,, value}   ```</ph> так, чтобы установить первый член MyArray из предыдущего примера, используется следующий синтаксис:<ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of the member to invoke.</source>
+          <target state="translated">Имя вызываемого члена.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This may be a constructor, method, property, or field.</source>
+          <target state="translated">Это может быть конструктор, метод, свойство или поле.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>If an empty string ("") is passed, the default member is invoked.</source>
+          <target state="translated">Если это пустая строка ("») передается значение по умолчанию-член вызывается.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The invocation attribute.</source>
+          <target state="translated">Атрибут вызова.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A suitable invocation attribute must be specified.</source>
+          <target state="translated">Необходимо указать подходящий атрибут вызова.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If a static member is to be invoked, the <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> flag must be set.</source>
+          <target state="translated">Если статический член должен быть вызван, <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> должен быть установлен флаг.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">Объект, позволяющий осуществлять привязку, приведение аргументов типов, вызов элементов и извлечение <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> их с помощью отражения.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Если <ph id="ph1">`binder`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, используется связыватель по умолчанию.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The object on which to invoke the specified member.</source>
+          <target state="translated">Объект, для которого следует вызвать указанный член.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the number, order, and type of the parameters of the member to be invoked.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий число, порядок и тип параметров вызываемого члена.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph> contains an uninitialized <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is treated as empty, which, with the default binder, can be widened to 0, 0.0 or a string.</source>
+          <target state="translated">Если <ph id="ph1">`args`</ph> содержит неинициализированный объект <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, она обрабатывается как пустой и может быть преобразован по умолчанию связывателем в 0, 0,0 или строку.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the same length as <ph id="ph1">`args`</ph>, with elements that represent the attributes associated with the arguments of the member to be invoked.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> именно одинаковую длину поля <ph id="ph1">`args`</ph>, элементы которого представляют атрибуты, связанные с аргументами вызываемого члена.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A parameter has attributes associated with it in the member's signature.</source>
+          <target state="translated">Параметр имеет атрибуты, связанные с ним в подписи элемента.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For ByRef, use <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and for none, use <bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ByRef, используйте <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>и при отсутствии параметра — <bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The default binder does exact matching on these.</source>
+          <target state="translated">Связыватель по умолчанию точное совпадение.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Attributes such as <bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> are not used in binding, and can be viewed using <bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Атрибуты, такие как <bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и <bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> не используется в привязке, а также можно просматривать при помощи <bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to govern the coercion of types.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> используется для управления приведением типов.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>This is necessary, for example, to convert a string that represents 1000 to a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value, since 1000 is represented differently by different cultures.</source>
+          <target state="translated">Это необходимо, например, чтобы преобразовать строку, представляющую 1000, в <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значение, поскольку при разных языках и региональных параметрах 1000 представляется по-разному.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`culture`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the current thread's <bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Если <ph id="ph1">`culture`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для текущего потока <bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> используется.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing parameter names that match up, starting at element zero, with the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">Массив объектов типа <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий имена параметров, совпадающие, начиная с нулевого элемента, с <ph id="ph1">`args`</ph> массива.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>There must be no holes in the array.</source>
+          <target state="translated">В массиве должен быть не бреши в системе.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">If <ph id="ph1">`args`</ph>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is greater than <ph id="ph1">`namedParameters`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>больше, чем <ph id="ph1">`namedParameters`</ph>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the remaining parameters are filled in order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, остальные параметры заполняются по порядку.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the return value of the invoked member.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Представляющий возвращаемое значение вызываемого элемента.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is an array.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли &lt;xref:System.Type&gt;является массивом.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;является массивом; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified type can be assigned to this type.</source>
+          <target state="translated">Возвращает значение, которое указывает, может ли указанный тип назначено этого типа.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The type to check.</source>
+          <target state="translated">Проверяемый тип.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified type can be assigned to this type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если указанный тип может назначаться для этого типа; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is passed by reference.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли &lt;xref:System.Type&gt;передается по ссылке.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is passed by reference; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;передается по ссылке; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a COM object.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли &lt;xref:System.Type&gt;COM-объектом.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a COM object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;COM-объектом; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this object represents a constructed generic type.</source>
+          <target state="translated">Возвращает значение, указывающее, представляет ли этот объект сконструированный универсальный тип.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this object represents a constructed generic type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если этот объект представляет сконструированный универсальный тип; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Indicates whether a custom attribute identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> is defined.</source>
+          <target state="translated">Указывает, является ли пользовательский атрибут, заданный <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept> определен.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Указывает, следует ли выполнять поиск в цепочке наследования этого типа для поиска атрибутов.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">Массив настраиваемых атрибутов, принадлежащих указанному типу.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a custom attribute identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p2">&lt;/code&gt;</ept> is defined; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если пользовательский атрибут, заданный параметром <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p2">&lt;/code&gt;</ept> определен; в противном случае — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The custom attribute type cannot be loaded.</source>
+          <target state="translated">Не удается загрузить тип пользовательского атрибута.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a pointer.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли &lt;xref:System.Type&gt;является указателем.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a pointer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;является указателем; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is one of the primitive types.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли &lt;xref:System.Type&gt;является одним из типов-примитивов.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is one of the primitive types; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если &lt;xref:System.Type&gt;является одним из типов-примитивов; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the type is a value type; that is, not a class or an interface.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли тип типом значения; то есть, не является классом или интерфейсом.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type is a value type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если тип является типом значения; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets a value that identifies this entity in metadata.</source>
+          <target state="translated">Возвращает значение, которое идентифицирует этот объект в метаданных.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The tokens obtained using this property can be passed to the unmanaged reflection API.</source>
+          <target state="translated">Маркеры, полученные с помощью этого свойства может быть передан неуправляемого API-интерфейса отражения.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Unmanaged Reflection API<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>неуправляемый интерфейс API отражения<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>A value which, in combination with the module, uniquely identifies this entity in metadata.</source>
+          <target state="translated">Значение, которое, в сочетании с модулем, уникальным образом идентифицирует этот объект в метаданных.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the module that contains the implemented type.</source>
+          <target state="translated">Возвращает модуль, содержащий реализованный тип.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A module is a loadable unit that can contain type declarations and implementations.</source>
+          <target state="translated">Модуль — загружаемая единица, которая может содержать объявления и реализации типов.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modules contain enough information to enable the common language runtime to locate all implementation bits when the module is loaded.</source>
+          <target state="translated">Модули содержат достаточно информации для общеязыковая среда выполнения обнаружила все части реализации, когда модуль был загружен.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Module&gt; object representing the module of the implemented type.</source>
+          <target state="translated">Объект &lt;xref:System.Reflection.Module&gt;объект, представляющий модуль реализуемого типа.&lt;/xref:System.Reflection.Module&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Gets the name of the implemented type, with the path removed.</source>
+          <target state="translated">Возвращает имя реализуемого типа с удалением пути.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A string containing the name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Строка, содержащая имя текущего <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the simple name, not the fully qualified name, is returned.</source>
+          <target state="translated">Возвращается только простое имя, а не полное доменное имя.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get the name and the path, use &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;.</source>
+          <target state="translated">Чтобы получить имя и путь, используйте &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;.&lt;/xref:System.Reflection.TypeDelegator.FullName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's non-qualified name.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащая неполное имя типа.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets the namespace of the implemented type.</source>
+          <target state="translated">Возвращает пространство имен реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets a string containing the namespace of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Это свойство возвращает строку, содержащую пространство имен текущего <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the <ph id="ph1">`TypeDelegator`</ph> is &lt;xref:System.Reflection.TypeFilter&gt;, the returned namespace is &lt;xref:System.Reflection&gt;.</source>
+          <target state="translated">Например если <ph id="ph1">`TypeDelegator`</ph> - &lt;xref:System.Reflection.TypeFilter&gt;, возвращается пространство имен &lt;xref:System.Reflection&gt;.&lt;/xref:System.Reflection&gt; &lt;/xref:System.Reflection.TypeFilter&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's namespace.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащей пространство имен этого типа.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the internal metadata representation of an implemented type.</source>
+          <target state="translated">Возвращает дескриптор представления внутренних метаданных реализуемого типа.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A type handle is a unique integer value associated with each type.</source>
+          <target state="translated">Дескриптор типа является уникальным целочисленное значение, связанное с каждым типом.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handle is unique during the runtime.</source>
+          <target state="translated">Дескриптор является уникальным во время выполнения.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A value indicating type information.</source>
+          <target state="translated">Значение, указывающее тип сведений.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Type&gt; that represents the implemented type.</source>
+          <target state="translated">Возвращает базовый &lt;xref:System.Type&gt;, представляющий реализованный тип.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The underlying type.</source>
+          <target state="translated">Базовый тип.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

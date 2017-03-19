@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c231658a86f40d1ab2b69484646ccdd23473e80f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.RSAParameters.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">732e729e252bd983c04720cd658a255ba2278bb4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58371a00afa2079ec926141aaf065a8450d99356</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the standard parameters for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет стандартные параметры для <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.RSA&gt; class exposes an &lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; method that enables you to retrieve the raw RSA key in the form of an RSAParameters structure.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.RSA&gt;Предоставляемых классами &lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt;метод, который позволяет получать необработанные ключ RSA в форме структуру RSAParameters.&lt;/xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; &lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Understanding the contents of this structure requires familiarity with how the &lt;xref:System.Security.Cryptography.RSA&gt; algorithm works.</source>
+          <target state="translated">Основные сведения о содержимое этой структуры требуется знание как &lt;xref:System.Security.Cryptography.RSA&gt;алгоритм работает.&lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The next section discusses the algorithm briefly.</source>
+          <target state="translated">В следующем разделе кратко описываются алгоритм.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RSA Algorithm    To generate a key pair, you start by creating two large prime numbers named p and q.</source>
+          <target state="translated">Алгоритм RSA, чтобы создать пару ключей, начните с создания двух больших простых чисел с именем p и q.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These numbers are multiplied and the result is called n.</source>
+          <target state="translated">Эти числа умножаются и результат называется n.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because p and q are both prime numbers, the only factors of n are 1, p, q, and n.</source>
+          <target state="translated">Из-за p и q оба простых чисел, единственные множители n являются 1, p, q и n.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If we consider only numbers that are less than n, the count of numbers that are relatively prime to n, that is, have no factors in common with n, equals (p - 1)(q - 1).</source>
+          <target state="translated">Если мы рассмотрим только цифры, меньше, чем n, количество проверяемых чисел, взаимно простых до n, то есть, имеющих общие с n равно (p - 1)(q-1).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Now you choose a number e, which is relatively prime to the value you calculated.</source>
+          <target state="translated">Теперь нужно выбрать число e, являющееся взаимно простым с вычисленным нами значением.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public key is now represented as {e, n}.</source>
+          <target state="translated">Открытый ключ теперь представляется в виде {e, n}.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create the private key, you must calculate d, which is a number such that (d)(e) mod (p - 1)(q - 1) = 1.</source>
+          <target state="translated">Чтобы создать закрытый ключ, необходимо вычислить d, который представляет собой номер таким образом, что (d)(e) mod (p - 1)(q-1) = 1.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In accordance with the Euclidean algorithm, the private key is now {d, n}.</source>
+          <target state="translated">В соответствии с Евклидово алгоритм закрытый ключ, теперь {d, n}.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Encryption of plaintext m to ciphertext c is defined as c = (m ^ e) mod n.</source>
+          <target state="translated">Шифрование m открытого текста, чтобы c зашифрованного текста определяется как c = (m ^ e) mod n.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Decryption would then be defined as m = (c ^ d) mod n.</source>
+          <target state="translated">Расшифровка будет затем определен как m = (c ^ d) mod n.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Summary of Fields    Section A.1.2 of the <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept> on the RSA Laboratories Web site defines a format for RSA private keys.</source>
+          <target state="translated">Сводка A.1.2 раздел полей из <bpt id="p1">[</bpt>PKCS #1: криптографическом стандарте RSA<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept> в Интернете RSA Laboratories узла определяет формат для закрытых ключей RSA.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table summarizes the fields of the RSAParameters structure.</source>
+          <target state="translated">В следующей таблице перечислены поля структуры RSAParameters.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The third column provides the corresponding field in section A.1.2 of <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>.</source>
+          <target state="translated">Третий столбец содержит соответствующее поле в разделе A.1.2 из <bpt id="p1">[</bpt>PKCS #1: криптографическом стандарте RSA<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|RSAParameters field|Contains|Corresponding PKCS #1 field|   |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|   |&lt;xref:System.Security.Cryptography.RSAParameters.D&gt;|d, the private exponent|privateExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;|d mod (p - 1)|exponent1|   |&lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;|d mod (q - 1)|exponent2|   |&lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;|e, the public exponent|publicExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;|(InverseQ)(q) = 1 mod p|coefficient|   |&lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;|n|modulus|   |&lt;xref:System.Security.Cryptography.RSAParameters.P&gt;|p|prime1|   |&lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;|q|prime2|       The security of RSA derives from the fact that, given the public key { e, n }, it is computationally infeasible to calculate d, either directly or by factoring n into p and q.</source>
+          <target state="translated">| Поле RSAParameters | Содержит | Соответствующее поле PKCS #1 |   |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|   | &lt;xref:System.Security.Cryptography.RSAParameters.D&gt;| d, закрытый показатель | privateExponent |   | &lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;| d mod (p - 1) | exponent1 |   | &lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;| d mod (q - 1) | exponent2 |   | &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;| e, открытый показатель | publicExponent |   | &lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;| (InverseQ) (q) = 1 mod p | коэффициент |   | &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;| n | модуля |   | &lt;xref:System.Security.Cryptography.RSAParameters.P&gt;| p | prime1 |   | &lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;| вопросы | prime2 |       Безопасность RSA является производным из-за того, что, если открытый ключ {e, n}, немыслимо для вычисления d, напрямую или через факторизацию n в p и вопрос.&lt;/xref:System.Security.Cryptography.RSAParameters.Q&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.P&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.InverseQ&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.DQ&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.DP&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.D&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any part of the key related to d, p, or q must be kept secret.</source>
+          <target state="translated">Таким образом любой части ключа, связанных с d, p или q должен храниться в секрете.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call       &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt; and ask for only the public key information, this is why you will receive only &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt; and &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;.</source>
+          <target state="translated">При вызове &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;и запрашивать только сведения об открытом ключе, поэтому вы получите только &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;до &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;.&lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The other fields are available only if you have access to the private key, and you request it.</source>
+          <target state="translated">Другие поля доступны только в том случае, если у вас есть доступ к закрытому ключу, и необходимо отправить запрос.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RSAParameters is not encrypted in any way, so you must be careful when you use it with the private key information.</source>
+          <target state="translated">Каким-либо образом RSAParameters не шифруются, поэтому будьте внимательны при использовании с данные закрытого ключа.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In fact, none of the fields that contain private key information can be serialized.</source>
+          <target state="translated">Фактически ни одно из полей, которые содержат данные закрытого ключа может быть сериализован.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to serialize an RSAParameters structure with a remoting call or by using one of the serializers, you will receive only public key information.</source>
+          <target state="translated">При попытке сериализовать структуру RSAParameters удаленного вызова или с помощью одного из сериализаторов, вы получите только сведения об открытом ключе.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to pass private key information, you will have to manually send that data.</source>
+          <target state="translated">Если требуется передать сведения о закрытом ключе, необходимо отправить эти данные вручную.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In all cases, if anyone can derive the parameters, the key that you transmit becomes useless.</source>
+          <target state="translated">Во всех случаях если любой пользователь может вывести параметры, ключ будет бесполезен.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> параметр <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> алгоритма.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
