@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59674665f55c01f5f48498e8210ae884a07892e5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Caching.FileResponseElement.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71509021dd52dafdcbe7a968281e84c1ab505d18</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1728b33c6813214e33ebdcd419e56bfedf261e36</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents part of an output-cache entry, stored as a file.</source>
+          <target state="translated">ファイルとして格納されている、出力キャッシュ エントリの一部を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The FileResponseElement class represents the body portion (instead of the header) of an output-cache entry.</source>
+          <target state="translated">FileResponseElement クラスでは、出力キャッシュのエントリの本文部分 (ヘッダー) ではなくを表します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The data from a FileResponseElement object can be stored as either part or all of a file.</source>
+          <target state="translated">一部またはすべてのファイルのいずれかとして FileResponseElement オブジェクトからデータを格納できます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Both ASP.NET and custom output-cache providers can return a response in multiple parts, using any combination of FileResponseElement objects.</source>
+          <target state="translated">ASP.NET とカスタム出力キャッシュ プロバイダーの両方できます応答を返す複数の部分に FileResponseElement オブジェクトの任意の組み合わせを使用します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, a provider can return a response that is segmented into three different FileResponseElement objects, and each object can be retrieved from an offset into a different physical file.</source>
+          <target state="translated">たとえば、プロバイダーは、3 つの異なる FileResponseElement オブジェクトには、分割の応答を返すことができ、別の物理ファイルに各オブジェクトのオフセットから取得できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the complete output-cache response is contained in a single file, a provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using an offset of zero, and a length equal to the size of the whole file.</source>
+          <target state="translated">出力キャッシュ応答を全体が&amp;1; つのファイルに含まれている場合、プロバイダーを初期化します、 &lt;xref:System.Web.Caching.FileResponseElement&gt;0 の場合と、ファイル全体のサイズに等しい長さのオフセットを使用してクラス&lt;/xref:System.Web.Caching.FileResponseElement&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the complete output cache response is contained in only part of a file, a provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using the offset in the file where the output cache response starts, and a length equal to the size of the output-cache response that is stored in that file.</source>
+          <target state="translated">応答をキャッシュする完全な出力がファイルの一部のみに含まれている場合、プロバイダーを初期化します、 &lt;xref:System.Web.Caching.FileResponseElement&gt;、出力はキャッシュ応答を開始するファイルとそのファイルに格納されている出力キャッシュの応答のサイズに等しい長さのオフセットを使用してクラス&lt;/xref:System.Web.Caching.FileResponseElement&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The fully qualified path for the file.</source>
+          <target state="translated">ファイルの完全修飾パス。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The position in the file where the string starts.</source>
+          <target state="translated">文字列を開始するファイル内の位置。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The length of the data, starting at the offset that represents the output-cache data in the file defined by <ph id="ph1">`path`</ph>.</source>
+          <target state="translated">データの長さ、ファイルに出力キャッシュ データを表すオフセットから始まるによって定義された<ph id="ph1">`path`</ph>です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;length&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;length&lt;/code&gt;</ph>0 未満です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets the size of the data, starting at the offset that contains the data for a <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">データを含む、オフセットで開始、データのサイズを取得、 <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the complete output-cache response is contained in a single file, an output cache provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using a length equal to the size of the whole file.</source>
+          <target state="translated">出力キャッシュ応答を全体が&amp;1; つのファイルに含まれている場合、出力キャッシュ プロバイダーを初期化します、&lt;xref:System.Web.Caching.FileResponseElement&gt;ファイル全体のサイズの長さを使用してクラス&lt;/xref:System.Web.Caching.FileResponseElement&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the complete output cache response is contained in only part of a file, a provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using a length equal to the size of the output-cache response that is stored in that file.</source>
+          <target state="translated">応答をキャッシュする完全な出力がファイルの一部のみに含まれている場合、プロバイダーを初期化します、&lt;xref:System.Web.Caching.FileResponseElement&gt;そのファイルに格納されている出力キャッシュ応答のサイズの長さを使用してクラス&lt;/xref:System.Web.Caching.FileResponseElement&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The size of the data.</source>
+          <target state="translated">データのサイズ。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the position in the file where the data from a <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance starts.</source>
+          <target state="translated">ファイル内の位置を取得からのデータ、 <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンスが起動します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the complete output-cache response is contained in a single file, a provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using an offset of zero, If the complete output cache response is contained in only part of a file, a provider initializes the &lt;xref:System.Web.Caching.FileResponseElement&gt; class by using the offset in the file where the output cache response starts.</source>
+          <target state="translated">出力キャッシュ応答を全体が&amp;1; つのファイルに含まれている場合、プロバイダーを初期化します、&lt;xref:System.Web.Caching.FileResponseElement&gt;ファイルの一部だけに完全な出力応答をキャッシュする場合は、オフセット&amp;0; を使用して、クラスが含まれている、プロバイダーの初期化、&lt;xref:System.Web.Caching.FileResponseElement&gt;出力はキャッシュ応答を開始するファイルのオフセットを使用してクラス&lt;/xref:System.Web.Caching.FileResponseElement&gt;&lt;/xref:System.Web.Caching.FileResponseElement&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The starting point of the data in the file.</source>
+          <target state="translated">ファイル内のデータの開始点です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the location of the file that contains data from a <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">データを含むファイルの場所を取得、 <bpt id="p1">&lt;xref href="System.Web.Caching.FileResponseElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The fully qualified path of the file.</source>
+          <target state="translated">ファイルの完全修飾パス。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
