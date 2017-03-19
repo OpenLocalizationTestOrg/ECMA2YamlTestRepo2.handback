@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00a7095a1f48c858b092f5ac0122b804a4392475</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionInterop.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5968bedcf305a4808a8cd89bd673dcb099c23550</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01b80d1b64ddf00b0bfb8cb89a6d83c2e20fd8dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Facilitates interaction between <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and components that were previously written to interact with MSDTC, COM+, or <bpt id="p2">&lt;xref href="System.EnterpriseServices"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Interactie tussen vereenvoudigt <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en onderdelen die eerder zijn geschreven om te communiceren met MSDTC, COM + of <bpt id="p2">&lt;xref href="System.EnterpriseServices"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Deze klasse kan niet worden overgenomen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class provides methods for transaction propagation.</source>
+          <target state="translated">Deze klasse biedt methoden voor het doorgeven van transacties.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on how this process works, see <bpt id="p1">[</bpt>Transaction Propagation<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/b09541e6-4baf-4e37-b879-62884fbb0969.asp)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over de werking van dit proces <bpt id="p1">[</bpt>transactie doorgeven<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/b09541e6-4baf-4e37-b879-62884fbb0969.asp)</ept>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the methods provided by this class, you can engage in two types of transaction propagations, Export/Import (push model) and Transmitter/Receiver (pull model).</source>
+          <target state="translated">Met behulp van de methoden die door deze klasse, kunt u bezighouden met twee soorten transactie voorafgaande generaties, exporteren/importeren (pushmodel) en de zender/ontvanger (pull-model).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Export/Import (push model) propagation involves these steps,      1.</source>
+          <target state="translated">Het exporteren/importeren (pushmodel) doorgeven omvat deze stappen 1.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the remote machine, obtain the "whereabouts" of the transaction manager of that machine by calling the &lt;xref:System.Transactions.TransactionInterop.GetWhereabouts%2A&gt; method.</source>
+          <target state="translated">Op de externe computer verkrijgen van de 'verblijfsgegevens' van de transactiebeheerder van de desbetreffende computer door het aanroepen van de &lt;xref:System.Transactions.TransactionInterop.GetWhereabouts%2A&gt;methode.&lt;/xref:System.Transactions.TransactionInterop.GetWhereabouts%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then cache this piece of information on the client machine for future usage.</source>
+          <target state="translated">U kunt vervolgens deze stukje informatie op de clientcomputer voor toekomstig gebruik cache.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Send the data containing the whereabouts to the client machine using any preferred method      3.</source>
+          <target state="translated">Verzenden van de gegevens met de verblijfsgegevens naar de clientcomputer een voorkeur 3 te gebruiken.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the client machine, use the whereabouts to "export" the transaction to the remote machine and generate a transaction "cookie".</source>
+          <target state="translated">Gebruik de verblijfsgegevens voor 'exporteren' de transactie naar de externe computer en het genereren van een transactie 'cookie' op de clientcomputer.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is done by calling &lt;xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt; and passing in the remote machine's whereabouts.</source>
+          <target state="translated">Dit wordt gedaan door het aanroepen van &lt;xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt;en het doorgeven van de externe computer verblijfsgegevens.&lt;/xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Send the data containing the transaction "cookie" to the remote machine using any preferred method      5.</source>
+          <target state="translated">De gegevens met de transactie 'cookie' naar de externe computer met behulp van een voorkeursmethode 5 verzenden.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the remote machine, use the transaction "cookie" to obtain a clone of the client transaction by calling the &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromExportCookie%2A&gt; method.</source>
+          <target state="translated">Op de externe computer gebruiken om de transactie 'cookie' te halen van een kloon van de clienttransactie door het aanroepen van de &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromExportCookie%2A&gt;methode.&lt;/xref:System.Transactions.TransactionInterop.GetTransactionFromExportCookie%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the remote machine, use the clone transaction to enlist the resource manager using the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; or &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; methods of the &lt;xref:System.Transactions.Transaction&gt; class.</source>
+          <target state="translated">Op de externe computer, gebruikt u de transactie kloon aanmeldingspoging van de resourcemanager gebruikt &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;of &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;methoden van de &lt;xref:System.Transactions.Transaction&gt;klasse.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Transmitter/Receiver (pull model) propagation involves these steps,      -   On the client machine, using the transaction generates a corresponding "propagation token" by calling &lt;xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt;      -   Send the data containing the "propagation token" of the transaction to the remote machine using any preferred method      -   On the remote machine, use the "propagation token" to obtain a clone of the client transaction by calling &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt;       The Transmitter/Receiver model provides better performance in scenarios where the transaction token is sent to a remote machine, but the remote machine may not use it to obtain the transaction.</source>
+          <target state="translated">De doorgifte zender/ontvanger (pull-model) omvat deze stappen, - op de clientcomputer de transactie wordt gegenereerd wanneer u een overeenkomende 'doorgiftetoken' door het aanroepen van &lt;xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt;- verzenden de gegevens met de 'doorgiftetoken' van de transactie naar de externe computer op de externe computer met behulp van een voorkeursmethode - 'doorgiftetoken' gebruiken om op te halen van een kloon van de client-transactie door het aanroepen van de zender/ontvanger &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt;model biedt betere prestaties in scenario's waarbij de transactie-token wordt verzonden naar een externe computer , maar de externe computer mag deze niet gebruiken om op te halen van de transactie.&lt;/xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt; &lt;/xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the transaction is not propagated until &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt; is called.</source>
+          <target state="translated">Dit is omdat de transactie niet tot doorgegeven is &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt;wordt aangeroepen.&lt;/xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another advantage is that the propagation token can be sent to any remote machine, while the export cookie can be used only on the machine that provided the whereabouts.</source>
+          <target state="translated">Een ander voordeel is dat de doorgiftetoken kan worden verzonden naar een externe computer terwijl de cookie export alleen op de computer die de verblijfsgegevens kan worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you should also note that the whereabouts of remote transaction managers are encapsulated in all the propagation tokens, making them bigger than the corresponding transaction cookies from the Export/Import model.</source>
+          <target state="translated">Echter, vergeet niet dat de locatie van de externe transactiebeheer worden ingekapseld in alle doorgifte van tokens, zodat deze groter is dan de bijbehorende transactie cookies uit het model exporteren/importeren.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This type uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Opmerking<ept id="p1">**</ept> maakt gebruik van dit type &lt;xref:System.Security.Permissions.SecurityAction&gt;te voorkomen dat het wordt aangeroepen vanuit niet-vertrouwde code; alleen de onmiddellijke aanroeper is echter vereist dat de <ph id="ph1">`FullTrust`</ph> machtigingenset.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that represents a <bpt id="p2">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt een <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -exemplaar dat vertegenwoordigt een <bpt id="p2">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to be marshaled.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar worden gemarshald.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that represents a <bpt id="p2">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -exemplaar dat vertegenwoordigt een <bpt id="p2">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance is compatible with the unmanaged form of <bpt id="p2">[</bpt>ITransaction<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/d40264be-f9b2-4044-aac6-84b43e5be666.asp)</ept> used by MSDTC and with the Managed form of <bpt id="p3">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> used by <bpt id="p4">&lt;xref href="System.EnterpriseServices"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar is compatibel met de niet-beheerde vorm van <bpt id="p2">[</bpt>ITransaction<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/d40264be-f9b2-4044-aac6-84b43e5be666.asp)</ept> gebruikt door MSDTC en met de beheerde vorm van <bpt id="p3">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> die wordt gebruikt door <bpt id="p4">&lt;xref href="System.EnterpriseServices"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Transforms a transaction object into an export transaction cookie.</source>
+          <target state="translated">Hiermee transformeert een transactieobject in een cookie export-transactie.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method if you want to export a transaction.</source>
+          <target state="translated">Deze methode niet aanroepen als u wilt exporteren van een transactie.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`transaction`</ph> that is passed along is marshaled into a transaction cookie.</source>
+          <target state="translated">De <ph id="ph1">`transaction`</ph> die wordt doorgegeven samen in een cookie transactie is gemarshald.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then send the transaction cookie to the destination process.</source>
+          <target state="translated">Vervolgens kunt u het transactie-cookie verzenden naar het doelproces.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is referred to as propagating the transaction between processes or systems.</source>
+          <target state="translated">Dit wordt aangeduid als het doorgeven van de transactie tussen processen of systemen.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The propagation is considered to be a push model where the local transaction is pushed to the destination.</source>
+          <target state="translated">De doorgifte wordt beschouwd als een pushmodel waarbij de lokale transactie wordt doorgegeven voor de bestemming.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, information contained in <ph id="ph1">`whereabouts`</ph> must describe the destination transaction manager.</source>
+          <target state="translated">Daarom informatie zich in de <ph id="ph1">`whereabouts`</ph> moet beschrijven de transactiebeheerder bestemming.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on different propagation models, see the Remarks section of the &lt;xref:System.Transactions.TransactionInterop&gt; class.</source>
+          <target state="translated">Voor meer informatie over andere doorgifte van modellen, Zie de sectie met opmerkingen van de &lt;xref:System.Transactions.TransactionInterop&gt;klasse.&lt;/xref:System.Transactions.TransactionInterop&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be marshaled.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat moet worden gemarshald.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An address that describes the location of the destination transaction manager.</source>
+          <target state="translated">Een adres dat de locatie van de transactiebeheerder bestemming beschrijft.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This permits two transaction managers to communicate with one another and thereby propagate a transaction from one system to the other.</source>
+          <target state="translated">Hierdoor kunnen twee transactiebeheer om te communiceren met elkaar en waardoor een transactie van het ene systeem naar een ander object doorgeven.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An export transaction cookie representing the specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een export transactie cookie voor het opgegeven <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Generates a <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a specified <bpt id="p2">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Genereert een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uit een opgegeven <bpt id="p2">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`transactionNative`</ph> is compatible with the unmanaged form of <bpt id="p1">[</bpt>ITransaction<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/d40264be-f9b2-4044-aac6-84b43e5be666.asp)</ept> used by MSDTC and with the Managed form of &lt;xref:System.EnterpriseServices.ITransaction&gt; used by &lt;xref:System.EnterpriseServices&gt;.</source>
+          <target state="translated">De <ph id="ph1">`transactionNative`</ph> is compatibel met de niet-beheerde vorm van <bpt id="p1">[</bpt>ITransaction<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/cossdk/html/d40264be-f9b2-4044-aac6-84b43e5be666.asp)</ept> gebruikt door MSDTC en met de beheerde vorm &lt;xref:System.EnterpriseServices.ITransaction&gt;gebruikt door &lt;xref:System.EnterpriseServices&gt;.&lt;/xref:System.EnterpriseServices&gt; &lt;/xref:System.EnterpriseServices.ITransaction&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be marshaled.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat moet worden gemarshald.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that represents the given <bpt id="p2">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -exemplaar dat staat voor de opgegeven <bpt id="p2">&lt;xref href="System.Transactions.IDtcTransaction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Generates a <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the specified an export cookie.</source>
+          <target state="translated">Genereert een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van het opgegeven een cookie exporteren.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on different propagation models, see the Remarks section of the &lt;xref:System.Transactions.TransactionInterop&gt; class.</source>
+          <target state="translated">Voor meer informatie over andere doorgifte van modellen, Zie de sectie met opmerkingen van de &lt;xref:System.Transactions.TransactionInterop&gt;klasse.&lt;/xref:System.Transactions.TransactionInterop&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A marshaled form of the transaction object.</source>
+          <target state="translated">Een gemarshalde vorm van het transactieobject.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the specified export cookie.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van de cookie opgegeven exporteren.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Generates a <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from the specified transmitter propagation token.</source>
+          <target state="translated">Genereert een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar van de opgegeven zender doorgiftetoken.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method, together with the &lt;xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt; method, provide functionality for "pull" propagation, in which the transaction is "pulled" from the remote machine when this method is called to unmarshal the transaction.</source>
+          <target state="translated">Deze methode, samen met de &lt;xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt;methode functionaliteit bieden voor het doorgeven van 'pull', waarin de transactie is 'opgehaald' uit de externe computer wanneer deze methode wordt aangeroepen om te ' unmarshallen ' de transactie.&lt;/xref:System.Transactions.TransactionInterop.GetTransmitterPropagationToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on different propagation models, see the Remarks section of the &lt;xref:System.Transactions.TransactionInterop&gt; class.</source>
+          <target state="translated">Voor meer informatie over andere doorgifte van modellen, Zie de sectie met opmerkingen van de &lt;xref:System.Transactions.TransactionInterop&gt;klasse.&lt;/xref:System.Transactions.TransactionInterop&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A propagation token representing a transaction.</source>
+          <target state="translated">Een doorgiftetoken dat vertegenwoordigt een transactie.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the specified transmitter propagation token.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van de opgegeven zender doorgiftetoken.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The deserialization of a transaction fails because the transaction manager cannot be contacted.</source>
+          <target state="translated">Het deserialiseren van een transactie mislukt, omdat de transactiebeheerder kan geen verbinding worden gemaakt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This may be caused by network firewall or security settings.</source>
+          <target state="translated">Dit kan worden veroorzaakt door een firewall of de netwerkinstellingen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Generates a propagation token for the specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Genereert een doorgiftetoken voor het opgegeven <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A transaction to be marshaled into a propagation token.</source>
+          <target state="translated">Een transactie in een doorgiftetoken worden gemarshald.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This method, together with the &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken*&gt; method, provide functionality for Transmitter/Receiver propagation, in which the transaction is "pulled" from the remote machine when the latter is called to unmarshal the transaction.</source>
+          <target state="translated">Deze methode, samen met de &lt;xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken*&gt;methode functionaliteit bieden voor het doorgeven van zender/ontvanger, waarin de transactie is 'opgehaald' uit de externe computer wanneer deze wordt aangeroepen om te ' unmarshallen ' de transactie.&lt;/xref:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information on different propagation models, see the Remarks section of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionInterop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Voor meer informatie over andere doorgifte van modellen, Zie de sectie met opmerkingen van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionInterop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the Whereabouts of the distributed transaction manager that <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses.</source>
+          <target state="translated">De locatie van de gedistribueerde transactiebeheerder opgehaald die <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Whereabouts contains an address that describes the location of a transaction manager.</source>
+          <target state="translated">De verblijfsgegevens bevat een adres dat de locatie van een transactiebeheerder beschrijft.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This permits two transaction managers to communicate with one another and thereby propagate a transaction from one system to the other.</source>
+          <target state="translated">Hierdoor kunnen twee transactiebeheer om te communiceren met elkaar en waardoor een transactie van het ene systeem naar een ander object doorgeven.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information returned by this method can be used to provide location information for push model transaction propagation with the &lt;xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt; method.</source>
+          <target state="translated">De informatie die wordt geretourneerd door deze methode kan worden gebruikt voor servicelocatie-informatie voor de push-model transactie doorgeven met de &lt;xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt;methode.&lt;/xref:System.Transactions.TransactionInterop.GetExportCookie%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on different propagation models, see the Remarks section of the &lt;xref:System.Transactions.TransactionInterop&gt; class.</source>
+          <target state="translated">Voor meer informatie over andere doorgifte van modellen, Zie de sectie met opmerkingen van de &lt;xref:System.Transactions.TransactionInterop&gt;klasse.&lt;/xref:System.Transactions.TransactionInterop&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The Whereabouts of the distributed transaction manager that <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses.</source>
+          <target state="translated">De locatie van de gedistribueerde transactiebeheerder die <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The type of the distributed transaction processor.</source>
+          <target state="translated">Het type van de processor van de gedistribueerde transactie.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for the <ph id="ph1">`Transaction.PromoterType`</ph> property if the transaction is or will be promoted to MSDTC and the <ph id="ph2">`Transaction.GetPromotedToken`</ph> method will return an MSDTC transaction propagation token for the <ph id="ph3">`byte[]`</ph> result.</source>
+          <target state="translated">Deze waarde wordt gebruikt voor de <ph id="ph1">`Transaction.PromoterType`</ph> eigenschap als de transactie is of wordt gepromoveerd tot MSDTC en de <ph id="ph2">`Transaction.GetPromotedToken`</ph> methode retourneert een MSDTC-transactie doorgiftetoken voor de <ph id="ph3">`byte[]`</ph> resultaat.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

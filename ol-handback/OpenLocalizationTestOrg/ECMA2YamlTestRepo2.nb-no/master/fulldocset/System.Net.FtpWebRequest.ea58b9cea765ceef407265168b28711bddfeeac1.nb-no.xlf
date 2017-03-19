@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8dd190290572070a8bd76651874ebad3a39f6ad</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.FtpWebRequest.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b1e91e20e4263d2fc8ceedeccfb47a3e5d1b53f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a412b248126cc33456a0df97c1c09acd4d97bdba</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a File Transfer Protocol (FTP) client.</source>
+          <target state="translated">Implementerer en klient (FTP File Transfer Protocol).</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain an instance of FtpWebRequest, use the &lt;xref:System.Net.WebRequest.Create%2A&gt; method.</source>
+          <target state="translated">For å hente en forekomst av FtpWebRequest, kan du bruke den &lt;xref:System.Net.WebRequest.Create%2A&gt;metoden.&lt;/xref:System.Net.WebRequest.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the &lt;xref:System.Net.WebClient&gt; class to upload and download information from an FTP server.</source>
+          <target state="translated">Du kan også bruke den &lt;xref:System.Net.WebClient&gt;klassen for å laste opp og Last ned informasjon fra en FTP-server.&lt;/xref:System.Net.WebClient&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using either of these approaches, when you specify a network resource that uses the FTP scheme (for example, <ph id="ph1">`"ftp://contoso.com"`</ph>) the FtpWebRequest class provides the ability to programmatically interact with FTP servers.</source>
+          <target state="translated">Bruker en av disse metodene, når du angir en nettverksressurs som bruker FTP-skjemaet (for eksempel <ph id="ph1">`"ftp://contoso.com"`</ph>) klassen FtpWebRequest gjør mulighet å arbeide programmatisk med FTP-servere.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The URI may be relative or absolute.</source>
+          <target state="translated">URIEN kan være relativ eller absolutt.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the URI is of the form <ph id="ph1">`"ftp://contoso.com/%2fpath"`</ph> (%2f is an escaped '/'), then the URI is absolute, and the current directory is <ph id="ph2">`/path`</ph>.</source>
+          <target state="translated">Hvis URIEN er i formatet <ph id="ph1">`"ftp://contoso.com/%2fpath"`</ph> (%&amp;2;f er en mellom skilletegn "/"), deretter URIEN er absolutt, og gjeldende katalog <ph id="ph2">`/path`</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If, however, the URI is of the form <ph id="ph1">`"ftp://contoso.com/path"`</ph>, first the .NET Framework logs into the FTP server (using the user name and password set by the &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt; property), then the current directory is set to <ph id="ph2">`&lt;UserLoginDirectory&gt;/path`</ph>.</source>
+          <target state="translated">Hvis du imidlertid URIEN er i formatet <ph id="ph1">`"ftp://contoso.com/path"`</ph>, først .NET Framework logger til FTP-serveren (ved hjelp av brukernavn og passord som er angitt av den &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt;egenskapen), og gjeldende katalog er satt til <ph id="ph2">`&lt;UserLoginDirectory&gt;/path`</ph>.&lt;/xref:System.Net.FtpWebRequest.Credentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have a valid user name and password for the server or the server must allow anonymous logon.</source>
+          <target state="translated">Du må ha et gyldig brukernavn og passord for serveren eller serveren tillater anonym pålogging.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify the credentials used to connect to the server by setting the &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt; property or you can include them in the &lt;xref:System.Uri.UserInfo%2A&gt; portion of the URI passed to the &lt;xref:System.Net.WebRequest.Create%2A&gt; method.</source>
+          <target state="translated">Du kan angi legitimasjonen som brukes til å koble til serveren ved å angi den &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt;egenskapen, eller du kan inkludere dem i den &lt;xref:System.Uri.UserInfo%2A&gt;deler av URIEN sendt til den &lt;xref:System.Net.WebRequest.Create%2A&gt;metoden.&lt;/xref:System.Net.WebRequest.Create%2A&gt; &lt;/xref:System.Uri.UserInfo%2A&gt; &lt;/xref:System.Net.FtpWebRequest.Credentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you include &lt;xref:System.Uri.UserInfo%2A&gt; information in the URI, the &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt; property is set to a new network credential with the specified user name and password information.</source>
+          <target state="translated">Hvis du inkluderer &lt;xref:System.Uri.UserInfo%2A&gt;informasjonen i URI, den &lt;xref:System.Net.FtpWebRequest.Credentials%2A&gt;er satt til nye nettverkslegitimasjon med den angitte brukeren navn og passord.&lt;/xref:System.Net.FtpWebRequest.Credentials%2A&gt; &lt;/xref:System.Uri.UserInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Unless the &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt; property is <ph id="ph2">`true`</ph>, all data and commands, including your user name and password information, are sent to the server in clear text.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Med mindre den &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;egenskapen <ph id="ph2">`true`</ph>, alle data og kommandoer, inkludert navn og passord brukerinformasjon, sendes til serveren i ren tekst.&lt;/xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anyone monitoring network traffic can view your credentials and use them to connect to the server.</source>
+          <target state="translated">Alle overvåke nettverkstrafikk kan vise legitimasjonen din og bruke dem til å koble til serveren.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are connecting to an FTP server that requires credentials and supports Secure Sockets Layer (SSL), you should set &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Hvis du kobler til en FTP-serveren krever legitimasjon, og som støtter Secure Sockets Layer (SSL), må du angi &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;til <ph id="ph1">`true`</ph>.&lt;/xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have &lt;xref:System.Net.WebPermission&gt; to access the FTP resource; otherwise, a &lt;xref:System.Security.SecurityException&gt; exception is thrown.</source>
+          <target state="translated">Du må ha &lt;xref:System.Net.WebPermission&gt;å få tilgang til FTP-ressursen; ellers en &lt;xref:System.Security.SecurityException&gt;unntak.&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Net.WebPermission&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify the FTP command to send to the server by setting the &lt;xref:System.Net.FtpWebRequest.Method%2A&gt; property to a value defined in the &lt;xref:System.Net.WebRequestMethods.Ftp&gt; structure.</source>
+          <target state="translated">Angi FTP-kommandoen som skal sendes til serveren ved å angi den &lt;xref:System.Net.FtpWebRequest.Method%2A&gt;til en verdi som er definert i den &lt;xref:System.Net.WebRequestMethods.Ftp&gt;strukturen.&lt;/xref:System.Net.WebRequestMethods.Ftp&gt; &lt;/xref:System.Net.FtpWebRequest.Method%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To transmit text data, change the &lt;xref:System.Net.FtpWebRequest.UseBinary%2A&gt; property from its default value (<ph id="ph1">`true`</ph>) to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Hvis du vil overføre tekstdata, kan du endre den &lt;xref:System.Net.FtpWebRequest.UseBinary%2A&gt;egenskapen standardverdi (<ph id="ph1">`true`</ph>) til <ph id="ph2">`false`</ph>.&lt;/xref:System.Net.FtpWebRequest.UseBinary%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details and restrictions, see &lt;xref:System.Net.FtpWebRequest.Method%2A&gt;.</source>
+          <target state="translated">Begrensninger, og mer informasjon, se &lt;xref:System.Net.FtpWebRequest.Method%2A&gt;.&lt;/xref:System.Net.FtpWebRequest.Method%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using an FtpWebRequest object to upload a file to a server, you must write the file content to the request stream obtained by calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; method or its asynchronous counterparts, the &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; and &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt; methods.</source>
+          <target state="translated">Når du bruker et FtpWebRequest-objekt for å laste opp en fil til en server, må du skrive innholdet i filen til forespørselen for dataflyten hente ved å kalle den &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;metoden eller de asynkrone kolleger den &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;og &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt;metoder.&lt;/xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must write to the stream and close the stream before sending the request.</source>
+          <target state="translated">Du må skrive til dataflyten og lukk dataflyten før sending av forespørselen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Requests are sent to the server by calling the &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt; method or its asynchronous counterparts, the &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; and &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; methods.</source>
+          <target state="translated">Forespørsler er sendt til serveren ved å kalle den &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;metoden eller de asynkrone kolleger den &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;og &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;metoder.&lt;/xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the requested operation completes, an &lt;xref:System.Net.FtpWebResponse&gt; object is returned.</source>
+          <target state="translated">Når den forespurte operasjonen er fullført, en &lt;xref:System.Net.FtpWebResponse&gt;objekt returneres.&lt;/xref:System.Net.FtpWebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.FtpWebResponse&gt; object provides the status of the operation and any data downloaded from the server.</source>
+          <target state="translated">Den &lt;xref:System.Net.FtpWebResponse&gt;-objektet har statusen for operasjonen, og alle data som er lastet ned fra serveren.&lt;/xref:System.Net.FtpWebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set a time-out value for reading or writing to the server by using the &lt;xref:System.Net.FtpWebRequest.ReadWriteTimeout%2A&gt; property.</source>
+          <target state="translated">Du kan angi en tidsavbruddsverdi for lese eller skrive til serveren ved hjelp av den &lt;xref:System.Net.FtpWebRequest.ReadWriteTimeout%2A&gt;egenskapen.&lt;/xref:System.Net.FtpWebRequest.ReadWriteTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the time-out period is exceeded, the calling method throws a &lt;xref:System.Net.WebException&gt; with &lt;xref:System.Net.WebExceptionStatus&gt; set to &lt;xref:System.Net.WebExceptionStatus&gt;.</source>
+          <target state="translated">Hvis tidsavbruddsperioden overskrides, oppstår metoden kall en &lt;xref:System.Net.WebException&gt;med &lt;xref:System.Net.WebExceptionStatus&gt;satt til &lt;xref:System.Net.WebExceptionStatus&gt;.&lt;/xref:System.Net.WebExceptionStatus&gt; &lt;/xref:System.Net.WebExceptionStatus&gt; &lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When downloading a file from an FTP server, if the command was successful, the contents of the requested file are available in the response object's stream.</source>
+          <target state="translated">Innholdet i den forespurte filen er tilgjengelige i svaret objektets dataflyten ved nedlasting av en fil fra en FTP-serveren, Hvis kommandoen var vellykket.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access this stream by calling the &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt; method.</source>
+          <target state="translated">Du har tilgang til denne dataflyten ved å kalle den &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt;metoden.&lt;/xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Net.FtpWebResponse&gt;.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, kan du se &lt;xref:System.Net.FtpWebResponse&gt;.&lt;/xref:System.Net.FtpWebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt; property is set, either directly or in a configuration file, communications with the FTP server are made through the specified proxy.</source>
+          <target state="translated">Hvis den &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt;egenskapen er angitt, enten direkte eller i en konfigurasjonsfil gjøres kommunikasjon med FTP-serveren via den angitte proxyen.&lt;/xref:System.Net.FtpWebRequest.Proxy%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified proxy is an HTTP proxy, only the &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;, &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt;, and &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt; commands are supported.</source>
+          <target state="translated">Hvis den angitte proxyen er en HTTP-proxy, bare den &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;, &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt;, og &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt;kommandoer som støttes.&lt;/xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only downloaded binary content is cached; that is, content received using the &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt; command with the &lt;xref:System.Net.FtpWebRequest.UseBinary%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Bare nedlastet binære innhold hurtigbufres; Det vil si innhold motta ved hjelp av den &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;kommando med den &lt;xref:System.Net.FtpWebRequest.UseBinary%2A&gt;-egenskapen satt til <ph id="ph1">`true`</ph>.&lt;/xref:System.Net.FtpWebRequest.UseBinary%2A&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple FtpWebRequests reuse existing connections, if possible.</source>
+          <target state="translated">Flere FtpWebRequests bruke eksisterende tilkoblinger, hvis mulig.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the FTP protocol, see RFC 959, "File Transfer Protocol," available at <bpt id="p1">[</bpt>http://www.rfc-editor.org/<ept id="p1">](http://www.ietf.org/rfc/rfc959.txt)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon om FTP-protokollen, kan du se RFC 959, "File Transfer Protocol," tilgjengelig på <bpt id="p1">[</bpt>http://www.rfc-editor.org/<ept id="p1">](http://www.ietf.org/rfc/rfc959.txt)</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Terminates an asynchronous FTP operation.</source>
+          <target state="translated">Avslutter en asynkron operasjon for FTP.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no operation in progress, this method does nothing.</source>
+          <target state="translated">Hvis det er ingen pågående operasjon, finnes ikke noe denne metoden.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a file transfer is in progress, this method terminates the transfer.</source>
+          <target state="translated">Hvis en filoverføring pågår, vil denne metoden avslutter overføringen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dette medlemmet genererer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Begins asynchronously opening a request's content stream for writing.</source>
+          <target state="translated">Starter asynkront åpning av en forespørsel innhold dataflyten for skriving.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must complete the asynchronous operation by calling the &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt; method.</source>
+          <target state="translated">Du må fullføre den asynkrone operasjonen ved å kalle den &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt;metoden.&lt;/xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt; is called by the method referenced by <ph id="ph1">`callback`</ph>.</source>
+          <target state="translated">Vanligvis &lt;xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt;kalles ved hjelp av metoden refererer til <ph id="ph1">`callback`</ph>.&lt;/xref:System.Net.FtpWebRequest.EndGetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the state of the operation, check the properties in the &lt;xref:System.IAsyncResult&gt; object returned by this method.</source>
+          <target state="translated">For å fastslå tilstanden for operasjonen, kan du se egenskapene den &lt;xref:System.IAsyncResult&gt;objektet som returneres av denne metoden.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not block while waiting for the stream.</source>
+          <target state="translated">Denne metoden blokkerer ikke under venting på dataflyten.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To block, call &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; in place of this method.</source>
+          <target state="translated">Hvis du vil blokkere, kan du kalle &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;i stedet for denne metoden.&lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For detailed information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer detaljert informasjon om hvordan du bruker asynkrone programming modellen <bpt id="p1">[</bpt>kaller asynkront synkron metoder<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dette medlemmet genererer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">En &lt;xref:System.AsyncCallback&gt;representanten som refererer til metoden som skal startes når operasjonen er fullført.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A user-defined object that contains information about the operation.</source>
+          <target state="translated">Et brukerdefinert objekt som inneholder informasjon om operasjonen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation completes.</source>
+          <target state="translated">Dette objektet er sendt til den <ph id="ph1">`callback`</ph> delegere når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; instance that indicates the status of the operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;-forekomst som angir statusen for operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A previous call to this method or &lt;xref:System.Net.FtpWebRequest.GetRequestStream*&gt; has not yet completed.</source>
+          <target state="translated">En tidligere kall til denne metoden eller &lt;xref:System.Net.FtpWebRequest.GetRequestStream*&gt;er ikke fullført ennå.&lt;/xref:System.Net.FtpWebRequest.GetRequestStream*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A connection to the FTP server could not be established.</source>
+          <target state="translated">Kan ikke opprette en tilkobling til FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.FtpWebRequest.Method*&gt; property is not set to &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.FtpWebRequest.Method*&gt;Egenskapen er ikke satt til &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;.&lt;/xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt; &lt;/xref:System.Net.FtpWebRequest.Method*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Begins sending a request and receiving a response from an FTP server asynchronously.</source>
+          <target state="translated">Starter sending av en forespørsel, og få svar fra en FTP-server asynkront.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must complete the asynchronous operation by calling the &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; method.</source>
+          <target state="translated">Du må fullføre den asynkrone operasjonen ved å kalle den &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;metoden.&lt;/xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; is called by the method referenced by <ph id="ph1">`callback`</ph>.</source>
+          <target state="translated">Vanligvis &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;kalles ved hjelp av metoden refererer til <ph id="ph1">`callback`</ph>.&lt;/xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the state of the operation, check the properties in the &lt;xref:System.IAsyncResult&gt; object returned by the BeginGetResponse method.</source>
+          <target state="translated">For å fastslå tilstanden for operasjonen, kan du se egenskapene den &lt;xref:System.IAsyncResult&gt;objektet som ble returnert av metoden BeginGetResponse.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt; property is set, either directly or in a configuration file, communications with the FTP server are made through the specified proxy.</source>
+          <target state="translated">Hvis den &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt;egenskapen er angitt, enten direkte eller i en konfigurasjonsfil gjøres kommunikasjon med FTP-serveren via den angitte proxyen.&lt;/xref:System.Net.FtpWebRequest.Proxy%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BeginGetResponse does not block while waiting for the response from the server.</source>
+          <target state="translated">BeginGetResponse blokkerer ikke mens du venter på svar fra serveren.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To block, call the &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt; method in place of BeginGetResponse.</source>
+          <target state="translated">Hvis du vil blokkere, kan du kalle den &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;metoden i stedet BeginGetResponse.&lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om hvordan du bruker asynkrone programming modellen <bpt id="p1">[</bpt>kaller asynkront synkron metoder<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">Dette medlemmet produserer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a &lt;xref:System.Net.WebException&gt; is thrown, use the &lt;xref:System.Net.WebException.Response%2A&gt; and &lt;xref:System.Net.WebException.Status%2A&gt; properties of the exception to determine the response from the server.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Hvis en &lt;xref:System.Net.WebException&gt;er et, bruker du &lt;xref:System.Net.WebException.Response%2A&gt;og &lt;xref:System.Net.WebException.Status%2A&gt;Egenskaper for unntak for å finne svar fra serveren.&lt;/xref:System.Net.WebException.Status%2A&gt; &lt;/xref:System.Net.WebException.Response%2A&gt; &lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">En &lt;xref:System.AsyncCallback&gt;representanten som refererer til metoden som skal startes når operasjonen er fullført.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A user-defined object that contains information about the operation.</source>
+          <target state="translated">Et brukerdefinert objekt som inneholder informasjon om operasjonen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation completes.</source>
+          <target state="translated">Dette objektet er sendt til den <ph id="ph1">`callback`</ph> delegere når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; instance that indicates the status of the operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;-forekomst som angir statusen for operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.FtpWebRequest.GetResponse*&gt; or BeginGetResponse has already been called for this instance.</source>
+          <target state="translated">&lt;xref:System.Net.FtpWebRequest.GetResponse*&gt;eller BeginGetResponse er allerede blitt kalt for denne forekomsten.&lt;/xref:System.Net.FtpWebRequest.GetResponse*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets or sets the certificates used for establishing an encrypted connection to the FTP server.</source>
+          <target state="translated">Henter eller angir sertifikater som brukes til å opprette en kryptert tilkobling til FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Client certificates are used to authenticate the client during the initial SSL connection negotiation.</source>
+          <target state="translated">Klientsertifikater brukes til å godkjenne klienten under den første SSL-forhandlingen for tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, kan du se &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;.&lt;/xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The .NET Framework caches SSL sessions as they are created and attempts to reuse a cached session for a new request, if possible.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I .NET Framework bufrer SSL-økter som de opprettes og prøver å bruke en bufret økt til en ny forespørsel om mulig.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When attempting to reuse an SSL session, the .NET Framework uses the first element of &lt;xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt; (if there is one), or tries to reuse an anonymous session if &lt;xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt; is empty.</source>
+          <target state="translated">Under forsøk på å bruke en SSL-økt, .NET Framework bruker det første elementet i &lt;xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt;(Hvis det finnes en), eller prøver å bruke en anonym økt Hvis &lt;xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt;er tom.&lt;/xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt; &lt;/xref:System.Net.HttpWebRequest.ClientCertificates%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509CertificateCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the client certificates.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509CertificateCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder klientsertifikatene.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value specified for a set operation is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien som er angitt for en set-operasjon er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the connection group that contains the service point used to send the current request.</source>
+          <target state="translated">Henter eller angir navnet på tilkoblingsgruppe som inneholder tjenestepunktet som brukes til å sende til gjeldende forespørsel.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Connection groups associate a set of requests with a particular connection or set of connections.</source>
+          <target state="translated">Tilkoblingen grupper knytte et sett med forespørsler med en bestemt tilkobling eller et sett med tilkoblingene.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connections in a connection group can be reused only by requests originating in the same application domain, when the credentials on the request are the same and the request specifies the connection group name.</source>
+          <target state="translated">Tilkoblinger i en tilkobling kan brukes bare på forespørsler opprinnelig i samme programdomenet når legitimasjonen i forespørselen er like, og forespørselen angir navnet på tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a request does not specify a connection group name, any existing connection to the requested server that is not associated with a connection group can be used.</source>
+          <target state="translated">Når en forespørsel ikke angir et navn på tilkoblingen, kan du bruke eventuelle eksisterende tilkobling til den angitte serveren ikke er knyttet til en tilkoblingsgruppe.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the credentials are not the same, the existing connection is closed and the new request must be reauthenticated.</source>
+          <target state="translated">Når legitimasjonen ikke er like, den eksisterende tilkoblingen er lukket den nye forespørselen må godkjennes</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using connection groups can improve performance because this allows all of the requests for a user to reuse the connection authenticated with the user's credentials.</source>
+          <target state="translated">Ved hjelp av tilkoblingen grupper kan forbedre ytelsen fordi dette tillater at alle forespørsler for en bruker til å bruke tilkobling godkjenne med legitimasjonen for brukeren på nytt.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing the ConnectionGroupName property after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Hvis du endrer egenskapen ConnectionGroupName etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; value that contains a connection group name.</source>
+          <target state="translated">En &lt;xref:System.String&gt;verdi som inneholder et gruppenavn for tilkoblingen.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that is ignored by the <bpt id="p1">&lt;xref href="System.Net.FtpWebRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Henter eller angir en verdi som ignoreres av den <bpt id="p1">&lt;xref href="System.Net.FtpWebRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentLength property is provided only for compatibility with other implementations of the &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.WebResponse&gt; classes.</source>
+          <target state="translated">Egenskapen ContentLength finnes bare for kompatibilitet med andre implementeringer av den &lt;xref:System.Net.WebRequest&gt;og &lt;xref:System.Net.WebResponse&gt;klasser.&lt;/xref:System.Net.WebResponse&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no reason to use ContentLength.</source>
+          <target state="translated">Det er ingen grunn til å bruke ContentLength.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int64&gt; value that should be ignored.</source>
+          <target state="translated">En &lt;xref:System.Int64&gt;verdi som skal ignoreres.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets or sets a byte offset into the file being downloaded by this request.</source>
+          <target state="translated">Henter eller angir forskyvningen for en byte i filen som lastes ned av denne forespørselen.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the ContentOffset property when downloading a file from an FTP server.</source>
+          <target state="translated">Angi egenskapen ContentOffset ved nedlasting av en fil fra en FTP-server.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This offset indicates the position in the server's file that marks the start of the data to be downloaded.</source>
+          <target state="translated">Denne forskyvningen angir posisjonen i serverens-fil som merker starten av dataene som skal lastes ned.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The offset is specified as the number of bytes from the start of the file; the offset of the first byte is zero.</source>
+          <target state="translated">Forskyvningen er angitt som antall byte fra begynnelsen av filen. forskyvning i den første byten er null.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting ContentOffset causes the &lt;xref:System.Net.FtpWebRequest&gt; to send a restart (<ph id="ph1">`REST`</ph>) command to the server.</source>
+          <target state="translated">Angi ContentOffset årsaker den &lt;xref:System.Net.FtpWebRequest&gt;til å sende en omstart (<ph id="ph1">`REST`</ph>) kommandoen til serveren.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This command is ignored by most FTP server implementations if you are uploading data to the server.</source>
+          <target state="translated">Denne kommandoen ignoreres av de fleste implementeringer for FTP-serveren hvis du laster opp data til serveren.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing ContentOffset after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre ContentOffset etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int64&gt; instance that specifies the file offset, in bytes.</source>
+          <target state="translated">En &lt;xref:System.Int64&gt;-forekomst som angir forskyvningen for filen, i byte.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default value is zero.</source>
+          <target state="translated">Standardverdien er null.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The value specified for this property is less than zero.</source>
+          <target state="translated">Verdien som er angitt for denne egenskapen er mindre enn null.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentType property is provided only for compatibility with other implementations of the &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.WebResponse&gt; classes.</source>
+          <target state="translated">ContentType-egenskapen er angitt bare for kompatibilitet med andre implementeringer av den &lt;xref:System.Net.WebRequest&gt;og &lt;xref:System.Net.WebResponse&gt;klasser.&lt;/xref:System.Net.WebResponse&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no reason to use ContentType.</source>
+          <target state="translated">Det er ingen grunn til å bruke ContentType.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Content type information is not supported for FTP.</source>
+          <target state="translated">Informasjon om innholdstype støttes ikke for FTP.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the credentials used to communicate with the FTP server.</source>
+          <target state="translated">Henter eller angir legitimasjonen som brukes til å kommunisere med FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You are not required to specify credentials when connecting using anonymous logon.</source>
+          <target state="translated">Du trenger ikke angi legitimasjon når du kobler til ved hjelp av anonym pålogging.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set the Credentials property by using a credential of type &lt;xref:System.Net.NetworkCredential&gt;; this ensures that the user name and password can be read and sent to the server.</source>
+          <target state="translated">Du må angi legitimasjon-egenskapen ved hjelp av legitimasjon av typen &lt;xref:System.Net.NetworkCredential&gt;; Dette sikrer at brukernavnet og passordet kan lese og sendt til serveren.&lt;/xref:System.Net.NetworkCredential&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Credentials information is not encrypted when transmitted to the server unless the &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt; property is set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Legitimasjonen informasjon er ikke kryptert når overføres til serveren, med mindre den &lt;xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;er satt til <ph id="ph2">`true`</ph>.&lt;/xref:System.Net.FtpWebRequest.EnableSsl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing Credentials after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre legitimasjonen etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.ICredentials&gt; instance; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property has not been set.</source>
+          <target state="translated">En &lt;xref:System.Net.ICredentials&gt;serverforekomsten; ellers <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis egenskapen ikke er angitt.&lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The value specified for a set operation is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien som er angitt for en set-operasjon er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.ICredentials&gt; of a type other than &lt;xref:System.Net.NetworkCredential&gt; was specified for a set operation.</source>
+          <target state="translated">En &lt;xref:System.Net.ICredentials&gt;av en type enn &lt;xref:System.Net.NetworkCredential&gt;ble angitt for en set-operasjon.&lt;/xref:System.Net.NetworkCredential&gt; &lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Defines the default cache policy for all FTP requests.</source>
+          <target state="translated">Definerer hurtigbufferen standardpolicyen for alle FTP-forespørsler.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only content received using the &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt; command is cached.</source>
+          <target state="translated">Bare innhold motta ved hjelp av den &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;kommandoen hurtigbufres.&lt;/xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table describes the effects of FTP caching policies on &lt;xref:System.Net.FtpWebRequest&gt;.</source>
+          <target state="translated">Tabellen nedenfor beskriver virkningene av FTP hurtigbufring policyer på &lt;xref:System.Net.FtpWebRequest&gt;.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Policy|Effect|   |------------|------------|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Returns the cached resource if the resource is fresh, the content length is accurate, and the expiration, modification, and content length attributes are present.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Returns the resource from the server.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Returns the cached resource if the content length is present and matches the entry size; otherwise, throws a &lt;xref:System.Net.WebException&gt;.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Returns the cached resource if the content length is provided and matches the entry size; otherwise, the resource is downloaded from the server and is returned to the caller.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Returns the cached resource if the timestamp of the cached resource is the same as the time stamp of the resource on the server; otherwise, the resource is downloaded from the server, stored in the cache, and returned to the caller.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|Downloads the resource from the server, stores it in the cache, and returns the resource to the caller.|   |&lt;xref:System.Net.Cache.RequestCacheLevel&gt;|If a cached resource exists, it is deleted.</source>
+          <target state="translated">| Policyen | Effekt |   |------------|------------|   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Returnerer den bufrede ressursen hvis ressursen er oppdatert, innholdslengden er riktig, og utløper, endre og innholdslengden attributter finnes. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Returnerer ressursen fra serveren. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Returnerer den bufrede ressursen hvis innholdslengden finnes og størrelsen på oppføring; ellers oppstår det et &lt;xref:System.Net.WebException&gt;. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Returnerer den bufrede ressursen hvis innholdslengden er angitt, og størrelsen på oppføring; Ellers ressursen lastes ned fra serveren og er returnert til oppkalleren. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Returnerer den bufrede ressursen hvis tidsstempelet for bufrede ressursen er identisk med tidsstempelet for ressursen på serveren. Ellers ressursen er lastet ned fra serveren, lagret i hurtigbufferen og returnert til oppkalleren. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Laster ned ressursen fra serveren, lagrer den i hurtigbufferen, og returnerer ressursen til oppkalleren. |   | &lt;xref:System.Net.Cache.RequestCacheLevel&gt;| Hvis det finnes en bufret ressurs, slettes.&lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.WebException&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt; &lt;/xref:System.Net.Cache.RequestCacheLevel&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource is downloaded from the server and is returned to the caller.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Setting DefaultCachePolicy overrides any configuration setting.</source>
+          <target state="translated">Ressursen lastes ned fra serveren og er returnert til oppkalleren. |      &gt; <ph id="ph1">[!NOTE]</ph> &gt; Innstillingen DefaultCachePolicy overstyrer noen konfigurasjonsinnstilling.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Cache.RequestCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the cache policy for FTP requests.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Net.Cache.RequestCachePolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som definerer policy for hurtigbuffer for FTP-forespørsler.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The caller tried to set this property to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Oppkalleren prøvde å angi denne egenskapen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets a &lt;xref:System.Boolean&gt; that specifies that an SSL connection should be used.</source>
+          <target state="translated">Henter eller angir en &lt;xref:System.Boolean&gt;som angir at en SSL-tilkobling skal brukes.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!CAUTION]</ph> &gt;  Unless the EnableSsl property is <ph id="ph2">`true`</ph>, all data and commands, including your user name and password information, are sent to the server in clear text.</source>
+          <target state="translated"><ph id="ph1">&gt; [!CAUTION]</ph>&gt; Med mindre egenskapen EnableSsl <ph id="ph2">`true`</ph>, alle data og kommandoer, inkludert navn og passord brukerinformasjon, sendes til serveren i ren tekst.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anyone monitoring network traffic can view your credentials and use them to connect to the server.</source>
+          <target state="translated">Alle overvåke nettverkstrafikk kan vise legitimasjonen din og bruke dem til å koble til serveren.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are connecting to an FTP server that requires credentials and supports SSL, you should set EnableSsl to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Hvis du kobler til en FTP-serveren krever legitimasjon, og som støtter SSL, bør du sette EnableSsl til <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`"AUTH TLS"`</ph> command is sent to the server to request an encrypted session.</source>
+          <target state="translated">Den <ph id="ph1">`"AUTH TLS"`</ph> kommandoen sendes til serveren for å be om en krypterte øktnøkkelen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the server does not recognize this command, you receive a &lt;xref:System.Net.WebException&gt; exception.</source>
+          <target state="translated">Hvis serveren ikke gjenkjenner denne kommandoen, mottar du en &lt;xref:System.Net.WebException&gt;unntak.&lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if control and data transmissions are encrypted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis kontrollen og data overføringer er kryptert. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardverdien er <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The connection to the FTP server has already been established.</source>
+          <target state="translated">Tilkobling til FTP-serveren er allerede opprettet.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Ends a pending asynchronous operation started with &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream*&gt;.</source>
+          <target state="translated">Slutter en ventende asynkron operasjon i gang med &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream*&gt;.&lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream*&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the operation has not completed, the EndGetRequestStream method blocks until the operation completes.</source>
+          <target state="translated">Hvis operasjonen ikke er fullført, EndGetRequestStream metoden blokker før operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether the operation has completed, check the &lt;xref:System.IAsyncResult.IsCompleted%2A&gt; property before calling EndGetRequestStream.</source>
+          <target state="translated">For å fastslå om operasjonen er fullført, kan du se den &lt;xref:System.IAsyncResult.IsCompleted%2A&gt;egenskapen før du kaller EndGetRequestStream.&lt;/xref:System.IAsyncResult.IsCompleted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to the exceptions noted in "Exceptions," EndGetRequestStream rethrows exceptions that were thrown while opening the stream for writing.</source>
+          <target state="translated">I tillegg til unntak som beskrives i "Unntak", rethrows EndGetRequestStream unntak som ble registrert under åpning av dataflyten for skriving.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dette medlemmet genererer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object that was returned when the operation started.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;objektet som ble returnert under operasjonen startes.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A writable &lt;xref:System.IO.Stream&gt; instance associated with this instance.</source>
+          <target state="translated">En skrivbar &lt;xref:System.IO.Stream&gt;forekomst som er tilknyttet denne forekomsten.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> was not obtained by calling <ph id="ph2">&lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>kan ikke hente ved å kalle <ph id="ph2">&lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream*&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This method was already called for the operation identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Denne metoden allerede ble kalt for operasjonen som ble identifisert av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">asyncResult</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Ends a pending asynchronous operation started with &lt;xref:System.Net.FtpWebRequest.BeginGetResponse*&gt;.</source>
+          <target state="translated">Slutter en ventende asynkron operasjon i gang med &lt;xref:System.Net.FtpWebRequest.BeginGetResponse*&gt;.&lt;/xref:System.Net.FtpWebRequest.BeginGetResponse*&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the operation has not completed at the time the EndGetResponse method is called, EndGetResponse blocks until the operation completes.</source>
+          <target state="translated">Hvis operasjonen ikke er fullført da metoden EndGetResponse kalles, EndGetResponse blokker før operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent blocking, check the &lt;xref:System.IAsyncResult.IsCompleted%2A&gt; property before calling EndGetResponse.</source>
+          <target state="translated">Hvis du ikke blokkerer, kan du se den &lt;xref:System.IAsyncResult.IsCompleted%2A&gt;egenskapen før du kaller EndGetResponse.&lt;/xref:System.IAsyncResult.IsCompleted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to the exceptions noted in "Exceptions," EndGetResponse rethrows exceptions that were thrown while communicating with the server.</source>
+          <target state="translated">I tillegg til unntak som beskrives i "Unntak", rethrows EndGetResponse unntak som ble registrert under kommunikasjon med serveren.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dette medlemmet genererer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that was returned when the operation started.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;som ble returnert under operasjonen startes.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.WebResponse&gt; reference that contains an <bpt id="p1">&lt;xref href="System.Net.FtpWebResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">En &lt;xref:System.Net.WebResponse&gt;referanse som inneholder en <bpt id="p1">&lt;xref href="System.Net.FtpWebResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.&lt;/xref:System.Net.WebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This object contains the FTP server's response to the request.</source>
+          <target state="translated">Dette objektet inneholder FTP-serveren svar på forespørselen.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> was not obtained by calling <ph id="ph2">&lt;xref:System.Net.FtpWebRequest.BeginGetResponse*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>kan ikke hente ved å kalle <ph id="ph2">&lt;xref:System.Net.FtpWebRequest.BeginGetResponse*&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This method was already called for the operation identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Denne metoden allerede ble kalt for operasjonen som ble identifisert av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">asyncResult</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>An error occurred using an HTTP proxy.</source>
+          <target state="translated">Det oppstod en feil ved hjelp av en HTTP-proxy.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Retrieves the stream used to upload data to an FTP server.</source>
+          <target state="translated">Henter dataflyten brukes til å laste opp data til en FTP-server.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the request properties before calling the GetRequestStream method.</source>
+          <target state="translated">Angi forespørselsegenskapene før GetRequestStream-metoden.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After writing the data to the stream, you must close the stream prior to sending the request.</source>
+          <target state="translated">Du må lukke dataflyten før sending av forespørselen etter skriving av data til dataflyten.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have not set the &lt;xref:System.Net.FtpWebRequest.Method%2A&gt; property to &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt; or &lt;xref:System.Net.WebRequestMethods.Ftp.AppendFile&gt;, you cannot get the stream.</source>
+          <target state="translated">Hvis du ikke er angitt i &lt;xref:System.Net.FtpWebRequest.Method%2A&gt;egenskapen &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;eller &lt;xref:System.Net.WebRequestMethods.Ftp.AppendFile&gt;, du kan ikke hente dataflyten.&lt;/xref:System.Net.WebRequestMethods.Ftp.AppendFile&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt; &lt;/xref:System.Net.FtpWebRequest.Method%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetRequestStream blocks while waiting for the stream.</source>
+          <target state="translated">GetRequestStream blokker under venting på dataflyten.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent this, call the &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; method in place of GetRequestStream.</source>
+          <target state="translated">Du kan unngå dette ved å kalle den &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;metoden i stedet GetRequestStream.&lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dette medlemmet genererer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A writable &lt;xref:System.IO.Stream&gt; instance used to store data to be sent to the server by the current request.</source>
+          <target state="translated">En skrivbar &lt;xref:System.IO.Stream&gt;-forekomsten som brukes til å lagre data sendes til serveren av gjeldende forespørsel.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A connection to the FTP server could not be established.</source>
+          <target state="translated">Kan ikke opprette en tilkobling til FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.FtpWebRequest.Method*&gt; property is not set to <ph id="ph1">&amp;lt;</ph>xref:System.Net.WebRequestMethods.Ftp.UploadFile?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Net.WebRequestMethods.Ftp.AppendFile?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>.</source>
+          <target state="translated">Den &lt;xref:System.Net.FtpWebRequest.Method*&gt;ikke settes til <ph id="ph1">&amp;lt;</ph>xref:System.Net.WebRequestMethods.Ftp.UploadFile?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> eller <ph id="ph3">&amp;lt;</ph>xref:System.Net.WebRequestMethods.Ftp.AppendFile?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>.&lt;/xref:System.Net.FtpWebRequest.Method*&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Returns the FTP server response.</source>
+          <target state="translated">Returnerer responsen fra FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the FTP-specific properties, you must cast the &lt;xref:System.Net.WebResponse&gt; object returned by this method to &lt;xref:System.Net.FtpWebResponse&gt;.</source>
+          <target state="translated">For å få tilgang til FTP-spesifikke egenskapene, må du endre &lt;xref:System.Net.WebResponse&gt;objektet som ble returnert av denne metoden &lt;xref:System.Net.FtpWebResponse&gt;.&lt;/xref:System.Net.FtpWebResponse&gt; &lt;/xref:System.Net.WebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetResponse causes a control connection to be established, and might also create a data connection.</source>
+          <target state="translated">GetResponse fører til en kontrolltilkobling til opprettes, og kan også opprette en datatilkobling.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetResponse blocks until the response is received.</source>
+          <target state="translated">GetResponse blokker før svaret er mottatt.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent this, you can perform this operation asynchronously by calling the &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; and &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; methods in place of GetResponse.</source>
+          <target state="translated">For å forhindre dette, kan du utføre denne operasjonen asynkront ved å ringe det &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;og &lt;xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt;metoder i stedet GetResponse.&lt;/xref:System.Net.FtpWebRequest.EndGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt; property is set, either directly or in a configuration file, communications with the FTP server are made through the proxy.</source>
+          <target state="translated">Hvis den &lt;xref:System.Net.FtpWebRequest.Proxy%2A&gt;egenskapen er angitt, enten direkte eller i en konfigurasjonsfil gjøres kommunikasjon med FTP-serveren via proxyen.&lt;/xref:System.Net.FtpWebRequest.Proxy%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Net.WebException&gt; is thrown, use the &lt;xref:System.Net.WebException.Response%2A&gt; and &lt;xref:System.Net.WebException.Status%2A&gt; properties of the exception to determine the response from the server.</source>
+          <target state="translated">Hvis en &lt;xref:System.Net.WebException&gt;er et, bruker du &lt;xref:System.Net.WebException.Response%2A&gt;og &lt;xref:System.Net.WebException.Status%2A&gt;Egenskaper for unntak for å finne svar fra serveren.&lt;/xref:System.Net.WebException.Status%2A&gt; &lt;/xref:System.Net.WebException.Response%2A&gt; &lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">Dette medlemmet produserer sporingsinformasjon når du aktiverer sporing for nettverk i programmet.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>nettverk sporing i .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Multiple calls to GetResponse return the same response object; the request is not reissued.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Flere kall til GetResponse returnere det samme objektet svar; forespørselen er ikke utgitt.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.WebResponse&gt; reference that contains an <bpt id="p1">&lt;xref href="System.Net.FtpWebResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">En &lt;xref:System.Net.WebResponse&gt;referanse som inneholder en <bpt id="p1">&lt;xref href="System.Net.FtpWebResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.&lt;/xref:System.Net.WebResponse&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This object contains the FTP server's response to the request.</source>
+          <target state="translated">Dette objektet inneholder FTP-serveren svar på forespørselen.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets an empty &lt;xref:System.Net.WebHeaderCollection&gt; object.</source>
+          <target state="translated">Henter en tom &lt;xref:System.Net.WebHeaderCollection&gt;objektet.&lt;/xref:System.Net.WebHeaderCollection&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Headers property is provided only for compatibility with other implementations of the &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.WebResponse&gt; classes.</source>
+          <target state="translated">Egenskapen overskrifter finnes bare for kompatibilitet med andre implementeringer av den &lt;xref:System.Net.WebRequest&gt;og &lt;xref:System.Net.WebResponse&gt;klasser.&lt;/xref:System.Net.WebResponse&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no reason to use Headers.</source>
+          <target state="translated">Det er ingen grunn til å bruke overskrifter.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An empty &lt;xref:System.Net.WebHeaderCollection&gt; object.</source>
+          <target state="translated">En tom &lt;xref:System.Net.WebHeaderCollection&gt;objektet.&lt;/xref:System.Net.WebHeaderCollection&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets or sets a &lt;xref:System.Boolean&gt; value that specifies whether the control connection to the FTP server is closed after the request completes.</source>
+          <target state="translated">Henter eller angir en &lt;xref:System.Boolean&gt;verdi som angir om kontrolltilkobling til FTP-serveren er lukket etter at forespørselen er fullført.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the KeepAlive property is set to <ph id="ph1">`false`</ph>, the control connection is closed when you call the &lt;xref:System.Net.FtpWebResponse.Close%2A&gt; method.</source>
+          <target state="translated">Når egenskapen KeepAlive er satt til <ph id="ph1">`false`</ph>, kontroll-tilkoblingen er lukket når du kaller den &lt;xref:System.Net.FtpWebResponse.Close%2A&gt;metoden.&lt;/xref:System.Net.FtpWebResponse.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing KeepAlive after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre KeepAlive etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection to the server should not be destroyed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis tilkoblingen til serveren ikke skal ødelegges; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardverdien er <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets or sets the command to send to the FTP server.</source>
+          <target state="translated">Henter eller angir kommandoen som skal sendes til FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Method property determines which command is sent to the server.</source>
+          <target state="translated">Metoden egenskapen bestemmer hvilken kommando som er sendt til serveren.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You set the Method by using the strings defined in the public field members of the &lt;xref:System.Net.WebRequestMethods.Ftp&gt; class.</source>
+          <target state="translated">Du har angitt metoden ved hjelp av strenger som er definert i felles feltet medlemmene av &lt;xref:System.Net.WebRequestMethods.Ftp&gt;klasse.&lt;/xref:System.Net.WebRequestMethods.Ftp&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the strings defined in the &lt;xref:System.Net.WebRequestMethods.Ftp&gt; class are the only supported options for the Method property.</source>
+          <target state="translated">Legg merke til at strengene definert i den &lt;xref:System.Net.WebRequestMethods.Ftp&gt;klassen er de eneste alternativene som støttes for metoden egenskapen.&lt;/xref:System.Net.WebRequestMethods.Ftp&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the Method property to any other value will result in an &lt;xref:System.ArgumentException&gt; exception.</source>
+          <target state="translated">Angivelse av metode-egenskapen til en annen verdi resulterer i en &lt;xref:System.ArgumentException&gt;unntak.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When setting Method to &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;, you must do so before calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; method.</source>
+          <target state="translated">Når du angir metode &lt;xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;, må du gjøre dette før du kaller den &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;metoden.&lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.UploadFile&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Failure to call these members in the correct order causes a &lt;xref:System.Net.ProtocolViolationException&gt; exception when you attempt to get the request stream.</source>
+          <target state="translated">Kan ikke kalle disse medlemmene i riktig rekkefølge årsaker en &lt;xref:System.Net.ProtocolViolationException&gt;unntak når du prøver å hente forespørselen for dataflyten.&lt;/xref:System.Net.ProtocolViolationException&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The credentials supplied for the &lt;xref:System.Net.FtpWebRequest&gt; object must have permission to perform the specified method.</source>
+          <target state="translated">Legitimasjonen som er angitt for den &lt;xref:System.Net.FtpWebRequest&gt;objektet må ha tillatelse til å utføre den angitte metoden.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not, the FTP command fails.</source>
+          <target state="translated">Hvis ikke mislykkes FTP-kommandoen.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the success or failure of a command, check the &lt;xref:System.Net.FtpWebResponse.StatusCode%2A&gt; and &lt;xref:System.Net.FtpWebResponse.StatusDescription%2A&gt; properties.</source>
+          <target state="translated">Hvis du vil finne vellykket eller mislykket av en kommando, kan du se den &lt;xref:System.Net.FtpWebResponse.StatusCode%2A&gt;og &lt;xref:System.Net.FtpWebResponse.StatusDescription%2A&gt;Egenskaper.&lt;/xref:System.Net.FtpWebResponse.StatusDescription%2A&gt; &lt;/xref:System.Net.FtpWebResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; value that contains the FTP command to send to the server.</source>
+          <target state="translated">En &lt;xref:System.String&gt;verdi som inneholder FTP-kommandoen som skal sendes til serveren.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;.</source>
+          <target state="translated">Standardverdien er &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;.&lt;/xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PreAuthenticate property is provided only for compatibility with other implementations of the &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.WebResponse&gt; classes.</source>
+          <target state="translated">Egenskapen PreAuthenticate finnes bare for kompatibilitet med andre implementeringer av den &lt;xref:System.Net.WebRequest&gt;og &lt;xref:System.Net.WebResponse&gt;klasser.&lt;/xref:System.Net.WebResponse&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Preauthentication is not supported for FTP.</source>
+          <target state="translated">Preauthentication støttes ikke for FTP.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Gets or sets the proxy used to communicate with the FTP server.</source>
+          <target state="translated">Henter eller angir proxyen brukes til å kommunisere med FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Proxy property identifies the &lt;xref:System.Net.IWebProxy&gt; instance that communicates with the FTP server.</source>
+          <target state="translated">Egenskapen Proxy identifiserer den &lt;xref:System.Net.IWebProxy&gt;-forekomst som kommuniserer med FTP-serveren.&lt;/xref:System.Net.IWebProxy&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy is set by the system by using configuration files and the Internet Explorer Local Area Network settings.</source>
+          <target state="translated">Proxyen er angitt av systemet ved å bruke konfigurasjonsfilene og innstillingene for Internet Explorer lokalt nettverk.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify that no proxy should be used, set Proxy to the proxy instance returned by the &lt;xref:System.Net.GlobalProxySelection.GetEmptyWebProxy%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis du vil angi at ingen proxy skal brukes, må du angi Proxy til proxy-forekomsten ble returnert av den &lt;xref:System.Net.GlobalProxySelection.GetEmptyWebProxy%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Net.GlobalProxySelection.GetEmptyWebProxy%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic proxy detection, see <bpt id="p1">[</bpt>Automatic Proxy Detection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk proxy-gjenkjenning <bpt id="p1">[</bpt>automatisk Proxy-oppdaging<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set Proxy before writing data to the request's stream or getting the response.</source>
+          <target state="translated">Du må angi Proxy før skriving av data til den forespørselen for dataflyten eller henting av svaret.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing Proxy after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre Proxy etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.FtpWebRequest&gt; class supports HTTP and ISA Firewall Client proxies.</source>
+          <target state="translated">Den &lt;xref:System.Net.FtpWebRequest&gt;klassen støtter HTTP- og ISA brannmur klienten proxyer.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified proxy is an HTTP proxy, only the &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;, &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt;, and &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt; commands are supported.</source>
+          <target state="translated">Hvis den angitte proxyen er en HTTP-proxy, bare den &lt;xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;, &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt;, og &lt;xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt;kommandoer som støttes.&lt;/xref:System.Net.WebRequestMethods.Ftp.ListDirectoryDetails&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.ListDirectory&gt; &lt;/xref:System.Net.WebRequestMethods.Ftp.DownloadFile&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.IWebProxy&gt; instance responsible for communicating with the FTP server.</source>
+          <target state="translated">En &lt;xref:System.Net.IWebProxy&gt;forekomsten er ansvarlig for å kommunisere med FTP-serveren.&lt;/xref:System.Net.IWebProxy&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>This property cannot be set to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Denne egenskapen kan ikke settes til <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets or sets a time-out when reading from or writing to a stream.</source>
+          <target state="translated">Henter eller angir et tidsavbrudd under lesing fra eller skrive til en dataflyt.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReadWriteTimeout is used when writing to the stream returned by the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; method or reading from the stream returned by the &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt; method.</source>
+          <target state="translated">ReadWriteTimeout brukes under skriving til dataflyt returnert av den &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;metoden eller lesing fra dataflyten som ble returnert av den &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt;metoden.&lt;/xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the ReadWriteTimeout property controls the time-out for the &lt;xref:System.IO.Stream.Read%2A&gt; method, which is used to read the stream returned by the &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt; method, and for the &lt;xref:System.IO.Stream.Write%2A&gt; method, which is used to write to the stream returned by the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; method.</source>
+          <target state="translated">Egenskapen ReadWriteTimeout kontrollerer spesielt tidsavbruddet for den &lt;xref:System.IO.Stream.Read%2A&gt;metoden som brukes til å lese dataflyten som ble returnert av den &lt;xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt;metoden, og den &lt;xref:System.IO.Stream.Write%2A&gt;metoden som brukes til å skrive til dataflyten som ble returnert av den &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;metoden.&lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; &lt;/xref:System.IO.Stream.Write%2A&gt; &lt;/xref:System.Net.FtpWebResponse.GetResponseStream%2A&gt; &lt;/xref:System.IO.Stream.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the time-out period is exceeded, the calling method throws a &lt;xref:System.Net.WebException&gt; with &lt;xref:System.Net.WebExceptionStatus&gt; set to &lt;xref:System.Net.WebExceptionStatus&gt;.</source>
+          <target state="translated">Hvis tidsavbruddsperioden overskrides, oppstår metoden kall en &lt;xref:System.Net.WebException&gt;med &lt;xref:System.Net.WebExceptionStatus&gt;satt til &lt;xref:System.Net.WebExceptionStatus&gt;.&lt;/xref:System.Net.WebExceptionStatus&gt; &lt;/xref:System.Net.WebExceptionStatus&gt; &lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the amount of time to wait for the request to complete, use the &lt;xref:System.Net.FtpWebRequest.Timeout%2A&gt; property.</source>
+          <target state="translated">For å angi hvor lenge man skal vente på å fullføre forespørselen, kan du bruke den &lt;xref:System.Net.FtpWebRequest.Timeout%2A&gt;egenskapen.&lt;/xref:System.Net.FtpWebRequest.Timeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The number of milliseconds before the reading or writing times out.</source>
+          <target state="translated">Antall millisekunder før lesing og skriving ganger.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The default value is 300,000 milliseconds (5 minutes).</source>
+          <target state="translated">Standardverdien er 300 000 millisekunder (5 minutter).</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The request has already been sent.</source>
+          <target state="translated">Forespørselen har allerede sendt.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The value specified for a set operation is less than or equal to zero and is not equal to <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Timeout.Infinite?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Verdien som er angitt for en set-operasjon er mindre enn eller lik null, og er ikke lik <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Timeout.Infinite?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Gets or sets the new name of a file being renamed.</source>
+          <target state="translated">Henter eller angir det nye navnet på en fil som gis nytt navn.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The new name of the file being renamed.</source>
+          <target state="translated">Det nye navnet på filen får nytt navn.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The value specified for a set operation is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">Verdien som er angitt for en set-operasjon er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller en tom streng.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Gets the URI requested by this instance.</source>
+          <target state="translated">Henter URI ble forespurt av denne forekomsten.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the RequestUri property is the URI specified when the &lt;xref:System.Net.WebRequest.Create%2A&gt; method was called to obtain this instance.</source>
+          <target state="translated">Verdien for egenskapen RequestUri er URI angitt når den &lt;xref:System.Net.WebRequest.Create%2A&gt;metoden ble kalt for å få denne forekomsten.&lt;/xref:System.Net.WebRequest.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; instance that identifies a resource that is accessed using the File Transfer Protocol.</source>
+          <target state="translated">En &lt;xref:System.Uri&gt;-forekomst som identifiserer en ressurs som er tilgjengelig via File Transfer Protocol.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Net.ServicePoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to connect to the FTP server.</source>
+          <target state="translated">Henter den <bpt id="p1">&lt;xref href="System.Net.ServicePoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet brukes til å koble til FTP-serveren.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:System.Net.ServicePoint&gt; object exists, one is created for the FTP server.</source>
+          <target state="translated">Hvis ingen &lt;xref:System.Net.ServicePoint&gt;objektet finnes, en mappe for FTP-serveren.&lt;/xref:System.Net.ServicePoint&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the maximum number of connections that can be open for an FTP server, set the &lt;xref:System.Net.ServicePoint.ConnectionLimit%2A&gt; property of the &lt;xref:System.Net.ServicePoint&gt; instance returned by this property.</source>
+          <target state="translated">Angi maksimalt antall tilkoblinger som kan være åpen for FTP-server ved å angi den &lt;xref:System.Net.ServicePoint.ConnectionLimit%2A&gt;for den &lt;xref:System.Net.ServicePoint&gt;forekomsten ble returnert av denne egenskapen.&lt;/xref:System.Net.ServicePoint&gt; &lt;/xref:System.Net.ServicePoint.ConnectionLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.ServicePoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to customize connection behavior.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Net.ServicePoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som kan brukes til å tilpasse virkemåte ved tilkobling.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of milliseconds to wait for a request.</source>
+          <target state="translated">Henter eller angir antall millisekunder det skal ventes for en forespørsel.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an infinite value, set the Timeout property to &lt;xref:System.Threading.Timeout.Infinite&gt; (-1).</source>
+          <target state="translated">Hvis du vil angi en uendelig verdi, angi tidsavbrudd for egenskapen &lt;xref:System.Threading.Timeout.Infinite&gt;(-1).&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default value.</source>
+          <target state="translated">Dette er standardverdien.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Timeout is the number of milliseconds that a synchronous request made with the &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt; method waits for a response and that the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; method waits for a stream.</source>
+          <target state="translated">Tidsavbruddet som er antall millisekunder som en synkron forespørsel med den &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;metoden venter på svar, og at den &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;metoden venter på en dataflyt.&lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a resource does not respond within the time-out period, the request throws a &lt;xref:System.Net.WebException&gt; with the &lt;xref:System.Net.WebException.Status%2A&gt; property set to &lt;xref:System.Net.WebExceptionStatus&gt;.</source>
+          <target state="translated">Hvis en ressurs ikke svarer innen tidsavbruddsperioden, oppstår forespørselen en &lt;xref:System.Net.WebException&gt;med &lt;xref:System.Net.WebException.Status%2A&gt;egenskapen satt til &lt;xref:System.Net.WebExceptionStatus&gt;.&lt;/xref:System.Net.WebExceptionStatus&gt; &lt;/xref:System.Net.WebException.Status%2A&gt; &lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing Timeout after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre tidsavbrudd etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Domain Name System (DNS) query may take up to 15 seconds to return or time out.</source>
+          <target state="translated">En spørring (DNS-System) kan ta opptil 15 sekunder å returnere tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your request contains a host name that requires resolution and you set Timeout to a value less than 15 seconds, it may take 15 seconds or more before a &lt;xref:System.Net.WebException&gt; is thrown to indicate a time-out on your request.</source>
+          <target state="translated">Hvis forespørselen inneholder et vertsnavn som krever løsning, og angi tidsavbrudd til en verdi mindre enn 15 sekunder, kan det ta 15 sekunder eller mer før en &lt;xref:System.Net.WebException&gt;er et for å angi et tidsavbrudd for forespørselen.&lt;/xref:System.Net.WebException&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that contains the number of milliseconds to wait before a request times out.</source>
+          <target state="translated">En &lt;xref:System.Int32&gt;verdi som inneholder antall millisekunder det skal ventes før en forespørsel blir tidsavbrutt.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Threading.Timeout.Infinite&gt;.</source>
+          <target state="translated">Standardverdien er &lt;xref:System.Threading.Timeout.Infinite&gt;.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The value specified is less than zero and is not &lt;xref:System.Threading.Timeout.Infinite&gt;.</source>
+          <target state="translated">Den angitte verdien er mindre enn null og ikke &lt;xref:System.Threading.Timeout.Infinite&gt;.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Gets or sets a &lt;xref:System.Boolean&gt; value that specifies the data type for file transfers.</source>
+          <target state="translated">Henter eller angir en &lt;xref:System.Boolean&gt;verdi som angir datatypen for filoverføringer.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are sending binary data, such as an image, set this property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Hvis du sender binære data, for eksempel et bilde Sett denne egenskapen til <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are sending text, set the property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Hvis du sender tekst, angi egenskapen <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying <ph id="ph1">`true`</ph> causes the &lt;xref:System.Net.FtpWebRequest&gt; to send a <ph id="ph2">`"TYPE I"`</ph> command to the server.</source>
+          <target state="translated">Angir <ph id="ph1">`true`</ph> fører til at den &lt;xref:System.Net.FtpWebRequest&gt;til å sende en <ph id="ph2">`"TYPE I"`</ph> kommandoen til serveren.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying <ph id="ph1">`false`</ph> causes the &lt;xref:System.Net.FtpWebRequest&gt; to send a <ph id="ph2">`"Type A"`</ph> command to the server.</source>
+          <target state="translated">Angir <ph id="ph1">`false`</ph> fører til at den &lt;xref:System.Net.FtpWebRequest&gt;til å sende en <ph id="ph2">`"Type A"`</ph> kommandoen til serveren.&lt;/xref:System.Net.FtpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>FTP servers can ignore these commands.</source>
+          <target state="translated">FTP-servere kan ignorere disse kommandoer.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing UseBinary after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre UseBinary etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate to the server that the data to be transferred is binary; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the data is text.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>som viser til serveren for at dataene som skal overføres binær; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at dataene er tekst.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardverdien er <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UseDefaultCredentials property is provided only for compatibility with other implementations of the &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.WebResponse&gt; classes.</source>
+          <target state="translated">Egenskapen UseDefaultCredentials finnes bare for kompatibilitet med andre implementeringer av den &lt;xref:System.Net.WebRequest&gt;og &lt;xref:System.Net.WebResponse&gt;klasser.&lt;/xref:System.Net.WebResponse&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no reason to use UseDefaultCredentials.</source>
+          <target state="translated">Det er ingen grunn til å bruke UseDefaultCredentials.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Oppstår alltid &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Default credentials are not supported for FTP.</source>
+          <target state="translated">Standardlegitimasjon støttes ikke for FTP.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Gets or sets the behavior of a client application's data transfer process.</source>
+          <target state="translated">Henter eller angir virkemåten til et klientprogram data overføringsprosessen.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the UsePassive property to <ph id="ph1">`true`</ph> sends the "<ph id="ph2">`PASV"`</ph> command to the server.</source>
+          <target state="translated">Angi egenskapen UsePassive til <ph id="ph1">`true`</ph> sender den "<ph id="ph2">`PASV"`</ph> kommandoen til serveren.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This command requests the server to listen on a data port and to wait for a connection rather than initiate one upon receipt of a transfer command.</source>
+          <target state="translated">Denne kommandoen ber om at serveren ikke lytte på en Dataport og ventes på tilkobling i stedet for å starte en ved mottak av en kommando for overføring.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of the behaviors that are specified using UsePassive, see RFC 959, "File Transfer Protocol," Section 3.2, "Establishing Data Connections" and Section 4.1.2, "Transfer Parameter Commands," available at <bpt id="p1">[</bpt>http://www.rfc-editor.org/<ept id="p1">](http://www.ietf.org/rfc/rfc959.txt)</ept>.</source>
+          <target state="translated">En beskrivelse av handlingene som er angitt med UsePassive avsnittet RFC 959, "File Transfer Protocol," 3.2 "Oppretter datatilkoblinger" og del 4.1.2, "Overføre parameteren kommandoer," tilgjengelig på <bpt id="p1">[</bpt>http://www.rfc-editor.org/<ept id="p1">](http://www.ietf.org/rfc/rfc959.txt)</ept>.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing UsePassive after calling the &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, or &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; method causes an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Endre UsePassive etter kall av &lt;xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt;, &lt;xref:System.Net.FtpWebRequest.GetResponse%2A&gt;, eller &lt;xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt;metoden forårsaker en &lt;xref:System.InvalidOperationException&gt;unntak.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetResponse%2A&gt; &lt;/xref:System.Net.FtpWebRequest.BeginGetRequestStream%2A&gt; &lt;/xref:System.Net.FtpWebRequest.GetRequestStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If UsePassive is set to <ph id="ph1">`true`</ph>, the FTP server may not send the size of the file, and download progress can always be zero.</source>
+          <target state="translated">Hvis UsePassive er satt til <ph id="ph1">`true`</ph>FTP-serveren kan ikke sende størrelsen på filen og laste ned pågår kan alltid være null.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If UsePassive is set to <ph id="ph1">`false`</ph>, a firewall can raise an alert and block the file download.</source>
+          <target state="translated">Hvis UsePassive er satt til <ph id="ph1">`false`</ph>, en brannmur kan øke varselet og blokkere nedlasting av filer.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the client application's data transfer process listens for a connection on the data port; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the client should initiate a connection on the data port.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis klienten programmets dataoverføring lytter prosessen for en tilkobling til dataport; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hvis klienten må opprette en tilkobling til dataport.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardverdien er <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>A new value was specified for this property for a request that is already in progress.</source>
+          <target state="translated">En ny verdi ble angitt for denne egenskapen for en forespørsel som pågår allerede.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7de78f4b6013186e9ea415897a639fc95007cc4b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.DataSourceControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e0e60a7002d3159d0ebdb6dc6153fbaac01bcc9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fbb472b36b0c53e816ebacba989fd14658e8482</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serves as the base class for controls that represent data sources to data-bound controls.</source>
+          <target state="translated">Az alaposztály vezérlők, amelyek megfelelnek az adatforrásoknak az adathoz kötött vezérlők funkcionál.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET supports a control data-binding architecture that enables Web server controls to bind to data in a consistent fashion.</source>
+          <target state="translated">Az ASP.NET támogatja a vezérlő adatkötési architektúra, amely lehetővé teszi a webkiszolgáló-vezérlőket kötést az adatokhoz konzisztens módon.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web server controls that bind to data are referred to as data-bound controls, and the classes that facilitate that binding are called data source controls.</source>
+          <target state="translated">Webkiszolgáló-vezérlőket, hogy az adatokhoz köthető nevezzük adathoz kötött vezérlők és az osztályokat, amelyek egyszerűbbé teszik, hogy a kötés adatforrás-vezérlők nevezzük.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls can represent any data source: a relational database, a file, a stream, a business object, and so on.</source>
+          <target state="translated">Adatforrás-vezérlők jelenthet bármilyen adatforrást: egy relációs adatbázisban, egy fájlt, egy adatfolyam, egy üzleti objektumhoz, és így tovább.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls present data in a consistent way to data-bound controls, regardless of the source or format of the underlying data.</source>
+          <target state="translated">Az adatforrás található adatok vezérlőket az adathoz kötött vezérlők, függetlenül a forrás vagy a mögöttes adatok formátuma ugyanolyan módon.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You use the data source controls that are provided with ASP.NET, including &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt;, &lt;xref:System.Web.UI.WebControls.AccessDataSource&gt;, and &lt;xref:System.Web.UI.WebControls.XmlDataSource&gt;, to perform most Web development tasks.</source>
+          <target state="translated">A biztosított adatforrás-vezérlők használata az ASP.NET, beleértve a &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt;, &lt;xref:System.Web.UI.WebControls.AccessDataSource&gt;, és &lt;xref:System.Web.UI.WebControls.XmlDataSource&gt;, hogy a webes fejlesztési feladatok végrehajtásához.&lt;/xref:System.Web.UI.WebControls.XmlDataSource&gt; &lt;/xref:System.Web.UI.WebControls.AccessDataSource&gt; &lt;/xref:System.Web.UI.WebControls.SqlDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You use the base DataSourceControl class when you want to implement your own custom data source control.</source>
+          <target state="translated">Az alaposztály DataSourceControl használnia, ha szeretné végrehajtani a saját egyéni adatforrás-vezérlőhöz.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While any class that implements the &lt;xref:System.Web.UI.IDataSource&gt; interface is a data source control, most ASP.NET data source controls extend the abstract DataSourceControl class, which provides a base implementation of the &lt;xref:System.Web.UI.IDataSource&gt; interface.</source>
+          <target state="translated">Minden osztály, amely során a &lt;xref:System.Web.UI.IDataSource&gt;felület adatforrás-vezérlőhöz, a legtöbb ASP.NET adatforrás-vezérlők kiterjesztése az absztrakt DataSourceControl osztályt, amely alapszintű valósítja meg a &lt;xref:System.Web.UI.IDataSource&gt;felületet.&lt;/xref:System.Web.UI.IDataSource&gt; &lt;/xref:System.Web.UI.IDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataSourceControl class also provides an implementation of the &lt;xref:System.ComponentModel.IListSource&gt; interface, which enables you to programmatically assign the data source control to the <ph id="ph1">`DataSource`</ph> property of a data-bound control and return data to the control as a basic list.</source>
+          <target state="translated">A DataSourceControl osztály is biztosít az megvalósítását a &lt;xref:System.ComponentModel.IListSource&gt;felület, amely lehetővé teszi a programozott módon rendelheti hozzá az adatforrás-vezérlő számára a <ph id="ph1">`DataSource`</ph> tulajdonság adathoz kötött vezérlő és visszaadott adatok alapvető listaként vezérlőre.&lt;/xref:System.ComponentModel.IListSource&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any ASP.NET control that derives from the &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt; class can bind to a data source control.</source>
+          <target state="translated">Bármilyen abból származó ASP.NET-vezérlő a &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt;osztály adatforrás-vezérlőhöz kell kötni.&lt;/xref:System.Web.UI.WebControls.DataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt; is bound to a data source control, data binding is performed automatically at run time.</source>
+          <target state="translated">Ha egy &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt;kötött adatforrás-vezérlőhöz, hogy az adatkötés automatikusan történik a futási időben.&lt;/xref:System.Web.UI.WebControls.DataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use data source controls with ASP.NET controls that expose a <ph id="ph1">`DataSource`</ph> or <ph id="ph2">`DataSourceID`</ph> property and support basic data binding, but are not derived from &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt;.</source>
+          <target state="translated">Adatforrás-vezérlők visszaállítását ASP.NET vezérlőkkel is használhatja a <ph id="ph1">`DataSource`</ph> vagy <ph id="ph2">`DataSourceID`</ph> tulajdonság és támogatási basic adatkötés, de azok nem származik &lt;xref:System.Web.UI.WebControls.DataBoundControl&gt;.&lt;/xref:System.Web.UI.WebControls.DataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using these data-bound controls, you must explicitly call the <ph id="ph1">`DataBind`</ph> method.</source>
+          <target state="translated">Ezek adathoz kötött vezérlők használatakor explicit módon hívja meg a <ph id="ph1">`DataBind`</ph> metódust.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on data binding, see <bpt id="p1">[</bpt>ASP.NET Data Access Content Map<ept id="p1">](http://msdn.microsoft.com/en-us/f9219396-a0fa-481f-894d-e3d9c67d64f2)</ept>.</source>
+          <target state="translated">Az adatkötés további információkért lásd: <bpt id="p1">[</bpt>ASP.NET Data Access-tartalmak térképét<ept id="p1">](http://msdn.microsoft.com/en-us/f9219396-a0fa-481f-894d-e3d9c67d64f2)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can think of a data source control as the combination of the DataSourceControl object and its associated lists of data, called data source views.</source>
+          <target state="translated">Az eltolásokat tekintheti adatforrás-vezérlőhöz a DataSourceControl objektum kombinációja, valamint a kapcsolódó listák adatforrásnézetek ismert.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each list of data is represented by a &lt;xref:System.Web.UI.DataSourceView&gt; object.</source>
+          <target state="translated">Minden egyes adatok listája képviseli egy &lt;xref:System.Web.UI.DataSourceView&gt;objektum.&lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the underlying data storage contains one or more lists of data, a DataSourceControl is always associated with one or more named &lt;xref:System.Web.UI.DataSourceView&gt; objects.</source>
+          <target state="translated">A mögöttes adatokat tároló tartalmaz egy vagy több adat, mert egy DataSourceControl mindig társítva van egy vagy több nevű &lt;xref:System.Web.UI.DataSourceView&gt;objektumok.&lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IDataSource&gt; interface defines the methods that all data source controls use to interact with data source views: the &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; method is used to enumerate the data source views currently associated with the data source control, and the &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt; method is used to retrieve a specific data source view instance by name.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.IDataSource&gt;felület meghatározása a módszereket, amelyek az összes adatforrás-vezérlők adatforrásnézetek együttműködhet: a &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;számba venni az adatforrás-vezérlő, jelenleg társított adatforrásnézetek módszert és a &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt;módszer segítségével kérhető le egy adott adatforrások nézet példányai nevű.&lt;/xref:System.Web.UI.DataSourceControl.GetView%2A&gt; &lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; &lt;/xref:System.Web.UI.IDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also think of the data source control as two distinct interfaces that callers use to access data.</source>
+          <target state="translated">Is tulajdonképpen az adatforrás-vezérlő, két különböző felületeihez hívóknak használó fér hozzá adatokhoz.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataSourceControl class is the interface that page developers interact with directly when developing a Web Forms page, and the &lt;xref:System.Web.UI.DataSourceView&gt; class is the interface that data-bound controls and data-bound control authors interact with.</source>
+          <target state="translated">DataSourceControl osztálya: a lap fejlesztők együttműködhet közvetlenül egy Web Forms lap fejlesztésekor-kapcsolat és a &lt;xref:System.Web.UI.DataSourceView&gt;osztály az adathoz kötött vezérlők és az adathoz kötött vezérlő szerzők interakciót felület.&lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.DataSourceView&gt; object is available only at run time, any state persisted for the data source control or data source view must be exposed directly by the data source control.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.DataSourceView&gt;objektum érhető el csak futási időben, olyan állapotokat az adatforrás-vezérlő a megőrzött vagy közvetlenül az adatforrás-vezérlő által adatforrásnézet kell észlelnie.&lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no visual rendering of ASP.NET data source controls; they are implemented as controls so you can create them declaratively, and to optionally allow them to participate in state management.</source>
+          <target state="translated">Nincs nem vizuális megjelenítésének ASP.NET adatforrás-vezérlők; Szabályozza, hogy létrehozhasson őket deklarációval, és opcionálisan a fájlok állapotkezelés részt használják azokat.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, data source controls do not support visual features such as &lt;xref:System.Web.UI.DataSourceControl.EnableTheming%2A&gt; or &lt;xref:System.Web.UI.DataSourceControl.SkinID%2A&gt;.</source>
+          <target state="translated">Ennek eredményeképpen adatforrás-vezérlők nem támogatják a visual &lt;xref:System.Web.UI.DataSourceControl.EnableTheming%2A&gt;vagy &lt;xref:System.Web.UI.DataSourceControl.SkinID%2A&gt;.&lt;/xref:System.Web.UI.DataSourceControl.SkinID%2A&gt; &lt;/xref:System.Web.UI.DataSourceControl.EnableTheming%2A&gt; például</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applies the style properties that are defined in the page style sheet to the control.</source>
+          <target state="translated">A stílustulajdonságok a lap stíluslapon a vezérlőhöz definiált vonatkozik.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a vezérlőt tartalmazó.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the server control identifier generated by ASP.NET.</source>
+          <target state="translated">Lekérdezi az ASP.NET által generált kiszolgáló vezérlő azonosítóját.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The server control identifier generated by ASP.NET.</source>
+          <target state="translated">Az ASP.NET által generált kiszolgáló azonosítóját.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Ez a tulajdonság nem használható az adatforrás-vezérlők.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property of the &lt;xref:System.Web.UI.Control&gt; base class is not used for data source controls because data source controls do not render markup.</source>
+          <target state="translated">Ez a tulajdonság a &lt;xref:System.Web.UI.Control&gt;alaposztály nem használatos az adatforrás-vezérlők, mert az adatforrás-vezérlők nem képezhető le markup.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Ez a tulajdonság nem használható az adatforrás-vezérlők.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set this property.</source>
+          <target state="translated">Kísérlet történt a tulajdonság értékét.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the child controls for a specified server control in the UI hierarchy.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a gyermekvezérlők a felhasználói felület hierarchiát a megadott kiszolgáló vezérlőelem képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the specified server control.</source>
+          <target state="translated">A megadott kiszolgáló vezérlő gyermekvezérlőinek gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates a collection to store child controls.</source>
+          <target state="translated">Létrehoz egy gyűjteményt gyermekvezérlők tárolásához.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this control supports themes.</source>
+          <target state="translated">Támogatja-e a vezérlő témák jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.DataSourceControl&gt; control has no visual rendering, it does not support themes.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.DataSourceControl&gt;vezérlő nem vizuális megjelenítés, a nem támogatja a témák.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the EnableTheming property.</source>
+          <target state="translated">Kísérlet történt az EnableTheming tulajdonságot értékének beállítására.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Searches the current naming container for a server control with the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Megkeresi a megadott kiszolgáló vezérlőt aktuális elnevezési tárolójának <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The identifier for the control to be found.</source>
+          <target state="translated">A keresett vezérlő azonosítója</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The specified control, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified control does not exist.</source>
+          <target state="translated">A megadott vezérlő vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a megadott vezérlő nem létezik.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Sets input focus to the control.</source>
+          <target state="translated">Beállítja az aktuális vezérlő adjon meg.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.DataSourceControl&gt; control has no visual rendering, calling the Focus method on it throws a &lt;xref:System.NotSupportedException&gt; exception.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.DataSourceControl&gt;nem vizuális megjelenítés esetén a fókusz jelez metódust hívja a következő vezérlőnek egy &lt;xref:System.NotSupportedException&gt;kivétel.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An attempt was made to call the Focus method.</source>
+          <target state="translated">Kísérlet történt a fókusz metódus meghívására.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the named data source view associated with the data source control.</source>
+          <target state="translated">Az elnevezett adatforrásnézetben az adatforrás-vezérlő társított lekérdezi.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can enumerate through the set of views currently associated with the data source control by calling the &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; method.</source>
+          <target state="translated">Jelenleg társított az adatforrás-vezérlő meghívásával nézetek készletével enumerálása a &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;metódus.&lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source control classes can support one or more views on their underlying data.</source>
+          <target state="translated">Forrás vezérlő adatosztályokat az alapul szolgáló adatokat egy vagy több nézetet is támogatja.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These views are represented by instances of the &lt;xref:System.Web.UI.DataSourceView&gt; class.</source>
+          <target state="translated">Ezek a nézetek jelölik &lt;xref:System.Web.UI.DataSourceView&gt;osztály&lt;/xref:System.Web.UI.DataSourceView&gt; példányai</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source view defines the capabilities of a data source control, does all the work necessary to retrieve data from the underlying data store, and performs operations such as sorting, inserting, deleting, and updating.</source>
+          <target state="translated">Az adatforrásnézet határozza meg az adatforrás-vezérlőhöz képességeit, nem az összes szükséges adatainak lekérése az alapul szolgáló adattár munka, és hajtja végre műveletek, például a rendezés, beszúrni, törlését és frissítését.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.DataSourceControl&gt; class's default implementation returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.UI.DataSourceControl&gt;osztályának alapértelmezett implementációja adja vissza <ph id="ph2">`null`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you extend the &lt;xref:System.Web.UI.DataSourceControl&gt; class, override the GetView method to return the specified &lt;xref:System.Web.UI.DataSourceView&gt; object.</source>
+          <target state="translated">Ha kiterjeszti a &lt;xref:System.Web.UI.DataSourceControl&gt;osztály, írja felül az GetView metódust vissza a megadott &lt;xref:System.Web.UI.DataSourceView&gt;objektum.&lt;/xref:System.Web.UI.DataSourceView&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">Neve a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> beolvasása.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In data source controls that support only one view, such as <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SqlDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this parameter is ignored.</source>
+          <target state="translated">Az adatforrás-vezérlők csak egy nézet, például a támogató <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SqlDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ezt a paramétert a rendszer figyelmen kívül hagyja.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns the named <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Visszaadja a megnevezett <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets a collection of names, representing the list of <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Lekérdezi a nevek listája képviselő gyűjteménye <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított objektumok a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> vezérlő.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Collections.ICollection&gt; collection of names is the allowable set of values that can be passed to the &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt; method.</source>
+          <target state="translated">A &lt;xref:System.Collections.ICollection&gt;nevek gyűjteménye a megengedett készlete, amelyek átadhatók értékek a &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt;metódus.&lt;/xref:System.Web.UI.DataSourceControl.GetView%2A&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ListSourceHelper&gt; class, which is used for the &lt;xref:System.Web.UI.DataSourceControl&gt; class's &lt;xref:System.ComponentModel.IListSource&gt; implementation, checks the GetViewNames method for both the &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt; and &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt; calls to determine whether the data source control is associated with one or more data source views.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.ListSourceHelper&gt;osztály, amely használható a &lt;xref:System.Web.UI.DataSourceControl&gt;osztályának &lt;xref:System.ComponentModel.IListSource&gt;végrehajtására, ellenőrzi a GetViewNames metódus egyaránt a &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt;és &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt;megállapítható, hogy egy vagy több társítva-e az adatforrás-vezérlő hívásainak forrás nézetek.&lt;/xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt; &lt;/xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt; &lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If GetViewNames returns <ph id="ph1">`null`</ph>, which is the default implementation of the method, &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt; returns <ph id="ph2">`false`</ph> and &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt; returns <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">Ha GetViewNames függvény <ph id="ph1">`null`</ph>, ez a módszer alapértelmezett végrehajtásának &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt;adja vissza <ph id="ph2">`false`</ph> és &lt;xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt;adja vissza <ph id="ph3">`null`</ph>.&lt;/xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23GetList%2A&gt; &lt;/xref:System.Web.UI.DataSourceControl.System%23ComponentModel%23IListSource%23ContainsListCollection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.DataSourceControl&gt; class's default implementation returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.UI.DataSourceControl&gt;osztályának alapértelmezett implementációja adja vissza <ph id="ph2">`null`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you extend the &lt;xref:System.Web.UI.DataSourceControl&gt; class, override the GetViewNames method to return a collection of view names.</source>
+          <target state="translated">Ha kiterjeszti a &lt;xref:System.Web.UI.DataSourceControl&gt;osztály, írja felül az GetViewNames metódust a Nézetnevek kell visszaadnia.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the names of the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.ICollection&gt;nevét tartalmazza, amely a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított objektumok a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Determines if the server control contains any child controls.</source>
+          <target state="translated">Azt határozza meg, ha a kiszolgáló valamennyi alárendelt vezérlő tartalmazza.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains other controls; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő tartalmaz más vezérlők; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource.DataSourceChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource.DataSourceChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RaiseDataSourceChangedEvent method notifies a data-bound control that the underlying data source or the data cached in memory has changed, and that the control should rebind and perform any necessary additional work.</source>
+          <target state="translated">A RaiseDataSourceChangedEvent metódus egy adathoz kötött vezérlő értesíti, az alapul szolgáló adatforrás vagy az adatok a memóriában gyorsítótárazott megváltozott, és hogy a vezérlő újbóli kötése és minden szükséges további feladatok végrehajtására.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the RaiseDataSourceChangedEvent method is called when a property of the data source control or a parameter value has changed.</source>
+          <target state="translated">Általában a RaiseDataSourceChangedEvent módszer az adatforrás-vezérlő vagy a paraméter értékét egy tulajdonság megváltozásakor neve.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>NIB: esemény indítása<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains event data.</source>
+          <target state="translated">Egy &lt;xref:System.EventArgs&gt;, amely tartalmazza az eseményadatok.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Outputs server control content to a provided <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and stores tracing information about the control if tracing is enabled.</source>
+          <target state="translated">Kiszolgáló vezérlő tartalmat a megadott kimeneti <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumra, és a vezérlő nyomkövetési adatait tárolja, ha nyomkövetése engedélyezve van.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that receives the control content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely megkapja a vezérlőelem tartalmát.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets the skin to apply to the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A felszín alkalmazandó lekérdezi a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vezérlő.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.DataSourceControl&gt; control has no visual rendering, you cannot set the SkinID property.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.DataSourceControl&gt;vezérlő nem vizuális megjelenítés, akkor a Felszínazonosítóval tulajdonság nem állítható be.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>XRef:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the SkinID property.</source>
+          <target state="translated">Kísérlet történt a Felszínazonosítóval tulajdonság értékének beállítása.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data source control is associated with one or more lists of data.</source>
+          <target state="translated">Azt jelzi, hogy az adatforrás-vezérlő tartozó adatok egy vagy több listája.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used to determine whether the current object can be used as a source of one or more lists of data.</source>
+          <target state="translated">Ez a tulajdonság határozza meg, hogy használható-e az aktuális objektum egy vagy több lista adatok forrásaként szolgál.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls encapsulate their lists of data as &lt;xref:System.Web.UI.DataSourceView&gt; objects; therefore, when associated with one or more &lt;xref:System.Web.UI.DataSourceView&gt; objects, a &lt;xref:System.Web.UI.DataSourceControl&gt; control represents a list source object and the property returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Adatforrás-vezérlők foglalják magukban az adatok jegyzékét &lt;xref:System.Web.UI.DataSourceView&gt;objektumok; ezért legalább egy társított &lt;xref:System.Web.UI.DataSourceView&gt;objektumok, egy &lt;xref:System.Web.UI.DataSourceControl&gt;ellenőrzési lista adatforrás-objektum és a tulajdonság jelöli adja vissza <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Web.UI.DataSourceView&gt; &lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property calls the static &lt;xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A?displayProperty=fullName&gt; method to determine whether the current data source control can be used as a source of data.</source>
+          <target state="translated">Ez a tulajdonság meghívja a statikus &lt;xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A?displayProperty=fullName&gt;annak meghatározásához, hogy az aktuális adatforrás-vezérlő metódus változtatás nélkül használhatók az adatforrást.&lt;/xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ListSourceHelper&gt; class determines whether the &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; method returns a valid collection of view names.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.ListSourceHelper&gt;osztály meghatározza, hogy a &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;metódus Nézetnevek érvényes gyűjteményének beolvasása.&lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does, this property returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ha igen, ez a tulajdonság adja vissza <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; returns <ph id="ph1">`null`</ph>, which is the default implementation of the &lt;xref:System.Web.UI.DataSourceControl&gt; class, the method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Ha &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;adja vissza <ph id="ph1">`null`</ph>, ez az alapértelmezett végrehajtása a &lt;xref:System.Web.UI.DataSourceControl&gt;osztály a metódus visszaadja <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with one or more <bpt id="p3">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> társított egy vagy több <bpt id="p3">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektumok; ellenkező esetben <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets a list of data source controls that can be used as sources of lists of data.</source>
+          <target state="translated">Adatforrás-vezérlők használhat forrásként adatok listája listájának lekérése.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to retrieve a set of objects that can be used as sources of data.</source>
+          <target state="translated">Ez a módszer objektumokra, amelyek változtatás nélkül használhatók adatforrásokat használatos.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls encapsulate their lists of data as &lt;xref:System.Web.UI.DataSourceView&gt; objects; therefore, when associated with one or more &lt;xref:System.Web.UI.DataSourceView&gt; objects, a &lt;xref:System.Web.UI.DataSourceControl&gt; control represents a list source object and the method returns an &lt;xref:System.Collections.IList&gt; collection of one element, the &lt;xref:System.Web.UI.DataSourceControl&gt; itself.</source>
+          <target state="translated">Adatforrás-vezérlők foglalják magukban az adatok jegyzékét &lt;xref:System.Web.UI.DataSourceView&gt;objektumokat; ezért legalább egy társított &lt;xref:System.Web.UI.DataSourceView&gt;objektumok, egy &lt;xref:System.Web.UI.DataSourceControl&gt;vezérlő a lista forrása az objektumot határozza meg, és a metódus visszaadja egy &lt;xref:System.Collections.IList&gt;gyűjteménye több elemmel rendelkezik, a &lt;xref:System.Web.UI.DataSourceControl&gt;magát.&lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Web.UI.DataSourceView&gt; &lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls the static &lt;xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt; method to retrieve an &lt;xref:System.Collections.IList&gt; collection of objects that can be used as sources of data.</source>
+          <target state="translated">Ez a metódus meghívja a statikus &lt;xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt;metódusának segítéségével lekérheti egy &lt;xref:System.Collections.IList&gt;objektumok, amelyek változtatás nélkül használhatók adatforrások gyűjteménye.&lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ListSourceHelper&gt; class determines whether &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; returns a valid collection of view names.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.ListSourceHelper&gt;osztály meghatározza, hogy &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;Nézetnevek érvényes gyűjteményének beolvasása.&lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does, the &lt;xref:System.Web.UI.ListSourceHelper&gt; class returns an &lt;xref:System.Collections.IList&gt; collection of one element, the &lt;xref:System.Web.UI.DataSourceControl&gt; control.</source>
+          <target state="translated">Ha igen, a &lt;xref:System.Web.UI.ListSourceHelper&gt;osztály értéket ad vissza egy &lt;xref:System.Collections.IList&gt;gyűjteménye több elemmel rendelkezik, a &lt;xref:System.Web.UI.DataSourceControl&gt;vezérlő.&lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt; returns <ph id="ph1">`null`</ph>, which is the default implementation of the &lt;xref:System.Web.UI.DataSourceControl&gt; class, the &lt;xref:System.Web.UI.ListSourceHelper&gt; class also returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Ha &lt;xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;adja vissza <ph id="ph1">`null`</ph>, ez az alapértelmezett végrehajtása a &lt;xref:System.Web.UI.DataSourceControl&gt;osztály, a &lt;xref:System.Web.UI.ListSourceHelper&gt;osztály is vissza <ph id="ph2">`null`</ph>.&lt;/xref:System.Web.UI.ListSourceHelper&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt; &lt;/xref:System.Web.UI.DataSourceControl.GetViewNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; of data source controls that can be used as sources of lists of data.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IList&gt;az adatforrás-vezérlők, amelyek változtatás nélkül használhatók adatok listája forrásai.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the named <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Lekérdezi a megnevezett <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> rendelt objektumot a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> vezérlő.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Some data source controls support only one view, while others support more than one.</source>
+          <target state="translated">Néhány adatforrás-vezérlők támogatja a csak egy nézet, míg mások támogatja a több mint egy.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`viewName`</ph> parameter is ignored when this method is called on data source controls that support only one view, such as the &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt; and &lt;xref:System.Web.UI.WebControls.AccessDataSource&gt; controls.</source>
+          <target state="translated">A <ph id="ph1">`viewName`</ph> paraméter rendszer figyelmen kívül hagyja ezt a módszert nevezik, az adatforrás-vezérlők, amely támogatja a csak egy nézet, mint például a &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt;és &lt;xref:System.Web.UI.WebControls.AccessDataSource&gt;vezérlők.&lt;/xref:System.Web.UI.WebControls.AccessDataSource&gt; &lt;/xref:System.Web.UI.WebControls.SqlDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.DataSourceControl&gt; class's default implementation, which is called by this interface method, returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.UI.DataSourceControl&gt;az illesztőfelület-metódust hívja, osztályának alapértelmezett implementációja adja vissza <ph id="ph2">`null`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you extend the &lt;xref:System.Web.UI.DataSourceControl&gt; class, override the &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt; method to return the specified &lt;xref:System.Web.UI.DataSourceView&gt; object.</source>
+          <target state="translated">Ha kiterjeszti a &lt;xref:System.Web.UI.DataSourceControl&gt;osztály, bírálja felül a &lt;xref:System.Web.UI.DataSourceControl.GetView%2A&gt;vissza a megadott metódus &lt;xref:System.Web.UI.DataSourceView&gt;objektum.&lt;/xref:System.Web.UI.DataSourceView&gt; &lt;/xref:System.Web.UI.DataSourceControl.GetView%2A&gt; &lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">Neve a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> beolvasása.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>In data source controls that support only one view, such as <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SqlDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this parameter is ignored.</source>
+          <target state="translated">Az adatforrás-vezérlők csak egy nézet, például a támogató <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SqlDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ezt a paramétert a rendszer figyelmen kívül hagyja.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Returns the named <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Visszaadja a megnevezett <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;viewName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;viewName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets a collection of names, representing the list of <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Lekérdezi a nevek listája képviselő gyűjteménye <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított objektumok a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> vezérlő.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the names of the <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.ICollection&gt;nevét tartalmazza, amely a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított objektumok a <bpt id="p2">&lt;xref href="System.Web.UI.DataSourceControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control is visually displayed.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely jelzi, hogy vizuálisan megjelenik-e a vezérlő.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.DataSourceControl&gt; control has no visual rendering, the Visible property always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.DataSourceControl&gt;vezérlő nem vizuális megjelenítés rendelkezik, a Visible tulajdonság mindig adja vissza <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the Visible property.</source>
+          <target state="translated">Kísérlet történt a Visible tulajdonság értékének beállítása.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
