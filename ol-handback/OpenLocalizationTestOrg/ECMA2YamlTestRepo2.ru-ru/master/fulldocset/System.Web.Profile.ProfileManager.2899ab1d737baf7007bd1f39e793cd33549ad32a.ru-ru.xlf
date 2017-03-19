@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa85ec3909bb99a35bb9a953217ab4b61195b561</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Profile.ProfileManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0afb91e2db39be083ca1d2d2ce7b4d829095d11</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f0b89e7ca1b1e081eaba838e37bb67d0c447bee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages user profile data and settings.</source>
+          <target state="translated">Управляет данные профиля пользователя и параметры.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ASP.NET profile is used to store and retrieve user settings in a data source such as a database.</source>
+          <target state="translated">Профиль ASP.NET используется для хранения и извлечения параметров пользователя в источнике данных, например к базе данных.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user profile is accessed using the &lt;xref:System.Web.HttpContext.Profile%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">Профиль пользователя осуществляется с помощью &lt;xref:System.Web.HttpContext.Profile%2A&gt;свойства текущего &lt;xref:System.Web.HttpContext&gt;.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.Profile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Profile information and property values are managed using a profile provider.</source>
+          <target state="translated">Профиль данными и значениями свойств осуществляется с помощью поставщика профилей.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProfileManager class is used to manage profile settings, search for user profiles, and delete user profiles that are no longer in use.</source>
+          <target state="translated">Класс ProfileManager используется для управления настройками профиля, поиска профилей пользователей и удалять профили пользователей, которые больше не используются.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProfileManager class provides static methods and properties that can be accessed by referencing the ProfileManager class in your application code.</source>
+          <target state="translated">Класс ProfileManager предоставляет статические методы и свойства, к которым можно обращаться с помощью ссылки на класс ProfileManager в коде приложения.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example, see the Example section in this topic and additional examples in the topics for members of the ProfileManager class.</source>
+          <target state="translated">Например см. в разделе этой статьи и Дополнительные примеры, приведенные в разделах для членов класса ProfileManager.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the user profile is disabled for all ASP.NET applications.</source>
+          <target state="translated">По умолчанию профиль пользователя отключен для всех приложений ASP.NET.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the user profile, set the <ph id="ph1">`enabled`</ph> attribute of the  configuration element to true, as shown in the following example.</source>
+          <target state="translated">Чтобы включить профиль пользователя, задайте <ph id="ph1">`enabled`</ph> атрибута элемента конфигурации значение true, как показано в следующем примере.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       For more information about the user profile, see <bpt id="p1">[</bpt>ASP.NET Profile Properties Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>Дополнительные сведения о профиле пользователя см. в разделе <bpt id="p1">[</bpt>Общие сведения о свойствах профиля ASP.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A profile provider is used to store and retrieve properties in the user profile.</source>
+          <target state="translated">Поставщик профилей используется для хранения и извлечения свойств в профиле пользователя.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework includes a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class that stores user profile properties in a SQL Server database.</source>
+          <target state="translated">Платформа .NET Framework включает &lt;xref:System.Web.Profile.SqlProfileProvider&gt;класс, который хранит свойства профиля пользователя в базе данных SQL Server.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named <ph id="ph1">`AspNetSqlProvider`</ph> is specified in the machine configuration as the default profile provider.</source>
+          <target state="translated">Объект &lt;xref:System.Web.Profile.SqlProfileProvider&gt;экземпляр с именем <ph id="ph1">`AspNetSqlProvider`</ph> указано в конфигурации компьютера, как поставщик профиля по умолчанию.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`AspNetSqlProvider`</ph> instance connects to the SQL Server database on the local Web server.</source>
+          <target state="translated"><ph id="ph1">`AspNetSqlProvider`</ph> Экземпляр подключается к базе данных SQL Server на локальном веб-сервере.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; that connects to another SQL Server as the default profile provider by using the  configuration element and the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element, as shown in the following example.</source>
+          <target state="translated">Можно указать &lt;xref:System.Web.Profile.SqlProfileProvider&gt;, подключается к другой экземпляр SQL Server в качестве поставщика профилей по умолчанию с помощью элемента конфигурации и <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации, как показано в следующем примере.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a profile property programmatically.</source>
+          <target state="translated">Программно добавляет свойство профиля.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is functionally equivalent to adding the property to the <ph id="ph1">`profile`</ph> section of the configuration file.</source>
+          <target state="translated">Этот метод является функциональным эквивалентом Добавление свойства <ph id="ph1">`profile`</ph> раздел файла конфигурации.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To call this method to add the profile property, you must make the call in a method that is marked with the &lt;xref:System.Web.PreApplicationStartMethodAttribute&gt; attribute.</source>
+          <target state="translated">Чтобы вызвать этот метод, чтобы добавить свойство профиля, необходимо сделать вызов в метод, помеченный &lt;xref:System.Web.PreApplicationStartMethodAttribute&gt;атрибут.&lt;/xref:System.Web.PreApplicationStartMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property settings to be added.</source>
+          <target state="translated">Значения свойств для добавления.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">Возвращает или задает имя приложения, для которого будут сохраняться и извлекаться сведения о профиле.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager&gt; uses the ApplicationName property to associate profile information with different applications.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager&gt;Использует свойство ApplicationName связать данные профиля с различными приложениями.&lt;/xref:System.Web.Profile.ProfileManager&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables multiple applications to use the same database to store user information without running into conflicts between duplicate users.</source>
+          <target state="translated">Это позволяет нескольким приложениям использовать ту же базу данных для хранения сведений о пользователе без конфликтов дублировании пользователей.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple ASP.NET applications can use the same user database by specifying the same value in the ApplicationName property.</source>
+          <target state="translated">Несколько приложений ASP.NET могут использовать одну и ту же базу данных пользователя, указав то же значение в свойство ApplicationName.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property can be set programmatically, or it can be set declaratively in the configuration file for the Web application by using the <ph id="ph1">`applicationName`</ph> attribute.</source>
+          <target state="translated">Свойство ApplicationName могут устанавливаться программными средствами, или он может быть задано как декларативно в файле конфигурации для веб-приложения с помощью <ph id="ph1">`applicationName`</ph> атрибута.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a value is not specified for the <ph id="ph1">`applicationName`</ph> attribute in the configuration file for the Web application, then the profile providers included with the .NET Framework use the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property value for ASP.NET applications.</source>
+          <target state="translated">Если значение не указано для <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации для веб-приложения, то использовать поставщики профилей, входящий в состав .NET Framework &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;значение свойства для приложений ASP.NET.&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For non-ASP.NET applications, the default value is the &lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt; property value, without the file extension.</source>
+          <target state="translated">Для приложений, не относящихся к ASP.NET, значение по умолчанию — &lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;значение свойства, без расширения файла.&lt;/xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property exposes the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt; property of the default profile provider.</source>
+          <target state="translated">Предоставляет свойство ApplicationName &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;Свойства поставщика профилей по умолчанию.&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they may be configured with a different application name.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, они могут быть настроены с именем другого приложения.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the application name of a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and access the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; property of the provider directly.</source>
+          <target state="translated">Для доступа к имя приложения поставщика профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и доступа &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt;Свойства поставщика непосредственно.&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single default profile provider instance is used for all of the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently and attempting to set the ApplicationName property value.</source>
+          <target state="translated">Настроек <ph id="ph1">[!CAUTION]</ph> настроек, так как экземпляр поставщика профилей по умолчанию один используется для всех запросов, обслуживаемых &lt;xref:System.Web.HttpApplication&gt;объекта может быть несколько запросов, параллельном выполнении и попытка задать значение свойства ApplicationName.&lt;/xref:System.Web.HttpApplication&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property is not thread safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">Свойство ApplicationName не является потокобезопасным для нескольких операций записи и изменение значения свойства ApplicationName может привести к непредвиденному поведению для нескольких пользователей приложения.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that you avoid writing code that allows users to set the ApplicationName property unless you require it.</source>
+          <target state="translated">Избежать написания кода, который позволяет пользователям задать свойство ApplicationName, если не требуется, его рекомендуется.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an application where setting the ApplicationName property may be required is an administrative application that manages profile data for multiple applications.</source>
+          <target state="translated">Пример приложения, где может потребоваться задать свойство ApplicationName — административные приложения, в котором данные профиля для нескольких приложений.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such an application should be a single-user application and not a Web application.</source>
+          <target state="translated">Такое приложение должно быть Однопользовательское приложение и не веб-приложения.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">Имя приложения, для которого будут сохраняться и извлекаться сведения о профиле.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile will be automatically saved at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли профиль пользователя автоматически сохраняется в конце выполнения страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutomaticSaveEnabled property indicates whether automatic saving of the user profile is enabled for the application.</source>
+          <target state="translated">Свойство AutomaticSaveEnabled указывает, включено ли автоматическое сохранение профиля пользователя для приложения.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If automatic saving is enabled, the &lt;xref:System.Web.Profile.ProfileModule&gt; object raises the &lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; event and calls the &lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt; method during the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">Если включено автоматическое сохранение, &lt;xref:System.Web.Profile.ProfileModule&gt;объекта вызывает &lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt;события и вызовы &lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt;метод во время &lt;xref:System.Web.HttpApplication.EndRequest&gt;событие в конце выполнения страницы ASP.NET.&lt;/xref:System.Web.HttpApplication.EndRequest&gt; &lt;/xref:System.Web.Profile.ProfileBase.Save%2A&gt; &lt;/xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; &lt;/xref:System.Web.Profile.ProfileModule&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutomaticSaveEnabled property is set using the <ph id="ph1">`automaticSaveEnabled`</ph> attribute of the  element in the Web.config file for an ASP.NET application.</source>
+          <target state="translated">Свойство AutomaticSaveEnabled задается с помощью <ph id="ph1">`automaticSaveEnabled`</ph> атрибута элемента в файле Web.config для приложения ASP.NET.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile will be automatically saved at the end of the execution of an ASP.NET page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если профиль пользователя автоматически сохраняется в конце выполнения страницы ASP.NET; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the AutomaticSaveEnabled property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">Была предпринята попытка получить значение свойства AutomaticSaveEnabled без крайней <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> разрешение.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Deletes user profile data for which the last activity date and time occurred before the specified date and time.</source>
+          <target state="translated">Удаляет данные профиля пользователя, для которого действие Дата и время последнего возникло до указанной даты и времени.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteInactiveProfiles method is used to remove unused profile data from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод DeleteInactiveProfiles используется для удаления неиспользуемых профиль данных из источника данных для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is deleted.</source>
+          <target state="translated">Искомая профилей все профиля &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит на или до указанной <ph id="ph1">`userInactiveSinceDate`</ph> удалено значение параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода DeleteInactiveProfiles &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the profile information in the other data source is not deleted.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, данные профиля в источнике данных не удаляется.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы удалить неактивные профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are deleted.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или обоих типов профилей, удаляются.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">Число профилей, удаленных из источника данных.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Deletes the profile for the specified user name from the data source.</source>
+          <target state="translated">Удаляет профиль для указанного имени пользователя из источника данных.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfile method deletes all profile information and properties for the user profile for the specified <ph id="ph1">`username`</ph> from the data source for the specified &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">Метод DeleteProfile удаляет все сведения о профиле и свойства для данного профиля пользователя для указанного <ph id="ph1">`username`</ph> из источника данных для указанного &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfile method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider to perform the delete operation.</source>
+          <target state="translated">Вызовы метода DeleteProfile &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;метод поставщика профилей по умолчанию для выполнения операции delete.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, они не удаляются.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы удалить свойств профиля, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The user name for the profile to be deleted.</source>
+          <target state="translated">Имя пользователя для профиля для удаления.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile was found and deleted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если профиль пользователя был найден и удален; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is an empty string ("") or contains a comma.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>является пустой строкой ("») или содержит запятую.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information for the supplied list of user names.</source>
+          <target state="translated">Удаляет свойства профиля и данные для предоставленного списка имен пользователей.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">Метод DeleteProfiles удаляет все сведения о профиле и свойства для указанного профилей из источника данных для приложения, указанного &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;свойство.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list of profiles to delete is specified as a string array of user names.</source>
+          <target state="translated">Список профилей, подлежащих удалению, задается как массив строк имен пользователей.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If profile properties and information exist in the data source for a user name in the <ph id="ph1">`usernames`</ph> parameter, they are deleted.</source>
+          <target state="translated">Если свойства профиля и данные существуют в источнике данных для имени пользователя в <ph id="ph1">`usernames`</ph> параметра, они удаляются.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value may differ from the length of the specified array of <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">Возвращаемое значение может отличаться от длины заданного массива <ph id="ph1">`usernames`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indicates that some of the profiles in the specified array of <ph id="ph1">`usernames`</ph> were already deleted from the data store.</source>
+          <target state="translated">Это означает, что некоторые профиле в указанный массив <ph id="ph1">`usernames`</ph> уже были удалены из хранилища данных.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода DeleteProfiles &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, они не удаляются.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы удалить свойств профиля, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string array of user names for profiles to be deleted.</source>
+          <target state="translated">Массив строк имен пользователей для профили должны быть удалены.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">Число профилей, удаленных из источника данных.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information from the data source for the supplied list of profiles.</source>
+          <target state="translated">Удаляет свойства профиля и данные из источника данных для предоставленного списка профилей.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">Метод DeleteProfiles удаляет все сведения о профиле и свойства для указанного профилей из источника данных для приложения, указанного &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;свойство.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list of profiles to delete is specified using a &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; that is passed as the <ph id="ph1">`profiles`</ph> parameter.</source>
+          <target state="translated">Список профилей, подлежащих удалению, задается с помощью &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;, передаваемого в качестве <ph id="ph1">`profiles`</ph> параметр.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; can be returned from the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;, and &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; methods.</source>
+          <target state="translated">Объект &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;могут быть возвращены из &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;, и &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;методы.&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the return value may differ from the &lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt; value for the supplied &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated">Обратите внимание, что возвращаемое значение может отличаться от &lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt;значения для предоставленного &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indicates that some of the profiles in the specified &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; were already deleted from the data store.</source>
+          <target state="translated">Это означает, что некоторые профиле в заданном &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;уже были удалены из хранилища данных.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода DeleteProfiles &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, они не удаляются.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы удалить свойств профиля, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains profile information for profiles to be deleted.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий данные профилей для удаления.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">Число профилей, удаленных из источника данных.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile is enabled for the application.</source>
+          <target state="translated">Возвращает значение, указывающее, включен ли профиль пользователя для приложения.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user profile is enabled for an application using the <ph id="ph1">`enabled`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Профиль пользователя включена для приложения с помощью <ph id="ph1">`enabled`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если включен профиль пользователя; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information for all profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">Извлекает сведения о профиле для всех профилей, в которых дата последнего действия в или до указанной даты и времени и имя пользователя для профиля совпадает с указанным именем.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод FindInactiveProfilesByUserName используется для получения сведений о профиле для всех профилей неиспользуемые пользователей для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will only retrieve profiles for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">Этот метод извлечет только профили, для которых имя пользователя соответствует предоставленному <ph id="ph1">`usernameToMatch`</ph> значение параметра.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is returned.</source>
+          <target state="translated">Искомая профилей все профиля &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит на или до указанной <ph id="ph1">`userInactiveSinceDate`</ph> возвращается значение параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve this information in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Можно получить эту информацию на страницах данных, с помощью перегрузки для &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;метод, который принимает дополнительные <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Your profile provider may support wildcard characters in the <ph id="ph2">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек ваш поставщик профилей может поддерживать символы подстановки в <ph id="ph2">`usernameToMatch`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Например &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод &lt;xref:System.Web.Profile.SqlProfileProvider&gt;класс поддерживает подстановочные знаки в <ph id="ph1">`usernameToMatch`</ph> параметр.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода FindInactiveProfilesByUserName &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти неактивные профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">Имя пользователя, который требуется найти.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles in which the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения о профиле пользователя для неактивных профилей, в которых имя пользователя соответствует предоставленному <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>является пустой строкой (»»).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">Извлекает сведения о профиле на страницах данных для профилей, в которых дата последнего действия в или до указанной даты и времени и имя пользователя для профиля совпадает с указанным именем.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод FindInactiveProfilesByUserName используется для получения сведений о профиле для профилей неиспользуемые пользователей для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will only retrieve profiles for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">Этот метод извлечет только профили, для которых имя пользователя соответствует предоставленному <ph id="ph1">`usernameToMatch`</ph> значение параметра.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">Искомая профилей любому профилю возвращается с &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит на или до указанной <ph id="ph1">`userInactiveSinceDate`</ph> значение параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by FindInactiveProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Ограниченные результаты, возвращенные FindInactiveProfilesByUserName <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; collection.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> Параметр определяет максимальное количество &lt;xref:System.Web.Profile.ProfileInfo&gt;объекты для возврата в &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;коллекции.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; 0 identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> Определяет страницу результатов; 0 указывает первую страницу.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр <ph id="ph2">`out`</ph> задается общее число неактивных профилей пользователей для настроенного <ph id="ph3">`applicationName`</ph>, основываясь на <ph id="ph4">`authenticationOption`</ph> и <ph id="ph5">`userInactiveSinceDate`</ph> параметров.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">Например, если имеется 13 пользователей для настроенного <ph id="ph1">`applicationName`</ph>и <ph id="ph2">`pageIndex`</ph> значение-1, с <ph id="ph3">`pageSize`</ph> 5, &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;возвращается будет содержать с шестого до десятого неактивные профили.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр будет иметь значение 13.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Обратите внимание, что ваш поставщик профилей может поддерживать символы подстановки в <ph id="ph1">`usernameToMatch`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Например &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод &lt;xref:System.Web.Profile.SqlProfileProvider&gt;класс поддерживает подстановочные знаки в <ph id="ph1">`usernameToMatch`</ph> параметр.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода FindInactiveProfilesByUserName &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти неактивные профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значения, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">Имя пользователя, который требуется найти.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">Индекс страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>начинается с нуля.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">Размер страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">По возвращении из этого метода содержит целое число, определяющее общее число профилей.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Этот параметр передается неинициализированным.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения о профиле пользователя для неактивных профилей, где имя пользователя соответствует предоставленному <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Retrieves all profile information for profiles in which the user name matches the specified name.</source>
+          <target state="translated">Извлекает все данные профиля для профилей, в которых имя пользователя совпадает с указанным именем.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindProfilesByUserName method returns a list of all profile information for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value for the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property value.</source>
+          <target state="translated">Метод FindProfilesByUserName возвращает список всех данных профиля, для которой имя пользователя соответствует предоставленному <ph id="ph1">`usernameToMatch`</ph> значение параметра для настроенного &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;значение свойства.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve profile information for user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Можно извлечь данные профилей пользователей на страницах данных, с помощью перегрузки для &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;метод, который принимает дополнительные <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.&lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Обратите внимание, что ваш поставщик профилей может поддерживать символы подстановки в <ph id="ph1">`usernameToMatch`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Например &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;метод &lt;xref:System.Web.Profile.SqlProfileProvider&gt;класс поддерживает подстановочные знаки в <ph id="ph1">`usernameToMatch`</ph> параметр.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода FindProfilesByUserName &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">Имя пользователя, который требуется найти.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения профиля пользователя для профилей, где имя пользователя соответствует предоставленному <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>является пустой строкой (»»).</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the user name matches the specified name.</source>
+          <target state="translated">Извлекает сведения о профиле на страницах данных для профилей, в которых имя пользователя совпадает с указанным именем.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method returns a list of profile information for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value of the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;Метод возвращает список сведений о профиле, для которой имя пользователя соответствует предоставленному <ph id="ph1">`usernameToMatch`</ph> значение параметра из настроенных. &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Обратите внимание, что ваш поставщик профилей может поддерживать символы подстановки в <ph id="ph1">`usernameToMatch`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">Например &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;метод &lt;xref:System.Web.Profile.SqlProfileProvider&gt;класс поддерживает подстановочные знаки в <ph id="ph1">`usernameToMatch`</ph> параметр.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by FindProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Ограниченные результаты, возвращенные FindProfilesByUserName <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> Параметр определяет максимальное число &lt;xref:System.Web.Profile.ProfileInfo&gt;объектов, включаемых в &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> Определяет страницу результатов; ноль указывает первую страницу.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the application specified by the <ph id="ph3">`applicationName`</ph> attribute in the configuration file, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр <ph id="ph2">`out`</ph> задается общее число неактивных профилей пользователей для приложения, указанного <ph id="ph3">`applicationName`</ph> атрибут в файле конфигурации на основе предоставленного <ph id="ph4">`authenticationOption`</ph>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">Например, если имеется 13 пользователей для настроенного <ph id="ph1">`applicationName`</ph>и <ph id="ph2">`pageIndex`</ph> значение-1, с <ph id="ph3">`pageSize`</ph> 5, &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;вернул будет содержать с шестого до десятого профили.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр будет иметь значение 13.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;Вызовы метода &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">Имя пользователя, который требуется найти.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">Индекс страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>начинается с нуля.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">Размер страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">По возвращении из этого метода содержит целое число, определяющее общее число профилей.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Этот параметр передается неинициализированным.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения профиля пользователя для профилей, где имя пользователя соответствует предоставленному <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Retrieves all user profile data for profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">Извлекает все данные профиля пользователя для профилей, в которых дата последнего действия или до указанной даты и времени.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetAllInactiveProfiles используется для получения сведений о профиле из источника данных для всех профилей неиспользуемые пользователей для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">Искомая профилей любому профилю возвращается с &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит на или до указанной <ph id="ph1">`userInactiveSinceDate`</ph> значение параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve profile information for inactive user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Можно получить сведения о профиле для неактивных профилей пользователей на страницах данных, с помощью перегрузки для &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;метод, который принимает дополнительные <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода GetAllInactiveProfiles &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find unused profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти неиспользуемые профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения о профиле пользователя о неактивных профилей.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Retrieves a page of <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for user profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">Извлекает страницу <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов для профилей пользователей, в которых дата последнего действия или до указанной даты и времени.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetAllInactiveProfiles используется для получения сведений о профиле из источника данных для профилей неиспользуемые пользователей для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">Искомая профилей любому профилю возвращается с &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит до указанного <ph id="ph1">`userInactiveSinceDate`</ph> значения параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by GetAllInactiveProfiles are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Ограниченные результаты, возвращенные GetAllInactiveProfiles <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> Параметр определяет максимальное число &lt;xref:System.Web.Profile.ProfileInfo&gt;объектов, включаемых в &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> Определяет страницу результатов; ноль указывает первую страницу.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр <ph id="ph2">`out`</ph> задается общее число неактивных профилей пользователей для настроенного <ph id="ph3">`applicationName`</ph>, основываясь на <ph id="ph4">`authenticationOption`</ph> и <ph id="ph5">`userInactiveSinceDate`</ph> параметров.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">Например, если имеется 13 пользователей для настроенного <ph id="ph1">`applicationName`</ph>и <ph id="ph2">`pageIndex`</ph> имеет значение <ph id="ph3">`pageSize`</ph> 5, &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;возвращается будет содержать с шестого до десятого неактивные профили.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр будет иметь значение 13.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода GetAllInactiveProfiles &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">Индекс страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>начинается с нуля.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">Размер страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">По возвращении из этого метода содержит целое число, определяющее общее число профилей.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Этот параметр передается неинициализированным.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий сведения о профиле пользователя о неактивных профилей.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Retrieves user profile data for profiles in the data source.</source>
+          <target state="translated">Извлекает данные профиля пользователя для профилей в источнике данных.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetAllProfiles используется для получения сведений о профиле из источника данных для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve pages of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects for user profiles using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Вы можете получить страницы &lt;xref:System.Web.Profile.ProfileInfo&gt;объектов для профилей пользователей, с помощью перегрузки для &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;метод, который принимает дополнительные <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.&lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода GetAllProfiles &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> со сведениями о пользователях профиль для всех профилей в источнике данных.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Retrieves pages of user profile data.</source>
+          <target state="translated">Извлекает страницы данных профиля пользователя.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetAllProfiles используется для получения сведений о профиле из источника данных для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">Результаты, возвращенные &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;ограничены <ph id="ph1">`pageIndex`</ph> и <ph id="ph2">`pageSize`</ph> параметров.&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> Параметр определяет максимальное число &lt;xref:System.Web.Profile.ProfileInfo&gt;объектов, включаемых в &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> Определяет страницу результатов; ноль указывает первую страницу.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр <ph id="ph2">`out`</ph> задается общее число неактивных профилей пользователей для настроенного <ph id="ph3">`applicationName`</ph>, основываясь на указанном экземпляре <ph id="ph4">`authenticationOption`</ph>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">Например, если имеется 13 пользователей для настроенного <ph id="ph1">`applicationName`</ph>и <ph id="ph2">`pageIndex`</ph> имеет значение <ph id="ph3">`pageSize`</ph> 5, &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;возвращается будет содержать с шестого до десятого профилей.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> Параметр будет иметь значение 13.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">Вызовы метода GetAllProfiles &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;метод поставщика профилей по умолчанию.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Поставщик профилей по умолчанию задается с помощью <ph id="ph1">`defaultProvider`</ph> атрибута элемента конфигурации.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">Если профиль пользователя содержит свойства, которые управляются с помощью поставщика профилей, отличных от поставщика по умолчанию, источник данных для другого поставщика профилей не выполняется.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">Чтобы найти профили, управление которыми осуществляется поставщиком профилей, отличных от поставщика по умолчанию, необходимо получить ссылку на поставщик профиля с помощью &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;свойство и вызвать &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;метод поставщика непосредственно.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">Индекс страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>начинается с нуля.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">Размер страницы возвращаемых результатов.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">По возвращении из этого метода содержит целое число, определяющее общее число профилей.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Этот параметр передается неинициализированным.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> со сведениями о пользователях профиль для всех профилей в источнике данных.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">Возвращает число профилей, в которых дата последнего действия в или до указанной даты.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetNumberOfInactiveProfiles method is used to retrieve a count of all of the unused user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetNumberOfInactiveProfiles используется для получения количества все профили неиспользуемые пользователя из источника данных для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, all profiles are counted that have a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">Искомая профилей учитываются все профили, имеющих &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;, происходит на или до указанной <ph id="ph1">`userInactiveSinceDate`</ph> значение параметра.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that identifies which user profiles are considered inactive.</source>
+          <target state="translated">Объект &lt;xref:System.DateTime&gt;, определяющий, какие профили пользователей считаются неактивными.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">Если &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;пользователя происходит профиля или до этой даты и времени, профиль считается неактивным.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source for which the last activity date occurred before the specified date and time.</source>
+          <target state="translated">Количество профилей в источнике данных, для которого возникло Дата последнего действия до указанной даты и времени.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in the data source.</source>
+          <target state="translated">Получает количество профилей в источнике данных.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetNumberOfProfiles method is used to retrieve a count of all of the user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">Метод GetNumberOfProfiles используется для получения количества все профили пользователя из источника данных для приложения, указанного <ph id="ph1">`applicationName`</ph> атрибут в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">Используйте <ph id="ph1">`authenticationOption`</ph> для указания, следует ли только анонимные профили, только прошедшие проверку подлинности профили, или все профили для поиска.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления, указав ли анонимные, проверку подлинности или возвращаются обоих типов профилей.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source.</source>
+          <target state="translated">Количество профилей в источнике данных.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default profile provider for the application.</source>
+          <target state="translated">Возвращает ссылку на поставщика профилей по умолчанию для приложения.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Provider property enables you to reference the default profile provider for an application directly.</source>
+          <target state="translated">Свойства поставщика позволяет напрямую ссылаться поставщика профилей по умолчанию для приложения.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is commonly used to access custom members of the profile provider that are not part of the &lt;xref:System.Web.Profile.ProfileProvider&gt; abstract base class.</source>
+          <target state="translated">Обычно это используется для доступа к пользовательским элементам поставщика профилей, которые не являются частью &lt;xref:System.Web.Profile.ProfileProvider&gt;абстрактного базового класса.&lt;/xref:System.Web.Profile.ProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The default profile provider for the application.</source>
+          <target state="translated">Поставщик профилей по умолчанию для приложения.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Provider property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">Была предпринята попытка получить значение свойства поставщика без крайней <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> разрешение.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the profile providers for the ASP.NET application.</source>
+          <target state="translated">Возвращает коллекцию поставщиков профилей для приложения ASP.NET.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Providers property references all of the profile providers enabled for an application, including providers added in the machine configuration and providers added in all Web.config files.</source>
+          <target state="translated">Поставщики свойство ссылается на профиль поставщики, доступные для приложения, включая поставщиков, добавленные в конфигурации машины и службы, добавленные во всех файлах Web.config.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can control which profile providers are available for an application using the  element of the  section in the configuration file.</source>
+          <target state="translated">Можно выбрать, какие поставщики профилей доступны для приложения с помощью элемента раздела в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following Web.config file removes the profile providers specified in parent configuration files and adds a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance as the profile provider for the application.</source>
+          <target state="translated">Например, следующий файл Web.config удаляет поставщиков профилей, указанные в родительском файле конфигурации и добавляет &lt;xref:System.Web.Profile.SqlProfileProvider&gt;экземпляр в качестве поставщика профилей для приложения.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       When specifying the  section, you must specify a default provider by setting the <ph id="ph2">`defaultProvider`</ph> attribute.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>При указании в разделе, необходимо указать поставщика по умолчанию, задав <ph id="ph2">`defaultProvider`</ph> атрибута.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a  section in your Web.config file, the values from the machine configuration are used and the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named AspNetSqlProvider is established as the default provider.</source>
+          <target state="translated">Если не указать раздел в файл Web.config, используются значения из конфигурации компьютера и &lt;xref:System.Web.Profile.SqlProfileProvider&gt;экземпляр с именем AspNetSqlProvider устанавливается в качестве поставщика по умолчанию.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a strongly typed reference to a provider from the Providers collection by indexing the profile provider by name and casting it as the desired type.</source>
+          <target state="translated">Можно получить строго типизированную ссылку на поставщик из коллекции поставщиков индексирования поставщика профилей по имени и его привязки в качестве требуемого типа.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the profile providers configured for the ASP.NET application.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> поставщиков профилей, настроенного для приложения ASP.NET.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Providers property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">Была предпринята попытка получить значение свойства поставщиков без крайней <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> разрешение.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
