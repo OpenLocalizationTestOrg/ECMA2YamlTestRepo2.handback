@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cc58263fb82a93e174f386d0b4d0022a1a3a4c2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.CombinedGeometry.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cba659c0337ab89075e21349ef05c9a47c935e6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e65c7e65b782b199c29928cedf885e7f4edb11b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a 2-D geometric shape defined by the combination of two <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">表示兩個組合所定義的 2d 幾何形狀<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt; property specifies how the two geometries will be combined.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;屬性會指定如何將會結合兩個幾何。&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Note that CombinedGeometry combines the area specified by two geometries, so geometries that do not have area (such as &lt;xref:System.Windows.Media.LineGeometry&gt;) disappear when combined.</source>
+          <target state="translated">請注意 CombinedGeometry 結合兩個幾何，因此並沒有區域的幾何所指定的區域 (例如&lt;xref:System.Windows.Media.LineGeometry&gt;) 結合時，會消失。&lt;/xref:System.Windows.Media.LineGeometry&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Geometries can be combined in several ways: using a &lt;xref:System.Windows.Media.GeometryGroup&gt;, a CombinedGeometry, or the &lt;xref:System.Windows.Media.Geometry.Combine%2A&gt; method of the &lt;xref:System.Windows.Media.Geometry&gt; class.</source>
+          <target state="translated">幾何可以結合數種方式︰ 使用&lt;xref:System.Windows.Media.GeometryGroup&gt;、 CombinedGeometry 或&lt;xref:System.Windows.Media.Geometry.Combine%2A&gt;方法的&lt;xref:System.Windows.Media.Geometry&gt;類別。&lt;/xref:System.Windows.Media.Geometry&gt; &lt;/xref:System.Windows.Media.Geometry.Combine%2A&gt; &lt;/xref:System.Windows.Media.GeometryGroup&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.Media.GeometryGroup&gt; creates a composite geometry from one or more &lt;xref:System.Windows.Media.Geometry&gt; objects.</source>
+          <target state="translated">-A&lt;xref:System.Windows.Media.GeometryGroup&gt;從一或多個建立的複合幾何&lt;xref:System.Windows.Media.Geometry&gt;物件。&lt;/xref:System.Windows.Media.Geometry&gt; &lt;/xref:System.Windows.Media.GeometryGroup&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   A CombinedGeometry uses a specified boolean operation to combine the area described by two &lt;xref:System.Windows.Media.Geometry&gt; objects.</source>
+          <target state="translated">-A CombinedGeometry 會使用指定的布林運算結合兩個所描述的區域&lt;xref:System.Windows.Media.Geometry&gt;物件。&lt;/xref:System.Windows.Media.Geometry&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   The static &lt;xref:System.Windows.Media.Geometry.Combine%2A&gt; method of the &lt;xref:System.Windows.Media.Geometry&gt; class behaves in exactly the same manner as the CombinedGeometry object.</source>
+          <target state="translated">-靜態&lt;xref:System.Windows.Media.Geometry.Combine%2A&gt;方法&lt;xref:System.Windows.Media.Geometry&gt;類別行為 CombinedGeometry 物件完全相同的方式。&lt;/xref:System.Windows.Media.Geometry&gt; &lt;/xref:System.Windows.Media.Geometry.Combine%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Careful thought should be involved when using a CombinedGeometry to perform a union as it can be very CPU-expensive.</source>
+          <target state="translated">使用 CombinedGeometry 執行等位，因為可能會很耗費 CPU 資源時，應該牽涉到仔細思考。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In most cases, a &lt;xref:System.Windows.Media.GeometryGroup&gt; or &lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt; will work better.</source>
+          <target state="translated">在大部分情況下，&lt;xref:System.Windows.Media.GeometryGroup&gt;或&lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;效果更好。&lt;/xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt; &lt;/xref:System.Windows.Media.GeometryGroup&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use a CombinedGeometry only when any of the following apply:      -   The geometric operation is not a union.</source>
+          <target state="translated">使用僅當下列任一 CombinedGeometry:-幾何作業不是等位。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Either of the geometries have a &lt;xref:System.Windows.Media.FillRule&gt; value of &lt;xref:System.Windows.Media.FillRule&gt; and the geometries are self-intersecting (i.e. the &lt;xref:System.Windows.Media.FillRule&gt; actually matters).</source>
+          <target state="translated">-在幾何必須&lt;xref:System.Windows.Media.FillRule&gt;值&lt;xref:System.Windows.Media.FillRule&gt;和幾何是自我交集 (也就是&lt;xref:System.Windows.Media.FillRule&gt;真的很重要)。&lt;/xref:System.Windows.Media.FillRule&gt; &lt;/xref:System.Windows.Media.FillRule&gt; &lt;/xref:System.Windows.Media.FillRule&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   Time is not a concern, but space is (for instance, if the geometry is created once and then cached).</source>
+          <target state="translated">階段不是問題，但是空間 （例如，如果幾何是建立一次，再進行快取）。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Typically, CombinedGeometry produces smaller output than &lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;.</source>
+          <target state="translated">一般而言，CombinedGeometry 會產生較小的輸出，比&lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;.&lt;/xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   The resulting geometry will be stroked or used in a path animation and &lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt; does not provide the desired outline.</source>
+          <target state="translated">-將圖案或路徑動畫中使用產生的幾何和&lt;xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;未提供所需的外框。&lt;/xref:System.Windows.Media.PathGeometry.AddGeometry%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Freezable Features    A CombinedGeometry is a type of &lt;xref:System.Windows.Freezable&gt; object.</source>
+          <target state="translated">可凍結功能 CombinedGeometry 是一種&lt;xref:System.Windows.Freezable&gt;物件。&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For information about &lt;xref:System.Windows.Freezable&gt; features, such as freezing and cloning, see the <bpt id="p1">[</bpt>Freezable Objects Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關資訊&lt;xref:System.Windows.Freezable&gt;功能，例如凍結和複製，請參閱<bpt id="p1">[</bpt>Freezable 物件概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定<bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects and &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt;.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定<bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件和&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt;.&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The method by which <ph id="ph1">`geometry1`</ph> and <ph id="ph2">`geometry2`</ph> are combined.</source>
+          <target state="translated">方法<ph id="ph1">`geometry1`</ph>和<ph id="ph2">`geometry2`</ph>結合。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects, &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode<bpt id="p3">*</bpt>&gt;, and &lt;xref:System.Windows.Media.Geometry.Transform<ept id="p3">*</ept>&gt;.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定<bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件&lt;&gt; <bpt id="p3">*</bpt>&gt;，以及&lt;&gt; <ept id="p3">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The method by which <ph id="ph1">`geometry1`</ph> and <ph id="ph2">`geometry2`</ph> are combined.</source>
+          <target state="translated">方法<ph id="ph1">`geometry1`</ph>和<ph id="ph2">`geometry2`</ph>結合。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to combine.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結合。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Geometry.Transform*&gt; applied to the <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Geometry.Transform*&gt;套用至<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Windows.Media.Geometry.Transform*&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the bounding box of this <bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定這個週框方塊<bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This method does not take any pens into account.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意︰<ept id="p1">**</ept>這個方法不採用任何筆納入考量。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If animations are present, the base values of the &lt;xref:System.Windows.Media.Geometry&gt; object are used to calculate the bounding box.</source>
+          <target state="translated">如果動畫會呈現，基底值&lt;xref:System.Windows.Media.Geometry&gt;物件用來計算週框方塊。&lt;/xref:System.Windows.Media.Geometry&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The bounding box of this <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此週框方塊<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, making deep copies of this object's values.</source>
+          <target state="translated">建立可修改複製品這個<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，製作這個物件值的深層複本。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When copying dependency properties, this method copies resource references and data bindings (but they might no longer resolve) but not animations or their current values.</source>
+          <target state="translated">當複製相依性屬性時，這個方法會複製資源參考和資料繫結 （但可能已不能再解析），但不是動畫或它們目前的值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">這個方法用來產生的可修改複本凍結&lt;xref:System.Windows.Freezable&gt;物件 (或任何&lt;xref:System.Windows.Freezable&gt;物件)。&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">為了方便起見，這個方法會遮蔽強型別實作繼承的版本。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">目前物件的可修改複本。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></source>
+          <target state="translated">複製的物件&lt;&gt; <bpt id="p1">*</bpt>&gt; 屬性會是<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>即使來源的&lt;&gt; <ept id="p1">*</ept>&gt; 屬性<bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">建立可修改複製品這個<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，製作這個物件目前值的深層複本。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are.</source>
+          <target state="translated">不會複製資源參考、 資料繫結和動畫，但是其目前值。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">這個方法用來產生的可修改複本凍結&lt;xref:System.Windows.Freezable&gt;物件 (或任何&lt;xref:System.Windows.Freezable&gt;物件)。&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">為了方便起見，這個方法會遮蔽強型別實作繼承的版本。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">目前物件的可修改複本。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複製的物件&lt;&gt; <bpt id="p1">*</bpt>&gt; 屬性會是<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>即使來源的&lt;&gt; <ept id="p1">*</ept>&gt; 屬性是<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets or sets the first <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of this <bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得或設定第一個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個物件<bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt; property specifies how the two geometries will be combined.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;屬性會指定如何將會結合兩個幾何。&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note that &lt;xref:System.Windows.Media.CombinedGeometry&gt; combines the area specified by two geometries, so geometries that do not have area (such as &lt;xref:System.Windows.Media.LineGeometry&gt;) disappear when combined.</source>
+          <target state="translated">請注意，&lt;xref:System.Windows.Media.CombinedGeometry&gt;結合兩個幾何，因此並沒有區域的幾何所指定的區域 (例如&lt;xref:System.Windows.Media.LineGeometry&gt;) 結合時，會消失。&lt;/xref:System.Windows.Media.LineGeometry&gt; &lt;/xref:System.Windows.Media.CombinedGeometry&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="dependencyPropertyInfo_Geometry1"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Dependency Property Information      |||   |-|-|   |Identifier field|&lt;xref:System.Windows.Media.CombinedGeometry.Geometry1Property&gt;|   |Metadata properties set to <ph id="ph1">`true`</ph>|None|</source>
+          <target state="translated"><bpt id="p1">&lt;a name="dependencyPropertyInfo_Geometry1"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 相依性屬性資訊 | | |  |-|-|  |識別項欄位 |&lt;xref:System.Windows.Media.CombinedGeometry.Geometry1Property&gt;|  |中繼資料屬性設定為<ph id="ph1">`true`</ph>|None |&lt;/xref:System.Windows.Media.CombinedGeometry.Geometry1Property&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to combine.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>来合併的物件。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.CombinedGeometry.Geometry1*&gt; dependency property.</source>
+          <target state="translated">識別&lt;xref:System.Windows.Media.CombinedGeometry.Geometry1*&gt;相依性屬性。&lt;/xref:System.Windows.Media.CombinedGeometry.Geometry1*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the second <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of this <bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得或設定第二個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個物件<bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt; property specifies how the two geometries will be combined.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;屬性會指定如何將會結合兩個幾何。&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Note that &lt;xref:System.Windows.Media.CombinedGeometry&gt; combines the area specified by two geometries, so geometries that do not have area (such as &lt;xref:System.Windows.Media.LineGeometry&gt;) disappear when combined.</source>
+          <target state="translated">請注意，&lt;xref:System.Windows.Media.CombinedGeometry&gt;結合兩個幾何，因此並沒有區域的幾何所指定的區域 (例如&lt;xref:System.Windows.Media.LineGeometry&gt;) 結合時，會消失。&lt;/xref:System.Windows.Media.LineGeometry&gt; &lt;/xref:System.Windows.Media.CombinedGeometry&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="dependencyPropertyInfo_Geometry2"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Dependency Property Information      |||   |-|-|   |Identifier field|&lt;xref:System.Windows.Media.CombinedGeometry.Geometry2Property&gt;|   |Metadata properties set to <ph id="ph1">`true`</ph>|None|</source>
+          <target state="translated"><bpt id="p1">&lt;a name="dependencyPropertyInfo_Geometry2"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 相依性屬性資訊 | | |  |-|-|  |識別項欄位 |&lt;xref:System.Windows.Media.CombinedGeometry.Geometry2Property&gt;|  |中繼資料屬性設定為<ph id="ph1">`true`</ph>|None |&lt;/xref:System.Windows.Media.CombinedGeometry.Geometry2Property&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.CombinedGeometry.Geometry2*&gt; dependency property.</source>
+          <target state="translated">識別&lt;xref:System.Windows.Media.CombinedGeometry.Geometry2*&gt;相依性屬性。&lt;/xref:System.Windows.Media.CombinedGeometry.Geometry2*&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the method by which the two geometries (specified by the &lt;xref:System.Windows.Media.CombinedGeometry.Geometry1<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Media.CombinedGeometry.Geometry2<ept id="p1">*</ept>&gt; properties) are combined.</source>
+          <target state="translated">取得或設定方法的兩個幾何 (所指定&lt;&gt; <bpt id="p1">*</bpt>&gt; 和&lt;&gt; <ept id="p1">*</ept>&gt; 屬性) 會合併。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="dependencyPropertyInfo_GeometryCombineMode"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Dependency Property Information      |||   |-|-|   |Identifier field|&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineModeProperty&gt;|   |Metadata properties set to <ph id="ph1">`true`</ph>|None|</source>
+          <target state="translated"><bpt id="p1">&lt;a name="dependencyPropertyInfo_GeometryCombineMode"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 相依性屬性資訊 | | |  |-|-|  |識別項欄位 |&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineModeProperty&gt;|  |中繼資料屬性設定為<ph id="ph1">`true`</ph>|None |&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineModeProperty&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The method by which &lt;xref:System.Windows.Media.CombinedGeometry.Geometry1<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Media.CombinedGeometry.Geometry2<ept id="p1">*</ept>&gt; are combined.</source>
+          <target state="translated">方法&lt;&gt; <bpt id="p1">*</bpt>&gt; 和&lt;&gt; <ept id="p1">*</ept>&gt; 會結合。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Windows.Media.GeometryCombineMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Windows.Media.GeometryCombineMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt; dependency property.</source>
+          <target state="translated">識別&lt;xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt;相依性屬性。&lt;/xref:System.Windows.Media.CombinedGeometry.GeometryCombineMode*&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets the area of the filled region.</source>
+          <target state="translated">取得填滿區域的區域。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The computational tolerance of error.</source>
+          <target state="translated">錯誤將計算容錯。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies how the error tolerance will be interpreted.</source>
+          <target state="translated">指定容許的誤差解譯的方式。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The area of the filled region of this combined geometry.</source>
+          <target state="translated">結合這種幾何形狀的填滿區域的區域。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines whether this <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is empty.</source>
+          <target state="translated">決定是否此<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件是空的。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if this <bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is empty; otherwise, <bpt id="p3">**</bpt>false<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>如果這個<bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是空的否則<bpt id="p3">**</bpt>false<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Determines whether this <bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object may have curved segments.</source>
+          <target state="translated">決定是否此<bpt id="p1">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件弧形線段。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if this <bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object may have curved segments; otherwise, <bpt id="p3">**</bpt>false<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>如果這個<bpt id="p2">&lt;xref href="System.Windows.Media.CombinedGeometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件曲線區段，否則<bpt id="p3">**</bpt>false<ept id="p3">**</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

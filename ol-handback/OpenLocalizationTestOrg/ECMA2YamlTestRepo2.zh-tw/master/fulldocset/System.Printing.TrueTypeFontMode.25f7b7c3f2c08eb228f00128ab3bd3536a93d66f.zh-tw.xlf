@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1de6b6f815df7306afd22d209bb958f8aff7b1f8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Printing.TrueTypeFontMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6360bb5c5cd16d655bda5a9d220c569fc535f218</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e744963107a97b20e4d3930e4243ba1b77998d28</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies how a printer handles text that is formatted with a TrueType font.</source>
+          <target state="translated">指定印表機處理 TrueType 字型以格式化文字的方式。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>TrueType fonts are <bpt id="p1">*</bpt>vector<ept id="p1">*</ept> fonts, which instruct printer drivers and screen drivers how to draw the shapes of the letters and fill them in.</source>
+          <target state="translated">TrueType 字型<bpt id="p1">*</bpt>向量<ept id="p1">*</ept>字型，指示印表機驅動程式和螢幕驅動程式如何繪製圖形的字母，並進行填寫。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Vector fonts contrast with <bpt id="p1">*</bpt>raster<ept id="p1">*</ept> fonts, which are simply lists.</source>
+          <target state="translated">向量字型對比與<bpt id="p1">*</bpt>點陣<ept id="p1">*</ept>是只要清單的字型。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A raster font has a list for each letter of each available font size, and the lists determine, for every pixel in the letter, whether it prints.</source>
+          <target state="translated">點陣字型有一個清單每個字母的每個可用的字型的大小，而這個清單會決定每個像素的字母，是否會列印。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can enlarge or reduce vector fonts to almost any point size; however, vector fonts can slow printing because they occupy a large amount of printer memory.</source>
+          <target state="translated">您可以增加或減少幾乎任何點大小; 向量字型不過，向量字型可以降低列印，因為它們會佔用大量的印表機記憶體。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Also, some printers do not support TrueType fonts.</source>
+          <target state="translated">此外，某些印表機不支援 TrueType 字型。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Newer printers often avoid these problems by doing the following.</source>
+          <target state="translated">較新的印表機通常會透過下列方式避免這些問題。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Converting a TrueType font into an outline font, which is a generic vector font.</source>
+          <target state="translated">-將 TrueType 字型轉換泛型向量字型的外框字型。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Many printers that do not support TrueType fonts, do support outline fonts.</source>
+          <target state="translated">許多不支援 TrueType 字型的印表機支援外框字型。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Creating a temporary raster font that looks just like a TrueType font.</source>
+          <target state="translated">-正在建立的暫存點陣字型，看起來就像是 TrueType 字型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The printer must create a separate temporary raster font for each font size that the document uses.</source>
+          <target state="translated">印表機必須建立個別的暫存點陣字型的每種文件使用的字型大小。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For that reason, if a print job uses many font sizes, the total memory that the printer uses might be greater than what a TrueType font would use.</source>
+          <target state="translated">基於這個原因，如果列印工作會使用許多字型大小，印表機會使用的總記憶體可能大於 TrueType 字型會使用。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Treating each text area in the document as a graphic.</source>
+          <target state="translated">-將每個文件中的文字區域視為圖形。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a device needs to print a document that contains very little text, downloading text as a graphic can use less printer memory than downloading a font.</source>
+          <target state="translated">如果裝置需要列印文件包含非常少的文字，請下載成圖形的文字可以使用較少印表機的記憶體比下載字型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use the values of this type for these purposes:      -   As members of the &lt;xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt; collection, which is a property of &lt;xref:System.Printing.PrintCapabilities&gt;, these values indicate which of the preceding techniques is available for a particular printer.</source>
+          <target state="translated">針對這些用途使用此類型的值:-設為成員的&lt;xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt;集合，其屬性的&lt;xref:System.Printing.PrintCapabilities&gt;，這些值會指出上述技術所提供特定的印表機。&lt;/xref:System.Printing.PrintCapabilities&gt; &lt;/xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Many printers support more than one of these techniques.</source>
+          <target state="translated">許多印表機都支援一個以上的這些技術。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   As the value of the &lt;xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt; property of a &lt;xref:System.Printing.PrintTicket&gt;, the value instructs the printer to handle TrueType fonts in a particular way.</source>
+          <target state="translated">-做為值&lt;xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt;屬性&lt;xref:System.Printing.PrintTicket&gt;，值會指示以特定方式處理 TrueType 字型的印表機。&lt;/xref:System.Printing.PrintTicket&gt; &lt;/xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Unknown<ept id="p1">**</ept> value is never used in properties of &lt;xref:System.Printing.PrintCapabilities&gt; objects.</source>
+          <target state="translated"><bpt id="p1">**</bpt>未知<ept id="p1">**</ept>屬性中不會使用值&lt;xref:System.Printing.PrintCapabilities&gt;物件。&lt;/xref:System.Printing.PrintCapabilities&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You should never set a &lt;xref:System.Printing.PrintTicket&gt; property to <bpt id="p1">**</bpt>Unknown<ept id="p1">**</ept>.</source>
+          <target state="translated">您應該永遠不會設定&lt;xref:System.Printing.PrintTicket&gt;屬性<bpt id="p1">**</bpt>未知<ept id="p1">**</ept>。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If some other &lt;xref:System.Printing.PrintTicket&gt; producing application has created a <bpt id="p1">*</bpt>PrintTicket document<ept id="p1">*</ept> that sets the TrueType font handling feature to an unrecognized option (that is, an option that is not defined in the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>, then a &lt;xref:System.Printing.PrintTicket&gt; object in your application that is constructed with that document will have <bpt id="p3">**</bpt>Unknown<ept id="p3">**</ept> as the value of the &lt;xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt; property.</source>
+          <target state="translated">如果其他&lt;xref:System.Printing.PrintTicket&gt;產生應用程式已建立<bpt id="p1">*</bpt>PrintTicket 文件<ept id="p1">*</ept>無法辨識的選項來設定 TrueType 字型處理功能 (也就是未定義中的選項<bpt id="p2">[</bpt>列印結構描述<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>，則&lt;xref:System.Printing.PrintTicket&gt;該文件，建構應用程式中的物件都有<bpt id="p3">**</bpt>未知<ept id="p3">**</ept>做為值&lt;xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt;屬性。&lt;/xref:System.Printing.PrintTicket.TrueTypeFontMode%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Although the &lt;xref:System.Printing.PrintTicket&gt; and &lt;xref:System.Printing.PrintCapabilities&gt; classes cannot be inherited, you can extend the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept> to recognize print device features that are not accounted for in the &lt;xref:System.Printing.PrintTicket&gt; or &lt;xref:System.Printing.PrintCapabilities&gt; classes.</source>
+          <target state="translated">雖然&lt;xref:System.Printing.PrintTicket&gt;和&lt;xref:System.Printing.PrintCapabilities&gt;類別無法被繼承，您可以擴充<bpt id="p1">[</bpt>列印結構描述<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>辨識不計算中的列印裝置功能&lt;xref:System.Printing.PrintTicket&gt;或&lt;xref:System.Printing.PrintCapabilities&gt;類別。&lt;/xref:System.Printing.PrintCapabilities&gt; &lt;/xref:System.Printing.PrintTicket&gt; &lt;/xref:System.Printing.PrintCapabilities&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>NOTINBUILD: How to: Extend the Print Schema and Create New Print System Classes<ept id="p1">](http://msdn.microsoft.com/en-us/a3600218-1ea5-478a-9853-6560464f2885)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NOTINBUILD︰ 如何︰ 列印結構描述和建立新的列印系統類別擴充<ept id="p1">](http://msdn.microsoft.com/en-us/a3600218-1ea5-478a-9853-6560464f2885)</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The printer driver decides the best method for handling TrueType fonts.</source>
+          <target state="translated">印表機驅動程式會決定處理 TrueType 字型的最佳方法。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The printer driver downloads the TrueType font.</source>
+          <target state="translated">印表機驅動程式會下載 TrueType 字型。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The printer driver downloads the TrueType font as an outline font.</source>
+          <target state="translated">印表機驅動程式將 TrueType 字型下載成外框字型。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The printer driver creates a raster font for each size of the TrueType font that it needs and downloads them all.</source>
+          <target state="translated">印表機驅動程式會建立每種大小的 TrueType 字型，它需要並將其所有下載點陣字型。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The printer driver downloads each area of text as a graphic.</source>
+          <target state="translated">印表機驅動程式會下載每個文字區域，以圖形。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The feature (whose options are represented by this enumeration) is set to an option not defined.</source>
+          <target state="translated">功能 （其選項由這個列舉表示） 是設定為未定義的選項。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>in the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">在<bpt id="p1">[</bpt>列印結構描述<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

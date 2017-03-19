@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">227bd46500f950d75c81bb57b4687ff107a4b899</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.SecurityElement.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4086e388e4e67d39b9a7a72e122a201f01ba575b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dcd1fb32ab85f861345775e9312b22f1ecc6340</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the XML object model for encoding security objects.</source>
+          <target state="translated">表示编码安全对象的 XML 对象模型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class is intended to be a lightweight implementation of a simple XML object model for use within the security system, and not for use as a general XML object model.</source>
+          <target state="translated">此类用于简单的 XML 对象模型，以便在安全系统中使用，不要使用作为常规的 XML 对象模型的轻量实现。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This documentation assumes a basic knowledge of XML.</source>
+          <target state="translated">本文档假定基本知识的 XML。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The simple XML object model for an element consists of the following parts:      -   The tag is the element name.</source>
+          <target state="translated">元素的简单 XML 对象模型包含以下部分:-标记为元素名称。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   The attributes are zero or more name/value attribute pairs on the element.</source>
+          <target state="translated">-此特性是零或多个名称/值特性对元素上。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   The children are zero or more elements nested within <ph id="ph1">`&lt;tag&gt;`</ph> and <ph id="ph2">`&lt;/tag&gt;`</ph>.</source>
+          <target state="translated">-子级都将零个或多个元素嵌套在<ph id="ph1">`&lt;tag&gt;`</ph>和<ph id="ph2">`&lt;/tag&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It is strongly suggested that attribute based XML representation is used to express security elements and their values.</source>
+          <target state="translated">强烈建议基于属性的 XML 表示形式用于表示安全元素和它们的值。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This means properties of an element are expressed as attributes and property values are expressed as attribute values.</source>
+          <target state="translated">这意味着将元素的属性表示为属性和属性值表示为属性值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Avoid nesting text within tags.</source>
+          <target state="translated">避免在标记中的嵌套文本。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For any <ph id="ph1">`&lt;tag&gt;text&lt;/tag&gt;`</ph> representation a representation of type <ph id="ph2">`&lt;tag value="text"/&gt;`</ph> is usually available.</source>
+          <target state="translated">对于任何<ph id="ph1">`&lt;tag&gt;text&lt;/tag&gt;`</ph>的类型表示形式的表示形式<ph id="ph2">`&lt;tag value="text"/&gt;`</ph>通常可用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Using this attribute-based XML representation increases readability and allows easy WMI portability of the resulting XML serialization.</source>
+          <target state="translated">使用此基于属性的 XML 表示形式提高了可读性，使生成的 XML 序列化的简单 WMI 可移植性。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An attribute name must be one character or longer, and cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">属性名称必须是一个字符或更长时间，但不能为<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If element-based value representation is used, elements with a text string that is <ph id="ph1">`null`</ph> are represented in the <ph id="ph2">`&lt;tag/&gt;`</ph> form; otherwise, text is delimited by the <ph id="ph3">`&lt;tag&gt;`</ph> and <ph id="ph4">`&lt;/tag&gt;`</ph> tokens.</source>
+          <target state="translated">如果使用基于元素的值表示形式，元素的文本字符串，它<ph id="ph1">`null`</ph>中表示<ph id="ph2">`&lt;tag/&gt;`</ph>窗体; 否则，将文本分隔通过<ph id="ph3">`&lt;tag&gt;`</ph>和<ph id="ph4">`&lt;/tag&gt;`</ph>令牌。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Both forms can be combined with attributes, which are shown if present.</source>
+          <target state="translated">可以与属性，显示组合这两种形式如果存在。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The tags, attributes, and text of elements, if present, are always case-sensitive.</source>
+          <target state="translated">标记、 属性和文本的元素，如果存在，始终是区分大小写。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The XML form contains quotations and escapes where necessary.</source>
+          <target state="translated">XML 格式包含引号和转义在必要时。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>String values that include characters invalid for use in XML result in an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">在 XML 中包括用于无效的字符的字符串值导致&lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These rules apply to all properties and methods.</source>
+          <target state="translated">这些规则适用于所有属性和方法。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For performance reasons, character validity is only checked when the element is encoded into XML text form, and not on every set of a property or method.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 出于性能原因，字符的有效性时，将仅检查元素进行编码为 XML 文本形式，而不是在每个属性或方法集。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Static methods allow explicit checking where needed.</source>
+          <target state="translated">静态方法都允许显式检查在需要时。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified tag.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定标记的类。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`tag`</ph> parameter must consist of a valid XML tag name.</source>
+          <target state="translated"><ph id="ph1">`tag`</ph>参数必须包含有效的 XML 标记名称。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Security.SecurityElement.Escape%2A&gt; to remove invalid characters from the string.</source>
+          <target state="translated">使用&lt;xref:System.Security.SecurityElement.Escape%2A&gt;从字符串中删除无效字符。&lt;/xref:System.Security.SecurityElement.Escape%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The tag name of an XML element.</source>
+          <target state="translated">XML 元素的标记名称。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is invalid in XML.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">tag</ph> <ept id="p1">&lt;/code&gt;</ept>参数是在 XML 中无效。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified tag and text.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类指定的标记和文本。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`text`</ph> parameter is <ph id="ph2">`null`</ph> this constructor produces an element identical to the default constructor.</source>
+          <target state="translated">如果<ph id="ph1">`text`</ph>参数是<ph id="ph2">`null`</ph>此构造函数将生成相同的默认构造函数的元素。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The tag name of the XML element.</source>
+          <target state="translated">XML 元素的标记名称。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The text content within the element.</source>
+          <target state="translated">中元素的文本内容。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">text</ph><ept id="p2">&lt;/code&gt;</ept> parameter is invalid in XML.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">tag</ph> <ept id="p1">&lt;/code&gt;</ept>参数或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">text</ph> <ept id="p2">&lt;/code&gt;</ept>参数是在 XML 中无效。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Adds a name/value attribute to an XML element.</source>
+          <target state="translated">将名称/值特性添加到一个 XML 元素。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Names and values in attributes should only contain valid XML attribute characters.</source>
+          <target state="translated">名称和特性中的值应仅包含有效的 XML 属性字符。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>XML attribute names must be unique.</source>
+          <target state="translated">XML 属性名称必须是唯一的。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Security.SecurityElement.Escape%2A&gt; to remove invalid characters from the string.</source>
+          <target state="translated">使用&lt;xref:System.Security.SecurityElement.Escape%2A&gt;从字符串中删除无效字符。&lt;/xref:System.Security.SecurityElement.Escape%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There is no support for quoted strings, so strings for name/value pairs should not contain quotes or other characters requiring quoting.</source>
+          <target state="translated">没有带引号的字符串，支持以便为名称/值对的字符串应包含引号或其他需要用引号括起来的字符。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">属性的名称。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">属性的值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is invalid in XML.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>参数或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">value</ph> <ept id="p2">&lt;/code&gt;</ept>参数是在 XML 中无效。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-or-       An attribute with the name specified by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter already exists.</source>
+          <target state="translated">-具有指定名称的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>参数已存在。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Adds a child element to the XML element.</source>
+          <target state="translated">将子元素添加到 XML 元素。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The child element is added following any previously existing child elements.</source>
+          <target state="translated">子元素添加以下任何先前存在的子元素。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The child element to add.</source>
+          <target state="translated">要添加的子元素。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">child</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">child</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Finds an attribute by name in an XML element.</source>
+          <target state="translated">在一个 XML 元素，按名称查找属性。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>With XML as follows, <ph id="ph1">`Attribute("B")`</ph> would return "456".</source>
+          <target state="translated">使用 XML，如下所示，<ph id="ph1">`Attribute("B")`</ph>将返回"456"。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The name of the attribute for which to search.</source>
+          <target state="translated">要搜索属性的名称。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The value associated with the named attribute, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no attribute with <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p2">&lt;/code&gt;</ept> exists.</source>
+          <target state="translated">已命名的属性，与关联的值或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果具有的属性<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p2">&lt;/code&gt;</ept>存在。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets or sets the attributes of an XML element as name/value pairs.</source>
+          <target state="translated">获取或设置作为名称/值对的 XML 元素的属性。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Each attribute is stored in the &lt;xref:System.Collections.Hashtable&gt; as a name/value pair.</source>
+          <target state="translated">每个属性存储在&lt;xref:System.Collections.Hashtable&gt;作为名称/值对。&lt;/xref:System.Collections.Hashtable&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Names and values in attributes should contain only valid XML attribute characters.</source>
+          <target state="translated">名称和特性中的值应包含仅的有效 XML 属性字符。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Security.SecurityElement.Escape%2A&gt; to remove invalid characters from the string.</source>
+          <target state="translated">使用&lt;xref:System.Security.SecurityElement.Escape%2A&gt;从字符串中删除无效字符。&lt;/xref:System.Security.SecurityElement.Escape%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>There is no support for quoted strings, so strings for name/value pairs should not contain quotes or other characters requiring quoting.</source>
+          <target state="translated">没有带引号的字符串，支持以便为名称/值对的字符串应包含引号或其他需要用引号括起来的字符。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the attribute values of the XML element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象的 XML 元素的属性值。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The name or value of the <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is invalid.</source>
+          <target state="translated">名称或值<bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象无效。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The name is not a valid XML attribute name.</source>
+          <target state="translated">名称不是有效的 XML 属性名称。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets the array of child elements of the XML element.</source>
+          <target state="translated">获取或设置 XML 元素的子元素的数组。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Security.SecurityElement&gt; contains both &lt;xref:System.Security.SecurityElement.Text%2A&gt; and Children, &lt;xref:System.Security.SecurityElement.Text%2A&gt; will appear first.</source>
+          <target state="translated">如果&lt;xref:System.Security.SecurityElement&gt;同时包含&lt;xref:System.Security.SecurityElement.Text%2A&gt;及其子级，&lt;xref:System.Security.SecurityElement.Text%2A&gt;将第一个显示。&lt;/xref:System.Security.SecurityElement.Text%2A&gt; &lt;/xref:System.Security.SecurityElement.Text%2A&gt; &lt;/xref:System.Security.SecurityElement&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ordered child elements of the XML element as security elements.</source>
+          <target state="translated">XML 元素作为安全元素的有序的子元素。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A child of the XML parent node is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">XML 父节点的子级是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">创建并返回当前的相同副本<bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The copy includes both the &lt;xref:System.Security.SecurityElement.Children%2A&gt; and &lt;xref:System.Security.SecurityElement.Attributes%2A&gt; properties.</source>
+          <target state="translated">复制同时包含&lt;xref:System.Security.SecurityElement.Children%2A&gt;和&lt;xref:System.Security.SecurityElement.Attributes%2A&gt;属性。&lt;/xref:System.Security.SecurityElement.Attributes%2A&gt; &lt;/xref:System.Security.SecurityElement.Children%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A copy of the current <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">一份当前<bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Compares two XML element objects for equality.</source>
+          <target state="translated">比较相等的两个 XML 元素对象。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If there are child elements, comparison extends recursively to them.</source>
+          <target state="translated">如果没有子元素，比较将递归扩展到它们。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>There is no support for comparing different XML representations of the same characters.</source>
+          <target state="translated">没有用于比较不同的 XML 表示形式的相同字符支持。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An XML element object to which to compare the current XML element object.</source>
+          <target state="translated">要与当前的 XML 元素对象进行比较 XML 元素对象。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the tag, attribute names and values, child elements, and text fields in the current XML element are identical to their counterparts in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p2">&lt;/code&gt;</ept> parameter; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>标记、 特性名称和值、 子元素和当前的 XML 元素中的文本字段是否与中的对应项相同<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">other</ph> <ept id="p2">&lt;/code&gt;</ept>参数; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Replaces invalid XML characters in a string with their valid XML equivalent.</source>
+          <target state="translated">替换无效 XML 字符串中的字符替换为有效 XML 等效项。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The string within which to escape invalid characters.</source>
+          <target state="translated">在此无效的字符进行转义字符串。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The input string with invalid characters replaced.</source>
+          <target state="translated">使用无效的字符替换输入的字符串。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates a security element from an XML-encoded string.</source>
+          <target state="translated">从 XML 编码的字符串创建安全元素。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The XML-encoded string from which to create the security element.</source>
+          <target state="translated">根据其创建安全元素的 XML 编码的字符串。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> created from the XML.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>从 XML 创建。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> contains one or more single quotation mark characters.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>包含一个或多个单引号字符。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is<bpt id="p1">&lt;xref uid="langword_csharp_ null" name=" null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>is<bpt id="p1">&lt;xref uid="langword_csharp_ null" name=" null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Determines whether a string is a valid attribute name.</source>
+          <target state="translated">确定字符串是否是有效的属性名称。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This method can be used to test an attribute before adding it to a security element.</source>
+          <target state="translated">此方法可以用于测试之前将其添加到安全元素的属性。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The attribute name to test for validity.</source>
+          <target state="translated">要测试其有效性的属性名称。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p2">&lt;/code&gt;</ept> parameter is a valid XML attribute name; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p2">&lt;/code&gt;</ept>参数是有效的 XML 属性名称; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Determines whether a string is a valid attribute value.</source>
+          <target state="translated">确定字符串是否为有效的特性值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This method can be used to test an attribute before adding it to a security element.</source>
+          <target state="translated">此方法可以用于测试之前将其添加到安全元素的属性。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The attribute value to test for validity.</source>
+          <target state="translated">要测试其有效性的属性值。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is a valid XML attribute value; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>参数是有效的 XML 属性值; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Determines whether a string is a valid tag.</source>
+          <target state="translated">确定字符串是否为有效的标记。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This can be used to test a &lt;xref:System.Security.SecurityElement.Tag%2A&gt; before setting it.</source>
+          <target state="translated">这可以用于测试&lt;xref:System.Security.SecurityElement.Tag%2A&gt;之前设置它。&lt;/xref:System.Security.SecurityElement.Tag%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The tag to test for validity.</source>
+          <target state="translated">要测试其有效性的标记。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p2">&lt;/code&gt;</ept> parameter is a valid XML tag; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">tag</ph> <ept id="p2">&lt;/code&gt;</ept>参数是一个有效的 XML 标记; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Determines whether a string is valid as text within an XML element.</source>
+          <target state="translated">确定字符串是否为文本 XML 元素中有效。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This method can be used to test &lt;xref:System.Security.SecurityElement.Text%2A&gt; before setting it.</source>
+          <target state="translated">此方法可以用于测试&lt;xref:System.Security.SecurityElement.Text%2A&gt;之前设置它。&lt;/xref:System.Security.SecurityElement.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The text to test for validity.</source>
+          <target state="translated">要测试其有效性的文本。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">text</ph><ept id="p2">&lt;/code&gt;</ept> parameter is a valid XML text element; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">text</ph> <ept id="p2">&lt;/code&gt;</ept>参数都是有效的 XML 文本元素; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Finds a child by its tag name.</source>
+          <target state="translated">根据其标记名称查找子级。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>With XML as follows, <ph id="ph1">`SearchForChildByTag("second")`</ph> would return the child element <ph id="ph2">`&lt;second&gt;`</ph>.</source>
+          <target state="translated">使用 XML，如下所示，<ph id="ph1">`SearchForChildByTag("second")`</ph>将返回的子元素<ph id="ph2">`&lt;second&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The tag for which to search in child elements.</source>
+          <target state="translated">要在子元素中搜索标记。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The first child XML element with the specified tag value, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no child element with <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p2">&lt;/code&gt;</ept> exists.</source>
+          <target state="translated">使用指定的标记值的第一个子 XML 元素或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有子元素具有<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">tag</ph> <ept id="p2">&lt;/code&gt;</ept>存在。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">tag</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Finds a child by its tag name and returns the contained text.</source>
+          <target state="translated">根据其标记名称查找子级，并返回所包含的文本。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This method is equivalent to the following:       <bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.Security.SecurityElement#1<ept id="p2">](~/add/codesnippet/visualbasic/m-system.security.securi_0_1.vb)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cpp</bpt><bpt id="p4">[</bpt>System.Security.SecurityElement#1<ept id="p4">](~/add/codesnippet/cpp/m-system.security.securi_0_1.cpp)</ept><ept id="p3">]</ept>  <bpt id="p5">[!code-cs</bpt><bpt id="p6">[</bpt>System.Security.SecurityElement#1<ept id="p6">](~/add/codesnippet/csharp/m-system.security.securi_0_1.cs)</ept><ept id="p5">]</ept>       With XML as follows, <ph id="ph1">`SearchForTextOfTag("second")`</ph> would return "text2".</source>
+          <target state="translated">此方法等效于以下︰ <bpt id="p1">[!code-vb</bpt> <bpt id="p2">[</bpt>System.Security.SecurityElement#1<ept id="p2">](~/add/codesnippet/visualbasic/m-system.security.securi_0_1.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cpp</bpt><bpt id="p4">[</bpt>System.Security.SecurityElement#1<ept id="p4">](~/add/codesnippet/cpp/m-system.security.securi_0_1.cpp)</ept><ept id="p3">]</ept><bpt id="p5">[!code-cs</bpt><bpt id="p6">[</bpt>System.Security.SecurityElement#1<ept id="p6">](~/add/codesnippet/csharp/m-system.security.securi_0_1.cs)</ept> <ept id="p5">]</ept> ，如下所示，与 XML<ph id="ph1">`SearchForTextOfTag("second")`</ph>将返回"text2"。    </target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The tag for which to search in child elements.</source>
+          <target state="translated">要在子元素中搜索标记。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The text contents of the first child element with the specified tag value.</source>
+          <target state="translated">具有指定的标记值的第一个子元素的文本内容。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tag&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tag&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets the tag name of an XML element.</source>
+          <target state="translated">获取或设置一个 XML 元素的标记名称。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In XML, the tag appears in the script as appears below:      <ph id="ph1">```   &lt;tag attributes&gt;text&lt;/tag&gt;   ```</ph>       If this element has child elements, the children will replace <ph id="ph2">`text`</ph>.</source>
+          <target state="translated">在 XML 中，标记将出现在与下面显示的脚本︰<ph id="ph1">```   &lt;tag attributes&gt;text&lt;/tag&gt;   ```</ph>如果此元素包含子元素，则子元素将替换<ph id="ph2">`text`</ph>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Assign only valid XML tag strings to this property.</source>
+          <target state="translated">将仅有效的 XML 标记字符串分配给此属性。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Security.SecurityElement.Escape%2A&gt; to remove invalid characters from the string.</source>
+          <target state="translated">使用&lt;xref:System.Security.SecurityElement.Escape%2A&gt;从字符串中删除无效字符。&lt;/xref:System.Security.SecurityElement.Escape%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The tag name of an XML element.</source>
+          <target state="translated">XML 元素的标记名称。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The tag is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The tag is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The tag is not valid in XML.</source>
+          <target state="translated">不在 XML 中有效标记。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text within an XML element.</source>
+          <target state="translated">获取或设置 XML 元素中的文本。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The text should not contain XML special characters.</source>
+          <target state="translated">文本不应包含 XML 特殊字符。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Security.SecurityElement.Escape%2A&gt; to remove invalid characters from the string.</source>
+          <target state="translated">使用&lt;xref:System.Security.SecurityElement.Escape%2A&gt;从字符串中删除无效字符。&lt;/xref:System.Security.SecurityElement.Escape%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Security.SecurityElement&gt; contains both Text and &lt;xref:System.Security.SecurityElement.Children%2A&gt;, Text will appear first.</source>
+          <target state="translated">如果&lt;xref:System.Security.SecurityElement&gt;包含这两个文本和&lt;xref:System.Security.SecurityElement.Children%2A&gt;，文本将显示第一个。&lt;/xref:System.Security.SecurityElement.Children%2A&gt; &lt;/xref:System.Security.SecurityElement&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value of the text within an XML element.</source>
+          <target state="translated">在 XML 元素文本的值。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The text is not valid in XML.</source>
+          <target state="translated">文本是不在 XML 中有效。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Produces a string representation of an XML element and its constituent attributes, child elements, and text.</source>
+          <target state="translated">生成的字符串表示形式的 XML 元素和其构成特性、 子元素和文本。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This method is useful in debugging to see the XML representation of the element.</source>
+          <target state="translated">此方法可在调试查看元素的 XML 表示。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The XML element and its contents.</source>
+          <target state="translated">XML 元素和其内容。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

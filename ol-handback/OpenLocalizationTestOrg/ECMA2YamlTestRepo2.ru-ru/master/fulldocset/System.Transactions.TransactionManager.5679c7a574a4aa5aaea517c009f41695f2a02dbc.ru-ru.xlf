@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8b7a8effd49f748548eb5733219f293891b12a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5206dcf24bd4de6ae1bfd0ea064d1e33ad5da709</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d92b0c9d819d5bfe87f151c6d1e1c89e777b335a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods used for transaction management.</source>
+          <target state="translated">Содержит методы, используемые для управления транзакциями.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Этот класс не наследуется.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class contains static properties and methods used to obtain information about the default transaction options.</source>
+          <target state="translated">Этот класс содержит статические свойства и методы, используемые для получения сведений о по умолчанию параметры транзакции.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also contains several static methods used for recovery of a durable resource when the durable resource fails.</source>
+          <target state="translated">Он также содержит несколько статических методов, служащих для восстановления долговременного ресурса после сбоя.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No special action is required of a durable resource if the Microsoft Distributed Transaction Coordinator (MSDTC) fails.</source>
+          <target state="translated">Никаких специальных действий необходим долговременный ресурс при сбое координатора распределенных транзакций Майкрософт (MSDTC).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gets the default timeout interval for new transactions.</source>
+          <target state="translated">Возвращает интервал времени ожидания по умолчанию для новых транзакций.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The timeout interval of a transaction is the time within which the transaction must be completed.</source>
+          <target state="translated">Интервал времени ожидания транзакции — это время, в течение которого должна быть завершена транзакция.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager has not heard from all transaction participants within the timeout interval, it aborts the transaction.</source>
+          <target state="translated">Если диспетчер транзакций не имеет слышали из участников транзакции в течение интервала времени ожидания, транзакция прерывается.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`DefaultSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Это значение может быть задано <ph id="ph1">`DefaultSettingsSection`</ph> файла конфигурации.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the timeout interval for new transactions.</source>
+          <target state="translated">Объект &lt;xref:System.TimeSpan&gt;значение, указывающее интервал времени ожидания для новых транзакций.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Indicates that a distributed transaction has started.</source>
+          <target state="translated">Указывает, что запущена распределенная транзакция.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event degrades the performance of all distributed transactions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Внимание<ept id="p1">**</ept> регистрацию для этого события уменьшает производительность всех распределенных транзакций.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Local transactions are not monitored as performance is affected even more.</source>
+          <target state="translated">Локальные транзакции не отслеживаются как еще более снижается производительность.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept> этот метод использует &lt;xref:System.Security.Permissions.SecurityAction&gt;для предотвращения вызова от ненадежного кода, однако требуется только непосредственно вызывающего метода должны обладать; <ph id="ph1">`FullTrust`</ph> набор разрешений.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a custom transaction factory.</source>
+          <target state="translated">Возвращает или задает пользовательскую фабрику транзакций.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept> этот метод использует &lt;xref:System.Security.Permissions.SecurityAction&gt;для предотвращения вызова от ненадежного кода, однако требуется только непосредственно вызывающего метода должны обладать; <ph id="ph1">`FullTrust`</ph> набор разрешений.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom transaction factory.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий пользовательскую фабрику транзакций.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the default maximum timeout interval for new transactions.</source>
+          <target state="translated">Получает максимальный тайм-аут по умолчанию для новых транзакций.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an explanation of the timeout interval, see the documentation for the &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt; property.</source>
+          <target state="translated">Объяснение интервала времени ожидания см. в документации для &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;свойство.&lt;/xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`MachineSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Это значение может быть задано <ph id="ph1">`MachineSettingsSection`</ph> файла конфигурации.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the maximum timeout interval that is allowed when creating new transactions.</source>
+          <target state="translated">Объект &lt;xref:System.TimeSpan&gt;значение, указывающее максимальный интервал времени ожидания, является допустимым при создании новых транзакций.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Notifies the transaction manager that a resource manager recovering from failure has finished reenlisting in all unresolved transactions.</source>
+          <target state="translated">Уведомляет диспетчер транзакций, диспетчер ресурсов, восстановление после сбоя, завершил повторное зачисление всех неразрешенных транзакций.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All durable resource managers should do recovery when they first start up by calling the &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt; method for each outstanding transaction.</source>
+          <target state="translated">Все диспетчеры ресурсов устойчивых следует выполнить восстановление, при первом запуске путем вызова &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt;метод для каждого необработанная транзакция.&lt;/xref:System.Transactions.TransactionManager.Reenlist%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only when all of the reenlistments are done should the resource manager call RecoveryComplete.</source>
+          <target state="translated">Только в том случае, если выполняются все reenlistments диспетчера ресурсов следует вызывать RecoveryComplete.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Дополнительные сведения о восстановлении см. в разделе <bpt id="p1">[</bpt>выполнение восстановления<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept> этот метод использует &lt;xref:System.Security.Permissions.SecurityAction&gt;для предотвращения вызова от ненадежного кода, однако требуется только непосредственно вызывающего метода должны обладать; <ph id="ph1">`FullTrust`</ph> набор разрешений.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource to be recovered from.</source>
+          <target state="translated">Объект &lt;xref:System.Guid&gt;, однозначно идентифицирующий ресурс должен быть восстановлен из.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reenlists a durable participant in a transaction.</source>
+          <target state="translated">Reenlists долговременного участника в транзакцию.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource manager facilitates resolution of durable enlistments in a transaction by reenlisting the transaction participant after resource failure.</source>
+          <target state="translated">Диспетчер ресурсов обеспечивает разрешение зачислений устойчивых ресурсов в транзакции, повторно зачисляя участника транзакции после сбоя ресурса.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`resourceManagerIdentifier`</ph> parameter is used to consistently label the participant of a transaction in the event of a resource failure.</source>
+          <target state="translated"><ph id="ph1">`resourceManagerIdentifier`</ph> Параметр используется для согласованного подписи участника транзакции в случае сбоя ресурса.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When calling the Reenlist method, the resource manager must provide the same <ph id="ph1">`resourceManagerIdentifier`</ph> as it used when it originally called the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method during enlistment, or a &lt;xref:System.Transactions.TransactionException&gt; is thrown.</source>
+          <target state="translated">При вызове метода прикрепить повторно, диспетчер ресурсов должен предоставлять тот же <ph id="ph1">`resourceManagerIdentifier`</ph> , используемое при его вызове изначально &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;метод во время присоединения, или &lt;xref:System.Transactions.TransactionException&gt;возникает исключение.&lt;/xref:System.Transactions.TransactionException&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a participant is reenlisted using this method, the phase 2 methods of &lt;xref:System.Transactions.IEnlistmentNotification&gt; that correspond to the transaction's outcome (that is, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; , &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; ) are called as appropriate.</source>
+          <target state="translated">При зачислении участника с помощью этого метода фазы 2 интерфейса &lt;xref:System.Transactions.IEnlistmentNotification&gt;результата транзакции (то есть, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;или &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;), называются соответствующим образом.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the participants are successfully reenlisted, you should then call &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt; to complete the recovery.</source>
+          <target state="translated">После участниками являются успешно зачислении, затем следует вызвать &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;для завершения восстановления.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method when a resource manager restarts from failure.</source>
+          <target state="translated">Этот метод следует вызывать только в том случае, если диспетчер ресурсов был перезагружен после сбоя.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, you should only reenlist unresolved transactions logged by a resource manager during the initial Prepare phase of a two-phase commit.</source>
+          <target state="translated">Кроме того следует прикрепить только повторно неразрешенных транзакций, зарегистрированных диспетчером ресурсов в ходе начальной фазы подготовки двухфазной фиксации.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to call this method at invalid times can produce erroneous results.</source>
+          <target state="translated">Любая попытка вызова этого метода в недопустимое время может привести к неправильным результатам.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager fails, and your resource manager performs recovery only a short time after you called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method on an enlistment in phase 1 of the Two-Phase Commit protocol, your resource manager might either receive the &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; callback.</source>
+          <target state="translated">Если происходит сбой диспетчера транзакций, и диспетчер ресурсов выполняет восстановление на короткое время после вызова &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;метод прикрепления на первом этапе протокола двухфазная фиксация, диспетчер ресурсов может получать &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;или &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;обратного вызова.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Дополнительные сведения о восстановлении см. в разделе <bpt id="p1">[</bpt>выполнение восстановления<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Примечание<ept id="p1">**</ept> этот метод использует &lt;xref:System.Security.Permissions.SecurityAction&gt;для предотвращения вызова от ненадежного кода, однако требуется только непосредственно вызывающего метода должны обладать; <ph id="ph1">`FullTrust`</ph> набор разрешений.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource manager.</source>
+          <target state="translated">Объект &lt;xref:System.Guid&gt;, однозначно определяющий диспетчер ресурсов.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Contains additional information of recovery information.</source>
+          <target state="translated">Содержит дополнительные сведения о восстановлении.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A resource object that implements <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive notifications.</source>
+          <target state="translated">Объект ресурса, который реализует <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для получения уведомлений.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Описывающая зачисление.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph>является недопустимым.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-or-       Transaction Manager information in <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> does not match the configured transaction manager.</source>
+          <target state="translated">- или - сведения о диспетчере транзакций в <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> не соответствует настроенному диспетчеру транзакций.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> is not recognized by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- или - <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> не распознается <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt; has already been called for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;уже был вызван для указанного <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The reenlistment is rejected.</source>
+          <target state="translated">Повторное зачисление отклонено.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> does not match the content of the specified recovery information in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">recoveryInformation</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept> Соответствует содержимому данных восстановления, указанного в <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">recoveryInformation</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
