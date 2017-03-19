@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2b59314fd7b97bb8d24f8a1bef9aa96abd0eb35</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.PropertyPath.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31320f2d6a582151be12f28b71918cc0a1f03478</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6add39d459bb1aecf2557abb4d497767b9304fb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a data structure for describing a property as a path below another property, or below an owning type.</source>
+          <target state="translated">Implementerar en datastruktur för att beskriva en egenskap som en sökväg nedan en annan egenskap eller under ett ägande typen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Property paths are used in data binding to objects, and in storyboards and timelines for animations.</source>
+          <target state="translated">Egenskapen sökvägar används i databindning till objekt och storyboards och tidslinjer för animeringar.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class contains a string &lt;xref:System.Windows.PropertyPath.Path%2A&gt;, and list of dependency properties that are the &lt;xref:System.Windows.PropertyPath.PathParameters%2A&gt; into the string&lt;xref:System.Windows.PropertyPath.Path%2A&gt;.</source>
+          <target state="translated">Den här klassen innehåller en sträng &lt;xref:System.Windows.PropertyPath.Path%2A&gt;, och listan över beroendeegenskaper som är &lt;xref:System.Windows.PropertyPath.PathParameters%2A&gt;i strängen&lt;xref:System.Windows.PropertyPath.Path%2A&gt;.&lt;/xref:System.Windows.PropertyPath.Path%2A&gt; &lt;/xref:System.Windows.PropertyPath.PathParameters%2A&gt; &lt;/xref:System.Windows.PropertyPath.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PropertyPath supports two modes of behavior:       <bpt id="p1">**</bpt>Source mode<ept id="p1">**</ept> describes a path to a property that is used as a source for some other operation.</source>
+          <target state="translated">PropertyPath stöder två lägen för beteende: <bpt id="p1">**</bpt>läget<ept id="p1">**</ept> beskriver en sökväg till en egenskap som används som källa för en annan åtgärd.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This mode is used by the &lt;xref:System.Windows.Data.Binding&gt; class to support data binding.</source>
+          <target state="translated">Det här läget används av den &lt;xref:System.Windows.Data.Binding&gt;klass som stöd för databindning.&lt;/xref:System.Windows.Data.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Target mode<ept id="p1">**</ept> describes a path to a property that will be set as a target property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mål-läge<ept id="p1">**</ept> beskriver en sökväg till en egenskap som ska anges som en target-egenskap.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This mode is used by animation in support of storyboard and timeline setters.</source>
+          <target state="translated">Det här läget används av animering stöd storyboard och tidslinje setter.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, <ph id="ph1">`Background.Opacity`</ph> is a two-step path.</source>
+          <target state="translated">Till exempel <ph id="ph1">`Background.Opacity`</ph> är en sökväg i två steg.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This path implies: first, find the <ph id="ph1">`Background`</ph> property of an object, get the value object that the <ph id="ph2">`Background`</ph> property is set to, and then get the value of the <ph id="ph3">`Opacity`</ph> property on that object.</source>
+          <target state="translated">Denna sökväg innebär: hitta först den <ph id="ph1">`Background`</ph> egenskapen för ett objekt, hämta värdeobjektet som den <ph id="ph2">`Background`</ph> egenskap är inställd på och hämta värdet för den <ph id="ph3">`Opacity`</ph> egenskapen för objektet.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlAttributeUsage_PropertyPath"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Attribute Usage      <ph id="ph1">```   &lt;object property="propertyPath" .../&gt;   ```</ph>      <bpt id="p2">&lt;a name="xamlValues_PropertyPath"&gt;</bpt><ept id="p2">&lt;/a&gt;</ept>    ## XAML Values    <bpt id="p3">*</bpt>propertyPath<ept id="p3">*</ept>    A string that is evaluated to be either a simple or complex property path.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlAttributeUsage_PropertyPath"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML attributsyntax <ph id="ph1">```   &lt;object property="propertyPath" .../&gt;   ```</ph> <bpt id="p2">&lt;a name="xamlValues_PropertyPath"&gt;</bpt> <ept id="p2">&lt;/a&gt;</ept> ## XAML värden <bpt id="p3">*</bpt>propertyPath<ept id="p3">*</ept> en sträng som ska utvärderas för att vara en enkla eller avancerade egenskapssökvägen.      </target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The syntax for setting a PropertyPath in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> is versatile but complex, and is described in the separate topic <bpt id="p1">[</bpt>PropertyPath XAML Syntax<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Syntaxen för att ange en PropertyPath <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> är flexibel men komplexa och beskrivs i avsnittet separat <bpt id="p1">[</bpt>PropertyPath XAML-syntaxen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.PropertyPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Windows.PropertyPath"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor has two completely different usages depending on whether it is being used for a source-mode property path for a binding, or for a target-mode single-step property path for a storyboard target.</source>
+          <target state="translated">Den här konstruktorn har två helt olika användningar beroende på om den används för en käll-läge egenskapen sökväg för en bindning eller för ett enda steg egenskapssökvägen mål-läge för ett storyboard-mål.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If using this &lt;xref:System.Windows.PropertyPath&gt; in source mode for a binding, <ph id="ph1">`parameter`</ph> is a string representing a property name, or can be a string that describes a "step-through" path to the property in the <ph id="ph2">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> object model of the object that is being used as the source for a binding.</source>
+          <target state="translated">Om du använder detta &lt;xref:System.Windows.PropertyPath&gt;i läget för en bindning <ph id="ph1">`parameter`</ph> är en sträng som representerar ett egenskapsnamn eller kan vara en sträng som beskriver en "stega igenom" sökväg till egenskap i den <ph id="ph2">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> objektmodellen för objektet som används som källa för en bindning.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a binding property path, the character that identifies a "step" is a dot (.).</source>
+          <target state="translated">För egenskapen bindningssökväg är det tecken som identifierar ett "steg" en punkt (.).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Indexer references (including multiple indexers, and type differentiation) are also supported.</source>
+          <target state="translated">Indexerare referenser (inklusive flera indexerare och typen differentiering) stöds också.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more details on the syntax of the string as specifically used by the &lt;xref:System.Windows.Data.Binding&gt; object, see &lt;xref:System.Windows.Data.Binding.Path%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Mer information om syntaxen för strängen som uttryckligen används av &lt;xref:System.Windows.Data.Binding&gt;objekt, se &lt;xref:System.Windows.Data.Binding.Path%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Data.Binding.Path%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Data.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A property used as a binding source need not be a dependency property.</source>
+          <target state="translated">En egenskap som används som källa för bindning behöver inte vara en beroendeegenskap.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the binding updates two-way, the property referenced must be read-write.</source>
+          <target state="translated">Om bindningen uppdaterar dubbelriktat måste egenskapen refererar till vara skrivskyddad.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also note that the binding target does have to be a dependency property.</source>
+          <target state="translated">Observera också att bindningen målet måste vara en beroendeegenskap.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If using this &lt;xref:System.Windows.PropertyPath&gt; in target mode for a single-step path for a storyboard target, <ph id="ph1">`parameter`</ph> is generally provided as type &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">Om du använder detta &lt;xref:System.Windows.PropertyPath&gt;i målläge för en enda steg sökväg för en storyboard-mål, <ph id="ph1">`parameter`</ph> anges vanligtvis som typen &lt;xref:System.Windows.DependencyProperty&gt;.&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also specify a string that is the &lt;xref:System.Windows.DependencyProperty.Name%2A&gt;.</source>
+          <target state="translated">Du kan också ange en sträng som är i &lt;xref:System.Windows.DependencyProperty.Name%2A&gt;.&lt;/xref:System.Windows.DependencyProperty.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Either of these evaluate to the same result, because it is stored internally as a string.</source>
+          <target state="translated">Någon av dessa utvärderas till samma resultat, eftersom den lagras internt som en sträng.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A provided &lt;xref:System.Windows.DependencyProperty&gt; is converted to a string through &lt;xref:System.Windows.Markup.DependencyPropertyConverter&gt;.</source>
+          <target state="translated">En angivna &lt;xref:System.Windows.DependencyProperty&gt;konverteras till en sträng via &lt;xref:System.Windows.Markup.DependencyPropertyConverter&gt;.&lt;/xref:System.Windows.Markup.DependencyPropertyConverter&gt; &lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Markup.DependencyPropertyConverter&gt; supports a qualified naming format for dependency properties, so you can specify a <bpt id="p1">*</bpt>typeName<ept id="p1">*</ept>.<bpt id="p2">*</bpt>propertyName<ept id="p2">*</ept> qualified dependency property name string to the PropertyPath constructor in code.</source>
+          <target state="translated">&lt;xref:System.Windows.Markup.DependencyPropertyConverter&gt;Stöder ett kvalificerat namngivningsformat för-dependency properties, så att du kan ange en <bpt id="p1">*</bpt>typeName<ept id="p1">*</ept>.<bpt id="p2">*</bpt> propertyName<ept id="p2">*</ept> kvalificerade beroende egenskapssträng till konstruktorn PropertyPath i koden.&lt;/xref:System.Windows.Markup.DependencyPropertyConverter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The qualified path to the dependency property identifier is a different concept than a complex path.</source>
+          <target state="translated">Sökväg till egenskapsvärde beroende är detsamma som en sammansatt sökväg.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A complex-path &lt;xref:System.Windows.PropertyPath&gt; should instead be created with the &lt;xref:System.Windows.PropertyPath.%23ctor%2A?displayProperty=fullName&gt; constructor.</source>
+          <target state="translated">En komplex sökväg &lt;xref:System.Windows.PropertyPath&gt;ska i stället skapas med den &lt;xref:System.Windows.PropertyPath.%23ctor%2A?displayProperty=fullName&gt;konstruktor.&lt;/xref:System.Windows.PropertyPath.%23ctor%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A property path that either describes a path to a <ph id="ph1">[!INCLUDE[TLA#tla_clr](~/add/includes/tlasharptla-clr-md.md)]</ph> property, or a single dependency property.</source>
+          <target state="translated">Sökväg till en egenskap som antingen beskriver en sökväg till en <ph id="ph1">[!INCLUDE[TLA#tla_clr](~/add/includes/tlasharptla-clr-md.md)]</ph> egenskap eller en enda beroendeegenskap.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.PropertyPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, with the provided pathing token string and parameters.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Windows.PropertyPath"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med de angivna pathing tokensträng och parametrar.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This signature is generally only used for target-mode &lt;xref:System.Windows.PropertyPath&gt; usages with complex paths.</source>
+          <target state="translated">Den här signaturen används vanligtvis endast för mål-läge &lt;xref:System.Windows.PropertyPath&gt;användningsområden med komplexa sökvägar.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor supports <ph id="ph1">`params`</ph> for the <ph id="ph2">`pathParameters`</ph> constructor argument.</source>
+          <target state="translated">Den här konstruktorn stöder <ph id="ph1">`params`</ph> för den <ph id="ph2">`pathParameters`</ph> konstruktorargument.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore you can specify the contents of <ph id="ph1">`pathParameters`</ph> as a series of comma-separated constructor arguments that populate the array, rather than needing to dimension an array and then populate it with the <ph id="ph2">`pathParameters`</ph> items.</source>
+          <target state="translated">Därför kan du ange innehållet i <ph id="ph1">`pathParameters`</ph> som en serie kommaavgränsade konstruktorargument som fyller på matrisen i stället för att behöva en matris av dimension och Fyll den med den <ph id="ph2">`pathParameters`</ph> objekt.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each item you specify must be one of the following types: &lt;xref:System.Windows.DependencyProperty&gt;, &lt;xref:System.Reflection.PropertyInfo&gt;, &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Varje objekt som du anger måste vara något av följande typer: &lt;xref:System.Windows.DependencyProperty&gt;, &lt;xref:System.Reflection.PropertyInfo&gt; &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.Reflection.PropertyInfo&gt; &lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the requirements of the parameters, see &lt;xref:System.Windows.PropertyPath.Path%2A&gt; and &lt;xref:System.Windows.PropertyPath.PathParameters%2A&gt;.</source>
+          <target state="translated">Mer information om kraven för parametrarna finns &lt;xref:System.Windows.PropertyPath.Path%2A&gt;och &lt;xref:System.Windows.PropertyPath.PathParameters%2A&gt;.&lt;/xref:System.Windows.PropertyPath.PathParameters%2A&gt; &lt;/xref:System.Windows.PropertyPath.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string that specifies the &lt;xref:System.Windows.PropertyPath.Path*&gt;, in a tokenized format.</source>
+          <target state="translated">En sträng som anger den &lt;xref:System.Windows.PropertyPath.Path*&gt;, i formatet principfilerna.&lt;/xref:System.Windows.PropertyPath.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An array of objects that sets the &lt;xref:System.Windows.PropertyPath.PathParameters*&gt;.</source>
+          <target state="translated">En matris med objekt som anger &lt;xref:System.Windows.PropertyPath.PathParameters*&gt;.&lt;/xref:System.Windows.PropertyPath.PathParameters*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string that describes the path.</source>
+          <target state="translated">Hämtar eller anger den sträng som beskriver sökvägen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The string that describes the path.</source>
+          <target state="translated">Den sträng som beskriver sökvägen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the list of parameters to use when the path refers to indexed parameters.</source>
+          <target state="translated">Hämtar listan över parametrar som ska användas när sökvägen refererar till indexerade parametrar.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties for a &lt;xref:System.Windows.PropertyPath&gt; are typically established through the constructors.</source>
+          <target state="translated">Egenskaperna för en &lt;xref:System.Windows.PropertyPath&gt;upprättas vanligtvis via konstruktorer.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For setting PathParameters, the &lt;xref:System.Windows.PropertyPath.%23ctor%2A&gt; constructor is particularly convenient because the <ph id="ph1">`pathParameters`</ph> constructor argument is designated as <ph id="ph2">`params`</ph>, meaning that you do not need to create or dimension an array for construction.</source>
+          <target state="translated">För att ställa in PathParameters, den &lt;xref:System.Windows.PropertyPath.%23ctor%2A&gt;konstruktorn är speciellt användbart eftersom den <ph id="ph1">`pathParameters`</ph> konstruktorargument utses <ph id="ph2">`params`</ph>, vilket innebär att du inte behöver skapa eller dimension en matris för konstruktion.&lt;/xref:System.Windows.PropertyPath.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You simply specify each member of the array as an additional parameter.</source>
+          <target state="translated">Du kan bara ange varje medlem i matrisen som en extra parameter.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the final property that is the target is a &lt;xref:System.Windows.Freezable&gt; type, that value will be cloned.</source>
+          <target state="translated">Om den slutliga egenskap som är målet är en &lt;xref:System.Windows.Freezable&gt;Skriv värdet kommer att klonas.&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Storyboards Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Storyboards översikt<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual evaluation of the property chain is performed by the storyboard animation mechanisms.</source>
+          <target state="translated">Faktiska utvärdering av egenskapen kedjan utförs av storyboard animering mekanismer.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the &lt;xref:System.Windows.PropertyPath&gt; level, no validation is performed to make sure that the steps of the path connect at all.</source>
+          <target state="translated">På den &lt;xref:System.Windows.PropertyPath&gt;nivån, utförs ingen verifiering för att kontrollera att stegen för sökvägen ansluta alls.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, you can construct a property path that has &lt;xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt; as the first step, and &lt;xref:System.Windows.FrameworkElement.FlowDirectionProperty?displayProperty=fullName&gt; as the second step.</source>
+          <target state="translated">Du kan exempelvis skapa sökväg till en egenskap som har &lt;xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt;som det första steget och &lt;xref:System.Windows.FrameworkElement.FlowDirectionProperty?displayProperty=fullName&gt;som det andra steget.&lt;/xref:System.Windows.FrameworkElement.FlowDirectionProperty?displayProperty=fullName&gt; &lt;/xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But such a property path would fail if actually applied as a target, because the Brush type that fills &lt;xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt; does not have a &lt;xref:System.Windows.FrameworkElement.FlowDirection%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Men en egenskapssökvägen skulle misslyckas om faktiskt används som mål, eftersom penseln som fyller &lt;xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt;inte har en &lt;xref:System.Windows.FrameworkElement.FlowDirection%2A?displayProperty=fullName&gt;egenskap.&lt;/xref:System.Windows.FrameworkElement.FlowDirection%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Controls.Control.BackgroundProperty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invalid property paths fail silently.</source>
+          <target state="translated">Ogiltig egenskap sökvägar misslyckas automatiskt.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Storyboards Overview<ept id="p1">](../Topic/Storyboards%20Overview.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Storyboards översikt<ept id="p1">](../Topic/Storyboards%20Overview.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>XAML:<ept id="p1">**</ept> When you use a &lt;xref:System.Windows.PropertyPath&gt; to describe a property reference in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, as an attribute value, the string that you specify is first handled by a type converter (&lt;xref:System.Windows.PropertyPathConverter&gt;).</source>
+          <target state="translated"><bpt id="p1">**</bpt>XAML:<ept id="p1">**</ept> när du använder en &lt;xref:System.Windows.PropertyPath&gt;att beskriva en referens i <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, enligt ett attributvärde strängen som du anger först hanteras av en typkonverterare (&lt;xref:System.Windows.PropertyPathConverter&gt;).&lt;/xref:System.Windows.PropertyPathConverter&gt; &lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This type converter then processes the string and based on its syntax will call one of the &lt;xref:System.Windows.PropertyPath&gt; constructor signatures.</source>
+          <target state="translated">Den här typkonverterare behandlar strängen och baserat på dess syntax ska anropa en av de &lt;xref:System.Windows.PropertyPath&gt;konstruktorn signaturer.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indirection through the type converter handling an attribute value is generally how you use &lt;xref:System.Windows.PropertyPath&gt; in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, rather than declaring a &lt;xref:System.Windows.PropertyPath&gt; object element and then applying specific values to attributes such as &lt;xref:System.Windows.PropertyPath.Path%2A&gt; and PathParameters.</source>
+          <target state="translated">Detta trick via typkonverterare som hanterar ett attributvärde är generellt sett hur du använder &lt;xref:System.Windows.PropertyPath&gt;i <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, i stället för att deklarera en &lt;xref:System.Windows.PropertyPath&gt;objekt-elementet och tillämpa specifika värden på attribut som &lt;xref:System.Windows.PropertyPath.Path%2A&gt;och PathParameters.&lt;/xref:System.Windows.PropertyPath.Path%2A&gt; &lt;/xref:System.Windows.PropertyPath&gt; &lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>PropertyPath XAML Syntax<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>PropertyPath XAML-syntaxen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_PathParameters"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of the &lt;xref:System.Windows.PropertyPath&gt; type are not typically set in a direct <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> syntax.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_PathParameters"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML Text användning medlemmar i den &lt;xref:System.Windows.PropertyPath&gt;typen vanligtvis inte är inställda i en direkt <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> syntax.&lt;/xref:System.Windows.PropertyPath&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See Remarks.</source>
+          <target state="translated">Se anmärkning.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The parameter list.</source>
+          <target state="translated">Parameterlista.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

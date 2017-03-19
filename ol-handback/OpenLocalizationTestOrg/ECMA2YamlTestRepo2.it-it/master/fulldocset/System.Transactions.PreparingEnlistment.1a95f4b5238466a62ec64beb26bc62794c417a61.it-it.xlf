@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c4508d9dfce2734bfa4e901c11840dc57d64581</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.PreparingEnlistment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5c031b751c3e955dc369e711d8df8dc9656856c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f45f1164ccda185385e9843398d163cd7518c61</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Facilitates communication between an enlisted transaction participant and the transaction manager during the Prepare phase of the transaction.</source>
+          <target state="translated">Facilita la comunicazione tra un partecipante della transazione e la gestione delle transazioni durante la fase di preparazione della transazione.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the initial (prepare) phase of the transaction, the transaction manager passes this type to the resource manager by calling the &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt; method to obtain a resource's vote on the transaction.</source>
+          <target state="translated">Iniziale (preparazione) fase della transazione, il gestore delle transazioni questo tipo viene passato al gestore di risorse chiamando il &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;per ottenere la scelta della risorsa nella transazione.&lt;/xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on whether it votes to commit or roll back, your implementation of the resource manager should call the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; or &lt;xref:System.Transactions.PreparingEnlistment.ForceRollback%2A&gt; methods of this type.</source>
+          <target state="translated">A seconda se tenta di eseguire il commit o il rollback, è necessario chiamare l'implementazione del gestore di risorse di &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;o &lt;xref:System.Transactions.PreparingEnlistment.ForceRollback%2A&gt;metodi di questo tipo.&lt;/xref:System.Transactions.PreparingEnlistment.ForceRollback%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager can also call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method at anytime before it has called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method.</source>
+          <target state="translated">Inoltre è possibile chiamare il gestore delle risorse di &lt;xref:System.Transactions.Enlistment.Done%2A&gt;in qualsiasi momento prima ha chiamato la &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;metodo.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; &lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">In questo modo, l'integrazione esegue il cast di un voto di solo letto, per cui viene scelto il commit della transazione ma non è necessario ricevere il risultato finale.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Durable resource managers can retrieve the information that is be needed by the transaction manager for re-enlistment from the &lt;xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt; property.</source>
+          <target state="translated">I gestori delle risorse permanente è possono recuperare le informazioni che sono necessaria per il gestore delle transazioni per il reinserimento nell'elenco dal &lt;xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt;proprietà.&lt;/xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sul recupero, vedere <bpt id="p1">[</bpt>esecuzione ripristino<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction should be rolled back.</source>
+          <target state="translated">Indica che deve essere eseguito il rollback della transazione.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An implementation of the &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt; method of the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface calls this method to indicate that the transaction must be rolled back.</source>
+          <target state="translated">Un'implementazione del &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;metodo il &lt;xref:System.Transactions.IEnlistmentNotification&gt;interfaccia chiama questo metodo per indicare che deve essere eseguito il rollback della transazione.&lt;/xref:System.Transactions.IEnlistmentNotification&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction should be rolled back.</source>
+          <target state="translated">Indica che deve essere eseguito il rollback della transazione.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An explanation of why a rollback is triggered.</source>
+          <target state="translated">Spiegazione del motivo per cui è attivata un'operazione di rollback.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction can be committed.</source>
+          <target state="translated">Indica che è possibile eseguire il commit della transazione.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the first (prepare) phase of a two phase commit, a resource manager implementing the &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt; method of the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface, calls this method to indicate that the transaction can be committed.</source>
+          <target state="translated">Nel primo (preparazione) fase di un commit a due fasi, un gestore di risorse che implementa il &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;metodo il &lt;xref:System.Transactions.IEnlistmentNotification&gt;interfaccia, chiama questo metodo per indicare che è possibile eseguire il commit della transazione.&lt;/xref:System.Transactions.IEnlistmentNotification&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager can call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method at anytime before it has called this method.</source>
+          <target state="translated">Il gestore delle risorse è possibile chiamare il &lt;xref:System.Transactions.Enlistment.Done%2A&gt;metodo in qualsiasi momento prima di chiamare questo metodo.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">In questo modo, l'integrazione esegue il cast di un voto di solo letto, per cui viene scelto il commit della transazione ma non è necessario ricevere il risultato finale.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once this method is called by an enlistment and before it returns, it is possible that another thread or this same thread could make a call into the same enlistment method such as &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; to perform a rollback.</source>
+          <target state="translated">Dopo questo metodo viene chiamato da un elenco e prima della restituzione, è possibile che un altro thread o lo stesso thread esegua una chiamata al metodo di integrazione stesso, ad esempio &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;per eseguire un rollback.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can result in a deadlock situation if the resource manager implementation does not release resource locks until after this method returns.</source>
+          <target state="translated">Ciò può generare una situazione di deadlock se l'implementazione di gestione risorse non rilascia i blocchi di risorsa fino a dopo che questo metodo restituisce.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the recovery information of an enlistment.</source>
+          <target state="translated">Ottiene le informazioni di ripristino di un elenco.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The recovery information of an enlistment.</source>
+          <target state="translated">Le informazioni di ripristino di un elenco.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An attempt to get recovery information inside a volatile enlistment, which does not generate any recovery information.</source>
+          <target state="translated">Tentativo di ottenere le informazioni di ripristino all'interno di un elenco volatile, che non genera alcuna informazione di ripristino.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

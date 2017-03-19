@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ffac6389c5807c550390346aa37f2f5cb0da544</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.DataReceivedEventHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88b7a9c796e89759407ada7bd3c3040e99dd4ea3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e6dfaf501601c93ad09669c791ff6ce529865fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the method that will handle the <bpt id="p1">&lt;xref href="System.Diagnostics.Process.OutputDataReceived"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event or <bpt id="p2">&lt;xref href="System.Diagnostics.Process.ErrorDataReceived"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event of a <bpt id="p3">&lt;xref href="System.Diagnostics.Process"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">代表將處理的方法<bpt id="p1">&lt;xref href="System.Diagnostics.Process.OutputDataReceived"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件或<bpt id="p2">&lt;xref href="System.Diagnostics.Process.ErrorDataReceived"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件<bpt id="p3">&lt;xref href="System.Diagnostics.Process"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When you create a DataReceivedEventHandler delegate, you identify the method that will handle the event.</source>
+          <target state="translated">當您建立 DataReceivedEventHandler 委派時，您可以識別即將處理此事件的方法。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To associate the event with your event handler, add an instance of the delegate to the event.</source>
+          <target state="translated">若要將事件與事件處理常式產生關聯，將委派的執行個體加入事件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The event handler is called whenever the event occurs, unless you remove the delegate.</source>
+          <target state="translated">除非您移除委派，否則每當事件發生時，會呼叫事件處理常式。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information about event-handler delegates, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需事件處理常式委派的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To asynchronously collect the redirected &lt;xref:System.Diagnostics.Process.StandardOutput%2A&gt; or &lt;xref:System.Diagnostics.Process.StandardError%2A&gt; stream output of a process, add your event handler to the &lt;xref:System.Diagnostics.Process.OutputDataReceived&gt; or &lt;xref:System.Diagnostics.Process.ErrorDataReceived&gt; event.</source>
+          <target state="translated">若要以非同步方式收集的重新導向&lt;xref:System.Diagnostics.Process.StandardOutput%2A&gt;或&lt;xref:System.Diagnostics.Process.StandardError%2A&gt;程序的輸出資料流中，加入事件處理常式&lt;xref:System.Diagnostics.Process.OutputDataReceived&gt;或&lt;xref:System.Diagnostics.Process.ErrorDataReceived&gt;事件。&lt;/xref:System.Diagnostics.Process.ErrorDataReceived&gt; &lt;/xref:System.Diagnostics.Process.OutputDataReceived&gt; &lt;/xref:System.Diagnostics.Process.StandardError%2A&gt; &lt;/xref:System.Diagnostics.Process.StandardOutput%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These events are raised each time the process writes a line to the corresponding redirected stream.</source>
+          <target state="translated">每次處理程序將某行寫入至對應的重新導向資料流時，會引發這些事件。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When the redirected stream is closed, a null line is sent to the event handler.</source>
+          <target state="translated">重新導向資料流關閉時，null 的列會傳送至事件處理常式。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Ensure that your event handler checks for this condition before accessing the &lt;xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt; property.</source>
+          <target state="translated">確保您的事件處理常式檢查此條件存取之前&lt;xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt;屬性。&lt;/xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, you can use the <ph id="ph1">`static`</ph> method &lt;xref:System.String.IsNullOrEmpty%2A?displayProperty=fullName&gt; to validate the &lt;xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt; property in your event handler.</source>
+          <target state="translated">例如，您可以使用<ph id="ph1">`static`</ph>方法&lt;xref:System.String.IsNullOrEmpty%2A?displayProperty=fullName&gt;驗證&lt;xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt;事件處理常式中的屬性。&lt;/xref:System.Diagnostics.DataReceivedEventArgs.Data%2A&gt; &lt;/xref:System.String.IsNullOrEmpty%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">566306b9947c2fdb94adf168c5d7cb0eeb0dd30f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Claims.ClaimsPrincipal.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">347b89ff566110c99f8dc3370144ceb85b89fdb3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b19ef9d11b98dfdcdc385718d9695db3a394699</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Security.Principal.IPrincipal&gt; implementation that supports multiple claims-based identities.</source>
+          <target state="translated">En &lt;xref:System.Security.Principal.IPrincipal&gt;implementering som støtter flere krav kodebasert identiteter.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with .NET Framework 4.5, Windows Identity Foundation (WIF) and claims-based identity have been fully integrated into the .NET Framework.</source>
+          <target state="translated">Begynner med .NET Framework 4.5, har Windows Identity Foundation (WIF) og krav kodebasert identitet er integrert i .NET Framework.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that many classes that represent a principal in the .NET Framework now derive from ClaimsPrincipal rather than simply implementing the &lt;xref:System.Security.Principal.IPrincipal&gt; interface.</source>
+          <target state="translated">Dette betyr at mange klasser som representerer en sikkerhetskontohaver i .NET Framework nå avledes fra ClaimsPrincipal i stedet for å implementere den &lt;xref:System.Security.Principal.IPrincipal&gt;grensesnittet.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to implementing the &lt;xref:System.Security.Principal.IPrincipal&gt; interface, ClaimsPrincipal exposes properties and methods that are useful for working with claims.</source>
+          <target state="translated">I tillegg til implementering av &lt;xref:System.Security.Principal.IPrincipal&gt;grensesnittet ClaimsPrincipal viser egenskaper og metoder som er nyttige for å arbeide med krav.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ClaimsPrincipal exposes a collection of identities, each of which is a &lt;xref:System.Security.Claims.ClaimsIdentity&gt;.</source>
+          <target state="translated">ClaimsPrincipal viser en samling av identiteter, hver er &lt;xref:System.Security.Claims.ClaimsIdentity&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the common case, this collection, which is accessed through the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; property, will only have a single element.</source>
+          <target state="translated">I vanlige fall denne samlingen er tilgjengelig via den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;egenskapen kan bare ha ett enkelt element.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The introduction of ClaimsPrincipal in .NET 4.5 as the principal from which most principal classes derive does not force you to change anything in the way in which you deal with identity.</source>
+          <target state="translated">Innføring av ClaimsPrincipal i .NET 4.5 som sikkerhetskontohaver for mest principal klasser avledet som tvinger ikke endre noe i på samme måte som du håndterer identitet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does, however open up more possibilities and offer more chances to exercise finer access control.</source>
+          <target state="translated">Det imidlertid åpner flere muligheter og tilbud øke sjansene for å Vær bedre tilgangskontroll.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example:      -   The application code itself can work directly with the claims contained in the current principal to drive extra authentication, authorization, and personalization tasks.</source>
+          <target state="translated">For eksempel:-programmet koden selve kan arbeide direkte med krav i gjeldende sikkerhetskontohaveren til stasjonen ekstra godkjenning, autorisasjon og personlige data oppgaver.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You can front your resources with a claims processing pipeline, which can deal with authentication requests and authorization policy even before execution reaches your code.</source>
+          <target state="translated">-Du kan front ressursene med et krav behandling pipeline som kan håndtere ber om godkjenning og autorisasjonspolicy selv før kjøring når koden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can configure a web-based application or service with a custom claims authentication manager, an instance of a class that derives from the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt; class.</source>
+          <target state="translated">Du kan for eksempel konfigurere et webbasert program eller en tjeneste med en egendefinert krav godkjenning leder, en forekomst av en klasse som er avledet fra &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt;klassen.&lt;/xref:System.Security.Claims.ClaimsAuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When so configured, the request processing pipeline invokes the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt; method on your claims authentication manager passing it a ClaimsPrincipal that represents the context of the incoming request.</source>
+          <target state="translated">Når det er konfigurert, forespørselen som behandler pipelinen aktiverer den &lt;xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt;-metoden på krav godkjenning lederen sendes en ClaimsPrincipal som representerer konteksten for den innkommende forespørselen.&lt;/xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your claims authentication manager can then perform authentication based on the values of the incoming claims.</source>
+          <target state="translated">Krav godkjenning lederen kan utføre godkjenning basert på verdiene i de innkommende kravene.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also filter, transform, or add claims to the incoming claim set.</source>
+          <target state="translated">Det kan også filtrere, transformere eller legge til krav til innkommende kravet settet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, it could be used to enrich the incoming claim set with new claims created from a local data source such as a local user profile      -   You can configure a web-based application with a custom claims authorization manager, an instance of a class that derives from the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt; class.</source>
+          <target state="translated">For eksempel den kan brukes til å forbedre interaksjonen innkommende kravet angitt med nye krav som er opprettet fra en lokal datakilde som en lokal brukerprofil – du kan konfigurere en webbasert program med en egendefinert krav authorization manager en forekomst av en klasse som er avledet fra &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt;klassen.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When so configured, the request processing pipeline packages the incoming ClaimsPrincipal in an &lt;xref:System.Security.Claims.AuthorizationContext&gt; and invokes the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt; method on your claims authorization manager.</source>
+          <target state="translated">Når det er konfigurert, forespørselen som behandler pipelinen pakker innkommende ClaimsPrincipal i en &lt;xref:System.Security.Claims.AuthorizationContext&gt;og aktiverer det &lt;xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt;-metoden på din krav authorization manager.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt; &lt;/xref:System.Security.Claims.AuthorizationContext&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your claims authorization manager can then enforce authorization based on the incoming claims.</source>
+          <target state="translated">Din krav authorization manager kan deretter bruke godkjenning basert på innkommende krav.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Inline claims-based code access checks can be performed by configuring your application with a custom claims authorization manager and using either the &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt; class to perform imperative access checks or the &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt; to perform declarative access checks.</source>
+          <target state="translated">-Innebygd krav-baserte koden tilgangskontroll kan utføres ved å konfigurere programmet med en egendefinert krav authorization manager og ved hjelp av den &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt;klassen for å utføre viktig tilgangskontroll eller &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt;til å utføre deklarerende tilgang kontrollerer.&lt;/xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt; &lt;/xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claims-based code access checks are performed inline, outside of the processing pipeline, and so are available to all applications as long as a claims authorization manager is configured.</source>
+          <target state="translated">Krav-baserte koden tilgangskontroll er utføres internt utenfor som behandler pipelinen og så er tilgjengelige for alle applikasjoner som et krav authorization manager er konfigurert.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a ClaimsPrincipal instance for the principal associated with a request in an RP application (or the principal under which a thread is executing) by casting the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property to ClaimsPrincipal.</source>
+          <target state="translated">Du kan få en forekomst av ClaimsPrincipal for objektet som er knyttet til en forespørsel i en applikasjon RP (eller sikkerhetskontohaver som kjører en tråd) ved endring av &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapen ClaimsPrincipal.&lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The claims associated with an ClaimsPrincipal object are available through its &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt; property.</source>
+          <target state="translated">Krav som er knyttet til et objekt som ClaimsPrincipal er tilgjengelige via den &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt; property returns all of the claims contained by the identities associated with the principal.</source>
+          <target state="translated">Den &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;egenskapen returnerer alle kravene som identiteter tilknyttet sikkerhetskontohaveren inneholder.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the uncommon case in which the ClaimsPrincipal contains multiple &lt;xref:System.Security.Claims.ClaimsIdentity&gt; instances, you can use the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; property or you can access the primary identity by using the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">I uvanlig tilfeller der ClaimsPrincipal inneholder flere &lt;xref:System.Security.Claims.ClaimsIdentity&gt;forekomster, kan du bruke den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;egenskapen, eller du kan få tilgang til den primære identiteten ved hjelp av den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ClaimsPrincipal provides several methods through which these claims may be searched and fully supports Language Integrated Query (LINQ).</source>
+          <target state="translated">ClaimsPrincipal inneholder flere metoder som disse krav kan søkes og støtte full for språket integrert spørringen (LINQ).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Identities can be added to the principal by using the &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt; or &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt; methods.</source>
+          <target state="translated">Identiteter kan legges til sikkerhetskontohaveren ved hjelp av den &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt;eller &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt;metoder.&lt;/xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To add identities to the ClaimsPrincipal, a caller must have full trust.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; For å legge til IDer i ClaimsPrincipal, må en oppringer har fullstendig klarering.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, WIF prioritizes &lt;xref:System.Security.Principal.WindowsIdentity&gt; objects when selecting the primary identity to return through the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">Som standard WIF prioriterer &lt;xref:System.Security.Principal.WindowsIdentity&gt;objekter ved å velge den primære identiteten til å returnere til den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can modify this behavior by supplying a delegate through the &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt; property to perform the selection.</source>
+          <target state="translated">Du kan endre dette problemet ved å oppgi en representant via den &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;til å utføre utvalget.&lt;/xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt; property provides similar functionality for the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; property.</source>
+          <target state="translated">Den &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;egenskapen gir lignende bruksområder for den &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the claim-based model, whether a principal is in a specified role is determined by the claims presented by its underlying identities.</source>
+          <target state="translated">I modellen basert på krav er om en sikkerhetskontohaver er i en bestemt rolle avhengig av krav vises av de underliggende identitetene.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt; method essentially examines each identity associated with the principal to determine whether it possesses a claim with the specified role value.</source>
+          <target state="translated">Den &lt;xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt;metoden undersøker i hovedsak hver identitet tilknyttet sikkerhetskontohaveren for å finne ut om den har et krav med den angitte rolle-verdien.&lt;/xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the claim (represented by its &lt;xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt; property) used to determine which claims should be examined during role checks is specified on an identity through its &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Hva slags kravet (representert av den &lt;xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt;egenskapen) brukes til å finne ut hvilke krav bør du undersøke under rollen database som er angitt i en identitet via den &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, the claims examined during role checks can be of a different type for different identities associated with the principal.</source>
+          <target state="translated">Krav undersøkes under rollen sjekker kan derfor være av en annen type for ulike identiteter tilknyttet sikkerhetskontohaveren.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No identities are associated with the new instance.</source>
+          <target state="translated">Ingen identiteter er knyttet til den nye forekomsten.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is empty).</source>
+          <target state="translated">(Det &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen er tom).&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified claims identities.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av angitte krav-IDer.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is initialized with the specified identities.</source>
+          <target state="translated">Den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;-samlingen er initialisert med de angitte identitetene.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The identities from which to initialize the new claims principal.</source>
+          <target state="translated">Identiteter som ikke sikkerhetskontohaveren for ny krav.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified identity.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen fra de angitte identitet.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified identity is assignable from &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, it is used to initialize the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Hvis de angitte identitet kan tilordnes fra &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, den brukes til å initialisere den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is created using the specified identity and is used to initialize the collection.</source>
+          <target state="translated">Ellers en &lt;xref:System.Security.Claims.ClaimsIdentity&gt;er opprettet ved hjelp av den angitte IDen og brukes til å initialisere samlingen.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The identity from which to initialize the new claims principal.</source>
+          <target state="translated">Identiteten som initialisere sikkerhetskontohaveren for ny krav.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified principal.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen fra den angitte sikkerhetskontohaveren.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified principal is assignable from &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, all of its identities are added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Hvis den angitte sikkerhetskontohaveren kan tilordnes fra &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, alle IDer legges til i &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified principal is not assignable from &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, a new &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is created from the &lt;xref:System.Security.Principal.IIdentity&gt; in its &lt;xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt; property and added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Hvis den angitte sikkerhetskontohaveren ikke kan tilordnes fra &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, en ny &lt;xref:System.Security.Claims.ClaimsIdentity&gt;er opprettet fra den &lt;xref:System.Security.Principal.IIdentity&gt;i den &lt;xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt;egenskapen og legges til i &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Principal.IIdentity&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The principal from which to initialize the new claims principal.</source>
+          <target state="translated">Sikkerhetskontohaveren som initialisere sikkerhetskontohaveren for ny krav.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;principal&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;principal&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a serialized stream created by using <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen fra en serialisert dataflyt opprettet ved hjelp av <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The serialized data.</source>
+          <target state="translated">De serialiserte dataene.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The context for serialization.</source>
+          <target state="translated">Konteksten for serialisering.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Adds the specified claims identities to this claims principal.</source>
+          <target state="translated">Legger til de angitte krav identitetene denne krav sikkerhetskontohaveren.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identities are added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Identiteten er lagt til i &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The claims identities to add.</source>
+          <target state="translated">Krav identiteter å legge til.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Adds the specified claims identity to this claims principal.</source>
+          <target state="translated">Legger til den angitte kravidentiteten denne krav sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identity is added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Identiteten er lagt til i &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The claims identity to add.</source>
+          <target state="translated">Kravidentiteten til å legge til.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a collection that contains all of the claims from all of the claims identities associated with this claims principal.</source>
+          <target state="translated">Henter en samling som inneholder alle kravene fra alle krav-IDer som er forbundet med denne krav sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claims principal has a collection of &lt;xref:System.Security.Claims.ClaimsIdentity&gt; objects that is accessible through the Identities property.</source>
+          <target state="translated">En krav sikkerhetskontohaver har en samling av &lt;xref:System.Security.Claims.ClaimsIdentity&gt;objekter som er tilgjengelig via egenskapen identiteter.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Security.Claims.ClaimsIdentity&gt; in the collection contains one or more claims.</source>
+          <target state="translated">Hver &lt;xref:System.Security.Claims.ClaimsIdentity&gt;i samlingen inneholder én eller flere krav.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Claims property returns all of the claims from all of the claims identities in this collection.</source>
+          <target state="translated">Egenskapen krav returnerer alle kravene fra alle krav identiteter i denne samlingen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Claims property can be examined by custom implementations of the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt; class to make authentication decisions or to filter, transform, or enrich an incoming claim set; by custom implementations of the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt; class to enforce authorization policy; or by application code to make authorization decisions or to customize user experience based on the claims present in the collection.</source>
+          <target state="translated">Egenskapen krav kan undersøkes av egendefinerte implementeringer av den &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt;klassen for å bestemme godkjenning eller for å filtrere, transformere eller forbedre interaksjonen innkommende kravet sett; av egendefinerte implementeringer av den &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt;klassen håndheve godkjenning policy; eller av programmet kode å gjøre godkjenning avgjørelsene eller tilpasse bruker oppleve basert på krav finnes i samlingen.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager&gt; &lt;/xref:System.Security.Claims.ClaimsAuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The claims associated with this principal.</source>
+          <target state="translated">Krav som er forbundet med denne sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delegate used to select the claims principal returned by the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current*&gt; property.</source>
+          <target state="translated">Får eller angir representanten brukes til å velge sikkerhetskontohaveren for krav som ble returnert av den &lt;xref:System.Security.Claims.ClaimsPrincipal.Current*&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current*&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set this property to override the default behavior of the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; property.</source>
+          <target state="translated">Du kan angi denne egenskapen til å overstyre standard virkemåte for den &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The delegate.</source>
+          <target state="translated">Representanten.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Returns a copy of this instance.</source>
+          <target state="translated">Returnerer en kopi av denne forekomsten.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A new copy of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En ny kopi av det <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates a new claims identity.</source>
+          <target state="translated">Oppretter en ny kravidentiteten.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The binary reader.</source>
+          <target state="translated">Den binære leseren.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The created claims identity.</source>
+          <target state="translated">Den opprettede kravidentiteten.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the current claims principal.</source>
+          <target state="translated">Henter sikkerhetskontohaveren for gjeldende krav.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; is returned.</source>
+          <target state="translated">Som standard &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;returneres.&lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change this behavior by setting the &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt; property to specify a delegate to be called to determine the current principal.</source>
+          <target state="translated">Du kan endre dette problemet ved å angi den &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;til å angi en representant kalles for å finne ut sikkerhetskontohaveren for gjeldende.&lt;/xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The current claims principal.</source>
+          <target state="translated">Gjeldende krav sikkerhetskontohaveren for.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Retrieves all of the claims that are matched by the specified predicate.</source>
+          <target state="translated">Henter alle kravene som samsvarer med det angitte predikatet.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns claims from all identities associated with the claims principal.</source>
+          <target state="translated">Returnerer krav fra alle IDer som er knyttet til sikkerhetskontohaveren for krav.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funksjonen som utfører samsvarende logikken.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The matching claims.</source>
+          <target state="translated">Samsvarende krav.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Retrieves all or the claims that have the specified claim type.</source>
+          <target state="translated">Henter alle eller krav som har den angitte kravtypen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns claims from all identities associated with the claims principal.</source>
+          <target state="translated">Returnerer krav fra alle IDer som er knyttet til sikkerhetskontohaveren for krav.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison is made using Ordinal case in-sensitive on <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">Sammenligningen gjøres ved hjelp av ordenstall i sikkerhetsfølsom på <ph id="ph1">`type`</ph>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The claim type against which to match claims.</source>
+          <target state="translated">Kravtype som oppfyller kravene.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The matching claims.</source>
+          <target state="translated">Samsvarende krav.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Retrieves the first claim that is matched by the specified predicate.</source>
+          <target state="translated">Henter det første kravet som samsvarer med det angitte predikatet.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funksjonen som utfører samsvarende logikken.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The first matching claim or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no match is found.</source>
+          <target state="translated">Den første samsvarende Domenekrav eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen forekomst blir funnet.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Retrieves the first claim with the specified claim type.</source>
+          <target state="translated">Henter det første kravet med kravtypen som er angitt.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The claim type to match.</source>
+          <target state="translated">Kravtypen til å samsvare med.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The first matching claim or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no match is found.</source>
+          <target state="translated">Den første samsvarende Domenekrav eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen forekomst blir funnet.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with data needed to serialize the current <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Fyller ut den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med data som kreves for å serialisere gjeldende <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The object to populate with data.</source>
+          <target state="translated">Objektet til å fylle ut med data.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The destination for this serialization.</source>
+          <target state="translated">Målet for denne serialisering.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Determines whether any of the claims identities associated with this claims principal contains a claim that is matched by the specified predicate.</source>
+          <target state="translated">Bestemmer om noen av krav-IDer som er tilknyttet denne krav sikkerhetskontohaveren inneholder et krav som samsvarer med det angitte predikatet.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funksjonen som utfører samsvarende logikken.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a matching claim exists; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis det finnes et samsvarende krav. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Determines whether any of the claims identities associated with this claims principal contains a claim with the specified claim type and value.</source>
+          <target state="translated">Bestemmer om noen av krav-IDer som er tilknyttet denne krav sikkerhetskontohaveren inneholder et krav med den angitte kravet og.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Does not check the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; or &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties.</source>
+          <target state="translated">Kontrollerer ikke den &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;eller &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;Egenskaper.&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; &lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison is made using Ordinal, case sensitive on value; case in-sensitive on type.</source>
+          <target state="translated">Sammenligningen er opprettet med ordenstall bokstaver på verdien. store/små bokstaver i sikkerhetsfølsom for typen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The type of the claim to match.</source>
+          <target state="translated">Krav til å samsvare med typen.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The value of the claim to match.</source>
+          <target state="translated">Verdien for krav til å samsvare med.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a matching claim exists; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis det finnes et samsvarende krav. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets a collection that contains all of the claims identities associated with this claims principal.</source>
+          <target state="translated">Henter en samling som inneholder alle krav-IDer som er forbundet med denne krav sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the common case, the collection contains only a single element.</source>
+          <target state="translated">Samlingen inneholder ett enkelt element i det vanlige tilfellet.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is possible for the collection to contain some elements which are <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Det er mulig for samlingen inneholder noen elementer som <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The collection of claims identities.</source>
+          <target state="translated">Samling av krav-IDer.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the primary claims identity associated with this claims principal.</source>
+          <target state="translated">Henter primært krav identiteten som er forbundet med denne krav sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the framework prioritizes identities of type &lt;xref:System.Security.Principal.WindowsIdentity&gt; when returning the identity.</source>
+          <target state="translated">Som standard prioriterer rammeverket identiteter av typen &lt;xref:System.Security.Principal.WindowsIdentity&gt;når returnerer identiteten.&lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first &lt;xref:System.Security.Principal.WindowsIdentity&gt; found in the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is returned.</source>
+          <target state="translated">Først &lt;xref:System.Security.Principal.WindowsIdentity&gt;funnet i den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen returneres.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.Principal.WindowsIdentity&gt; in the collection, the first identity assignable from &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is returned.</source>
+          <target state="translated">Hvis det er ingen &lt;xref:System.Security.Principal.WindowsIdentity&gt;i samlingen første identiteten kan tilordnes fra &lt;xref:System.Security.Claims.ClaimsIdentity&gt;returneres.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">Hvis det er ingen &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, <ph id="ph1">`null`</ph> returneres.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is empty, an &lt;xref:System.ArgumentNullException&gt; is thrown.</source>
+          <target state="translated">Hvis den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;samlingen er tom, en &lt;xref:System.ArgumentNullException&gt;forårsakes.&lt;/xref:System.ArgumentNullException&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the default behavior by setting the &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt; property to specify a delegate to be called to determine the identity.</source>
+          <target state="translated">Du kan endre standard virkemåte ved å angi den &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;til å angi en representant kalles for å fastslå identiteten.&lt;/xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The primary claims identity associated with this claims principal.</source>
+          <target state="translated">Den primære kravidentiteten som er forbundet med denne krav sikkerhetskontohaver.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the entity (user) represented by this claims principal is in the specified role.</source>
+          <target state="translated">Returnerer en verdi som angir om enheten (bruker) representeres av dette krav hovednavnet er i den angitte rollen.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsInRole method checks whether an identity that this claims principal possesses contains a claim of type &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; where the value of the claim is equal to the value specified by the <ph id="ph1">`role`</ph> parameter.</source>
+          <target state="translated">Metoden IsInRole kontrollerer om en identitet som har denne krav sikkerhetskontohaveren inneholder et krav av typen &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;der verdien av kravet er lik verdien som er angitt av den <ph id="ph1">`role`</ph> parameteren.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Each &lt;xref:System.Security.Claims.ClaimsIdentity&gt; has its own definition of the claim type that represents a role.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Hver &lt;xref:System.Security.Claims.ClaimsIdentity&gt;har sin egen definisjonen av kravtypen som representerer en rolle.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This claim type can be accessed and set through the &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Slike krav kan få tilgang til og angis via den &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The role for which to check.</source>
+          <target state="translated">Rollen å se.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if claims principal is in the specified role; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis krav sikkerhetskontohaver i den angitte rollen; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delegate used to select the claims identity returned by the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt; property.</source>
+          <target state="translated">Får eller angir representanten brukes til å velge kravidentiteten returnert av den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set this property to override the default behavior of the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">Du kan angi denne egenskapen til å overstyre standard virkemåte for den &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The delegate.</source>
+          <target state="translated">Representanten.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
