@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72a54456fe9adea1c67991d6f419eda5cfacfa11</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15220c709ecfddfc78e4e08f28ebee0985aa2ef6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01abf3a58c42a3baeb06fe544a8f759da6f395f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the XML namespace and XML namespace prefix to use for a service description format extension within a service description.</source>
+          <target state="translated">指定的 XML 命名空间和 XML 命名空间前缀，用于在服务说明的服务说明格式扩展。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A service description format extension extends how a service description is generated for an XML Web service created using ASP.NET.</source>
+          <target state="translated">服务说明格式扩展扩展如何为使用 ASP.NET 创建的 XML Web 服务生成服务说明。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Specifically, a service description format extension adds XML elements to the service description.</source>
+          <target state="translated">具体而言，服务说明格式扩展将 XML 元素添加到服务说明。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is useful when a SOAP extension is built to run on both the client and server side of an XML Web service, as information about SOAP extensions is not automatically placed in the service description.</source>
+          <target state="translated">SOAP 扩展生成的 XML Web 服务的客户端和服务器端运行因为有关 SOAP 扩展的信息将不自动置于的服务说明时，这非常有用。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you add information about the SOAP extension to the service description, a client can thus interpret that it must run the specific SOAP extension.</source>
+          <target state="translated">如果你将有关 SOAP 扩展的信息添加到服务说明时，客户端可以因此解释它必须运行特定的 SOAP 扩展。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An example of a SOAP extension that must run on both the client and server is an encryption SOAP extension.</source>
+          <target state="translated">必须在客户端和服务器运行的 SOAP 扩展的一个示例是加密 SOAP 扩展。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If an encryption SOAP extension runs on only the server, and it encrypts return values before sending them back to the client, the client must have the SOAP extension running to decrypt the SOAP message.</source>
+          <target state="translated">如果只在服务器上运行加密 SOAP 扩展并将返回值将其发送回客户端之前对其加密时，客户端必须运行才能解密该 SOAP 消息的 SOAP 扩展。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Otherwise, the client cannot process the return value.</source>
+          <target state="translated">否则，客户端无法处理的返回值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use the following steps to build a service description format extension:      1.</source>
+          <target state="translated">使用以下步骤生成服务说明格式扩展︰ 1。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Build a class that derives from &lt;xref:System.Web.Services.Description.ServiceDescriptionFormatExtension&gt;.</source>
+          <target state="translated">生成从&lt;xref:System.Web.Services.Description.ServiceDescriptionFormatExtension&gt;.&lt;/xref:System.Web.Services.Description.ServiceDescriptionFormatExtension&gt;派生的类</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Apply a &lt;xref:System.Web.Services.Configuration.XmlFormatExtensionAttribute&gt; to the class and specify the extension points at which the service description format extension should run.</source>
+          <target state="translated">应用&lt;xref:System.Web.Services.Configuration.XmlFormatExtensionAttribute&gt;到类并指定应从该处运行的服务说明格式扩展的扩展点。&lt;/xref:System.Web.Services.Configuration.XmlFormatExtensionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Optionally, apply a XmlFormatExtensionPointAttribute to the class and specify a member within the class to act as a new extension point.</source>
+          <target state="translated">（可选） 将 XmlFormatExtensionPointAttribute 应用于类并指定类中的成员，使其作为新的扩展点。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Optionally, apply a &lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPrefixAttribute&gt; to the class and specify the XML namespace prefix to be associated with XML elements generated by the service description format extension.</source>
+          <target state="translated">根据需要应用&lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPrefixAttribute&gt;到类并指定要使用的生成的服务说明格式扩展的 XML 元素关联的 XML 命名空间前缀。&lt;/xref:System.Web.Services.Configuration.XmlFormatExtensionPrefixAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configure the service description format extension to run within the <ph id="ph1">`serviceDescriptionFormatExtensionTypes`</ph> section of the configuration file.</source>
+          <target state="translated">配置要在中运行的服务说明格式扩展<ph id="ph1">`serviceDescriptionFormatExtensionTypes`</ph>配置文件节。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Configuration.XmlFormatExtensionPointAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Services.Configuration.XmlFormatExtensionPointAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The member of the class that implements the service description format extension that can have a service description format extension associated with it.</source>
+          <target state="translated">实现可以有一个与之关联的服务说明格式扩展的服务说明格式扩展的类的成员。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the member of the class that implements the service description format extension specified in the &lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt; property can accept raw XML elements.</source>
+          <target state="translated">获取或设置一个值，该值指示是否在指定的成员的实现的服务说明格式扩展的类&lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt;属性可以接受原始 XML 元素。&lt;/xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the member of the class that implements the service description format extension specified in the &lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt; property can accept raw XML elements; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果实现服务说明的类的成员的格式设置中指定的扩展&lt;xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt;属性可以接受原始 XML 元素; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Web.Services.Configuration.XmlFormatExtensionPointAttribute.MemberName*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies that the member of the class that implements the service description format extension can have a service description format extension associated with it.</source>
+          <target state="translated">指定实现的服务说明格式扩展的类的成员可以具有与它关联的服务说明格式扩展。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The member of the class that implements the service description format extension that can have a service description format extension associated with it.</source>
+          <target state="translated">实现可以有一个与之关联的服务说明格式扩展的服务说明格式扩展的类的成员。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">579f9c16abb22a2b2476ae0ea2cfa6be42e8b022</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.MarshalByRefObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb845523bbc82f8b7c9e2b9f257083516801e7d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb057e9c33ce8cf40a25274cfb0511bb390cae10</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables access to objects across application domain boundaries in applications that support remoting.</source>
+          <target state="translated">Hiermee toegang tot objecten buiten de grenzen van de toepassing domein in toepassingen die ondersteuning voor externe toegang.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application domain is a partition in an operating system process where one or more applications reside.</source>
+          <target state="translated">Een toepassingsdomein is een partitie in een besturingssysteem proces waarbij een of meer toepassingen zich bevinden.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects in the same application domain communicate directly.</source>
+          <target state="translated">Objecten in hetzelfde toepassingsdomein communiceren rechtstreeks.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects in different application domains communicate either by transporting copies of objects across application domain boundaries, or by using a proxy to exchange messages.</source>
+          <target state="translated">Objecten in verschillende toepassingsdomeinen communiceren door het transport van exemplaren van objecten buiten de grenzen van de toepassing-domein of via een proxy voor het uitwisselen van berichten.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MarshalByRefObject is the base class for objects that communicate across application domain boundaries by exchanging messages using a proxy.</source>
+          <target state="translated">Een MarshalByRefObject is de basisklasse voor objecten die buiten de grenzen van de toepassing domein communiceren door het uitwisselen van berichten met behulp van een proxy.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that do not inherit from MarshalByRefObject are implicitly marshal by value.</source>
+          <target state="translated">Objecten die geen van een MarshalByRefObject overnemen worden impliciet marshal-by waarde.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a remote application references a marshal by value object, a copy of the object is passed across application domain boundaries.</source>
+          <target state="translated">Als externe toepassing verwijst naar een marshal door value-object, wordt een kopie van het object doorgegeven buiten de grenzen van de toepassing-domein.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MarshalByRefObject objects are accessed directly within the boundaries of the local application domain.</source>
+          <target state="translated">Objecten van een MarshalByRefObject worden benaderd rechtstreeks binnen de grenzen van het domein van de lokale toepassing.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first time an application in a remote application domain accesses a MarshalByRefObject, a proxy is passed to the remote application.</source>
+          <target state="translated">De eerste keer dat een toepassing in een domein van de externe toepassing toegang heeft tot een MarshalByRefObject wordt een proxy doorgegeven aan de externe toepassing.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls on the proxy are marshaled back to the object residing in the local application domain.</source>
+          <target state="translated">Volgende aanroepen op de proxy worden gemarshald naar het object zich in het domein van de lokale toepassing.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Types must inherit from MarshalByRefObject when the type is used across application domain boundaries, and the state of the object must not be copied because the members of the object are not usable outside the application domain where they were created.</source>
+          <target state="translated">Codegeneratortype moet eigenschappen overnemen van een MarshalByRefObject wanneer het type buiten de grenzen van de toepassing domein wordt gebruikt en de status van het object niet moet worden gekopieerd omdat de leden van het object niet kan worden gebruikt buiten het toepassingsdomein waarin ze zijn gemaakt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you derive an object from MarshalByRefObject for use across application domain boundaries, you should not override any of its members, nor should you call its methods directly.</source>
+          <target state="translated">Wanneer u een object afgeleid van MarshalByRefObject voor gebruik buiten de grenzen van de toepassing-domein, moet u een van de leden ervan niet overschrijven, noch moet u de bijbehorende methoden rechtstreeks aanroepen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime recognizes that classes derived from  MarshalByRefObject should be marshaled across app domain boundaries.</source>
+          <target state="translated">De runtime herkent dat klassen die zijn afgeleid van een MarshalByRefObject buiten de grenzen van de app-domein moeten worden gemarshald.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains all the relevant information required to generate a proxy used to communicate with a remote object.</source>
+          <target state="translated">Maakt een object dat alle relevante informatie die nodig zijn bevat voor het genereren van een proxy gebruikt om te communiceren met een extern object.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheCreateObjRef method is called by remote object creation methods such as &lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt; and &lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">TheCreateObjRef-methode wordt aangeroepen door de methoden voor het externe object maken zoals &lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt;en &lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.&lt;/xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt; &lt;/xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, there is no need to override this method.</source>
+          <target state="translated">In de meeste gevallen is er niet nodig voor het onderdrukken van deze methode.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will reference.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van het object dat de nieuwe <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verwijst.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Information required to generate a proxy.</source>
+          <target state="translated">Vereiste informatie op voor het genereren van een proxy.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This instance is not a valid remoting object.</source>
+          <target state="translated">Dit exemplaar is geen geldige remoting object.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd voor infrastructuur.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Retrieves the current lifetime service object that controls the lifetime policy for this instance.</source>
+          <target state="translated">Haalt de levensduur van de huidige service-object dat Hiermee bepaalt u het beleid levensduur voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">Zie voor meer informatie over services voor de levensduur van de &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;klasse.&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">Een object van type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt voor het beheren van de levensduur van beleid voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd voor infrastructuur.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Obtains a lifetime service object to control the lifetime policy for this instance.</source>
+          <target state="translated">Haalt een levensduur-object om te bepalen van de levensduur van beleid voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">Zie voor meer informatie over services voor de levensduur van de &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;klasse.&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">Een object van type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt voor het beheren van de levensduur van beleid voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Dit is de levensduur van de huidige service-object voor dit exemplaar als er een bestaat. anders wordt een nieuwe levensduur serviceobject geïnitialiseerd met de waarde van de <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> eigenschap.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd voor infrastructuur.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Maakt een recente kopie van de huidige <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MemberwiseClone method creates a shallow copy by creating a new &lt;xref:System.MarshalByRefObject&gt; object, and then copying the nonstatic fields of the current &lt;xref:System.MarshalByRefObject&gt; object to the new object.</source>
+          <target state="translated">De methode MemberwiseClone maakt u een recente kopie door het maken van een nieuw &lt;xref:System.MarshalByRefObject&gt;object en vervolgens kopieert de niet-statische velden van de huidige &lt;xref:System.MarshalByRefObject&gt;object naar het nieuwe object.&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field is a value type, a bit-by-bit copy of the field is performed.</source>
+          <target state="translated">Als een veld een waardetype is, wordt een kopie van de bit voor bit van het veld uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field is a reference type, the reference is copied but the referred object is not; therefore, the original object and its clone refer to the same object.</source>
+          <target state="translated">Als een veld een verwijzingstype is, de verwijzing wordt gekopieerd, maar het object waarnaar wordt verwezen is niet het geval is; Daarom verwijzen het oorspronkelijke object en de kloon naar hetzelfde object.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider a &lt;xref:System.MarshalByRefObject&gt; object called X that references objects A and B. Object B, in turn, references object C. A shallow copy of X creates new object X2 that also references objects A and B. In contrast, a deep copy of X creates a new object X2 that references the new objects A2 and B2, which are copies of A and B. B2, in turn, references the new object C2, which is a copy C. Use a class that implements the &lt;xref:System.ICloneable&gt; interface to perform a deep or shallow copy of an object.</source>
+          <target state="translated">Neem bijvoorbeeld een &lt;xref:System.MarshalByRefObject&gt;-object aangeroepen X die verwijst naar objecten A en B. Object B op zijn beurt verwijst naar object C. Een recente kopie van X maakt een nieuw object X2 die ook verwijst naar objecten A en B. Daarentegen een diepe kopie van X maakt een nieuw object X2 die verwijst naar de nieuwe objecten A2 en B2, kopieën van A zijn en B. B2, op zijn beurt verwijst naar het nieuwe object C2, die een kopie C. Gebruik een klasse die implementeert de &lt;xref:System.ICloneable&gt;interface voor het uitvoeren van een grondige of recente kopie van een object.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identity of a &lt;xref:System.MarshalByRefObject&gt; object is defined as the remote server object that is the target of a remoting client call.</source>
+          <target state="translated">De identiteit van een &lt;xref:System.MarshalByRefObject&gt;object is gedefinieerd als de externe server-object dat het doel van een aanroep van de client externe toegang.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the memberwise clone of a &lt;xref:System.MarshalByRefObject&gt; object has the same identity as the original object, which is typically not the correct behavior for clones of server-side objects that are marshaled across a remoting boundary to the client side.</source>
+          <target state="translated">Standaard wordt de memberwise kloon van een &lt;xref:System.MarshalByRefObject&gt;object heeft dezelfde id als het oorspronkelijke object, dat is doorgaans niet de juiste werking voor klonen van server-side '-objecten die grens van een externe communicatie aan de clientzijde worden gemarshald.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`false`</ph>, which is usually appropriate, to delete the identity of the clone and cause a new identity to be assigned when the clone is marshaled across a remoting boundary, or <ph id="ph2">`true`</ph> to cause the clone to retain the identity of the original &lt;xref:System.MarshalByRefObject&gt; object.</source>
+          <target state="translated">Geef <ph id="ph1">`false`</ph>, meestal geschikt, verwijdert u de identiteit van de kloon en ertoe leiden dat een nieuwe identiteit toe te wijzen wanneer de kloon is gemarshald tussen een grens voor externe toegang of <ph id="ph2">`true`</ph> leiden dat de kloon voor het bewaren van de identiteit van de oorspronkelijke &lt;xref:System.MarshalByRefObject&gt;object.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MemberwiseClone method is intended to be used by developers implementing remote server objects.</source>
+          <target state="translated">De methode MemberwiseClone is bedoeld voor gebruik door ontwikkelaars die objecten van de externe server.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delete the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity, which will cause the object to be assigned a new identity when it is marshaled across a remoting boundary.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>verwijderen van de huidige <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> van het object identiteit, waardoor het object moet een nieuwe identiteit worden toegewezen wanneer deze is gemarshald tussen de grens van een externe toegang.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is usually appropriate.</source>
+          <target state="translated">Een waarde van <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> meestal geschikt.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity to its clone, which will cause remoting client calls to be routed to the remote server object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>kopiëren van de huidige <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> de identiteit van het object naar de kloon, waardoor de externe communicatie van client-aanroepen worden doorgestuurd naar de externe server-object.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een recente kopie van de huidige <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
