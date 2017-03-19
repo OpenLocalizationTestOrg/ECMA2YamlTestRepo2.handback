@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a2b4e071f8e2e5ddc610b7b2259095d6b82040c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Controls.ValidationError.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">610ebd81117557a5bc166b42b26fd1c4dc4d6587</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fee7e42e800c0f41cf24eeb5a84269878ea65aeb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a validation error that is created either by the binding engine when a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> reports a validation error, or through the &lt;xref:System.Windows.Controls.Validation.MarkInvalid*&gt; method explicitly.</source>
+          <target state="translated">Jelöli egy érvényesítési hibát, vagy a kötés által létrehozott motor mikor egy <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érvényesítési hibát, vagy a &lt;xref:System.Windows.Controls.Validation.MarkInvalid*&gt;metódus explicit módon.&lt;/xref:System.Windows.Controls.Validation.MarkInvalid*&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> data binding model enables you to associate validation rules with your &lt;xref:System.Windows.Data.Binding&gt; object.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> kötés adatmodell lehetővé teszi az ellenőrzési szabályok társítsa a &lt;xref:System.Windows.Data.Binding&gt;objektum.&lt;/xref:System.Windows.Data.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation occurs during target-to-source value transfer before the converter is called.</source>
+          <target state="translated">Érvényesítési cél – forrás érték átvitel során következik be, a konverter metódus meghívása előtt.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following describes the validation process.</source>
+          <target state="translated">A következő ismerteti az érvényesítési folyamat.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a value is being transferred from the target property to the source property, the data binding engine first removes any ValidationError that might have been added to the &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; attached property of the bound element.</source>
+          <target state="translated">Egy értéket a source tulajdonság átvitt a cél tulajdonságból, amikor az adatok kötési motor először eltávolítja minden ValidationError, előfordulhat, hogy nincsenek hozzáadva a &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;csatolt tulajdonság kötött elem.&lt;/xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then checks whether any custom validation rules are defined for that &lt;xref:System.Windows.Data.Binding&gt;, in which case it calls the &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt; method on each &lt;xref:System.Windows.Controls.ValidationRule&gt; until one of them fails or until all of them pass.</source>
+          <target state="translated">Azt ellenőrzi, hogy bármilyen egyéni ellenőrzési szabályokat meghatározása, hogy &lt;xref:System.Windows.Data.Binding&gt;Ebben az esetben a &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt;minden &lt;xref:System.Windows.Controls.ValidationRule&gt;mindaddig, amíg az egyik meghibásodik, vagy amíg az összes zárult&lt;/xref:System.Windows.Controls.ValidationRule&gt; metódus&lt;/xref:System.Windows.Controls.ValidationRule.Validate%2A&gt; meghívja,&lt;/xref:System.Windows.Data.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once there is a custom rule that does not pass, the binding engine creates a ValidationError object and adds it to the &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; collection of the bound element.</source>
+          <target state="translated">Amikor egy egyéni szabály, amely nem felel meg, a kötési motor ValidationError-objektumot hoz létre, és hozzáadja azt, hogy a &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;a kötött elem gyűjteménye.&lt;/xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; is not empty, the &lt;xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=fullName&gt; attached property of the element is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ha &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;nem üres, a &lt;xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=fullName&gt;elem csatolt tulajdonság értéke <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, if the &lt;xref:System.Windows.Data.Binding.NotifyOnValidationError%2A&gt; property of the &lt;xref:System.Windows.Data.Binding&gt; is set to <ph id="ph1">`true`</ph>, then the binding engine raises the &lt;xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt; attached event on the element.</source>
+          <target state="translated">Is ha a &lt;xref:System.Windows.Data.Binding.NotifyOnValidationError%2A&gt;tulajdonsága a &lt;xref:System.Windows.Data.Binding&gt;értéke <ph id="ph1">`true`</ph>, majd a kötési motor vet fel a &lt;xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt;csatolt esemény elem.&lt;/xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt; &lt;/xref:System.Windows.Data.Binding&gt; &lt;/xref:System.Windows.Data.Binding.NotifyOnValidationError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If all the rules pass, the binding engine then calls the converter, if one exists.</source>
+          <target state="translated">A szabályok adhatók át, ha a kötési motor majd meghívja a konverter, ha van ilyen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the converter passes, the binding engine calls the setter of the source property.</source>
+          <target state="translated">Az átalakító sikeres, ha a kötési motor meghívja a beállító a source tulajdonság.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the binding has an &lt;xref:System.Windows.Controls.ExceptionValidationRule&gt; associated with it and an exception is thrown during step 3 or 4, the binding engine checks to see if there is an &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;.</source>
+          <target state="translated">Ha a kötés tartalmaz egy &lt;xref:System.Windows.Controls.ExceptionValidationRule&gt;társítva és kivételt vált ki, 3 vagy 4. lépése során, a kötési motor ellenőrzi, hogy nincs-e egy &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;.&lt;/xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt; &lt;/xref:System.Windows.Controls.ExceptionValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt; callback to provide a custom handler for handling exceptions.</source>
+          <target state="translated">Használhatja a &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;Adjon meg egy egyéni kezelő kivételek kezelése visszahívást.&lt;/xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt; is not specified on the &lt;xref:System.Windows.Data.Binding&gt;, the binding engine creates a ValidationError with the exception and adds it to the &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; collection of the bound element.</source>
+          <target state="translated">Ha egy &lt;xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;nincs megadva a &lt;xref:System.Windows.Data.Binding&gt;, a kötési motor a kivétel egy ValidationError hoz, és hozzáadja azt a &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;a kötött elem gyűjteménye.&lt;/xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Data.Binding&gt; &lt;/xref:System.Windows.Data.Binding.UpdateSourceExceptionFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A valid value transfer in either direction (target to source or source to target) will clear the &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt; attached property.</source>
+          <target state="translated">Egy érvényes értéket átviteli mindkét irányban (a forrás vagy a forrás és cél a cél) törölni fogja a &lt;xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;csatolt tulajdonság.&lt;/xref:System.Windows.Controls.Validation.Errors%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott paraméterekkel.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The rule that detected validation error.</source>
+          <target state="translated">A szabály érvényesítési hibát észlelt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object with the validation error.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> az objektumhoz, az érvényesítési hibát.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott paraméterekkel.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The rule that detected validation error.</source>
+          <target state="translated">A szabály érvényesítési hibát észlelt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object with the validation error.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> az objektumhoz, az érvényesítési hibát.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Information about the error.</source>
+          <target state="translated">A hibával kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The exception that caused the validation failure.</source>
+          <target state="translated">Az érvényesítési hibát okozó kivételt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This parameter is optional and can be set to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez a paraméter nem kötelező, és megadható <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object of this <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object of this <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The object is either marked invalid explicitly or has a failed validation rule.</source>
+          <target state="translated">Az objektum érvénytelen megjelölt explicit módon, vagy egy érvényesítés szabályt tartalmaz.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object of this <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Data.MultiBindingExpression"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object of this <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that provides additional context for this <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, such as a string describing the error.</source>
+          <target state="translated">Lekérdezi vagy beállítja a olyan objektum, amely további kontextust biztosít a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, például egy karakterlánc, amely a jelzett hibát.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_ErrorContent"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    See the Example section for an example.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_ErrorContent"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati tekintse meg a példa szakasz egy példát.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An object that provides additional context for this <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Olyan objektum, amely további kontextust biztosít a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Exception&gt; object that was the cause of this <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the error is the result of an exception.</source>
+          <target state="translated">Lekérdezi vagy beállítja a &lt;xref:System.Exception&gt;, de a a ennek oka az objektum <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ha a hiba oka egy kivételt.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; object, if the error is the result of an exception.</source>
+          <target state="translated">A &lt;xref:System.Exception&gt;objektumot, ha a hiba oka egy kivételt.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that was the cause of this <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if the error is the result of a validation rule.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , de a a ennek oka az objektum <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, ha a hiba oka egy érvényesítési szabály.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, if the error is the result of a validation rule.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot, ha a hiba oka egy érvényesítési szabály.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
