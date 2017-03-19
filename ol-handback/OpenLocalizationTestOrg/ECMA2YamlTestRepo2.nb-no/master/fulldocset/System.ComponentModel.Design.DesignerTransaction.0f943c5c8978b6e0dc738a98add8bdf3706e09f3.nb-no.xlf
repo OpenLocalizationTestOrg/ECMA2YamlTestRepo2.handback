@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08a0c21b43d81b7ec0fa14c20c194ee5330ec10a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignerTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df38f201380cb67bce8d1e5cf5a69542b2ad063b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6048d255421b46381c032019ed37779ba8a27805</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a way to group a series of design-time actions to improve performance and enable most types of changes to be undone.</source>
+          <target state="translated">Inneholder en metode til å gruppere en serie med utformingen handlinger for å forbedre ytelsen og aktivere de fleste typer endringer angres.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transactions can track actions that can be undone later.</source>
+          <target state="translated">Transaksjoner kan spore handlinger som kan angres senere.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made during a transaction can be reversed by canceling a transaction, which automatically attempts to reverse each change by setting each changed property to its pre-change value.</source>
+          <target state="translated">Kan gjøres om endringer i løpet av en transaksjon ved å avbryte en transaksjon som prøver automatisk å reversere hver endring ved å angi hver endret egenskap til verdien sin før endringen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transactions can also improve performance during a series of operations by deferring updates to the display until the completion of the transaction.</source>
+          <target state="translated">Transaksjoner kan også forbedre ytelsen i løpet av en rekke operasjoner ved utsetter oppdateringer til skjermen inntil transaksjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a transaction is in progress, some components defer their processing until the transaction has completed by listening to the &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt; and &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; events.</source>
+          <target state="translated">Når en transaksjon pågår, noen komponenter utsette deres behandles til transaksjonen er fullført lytte til den &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;og &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt;hendelser.&lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Properties window, for example, does not update its display after a transaction has opened until the transaction has closed.</source>
+          <target state="translated">Egenskaper-vinduet for eksempel oppdaterer ikke visningen etter at en transaksjon har åpnet før transaksjonen er lukket.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use transactions for reversible or multiple operations, have your designer create a DesignerTransaction for each operation or series of operations which should be reversible.</source>
+          <target state="translated">Hvis du vil bruke transaksjoner for etterpå eller flere operasjoner, har designer opprette DesignerTransaction for hver operasjonen eller en rekke operasjoner som skal gjøres.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be careful not to perform actions outside the transactions that might prevent a sequence of undo events from completing successfully.</source>
+          <target state="translated">Pass på at du ikke utføre handlinger utenfor transaksjonene kan hindre at en sekvens av hendelser for Angre ble fullført.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a new DesignerTransaction by calling the &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; method of an &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.</source>
+          <target state="translated">Du kan få en ny DesignerTransaction ved å kalle &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;metoden for en &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be sure to obtain each DesignerTransaction from the active &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; in order to correctly integrate with the designer transaction processing mechanism, rather than creating a new DesignerTransaction directly.</source>
+          <target state="translated">Husk å hente hver DesignerTransaction fra aktivt &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;for å integrere med transaksjonen behandling mekanisme, i stedet for å opprette en ny DesignerTransaction direkte på riktig måte.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform an action within a transaction, you must first create a transaction.</source>
+          <target state="translated">Du må opprette en transaksjon for å utføre en handling i en transaksjon.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then you must call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method before each change or set of changes occurs, and the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method after each change or set of changes occur.</source>
+          <target state="translated">Du må kontakt den &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;metoden før oppstår hver endring eller endringssettet, og &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;metoden etter hver endring eller endringssettet oppstå.&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, complete and close the transaction by calling the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; method.</source>
+          <target state="translated">Til slutt fullført, og lukk transaksjonen ved å kalle den &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When making changes to property values, use the &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt; method of a &lt;xref:System.ComponentModel.PropertyDescriptor&gt;, which calls the component change methods of the &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; and creates a DesignerTransaction representing the change automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Når du gjør endringer i egenskapsverdier, kan du bruke den &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;-metoden til et &lt;xref:System.ComponentModel.PropertyDescriptor&gt;, som kaller metodene komponent endring av den &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;og oppretter en DesignerTransaction som representerer endringen automatisk.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform a transaction, complete the following steps:      1.</source>
+          <target state="translated">Hvis du vil utføre en transaksjon, kan du gjøre følgende: 1.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; to obtain a DesignerTransaction that can be used to control the transaction.</source>
+          <target state="translated">Kall &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;ikke hente en DesignerTransaction som kan brukes til å kontrollere transaksjonen.&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within a <ph id="ph1">`try`</ph> block, for each action that you want to track with a DesignerTransaction, call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method, make the change or changes, then call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method to signal that the change or changes have been made.</source>
+          <target state="translated">I en <ph id="ph1">`try`</ph> blokk for hver handling som du vil spore med en DesignerTransaction, kall den &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;metoden, endring eller endringer, kaller den &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;metoden signalisere at endringen eller endringer er utført.&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To complete the transaction, call &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; from within a <ph id="ph1">`finally`</ph> block.</source>
+          <target state="translated">For å fullføre transaksjonen, kan du kalle &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;fra i en <ph id="ph1">`finally`</ph> block.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In C#, you can use the <ph id="ph1">`using`</ph> statement rather than a <ph id="ph2">`try/finally`</ph> block, such as in the following example.</source>
+          <target state="translated">I C#, kan du bruke den <ph id="ph1">`using`</ph> setningen i stedet for en <ph id="ph2">`try/finally`</ph> blokkere, for eksempel eksemplet nedenfor.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>       To cancel and attempt to roll back a transaction before it has been committed, call the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method.</source>
+          <target state="translated"><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>Hvis du vil avbryte, og forsøk på å rulle tilbake en transaksjon før den er utført, kan du kalle den &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method is invoked, the actions tracked by the DesignerTransaction are reversed to attempt to roll back the changes.</source>
+          <target state="translated">Når den &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;metoden aktiveres, handlingene som spores av DesignerTransaction reverseres for å prøve å rulle tilbake endringer.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To undo actions that occurred as part of earlier transactions, you must use the undo command provided by the development environment.</source>
+          <target state="translated">Hvis du vil oppheve handlinger som ble utført som en del av tidligere transaksjoner, må du bruke angrekommandoen fra utviklingsmiljøet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with no description.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse uten beskrivelse.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified transaction description.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av den angitte transaksjonsbeskrivelsen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes the transaction with the specified description.</source>
+          <target state="translated">Denne konstruktøren initialiserer transaksjonen med den angitte beskrivelsen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A description for this transaction.</source>
+          <target state="translated">En beskrivelse for denne transaksjonen.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Cancels the transaction and attempts to roll back the changes made by the events of the transaction.</source>
+          <target state="translated">Avbryter transaksjonen, og forsøk på å rulle tilbake endringer foretatt av hendelser for transaksjonen.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was canceled.</source>
+          <target state="translated">Henter en verdi som angir om transaksjonen ble avbrutt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">Når en transaksjonen avbrytes, transaksjonen behandling mekanisme forsøk på å rulle tilbake endringer som er gjort hittil i transaksjonen.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">Om reparerer er avhengig av faktorer som hver operasjonstype om andre operasjoner påvirkes noen av involvert koden tilstand, og om en sekvens med forventede operasjoner kan ikke fullføre.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was canceled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis transaksjonen ble avbrutt; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Commits this transaction.</source>
+          <target state="translated">Skriver denne transaksjonen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Når en designer transaksjon er utført, transaksjonen anses fullført, og sporer ikke flere endringer.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a transaction has been committed, further calls to this method do nothing.</source>
+          <target state="translated">Når en transaksjon er utført, mer gjøre kall til denne metoden noe.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Always call this method after creating a transaction to ensure that the transaction closes properly.</source>
+          <target state="translated">Alltid kalle denne metoden når du har opprettet en transaksjon for å sikre at transaksjonen lukker riktig.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was committed.</source>
+          <target state="translated">Henter en verdi som angir om transaksjonen ble utført.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Når en designer transaksjon er utført, transaksjonen anses fullført, og sporer ikke flere endringer.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was committed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis transaksjonen ble fullført. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a description for the transaction.</source>
+          <target state="translated">Henter en beskrivelse for transaksjonen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A transaction can have a description that is useful in identifying the nature of the operation or operations.</source>
+          <target state="translated">En transaksjon kan ha en beskrivelse som er nyttig for å identifisere typen operasjonen eller operasjoner.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A description for the transaction.</source>
+          <target state="translated">En beskrivelse for transaksjonen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Frigir uforvaltede ressursene som brukes av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> og eventuelt frigir administrerte ressurser.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Denne metoden kalles av offentlig <ph id="ph1">`Dispose()`</ph> metoden og &lt;xref:System.Object.Finalize%2A&gt;metode.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>Aktiverer den beskyttede <ph id="ph2">`Dispose(Boolean)`</ph> metoden med den <ph id="ph3">`disposing`</ph> parameteren satt til <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;aktiverer <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> satt til <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignerTransaction&gt; references.</source>
+          <target state="translated">Når den <ph id="ph1">`disposing`</ph> parameteren er <ph id="ph2">`true`</ph>, denne metoden Frigjør alle ressurser holdes av administrerte objekter som denne &lt;xref:System.ComponentModel.Design.DesignerTransaction&gt;referanser.&lt;/xref:System.ComponentModel.Design.DesignerTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Denne metoden starter den <ph id="ph1">`Dispose()`</ph> metode for hver referert objekt.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frigi ressurser både administrerte og uforvaltede; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> frigi bare uforvaltede ressurser.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Releases the resources associated with this object.</source>
+          <target state="translated">Frigir ressursene som er knyttet til dette objektet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This override commits this transaction if it was not already committed.</source>
+          <target state="translated">Denne overstyringen skriver denne transaksjonen hvis det ikke var allerede lagret.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt; and cleans up resources by calling <ph id="ph1">`Dispose(false)`</ph>.</source>
+          <target state="translated">Denne metoden overstyrer &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;og rydder opp i ressursene ved å kalle <ph id="ph1">`Dispose(false)`</ph>.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override <ph id="ph1">`Dispose(Boolean)`</ph> to customize the cleanup.</source>
+          <target state="translated">Overstyre <ph id="ph1">`Dispose(Boolean)`</ph> tilpasse oppryddingen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application code should not call this method; an object's <ph id="ph1">`Finalize`</ph> method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Applikasjons-koden kan ikke kalle denne metoden. et objekts <ph id="ph1">`Finalize`</ph> metode startes automatisk under datasanering, med mindre finalization av saneringsoppsamlingen er deaktivert av et kall til den &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>fullføre metoder og destruktører<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Rydder opp uforvaltede ressurser<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, og <bpt id="p3">[</bpt>overstyrer metoden fullføre<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">Når en transaksjonen avbrytes, transaksjonen behandling mekanisme forsøk på å rulle tilbake endringer som er gjort hittil i transaksjonen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">Om reparerer er avhengig av faktorer som hver operasjonstype om andre operasjoner påvirkes noen av involvert koden tilstand, og om en sekvens med forventede operasjoner kan ikke fullføre.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Performs the actual work of committing a transaction.</source>
+          <target state="translated">Utfører tidsplanen ved å utføre en transaksjon.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Når en designer transaksjon er utført, transaksjonen anses fullført, og sporer ikke flere endringer.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigir alle ressursene som brukes av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a transaction is disposed, it is committed.</source>
+          <target state="translated">Når en transaksjon er fjernet, er utført.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

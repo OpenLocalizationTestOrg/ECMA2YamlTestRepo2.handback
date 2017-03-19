@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a99717b7b656fad38c46e072ef7b632e07dca2df</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.HiddenFieldPageStatePersister.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fee01bbd99cfe07330a5602c41d87571b8d30ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2936632a32404261550ab6a3a7105c02c8599fb4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Stores ASP.NET page view state on the Web client in a hidden HTML element.</source>
+          <target state="translated">Web クライアント上の非表示の HTML 要素には、ASP.NET ページのビュー ステートを格納します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET pages can store &lt;xref:System.Web.UI.Page&gt; state between the inherently stateless HTTP request and response required to process and serve any Web page.</source>
+          <target state="translated">ASP.NET ページを格納できます&lt;xref:System.Web.UI.Page&gt;間本質的にステートレスの HTTP 要求および応答を処理して、任意の Web ページを使用するために必要な状態です&lt;/xref:System.Web.UI.Page&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This state is called "view state".</source>
+          <target state="translated">この状態は、「状態の表示」と呼ばれます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The default mechanism used to store view state for a page and its controls is in one or more <ph id="ph1">`&lt;hidden&gt;`</ph> HTML fields included in the page that is served to a client from a Web server.</source>
+          <target state="translated">1 つまたは複数のページとそのコントロールのビュー ステートを格納するために使用する既定のメカニズムは<ph id="ph1">`&lt;hidden&gt;`</ph>Web サーバーからクライアントに提供されているページに含まれる HTML フィールドです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Page&gt; class can use the HiddenFieldPageStatePersister class to do this work.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Page&gt;クラスは、この作業を行う HiddenFieldPageStatePersister クラスを使用することができます&lt;/xref:System.Web.UI.Page&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>HiddenFieldPageStatePersister implements the &lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt; and &lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt; methods of the &lt;xref:System.Web.UI.PageStatePersister&gt; class so that the &lt;xref:System.Web.UI.Page&gt; can store state in a <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element named "__VIEWSTATE" on a Web client.</source>
+          <target state="translated">HiddenFieldPageStatePersister を実装して、&lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt;と&lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt;のメソッド、&lt;xref:System.Web.UI.PageStatePersister&gt;クラスできるように、&lt;xref:System.Web.UI.Page&gt;で状態を保存することができます、 <ph id="ph1">`&lt;hidden&gt;`</ph> Web クライアントに"_ _viewstate"をという名前の HTML 要素です&lt;/xref:System.Web.UI.Page&gt;&lt;/xref:System.Web.UI.PageStatePersister&gt;&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt;&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the client requests the same page from the Web server (a postback), the <ph id="ph1">`&lt;hidden&gt;`</ph> element is parsed and converted to state information by ASP.NET.</source>
+          <target state="translated">クライアントが Web サーバー (ポストバック) から、同じページを要求するとき、<ph id="ph1">`&lt;hidden&gt;`</ph>要素が解析され、ASP.NET によって状態情報に変換します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.Page&gt; instance that is requested has an associated &lt;xref:System.Web.UI.Adapters.PageAdapter&gt; class, it retrieves the &lt;xref:System.Web.UI.PageStatePersister&gt; object from this adapter using the &lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt; method.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.Page&gt;が要求されるインスタンスに関連付けられています&lt;xref:System.Web.UI.Adapters.PageAdapter&gt;を取得、クラス、&lt;xref:System.Web.UI.PageStatePersister&gt;オブジェクトをこのアダプターを使用してから、&lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;メソッド&lt;/xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;&lt;/xref:System.Web.UI.PageStatePersister&gt;&lt;/xref:System.Web.UI.Adapters.PageAdapter&gt;&lt;/xref:System.Web.UI.Page&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Adapters can override the &lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt; method to return a &lt;xref:System.Web.UI.PageStatePersister&gt; object that stores page and control state in some way that a specific client supports.</source>
+          <target state="translated">アダプターがオーバーライドできる、&lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;を返すメソッドを&lt;xref:System.Web.UI.PageStatePersister&gt;、特定のクライアントをサポートするいくつかの方法でページとコントロールの状態を格納するオブジェクト&lt;/xref:System.Web.UI.PageStatePersister&gt;&lt;/xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.UI.SessionPageStatePersister&gt; class stores page and controls' state on the Web server, instead of the client, to decrease the amount of information that must be sent and stored on a client that has potentially limited memory and bandwidth.</source>
+          <target state="translated">たとえば、&lt;xref:System.Web.UI.SessionPageStatePersister&gt;クラス情報を送信し、メモリと帯域幅が制限された可能性があるクライアントに格納されている必要がありますの量を減らして、クライアントではなく、Web サーバーでページおよびコントロールの状態を格納します&lt;/xref:System.Web.UI.SessionPageStatePersister&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The maximum size of the "_VIEWSTATE" <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element can be set through the &lt;xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt; property or through the &lt;xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt; configuration setting.</source>
+          <target state="translated">"_VIEWSTATE"の最大サイズ<ph id="ph1">`&lt;hidden&gt;`</ph>を介して HTML 要素を設定することができます、&lt;xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt;プロパティにより、または、&lt;xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt;構成設定&lt;/xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt;&lt;/xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When this value is set and the length of the "_VIEWSTATE" element would exceed the maximum length, the content is divided into multiple "_VIEWSTATE" elements.</source>
+          <target state="translated">この値を設定して、"_VIEWSTATE"要素の長さが最大長を超えると、コンテンツは複数の"_VIEWSTATE"要素に分割されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.HiddenFieldPageStatePersister"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.UI.HiddenFieldPageStatePersister"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the view state persistence mechanism is created for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のビュー状態の永続化メカニズムを作成します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Deserializes and loads persisted state information from an <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object when a <bpt id="p2">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object initializes its control hierarchy.</source>
+          <target state="translated">逆シリアル化しから永続化された状態情報を読み込みます、 <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトと、 <bpt id="p2">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトがそのコントロールの階層構造を初期化します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt; class implements the Load method to load page and control state information from an incoming request to the Web server.</source>
+          <target state="translated">&lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt;クラスは、受信要求から Web サーバーにページおよびコントロールの状態情報を読み込むに読み込みメソッドを実装します&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ObjectStateFormatter&gt; object accessed by the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property is used to deserialize the data.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ObjectStateFormatter&gt;によってアクセスされるオブジェクト、&lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;プロパティは、データを逆シリアル化に使用します&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;&lt;/xref:System.Web.UI.ObjectStateFormatter&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Load method could not successfully deserialize the state information contained in the request to the Web server.</source>
+          <target state="translated">Load メソッドが正常にシリアル化解除できません Web サーバーへの要求に含まれている状態情報。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Serializes any object state contained in the &lt;xref:System.Web.UI.PageStatePersister.ViewState<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Web.UI.PageStatePersister.ControlState<ept id="p1">*</ept>&gt; property and writes the state to the response stream.</source>
+          <target state="translated">含まれている任意のオブジェクトの状態をシリアル化、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; または&lt;&gt; <ept id="p1">*</ept>&gt; プロパティ、状態を応答ストリームに書き込みます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt; implements the Save method to persist page and control state to a client by writing it to a <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element in the outgoing response to the client.</source>
+          <target state="translated">&lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt;に記述して、クライアントにページとコントロールの状態を永続化する Save メソッドを実装、<ph id="ph1">`&lt;hidden&gt;`</ph>クライアントへの送信応答に HTML 要素です&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ObjectStateFormatter&gt; object accessed by the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property is used to deserialize the data.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ObjectStateFormatter&gt;によってアクセスされるオブジェクト、&lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;プロパティは、データを逆シリアル化に使用します&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;&lt;/xref:System.Web.UI.ObjectStateFormatter&gt;。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

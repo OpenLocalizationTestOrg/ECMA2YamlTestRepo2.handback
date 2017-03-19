@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d903f938c89963412efb236e62b42d749720777</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.IEnlistmentNotification.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b936d9a511a4ea4bd8f25dee73412bf2426f9b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5e5d536ae2ecf7b9e7654fe123129a98e57fafa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes an interface that a resource manager should implement to provide two phase commit notification callbacks for the transaction manager upon enlisting for participation.</source>
+          <target state="translated">Hierin wordt beschreven in een interface die een resourcemanager implementeren te om twee meldingen callbacks van de fase doorvoeren voor de transactiebeheerder bij het aanmelden voor deelname.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order for a resource manager to participate in a transaction, it must enlist in the transaction through the transaction manager.</source>
+          <target state="translated">Om een resourcemanager om deel te nemen in een transactie, moet het aanmelden bij de transactie door de transactiebeheerder.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Transactions.Transaction&gt; class defines a set of methods whose names begin with <ph id="ph1">`Enlist`</ph> that provide this functionality.</source>
+          <target state="translated">De &lt;xref:System.Transactions.Transaction&gt;klasse definieert een aantal methoden waarvan de naam met begint <ph id="ph1">`Enlist`</ph> die deze functionaliteit bieden.&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The different <ph id="ph1">`Enlist`</ph> methods correspond to the different types of enlistment that a resource maanger may have.</source>
+          <target state="translated">De verschillende <ph id="ph1">`Enlist`</ph> methoden komen overeen met de verschillende soorten aanmelding die een resource maanger kan hebben.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class describes an interface that a resource manager should implement to provide two phase commit notification callbacks for the transaction manager upon enlisting for participation.</source>
+          <target state="translated">Deze klasse wordt een interface die een resourcemanager implementeren te om te bieden twee fase doorvoeren melding retouraanroepen voor de transactiebeheerder bij het aanmelden voor deelname beschreven.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each resource manager's implementation of the IEnlistmentNotification interface, you should enlist it using the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; method or the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method of the &lt;xref:System.Transactions.Transaction&gt; class, depending on whether your resource is volatile or durable.</source>
+          <target state="translated">Voor elke resource manager implementatie van de IEnlistmentNotification-interface, moet u aanmelden met behulp van de &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;methode of de &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;methode van de &lt;xref:System.Transactions.Transaction&gt;klasse, afhankelijk van of de resource vluchtige of duurzame is.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on enlistment and 2PC, see <bpt id="p1">[</bpt>Enlisting Resources as Participants in a Transaction<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Committing a Transaction in Single-Phase and Multi-Phase<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> respectively.</source>
+          <target state="translated">Zie voor meer informatie over aanmelding en 2PC <bpt id="p1">[</bpt>Resources opnemen als deelnemers in een transactie<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> en <bpt id="p2">[</bpt>voert momenteel een transactie in fase en meerdere fase<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> respectievelijk.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager notifies the enlisted object at different phases of the Two Phase Commit Protocol by the following methods.</source>
+          <target state="translated">De transactiebeheerder waarschuwt het aangemelde object in verschillende fasen van het Protocol twee fase doorvoeren door de volgende methoden.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Method|Description|   |------------|-----------------|   |&lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;|This method of an enlisted object is used as a callback by the Transaction Manager during the first phase of a transaction, when the transaction manager asks participants whether they can commit the transaction.|   |&lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;|This method of an enlisted object is used as a callback by the Transaction Manager during the second phase of a transaction if the transaction is commited.|   |&lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;|This method of an enlisted object is used as a callback by the Transaction Manager during the second phase of a transaction if the transaction is aborted (that is, rolled back).|   |&lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;|This method of an enlisted object is used as a callback by the Transaction Manager during the second phase of a transaction if the transaction is in doubt.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should be aware that notifications might not be sent sequentially, or in a particular order.</source>
+          <target state="translated">| Methode | Beschrijving |   |------------|-----------------|   | &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;| Deze methode van een aangemelde object wordt gebruikt als een retouraanroep door de transactiebeheerder tijdens de eerste fase van een transactie wanneer de transactiebeheerder vraagt deelnemers of de transactie kan worden doorgevoerd. |   | &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;| Deze methode van een aangemelde object wordt gebruikt als een retouraanroep door de transactiebeheerder tijdens de tweede fase van een transactie als de transactie doorgevoerd is. |   | &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;| Deze methode van een aangemelde object wordt gebruikt als een retouraanroep door de transactiebeheerder tijdens de tweede fase van een transactie als de transactie is afgebroken (die wordt teruggedraaid). |   | &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;| Deze methode van een aangemelde object wordt gebruikt als een retouraanroep door de transactiebeheerder tijdens de tweede fase van een transactie als de transactie onzeker is. |      &gt; <ph id="ph1">[!NOTE]</ph> &gt; U rekening moet houden of meldingen kunnen niet worden verzonden naar sequentieel of in een bepaalde volgorde.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that a transaction is being committed.</source>
+          <target state="translated">Een melding van een aangemelde object dat een transactie wordt doorgevoerd.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager calls this method of an enlisted object during the second phase of a commitment, when it instructs all participants to commit the transaction.</source>
+          <target state="translated">De transactiebeheerder roept deze methode van een aangemelde object tijdens de tweede fase van een vastlegging als via alle deelnemers doorvoeren van de transactie.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager should perform any work necessary to finish the transaction and then inform the TM that it has finished by calling the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method on the <ph id="ph1">`enlistment`</ph> parameter.</source>
+          <target state="translated">Uw werk nodig zijn om de transactie te voltooien en vervolgens informeert de TM die is voltooid door het aanroepen van moet worden uitgevoerd in de resourcemanager de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode op de <ph id="ph1">`enlistment`</ph> parameter.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource manager has enlisted durably, but does not respond by calling &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method, the transaction manager is unsure that the resource manager has received the Commit call.</source>
+          <target state="translated">Als de resourcemanager blijvend heeft aangemeld, maar niet door aan te roepen reageert &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode, de transactiebeheerder is niet zeker van te zijn dat de resourcemanager de Commit-aanroep heeft ontvangen.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, the transaction manager keeps waiting for a response, and maintains information relevant to this transaction.</source>
+          <target state="translated">Als zodanig de transactiebeheerder blijft wachten op reactie en bevat informatie die relevant zijn voor deze transactie.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Transactions.Enlistment.Done%2A&gt; is never called, this piece of information is kept around indefinitely in memory or in a system-wide resource.</source>
+          <target state="translated">Als &lt;xref:System.Transactions.Enlistment.Done%2A&gt;wordt nooit aangeroepen, deze stukje informatie is rond voor onbepaalde tijd bewaard in het geheugen of in een resource van het gehele systeem.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This results in resources not being able to be reclaimed.</source>
+          <target state="translated">Dit leidt tot resources wordt niet kunnen worden vrijgemaakt.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a distributed transaction, this could eventually fill the MSDTC log which halts the MSDTC process.</source>
+          <target state="translated">In het geval van een gedistribueerde transactie, kan dit uiteindelijk vult u het logboekbestand voor MSDTC dat het MSDTC-proces wordt afgebroken.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a transaction managed by &lt;xref:System.Transactions&gt;, this results in a gradual and continual increase in the memory consumption of the resource manager's process.</source>
+          <target state="translated">In het geval van een transactie worden beheerd door &lt;xref:System.Transactions&gt;, resulteert dit in een geleidelijke en continue verhoging van het geheugengebruik van de resourcemanager-proces.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is crucial that you call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method once your resource manager is done with your prepare work.</source>
+          <target state="translated">Daarom is het essentieel dat u aanroept de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode als uw resourcemanager is klaar met uw werk voorbereiden.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to send a response to the transaction manager.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat wordt gebruikt voor het verzenden van een reactie op de transactiebeheerder.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that the status of a transaction is in doubt.</source>
+          <target state="translated">Waarschuwt aangemelde object dat de status van een transactie onzeker is.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called for volatile resources when the transaction manager has invoked a single phase commit operation to a single durable resource, and then connection to the durable resource was lost prior to getting the transaction result.</source>
+          <target state="translated">Deze methode is aangeroepen voor vluchtige bronnen wanneer de transactiebeheerder een opslagbewerking enkel fase naar één resource duurzame aangeroepen is en vervolgens verbinding met de duurzame resource verloren voordat het ophalen van het Transactieresultaat is.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At that point, the transaction outcome cannot be safely determined.</source>
+          <target state="translated">Worden op dat moment de uitkomst van de transactie kan niet veilig bepaald.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As InDoubt is considered to be a final state for a transaction, you should not call &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; after calling InDoubt.</source>
+          <target state="translated">Als InDoubt wordt beschouwd als een definitieve status voor een transactie, moet u niet aanroepen &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;of &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;na het aanroepen van InDoubt.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Your implementation of this method for the volatile resource should perform whatever recovery or containment operation it understands on the affected data.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Uw implementatie van deze methode voor de resource vluchtige ongeacht wordt begrepen herstel of containment-bewerking op de betroffen gegevens moet worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It must also call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method on the on the <ph id="ph1">`enlistment`</ph> parameter when it has finished its work.</source>
+          <target state="translated">Moet ook worden aangeroepen de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode voor het op de <ph id="ph1">`enlistment`</ph> parameter wanneer deze het werk is voltooid.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource manager has enlisted durably, but does not respond by calling &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method, the transaction manager is unsure that the resource manager has received the InDoubt call.</source>
+          <target state="translated">Als de resourcemanager blijvend heeft aangemeld, maar niet door aan te roepen reageert &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode, de transactiebeheerder is niet zeker van te zijn dat de resourcemanager de aanroep InDoubt heeft ontvangen.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, the transaction manager keeps waiting for a response, and maintains information relevant to this transaction.</source>
+          <target state="translated">Als zodanig de transactiebeheerder blijft wachten op reactie en bevat informatie die relevant zijn voor deze transactie.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Transactions.Enlistment.Done%2A&gt; is never called, this piece of information is kept around indefinitely in memory or in a system-wide resource.</source>
+          <target state="translated">Als &lt;xref:System.Transactions.Enlistment.Done%2A&gt;wordt nooit aangeroepen, deze stukje informatie is rond voor onbepaalde tijd bewaard in het geheugen of in een resource van het gehele systeem.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This results in resources not being able to be reclaimed.</source>
+          <target state="translated">Dit leidt tot resources wordt niet kunnen worden vrijgemaakt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a distributed transaction, this could eventually fill the MSDTC log which halts the MSDTC process.</source>
+          <target state="translated">In het geval van een gedistribueerde transactie, kan dit uiteindelijk vult u het logboekbestand voor MSDTC dat het MSDTC-proces wordt afgebroken.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a transaction managed by &lt;xref:System.Transactions&gt;, this results in a gradual and continual increase in the memory consumption of the resource manager's process.</source>
+          <target state="translated">In het geval van een transactie worden beheerd door &lt;xref:System.Transactions&gt;, resulteert dit in een geleidelijke en continue verhoging van het geheugengebruik van de resourcemanager-proces.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is crucial that you call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method once your resource manager is done with your prepare work.</source>
+          <target state="translated">Daarom is het essentieel dat u aanroept de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode als uw resourcemanager is klaar met uw werk voorbereiden.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to send a response to the transaction manager.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat wordt gebruikt voor het verzenden van een reactie op de transactiebeheerder.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that a transaction is being prepared for commitment.</source>
+          <target state="translated">Waarschuwt aangemelde object dat een transactie wordt voorbereid voor vastlegging.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager calls this method of an enlisted resource manager during the phase 1 of a commitment, when it asks participants whether they can commit the transaction.</source>
+          <target state="translated">De transactiebeheerder deze methode van een aangemelde resource manager tijdens de fase 1 van een engagement wanneer wordt gevraagd deelnemers of de transactie kan worden doorgevoerd.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are implementing a durable resource manager, you should log your prepare record during this phase.</source>
+          <target state="translated">Wanneer u een duurzame resourcemanager implementeert, moet u zich aanmeldt uw record tijdens deze fase voorbereiden.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The record should contain all the necessary information to perform recovery.</source>
+          <target state="translated">De record moet bevatten alle nodige informatie om u te herstellen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes the &lt;xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt; property, which is passed to the transaction manager in the &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt; method during recovery.</source>
+          <target state="translated">Dit omvat de &lt;xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt;eigenschap, die wordt doorgegeven aan de transactiebeheerder in de &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt;methode tijdens het herstel.&lt;/xref:System.Transactions.TransactionManager.Reenlist%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.RecoveryInformation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over herstel <bpt id="p1">[</bpt>herstel uitvoeren van<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your resource manager should complete all work that must be finished before calling the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method of the <ph id="ph1">`preparingEnlistment`</ph> parameter to indicate its vote for commitment.</source>
+          <target state="translated">Uw resourcebeheer moet voltooien al het werk die moet worden voltooid voordat de &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;methode van de <ph id="ph1">`preparingEnlistment`</ph> parameter om aan te geven van de stemmen voor vastlegging.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should make sure that this is accomplished before receiving any phase 2 notification such as commit, rollback or in doubt.</source>
+          <target state="translated">U moet ervoor zorgen dat dit wordt bereikt voordat de fase 2 meldingen dergelijke ontvangen zoals doorvoert, terugdraaien of onzeker.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because phase 2 notifications can happen inline on the same thread that called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method in phase 1.</source>
+          <target state="translated">Dit komt doordat fase 2-meldingen inline op dezelfde thread die aangeroepen kunnen gebeuren de &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;methode in stap 1.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, you should not do any work after the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; call (for example, releasing locks) that you would expect to have completed before receiving the phase 2 notifications.</source>
+          <target state="translated">Als zodanig niet Doe werk na de &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;aanroep (bijvoorbeeld geven vergrendelingen) die u verwacht te zijn voltooid voordat u kunt de fase 2-meldingen ontvangen.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also call the method of the <ph id="ph1">`preparingEnlistment`</ph> parameter to indicate a vote for rollback.</source>
+          <target state="translated">U kunt ook de methode van aanroepen de <ph id="ph1">`preparingEnlistment`</ph> parameter om aan te geven van een stem voor ongedaan maken.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the object to merely observe and react to the progress of the transaction, without participating in it, your implementation of this method should call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method of the <ph id="ph1">`preparingEnlistment`</ph> parameter when it has finished its work.</source>
+          <target state="translated">Als u wilt dat het object alleen bekijken en reageren op de voortgang van de transactie zonder die deel uitmaken van deze uw implementatie van deze methode moet aanroepen de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode van de <ph id="ph1">`preparingEnlistment`</ph> parameter wanneer deze het werk is voltooid.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, your resource manager would not receive any phase 2 notification.</source>
+          <target state="translated">Door dit te doen, zou uw resourcemanager geen fase 2 meldingen ontvangen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.PreparingEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to send a response to the transaction manager.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.PreparingEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat wordt gebruikt voor het verzenden van een reactie op de transactiebeheerder.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that a transaction is being rolled back (aborted).</source>
+          <target state="translated">Een melding van een aangemelde object dat een transactie wordt teruggedraaid (afgebroken).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager calls this method of an enlisted object when the transaction is being rolled back (aborted) due to the inability of one or more transaction participants to commit the transaction.</source>
+          <target state="translated">De transactiebeheerder roept deze methode van een aangemelde object als de transactie is teruggedraaid (afgebroken) vanwege het onvermogen van een of meer Transactiedeelnemers doorvoeren van de transactie.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager should perform any work necessary to finish the transaction and then inform the TM that it has finished by calling the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method on the <ph id="ph1">`enlistment`</ph> parameter.</source>
+          <target state="translated">Uw werk nodig zijn om de transactie te voltooien en vervolgens informeert de TM die is voltooid door het aanroepen van moet worden uitgevoerd in de resourcemanager de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode op de <ph id="ph1">`enlistment`</ph> parameter.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource manager has enlisted durably, but does not respond by calling &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method, the transaction manager is unsure that the resource manager has received the Rollback call.</source>
+          <target state="translated">Als de resourcemanager blijvend heeft aangemeld, maar niet door aan te roepen reageert &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode, de transactiebeheerder is niet zeker van te zijn dat de resourcemanager de Rollback-aanroep heeft ontvangen.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, the transaction manager keeps waiting for a response, and maintains information relevant to this transaction.</source>
+          <target state="translated">Als zodanig de transactiebeheerder blijft wachten op reactie en bevat informatie die relevant zijn voor deze transactie.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Transactions.Enlistment.Done%2A&gt; is never called, this piece of information is kept around indefinitely in memory or in a system-wide resource.</source>
+          <target state="translated">Als &lt;xref:System.Transactions.Enlistment.Done%2A&gt;wordt nooit aangeroepen, deze stukje informatie is rond voor onbepaalde tijd bewaard in het geheugen of in een resource van het gehele systeem.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This results in resources not being able to be reclaimed.</source>
+          <target state="translated">Dit leidt tot resources wordt niet kunnen worden vrijgemaakt.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a distributed transaction, this could eventually fill the MSDTC log which halts the MSDTC process.</source>
+          <target state="translated">In het geval van een gedistribueerde transactie, kan dit uiteindelijk vult u het logboekbestand voor MSDTC dat het MSDTC-proces wordt afgebroken.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a transaction managed by &lt;xref:System.Transactions&gt;, this results in a gradual and continual increase in the memory consumption of the resource manager's process.</source>
+          <target state="translated">In het geval van een transactie worden beheerd door &lt;xref:System.Transactions&gt;, resulteert dit in een geleidelijke en continue verhoging van het geheugengebruik van de resourcemanager-proces.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is crucial that you call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method once your resource manager is done with your prepare work.</source>
+          <target state="translated">Daarom is het essentieel dat u aanroept de &lt;xref:System.Transactions.Enlistment.Done%2A&gt;methode als uw resourcemanager is klaar met uw werk voorbereiden.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to send a response to the transaction manager.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat wordt gebruikt voor het verzenden van een reactie op de transactiebeheerder.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
