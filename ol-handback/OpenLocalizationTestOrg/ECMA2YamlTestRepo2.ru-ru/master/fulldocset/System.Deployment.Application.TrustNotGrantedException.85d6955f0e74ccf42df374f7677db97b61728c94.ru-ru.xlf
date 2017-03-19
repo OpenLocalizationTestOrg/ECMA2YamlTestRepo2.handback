@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3814151b462f30d3527ee04f0d83151d6f86fbc3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Deployment.Application.TrustNotGrantedException.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">391fd10003674cbbd3d510bb1076ed3ed0c40ff8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84436fa6bb3ce29b3be819061c79e8d0c68288f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Indicates that the application does not have the appropriate level of trust to run on the local computer.</source>
+          <target state="translated">Указывает, что приложение имеет соответствующий уровень доверия для запуска на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> applications are given a level of trust on client computers that prevents them from engaging in potentially malicious activity, such as deleting data from the hard drive or accessing the network.</source>
+          <target state="translated">По умолчанию <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> приложения предоставляются с уровнем доверия на клиентских компьютерах, не позволяющий им выполнять потенциально вредоносные действия, например удаление данных с жесткого диска или доступ к сети.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> application can use either permission elevation or Trusted Application Deployment to request a higher level of trust:      -   Permission elevation asks the user to grant the application a higher level of security.</source>
+          <target state="translated">Объект <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> приложение может использовать повышение уровня разрешений или развертывания надежных приложений для запроса повышения уровня доверия:-повышение уровня разрешений пользователю предлагается предоставить приложению более высокий уровень безопасности.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Trusted Application Deployment matches the digital signature of the <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> application against a list of trusted publishers on the local machine.</source>
+          <target state="translated">-Развертывание надежных приложений проверяет цифровую подпись <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> приложение со списком доверенных издателей на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TrustNotGrantedException will be thrown if:      -   The application uses permission elevation and the user denies the request for elevated trust; or       The application uses Trusted Application Deployment and the digital certificate used to sign the application is not listed as a trusted publisher on the local machine.If you have deployed an update to an application, and the update uses more permissions than the previous version, and <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> throws a TrustNotGrantedException, the new version will not install.</source>
+          <target state="translated">TrustNotGrantedException будет вызвано, если: - приложение использует повышение уровня разрешений и пользователь отклонил запрос повышенного доверия; приложение использует развертывание надежных приложений и цифровой сертификат, используемый для подписи приложения не указан в качестве надежного издателя на локальном компьютере. Если вы развернули обновления приложения и обновления использует больше разрешений, чем предыдущая версия, и <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> вызывает a TrustNotGrantedException новая версия не будет установлено.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a system-supplied message that describes the error.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс системным сообщением, содержащим описание ошибки.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes the &lt;xref:System.Exception.Message%2A&gt; property of the new instance to a system-supplied message that describes the error, such as "DefaultMessageDisplayedByParameterlessCtorWriterMustSupply" This message takes into account the current system culture.</source>
+          <target state="translated">Этот конструктор инициализирует &lt;xref:System.Exception.Message%2A&gt;свойств нового экземпляра системным сообщением, содержащим описание ошибки, например «DefaultMessageDisplayedByParameterlessCtorWriterMustSupply» это сообщение учитывает текущую культуру системы.&lt;/xref:System.Exception.Message%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.InsufficientMemoryException&gt;.</source>
+          <target state="translated">В следующей таблице показаны исходные значения свойств для экземпляра класса &lt;xref:System.InsufficientMemoryException&gt;.&lt;/xref:System.InsufficientMemoryException&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|<ph id="ph1">`null`</ph>.|   |&lt;xref:System.Exception.Message%2A&gt;|The localized error message string.|</source>
+          <target state="translated">| Свойство | Значение |   |--------------|-----------|   | &lt;xref:System.Exception.InnerException%2A&gt;| <ph id="ph1">`null`</ph>.|   | &lt;xref:System.Exception.Message%2A&gt;| Строка локализованного сообщения об. |&lt;/xref:System.Exception.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified message that describes the error.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса с указанным сообщением, содержащим описание ошибки.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.Deployment.Application.TrustNotGrantedException&gt;.</source>
+          <target state="translated">В следующей таблице показаны исходные значения свойств для экземпляра класса &lt;xref:System.Deployment.Application.TrustNotGrantedException&gt;.&lt;/xref:System.Deployment.Application.TrustNotGrantedException&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|<ph id="ph1">`null`</ph>.|   |&lt;xref:System.Exception.Message%2A&gt;|The error message string specified in <ph id="ph2">`message`</ph>.|</source>
+          <target state="translated">| Свойство | Значение |   |--------------|-----------|   | &lt;xref:System.Exception.InnerException%2A&gt;| <ph id="ph1">`null`</ph>.|   | &lt;xref:System.Exception.Message%2A&gt;| Строка сообщения об ошибке, указываемой <ph id="ph2">`message`</ph>. |&lt;/xref:System.Exception.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The message that describes the exception.</source>
+          <target state="translated">Сообщение, описывающее исключение.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The caller of this constructor is required to ensure that this string has been localized for the current system culture.</source>
+          <target state="translated">Код, вызывающий этот конструктор, должен убедиться, что эта строка локализована для текущего языка и региональных параметров системы.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with serialized data.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> сериализованными данными.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object that holds the serialized object data.</source>
+          <target state="translated">Объект, содержащий сериализованные данные объекта.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination.</source>
+          <target state="translated">Контекстные сведения об источнике или назначении.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message and a reference to the inner exception that is the cause of this exception.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Deployment.Application.TrustNotGrantedException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса с указанным сообщением об ошибке и ссылкой на внутреннее исключение, вызвавшее данное исключение.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The message that describes the exception.</source>
+          <target state="translated">Сообщение, описывающее исключение.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The caller of this constructor is required to ensure that this string has been localized for the current system culture.</source>
+          <target state="translated">Код, вызывающий этот конструктор, должен убедиться, что эта строка локализована для текущего языка и региональных параметров системы.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The exception that is the cause of the current exception.</source>
+          <target state="translated">Исключение, которое стало причиной текущего исключения.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`innerException`</ph> parameter is not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the current exception is raised in a <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> block that handles the inner exception.</source>
+          <target state="translated">Если <ph id="ph1">`innerException`</ph> не <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, текущее исключение сгенерировано в <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> блок, обрабатывающем внутреннее исключение.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

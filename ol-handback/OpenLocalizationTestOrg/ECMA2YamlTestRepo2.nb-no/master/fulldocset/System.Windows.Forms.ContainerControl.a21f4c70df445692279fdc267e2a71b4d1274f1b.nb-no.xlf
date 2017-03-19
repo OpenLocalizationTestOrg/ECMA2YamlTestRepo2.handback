@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d924d58dea7ef971a724121d2481ce24c5aa907</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ContainerControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b26a85b84a790cd7f5992934a34ce07c06a26529</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57478781d4a0277bb5f461713656a55d24d705fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides focus-management functionality for controls that can function as a container for other controls.</source>
+          <target state="translated">Gir fokus-funksjonalitet for kolonner som fungerer som en beholder for andre kontroller.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ContainerControl represents a control that can function as a container for other controls and provides focus management.</source>
+          <target state="translated">En ContainerControl representerer en kontroll som kan fungere som en beholder for andre kontroller og gir fokus administrasjon.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that inherit from this class can track the active control they contain, even when the focus moves somewhere within a different container.</source>
+          <target state="translated">Kontroller som arver fra denne klassen kan spore aktive kontroll de inneholder, selv når du flytter fokus et eller annet sted i en annen beholder.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ContainerControl objects provide a logical boundary for contained controls.</source>
+          <target state="translated">ContainerControl objekter gir en logisk grense for inneholder kontroller.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The container control can capture the TAB key press and move focus to the next control in the collection.</source>
+          <target state="translated">Beholderkontrollen kan capture for nøkkelen trykker du TAB og Flytt fokus til den neste kontrollen i samlingen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The container control does not receive focus; the focus is always set to the first child control in the collection of contained controls.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Beholderkontrollen får ikke fokus; fokus alltid settes til den første underordnede kontrollen i samlingen av inneholder kontroller.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not typically inherit directly from the ContainerControl class.</source>
+          <target state="translated">Du arver vanligvis ikke direkte fra ContainerControl-klassen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Forms.Form&gt;, &lt;xref:System.Windows.Forms.UserControl&gt;, and &lt;xref:System.Windows.Forms.UpDownBase&gt; classes inherit from ContainerControl.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Form&gt;, &lt;xref:System.Windows.Forms.UserControl&gt;, og &lt;xref:System.Windows.Forms.UpDownBase&gt;klasser arve fra ContainerControl.&lt;/xref:System.Windows.Forms.UpDownBase&gt; &lt;/xref:System.Windows.Forms.UserControl&gt;&lt;/xref:System.Windows.Forms.Form&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or sets the active control on the container control.</source>
+          <target state="translated">Henter eller angir ActiveX-kontroll på beholderkontrollen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ActiveControl property activates or retrieves the active control on the container control.</source>
+          <target state="translated">Egenskapen ActiveControl aktiveres eller henter ActiveX-kontroll på beholderkontrollen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to receive a valid value from this property, the object that calls it must either contain or be contained in the control it is calling.</source>
+          <target state="translated">Objektet som kaller den må inneholde for å motta en gyldig verdi fra denne egenskapen, eller ligge i kontrollen det kaller.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If one form tries to call another form's ActiveControl properties, it will receive an undefined value.</source>
+          <target state="translated">Hvis en form prøver å kalle et annet skjema ActiveControl egenskaper, mottar en angitt verdi.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, you need to define your own communication mechanism between the forms to pass this data.</source>
+          <target state="translated">I så fall må du definere din egen mekanisme kommunikasjon mellom skjemaer til å overføre disse dataene.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is currently active on the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som er aktive på den <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> assigned could not be activated.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tilordnet kan ikke aktiveres.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adjusts the scroll bars on the container based on the current control positions and the control currently selected.</source>
+          <target state="translated">Justerer side-felt i beholderen basert på gjeldende kontroll posisjonen og kontrollen som er valgt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to show the scroll bars; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>å vise rullefeltet; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets the dimensions that the control was designed to.</source>
+          <target state="translated">Henter eller angir dimensjoner som kontrollen skulle.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutoScaleDimensions property represents the DPI or font setting of the screen that the control was scaled to or designed for.</source>
+          <target state="translated">Egenskapen AutoScaleDimensions representerer innstillingen ppt eller skrift på skjermen ble kontrollen skalert til eller utviklet for.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, at design time this property will be set by the Windows Forms designer to the value your monitor is currently using.</source>
+          <target state="translated">Nærmere bestemt under utformingen bruker nå denne egenskapen settes av Windows Forms-designeren til verdien skjermen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, when the form loads at run time, if the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; property is different from the AutoScaleDimensions, the &lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt; method will be called to perform scaling of the control and all of its children.</source>
+          <target state="translated">Deretter når skjemaet laster ved kjøretid, hvis den &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;egenskapen avviker fra AutoScaleDimensions den &lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt;metoder kan kalles for å utføre skalering av kontrollen, og alle underordnede verdier.&lt;/xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Afterwards, AutoScaleDimensions will be updated to reflect the new scaling size.</source>
+          <target state="translated">Etterpå oppdateres AutoScaleDimensions for å gjenspeile den nye skalering størrelsen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk skalering <bpt id="p1">[</bpt>automatisk skalering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size that the control was designed to.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder punkt per tomme eller <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> størrelsen som kontrollen skulle.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The width or height of the <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value is less than 0 when setting this value.</source>
+          <target state="translated">Bredden eller høyden på den <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdi er mindre enn 0 når du angir denne verdien.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the scaling factor between the current and design-time automatic scaling dimensions.</source>
+          <target state="translated">Henter skaleringsfaktor mellom de gjeldende og utformingen automatisk skalering dimensjonene.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutoScaleFactor property represents the scaling factor between the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; properties.</source>
+          <target state="translated">Egenskapen AutoScaleFactor representerer skaleringsfaktor mellom den &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;og &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;Egenskaper.&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is calculated when it is required.</source>
+          <target state="translated">Denne verdien beregnes når det kreves.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; is (192, 144) and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; is (96, 96) then the AutoScaleFactor is (2.0, 1.5).</source>
+          <target state="translated">For eksempel hvis &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;er (192, 144) og &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;er (96, 96) er AutoScaleFactor (2.0, 1,5).&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk skalering <bpt id="p1">[</bpt>automatisk skalering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the scaling ratio between the current and design-time scaling automatic scaling dimensions.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder skalering forholdet mellom gjeldende og utformingen skalering automatisk skalering dimensjoner.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets the automatic scaling mode of the control.</source>
+          <target state="translated">Henter eller angir automatisk skalering modus for kontrollen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutoScaleMode property specifies the current automatic scaling mode of this control.</source>
+          <target state="translated">Egenskapen AutoScaleMode angir gjeldende automatisk skalering modus for denne kontrollen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful if you want to have a control or form stretch or shrink according to the size of the fonts in the operating system, and should be used when the absolute size of the control or form does not matter.</source>
+          <target state="translated">Skalering av &lt;xref:System.Windows.Forms.AutoScaleMode&gt;er nyttig hvis du vil ha en kontroll- eller stretch eller redusere i henhold til størrelsen på skrifter i operativsystemet og skal brukes når absolutt størrelsen på kontrollen eller skjemaet er likegyldig.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful when you want to size a control or form relative to the screen.</source>
+          <target state="translated">Skalering av &lt;xref:System.Windows.Forms.AutoScaleMode&gt;er nyttig når du vil endre størrelse på en kontroll- eller i forhold til skjermen.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you may want to use dots per inch (DPI) scaling on a control displaying a chart or other graphic so that it always occupies a certain percentage of the screen.</source>
+          <target state="translated">Du kan for eksempel bruke punkt per tomme skalering på en kontroll som viser et diagram eller et annet bilde, slik at det alltid tar en bestemt prosent på skjermen.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk skalering <bpt id="p1">[</bpt>automatisk skalering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current scaling mode.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer gjeldende skalering modus.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdi som ikke er gyldig ble brukt til å angi denne egenskapen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether controls in this container will be automatically validated when the focus changes.</source>
+          <target state="translated">Henter eller angir en verdi som angir om kontroller i denne beholderen automatisk valideres når fokus endres.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for AutoValidate will differ for each control.</source>
+          <target state="translated">Standardverdien for AutoValidate varierer for hver kontroll.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more details on implicit validation, see <bpt id="p1">[</bpt>User Input Validation in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer informasjon om implisitt validering i <bpt id="p1">[</bpt>bruker inndataene validering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to a new value will raise the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt; event.</source>
+          <target state="translated">Når egenskapen settes til en ny verdi skal opphøyes i &lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;hendelsen.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerated value that indicates whether contained controls are implicitly validated on focus change.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> listes opp verdi som angir om inneholder kontroller valideres implisitt ved endring av fokus.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdi som ikke er gyldig ble brukt til å angi denne egenskapen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property changes.</source>
+          <target state="translated">Forekommer når den &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;egenskapsendringer.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om behandling av hendelser <bpt id="p1">[</bpt>hendelser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">Henter eller angir den <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for kontrollen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for kontrollen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the &lt;xref:System.Windows.Forms.Control.ImeMode*&gt; property can be set to an active value, to enable IME support.</source>
+          <target state="translated">Henter en verdi som angir om den &lt;xref:System.Windows.Forms.Control.ImeMode*&gt;egenskapen kan settes til en aktiv verdi å aktivere støtte for IME.&lt;/xref:System.Windows.Forms.Control.ImeMode*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> and later, IME functionality is handled by the framework and native IME support for individual controls is disabled.</source>
+          <target state="translated">I de <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> senere IME funksjonalitet behandles av rammeverket og opprinnelige IME støtte for individuelle kontroller er deaktivert.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A user control that derives from the &lt;xref:System.Windows.Forms.ContainerControl&gt; class can enable native IME support by overriding this property to return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">En brukerkontroll som er avledet fra den &lt;xref:System.Windows.Forms.ContainerControl&gt;klassen kan aktivere støtte for opprinnelige IME ved å overstyre denne til å returnere <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the application is then responsible for making sure that there are no conflicts between the native IME and the Windows Forms IME.</source>
+          <target state="translated">Programmet er deretter ansvarlig for å kontrollere at det finnes ingen konflikter mellom opprinnelig IME og Windows Forms IME.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This scenario is not supported.</source>
+          <target state="translated">Dette scenariet støttes ikke.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i alle tilfeller.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the required creation parameters when the control handle is created.</source>
+          <target state="translated">Henter oppretting av nødvendige parameterne når kontrollen referansen opprettes.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the required creation parameters when the handle to the control is created.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder de nødvendige oppretting parameterne når håndtaket for kontrollen som er opprettet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the current run-time dimensions of the screen.</source>
+          <target state="translated">Henter gjeldende kjøretid dimensjonene på skjermen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CurrentAutoScaleDimensions property represents the reference dimensions on the current screen.</source>
+          <target state="translated">Egenskapen CurrentAutoScaleDimensions representerer referanse dimensjonene på denne skjermen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; property represents the design-time reference dimensions of the design environment for the current control, while the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt; property is the ratio of the two.</source>
+          <target state="translated">Sammenligning av &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;egenskapen representerer utformingen referanse dimensjoner utformingsmiljøet for gjeldende kontroll mens den &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt;egenskapen er forholdet mellom to.&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interpretation of the dimension value depends on the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property in the following ways:      -   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the resolution of the screen, in dots per inch.</source>
+          <target state="translated">Tolkning av dimensjonsverdien for er avhengig av &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;egenskap i følgende: - Hvis modus er &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, denne egenskapen representerer løsningen på skjermen, i punkt per tomme.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the average font character size in pixels.</source>
+          <target state="translated">-Hvis modus er &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, denne egenskapen representerer gjennomsnittlig tegn skriftstørrelsen i piksler.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property is set to &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, CurrentAutoScaleDimensions is set equal to &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.</source>
+          <target state="translated">Hvis &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;egenskapen er satt til &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, CurrentAutoScaleDimensions satt til &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk skalering <bpt id="p1">[</bpt>automatisk skalering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the current dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size of the screen.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder gjeldende punkt per tomme eller <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> størrelsen på skjermen.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A Win32 device context could not be created for the current screen.</source>
+          <target state="translated">Kan ikke opprette en Win32 enheten konteksten for gjeldende skjermen.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and its child controls and optionally releases the managed resources.</source>
+          <target state="translated">Frigir uforvaltede ressursene som brukes av den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> og underordnet kontrollerer frigir eventuelt administrerte ressurser.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>å frigjøre både administrerte og uforvaltede ressurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> frigi bare uforvaltede ressurser.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Opprettet en hendelse aktiverer hendelsesbehandlingen via en representant.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>hendelser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnAutoValidateChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnAutoValidateChanged kan også avledede klasser behandle hendelsen uten å knytte representant.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dette er den foretrukne metoden for behandling av hendelsen i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som inneholder Hendelsesdata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Windows.Forms.Control.CreateControl*&gt; method.</source>
+          <target state="translated">Hever den &lt;xref:System.Windows.Forms.Control.CreateControl*&gt;metoden.&lt;/xref:System.Windows.Forms.Control.CreateControl*&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing the font used by a &lt;xref:System.Windows.Forms.ContainerControl&gt; will cause the layout to be recalculated and reapplied to the contained controls if the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property has a value of &lt;xref:System.Windows.Forms.AutoScaleMode&gt;.</source>
+          <target state="translated">Endre skriften som brukes av en &lt;xref:System.Windows.Forms.ContainerControl&gt;vil føre til at oppsettet beregnes på nytt og på nytt inneholder kontrollene Hvis &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;egenskapen har en verdi for &lt;xref:System.Windows.Forms.AutoScaleMode&gt;.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Opprettet en hendelse aktiverer hendelsesbehandlingen via en representant.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>hendelser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnFontChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnFontChanged kan også avledede klasser behandle hendelsen uten å knytte representant.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dette er den foretrukne metoden for behandling av hendelsen i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som inneholder Hendelsesdata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder hendelsesdataene.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som inneholder Hendelsesdata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the form that the container control is assigned to.</source>
+          <target state="translated">Henter skjemaet beholderkontrollen er tilordnet.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the container control is assigned to.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som beholderkontrollen er tilordnet.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This property will return null if the control is hosted inside of Internet Explorer or in another hosting context where there is no parent form.</source>
+          <target state="translated">Denne egenskapen returnerer null Hvis kontrollen er plassert inne i Internet Explorer eller i konteksten for en annen verts der det er ingen overordnede skjemaet.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Performs scaling of the container control and its children.</source>
+          <target state="translated">Utfører skalering av beholderkontrollen og underordnede elementer.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An explicit call to the PerformAutoScale method is typically only required after programmatic changes to the layout during run time.</source>
+          <target state="translated">Et eksplisitt kall til metoden PerformAutoScale er vanligvis kreves bare etter programmatisk endringer i oppsettet under kjøring.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PerformAutoScale is implicitly called from the &lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt; method.</source>
+          <target state="translated">PerformAutoScale kalles implisitt fra den &lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;metoden.&lt;/xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PerformAutoScale is recursive; each child control, if it is a container, will have its version of this method called when the container's version executes.</source>
+          <target state="translated">PerformAutoScale er rekursivt; hver underordnede kontrollen får hvis den er en beholder versjonen av denne metoden kalles når beholderen versjon utfører.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om automatisk skalering <bpt id="p1">[</bpt>automatisk skalering i Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Processes a command key.</source>
+          <target state="translated">Behandler en nøkkel for kommandoen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, passed by reference, that represents the window message to process.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, referert som representerer vinduet meldingen for å behandle.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som representerer nøkkelen til å behandle.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis tegnet ble behandlet av kontrollen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Processes a dialog character.</source>
+          <target state="translated">Behandler tegnet dialogboksen.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">Tegnet som brukes til å behandle.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis tegnet ble behandlet av kontrollen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Processes a dialog key.</source>
+          <target state="translated">Behandler en dialogboksen nøkkel.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som representerer nøkkelen til å behandle.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis nøkkelen ble behandlet av kontrollen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Processes a mnemonic character.</source>
+          <target state="translated">Behandler etikettens tegn.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">Tegnet som brukes til å behandle.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed as a mnemonic by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis tegnet ble behandlet som en mnemonisk av kontrollen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Selects the next available control and makes it the active control.</source>
+          <target state="translated">Velger neste tilgjengelige kontrollen, og gjør det aktive kontroll.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control with its &lt;xref:System.Windows.Forms.Control.TabStop%2A&gt; property set to <ph id="ph1">`false`</ph> cannot be selected, so the next available control will be selected.</source>
+          <target state="translated">En kontroll med den &lt;xref:System.Windows.Forms.Control.TabStop%2A&gt;-egenskapen satt til <ph id="ph1">`false`</ph> kan ikke velges, slik at den neste tilgjengelige kontrollen velges.&lt;/xref:System.Windows.Forms.Control.TabStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to cycle forward through the controls in the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Videresend Bla gjennom kontrollene i den <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a control is selected; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis en kontroll er merket. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Activates a child control.</source>
+          <target state="translated">Aktiverer en underordnet kontroll.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Optionally specifies the direction in the tab order to select the control from.</source>
+          <target state="translated">Angir retningen i kategorirekkefølgen til å velge kontrollen fra.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify the direction of the control to select; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Angi retningen for kontrollen for å merke; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to move forward in the tab order; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to move backward in the tab order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>å flytte fremover i kategorien rekkefølge. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> å flytte bakover i kategorien.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Activates the specified control.</source>
+          <target state="translated">Aktiverer den angitte kontrollen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`control`</ph> parameter must be a child of the container control.</source>
+          <target state="translated">Den <ph id="ph1">`control`</ph> parameteren må være en underordnet kontrollens beholderen.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to activate.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> å aktivere.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control is successfully activated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis kontrollen er aktivert; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When overridden by a derived class, updates which button is the default button.</source>
+          <target state="translated">Når overstyres av en avledet klasse, oppdaterer du-knappen som er standard.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl&gt; class does not provide an implementation for the UpdateDefaultButton method.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Forms.ContainerControl&gt;klassen leverer ikke implementering for metoden UpdateDefaultButton.&lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that inherit this method must implement UpdateDefaultButton to update the default button.</source>
+          <target state="translated">Klasser som arver denne metoden må implementere UpdateDefaultButton for å oppdatere standardknappen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control losing focus by causing the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> events to occur, in that order.</source>
+          <target state="translated">Kontrollerer verdien for kontrollen å miste fokus av fører til at den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> og <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hendelsene, i denne rekkefølgen.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;metoden validerer siste underordnede kontrollen ikke er validert og de overordnede elementene opp via, men ikke inkludert gjeldende beholderkontroll.&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overloaded version always performs validation, regardless of the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent.</source>
+          <target state="translated">Denne overbelastet versjonen alltid utfører validering, uavhengig av verdien for den &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;for kontrollens overordnede.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore use it to unconditionally force validation.</source>
+          <target state="translated">Derfor bruke den uten betingelser tvinge validering.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis validering er fullført. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis kalles fra den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hendelsesbehandling, denne metoden tilbakestiller alltid <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control that is losing focus; conditionally dependent on whether automatic validation is turned on.</source>
+          <target state="translated">Kontrollerer verdien for kontrollen som er å miste fokus. betinget avhengig av om automatisk validering er aktivert.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;metoden validerer siste underordnede kontrollen ikke er validert og de overordnede elementene opp via, men ikke inkludert gjeldende beholderkontroll.&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overloaded version performs validation based on the following conditions:      -   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`true`</ph>, validation always occurs for child controls that are not validated.</source>
+          <target state="translated">Denne overbelastet versjonen utfører validering basert på følgende: – Hvis den <ph id="ph1">`checkAutoValidate`</ph> parameteren er <ph id="ph2">`true`</ph>, skjer valideringen alltid for underordnede kontroller som ikke er validert.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`false`</ph>, validation occurs only if the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent is enabled.</source>
+          <target state="translated">-Hvis den <ph id="ph1">`checkAutoValidate`</ph> parameteren er <ph id="ph2">`false`</ph>, valideringen skjer bare hvis det &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;for kontrollens overordnet er aktivert.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property is used to determine if validation should be performed; if <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, validation is unconditionally performed.</source>
+          <target state="translated">Hvis <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, verdien for den &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;egenskapen brukes til å finne ut om det skal utføres validering; om <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, validering er utført uten forbehold.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis validering er fullført. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis kalles fra den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hendelsesbehandling, denne metoden tilbakestiller alltid <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">Fører til at alle underordnede kontroller i en kontroll som støtter validering for å validere dataene sine.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ValidateChildren will descend a control's hierarchy and examine each control to see if it supports validation.</source>
+          <target state="translated">ValidateChildren kommer fra en kontroll hierarki, og Undersøk hver kontroll for å se om den støtter validering.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the control can be selected by the user and its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property is <ph id="ph1">`true`</ph>, ValidateChildren will cause the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">Hvis kontrollen kan velges av brukeren, og den &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;egenskapen <ph id="ph1">`true`</ph>, ValidateChildren vil føre til at den &lt;xref:System.Windows.Forms.Control.Validating&gt;hendelsen oppstår.&lt;/xref:System.Windows.Forms.Control.Validating&gt; &lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any of the controls cancel the &lt;xref:System.Windows.Forms.Control.Validating&gt; event, this method will return <ph id="ph1">`false`</ph>; otherwise, it will return <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Hvis noen av kontrollene Avbryt den &lt;xref:System.Windows.Forms.Control.Validating&gt;hendelsen denne metoden tilbakestiller <ph id="ph1">`false`</ph>; Hvis ikke, returneres <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">Hvis en kontroll er bundet til en datakilde, og &lt;xref:System.Windows.Forms.Control.Validating&gt;inntreffer, den vil føre til at kontrollen skal stritter gjeldende data til datakilden.&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling ValidateChildren is equivalent to calling &lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt; with a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; of &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">Kaller ValidateChildren tilsvarer kall &lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;med en &lt;xref:System.Windows.Forms.ValidationConstraints&gt;av &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.&lt;/xref:System.Windows.Forms.ValidationConstraints&gt; &lt;/xref:System.Windows.Forms.ValidationConstraints&gt; &lt;/xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis alle underordnede validert; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis kalles fra den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hendelsesbehandling, denne metoden tilbakestiller alltid <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">Fører til at alle underordnede kontroller i en kontroll som støtter validering for å validere dataene sine.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ValidateChildren will examine all the children of the current control, causing the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur on a control if it meets the criteria spelled out by &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">ValidateChildren vil undersøke alle underordnede noder for den gjeldende kontrollen fører til at &lt;xref:System.Windows.Forms.Control.Validating&gt;hendelsen oppstår etter en kontroll hvis den oppfyller kriteriene fullt ut av &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.&lt;/xref:System.Windows.Forms.ValidationConstraints&gt; &lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may use several &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameters at once by combining them with a bitwise OR operator.</source>
+          <target state="translated">Du kan bruke flere &lt;xref:System.Windows.Forms.ValidationConstraints&gt;Parametere samtidig ved å kombinere dem med en bitvis OR-operator.&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Combining parameters with a bitwise OR operator will result in a logical AND operation.</source>
+          <target state="translated">Kombinerer parametere med en bitvis OR-operator vil føre til en logisk AND-operasjon.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, calling <ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph> will only raise the &lt;xref:System.Windows.Forms.Control.Validating&gt; event on controls that are both immediate children of the container AND are enabled.</source>
+          <target state="translated">For eksempel kaller <ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph> vil bare øke det &lt;xref:System.Windows.Forms.Control.Validating&gt;hendelse på kontroller som er begge umiddelbar underordnet beholderen og er aktivert.&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of which parameters you specify for this method, a control must have its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property set to <ph id="ph1">`true`</ph> in order for its &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">Uansett hvilket parametere som du angir for denne metoden, en kontroll må ha den &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;-egenskapen satt til <ph id="ph1">`true`</ph> for at den &lt;xref:System.Windows.Forms.Control.Validating&gt;hendelsen oppstår.&lt;/xref:System.Windows.Forms.Control.Validating&gt; &lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should also set the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control or of the control's container to <ph id="ph1">`false`</ph> if you want validation to happen only when you call ValidateChildren, and not when the user shifts focus from the control.</source>
+          <target state="translated">Du må også angi den &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;egenskapen kontrollens eller kontrollens beholder til <ph id="ph1">`false`</ph> Hvis du vil validering skal skje når du kaller ValidateChildren, og ikke når brukeren flytter fokus fra kontrollen.&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">Hvis en kontroll er bundet til en datakilde, og &lt;xref:System.Windows.Forms.Control.Validating&gt;inntreffer, den vil føre til at kontrollen skal stritter gjeldende data til datakilden.&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot achieve the opposite effect of a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameter by applying a bitwise negation operator.</source>
+          <target state="translated">Du kan ikke oppnå motsatte en &lt;xref:System.Windows.Forms.ValidationConstraints&gt;parameteren ved å bruke en bitvis negering-operator.&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you supply the negative value of the &lt;xref:System.Windows.Forms.ValidationConstraints&gt; field to ValidateChildren, it will not validate all children that are not visible on the container.</source>
+          <target state="translated">For eksempel hvis du angir den negative verdien for den &lt;xref:System.Windows.Forms.ValidationConstraints&gt;felt til ValidateChildren, vil den ikke validere alle underordnede ikke er synlig på beholderen.&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supplying any negative parameter to ValidateChildren will have no effect on the container or its children.</source>
+          <target state="translated">Oppgir en negativ ValidateChildren-parameter har ingen innvirkning på beholderen eller underordnede elementer.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Places restrictions on which controls have their <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event raised.</source>
+          <target state="translated">Begrensninger som kontroller har sine <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen som opprettes.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis alle underordnede validert; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis kalles fra den <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hendelsesbehandling, denne metoden tilbakestiller alltid <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Processes Windows messages.</source>
+          <target state="translated">Behandler Windows meldinger.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to process.</source>
+          <target state="translated">Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> prosessen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
