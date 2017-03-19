@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5fbb3ffd37f521873bd174d0e6c43f5ea6cb164</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignSurface.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31eabdd959b2cef0bedd96342cc4a9dd677dc66e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cda2d5d2cef10a257c5c490d133a4155eb6d3bfb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Presents a user interface for designing components.</source>
+          <target state="translated">提供的使用者介面設計元件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DesignSurface class implements what the user perceives as a designer.</source>
+          <target state="translated">DesignSurface 類別會實作使用者感知為設計工具。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DesignSurface is the user interface the user manipulates to change design-time features.</source>
+          <target state="translated">DesignSurface 是使用者介面使用者操作來變更設計階段功能。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DesignSurface provides a completely self-contained design surface.</source>
+          <target state="translated">DesignSurface 提供完全獨立的設計介面。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The DesignSurface class may be used as a stand-alone designer, or it may be coupled with the &lt;xref:System.ComponentModel.Design.DesignSurfaceManager&gt; class to provide a common implementation for an application that hosts multiple DesignSurface objects.</source>
+          <target state="translated">DesignSurface 類別可做為獨立的設計工具中，或它可能會令人敬謝&lt;xref:System.ComponentModel.Design.DesignSurfaceManager&gt;類別，以提供裝載多個 DesignSurface 物件的應用程式的通用實作。&lt;/xref:System.ComponentModel.Design.DesignSurfaceManager&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The DesignSurface class can be used by itself, or the user can derive a new class from it and augment the behavior.</source>
+          <target state="translated">DesignSurface 類別可由本身，或使用者可以從中衍生新類別，將它擴大的行為。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The DesignSurface class provides several design-time services automatically.</source>
+          <target state="translated">DesignSurface 類別會自動提供數個設計階段服務。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The DesignSurface class adds all of its services in its constructor.</source>
+          <target state="translated">DesignSurface 類別會將其所有的服務在其建構函式。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Most of these services can be overridden by replacing them in the protected &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; property.</source>
+          <target state="translated">大部分的服務可覆寫並取代在受保護&lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;屬性。&lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To replace a service, override the constructor, call base, and make any changes through the protected &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; property.</source>
+          <target state="translated">若要取代的服務，覆寫建構函式，呼叫基底，並進行任何變更透過受保護&lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;屬性。&lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>All services that are added to the service container and that implement &lt;xref:System.IDisposable&gt; are disposed when the design surface is disposed.</source>
+          <target state="translated">所有服務，會加入至服務容器，以及實作&lt;xref:System.IDisposable&gt;設計介面中遭處置時進行處置。&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The default set of replaceable services that the DesignSurface class provides is shown in the following table.</source>
+          <target state="translated">取代 DesignSurface 類別會提供下表所示的服務預設集。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IExtenderProviderService&gt;|Enables objects that are not part of the container’s components collection to provide their own extender providers.|   |&lt;xref:System.ComponentModel.Design.IExtenderListService&gt;|Used by &lt;xref:System.ComponentModel.TypeDescriptor&gt; to get a list of extender providers.</source>
+          <target state="translated">|服務 |描述 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.IExtenderProviderService&gt;|可讓不屬於容器的元件集合，提供它們自己的擴充性提供者的物件。 |  |&lt;xref:System.ComponentModel.Design.IExtenderListService&gt;|使用&lt;xref:System.ComponentModel.TypeDescriptor&gt;以取得擴充性提供者的清單。&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.Design.IExtenderListService&gt; &lt;/xref:System.ComponentModel.Design.IExtenderProviderService&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>With this service, extender providers can live outside of the container.|   |&lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;|Provides designer metadata hooks.</source>
+          <target state="translated">與此服務中，擴充性提供者可以即時容器之外。 |  |&lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;|提供設計工具中繼資料的攔截程序。&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This is the primary interface for metadata filtering.|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Provides a way to select components in the designer.|   |&lt;xref:System.ComponentModel.Design.IReferenceService&gt;|Provides a way to get a name for objects, even when those objects are not sited.|   |DesignSurface|Offers the design surface itself as a service.|   |&lt;xref:System.ComponentModel.Design.DesignerOptionService&gt;|Provides a base class for getting and setting option values for a designer.|       The following table shows the non-replaceable services provided by default.</source>
+          <target state="translated">這是中繼資料篩選的主要介面。 |  |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|提供方法來設計工具中選取的元件。 |  |&lt;xref:System.ComponentModel.Design.IReferenceService&gt;|提供方法來取得物件的名稱，即使這些物件未設置。 |  |DesignSurface |提供設計介面做為服務。 |  |&lt;xref:System.ComponentModel.Design.DesignerOptionService&gt;|提供基底類別，用於取得和設定選項值，設計工具。 |      下表顯示非可取代預設提供的服務。&lt;/xref:System.ComponentModel.Design.DesignerOptionService&gt; &lt;/xref:System.ComponentModel.Design.IReferenceService&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Raises events as changes are made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Controls access to types, services, and transactions.</source>
+          <target state="translated">|服務 |描述 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|引發事件，對元件進行變更時。 |  |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|控制存取類型、 服務和交易。&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Master interface for designers.|   |&lt;xref:System.ComponentModel.IContainer&gt;|Owns the set of components that are being designed.</source>
+          <target state="translated">針對設計人員的主要介面。 |  |&lt;xref:System.ComponentModel.IContainer&gt;|擁有正在設計的元件組。&lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each designer has an &lt;xref:System.ComponentModel.IContainer&gt; that owns the components.|   |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|Derives from &lt;xref:System.IServiceProvider&gt; and provides a way to add and remove services from the designer.|       In addition to these services, the DesignSurface class also provides a single service that is available through a component’s site.</source>
+          <target state="translated">每個設計工具有&lt;xref:System.ComponentModel.IContainer&gt;擁有的元件。 |  |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|衍生自&lt;xref:System.IServiceProvider&gt;並可提供方法來加入和移除從設計工具的服務。 |      除了這些服務，DesignSurface 類別也提供可透過元件的站台的單一服務。&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.ComponentModel.Design.IServiceContainer&gt; &lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This service is unique for each component.</source>
+          <target state="translated">此服務是唯一的每個元件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following table shows the services that cannot be replaced.</source>
+          <target state="translated">下表會顯示無法取代的服務。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IDictionaryService&gt;|A generic dictionary of key/value pairs that can be used to store arbitrary data about a component.|   |&lt;xref:System.ComponentModel.INestedContainer&gt;|A container that enables a component to add additional child components to the designer.</source>
+          <target state="translated">|服務 |描述 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.IDictionaryService&gt;|泛型字典的索引鍵/值組可以用來儲存有關元件的任意資料。 |  |&lt;xref:System.ComponentModel.INestedContainer&gt;|可讓某個元件加入至設計工具的其他子元件的容器。&lt;/xref:System.ComponentModel.INestedContainer&gt; &lt;/xref:System.ComponentModel.Design.IDictionaryService&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These components will be part of the design surface, but will not participate in serialization.</source>
+          <target state="translated">這些元件將是設計介面的一部分，但不是會參與序列化。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is useful when you want to design a control that is capable of exposing a region of itself in a designer, but you do not want the region to participate in serialization.|       In addition to &lt;xref:System.ComponentModel.ISite&gt;, the site also implements the following interfaces.</source>
+          <target state="translated">當您想要設計的控制項時還能夠公開本身的區域在設計工具中，這非常有用，但您不想要參與序列化的區域。 |      除了&lt;xref:System.ComponentModel.ISite&gt;，站台也會實作下列介面。&lt;/xref:System.ComponentModel.ISite&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Check for the existence of these interfaces, rather than use indiscriminate casting, because other site implementations may not implement them.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 檢查是否存在這些介面，而不是使用任意的轉型，因為其他站台的實作可能無法實作它們。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|Provides a way to get to the container of site-specific services.</source>
+          <target state="translated">|服務 |描述 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|提供方法來取得特定站台服務的容器。&lt;/xref:System.ComponentModel.Design.IServiceContainer&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, &lt;xref:System.ComponentModel.Design.IDictionaryService&gt; is a site-specific service.</source>
+          <target state="translated">例如，&lt;xref:System.ComponentModel.Design.IDictionaryService&gt;是站台特有的服務。&lt;/xref:System.ComponentModel.Design.IDictionaryService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>With this service, you can add additional site-specific services.|</source>
+          <target state="translated">您可以使用此服務中，新增站台特有的其他服務。 |</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`parentProvide`</ph> is present, designers contained within the surface can retrieve services from the application.</source>
+          <target state="translated">當<ph id="ph1">`parentProvide`</ph>已存在，在介面中所包含的設計工具可以從應用程式中擷取服務。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The parent service provider, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no parent used to resolve services.</source>
+          <target state="translated">父服務提供者，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否用來解析服務沒有父代。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When you use the DesignSurface constructor, it creates a simple designer loader that, in turn, creates a component of the given type and then ends the loading process.</source>
+          <target state="translated">當您使用 DesignSurface 建構函式時，它會建立簡單的設計工具載入器，亦會建立指定類型的元件，並於結束載入程序。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is a straightforward way to create a designer, under the assumption that all saving of state will be done externally.</source>
+          <target state="translated">這是直接的方法建立設計工具中的，假設所有儲存的狀態會在外部完成。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Internally, this calls &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; and passes the root component type.</source>
+          <target state="translated">就內部而言，這會呼叫&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;和傳遞根元件類型。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DesignSurface overload is not affected by &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; DesignSurface 多載不會受到&lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;.&lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt; must be in the service container before the design surface loads.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;載入設計介面之前，必須是服務容器之中。&lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you need access to &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;, call the empty constructor, add the &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt; to the &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; and call &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; with <ph id="ph1">`rootComponentType`</ph>.</source>
+          <target state="translated">如果您需要存取&lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;、 呼叫空的建構函式、 新增&lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;至&lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;呼叫&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;與<ph id="ph1">`rootComponentType`</ph>。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; &lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt; &lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The type of root component to create.</source>
+          <target state="translated">若要建立的根元件的類型。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Using the DesignSurface constructor creates a simple designer loader that creates a component of the given type and then ends the loading process.</source>
+          <target state="translated">使用 DesignSurface 建構函式會建立簡單的設計工具載入器會建立指定類型的元件，然後結束 載入程序。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This is a straightforward way to create a designer, under the assumption that all saving of state will be done externally.</source>
+          <target state="translated">這是直接的方法建立設計工具中的，假設所有儲存的狀態會在外部完成。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Internally, this calls &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; and passes the root component type.</source>
+          <target state="translated">就內部而言，這會呼叫&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;和傳遞根元件類型。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The parent service provider, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no parent used to resolve services.</source>
+          <target state="translated">父服務提供者，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否用來解析服務沒有父代。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The type of root component to create.</source>
+          <target state="translated">若要建立的根元件的類型。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Begins the loading process with the given designer loader.</source>
+          <target state="translated">開始具有指定的設計工具載入器載入程序。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Designer loading can be asynchronous, so the loading may continue to progress after this call has returned.</source>
+          <target state="translated">因此載入可能會繼續進行這個呼叫傳回之後，可以是非同步，設計工具載入。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Attach an event handler to the &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt; event to be notified when the design surface has completed loading.</source>
+          <target state="translated">附加事件處理常式&lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;設計介面已完成載入時收到通知的事件。&lt;/xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>After &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; is called, you can immediately obtain the view for the designer, because designer loaders must provide at least the root component when loading asynchronously.</source>
+          <target state="translated">之後&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;是呼叫，您可以立即取得檢視的設計工具中，因為設計工具載入器必須提供至少根元件時以非同步方式載入。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The designer loader to use for loading the designer.</source>
+          <target state="translated">要用於載入設計工具的設計工具載入器。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;loader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;loader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Begins the loading process.</source>
+          <target state="translated">開始載入程序。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`rootComponentType`</ph> is specified, a default designer loader that simply creates an instance of <ph id="ph2">`rootComponentType`</ph> will be used.</source>
+          <target state="translated">當<ph id="ph1">`rootComponentType`</ph>指定，則預設設計工具載入器，只需要建立的執行個體<ph id="ph2">`rootComponentType`</ph>將使用。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Designer loading can be asynchronous, so the loading may continue to progress after this call has returned.</source>
+          <target state="translated">因此載入可能會繼續進行這個呼叫傳回之後，可以是非同步，設計工具載入。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Attach an event handler to the &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt; event to be notified when the design surface has completed loading.</source>
+          <target state="translated">附加事件處理常式&lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;設計介面已完成載入時收到通知的事件。&lt;/xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>After BeginLoad is called, you can immediately obtain the view for the designer, because designer loaders must provide at least the root component when loading asynchronously.</source>
+          <target state="translated">BeginLoad 呼叫之後，您可以立即取得檢視的設計工具中，因為設計工具載入器必須提供至少根元件以非同步方式載入時。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The BeginLoad method creates an instance of the component type and initializes a designer for this instance.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; BeginLoad 方法會建立元件類型的執行個體，並初始化這個執行個體的設計工具。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignSurface.Loaded&gt; event is raised before this method returns.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.DesignSurface.Loaded&gt;此方法傳回之前，就會引發事件。&lt;/xref:System.ComponentModel.Design.DesignSurface.Loaded&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The type of component to create in design mode.</source>
+          <target state="translated">要在設計模式中建立的元件類型。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation within the design surface.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>設計介面中的實作。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The ComponentContainer property holds all objects that are currently in design mode.</source>
+          <target state="translated">ComponentContainer 屬性會保存目前處於設計模式下的所有物件。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When components are added to ComponentContainer, their designer, if any, is loaded.</source>
+          <target state="translated">當元件加入至 ComponentContainer 時，其設計工具中，如果有的話，會載入。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The component is sited with a site that provides full access to the design surface.</source>
+          <target state="translated">元件設置的網站提供的完整存取權的設計介面。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation within the design surface.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>設計介面中的實作。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates an instance of a component.</source>
+          <target state="translated">建立元件的執行個體。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The CreateComponent method is called by the design surface’s &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt; method to create an instance of a component.</source>
+          <target state="translated">設計介面呼叫 CreateComponent 方法&lt;xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt;方法來建立元件的執行個體。&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The component should be created and added to the public container on the design surface.</source>
+          <target state="translated">應該建立元件，並將它加入至設計介面上的公用容器中。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The type of component to create.</source>
+          <target state="translated">若要建立的元件類型。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The newly created component.</source>
+          <target state="translated">新建立的元件。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;componentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;componentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Creates a designer when a component is added to the container.</source>
+          <target state="translated">將元件加入至容器時，會建立設計工具。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The CreateDesigner method is called by the design surface’s &lt;xref:System.ComponentModel.IContainer&gt; when a component is added to the container.</source>
+          <target state="translated">設計介面呼叫 CreateDesigner 方法&lt;xref:System.ComponentModel.IContainer&gt;元件加入至容器中時。&lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This method creates a designer, but does not initialize it.</source>
+          <target state="translated">這個方法會建立設計工具，但不會初始化。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When it returns, the designer is initialized by the container.</source>
+          <target state="translated">當它傳回時，設計工具是由容器初始化。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>CreateDesigner can create two different types of designers: root designers and normal designers.</source>
+          <target state="translated">CreateDesigner 可以建立兩個不同類型的設計工具︰ 根設計工具和一般設計工具。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A root designer is a designer for the root component in the design surface, which by definition is the first component added to the container.</source>
+          <target state="translated">根目錄設計工具是在設計介面中，它的定義是新增至容器的第一個元件的根元件的設計工具。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Root designers differ from normal designers because they are responsible for the user interface presented to the end user.</source>
+          <target state="translated">與一般設計工具的根目錄設計工具不同，因為他們負責顯示給使用者的使用者介面。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Root designers typically coordinate with the rest of the designers on a design surface to provide this interface.</source>
+          <target state="translated">根目錄設計工具通常會協調設計介面上設計工具，可提供此介面的其餘部分。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default implementation of this method delegates to &lt;xref:System.ComponentModel.TypeDescriptor&gt;, passing in &lt;xref:System.ComponentModel.Design.IRootDesigner&gt; as the designer type for root designers, or &lt;xref:System.ComponentModel.Design.IDesigner&gt; for normal designers.</source>
+          <target state="translated">這個方法的預設實作會委派至&lt;xref:System.ComponentModel.TypeDescriptor&gt;，並傳入&lt;xref:System.ComponentModel.Design.IRootDesigner&gt;為根目錄設計工具，設計工具的型別或&lt;xref:System.ComponentModel.Design.IDesigner&gt;一般設計工具。&lt;/xref:System.ComponentModel.Design.IDesigner&gt; &lt;/xref:System.ComponentModel.Design.IRootDesigner&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can override this method to request a specific type of designer.</source>
+          <target state="translated">您可以覆寫這個方法來要求特定類型的設計工具。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The component for which the designer should be created.</source>
+          <target state="translated">應建立在設計工具元件。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a root designer; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create a normal designer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要建立的根設計工具;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>來建立一般的設計工具。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An instance of the requested designer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no matching designer could be found.</source>
+          <target state="translated">要求的設計工具中，執行個體或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找不到相符的設計工具。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the given type.</source>
+          <target state="translated">建立給定型別的執行個體。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`type`</ph> is an &lt;xref:System.ComponentModel.IComponent&gt;, CreateInstance searches for a constructor of type &lt;xref:System.ComponentModel.IContainer&gt; first, followed by an empty constructor.</source>
+          <target state="translated">如果<ph id="ph1">`type`</ph>是&lt;xref:System.ComponentModel.IComponent&gt;，類型的建構函式會搜尋 CreateInstance&lt;xref:System.ComponentModel.IContainer&gt;首先，後面接著空的建構函式。&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The type to create.</source>
+          <target state="translated">要建立的類型。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The newly created object.</source>
+          <target state="translated">新建立的物件。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Creates a container suitable for nesting controls or components.</source>
+          <target state="translated">建立適用於巢狀控制項或元件的容器。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Adding a component to a nested container creates its designer and makes it eligible for all services available from the design surface.</source>
+          <target state="translated">將元件加入巢狀容器會建立它的設計工具並使其適合所有服務可從設計介面。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Components added to nested containers do not participate in serialization.</source>
+          <target state="translated">加入巢狀容器的元件不會參與序列化。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The component that manages the nested container.</source>
+          <target state="translated">管理巢狀的容器的元件。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The nested container.</source>
+          <target state="translated">巢狀的容器。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Creates a container suitable for nesting controls or components.</source>
+          <target state="translated">建立適用於巢狀控制項或元件的容器。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Adding a component to a nested container creates its designer and makes it eligible for all services available from the design surface.</source>
+          <target state="translated">將元件加入巢狀容器會建立它的設計工具並使其適合所有服務可從設計介面。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Components added to nested containers do not participate in serialization.</source>
+          <target state="translated">加入巢狀容器的元件不會參與序列化。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can provide an additional name for the CreateNestedContainer method by passing a value into <ph id="ph1">`containerName`</ph>.</source>
+          <target state="translated">您可以藉由傳遞至值提供 CreateNestedContainer 方法的其他名稱<ph id="ph1">`containerName`</ph>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The component that manages the nested container.</source>
+          <target state="translated">管理巢狀的容器的元件。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An additional name for the nested container.</source>
+          <target state="translated">巢狀容器的其他名稱。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The nested container.</source>
+          <target state="translated">巢狀的容器。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源釋出<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The public Dispose method follows the standard &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">公用的 Dispose 方法會依循標準&lt;xref:System.IDisposable&gt;模式。&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Calling this method destroys the design surface.</source>
+          <target state="translated">呼叫這個方法會終結在設計介面。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The protected version of this method is <ph id="ph1">`virtual`</ph> and follows the normal &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">這個方法的受保護的版本是<ph id="ph1">`virtual`</ph>就會遵循一般&lt;xref:System.IDisposable&gt;模式。&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because &lt;xref:System.ComponentModel.Design.DesignSurface&gt; does not have any native code to clean up, it does not have a finalizer that calls &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 因為&lt;xref:System.ComponentModel.Design.DesignSurface&gt;並沒有任何原生程式碼以清除，它並沒有呼叫&lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;。&lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt; finalizer&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If you need to call &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;, you must add a finalizer yourself.</source>
+          <target state="translated">如果您需要呼叫&lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;，您必須自己加入完成項。&lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">當您完成使用&lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;呼叫 Dispose</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; in an unusable state.</source>
+          <target state="translated">Dispose 方法會使&lt;xref:System.ComponentModel.Design.DesignSurface&gt;中無法使用的狀態。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; was occupying.</source>
+          <target state="translated">在呼叫 Dispose 之後，您必須釋放所有參考&lt;xref:System.ComponentModel.Design.DesignSurface&gt;讓記憶體回收行程可以回收記憶體的&lt;xref:System.ComponentModel.Design.DesignSurface&gt;所佔用。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>清除 Unmanaged 資源上<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>實作 Dispose 方法<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 永遠呼叫 Dispose 之後，再放開您的最後一個參考至&lt;xref:System.ComponentModel.Design.DesignSurface&gt;。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">否則，它所使用的資源將不會釋放直到記憶體回收行程呼叫&lt;xref:System.ComponentModel.Design.DesignSurface&gt;物件的<ph id="ph1">`Finalize`</ph>方法。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源釋出<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The public &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose&gt; method follows the standard &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">公用&lt;xref:System.ComponentModel.Design.DesignSurface.Dispose&gt;方法會依循標準&lt;xref:System.IDisposable&gt;模式。&lt;/xref:System.IDisposable&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Calling this method destroys the design surface.</source>
+          <target state="translated">呼叫這個方法會終結在設計介面。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The protected version of this method is <ph id="ph1">`virtual`</ph> and follows the normal &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">這個方法的受保護的版本是<ph id="ph1">`virtual`</ph>就會遵循一般&lt;xref:System.IDisposable&gt;模式。&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because &lt;xref:System.ComponentModel.Design.DesignSurface&gt; does not have any native code to clean up, it does not have a finalizer that calls Dispose.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 因為&lt;xref:System.ComponentModel.Design.DesignSurface&gt;並沒有任何原生程式碼以清除，它並沒有呼叫 Dispose finalizer。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If you need to call Dispose, you must add a finalizer yourself.</source>
+          <target state="translated">如果您需要呼叫 Dispose，您必須自己加入完成項。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">這個方法會呼叫公用<ph id="ph1">`Dispose()`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>叫用受保護<ph id="ph2">`Dispose(Boolean)`</ph>方法<ph id="ph3">`disposing`</ph>參數設定為<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;叫用<ph id="ph1">`Dispose`</ph>與<ph id="ph2">`disposing`</ph>設<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignSurface&gt; references.</source>
+          <target state="translated">當<ph id="ph1">`disposing`</ph>參數為 true，這個方法的任何 managed 物件所持有的資源全部釋出這個&lt;xref:System.ComponentModel.Design.DesignSurface&gt;參考。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">這個方法會叫用<ph id="ph1">`Dispose()`</ph>每個參考物件的方法。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Occurs when the design surface is disposed.</source>
+          <target state="translated">處置設計介面時，就會發生。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The surface is only disposed when the public &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt; method on &lt;xref:System.ComponentModel.Design.DesignSurface&gt; is called.</source>
+          <target state="translated">介面已處置的時，才會公開&lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt;方法&lt;xref:System.ComponentModel.Design.DesignSurface&gt;稱為。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">**</bpt>Design-time Error List<ept id="p1">**</ept> is loading.</source>
+          <target state="translated">取得值，指出是否<bpt id="p1">**</bpt>設計階段錯誤清單<ept id="p1">**</ept>正在載入。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">**</bpt>Design-time Error List<ept id="p2">**</ept> is loading; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">**</bpt>設計階段錯誤清單<ept id="p2">**</ept>已載入，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Serializes changes to the design surface.</source>
+          <target state="translated">將序列化至設計介面的變更。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The Flush method can be called to push changes made to the design surface down to the serializer.</source>
+          <target state="translated">可以呼叫 Flush 方法，以推送至設計介面向序列化程式所做的變更。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This ensures that the design surface and its serialized state are synchronized.</source>
+          <target state="translated">這可確保在設計介面和其序列化的狀態會同步處理。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The actual implementation of this method is forwarded to the designer loader associated with design surface.</source>
+          <target state="translated">這個方法的實際實作轉寄到與設計介面關聯的設計工具載入器。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The designer loader may choose to defer changes until Flush is called, or it may choose to keep the serialized data up to date with all user changes.</source>
+          <target state="translated">設計工具載入器可能會選擇延後的變更，直到排清，或者它可能會選擇要保留的最新狀態的所有使用者變更序列化的資料。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The Flush method ensures that regardless of the model the designer loader chooses to use, the serialized state is synchronized with the actual design surface.</source>
+          <target state="translated">Flush 方法可確保您的設計工具載入器選擇要使用的模型，不論序列化的狀態與同步處理實際的設計介面。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when a call is made to the &lt;xref:System.ComponentModel.Design.DesignSurface.Flush*&gt; method of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">進行呼叫時，就會發生&lt;xref:System.ComponentModel.Design.DesignSurface.Flush*&gt;方法<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.Design.DesignSurface.Flush*&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The designer loader is flushed first, and then the Flushed event is raised.</source>
+          <target state="translated">設計工具載入器會在第一次，排清，則會引發 Flushed 事件。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets a service from the service container.</source>
+          <target state="translated">取得服務從服務容器。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The GetService method retrieves a service in the design surface’s service container.</source>
+          <target state="translated">GetService 方法會擷取在設計介面的服務容器中的服務。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>In addition, this will forward to any service provider that was given to the design surface at construction time.</source>
+          <target state="translated">此外，這個方法會轉送至設計介面在建構階段指定任何服務提供者。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">要擷取的服務類型。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>An object that implements, or is a derived class of, <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service does not exist in the service container.</source>
+          <target state="translated">物件，實作，或為衍生的類別， <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>，或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果服務不存在服務容器中。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the design surface is currently loaded.</source>
+          <target state="translated">取得值，指出目前是否已載入設計介面。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the design surface is currently loaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果目前已載入設計介面。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Occurs when the designer load has completed.</source>
+          <target state="translated">設計工具載入完成時發生。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The Loaded event is raised for successful loads as well as unsuccessful ones.</source>
+          <target state="translated">載入的事件都會引發成功載入，以及失敗的項目。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If code in this event handler throws an exception, the designer is unloaded.</source>
+          <target state="translated">如果此事件處理常式中的程式碼擲回例外狀況，在設計工具將會卸載。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.LoadedEventArgs&gt; object can be used to determine if loading succeeded, and it can also provide a list of errors that occurred during the load.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.LoadedEventArgs&gt;物件可用來判斷如果載入成功，而且同時可提供載入期間發生之錯誤的清單。&lt;/xref:System.ComponentModel.Design.LoadedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Errors can occur for successful loads as well, provided that the serialization system can tolerate errors.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 前提是序列化系統可以容忍錯誤成功的載入，發生錯誤。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Returns a collection of loading errors or a void collection.</source>
+          <target state="translated">傳回載入錯誤或 void 集合的集合。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.ICollection&gt; of loading errors.</source>
+          <target state="translated">A&lt;xref:System.Collections.ICollection&gt;載入錯誤。&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Occurs when the designer is about to be loaded.</source>
+          <target state="translated">在設計工具載入時發生。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.LoadedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.LoadedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.ViewActivated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.ViewActivated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Gets the service container.</source>
+          <target state="translated">取得服務容器。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>At construction time, &lt;xref:System.ComponentModel.Design.DesignSurface&gt; adds default services into this service container.</source>
+          <target state="translated">在建構階段&lt;xref:System.ComponentModel.Design.DesignSurface&gt;將預設的服務加入到此服務容器。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>You can leave the default services in their present state, or you can remove them and replace them with your own.</source>
+          <target state="translated">預設服務處於目前狀態，或者您可以將它們移除並取代它們。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The default services are all demand-created, so there is no loss in performance for adding them at construction time.</source>
+          <target state="translated">預設的服務是所有要求所建立，因此不會遺失任何在建構階段加入它們的效能。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The service container that provides all services to designers contained within the design surface.</source>
+          <target state="translated">設計介面中所包含的設計工具會提供所有服務的服務容器。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Occurs when a designer has finished unloading.</source>
+          <target state="translated">發生於設計工具已卸載完成。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Occurs when a designer is about to unload.</source>
+          <target state="translated">設計工具卸除時發生。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When a designer unloads, the entire state for that designer is destroyed, including the designer’s view.</source>
+          <target state="translated">當設計工具卸載時，就會終結該設計工具的整個狀態，包括設計工具的檢視。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The view should be unparented at this time.</source>
+          <target state="translated">檢視應該會在這次沒有父代。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Gets the view for the root designer.</source>
+          <target state="translated">取得根設計工具的檢視。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; method must be called beforehand to start the loading process.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;必須先啟動載入程序呼叫方法。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>It is possible to return a view before the designer loader finishes loading because the root designer, which supplies the view, is the first object created by the designer loader.</source>
+          <target state="translated">很可能傳回檢視設計工具載入器完成載入，因為根設計工具中，提供檢視，是由設計工具載入器建立的第一個物件之前。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>If a view is unavailable, &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; raises an exception.</source>
+          <target state="translated">如果無法使用，以檢視&lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;引發例外狀況。&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The notion of a view technology is obsolete.</source>
+          <target state="translated">檢視技術概念已過時。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>But, it remains in the interfaces for root designers for backward compatibility.</source>
+          <target state="translated">但是，仍在介面中的回溯相容性的根設計工具。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Its use is hidden from anyone using &lt;xref:System.ComponentModel.Design.DesignSurface&gt; objects.</source>
+          <target state="translated">其用途隱藏的任何人使用&lt;xref:System.ComponentModel.Design.DesignSurface&gt;物件。&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The View property hides view technologies by passing the supported technologies back into the root designer.</source>
+          <target state="translated">檢視屬性隱藏檢視技術，藉由傳遞回根目錄設計工具支援的技術。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The view for the root designer.</source>
+          <target state="translated">根目錄設計工具的檢視。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The design surface is not loading, the designer loader has not yet created a root designer, or the design surface finished the load, but failed.</source>
+          <target state="translated">沒有載入設計介面、 設計工具載入器尚未建立根設計工具或設計介面中完成的負載，但失敗。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>More information may available in the &lt;xref:System.Exception.InnerException*&gt;.</source>
+          <target state="translated">詳細的資訊可能用於&lt;xref:System.Exception.InnerException*&gt;.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The designer loaded, but it does not offer a view compatible with this design surface.</source>
+          <target state="translated">設計工具已載入，但它不提供與這個設計介面相容的檢視。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加至<bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已經過處置。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt; method has been called on <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">發生時&lt;xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt;上呼叫方法<bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If you want to support the &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt; method, your event handler should activate the window for this design surface.</source>
+          <target state="translated">如果您想要支援&lt;xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt;方法，您的事件處理常式應該啟用這個設計介面的視窗。&lt;/xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

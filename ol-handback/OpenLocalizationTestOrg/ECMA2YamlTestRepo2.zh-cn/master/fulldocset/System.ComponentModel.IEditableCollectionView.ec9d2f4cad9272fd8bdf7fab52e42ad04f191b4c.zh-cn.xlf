@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cf028098272ef6fbabca9f520783c2394697c0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.IEditableCollectionView.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f3c579830ca47414030345a7437cdb45abb27ac</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55b40a4a56730b4d965563e651c4b4ccde3a2c23</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods and properties that a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implements to provide editing capabilities to a collection.</source>
+          <target state="translated">定义一些方法和属性， <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>实现它们以向集合提供编辑功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When a collection view implements the IEditableCollectionView interface, you can directly change the underlying collection, if it allows changes to be made, by using the methods and properties that IEditableCollectionView exposes, regardless of the collection's type.</source>
+          <target state="translated">当集合视图实现 IEditableCollectionView 接口时，可以直接更改基础集合中，如果它允许进行更改，使用的方法和 IEditableCollectionView 公开，而不考虑集合的类型的属性。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The types &lt;xref:System.Windows.Controls.ItemCollection&gt;, &lt;xref:System.Windows.Data.BindingListCollectionView&gt;, and &lt;xref:System.Windows.Data.ListCollectionView&gt; are the types that ship with <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> that inherit from &lt;xref:System.Windows.Data.CollectionView&gt;.</source>
+          <target state="translated">类型&lt;xref:System.Windows.Controls.ItemCollection&gt;， &lt;xref:System.Windows.Data.BindingListCollectionView&gt;，和&lt;xref:System.Windows.Data.ListCollectionView&gt;附带类型<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>继承&lt;xref:System.Windows.Data.CollectionView&gt;.&lt;/xref:System.Windows.Data.CollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt; &lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Controls.ItemCollection&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These types also implement the IEditableCollectionView, so you can edit a collection that uses one of those types.</source>
+          <target state="translated">这些类型还实现 IEditableCollectionView，因此，你可以编辑使用这些类型之一的集合。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Controls.ItemCollection&gt;, in particular, is often used because the &lt;xref:System.Windows.Controls.ItemsControl.Items%2A?displayProperty=fullName&gt; property is an &lt;xref:System.Windows.Controls.ItemCollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Controls.ItemCollection&gt;具体而言，因为通常会使用&lt;xref:System.Windows.Controls.ItemsControl.Items%2A?displayProperty=fullName&gt;属性是&lt;xref:System.Windows.Controls.ItemCollection&gt;.&lt;/xref:System.Windows.Controls.ItemCollection&gt; &lt;/xref:System.Windows.Controls.ItemsControl.Items%2A?displayProperty=fullName&gt;&lt;/xref:System.Windows.Controls.ItemCollection&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Adds a new item to the collection.</source>
+          <target state="translated">向集合添加新项。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Calling AddNew begins an add transaction.</source>
+          <target state="translated">调用 AddNew 开始添加事务。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You should call &lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt; or &lt;xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt; to end the add transaction.</source>
+          <target state="translated">应调用&lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;或&lt;xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt;来结束添加事务。&lt;/xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A new item always appears in the collection view.</source>
+          <target state="translated">始终在集合视图中将出现一个新项。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Any filtering, sorting, or grouping that is applied to the view is applied to the new item when &lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt; is called.</source>
+          <target state="translated">任何筛选、 排序或分组操作也将应用于该视图应用到新项时&lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;称为。&lt;/xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The new item that is added to the collection.</source>
+          <target state="translated">新项添加到集合。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a new item can be added to the collection.</source>
+          <target state="translated">获取一个值，该值指示是否可以将新项添加到集合。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ComponentModel.IEditableCollectionView&gt; can add a new item if the following are true:      -   An item can be added to the underlying collection.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.IEditableCollectionView&gt;可以添加新项，如果满足以下条件:-可以将项添加对基础集合。&lt;/xref:System.ComponentModel.IEditableCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, if the collection is read-only, CanAddNew is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">例如，如果该集合为只读的则 CanAddNew 是<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.ComponentModel.IEditableCollectionView&gt; can create an object of the type that is in the collection.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.IEditableCollectionView&gt;可以创建位于集合中的类型的对象。&lt;/xref:System.ComponentModel.IEditableCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, if the collection is of type &lt;xref:System.Collections.ObjectModel.ObservableCollection%601&gt;, the &lt;xref:System.ComponentModel.IEditableCollectionView&gt; must be able to create an object of type <ph id="ph1">`T`</ph>.</source>
+          <target state="translated">例如，如果该集合的类型为&lt;xref:System.Collections.ObjectModel.ObservableCollection%601&gt;、&lt;xref:System.ComponentModel.IEditableCollectionView&gt;必须能够创建类型的对象<ph id="ph1">`T`</ph>。&lt;/xref:System.ComponentModel.IEditableCollectionView&gt; &lt;/xref:System.Collections.ObjectModel.ObservableCollection%601&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a new item can be added to the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以将新项添加到集合;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the collection view can discard pending changes and restore the original values of an edited object.</source>
+          <target state="translated">获取一个值，该值指示集合视图是否可以放弃挂起的更改并还原所编辑对象的原始值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>CanCancelEdit is <ph id="ph1">`true`</ph> if the view supports the notion of "pending changes" on the currently edited item.</source>
+          <target state="translated">CanCancelEdit 是<ph id="ph1">`true`</ph>视图是否支持当前正在编辑的项上的"挂起的更改"的概念。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, a collection view might return <ph id="ph1">`true`</ph> if the edited item implements &lt;xref:System.ComponentModel.IEditableObject&gt;, or if the view has information about the item's state that it can use to roll back changes.</source>
+          <target state="translated">例如，可能会返回一个集合视图<ph id="ph1">`true`</ph>如果编辑的项实现&lt;xref:System.ComponentModel.IEditableObject&gt;，或者如果视图具有它可用来回滚的项的状态信息返回的更改。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>CanCancelEdit is <ph id="ph1">`false`</ph> if the view cannot revert changes on an object.</source>
+          <target state="translated">CanCancelEdit 是<ph id="ph1">`false`</ph>如果视图不能还原上一个对象的更改。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In that case, call &lt;xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt; to cause the view to exit the edit state and provide logic to revert the changes on the object that was edited.</source>
+          <target state="translated">在这种情况下，调用&lt;xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt;以使视图退出编辑状态，并提供逻辑，以还原在编辑过的对象上的更改。&lt;/xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the collection view can discard pending changes and restore the original values of an edited object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果集合视图可以放弃挂起的更改并还原所编辑对象; 的原始值否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Ends the edit transaction and, if possible, restores the original value to the item.</source>
+          <target state="translated">结束编辑事务，并且如果可能，请还原项的原始值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>CancelEdit sets &lt;xref:System.ComponentModel.IEditableCollectionView.CurrentEditItem%2A&gt; to <ph id="ph1">`null`</ph> and causes the collection view to exit the edit state.</source>
+          <target state="translated">CancelEdit 集&lt;xref:System.ComponentModel.IEditableCollectionView.CurrentEditItem%2A&gt;到<ph id="ph1">`null`</ph>，并使集合视图退出编辑状态。&lt;/xref:System.ComponentModel.IEditableCollectionView.CurrentEditItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.ComponentModel.IEditableCollectionView.CanCancelEdit%2A&gt; is <ph id="ph1">`true`</ph>, CancelEdit also restores the original values of the edited object.</source>
+          <target state="translated">如果&lt;xref:System.ComponentModel.IEditableCollectionView.CanCancelEdit%2A&gt;是<ph id="ph1">`true`</ph>，CancelEdit 还将还原所编辑对象的原始值。&lt;/xref:System.ComponentModel.IEditableCollectionView.CanCancelEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Ends the add transaction and discards the pending new item.</source>
+          <target state="translated">结束添加事务并放弃挂起的新项。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether an item can be removed from the collection.</source>
+          <target state="translated">获取一个值，该值指示是否可以从集合中移除项。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>CanRemove is <ph id="ph1">`false`</ph> if the underlying collection is read-only.</source>
+          <target state="translated">删除是<ph id="ph1">`false`</ph>如果基础集合是只读的。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an item can be removed from the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以从集合中移除项否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Ends the edit transaction and saves the pending changes.</source>
+          <target state="translated">结束编辑事务并保存挂起的更改。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Ends the add transaction and saves the pending new item.</source>
+          <target state="translated">结束添加事务并保存挂起的新项。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Any filtering, sorting, or grouping that is applied to the &lt;xref:System.Windows.Data.CollectionView&gt; is applied to the new item when CommitNew is called.</source>
+          <target state="translated">任何筛选、 排序或分组操作也将应用于&lt;xref:System.Windows.Data.CollectionView&gt;CommitNew 调用时应用于新的项。&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the item that is being added during the current add transaction.</source>
+          <target state="translated">获取当前过程中正在添加的项添加事务。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The item that is being added if &lt;xref:System.ComponentModel.IEditableCollectionView.IsAddingNew*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果正在添加的项&lt;xref:System.ComponentModel.IEditableCollectionView.IsAddingNew*&gt;是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.IEditableCollectionView.IsAddingNew*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the item in the collection that is being edited.</source>
+          <target state="translated">获取集合中正在编辑的项。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The item in the collection that is being edited if &lt;xref:System.ComponentModel.IEditableCollectionView.IsEditingItem*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果正在编辑的集合中的项&lt;xref:System.ComponentModel.IEditableCollectionView.IsEditingItem*&gt;是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.IEditableCollectionView.IsEditingItem*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Begins an edit transaction of the specified item.</source>
+          <target state="translated">开始指定项的编辑事务。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The item to edit.</source>
+          <target state="translated">要编辑的项。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether an add transaction is in progress.</source>
+          <target state="translated">获取一个值，该值指示是否正在执行添加事务。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You begin an add transaction by calling &lt;xref:System.ComponentModel.IEditableCollectionView.AddNew%2A&gt; and end the add transaction by calling &lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt; or &lt;xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt;.</source>
+          <target state="translated">通过调用&lt;xref:System.ComponentModel.IEditableCollectionView.AddNew%2A&gt;日期和结束添加事务通过调用&lt;xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;或&lt;xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt;。&lt;/xref:System.ComponentModel.IEditableCollectionView.CancelNew%2A&gt;&lt;/xref:System.ComponentModel.IEditableCollectionView.CommitNew%2A&gt;&lt;/xref:System.ComponentModel.IEditableCollectionView.AddNew%2A&gt;开始添加事务</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an add transaction is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果添加事务正在进行;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether an edit transaction is in progress.</source>
+          <target state="translated">获取一个值，该值指示是否正在执行编辑事务。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You begin an edit transaction by calling &lt;xref:System.ComponentModel.IEditableCollectionView.EditItem%2A&gt; and end the transaction by calling &lt;xref:System.ComponentModel.IEditableCollectionView.CommitEdit%2A&gt; or &lt;xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt;.</source>
+          <target state="translated">通过调用&lt;xref:System.ComponentModel.IEditableCollectionView.EditItem%2A&gt;日期和结束通过调用&lt;xref:System.ComponentModel.IEditableCollectionView.CommitEdit%2A&gt;或&lt;xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt;。&lt;/xref:System.ComponentModel.IEditableCollectionView.CancelEdit%2A&gt;&lt;/xref:System.ComponentModel.IEditableCollectionView.CommitEdit%2A&gt;事务&lt;/xref:System.ComponentModel.IEditableCollectionView.EditItem%2A&gt;开始编辑事务</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an edit transaction is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果编辑事务正在进行;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the position of the new item placeholder in the collection view.</source>
+          <target state="translated">获取或设置集合视图中新项占位符的位置。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the position of the new item placeholder in the collection view.</source>
+          <target state="translated">集合视图中指定新项占位符的位置的枚举值之一。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Removes the specified item from the collection.</source>
+          <target state="translated">从集合中移除指定的项。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`item`</ph> is not in the collection, Remove does nothing.</source>
+          <target state="translated">如果<ph id="ph1">`item`</ph>是不在集合中，删除不执行任何操作。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The item to remove.</source>
+          <target state="translated">要移除的项。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Removes the item at the specified position from the collection.</source>
+          <target state="translated">从集合中移除指定位置处的项。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`index`</ph> is relative to the collection view, not the collection.</source>
+          <target state="translated"><ph id="ph1">`index`</ph>是集合视图，而不是集合相对路径。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, if the collection has 10 items and the view has a &lt;xref:System.ComponentModel.ICollectionView.Filter%2A&gt; so that 7 items appear, the valid values of <ph id="ph1">`index`</ph> are 0 through 6.</source>
+          <target state="translated">例如，如果集合具有 10 项，并且视图具有&lt;xref:System.ComponentModel.ICollectionView.Filter%2A&gt;以便 7 项将出现，有效的值的<ph id="ph1">`index`</ph>为 0 到 6。&lt;/xref:System.ComponentModel.ICollectionView.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The position of the item to remove.</source>
+          <target state="translated">要移除的项的位置。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> is less than 0 or greater than the number of items in the collection view.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph>小于 0 或大于集合视图中的项的数目。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

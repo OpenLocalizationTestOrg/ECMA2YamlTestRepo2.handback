@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5908d5d0edd2c520f9df0e5663e637eb8e199687</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionScope.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">780eb8f19bcee5437f98a20277d66953ec266a66</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0efb73e31bab693ae5bcf0057da20fea807e1bf7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Makes a code block transactional.</source>
+          <target state="translated">Maakt een codeblok transactionele.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Deze klasse kan niet worden overgenomen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Transactions&gt; infrastructure provides both an explicit programming model based on the &lt;xref:System.Transactions.Transaction&gt; class, as well as an implicit programming model using the TransactionScope class, in which transactions are automatically managed by the infrastructure.</source>
+          <target state="translated">De &lt;xref:System.Transactions&gt;infrastructuur biedt zowel een expliciete programmeermodel op basis van de &lt;xref:System.Transactions.Transaction&gt;klasse, evenals een impliciete programmeermodel met behulp van de TransactionScope-klasse, waarin transacties automatisch worden beheerd door de infrastructuur.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  It is recommended that you create implicit transactions using the TransactionScope class, so that the ambient transaction context is automatically managed for you.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Het wordt aanbevolen impliciete transacties met behulp van de klasse TransactionScope te maken, zodat de context van de ambient transactie automatisch voor u wordt beheerd.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should also use the TransactionScope and &lt;xref:System.Transactions.DependentTransaction&gt; class for applications that require the use of the same transaction across multiple function calls or multiple thread calls.</source>
+          <target state="translated">Ook moet u de TransactionScope gebruiken en &lt;xref:System.Transactions.DependentTransaction&gt;klasse voor toepassingen waarvoor het gebruik van dezelfde transactie tussen meerdere functieaanroepen of meerdere thread aanroepen.&lt;/xref:System.Transactions.DependentTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on this model, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Zie voor meer informatie over dit model, de <bpt id="p1">[</bpt>uitvoering van een impliciete transactie met behulp van transactiebereik<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> onderwerp.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on writing a transactional application, see <bpt id="p1">[</bpt>Writing A Transactional Application<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over het schrijven van een transactionele toepassing <bpt id="p1">[</bpt>transactionele toepassing schrijven<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon instantiating a TransactionScope by the <ph id="ph1">`new`</ph> statement, the transaction manager determines which transaction to participate in.</source>
+          <target state="translated">Bij het instantiëren van een TransactionScope door de <ph id="ph1">`new`</ph> -instructie, de transactiebeheerder bepaalt welke transactie deelnemen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once determined, the scope always participates in that transaction.</source>
+          <target state="translated">Zodra bepaald, wordt het bereik altijd deel uitmaakt van die transactie.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision is based on two factors: whether an ambient transaction is present and the value of the <ph id="ph1">`TransactionScopeOption`</ph> parameter in the constructor.</source>
+          <target state="translated">De beslissing is gebaseerd op twee factoren: Hiermee wordt aangegeven of een ambient transactie aanwezig is en de waarde van de <ph id="ph1">`TransactionScopeOption`</ph> parameter in de constructor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ambient transaction is the transaction your code executes in.</source>
+          <target state="translated">De ambient transactie is de transactie die in uw code wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a reference to the ambient transaction by calling the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property of the &lt;xref:System.Transactions.Transaction&gt; class.</source>
+          <target state="translated">U kunt een verwijzing naar de ambient transactie verkrijgen door het aanroepen van de statische &lt;xref:System.Transactions.Transaction.Current%2A&gt;eigenschap van de &lt;xref:System.Transactions.Transaction&gt;klasse.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on how this parameter is used, please see the "Transaction Flow Management" section of the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Voor meer informatie over hoe deze parameter wordt gebruikt, Zie de sectie 'Transactie stromen Management' van de <bpt id="p1">[</bpt>uitvoering van een impliciete transactie met behulp van transactiebereik<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> onderwerp.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no exception occurs within the transaction scope (that is, between the initialization of the TransactionScope object and the calling of its &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; method), then the transaction in which the scope participates is allowed to proceed.</source>
+          <target state="translated">Als er geen uitzondering optreedt binnen het transactiebereik (dat wil zeggen, tussen de initialisatie van de TransactionScope object en de aanroep van de &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;methode), en vervolgens de transactie waarin het bereik deelneemt is toegestaan om door te gaan.&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception does occur within the transaction scope, the transaction in which it participates will be rolled back.</source>
+          <target state="translated">Als een uitzondering binnen het transactiebereik wordt uitgevoerd, wordt de deelneemt transactie teruggedraaid.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When your application completes all work it wants to perform in a transaction, you should call the &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt; method only once to inform that transaction manager that it is acceptable to commit the transaction.</source>
+          <target state="translated">Wanneer uw toepassing al het werk is voltooid wil in een transactie uitvoeren, moet u aanroepen de &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt;methode om te informeren dat transactiebeheerder aanvaardbaar is voor het doorvoeren van de transactie is slechts één keer.&lt;/xref:System.Transactions.TransactionScope.Complete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Failing to call this method aborts the transaction.</source>
+          <target state="translated">Deze methode niet aanroepen niet afbreken van de transactie.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A call to the &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; method marks the end of the transaction scope.</source>
+          <target state="translated">Een aanroep van de &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;methode markeert het einde van het transactiebereik.&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Exceptions that occur after calling this method may not affect the transaction.</source>
+          <target state="translated">Uitzonderingen die optreden na het aanroepen van deze methode kunnen niet van invloed op de transactie.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you modify the value of &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a scope, an exception is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called.</source>
+          <target state="translated">Als u de waarde van wijzigt &lt;xref:System.Transactions.Transaction.Current%2A&gt;binnen een bereik, een uitzondering gegenereerd wanneer &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;wordt aangeroepen.&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt; &lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, at the end of the scope, the previous value is restored.</source>
+          <target state="translated">Echter, aan het einde van het bereik, moet de vorige waarde wordt teruggezet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, if you call &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; on &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a transaction scope that created the transaction, the transaction aborts at the end of the scope.</source>
+          <target state="translated">Als u bovendien &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;op &lt;xref:System.Transactions.Transaction.Current%2A&gt;binnen een transactiebereik dat de transactie is gemaakt, wordt de transactie afgebroken aan het einde van het bereik.&lt;/xref:System.Transactions.Transaction.Current%2A&gt; &lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new transaction scope with the transaction scope option equal to &lt;xref:System.Transactions.TransactionScopeOption&gt;.</source>
+          <target state="translated">Deze constructor maakt een nieuwe transactie-scope met de transactie scope-optie gelijk zijn aan &lt;xref:System.Transactions.TransactionScopeOption&gt;.&lt;/xref:System.Transactions.TransactionScopeOption&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that a transaction is required by the new scope and the ambient transaction is used if one already exists.</source>
+          <target state="translated">Dit betekent dat een transactie is vereist voor de nieuwe scope en de ambient transactie wordt gebruikt als er al een bestaat.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it creates a new transaction before entering the scope.</source>
+          <target state="translated">Anders maakt het een nieuwe transactie voordat het in het bereik.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse en de opgegeven transactie als de ambient transactie wordt zo ingesteld dat deze transactie maakt gebruik van transactionele werk dat binnen het bereik.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">De transactie die moet worden ingesteld als de ambient transactie zodat transactionele werk dat binnen het bereik maakt gebruik van deze transactie.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified asynchronous flow option.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de optie opgegeven asynchrone stroom.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven vereisten.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven time-outwaarde en de opgegeven transactie als de ambient transactie wordt zo ingesteld dat deze transactie maakt gebruik van transactionele werk dat binnen het bereik.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">De transactie die moet worden ingesteld als de ambient transactie zodat transactionele werk dat binnen het bereik maakt gebruik van deze transactie.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">De &lt;xref:System.TimeSpan&gt;waarna het transactiebereik time-out en de transactie afgebroken.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse en de opgegeven transactie als de ambient transactie wordt zo ingesteld dat deze transactie maakt gebruik van transactionele werk dat binnen het bereik.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">De transactie die moet worden ingesteld als de ambient transactie zodat transactionele werk dat binnen het bereik maakt gebruik van deze transactie.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value and requirements.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven time-outwaarde en vereisten.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">De &lt;xref:System.TimeSpan&gt;waarna het transactiebereik time-out en de transactie afgebroken.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven vereisten.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the <ph id="ph1">`transactionOptions`</ph> parameter to specify an &lt;xref:System.Transactions.IsolationLevel&gt;, and the scope creates a transaction later, the new transaction is associated with the specified isolation level.</source>
+          <target state="translated">Wanneer u gebruikt de <ph id="ph1">`transactionOptions`</ph> parameter om een &lt;xref:System.Transactions.IsolationLevel&gt;, en het bereik wordt gemaakt van een transactie later, de nieuwe transactie is gekoppeld aan het opgegeven isolatieniveau.&lt;/xref:System.Transactions.IsolationLevel&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an isolation level is passed in together with a transaction, the transaction must have an identical isolation level, or an exception is thrown.</source>
+          <target state="translated">Als een isolatieniveau wordt doorgegeven combinatie met een transactie, moet de transactie een identieke isolatieniveau, of er een uitzondering gegenereerd.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -structuur die de transactieopties moet worden gebruikt beschrijft als een nieuwe transactie is gemaakt.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">Als een bestaande transactie wordt gebruikt, wordt de time-outwaarde in deze parameter is van toepassing op het transactiebereik.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">Als dat tijdstip is verstreken voordat de scope wordt verwijderd, wordt de transactie is afgebroken.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements and asynchronous flow option.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven vereisten en de optie asynchrone stroom.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value and COM+ interoperability requirements, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven time-outwaarde en COM + interoperabiliteitsvereisten, en de opgegeven transactie als de ambient transactie wordt zo ingesteld dat deze transactie maakt gebruik van transactionele werk dat binnen het bereik.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Opmerking<ept id="p1">**</ept> maakt gebruik van deze methode &lt;xref:System.Security.Permissions.SecurityAction&gt;om te voorkomen dat deze wordt aangeroepen vanuit niet-vertrouwde code; alleen de onmiddellijke aanroeper is echter vereist dat de <ph id="ph1">`FullTrust`</ph> machtigingenset.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">De transactie die moet worden ingesteld als de ambient transactie zodat transactionele werk dat binnen het bereik maakt gebruik van deze transactie.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">De &lt;xref:System.TimeSpan&gt;waarna het transactiebereik time-out en de transactie afgebroken.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes how the associated transaction interacts with COM+ transactions.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven hoe de gekoppelde transactie samenwerkt met COM +-transacties.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven time-outwaarde en de opgegeven transactie als de ambient transactie wordt zo ingesteld dat deze transactie maakt gebruik van transactionele werk dat binnen het bereik.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">De transactie die moet worden ingesteld als de ambient transactie zodat transactionele werk dat binnen het bereik maakt gebruik van deze transactie.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">De &lt;xref:System.TimeSpan&gt;waarna het transactiebereik time-out en de transactie afgebroken.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, requirements, and asynchronous flow option.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven time-outwaarde, vereisten en asynchrone stroom optie.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">De &lt;xref:System.TimeSpan&gt;waarna het transactiebereik time-out en de transactie afgebroken.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified scope and COM+ interoperability requirements, and transaction options.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met het opgegeven bereik- en interoperabiliteitsvereisten COM +- en transactie-opties.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the <ph id="ph1">`transactionOptions`</ph> parameter to specify an &lt;xref:System.Transactions.IsolationLevel&gt;, and the scope creates a transaction later, the new transaction is associated with the specified isolation level.</source>
+          <target state="translated">Wanneer u gebruikt de <ph id="ph1">`transactionOptions`</ph> parameter om een &lt;xref:System.Transactions.IsolationLevel&gt;, en het bereik wordt gemaakt van een transactie later, de nieuwe transactie is gekoppeld aan het opgegeven isolatieniveau.&lt;/xref:System.Transactions.IsolationLevel&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an isolation level is passed in together with a transaction, the transaction must have an identical isolation level, or an exception is thrown.</source>
+          <target state="translated">Als een isolatieniveau wordt doorgegeven combinatie met een transactie, moet de transactie een identieke isolatieniveau, of er een uitzondering gegenereerd.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Opmerking<ept id="p1">**</ept> maakt gebruik van deze methode &lt;xref:System.Security.Permissions.SecurityAction&gt;om te voorkomen dat deze wordt aangeroepen vanuit niet-vertrouwde code; alleen de onmiddellijke aanroeper is echter vereist dat de <ph id="ph1">`FullTrust`</ph> machtigingenset.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -structuur die de transactieopties moet worden gebruikt beschrijft als een nieuwe transactie is gemaakt.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">Als een bestaande transactie wordt gebruikt, wordt de time-outwaarde in deze parameter is van toepassing op het transactiebereik.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">Als dat tijdstip is verstreken voordat de scope wordt verwijderd, wordt de transactie is afgebroken.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes how the associated transaction interacts with COM+ transactions.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven hoe de gekoppelde transactie samenwerkt met COM +-transacties.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements and asynchronous flow option.</source>
+          <target state="translated">[Ondersteund in de .NET Framework 4.5.1 en latere versies]       Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven vereisten en de optie asynchrone stroom.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die de vereisten van de transactie die is gekoppeld aan dit transactiebereik beschrijft.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -structuur die de transactieopties moet worden gebruikt beschrijft als een nieuwe transactie is gemaakt.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">Als een bestaande transactie wordt gebruikt, wordt de time-outwaarde in deze parameter is van toepassing op het transactiebereik.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">Als dat tijdstip is verstreken voordat de scope wordt verwijderd, wordt de transactie is afgebroken.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">Een exemplaar van de <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die wordt beschreven of de ambient transactie die is gekoppeld aan het transactiebereik worden overgebracht via thread voortzettingen bij gebruik van de taak of async/await .NET asynchrone programmering patronen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Indicates that all operations within the scope are completed successfully.</source>
+          <target state="translated">Hiermee wordt aangegeven dat alle bewerkingen binnen het bereik zijn voltooid.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are satisfied that all operations within the scope are completed successfully, you should call this method only once to inform that transaction manager that the state across all resources is consistent, and the transaction can be committed.</source>
+          <target state="translated">Wanneer u tevreden bent dat alle bewerkingen binnen het bereik zijn voltooid, moet u deze methode slechts eenmaal aanroepen om te informeren over die transactiebeheerder dat de status voor alle resources consistent is en de transactie doorgevoerd worden kan.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is very good practice to put the call as the last statement in the <ph id="ph1">`using`</ph> block.</source>
+          <target state="translated">Het is zeer goed idee om de aanroep als de laatste instructie in de <ph id="ph1">`using`</ph> blok.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on how this method is used, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Zie voor meer informatie over hoe deze methode wordt gebruikt, de <bpt id="p1">[</bpt>uitvoering van een impliciete transactie met behulp van transactiebereik<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> onderwerp.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Failing to call this method aborts the transaction, because the transaction manager interprets this as a system failure, or exceptions thrown within the scope of transaction.</source>
+          <target state="translated">Deze methode niet aanroepen niet afbreken van de transactie omdat de transactiebeheerder wordt dit geïnterpreteerd als een systeemfout is opgetreden of uitzonderingen binnen het bereik van de transactie.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you should also note that calling this method does not guarantee a commit of the transaction.</source>
+          <target state="translated">U moet echter ook vermelden dat u deze methode aanroept wordt niet gegarandeerd dat een doorvoer van de transactie.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is merely a way of informing the transaction manager of your status.</source>
+          <target state="translated">Dit is slechts een manier van de transactiebeheerder van de status van uw wordt geïnformeerd.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling this method, you can no longer access the ambient transaction via the &lt;xref:System.Transactions.Transaction.Current%2A&gt; property, and trying to do so results in an exception being thrown.</source>
+          <target state="translated">Nadat u deze methode aanroept, u kunt geen toegang meer tot de ambient transactie via de &lt;xref:System.Transactions.Transaction.Current%2A&gt;eigenschap en probeert te doen in dat geval resulteert in een uitzondering.&lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual work of commit between the resources manager happens at the <ph id="ph1">`End Using`</ph> statement if the &lt;xref:System.Transactions.TransactionScope&gt; object created the transaction.</source>
+          <target state="translated">Het echte werk van het doorvoeren tussen de bronnen manager vindt plaats op de <ph id="ph1">`End Using`</ph> instructie als de &lt;xref:System.Transactions.TransactionScope&gt;object de transactie is gemaakt.&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it did not create the transaction, the commit occurs whenever &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; is called by the owner of the &lt;xref:System.Transactions.CommittableTransaction&gt; object.</source>
+          <target state="translated">Als deze de transactie niet hebt gemaakt, het doorvoeren deze gebeurtenis treedt op wanneer &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;wordt aangeroepen door de eigenaar van de &lt;xref:System.Transactions.CommittableTransaction&gt;object.&lt;/xref:System.Transactions.CommittableTransaction&gt; &lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At that point the Transaction Manager calls the resource managers and informs them to either commit or rollback, based on whether this method was called on the &lt;xref:System.Transactions.TransactionScope&gt; object.</source>
+          <target state="translated">Op dat moment de transactiebeheerder roept de resource managers en ze worden geïnformeerd commit of rollback, op basis van of deze methode is aangeroepen in de &lt;xref:System.Transactions.TransactionScope&gt;object.&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This method has already been called once.</source>
+          <target state="translated">Deze methode is al één keer aangeroepen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Ends the transaction scope.</source>
+          <target state="translated">Het transactiebereik wordt beëindigd.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method marks the end of the transaction scope.</source>
+          <target state="translated">Deze methode aanroept, markeert het einde van het transactiebereik.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Transactions.TransactionScope&gt; object created the transaction and &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt; was called on the scope, the &lt;xref:System.Transactions.TransactionScope&gt; object attempts to commit the transaction when this method is called.</source>
+          <target state="translated">Als de &lt;xref:System.Transactions.TransactionScope&gt;object de transactie is gemaakt en &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt;is aangeroepen in het bereik, de &lt;xref:System.Transactions.TransactionScope&gt;object probeert de transactie doorvoeren wanneer deze methode wordt aangeroepen.&lt;/xref:System.Transactions.TransactionScope&gt; &lt;/xref:System.Transactions.TransactionScope.Complete%2A&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The use of the C# <ph id="ph1">`using`</ph> construction ensures that this method is called even if an exception occurs.</source>
+          <target state="translated">Het gebruik van de C# <ph id="ph1">`using`</ph> bouw zorgt ervoor dat deze methode wordt aangeroepen, zelfs als er een uitzondering optreedt.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Exceptions that occur after calling this method may not affect the transaction.</source>
+          <target state="translated">Uitzonderingen die optreden na het aanroepen van deze methode kunnen niet van invloed op de transactie.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method also restores the ambient transaction to it original state.</source>
+          <target state="translated">Deze methode ook worden teruggezet in de ambient transactie het oorspronkelijke staat.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Transactions.TransactionAbortedException&gt; is thrown if the transaction is not actually committed.</source>
+          <target state="translated">Een &lt;xref:System.Transactions.TransactionAbortedException&gt;gegenereerd als de transactie niet daadwerkelijk doorgevoerd is.&lt;/xref:System.Transactions.TransactionAbortedException&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is synchronous and blocks until the transaction has been committed or aborted.</source>
+          <target state="translated">Deze methode is synchroon en blokkeert totdat de transactie is doorgevoerd of afgebroken.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of this, you should be extremely careful when using this method in a Windows Form (WinForm) application, or a deadlock can occur.</source>
+          <target state="translated">Wees uiterst voorzichtig wanneer u deze methode in een Windows-formulier (WinForm)-toepassing of een impasse kan optreden als gevolg hiervan.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call this method inside one WinForm Control event (for example, clicking a button), and use the synchronous &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method to direct the control to perform some UI tasks (for example, changing colors) in the middle of processing the transaction, a deadlock will happen.</source>
+          <target state="translated">Als u deze methode binnen één WinForm-besturingselement gebeurtenis (bijvoorbeeld klikken op een knop) aanroepen en de synchrone gebruikt &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;methode om te leiden van het besturingselement voor sommige UI-taken (bijvoorbeeld veranderende kleuren) in het midden van de transactie verwerkt een impasse gebeurt.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method is synchronous and blocks the worker thread until the UI thread finishes its job.</source>
+          <target state="translated">Dit komt doordat de &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;methode synchroon is en de werkthread wordt geblokkeerd tot de UI-thread de taak is voltooid.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in our scenario, the UI thread is also waiting for the worker thread to commit the transaction.</source>
+          <target state="translated">Echter, in ons scenario de UI-thread ook wacht tot de werkthread doorvoeren van de transactie.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is that none is able to proceed and the scope waits indefinitely for the Commit to finish.</source>
+          <target state="translated">Het resultaat is dat geen verder is te gaan en het bereik voor onbepaalde tijd wordt gewacht op de gegevens zijn doorgevoerd.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should use &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt; rather than &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; wherever possible, because it is asynchronous and thus less prone to deadlock.</source>
+          <target state="translated">U moet gebruiken &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;plaats &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;waar mogelijk, omdat deze is asynchroon en derhalve minder gevoelig zijn voor de impasse.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt; &lt;/xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on how this method is used, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Zie voor meer informatie over hoe deze methode wordt gebruikt, de <bpt id="p1">[</bpt>uitvoering van een impliciete transactie met behulp van transactiebereik<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> onderwerp.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

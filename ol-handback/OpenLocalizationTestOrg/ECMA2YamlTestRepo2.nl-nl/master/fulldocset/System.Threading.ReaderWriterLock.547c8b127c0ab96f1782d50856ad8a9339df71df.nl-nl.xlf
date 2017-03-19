@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ec4eb6abc1cdf4de3aec918a6749eb637feb389</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ReaderWriterLock.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e2c24c218a229c81059e01f388a03a2f20ba07c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc33aa4e80118dfe4cd1a4cad4ba16b2cf1248f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a lock that supports single writers and multiple readers.</source>
+          <target state="translated">Hiermee definieert u een vergrendeling die ondersteuning biedt voor één schrijvers en meerdere lezers.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> has two reader-writer locks, &lt;xref:System.Threading.ReaderWriterLockSlim&gt; and ReaderWriterLock.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; De <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> heeft twee lezer schrijver vergrendelingen, &lt;xref:System.Threading.ReaderWriterLockSlim&gt;en ReaderWriterLock.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; is recommended for all new development.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;ontwikkeling van alle nieuwe wordt aanbevolen.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; is similar to ReaderWriterLock, but it has simplified rules for recursion and for upgrading and downgrading lock state.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;is vergelijkbaar met ReaderWriterLock, maar deze regels voor recursie en voor het upgraden en downgraden lock-status heeft vereenvoudigd.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; avoids many cases of potential deadlock.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;veel gevallen van mogelijke deadlock voorkomt.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, the performance of &lt;xref:System.Threading.ReaderWriterLockSlim&gt; is significantly better than ReaderWriterLock.</source>
+          <target state="translated">Daarnaast biedt de prestaties van &lt;xref:System.Threading.ReaderWriterLockSlim&gt;is aanzienlijk beter dan ReaderWriterLock.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReaderWriterLock is used to synchronize access to a resource.</source>
+          <target state="translated">ReaderWriterLock wordt gebruikt voor toegang tot een bron te synchroniseren.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At any given time, it allows either concurrent read access for multiple threads, or write access for a single thread.</source>
+          <target state="translated">Op elk gewenst kunt u gelijktijdige lees-toegang voor meerdere threads of schrijftoegang voor een enkele thread.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a situation where a resource is changed infrequently, a <ph id="ph1">`ReaderWriterLock`</ph> provides better throughput than a simple one-at-a-time lock, such as &lt;xref:System.Threading.Monitor&gt;.</source>
+          <target state="translated">In een situatie waarbij een bron is gewijzigd af en toe een <ph id="ph1">`ReaderWriterLock`</ph> biedt betere doorvoer dan een eenvoudige één-op-een-time-vergrendeling, zoals &lt;xref:System.Threading.Monitor&gt;.&lt;/xref:System.Threading.Monitor&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReaderWriterLock`</ph> works best where most accesses are reads, while writes are infrequent and of short duration.</source>
+          <target state="translated"><ph id="ph1">`ReaderWriterLock`</ph>werkt het beste wanneer de meeste toegang zijn leesbewerkingen schrijfbewerkingen zijn incidentele en van korte duur.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple readers alternate with single writers, so that neither readers nor writers are blocked for long periods.</source>
+          <target state="translated">Lezers van meerdere alternatieve met één schrijvers, zodat lezers noch schrijvers gedurende lange periodes worden geblokkeerd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Holding reader locks or writer locks for long periods will starve other threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Houden lezer vergrendelingen of writer vergrendelingen voor lange periodes andere threads wordt stilleggen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For best performance, consider restructuring your application to minimize the duration of writes.</source>
+          <target state="translated">Houd rekening met uw toepassing te minimaliseren, de duur van schrijfbewerkingen herstructureren voor de beste prestaties.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can hold a reader lock or a writer lock, but not both at the same time.</source>
+          <target state="translated">Een thread kan een lezer bevatten vergrendelen of een vergrendeling writer, maar niet beide op hetzelfde moment.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of releasing a reader lock in order to acquire the writer lock, you can use &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; and &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;.</source>
+          <target state="translated">In plaats van een lezer vergrendeling om de vergrendeling writer, kunt u &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;en &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests increase the lock count on a lock.</source>
+          <target state="translated">Recursieve lock-aanvragen Verhoog het aantal op een vergrendeling.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Readers and writers are queued separately.</source>
+          <target state="translated">En schrijfprogramma zijn in de wachtrij afzonderlijk.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread releases the writer lock, all threads waiting in the reader queue at that instant are granted reader locks; when all of those reader locks have been released, the next thread waiting in the writer queue, if any, is granted the writer lock, and so on.</source>
+          <target state="translated">Wanneer een thread van de schrijver vergrendeling, krijgen alle threads staan in de wachtrij lezer op dat moment lezer vergrendelingen; Wanneer alle van deze reader vergrendelingen zijn vrijgegeven, de volgende thread wachten in de writer wachtrij, indien aanwezig, de writer vergrendeling wordt verleend, enzovoort.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, <ph id="ph1">`ReaderWriterLock`</ph> alternates between a collection of readers, and one writer.</source>
+          <target state="translated">Met andere woorden, <ph id="ph1">`ReaderWriterLock`</ph> schakelen tussen een verzameling van lezers en één writer.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While a thread in the writer queue is waiting for active reader locks to be released, threads requesting new reader locks accumulate in the reader queue.</source>
+          <target state="translated">Terwijl een thread in de wachtrij writer op actieve lezer vergrendelingen worden vrijgegeven wachten, verzamelt threads nieuwe lezer vergrendelingen aanvragen in de wachtrij voor de lezer.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Their requests are not granted, even though they could share concurrent access with existing reader-lock holders; this helps protect writers against indefinite blockage by readers.</source>
+          <target state="translated">Hun aanvragen worden niet verleend, hoewel ze gelijktijdige toegang met bestaande lezervergrendeling houders delen kunnen; Dit beschermt u schrijvers tegen onbepaalde blokkeringen door lezers.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most methods for acquiring locks on a <ph id="ph1">`ReaderWriterLock`</ph> accept time-out values.</source>
+          <target state="translated">De meeste methoden voor het verkrijgen van vergrendelingen op een <ph id="ph1">`ReaderWriterLock`</ph> time-outwaarden accepteren.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use time-outs to avoid deadlocks in your application.</source>
+          <target state="translated">Time-outs gebruiken om te voorkomen dat impassen in uw toepassing.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might acquire the writer lock on one resource and then request a reader lock on a second resource; in the meantime, another thread might acquire the writer lock on the second resource, and request a reader lock on the first.</source>
+          <target state="translated">Bijvoorbeeld, kan een thread vergrendelen voor de schrijver van één resource en vraag een lezervergrendeling op een tweede bron. een andere thread mogelijk in de tussentijd vergrendelen voor de schrijver van de tweede bron en een lezervergrendeling op de eerste aanvraag.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless time-outs are used, the threads deadlock.</source>
+          <target state="translated">Tenzij time-outs worden gebruikt, de impasse threads.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the time-out interval expires and the lock request has not been granted, the method returns control to the calling thread by throwing an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">Als het time-outinterval is verlopen en de vergrendelingsaanvraag is niet verleend, de methode besturingselement naar de aanroepende thread geretourneerd door een &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can catch this exception and determine what action to take next.</source>
+          <target state="translated">Een thread kan deze uitzondering onderschept en bepalen welke actie u nu moet uitvoeren.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Time-outs are expressed in milliseconds.</source>
+          <target state="translated">Time-outs worden uitgedrukt in milliseconden.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use a &lt;xref:System.TimeSpan?displayProperty=fullName&gt; to specify the time-out, the value used is the total number of whole milliseconds represented by the &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">Als u een &lt;xref:System.TimeSpan?displayProperty=fullName&gt;om op te geven van de time-outwaarde is de waarde die het totale aantal hele milliseconden dat wordt vertegenwoordigd door de &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt; &lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the valid time-out values in milliseconds.</source>
+          <target state="translated">De volgende tabel toont de geldige time-outwaarden in milliseconden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Value|Description|   |-----------|-----------------|   |-1|The thread waits until the lock is acquired, regardless of how long it takes.</source>
+          <target state="translated">| Waarde | Beschrijving |   |-----------|-----------------|   | -1 | De thread wacht totdat de vergrendeling wordt verkregen, ongeacht hoe lang het duurt.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For methods that specify integer time-outs, the constant &lt;xref:System.Threading.Timeout.Infinite&gt; can be used.|   |0|The thread does not wait to acquire the lock.</source>
+          <target state="translated">Methoden die time-outs geheel getal opgeven, de constante &lt;xref:System.Threading.Timeout.Infinite&gt;kan worden gebruikt. |   |&amp;0; | De thread wacht niet de vergrendeling.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock cannot be acquired immediately, the method returns.|   |&gt;0|The number of milliseconds to wait.|       With the exception of -1, negative time-out values are not allowed.</source>
+          <target state="translated">De methode retourneert als kan niet onmiddellijk de vergrendeling worden verkregen,. |   | &gt;&amp;0; | Het aantal milliseconden wachttijd. |       Met uitzondering van -1, zijn negatieve time-outwaarden niet toegestaan.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify a negative integer other than -1, a time-out value of zero is used instead.</source>
+          <target state="translated">Als u een negatief geheel getal dan -1 opgeeft, wordt een time-outwaarde van nul in plaats daarvan gebruikt.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(That is, the method returns without waiting, if the lock cannot be acquired immediately.) If you specify a &lt;xref:System.TimeSpan&gt; that represents a negative number of milliseconds other than -1, &lt;xref:System.ArgumentOutOfRangeException&gt; is thrown.</source>
+          <target state="translated">(Dat wil zeggen, de methode retourneert zonder te wachten, als de vergrendeling onmiddellijk kan niet worden opgehaald.) Als u een &lt;xref:System.TimeSpan&gt;die staat voor een negatief aantal milliseconden dan -1, &lt;xref:System.ArgumentOutOfRangeException&gt;gegenereerd.&lt;/xref:System.ArgumentOutOfRangeException&gt; &lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Acquires a reader lock, using an &lt;xref:System.Int32&gt; value for the time-out.</source>
+          <target state="translated">Een lezer verkrijgt vergrendelt, met behulp van een &lt;xref:System.Int32&gt;waarde voor de time-outwaarde.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AcquireReaderLock blocks if a different thread has the writer lock, or if at least one thread is waiting for the writer lock.</source>
+          <target state="translated">AcquireReaderLock wordt geblokkeerd als een andere thread heeft de vergrendeling writer, of als ten minste één thread wacht tot de schrijververgrendeling.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current thread already has the writer lock, no reader lock is acquired.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de huidige thread is al de vergrendeling writer, geen lezervergrendeling wordt verkregen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the lock count on the writer lock is incremented.</source>
+          <target state="translated">In plaats daarvan wordt het aantal op de writer vergrendeling verhoogd.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This prevents a thread from blocking on its own writer lock.</source>
+          <target state="translated">Dit voorkomt dat een thread op een eigen writer vergrendeling worden geblokkeerd.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is exactly the same as calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, and an additional call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; is required when releasing the writer lock.</source>
+          <target state="translated">Het resultaat is precies hetzelfde als het aanroepen &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, en een extra aanroep &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;is vereist bij het vrijgeven van de schrijververgrendeling.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireReaderLock`</ph> supports recursive reader-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireReaderLock`</ph>biedt ondersteuning voor recursieve reader-lock-aanvragen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call AcquireReaderLock multiple times, which increments the lock count each time.</source>
+          <target state="translated">Dat wil zeggen, kan een thread aanroepen AcquireReaderLock meerdere keren dat het aantal oploopt telkens wanneer de.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt; once for each time you call <ph id="ph1">`AcquireReaderLock`</ph>.</source>
+          <target state="translated">U moet aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;eenmaal voor elke keer dat u <ph id="ph1">`AcquireReaderLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">U kunt ook aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;om te beperken het aantal naar nul onmiddellijk.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the reader queue.</source>
+          <target state="translated">Recursieve lock-aanvragen worden altijd onmiddellijk, zonder de aanvragende thread in de wachtrij lezer verleend.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use recursive locks with caution, to avoid blocking writer-lock requests for long periods.</source>
+          <target state="translated">Recursieve vergrendelingen Wees voorzichtig, om te voorkomen dat gedurende lange periodes writer lock-aanvragen worden geblokkeerd.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">De tijdsduur in milliseconden.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Acquires a reader lock, using a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">Een lezer verkrijgt vergrendelt, met behulp van een &lt;xref:System.TimeSpan&gt;waarde voor de time-outwaarde.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt; blocks if a different thread has the writer lock, or if at least one thread is waiting for the writer lock.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt;Als een andere thread heeft de vergrendeling writer, of als ten minste één thread wacht tot de vergrendeling writer blokkeert.&lt;/xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current thread already has the writer lock, no reader lock is acquired.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de huidige thread is al de vergrendeling writer, geen lezervergrendeling wordt verkregen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the lock count on the writer lock is incremented.</source>
+          <target state="translated">In plaats daarvan wordt het aantal op de writer vergrendeling verhoogd.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This prevents a thread from blocking on its own writer lock.</source>
+          <target state="translated">Dit voorkomt dat een thread op een eigen writer vergrendeling worden geblokkeerd.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is exactly the same as calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, and an additional call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; is required when releasing the writer lock.</source>
+          <target state="translated">Het resultaat is precies hetzelfde als het aanroepen &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, en een extra aanroep &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;is vereist bij het vrijgeven van de schrijververgrendeling.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireReaderLock`</ph> supports recursive reader-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireReaderLock`</ph>biedt ondersteuning voor recursieve reader-lock-aanvragen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call AcquireReaderLock multiple times, which increments the lock count each time.</source>
+          <target state="translated">Dat wil zeggen, kan een thread aanroepen AcquireReaderLock meerdere keren dat het aantal oploopt telkens wanneer de.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt; once for each time you call <ph id="ph1">`AcquireReaderLock`</ph>.</source>
+          <target state="translated">U moet aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;eenmaal voor elke keer dat u <ph id="ph1">`AcquireReaderLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">U kunt ook aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;om te beperken het aantal naar nul onmiddellijk.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the reader queue.</source>
+          <target state="translated">Recursieve lock-aanvragen worden altijd onmiddellijk, zonder de aanvragende thread in de wachtrij lezer verleend.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use recursive locks with caution, to avoid blocking writer-lock requests for long periods.</source>
+          <target state="translated">Recursieve vergrendelingen Wees voorzichtig, om te voorkomen dat gedurende lange periodes writer lock-aanvragen worden geblokkeerd.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geven de time-outperiode.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Hiermee geeft u een negatieve waarde dan-1 milliseconden.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Acquires the writer lock, using an &lt;xref:System.Int32&gt; value for the time-out.</source>
+          <target state="translated">De writer verkrijgt vergrendelt, met behulp van een &lt;xref:System.Int32&gt;waarde voor de time-outwaarde.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method blocks if another thread has a reader lock or writer lock.</source>
+          <target state="translated">Deze methode wordt geblokkeerd als een andere thread een lezervergrendeling of writer vergrendelen heeft.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of the way the writer lock alternates with multiple concurrent reader locks, see the &lt;xref:System.Threading.ReaderWriterLock&gt; class.</source>
+          <target state="translated">De writer vergrendeling alternatieven met meerdere gelijktijdige lezer vergrendelingen Zie voor een beschrijving van de manier waarop de &lt;xref:System.Threading.ReaderWriterLock&gt;klasse.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread that already has a reader lock can acquire the writer lock in one of two ways: by releasing the reader lock before calling AcquireWriterLock, or by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">Een thread die al een lezervergrendeling kunt vergrendelen voor de schrijver op twee manieren: door de lezer vergrendeling voordat u AcquireWriterLock aanroept of door het aanroepen van &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If a thread calls <ph id="ph2">`AcquireWriterLock`</ph> while it still has a reader lock, it will block on its own reader lock; if an infinite time-out is specified, the thread will deadlock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Als een thread aanroept <ph id="ph2">`AcquireWriterLock`</ph> terwijl er nog een lezervergrendeling, wordt geblokkeerd op een eigen lezervergrendeling; als een oneindige time-out wordt opgegeven, de thread wordt impasse.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid such deadlocks, use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; to determine whether the current thread already has a reader lock.</source>
+          <target state="translated">Gebruiken om te voorkomen dat dergelijke impassen, &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;om te bepalen of de huidige thread is al een lezervergrendeling.&lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireWriterLock`</ph> supports recursive writer-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireWriterLock`</ph>biedt ondersteuning voor recursieve writer-lock-aanvragen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call <ph id="ph1">`AcquireWriterLock`</ph> multiple times, which increments the lock count each time.</source>
+          <target state="translated">Dat wil zeggen, een thread kan aanroepen <ph id="ph1">`AcquireWriterLock`</ph> meerdere keren dat het aantal telkens wanneer verhoogd.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; once for each time you call <ph id="ph1">`AcquireWriterLock`</ph>.</source>
+          <target state="translated">U moet aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;eenmaal voor elke keer dat u <ph id="ph1">`AcquireWriterLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">U kunt ook aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;om te beperken het aantal naar nul onmiddellijk.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the writer queue.</source>
+          <target state="translated">Recursieve lock-aanvragen worden altijd onmiddellijk, zonder de aanvragende thread in de wachtrij writer verleend.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">De tijdsduur in milliseconden.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Acquires the writer lock, using a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">De writer verkrijgt vergrendelt, met behulp van een &lt;xref:System.TimeSpan&gt;waarde voor de time-outwaarde.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method blocks if another thread has a reader lock or writer lock.</source>
+          <target state="translated">Deze methode wordt geblokkeerd als een andere thread een lezervergrendeling of writer vergrendelen heeft.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of the way the writer lock alternates with multiple concurrent reader locks, see the &lt;xref:System.Threading.ReaderWriterLock&gt; class.</source>
+          <target state="translated">De writer vergrendeling alternatieven met meerdere gelijktijdige lezer vergrendelingen Zie voor een beschrijving van de manier waarop de &lt;xref:System.Threading.ReaderWriterLock&gt;klasse.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread that already has a reader lock can acquire the writer lock in one of two ways: by releasing the reader lock before calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, or by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">Een thread die al een lezervergrendeling kunt vergrendelen voor de schrijver op twee manieren: door de lezer voordat vergrendeling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, of door het aanroepen van &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If a thread calls <ph id="ph2">`AcquireWriterLock`</ph> while it still has a reader lock, it will block on its own reader lock; if an infinite time-out is specified, the thread will deadlock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Als een thread aanroept <ph id="ph2">`AcquireWriterLock`</ph> terwijl er nog een lezervergrendeling, wordt geblokkeerd op een eigen lezervergrendeling; als een oneindige time-out wordt opgegeven, de thread wordt impasse.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid such deadlocks, use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; to determine whether the current thread already has a reader lock.</source>
+          <target state="translated">Gebruiken om te voorkomen dat dergelijke impassen, &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;om te bepalen of de huidige thread is al een lezervergrendeling.&lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireWriterLock`</ph> supports recursive writer-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireWriterLock`</ph>biedt ondersteuning voor recursieve writer-lock-aanvragen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call <ph id="ph1">`AcquireWriterLock`</ph> multiple times, which increments the lock count each time.</source>
+          <target state="translated">Dat wil zeggen, een thread kan aanroepen <ph id="ph1">`AcquireWriterLock`</ph> meerdere keren dat het aantal telkens wanneer verhoogd.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; once for each time you call <ph id="ph1">`AcquireWriterLock`</ph>.</source>
+          <target state="translated">U moet aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;eenmaal voor elke keer dat u <ph id="ph1">`AcquireWriterLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">U kunt ook aanroepen &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;om te beperken het aantal naar nul onmiddellijk.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the writer queue.</source>
+          <target state="translated">Recursieve lock-aanvragen worden altijd onmiddellijk, zonder de aanvragende thread in de wachtrij writer verleend.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geven de time-outperiode.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Hiermee geeft u een negatieve waarde dan-1 milliseconden.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Indicates whether the writer lock has been granted to any thread since the sequence number was obtained.</source>
+          <target state="translated">Hiermee wordt aangegeven of de schrijververgrendeling is toegekend aan een willekeurige thread sinds het volgnummer is verkregen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use &lt;xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt; and <ph id="ph1">`AnyWritersSince`</ph> to improve application performance.</source>
+          <target state="translated">U kunt &lt;xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt;en <ph id="ph1">`AnyWritersSince`</ph> voor het verbeteren van de prestaties van toepassingen.&lt;/xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might cache the information it obtains while holding a reader lock.</source>
+          <target state="translated">Een thread kan bijvoorbeeld de informatie die wordt verkregen terwijl een lezervergrendeling cache.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After releasing and later reacquiring the lock, the thread can use <ph id="ph1">`AnyWritersSince`</ph> to determine whether other threads have written to the resource in the interim; if not, the cached information can be used.</source>
+          <target state="translated">Na vrijgeven en later uit de vergrendeling wordt de thread kunt <ph id="ph1">`AnyWritersSince`</ph> om te bepalen of andere threads zijn geschreven naar de resource in de tussentijd; zo niet, de gegevens in cache kan worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This technique is useful where reading the information protected by the lock is expensive; for example, running a database query.</source>
+          <target state="translated">Dit is handig wanneer Lees de informatie die wordt beveiligd door de vergrendeling is dure; bijvoorbeeld, een databasequery wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller must be holding a reader lock or a writer lock in order for the sequence number to be useful.</source>
+          <target state="translated">De aanroeper moet houdt een lezervergrendeling of een vergrendeling writer om het volgnummer nuttig.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The sequence number.</source>
+          <target state="translated">Het volgnummer.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the writer lock has been granted to any thread since the sequence number was obtained; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de writer vergrendeling is toegekend aan een willekeurige thread sinds het volgnummer is verkregen; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Restores the lock status of the thread to what it was before &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt; was called.</source>
+          <target state="translated">De status van de activeringsvergrendeling van de thread herstelt die voordat was &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;is aangeroepen.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DowngradeFromWriterLock releases the writer lock, regardless of the recursive lock count, and restores the reader lock that was held by the thread before upgrading to the writer lock.</source>
+          <target state="translated">DowngradeFromWriterLock de vergrendeling writer, ongeacht het aantal recursieve, en herstelt u de lezervergrendeling die vóór de upgrade naar de vergrendeling writer is veroorzaakt door de thread.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lock count on the reader lock is restored.</source>
+          <target state="translated">Het aantal op de lezervergrendeling is hersteld.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">`DowngradeFromWriterLock`</ph> accepts a &lt;xref:System.Threading.LockCookie&gt; obtained by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> <ph id="ph2"> &gt;  </ph> <ph id="ph3">`DowngradeFromWriterLock`</ph> accepteert een &lt;xref:System.Threading.LockCookie&gt;door het aanroepen van &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; verkregen&lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use a <ph id="ph1">`LockCookie`</ph> returned by &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.</source>
+          <target state="translated">Gebruik niet een <ph id="ph1">`LockCookie`</ph> geretourneerd door &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread does not block when downgrading from the writer lock, even if other threads are waiting for the writer lock, because all reader-lock requests are granted when the writer lock is released.</source>
+          <target state="translated">Een thread worden niet geblokkeerd wanneer het downgraden van de vergrendeling writer, zelfs als er andere threads wacht totdat de vergrendeling writer omdat alle lezervergrendeling aanvragen worden verleend als de writer vergrendeling wordt vrijgegeven.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned by &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geretourneerd door &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The thread does not have the writer lock.</source>
+          <target state="translated">De thread heeft niet de vergrendeling writer.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The address of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockCookie</ph><ept id="p1">&lt;/code&gt;</ept> is a null pointer.</source>
+          <target state="translated">Het adres van <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockCookie</ph> <ept id="p1">&lt;/code&gt;</ept> is een null-aanwijzer.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Ensures that resources are freed and other cleanup operations are performed when the garbage collector reclaims the <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Zorgt ervoor dat resources zijn vrijgegeven en andere opschonen-bewerkingen worden uitgevoerd wanneer de garbage collector indexrijen de <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The garbage collector calls Finalize when the current &lt;xref:System.Threading.ReaderWriterLock&gt; object is ready to be finalized.</source>
+          <target state="translated">De garbage collector aanroepen voltooien wanneer de huidige &lt;xref:System.Threading.ReaderWriterLock&gt;object is gereed om te worden voltooid.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current thread holds a reader lock.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de huidige thread een lezervergrendeling, opgehaald.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current thread holds a reader lock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de huidige thread een lezervergrendeling bevat; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current thread holds the writer lock.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de huidige thread de schrijververgrendeling bevat.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current thread holds the writer lock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de huidige thread de vergrendeling writer bevat; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Releases the lock, regardless of the number of times the thread acquired the lock.</source>
+          <target state="translated">De vergrendeling, ongeacht het aantal keren dat de thread de vergrendeling verkregen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseLock releases the reader lock or writer lock, regardless of the recursive lock count.</source>
+          <target state="translated">ReleaseLock versies de lezervergrendeling of writer vergrendelen, ongeacht het aantal recursieve.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the state of the lock, including the lock count, pass the &lt;xref:System.Threading.LockCookie&gt; to &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">Voor het herstellen van de status van de vergrendeling, met inbegrip van het aantal, de doorgeven &lt;xref:System.Threading.LockCookie&gt;aan &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt; &lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value representing the released lock.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -waarde voor de uitgebrachte vergrendeling.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Decrements the lock count.</source>
+          <target state="translated">Vermindert de vergrendeling tellen.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseReaderLock decrements the lock count.</source>
+          <target state="translated">ReleaseReaderLock verlaagt de vergrendeling tellen.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the count reaches zero, the lock is released.</source>
+          <target state="translated">Wanneer het aantal nul is, wordt de vergrendeling wordt vrijgegeven.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a thread has the writer lock, calling <ph id="ph2">`ReleaseReaderLock`</ph> has the same effect as calling &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Aanroepen als een thread de vergrendeling writer heeft, <ph id="ph2">`ReleaseReaderLock`</ph> heeft hetzelfde effect als het aanroepen van &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a thread has no locks, calling <ph id="ph1">`ReleaseReaderLock`</ph> throws an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">Als een thread geen vergrendelingen heeft, aanroepen van <ph id="ph1">`ReleaseReaderLock`</ph> genereert een &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The thread does not have any reader or writer locks.</source>
+          <target state="translated">De thread heeft geen een lezer of writer vergrendelingen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Decrements the lock count on the writer lock.</source>
+          <target state="translated">Vermindert de vergrendeling count voor de schrijververgrendeling.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseWriterLock decrements the writer lock count.</source>
+          <target state="translated">ReleaseWriterLock verlaagt de vergrendeling writer tellen.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the count reaches zero, the writer lock is released.</source>
+          <target state="translated">Wanneer het aantal nul is, wordt de vergrendeling writer vrijgegeven.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a thread has a reader lock, or no locks, calling <ph id="ph2">`ReleaseWriterLock`</ph> throws an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Aanroepen als een thread een lezervergrendeling of geen vergrendelingen heeft, <ph id="ph2">`ReleaseWriterLock`</ph> genereert een &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The thread does not have the writer lock.</source>
+          <target state="translated">De thread heeft niet de vergrendeling writer.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Restores the lock status of the thread to what it was before calling &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.</source>
+          <target state="translated">De status van de activeringsvergrendeling van de thread herstelt die was voordat u &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The state restored by <ph id="ph1">`RestoreLock`</ph> includes the recursive lock count.</source>
+          <target state="translated">De status hersteld door <ph id="ph1">`RestoreLock`</ph> bevat het aantal recursieve.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread blocks if it tries to restore a reader lock after another thread has acquired the writer lock, or if it tries to restore the writer lock after another thread has acquired a reader lock or writer lock.</source>
+          <target state="translated">Een thread-blokken als deze probeert een lezervergrendeling herstellen nadat de vergrendeling writer heeft verkregen door een andere thread of als deze probeert de vergrendeling writer herstellen nadat een andere thread heeft een lezervergrendeling of writer vergrendeling verkregen.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because <ph id="ph1">`RestoreLock`</ph> does not accept a time-out, you should take care to avoid possible deadlocks.</source>
+          <target state="translated">Omdat <ph id="ph1">`RestoreLock`</ph> accepteert geen is een time-out u om te voorkomen dat mogelijk impassen moet behandelen.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Before calling <ph id="ph2">`RestoreLock`</ph>, make sure you have released all locks acquired since the call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Voordat <ph id="ph2">`RestoreLock`</ph>, zorg ervoor dat u alle vergrendelingen sinds de aanroep naar &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; zijn beschikbaar</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread deadlocks if it acquires a reader lock, and then attempts to restore an earlier writer lock.</source>
+          <target state="translated">Bijvoorbeeld, een thread impassen indien een lezervergrendeling verkrijgt, en vervolgens probeert te herstellen van een eerdere writer-vergrendeling.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; and &lt;xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt; to detect such additional locks.</source>
+          <target state="translated">Gebruik &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;en &lt;xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt;voor het detecteren van dergelijke vergrendelingen.&lt;/xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use a &lt;xref:System.Threading.LockCookie&gt; returned from &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">Gebruik niet een &lt;xref:System.Threading.LockCookie&gt;geretourneerd vanuit &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; &lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned by &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geretourneerd door &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The address of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockCookie</ph><ept id="p1">&lt;/code&gt;</ept> is a null pointer.</source>
+          <target state="translated">Het adres van <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockCookie</ph> <ept id="p1">&lt;/code&gt;</ept> is een null-aanwijzer.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Upgrades a reader lock to the writer lock, using an <bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the time-out.</source>
+          <target state="translated">Upgrades een lezervergrendeling naar de writer vergrendelt, met behulp van een <bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor de time-outwaarde.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread calls <ph id="ph1">`UpgradeToWriterLock`</ph> the reader lock is released, regardless of the lock count, and the thread goes to the end of the queue for the writer lock.</source>
+          <target state="translated">Wanneer wordt aangeroepen door een thread <ph id="ph1">`UpgradeToWriterLock`</ph> de lezervergrendeling wordt uitgebracht, ongeacht het aantal vergrendelingen en de thread wordt aan het einde van de wachtrij voor de schrijververgrendeling.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, other threads might write to the resource before the thread that requested the upgrade is granted the writer lock.</source>
+          <target state="translated">Dus mogelijk andere threads schrijven naar de bron voordat de thread die de upgrade krijgt de vergrendeling writer aangevraagd.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The time-out exception is not thrown until the thread that called the UpgradeToWriterLock method can reacquire the reader lock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; De time-outwaarde niet uitzondering totdat de thread die de methode UpgradeToWriterLock aangeroepen opnieuw van de lezervergrendeling ophalen kunt.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no other threads waiting for the writer lock, this happens immediately.</source>
+          <target state="translated">Als er geen andere threads wachten op de vergrendeling writer, wordt dit direct gebeurt.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if another thread is queued for the writer lock, the thread that called the UpgradeToWriterLock method cannot reacquire the reader lock until all current readers have released their locks, and one thread has acquired and released the writer lock.</source>
+          <target state="translated">Echter, als een andere thread zich in de wachtrij voor de schrijver vergrendelen, de thread die de UpgradeToWriterLock-methode aangeroepen kan niet opnieuw ophalen de lezervergrendeling totdat alle huidige lezers hun vergrendelingen zijn vrijgegeven en één thread heeft verkregen en de vergrendeling writer uitgebracht.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is true even if the other thread that requested the writer lock requested it after the current thread called the UpgradeToWriterLock method.</source>
+          <target state="translated">Dit geldt zelfs als de thread die de vergrendeling writer aangevraagd het aangevraagd nadat de huidige thread heeft de methode UpgradeToWriterLock aangeroepen.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the lock state, call &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; using the &lt;xref:System.Threading.LockCookie&gt; returned by <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Aanroepen voor het herstellen van de status van de vergrendeling &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;met behulp van de &lt;xref:System.Threading.LockCookie&gt;geretourneerd door <ph id="ph1">`UpgradeToWriterLock`</ph>.&lt;/xref:System.Threading.LockCookie&gt; &lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this <ph id="ph1">`LockCookie`</ph> with &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">Gebruik dit niet <ph id="ph1">`LockCookie`</ph> &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread has no reader lock, do not use <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Wanneer een thread geen lezervergrendeling heeft, gebruik geen <ph id="ph1">`UpgradeToWriterLock`</ph>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt; instead.</source>
+          <target state="translated">Gebruik &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;in plaats daarvan.&lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">De tijdsduur in milliseconden.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Upgrades a reader lock to the writer lock, using a <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the time-out.</source>
+          <target state="translated">Upgrades een lezervergrendeling naar de writer vergrendelt, met behulp van een <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor de time-outwaarde.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread calls <ph id="ph1">`UpgradeToWriterLock`</ph> the reader lock is released, regardless of the lock count, and the thread goes to the end of the queue for the writer lock.</source>
+          <target state="translated">Wanneer wordt aangeroepen door een thread <ph id="ph1">`UpgradeToWriterLock`</ph> de lezervergrendeling wordt uitgebracht, ongeacht het aantal vergrendelingen en de thread wordt aan het einde van de wachtrij voor de schrijververgrendeling.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, other threads might write to the resource before the thread that requested the upgrade is granted the writer lock.</source>
+          <target state="translated">Dus mogelijk andere threads schrijven naar de bron voordat de thread die de upgrade krijgt de vergrendeling writer aangevraagd.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The time-out exception is not thrown until the thread that called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method can reacquire the reader lock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; De time-outwaarde niet uitzondering totdat de thread die aangeroepen de &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;methode opnieuw kunt ophalen van de lezervergrendeling.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no other threads waiting for the writer lock, this happens immediately.</source>
+          <target state="translated">Als er geen andere threads wachten op de vergrendeling writer, wordt dit direct gebeurt.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if another thread is queued for the writer lock, the thread that called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method cannot reacquire the reader lock until all current readers have released their locks, and one thread has acquired and released the writer lock.</source>
+          <target state="translated">Echter, als een andere thread zich in de wachtrij voor de schrijververgrendeling, de thread die wordt aangeroepen de &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;kan geen methode opnieuw ophalen van de lezervergrendeling totdat alle huidige lezers hun vergrendelingen zijn vrijgegeven en één thread heeft verkregen en de writer vergrendeling wordt vrijgegeven.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is true even if the other thread that requested the writer lock requested it after the current thread called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method.</source>
+          <target state="translated">Dit geldt zelfs wanneer de thread die de vergrendeling writer aangevraagd het aangevraagd nadat de huidige thread aangeroepen de &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;methode.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the lock state, call &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; using the &lt;xref:System.Threading.LockCookie&gt; returned by <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Aanroepen voor het herstellen van de status van de vergrendeling &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;met behulp van de &lt;xref:System.Threading.LockCookie&gt;geretourneerd door <ph id="ph1">`UpgradeToWriterLock`</ph>.&lt;/xref:System.Threading.LockCookie&gt; &lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this <ph id="ph1">`LockCookie`</ph> with &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">Gebruik dit niet <ph id="ph1">`LockCookie`</ph> &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread has no reader lock, do not use <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Wanneer een thread geen lezervergrendeling heeft, gebruik geen <ph id="ph1">`UpgradeToWriterLock`</ph>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt; instead.</source>
+          <target state="translated">Gebruik &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;in plaats daarvan.&lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Zie voor een geldige time-outwaarden &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geven de time-outperiode.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>is verstreken voordat de vergrendelingsaanvraag is verleend.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Hiermee geeft u een negatieve waarde dan-1 milliseconden.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the current sequence number.</source>
+          <target state="translated">Hiermee wordt het huidige volgnummer opgehaald.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sequence number increases whenever a thread acquires the writer lock.</source>
+          <target state="translated">De volgorde worden verhoogd telkens wanneer een thread de schrijververgrendeling verkrijgt.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can save the sequence number and pass it to &lt;xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt; at a later time, if you want to determine whether other threads have acquired the writer lock in the meantime.</source>
+          <target state="translated">U kunt het volgnummer opslaan en doorgegeven aan &lt;xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt;op een later tijdstip, als u bepalen wilt of andere threads in de tussentijd de vergrendeling writer hebt aangeschaft.&lt;/xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use <ph id="ph1">`WriterSeqNum`</ph> to improve application performance.</source>
+          <target state="translated">U kunt <ph id="ph1">`WriterSeqNum`</ph> voor het verbeteren van de prestaties van toepassingen.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might cache the information it obtains while holding a reader lock.</source>
+          <target state="translated">Een thread kan bijvoorbeeld de informatie die wordt verkregen terwijl een lezervergrendeling cache.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After releasing and later reacquiring the lock, the thread can determine whether other threads have written to the resource by calling <ph id="ph1">`AnyWritersSince`</ph>; if not, the cached information can be used.</source>
+          <target state="translated">Na vrijgeven en later uit de vergrendeling wordt de thread kan bepalen of andere threads op de resource hebt geschreven door het aanroepen van <ph id="ph1">`AnyWritersSince`</ph>; als niet zo is, de gegevens in cache kan worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This technique is useful when reading the information protected by the lock is expensive; for example, running a database query.</source>
+          <target state="translated">Deze methode is handig wanneer Lees de informatie die wordt beveiligd door de vergrendeling dure; bijvoorbeeld, een databasequery wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller must be holding a reader lock or a writer lock in order for the sequence number to be useful.</source>
+          <target state="translated">De aanroeper moet houdt een lezervergrendeling of een vergrendeling writer om het volgnummer nuttig.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The current sequence number.</source>
+          <target state="translated">Het huidige volgnummer.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

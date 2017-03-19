@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">37f01f0b7d2e6cd8673a6227896338039bee68ec</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Data.IDesignerDataSchema.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3ec0f46b4ad07f1d1791599de452f3bc4bbce2e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">617a0405aee3b29b75dee853e00d53ef7ef51445</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods for retrieving data-store schema information.</source>
+          <target state="translated">定义用于检索数据存储区架构信息的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Classes that implement the IDesignerDataSchema interface retrieve schema information from a data store and return it to the user interface, typically to populate UI elements that enable the user to specify the data-store object that they  want to work with.</source>
+          <target state="translated">实现 IDesignerDataSchema 接口的类从数据存储中检索架构信息，并将其返回给用户界面中，通常以填充使用户能够指定他们想要使用的数据存储对象的 UI 元素。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The IDesignerDataSchema interface provides two methods: the &lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.GetSchemaItems%2A&gt; method, which returns the requested schema objects, and the &lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt; method, which indicates whether a specified data-schema object is supported by the data store.</source>
+          <target state="translated">IDesignerDataSchema 接口提供两种方法︰&lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.GetSchemaItems%2A&gt;方法，将返回请求的架构对象，该方法与&lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt;方法，指示由数据存储是否支持指定的数据架构对象。&lt;/xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt; &lt;/xref:System.ComponentModel.Design.Data.IDesignerDataSchema.GetSchemaItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Gets a collection of specified schema items.</source>
+          <target state="translated">获取指定的架构项的集合。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The GetSchemaItems method returns a collection of all the specified schema objects in the data store.</source>
+          <target state="translated">在数据存储，GetSchemaItems 方法返回的所有指定的架构对象的集合。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt; class for the list of schema objects supported by the .NET Framework.</source>
+          <target state="translated">请参阅&lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;列表的.NET Framework 支持的架构对象的类。&lt;/xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Additional schema objects can be added to the &lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt; class by creating a derived type.</source>
+          <target state="translated">可以将其他架构对象添加到&lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;创建的派生的类型的类。&lt;/xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the data store does not support the requested schema object, the GetSchemaItems method should return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">如果数据存储区不支持请求的架构对象，该 GetSchemaItems 方法应返回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt; method to determine whether a data store supports the requested schema object before calling the GetSchemaItems method, to avoid returning <ph id="ph1">`null`</ph> to your application.</source>
+          <target state="translated">你可以使用&lt;xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt;方法来确定数据存储是否支持请求的架构对象之前调用 GetSchemaItems 方法，来避免返回<ph id="ph1">`null`</ph>到你的应用程序。&lt;/xref:System.ComponentModel.Design.Data.IDesignerDataSchema.SupportsSchemaClass%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the data store supports the requested object, but does not contain any instances, the GetSchemaItems method should return an empty collection.</source>
+          <target state="translated">如果数据存储支持所请求的对象，但不包含任何实例，该 GetSchemaItems 方法应返回空集合。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The schema objects to return.</source>
+          <target state="translated">要返回的架构对象。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A collection of schema objects of the specified type.</source>
+          <target state="translated">指定类型的架构对象的集合。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the data store contains the specified data-schema object.</source>
+          <target state="translated">返回一个值，该值指示数据存储区是否包含指定的数据架构对象。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The SupportsSchemaClass method indicates whether the data store supports a specified data-schema object.</source>
+          <target state="translated">SupportsSchemaClass 方法指示的数据存储是否支持指定的数据架构对象。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the data store does not support the specified object, the SupportsSchemaClass method should return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">如果数据存储区不支持指定的对象，该 SupportsSchemaClass 方法应返回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can add tests for additional data-schema objects by deriving from the &lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt; class.</source>
+          <target state="translated">你可以通过从&lt;xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;类&lt;/xref:System.ComponentModel.Design.Data.DesignerDataSchemaClass&gt;派生来添加对其他数据的架构对象的测试</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The schema objects to return.</source>
+          <target state="translated">要返回的架构对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data store supports the specified data-schema object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果数据存储支持指定的数据架构的对象;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
