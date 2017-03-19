@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24b5176caa1fa4088efcf9f288a1aab7ce4ae3e4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0f748fe148418b1f4218968663ca8edc39d42d4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e38a11c7d89ef27abcb43a033a9004e955fb058</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a default control adapter for rendering mobile controls in XHTML markup.</source>
+          <target state="translated">Zapewnia domyślnej karty kontroli renderowanie formantów przenośnych w znaczniku XHTML.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class provides a base mobile control adapter that renders a control and each of its children in XHTML markup for mobile devices.</source>
+          <target state="translated">Ta klasa udostępnia karty przenośnych kontrolki podstawowej, która renderuje formantu i wszystkich jego elementów podrzędnych w znaczniku XHTML dla urządzeń przenośnych.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also provides helper methods and common properties for derived XHTML mobile control adapters.</source>
+          <target state="translated">Zapewnia także wspólne właściwości i metody pomocnicze pochodnej XHTML przenośnych formantu karty.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control adapters are components that override certain &lt;xref:System.Web.UI.Control&gt; class methods and events to allow browser-specific or markup-specific handling.</source>
+          <target state="translated">Formant karty są składniki, które zastępują niektórych &lt;xref:System.Web.UI.Control&gt;klas, metod i zdarzeń, aby umożliwić obsługę przeglądarki lub znaczników.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Much of the adaptability in rendering behavior is encapsulated in the &lt;xref:System.Web.UI.XhtmlTextWriter&gt; class.</source>
+          <target state="translated">Większość przystosowanie w sposób renderowania są umieszczane w &lt;xref:System.Web.UI.XhtmlTextWriter&gt;klasie.&lt;/xref:System.Web.UI.XhtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are considering whether to build your own control adapter, keep in mind that a single adapter can be used to override a number of browser class behaviors.</source>
+          <target state="translated">Planując czy kompilować karty formantu, należy pamiętać, które mogą być pojedyncza karta służy do zastępowania liczba zachowania klasy przeglądarki.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, by including the desired adaptability in a class derived from the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt; class, you might eliminate the need to use a control adapter.</source>
+          <target state="translated">Alternatywnie, dodając odpowiednie przystosowanie w klasy pochodzącej od &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt;klasy, może wyeliminować konieczność użycia karty kontroli.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter for a specific control class applies to all controls that inherit from that class, unless more specialized adapters are present.</source>
+          <target state="translated">Adaptera dla klasy określonego formantu ma zastosowanie do wszystkich kontrolek, które dziedziczą z tej klasy, chyba że nie występują wyspecjalizowanego karty.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlValidatorAdapter&gt; class is used to validate all mobile controls for devices that require or can display XHTML markup.</source>
+          <target state="translated">Na przykład &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlValidatorAdapter&gt;Klasa jest używana do sprawdzania poprawności wszystkich formantów przenośnych dla urządzeń, które wymagają lub wyświetlić znaczników XHTML.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlValidatorAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During processing, the .NET Framework intercepts calls to the methods of a control that are specific to the current target.</source>
+          <target state="translated">Podczas przetwarzania, .NET Framework przechwytuje wywołania metod formantu, które są specyficzne dla bieżącą lokalizację docelową.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control adapter is associated with the control, the .NET Framework calls the associated adapter methods.</source>
+          <target state="translated">Jeśli karty kontroli jest skojarzony z formantem, .NET Framework wywołuje metody skojarzonej karty.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some properties of a control govern the way it displays across multiple secondary pages for a mobile device.</source>
+          <target state="translated">Niektóre właściwości formantu określają sposób wyświetlania na wielu stronach dodatkowej dla urządzenia przenośnego.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These page are collectively known as <bpt id="p1">*</bpt>secondary UI<ept id="p1">*</ept>.</source>
+          <target state="translated">Te strony są nazywane zbiorczo <bpt id="p1">*</bpt>użyć pomocniczego interfejsu użytkownika<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt; property can be used to define which page will be displayed.</source>
+          <target state="translated">&lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt;Właściwości może służyć do definiowania strony, która będzie wyświetlana.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt; method can be used to remove any secondary UI settings.</source>
+          <target state="translated">&lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt;Metody można użyć do usunięcia dodatkowej ustawienia interfejsu użytkownika.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Tworzy nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Clears a pending break if the target device breaks on block elements.</source>
+          <target state="translated">Czyści podział oczekujące, jeśli urządzenie docelowe dzieli elementów bloku.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the target device requires breaks on block-level elements such as <ph id="ph1">`&lt;div&gt;`</ph>, the text writer specified by <ph id="ph2">`writer`</ph> sets a pending break when starting to render the element, and automatically renders a break (<ph id="ph3">`&lt;br /&gt;`</ph>) at the end of the element.</source>
+          <target state="translated">Jeśli urządzenie wymaga przerwy w przypadku elementów na poziomie bloku, takiej jak <ph id="ph1">`&lt;div&gt;`</ph>, składnik zapisywania tekstu określonego przez <ph id="ph2">`writer`</ph> ustawia podział oczekujące przy uruchamianiu do renderowania elementu i automatycznie renderuje podział (<ph id="ph3">`&lt;br /&gt;`</ph>) na końcu elementu.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the content of the element extends beyond one logical page on the device, the adapter clears the pending break at the end of the page.</source>
+          <target state="translated">Jeśli zawartość elementu wykracza poza jedna strona logiczna na urządzeniu, karta usuwa oczekujące podziału na końcu strony.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Clears the given text writer's current end tag if certain conditions are met.</source>
+          <target state="translated">Czyści składnik zapisywania tekstu danego bieżącego tagu końcowego, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This functionality is required only in the very rare case of a target device where a selected element cannot appear inside a table.</source>
+          <target state="translated">Ta funkcja jest wymagana tylko w przypadku bardzo rzadko urządzenia docelowego, w którym wybranego elementu nie może występować wewnątrz tabeli.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`s`</ph> parameter is provided, the cached ending tag is cleared.</source>
+          <target state="translated">Jeśli <ph id="ph1">`s`</ph> podano parametru, buforowane tag końcowy jest wyczyszczone.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the text writer to insert content when the target device does not support <ph id="ph1">`&lt;select&gt;`</ph> elements immediately after the end of a table.</source>
+          <target state="translated">Dzięki temu składnik zapisywania tekstu do wstawiania zawartości, gdy urządzenie docelowe nie obsługuje <ph id="ph1">`&lt;select&gt;`</ph> elementy natychmiast po zakończeniu tabeli.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The name of the tag you want to clear; the value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string ("").</source>
+          <target state="translated">Nazwa tagu, które chcesz wyczyścić; wartość może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub ciąg pusty ("").</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Clears a pending break in the target device if certain conditions are met.</source>
+          <target state="translated">Czyści podział oczekujące na urządzeniu docelowym, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method clears a pending break if the target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; requires breaks on inline elements.</source>
+          <target state="translated">Ta metoda usuwa podział oczekujące, jeśli element docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;wymaga przerwy w przypadku elementów śródwierszowych.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Begins a section with the opening tag and attributes that implement the formats of the specified style, if certain conditions are met.</source>
+          <target state="translated">Rozpoczyna się sekcji przy użyciu tagu początkowego i atrybuty, które implementuje formaty określony styl, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method writes the opening tag and style attributes for the section if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">Ta metoda zapisuje otwarcia atrybutów tagu i stylu dla sekcji, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Begins a section with the opening tag and attributes that implement the layout of the specified style, if certain conditions are met.</source>
+          <target state="translated">Rozpoczyna się sekcji przy użyciu tagu początkowego i atrybuty, które implementuje układ określony styl, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method writes the opening tag and layout style attributes for the section if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">Ta metoda zapisuje otwierający tag i układu atrybuty stylu dla sekcji jeśli spełnione są następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target device does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Urządzenie docelowe nie wymaga pomijania cascading style arkusza stylów.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Writes the opening tag for a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section, along with attributes that implement the layout and character formatting of the specified style, if certain conditions are met.</source>
+          <target state="translated">Zapisuje otwierający tag dla <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sekcji oraz atrybuty, które implementuje układ i formatowanie znaków określonego stylu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method writes an opening <ph id="ph1">`&lt;span&gt;`</ph> element and style attributes if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">Ta metoda zapisuje otwierający <ph id="ph1">`&lt;span&gt;`</ph> atrybuty elementu i stylu, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Writes the opening tag of the specified element, along with attributes that implement the layout and character formatting of the specified style, if certain conditions are met.</source>
+          <target state="translated">Zapisuje otwierający tag określonego elementu wraz z atrybutów, które implementuje układ i formatowanie znaków określonego stylu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConditionalEnterStyle method writes the opening tag and style attributes if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">Zapisy metody ConditionalEnterStyle, styl i otwierający tag atrybutów, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The tag name for the element.</source>
+          <target state="translated">Nazwa tagu elementu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Ends a block that has been using the character formatting from a specified style, if certain conditions are met.</source>
+          <target state="translated">Kończy się bloku, który używa znak formatowania z określonego stylu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConditionalExitFormat method ends the current block if the following conditions are met:      -   A matching <ph id="ph1">`ConditionalEnterFormat`</ph> method call resulted in character formatting being applied.</source>
+          <target state="translated">Metoda ConditionalExitFormat kończy się bieżący blok, jeśli są spełnione następujące warunki:-odpowiadającego mu <ph id="ph1">`ConditionalEnterFormat`</ph> wywołania metody, które spowodowało formatowanie stosowane znaków.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Ends a block that has been using the layout formatting from a specified style, if certain conditions are met.</source>
+          <target state="translated">Kończy się bloku, który używa układu formatowanie z określonego stylu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConditionalExitLayout method ends a block if the following conditions are met:      -   A matching call to the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt; method causes character formatting to be applied.</source>
+          <target state="translated">Metoda ConditionalExitLayout kończy się blok, jeśli są spełnione następujące warunki: - dopasowania wywołania do &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt;Metoda powoduje, że formatowanie znaków ma zostać zastosowany.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Ends a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/span&amp;gt;" name="&amp;lt;/span&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element that has been using the layout and character formatting from a specified style, if certain conditions are met.</source>
+          <target state="translated">Kończy się <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/span&amp;gt;" name="&amp;lt;/span&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> element, który używa układ i formatowanie ze stylu określonego znaków, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConditionalExitStyle method renders a closing <ph id="ph1">`&lt;/span&gt;`</ph> element that has been using the layout and character formatting from a specified style if the following conditions are met:      -   A matching call to &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt; causes character formatting to be applied.</source>
+          <target state="translated">Metoda ConditionalExitStyle renderuje zamknięcia <ph id="ph1">`&lt;/span&gt;`</ph> element, który był używany układ i formatowania z określonego stylu, jeśli są spełnione następujące warunki znaków: - dopasowania wywołania do &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt;powoduje, że formatowanie znaków ma zostać zastosowany.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ConditionalEnterFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property does not represent a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwości nie reprezentuje pliku fizycznego.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The target &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">-Docelowy &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt; object.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;obiektu.&lt;/xref:System.Web.UI.MobileControls.MobileControl.Style*&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Removes the current cascading style sheet class name from the <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, if certain conditions are met.</source>
+          <target state="translated">Usuwa bieżący kaskadowych nazwę arkusza stylów klasy z <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The text <ph id="ph1">`writer`</ph> keeps a &lt;xref:System.Collections.Stack&gt; object of class attribute names, and when the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt; renders a class attribute, it signals the text <ph id="ph2">`writer`</ph> to push the attribute value onto the &lt;xref:System.Collections.Stack&gt; object.</source>
+          <target state="translated">Tekst <ph id="ph1">`writer`</ph> przechowuje &lt;xref:System.Collections.Stack&gt;obiektu klasy atrybutu nazwy i kiedy &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt;renderuje atrybut class, sygnały w tekst <ph id="ph2">`writer`</ph> wypychanej wartość atrybutu na &lt;xref:System.Collections.Stack&gt;obiektu.&lt;/xref:System.Collections.Stack&gt; &lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt; &lt;/xref:System.Collections.Stack&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The top class name is treated as the current class attribute name.</source>
+          <target state="translated">Nazwa klasy top jest traktowana jako bieżąca nazwa atrybutu klasy.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method removes the current class attribute name from the &lt;xref:System.Collections.Stack&gt; if a physical cascading style sheet is being applied.</source>
+          <target state="translated">Ta metoda usuwa bieżąca nazwa atrybutu klasy z &lt;xref:System.Collections.Stack&gt;Jeśli zastosowano fizycznych kaskadowy arkusz stylów.&lt;/xref:System.Collections.Stack&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Puts a class name attribute on the next element to be rendered, if certain conditions are met.</source>
+          <target state="translated">Umieszcza atrybutu nazwy klasy następnego elementu do renderowania, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method renders a cascading style sheet class attribute on the next element if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">Ta metoda renderuje kaskadowych atrybut class arkusza stylów na następny element, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwość reprezentuje plik fizyczny.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The current &lt;xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt; has a nonempty &lt;xref:System.Web.UI.WebControls.WebControl.CssClass%2A&gt; attribute name that is different from the current class name.</source>
+          <target state="translated">-Bieżącego &lt;xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt;ma niepusty &lt;xref:System.Web.UI.WebControls.WebControl.CssClass%2A&gt;nazwę atrybutu, który różni się od bieżącej nazwy klasy.&lt;/xref:System.Web.UI.WebControls.WebControl.CssClass%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Renders a closing <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/div&amp;gt;" name="&amp;lt;/div&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> tag if certain conditions are met.</source>
+          <target state="translated">Renderuje zamknięcia <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/div&amp;gt;" name="&amp;lt;/div&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tagów, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConditionalRenderClosingDivElement method renders a closing <ph id="ph1">`&lt;/div&gt;`</ph> element, or if the &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; requires it, a closing <ph id="ph2">`&lt;/p&gt;`</ph> element, if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">Metoda ConditionalRenderClosingDivElement renderuje zamknięcia <ph id="ph1">`&lt;/div&gt;`</ph> elementu, lub, jeśli &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;wymaga jego zamknięcia <ph id="ph2">`&lt;/p&gt;`</ph> elementu, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; &lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwość reprezentuje plik fizyczny.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Renders a closing <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/span&amp;gt;" name="&amp;lt;/span&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element if certain conditions are met.</source>
+          <target state="translated">Renderuje zamknięcia <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/span&amp;gt;" name="&amp;lt;/span&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an open <ph id="ph1">`&lt;span&gt;`</ph> element, the ConditionalRenderClosingSpanElement method renders a closing <ph id="ph2">`&lt;/span&gt;`</ph> element and cancels the current cascading style sheet class name if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">Jeżeli istnieje otwarty <ph id="ph1">`&lt;span&gt;`</ph> elementu ConditionalRenderClosingSpanElement metoda renderuje zamknięcia <ph id="ph2">`&lt;/span&gt;`</ph> elementu i anuluje bieżący klasa kaskadowych arkuszy stylów nazwy po spełnieniu następujących warunków: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwość reprezentuje plik fizyczny.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the value of the attribute with the specified name from the associated control and renders it on the next element with the specified name if certain conditions are met.</source>
+          <target state="translated">Pobiera wartość atrybutu o określonej nazwie ze skojarzonym formancie i renderuje na następny element o określonej nazwie, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The attribute is rendered if the attribute name is not an empty string ("") and the control has the specified attribute.</source>
+          <target state="translated">Ten atrybut jest renderowany, jeśli nazwa atrybutu nie jest ciągiem pustym ("") i kontrolka ma określony atrybut.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Nazwa atrybutu.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Includes a custom attribute with the specified name and value in the next element to be rendered, if certain conditions are met.</source>
+          <target state="translated">Zawiera niestandardowy atrybut o określonej nazwie i wartości w elemencie dalej do renderowania, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The attribute is rendered if both the <ph id="ph1">`attributeName`</ph> and <ph id="ph2">`markupAttributeName`</ph> are not empty strings ("") and the control has the specified attribute.</source>
+          <target state="translated">Ten atrybut jest renderowany, jeśli obie <ph id="ph1">`attributeName`</ph> i <ph id="ph2">`markupAttributeName`</ph> nie są puste ciągi ("") i kontrolka ma określony atrybut.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to provide a markup attribute in the rendered element that is different from the attribute or property name used in your control.</source>
+          <target state="translated">Ta metoda umożliwia uzyskanie atrybutem znaczników w renderowanego elementu, który różni się od atrybutu lub właściwość nazwę używaną w formantu.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Nazwa atrybutu.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The XHTML markup name of the attribute.</source>
+          <target state="translated">Nazwa znacznika XHTML atrybutu.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Renders an opening tag for a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element if certain conditions are met.</source>
+          <target state="translated">Renderuje tagu otwierającego <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If required by the &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;, this method renders the opening tag of a <ph id="ph1">`&lt;p&gt;`</ph> element instead of a <ph id="ph2">`&lt;div&gt;`</ph> element.</source>
+          <target state="translated">Jeśli jest to wymagane przez &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;, ta metoda renderuje tagu otwierającego <ph id="ph1">`&lt;p&gt;`</ph> elementu zamiast <ph id="ph2">`&lt;div&gt;`</ph> elementu.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current cascading style sheet class name, if any, is also included in the tag.</source>
+          <target state="translated">Bieżący cascading style arkusza nazwy klasy, jeśli znajduje się również w tagu.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opening tag is rendered if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">Otwierający tag jest renderowany, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwość reprezentuje plik fizyczny.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Renders an opening tag for a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element, if certain conditions are met.</source>
+          <target state="translated">Renderuje tagu otwierającego <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementu, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method writes the opening <ph id="ph1">`&lt;span&gt;`</ph> element if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; does not require suppression of cascading style sheet styles.</source>
+          <target state="translated">Ta metoda zapisuje otwarcia <ph id="ph1">`&lt;span&gt;`</ph> elementu, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;nie wymaga pomijania cascading style arkusza stylów.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;Właściwość reprezentuje plik fizyczny.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The class attribute value for the current control is different than the class attribute value for the previous control.</source>
+          <target state="translated">Wartość atrybutu klasy dla bieżącego formantu jest inna niż wartość atrybutu klasy dla poprzedniego formantu.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Sets a pending break if certain conditions are met.</source>
+          <target state="translated">Ustawia podział oczekujące, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets a pending break in the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt; if the device requires a break after this kind of control.</source>
+          <target state="translated">Ta metoda ustawia podział oczekujących w &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt;Jeśli urządzenie wymaga podział po tego rodzaju kontroli.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Sets a pending break after inline elements if certain conditions are met.</source>
+          <target state="translated">Ustawia podział oczekujące po elementów śródwierszowych, jeśli są spełnione następujące warunki.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets a pending break if the following conditions are met:      -   The &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt; requires a break after inline elements.</source>
+          <target state="translated">Ta metoda ustawia podział oczekujące, jeśli są spełnione następujące warunki: - &lt;xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;wymaga podział po elementów śródwierszowych.&lt;/xref:System.Web.UI.MobileControls.Adapters.ControlAdapter.Device%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt; requires a break after itself.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt;Wymaga podział po samej siebie.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Control%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Indicates whether the style sheet is located as an external physical file, is internal to the current page, is stored in the current session state, or is stored in the application cache.</source>
+          <target state="translated">Wskazuje, czy arkusz stylów znajduje się jako zewnętrzny plik fizyczny, jest wewnętrzny do bieżącej strony, znajduje się w stanie bieżącej sesji czy są przechowywane w pamięci podręcznej aplikacji.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.StyleSheetLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.StyleSheetLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.StyleSheetLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that the location has not yet been determined.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.StyleSheetLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, co oznacza, że lokalizacja nie ma jeszcze określić.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Indicates the type of XHTML markup used to render the current document.</source>
+          <target state="translated">Wskazuje typ znaczników XHTML używany do renderowania bieżącego dokumentu.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.Doctype"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.Doctype"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.Doctype"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that the document type has not yet been determined.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.Doctype"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, co oznacza, że typ dokumentu nie ma jeszcze określić.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Exits any secondary UI mode for the control.</source>
+          <target state="translated">Zamyka wszystkie dodatkowej tryb interfejsu użytkownika dla formantu.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is equivalent to setting the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt; property to the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.NotSecondaryUI&gt; value.</source>
+          <target state="translated">Ta metoda jest odpowiednikiem ustawienia &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt;właściwości &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.NotSecondaryUI&gt;wartość.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.NotSecondaryUI&gt; &lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified attribute from the markup of the associated control.</source>
+          <target state="translated">Pobiera wartość określonego atrybutu ze znaczników skojarzony formant.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Nazwa atrybutu.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A string containing the value of the specified custom attribute.</source>
+          <target state="translated">Ciąg zawierający wartość określonego atrybutu niestandardowego.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified attribute from a given control.</source>
+          <target state="translated">Pobiera wartość określonego atrybutu z danego formantu.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The mobile control from which to get the attribute value.</source>
+          <target state="translated">Formant przenośnych z którego można pobrać wartości atrybutu.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Nazwa atrybutu.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A string containing the value of the specified custom attribute.</source>
+          <target state="translated">Ciąg zawierający wartość określonego atrybutu niestandardowego.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Loads view state data specific to this adapter.</source>
+          <target state="translated">Ładunki wyświetlić dane o stanie specyficzne dla tej karty.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`state`</ph> is <ph id="ph2">`null`</ph>, this method has no effect.</source>
+          <target state="translated">Jeśli <ph id="ph1">`state`</ph> jest <ph id="ph2">`null`</ph>, ta metoda nie ma wpływu.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The current view state of the adapter.</source>
+          <target state="translated">Bieżący stan widoku karty.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A value returned by the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode*&gt; property, indicating that the adapter is not currently in secondary UI mode.</source>
+          <target state="translated">Wartość zwrócona przez &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode*&gt;Właściwości i wskazujący, że karta nie jest obecnie w trybie pomocniczego interfejsu użytkownika.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode*&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets the page adapter for the page on which the associated control resides.</source>
+          <target state="translated">Pobiera adapterem strony dla strony, na którym znajduje się skojarzony formant.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPageAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the page adapter for the current page.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPageAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący adapterem strony dla bieżącej strony.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Gets the portion of the given query string that contains parameters for processing the request.</source>
+          <target state="translated">Pobiera część ciągu danego zapytania, który zawiera parametry do przetworzenia żądania.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to reduce the query string to its basic parameters by removing the following information:      -   The file name and path information.</source>
+          <target state="translated">Ta metoda służy do zmniejszenia ciąg zapytania do jego podstawowe parametry przez usunięcie następujące informacje:-informacje o nazwa i ścieżka pliku.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A parameter specifying the current &lt;xref:System.Web.Security.FormsAuthentication.FormsCookieName%2A&gt;.</source>
+          <target state="translated">-Parametr bieżącego &lt;xref:System.Web.Security.FormsAuthentication.FormsCookieName%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookieName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A parameter named "x-up-descharset", which specifies the current character set.</source>
+          <target state="translated">— Parametr o nazwie "x-up-descharset", który określa bieżącego zestawu znaków.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The page adapter uses the returned query string to create a &lt;xref:System.Collections.Specialized.NameValueCollection&gt; object to access the remaining parameters and their values.</source>
+          <target state="translated">Karta strona używa ciąg zapytania zwrócony w celu utworzenia &lt;xref:System.Collections.Specialized.NameValueCollection&gt;obiekt dostępu do pozostałych parametrów i ich wartości.&lt;/xref:System.Collections.Specialized.NameValueCollection&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The query string from the <ph id="ph1">&amp;lt;</ph>xref:System.Web.HttpRequest.QueryString%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Ciąg zapytania z <ph id="ph1">&amp;lt;</ph>xref:System.Web.HttpRequest.QueryString%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A string containing the processed query string.</source>
+          <target state="translated">Ciąg zawierający ciąg zapytania przetworzone.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Displays the associated control and all of its child controls on the client.</source>
+          <target state="translated">Wyświetla skojarzonego formantu i wszystkich jego formantów podrzędnych na kliencie.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.HtmlTextWriter&gt; serves as the base for an &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt; object that ultimately renders the control and all of its child controls to the client.</source>
+          <target state="translated">&lt;xref:System.Web.UI.HtmlTextWriter&gt;Służy jako podstawa dla &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt;obiekt renderujący ostatecznie formantu i wszystkich jego formantów podrzędnych do klienta.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter&gt; &lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Displays the associated control and all of its child controls on the client.</source>
+          <target state="translated">Wyświetla skojarzonego formantu i wszystkich jego formantów podrzędnych na kliencie.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Renders hidden field text for a control.</source>
+          <target state="translated">Renderuje ukryty tekst pola dla formantu.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Renders the opening tag of a link using the given <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and target.</source>
+          <target state="translated">Renderuje otwierający tag przy użyciu łącza danego <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i obiekt docelowy.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method automatically checks for the type of link and renders the appropriate markup.</source>
+          <target state="translated">Ta metoda sprawdza, czy typ łącza i automatycznie renderuje odpowiedni kod znaczników.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The specified target can refer to another URL or to a form on the same page.</source>
+          <target state="translated">Określony element docelowy może odnosić się do innego adresu URL lub formularza na tej samej stronie.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The name of the target form, or a URL.</source>
+          <target state="translated">Nazwa formularza docelowego lub adres URL.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Renders the opening tag of a link using the given <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and target, as well as the given styles or the given cascading style sheet class name.</source>
+          <target state="translated">Renderuje otwierający tag przy użyciu łącza danego <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i obiektu docelowego, a także danego style lub danego nazwę klasy kaskadowego arkusza stylów.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method automatically checks for the type of link and renders the appropriate markup.</source>
+          <target state="translated">Ta metoda sprawdza, czy typ łącza i automatycznie renderuje odpowiedni kod znaczników.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The specified target can refer to another URL or to a form on the same page.</source>
+          <target state="translated">Określony element docelowy może odnosić się do innego adresu URL lub formularza na tej samej stronie.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`style`</ph> is not <ph id="ph2">`null`</ph>, the styles are applied to the link.</source>
+          <target state="translated">Jeśli <ph id="ph1">`style`</ph> nie jest <ph id="ph2">`null`</ph>, style są stosowane do łącza.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`cssClass`</ph> is not an empty string ("") and <ph id="ph2">`style`</ph> is <ph id="ph3">`null`</ph>, the link is rendered with a class attribute.</source>
+          <target state="translated">Jeśli <ph id="ph1">`cssClass`</ph> nie jest ciągiem pustym ("") i <ph id="ph2">`style`</ph> jest <ph id="ph3">`null`</ph>, link jest odwzorowywany z atrybutem klasy.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The target form or URL.</source>
+          <target state="translated">Formularz docelowy lub adres URL.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>A character to use as the shortcut key.</source>
+          <target state="translated">Znak używany jako klawisz skrótu.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A cascading style sheet class name.</source>
+          <target state="translated">Kaskadowy arkusz klasy nazwę stylu.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Renders the opening tag of a link using the given <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and target, as well as either the given styles or the given cascading style sheet class name, the access key, and the title text.</source>
+          <target state="translated">Renderuje otwierający tag przy użyciu łącza danego <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i obiektu docelowego, a także albo danego style lub danego nazwę klasy kaskadowego arkusza stylów, klucz dostępu i tekst tytułu.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The target form or URL.</source>
+          <target state="translated">Formularz docelowy lub adres URL.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>A character to use as the shortcut key.</source>
+          <target state="translated">Znak używany jako klawisz skrótu.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>A cascading style sheet class name.</source>
+          <target state="translated">Kaskadowy arkusz klasy nazwę stylu.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The text for the <bpt id="p1">&lt;xref uid="langword_csharp_title" name="title" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute of the link.</source>
+          <target state="translated">Tekst dla <bpt id="p1">&lt;xref uid="langword_csharp_title" name="title" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> atrybut łącza.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Renders a closing tag for a specified list element.</source>
+          <target state="translated">Renderuje tag zamykający dla elementu określonej listy.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>The tag name of the element to close.</source>
+          <target state="translated">Nazwa tagu element, aby zamknąć.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Renders a closing tag (<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/a&amp;gt;" name="&amp;lt;/a&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) for a link element.</source>
+          <target state="translated">Renderuje tag zamykający (<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;/a&amp;gt;" name="&amp;lt;/a&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) dla elementu łącza.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Renders hidden postback variables for child controls that are not visible due to pagination or secondary UI.</source>
+          <target state="translated">Renderuje ukryty odświeżania strony zmienne dla formantów podrzędnych, które nie są widoczne z powodu podział na strony lub użyć pomocniczego interfejsu użytkownika.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderOffPageVariables method examines the control and each child control.</source>
+          <target state="translated">Metoda RenderOffPageVariables sprawdza, czy formant i każdego formantu podrzędnego.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the child object implements &lt;xref:System.Web.UI.IPostBackDataHandler&gt;, the method uses the child control's adapter's &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.RenderAsHiddenInputField%2A&gt; method to render the variables to the current page.</source>
+          <target state="translated">Jeśli obiekt podrzędny implementuje &lt;xref:System.Web.UI.IPostBackDataHandler&gt;, metoda używa kontrolki podrzędnej karty &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.RenderAsHiddenInputField%2A&gt;metody do renderowania zmienne do bieżącej strony.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.RenderAsHiddenInputField%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler&gt;</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The control in which to look for postback variables.</source>
+          <target state="translated">Formant, w którym ma zostać wyszukane zmienne odświeżania strony.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The current page number.</source>
+          <target state="translated">Numer bieżącej strony.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Renders an opening tag for the specified tag name.</source>
+          <target state="translated">Renderuje tagu otwierającego dla określonej nazwie tagu.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a pending break, the break is rendered before the opening link tag.</source>
+          <target state="translated">W przypadku podziału oczekujące przerwy jest renderowany przed otwarciem łącza tagu.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property represents a physical file and the target device does not require suppression of cascading style sheet styles, the current class name is included in the rendering.</source>
+          <target state="translated">Jeśli &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;właściwość reprezentuje plik fizyczny i urządzenie docelowe nie wymaga pomijania cascading style arkusza stylów, bieżąca nazwa klasy jest wyświetlane podczas renderowania.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt; property of the style sheet does not represent a physical file, style settings from the control that are appropriate for the <ph id="ph1">`tagName`</ph> will be applied in the opening tag.</source>
+          <target state="translated">Jeśli &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;właściwości arkusza stylów nie reprezentuje pliku fizycznego, ustawienia stylu z formantu, które są odpowiednie dla <ph id="ph1">`tagName`</ph> zostaną zastosowane w tagu otwierającym.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.CssLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>The name of the tag to use for the rendered list.</source>
+          <target state="translated">Nazwa tagu dla listy renderowany.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Renders a postback event as a link with the specified argument and text.</source>
+          <target state="translated">Renderuje zdarzenie ogłaszania zwrotnego strony jako łącze z określonego argumentu i tekst.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used internally by the .NET Framework.</source>
+          <target state="translated">Ta metoda jest głównie używana wewnętrznie przez program .NET Framework.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>A string containing the argument you want to provide to the event.</source>
+          <target state="translated">Ciąg zawierający argument chcesz zapewnić zdarzenia.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>A string containing the text that is to appear in the link.</source>
+          <target state="translated">Ciąg zawierający tekst, który ma być wyświetlony w łączu.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Renders a postback event as a link with the specified argument, text, and access key.</source>
+          <target state="translated">Renderuje zdarzenie ogłaszania zwrotnego strony jako łącze z określonego argumentu, tekst i klucz dostępu.</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The argument you want to pass to the event.</source>
+          <target state="translated">Argument, który chcesz przekazać do zdarzenia.</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>The text to appear in the link.</source>
+          <target state="translated">Tekst wyświetlany w łączu.</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>A character to use as the shortcut key.</source>
+          <target state="translated">Znak używany jako klawisz skrótu.</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>Renders a postback event as a link with the specified argument, text, and access key, as well as the specified styles or the specified cascading style sheet class name.</source>
+          <target state="translated">Renderuje zdarzenie ogłaszania zwrotnego strony jako łącze z określonego argumentu, tekst i klucz dostępu, a także określonych stylów lub określona nazwę klasy kaskadowego arkusza stylów.</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to render the server control content on the client's browser.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt używany do renderowania zawartości formantu serwera w przeglądarce klienta.</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>The argument to pass to the event.</source>
+          <target state="translated">Argument do przekazania do zdarzenia.</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>The text that is to appear in the link.</source>
+          <target state="translated">Tekst, który ma być wyświetlony w łączu.</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>A character to use as the shortcut key.</source>
+          <target state="translated">Znak używany jako klawisz skrótu.</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.MobileControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>The name of a class in the current cascading style sheet.</source>
+          <target state="translated">Nazwa klasy w bieżącym kaskadowy arkusz stylów.</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Saves view-state data specific to this adapter.</source>
+          <target state="translated">Zapisuje dane stanu widoku określonej do tej karty.</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta metoda jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode<bpt id="p1">*</bpt>&gt; if the value of the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.SecondaryUIMode<ept id="p1">*</ept>&gt; setting does not equal <bpt id="p2">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.NotSecondaryUI"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>: otherwise <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; Jeśli wartość &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; ustawienie nie jest równa <bpt id="p2">&lt;xref href="System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.NotSecondaryUI"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>: w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>Gets the current secondary UI mode.</source>
+          <target state="translated">Pobiera bieżący dodatkowej tryb interfejsu użytkownika.</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Secondary UI is used by controls that show additional screens of a user interface.</source>
+          <target state="translated">Użyć pomocniczego interfejsu użytkownika jest używany przez formanty, których wyświetlane są dodatkowe ekrany interfejsu użytkownika.</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use secondary UI, a control adapter performs the following steps:      1.</source>
+          <target state="translated">Aby użyć pomocniczego interfejsu użytkownika, karta kontroli wykonuje następujące czynności: 1.</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During a postback event, the control adapter sets the SecondaryUIMode property in the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt; base class.</source>
+          <target state="translated">Podczas zdarzenia odświeżania strony karty kontroli ustawia właściwość SecondaryUIMode w &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt;klasie podstawowej.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In rendering, the control checks the secondary UI mode, and renders the appropriate secondary UI.</source>
+          <target state="translated">W przypadku renderowania formantu sprawdza dodatkowej tryb interfejsu użytkownika i renderuje odpowiednie pomocniczego interfejsu użytkownika.</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In response to user interaction with the secondary UI, the control adapter might change the secondary UI mode to another value, or exit secondary UI mode by calling the &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt; method.</source>
+          <target state="translated">W odpowiedzi na interakcję użytkownika z pomocniczego interfejsu użytkownika, karty kontroli może zmienić dodatkowej tryb interfejsu użytkownika z inną wartością lub zakończyć dodatkowej tryb interfejsu użytkownika, wywołując &lt;xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt;metody.&lt;/xref:System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.ExitSecondaryUIMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is primarily used by developers of custom adapters.</source>
+          <target state="translated">Ta właściwość jest używana głównie przez deweloperów kart niestandardowych.</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>A number indicating the current secondary UI mode, as determined by the form in which it is contained.</source>
+          <target state="translated">Liczba wskazująca bieżący pomocniczego interfejsu użytkownika tryb, określone przez formularz, w którym znajduje się.</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_CssLocation" name="CssLocation" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute, if it exists, from the form in which it is contained.</source>
+          <target state="translated">Pobiera wartość <bpt id="p1">&lt;xref uid="langword_csharp_CssLocation" name="CssLocation" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> atrybut, jeśli istnieje, za pomocą formularza, w którym znajduje się.</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>A string containing the path and filename of a cascading style sheet if the attribute exists; otherwise, &lt;xref:System.String&gt;.</source>
+          <target state="translated">Ciąg zawierający ścieżkę i nazwę kaskadowy arkusz stylów, jeśli istnieje atrybut; w przeciwnym razie &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_XhtmlCssState" name="XhtmlCssState" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration setting in the <bpt id="p2">&lt;xref uid="langword_csharp_appSettings" name="appSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Pobiera wartość <bpt id="p1">&lt;xref uid="langword_csharp_XhtmlCssState" name="XhtmlCssState" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ustawienia konfiguracji w <bpt id="p2">&lt;xref uid="langword_csharp_appSettings" name="appSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>This API is obsolete.</source>
+          <target state="translated">Ten interfejs API jest przestarzały.</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>For information about how to develop ASP.NET mobile applications, see the <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> Web site.</source>
+          <target state="translated">Aby uzyskać informacje dotyczące tworzenia aplikacji platformy ASP.NET dla urządzeń przenośnych, zobacz <bpt id="p1">[</bpt>www.asp.net/mobile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=182900)</ept> witryny sieci Web.</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the .NET Framework internally.</source>
+          <target state="translated">Ta metoda jest głównie używane w programie .NET Framework wewnętrznie.</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>A string containing the path and filename of a cascading style sheet if the configuration setting exists; otherwise, &lt;xref:System.String&gt;.</source>
+          <target state="translated">Ciąg zawierający ścieżkę i nazwę kaskadowy arkusz stylów, jeśli ustawienie konfiguracji istnieje; w przeciwnym razie &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

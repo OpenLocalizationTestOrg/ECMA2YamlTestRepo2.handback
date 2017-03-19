@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d5b1c01f60e94e00d04853c0af99c1e191e3ba3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.SqlServer.Server.SqlContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e5aef849845ffe84689c64e76a3ff4a1339c0ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bea1543df18cfb6f9f60f30ebb96e191401bf8f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an abstraction of the caller's context, which provides access to the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlTriggerContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Представляет абстракцию контекст вызывающего объекта, который предоставляет доступ к <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlTriggerContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, и <bpt id="p3">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> объектов.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Этот класс не наследуется.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlContext object can be used to obtain the trigger context (for code executing in a trigger) and the pipe object (when available, such as in stored procedures).</source>
+          <target state="translated">Объект SqlContext может использоваться для получения контекста триггера (для кода, выполняемого в триггере) и объекта канала (если они доступны, например в хранимых процедурах).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also be used to obtain a &lt;xref:System.Security.Principal.WindowsIdentity&gt; object that represents the Microsoft Windows identity of the calling client, if the client authenticated with the server using integrated authentication.</source>
+          <target state="translated">Он также может использоваться для получения &lt;xref:System.Security.Principal.WindowsIdentity&gt;, представляющий удостоверение вызывающего клиента Microsoft Windows, если проверка подлинности клиента с сервера с помощью встроенной проверки подлинности.&lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Specifies whether the calling code is running within SQL Server, and if the context connection can be accessed.</source>
+          <target state="translated">Указывает ли вызывающий код выполняется в рамках SQL Server, и если возможен контекстного соединения.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property returns false, all the other &lt;xref:Microsoft.SqlServer.Server.SqlContext&gt; members throw an &lt;xref:System.InvalidOperationException&gt; if used.</source>
+          <target state="translated">Если это свойство возвращает значение false, все остальные &lt;xref:Microsoft.SqlServer.Server.SqlContext&gt;вызывать члены &lt;xref:System.InvalidOperationException&gt;при использовании.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlContext&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property returns false, any attempt to open a connection object that has "context connection=true" in the connection string fails.</source>
+          <target state="translated">Если это свойство возвращает значение false, любая попытка открыть объект соединения, имеющий» контекстного соединения = true» в строке подключения завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is read-only.</source>
+          <target state="translated">Это свойство доступно только для чтения.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using ADO.NET for data-access, if a piece of code may run both inside SQL Server (using common language runtime integration) and outside SQL Server, this property can be used to check whether the context connection is available.</source>
+          <target state="translated">При использовании ADO.NET для доступа к данным, если фрагмент кода может выполняться как в SQL Server (с помощью интеграцию со средой CLR), так и вне SQL Server, это свойство может использоваться для проверки того, доступно ли контекстное соединение.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the context connection is available and the other <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> members can be accessed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если подключение контекста, а другой <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> членам можно получить доступ.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the pipe object that allows the caller to send result sets, messages, and the results of executing commands back to the client.</source>
+          <target state="translated">Получает объект канала, который позволяет вызывающему объекту отправлять результирующие наборы, сообщения и результаты выполнения команды обратно клиенту.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If invoked from outside SQL Server, a &lt;xref:System.NotSupportedException&gt; is thrown.</source>
+          <target state="translated">При вызове из вне SQL Server &lt;xref:System.NotSupportedException&gt;возникает исключение.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is read-only.</source>
+          <target state="translated">Это свойство доступно только для чтения.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a pipe is available, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if called in a context where pipe is not available (for example, in a user-defined function).</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если канал доступен, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> при вызове в контексте, где канал недоступен (например, в определяемой пользователем функции).</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the trigger context used to provide the caller with information about what caused the trigger to fire, and a map of the columns that were updated.</source>
+          <target state="translated">Получает контекст триггера, используемый для предоставления вызывающей стороне со сведениями о том, что вызвало срабатывание триггера и сопоставления столбцов, которые были обновлены.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.SqlServer.Server.SqlTriggerContext&gt; object can only be retrieved from within a common language runtime trigger.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlTriggerContext&gt;Объекта можно получить только из общих триггера среды выполнения языка.&lt;/xref:Microsoft.SqlServer.Server.SqlTriggerContext&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the TriggerContext property is accessed from outside of SQL Server, a &lt;xref:System.NotSupportedException&gt; is thrown.</source>
+          <target state="translated">Если обращение к свойству TriggerContext из вне SQL Server &lt;xref:System.NotSupportedException&gt;возникает исключение.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is read-only.</source>
+          <target state="translated">Это свойство доступно только для чтения.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlTriggerContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a trigger context is available, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if called outside of a trigger invocation.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlTriggerContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если контекст триггер доступен, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> при вызове за пределами вызов триггера.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Microsoft Windows identity of the caller.</source>
+          <target state="translated">Microsoft Windows удостоверение вызывающей стороны.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Common language runtime (CLR) code inside SQL Server is always invoked in the context of the process account.</source>
+          <target state="translated">Среда CLR кода CLR в SQL Server всегда вызывается в контексте учетной записи процесса.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is necessary for the code to perform an action using calling user’s identity instead of the SQL Server process identity, then an impersonation token should be obtained through this property.</source>
+          <target state="translated">При необходимости код для выполнения действий с использованием удостоверения вызывающего пользователя, а не удостоверения процесса SQL Server, маркер олицетворения нужно получить через это свойство.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After obtaining the &lt;xref:System.Security.Principal.WindowsIdentity&gt; object, callers can impersonate the client account and perform actions on their behalf.</source>
+          <target state="translated">После получения &lt;xref:System.Security.Principal.WindowsIdentity&gt;объекта, вызывающие могут олицетворять учетную запись клиента и выполнять действия от их имени.&lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If invoked from outside SQL Server, a &lt;xref:System.NotSupportedException&gt; is thrown.</source>
+          <target state="translated">При вызове из вне SQL Server &lt;xref:System.NotSupportedException&gt;возникает исключение.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only assemblies marked with <ph id="ph1">`EXTERNAL_ACCESS`</ph> or <ph id="ph2">`UNSAFE`</ph> permissions can access this property.</source>
+          <target state="translated">Только сборки, имеющие <ph id="ph1">`EXTERNAL_ACCESS`</ph> или <ph id="ph2">`UNSAFE`</ph> разрешений можно получить доступ к этому свойству.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is read-only.</source>
+          <target state="translated">Это свойство доступно только для чтения.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance representing the Windows identity of the caller, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the client was authenticated using SQL Server Authentication.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляр, представляющий удостоверение Windows вызывающего объекта, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Если клиент прошел проверку подлинности с использованием проверки подлинности SQL Server.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
