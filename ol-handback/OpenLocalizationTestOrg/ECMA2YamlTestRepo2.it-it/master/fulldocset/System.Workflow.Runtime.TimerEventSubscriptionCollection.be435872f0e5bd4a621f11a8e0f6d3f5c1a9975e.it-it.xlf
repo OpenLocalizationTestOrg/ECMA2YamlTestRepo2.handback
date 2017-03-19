@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d5167e5066cf1c58cc13e1a47eccfa61370d3dd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.TimerEventSubscriptionCollection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c7349df508b21bb53b245bed81343e523990259</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83929ea5f2272a8478c8e751ecbf576a355a6a5e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an ordered list of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Rappresenta un elenco ordinato di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A TimerEventSubscriptionCollection represents the queue of &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; objects associated with a workflow instance and provides methods to manage this queue.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>Un TimerEventSubscriptionCollection rappresenta la coda di &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;gli oggetti associati a un flusso di lavoro dell'istanza e fornisce metodi per gestire questa coda.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subscriptions are ordered in the queue based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values; those with smaller &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values are positioned before those with larger &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values.</source>
+          <target state="translated">Le sottoscrizioni vengono ordinate nella coda in base alle loro &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;valori, mentre quelli con più piccoli &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;valori vengono posizionati prima di quelli con maggiore &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;valori.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the methods provided by this class to manage the collection of active timer event subscriptions exposed by &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt; for each workflow instance.</source>
+          <target state="translated">È possibile utilizzare i metodi forniti da questa classe per gestire la raccolta delle sottoscrizioni di eventi timer attive esposta da &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt;per ogni istanza del flusso di lavoro.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt; or &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt; to add or remove subscriptions from the timer queue.</source>
+          <target state="translated">È possibile utilizzare &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt;o &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt;per aggiungere o rimuovere le sottoscrizioni dalla coda del timer.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whenever the first element in the timer queue changes, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt; is called to cancel the timer event that was previously at the beginning of the queue and schedule the new timer event.</source>
+          <target state="translated">Ogni volta che il primo elemento nella coda del timer cambia, il &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt;viene chiamato per annullare l'evento del timer che precedentemente si trovava all'inizio della coda e pianificare il nuovo evento del timer.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the timer queue.</source>
+          <target state="translated">Aggiunge un <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> alla coda del timer.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adds the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; to the timer queue.</source>
+          <target state="translated">Aggiunge il &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;alla coda del timer.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">Le sottoscrizioni nella coda vengono posizionate in base ai loro &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;valori; quelli con i valori inferiori si trovano davanti alle con i valori superiori.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the new subscription is added at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event that was previously at the beginning of the queue and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule the new timer event.</source>
+          <target state="translated">Se la nuova sottoscrizione viene aggiunto all'inizio della coda, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;viene chiamato per annullare l'evento del timer che precedentemente si trovava all'inizio della coda e &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;per pianificare il nuovo evento del timer.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add locks the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; before adding the new subscription and is, therefore, thread safe.</source>
+          <target state="translated">Aggiunge i blocchi di &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;prima di aggiungere la nuova sottoscrizione e, pertanto è thread-safe.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the timer queue.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da aggiungere alla coda del timer.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Copies the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> elements to an existing one-dimensional &lt;xref:System.Array&gt;, starting at the specified array index.</source>
+          <target state="translated">Copie di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementi a un oggetto esistente unidimensionali &lt;xref:System.Array&gt;, a partire dall'indice di matrice specificato.&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CopyTo is thread safe.</source>
+          <target state="translated">CopyTo è thread-safe.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The one-dimensional &lt;xref:System.Array&gt; that is the destination of the elements copied from the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Oggetto unidimensionale &lt;xref:System.Array&gt;che rappresenta la destinazione degli elementi copiati dal <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; must have zero-based indexing.</source>
+          <target state="translated">Il &lt;xref:System.Array&gt;deve avere un'indicizzazione in base zero.&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The zero-based index in <ph id="ph1">`array`</ph> at which copying begins.</source>
+          <target state="translated">Indice in base zero <ph id="ph1">`array`</ph> da cui avviare la copia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the number of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the timer queue.</source>
+          <target state="translated">Ottiene il numero di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti nella coda del timer.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The number of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the queue.</source>
+          <target state="translated">Il numero di <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti nella coda.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Restituisce un enumeratore che scorre la <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">L'accesso al &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;è sincronizzato; tuttavia, l'enumerazione di una raccolta non è quindi una procedura thread-safe.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enumerator remains valid as long as the collection remains unchanged.</source>
+          <target state="translated">Un enumeratore rimane valido fino a quando la raccolta rimane invariata.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and its behavior is undefined.</source>
+          <target state="translated">Se vengono apportate modifiche alla raccolta, ad esempio aggiungendo, modificando o eliminando elementi, l'enumeratore viene invalidato e il relativo comportamento sarà indefinito.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The enumerator does not have exclusive access to the collection; therefore, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">L'enumeratore non dispone di accesso esclusivo alla raccolta. Pertanto, l'enumerazione di una raccolta non è quindi una procedura thread-safe.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To guarantee thread safety during enumeration, you can lock the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; during the entire enumeration by using &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;.</source>
+          <target state="translated">Per garantire la protezione dei thread durante l'enumerazione, è possibile bloccare l' &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;intera enumerazione tramite &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">An &lt;xref:System.Collections.IEnumerator&gt; for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is synchronized (thread safe).</source>
+          <target state="translated">Ottiene un valore che indica se l'accesso per il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> è sincronizzato (thread-safe).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">L'accesso al &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;è sincronizzato; tuttavia, l'enumerazione di una raccolta non è quindi una procedura thread-safe.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception.</source>
+          <target state="translated">Anche se una raccolta è sincronizzata, altri thread possa comunque modificare la raccolta, che determina l'enumeratore generare un'eccezione.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</source>
+          <target state="translated">Per garantire la protezione dei thread durante l'enumerazione, bloccare la raccolta per l'intera enumerazione oppure intercettare le eccezioni determinate dalle modifiche apportate da altri thread.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt; returns an object, which can be used to synchronize access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;Restituisce un oggetto che può essere utilizzato per sincronizzare l'accesso a &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating that access to the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is synchronized (thread safe).</source>
+          <target state="translated">Restituisce sempre <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che indica che l'accesso al <bpt id="p2">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> è sincronizzato (thread-safe).</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of the timer queue without removing it.</source>
+          <target state="translated">Restituisce il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> all'inizio della coda del timer senza rimuoverlo.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Peek is thread safe.</source>
+          <target state="translated">Peek è thread-safe.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of the timer queue or a null reference (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in Visual Basic) if the timer queue is empty.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> all'inizio della coda del timer o un riferimento null (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> in Visual Basic) se la coda del timer è vuota.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Removes the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that has the specified subscription id from the timer queue.</source>
+          <target state="translated">Rimuove il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> con l'id sottoscrizione specificato dalla coda del timer.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Removes the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; with the specified subscription id from the timer queue.</source>
+          <target state="translated">Rimuove il &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;con l'id sottoscrizione specificato dalla coda del timer.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">Le sottoscrizioni nella coda vengono posizionate in base ai loro &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;valori; quelli con i valori inferiori si trovano davanti alle con i valori superiori.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the subscription removed was the subscription at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event associated with this subscription and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule a timer event for the subscription that is now at the beginning of the queue.</source>
+          <target state="translated">Se la sottoscrizione rimossa si trovava la sottoscrizione all'inizio della coda, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;viene chiamato per annullare l'evento del timer associata a questa sottoscrizione e &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;viene chiamato per pianificare un evento del timer per la sottoscrizione che si trova ora all'inizio della coda.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Remove is thread safe.</source>
+          <target state="translated">Rimuovi sono thread-safe.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove.</source>
+          <target state="translated">Il &lt;xref:System.Guid&gt;del <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da rimuovere.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Removes the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the timer queue.</source>
+          <target state="translated">Rimuove il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dalla coda del timer.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Removes the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; from the timer queue.</source>
+          <target state="translated">Rimuove il &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;dalla coda del timer.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">Le sottoscrizioni nella coda vengono posizionate in base ai loro &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;valori; quelli con i valori inferiori si trovano davanti alle con i valori superiori.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the subscription removed was the subscription at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event associated with this subscription and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule a timer event for the subscription that is now at the beginning of the queue.</source>
+          <target state="translated">Se la sottoscrizione rimossa si trovava la sottoscrizione all'inizio della coda, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;viene chiamato per annullare l'evento del timer associata a questa sottoscrizione e &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;viene chiamato per pianificare un evento del timer per la sottoscrizione che si trova ora all'inizio della coda.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt; is thread safe.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt;è thread-safe.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the timer queue.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da rimuovere dalla coda del timer.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph>è un riferimento null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ottiene un oggetto che può essere utilizzato per sincronizzare l'accesso al <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SyncRoot returns an object, which can be used to synchronize access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.</source>
+          <target state="translated">SyncRoot restituisce un oggetto che può essere utilizzato per sincronizzare l'accesso a &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">L'accesso al &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;è sincronizzato; tuttavia, l'enumerazione di una raccolta non è quindi una procedura thread-safe.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception.</source>
+          <target state="translated">Anche se una raccolta è sincronizzata, altri thread possa comunque modificare la raccolta, che determina l'enumeratore generare un'eccezione.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To guarantee thread safety during enumeration, you can either lock the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; during the entire enumeration by using SyncRoot or catch the exceptions resulting from changes made by other threads.</source>
+          <target state="translated">Per garantire la protezione dei thread durante l'enumerazione, è possibile bloccare la &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;durante l'intera enumerazione tramite SyncRoot o intercettare le eccezioni determinate dalle modifiche apportate da altri thread.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An object used to synchronize access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Oggetto utilizzato per sincronizzare l'accesso per il <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Timer queue associated with a workflow instance.</source>
+          <target state="translated">Coda del timer associata a un'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This queue contains time ordered <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for a workflow.</source>
+          <target state="translated">Questa coda contiene ora ordinato <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti per un flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

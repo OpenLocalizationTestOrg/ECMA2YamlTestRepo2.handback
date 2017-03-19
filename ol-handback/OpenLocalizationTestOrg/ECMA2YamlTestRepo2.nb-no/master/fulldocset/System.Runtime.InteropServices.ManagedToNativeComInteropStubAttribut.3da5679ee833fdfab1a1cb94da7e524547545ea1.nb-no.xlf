@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">622d983b53c274129793847d685acbdd440b7fa2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d909024656128c7971f07a0768b1053761ca513d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7dba3e780d88fd1bff1362801691f4fb4116ef3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides support for user customization of interop stubs in managed-to-COM interop scenarios.</source>
+          <target state="translated">Gir støtte for brukeren tilpassing av interop stubber i administrert til COM interop scenarier.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This attribute enables interop developers who have knowledge about marshaling and the inner workings of interop calls to do the following:      -   Take advantage of customized interop stubs at build time instead of run time.</source>
+          <target state="translated">Dette attributtet aktiverer interop utviklere som har kunnskap om formidling og indre workings for interop kall til å gjøre følgende:-dra nytte av egendefinerte interop stubber ved kompilering gang i stedet for kjøring.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Debug customized interop stubs.</source>
+          <target state="translated">-Feilsøking tilpasset interop stubber.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Provide marshaling capabilities within a stub that the runtime does not provide.</source>
+          <target state="translated">-Angi formidling funksjonalitet i en stubb kjøretiden ikke leverer.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Provide user-specific method dispatch capabilities.</source>
+          <target state="translated">-Angi brukerspesifikke metoden angitte funksjoner.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You apply the attribute on a method in an interface to specify a corresponding stub method for managed-to-native COM interop.</source>
+          <target state="translated">Du kan bruke attributtet for en metode i et grensesnitt til å angi en tilsvarende stub-metode for administrert til opprinnelig COM-interoperabilitet.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this attribute is encountered during run time, the common language runtime does not dynamically generate an interop stub.</source>
+          <target state="translated">Hvis dette attributtet oppstår under kjøring, genererer common language runtime ikke dynamisk en interop stub.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, it invokes the custom stub that was created at build time.</source>
+          <target state="translated">I stedet aktiverer den egendefinert stubben som ble opprettet på kompilering tidspunkt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ManagedToNativeComInteropStubAttribute attribute has the following characteristics:      -   The attribute can be used only on methods from interfaces that are marked <ph id="ph1">`[ComImport]`</ph>.</source>
+          <target state="translated">Attributtet ManagedToNativeComInteropStubAttribute har følgende egenskaper:-attributtet kan bare brukes på metoder fra grensesnitt som er merket <ph id="ph1">`[ComImport]`</ph>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the attribute is applied to non-interface types, it is ignored by the runtime.</source>
+          <target state="translated">Hvis attributtet brukes på ikke-grensesnitt typer, ignoreres av kjøretiden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The attribute can be used only once on the same method in an interface.</source>
+          <target state="translated">-Attributtet kan brukes bare én gang på samme metode i et grensesnitt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is used more than once, the compiler generates a duplicated attribute error.</source>
+          <target state="translated">Hvis det brukes flere ganger, genererer kompilatoren en dupliserte-feil.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The attribute is not inheritable from a base interface.</source>
+          <target state="translated">-Attributtet er ikke arvbare fra en base grensesnittet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived interfaces must explicitly assign the attribute.</source>
+          <target state="translated">Avledede grensesnitt må eksplisitt tildele attributtet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The assembly that contains the attributed method must also contain the customized stub.</source>
+          <target state="translated">-Samlingen som inneholder metoden attributed må også inneholde tilpassede stubben.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Overloaded stub methods are valid.</source>
+          <target state="translated">Overbelastet stub metodene er ugyldig.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you specify only the type and the name of the stub method, the runtime will discover the corresponding stub.</source>
+          <target state="translated">Du kan angi bare hvilke og navnet på metoden stub, discover kjøretiden tilsvarende stubben.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does this by examining all the arguments on the interface method, and then performing full signature matching by using an explicit <ph id="ph1">`this`</ph> pointer.</source>
+          <target state="translated">Det gjøres ved å kontrollere alle argumenter i grensesnittmetoden og utføre full signatur samsvarende ved hjelp av en eksplisitt <ph id="ph1">`this`</ph> pekeren.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is also possible for multiple methods in an interface to share the same stub method; however, you should be careful when you use shared stubs.</source>
+          <target state="translated">Det er også mulig for flere metoder i et grensesnitt som deler samme stub-metoden. Du må imidlertid være forsiktig når du bruker delte stubber.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Stub methods must be static.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Stub metoder må være statisk.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You could inform the runtime to use a customized interop stub at build time instead of run time with the following C# code:      <ph id="ph1">```   [ComImport]   interface IMyInterface   {       [ManagedToNativeComInteropStubAttribute(typeof(TestStubClass),                 "ForwardTestStub")]       void GetString (string arg);   }   ```</ph>       You could then use the following code to declare the corresponding stub method:      <ph id="ph2">```   class TestStubClass   {       internal static void ForwardTestStub(IMyInterface thisObject,                string arg) {…}   }   ```</ph></source>
+          <target state="translated">Du kan også informere kjøretiden for å bruke en egendefinert interop stubb kompilering gang i stedet for kjøring med følgende C#-kode: <ph id="ph1">```   [ComImport]   interface IMyInterface   {       [ManagedToNativeComInteropStubAttribute(typeof(TestStubClass),                 "ForwardTestStub")]       void GetString (string arg);   }   ```</ph> du kan deretter bruke følgende kode til deklarere den tilsvarende stub-metoden:<ph id="ph2">```   class TestStubClass   {       internal static void ForwardTestStub(IMyInterface thisObject,                string arg) {…}   }   ```</ph></target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified class type and method name.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med angitt type og metode klassenavnet.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The class that contains the required stub method.</source>
+          <target state="translated">Klassen som inneholder den nødvendige stub-metoden.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name of the stub method.</source>
+          <target state="translated">Navnet på stub-metoden.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;methodName&lt;/code&gt;</ph> cannot be found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;methodName&lt;/code&gt;</ph>Finner ikke.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       The method is not static or non-generic.</source>
+          <target state="translated">- eller - metoden er ikke statisk eller ikke-generisk.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       The method's parameter list does not match the expected parameter list for the stub.</source>
+          <target state="translated">- eller - metodens parameterlister samsvarer ikke med forventet parameterlisten for stubben.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The interface that contains the managed interop method has no access to the stub method, because the stub method has private or protected accessibility, or because of a security issue.</source>
+          <target state="translated">Grensesnittet som inneholder den administrerte interop metoden har ikke tilgang til metoden stub fordi metoden stub har privat eller beskyttet tilgjengelighet eller på grunn av et sikkerhetsproblem.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the class that contains the required stub method.</source>
+          <target state="translated">Henter klassen som inneholder den nødvendige stub-metoden.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The class that contains the customized interop stub.</source>
+          <target state="translated">Klassen som inneholder tilpassede interop stubben.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the name of the stub method.</source>
+          <target state="translated">Henter navnet på stub-metoden.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of a customized interop stub.</source>
+          <target state="translated">Navnet på en tilpasset interop stubb.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

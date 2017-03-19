@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1c489db10c5dc334479a1ef7ecbaf7e585920d5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c468fb649e6163fd71f1261768bd77bcef199962</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c744b3f033f0105597fc2476eaeca2513af88f2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple way to create and manage the contents of connection strings used by the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">만들기 및 사용 되는 연결 문자열의 내용을 관리 하는 간단한 방법을 제공는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder lets developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings, using properties and methods of the class.</source>
+          <target state="translated">연결 문자열 작성기 클래스의 메서드와 속성을 사용 하 여 프로그래밍 방식으로 올바른 구문의 연결 문자열을 만들고 및 구문 분석 하 고 기존 연결 문자열을 다시 작성 하는 개발자를 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder provides strongly typed properties corresponding to the known key/value pairs allowed by SQL Server.</source>
+          <target state="translated">연결 문자열 작성기는 SQL Server에서 허용 하는 알려진된 키/값 쌍에 해당 하는 강력한 형식의 속성을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers needing to create connection strings as part of applications can use the SqlConnectionStringBuilder class to build and modify connection strings.</source>
+          <target state="translated">연결 문자열을 만드는 응용 프로그램의 일부로 개발자 SqlConnectionStringBuilder 클래스를 사용 작성 하 고 연결 문자열을 수정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">또한 클래스에서는 응용 프로그램 구성 파일에 저장 된 연결 문자열을 관리 하기가 쉽습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlConnectionStringBuilder performs checks for valid key/value pairs.</source>
+          <target state="translated">SqlConnectionStringBuilder 유효한 키/값 쌍에 대 한 검사를 수행합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you cannot use this class to create invalid connection strings; trying to add invalid pairs will throw an exception.</source>
+          <target state="translated">따라서; 잘못 된 연결 문자열을 만드는이 클래스를 사용할 수 없습니다. 잘못 된 쌍을 추가 하려고 하면 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class maintains a fixed collection of synonyms and can translate from a synonym to the corresponding well-known key name.</source>
+          <target state="translated">클래스는 고정 된 동의어 컬렉션을 유지 관리 하며 해당 잘 알려진 키 이름으로 동의어를 변환할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when you use the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property to retrieve a value, you can specify a string that contains any synonym for the key you need.</source>
+          <target state="translated">예를 들어, 사용 하는 경우는 <bpt id="p1">**</bpt>항목<ept id="p1">**</ept> 속성 값을 검색 하려면 필요한 키에 대 한 모든 동의어를 포함 하는 문자열을 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can specify "Network Address", "addr", or any other acceptable synonym for this key within a connection string when you use any member that requires a string that contains the key name, such as the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property or the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt; method.</source>
+          <target state="translated">예를 들어 지정할 수 있습니다 "Network Address", "addr" 또는 연결 문자열 내에서이 키에 대 한 허용 가능한 다른 동의어와 같은 키 이름을 포함 하는 문자열에 필요한 멤버를 사용 하는 경우는 <bpt id="p1">**</bpt>항목<ept id="p1">**</ept> 속성 또는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;메서드.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; property for a full list of acceptable synonyms.</source>
+          <target state="translated">참조는 &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;허용 가능한 동의어의 전체 목록에 대 한 속성.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property handles tries to insert malicious entries.</source>
+          <target state="translated"><bpt id="p1">**</bpt>항목<ept id="p1">**</ept> 속성을 악의적 항목을 삽입 하려는 시도 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following code, using the default Item property (the indexer, in C#) correctly escapes the nested key/value pair:       [Visual Basic]      <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph>       [C#]      <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></source>
+          <target state="translated">올바르게 기본 Item 속성 (C# 인덱서)을 사용 하 여 다음 코드에서는 중첩 된 키/값 쌍을 이스케이프 하는 예를 들어: [Visual Basic] <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph> [C#] <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph> 결과 안전한 방법으로 잘못 된 값을 처리 하는 다음 연결 문자열:<ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The provided connection string provides the data for the instance's internal connection information.</source>
+          <target state="translated">제공 된 연결 문자열은 인스턴스의 내부 연결 정보에 대 한 데이터를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; class provides a fixed internal collection of key/value pairs.</source>
+          <target state="translated">&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;클래스는 키/값 쌍의 고정된 된 내부 컬렉션을 제공 합니다.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even if you supply only a small subset of the possible connection string values in the constructor, the object always provides default values for each key/value pair.</source>
+          <target state="translated">생성자에서 가능한 연결 문자열 값의 작은 하위 집합만 제공 하는 경우에 개체 각 키/값 쌍에 대 한 기본값을 항상 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`ConnectionString`</ph> property of the object is retrieved, the string contains only key/value pairs in which the value is not the default value for the item.</source>
+          <target state="translated">경우는 <ph id="ph1">`ConnectionString`</ph> 개체의 속성을 검색, 문자열에 없는 값이 항목에 대 한 기본값 키/값 쌍만 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The basis for the object's internal connection information.</source>
+          <target state="translated">개체의 내부 연결 정보에 대 한 기초로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Parsed into name/value pairs.</source>
+          <target state="translated">이름/값 쌍으로 구문 분석 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Invalid key names raise &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">키 이름이 잘못 된 &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.를&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt; 를 발생 시킵니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invalid key name within the connection string.</source>
+          <target state="translated">연결 문자열 내의 키 이름이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, when a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">연결 문자열 내의 값이 잘못 되었습니다 (특히 때 부울 또는 숫자 값이 필요 하지만 제공 되지 않았습니다)입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The supplied <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> is not valid.</source>
+          <target state="translated">제공 된 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept> 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Declares the application workload type when connecting to a database in an SQL Server Availability Group.</source>
+          <target state="translated">SQL Server 가용성 그룹에 데이터베이스에 연결할 때 응용 프로그램 작업 유형을 선언 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property with <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 속성의 값을 설정할 수 <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Always On 가용성 그룹에 대 한 SqlClient 지원에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>고가용성, 재해 복구에 대 한 SqlClient 지원<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the current value of the property (a value of type <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">속성의 현재 값을 반환 합니다 (형식의 값 <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application associated with the connection string.</source>
+          <target state="translated">연결 문자열과 관련 된 응용 프로그램의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Application Name" and "app" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Application Name" 및 "app" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of the application, or ".NET SqlClient Data Provider" if no name has been supplied.</source>
+          <target state="translated">응용 프로그램 또는 ".NET SqlClient Data Provider" 제공 된 이름이 없는 경우의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether asynchronous processing is allowed by the connection created by using this connection string.</source>
+          <target state="translated">이 연결 문자열을 사용 하 여 만든 연결에서 비동기 처리를 허용 하는지 여부를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Asynchronous Processing" and "async" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Asynchronous Processing" 및 "async" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to take advantage of the asynchronous processing provided by the &lt;xref:System.Data.SqlClient.SqlCommand&gt; object, this key/value pair must be included within the connection string of the associated &lt;xref:System.Data.SqlClient.SqlConnection&gt; object.</source>
+          <target state="translated">제공 하는 비동기 처리를 활용 하기 위해는 &lt;xref:System.Data.SqlClient.SqlCommand&gt;개체를이 키/값 쌍의 관련 된 연결 문자열에 포함 되어야 합니다 &lt;xref:System.Data.SqlClient.SqlConnection&gt;개체입니다.&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the AsynchronousProcessing property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">AsynchronousProcessing 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 값이 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the primary data file.</source>
+          <target state="translated">주 데이터 파일의 이름을 포함 하는 문자열을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This includes the full path name of an attachable database.</source>
+          <target state="translated">여기에 연결할 수 있는 데이터베이스의 전체 경로 이름을 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "AttachDBFilename", "extended properties", and "initial file name" keys within the connection string.</source>
+          <target state="translated">이 속성은 "AttachDBFilename", "extended properties" 및 연결 문자열 내의 "initial file name" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AttachDBFilename`</ph> is only supported for primary data files with an .mdf extension.</source>
+          <target state="translated"><ph id="ph1">`AttachDBFilename`</ph>.mdf 확장명이 주 데이터 파일에만 지원 됩니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error will be generated if a log file exists in the same directory as the data file and the 'database' keyword is used when attaching the primary data file.</source>
+          <target state="translated">로그 파일이 데이터 파일과 같은 디렉터리에 있고 주 데이터 파일을 연결할 때 'database' 키워드가 사용 되 면 오류가 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, remove the log file.</source>
+          <target state="translated">이 경우 로그 파일을 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once the database is attached, a new log file will be automatically generated based on the physical path.</source>
+          <target state="translated">데이터베이스가 연결 되 면 실제 경로에 따라 새 로그 파일이 자동으로 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property, or <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">값은 <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 속성 또는 <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 제공 된 값이 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the authentication of the connection string.</source>
+          <target state="translated">연결 문자열의 인증을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The authentication of the connection string.</source>
+          <target state="translated">연결 문자열의 인증입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">내용을 지웁니다는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt; method removes all key/value pairs from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, and resets all corresponding properties.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;모든 키/값 쌍을 제거 하는 메서드는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, 해당 속성을 모두 다시 설정 합니다.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0, and setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property to an empty string.</source>
+          <target state="translated">이 포함 됩니다는 &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;속성을 0으로 설정 된 &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;속성을 빈 문자열로.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets and sets the column encryption settings for the connection string builder.</source>
+          <target state="translated">가져오고 열 암호화 설정 연결 문자열 작성기에 대 한 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The column encryption settings for the connection string builder.</source>
+          <target state="translated">연결 문자열 작성기에 대 한 열 암호화 설정입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="translated">사용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection is reset when drawn from the connection pool.</source>
+          <target state="translated">연결 풀에서 제거 하는 경우 연결이 다시 설정 하는지 여부를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connection Reset" key within the &lt;xref:System.Data.SqlClient.SqlConnection&gt; connection string, which has been removed from version 3.5 SP1 of the .NET Framework.</source>
+          <target state="translated">이 속성은 내의 "Connection Reset" 키에 해당는 &lt;xref:System.Data.SqlClient.SqlConnection&gt;연결 문자열로,.NET Framework 버전 3.5 s p 1에서에서 제거 되었습니다.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectionReset property, or true if no value has been supplied.</source>
+          <target state="translated">ConnectionReset 속성 또는 제공 된 값이 없으면 true의 값입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">[.NET Framework 4.5.1 이상 버전에서 지원 됨]       식별 한 후 시도 된 재연결 횟수는 유휴 연결 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 0 and 255.</source>
+          <target state="translated">이 0에서 255 사이의 정수 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Default is 1.</source>
+          <target state="translated">기본값은 1입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Set to 0 to disable reconnecting on idle connection failures.</source>
+          <target state="translated">유휴 연결 실패에 다시 연결 하지 않으려면 0으로 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">&lt;xref:System.ArgumentException&gt;경우 설정 됩니다 허용 되는 범위를 벗어나는 값으로.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">식별 한 후 시도 된 재연결 횟수는 유휴 연결 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">[.NET Framework 4.5.1 이상 버전에서 지원 됨]       사이의 시간 (초)는 유휴 연결 오류가 발생 했음을 식별 한 후 각 다시 연결 시도의 양입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 1 and 60.</source>
+          <target state="translated">이 1에서 60 사이의 정수 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is 10 seconds.</source>
+          <target state="translated">기본값은 10 초입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">&lt;xref:System.ArgumentException&gt;경우 설정 됩니다 허용 되는 범위를 벗어나는 값으로.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">사이의 시간 (초)는 유휴 연결 오류가 발생 했음을 식별 한 후 각 다시 연결 시도의 양입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error.</source>
+          <target state="translated">시도 종료 하 고 오류를 생성 하기 전에 서버에 연결 될 때까지 기다릴 시간 (초)의 길이 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connect Timeout", "connection timeout", and "timeout" keys within the connection string.</source>
+          <target state="translated">이 속성은 "Connect Timeout", "connection timeout" 및 연결 문자열 내의 "timeout" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When opening a connection to a Azure SQL Database, set the connection timeout to 30 seconds.</source>
+          <target state="translated">Azure SQL 데이터베이스에 대 한 연결을 열 때 연결 제한 시간을 30 초로 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectTimeout property, or 15 seconds if no value has been supplied.</source>
+          <target state="translated">ConnectTimeout 속성 또는 제공 된 값이 없으면 15 초 값입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">결정 여부는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 특정 키가 들어 있습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size collection of key/value pairs, the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method determines only if a particular key name is valid.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;키/값 쌍의 크기가 고정 된 컬렉션을 포함 된 &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;메서드는 특정 키 이름이 올바른지 경우만 확인 합니다.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">찾을 수 있는 키의 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>true if the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains an element that has the specified key; otherwise, false.</source>
+          <target state="translated">true 이면은 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ; 지정된 된 키가 있는 요소가 들어 그렇지 않으면 false입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서)</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a client/server or in-process connection to SQL Server should be made.</source>
+          <target state="translated">클라이언트/서버 또는 SQL Server 프로세스에서 연결을 설정할 수 해야 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Context Connection" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Context Connection" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt; property returns <ph id="ph2">`null`</ph> if the connection string for the &lt;xref:System.Data.SqlClient.SqlConnection&gt; is "context connection=true".</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;는 &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;속성에서 반환 <ph id="ph2">`null`</ph> 에 대 한 연결 문자열은 &lt;xref:System.Data.SqlClient.SqlConnection&gt;은 "컨텍스트 연결 = true"입니다.&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The value of the ContextConnection property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">ContextConnection 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the SQL Server Language record name.</source>
+          <target state="translated">SQL Server 언어 레코드 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Current Language" and "language" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Current Language" 및 "language" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The value of the CurrentLanguage property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">CurrentLanguage 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 값이 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or network address of the instance of SQL Server to connect to.</source>
+          <target state="translated">에 연결 하도록 SQL server 인스턴스의 이름이 나 네트워크 주소를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Data Source", "server", "address", "addr", and "network address" keys within the connection string.</source>
+          <target state="translated">이 속성은 "Data Source", "server", "address", "addr" 및 연결 문자열 내의 "network address" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of which of these values has been supplied within the supplied connection string, the connection string created by the <ph id="ph1">`SqlConnectionStringBuilder`</ph> will use the well-known "Data Source" key.</source>
+          <target state="translated">제공된 된 연결 문자열 내에서 어떤이 값을 제공 하는 것에 관계 없이 연결 문자열에서 만든는 <ph id="ph1">`SqlConnectionStringBuilder`</ph> 잘 알려진 "데이터 원본" 키를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the DataSource property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">DataSource 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether SQL Server uses SSL encryption for all data sent between the client and server if the server has a certificate installed.</source>
+          <target state="translated">SQL Server에서 서버 인증서가 설치 되어 있으면 클라이언트와 서버 간에 전송 되는 모든 데이터에 대해 SSL 암호화를 사용 하는지를 지정 하는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Encrypt" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Encrypt" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the Encrypt property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Encrypt 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the SQL Server connection pooler automatically enlists the connection in the creation thread's current transaction context.</source>
+          <target state="translated">SQL Server 연결 풀에서 만들기 스레드의 현재 트랜잭션 컨텍스트에 연결을 자동으로 참여시킬지 여부를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Enlist" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Enlist" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the Enlist property, or <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if none has been supplied.</source>
+          <target state="translated">Enlist 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or address of the partner server to connect to if the primary server is down.</source>
+          <target state="translated">이름이 나 주 서버가 다운 되었을 때 연결할 파트너 서버의 주소를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The value of the FailoverPartner property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">FailoverPartner 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the database associated with the connection.</source>
+          <target state="translated">연결과 관련 된 데이터베이스의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Initial Catalog" and "database" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Initial Catalog" 및 "database" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of the InitialCatalog property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">InitialCatalog 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether User ID and Password are specified in the connection (when <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) or whether the current Windows account credentials are used for authentication (when <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">사용자 ID와 암호 연결에 지정 되었는지 여부를 나타내는 부울 값을 가져오거나 설정 합니다. (때 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) 또는 현재 Windows 계정 자격 증명 인증에 사용 됩니다 (때 <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Integrated Security" and "trusted_connection" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Integrated Security" 및 "trusted_connection" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The value of the IntegratedSecurity property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">IntegratedSecurity 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 크기가 고정된 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in every case, because the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> supplies a fixed-size collection of key/value pairs.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>모든 경우에 때문에 <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 키/값 쌍의 크기가 고정 된 컬렉션을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">지정된 된 키와 연결 된 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In C#, this property is the indexer.</source>
+          <target state="translated">C#의 경우이 속성은 인덱서 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size dictionary, trying to add a key that does not exist within the dictionary throws a &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt; 를 throw 하는 사전 내에서 존재 하지 않는 키를 추가 하는 고정 크기의 사전이 포함&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">가져오거나 설정할 항목의 키입니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">지정된 된 키와 연결 된 값입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Tried to add a key that does not exist within the available keys.</source>
+          <target state="translated">사용 가능한 키에 존재 하지 않는 키를 추가 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">연결 문자열 내의 값이 잘못 되었습니다 (특히, 부울 또는 숫자 값이 필요 하지만 제공 되지 않았습니다)입니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Collections.ICollection&gt;에 키를 포함 하는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">에 있는 값의 순서는 &lt;xref:System.Collections.ICollection&gt;지정 되어 있지에 연결 된 값과 순서가 동일 하지만 &lt;xref:System.Collections.ICollection&gt;에서 반환 되는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt;속성.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;에 키를 포함 하는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum time, in seconds, for the connection to live in the connection pool before being destroyed.</source>
+          <target state="translated">(초)를 연결 풀에서 연결이 제거 되기 전에 최소 시간을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Load Balance Timeout" and "connection lifetime" keys within the connection string.</source>
+          <target state="translated">이 속성은 "Load Balance Timeout" 및 연결 문자열 내의 "connection lifetime" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The value of the LoadBalanceTimeout property, or 0 if none has been supplied.</source>
+          <target state="translated">LoadBalanceTimeout 속성 또는 제공 된 경우 0의 값입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">이 특정 연결 문자열에 대 한 연결 풀에서 허용 되는 연결의 최대 수를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Max Pool Size" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Max Pool Size" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the MaxPoolSize property, or 100 if none has been supplied.</source>
+          <target state="translated">MaxPoolSize 속성 또는 제공 된 경우 100의 값입니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">이 특정 연결 문자열에 대 한 연결 풀에서 허용 되는 연결의 최소 수를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Min Pool Size" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Min Pool Size" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value of the MinPoolSize property, or 0 if none has been supplied.</source>
+          <target state="translated">MinPoolSize 속성 또는 제공 된 경우 0의 값입니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When true, an application can maintain multiple active result sets (MARS).</source>
+          <target state="translated">True 인 경우 응용 프로그램이 MARS ()를 설정 하는 여러 활성 결과 유지할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection.</source>
+          <target state="translated">False 인 경우 응용 프로그램을 처리 하거나 해당 연결에서 다른 일괄 처리를 실행 하기 전에 하나의 일괄 처리의 모든 결과 집합을 취소 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Multiple Active Result Sets (MARS)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>결과 집합 MARS (Multiple Active)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "MultipleActiveResultSets" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "MultipleActiveResultSets" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The value of the MultipleActiveResultSets property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">MultipleActiveResultSets 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server.</source>
+          <target state="translated">응용 프로그램 MultiSubnetFailover 설정 하는 서로 다른 서브넷에 연결 AlwaysOn 가용성 그룹 (AG) 하는 경우 = true의 한 빠른 감지와 (현재) 활성 서버 연결을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Always On 가용성 그룹에 대 한 SqlClient 지원에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>고가용성, 재해 복구에 대 한 SqlClient 지원<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Boolean&gt; indicating the current value of the property.</source>
+          <target state="translated">반환 &lt;xref:System.Boolean&gt;속성의 현재 값을 나타내는.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the network library used to establish a connection to the SQL Server.</source>
+          <target state="translated">SQL Server에 연결 하는 데 사용 되는 네트워크 라이브러리의 이름을 포함 하는 문자열을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Network Library", "network", and "net" keys within the connection string.</source>
+          <target state="translated">이 속성은 "Network Library", "network" 및 연결 문자열 내의 "net" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supported values for this property include dbnmpntw (Named Pipes), dbmsrpcn (Multiprotocol), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (Shared Memory) and dbmsspxn (IPX/SPX), and dbmssocn (TCP/IP).</source>
+          <target state="translated">이 속성에 대 한 지원 되는 값에는 dbnmpntw (명명 된 파이프), dbmsrpcn (멀티 프로토콜), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (공유 메모리) 및 dbmsspxn (IPX/SPX) 및 dbmssocn (TCP/IP) 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The corresponding network DLL must be installed on the system to which you connect.</source>
+          <target state="translated">해당 하는 네트워크 DLL 연결 하는 시스템에 설치 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a network and you use a local server (for example, "." or "(local)"), Shared Memory is used.</source>
+          <target state="translated">네트워크를 지정 하지 않으면 및 로컬 서버를 사용 하는 경우 (예를 들어, "." 또는 "(local)"), 공유 메모리가 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value of the NetworkLibrary property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">NetworkLibrary 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size in bytes of the network packets used to communicate with an instance of SQL Server.</source>
+          <target state="translated">SQL Server의 인스턴스와 통신 하는 데 사용 하는 네트워크 패킷의 바이트 크기를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Packet Size" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Packet Size" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value of the PacketSize property, or 8000 if none has been supplied.</source>
+          <target state="translated">제공 된 경우 8000 PacketSize 속성의 값입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the password for the SQL Server account.</source>
+          <target state="translated">SQL Server 계정에 대 한 암호를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Password" and "pwd" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Password" 및 "pwd" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Password has not been set and you retrieve the value, the return value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">반환 값은 &lt;xref:System.String&gt;.&lt;/xref:System.String&gt; 암호가 설정 되지 않은 값을 검색 하는 경우</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To reset the password for the connection string, pass null to the Item property.</source>
+          <target state="translated">연결 문자열에 대 한 암호를 재설정 하려면 항목 속성에 null을 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of the Password property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Password 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The password was incorrectly set to null.</source>
+          <target state="translated">암호가 잘못 설정 된 null로 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>See code sample below.</source>
+          <target state="translated">다음 코드 예제를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates if security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state.</source>
+          <target state="translated">암호와 같은 보안 관련 정보는 반환 여부는 연결의 일부로 연결이 현재 열려 있거나 열린 상태를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Persist Security Info" and "persistsecurityinfo" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Persist Security Info" 및 "persistsecurityinfo" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of the PersistSecurityInfo property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">PersistSecurityInfo 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The blocking period behavior for a connection pool.</source>
+          <target state="translated">연결 풀에 대 한 차단 기간 동작 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When connection pooling is enabled and  a timeout error or other login error occurs, an exception will be thrown and subsequent connection attempts will fail for the next five seconds, the "blocking period".</source>
+          <target state="translated">연결 풀링이 사용 되 고 시간 초과 오류나 기타 로그인 오류가 발생, 예외가 throw 됩니다 시점과 이후 연결 시도가 "차단 기간" 다음&amp;5; 초 동안 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application attempts to connect within the blocking period, the first exception will be thrown again.</source>
+          <target state="translated">응용 프로그램을 차단 기간 내에 연결 하려고 하는 경우 첫 번째 예외가 다시 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent failures after a blocking period ends will result in a new blocking period that is twice as long as the previous blocking period, up to a maximum of one minute.</source>
+          <target state="translated">차단 기간이 끝난 후 또 다른 연결이 실패 새 차단 기간을 이전 차단 기간의&amp;1; 분의 최대는 두 번 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to connect to Azure SQL databases can fail with transient errors which are typically recovered within a few seconds.</source>
+          <target state="translated">Azure SQL 데이터베이스에 연결을 시도 하는 몇 초 내에 일반적으로 복구 되는 일시적인 오류와 함께 실패할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, with the connection pool blocking period behavior, you may not be able to reach your database for extensive periods even though the database is  available.</source>
+          <target state="translated">않을 그러나 차단 기간 동작 하는 연결 풀과 있습니다 하지 수 있습니다는 데이터베이스를 사용할 수 있지만 광범위 한 기간에 대 한 데이터베이스에 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is especially problematic for apps that need to render fast.</source>
+          <target state="translated">이것이 빠른 렌더링 해야 하는 앱에 대 한 특히 문제가 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> enables you to select the blocking period best suited for your app.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> 응용 프로그램에 가장 적합 하며 차단 기간을 선택할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the <bpt id="p1">[</bpt>PoolBlockingPeriod Enumeration<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for available settings.</source>
+          <target state="translated">참조는 <bpt id="p1">[</bpt>PoolBlockingPeriod 열거형<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> 사용 가능한 설정에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The available blocking period settings.</source>
+          <target state="translated">사용 가능한 차단 기간 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection will be pooled or explicitly opened every time that the connection is requested.</source>
+          <target state="translated">연결이 풀링 되거나 연결이 요청 될 때마다 명시적으로 열리는지 여부를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Pooling" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Pooling" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The value of the Pooling property, or <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">풀링 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">지정된 된 키를 가지는 엔트리를 제거는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the <bpt id="p1">**</bpt>Remove<ept id="p1">**</ept> method returns a value that indicates its success, it is not required to look for a key before trying to remove the key/value pair from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">때문에 <bpt id="p1">**</bpt>제거<ept id="p1">**</ept> 는 성공을 나타내는 값을 반환 하는 메서드, 키/값 쌍을 제거 하려고 하기 전에 키를 찾을 하지 않아도 됩니다는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;인스턴스.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; maintains a fixed-size collection of key/value pairs, calling the Remove method simply resets the value of the key/value pair back to its default value.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;키/값 쌍의 값을 기본값으로 다시 재설정 단순히 Remove 메서드를 호출 하는 키/값 쌍의 크기가 고정 된 컬렉션을 유지 합니다.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the collection of keys supported by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is fixed, every item within the collection has a known default value.</source>
+          <target state="translated">가 지 원하는 키 컬렉션이 있으므로 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;는 고정, 컬렉션 내의 모든 항목에는 알려진된 기본값이 있습니다.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the keys, and the value for each when the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is first initialized, or after the Remove method has been called.</source>
+          <target state="translated">다음 표에서 각 경우에 대 한 키와 값을 나열는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;처음 초기화 Remove 메서드가 호출 된 후 또는.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key|Default value|   |---------|-------------------|   |Application Name|".Net SqlClient Data Provider"|   |Asynchronous Processing|False|   |AttachDBFilename|Empty string|   |Connection Timeout|15|   |Context Connection|False|   |Current Language|Empty string|   |Data Source|Empty string|   |Encrypt|False|   |Enlist|True|   |Failover Partner|Empty string|   |Initial Catalog|Empty string|   |Integrated Security|False|   |Load Balance Timeout|0|   |Max Pool Size|100|   |Min Pool Size|0|   |MultipleActiveResultSets|False|   |Network Library|Empty string|   |Packet Size|8000|   |Password|Empty string|   |Persist Security Info|False|   |Pooling|True|   |Replication|False|   |Transaction Binding|Implicit Unbind|   |User ID|Empty string|   |User Instance|False|   |Workstation ID|Empty string|</source>
+          <target state="translated">| 키 | 기본 값 |   |---------|-------------------|   | 응용 프로그램 이름 | "입니다. SqlClient 데이터 공급자를 net "|   | 비동기 처리 | False |   | AttachDBFilename | 빈 문자열 |   | 연결 제한 시간 |&amp;15; |   | 컨텍스트 연결 | False |   | 현재 언어 | 빈 문자열 |   | 데이터 소스 | 빈 문자열 |   | 암호화 | False |   | 참여 | True |   | 장애 조치 파트너 | 빈 문자열 |   | 초기 카탈로그 | 빈 문자열 |   | 통합 보안 | False |   | Balance Timeout 로드 |&amp;0; |   | 최대 풀 크기 |&amp;100; |   | 최소 풀 크기 |&amp;0; |   | MultipleActiveResultSets | False |   | 네트워크 라이브러리 | 빈 문자열 |   | 패킷 크기 |&amp;8000; |   | 암호 | 빈 문자열 |   | 보안 정보 유지 | False |   | 풀링 | True |   | 복제 | False |   | 트랜잭션 바인딩 | 암시적 바인딩을 해제 |   | 사용자 ID | 빈 문자열 |   | 사용자 인스턴스 | False |   | 워크스테이션 ID | 빈 문자열 |</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 연결 문자열에서 제거할 키/값 쌍의 키 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>키 연결 문자열 내에 존재 하 고 제거 되었습니다. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 존재 하지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서)</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether replication is supported using the connection.</source>
+          <target state="translated">복제 연결을 사용 하 여 지원 되는지 여부를 나타내는 부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Replication" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Replication" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the Replication property, or false if none has been supplied.</source>
+          <target state="translated">복제 속성 또는 제공 된 경우 false 값입니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified key exists in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">이 지정된 된 키가 있는지 여부를 나타냅니다. <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method behaves identically to the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">이 메서드는 동일 하 게 동작의 &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;메서드.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">찾을 수 있는 키의 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우는 <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 지정 된 항목이 고, 그렇지 않으면 키 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates how the connection maintains its association with an enlisted <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> transaction.</source>
+          <target state="translated">연결의 연결을 참여 한 유지 되는 방식을 나타내는 문자열 값을 가져오거나 설정 합니다. <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 트랜잭션.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Transaction Binding keywords in a &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; control how a &lt;xref:System.Data.SqlClient.SqlConnection&gt; binds to an enlisted &lt;xref:System.Transactions.Transaction&gt;.</source>
+          <target state="translated">Transaction Binding 키워드 &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;방법 &lt;xref:System.Data.SqlClient.SqlConnection&gt;참여 한 &lt;xref:System.Transactions.Transaction&gt;.&lt;/xref:System.Transactions.Transaction&gt; 이 스위치&lt;/xref:System.Data.SqlClient.SqlConnection&gt; 를 제어합니다 합니다.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the possible values for the TransactionBinding property:      |Value|Description|   |-----------|-----------------|   |Implicit Unbind|The default.</source>
+          <target state="translated">다음 표에 나와 TransactionBinding 속성에 대 한 가능한 값: | 값 | 설명 |   |-----------|-----------------|   | 암시적 바인딩을 해제 | 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Causes the connection to detach from the transaction when it ends.</source>
+          <target state="translated">에서 분리 하 고 트랜잭션이 끝날 때에 대 한 연결을 하면 됩니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After detaching, additional requests on the connection are performed in autocommit mode.</source>
+          <target state="translated">분리 후 연결에서 추가 요청은 자동 커밋 모드로 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Transactions.Transaction.Current%2A&gt; property is not checked when executing requests while the transaction is active.</source>
+          <target state="translated">&lt;xref:System.Transactions.Transaction.Current%2A&gt;속성이 활성화 상태인 동안 트랜잭션이 요청을 실행할 때 검사 되지 않습니다.&lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the transaction has ended, additional requests are performed in autocommit mode.|   |Explicit Unbind|Causes the connection to remain attached to the transaction until the connection is closed or until &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt; is called with a <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic) value.</source>
+          <target state="translated">트랜잭션이 종료 된 후 추가 요청은 자동 커밋 모드로 수행 됩니다. |   | 명시적 바인딩 해제 | 원인을 유지 하기 위한 연결에 연결 된 트랜잭션이 연결을 닫을 때까지 또는 될 때까지 &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;로 호출 되는 <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> Visual basic에서) 값입니다.&lt;/xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.InvalidOperationException&gt; is thrown if &lt;xref:System.Transactions.Transaction.Current%2A&gt; is not the enlisted transaction or if the enlisted transaction is not active.</source>
+          <target state="translated">&lt;xref:System.InvalidOperationException&gt;없으면 예외가 &lt;xref:System.Transactions.Transaction.Current%2A&gt;참여 한 트랜잭션이 없는 참여 한 트랜잭션이 활성화 되지 않은 경우 또는.&lt;/xref:System.Transactions.Transaction.Current%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enforces the strict scoping rules required for &lt;xref:System.Transactions.TransactionScope&gt; support.|</source>
+          <target state="translated">이 동작에 필요한 엄격한 범위 지정 규칙이 적용 &lt;xref:System.Transactions.TransactionScope&gt;지원 합니다. |&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The value of the TransactionBinding property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">TransactionBinding 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets or sets a boolean value.</source>
+          <target state="translated">부울 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A boolean value.</source>
+          <target state="translated">부울 값입니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the channel will be encrypted while bypassing walking the certificate chain to validate trust.</source>
+          <target state="translated">트러스트를 확인 하 고 인증서 체인을 무시 하는 동안는 채널이 암호화 될 지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph>, the transport layer will use SSL to encrypt the channel and bypass walking the certificate chain to validate trust.</source>
+          <target state="translated">때 <ph id="ph1">`TrustServerCertificate`</ph> 로 설정 된 <ph id="ph2">`true`</ph>, 전송 계층 SSL을 사용 하 여 채널을 암호화 하 여 신뢰의 유효성을 검사 하 고 인증서 체인을 무시 합니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph> and encryption is turned on, the encryption level specified on the server will be used even if <ph id="ph3">`Encrypt`</ph> is set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">경우 <ph id="ph1">`TrustServerCertificate`</ph> 로 설정 된 <ph id="ph2">`true`</ph> 및 암호화가 설정, 서버에서 지정 된 암호화 수준이 사용 됩니다 경우에 <ph id="ph3">`Encrypt`</ph> 로 설정 된 <ph id="ph4">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection will fail otherwise.</source>
+          <target state="translated">그렇지 않은 경우에 연결이 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Encryption Hierarchy" and "Using Encryption Without Validation" in SQL Server Books Online.</source>
+          <target state="translated">자세한 내용은 "암호화 계층 구조" 및 "를 사용 하 여 유효성 검사 없이 암호화" SQL Server 온라인 설명서의를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 제공된 된 키에 해당 하는 값을 검색 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; without needing to verify that the supplied key name is a valid key name.</source>
+          <target state="translated">TryGetValue 메서드 값을 안전 하 게 검색할 수 있습니다는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;제공 된 키 이름이 올바른 키 이름 인지 확인할 필요 없이.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> does not raise an exception when you call it, passing in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">때문에 <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> 예외가 발생 하지 않으므로 호출 하면, 존재 하지 않는 키를 전달 하는 경우 해당 값을 검색 하기 전에 키를 찾이 필요가 없습니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> with a nonexistent key will place the value null (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">호출 <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> 존재 하지 않는 키와 값이 null을 배치 합니다 (<ph id="ph1">`Nothing`</ph> Visual basic에서)에 <ph id="ph2">`value`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">검색할 항목의 키입니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The value corresponding to <ph id="ph1">`keyword.`</ph></source>
+          <target state="translated">해당 하는 값<ph id="ph1">`keyword.`</ph></target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept> 그렇지 않으면 연결 문자열에 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> contains a null value (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>에 null 값 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서).</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates the type system the application expects.</source>
+          <target state="translated">응용 프로그램 형식 시스템에서는 나타내는 문자열 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`TypeSystemVersion`</ph> property can be used to specify a down-level version of <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> for applications written against that version.</source>
+          <target state="translated"><ph id="ph1">`TypeSystemVersion`</ph> 속성의 하위 수준 버전을 지정 하려면 사용할 수 <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 해당 버전에 대해 작성 된 응용 프로그램에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This avoids possible problems with incompatible types in a newer version of <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that may cause the application to break.</source>
+          <target state="translated">최신 버전의 호환 되지 않는 형식 문제를 방지할이 <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 응용 프로그램이 중단을 야기할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The following table shows the possible values for the TypeSystemVersion property:</source>
+          <target state="translated">다음 표에서 TypeSystemVersion 속성에 대 한 가능한 값을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">값</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Uses the <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005 type system.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005 형식 시스템.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>No conversions are made for the current version of ADO.NET.</source>
+          <target state="translated">현재 버전의 ADO.NET에 대 한 변환이 만들어집니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>SQL Server 2008</source>
+          <target state="translated">SQL Server 2008</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Uses the SQL Server 2008 type system.</source>
+          <target state="translated">SQL Server 2008 형식 시스템을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Latest</source>
+          <target state="translated">최신</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Use the latest version than this client-server pair can handle.</source>
+          <target state="translated">이 클라이언트-서버 쌍에서 처리할 수 있는 보다 최신 버전을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This will automatically move forward as the client and server components are upgraded.</source>
+          <target state="translated">클라이언트 및 서버 구성 요소가 업그레이드 되 앞으로 이동 자동으로 됩니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user ID to be used when connecting to SQL Server.</source>
+          <target state="translated">SQL Server에 연결할 때 사용할 사용자 ID를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User ID", "user", and "uid" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "User ID", "user" 및 "uid" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The value of the UserID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">UserID 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to redirect the connection from the default SQL Server Express instance to a runtime-initiated instance running under the account of the caller.</source>
+          <target state="translated">기본 SQL Server Express 인스턴스에서 호출자의 계정으로 실행 되는 런타임 시작 인스턴스로 연결을 리디렉션하는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User Instance" key within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "User Instance" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This feature is available only with the <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;이 기능은 함께만 사용할 수는 <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on user instances, see <bpt id="p1">[</bpt>SQL Server Express User Instances<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and "User Instances for Non-Administrators" in <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Books Online.</source>
+          <target state="translated">사용자 인스턴스에 대 한 자세한 내용은 참조 하십시오. <bpt id="p1">[</bpt>SQL Server Express 사용자 인스턴스<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> 및 "사용자 인스턴스에 대 한 관리자가 아닌"에서 <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 온라인 설명서.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The value of the UserInstance property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">UserInstance 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Collections.ICollection&gt;값을 포함 하는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated keys in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; property.</source>
+          <target state="translated">에 있는 값의 순서는 &lt;xref:System.Collections.ICollection&gt;지정 되어 있지는 연결 된 키와 순서가 동일 하지만 &lt;xref:System.Collections.ICollection&gt;에서 반환 되는 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt;속성.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each instance of the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; always contains the same fixed set of keys, the Values property always returns the values corresponding to the fixed set of keys, in the same order as the keys.</source>
+          <target state="translated">때문에 각 인스턴스에 &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;항상 동일한 고정된 집합이 속성의 키와 동일한 순서로 키의 고정 된 집합에 해당 값은 항상 반환 값, 키를 포함 합니다.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;값을 포함 하는 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the workstation connecting to SQL Server.</source>
+          <target state="translated">SQL Server에 연결 하는 워크스테이션의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Workstation ID" and "wsid" keys within the connection string.</source>
+          <target state="translated">이 속성은 연결 문자열 내의 "Workstation ID" 및 "wsid" 키에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The value of the WorkstationID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">WorkstationID 속성의 값 또는 <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 경우.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">null 값을 설정 하려면 <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

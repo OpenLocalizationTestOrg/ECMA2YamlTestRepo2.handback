@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1ccc3be238b5ca560c46ad2aa68f883a3ba9e97</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfa3e857d82851f6c9c66d207e27c72c85a76e1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f968c29f75757d5078b2f56332bba129c7e60d4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables managed code to handle exceptions that indicate a corrupted process state.</source>
+          <target state="translated">Aktiverer forvaltet kode for å behandle unntak som viser statusen ødelagt prosessen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Corrupted process state exceptions are exceptions that indicate that the state of a process has been corrupted.</source>
+          <target state="translated">Skadet prosessen tilstand unntakene er unntak som angir at tilstanden til en prosess er skadet.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We do not recommend executing your application in this state.</source>
+          <target state="translated">Vi anbefaler ikke kjører programmet i denne tilstanden.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the common language runtime (CLR) does not deliver these exceptions to managed code, and the <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> blocks (and other exception-handling clauses) are not invoked for them.</source>
+          <target state="translated">Som standard common language runtime (CLR) ikke leverer disse unntak for forvaltet kode og <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph> blokker (og andre unntaksbehandling setningsdeler) er ikke aktivert for dem.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are absolutely sure that you want to maintain your handling of these exceptions, you must apply the HandleProcessCorruptedStateExceptionsAttribute attribute to the method whose exception-handling clauses you want to execute.</source>
+          <target state="translated">Hvis du er helt sikker på at du vil beholde håndteringen av disse unntakene, må du bruke attributtet HandleProcessCorruptedStateExceptionsAttribute til metoden der du vil kjøre unntaksbehandling-setningsdeler.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CLR delivers the corrupted process state exception to applicable exception clauses only in methods that have both the HandleProcessCorruptedStateExceptionsAttribute and &lt;xref:System.Security.SecurityCriticalAttribute&gt; attributes.</source>
+          <target state="translated">CLR leverer ødelagt prosessen tilstand unntaket gjelder unntak-setningsdeler i metoder som har begge HandleProcessCorruptedStateExceptionsAttribute og &lt;xref:System.Security.SecurityCriticalAttribute&gt;attributter.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add the  to your application's configuration file.</source>
+          <target state="translated">Du kan også legge den til programmets konfigurasjonsfil.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This will ensure that corrupted state exceptions are delivered to your exception handlers without the HandleProcessCorruptedStateExceptionsAttribute or &lt;xref:System.Security.SecurityCriticalAttribute&gt; attribute.</source>
+          <target state="translated">Dette sikrer at ødelagt tilstand unntak leveres til din unntak behandlingsprogrammer uten HandleProcessCorruptedStateExceptionsAttribute eller &lt;xref:System.Security.SecurityCriticalAttribute&gt;attributtet.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This configuration element has no effect on applications that were compiled in versions previous to the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> but are running in the <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> or later; corrupted state exceptions will continue to be delivered for those applications.</source>
+          <target state="translated">Dette konfigurasjonselementet har ingen innvirkning på programmer som ble kompilert i versjoner før den <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> , men kjører den <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> eller nyere, ødelagt tilstand unntak fortsetter å levere for programmene.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HandleProcessCorruptedStateExceptionsAttribute attribute is ignored when it is encountered in partially trusted or transparent code, because a trusted host should not allow an untrusted add-in to catch and ignore these serious exceptions.</source>
+          <target state="translated">Attributtet HandleProcessCorruptedStateExceptionsAttribute ignoreres når det oppstår i delvis klarerte eller gjennomsiktig koden, fordi en klarert vert ikke må tillater uklarerte tilleggsprogram å fange opp, og Ignorer disse alvorlig unntakene.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about corrupted process state exceptions, see the entry <bpt id="p1">[</bpt>Handling Corrupted State Exceptions<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=179681)</ept> in the CLR Inside Out blog.</source>
+          <target state="translated">For mer informasjon om ødelagt prosessen tilstand unntak, kan du se oppføringen <bpt id="p1">[</bpt>behandler skadet tilstand unntak<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=179681)</ept> i CLR ytterste bloggen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

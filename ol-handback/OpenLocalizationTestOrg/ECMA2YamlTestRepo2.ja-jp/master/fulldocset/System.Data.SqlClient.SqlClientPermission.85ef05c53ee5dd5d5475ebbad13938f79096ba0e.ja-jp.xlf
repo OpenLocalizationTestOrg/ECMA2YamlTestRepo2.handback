@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">afa752a968ad1f1f7defccbe71802e52e4cb645d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlClientPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfe61bff5fbd8787a1dcf3c2cdec195859db63c4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ade6d850d18b161f60cefc3bca8b75066ab82b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables the .NET Framework Data Provider for SQL Server to help make sure that a user has a security level sufficient to access a data source.</source>
+          <target state="translated">SQL server ユーザーがデータ ソースにアクセスするための十分なセキュリティ レベルを持っているかどうかを確認するには、.NET Framework Data Provider を使用できます。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt; property takes precedence over the &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;プロパティよりも優先、&lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;プロパティ&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;&lt;/xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Therefore, if you set &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; to <ph id="ph1">`false`</ph>, you must also set &lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt; to <ph id="ph2">`false`</ph> to prevent a user from making a connection using a blank password.</source>
+          <target state="translated">そのため、設定した場合&lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;に<ph id="ph1">`false`</ph>、設定する必要もあります&lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;に<ph id="ph2">`false`</ph>をユーザーが、空白のパスワードを使用して接続するを防ぐ&lt;/xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When using code access security permissions for ADO.NET, the correct pattern is to start with the most restrictive case (no permissions at all) and then add the specific permissions that are needed for the particular task that the code needs to perform.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を ADO.NET のコード アクセス セキュリティのアクセス許可を使用する場合、適切なパターンが、最も制限の厳しいケース (権限なし) を開始し、コードが実行する必要がある特定のタスクに必要な特定のアクセス許可を追加します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The opposite pattern, starting with all permissions and then denying a specific permission, is not secure, because there are many ways of expressing the same connection string.</source>
+          <target state="translated">同じ接続文字列を表現するさまざまな方法があるために、すべての権限と、特定の権限を拒否して、逆のパターンは、セキュリティで保護されたではありません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, if you start with all permissions and then attempt to deny the use of the connection string "server=someserver", the string "server=someserver.mycompany.com" would still be allowed.</source>
+          <target state="translated">たとえば、すべての権限と、接続文字列の使用を拒否しようとし、"server = someserver"、"server=someserver.mycompany.com"という文字列は許可されます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By always starting by granting no permissions at all, you reduce the chances that there are holes in the permission set.</source>
+          <target state="translated">常に権限をまったく与えない状態から開始は、権限セットに穴がある可能性を低減します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Permissions.PermissionState&gt; enumeration takes precedence over the &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PermissionState&gt;列挙型よりも優先、&lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;プロパティ&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;&lt;/xref:System.Security.Permissions.PermissionState&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Therefore, if you set &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; to <ph id="ph1">`false`</ph>, you must also set &lt;xref:System.Security.Permissions.PermissionState&gt; to <ph id="ph2">`None`</ph> to prevent a user from making a connection using a blank password.</source>
+          <target state="translated">そのため、設定した場合&lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;に<ph id="ph1">`false`</ph>、設定する必要もあります&lt;xref:System.Security.Permissions.PermissionState&gt;に<ph id="ph2">`None`</ph>をユーザーが、空白のパスワードを使用して接続するを防ぐ&lt;/xref:System.Security.Permissions.PermissionState&gt;&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For an example demonstrating how to use security demands, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">セキュリティ要求を使用する方法を示す例では、次を参照してください。<bpt id="p1">[</bpt>コード アクセス セキュリティと ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Indicates whether a blank password is allowed.</source>
+          <target state="translated">空のパスワードを許可するかどうかを示します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adds a new connection string and a set of restricted keywords to the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しい接続文字列およびに制限されているキーワードのセットを追加、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use this method to configure which connection strings are allowed by a particular permission object.</source>
+          <target state="translated">このメソッドを使用すると、特定のアクセス許可オブジェクトで許可される接続文字列を構成できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, use the following code fragment if you want to only allow a specific connection string and nothing else:       <ph id="ph1">`permission.Add("server=MyServer; database=MyDatabase; Integrated Security=true", "", KeyRestrictionBehavior.AllowOnly)`</ph>       The following example allows connection strings that use any database, but only on the server named MyServer, with any user and password combination and containing no other connection string keywords:       <ph id="ph2">`permission.Add("server=MyServer;", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph>       The following example uses the same scenario as above but allows for a failover partner that can be used when connecting to servers configured for mirroring:       <ph id="ph3">`permission.Add("server=MyServer; failover partner=MyMirrorServer", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph><ph id="ph4">      &gt; </ph><ph id="ph5">[!NOTE]</ph> &gt;  When using code access security permissions for ADO.NET, the correct pattern is to start with the most restrictive case (no permissions at all) and then add the specific permissions that are needed for the particular task that the code needs to perform.</source>
+          <target state="translated">たとえば、のみの特定の接続文字列およびそれ以外のものを許可する場合に次のコード フラグメントを使用:<ph id="ph1">`permission.Add("server=MyServer; database=MyDatabase; Integrated Security=true", "", KeyRestrictionBehavior.AllowOnly)`</ph>次の例では任意のユーザー名とパスワードの組み合わせとその他の接続文字列キーワードが含まれていない"myserver"をという名前のサーバーでのみが、任意のデータベースを使用する接続文字列:<ph id="ph2">`permission.Add("server=MyServer;", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph>次の例は上と同じシナリオを使用してがにより使用できるように構成サーバーに接続するときにミラーリングのフェールオーバー パートナーの: <ph id="ph3">`permission.Add("server=MyServer; failover partner=MyMirrorServer", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph> <ph id="ph4">      &gt; </ph> <ph id="ph5">[!NOTE]</ph> &gt; を ADO.NET のコード アクセス セキュリティのアクセス許可を使用する場合、適切なパターンが、最も制限の厳しいケース (権限なし) を開始し、コードが実行する必要がある特定のタスクに必要な特定のアクセス許可を追加します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The opposite pattern, starting with all permissions and then trying to deny a specific permission, is not secure, because there are many ways of expressing the same connection string.</source>
+          <target state="translated">同じ接続文字列を表現するさまざまな方法があるために、すべての権限と、特定の権限を拒否しよう、逆のパターンは、セキュリティで保護されたではありません。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, if you start with all permissions and then attempt to deny the use of the connection string "server=someserver", the string "server=someserver.mycompany.com" would still be allowed.</source>
+          <target state="translated">たとえば、すべての権限と、接続文字列の使用を拒否しようとし、"server = someserver"、"server=someserver.mycompany.com"という文字列は許可されます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>By always starting by granting no permissions at all, you reduce the chances that there are holes in the permission set.</source>
+          <target state="translated">常に権限をまったく与えない状態から開始は、権限セットに穴がある可能性を低減します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The connection string.</source>
+          <target state="translated">接続文字列。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The key restrictions.</source>
+          <target state="translated">キーの制限。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.KeyRestrictionBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerations.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.KeyRestrictionBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列挙体です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Security.IPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returns the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Security.IPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission object.</source>
+          <target state="translated">現在のアクセス許可オブジェクトのコピー。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
