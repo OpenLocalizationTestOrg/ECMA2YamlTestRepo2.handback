@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f84f54488aa6759e36ccbaca3a93f8ac2a72d6c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.Button.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">770b081cde92914a68b239638fac858712d87770</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">335e58ba9debb5916b970bfa660be1c802ea7187</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Displays a push button control on the Web page.</source>
+          <target state="translated">顯示在網頁上的按鈕控制項。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Button Postback Behavior and Server Events<ept id="p2">](#ButtonPostbackBehaviorandServerEvents)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Handling Button Events in Client Script<ept id="p3">](#HandlingButtonEventsinClientScript)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Button Controls and Validation<ept id="p4">](#ButtonControlsAndValidation)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Buttons in Data Controls<ept id="p5">](#ButtonsInDataControls)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Binding Data to the Controls<ept id="p6">](#BindingDataToTheControls)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Using Buttons with UpdatePanel Controls<ept id="p7">](#UsingButtonsWithUpdatePanelControls)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Declarative Syntax<ept id="p8">](#DeclarativeSyntax)</ept>      <bpt id="p9">&lt;a name="Introduction"&gt;</bpt><ept id="p9">&lt;/a&gt;</ept>    ## Introduction    Use the Button control to create a push button on the Web page that lets users to post a page to the server.</source>
+          <target state="translated">本主題內容:-<bpt id="p1">[</bpt>簡介<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>按鈕回傳行為 」 和 「 伺服器事件<ept id="p2">](#ButtonPostbackBehaviorandServerEvents)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>處理用戶端指令碼中的按鈕事件<ept id="p3">](#HandlingButtonEventsinClientScript)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>按鈕控制項和驗證<ept id="p4">](#ButtonControlsAndValidation)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>資料控制項中的按鈕<ept id="p5">](#ButtonsInDataControls)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>資料繫結至控制項<ept id="p6">](#BindingDataToTheControls)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>使用按鈕與 UpdatePanel 控制項<ept id="p7">](#UsingButtonsWithUpdatePanelControls)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>宣告式語法<ept id="p8">](#DeclarativeSyntax)</ept><bpt id="p9">&lt;a name="Introduction"&gt;</bpt> <ept id="p9">&lt;/a&gt;</ept> # # 簡介使用按鈕控制項來建立網頁，可讓使用者張貼至伺服器 頁面上的按鈕。      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The control triggers an event in server code that you can handle to respond to the postback.</source>
+          <target state="translated">控制觸發程序，您可以控制它們來回應回傳伺服端程式碼中的事件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It can also raise an event in client script that you can handle before the page is posted or that can run and then cancel submission of the page.</source>
+          <target state="translated">它也可以引發事件，網頁回傳或可執行及取消送出的頁面之前，您可以處理的用戶端指令碼。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  ASP.NET includes several kinds of button controls, each of which appears differently on Web pages.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ASP.NET 包括各種類型的按鈕控制項，其中每個網頁以不同的方式出現。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They are the Button control, which renders as a push button; the &lt;xref:System.Web.UI.WebControls.LinkButton&gt; control, which renders as a link; and the &lt;xref:System.Web.UI.WebControls.ImageButton&gt; control, which renders as an image; and the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control, which lets you create a graphic that has hotspots that users can click.</source>
+          <target state="translated">它們會轉譯為按鈕; 的按鈕控制項&lt;xref:System.Web.UI.WebControls.LinkButton&gt;控制項，會轉譯成連結; 而&lt;xref:System.Web.UI.WebControls.ImageButton&gt;控制項，會轉譯成影像; 而&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控制項，可讓您建立具有使用者可以按一下的作用點的圖形。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageButton&gt; &lt;/xref:System.Web.UI.WebControls.LinkButton&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By default, all button controls submit the page when clicked.</source>
+          <target state="translated">根據預設，所有按鈕控制項送都出頁面時按下。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also use the &lt;xref:System.Web.UI.HtmlControls.HtmlButton&gt; and &lt;xref:System.Web.UI.HtmlControls.HtmlInputButton&gt; controls to create buttons on the page that are programmable in server code.</source>
+          <target state="translated">您也可以使用&lt;xref:System.Web.UI.HtmlControls.HtmlButton&gt;和&lt;xref:System.Web.UI.HtmlControls.HtmlInputButton&gt;伺服端程式碼中進行程式設計來建立在頁面上的按鈕控制項。&lt;/xref:System.Web.UI.HtmlControls.HtmlInputButton&gt; &lt;/xref:System.Web.UI.HtmlControls.HtmlButton&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For details about the differences between HTML and Web server controls, see <bpt id="p1">[</bpt>ASP.NET Web Server Controls Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需 HTML 和 Web 伺服器控制項之間的差異詳細資訊，請參閱<bpt id="p1">[</bpt>ASP.NET Web 伺服器控制項概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By default, a Button control is a Submit button.</source>
+          <target state="translated">根據預設，將按鈕控制項是送出按鈕。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A Submit button does not have a command name (specified by the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property) associated with the button and simply posts the Web page back to the server.</source>
+          <target state="translated">送出按鈕沒有命令名稱 (所指定&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;屬性) 只是網頁回傳至伺服器的文章與按鈕相關聯。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can provide an event handler for the &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event to programmatically control the actions performed when the Submit button is clicked.</source>
+          <target state="translated">您可以提供的事件處理常式&lt;xref:System.Web.UI.WebControls.Button.Click&gt;按一下 [提交] 按鈕時，執行事件，以程式設計方式控制的動作。&lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A Command button has a command name associated with the button, such as <ph id="ph1">`Sort`</ph>, by setting the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property.</source>
+          <target state="translated">在命令按鈕的命令名稱與按鈕相關聯，例如<ph id="ph1">`Sort`</ph>，藉由設定&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This allows you to create multiple Button controls on a Web page and programmatically determine which Button control is clicked.</source>
+          <target state="translated">這可讓您建立多個按鈕，在網頁上的控制項，然後以程式設計方式判斷按下的按鈕控制項。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also use the &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property with a command button to provide additional information about the command to perform, such as <ph id="ph1">`Ascending`</ph>.</source>
+          <target state="translated">您也可以使用&lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;屬性來提供其他資訊，才能執行這類命令的命令按鈕<ph id="ph1">`Ascending`</ph>。&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can provide an event handler for the &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event to programmatically control the actions performed when the Command button is clicked.</source>
+          <target state="translated">您可以提供的事件處理常式&lt;xref:System.Web.UI.WebControls.Button.Command&gt;事件，以程式設計方式控制的動作執行的命令按鈕。&lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="ButtonPostbackBehaviorandServerEvents"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Button Postback Behavior and Server Events    When a user clicks any Web server control button, the page is sent to the server.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonPostbackBehaviorandServerEvents"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 按鈕回傳行為和伺服器事件時使用者按下任何 Web 伺服器控制項的按鈕，在網頁傳送到伺服器。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This causes the Web page to be processed and any pending events to be raised in server-based code.</source>
+          <target state="translated">這會導致處理網頁，並在伺服器端程式碼中引發任何暫止的事件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When all page and control processing has finished, the page renders itself to the browser again.</source>
+          <target state="translated">所有頁面和控制處理都完成時，頁面呈現其本身的瀏覽器一次。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The buttons can raise their own &lt;xref:System.Web.UI.WebControls.Button.Click&gt; events or &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event, which you can handle by using server-based code.</source>
+          <target state="translated">按鈕可以引發自己&lt;xref:System.Web.UI.WebControls.Button.Click&gt;事件或&lt;xref:System.Web.UI.WebControls.Button.Command&gt;事件，您可以使用伺服器端程式碼處理。&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is different than events in traditional HTML pages or in client-based Web applications, where a button's <ph id="ph1">`onclick`</ph> event is handled by using JavaScript that runs in the client.</source>
+          <target state="translated">這是與不同事件在傳統的 HTML 頁面中，或在用戶端為基礎的 Web 應用程式，其中一個按鈕<ph id="ph1">`onclick`</ph>使用 JavaScript 執行用戶端中處理事件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Web Forms Server Control Event Model<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>ASP.NET Web Form 伺服器控制項事件模型<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When users click a button control, the page is posted back to the server.</source>
+          <target state="translated">當使用者按一下按鈕控制項時，則會將頁面回傳至伺服器。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>By default, the page is posted back to itself,       You can configure buttons to post the current page to another page.</source>
+          <target state="translated">根據預設，頁面回傳至本身，您可以設定將目前網頁到另一頁按鈕。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This can be useful for creating multi-page forms.</source>
+          <target state="translated">這可以是適用於建立多頁表單。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Cross-Page Posting in ASP.NET Web Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>跨網頁張貼在 ASP.NET Web Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="HandlingButtonEventsinClientScript"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Handling Button Events in Client Script    Button controls can raise both server events and client events.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="HandlingButtonEventsinClientScript"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 餂鈕瓿咘處理用戶端指令碼 按鈕控制項中可能會引發伺服器事件，以及用戶端事件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Server events occur after postback, and they are handled in the server-side code that you write for the page.</source>
+          <target state="translated">伺服器事件之後會發生回傳，且您為網頁撰寫的伺服器端程式碼中處理。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Client events are handled in client script, typically ECMAScript (JavaScript), and are raised before the page is submitted.</source>
+          <target state="translated">用戶端事件用戶端指令碼，通常 ECMAScript (JavaScript)，以進行處理，以及送出頁面之前引發。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>By adding client-side events to ASP.NET button controls, you can perform tasks such as displaying confirmation dialog boxes before submitting the page, and potentially cancel the submission.</source>
+          <target state="translated">將用戶端事件加入至 ASP.NET 按鈕控制項，您可以執行工作，例如顯示確認對話方塊之前送出頁面上，且可能會取消提交。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Client Script in ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Respond to Button Web Server Control Events in Client Script<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>用戶端指令碼中的 ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>如何︰ 回應在用戶端指令碼按鈕 Web 伺服器控制項事件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You might also want the Button control to also use client script to perform the postback (instead of simply performing an HTTP POST operation).</source>
+          <target state="translated">您也可以使用用戶端指令碼來執行 （而不是只需執行的 HTTP POST 作業） 回傳的按鈕控制項。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This can be useful if you want to programmatically manipulate the postback, such as attaching it to other elements on the page.</source>
+          <target state="translated">這很有用，如果您想要以程式設計方式管理回傳，例如將它附加到頁面上的其他項目。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can set the Button control's &lt;xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt; property to <ph id="ph1">`true`</ph> to cause the Button control to use client-script based postback.</source>
+          <target state="translated">您可以設定按鈕控制項的&lt;xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt;屬性<ph id="ph1">`true`</ph>若要讓按鈕控制項使用用戶端指令碼為主的回傳。&lt;/xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="ButtonControlsAndValidation"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Button Controls and Validation    If a page contains ASP.NET validator controls, by default, clicking a button control causes the validator control to perform its check.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonControlsAndValidation"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 按鈕控制項和驗證，如果某個頁面包含 ASP.NET 驗證控制項中，依預設，請按一下按鈕控制項，會導致執行其檢查驗證程式控制項。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If client-side validation is enabled for a validator control, the page is not submitted if a validation check has failed.</source>
+          <target state="translated">如果用戶端驗證已啟用的驗證程式控制項中，未送出頁面如果驗證檢查失敗。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following table describes the properties supported by button controls that enable you to control the validation process more precisely.</source>
+          <target state="translated">下表描述按鈕控制項，可讓您更精確地控制驗證程序所支援的屬性。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>|Property|Description|   |--------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;|Specifies whether clicking the button also performs a validation check.</source>
+          <target state="translated">|屬性 |描述 |  |--------------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;|指定是否按一下按鈕也會執行驗證檢查。&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Set this property to <ph id="ph1">`false`</ph> to prevent a validation check.|   |&lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;|Enables you to specify which validators on the page are called when the button is clicked.</source>
+          <target state="translated">將此屬性設定為<ph id="ph1">`false`</ph>以防止驗證檢查。 |  |&lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;|可讓您指定在按下按鈕時，要呼叫哪一個頁面上的驗證程式。&lt;/xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If no validation groups are established, a button click calls all of the validators that are on the page.|       For more information, see <bpt id="p1">[</bpt>Validating User Input in ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如果不建立任何驗證群組，按一下按鈕會呼叫所有頁面上的驗證。 |      如需詳細資訊，請參閱<bpt id="p1">[</bpt>驗證使用者輸入中的 ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="ButtonsInDataControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Buttons in Data Controls    Button Web server controls are often used in data controls, such as in the &lt;xref:System.Web.UI.WebControls.DataList&gt;, &lt;xref:System.Web.UI.WebControls.GridView&gt;, and &lt;xref:System.Web.UI.WebControls.Repeater&gt; list controls.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonsInDataControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 資料控制項按鈕 Web 伺服器控制項中的按鈕通常用在資料控制項，例如在&lt;xref:System.Web.UI.WebControls.DataList&gt;， &lt;xref:System.Web.UI.WebControls.GridView&gt;，和&lt;xref:System.Web.UI.WebControls.Repeater&gt;清單控制項。&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In those cases, you typically do not respond directly to the button click event.</source>
+          <target state="translated">在這些情況下，您通常不回應直接按鈕 click 事件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Instead, a button in a data control raises an event that is specific to the data control.</source>
+          <target state="translated">相反地，資料控制項中的按鈕會引發事件的特定資料控制項。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, in the &lt;xref:System.Web.UI.WebControls.DataList&gt; control, a button might raise the &lt;xref:System.Web.UI.WebControls.DataList&gt; control's &lt;xref:System.Web.UI.WebControls.DataList.ItemCommand&gt; event instead of raising the Button control's &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event.</source>
+          <target state="translated">例如，在&lt;xref:System.Web.UI.WebControls.DataList&gt;控制項，可能會引發按鈕&lt;xref:System.Web.UI.WebControls.DataList&gt;控制項的&lt;xref:System.Web.UI.WebControls.DataList.ItemCommand&gt;而非引發按鈕控制項的事件&lt;xref:System.Web.UI.WebControls.Button.Click&gt;事件。&lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.DataList.ItemCommand&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Because data-bound list controls can contain many buttons, you can set the button's &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property to specify a value to pass as part of the event.</source>
+          <target state="translated">因為資料繫結清單控制項可以包含有許多按鈕，您可以設定按鈕的&lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;屬性來指定要做為事件的一部分傳遞的值。&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can then test for this argument to see which button was clicked.</source>
+          <target state="translated">然後您就可以測試以查看哪一個按鈕已按下這個引數。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="BindingDataToTheControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Binding Data to the Controls    You can bind the button Web server controls to a data source in order to control their property settings dynamically.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="BindingDataToTheControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 資料繫結至控制項您可以繫結按鈕 Web 伺服器控制項的資料來源以便控制它們的屬性設定動態。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, you can set a button's &lt;xref:System.Web.UI.WebControls.Button.Text%2A&gt; property by using data binding.</source>
+          <target state="translated">例如，您可以設定按鈕的&lt;xref:System.Web.UI.WebControls.Button.Text%2A&gt;屬性，方法是使用資料繫結。&lt;/xref:System.Web.UI.WebControls.Button.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="UsingButtonsWithUpdatePanelControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Using Buttons with UpdatePanel Controls    Partial-page rendering makes it possible to refresh portions of a page without a postback.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="UsingButtonsWithUpdatePanelControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 使用 UpdatePanel 控制項局部網頁呈現按鈕讓您能夠重新整理頁面上，不需回傳的部分。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.UpdatePanel&gt; controls enable you to mark parts of the page that participate in partial-page rendering.</source>
+          <target state="translated">&lt;xref:System.Web.UI.UpdatePanel&gt;控制項可讓您將標示參與局部網頁呈現的網頁組件。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>By default, the behavior of controls inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control, including Button controls, is to perform an asynchronous postback instead of a postback.</source>
+          <target state="translated">根據預設，在內部的控制項的行為&lt;xref:System.Web.UI.UpdatePanel&gt;控制，包括按鈕控制項，是執行非同步回傳而非回傳。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This refreshes only the contents of the &lt;xref:System.Web.UI.UpdatePanel&gt; control from which the postback originates.</source>
+          <target state="translated">這會重新整理的內容&lt;xref:System.Web.UI.UpdatePanel&gt;控制項的回傳的來源。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In addition to the scenario of a Button control that is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control, you can use Button controls with &lt;xref:System.Web.UI.UpdatePanel&gt; controls in the following scenarios:      -   Defining a Button control that is outside an &lt;xref:System.Web.UI.UpdatePanel&gt; control as an &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt; control for that panel.</source>
+          <target state="translated">除了的案例是內部的按鈕控制項&lt;xref:System.Web.UI.UpdatePanel&gt;控制項，您可以使用與按鈕控制項&lt;xref:System.Web.UI.UpdatePanel&gt;下列案例中的控制項:-定義按鈕控制項超出&lt;xref:System.Web.UI.UpdatePanel&gt;控制項作為&lt;xref:System.Web.UI.AsyncPostBackTrigger&gt;該面板的控制項。&lt;/xref:System.Web.UI.AsyncPostBackTrigger&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When the button is clicked, it performs an asynchronous postback and refreshes the contents of the panel.</source>
+          <target state="translated">按一下按鈕時，它會執行非同步回傳，並重新整理面板的內容。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-   Defining a Button control that is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control as a &lt;xref:System.Web.UI.PostBackTrigger&gt; for the panel.</source>
+          <target state="translated">定義內部的按鈕控制項&lt;xref:System.Web.UI.UpdatePanel&gt;控制項作為&lt;xref:System.Web.UI.PostBackTrigger&gt;面板。&lt;/xref:System.Web.UI.PostBackTrigger&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When the button is clicked, it performs a postback even though it is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">按一下按鈕時，即使它是在執行回傳&lt;xref:System.Web.UI.UpdatePanel&gt;控制項。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information about partial-page rendering and using &lt;xref:System.Web.UI.UpdatePanel&gt; controls, see <bpt id="p1">[</bpt>UpdatePanel Control Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Partial-Page Rendering Overview<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關局部網頁呈現，並使用&lt;xref:System.Web.UI.UpdatePanel&gt;控制項，請參閱<bpt id="p1">[</bpt>UpdatePanel 控制項概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>局部網頁呈現概觀<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:Button       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CommandArgument="string"       CommandName="string"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnClick="Click event handler"       OnClientClick="string"       OnCommand="Command event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PostBackUrl="uri"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Text="string"       ToolTip="string"       UseSubmitBehavior="True|False"       ValidationGroup="string"       Visible="True|False"       Width="size"   /&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 宣告式語法<ph id="ph1">```   &lt;asp:Button       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CommandArgument="string"       CommandName="string"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnClick="Click event handler"       OnClientClick="string"       OnCommand="Command event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PostBackUrl="uri"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Text="string"       ToolTip="string"       UseSubmitBehavior="True|False"       ValidationGroup="string"       Visible="True|False"       Width="size"   /&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use this constructor to create and initialize a new instance of the &lt;xref:System.Web.UI.WebControls.Button&gt; class.</source>
+          <target state="translated">建立和初始化&lt;xref:System.Web.UI.WebControls.Button&gt;類別&lt;/xref:System.Web.UI.WebControls.Button&gt;的新執行個體使用這個建構函式</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Adds the attributes of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to the output stream for rendering on the client.</source>
+          <target state="translated">新增的屬性<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項以在用戶端呈現的輸出資料流。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the output stream to render on the client.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含要在用戶端上呈現的輸出資料流。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether validation is performed when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">取得或設定值，指出是否執行驗證時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>按一下控制項時。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>By default, page validation is performed when a &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">根據預設，會執行頁面驗證時&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Page validation determines whether the input controls associated with a validation control on the page all pass the validation rules specified by the validation control.</source>
+          <target state="translated">頁面驗證會判斷是否與驗證頁面上的控制項通過所有驗證控制項所指定的驗證規則相關聯輸入的控制項。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can specify or determine whether validation is performed on both the client and the server when a &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked by using the CausesValidation property.</source>
+          <target state="translated">您可以指定，或決定是否要在用戶端和伺服器上執行驗證時&lt;xref:System.Web.UI.WebControls.Button&gt;使用 CausesValidation 屬性按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To prevent validation from being performed, set the CausesValidation property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">若要避免執行驗證，請將 CausesValidation 屬性設定為<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should set the CausesValidation property to <ph id="ph2">`false`</ph> when you are using the &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt; property to post back to a different page.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應設 CausesValidation 屬性<ph id="ph2">`false`</ph>當您使用&lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;回傳至其他頁面的屬性。&lt;/xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You should explicitly check validation when posting back to a different page.</source>
+          <target state="translated">當張貼至不同頁面時，您應該明確檢查驗證。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For an example, see the Remarks section of the &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt; property.</source>
+          <target state="translated">如需範例，請參閱 &lt; 備註 &gt; 一節&lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This property is commonly set to <ph id="ph1">`false`</ph> for a <ph id="ph2">`reset`</ph> or <ph id="ph3">`clear`</ph> button to prevent validation from being performed when the button is clicked.</source>
+          <target state="translated">這個屬性通常會設定為<ph id="ph1">`false`</ph>如<ph id="ph2">`reset`</ph>或<ph id="ph3">`clear`</ph>按鈕，以避免在按下按鈕時執行驗證。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When the value of the CausesValidation property is set to <ph id="ph1">`true`</ph>, you can also use the &lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt; property to specify the name of the validation group for which the &lt;xref:System.Web.UI.WebControls.Button&gt; control causes validation.</source>
+          <target state="translated">當 CausesValidation 屬性的值設定為<ph id="ph1">`true`</ph>，您也可以使用&lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;屬性，以指定的驗證群組名稱的&lt;xref:System.Web.UI.WebControls.Button&gt;驗證。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is performed when the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is clicked; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果在執行驗證，則當<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項是按; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>按一下控制項時。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The Click event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">Click 事件引發時&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This event is commonly used when no command name is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control (for instance, with a Submit button).</source>
+          <target state="translated">此事件通常使用於沒有命令名稱相關聯&lt;xref:System.Web.UI.WebControls.Button&gt;控制項 （例如，對於提交按鈕）。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>按一下控制項時。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The Command event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">命令事件引發時&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This event is commonly used when a command name, such as <ph id="ph1">`Sort`</ph>, is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">此事件時常用的命令名稱，例如<ph id="ph1">`Sort`</ph>，相關聯&lt;xref:System.Web.UI.WebControls.Button&gt;控制項。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This allows you to create multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page and programmatically determine which &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">這可讓您建立多個&lt;xref:System.Web.UI.WebControls.Button&gt;Web 上的控制項頁面上，並以程式設計方式判斷哪些&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Command event is raised through the control hierarchy in the form of the <ph id="ph2">`BubbleEvent`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 命令引發的形式在控制項階層架構透過<ph id="ph2">`BubbleEvent`</ph>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets an optional parameter passed to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event along with the associated &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.</source>
+          <target state="translated">取得或設定選擇性參數傳遞至<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件及相關聯的&lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.&lt;/xref:System.Web.UI.WebControls.Button.CommandName*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Use the CommandArgument property to specify a parameter that compliments the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property.</source>
+          <target state="translated">使用指定的參數，可補充 CommandArgument 屬性&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Although you can set the CommandArgument property by itself, it is normally only used when the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property is also set.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 雖然您可以設定 CommandArgument 屬性單獨使用時，它通常時才會使用&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;也設定屬性。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The CommandArgument property complements the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property by allowing you to provide additional information about the command to perform.</source>
+          <target state="translated">CommandArgument 屬性補充&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;屬性可讓您提供其他資訊來執行命令。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, if you set the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property to <ph id="ph1">`Sort`</ph> and the CommandArgument property to <ph id="ph2">`Ascending`</ph>, you specify a command to sort in ascending order.</source>
+          <target state="translated">例如，如果您設定&lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;屬性<ph id="ph1">`Sort`</ph>和 CommandArgument 屬性<ph id="ph2">`Ascending`</ph>，您指定要以遞增順序排序的命令。&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An optional parameter passed to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event along with the associated &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.</source>
+          <target state="translated">選擇性參數傳遞至<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件及相關聯的&lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.&lt;/xref:System.Web.UI.WebControls.Button.CommandName*&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the command name associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control that is passed to the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">取得或設定與相關聯的命令名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項傳遞至<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you have multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page, use the CommandName property to specify or determine the command name associated with each &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">當您有多個&lt;xref:System.Web.UI.WebControls.Button&gt;控制項在網頁上，使用 CommandName 屬性來指定，或判斷每個相關聯的命令名稱&lt;xref:System.Web.UI.WebControls.Button&gt;控制項。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can set the CommandName property with any string that identifies the command to perform.</source>
+          <target state="translated">您可以設定 CommandName 屬性，與任何字串，識別要執行的命令。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can then programmatically determine the command name of the &lt;xref:System.Web.UI.WebControls.Button&gt; control and perform the appropriate actions.</source>
+          <target state="translated">接著，您可以透過程式設計方式決定的命令名稱&lt;xref:System.Web.UI.WebControls.Button&gt;控制，並執行適當的動作。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Additional information about the command, such as <ph id="ph1">`Ascending`</ph>, may be specified by using the &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property.</source>
+          <target state="translated">其他資訊的命令，例如<ph id="ph1">`Ascending`</ph>，可能會利用指定&lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command name of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">命令名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's postback behavior.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，代表<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項的回傳行為。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The GetPostBackOptions method creates a &lt;xref:System.Web.UI.PostBackOptions&gt; object that represents the &lt;xref:System.Web.UI.WebControls.Button&gt; control's postback behavior.</source>
+          <target state="translated">GetPostBackOptions 方法會建立&lt;xref:System.Web.UI.PostBackOptions&gt;物件，代表&lt;xref:System.Web.UI.WebControls.Button&gt;控制項的回傳行為。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.PostBackOptions&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.PostBackOptions&gt; object is then typically passed to the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt; method, which is used to obtain a reference to a client-side script function that, when invoked, causes the server to post back to the page.</source>
+          <target state="translated">&lt;xref:System.Web.UI.PostBackOptions&gt;物件通常隨後會傳遞至&lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt;方法，用來取得用戶端指令碼函式的參考，叫用時，會導致回傳至網頁伺服器。&lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.PostBackOptions&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by control developers when extending the &lt;xref:System.Web.UI.WebControls.Button&gt; class.</source>
+          <target state="translated">這個方法使用主要由控制項開發人員在擴充&lt;xref:System.Web.UI.WebControls.Button&gt;類別。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's postback behavior.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項的回傳行為。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Button.Click&gt;就會引發事件時&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This event is commonly used when no command name is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control (for instance, with a Submit button).</source>
+          <target state="translated">此事件通常使用於沒有命令名稱相關聯&lt;xref:System.Web.UI.WebControls.Button&gt;控制項 （例如，對於提交按鈕）。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The OnClick method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnClick 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">事件資料。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the client-side script that executes when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is raised.</source>
+          <target state="translated">取得或設定用戶端指令碼時執行<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項的<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>就會引發事件。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use the OnClientClick property to specify additional client-side script that executes when a &lt;xref:System.Web.UI.WebControls.Button&gt; control's &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event is raised.</source>
+          <target state="translated">若要指定其他的用戶端指令碼執行時使用 OnClientClick 屬性&lt;xref:System.Web.UI.WebControls.Button&gt;控制項的&lt;xref:System.Web.UI.WebControls.Button.Click&gt;就會引發事件。&lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The script that you specify for this property is rendered in the &lt;xref:System.Web.UI.WebControls.Button&gt; control's <ph id="ph1">`OnClick`</ph> attribute in addition to the control's predefined client-side script.</source>
+          <target state="translated">您指定這個屬性會在轉譯的指令碼&lt;xref:System.Web.UI.WebControls.Button&gt;控制項的<ph id="ph1">`OnClick`</ph>屬性除了控制項的預先定義的用戶端指令碼。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The client-side script that executes when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is raised.</source>
+          <target state="translated">用戶端指令碼時執行<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項的<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>就會引發事件。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Button.Command&gt;就會引發事件時&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This event is commonly used when a command name, such as <ph id="ph1">`Sort`</ph>, is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">此事件時常用的命令名稱，例如<ph id="ph1">`Sort`</ph>，相關聯&lt;xref:System.Web.UI.WebControls.Button&gt;控制項。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This allows you to create multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page and programmatically determine which &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">這可讓您建立多個&lt;xref:System.Web.UI.WebControls.Button&gt;Web 上的控制項頁面上，並以程式設計方式判斷哪些&lt;xref:System.Web.UI.WebControls.Button&gt;按一下控制項時。&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event is raised through the control hierarchy in the form of the <ph id="ph2">`BubbleEvent`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;&lt;xref:System.Web.UI.WebControls.Button.Command&gt;就會引發事件的形式在控制項階層架構透過<ph id="ph2">`BubbleEvent`</ph>。&lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The OnCommand method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnCommand 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">事件資料。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Determines whether the button has been clicked prior to rendering on the client.</source>
+          <target state="translated">判斷是否已在用戶端上呈現以前，先按一下按鈕。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The OnPreRender method is used primarily by control developers when deriving a custom class from the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">衍生的自訂類別主要由控制項開發人員使用 OnPreRender 方法&lt;xref:System.Web.UI.WebControls.Button&gt;控制項。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">事件資料。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL of the page to post to from the current page when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">取得或設定頁面的 URL，若要張貼至從目前頁面上時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>按一下控制項時。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The URL of the Web page to post to from the current page when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">網頁的 URL，將從目前頁面上時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>按一下控制項時。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string (""), which causes the page to post back to itself.</source>
+          <target state="translated">預設值為空字串 ("")，會使頁面回傳至本身。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Raises events for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when it posts back to the server.</source>
+          <target state="translated">引發事件<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制當回傳至伺服器。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This event is used internally by the &lt;xref:System.Web.UI.WebControls.Button&gt; control, when it is clicked, to raise a &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event, and if defined, a &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event.</source>
+          <target state="translated">此事件會在內部使用&lt;xref:System.Web.UI.WebControls.Button&gt;控制項，它按一下時，引發&lt;xref:System.Web.UI.WebControls.Button.Click&gt;事件，而且如果定義，&lt;xref:System.Web.UI.WebControls.Button.Command&gt;事件。&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">事件引數。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Renders the contents of the control to the specified writer.</source>
+          <target state="translated">指定的寫入器呈現控制項的內容。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream to render HTML content on the client.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示要呈現 HTML 內容的用戶端上的輸出資料流。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Raises events for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when it posts back to the server.</source>
+          <target state="translated">引發事件<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制當回傳至伺服器。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This event is used internally by the &lt;xref:System.Web.UI.WebControls.Button&gt; control, when it is clicked, to raise a &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event, and if defined, a &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event.</source>
+          <target state="translated">此事件會在內部使用&lt;xref:System.Web.UI.WebControls.Button&gt;控制項，它按一下時，引發&lt;xref:System.Web.UI.WebControls.Button.Click&gt;事件，而且如果定義，&lt;xref:System.Web.UI.WebControls.Button.Command&gt;事件。&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">事件引數。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text caption displayed in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">取得或設定中顯示的文字標題<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Use the Text property to specify or determine the caption to display in the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">使用 Text 屬性來指定，或判斷要在顯示的標題&lt;xref:System.Web.UI.WebControls.Button&gt;控制項。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of this property, when set, can be saved automatically to a resource file by using a designer tool.</source>
+          <target state="translated">這個屬性的值設定時，可以自動儲存到資源檔使用設計工具。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.LocalizableAttribute&gt; and <bpt id="p1">[</bpt>Globalization and Localization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.ComponentModel.LocalizableAttribute&gt;和<bpt id="p1">[</bpt>全球化和當地語系化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.ComponentModel.LocalizableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The text caption displayed in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">在顯示的文字標題<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control uses the client browser's submit mechanism or the ASP.NET postback mechanism.</source>
+          <target state="translated">取得或設定值，指出是否<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項使用的用戶端瀏覽器的提交機制或 ASP.NET 回傳機制。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Use the UseSubmitBehavior property to specify whether a &lt;xref:System.Web.UI.WebControls.Button&gt; control uses the client browser's submit mechanism or the ASP.NET postback mechanism.</source>
+          <target state="translated">使用 UseSubmitBehavior 屬性來指定是否&lt;xref:System.Web.UI.WebControls.Button&gt;控制項使用的用戶端瀏覽器的提交機制或 ASP.NET 回傳機制。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>By default the value of this property is <ph id="ph1">`true`</ph>, causing the &lt;xref:System.Web.UI.WebControls.Button&gt; control to use the browser's submit mechanism.</source>
+          <target state="translated">根據預設值，這個屬性是<ph id="ph1">`true`</ph>，因而導致&lt;xref:System.Web.UI.WebControls.Button&gt;控制項使用的瀏覽器送出的機制。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If you specify <ph id="ph1">`false`</ph>, the ASP.NET page framework adds client-side script to the page to post the form to the server.</source>
+          <target state="translated">如果您指定<ph id="ph1">`false`</ph>，ASP.NET 網頁架構會將用戶端指令碼加入至頁面以表單張貼至伺服器。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>When the UseSubmitBehavior property is <ph id="ph1">`false`</ph>, control developers can use the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt; method to return the client postback event for the &lt;xref:System.Web.UI.WebControls.Button&gt;.</source>
+          <target state="translated">當 UseSubmitBehavior 屬性是<ph id="ph1">`false`</ph>，控制項開發人員可以使用的&lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;方法來傳回用戶端回傳&lt;xref:System.Web.UI.WebControls.Button&gt;。&lt;/xref:System.Web.UI.WebControls.Button&gt;的事件&lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The string returned by the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt; method contains the text of the client-side function call and can be inserted into a client-side event handler.</source>
+          <target state="translated">所傳回的字串&lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;方法包含用戶端函式呼叫的文字，而且可以插入到用戶端事件處理常式。&lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control uses the client browser's submit mechanism; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控制項使用用戶端瀏覽器送出機制;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Gets or sets the group of controls for which the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control causes validation when it posts back to the server.</source>
+          <target state="translated">取得或設定控制項群組的<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項回傳至伺服器時，會驗證。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Validation groups allow you to assign validation controls on a page to a specific category.</source>
+          <target state="translated">驗證群組可讓您將驗證頁面上的控制項指派給特定的類別。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Each validation group can be validated independently of other validation groups on the page.</source>
+          <target state="translated">每個驗證群組可以獨立於其他的驗證群組頁面上進行驗證。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Use the ValidationGroup property to specify the name of the validation group for which the &lt;xref:System.Web.UI.WebControls.Button&gt; control causes validation when it posts back to the server.</source>
+          <target state="translated">若要為其指定的驗證群組名稱中使用 ValidationGroup 屬性&lt;xref:System.Web.UI.WebControls.Button&gt;控制項回傳至伺服器時，會驗證。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This property has an effect only when the value of the &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">此屬性沒有作用時，才值&lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;屬性設定為<ph id="ph1">`true`</ph>。&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>When you specify a value for the ValidationGroup property, only the validation controls that are part of the specified group are validated when the &lt;xref:System.Web.UI.WebControls.Button&gt; control posts back to the server.</source>
+          <target state="translated">當您指定 ValidationGroup 的屬性值僅驗證控制，屬於指定的群組會驗證當&lt;xref:System.Web.UI.WebControls.Button&gt;控制項回傳至伺服器。&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If you do not specify a value for this property and the &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt; property is set to <ph id="ph1">`true`</ph>, all validation controls on the page that are not assigned to a validation group are validated when the control posts back to the server.</source>
+          <target state="translated">如果您未指定此屬性的值和&lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;屬性設定為<ph id="ph1">`true`</ph>，控制項回傳至伺服器時，會驗證所有驗證控制項在頁面上驗證群組未指派。&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The group of controls for which the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control causes validation when it posts back to the server.</source>
+          <target state="translated">控制項群組<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項回傳至伺服器時，會驗證。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">預設值為空字串 ("")。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">484ad91bf02ad1c9f61603286c2c14511823385d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.X509Certificates.X509Certificate2.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68f02a63c397fb0883c2c0a6cf9a86f741ee072b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">078ddbaea572c593c82d29ba83e0a9bcedfd9bf2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an X.509 certificate.</source>
+          <target state="translated">X.509 인증서를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The X.509 structure originated in the International Organization for Standardization (ISO) working groups.</source>
+          <target state="translated">International Organization for Standardization (ISO) 작업 그룹에서에서 발생 하는 X.509 구조입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This structure can be used to represent various types of information including identity, entitlement, and holder attributes (permissions, age, sex, location, affiliation, and so forth).</source>
+          <target state="translated">이 구조는 다양 한 유형의 id, 수급 및 소유자 특성 (사용 권한, 연령, 성별, 위치, 관계 등) 등의 정보를 나타내는 데 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the ISO specifications are most informative on the structure itself, the X509Certificate2 class is designed to model the usage scenarios defined in specifications issued by the Internet Engineering Task Force (IETF) Public Key Infrastructure, X.509 (PKIX) working group.</source>
+          <target state="translated">ISO 사양 구조체 자체에서 풍부한 정보를 제공 되지 않지만, X509Certificate2 클래스는 IETF Internet Engineering Task Force () 공개 키 인프라, X.509 (PKIX) 작업 그룹에서 발급 한 사양에 정의 용례 모델링 하도록 디자인 되었습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most informative of these specifications is RFC 3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">이러한 사양은 가장 정보는 RFC 3280 "<bpt id="p1">[</bpt>인증서 및 인증서 해지 목록 (CRL) 프로필<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, this type implements the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;로 시작는 <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>이 구현 입력는 &lt;xref:System.IDisposable&gt;인터페이스.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have finished using the type, you should dispose of it either directly or indirectly.</source>
+          <target state="translated">형식을 사용 하 여 마쳤으면는 삭제 해야의 직접 또는 간접적으로 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of the type directly, call its &lt;xref:System.IDisposable.Dispose%2A&gt; method in a <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> block.</source>
+          <target state="translated">직접 형식의 삭제 하려면 해당 &lt;xref:System.IDisposable.Dispose%2A&gt;에서 메서드는 <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph> 블록.&lt;/xref:System.IDisposable.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of it indirectly, use a language construct such as <ph id="ph1">`using`</ph> (in C#) or <ph id="ph2">`Using`</ph> (in Visual Basic).</source>
+          <target state="translated">작업을 삭제할 하지 직접,를 사용 하 여 언어 구문와 같은 <ph id="ph1">`using`</ph> (C#에서) 또는 <ph id="ph2">`Using`</ph> (Visual Basic)에서는 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the “Using an Object that Implements IDisposable” section in the &lt;xref:System.IDisposable&gt; interface topic.</source>
+          <target state="translated">자세한 내용은의 "를 사용 하는 개체는 구현 IDisposable" 섹션을 참조 하십시오.는 &lt;xref:System.IDisposable&gt;인터페이스 항목.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  For apps that target the <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> and earlier versions, the X509Certificate2 class does not implement the &lt;xref:System.IDisposable&gt; interface and therefore does not have a <ph id="ph2">`Dispose`</ph> method.</source>
+          <target state="translated">&gt;&gt; 대상으로 하는 앱에 대 한는 <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> 이전 버전에서는 X509Certificate2 클래스 구현 하지 않으므로 &lt;xref:System.IDisposable&gt;인터페이스와는 <ph id="ph2">`Dispose`</ph> 메서드.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an empty &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object, unlike the other constructors for this class that use certificate information from a byte array, a pointer, or a certificate file.</source>
+          <target state="translated">이 생성자는 빈 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;바이트 배열, 포인터 또는 인증서 파일에서 인증서 정보를 사용 하는이 클래스에 대 한 다른 생성자와는 달리 개체입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using information from a byte array.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 바이트 배열에서 정보를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using certificate information from a byte array.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;바이트 배열에서 인증서 정보를 사용 하 여 개체.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The byte array can be binary (DER) encoded or Base64-encoded X.509 data.</source>
+          <target state="translated">바이트 배열이 인코딩된 이진 (DER) 또는 Base64 인코딩된 X.509 데이터 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The byte array can also be a PKCS7 (Authenticode) signed file; the signer certificate is used to create the object.</source>
+          <target state="translated">바이트 배열에 PKCS7 수도 있습니다 (Authenticode) 서명 적용 됩니다. 서명자 인증서 개체를 만들 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an unmanaged handle.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스는 관리 되지 않는 핸들을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a handle for the Microsoft Cryptographic API certificate context, <ph id="ph1">`PCCERT_CONTEXT`</ph>.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;개체 핸들을 사용 하 여 Microsoft Cryptographic API 인증서 컨텍스트에 대 한 <ph id="ph1">`PCCERT_CONTEXT`</ph>.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the immediate caller of this constructor requires unmanaged code permission.</source>
+          <target state="translated">이 생성자의 직접 실행 호출자에 게 비관리 코드 권한이 필요한 있는지 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The constructor creates a copy of the certificate context.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 생성자 인증서 컨텍스트의 복사본을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not assume that the context structure you passed to the constructor is valid; it may have been released.</source>
+          <target state="translated">생성자에 전달 된 컨텍스트 구조 청소가 가정 하지 않습니다 릴리스 되었습니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can get a copy of the current <ph id="ph1">`PCCERT_CONTEXT`</ph> structure from the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt; property, but it is valid only during the lifetime of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object.</source>
+          <target state="translated">현재 복사본을 얻을 수 <ph id="ph1">`PCCERT_CONTEXT`</ph> 에서 구조체는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;속성 않은 유효한의 수명 중에는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;개체입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A pointer to a certificate context in unmanaged code.</source>
+          <target state="translated">비관리 코드에서 인증서 컨텍스트 포인터입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The C structure is called <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">C 구조 라고 <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스를 사용 하는 <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a new instance of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; class using an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object.</source>
+          <target state="translated">이 메서드는의 새 인스턴스를 만듭니다는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;클래스를 사용 하는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;개체입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 인증서 파일 이름을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;인증서 파일 이름을 사용 하 여.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It supports binary (DER) encoding or Base64 encoding.</source>
+          <target state="translated">(DER) 이진 인코딩 또는 Base64 인코딩을 지원합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 바이트 배열 및 암호를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">이 생성자는 인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키를 해독 하 고 키 컨테이너에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서의 데이터가 들어 있는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 바이트 배열 및 암호를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a byte array and a password that is needed to access the certificate data.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;개체 바이트 배열 및 인증서 데이터에 액세스 하는 데 필요한 암호를 사용 하 여.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키를 해독 하 고 키 컨테이너에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified serialization and stream context information.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 지정 된 직렬화 및 스트리밍 컨텍스트 정보를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The serialization information required to deserialize the new <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 deserialize 하는 데 필요한 serialization 정보 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Contextual information about the source of the stream to be deserialized.</source>
+          <target state="translated">역직렬화 하는 스트림의 소스에 대 한 컨텍스트 정보입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name and a password.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 인증서 파일 이름 및 암호를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">이 생성자는 인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키를 해독 하 고 키 컨테이너에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name and a password used to access the certificate.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 인증서 파일 이름 및 인증서 액세스에 사용 되는 암호를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name and a password needed to access the certificate.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;인증서 파일 이름 및 인증서에 액세스 하는 데 필요한 암호를 사용 하 여.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키를 해독 하 고 키 컨테이너에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스는 바이트 배열, 암호 및 키 저장소 플래그를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">이 생성자는 인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키의 암호를 해독 하 고에 Microsoft 암호화 API 공급자 CSP (암호화 서비스)를 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서의 데이터가 들어 있는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스는 바이트 배열, 암호 및 키 저장소 플래그를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a byte array, a password that is needed to access the certificate data, and a key storage flag.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;바이트를 사용 하 여 개체 배열 인증서 데이터와 키 저장소 플래그에 액세스 하는 데 필요한 암호입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">인증서의 개인 키가 포함 된 PKCS12 (PFX) 파일과 함께 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">올바른 암호를이 생성자를 호출 하는 개인 키의 암호를 해독 하 고에 Microsoft 암호화 API 공급자 CSP (암호화 서비스)를 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name, a password, and a key storage flag.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 인증서 파일 이름, 암호 및 키 저장소 플래그를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name, a password used to access the certificate, and a key storage flag.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서 파일을 사용 하 여 클래스 이름, 암호, 인증서 및 키 저장소 플래그에 액세스 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name, a password needed to access the certificate, and a key storage flag.</source>
+          <target state="translated">이 생성자는 새 만듭니다 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;인증서 파일을 사용 하 여 개체 이름, 인증서 및 키 저장소 플래그에 액세스 하는 데 필요한 암호입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">만드는 경우는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;PKCS7 서명된 파일의 저장소를 지정 하 여 인증서 <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;아닌에 대해 저장소를 서명한 인증서를 인증서 저장소 내에 만들어집니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">인증서 관련 오류가 발생합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">예:-인증서 파일이 없습니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-인증서가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-인증서의 암호가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that an X.509 certificate is archived.</source>
+          <target state="translated">X.509 인증서는 보관을 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is set only on a certificate that is associated with a store.</source>
+          <target state="translated">이 속성은 저장소와 연결 되는 인증서에 대해서만 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is set and the certificate is added to a certificate store, the value is persisted.</source>
+          <target state="translated">속성이 설정 된 인증서가 인증서 저장소에 추가 하는 경우 값이 유지 됩니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is set on a certificate retrieved from a store, the value is persisted immediately.</source>
+          <target state="translated">인증서 저장소에서 검색 속성은 값이 즉시 유지 됩니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In an X.509 store, archived certificates are not included in the returned &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt; object unless the Archived property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">X.509 저장소, 보관 된 인증서가 포함 되어 반환 된 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt;보관 됨 속성이로 설정 된 경우가 아니면 개체 <ph id="ph1">`true`</ph>.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No physical archival activity occurs when the Archived value is set or unset.</source>
+          <target state="translated">실제 보관 작업이 없는 보관 된 값을 설정 하거나 해제할 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the certificate is archived, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the certificate is not archived.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>인증서가 보관 하는 경우 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 경우 인증서는 보관 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Extension"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">컬렉션을 가져옵니다 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Extension"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extensions defined in the X.509 v3 certificate format allow additional data to be included in the certificate.</source>
+          <target state="translated">인증서에 포함할 추가 데이터를 허용 하는 X.509 v3 인증서 형식에 정의 된 확장 합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A number of extensions are defined by ISO in the X.509 v3 definition as well as by PKIX in RFC 3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">RFC 3280에 PKIX에 따라서도 X.509 v3 정의에 여러 확장 iso 정의 된 "<bpt id="p1">[</bpt>인증서 및 인증서 해지 목록 (CRL) 프로필<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Common extensions include information regarding key usage (&lt;xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;), key identifiers (&lt;xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt;), certificate policies, revocation information (CRL Distribution Point extension), and other uses.</source>
+          <target state="translated">키 사용과 관련 된 정보를 포함 하는 일반적인 확장 프로그램 (&lt;xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;), 키 식별자 (&lt;xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt;), 인증서 정책, 해지 정보 (CRL 배포 지점 확장) 및 다른 용도로 사용 합니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ExtensionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ExtensionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the associated alias for a certificate.</source>
+          <target state="translated">인증서에 대 한 관련된 별칭을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Friendly names are properties in the X.509 certificate store that can be set.</source>
+          <target state="translated">친숙 한 이름을 설정할 수 있는 X.509 인증서 저장소에는 속성입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They are used to enable a user to associate aliases with certificates so they can be easily identified.</source>
+          <target state="translated">사용자가 쉽게 식별할 수 있도록 인증서가 있는 별칭을 연결할 수 있도록 하는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no friendly name exists for the certificate, an empty string ("") is returned.</source>
+          <target state="translated">빈 문자열 인증서에 대 한 이름이 있는 경우 ("")이 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The certificate's friendly name.</source>
+          <target state="translated">인증서의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Indicates the type of certificate contained in a byte array.</source>
+          <target state="translated">바이트 배열에 포함 된 인증서 종류를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enables you to discover the type of certificate in a file.</source>
+          <target state="translated">이 메서드를 사용 하면 파일에는 인증서 종류를 검색할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rawData&lt;/code&gt;</ph> has a zero length or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rawData&lt;/code&gt;</ph>길이가&amp;0; 이거나 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Indicates the type of certificate contained in a file.</source>
+          <target state="translated">파일에 포함 된 인증서 종류를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enables you to discover the type of certificate in a file.</source>
+          <target state="translated">이 메서드를 사용 하면 파일에는 인증서 종류를 검색할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets the subject and issuer names from a certificate.</source>
+          <target state="translated">제목 및 발급자 이름 인증서에서 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should always be used instead of parsing the certificate, since many of the name values can be located in multiple locations.</source>
+          <target state="translated">이 메서드는 대부분의 이름 값의 여러 위치에 있을 수 있으므로 인증서를 구문 분석 하는 대신 항상 사용 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using this method ensures that the appropriate name is returned.</source>
+          <target state="translated">이 메서드를 사용 하면 적절 한 이름이 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509NameType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the subject.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509NameType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 주체에 대 한 값입니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the issuer name; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>발급자 이름을 포함 하려면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The name of the certificate.</source>
+          <target state="translated">인증서의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains a private key.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개인 키를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object contains a private key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우는 <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> private 개체에 포함 되어 고, 그렇지 않으면 키 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">인증서 컨텍스트가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with data from a byte array.</source>
+          <target state="translated">정보를 표시 한 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 바이트 배열의 데이터를에서 가진 개체입니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to take a raw byte array of an X.509 certificate and populate the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with its associated values.</source>
+          <target state="translated">이 메서드는 X.509 인증서의 원시 바이트 배열을를 사용할 수는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;관련된 값을 가진 개체입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since this method accepts only a byte array, it can be used only for certificate types that do not require a password, including a Base64-encoded or DER-encoded X.509 certificate or a PFX/PKCS12 certificate.</source>
+          <target state="translated">이 메서드는 바이트 배열을 수락 하므로 Base64 인코딩 또는 der로 인코딩된 X.509 인증서 또는 PFX/PKCS12 인증서를 포함 하 여 암호를 요구 하지 않는 인증서 종류에 대해서만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">참고 PFX/PKCS12 인증서가 둘 이상의 인증서를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">이 경우 개인 키와 연결 된 첫 번째 인증서가 사용 하거나 첫 번째 인증서를 사용할 개인 키가 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file.</source>
+          <target state="translated">정보를 표시 한 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서 파일의 정보입니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses a certificate file, such as a file with a .cer extension, that represents an X.509 certificate and populates the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with the certificate the file contains.</source>
+          <target state="translated">이 메서드 인증서 파일을 사용 하 여 X.509 인증서를 나타내며 정보를 표시 하는.cer 확장명을 가진 파일 등의 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;파일에 포함 되어 인증서로.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used with several certificate types, including Base64-encoded or DER-encoded X.509 certificates, PFX/PKCS12 certificates, and signer certificates such as Authenticode.</source>
+          <target state="translated">Base64 인코딩 또는 der로 인코딩된 X.509 인증서, 인증서 PFX/PKCS12 및 Authenticode 같은 서명자 인증서를 포함 하 여 여러 인증서 종류이 메서드를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">참고 PFX/PKCS12 인증서가 둘 이상의 인증서를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">이 경우 개인 키와 연결 된 첫 번째 인증서가 사용 하거나 첫 번째 인증서를 사용할 개인 키가 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The name of a certificate.</source>
+          <target state="translated">인증서의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and a key storage flag.</source>
+          <target state="translated">정보를 표시 한 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체 데이터를 바이트 배열, 암호 및 키 저장소 플래그를 사용 하 여 합니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this method for certificate types such as Base64-encoded or DER-encoded X.509 certificates, or PFX/PKCS12 certificates.</source>
+          <target state="translated">Base64 인코딩된 또는 der로 인코딩된 X.509 인증서 또는 PFX/PKCS12 인증서 같은 인증서 종류에 대 한이 메서드를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">참고 PFX/PKCS12 인증서가 둘 이상의 인증서를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">이 경우 개인 키와 연결 된 첫 번째 인증서가 사용 하거나 첫 번째 인증서를 사용할 개인 키가 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서의 데이터가 들어 있는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and flags for determining how to import the private key.</source>
+          <target state="translated">채웁니다는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 바이트 배열, 암호 및 플래그의 데이터를 사용 하 여 개인 키를 가져오는 방법을 결정 하기 위한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to populate an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a password for the certificate represented by the byte array.</source>
+          <target state="translated">이 메서드를 채우는 데 사용할 수는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;개체 바이트 배열에 의해 표시 되는 인증서에 대 한 암호를 사용 하 여.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value can be used to control where and how to import the private key.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;위치와 방법을 제어 하려면 값을 사용할 수 있습니다 개인 키를 가져올.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a byte array and can be used for certificate types such as Base64-encoded or DER-encoded X.509 certificates or PFX/PKCS12 certificates.</source>
+          <target state="translated">이 메서드는 바이트 배열을 하며 Base64 인코딩 또는 der로 인코딩된 X.509 인증서 또는 PFX/PKCS12 인증서 같은 인증서 종류에 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">참고 PFX/PKCS12 인증서가 둘 이상의 인증서를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">이 경우 개인 키와 연결 된 첫 번째 인증서가 사용 하거나 첫 번째 인증서를 사용할 개인 키가 없으면 합니다.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">X.509 인증서에서 데이터를 포함 하는 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a key storage flag.</source>
+          <target state="translated">정보를 표시 한 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서 파일을, 암호 및 키 저장소 플래그의 정보입니다.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Security Note<ept id="p1">**</ept> Never hard code a password within your source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>보안 정보<ept id="p1">**</ept> 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">정보를 표시 한 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 암호, 인증서 파일의 정보 및 <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used populate an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with information from a certificate file, a password, and an &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value.</source>
+          <target state="translated">이 메서드를 사용할 수 있습니다 채우기는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;암호, 인증서 파일의 정보 및 &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;값.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 하드 코딩 하지 마십시오 소스 코드 내에서 암호입니다.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">사용 하 여 어셈블리에서 하드 코드 된 암호를 검색할 수는 <bpt id="p1">[</bpt>Ildasm.exe (IL 디스어셈블러)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>,&amp;16; 진수 편집기 또는 Notepad.exe와 같은 텍스트 편집기에서 어셈블리를 여는 합니다.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">인증서 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">X.509 인증서 데이터에 액세스 하는 데 필요한 암호입니다.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">열거형의 비트 조합 값이 위치와 방법을 제어 하는 인증서를 가져오려면 합니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Gets the distinguished name of the certificate issuer.</source>
+          <target state="translated">인증서 발급자의 고유 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property contains the name of the certificate authority (CA) that issued the certificate.</source>
+          <target state="translated">이 속성에는 인증서를 발급 한 인증 기관 (CA)의 이름을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain the name of a certificate, use the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt; method.</source>
+          <target state="translated">인증서의 이름을 가져오려면는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt;메서드.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The distinguished name for the certificate is a textual representation of the certificate subject or issuer.</source>
+          <target state="translated">인증서에 대 한 고유 이름에는 인증서 주체 또는 발급자의 텍스트 표현입니다.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This representation consists of name attributes (for example, "CN=MyName, OU=MyOrgUnit, C=US").</source>
+          <target state="translated">이 표현은 이름 특성으로 구성 (예를 들어 "CN = MyName, OU = MyOrgUnit, C = US").</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the name of the certificate issuer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서 발급자의 이름을 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">인증서 컨텍스트가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Gets the date in local time after which a certificate is no longer valid.</source>
+          <target state="translated">현지 시간 이후에 인증서가 더 이상 유효 날짜를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates an expiration date on which the certificate becomes invalid.</source>
+          <target state="translated">이 속성 인증서가 잘못 되었습니다. 만료 날짜를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that represents the expiration date for the certificate.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;인증서 만료 날짜를 나타내는 개체입니다.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Gets the date in local time on which a certificate becomes valid.</source>
+          <target state="translated">인증서가 유효 하는 현지 시간에서 날짜를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates the date on which the certificate becomes valid.</source>
+          <target state="translated">이 속성은 인증서가 유효 날짜를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that represents the effective date of the certificate.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;인증서의 개시 날짜를 나타내는 개체입니다.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the private key associated with a certificate.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서와 연결 된 개인 키를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently this property supports only RSA or DSA keys, so it returns either an &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; or a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object.</source>
+          <target state="translated">현재이 속성은 지원 DSA 또는 RSA 키만 반환 중 하나는 &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;또는 &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;개체입니다.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no private key is associated with the certificate, it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">반환 하는 경우 개인 키가 인증서에 연결 된, <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  If you set this property to <ph id="ph2">`null`</ph> or to another key without first deleting it, a private key file is left on the disk.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt;이 속성을 설정 하는 경우 <ph id="ph2">`null`</ph> 또는 첫 번째 삭제 하지 않고 다른 키를 개인 키 파일을 디스크에 남아 있습니다.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To properly delete the private key associated with this property, set <ph id="ph1">`PersistKeyInCsp`</ph> to <ph id="ph2">`false`</ph>, and then call the &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt; method.</source>
+          <target state="translated">이 속성과 연결 된 개인 키를 제대로 삭제 하려면 설정 <ph id="ph1">`PersistKeyInCsp`</ph> 를 <ph id="ph2">`false`</ph>, 한 다음 호출에서 &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt;메서드.&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, which is either an RSA or DSA cryptographic service provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체 DSA 또는 RSA 암호화 서비스 공급자입니다.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The key value is not an RSA or DSA key, or the key is unreadable.</source>
+          <target state="translated">키 값이는 DSA 또는 RSA 키 또는 키를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The value being set for this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 속성에 대해 설정 되는 값 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The key algorithm for this private key is not supported.</source>
+          <target state="translated">이 개인 키에 대 한 키 알고리즘은 지원 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The X.509 keys do not match.</source>
+          <target state="translated">X.509 키가 일치 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider key is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">암호화 서비스 공급자 키가 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets a PublicKey object associated with a certificate.</source>
+          <target state="translated">인증서와 연결 된 PublicKey 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns a PublicKey object, which contains the object identifier (&lt;xref:System.Security.Cryptography.Oid&gt;) representing the public key algorithm, the ASN.1-encoded parameters, and the ASN.1-encoded key value.</source>
+          <target state="translated">이 속성의 개체 식별자를 포함 하는 PublicKey 개체를 반환 (&lt;xref:System.Security.Cryptography.Oid&gt;) 공개 키 알고리즘, ASN.1 인코딩 매개 변수를 ASN.1 인코딩 키 값을 나타내는.&lt;/xref:System.Security.Cryptography.Oid&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also obtain the key as an &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt; object by referencing the PublicKey property.</source>
+          <target state="translated">키를 가져올 수도 있습니다는 &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;PublicKey 속성을 참조 하 여 개체.&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property supports only RSA or DSA keys, so it returns either an &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; or a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object that represents the public key.</source>
+          <target state="translated">이 속성은 지원만 DSA 또는 RSA 키 중 하나를 반환 하므로 &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;또는 &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;공개 키를 나타내는 개체입니다.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>A PublicKey object.</source>
+          <target state="translated">PublicKey 개체입니다.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The key value is not an RSA or DSA key, or the key is unreadable.</source>
+          <target state="translated">키 값이는 DSA 또는 RSA 키 또는 키를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Gets the raw data of a certificate.</source>
+          <target state="translated">인증서의 원시 데이터를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The raw data of the certificate as a byte array.</source>
+          <target state="translated">바이트 배열 형식의 인증서의 원시 데이터입니다.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Resets the state of an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">상태는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to reset the state of the certificate.</source>
+          <target state="translated">이 메서드는 인증서의 상태를 다시 설정 데 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also frees any resources associated with the certificate.</source>
+          <target state="translated">또한 인증서와 관련 된 모든 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Gets the serial number of a certificate.</source>
+          <target state="translated">인증서의 일련 번호를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serial number of the certificate is part of the original X.509 protocol.</source>
+          <target state="translated">인증서의 일련 번호는 원래 X.509 프로토콜의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serial number is a unique number issued by the certificate issuer, which is also called the Certificate Authority (CA).</source>
+          <target state="translated">일련 번호는 인증 기관 (CA) 라고도 하는 인증서 발급자가 발급 한 고유 번호입니다.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The serial number of the certificate.</source>
+          <target state="translated">인증서의 일련 번호입니다.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Gets the algorithm used to create the signature of a certificate.</source>
+          <target state="translated">인증서의 서명을 만드는 데 사용 되는 알고리즘을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object identifier (&lt;xref:System.Security.Cryptography.Oid&gt;) identifies the type of signature algorithm used by the certificate.</source>
+          <target state="translated">개체 식별자 (&lt;xref:System.Security.Cryptography.Oid&gt;) 인증서에 사용 된 서명 알고리즘의 형식을 식별 합니다.&lt;/xref:System.Security.Cryptography.Oid&gt;</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Returns the object identifier (<bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) of the signature algorithm.</source>
+          <target state="translated">개체 식별자를 반환 (<bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) 서명 알고리즘의 합니다.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Gets the subject distinguished name from a certificate.</source>
+          <target state="translated">인증서에서 구별 된 주체 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The subject distinguished name is the name of the user of the certificate.</source>
+          <target state="translated">주체 고유 이름은 인증서의 사용자의 이름이입니다.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The distinguished name for the certificate is a textual representation of the subject or issuer of the certificate.</source>
+          <target state="translated">인증서에 대 한 고유 이름은 인증서의 발급자 또는 주체의 텍스트 표현입니다.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This representation consists of name attributes, for example, "CN=MyName, OU=MyOrgUnit, C=US".</source>
+          <target state="translated">이 표현은 특성으로 구성 이름, 예를 들어 "CN = MyName, OU = MyOrgUnit, C = US"입니다.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the name of the certificate subject.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증서 주체 이름을 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">인증서 컨텍스트가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Gets the thumbprint of a certificate.</source>
+          <target state="translated">인증서의 지문을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thumbprint is dynamically generated using the SHA1 algorithm and does not physically exist in the certificate.</source>
+          <target state="translated">지문을은 SHA1 알고리즘을 사용 하 여 동적으로 생성 하 고 인증서에 실제로 존재 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the thumbprint is a unique value for the certificate, it is commonly used to find a particular certificate in a certificate store.</source>
+          <target state="translated">지 문으로 인증서에 대 한 고유한 값 이므로, 인증서 저장소에서 특정 인증서를 찾을 일반적으로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The thumbprint of the certificate.</source>
+          <target state="translated">인증서의 지문입니다.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Displays an X.509 certificate in text format.</source>
+          <target state="translated">X.509 인증서를 텍스트 형식으로 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with all <ph id="ph1">`ToString`</ph> methods, the output might not be consistent across versions of the .NET Framework, so the method results should not be parsed for content.</source>
+          <target state="translated">모든와 마찬가지로 <ph id="ph1">`ToString`</ph> 메서드를 출력 하지 수 버전의.NET Framework 전체에서 일관성 있으므로 메서드 결과 하지 콘텐츠 구문 분석 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the properties on the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object to obtain precise information about the content or use the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt; method to obtain information about the certificate.</source>
+          <target state="translated">속성을 사용 하는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;콘텐츠에 대 한 정확한 정보를 얻거나 사용 하 여 개체는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt;인증서에 대 한 정보를 얻는 메서드를.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays the certificate in text format.</source>
+          <target state="translated">이 메서드는 인증서를 텍스트 형식으로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The certificate information.</source>
+          <target state="translated">인증서 정보입니다.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Displays an X.509 certificate in text format.</source>
+          <target state="translated">X.509 인증서를 텍스트 형식으로 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with all <ph id="ph1">`ToString`</ph> methods, the output might not be consistent across versions of the .NET Framework, so the method results should not be parsed for content.</source>
+          <target state="translated">모든와 마찬가지로 <ph id="ph1">`ToString`</ph> 메서드를 출력 하지 수 버전의.NET Framework 전체에서 일관성 있으므로 메서드 결과 하지 콘텐츠 구문 분석 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the properties on the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object to obtain precise information.</source>
+          <target state="translated">속성을 사용 하는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;개체 정확한 정보를 가져옵니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays the certificate in text format.</source>
+          <target state="translated">이 메서드는 인증서를 텍스트 형식으로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`verbose`</ph> parameter is set to <ph id="ph2">`true`</ph>, the text display includes the public key, private key, and extensions.</source>
+          <target state="translated">경우는 <ph id="ph1">`verbose`</ph> 로 설정 된 <ph id="ph2">`true`</ph>, 텍스트 표시에는 공개 키, 개인 키 및 확장이 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`verbose`</ph> is set to <ph id="ph2">`false`</ph>, the text display includes those fields available from the X.509 certificate, including thumbprint, serial number, subject and issuer names, and validity date information.</source>
+          <target state="translated">경우 <ph id="ph1">`verbose`</ph> 로 설정 된 <ph id="ph2">`false`</ph>, 텍스트 표시에는 지문, 일련 번호, 제목 및 발급자 이름 및 유효 날짜 정보를 포함 하 여 X.509 인증서에서 사용할 수 있는 필드가 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to display the public key, private key, extensions, and so forth; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to display information that is similar to the <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> class, including thumbprint, serial number, subject and issuer names, and so on.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>공개 키, 개인 키, 확장명 및 기타; 표시 하려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 유사한 정보를 표시 하는 <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 클래스, 지문, 일련 번호, 제목 및 발급자 이름, 등입니다.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The certificate information.</source>
+          <target state="translated">인증서 정보입니다.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Performs a X.509 chain validation using basic validation policy.</source>
+          <target state="translated">기본 유효성 검사 정책을 사용 하 여 X.509 체인 유효성 검사를 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method builds a simple chain for the certificate and applies the base policy to that chain.</source>
+          <target state="translated">이 메서드는 인증서에 대 한 간단한 체인 빌드하고 해당 체인에 기본 정책을 적용 합니다.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need more information about a failure, validate the certificate directly using the &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object.</source>
+          <target state="translated">오류에 대 한 자세한 내용은 해야 할 경우 직접 사용 하 여 인증서의 유효성을 검사는 &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;개체입니다.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the default chaining engine can be overridden using the &lt;xref:System.Security.Cryptography.CryptoConfig&gt; class.</source>
+          <target state="translated">기본 체인 엔진 &lt;xref:System.Security.Cryptography.CryptoConfig&gt;클래스&lt;/xref:System.Security.Cryptography.CryptoConfig&gt; 를 사용 하 여 재정의할 수는 note</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On Microsoft Windows Server 2003, the default engine conforms to the specification described in RFC3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">Microsoft Windows Server 2003 기본 엔진 사양을 따르는 RFC3280에 설명 된 "<bpt id="p1">[</bpt>인증서 및 인증서 해지 목록 (CRL) 프로필<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the validation succeeds; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the validation fails.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>유효성 검사에 성공 합니다. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 유효성 검사에 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Gets the X.509 format version of a certificate.</source>
+          <target state="translated">인증서의 X.509 형식 버전을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are several versions of X.509 certificates.</source>
+          <target state="translated">X.509 인증서의 여러 버전이 있습니다.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property identifies which format the certificate uses.</source>
+          <target state="translated">이 속성은 인증서에 사용 되는 형식을 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, "3" is returned for a version 3 certificate.</source>
+          <target state="translated">예를 들어 "3" 버전 3 인증서에 대 한 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>The certificate format.</source>
+          <target state="translated">인증서 형식입니다.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">인증서를 읽을 수 없습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad729d2b8c8e87ba733e8abf3326b961459f60ff</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.TypeDescriptionProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad829cf903708e1555fe0fc9871e04afb0cb2fb6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">877794c9c1aeef5fd43ffb60c71641aea047031c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides supplemental metadata to the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">추가 메타 데이터를 제공 된 <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TypeDescriptionProvider class dynamically extends the type information associated with a type or object by adding, modifying, or hiding characteristics such as attributes, properties, and events.</source>
+          <target state="translated">TypeDescriptionProvider 클래스는 동적으로 추가, 수정 또는 숨기기 특성, 속성 및 이벤트 등의 특성 형식이 나 개체와 연결 된 형식 정보를 확장 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There can be multiple type description provider classes that offer metadata to a single &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">단일 &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; 메타 데이터를 제공 하는 여러 형식 설명 공급자 클래스가 있을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are two ways to associate a TypeDescriptionProvider with a &lt;xref:System.ComponentModel.TypeDescriptor&gt;:      -   At design time, when the target class can be assigned the appropriate &lt;xref:System.ComponentModel.TypeDescriptionProviderAttribute&gt; tag.</source>
+          <target state="translated">와 TypeDescriptionProvider 연결 하는 방법은 두 가지가 &lt;xref:System.ComponentModel.TypeDescriptor&gt;:-경우 대상 클래스 지정할 수 있는 적절 한 디자인 타임에 &lt;xref:System.ComponentModel.TypeDescriptionProviderAttribute&gt;태그.&lt;/xref:System.ComponentModel.TypeDescriptionProviderAttribute&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   At run time, when one of the &lt;xref:System.ComponentModel.TypeDescriptor.AddProvider%2A&gt; methods of the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class can be called.</source>
+          <target state="translated">에 런타임에 한 경우의 &lt;xref:System.ComponentModel.TypeDescriptor.AddProvider%2A&gt;의 메서드는 &lt;xref:System.ComponentModel.TypeDescriptor&gt;클래스를 호출할 수 있습니다.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptor.AddProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These overloaded methods require either the target object or its class type.</source>
+          <target state="translated">이러한 오버 로드 된 메서드는 대상 개체 또는 클래스 형식이 필요합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TypeDescriptionProvider class relies on a parent object of the same type, supplied during construction.</source>
+          <target state="translated">TypeDescriptionProvider 클래스는 부모 개체를 생성 하는 동안 제공 된 동일한 형식의 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows classes that derive from &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; to selectively override methods.</source>
+          <target state="translated">파생 된 클래스를 사용 하면이 &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;를 선택적으로 메서드를 재정의 합니다.&lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instances of TypeDescriptionProvider are only built upon demand, minimizing the impact of custom type information on performance.</source>
+          <target state="translated">TypeDescriptionProvider 인스턴스의 성능에 대 한 사용자 지정 형식 정보의 영향 최소화 필요한 경우에 빌드됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is equivalent to calling the other &lt;xref:System.ComponentModel.TypeDescriptionProvider.%23ctor%28System.ComponentModel.TypeDescriptionProvider%29&gt; constructor with a parameter value that is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">이 생성자는 다른 호출 &lt;xref:System.ComponentModel.TypeDescriptionProvider.%23ctor%28System.ComponentModel.TypeDescriptionProvider%29&gt;생성자는 매개 변수 값으로 <ph id="ph1">`null`</ph>.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.%23ctor%28System.ComponentModel.TypeDescriptionProvider%29&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a parent type description provider.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스는 부모 형식 설명 공급자를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`parent`</ph> parameter is <ph id="ph2">`null`</ph>, all &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt; methods will return default values.</source>
+          <target state="translated">경우는 <ph id="ph1">`parent`</ph> 매개 변수는 <ph id="ph2">`null`</ph>모든 &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;메서드는 기본 값을 반환 합니다.&lt;/xref:System.ComponentModel.TypeDescriptionProvider&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, all &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt; methods will delegate to the methods of <ph id="ph1">`parent`</ph>.</source>
+          <target state="translated">그렇지 않으면 모든 &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;메서드의 메서드에 위임 합니다 <ph id="ph1">`parent`</ph>.&lt;/xref:System.ComponentModel.TypeDescriptionProvider&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the default return values for &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt; methods.</source>
+          <target state="translated">다음 표에서에 대 한 기본 반환 값이 나와 &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;메서드.&lt;/xref:System.ComponentModel.TypeDescriptionProvider&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Method|Default return value|   |------------|--------------------------|   |&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetCache%2A&gt;|<ph id="ph1">`null`</ph>|   |&lt;xref:System.ComponentModel.TypeDescriptionProvider.CreateInstance%2A&gt;|A newly created object through a call to the &lt;xref:System.Activator.CreateInstance%2A&gt; method.|   |&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetExtendedTypeDescriptor%2A&gt;|A default instance of a &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; class.|   |&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;|A default instance of a &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; class.|   |&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;|The <ph id="ph2">`objectType`</ph> first parameter.|</source>
+          <target state="translated">| 메서드 | 반환 값을 기본 |   |------------|--------------------------|   | &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetCache%2A&gt;| <ph id="ph1">`null`</ph>|   | &lt;xref:System.ComponentModel.TypeDescriptionProvider.CreateInstance%2A&gt;| 새로 만든된 개체를 통해 &lt;xref:System.Activator.CreateInstance%2A&gt;메서드를 호출 합니다. |   | &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetExtendedTypeDescriptor%2A&gt;| &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;클래스의 기본 인스턴스. |   | &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;| &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;클래스의 기본 인스턴스. |   | &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;| <ph id="ph2">`objectType`</ph> 첫 번째 매개 변수입니다. |&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; &lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; &lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetExtendedTypeDescriptor%2A&gt; &lt;/xref:System.Activator.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The parent type description provider.</source>
+          <target state="translated">부모 형식 설명 공급자입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Creates an object that can substitute for another data type.</source>
+          <target state="translated">다른 데이터 형식 대신 사용할 수 있는 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IServiceProvider&gt; specified by the <ph id="ph1">`provider`</ph> parameter is passed in by the &lt;xref:System.ComponentModel.TypeDescriptor.CreateInstance%2A?displayProperty=fullName&gt; method of the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;에 지정 된는 <ph id="ph1">`provider`</ph> &lt;xref:System.ComponentModel.TypeDescriptor.CreateInstance%2A?displayProperty=fullName&gt; &lt;xref:System.ComponentModel.TypeDescriptor&gt;클래스&lt;/xref:System.ComponentModel.TypeDescriptor&gt; 의 메서드&lt;/xref:System.ComponentModel.TypeDescriptor.CreateInstance%2A?displayProperty=fullName&gt; 에 매개 변수를 전달&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`provider`</ph> is not <ph id="ph2">`null`</ph>, the service provider can be used by the type description provider to obtain additional context about the creation call.</source>
+          <target state="translated">경우 <ph id="ph1">`provider`</ph> 않습니다 <ph id="ph2">`null`</ph>, 서비스 공급자 만들기 호출에 대 한 추가 컨텍스트를 가져올 형식 설명 공급자에서 사용 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateInstance method is <ph id="ph1">`virtual`</ph> and, by default, returns the result of the &lt;xref:System.Activator.CreateInstance%2A?displayProperty=fullName&gt; method if <ph id="ph2">`provider`</ph> is <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">CreateInstance 메서드는 <ph id="ph1">`virtual`</ph> 기본적으로 결과를 반환 하는 고는 &lt;xref:System.Activator.CreateInstance%2A?displayProperty=fullName&gt;메서드 경우 <ph id="ph2">`provider`</ph> 은 <ph id="ph3">`null`</ph>.&lt;/xref:System.Activator.CreateInstance%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`provider`</ph> is <ph id="ph2">`null`</ph>, this method will invoke the CreateInstance method of the parent provider.</source>
+          <target state="translated">경우 <ph id="ph1">`provider`</ph> 은 <ph id="ph2">`null`</ph>,이 메서드는 부모 공급자의 CreateInstance 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An optional service provider.</source>
+          <target state="translated">선택적 서비스 공급자입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The type of object to create.</source>
+          <target state="translated">만들 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This parameter is never <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 매개 변수는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An optional array of types that represent the parameter types to be passed to the object's constructor.</source>
+          <target state="translated">개체의 생성자에 전달 될 매개 변수 형식을 나타내는 형식의 선택적 배열입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This array can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or of zero length.</source>
+          <target state="translated">이 배열은 수 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이거나 길이가&amp;0;입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An optional array of parameter values to pass to the object's constructor.</source>
+          <target state="translated">개체의 생성자에 전달할 매개 변수 값의 선택적 배열입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The substitute &lt;xref:System.Object&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;입니다.&lt;/xref:System.Object&gt; 대체</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a per-object cache, accessed as an &lt;xref:System.Collections.IDictionary&gt; of key/value pairs.</source>
+          <target state="translated">으로 액세스 하는 개체당 캐시를 가져옵니다는 &lt;xref:System.Collections.IDictionary&gt;키/값 쌍의.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.ComponentModel.TypeDescriptor&gt; may need to perform complex operations on collections of metadata.</source>
+          <target state="translated">A &lt;xref:System.ComponentModel.TypeDescriptor&gt;메타 데이터의 컬렉션에 대 한 복잡 한 작업을 수행 해야 할 수 있습니다.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because types are not unloaded for the life of a domain, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class will automatically cache the results of these operations based on type.</source>
+          <target state="translated">형식이 도메인의 수명에 대 한 언로드되지 않으므로 &lt;xref:System.ComponentModel.TypeDescriptor&gt;클래스 형식에 따라 이러한 작업의 결과 자동으로 캐시 됩니다.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, some operations use live object instances.</source>
+          <target state="translated">하지만 일부 작업은 라이브 개체 인스턴스를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These operations cannot be cached within the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class because caching them would prevent the object from being garbage collected.</source>
+          <target state="translated">내에서 이러한 작업을 캐시할 수 없습니다는 &lt;xref:System.ComponentModel.TypeDescriptor&gt;클래스를 캐시 하지 않게 개체가 가비지 수집 되지 않도록 하므로.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class allows for a per-object cache, accessed as an &lt;xref:System.Collections.IDictionary&gt; of key/value pairs, to exist on an object.</source>
+          <target state="translated">대신,는 &lt;xref:System.ComponentModel.TypeDescriptor&gt;으로 액세스 하는 개체당 캐시에 대 한 클래스를 사용 하는 &lt;xref:System.Collections.IDictionary&gt;개체에 있는 키/값 쌍의.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetCache method returns an instance of this cache.</source>
+          <target state="translated">GetCache 메서드는이 캐시의 인스턴스를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetCache method will return <ph id="ph1">`null`</ph> if there is no supported cache for an object.</source>
+          <target state="translated">GetCache 메서드는 반환 <ph id="ph1">`null`</ph> 경우 개체에 대 한 지원 되는 캐시가 없습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt; used by &lt;xref:System.ComponentModel.TypeDescriptor&gt; examines the object to see if it is a sited component that implements the &lt;xref:System.ComponentModel.Design.IDictionaryService&gt; interface.</source>
+          <target state="translated">기본 &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;에서 사용 하는 &lt;xref:System.ComponentModel.TypeDescriptor&gt;개체를 구현 하는 설치 되는 구성 인지를 검사 하는 &lt;xref:System.ComponentModel.Design.IDictionaryService&gt;인터페이스.&lt;/xref:System.ComponentModel.Design.IDictionaryService&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object is, it uses the dictionary service to store the object's cache.</source>
+          <target state="translated">개체가 있으면 개체의 캐시를 저장 하는 사전 서비스를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the object it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">개체는 변수가 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other type description providers may provide their own implementation here.</source>
+          <target state="translated">다른 형식 설명 공급자 여기 자체 구현을 제공할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, dependency objects can just attach a property of type &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">예를 들어 종속성 개체 수 속성을 연결할 &lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt; 형식의</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The object for which to get the cache.</source>
+          <target state="translated">캐시를 가져올 개체입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; if the provided object supports caching; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;제공된 된 개체가; 캐싱을 지 원하는 경우 이렇게 하지 않으면 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets an extended custom type descriptor for the given object.</source>
+          <target state="translated">지정된 된 개체에 대 한 확장된 사용자 지정 형식 설명자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An extended type descriptor is a custom type descriptor that offers properties that other objects have added to this object, but that are not actually defined on the object.</source>
+          <target state="translated">확장된 형식 설명자는 개체에 실제로 정의 된 다른 개체에는 있지만이 개체에 추가 속성이 제공 하는 사용자 지정 형식 설명자입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> component model, objects that implement the &lt;xref:System.ComponentModel.IExtenderProvider&gt; interface can attach properties to other objects that reside in the same logical container.</source>
+          <target state="translated">예를 들어는 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> 구성 요소 모델을 구현 하는 개체는 &lt;xref:System.ComponentModel.IExtenderProvider&gt;인터페이스에는 같은 논리 컨테이너에 있는 다른 개체에 속성을 연결할 수 있습니다.&lt;/xref:System.ComponentModel.IExtenderProvider&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The overloaded &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; methods do not return a type descriptor that provides these extra extended properties.</source>
+          <target state="translated">오버 로드 된 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;메서드에서 이러한 추가 확장된 속성을 제공 하는 형식 설명자를 반환 하지 않음.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetExtendedTypeDescriptor method returns the set of these extended properties.</source>
+          <target state="translated">GetExtendedTypeDescriptor 메서드는 이러한 확장된 속성의 집합을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.TypeDescriptor&gt; will automatically merge the results of these two property collections.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.TypeDescriptor&gt;두 속성 컬렉션의 결과 자동으로 병합 됩니다.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> component model supports only extended properties, GetExtendedTypeDescriptor can be used for extended attributes as well as events, if the type description provider supports it.</source>
+          <target state="translated">반면는 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> 구성 요소 모델에만 확장된 속성은 지원, 형식 설명 공급자가 지 원하는 경우 이벤트 뿐만 아니라 확장된 특성에 대 한 GetExtendedTypeDescriptor을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetExtendedTypeDescriptor is <ph id="ph1">`virtual`</ph> and, by default, returns a custom type descriptor that returns empty results if no parent provider was passed.</source>
+          <target state="translated">GetExtendedTypeDescriptor은 <ph id="ph1">`virtual`</ph> 및 기본적으로 없는 부모 공급자가 전달 하는 경우 빈 결과 반환 하는 사용자 지정 형식 설명자를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a parent provider was passed, this method will invoke the parent provider's GetExtendedTypeDescriptor method.</source>
+          <target state="translated">부모 공급자가 전달 하 고,이 메서드는 부모 공급자 GetExtendedTypeDescriptor 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The object for which to get the extended type descriptor.</source>
+          <target state="translated">개체를 가져올 확장된 형식 설명자입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can provide extended metadata for the object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체에 대 한 확장 된 메타 데이터를 제공할 수 있는 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets the extender providers for the specified object.</source>
+          <target state="translated">지정된 된 개체에 대 한 extender 공급자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object to get extender providers for.</source>
+          <target state="translated">에 대 한 extender 공급자를 가져올 개체입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An array of extender providers for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">instance</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">에 대 한 extender 공급자 배열을 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">instance</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets the name of the specified component, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the component has no name.</source>
+          <target state="translated">지정된 된 구성의 이름을 가져옵니다 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 구성 요소에 이름이 없는 경우.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The specified component.</source>
+          <target state="translated">지정 된 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The name of the specified component.</source>
+          <target state="translated">지정된 된 구성 요소의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Performs normal reflection against the given object.</source>
+          <target state="translated">지정된 된 개체에 대해 일반 리플렉션을 수행합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; method is a lower-level version of the &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;메서드는 하위 버전의는 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;메서드.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no custom type descriptor can be located for an object, &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; is called to perform normal reflection against the object.</source>
+          <target state="translated">사용자 지정 형식 설명자가 없습니다 개체를 찾을 수 없으면 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;개체에 대해 일반 리플렉션을 수행 하기 위해 호출 됩니다.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method overload if you have called a type descriptor member that uses an instance instead of a type.</source>
+          <target state="translated">이 메서드 오버 로드를 사용 하 여 형식이 아닌 인스턴스를 사용 하는 형식 설명자 멤버 호출한 경우.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An instance of the type (should not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">형식의 인스턴스 (되어서는 안 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The type of reflection for this <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">instance</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">이 대 한 리플렉션의 유형의 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">instance</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Performs normal reflection against a type.</source>
+          <target state="translated">형식에 대해 일반 리플렉션을 수행합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; method is a lower-level version of the &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;메서드는 하위 버전의는 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;메서드.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no custom type descriptor can be located for an object, &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; is called to perform normal reflection against the object.</source>
+          <target state="translated">사용자 지정 형식 설명자가 없습니다 개체를 찾을 수 없으면 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;개체에 대해 일반 리플렉션을 수행 하기 위해 호출 됩니다.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method overload if you have called a type descriptor member that uses a type instead of an instance.</source>
+          <target state="translated">이 메서드 오버 로드를 사용 하 여 인스턴스 대신 형식을 사용 하는 형식 설명자 멤버 호출한 경우.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the <bpt id="p1">&lt;xref href="System.Reflection.IReflect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">검색할 개체의 형식에서 <bpt id="p1">&lt;xref href="System.Reflection.IReflect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The type of reflection for this <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">이 대 한 리플렉션의 유형의 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectType</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Performs normal reflection against the given object with the given type.</source>
+          <target state="translated">지정 된 형식의 지정된 된 개체에 대해 일반 리플렉션을 수행합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; method is a lower-level version of the &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;메서드는 하위 버전의는 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt;메서드.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetTypeDescriptor%2A&gt; &lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no custom type descriptor can be located for an object, &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; is called to perform normal reflection against the object.</source>
+          <target state="translated">사용자 지정 형식 설명자가 없습니다 개체를 찾을 수 없으면 &lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;개체에 대해 일반 리플렉션을 수행 하기 위해 호출 됩니다.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the <bpt id="p1">&lt;xref href="System.Reflection.IReflect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">검색할 개체의 형식에서 <bpt id="p1">&lt;xref href="System.Reflection.IReflect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An instance of the type.</source>
+          <target state="translated">형식의 인스턴스입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The type of reflection for this <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">이 대 한 리플렉션의 유형의 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectType</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Converts a reflection type into a runtime type.</source>
+          <target state="translated">리플렉션 형식을 런타임 형식으로 변환합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetRuntimeType method reverses the&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; method to convert a reflection type back into a runtime type.</source>
+          <target state="translated">GetRuntimeType 메서드 되돌립니다는&lt;xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt; 리플렉션 형식을 변환 하는 메서드는 런타임 형식이 스풀링됩니다.&lt;/xref:System.ComponentModel.TypeDescriptionProvider.GetReflectionType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the GetRuntimeType method is preferred over using the &lt;xref:System.Type.UnderlyingSystemType%2A&gt; property, which was used in earlier versions to return the runtime type.</source>
+          <target state="translated">사용 하 여 보다 선호 됩니다 GetRuntimeType 메서드를 사용 하는 &lt;xref:System.Type.UnderlyingSystemType%2A&gt;이전 버전에서 런타임 형식을 반환 하는 데 사용 된 속성입니다.&lt;/xref:System.Type.UnderlyingSystemType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The type to convert to its runtime equivalent.</source>
+          <target state="translated">해당 되는 런타임 변환할 대상 형식입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the runtime equivalent of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reflectionType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;의 런타임 형식을 나타내는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">reflectionType</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reflectionType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reflectionType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets a custom type descriptor for the given object.</source>
+          <target state="translated">지정된 된 개체에 대 한 사용자 지정 형식 설명자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An instance of the type.</source>
+          <target state="translated">형식의 인스턴스입니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no instance was passed to the <bpt id="p2">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">수 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가에 전달 된 경우는 <bpt id="p2">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can provide metadata for the type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 유형에 대 한 메타 데이터를 제공할 수 있는 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets a custom type descriptor for the given type.</source>
+          <target state="translated">지정된 된 형식에 대 한 사용자 지정 형식 설명자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the type descriptor.</source>
+          <target state="translated">형식 설명자를 검색할 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can provide metadata for the type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 유형에 대 한 메타 데이터를 제공할 수 있는 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets a custom type descriptor for the given type and object.</source>
+          <target state="translated">지정 된 형식 및 개체에 대 한 사용자 지정 형식 설명자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is prototyped as <ph id="ph1">`virtual`</ph> and, by default, returns an empty descriptor if no parent provider was passed.</source>
+          <target state="translated">이 메서드는로 프로토타입화 <ph id="ph1">`virtual`</ph> 및 없는 부모 공급자가 전달 하는 경우 기본적으로 빈 설명자를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a parent provider was passed, this method will invoke the parent provider's GetTypeDescriptor method.</source>
+          <target state="translated">부모 공급자가 전달 하 고,이 메서드는 부모 공급자 GetTypeDescriptor 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the type descriptor.</source>
+          <target state="translated">형식 설명자를 검색할 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An instance of the type.</source>
+          <target state="translated">형식의 인스턴스입니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no instance was passed to the <bpt id="p2">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">수 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가에 전달 된 경우는 <bpt id="p2">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can provide metadata for the type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ICustomTypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 유형에 대 한 메타 데이터를 제공할 수 있는 합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified type is compatible with the type description and its chain of type description providers.</source>
+          <target state="translated">지정된 된 형식의 형식 설명 및 형식 설명 공급자의 체인과 호환 되는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The type to test for compatibility.</source>
+          <target state="translated">호환성을 테스트할 형식입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p2">&lt;/code&gt;</ept> is compatible with the type description and its chain of type description providers; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p2">&lt;/code&gt;</ept> 형식 설명 및 형식 설명 공급자의 체인과와 호환 되 고, 그러지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45067e92be61e8499bf16b2756ef7c1dcdfdabf9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.BinaryMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">811b8fb0eb971264835e4129cee2e20db0b7b50f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c60982990d4a8c8ec1ef19c0737b143bb56ccaa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes or deserializes an object, or an entire graph of connected objects, to or from the body of a Message Queuing message, using a binary format.</source>
+          <target state="translated">Rendezi sorba, vagy egy objektumot, vagy egy kapcsolódó objektum, vagy a Message Queuing üzenet, a bináris formátumot használja a teljes diagramot deserializes.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BinaryMessageFormatter is very efficient and can be used to serialize most objects.</source>
+          <target state="translated">A BinaryMessageFormatter nagyon hatékony, és a legtöbb objektum szerializálása használható.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is very compact and fast to parse, but does not allow for loosely coupled messaging as the &lt;xref:System.Messaging.XmlMessageFormatter&gt; does.</source>
+          <target state="translated">Eredménye nagyon kompakt és gyors elemzése, de nem engedélyezi a lazán üzenetküldési a &lt;xref:System.Messaging.XmlMessageFormatter&gt;does.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Loosely coupled means that the client and the server can independently version the type that is sent and received.</source>
+          <target state="translated">Lazán összekapcsolt azt jelenti, hogy az ügyfél és a kiszolgáló is egymástól függetlenül verzió küldött és fogadott típusát.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the application sends a message to the queue using an instance of the &lt;xref:System.Messaging.MessageQueue&gt; class, the formatter serializes the object into a stream and inserts it into the message body.</source>
+          <target state="translated">Ha az alkalmazás egy üzenetet küld a sorból egy példányát a &lt;xref:System.Messaging.MessageQueue&gt;osztály, formázó rendezi sorba az objektum egy adatfolyamba, és beszúrja az üzenettörzs.&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When reading from a queue using a &lt;xref:System.Messaging.MessageQueue&gt;, the formatter deserializes the message data into the &lt;xref:System.Messaging.Message.Body%2A&gt; property of a &lt;xref:System.Messaging.Message&gt;.</source>
+          <target state="translated">Amikor a sorból egy &lt;xref:System.Messaging.MessageQueue&gt;a formázó deserializes a &lt;xref:System.Messaging.Message.Body%2A&gt; &lt;xref:System.Messaging.Message&gt;.&lt;/xref:System.Messaging.Message&gt; tulajdonsága&lt;/xref:System.Messaging.Message.Body%2A&gt; az állapotüzenet-adatokat&lt;/xref:System.Messaging.MessageQueue&gt; olvas</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BinaryMessageFormatter provides faster throughput than the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">BinaryMessageFormatter biztosít, mint a &lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; gyorsabb átviteli</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the BinaryMessageFormatter when pure speed rather than loosely coupled messaging is desired.</source>
+          <target state="translated">A BinaryMessageFormatter használja, ha tiszta sebesség helyett lazán üzenetkezelés van szükség.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class without specifying a type style or top object assembly style.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály egy típus stílus vagy legfelső szintű objektumának szerelvény megadása nélkül.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify values for the &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; property (which defines how the root object in a graph is laid out) and the &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; property (which defines how object type descriptions are laid out) before using an instance of the &lt;xref:System.Messaging.BinaryMessageFormatter&gt; class to serialize and send a message.</source>
+          <target state="translated">Az értéket meg kell adni a &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;tulajdonság (amely meghatározza, hogyan jelenjen meg a gyökérszintű objektum egy grafikonon) és a &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;(amely meghatározza, hogyan vannak leírva objektum típusának leírása) tulajdonság példányának használata előtt a &lt;xref:System.Messaging.BinaryMessageFormatter&gt;osztályt szerializálni elküldeni egy üzenetet.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying the formats of the root object and the type descriptions.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a gyökérszintű objektum és a leírások formátumok megadása.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines how the top (root) object of a graph is laid out in the serialized stream.</source>
+          <target state="translated">Meghatározza, hogyan egy gráf legfelső (gyökér) objektum jelenjen meg a szerializált adatfolyamban.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Determines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">Meghatározza, hogyan leírások elrendezésének a szerializált adatfolyamban.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the contents of the message.</source>
+          <target state="translated">Meghatározza, hogy a formázó is deszerializálni az üzenet tartalmát.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CanRead returns <ph id="ph1">`false`</ph> if the message body is not a binary object.</source>
+          <target state="translated">CanRead adja vissza <ph id="ph1">`false`</ph> Ha az üzenet törzse nem egy bináris objektum.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the receiving computer, CanRead returns <ph id="ph1">`true`</ph> if the assembly for the class to be deserialized exists locally.</source>
+          <target state="translated">A fogadó számítógép CanRead adja vissza <ph id="ph1">`true`</ph> Ha deszerializálását az osztály a szerelvény létezik helyileg.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The assembly must be found in the global assembly cache, or be linked to the application (for example, if the object represents a custom class).</source>
+          <target state="translated">A szerelvény a globális szerelvény-gyorsítótárban található, vagy lehet a kapcsolódó (például, ha az objektum által jelképezett egyéni osztály).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vizsgálata.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the binary message formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a bináris üzenetformázó tudja deszerializálni az üzenet; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the root object and type description formats) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Létrehoz egy példányát a <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amelynek olvasási/írási (a legfelső szintű objektum és a Típus Leírás formátumot) tulajdonságok megegyeznek az aktuális <bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.BinaryMessageFormatter&gt;.</source>
+          <target state="translated">Ez a módszer formázó másolatát hozza létre, és inicializálja az összes tulajdonságát a &lt;xref:System.Messaging.BinaryMessageFormatter&gt;.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt; értékeivel</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used for scalability, but does not guarantee read or write thread safety.</source>
+          <target state="translated">Méretezhetőségi, a rendszer, de nem garantálja az olvasási vagy írási szál biztonsági.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">Az objektum, amelynek a Tulajdonságok megegyeznek az e <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, amelynek metaadatok nem határoz meg, hogy egy formatter osztálypéldányt kell.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">A tartalom beolvassa az adott üzenethez, és létrehoz egy objektumot, amely tartalmazza a deszerializált üzenet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Nem megbízható adatokkal a metódus hívása biztonsági kockázatot jelent.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Ez a metódus csak a megbízható meghívható.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>nem megbízható adatok biztonsági kockázatok<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The body of the message must be in binary format, and the same serializer must be used to deserialize the message as that which initially serialized it.</source>
+          <target state="translated">Az üzenet törzsét bináris formátumúnak kell lennie, és ugyanazt a szerializáló deszerializálni az üzenetet, amelyet eredetileg szerializálni kell használni.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the body represents a custom class, the assembly for that class must exist locally.</source>
+          <target state="translated">Ha a szervezet egy egyéni osztály, amely a szerelvény helyileg léteznie kell.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in binary format, to deserialize.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, bináris formátumú deszerializálása.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">A deszerializált üzenet.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The message's &lt;xref:System.Messaging.Message.BodyType*&gt; property does not indicate a binary object.</source>
+          <target state="translated">Az üzenet &lt;xref:System.Messaging.Message.BodyType*&gt;tulajdonság nem jelzi azt egy bináris objektum.&lt;/xref:System.Messaging.Message.BodyType*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how the top (root) object of a graph is deserialized with regards to finding and loading its assembly.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely meghatározza, hogyan egy gráf legfelső (gyökér) objektum keresése és a szerelvény betöltése jelenítik deszerializálni-e.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, you should accept the default value, <ph id="ph1">`AssemblyStyle`</ph>.</source>
+          <target state="translated">Jelenleg, el kell fogadnia az alapértelmezett érték <ph id="ph1">`AssemblyStyle`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that defines the deserialization behavior.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> deszerializálása viselkedését meghatározó értékek.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely meghatározza, hogyan leírások elrendezésének a szerializált adatfolyamban.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, you should accept the default value, <ph id="ph1">`TypesWhenNeeded`</ph>.</source>
+          <target state="translated">Jelenleg, el kell fogadnia az alapértelmezett érték <ph id="ph1">`TypesWhenNeeded`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type description format.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza, hogy a típusformátum leírása.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">Rendezi sorba az objektum az az üzenet törzsét.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The top object format and type format need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">A legfelső szintű objektum formázása és a típusformátum nem lehet írni a várólista, fel kell olvasásakor kell megadni.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; and &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; properties are used by the formatter only when deserializing a message.</source>
+          <target state="translated">A &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;és &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;Tulajdonságok által használt formázó csak akkor, ha egy üzenet deszerializálása.&lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter&gt; can serialize most objects, but the result is not loosely coupled.</source>
+          <target state="translated">A &lt;xref:System.Messaging.BinaryMessageFormatter&gt;lehet szerializálni a legtöbb objektumot, de az eredmény nem lazán.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it is compact, so the formatter is efficient for large objects.</source>
+          <target state="translated">Célszerű kompakt, így a formázó hatékony nagy objektumok.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amelynek &lt;xref:System.Messaging.Message.Body*&gt;tulajdonság a szerializált objektum fogja tartalmazni.&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The object to be serialized into the message body.</source>
+          <target state="translated">Az üzenetbe szerializálandó objektum.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

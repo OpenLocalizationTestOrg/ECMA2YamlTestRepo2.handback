@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d5167e5066cf1c58cc13e1a47eccfa61370d3dd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.TimerEventSubscriptionCollection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20b75fe5e7d505c7e8fb923e6be2ddbb5f24a688</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83929ea5f2272a8478c8e751ecbf576a355a6a5e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an ordered list of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">代表已排序的清單的<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A TimerEventSubscriptionCollection represents the queue of &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; objects associated with a workflow instance and provides methods to manage this queue.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>TimerEventSubscriptionCollection 代表的佇列&lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;與工作流程相關聯的物件執行個體，並提供方法來管理此佇列。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Subscriptions are ordered in the queue based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values; those with smaller &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values are positioned before those with larger &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; values.</source>
+          <target state="translated">訂用帳戶為基礎的佇列中排序其&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;值，而具有較小&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;之前位於值較大&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;值。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use the methods provided by this class to manage the collection of active timer event subscriptions exposed by &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt; for each workflow instance.</source>
+          <target state="translated">您可以使用這個類別所提供的方法來管理所公開的使用中計時器事件訂閱集合&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt;每個工作流程執行個體。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.TimerCollectionProperty&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt; or &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt; to add or remove subscriptions from the timer queue.</source>
+          <target state="translated">您可以使用&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt;或&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt;新增或移除從計時器佇列的訂用帳戶。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%2A&gt; &lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Whenever the first element in the timer queue changes, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt; is called to cancel the timer event that was previously at the beginning of the queue and schedule the new timer event.</source>
+          <target state="translated">每當計時器佇列中的第一個項目變更時，&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt;呼叫以取消之前位於佇列開頭的計時器事件和排程新的計時器事件。&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the timer queue.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至計時器佇列。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Adds the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; to the timer queue.</source>
+          <target state="translated">新增&lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;至計時器佇列。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">在佇列中的訂閱會放置根據其&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;值; 值較小會放置在值較大的前面。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the new subscription is added at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event that was previously at the beginning of the queue and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule the new timer event.</source>
+          <target state="translated">如果佇列的開頭加入新的訂用帳戶&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;呼叫以取消之前位於佇列開頭的計時器事件和&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;呼叫以排定新的計時器事件。&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Add locks the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; before adding the new subscription and is, therefore, thread safe.</source>
+          <target state="translated">新增鎖定&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;之前加入新的訂用帳戶，因此具備執行緒安全。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the timer queue.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>新增至計時器佇列。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph>為 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Copies the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> elements to an existing one-dimensional &lt;xref:System.Array&gt;, starting at the specified array index.</source>
+          <target state="translated">複製<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>項目至現有一維&lt;xref:System.Array&gt;、 指定的陣列索引處開始。&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CopyTo is thread safe.</source>
+          <target state="translated">CopyTo 具備執行緒安全。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The one-dimensional &lt;xref:System.Array&gt; that is the destination of the elements copied from the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一維&lt;xref:System.Array&gt;也就是從複製之元素的目的地<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; must have zero-based indexing.</source>
+          <target state="translated">&lt;xref:System.Array&gt;必須有以零為起始的索引。&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The zero-based index in <ph id="ph1">`array`</ph> at which copying begins.</source>
+          <target state="translated">中以零為起始的索引<ph id="ph1">`array`</ph>由此開始複製。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the number of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the timer queue.</source>
+          <target state="translated">取得數目<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>計時器佇列中的物件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The number of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the queue.</source>
+          <target state="translated">數目<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>佇列中的物件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回逐一查看的列舉值<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">若要存取&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;同步處理; 不過，列舉集合在本質上並非安全執行緒的程序。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An enumerator remains valid as long as the collection remains unchanged.</source>
+          <target state="translated">只要集合維持不變，列舉程式就持續有效。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and its behavior is undefined.</source>
+          <target state="translated">如果對集合進行變更，例如加入、 修改或刪除元素，列舉程式會永久失效，且其行為未定義。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The enumerator does not have exclusive access to the collection; therefore, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">列舉程式沒有集合的獨佔存取因此，列舉集合在本質上並非安全執行緒的程序。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To guarantee thread safety during enumeration, you can lock the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; during the entire enumeration by using &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;.</source>
+          <target state="translated">若要保證列舉過程的執行緒安全，您可以&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;使用&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;在整個列舉期間&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;鎖定</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">An &lt;xref:System.Collections.IEnumerator&gt; for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is synchronized (thread safe).</source>
+          <target state="translated">取得值，指出是否要存取<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是同步 （安全執行緒）。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">若要存取&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;同步處理; 不過，列舉集合在本質上並非安全執行緒的程序。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception.</source>
+          <target state="translated">即使集合經過同步化，其他的執行緒仍可修改該集合，使列舉值擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</source>
+          <target state="translated">若要保證列舉過程的執行緒安全，您可以在整個列舉過程中鎖定集合，或攔截由其他執行緒的變更所造成的例外狀況。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt; returns an object, which can be used to synchronize access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;傳回的物件，可用來同步處理存取具備&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.SyncRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating that access to the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is synchronized (thread safe).</source>
+          <target state="translated">一律傳回<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指出存取<bpt id="p2">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是同步 （安全執行緒）。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of the timer queue without removing it.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>計時器佇列，而不移除它的開頭。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Peek is thread safe.</source>
+          <target state="translated">查看具備執行緒安全。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of the timer queue or a null reference (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in Visual Basic) if the timer queue is empty.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>開頭的計時器佇列則為 null 參考 (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>在 Visual Basic 中) 如果計時器佇列是空的。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Removes the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that has the specified subscription id from the timer queue.</source>
+          <target state="translated">移除<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定的訂閱識別碼，從計時器佇列。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Removes the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; with the specified subscription id from the timer queue.</source>
+          <target state="translated">移除&lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;從計時器佇列指定的訂用帳戶識別碼。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">在佇列中的訂閱會放置根據其&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;值; 值較小會放置在值較大的前面。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the subscription removed was the subscription at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event associated with this subscription and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule a timer event for the subscription that is now at the beginning of the queue.</source>
+          <target state="translated">如果移除的訂閱已佇列的開頭訂閱&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;呼叫以取消此訂用帳戶相關聯的計時器事件和&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;呼叫以排定現在位於佇列開頭之訂閱的計時器事件。&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Remove is thread safe.</source>
+          <target state="translated">移除具備執行緒安全。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;的<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>移除。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Removes the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the timer queue.</source>
+          <target state="translated">移除<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從計時器佇列。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Removes the &lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt; from the timer queue.</source>
+          <target state="translated">移除&lt;xref:System.Workflow.Runtime.TimerEventSubscription&gt;從計時器佇列。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Subscriptions in the queue are positioned based on their &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt; values; those with smaller values are positioned in front of those with larger values.</source>
+          <target state="translated">在佇列中的訂閱會放置根據其&lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;值; 值較小會放置在值較大的前面。&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the subscription removed was the subscription at the beginning of the queue, &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt; is called to cancel the timer event associated with this subscription and &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; is called to schedule a timer event for the subscription that is now at the beginning of the queue.</source>
+          <target state="translated">如果移除的訂閱已佇列的開頭訂閱&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;呼叫以取消此訂用帳戶相關聯的計時器事件和&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt;呼叫以排定現在位於佇列開頭之訂閱的計時器事件。&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Schedule%28System.Threading.WaitCallback%2CSystem.Guid%2CSystem.DateTime%2CSystem.Guid%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService.Cancel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt; is thread safe.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt;具備執行緒安全。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection.Remove%28System.Guid%29&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the timer queue.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>從計時器佇列中移除。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph>為 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得物件，可用來同步處理存取具備<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>SyncRoot returns an object, which can be used to synchronize access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.</source>
+          <target state="translated">Syncroot 同步則傳回的物件，可用來同步處理存取具備&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;.&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Access to the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; is synchronized; however, enumerating through a collection is intrinsically not a thread safe procedure.</source>
+          <target state="translated">若要存取&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;同步處理; 不過，列舉集合在本質上並非安全執行緒的程序。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception.</source>
+          <target state="translated">即使集合經過同步化，其他的執行緒仍可修改該集合，使列舉值擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To guarantee thread safety during enumeration, you can either lock the &lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt; during the entire enumeration by using SyncRoot or catch the exceptions resulting from changes made by other threads.</source>
+          <target state="translated">若要保證列舉過程的執行緒安全，您可以鎖定&lt;xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;使用 syncroot 同步或攔截由其他執行緒的變更所造成的例外狀況在整個列舉過程。&lt;/xref:System.Workflow.Runtime.TimerEventSubscriptionCollection&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An object used to synchronize access to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">用來同步存取的物件<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Timer queue associated with a workflow instance.</source>
+          <target state="translated">工作流程執行個體相關聯的計時器佇列。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This queue contains time ordered <bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for a workflow.</source>
+          <target state="translated">此佇列包含依時間排序<bpt id="p1">&lt;xref href="System.Workflow.Runtime.TimerEventSubscription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>工作流程的物件。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

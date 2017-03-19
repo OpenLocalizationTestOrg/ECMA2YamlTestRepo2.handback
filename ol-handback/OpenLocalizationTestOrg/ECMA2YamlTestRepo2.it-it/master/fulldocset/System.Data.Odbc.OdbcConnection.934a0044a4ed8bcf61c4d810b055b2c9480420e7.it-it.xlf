@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c13677414398dac8311553105e2eca31ca499fe7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2030db1812feafe0d89f1c482894cf81cb344123</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b468f1c84ba2d8d111c799c7ea53ce4bf1f8d344</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source.</source>
+          <target state="translated">Rappresenta una connessione aperta a un'origine dati.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An OdbcConnection object represents a unique connection to a data source created by using a connection string or ODBC data source name (DSN).</source>
+          <target state="translated">Un oggetto OdbcConnection rappresenta una connessione univoca a un'origine dati creata utilizzando una stringa di connessione o il nome di origine dati ODBC (DSN).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With a client/server database system, it is equivalent to a network connection to the server.</source>
+          <target state="translated">Con un sistema di database client/server, è equivalente a una connessione di rete al server.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the functionality supported by the native ODBC driver, some methods or properties of an OdbcConnection object may not be available.</source>
+          <target state="translated">A seconda delle funzionalità supportate dal driver ODBC native, alcuni metodi o proprietà di un oggetto OdbcConnection potrebbe non essere disponibili.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OdbcConnection object uses native resources such as ODBC environment and connection handles.</source>
+          <target state="translated">L'oggetto OdbcConnection utilizza le risorse native, ad esempio gli handle di connessione e dell'ambiente ODBC.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should always explicitly close any open OdbcConnection objects by calling &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> before the OdbcConnection object goes out of scope, or by placing the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">È necessario chiudere sempre in modo esplicito qualsiasi oggetto OdbcConnection aperto chiamando &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;o <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> prima OdbcConnection oggetto esce dall'ambito o inserendo la connessione all'interno di un <ph id="ph1">`Using`</ph> istruzione.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not doing this leaves the freeing of these native resources to garbage collection.</source>
+          <target state="translated">Ciò non lascia la liberazione di tali risorse native a garbage collection.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It might not free them immediately.</source>
+          <target state="translated">La liberazione potrebbe non essere immediatamente.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This, in turn, can eventually cause the underlying driver to run out of resources or reach a maximum limit.</source>
+          <target state="translated">Questa operazione, a sua volta, può infine che il driver sottostante esaurimento delle risorse o raggiungere un limite massimo.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This has resulted in intermittent failures.</source>
+          <target state="translated">Questo ha comportato errori intermittenti.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might experience <ph id="ph1">`Maximum Connections`</ph> -related errors while many connections are waiting to be deleted by the garbage collector.</source>
+          <target state="translated">Ad esempio, potrebbero verificarsi <ph id="ph1">`Maximum Connections`</ph> -errori correlati, mentre un numero di connessioni in attesa di essere eliminato dal garbage collector.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Explicitly closing the connections allows for a more efficient use of native resources, enhancing scalability and improving overall application performance.</source>
+          <target state="translated">In modo esplicito la chiusura delle connessioni consente un utilizzo più efficiente delle risorse native, aumento della scalabilità e migliorando le prestazioni complessive dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To deploy high-performance applications, you frequently must use connection pooling.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Per distribuire applicazioni ad alte prestazioni, è spesso necessario usare il pool di connessioni.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when you use the .NET Framework Data Provider for ODBC, you do not have to enable connection pooling because the provider manages this automatically.</source>
+          <target state="translated">Tuttavia, quando si utilizza il Provider di dati .NET Framework per ODBC, non è necessario abilitare il pool di connessioni perché il provider gestito automaticamente.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If one of the <ph id="ph1">`Execute`</ph> methods of the &lt;xref:System.Data.Odbc.OdbcCommand&gt; class causes a fatal &lt;xref:System.Data.Odbc.OdbcException&gt; (for example, a SQL Server severity level of 20 or greater), the OdbcConnection may close.</source>
+          <target state="translated">Se uno del <ph id="ph1">`Execute`</ph> metodi la &lt;xref:System.Data.Odbc.OdbcCommand&gt;classe causa un errore irreversibile &lt;xref:System.Data.Odbc.OdbcException&gt;(ad esempio, SQL Server livello di gravità pari a 20 o superiore), è possibile chiudere OdbcConnection.&lt;/xref:System.Data.Odbc.OdbcException&gt; &lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">L'utente può tuttavia riaprire la connessione e continuare.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application that creates an instance of the OdbcConnection object can require all direct and indirect callers to have sufficient permission to the code by setting declarative or imperative security demands.</source>
+          <target state="translated">Un'applicazione che crea un'istanza dell'oggetto OdbcConnection può richiedere a tutti i chiamanti diretti e indiretti disporre di autorizzazioni sufficienti per il codice dalle richieste di sicurezza dichiarativo o imperativo di impostazione.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OdbcConnection creates security demands by using the &lt;xref:System.Data.Odbc.OdbcPermission&gt; object.</source>
+          <target state="translated">OdbcConnection crea richieste di sicurezza utilizzando il &lt;xref:System.Data.Odbc.OdbcPermission&gt;oggetto.&lt;/xref:System.Data.Odbc.OdbcPermission&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users can verify that their code has sufficient permissions by using the &lt;xref:System.Data.Odbc.OdbcPermissionAttribute&gt; object.</source>
+          <target state="translated">Gli utenti possono verificare che il codice disponga di autorizzazioni sufficienti mediante il &lt;xref:System.Data.Odbc.OdbcPermissionAttribute&gt;oggetto.&lt;/xref:System.Data.Odbc.OdbcPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users and administrators can also use the Code Access Security Policy Tool (Caspol.exe) to modify security policy at the computer, user, and enterprise levels.</source>
+          <target state="translated">Utenti e amministratori possono inoltre utilizzare lo strumento Criteri di sicurezza dall'accesso di codice (Caspol.exe) per modificare i criteri di sicurezza a livello aziendale, computer e utente.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>sicurezza dall'accesso di codice e ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling warning and informational messages from the data source, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla gestione dei messaggi di avviso e informativi dall'origine dati, vedere <bpt id="p1">[</bpt>gli eventi di connessione<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.Odbc.OdbcConnection&gt; is created, the write-only and read-only properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Quando una nuova istanza della &lt;xref:System.Data.Odbc.OdbcConnection&gt;viene creata, la sola scrittura e lettura proprietà vengono impostate sui valori iniziali di seguito, a meno che non siano impostate in modo specifico mediante le parole chiave associate nel &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;proprietà.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;|empty string ("")|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Proprietà | Il valore iniziale |   |----------------|-------------------|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;| una stringa vuota ("") |   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|&amp;15; |   | &lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;| una stringa vuota ("") |       È possibile modificare il valore per queste proprietà solo se si utilizza il &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;proprietà.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Database%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified connection string.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe con la stringa di connessione specificata.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.Odbc.OdbcConnection&gt; is created, the write-only and read-only properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Quando una nuova istanza della &lt;xref:System.Data.Odbc.OdbcConnection&gt;viene creata, la sola scrittura e lettura proprietà vengono impostate sui valori iniziali di seguito, a meno che non siano impostate in modo specifico mediante le parole chiave associate nel &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;proprietà.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Proprietà | Il valore iniziale |   |----------------|-------------------|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;| <ph id="ph1">`connectionString`</ph>|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|&amp;15; |   | &lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;| una stringa vuota ("") |       È possibile modificare il valore per queste proprietà solo se si utilizza il &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;proprietà.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Database%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The connection used to open the data source.</source>
+          <target state="translated">La connessione utilizzata per aprire l'origine dati.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Starts a transaction at the data source.</source>
+          <target state="translated">Avvia una transazione all'origine dati.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To commit or roll back the transaction, you must explicitly use the &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt; or &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">Per eseguire il commit o il rollback della transazione, è necessario utilizzare in modo esplicito il &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;o &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt;metodi.&lt;/xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; &lt;/xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for ODBC transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Per assicurarsi che venga eseguito correttamente il Provider di dati .NET Framework per il modello di gestione delle transazioni ODBC, evitare di utilizzare altri modelli di gestione delle transazioni, ad esempio quelli forniti dall'origine dati.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you do not specify an isolation level, the isolation level will be determined by the driver being used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se non si specifica un livello di isolamento, il livello di isolamento dipenderanno dal driver in uso.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an isolation level with the BeginTransaction method, use the overload that takes the <ph id="ph1">`isolevel`</ph> parameter.</source>
+          <target state="translated">Per specificare un livello di isolamento con il metodo BeginTransaction, utilizzare l'overload che accetta il <ph id="ph1">`isolevel`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Oggetto che rappresenta la nuova transazione.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A transaction is currently active.</source>
+          <target state="translated">Una transazione è attiva.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">Le transazioni parallele non sono supportate.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Starts a transaction at the data source with the specified <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Avvia una transazione all'origine dati con l'oggetto specificato <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valore.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To commit or roll back the transaction, you must explicitly use the &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt; or &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">Per eseguire il commit o il rollback della transazione, è necessario utilizzare in modo esplicito il &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;o &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt;metodi.&lt;/xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; &lt;/xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for ODBC transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Per assicurarsi che venga eseguito correttamente il Provider di dati .NET Framework per il modello di gestione delle transazioni ODBC, evitare di utilizzare altri modelli di gestione delle transazioni, ad esempio quelli forniti dall'origine dati.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The transaction isolation level for this connection.</source>
+          <target state="translated">Il livello di isolamento della transazione per questa connessione.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you do not specify an isolation level, the default isolation level for the driver is used.</source>
+          <target state="translated">Se non si specifica un livello di isolamento, viene utilizzato il livello di isolamento predefinito per il driver.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Oggetto che rappresenta la nuova transazione.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A transaction is currently active.</source>
+          <target state="translated">Una transazione è attiva.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">Le transazioni parallele non sono supportate.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Changes the current database associated with an open <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Modifica il database corrente associato a un oggetto aperto <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter must contain a valid database name, and cannot contain a null value, an empty string (""), or a string with only blank characters.</source>
+          <target state="translated">Il <ph id="ph1">`value`</ph> parametro deve contenere un nome di database valido e non può contenere un valore null, una stringa vuota (""), o una stringa contenente solo caratteri vuoti.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The database name.</source>
+          <target state="translated">Nome del database.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The database name is not valid.</source>
+          <target state="translated">Il nome del database non è valido.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The connection is not open.</source>
+          <target state="translated">La connessione non è aperta.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Cannot change the database.</source>
+          <target state="translated">Non è possibile modificare il database.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the data source.</source>
+          <target state="translated">Chiude la connessione all'origine dati.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">Il metodo Close esegue il rollback di tutte le transazioni in sospeso.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">È quindi rilascia la connessione al pool di connessioni o chiude la connessione se il pool di connessioni è disabilitato.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Close is called while handling a &lt;xref:System.Data.Common.DbConnection.StateChange&gt; event, no additional &lt;xref:System.Data.Common.DbConnection.StateChange&gt; events are fired.</source>
+          <target state="translated">Se Chiudi viene chiamato durante la gestione un &lt;xref:System.Data.Common.DbConnection.StateChange&gt;evento, alcuna ulteriore &lt;xref:System.Data.Common.DbConnection.StateChange&gt;gli eventi vengono attivati.&lt;/xref:System.Data.Common.DbConnection.StateChange&gt; &lt;/xref:System.Data.Common.DbConnection.StateChange&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can call Close more than one time without generating an exception.</source>
+          <target state="translated">Un'applicazione può chiamare Close più volte senza generare un'eccezione.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you use the .NET Framework Data Provider for ODBC, you do not have to enable connection pooling because the ODBC Driver Manager manages this automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Quando si utilizza il Provider di dati .NET Framework per ODBC, non è necessario abilitare il pool di connessioni perché questa operazione è gestita automaticamente da Gestione Driver ODBC.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to enable and disabling connection pooling, see the Microsoft Open Database Connectivity (ODBC) documentation.</source>
+          <target state="translated">Per ulteriori informazioni su come abilitare e disabilitare il pool di connessioni, vedere la documentazione di Microsoft Open Database Connectivity (ODBC).</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call Close or <ph id="ph2">`Dispose`</ph> on a Connection, a DataReader, or any other managed object in the <ph id="ph3">`Finalize`</ph> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Non chiamare Close o <ph id="ph2">`Dispose`</ph> su una connessione, un DataReader o qualsiasi altro oggetto gestito di <ph id="ph3">`Finalize`</ph> metodo della classe.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">In un finalizzatore, è necessario rilasciare solo le risorse non gestite che la classe controlla direttamente.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">Se la classe non dispone di risorse non gestite, non includere un <ph id="ph1">`Finalize`</ph> metodo nella definizione della classe.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a data source.</source>
+          <target state="translated">Ottiene o imposta la stringa utilizzata per aprire un'origine dati.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The ODBC driver connection string that includes settings, such as the data source name, needed to establish the initial connection.</source>
+          <target state="translated">La stringa di connessione del driver ODBC che include le impostazioni, ad esempio il nome dell'origine dati, necessari per stabilire la connessione iniziale.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("").</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The maximum length is 1024 characters.</source>
+          <target state="translated">La lunghezza massima è di 1024 caratteri.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">Ottiene o imposta il tempo di attesa durante il tentativo di stabilire una connessione prima di terminare il tentativo e generare un errore.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the .NET Framework data providers for SQL Server and OLE DB, the .NET Framework Data Provider for ODBC does not support setting this property as a connection string value, because it is not a valid ODBC connection keyword.</source>
+          <target state="translated">A differenza dei provider di dati .NET Framework per SQL Server e OLE DB, il Provider di dati .NET Framework per ODBC non supporta l'impostazione di questa proprietà come valore di stringa di connessione, perché non è una parola chiave di connessione ODBC valida.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a connection time-out, set the ConnectionTimeout property before calling &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;.</source>
+          <target state="translated">Per specificare un timeout di connessione, impostare la proprietà ConnectionTimeout prima di chiamare &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is equivalent to setting the ODBC <ph id="ph1">`SQLSetConnectAttr`</ph> SQL_ATTR_LOGIN_TIMOUT attribute.</source>
+          <target state="translated">Ciò equivale all'impostazione ODBC <ph id="ph1">`SQLSetConnectAttr`</ph> attributo SQL_ATTR_LOGIN_TIMOUT.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The time in seconds to wait for a connection to open.</source>
+          <target state="translated">Tempo in secondi di attesa per una connessione per aprirla.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">Il valore predefinito è 15 secondi.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">Il valore impostato è minore di 0.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates and returns an <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Crea e restituisce un <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto associato di <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">Ottiene il nome del database corrente o del database da utilizzare dopo l'apertura di una connessione.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At first, the Database property is set in the connection string.</source>
+          <target state="translated">Inizialmente, la proprietà di Database è impostata nella stringa di connessione.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Database property can be updated by using the &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt; method.</source>
+          <target state="translated">La proprietà del Database può essere aggiornata utilizzando il &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;metodo.&lt;/xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you change the current database using an SQL statement or the &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt; method, an informational message is sent and then the property is updated.</source>
+          <target state="translated">Se si modifica il database corrente utilizzando un'istruzione SQL o &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;(metodo), viene inviato un messaggio informativo e quindi la proprietà viene aggiornata.&lt;/xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the Database property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`Attribute`</ph> parameter set to SQL_ATTR_CURRENT_CATALOG.</source>
+          <target state="translated">Il recupero della proprietà di Database equivale a chiamare la funzione ODBC <ph id="ph1">`SQLGetInfo`</ph> con il <ph id="ph2">`Attribute`</ph> parametro impostato su SQL_ATTR_CURRENT_CATALOG.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The name of the current database.</source>
+          <target state="translated">Il nome del database corrente.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("") fino a quando non viene aperta la connessione.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets the server name or file name of the data source.</source>
+          <target state="translated">Ottiene il nome del server o il nome file dell'origine dati.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the DataSource property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`InfoType`</ph> parameter set to SQL_SERVER_NAME.</source>
+          <target state="translated">Il recupero della proprietà DataSource equivale a chiamare la funzione ODBC <ph id="ph1">`SQLGetInfo`</ph> con il <ph id="ph2">`InfoType`</ph> parametro impostato su SQL_SERVER_NAME.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The server name or file name of the data source.</source>
+          <target state="translated">Il nome del server o il nome del file dell'origine dati.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("") fino a quando non viene aperta la connessione.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the name of the ODBC driver specified for the current connection.</source>
+          <target state="translated">Ottiene il nome del driver ODBC specificato per la connessione corrente.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the Driver property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`InfoType`</ph> parameter set to SQL_DRIVER_NAME.</source>
+          <target state="translated">Il recupero della proprietà del Driver equivale a chiamare la funzione ODBC <ph id="ph1">`SQLGetInfo`</ph> con il <ph id="ph2">`InfoType`</ph> parametro impostato su SQL_DRIVER_NAME.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The name of the ODBC driver.</source>
+          <target state="translated">Il nome del driver ODBC.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This typically is the DLL name (for example, Sqlsrv32.dll).</source>
+          <target state="translated">Si tratta in genere il nome della DLL (ad esempio, Sqlsrv32.dll).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("") fino a quando non viene aperta la connessione.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Permette l'integrazione nella transazione specificata come transazione distribuita.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Novità in ADO.NET 2.0 è il supporto per l'utilizzo di &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metodo di integrazione in una transazione distribuita.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> for this purpose.</source>
+          <target state="translated">Poiché inserisce una connessione in un &lt;xref:System.Transactions.Transaction&gt;istanza, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> consente di sfruttare le funzionalità disponibili nel &lt;xref:System.Transactions&gt;dello spazio dei nomi per la gestione transazioni distribuite, rendendola preferibile <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> a questo scopo.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>transazioni distribuite<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can continue to enlist in an existing distributed transaction using the &lt;xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt; method if auto-enlistment is disabled.</source>
+          <target state="translated">È possibile continuare a eseguire l'inserimento di una transazione distribuita esistente usando il &lt;xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt;metodo se l'inserimento automatico è disabilitato.&lt;/xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.</source>
+          <target state="translated">L'integrazione in una transazione distribuita esistente assicura che, se è stato eseguito il commit o il rollback della transazione, le modifiche apportate dal codice all'origine dati sono inoltre eseguito il commit o il rollback.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulle transazioni distribuite, vedere <bpt id="p1">[</bpt>transazioni distribuite<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EnlistDistributedTransaction returns an exception if the &lt;xref:System.Data.OdbcClient.OdbcConnection&gt; has already started a transaction using &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">EnlistDistributedTransaction restituisce un'eccezione se &lt;xref:System.Data.OdbcClient.OdbcConnection&gt;è già avviato una transazione utilizzando &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt; &lt;/xref:System.Data.OdbcClient.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an &lt;xref:System.Data.OdbcClient.OdbcCommand&gt; object), EnlistDistributedTransaction rolls back the local transaction and enlists in the existing distributed transaction as requested.</source>
+          <target state="translated">Tuttavia, se la transazione è una transazione locale avviata nell'origine dati (ad esempio eseguendo in modo esplicito l'istruzione BEGIN TRANSACTION tramite un &lt;xref:System.Data.OdbcClient.OdbcCommand&gt;oggetto), EnlistDistributedTransaction esegue il rollback della transazione locale e permette l'integrazione nella transazione distribuita esistente come richiesto.&lt;/xref:System.Data.OdbcClient.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Non verrà notificato che è stato eseguito il rollback della transazione locale e responsabile della gestione delle transazioni locali non avviate tramite &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Un riferimento a un oggetto esistente <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in cui si desidera integrare.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Permette l'integrazione nella transazione specificata come transazione distribuita.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Novità in ADO.NET 2.0 è il supporto per l'utilizzo di &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metodo di integrazione in una transazione distribuita.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, which uses a <bpt id="p3">**</bpt>System.EnterpriseServices.ITransaction<ept id="p3">**</ept> object.</source>
+          <target state="translated">Poiché inserisce una connessione in un &lt;xref:System.Transactions.Transaction&gt;istanza, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> consente di sfruttare le funzionalità disponibili nel &lt;xref:System.Transactions&gt;dello spazio dei nomi per la gestione transazioni distribuite, rendendola preferibile <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, che utilizza un <bpt id="p3">**</bpt>System.EnterpriseServices.ITransaction<ept id="p3">**</ept> oggetto.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also has slightly different semantics: once a connection is explicitly enlisted on a transaction, it cannot be unenlisted or enlisted in another transaction until the first transaction finishes.</source>
+          <target state="translated">Include inoltre una semantica leggermente diversa: quando una connessione in modo esplicito è integrata in una transazione, non può essere rimosso o integrata in un'altra transazione fino al completamento della prima transazione.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulle transazioni distribuite, vedere <bpt id="p1">[</bpt>transazioni distribuite<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Un riferimento a un oggetto esistente <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in cui si desidera integrare.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Restituisce informazioni sullo schema per l'origine dati di questo <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene informazioni sullo schema.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified name for the schema name.</source>
+          <target state="translated">Restituisce informazioni sullo schema per l'origine dati di questo <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utilizzando il nome specificato per il nome dello schema.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is null, the &lt;xref:System.Data.DataTable&gt; contains information about all available metadata and any restrictions.</source>
+          <target state="translated">Quando <ph id="ph1">`collectionName`</ph> è null, il &lt;xref:System.Data.DataTable&gt;contiene informazioni su tutti i metadati disponibili e le eventuali restrizioni.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All restrictions that apply to the <ph id="ph2">`SQLStatistics`</ph> method also apply to the <ph id="ph3">`ODBCConnection.GetSchema("`</ph>indexes<ph id="ph4">`")`</ph> collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Tutte le restrizioni che si applicano al <ph id="ph2">`SQLStatistics`</ph> metodo si applicano anche al <ph id="ph3">`ODBCConnection.GetSchema("`</ph>indici<ph id="ph4">`")`</ph> insieme.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Specifica il nome dello schema da restituire.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene informazioni sullo schema.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name and the specified string array for the restriction values.</source>
+          <target state="translated">Restituisce informazioni sullo schema per l'origine dati di questo <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando la stringa specificata per il nome dello schema e la matrice di stringa specificata per i valori di restrizione.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; contains information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Quando <ph id="ph1">`collectionName`</ph> è specificato come null, il &lt;xref:System.Data.DataTable&gt;contiene informazioni su tutti i metadati che sono disponibili e le relative restrizioni.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`restrictionValues`</ph> parameter can supply <bpt id="p1">*</bpt>n<ept id="p1">*</ept> depth of values which are specified by the restrictions collection for a specific collection.</source>
+          <target state="translated">Il <ph id="ph1">`restrictionValues`</ph> parametro può fornire <bpt id="p1">*</bpt>n<ept id="p1">*</ept> profondità dei valori specificati dall'insieme di restrizioni per una raccolta specifica.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to set values on a given restriction, and not set the values of other restrictions, you must set the preceding restrictions to null and then put the appropriate value in for the restriction that you would like to specify a value for.</source>
+          <target state="translated">Per impostare i valori per una determinata restrizione e non impostare i valori di altre restrizioni, è necessario impostare le restrizioni precedenti su null e quindi immettere il valore appropriato per la restrizione che si desidera specificare un valore per.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of this is the "Tables" collection.</source>
+          <target state="translated">Un esempio di questa è la raccolta "Tabelle".</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the "Tables" collection has three restrictions (database, owner, and table name), and you want to get back only the tables associated with the owner "Carl," then you would need to pass in at least the following values: null, "Carl".</source>
+          <target state="translated">Se la raccolta "Tables" presenta tre restrizioni (database, proprietario e nome di tabella) e si desidera vengano restituite solo le tabelle associate al proprietario "Carlo", quindi è necessario passare almeno i seguenti valori: null, "Carlo".</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction value is not passed in, the default values are used for that restriction.</source>
+          <target state="translated">Se un valore di restrizione non viene passato, i valori predefiniti vengono utilizzati per la restrizione.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same mapping as passing in null, which is different from passing in an empty string for the parameter value.</source>
+          <target state="translated">Questo è lo stesso mapping passare null, che è diverso dal passaggio di una stringa vuota per il valore del parametro.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the empty string ("") is considered to be the value for the specified parameter.</source>
+          <target state="translated">In questo caso, la stringa vuota ("") viene considerato come valore per il parametro specificato.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All restrictions that apply to SQLStatistics method will apply to the ODBCConnection.GetSchema("indexes") collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Tutte le restrizioni che si applicano al metodo SQLStatistics verranno applicate alla raccolta valide.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Specifica il nome dello schema da restituire.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies a set of restriction values for the requested schema.</source>
+          <target state="translated">Specifica un set di valori di restrizione per lo schema richiesto.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene informazioni sullo schema.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Occurs when the ODBC driver sends a warning or an informational message.</source>
+          <target state="translated">Si verifica quando il driver ODBC invia un avviso o un messaggio informativo.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that want to process warnings or informational messages sent by the server should create an &lt;xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt; delegate to listen to this event.</source>
+          <target state="translated">I client che desidera elaborare avvisi o messaggi informativi inviati dal server è necessario creare un &lt;xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt;delegato per l'ascolto su questo evento.&lt;/xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Opens a connection to a data source with the property settings specified by the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt;.</source>
+          <target state="translated">Apre una connessione a un'origine dati con le impostazioni delle proprietà specificati da &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt;.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcConnection&gt; draws an open connection from the connection pool if one is available.</source>
+          <target state="translated">Il &lt;xref:System.Data.Odbc.OdbcConnection&gt;Disegna una connessione aperta dal pool di connessioni, se disponibile.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it establishes a new connection to the data source.</source>
+          <target state="translated">In caso contrario, stabilisce una nuova connessione all'origine dati.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Data.Odbc.OdbcConnection&gt; goes out of scope, the connection it represents does not close automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se il &lt;xref:System.Data.Odbc.OdbcConnection&gt;esce dall'ambito, la connessione rappresenta non viene chiusa automaticamente.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;, <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or by placing the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Pertanto, è necessario chiudere esplicitamente la connessione, chiamando &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;, <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, o inserendo la connessione all'interno di un <ph id="ph1">`Using`</ph> istruzione.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The functionality of this method is unsupported in the base class and must be implemented in a derived class instead.</source>
+          <target state="translated">La funzionalità di questo metodo non è supportata nella classe base e deve essere implementata in una classe derivata invece.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Indicates that the ODBC Driver Manager environment handle can be released when the last underlying connection is released.</source>
+          <target state="translated">Indica che l'handle dell'ambiente di gestione Driver ODBC può essere rilasciato quando viene rilasciato l'ultima connessione sottostante.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReleaseObjectPool`</ph> can be called to release the ODBC environment handle.</source>
+          <target state="translated"><ph id="ph1">`ReleaseObjectPool`</ph>può essere chiamato per rilasciare l'handle di ambiente ODBC.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might want to call this method if, for example, the connection object will not be used again.</source>
+          <target state="translated">Si potrebbe essere necessario chiamare questo metodo se, ad esempio, l'oggetto connessione non essere utilizzato nuovamente.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all connections in the environment are closed, the environment can be disposed.</source>
+          <target state="translated">Quando vengono chiuse tutte le connessioni nell'ambiente, l'ambiente può essere eliminato.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that calling the method alone does not actually release the active connections that exist in the environment.</source>
+          <target state="translated">Si noti che sola chiamata del metodo non consente di rilasciare le connessioni attive esistenti nell'ambiente.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following must occur before the environment is finally disposed:      1.</source>
+          <target state="translated">Le operazioni seguenti devono verificarsi prima che l'ambiente viene infine eliminato: 1.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; to release the &lt;xref:System.Data.Odbc.OdbcConnection&gt; object from the environment.</source>
+          <target state="translated">Chiamare &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;per rilasciare il &lt;xref:System.Data.Odbc.OdbcConnection&gt;oggetto dall'ambiente.&lt;/xref:System.Data.Odbc.OdbcConnection&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Allow each connection object to time out.</source>
+          <target state="translated">Consente di ogni oggetto connessione timeout.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call ReleaseObjectPool.</source>
+          <target state="translated">Chiamare il metodo ReleaseObjectPool.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoke garbage collection.</source>
+          <target state="translated">Richiamare l'operazione di garbage collection.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, if you call &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; on all active connections, and invoke garbage collection, but do not call ReleaseObjectPool, the resources reserved for the environment remain available.</source>
+          <target state="translated">Viceversa, se si chiama &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;su tutte le connessioni attive e richiamare l'operazione di garbage collection, ma non si chiama il metodo ReleaseObjectPool, le risorse riservate per l'ambiente rimangono disponibili.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After an environment handle is released, a request for a new &lt;xref:System.Data.Odbc.OdbcConnection&gt; creates a new environment.</source>
+          <target state="translated">Dopo il rilascio di un handle di ambiente, una richiesta per un nuovo &lt;xref:System.Data.Odbc.OdbcConnection&gt;Crea un nuovo ambiente.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the server to which the client is connected.</source>
+          <target state="translated">Ottiene una stringa che contiene la versione del server a cui è connesso il client.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ServerVersion is not supported by the underlying ODBC driver, an empty string ("") is returned.</source>
+          <target state="translated">Se ServerVersion non è supportata dal driver ODBC sottostante, una stringa vuota ("") viene restituito.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServerVersion property takes the form '<bpt id="p1">*</bpt>##.##.####<ept id="p1">*</ept>,' where the first two digits are the major version, the next two digits are the minor version, and the last four digits are the release version.</source>
+          <target state="translated">La proprietà ServerVersion assume il formato '<bpt id="p1">*</bpt># #. # #. # # #<ept id="p1">*</ept>,' in cui le prime due cifre indicano la versione principale, le due cifre successive sono la versione secondaria e le ultime quattro cifre rappresentano la versione di rilascio.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The driver must render the product version in this form but can also append the product-specific version as a string (for example, "04.01.0000 Rdb 4.1").</source>
+          <target state="translated">Il driver deve eseguire il rendering la versione del prodotto in questo modulo tuttavia anche possibile aggiungere la versione specifica del prodotto sotto forma di stringa (ad esempio, "04.01.0000 Rdb 4.1").</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This string takes the form '<bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>' where <bpt id="p2">*</bpt>major<ept id="p2">*</ept> and <bpt id="p3">*</bpt>minor<ept id="p3">*</ept> are exactly two digits and <bpt id="p4">*</bpt>build<ept id="p4">*</ept> is exactly four digits.</source>
+          <target state="translated">Questa stringa Usa il formato '<bpt id="p1">*</bpt>Major<ept id="p1">*</ept>' dove <bpt id="p2">*</bpt>principali<ept id="p2">*</ept> e <bpt id="p3">*</bpt>secondaria<ept id="p3">*</ept> sono esattamente due cifre e <bpt id="p4">*</bpt>compilare<ept id="p4">*</ept> esattamente quattro cifre.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The version of the connected server.</source>
+          <target state="translated">La versione del server connesso.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">La connessione viene chiusa.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">Ottiene lo stato corrente della connessione.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are allowed state changes:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt; method.</source>
+          <target state="translated">Le operazioni seguenti sono consentite le modifiche dello stato: - <ph id="ph1">`Closed`</ph> a <ph id="ph2">`Open`</ph>, usando il &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;(metodo).&lt;/xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> method.</source>
+          <target state="translated">-Da <ph id="ph1">`Open`</ph> a <ph id="ph2">`Closed`</ph>, utilizzando il &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;o <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> metodo.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Calling the State property on an open connection increases application overhead because each such call causes a SQL_ATTR_CONNECTION_DEAD call to the underlying ODBC driver to determine whether the connection is still valid.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Chiamando la proprietà State su una connessione aperta aumenta il sovraccarico dell'applicazione, poiché ogni chiamata di questo tipo comporta una chiamata SQL_ATTR_CONNECTION_DEAD al driver ODBC sottostante per determinare se la connessione è ancora valida.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Combinazione bit per bit di <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valori.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Closed" name="Closed" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_Closed" name="Closed" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Odbc.OdbcConnection&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Data.Odbc.OdbcConnection&gt;esegue il cast dell'istanza di un &lt;xref:System.ICloneable&gt;interfaccia.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">Un nuovo &lt;xref:System.Object&gt;che rappresenta una copia di questa istanza.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

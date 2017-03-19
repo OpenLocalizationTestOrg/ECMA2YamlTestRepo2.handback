@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ccaedab3f276b135f18f7a34012b83324d757dd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ICallbackEventHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b53c9e7f5301d20357215c3d147b344c0cccc4a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">002507fb8eb7493616b61840e3c3ad1080900681</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Used to indicate that a control can be the target of a callback event on the server.</source>
+          <target state="translated">コントロールが、サーバー上のコールバック イベントの対象にできることを示すために使用されます。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the ICallbackEventHandler interface for any custom control that needs to receive callback events.</source>
+          <target state="translated">コールバック イベントを受信する必要があるカスタム コントロールに対して ICallbackEventHandler インターフェイスを実装します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Implementing Client Callbacks Without Postbacks<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>ポストバックなしクライアント コールバックの実装<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Examples of controls that implement the ICallbackEventHandler interface include the &lt;xref:System.Web.UI.WebControls.GridView&gt;, &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.TreeView&gt; controls.</source>
+          <target state="translated">ICallbackEventHandler インターフェイスを実装するコントロールの例として、 &lt;xref:System.Web.UI.WebControls.GridView&gt;、 &lt;xref:System.Web.UI.WebControls.DetailsView&gt;、および&lt;xref:System.Web.UI.WebControls.TreeView&gt;コントロール&lt;/xref:System.Web.UI.WebControls.TreeView&gt;&lt;/xref:System.Web.UI.WebControls.DetailsView&gt;&lt;/xref:System.Web.UI.WebControls.GridView&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a callback event targets a control that implements the ICallbackEventHandler interface, the &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; method is called to handle the event, passing the event argument as a parameter and the &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; method returns the result of the callback.</source>
+          <target state="translated">コールバック イベント ICallbackEventHandler インターフェイスを実装するコントロールの対象の場合、&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;イベント引数をパラメーターとして渡すと共に、イベントを処理するメソッドが呼び出されたと&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;メソッドがコールバックの結果を返します&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;&lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Controls that retrieve data from a data source control during callback can do so synchronously or asynchronously.</source>
+          <target state="translated">同期または非同期では、コールバック中にデータ ソース コントロールからデータを取得するコントロールでこれを実行できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ASP.NET controls like &lt;xref:System.Web.UI.WebControls.GridView&gt;, &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.TreeView&gt; are implemented synchronously.</source>
+          <target state="translated">ASP.NET コントロールと同様に&lt;xref:System.Web.UI.WebControls.GridView&gt;、 &lt;xref:System.Web.UI.WebControls.DetailsView&gt;、および&lt;xref:System.Web.UI.WebControls.TreeView&gt;同期的に実装されます&lt;/xref:System.Web.UI.WebControls.TreeView&gt;&lt;/xref:System.Web.UI.WebControls.DetailsView&gt;&lt;/xref:System.Web.UI.WebControls.GridView&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Synchronous callbacks do not prevent the user from working in the browser.</source>
+          <target state="translated">同期コールバックは妨げませんユーザー ブラウザーで作業します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In synchronous mode, only one callback at a time can execute, with the last callback taking precedence.</source>
+          <target state="translated">同期モードで最後のコールバックが優先順位で、一度に&amp;1; つだけのコールバックは実行できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When a Web control is implemented to support asynchronous behavior, multiple callbacks can be raised simultaneously.</source>
+          <target state="translated">Web コントロールが非同期動作をサポートするために実装されている場合は、複数のコールバックを同時に発生することができます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For details on asynchronous programming, see <bpt id="p1">[</bpt>Event-based Asynchronous Pattern (EAP)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">非同期プログラミングの詳細については、「<bpt id="p1">[</bpt>イベント ベースの非同期パターン (EAP)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can specify whether callback events originating from the user interface rendered by a control implementing the ICallbackEventHandler interface are validated.</source>
+          <target state="translated">ICallbackEventHandler インターフェイスを実装するコントロールによって表示されるユーザー インターフェイスから送信されたコールバック イベントを検証するかどうかを指定することができます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Validation of events is a good security practice.</source>
+          <target state="translated">イベントの検証は、適切なセキュリティ プラクティスです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, for performance reasons you can disable it.</source>
+          <target state="translated">ただし、パフォーマンス上の理由は無効にできます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To control whether event validation is performed on callback events, set the <ph id="ph1">`enableEventValidation`</ph> attribute of the <bpt id="p1">[</bpt>@ Page<ept id="p1">](http://msdn.microsoft.com/en-us/f06cf9e5-22bb-461d-8b8f-549e53ff40a4)</ept> directive or the <ph id="ph2">`enableEventValidation`</ph> attribute of the <bpt id="p2">[</bpt>pages Element (ASP.NET Settings Schema)<ept id="p2">](http://msdn.microsoft.com/en-us/4123bb66-3fe4-4d62-b70e-33758656b458)</ept> of the Web.config file.</source>
+          <target state="translated">かどうかを制御するは、イベントの検証はコールバック イベントの実行、設定、<ph id="ph1">`enableEventValidation`</ph>の属性、 <bpt id="p1">[</bpt>@ Page<ept id="p1">](http://msdn.microsoft.com/en-us/f06cf9e5-22bb-461d-8b8f-549e53ff40a4)</ept>ディレクティブまたは<ph id="ph2">`enableEventValidation`</ph>の属性、<bpt id="p2">[</bpt>要素 (ASP.NET 設定スキーマ) のページ<ept id="p2">](http://msdn.microsoft.com/en-us/4123bb66-3fe4-4d62-b70e-33758656b458)</ept>Web.config ファイルのです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you set the &lt;xref:System.Web.UI.Page.EnableEventValidation%2A&gt; property in code, set it in the <ph id="ph1">`Page_Init`</ph> phase of page processing.</source>
+          <target state="translated">設定した場合、&lt;xref:System.Web.UI.Page.EnableEventValidation%2A&gt;でコードでは、プロパティを設定して、<ph id="ph1">`Page_Init`</ph>ページ処理のフェーズ&lt;/xref:System.Web.UI.Page.EnableEventValidation%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information on balancing the security benefit of event validation with its performance cost, see <bpt id="p1">[</bpt>ASP.NET Performance Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">分散パフォーマンス コストがそのイベントの検証のセキュリティ上の利点の詳細については、次を参照してください。 <bpt id="p1">[</bpt>ASP.NET パフォーマンス概要<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns the results of a callback event that targets a control.</source>
+          <target state="translated">コントロールを対象とするコールバック イベントの結果を返します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Exceptions thrown in &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; will not prevent GetCallbackResult from being called and returning a result.</source>
+          <target state="translated">スローされた例外&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;GetCallbackResult が呼び出されると、結果を返すことを防ぐことはできません&lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To prevent GetCallbackResult from returning a result, set a flag when an exception is thrown in &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; and return an empty string from GetCallbackResult.</source>
+          <target state="translated">GetCallbackResult が結果を返さないようにするには、フラグを設定で例外がスローされたときに&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;GetCallbackResult から空の文字列を返します&lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The result of the callback.</source>
+          <target state="translated">コールバックの結果。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Processes a callback event that targets a control.</source>
+          <target state="translated">コントロールを対象とするコールバック イベントを処理します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`null`</ph> is used as the event argument parameter, the string is serialized to "null" and sent back to the server.</source>
+          <target state="translated">ときに<ph id="ph1">`null`</ph>使用、イベントの引数パラメーターとして文字列がシリアル化される、サーバーに"null"と送信のバックアップを作成します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Because there is no way to distinguish between <ph id="ph1">`null`</ph> and "null", you should avoid using <ph id="ph2">`null`</ph> argument parameters with callbacks.</source>
+          <target state="translated">区別する手段がないため<ph id="ph1">`null`</ph>"null"、および使用を避ける必要があります<ph id="ph2">`null`</ph>コールバックの引数のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Exceptions thrown in RaiseCallbackEvent will not prevent &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; from being called and returning a result.</source>
+          <target state="translated">RaiseCallbackEvent でスローされた例外ができなくなります&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;呼び出されると、結果を返すからです&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To prevent &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; from returning a result, set a flag when an exception is thrown in RaiseCallbackEvent and return an empty string from &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;避けるため&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;に、結果を返すから RaiseCallbackEvent で例外がスローされたときにフラグを設定&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;。&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;から空の文字列を返す</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A string that represents an event argument to pass to the event handler.</source>
+          <target state="translated">イベント ハンドラーに渡すイベント引数を表す文字列。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
