@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">095851e6541d921e71803788e1cecf122030985a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.IPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b59014d112864f5913454e6eac1e060c04fc95c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45abccf72de1c2d39bcde41062c41333caba7663</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines additional management capabilities for the application and extraction of personalization state.</source>
+          <target state="translated">Definierar ytterligare hanteringsfunktioner för programmet och extrahering av anpassningstillståndet.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to using the <ph id="ph1">`Personalizable`</ph> attribute on control properties, a control can also implement IPersonalizable for additional management capabilities for the application and extraction of personalization state.</source>
+          <target state="translated">Förutom att använda den <ph id="ph1">`Personalizable`</ph> attributet för kontrollegenskaper kan en kontroll även implementera IPersonalizable för ytterligare hanteringsfunktioner för programmet och extrahering av anpassningstillståndet.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, controls that need to manage private state information should implement this interface.</source>
+          <target state="translated">Kontroller som behöver kunna hantera privata statusinformation bör till exempel implementera gränssnittet.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that access personalized data through complex mechanisms, such as custom cache solutions, data persistence to mainframes, or XML Web services, should also implement this interface.</source>
+          <target state="translated">Kontroller som åtkomst till personliga data via komplexa sätt, till exempel anpassade cache-lösningar, -datapersistence stordatorer eller XML-webbtjänster bör också implementera gränssnittet.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  You should not add types based on classes defined in the App_Code directory and then depend on the default binary serialization mechanism.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Bör du inte lägga till typer som baseras på klasser som definieras i katalogen App_Code och sedan beror på standardmekanism för binär serialisering.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>App_Code-based artifacts are not consistently binary-serializable due to the fact that they can have their assembly names changed at random points in time.</source>
+          <target state="translated">App_Code-baserade artefakter är inte konsekvent binary-serialiserbara på att de kan ha sina sammansättningsnamn ändras vid slumpässiga intervall i tid.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the custom data that a control manages has changed.</source>
+          <target state="translated">Hämtar ett värde som anger om anpassade data som hanteras av en kontroll har ändrats.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When data managed by a control has changed, the control is considered "dirty."</source>
+          <target state="translated">När data som hanteras av en kontroll har ändrats anses kontrollen "ändrade".</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control should return <ph id="ph1">`true`</ph> if the custom data that it manages through the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt; interface has changed.</source>
+          <target state="translated">En kontroll ska returnera <ph id="ph1">`true`</ph> om anpassade data som den hanterar via den &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;gränssnitt har ändrats.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, the control's &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt; interface method implementation is called during property value extraction.</source>
+          <target state="translated">Om en kontroll returnerar <ph id="ph1">`true`</ph> från den här egenskapens, kontrollen &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;implementeringsgränssnittet-metoden anropas under Extraheringen av värdet för egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property is checked automatically by the personalization infrastructure during the latter phases of processing a POST request.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den här egenskapen kontrolleras automatiskt infrastrukturen som anpassning under senare faserna i en POST-begäran bearbetades.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, for GET requests, the value returned from the IsDirty property is not checked.</source>
+          <target state="translated">Men för GET-begäranden kontrolleras det värde som returneras från egenskapen IsDirty inte.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some other event has to have caused the control to be considered "dirty" for any control state--not just data managed by &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;--to be saved.</source>
+          <target state="translated">Vissa andra händelsen har har orsakat kontrollen anses vara "ändrade" för alla kontrollens status – inte bara data som hanteras av &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;--ska sparas.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control can mark itself as "dirty" during a GET request, or if the personalization infrastructure under some very specific boundary conditions considers a control "dirty" during a GET request, then &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt; will always be called.</source>
+          <target state="translated">Om en kontroll kan markera sig själv som "felaktigt" under en GET-begäran, eller om anpassning infrastruktur under vissa mycket specifik gränsvillkor anser att en kontroll "ändrade" under en GET-begäran sedan &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;alltid anropas.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can reference its associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control and check the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt; property to determine the current scope.</source>
+          <target state="translated">En kontroll kan referera till dess associerade &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;styr och kontrollera den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt;egenskapen fastställa den aktuella omfattningen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The "dirty" state of a control's custom data should be appropriate for the current scope.</source>
+          <target state="translated">"Felaktig" tillståndet för anpassade data för en kontroll ska vara lämplig för den aktuella omfattningen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the custom data managed with the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.IPersonalizable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface has changed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om anpassade data hanteras med den <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.IPersonalizable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gränssnitt har ändrats, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Loads custom data into a control.</source>
+          <target state="translated">Läser in anpassade data i en kontroll.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called on a control to allow it to load custom data into itself.</source>
+          <target state="translated">Den här metoden anropas på en kontroll för att läsa in anpassade data till sig själv.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also return a value that indicates whether a control's custom state must be written back to the underlying data store, regardless of whether any other personalization data on the page has changed.</source>
+          <target state="translated">Det kan också returnera ett värde som anger om anpassade tillstånd för en kontroll måste skrivas tillbaka till den underliggande databasen, oavsett om andra anpassningsdata på sidan har ändrats.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can set its own custom properties and carry out additional internal logic based on the values contained in the personalization dictionary.</source>
+          <target state="translated">En kontroll kan ange sina egna anpassade egenskaper och utföra ytterligare internt baserat på de värden som finns i ordlistan anpassning.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the Web Parts control set while applying personalization data to a control.</source>
+          <target state="translated">Den här metoden anropas av kontrollen webbdelar som angavs vid tillämpa anpassningsdata på en kontroll.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should also be aware of the merge behavior of &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped versus &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped properties contained in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; object.</source>
+          <target state="translated">Du bör också vara medveten om merge beteendet för &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-omfång jämfört med &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-omfång egenskaperna i den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;objekt.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`state`</ph> parameter contains a merged representation of custom data that was loaded from the underlying data store.</source>
+          <target state="translated">Den <ph id="ph1">`state`</ph> parametern innehåller en sammanfogad representation av anpassade data som har lästs in från underliggande datalagret.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, all the values that were previously added when the page itself was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope would be available.</source>
+          <target state="translated">I &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång genom alla värden som tidigare lades när själva sidan i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;scope är tillgänglig.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, if a value associated with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; personalization scope had one value added when the page was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, and a different value when the page was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, then the personalization infrastructure would only include the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped value (as opposed to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope value) within the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">I &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;räckvidd, om ett värde som är associerat med &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;anpassningsläge hade ett värde som har lagts till när sidan var i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång och ett annat värde när sidan i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfånget och sedan anpassning infrastruktur kan bara innehålla den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-omfång värde (inte den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång värde) inom den <ph id="ph1">`state`</ph> parameter.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains custom scoped data that was loaded from the underlying data store.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller anpassade begränsade data som har lästs in från underliggande datalagret.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Saves custom properties and internal state information in the control's <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Anpassade egenskaper och interna statusinformation sparas i kontrollens <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A server control can store its own custom properties and internal state information the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; specified in the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">En serverkontroll kan lagra sina egna anpassade egenskaper och interna statusinformation den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;anges i den <ph id="ph1">`state`</ph> parameter.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information is stored as a series of name/value pairs.</source>
+          <target state="translated">Informationen lagras som en serie namn/värde-par.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is the responsibility of the control to use name/value pairs that it can recognize during subsequent calls made to the control through the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt; method.</source>
+          <target state="translated">Ansvarar för kontrollen att använda namn/värde-par som den kan hantera under efterföljande anrop till kontrollen via den &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can reference its associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control and check the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; object to determine the current scope.</source>
+          <target state="translated">En kontroll kan referera till dess associerade &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;styr och kontrollera den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;objektet för att avgöra den aktuella omfattningen.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom state information should be appropriate for the current scope.</source>
+          <target state="translated">Information om anpassade tillstånd bör vara relevanta för den aktuella omfattningen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that each &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt; value that is added to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; object should be associated with the appropriate scope value, because the personalization infrastructure depends on this when merging &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped custom data prior to passing it to the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt; method.</source>
+          <target state="translated">Observera att varje &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt;värde som läggs till i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;objektet ska vara associerat med lämpligt scope-värde eftersom anpassning infrastruktur beror på den här vid sammanfogning av &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;och &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-omfång anpassade data innan du skickar det till den &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using the standard ASP.NET implementation of Web Parts, controls must ensure that objects placed in the state dictionary can be serialized by the ASP.NET &lt;xref:System.Web.UI.ObjectStateFormatter&gt; class.</source>
+          <target state="translated">När du använder vanliga ASP.NET-implementeringen av webbdelar kontroller måste se till att objekt som placerats i ordlistan tillstånd kan serialiseras av ASP.NET- &lt;xref:System.Web.UI.ObjectStateFormatter&gt;klass.&lt;/xref:System.Web.UI.ObjectStateFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, this means the following:      -   Primitive .NET Framework types, strings, and collection-oriented .NET Framework types such as arrays, array lists, hash tables, and hybrid dictionaries, are automatically serializable.</source>
+          <target state="translated">I praktiken innebär det innebär följande:-primitiva .NET Framework typer, strängar och samling indatavärdena .NET Framework-typer som matriser, matris listor, hash-tabeller och hybrid ordlistor är automatiskt serialiseras.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Custom types that supply their own &lt;xref:System.ComponentModel.TypeConverter&gt; classes capable of serializing to and deserializing from strings are considered serializable.</source>
+          <target state="translated">-Anpassade typer som tillhandahåller egna &lt;xref:System.ComponentModel.TypeConverter&gt;klasser kan till serialisering och avserialisering av från strängar betraktas som serialiserbar.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Custom types that can be serialized by the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt; class are considered serializable.</source>
+          <target state="translated">-Anpassade typer som kan serialiseras av den &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;klassen betraktas som serialiserbar.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  You should not add types based on classes defined in the App_Code directory and then depend on the default binary serialization mechanism.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Bör du inte lägga till typer som baseras på klasser som definieras i katalogen App_Code och sedan beror på standardmekanism för binär serialisering.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>App_Code-based artifacts are not consistently binary-serializable due to the fact that they can have their assembly names changed at random points in time.</source>
+          <target state="translated">App_Code-baserade artefakter är inte konsekvent binary-serialiserbara på att de kan ha sina sammansättningsnamn ändras vid slumpässiga intervall i tid.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains custom scoped data that was loaded from the underlying data store.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller anpassade begränsade data som har lästs in från underliggande datalagret.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

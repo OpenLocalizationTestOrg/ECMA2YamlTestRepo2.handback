@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01a29ba8b6be0cb3371461a78f5e89c26bfe42e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.XmlMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58ae862bc0b961377f4edc4bc96254dbb3bee309</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c058aa03a560826c952d30e6184c250444ae9e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes and deserializes objects to or from the body of a message, using the XML format based on the XSD schema definition.</source>
+          <target state="translated">Сериализует и десериализует объекты в или из тела сообщения, в формате XML, основанный на определении схемы XSD.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlMessageFormatter is the default formatter that an instance of &lt;xref:System.Messaging.MessageQueue&gt; uses to serialize messages written to the queue.</source>
+          <target state="translated">XmlMessageFormatter является модуль форматирования по умолчанию, экземпляр &lt;xref:System.Messaging.MessageQueue&gt;использует для сериализации сообщений, записанных в эту очередь.&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Messaging.MessageQueue&gt;, an instance of XmlMessageFormatter is created for you and associated with the &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">При создании экземпляра &lt;xref:System.Messaging.MessageQueue&gt;, создается и связанные с &lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt; экземпляр XmlMessageFormatter&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a different formatter by creating it in your code and assigning it to the &lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt; property of your &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">Можно задать другой форматер, создав его в коде и присвоив его &lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt;свойству &lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt; &lt;/xref:System.Messaging.MessageQueue.Formatter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A queue's default XmlMessageFormatter instance can be used to write to the queue, but it cannot be used to read from the queue until you set either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property on the formatter.</source>
+          <target state="translated">Экземпляр XmlMessageFormatter очереди по умолчанию может использоваться для записи в очередь, но не может использоваться для чтения из очереди, пока не будет задан либо &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;или &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;Свойства форматирования.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can either set one or both of these values on the default formatter instance, or you can create a new instance of the formatter and set the values automatically by passing them as arguments into the appropriate &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Либо можно задать одно или оба этих значения в экземпляре по умолчанию модуль форматирования, или можно создать новый экземпляр модуля форматирования и установить эти значения автоматически, передав их в качестве аргументов в соответствующее &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;конструктор.&lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">При указании &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;вместо &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, существование типа проверяется во время компиляции, а не время чтения, что уменьшает вероятность ошибок.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;требуется полное, указав его имя сборки каждой записи.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">Кроме того при работе с несколькими параллельными версиями номер версии должен также быть добавлен к имени типа цели также.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;И &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Это позволяет модулю форматирования интерпретировать текст сообщения.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">Только один из них должно быть задано при чтении из очереди, но можно задать и оба.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">Набор типов является совокупный набор из двух свойств.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">Решение, какое свойство использовать специфична для вашего приложения.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Если тело сообщения содержит тип, схема которой не соответствует типам в массиве для каждого свойства, выдается исключение при чтении сообщения.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlMessageFormatter is a crucial component of loosely coupled XML-based messaging.</source>
+          <target state="translated">XmlMessageFormatter является критически важным компонентом слабо связанных обмена сообщениями на основе XML.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XSD.exe utility uses the XML format is used to generate XML schema, such as when you use the utility to serialize a class used by your application.</source>
+          <target state="translated">Утилита XSD.exe, использующая формат XML используется для создания XML-схем, например при использовании программы для сериализации класса, используемого приложением.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class must have a default constructor.</source>
+          <target state="translated">Этот класс должен иметь конструктор по умолчанию.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format is used again in the reverse process when the utility generates a class based on the schema you distribute to describe your class data.</source>
+          <target state="translated">Формат используется повторно в обратном процессе когда программа создает класс на основе схемы распространении для описания своего класса данных.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The use of the utility and the XML schema it generates enables you to avoid redistributing.dll files every time you recompile a class after the implementation of your class has changed.</source>
+          <target state="translated">Использование служебной программы и XML-схемы, он создает позволяет избежать перераспределения DLL-файлов, каждый раз при перекомпиляции класса после изменения реализации этого класса.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as the schema does not change on the client or the server, other changes on either side do not affect the other.</source>
+          <target state="translated">При условии, что схема не изменяется на стороне клиента или сервера, на обеих сторонах другие изменения не влияют на другой.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, without target types set.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса без целевого набора типов.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the constructor is used most frequently when writing to the queue, as target types are not required when writing.</source>
+          <target state="translated">Эта перегрузка конструктора используется наиболее часто при записи в очередь, как типы целевого объекта не являются необходимыми при записи.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To read a message from a queue using an instance of &lt;xref:System.Messaging.XmlMessageFormatter&gt; created using this constructor, you must set the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties so the formatter knows what types to attempt to deserialize.</source>
+          <target state="translated">Для чтения сообщения из очереди, используя экземпляр &lt;xref:System.Messaging.XmlMessageFormatter&gt;создан с помощью этого конструктора, необходимо задать &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;или &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;таким образом, чтобы модуль форматирования известно, какие типы нужно попытаться выполнить десериализацию.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a new &lt;xref:System.Messaging.MessageQueue&gt;, a default &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance is created, without the target types set.</source>
+          <target state="translated">При создании нового &lt;xref:System.Messaging.MessageQueue&gt;, значение по умолчанию &lt;xref:System.Messaging.XmlMessageFormatter&gt;, создается экземпляр без набора типов назначения.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with a formatter created using this constructor, you must set target types for that formatter instance if you want to read from the queue.</source>
+          <target state="translated">С помощью модуля форматирования, созданный с помощью этого конструктора, необходимо задать типы целевых объектов для данного экземпляра модуля форматирования, если требуется выполнить чтение из очереди.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of (fully qualified) string values.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, устанавливая типы назначения, переданный как массив значений string (полное).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">Конструкторы с параметрами типов целевых объектов чаще всего используются при чтении из очереди.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">При записи, не требуется указывать типы целевых объектов.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypeNames`</ph> parameter.</source>
+          <target state="translated">Эта перегрузка &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;конструктора задает &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;свойства значения массива, переданного через <ph id="ph1">`targetTypeNames`</ph> параметр.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of given types.</source>
+          <target state="translated">Установка этого свойства позволяет &lt;xref:System.Messaging.MessageQueue&gt;с помощью этого &lt;xref:System.Messaging.XmlMessageFormatter&gt;экземпляр для чтения сообщений, содержащих объекты при наличии типов.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Как &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Это позволяет модулю форматирования интерпретировать текст сообщения.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">Только один из них должно быть задано при чтении из очереди, но можно задать и оба.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">Набор типов является совокупный набор из двух свойств.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">Решение, какую из них использовать вашего приложения.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">Если тело сообщения содержит тип, схема которой не соответствует типам в массиве для каждого свойства, исключение будет создаваться во время чтения.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.String&gt;, задающее набор возможных типов, которые будут десериализованы при использовании средства форматирования из полученного сообщения.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These values must be fully qualified, for example, "MyNamespace.MyOrders, MyOrdersAssemblyName".</source>
+          <target state="translated">Эти значения должны быть полными, например, «MyNamespace.MyOrders, MyOrdersAssemblyName».</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of object types.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, устанавливая типы назначения, переданный как массив типов объектов.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">Конструкторы с параметрами типов целевых объектов чаще всего используются при чтении из очереди.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">При записи, не требуется указывать типы целевых объектов.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypes`</ph> parameter.</source>
+          <target state="translated">Эта перегрузка &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;конструктора задает &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;свойства значения массива, переданного через <ph id="ph1">`targetTypes`</ph> параметр.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of the given types.</source>
+          <target state="translated">Установка этого свойства позволяет &lt;xref:System.Messaging.MessageQueue&gt;с помощью этого &lt;xref:System.Messaging.XmlMessageFormatter&gt;экземпляр для чтения сообщений, содержащих объекты данного типа.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Как &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Это позволяет модулю форматирования интерпретировать текст сообщения.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">Только один из них должно быть задано при чтении из очереди, но можно задать и оба.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">Набор типов является совокупный набор из двух свойств.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">Решение, какую из них использовать вашего приложения.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">Если тело сообщения содержит тип, схема которой не соответствует типам в массиве для каждого свойства, исключение будет создаваться во время чтения.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">При указании &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;вместо &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, существование типа проверяется во время компиляции, а не время чтения, что уменьшает вероятность ошибок.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;требуется полное, указав его имя сборки каждой записи.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">Кроме того при работе с несколькими параллельными версиями номер версии должен также быть добавлен к имени типа цели также.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the following C# code.</source>
+          <target state="translated">При использовании &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;, можно добавить каждого объекта (например, <ph id="ph1">`MyClass`</ph>) в список, в результате, показано в следующем примере кода C#.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Type&gt;, задающее набор возможных типов, которые будут десериализованы при использовании средства форматирования из полученного сообщения.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the message.</source>
+          <target state="translated">Определяет, является ли модуль форматирования может десериализовать сообщение.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When CanRead is called, the formatter attempts to determine if the contents of the message are something it can deserialize.</source>
+          <target state="translated">При вызове CanRead форматирования пытается определить, если содержимое сообщения, может выполнить десериализацию.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The formatter can only deserialize the message if the type in the message body has the same schema as one of the types in the array represented by the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties.</source>
+          <target state="translated">Модуль форматирования может десериализовать сообщение, только если тип в теле сообщения имеет ту же схему, как один из типов в массиве, представленном &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Свойства.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CanRead returns <ph id="ph1">`false`</ph> under the following two circumstances:      -   The message was not formatted using the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">Возвращает CanRead <ph id="ph1">`false`</ph> в следующих двух случаях:-сообщение не был отформатирован с помощью &lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The schema of the message body is not among those listed in either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property.</source>
+          <target state="translated">-Схема тела сообщения не между значениями, перечисленными в любом &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;или &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;свойство.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what types of objects it must be able to deserialize.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;И &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру какие типы объектов он должен иметь возможность десериализации.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any type is missing from the list, yet is found within the message, CanRead returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Если какая-либо отсутствует в списке, еще не найден в сообщении, возвращает CanRead <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для проверки.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the XML formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если модуль форматирования XML может выполнить десериализацию сообщения. в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">Ни &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>настроек и не &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойства.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the sets of target types) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Создает экземпляр <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, чтение и запись свойства (наборы типов назначения) совпадают с текущим <bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> экземпляра.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.XmlMessageFormatter&gt; object.</source>
+          <target state="translated">Этот метод создает копию модуля форматирования и инициализирует его свойства на значения &lt;xref:System.Messaging.XmlMessageFormatter&gt;объекта.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">Объект, свойства которого идентичны свойствам данного <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляра, но с метаданными, которые не определяют его как экземпляр класса модуля форматирования.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">Считывает содержимое из данного сообщения и создает объект, содержащий десериализованное сообщение.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Как &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One of these properties must be set before the message can be deserialized.</source>
+          <target state="translated">Должен быть задан один из этих свойств, прежде чем можно десериализовать сообщение.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types do not have to be specified in order to write to the queue.</source>
+          <target state="translated">Типы целевого объекта не обязательно для записи в очередь.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in XML format, to deserialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, В формате XML для десериализации.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">Десериализованное сообщение.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">Ни &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>настроек и не &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойства.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The instance serialized in the message body does not comply with any of the schemas represented by the types in the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">- или - экземпляр, сериализованный в теле сообщения не соответствует одной из схем, представленных типами в &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>настроек и &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойств.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Указывает набор возможных типов, которые будут десериализованы при использовании средства форматирования из полученного сообщения.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Оба TargetTypeNames и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Это позволяет модулю форматирования интерпретировать текст сообщения.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">Только один из них должно быть задано при чтении из очереди, но можно задать и оба.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">Набор типов является совокупный набор из двух свойств.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">Решение, какое свойство использовать специфична для вашего приложения.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Если тело сообщения содержит тип, схема которой не соответствует типам в массиве для каждого свойства, выдается исключение при чтении сообщения.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TargetTypeNames requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">TargetTypeNames требует каждой записи полное, указав его имя сборки.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">Кроме того при работе с несколькими параллельными версиями номер версии должен также быть добавлен к имени типа цели также.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">Типы целевых объектов только при чтении из очереди.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties do not need to be set to write to the queue.</source>
+          <target state="translated">TargetTypeNames и &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;свойства не нужно устанавливать при записи в очередь.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.String&gt;, указывающее типы объектов, десериализуемых из тела сообщения при чтении сообщения.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The TargetTypeNames property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Свойство TargetTypeNames <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Указывает набор возможных типов, которые будут десериализованы при использовании средства форматирования из полученного сообщения.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Как &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;и TargetTypes указывают форматеру схемы, чтобы попытаться найти совпадение при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Это позволяет модулю форматирования интерпретировать текст сообщения.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">Экземпляр, сериализованный в теле сообщения должен согласовываться с одной из схем, представленных в массиве типов.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">При чтении сообщения, используя &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;метод, метод создает объект типа, который соответствует схеме и считывает тело сообщения в ней.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">Только один из них должно быть задано при чтении из очереди, но можно задать и оба.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">Набор типов является совокупный набор из двух свойств.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">Решение, какое свойство использовать специфична для вашего приложения.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Если тело сообщения содержит тип, схема которой не соответствует типам в массиве для каждого свойства, выдается исключение при чтении сообщения.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">Типы целевых объектов только при чтении из очереди.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties do not need to be set to write to the queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;И TargetTypes свойства не нужно устанавливать при записи в очередь.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying TargetTypes rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">При указании TargetTypes вместо &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, существование типа проверяется во время компиляции, а не время чтения, что уменьшает вероятность ошибок.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using TargetTypes, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the C# code <ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>.</source>
+          <target state="translated">При использовании TargetTypes, можно добавить каждого объекта (например, <ph id="ph1">`MyClass`</ph>) в список, как показано в коде C# <ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Type&gt;, указывающее типы объектов, десериализуемых из тела сообщения при чтении сообщения.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The TargetTypes property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Свойство TargetTypes <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">Сериализует объект в текст сообщения.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">Типы целевых объектов для записи в очередь, поскольку они должны быть при чтении не обязательно.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property is used by the formatter only when deserializing a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;Или &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;свойство используется модулем форматирования только при десериализации сообщения.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter&gt; makes use of the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; class, which defines what can be serialized.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter&gt;Использует &lt;xref:System.Xml.Serialization.XmlSerializer&gt;класс, определяющий, что может быть сериализован.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only public fields and public properties can be serialized.</source>
+          <target state="translated">Только открытые поля и открытые свойства могут быть сериализованы.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Structures, structures with arrays, and arrays of structures are all serializable, as long as they do not use the encoded style with the SOAP protocol.</source>
+          <target state="translated">Структуры, структуры с массивами и массивы структур являются сериализуемыми, пока они не используется стиль шифрования с протоколом SOAP.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Которого &lt;xref:System.Messaging.Message.Body*&gt;свойство будет содержать сериализованный объект.&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be serialized into the message body.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Для сериализации в теле сообщения.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

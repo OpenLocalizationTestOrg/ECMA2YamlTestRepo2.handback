@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e66bdf702c73beb476713b6d57a9cf7c3804d354</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.Adapters.ControlAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4679420755520bcc8fd17197a13a549433b6a722</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">223fa3433e6ec8a25fbbf260a3b3e0e8bd5baea3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Customizes rendering for the derived control to which the adapter is attached, to modify the default markup or behavior for specific browsers, and is the base class from which all control adapters inherit.</source>
+          <target state="translated">Rendering van het afgeleide besturingselement waarmee de adapter is verbonden, voor het wijzigen van de standaard-opmaak of het gedrag voor specifieke browsers, aanpassen en is de basisklasse die alle regelen adapters overnemen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control adapters are components that override certain &lt;xref:System.Web.UI.Control&gt; class methods and events in its execution lifecycle to allow browser or markup-specific handling.</source>
+          <target state="translated">Besturingselement adapters zijn onderdelen die bepaalde overschrijven &lt;xref:System.Web.UI.Control&gt;klasse methoden en gebeurtenissen in de levenscyclus van de uitvoering waarmee browser of markup-specifieke verwerking.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework maps a single derived control adapter to a &lt;xref:System.Web.UI.Control&gt; object for each client request.</source>
+          <target state="translated">.NET Framework wijst een adapter één afgeleide besturingselement in een &lt;xref:System.Web.UI.Control&gt;-object voor elke clientaanvraag.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter modifies a control for a specific browser or class of browsers or acts as an arbitrary filter on some capability.</source>
+          <target state="translated">Een adapter wijzigt van een besturingselement voor een bepaalde browser of een klasse met browsers of fungeert als een willekeurige filter op enige mogelijkheid.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically the adapter is defined by the markup language that the browser uses (for example, XHTML or HTML 3.2).</source>
+          <target state="translated">De adapter wordt gewoonlijk gedefinieerd door de markup language dat de browser wordt gebruikt (bijvoorbeeld XHTML of HTML 3.2).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Much of the adaptability in rendering behavior can be encapsulated in the specialized classes that derive from the &lt;xref:System.Web.UI.HtmlTextWriter&gt; class.</source>
+          <target state="translated">Veel van de aanpassingsvermogen in rendering gedrag kan worden ingekapseld in de gespecialiseerde klassen die zijn afgeleid van de &lt;xref:System.Web.UI.HtmlTextWriter&gt;klasse.&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is likely that a single adapter can be used for a number of browser class behaviors or that inclusion of the adaptability in the &lt;xref:System.Web.UI.HtmlTextWriter&gt; classes could make the use of a control adapter unnecessary.</source>
+          <target state="translated">Daarom is het waarschijnlijk dat één netwerkadapter kan worden gebruikt voor een aantal browser klasse gedrag of die opnemen van de aanpassingsvermogen in de &lt;xref:System.Web.UI.HtmlTextWriter&gt;klassen maken het gebruik van een besturingselement adapter onnodige.&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter for a control class applies to all controls that inherit from that class, unless more specialized adapters are present.</source>
+          <target state="translated">Een adapter voor een klasse van besturingselement geldt voor alle besturingselementen die van die klasse overnemen meer gespecialiseerde netwerkadapters zijn geïnstalleerd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an adapter for the &lt;xref:System.Web.UI.WebControls.BaseValidator&gt; class can be used for all <ph id="ph1">`Validator`</ph> objects.</source>
+          <target state="translated">Bijvoorbeeld, een adapter voor de &lt;xref:System.Web.UI.WebControls.BaseValidator&gt;klasse kan worden gebruikt voor alle <ph id="ph1">`Validator`</ph> objecten.&lt;/xref:System.Web.UI.WebControls.BaseValidator&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adapters typically do not inherit directly from the ControlAdapter class, but from one of the target-specific adapter base classes that provide additional functionality specific to the control type and target browser or the particular rendering required.</source>
+          <target state="translated">Adapters overnemen doorgaans niet rechtstreeks vanuit de ControlAdapter-klasse, maar een van de doel-specifieke adapter basisklassen die aanvullende functionaliteit specifieke doelbrowser of het besturingselementtype en de bepaalde rendering vereist bieden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls themselves do not necessarily require an adapter.</source>
+          <target state="translated">Besturingselementen zelf hoeft niet per se een adapter.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If controls are extended through composition, generally the child control adapters are sufficient.</source>
+          <target state="translated">Als besturingselementen worden uitgebreid via samenstelling, in het algemeen zijn de onderliggende besturingselement adapters voldoende.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each control has explicit mappings to adapters through the .browser definition files.</source>
+          <target state="translated">Elk besturingselement heeft expliciete toewijzingen adapters via de .browser definitiebestanden.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, any access to the &lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt; property uses the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object extracted from the browser definition files to perform the lookup for the mapping of the adapter to control.</source>
+          <target state="translated">Dus alle toegang tot de &lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;eigenschap gebruikt de &lt;xref:System.Web.HttpBrowserCapabilities&gt;object opgehaald uit de browser definitiebestanden voor het uitvoeren van de zoekactie voor de toewijzing van de adapter om te bepalen.&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During processing, the .NET Framework intercepts calls to the overridable methods of a control that could be target-specific.</source>
+          <target state="translated">Tijdens de verwerking worden aanroepen naar de overschrijfbare methoden van een besturingselement dat de doel-specifieke kan worden onderschept door .NET Framework.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control adapter is attached, the .NET Framework calls the associated adapter methods.</source>
+          <target state="translated">Als een besturingselement-adapter is gekoppeld, roept de .NET Framework de methoden van de gekoppelde adapter.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter performs rendering for the control through the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">De adapter voert rendering voor het besturingselement via de &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;methode.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If overridden, &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; potentially should not call the base class implementation because that performs a call back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als genegeerd, &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;mogelijk moeten niet aangeroepen door de implementatie van de basisklasse omdat die een gesprek voert terug op de &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might cause the rendering to occur twice, once by the adapter and once by the control.</source>
+          <target state="translated">Hierdoor kan de weergave voorkomen tweemaal eenmaal door de adapter en eens door het besturingselement.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; base method calls back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method of the control.</source>
+          <target state="translated">De &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;weer op basis van methode-aanroepen de &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;methode van het besturingselement.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, if you override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;, you should not call the base class implementation unless the rendering you implement is in addition to that provided by &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; of the control.</source>
+          <target state="translated">Dus als u negeren &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;, moet u de implementatie van de basisklasse niet aanroepen als de weergave die u implementeert naast wordt geleverd door &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;van het besturingselement.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must ensure that the .NET Framework performs interception for adapters of the child controls.</source>
+          <target state="translated">U moet ervoor zorgen dat .NET Framework worden onderschept voor netwerkadapters van de onderliggende besturingselementen uitvoert.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do this by calling the &lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt; base method, which calls the &lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; method of the control, from your &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; override.</source>
+          <target state="translated">U kunt dit doen door het aanroepen van de &lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;baseren methode, waarmee roept de &lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt;methode van het besturingselement van uw &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;overschrijven.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods are called by the control immediately before and after (respectively) the control calls the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">De &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;en &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;methoden worden aangeroepen door het besturingselement direct vóór en na (respectievelijk) de aanroepen van het besturingselement de &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;methode.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If pre- and post-rendering are the only browser-specific processing tasks required, using &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; might make it unnecessary to override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.</source>
+          <target state="translated">Als vóór en na rendering zijn de enige browser-specifieke verwerking van taken die zijn vereist, &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;en &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;kan het niet nodig voor het onderdrukken van &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; gebruiken</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior of the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods is to call the corresponding methods of the &lt;xref:System.Web.UI.HtmlTextWriter&gt;.</source>
+          <target state="translated">Het standaardgedrag van de &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;en &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;methoden is de bijbehorende methoden van de &lt;xref:System.Web.UI.HtmlTextWriter&gt;.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; aanroepen&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To maintain its own state information, a control adapter can override the &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Als u wilt een eigen statusgegevens onderhouden, een besturingselement adapter kunt overschrijven de &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, en &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;methoden.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; are called when the private control and view states are saved and loaded, respectively.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, en &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;worden aangeroepen wanneer de persoonlijke besturingselement en de weergave status worden opgeslagen en, respectievelijk geladen.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; base methods call back on the corresponding &lt;xref:System.Web.UI.Control&gt; class methods.</source>
+          <target state="translated">De &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;, en &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt;methoden aanroep baseren terug op het bijbehorende &lt;xref:System.Web.UI.Control&gt;methoden voor de klasse.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, any of these ControlAdapter methods that are overridden must call their base methods; otherwise, the event associated with the &lt;xref:System.Web.UI.Control&gt; class method will not be raised.</source>
+          <target state="translated">Daarom moet een van deze methoden ControlAdapter die worden overschreven hun basismethoden; aanroepen anders wordt de gebeurtenis die is gekoppeld aan de &lt;xref:System.Web.UI.Control&gt;klassenmethode niet verschijnt.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls and adapters optionally implement the &lt;xref:System.Web.UI.IPostBackDataHandler&gt; and &lt;xref:System.Web.UI.IPostBackEventHandler&gt; interfaces.</source>
+          <target state="translated">Besturingselementen en adapters implementeren eventueel de &lt;xref:System.Web.UI.IPostBackDataHandler&gt;en &lt;xref:System.Web.UI.IPostBackEventHandler&gt;interfaces.&lt;/xref:System.Web.UI.IPostBackEventHandler&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework determines whether an adapter exists and whether the adapter implements these interfaces.</source>
+          <target state="translated">.NET Framework bepaalt of een adapter bestaat en of de adapter deze interfaces implementeert.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does, the adapter should override the &lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;, &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;, and &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; methods, as necessary.</source>
+          <target state="translated">Als dat zo is, moet voorrang op de adapter de &lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;, &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;, en &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt;methoden, indien nodig.&lt;/xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the postback data is not recognized in the adapter, it must call back on the control to process it.</source>
+          <target state="translated">Als de gegevens voor terugposten wordt niet herkend in de adapter, moet deze terugbellen op het besturingselement verwerkt.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent event handlers also must call back on the control.</source>
+          <target state="translated">Volgende gebeurtenis-handlers moeten ook aanroepen terug op het besturingselement.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework internally constructs this adapter when it creates the corresponding &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Deze adapter .NET Framework intern constructs bij het maken van de bijbehorende &lt;xref:System.Web.UI.Control&gt;object.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called prior to the rendering of a control.</source>
+          <target state="translated">Aangeroepen voordat de rendering van een besturingselement.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates opening tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">In een adapterklasse afgeleide genereert openen tags die zijn vereist voor een specifiek doel, maar niet door de HTML-browsers nodig.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginRender method is called just before the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific preprocessing before the rendering of the control.</source>
+          <target state="translated">De methode BeginRender aangeroepen vlak voordat de &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;methode, en wordt gebruikt voor het uitvoeren van de doel-specifieke voorverwerking voordat de rendering van het besturingselement.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the BeginRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">De methode BeginRender gebruiken in combinatie met de &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;methode om te openen en sluiten van de tag consistentie te garanderen.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met methoden voor het weergeven van de uitvoer van de doel-specifieke.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the browser capabilities of the client making the current HTTP request.</source>
+          <target state="translated">Hiermee haalt u een verwijzing naar de browsermogelijkheden van de client die de huidige HTTP-aanvraag.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object determines the client browser capabilities from the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object that is returned by the Browser property.</source>
+          <target state="translated">Een &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;object bepaalt de client-browser-mogelijkheden van de &lt;xref:System.Web.HttpBrowserCapabilities&gt;-object dat wordt geretourneerd door de Browser-eigenschap.&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables the &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object to render browser-specific markup or otherwise modify the behavior of the &lt;xref:System.Web.UI.Control&gt;.</source>
+          <target state="translated">Hierdoor is het &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;object browser-specifieke opmaak weergeven of het gedrag van de &lt;xref:System.Web.UI.Control&gt;.&lt;/xref:System.Web.UI.Control&gt; anders wijzigen&lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying client browser and markup capabilities.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opgeven van de browser en aantekeningen voor client-mogelijkheden.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the control to which this control adapter is attached.</source>
+          <target state="translated">Hiermee haalt u een verwijzing naar het besturingselement waaraan deze adapter besturingselement is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a derived control adapter is attached to a control, the .NET Framework calls certain adapter members instead of the control members.</source>
+          <target state="translated">Wanneer een afgeleide besturingselement adapter is gekoppeld aan een besturingselement, roept de .NET Framework bepaalde leden van de netwerkadapter in plaats van de leden van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which this <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is attached.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waaraan dit <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creates the target-specific child controls for a composite control.</source>
+          <target state="translated">De doel-specifieke onderliggende besturingselementen voor een samengestelde besturingselement gemaakt.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a derived control adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the CreateChildControls method is overridden, the override is called instead of the &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als er een adapter afgeleide besturingselement gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object en de methode is vervangen CreateChildControls de onderdrukking wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, CreateChildControls can be used to create a target-specific child control set.</source>
+          <target state="translated">Dus kan CreateChildControls worden gebruikt voor het maken van een set van doel-specifieke onderliggende besturingselement.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about combining controls to create a new control, see <bpt id="p1">[</bpt>Composite Controls<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over het combineren van besturingselementen voor het maken van een nieuw besturingselement <bpt id="p1">[</bpt>samengestelde besturingselementen<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called after the rendering of a control.</source>
+          <target state="translated">Na de rendering van een besturingselement wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates closing tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">In een adapterklasse afgeleide genereert afsluitcodes die zijn vereist voor een specifiek doel, maar niet door de HTML-browsers nodig.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndRender method is called just after the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific postprocessing after the rendering of the control.</source>
+          <target state="translated">De methode EndRender wordt aangeroepen direct na de &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;methode, en wordt gebruikt voor het doel-specifieke postprocessing uitvoeren na de rendering van het besturingselement.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the EndRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">De methode EndRender gebruiken in combinatie met de &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;methode om te openen en sluiten van de tag consistentie te garanderen.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met methoden voor het weergeven van de uitvoer van de doel-specifieke.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Loads adapter control state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">Laadt adapter staat informatie over beheer die is opgeslagen door &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;tijdens een eerdere aanvraag naar de pagina waarin het besturingselement is gekoppeld aan deze adapter besturingselement zich bevindt.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">De status van het is essentieel informatie over de nodig zelfs als de weergavestatus is uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own control state information, it can override the LoadAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">Als een adapter een eigen informatie over de status van het besturingselement onderhouden moet, kan deze de LoadAdapterControlState overschrijven en &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;methoden.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">Een adapter mogelijk informatie over de status van beheer behouden als er functies die u moet beschikken over de status die wordt onderhouden tussen aanvragen, onafhankelijk van de status van het bijbehorende besturingselement.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">Bijvoorbeeld, een samengesteld besturingselement die bestaan uit een grote tekstuele weergave en een groep &lt;xref:System.Web.UI.WebControls.RadioButton&gt;besturingselementen worden mogelijk weergegeven als één enkele weergave op browsers voor desktopcomputers.&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">In andere browsers deze de rendering mogelijk gesplitst: één weergave voor de tekstuele weergave en andere voor de groep met keuzerondjes.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">De adapter moet een eigen doel-specifieke informatie over de actieve weergave onderhouden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; method, in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">De methode LoadAdapterControlState wordt aangeroepen onmiddellijk na de &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;methode in de <ph id="ph1">`LoadState`</ph> fase in de levenscyclus.&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">De status van de adapter-besturingselement is gescheiden en naast de besturingselementstatus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die informatie over de status van de adapter beheer als bevat een <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Loads adapter view state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">Laadt adapter staat informatie weergeven die is opgeslagen door &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;tijdens een eerdere aanvraag naar de pagina waarin het besturingselement is gekoppeld aan deze adapter besturingselement zich bevindt.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own view state information, it can override the LoadAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Als een adapter een eigen weergave-statusgegevens onderhouden moet, kan deze de LoadAdapterViewState overschrijven en &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;methoden.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the view state of the associated control.</source>
+          <target state="translated">Een adapter moet informatie over de status van de weergave behouden als er gegevens die moeten worden behouden over aanvragen, onafhankelijk van de weergavestatus van het bijbehorende besturingselement.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">Het besturingselement van een raster op browsers voor desktopcomputers mogelijk bijvoorbeeld weergegeven als één enkele weergave van rijen en kolommen met waarden.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">In andere browsers, kan deze de rendering in meerdere weergaven scheiden, zoals een lijst met rijen en details van een enkele rij splitsen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">De adapter moet de gegevens voor de weergaven die momenteel niet actief in weergavestatus zijn beheren.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">De methode LoadAdapterViewState wordt aangeroepen direct vóór de &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;methode in de <ph id="ph1">`LoadState`</ph> fase in de levenscyclus.&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">De weergavestatus van de adapter is afzonderlijke en naast de weergavestatus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die de statusgegevens van de netwerkadapter weergeven als bevat een <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnInit*&gt; method for the associated control.</source>
+          <target state="translated">Onderdrukt de &lt;xref:System.Web.UI.Control.OnInit*&gt;methode voor het bijbehorende besturingselement.&lt;/xref:System.Web.UI.Control.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnInit method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als er een adapter moet worden gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object en de OnInit methode is vervangen, de onderdrukking-methode wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override OnInit to perform target-specific processing in the <ph id="ph1">`Initialize`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Onderdrukking van OnInit om uit te voeren van de doel-specifieke verwerking in de <ph id="ph1">`Initialize`</ph> fase van de levenscyclus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that are performed when a control is created.</source>
+          <target state="translated">Dit zijn doorgaans functies die worden uitgevoerd wanneer een besturingselement wordt gemaakt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnLoad*&gt; method for the associated control.</source>
+          <target state="translated">Onderdrukt de &lt;xref:System.Web.UI.Control.OnLoad*&gt;methode voor het bijbehorende besturingselement.&lt;/xref:System.Web.UI.Control.OnLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnLoad method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als er een adapter moet worden gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object en de methode is vervangen OnLoad de onderdrukking-methode wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnLoad method to perform target-specific processing in the <ph id="ph1">`Load`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Negeer de methode OnLoad voor het uitvoeren van de doel-specifieke verwerking in de <ph id="ph1">`Load`</ph> fase van de levenscyclus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that should be performed for each client request.</source>
+          <target state="translated">Dit zijn doorgaans functies die moeten worden uitgevoerd voor elke clientaanvraag.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnPreRender*&gt; method for the associated control.</source>
+          <target state="translated">Onderdrukt de &lt;xref:System.Web.UI.Control.OnPreRender*&gt;methode voor het bijbehorende besturingselement.&lt;/xref:System.Web.UI.Control.OnPreRender*&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnPreRender method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als er een adapter moet worden gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object en de methode is vervangen OnPreRender de onderdrukking-methode wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnPreRender method to perform target-specific processing in the <ph id="ph1">`PreRender`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Negeer de methode OnPreRender voor het uitvoeren van de doel-specifieke verwerking in de <ph id="ph1">`PreRender`</ph> fase van de levenscyclus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that immediately precede rendering of the control output.</source>
+          <target state="translated">Dit zijn doorgaans functies die direct vóór de rendering van de uitvoer-besturingselement.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnUnload*&gt; method for the associated control.</source>
+          <target state="translated">Onderdrukt de &lt;xref:System.Web.UI.Control.OnUnload*&gt;methode voor het bijbehorende besturingselement.&lt;/xref:System.Web.UI.Control.OnUnload*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnUnload method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als er een adapter moet worden gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object en de bij uit geheugen methode is vervangen, de onderdrukking-methode wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnUnload method to do target-specific processing in the <ph id="ph1">`Unload`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Negeer de methode bij uit geheugen voor het doel-specifieke verwerking doen in de <ph id="ph1">`Unload`</ph> fase van de levenscyclus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are cleanup functions that precede disposition of the control.</source>
+          <target state="translated">Dit zijn doorgaans opschonen-functies die worden voorafgegaan door een bestemming van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page where the control associated with this adapter resides.</source>
+          <target state="translated">Hiermee haalt u een verwijzing naar de pagina waar het besturingselement is gekoppeld aan deze adapter is opgeslagen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Page property provides access to the &lt;xref:System.Web.UI.Page?displayProperty=fullName&gt; object where the control is situated.</source>
+          <target state="translated">De eigenschap pagina biedt toegang tot de &lt;xref:System.Web.UI.Page?displayProperty=fullName&gt;object waar het besturingselement zich bevindt.&lt;/xref:System.Web.UI.Page?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides access to the page instance where the associated control is situated.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die toegang biedt tot het page-exemplaar waar het bijbehorende besturingselement zich bevindt.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page adapter for the page where the associated control resides.</source>
+          <target state="translated">Hiermee wordt een verwijzing naar de pagina-adapter voor de pagina waarin het gekoppelde besturingselement zich bevindt.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PageAdapter property provides access to the &lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt; object for the &lt;xref:System.Web.UI.Page&gt; object where the &lt;xref:System.Web.UI.Control&gt; object associated with the current &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is situated.</source>
+          <target state="translated">De eigenschap PageAdapter biedt toegang tot de &lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;-object voor de &lt;xref:System.Web.UI.Page&gt;object waar de &lt;xref:System.Web.UI.Control&gt;object dat is gekoppeld aan de huidige &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;object zich bevindt.&lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PageAdapter property can be used to access other items at the page adapter level, such as common target-specific functions that could apply to several control types on the page.</source>
+          <target state="translated">De eigenschap PageAdapter kan worden gebruikt voor toegang tot andere items op het niveau van de pagina netwerkadapter zoals algemene doel-specifieke functies die kan worden toegepast op verschillende besturingselementtypen op de pagina.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the page where the control associated with the current <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is situated.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor de pagina waar het besturingselement is gekoppeld aan de huidige <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> bevindt.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the control to which the control adapter is attached.</source>
+          <target state="translated">Genereert de doel-specifieke opmaak voor het besturingselement waaraan de besturingselement-adapter is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the Render method to generate target-specific markup to send to the client browser.</source>
+          <target state="translated">Overschrijf de Render-methode voor het genereren van de doel-specifieke aantekeningen te verzenden naar de clientbrowser.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method is called in place of the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method if a &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is attached to a &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">De methode Render wordt aangeroepen in plaats van de &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;methode als een &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;object is gekoppeld aan een &lt;xref:System.Web.UI.Control&gt;object.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruiken om de uitvoer van de doel-specifieke weer te geven.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the child controls in a composite control to which the control adapter is attached.</source>
+          <target state="translated">Genereert de doel-specifieke opmaak voor de onderliggende besturingselementen in een samengestelde besturingselement waaraan de besturingselement-adapter is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the RenderChildren method when it is necessary to generate target-specific markup for the child control set of a composite control, in addition to the markup for the individual child controls.</source>
+          <target state="translated">Overschrijf de methode RenderChildren wanneer dit nodig is voor het genereren van de doel-specifieke opmaak voor de set onderliggend besturingselement van een samengestelde besturingselement, naast de markering voor de afzonderlijke onderliggende besturingselementen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruiken om de uitvoer van de doel-specifieke weer te geven.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Saves control state information for the control adapter.</source>
+          <target state="translated">Slaat beheren informatie over de status voor de adapter besturingselement.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">De status van het is essentieel informatie over de nodig zelfs als de weergavestatus is uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own control state information, it can override the SaveAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">Als een adapter een eigen informatie over de status van het besturingselement onderhouden moet, kan deze de SaveAdapterControlState overschrijven en &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;methoden.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">Een adapter mogelijk informatie over de status van beheer behouden als er functies die u moet beschikken over de status die wordt onderhouden tussen aanvragen, onafhankelijk van de status van het bijbehorende besturingselement.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">Bijvoorbeeld, een samengesteld besturingselement die bestaan uit een grote tekstuele weergave en een groep &lt;xref:System.Web.UI.WebControls.RadioButton&gt;besturingselementen worden mogelijk weergegeven als één enkele weergave op browsers voor desktopcomputers.&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">In andere browsers deze de rendering mogelijk gesplitst: één weergave voor de tekstuele weergave en andere voor de groep met keuzerondjes.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">De adapter moet een eigen doel-specifieke informatie over de actieve weergave onderhouden.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">De methode SaveAdapterControlState wordt aangeroepen onmiddellijk na de &lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;methode in de <ph id="ph1">`SaveState`</ph> fase in de levenscyclus.&lt;/xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">De status van de adapter-besturingselement is gescheiden en naast de besturingselementstatus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die informatie over de status van de adapter beheer als bevat een <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Saves view state information for the control adapter.</source>
+          <target state="translated">Slaat weergeven informatie over de status voor de adapter van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own view state information, it can override the SaveAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Als een adapter een eigen weergave-statusgegevens onderhouden moet, kan deze de SaveAdapterViewState overschrijven en &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;methoden.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the associated view state of the control.</source>
+          <target state="translated">Een adapter moet informatie over de status van de weergave behouden als er gegevens die moeten worden behouden over aanvragen, onafhankelijk van de status van de gekoppelde weergave van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">Het besturingselement van een raster op browsers voor desktopcomputers mogelijk bijvoorbeeld weergegeven als één enkele weergave van rijen en kolommen met waarden.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">In andere browsers, kan deze de rendering in meerdere weergaven scheiden, zoals een lijst met rijen en details van een enkele rij splitsen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">De adapter moet de gegevens voor de weergaven die momenteel niet actief in weergavestatus zijn beheren.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">De methode SaveAdapterViewState wordt aangeroepen direct vóór de &lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;methode in de <ph id="ph1">`SaveState`</ph> fase in de levenscyclus.&lt;/xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">De weergavestatus van de adapter is afzonderlijke en naast de weergavestatus van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die de statusgegevens van de netwerkadapter weergeven als bevat een <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
