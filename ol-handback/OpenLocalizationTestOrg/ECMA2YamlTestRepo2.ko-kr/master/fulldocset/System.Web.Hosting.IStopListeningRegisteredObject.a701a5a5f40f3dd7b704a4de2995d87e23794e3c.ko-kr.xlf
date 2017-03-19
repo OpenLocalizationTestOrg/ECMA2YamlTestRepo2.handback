@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">047a47233397b068c960f70a697eedf99455095d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Hosting.IStopListeningRegisteredObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c9010907e1f5e7b1bb8ec7702ac2d0fb388dc56</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d38249b1883a3473bf2b45d4735ff2e092038fc7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Listens for <ph id="ph1">`GL_STOP_LISTENING`</ph> notifications from IIS.</source>
+          <target state="translated">[.NET Framework 4.5.1 이상 버전에서 지원 됨]       에 대 한 수신 <ph id="ph1">`GL_STOP_LISTENING`</ph> IIS에서 보내는 알림입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement the IStopListeningRegisteredObject interface by passing an object to the &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt; method.</source>
+          <target state="translated">개체를 전달 하 여 IStopListeningRegisteredObject 인터페이스를 구현할 수는 &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;메서드.&lt;/xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The passed object listens for <ph id="ph1">`GL_STOP_LISTENING`</ph> notifications from IIS.</source>
+          <target state="translated">전달된 된 개체에 대 한 수신 <ph id="ph1">`GL_STOP_LISTENING`</ph> IIS에서 보내는 알림입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call this implementation when ASP.NET receives a <ph id="ph1">`GL_STOP_LISTENING`</ph> notification from IIS, which signals that IIS is no longer listening for new requests for this application.</source>
+          <target state="translated">ASP.NET을 받으면이 구현을 호출할 수 없습니다는 <ph id="ph1">`GL_STOP_LISTENING`</ph> 신호를 IIS를 더 이상이 응용 프로그램에 대 한 새 요청을 수신 대기 하는 IIS의 알림입니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The web server can allow requests that are in progress to run to completion.</source>
+          <target state="translated">웹 서버에는 실행이 완료에 진행 중인 요청을 허용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your application processes long running requests, you might want to have the application listen for these IIS notifications to gracefully wind down the request.</source>
+          <target state="translated">장기 실행 요청에서 응용 프로그램 프로세스를 하려는 경우도 있을 경우 응용 프로그램 요청 풍력 정상적으로 이러한 IIS 알림을 수신 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt; method contrasts with the &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; method, which signals immediate application shutdown.</source>
+          <target state="translated">&lt;xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt;와 대조 메서드는 &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;메서드 즉시 응용 프로그램 종료 신호를 보냅니다.&lt;/xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; &lt;/xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Stops listening for new requests.</source>
+          <target state="translated">[.NET Framework 4.5.1 이상 버전에서 지원 됨]       새 요청을 수신 대기를 중지 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StopListening method is supported only when running in IIS integrated mode.</source>
+          <target state="translated">StopListening 메서드는 IIS 통합된 모드에서 실행 하는 경우에 지원 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ASP.NET runtime does not guarantee that the StopListening method will ever fire.</source>
+          <target state="translated">ASP.NET 런타임 StopListening 메서드는 현재까지 발생 하는 것을 보장 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StopListening method must not throw exceptions, otherwise the behavior is undefined and the process will likely be terminated.</source>
+          <target state="translated">StopListening 메서드 예외가 발생 하지 않아야, 그렇지 않으면 동작이 정의 되지 않습니다. 및 프로세스가 종료 될 가능성이 됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, to avoid creating deadlocks, the StopListening method should not block execution.</source>
+          <target state="translated">또한 만드는 교착 상태를 방지 하려면 StopListening 메서드 차단 하지 않아야 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  In many applications the StopListening method can run at the same time as the &lt;xref:System.AppDomain.Unload%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 많은 응용 프로그램은 StopListening 메서드도 동시에 실행할 수는 &lt;xref:System.AppDomain.Unload%2A&gt;메서드.&lt;/xref:System.AppDomain.Unload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.AppDomain&gt; unload occurs, the StopListening method might be forcibly aborted before it finishes executing.</source>
+          <target state="translated">경우 &lt;xref:System.AppDomain&gt;언로드 발생 실행 완료 되기 전에 StopListening 메서드 강제로 취소 될 수 있습니다.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a63dffde58da30dd373afc41d6561add1f0a518f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d90d58a628ae40b474c2516c435e77602e7e6601</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31a1e27e96590f1860eabcbfbce898be392ecd61</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for a service that will exist as part of a service application.</source>
+          <target state="translated">Fornece uma classe base para um serviço que exista como parte de um aplicativo de serviço.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ServiceBase must be derived from when creating a new service class.</source>
+          <target state="translated">ServiceBase deve ser derivado de ao criar uma nova classe de serviço.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Cria uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not create an instance of the &lt;xref:System.ServiceProcess.ServiceBase&gt; class.</source>
+          <target state="translated">Não crie uma instância da &lt;xref:System.ServiceProcess.ServiceBase&gt;classe.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, derive from &lt;xref:System.ServiceProcess.ServiceBase&gt; and instantiate your derived class.</source>
+          <target state="translated">Em vez disso, derivam &lt;xref:System.ServiceProcess.ServiceBase&gt;e criar uma instância de sua classe derivada&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum you need to implement in the constructor for a class inherited from &lt;xref:System.ServiceProcess.ServiceBase&gt; is to set the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; on your component.</source>
+          <target state="translated">O mínimo necessário implementar no construtor para uma classe herdada de &lt;xref:System.ServiceProcess.ServiceBase&gt;é definir o &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;no seu componente.&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No other processing is specifically required in the constructor.</source>
+          <target state="translated">Nenhum outro processamento é necessário no construtor.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should handle most initialization in &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; rather than in the constructor.</source>
+          <target state="translated">Você deve tratar a maioria dos inicialização em &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;em vez de no construtor.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, there is no guarantee the objects will be reinitialized when you restart a service after it has been stopped.</source>
+          <target state="translated">Caso contrário, não há nenhuma garantia que os objetos serão reinicializados quando você reinicia um serviço depois que ele foi interrompido.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you override the constructor in your derived class, call the base class constructor in your code.</source>
+          <target state="translated">Se você substituir o construtor em sua classe derivada, chame o construtor de classe base em seu código.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceBase&gt; constructor sets &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">O &lt;xref:System.ServiceProcess.ServiceBase&gt;conjuntos de construtor &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;para <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want to automatically log calls to the service from the Service Control Manager (SCM), set &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Se você não quiser registrar automaticamente chamadas para o serviço do Gerenciador de controle de serviços (SCM), definir &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;para <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the executable contains a single service, the system calls the service's constructor when Start is selected from the SCM, and runs the destructor if Stop is called.</source>
+          <target state="translated">Se o arquivo executável contiver um único serviço, o sistema chama construtor do serviço quando iniciar é selecionado do SCM e executa o destruidor se Stop for chamado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the executable contains multiple services, calling Start on one service causes the constructors to be called for all services in the executable, but only the specified service is started.</source>
+          <target state="translated">Se o arquivo executável contiver vários serviços, chamar Start em um serviço faz com que os construtores a ser chamado para todos os serviços no executável, mas apenas o serviço especificado é iniciado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Destructors for the services are run together when all services have been stopped, not individually when each service is stopped.</source>
+          <target state="translated">Destruidores para os serviços são executados juntos quando todos os serviços foram interrompidos, não individualmente quando cada serviço é interrompido.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you override the base class constructor, you should explicitly call it in the constructor of your derived class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se você substituir o construtor da classe base, você deve chamá-lo explicitamente no construtor de classe derivada.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates whether to report Start, Stop, Pause, and Continue commands in the event log.</source>
+          <target state="translated">Indica se deve iniciar, parar, pausar e continuar comandos no log de eventos de relatório.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting AutoLog to <ph id="ph1">`true`</ph> instructs the service to use the Application event log to report command failures, as well as state change information for Start, Stop, Pause, and Continue events on the service.</source>
+          <target state="translated">Definindo AutoLog como <ph id="ph1">`true`</ph> instrui o serviço para usar o log de eventos do aplicativo para falhas de comando do relatório, bem como informações de alteração de estado para iniciar, parar, pausar e continuar eventos no serviço.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the service is used as the log's &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">O nome do serviço é usado como o log &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;.&lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To report information to a custom event log rather than the Application log, set AutoLog to <ph id="ph1">`false`</ph> and write instructions within the command-handling methods &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; to post to the appropriate log.</source>
+          <target state="translated">Para relatar informações para um log de eventos personalizado em vez de log do aplicativo, defina AutoLog como <ph id="ph1">`false`</ph> e escrever instruções dentro do método de manipulação de comandos &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, ou &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;para enviar para o log adequado&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;, which supplies the source string for the event log, must be set before the service attempts to write to the event log.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;que fornece a cadeia de caracteres de origem para o log de eventos deve ser definida antes do serviço tenta gravar o log de eventos.&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Trying to access the event log before the source name is set throws an exception.</source>
+          <target state="translated">Tentativa de acessar o log de eventos antes que o nome de origem é definido gera uma exceção.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to report information in the event log; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para relatar informações no log de eventos; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can handle notifications of computer power status changes.</source>
+          <target state="translated">Obtém ou define um valor que indica se o serviço pode manipular notificações de alterações de status de energia do computador.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the computer power status changes, the Service Control Manager (SCM) verifies whether the service accepts power event commands using the value of CanHandlePowerEvent.</source>
+          <target state="translated">Quando as alterações de status de energia do computador, o Gerenciador de controle de serviços (SCM) verifica se o serviço aceita comandos de evento de energia usando o valor de CanHandlePowerEvent.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanHandlePowerEvent is <ph id="ph1">`true`</ph>, the command is passed to the service and the &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt; method is called if defined.</source>
+          <target state="translated">Se for CanHandlePowerEvent <ph id="ph1">`true`</ph>, o comando é passado para o serviço e o &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;método é chamado, se definido.&lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt; is not implemented in the derived class, the SCM handles the power event through the empty base class &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;não está implementado na classe derivada, o SCM manipula o evento de energia por meio da classe base vazio &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt;método.&lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service handles the computer power status changes indicated in the <bpt id="p2">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class, otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço lida com o status de energia do computador alterações indicadas no <bpt id="p2">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe, caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This property is modified after the service was started.</source>
+          <target state="translated">Essa propriedade é modificada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service can handle session change events received from a Terminal Server session.</source>
+          <target state="translated">Obtém ou define um valor que indica se o serviço pode manipular os eventos de alteração de sessão recebidos de uma sessão do Terminal Server.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can handle Terminal Server session change events; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço pode manipular eventos de alteração de sessão do Terminal Server; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This property is modified after the service was started.</source>
+          <target state="translated">Essa propriedade é modificada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">Obtém ou define um valor que indica se o serviço pode ser pausado e retomado.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the value of the CanPauseAndContinue property in the constructor for the service.</source>
+          <target state="translated">Defina o valor da propriedade CanPauseAndContinue no construtor para o serviço.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a service is paused, it halts what it is doing.</source>
+          <target state="translated">Quando um serviço for pausado, ele interrompe o que está fazendo.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue the service (either through the Service Control Manager or programmatically), &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; runs.</source>
+          <target state="translated">Quando você continuar o serviço (ou através do Gerenciador de controle de serviço por meio de programação), &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;é executado.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sending a Pause request to the service can conserve system resources.</source>
+          <target state="translated">Enviar uma solicitação de pausa o serviço pode conservar recursos do sistema.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pause may not release all system resources, but Stop does.</source>
+          <target state="translated">Pausar não pode liberar todos os recursos do sistema, mas não de parada.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; are often implemented to perform less processing than &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;e &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;geralmente são implementadas para executar o processamento de menor que &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;e &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When CanPauseAndContinue is <ph id="ph1">`true`</ph>, override &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; to specify the processing that should occur when the Service Control Manager (SCM) passes a Pause or Continue request to your service.</source>
+          <target state="translated">Quando for CanPauseAndContinue <ph id="ph1">`true`</ph>, substituir &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;e &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;para especificar o processamento que deve ocorrer quando o Gerenciador de controle de serviços (SCM) transmite uma solicitação para pausar ou continuar para seu serviço.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; should be implemented to undo the processing in &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;deve ser implementado para desfazer o processamento do &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanPauseAndContinue is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; methods will not be called even if they are implemented.</source>
+          <target state="translated">Se for CanPauseAndContinue <ph id="ph1">`false`</ph>, o SCM não passará pausar ou continuar solicitações para o serviço, então o &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;e &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;métodos não serão chamados mesmo que eles são implementados.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when CanPauseAndContinue is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">No SCM, o <ph id="ph1">`Pause`</ph> e <ph id="ph2">`Continue`</ph> controles são desabilitados quando CanPauseAndContinue é <ph id="ph3">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço pode ser pausado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">O serviço já foi iniciado.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The CanPauseAndContinue property cannot be changed once the service has started.</source>
+          <target state="translated">A propriedade CanPauseAndContinue não pode ser alterada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">Obtém ou define um valor que indica se o serviço deve ser notificado quando o sistema está sendo desligado.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanShutdown is <ph id="ph1">`true`</ph>, the service is notified when the system is shutting down.</source>
+          <target state="translated">Se for CanShutdown <ph id="ph1">`true`</ph>, o serviço seja notificado quando o sistema está sendo desligado.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At shutdown, the &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt; method is called if it has been implemented in your derived class.</source>
+          <target state="translated">Durante o desligamento, o &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;método é chamado se ela foi implementada em sua classe derivada&lt;/xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only the system should cause the &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt; method to execute; the service can call it, but this is not recommended.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Apenas o sistema deve fazer com que o &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;método seja executado; o serviço pode chamá-lo, mas isso não é recomendado.&lt;/xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço deve ser notificado quando o sistema está sendo desligado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">O serviço já foi iniciado.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The CanShutdown property cannot be changed once the service has started.</source>
+          <target state="translated">A propriedade CanShutdown não pode ser alterada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can be stopped once it has started.</source>
+          <target state="translated">Obtém ou define um valor que indica se o serviço pode ser interrompido depois que ele foi iniciado.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When Stop is called on a service, the Service Control Manager (SCM) verifies whether the service accepts Stop commands using the value of CanStop.</source>
+          <target state="translated">Quando a interrupção for chamada em um serviço, o Gerenciador de controle de serviços (SCM) verifica se o serviço aceita comandos Stop usando o valor de CanStop.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most services, the value of CanStop is <ph id="ph1">`true`</ph>, but some operating system services, for example, do not allow the user to stop them.</source>
+          <target state="translated">Para a maioria dos serviços, o valor de CanStop é <ph id="ph1">`true`</ph>, mas alguns serviços do sistema operacional, por exemplo, não permitir que o usuário interrompê-los.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanStop is <ph id="ph1">`true`</ph>, the Stop command is passed to the service and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; method is called if it is defined.</source>
+          <target state="translated">Se for CanStop <ph id="ph1">`true`</ph>, o comando de parada é passado para o serviço e o &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;método é chamado se ela está definida.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; is not implemented in the derived class, the SCM handles the Stop command through the empty base class &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;não está implementado na classe derivada, os identificadores SCM a interrupção de comando por meio da classe base vazia &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt;método.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço pode ser interrompido e o &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;método chamado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">O serviço já foi iniciado.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The CanStop property cannot be changed once the service has started.</source>
+          <target state="translated">A propriedade CanStop não pode ser alterada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Disposes of the resources (other than memory) used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Libera os recursos (diferente de memória) usados pelo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose in your derived class (and through it, in the &lt;xref:System.ServiceProcess.ServiceBase&gt; class) when you are finished using the derived class.</source>
+          <target state="translated">Chamar Dispose em sua classe derivada (e, no &lt;xref:System.ServiceProcess.ServiceBase&gt;classe) quando terminar de usar a classe derivada&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the derived class in an unusable state.</source>
+          <target state="translated">O método Dispose deixa a classe derivada em um estado inutilizável.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the derived class and &lt;xref:System.ServiceProcess.ServiceBase&gt; so the memory they were occupying can be reclaimed by garbage collection.</source>
+          <target state="translated">Depois de chamar Dispose, você deve liberar todas as referências à classe derivada e &lt;xref:System.ServiceProcess.ServiceBase&gt;para a memória que eles foram ocupando pode ser recuperada pela coleta de lixo.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the class derived from &lt;xref:System.ServiceProcess.ServiceBase&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Sempre chamada Dispose antes de liberar sua última referência para a classe derivada de &lt;xref:System.ServiceProcess.ServiceBase&gt;.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources &lt;xref:System.ServiceProcess.ServiceBase&gt; and the derived class are using will not be freed until garbage collection calls the objects' destructors.</source>
+          <target state="translated">Caso contrário, os recursos &lt;xref:System.ServiceProcess.ServiceBase&gt;e a classe derivada são usando será não ser liberado até que a coleta de lixo chama destruidores os objetos.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; is often implemented to process the code in &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, combined with a call to Dispose.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;geralmente é implementado para processar o código em &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, combinado com uma chamada para Dispose.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you choose to do this in your derived class, it is customary to implement &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; to allocate whatever Dispose released.</source>
+          <target state="translated">Se você optar por fazer isso em sua classe derivada, é comum implementar &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;alocar qualquer Dispose liberado.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets an event log you can use to write notification of service command calls, such as Start and Stop, to the Application event log.</source>
+          <target state="translated">Obtém um log de eventos, que você pode usar para gravar a notificação de comando de chamadas de serviço, como iniciar e parar, o log de eventos do aplicativo.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructor initializes the EventLog property to an instance with the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; and &lt;xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt; properties set.</source>
+          <target state="translated">O construtor inicializa a propriedade de log de eventos a uma instância com o &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;e &lt;xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt;propriedades definidas.&lt;/xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The source is the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; of the service, and the log is the computer's Application log.</source>
+          <target state="translated">A fonte é o &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;do serviço, e o log é o log de aplicativo. do computador&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These values are set automatically and cannot be changed for automatic logging of service commands.</source>
+          <target state="translated">Esses valores são definidas automaticamente e não podem ser alterados para registro automático de comandos de serviço.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, Start, Stop, Pause, Continue, and custom commands are recorded automatically in the Application event log.</source>
+          <target state="translated">Quando &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;é <ph id="ph1">`true`</ph>, iniciar, parar, pausar, continuar e comandos personalizados são registrados automaticamente no log de eventos do aplicativo.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the EventLog property to write additional messages to that log as well.</source>
+          <target state="translated">Você pode usar a propriedade de log de eventos para gravar mensagens adicionais que também o log.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The component calls &lt;xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt; using this EventLog member.</source>
+          <target state="translated">As chamadas de componente &lt;xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt;usando esse membro EventLog.&lt;/xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To report information to a custom event log rather than the Application log, set &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`false`</ph> and write instructions within the command-handling methods &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; to post to the appropriate log.</source>
+          <target state="translated">Para relatar informações para um log de eventos personalizado em vez de log do aplicativo, defina &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;para <ph id="ph1">`false`</ph> e escrever instruções dentro do método de manipulação de comandos &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, ou &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;para enviar para o log adequado&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance whose source is registered to the Application log.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância cuja origem é registrada no log de aplicativo.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the exit code for the service.</source>
+          <target state="translated">Obtém ou define o código de saída para o serviço.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the ExitCode property to a non-zero value before stopping the service to indicate an error to the Service Control Manager.</source>
+          <target state="translated">Defina a propriedade ExitCode para um valor diferente de zero antes de parar o serviço para indicar um erro com o Gerenciador de controle de serviço.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The exit code for the service.</source>
+          <target state="translated">O código de saída para o serviço.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Indicates the maximum size for a service name.</source>
+          <target state="translated">Indica o tamanho máximo para um nome de serviço.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ServiceName and DisplayName both have size restrictions that must be observed when setting the properties on your service class.</source>
+          <target state="translated">ServiceName e DisplayName têm restrições de tamanho que devem ser observadas ao definir as propriedades em sua classe de serviço.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, OnContinue runs when a Continue command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">Quando implementada em uma classe derivada, OnContinue é executado quando um comando continuar é enviado para o serviço pelo Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service resumes normal functioning after being paused.</source>
+          <target state="translated">Especifica as ações a serem tomadas quando um serviço retoma o funcionamento normal após ser pausado.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement OnContinue to mirror your application's response to &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.</source>
+          <target state="translated">Implementar OnContinue para espelhar a resposta do aplicativo para &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue the service (either through the Services console or programmatically), the OnContinue processing runs, and the service becomes active again.</source>
+          <target state="translated">Quando você continuar o serviço (ou por meio do console de serviços por meio de programação), o OnContinue processamento é executado, e o serviço fica ativo novamente.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnContinue is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnContinue deve ser substituído quando o &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é de propriedade <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and OnContinue methods will not be called even if they are implemented.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é <ph id="ph1">`false`</ph>, o SCM não passará pausar ou continuar solicitações para o serviço, então o &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;OnContinue métodos não serão chamado, mesmo se eles são implementados.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">No SCM, o <ph id="ph1">`Pause`</ph> e <ph id="ph2">`Continue`</ph> controles são desabilitados quando &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é <ph id="ph3">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, OnCustomCommand executes when the Service Control Manager (SCM) passes a custom command to the service.</source>
+          <target state="translated">Quando implementada em uma classe derivada, OnCustomCommand executa quando o Gerenciador de controle de serviços (SCM) passa um comando personalizado para o serviço.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a command with the specified parameter value occurs.</source>
+          <target state="translated">Especifica as ações a serem tomadas quando ocorre um comando com o valor do parâmetro especificado.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnCustomCommand lets you specify additional functionality beyond starting, stopping, pausing and continuing services.</source>
+          <target state="translated">OnCustomCommand permite que você especifique funcionalidade adicional além de iniciar, parar, pausando e continuando serviços.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SCM does not examine the custom command to verify whether the service supports the <ph id="ph1">`command`</ph> parameter passed in.</source>
+          <target state="translated">O SCM não examina o comando personalizado para verificar se o serviço oferece suporte a <ph id="ph1">`command`</ph> parâmetro passado.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It passes the custom command directly to the service.</source>
+          <target state="translated">Ele passa o comando personalizado diretamente ao serviço.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service does not recognize the <ph id="ph1">`command`</ph> parameter, it does nothing.</source>
+          <target state="translated">Se o serviço não reconhece o <ph id="ph1">`command`</ph> parâmetro, ele não faz nada.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom commands are raised by an &lt;xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt; statement in a &lt;xref:System.ServiceProcess.ServiceController&gt; component.</source>
+          <target state="translated">Comandos personalizados são gerados por um &lt;xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt;instrução em um &lt;xref:System.ServiceProcess.ServiceController&gt;componente.&lt;/xref:System.ServiceProcess.ServiceController&gt; &lt;/xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a switch statement or if..then condition to handle the custom commands you define on your service.</source>
+          <target state="translated">Use uma instrução switch ou se... em seguida, condição para lidar com os comandos personalizados que definem em seu serviço.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only values for a custom command that you can define in your application or use in OnCustomCommand are those between 128 and 255.</source>
+          <target state="translated">Os únicos valores para um comando personalizado que você pode definir em seu aplicativo ou use OnCustomCommand são aqueles entre 128 e 255.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Integers below 128 correspond to system-reserved values.</source>
+          <target state="translated">Números inteiros abaixo 128 correspondem aos valores reservado pelo sistema.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; property is <ph id="ph1">`true`</ph>, custom commands, like all other commands, write entries to the event log to report whether the method execution succeeded or failed.</source>
+          <target state="translated">Se o &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;é de propriedade <ph id="ph1">`true`</ph>, comandos personalizados, como todos os outros comandos, gravam entradas de log de eventos para relatar se a execução do método teve êxito ou falhou.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command message sent to the service.</source>
+          <target state="translated">A mensagem de comando enviada para o serviço.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Pause command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">Quando implementada em uma classe derivada, executa quando um comando Pausar é enviado para o serviço pelo Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service pauses.</source>
+          <target state="translated">Especifica as ações a serem tomadas quando faz uma pausa de um serviço.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnPause to specify the processing that occurs when the service receives a Pause command.</source>
+          <target state="translated">Use OnPause para especificar o processamento que ocorre quando o serviço recebe um comando Pausar.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPause is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnPause deve ser substituído quando o &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é de propriedade <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue a paused service (either through the Services console or programmatically), the &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; processing is run, and the service becomes active again.</source>
+          <target state="translated">Quando você continuar um serviço pausado (ou por meio do console de serviços por meio de programação), o &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;processamento é executado, e o serviço fica ativo novamente.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Pause command only allows your application to react to a specific event.</source>
+          <target state="translated">O comando Pause só permite que seu aplicativo para reagir a um evento específico.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPause does nothing to the service that you do not define it to do.</source>
+          <target state="translated">OnPause não faz nada para o serviço que você não defini-lo para fazer.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sending a Pause request to the service can conserve system resources because Pause need not release all system resources.</source>
+          <target state="translated">Enviar uma solicitação de pausa o serviço pode conservar recursos do sistema porque pausar não precisa liberar todos os recursos do sistema.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if threads have been opened by the process, pausing a service rather than stopping it can allow the threads to remain open, obviating the need to reallocate them when the service continues.</source>
+          <target state="translated">Por exemplo, se os threads foram abertos pelo processo de pausar um serviço em vez de interrompê-lo pode permitir que os threads permanecerá aberta, dispensando a necessidade de realocá-las quando o serviço continua.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you define Pause to release all system resources, it behaves like a Stop command.</source>
+          <target state="translated">Se você definir pausar para liberar todos os recursos do sistema, ele se comporta como um comando de parada.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; to <ph id="ph1">`true`</ph>, and override OnPause and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; to specify the processing that should occur when the SCM passes a Pause or Continue request to your service.</source>
+          <target state="translated">Definir &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;para <ph id="ph1">`true`</ph>e substituir OnPause e &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;para especificar o processamento que deve ocorrer quando o SCM transmite uma solicitação para pausar ou continuar para seu serviço.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; should be implemented to undo the processing in OnPause.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;deve ser implementado para o processamento do OnPause de desfazer.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the OnPause and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; methods will not be called even if implemented.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é <ph id="ph1">`false`</ph>, o SCM não passará pausar ou continuar solicitações para o serviço, então o OnPause e &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;métodos não serão chamados mesmo se implementado.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">No SCM, o <ph id="ph1">`Pause`</ph> e <ph id="ph2">`Continue`</ph> controles são desabilitados quando &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;é <ph id="ph3">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when the computer's power status has changed.</source>
+          <target state="translated">Quando implementada em uma classe derivada, executa quando o status de energia do computador foi alterada.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This applies to laptop computers when they go into suspended mode, which is not the same as a system shutdown.</source>
+          <target state="translated">Isso se aplica a computadores laptop quando eles entram no modo suspenso, que não é o mesmo que um desligamento do sistema.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnPowerEvent to specify the processing that occurs when the system event indicated in the &lt;xref:System.ServiceProcess.PowerBroadcastStatus&gt; enumeration occurs--for example, when the computer is placed in suspended mode or indicates low battery power.</source>
+          <target state="translated">Use OnPowerEvent para especificar o processamento que ocorre quando o evento do sistema indicado no &lt;xref:System.ServiceProcess.PowerBroadcastStatus&gt;enumeração ocorre – por exemplo, quando o computador é colocado no modo suspenso ou indica pouca bateria.&lt;/xref:System.ServiceProcess.PowerBroadcastStatus&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPowerEvent is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnPowerEvent deve ser substituído quando o &lt;xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt;é de propriedade <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates a notification from the system about its power status.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que indica que uma notificação do sistema sobre seu status de energia.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, the needs of your application determine what value to return.</source>
+          <target state="translated">Quando implementada em uma classe derivada, as necessidades do seu aplicativo determinam o valor a ser retornado.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For example, if a <bpt id="p1">&lt;xref uid="langword_csharp_QuerySuspend" name="QuerySuspend" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> broadcast status is passed, you could cause your application to reject the query by returning <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Por exemplo, se um <bpt id="p1">&lt;xref uid="langword_csharp_QuerySuspend" name="QuerySuspend" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> difusão status for passado, você poderá causar seu aplicativo para rejeitar a consulta retornando <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Executes when a change event is received from a Terminal Server session.</source>
+          <target state="translated">Executa quando um evento de alteração é proveniente de uma sessão do Terminal Server.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set the &lt;xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt; property to <ph id="ph1">`true`</ph> to enable the execution of this method.</source>
+          <target state="translated">Você deve definir o &lt;xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt;propriedade <ph id="ph1">`true`</ph> para habilitar a execução deste método.&lt;/xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A structure that identifies the change type.</source>
+          <target state="translated">Uma estrutura que identifica o tipo de alteração.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when the system is shutting down.</source>
+          <target state="translated">Quando implementada em uma classe derivada, executa quando o sistema está sendo desligado.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies what should occur immediately prior to the system shutting down.</source>
+          <target state="translated">Especifica o que deve ocorrer imediatamente antes do desligamento do sistema.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnShutdown to specify the processing that occurs when the system shuts down.</source>
+          <target state="translated">Use OnShutdown para especificar o processamento que ocorre quando o sistema é desligado.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event occurs only when the operating system is shut down, not when the computer is turned off.</source>
+          <target state="translated">Esse evento ocorre somente quando o sistema operacional for desligado, não quando o computador é desligado.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnShutdown is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnShutdown deve ser substituído quando o &lt;xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt;é de propriedade <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Start command is sent to the service by the Service Control Manager (SCM) or when the operating system starts (for a service that starts automatically).</source>
+          <target state="translated">Quando implementada em uma classe derivada, executa quando um comando de início é enviado para o serviço pelo Gerenciador de controle de serviços (SCM) ou quando o sistema operacional for iniciado (para um serviço que inicia automaticamente).</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when the service starts.</source>
+          <target state="translated">Especifica as ações a serem tomadas quando o serviço é iniciado.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Data passed by the start command.</source>
+          <target state="translated">Dados passados pelo comando de início.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Stop command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">Quando implementada em uma classe derivada, executa quando um comando de parada é enviado para o serviço pelo Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service stops running.</source>
+          <target state="translated">Especifica as ações a serem tomadas quando um serviço é interrompido.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnStop to specify the processing that occurs when the service receives a Stop command.</source>
+          <target state="translated">Use OnStop para especificar o processamento que ocorre quando o serviço recebe um comando de parada.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the SCM receives a Stop command, it uses the value of &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; to verify whether the service accepts Stop commands.</source>
+          <target state="translated">Quando o SCM recebe um comando de parada, ele usa o valor de &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;para verificar se o serviço aceita comandos Stop.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; is <ph id="ph1">`true`</ph>, the Stop command is passed to the service, and the OnStop method is called if it is defined.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;é <ph id="ph1">`true`</ph>, o comando de parada é passado para o serviço, e o método OnStop é chamado se ela está definida.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If OnStop is not implemented in the service, the SCM handles the Stop command.</source>
+          <target state="translated">Se o serviço não está implementada OnStop, o SCM lida com o comando de parada.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; is <ph id="ph1">`false`</ph>, the SCM ignores the Stop command.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;é <ph id="ph1">`false`</ph>, o SCM ignora o comando parar.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not passed to the service.</source>
+          <target state="translated">Ela não é passada para o serviço.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop command returns and throws an exception.</source>
+          <target state="translated">O comando parar retorna e lançará uma exceção.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnStop is expected to be overridden in the derived class.</source>
+          <target state="translated">OnStop deve ser substituído na classe derivada.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the service to be useful, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; and OnStop should both be implemented in your service class.</source>
+          <target state="translated">O serviço deve ser útil, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;e OnStop deve ser implementado na sua classe de serviço.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Requests additional time for a pending operation.</source>
+          <target state="translated">Tempo adicional de solicitações para uma operação pendente.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequestAdditionalTime method is intended to be called by the overridden &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; methods to request additional time for a pending operation, to prevent the Service Control Manager (SCM) from marking the service as not responding.</source>
+          <target state="translated">O método RequestAdditionalTime é destinado a ser chamado por substituído &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;, ou &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;métodos para solicitar mais tempo para uma operação pendente, para impedir que o Gerenciador de controle de serviços (SCM) marcando o serviço como não está respondendo.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pending operation is not a continue, pause, start, or stop, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Se a operação pendente não é um continuar, pausar, iniciar ou parar, um &lt;xref:System.InvalidOperationException&gt;é gerada.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The requested time in milliseconds.</source>
+          <target state="translated">O tempo solicitado em milissegundos.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The service is not in a pending state.</source>
+          <target state="translated">O serviço não está em um estado pendente.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Registers the executable for a service with the Service Control Manager (SCM).</source>
+          <target state="translated">Registra o executável para um serviço com o Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload in the <ph id="ph1">`main()`</ph> function of the service executable to register the service with the Service Control Manager.</source>
+          <target state="translated">Chamar essa sobrecarga de <ph id="ph1">`main()`</ph> função do serviço executável para registrar o serviço com o Gerenciador de controle de serviço.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call Run, the Service Control Manager issues a Start command, which results in a call to the &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; method in the service.</source>
+          <target state="translated">Depois de chamar a execução, o Gerenciador de controle de serviço emite um comando de início, o que resulta em uma chamada para o &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;método no serviço.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service is not started until the Start command is executed.</source>
+          <target state="translated">O serviço não é iniciado até que o comando de início é executado.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Run method is called in much the same way as &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt; for Windows Forms applications.</source>
+          <target state="translated">O método de execução é chamado da mesma maneira como &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;para aplicativos Windows Forms.&lt;/xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, an entry is written to the event log if the service specified by the <ph id="ph2">`service`</ph> parameter fails to start.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;é <ph id="ph1">`true`</ph>, uma entrada é gravada no log de eventos se o serviço especificado pelo <ph id="ph2">`service`</ph> parâmetro não pode ser iniciado.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> which indicates a service to start.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que indica que um serviço para iniciar.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;service&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;service&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Registers the executable for multiple services with the Service Control Manager (SCM).</source>
+          <target state="translated">Registra o executável para vários serviços com o Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload in the <ph id="ph1">`main()`</ph> function of the service executable to register the services with the Service Control Manager.</source>
+          <target state="translated">Chamar essa sobrecarga de <ph id="ph1">`main()`</ph> função do serviço executável para registrar os serviços com o Gerenciador de controle de serviço.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call Run, the Service Control Manager issues Start commands, which result in calls to the &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; methods in the services.</source>
+          <target state="translated">Depois de chamar a execução, o Gerenciador de controle de serviço emite comandos de início, o que resultam em chamadas para o &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;métodos nos serviços.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The services are not started until the Start commands are executed.</source>
+          <target state="translated">Os serviços não são iniciados até que os comandos de início são executados.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Run method is called in much the same way as the &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt; method for Windows Forms applications.</source>
+          <target state="translated">O método de execução é chamado da mesma maneira como o &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;método para aplicativos do Windows Forms.&lt;/xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, an entry is written to the event log if any service in the array fails to start.</source>
+          <target state="translated">Se &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;é <ph id="ph1">`true`</ph>, uma entrada é gravada no log de eventos se qualquer serviço na matriz não for iniciado.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An array of ServiceBase instances, which indicate services to start.</source>
+          <target state="translated">Uma matriz de instâncias de ServiceBase que indicam os serviços para iniciar.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You did not supply a service to start.</source>
+          <target state="translated">Você não forneceu um serviço para iniciar.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The array might be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">A matriz pode ser <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ou vazio.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Gets the service control handle for the service.</source>
+          <target state="translated">Obtém o identificador de controle de serviço para o serviço.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service control handle is used to communicate with the Service Control Manager (SCM).</source>
+          <target state="translated">O identificador de controle de serviço é usado para se comunicar com o Gerenciador de controle de serviços (SCM).</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handle can be used to update the service control manager's status information for the calling service using the unmanaged <ph id="ph1">`SetServiceStatus`</ph> function.</source>
+          <target state="translated">O identificador pode ser usado para atualizar as informações de status do Gerenciador de controle de serviço para o serviço de chamada usando não gerenciado <ph id="ph1">`SetServiceStatus`</ph> função.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; structure that contains the service control handle for the service.</source>
+          <target state="translated">Um &lt;xref:System.IntPtr&gt;estrutura que contém o identificador de controle de serviço para o serviço.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Registers the command handler and starts the service.</source>
+          <target state="translated">Registra o manipulador de comando e inicia o serviço.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The number of arguments in the argument array.</source>
+          <target state="translated">O número de argumentos na matriz de argumento.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; structure that points to an array of arguments.</source>
+          <target state="translated">Um &lt;xref:System.IntPtr&gt;estrutura que aponta para uma matriz de argumentos.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets or sets the short name used to identify the service to the system.</source>
+          <target state="translated">Obtém ou define o nome abreviado usado para identificar o serviço no sistema.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">O ServiceName identifica o serviço para o Gerenciador de controle de serviço.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt; property of the corresponding installer class.</source>
+          <target state="translated">O valor dessa propriedade deve ser idêntico ao nome registrado para o serviço na &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt;propriedade de classe de instalador correspondente.&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName of the service is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">No código, ServiceName do serviço geralmente é definido <ph id="ph1">`main()`</ph> função do executável.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName is also used to specify the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; associated with the &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; property.</source>
+          <target state="translated">O ServiceName também é usado para especificar o &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;associado a &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;propriedade.&lt;/xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; &lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; is an instance that writes service command information to the Application log.</source>
+          <target state="translated">Essa &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;é uma instância que grava informações de comando de serviço para o log de aplicativo.&lt;/xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName, which supplies the source string for the event log, must be set before the service writes to the event log.</source>
+          <target state="translated">ServiceName, que fornece a cadeia de caracteres de origem para o log de eventos, deve ser definida antes do serviço grava o log de eventos.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Trying to access the event log before the source name is set causes an exception to be thrown.</source>
+          <target state="translated">Tentativa de acessar o log de eventos antes que o nome de origem é definido faz com que uma exceção seja lançada.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The name of the service.</source>
+          <target state="translated">O nome do serviço.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">O serviço já foi iniciado.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The ServiceName property cannot be changed once the service has started.</source>
+          <target state="translated">A propriedade ServiceName não pode ser alterada depois que o serviço foi iniciado.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The specified name is a zero-length string or is longer than <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase.MaxNameLength"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or the specified name contains forward slash or backslash characters.</source>
+          <target state="translated">O nome especificado é uma cadeia de caracteres de comprimento zero ou tem mais de <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase.MaxNameLength"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ou o nome especificado contém caracteres de barra ou barra invertida direta.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Stops the executing service.</source>
+          <target state="translated">Interrompe o serviço em execução.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop method sets the service state to indicate a stop is pending and calls the &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; method.</source>
+          <target state="translated">O método de parada define o estado do serviço para indicar uma parada está pendente e chama o &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;método.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the application is stopped, the service state is set to stopped.</source>
+          <target state="translated">Depois que o aplicativo for interrompido, o estado do serviço é definido como parado.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application is a hosted service, the application domain is unloaded.</source>
+          <target state="translated">Se o aplicativo é um serviço hospedado, o domínio de aplicativo será descarregado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

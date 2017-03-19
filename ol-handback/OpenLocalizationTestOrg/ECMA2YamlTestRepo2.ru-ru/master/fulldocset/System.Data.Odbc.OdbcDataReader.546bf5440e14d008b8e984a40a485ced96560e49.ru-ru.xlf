@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f52012fdc802212af3cda41c74dae07125ae01a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcDataReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7034a3a1919bf406462e9851677dacb8fd7ad376</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e66a50186f84d2d71500d0d76c4fba9e1ac4011</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a way of reading a forward-only stream of data rows from a data source.</source>
+          <target state="translated">Предоставляет способ чтения однопроходные потоки строк данных из источника данных.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Этот класс не наследуется.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an OdbcDataReader, you must call the &lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt; method of the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object, instead of directly using a constructor.</source>
+          <target state="translated">Чтобы создать OdbcDataReader, необходимо вызвать метод &lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;метод &lt;xref:System.Data.Odbc.OdbcCommand&gt;объекта, вместо непосредственного использования конструктора.&lt;/xref:System.Data.Odbc.OdbcCommand&gt; &lt;/xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the OdbcDataReader is being used, the associated &lt;xref:System.Data.Odbc.OdbcConnection&gt; is busy serving the OdbcDataReader, and no other operations can be performed on the &lt;xref:System.Data.Odbc.OdbcConnection&gt; other than closing it.</source>
+          <target state="translated">При использовании OdbcDataReader соответствующего &lt;xref:System.Data.Odbc.OdbcConnection&gt;является занят обслуживающий OdbcDataReader, и никакие другие операции, которые могут выполняться на &lt;xref:System.Data.Odbc.OdbcConnection&gt;отличный от закрывает его.&lt;/xref:System.Data.Odbc.OdbcConnection&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the case until the &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt; method of the OdbcDataReader is called.</source>
+          <target state="translated">Это состояние сохраняется до &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;вызывается метод OdbcDataReader.&lt;/xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot retrieve output parameters until after you call &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;.</source>
+          <target state="translated">Например не удается получить выходные параметры можно только после вызова метода &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made to a result set by another process or thread while data is being read may be visible to the user of the OdbcDataReader.</source>
+          <target state="translated">Изменения, внесенные в результирующий набор другим процессом или потоком во время чтения данных, могут быть видны пользователю OdbcDataReader.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the precise behavior is both driver and timing dependent.</source>
+          <target state="translated">Однако точное поведение зависит драйвер и зависит от времени.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt; and &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt; are the only properties that you can call after the OdbcDataReader is closed.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt;и &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;только свойства, которые могут быть вызваны после закрытия OdbcDataReader.&lt;/xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;&lt;/xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes, you must call &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt; before you can call &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;.</source>
+          <target state="translated">В некоторых случаях необходимо вызывать &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;перед вызовом &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Закрывает <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly call the Close method when you are finished using the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; to use the associated &lt;xref:System.Data.Odbc.OdbcConnection&gt; for any other purpose.</source>
+          <target state="translated">Когда вы закончите необходимо явно вызвать метод Close с помощью &lt;xref:System.Data.Odbc.OdbcDataReader&gt;использовать связанный &lt;xref:System.Data.Odbc.OdbcConnection&gt;для других целей.&lt;/xref:System.Data.Odbc.OdbcConnection&gt; &lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call <ph id="ph2">`Close`</ph> or <ph id="ph3">`Dispose`</ph> on a Connection, a DataReader, or any other managed object in the <ph id="ph4">`Finalize`</ph> method of your class.</source>
+          <target state="translated">Настроек <ph id="ph1">[!CAUTION]</ph> настроек не следует вызывать <ph id="ph2">`Close`</ph> или <ph id="ph3">`Dispose`</ph> на соединение, DataReader или любого другого управляемого объекта в <ph id="ph4">`Finalize`</ph> метод класса.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">Метод завершения следует только освобождать неуправляемые ресурсы, которыми ваш класс непосредственно владеет.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">Если класс не владеет все неуправляемые ресурсы, не включайте <ph id="ph1">`Finalize`</ph> метод в определении класса.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>мусора<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the depth of nesting for the current row.</source>
+          <target state="translated">Возвращает значение, указывающее глубину вложенности для текущей строки.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The outermost table has a depth of zero.</source>
+          <target state="translated">Внешняя таблица имеет нулевую глубину вложенности.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row.</source>
+          <target state="translated">Глубина вложенности для текущей строки.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the number of columns in the current row.</source>
+          <target state="translated">Возвращает число столбцов в текущей строке.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Includes hidden fields.</source>
+          <target state="translated">Включает скрытые поля.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Data.Common.DbDataReader.VisibleFieldCount%2A&gt; to exclude hidden fields.</source>
+          <target state="translated">Используйте &lt;xref:System.Data.Common.DbDataReader.VisibleFieldCount%2A&gt;для исключения скрытых полей.&lt;/xref:System.Data.Common.DbDataReader.VisibleFieldCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you execute a query that does not return rows, FieldCount returns 0.</source>
+          <target state="translated">После выполнения запроса, который не возвращает строк FieldCount возвращает 0.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When not positioned in a valid record set, 0; otherwise the number of columns in the current record.</source>
+          <target state="translated">Если столбец отсутствует в допустимом наборе записей 0; в противном случае число столбцов в текущей записи.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default is -1.</source>
+          <target state="translated">Значение по умолчанию — -1.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>There is no current connection to a data source.</source>
+          <target state="translated">Нет текущего подключения к источнику данных.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a Boolean.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде логического значения.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A Boolean that is the value of the column.</source>
+          <target state="translated">Логическое значение, значение столбца.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде байта.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a byte.</source>
+          <target state="translated">Значение указанного столбца в виде байта.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes from the specified column offset into the buffer as an array, starting at the particular buffer offset.</source>
+          <target state="translated">Считывает поток байтов из указанного смещения столбца в буфер как массив, начиная с конкретного смещения буфера.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetBytes returns the number of available bytes in the field.</source>
+          <target state="translated">Метод GetBytes возвращает число доступных байтов в поле.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">В большинстве случаев это точная длина поля.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if GetBytes has already been used to obtain bytes from the field.</source>
+          <target state="translated">Однако возвращенное число может быть меньше фактической длины поля, если GetBytes уже использовался для получения байтов из поля.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, if the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is reading a large data structure into a buffer.</source>
+          <target state="translated">Это может быть так, например, если &lt;xref:System.Data.Odbc.OdbcDataReader&gt;читает большую структуру данных в буфер.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the <ph id="ph1">`SequentialAccess`</ph> setting for &lt;xref:System.Data.CommandBehavior&gt;.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <ph id="ph1">`SequentialAccess`</ph> для &lt;xref:System.Data.CommandBehavior&gt;.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is a null value, GetBytes returns the length of the field in bytes.</source>
+          <target state="translated">При передаче буфера, который имеет значение null, GetBytes возвращает длину поля в байтах.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  No exception will be thrown if the value of <ph id="ph2">`bufferIndex`</ph> is outside the array.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек будет создано исключение, если значение <ph id="ph2">`bufferIndex`</ph> находится за пределами массива.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No data will be read and the method will return 0.</source>
+          <target state="translated">Данные не будут считываться и метод возвратит 0.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The index within the field where the read operation is to start.</source>
+          <target state="translated">Индекс внутри поля, с которого начинается операция чтения.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of bytes.</source>
+          <target state="translated">Буфер, в который необходимо считать поток байтов.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The index within the <ph id="ph1">`buffer`</ph> where the write operation is to start.</source>
+          <target state="translated">Индекс в <ph id="ph1">`buffer`</ph> которого начинается операция записи.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The number of bytes to read.</source>
+          <target state="translated">Число байтов для чтения.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">Фактическое число считанных байтов.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a character.</source>
+          <target state="translated">Возвращает значение указанного столбца как символ.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a character.</source>
+          <target state="translated">Значение указанного столбца в виде символа.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Reads a stream of characters from the specified column offset into the buffer as an array, starting at the particular buffer offset.</source>
+          <target state="translated">Считывает поток символов из указанного смещения столбца в буфер как массив, начиная с конкретного смещения буфера.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetChars returns the number of available characters in the field.</source>
+          <target state="translated">GetChars возвращает количество доступных символов в поле.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">В большинстве случаев это точная длина поля.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if GetChars has already been used to obtain characters from the field.</source>
+          <target state="translated">Однако возвращенное число может быть меньше фактической длины поля, если GetChars уже использовался для получения символов из поля.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, if the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is reading a large data structure into a buffer.</source>
+          <target state="translated">Это может быть так, например, если &lt;xref:System.Data.Odbc.OdbcDataReader&gt;читает большую структуру данных в буфер.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the <ph id="ph1">`SequentialAccess`</ph> setting for &lt;xref:System.Data.CommandBehavior&gt;.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <ph id="ph1">`SequentialAccess`</ph> для &lt;xref:System.Data.CommandBehavior&gt;.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is a null value, GetChars returns the length of the field in characters.</source>
+          <target state="translated">При передаче буфера, который имеет значение null, GetChars возвращает длину поля в символах.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  No exception will be thrown if the value of <ph id="ph2">`bufferIndex`</ph> is outside the array.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек будет создано исключение, если значение <ph id="ph2">`bufferIndex`</ph> находится за пределами массива.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No data will be read and the method will return 0.</source>
+          <target state="translated">Данные не будут считываться и метод возвратит 0.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The index within the row where the read operation is to start.</source>
+          <target state="translated">Индекс в строке, с которого начинается операция чтения.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy data.</source>
+          <target state="translated">Буфер, в который копируются данные.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The index within the <ph id="ph1">`buffer`</ph> where the write operation is to start.</source>
+          <target state="translated">Индекс в <ph id="ph1">`buffer`</ph> которого начинается операция записи.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The number of characters to read.</source>
+          <target state="translated">Число символов для чтения.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">Фактическое число считанных символов.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the name of the source data type.</source>
+          <target state="translated">Возвращает имя типа источника данных.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The name of the source data type.</source>
+          <target state="translated">Имя исходного типа данных.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.DateTime&gt;объекта.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Значение указанного столбца в виде &lt;xref:System.DateTime&gt;объекта.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.DateTime&gt;объекта.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Значение указанного столбца в виде &lt;xref:System.DateTime&gt;объекта.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.Decimal&gt;объекта.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetDecimal has a maximum precision of 28.</source>
+          <target state="translated">GetDecimal имеет максимальная точность 28.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to retrieve decimal data with a larger precision will cause an exception.</source>
+          <target state="translated">Попытка извлечь десятичные данные с большей точностью вызовет исключение.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One solution would be to change the query to cast the decimal type to either a smaller datatype or convert to string or binary.</source>
+          <target state="translated">Одним из решений будет изменение запроса для приведения десятичного типа меньшему типу данных или преобразование в строки или двоичного файла.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Значение указанного столбца в виде &lt;xref:System.Decimal&gt;объекта.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a double-precision floating-point number.</source>
+          <target state="translated">Возвращает значение указанного столбца как число с плавающей запятой двойной точности.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a double-precision floating-point number.</source>
+          <target state="translated">Значение указанного столбца в виде числа с плавающей запятой двойной точности.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">Возвращает &lt;xref:System.Collections.IEnumerator&gt;может использоваться для итерации строк в модуле чтения данных.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you can use this method to retrieve an explicit enumerator, in languages that support a <ph id="ph1">`foreach`</ph> construct, it is simpler to use the looping construct directly in order to iterate through the rows in the data reader.</source>
+          <target state="translated">Несмотря на то, что этот метод можно использовать для получения явный перечислитель, в языках, которые поддерживают <ph id="ph1">`foreach`</ph> конструкции, проще использовать циклы для перебора строк в модуле чтения данных.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;Может использоваться для итерации строк в модуле чтения данных.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">Возвращает &lt;xref:System.Type&gt;который является типом данных объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Который является типом данных объекта.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating-point number.</source>
+          <target state="translated">Возвращает значение указанного столбца как число с плавающей запятой одиночной точности.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported then the method call will fail.</source>
+          <target state="translated">Если преобразование не поддерживается вызов метода завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a single-precision floating-point number.</source>
+          <target state="translated">Значение указанного столбца в виде числа с плавающей запятой одиночной точности.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally unique identifier (GUID).</source>
+          <target state="translated">Возвращает значение указанного столбца в виде глобально уникальный идентификатор (GUID).</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a GUID.</source>
+          <target state="translated">Значение указанного столбца в виде идентификатора GUID.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 16-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Значение указанного столбца в виде 16-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 32-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Значение указанного столбца в виде 32-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде 64-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Значение указанного столбца в виде 64-разрядное целое число со знаком.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets the name of the specified column.</source>
+          <target state="translated">Возвращает имя указанного столбца.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A string that is the name of the specified column.</source>
+          <target state="translated">Строка, представляющая имя указанного столбца.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal, given the name of the column.</source>
+          <target state="translated">Возвращает порядковый номер столбца, заданному имени столбца.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetOrdinal performs a case-sensitive lookup first.</source>
+          <target state="translated">GetOrdinal сначала выполняет поиск с учетом регистра.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">В случае неудачи выполняется второй поиска без учета регистра.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method throws an <ph id="ph1">`IndexOutOfRange`</ph> exception if the zero-based column ordinal is not found.</source>
+          <target state="translated">Метод создает <ph id="ph1">`IndexOutOfRange`</ph> исключение, если не найден отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetOrdinal is kana-width insensitive.</source>
+          <target state="translated">GetOrdinal не учитывает ширину японской азбуки.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because ordinal-based lookups are more efficient than named lookups, it is inefficient to call GetOrdinal within a loop.</source>
+          <target state="translated">Поскольку порядковым числительным более эффективны, чем поиск по имени, рекомендуется использовать метод GetOrdinal в цикле.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, call GetOrdinal one time and then assign the results to an integer variable for use within the loop.</source>
+          <target state="translated">Вместо этого вызовите GetOrdinal один раз, а затем присвоить результаты целочисленной переменной для использования в цикле.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Имя столбца.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , описывающий метаданные столбца <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSchemaTable method returns metadata about each column in the following order:      |DataReader column|Description|   |-----------------------|-----------------|   |ColumnName|The name of the column; this might not be unique.</source>
+          <target state="translated">Метод GetSchemaTable возвращает метаданные о каждом столбце в следующем порядке: | Столбец DataReader | Описание |   |-----------------------|-----------------|   | ColumnName | Имя столбца; оно не может быть уникальным.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column name cannot be determined, a null value is returned.</source>
+          <target state="translated">Если не удается определить имя столбца, возвращается значение null.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name always reflects the most recent naming of the column in the current view or command text.|   |ColumnOrdinal|The zero-based ordinal of the column.</source>
+          <target state="translated">Это имя всегда отражает последнее именование столбца в текущем представлении или команды в тексте. |   | ColumnOrdinal | Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This column cannot contain a null value.|   |ColumnSize|The maximum possible length of a value in the column.</source>
+          <target state="translated">Этот столбец не может содержать значение null. |   | ColumnSize | Максимально возможная длина значения в столбце.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For columns that use a fixed-length data type, this is the size of the data type.|   |NumericPrecision|If &lt;xref:System.Data.DbType&gt; is a numeric data type, this is the maximum precision of the column.</source>
+          <target state="translated">Для столбцов, использующих тип данных фиксированной длины, это размер типа данных. |   | NumericPrecision | Если &lt;xref:System.Data.DbType&gt;является числовым типом данных, это максимальная точность столбца.&lt;/xref:System.Data.DbType&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The precision depends on the definition of the column.</source>
+          <target state="translated">Точность зависит от определения столбца.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.DbType&gt; is not a numeric data type, do not use the data in this column.</source>
+          <target state="translated">Если &lt;xref:System.Data.DbType&gt;не числовые данные типом, не используйте данные в этом столбце.&lt;/xref:System.Data.DbType&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying ODBC driver returns a precision value for a non-numeric data type, this value is used in the schema table.|   |NumericScale|If &lt;xref:System.Data.DbType&gt; is &lt;xref:System.Data.DbType&gt;, the number of digits to the right of the decimal point.</source>
+          <target state="translated">Если основной драйвер ODBC возвращает значение точности для типа нечисловые данные, это значение используется в таблице схемы. |   | NumericScale | Если &lt;xref:System.Data.DbType&gt;является &lt;xref:System.Data.DbType&gt;, количество цифр справа от десятичной запятой.&lt;/xref:System.Data.DbType&gt; &lt;/xref:System.Data.DbType&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, this is a null value.</source>
+          <target state="translated">В противном случае это значение null.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying ODBC driver returns a precision value for a non-numeric data type, this value is used in the schema table.|   |DataType|Maps to the common language runtime type of &lt;xref:System.Data.DbType&gt;.|   |ProviderType|The underlying driver type.|   |IsLong|<ph id="ph1">`true`</ph> if the column contains a Binary Long Object (BLOB) that contains very long data.</source>
+          <target state="translated">Если основной драйвер ODBC возвращает значение точности для типа нечисловые данные, это значение используется в таблице схемы. |   | Тип данных | Сопоставляется с типом среды выполнения &lt;xref:System.Data.DbType&gt;. |   | ProviderType | Тип основного драйвера. |   | IsLong | <ph id="ph1">`true`</ph> Если столбец содержит большой двоичный объект (BLOB), содержащий данные очень большой длины.&lt;/xref:System.Data.DbType&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The definition of very long data is driver-specific.|   |AllowDBNull|<ph id="ph1">`true`</ph> if the consumer can set the column to a null value or if the driver cannot determine whether the consumer can set the column to a null value.</source>
+          <target state="translated">Определение очень большого объема данных, относящиеся к драйверу. |   | AllowDBNull | <ph id="ph1">`true`</ph> если потребитель может установить для столбца значение null или если драйвер не может определить, может ли потребитель задать столбец значение null.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">В противном случае <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A column may contain null values, even if it cannot be set to a null value.|   |IsReadOnly|<ph id="ph1">`true`</ph> if the column cannot be modified; otherwise <ph id="ph2">`false`</ph>.|   |IsRowVersion|Set if the column contains a persistent row identifier that cannot be written to, and has no meaningful value except to identity the row.|   |IsUnique|<ph id="ph3">`true`</ph>: No two rows in the base table (the table returned in BaseTableName) can have the same value in this column.</source>
+          <target state="translated">Столбец может содержать значения null, даже если он не может быть присвоено значение null. |   | IsReadOnly | <ph id="ph1">`true`</ph> Если столбец не может быть изменен; в противном случае <ph id="ph2">`false`</ph>. |   | IsRowVersion | Значение, если столбец содержит постоянный идентификатор строки, не может быть записан и не имеет смысла значения за исключением удостоверений строки. |   | IsUnique | <ph id="ph3">`true`</ph>: Никакие две строки в базовой таблице (таблица, возвращаемая в BaseTableName) может иметь то же значение в этом столбце.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsUnique is guaranteed to be <ph id="ph1">`true`</ph> if the column represents a key by itself or if there is a constraint of type UNIQUE that applies only to this column.</source>
+          <target state="translated">IsUnique гарантированно <ph id="ph1">`true`</ph> Если столбец представляет собой ключ сам по себе, или если имеется ограничение типа UNIQUE, которое применяется только к этому столбцу.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column can contain duplicate values in the base table.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: Столбец может содержать повторяющиеся значения в базовой таблице.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default for this column is <ph id="ph1">`false`</ph>.|   |IsKey|<ph id="ph2">`true`</ph>: The column is one of a set of columns in the rowset that, taken together, uniquely identify the row.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — <ph id="ph1">`false`</ph>. |   | IsKey | <ph id="ph2">`true`</ph>: Столбец является элементом набора столбцов в наборе строк, в совокупности уникально идентифицировать строку.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of columns with IsKey set to <ph id="ph1">`true`</ph> must uniquely identify a row in the rowset.</source>
+          <target state="translated">Набор столбцов с IsKey присвоено <ph id="ph1">`true`</ph> должен однозначно идентифицировать строку в наборе строк.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no requirement that this set of columns is a minimal set of columns.</source>
+          <target state="translated">Нет необходимости, этот набор столбцов является минимальным набором столбцов.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This set of columns may be generated from a base table primary key, a unique constraint, or a unique index.</source>
+          <target state="translated">Этот набор столбцов может быть создан из первичного ключа базовой таблицы, уникального ограничения или уникального индекса.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column is not required to uniquely identify the row.|   |IsAutoIncrement|<ph id="ph2">`true`</ph> if the column assigns values to new rows in fixed increments; otherwise <ph id="ph3">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: Столбец не требуется для уникальной идентификации строки. |   | IsAutoIncrement | <ph id="ph2">`true`</ph> , если столбец присваивает значения новым строкам с фиксированным приращением; в противном случае <ph id="ph3">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default for this column is <ph id="ph1">`false`</ph>.|   |BaseSchemaName|The name of the schema in the data source that contains the column.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — <ph id="ph1">`false`</ph>. |   | BaseSchemaName | Имя схемы в источнике данных, содержащей столбец.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>NULL if the base catalog name cannot be determined.</source>
+          <target state="translated">Имеет значение NULL, если не удается определить имя базового каталога.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default for this column is a null value.|   |BaseCatalogName|The name of the catalog in the data store that contains the column.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — значение null. |   | BaseCatalogName | Имя каталога в хранилище данных, содержащем столбец.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>NULL if the base catalog name cannot be determined.</source>
+          <target state="translated">Имеет значение NULL, если не удается определить имя базового каталога.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default for this column is a null value.|   |BaseTableName|The name of the table or view in the data store that contains the column.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — значение null. |   | BaseTableName | Имя таблицы или представления в хранилище данных, содержащем столбец.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base table name cannot be determined.</source>
+          <target state="translated">Значение null, если не удается определить имя базовой таблицы.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is a null value.|   |BaseColumnName|The name of the column in the data store.</source>
+          <target state="translated">По умолчанию этот столбец имеет значение null. |   | BaseColumnName | Имя столбца в хранилище данных.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be different from the column name returned in the ColumnName column if an alias was used.</source>
+          <target state="translated">Это может отличаться от имени столбца, возвращаемого в столбце ColumnName, если используется псевдоним.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base column name cannot be determined or if the rowset column is derived, but not identical to, a column in the data store.</source>
+          <target state="translated">Значение null, если невозможно определить имя базового столбца или если столбец набора строк является производным, но не идентично, хранилище столбцов в данных.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default for this column is a null value.|       A row is returned for every column in the results set.</source>
+          <target state="translated">Значение по умолчанию для этого столбца — значение null. |       Для каждого столбца в результирующем наборе возвращается строка.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework Data Provider for ODBC assumes that metadata information is available from an ODBC driver after one of <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept>, <bpt id="p2">**</bpt>SQLExecute<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>SQLExecuteDirect<ept id="p3">**</ept> functions are called.</source>
+          <target state="translated">Поставщик данных .NET Framework для ODBC предполагает, что метаданные доступна, от драйвера ODBC после одного из <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept>, <bpt id="p2">**</bpt>SQLExecute<ept id="p2">**</ept>, или <bpt id="p3">**</bpt>SQLExecuteDirect<ept id="p3">**</ept> вызываются функции.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For "SchemaOnly" command behavior to work correctly, <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept> must return the required metadata information.</source>
+          <target state="translated">Для «SchemaOnly» команды поведение работал правильно, <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept> должен возвращать сведения о необходимых метаданных.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not all ODBC drivers support this function or return metadata information.</source>
+          <target state="translated">Не все драйверы ODBC поддерживают эту функцию или возвращают сведения о метаданных.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, part or all of the information in the SchemaTable will be missing.</source>
+          <target state="translated">В этих случаях часть или все данные в SchemaTable будет отсутствовать.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept>, The data provider calls the ODBC <bpt id="p2">**</bpt>SQLColAttribute<ept id="p2">**</ept> function to find the metadata information related to each column in the query results (for example, IsLong, IsUnique, AllowDBNull, BaseTableName, BaseColumnName).</source>
+          <target state="translated">После вызова метода <bpt id="p1">**</bpt>SQLPrepare<ept id="p1">**</ept>, поставщик данных вызывает функцию ODBC <bpt id="p2">**</bpt>SQLColAttribute<ept id="p2">**</ept> функцию, чтобы определить сведения метаданных, связанных с каждым столбцом в результатах запроса (например, IsLong, IsUnique, AllowDBNull, BaseTableName, BaseColumnName).</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying driver does not return some of this information, the corresponding values in the SchemaTable will not be set correctly.</source>
+          <target state="translated">Если основной драйвер не возвращает некоторые из этих сведений, соответствующие значения в SchemaTable не будут установлены правильно.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework Data Provider for ODBC also calls <bpt id="p1">**</bpt>SQLPrimaryKeys<ept id="p1">**</ept> to retrieve the key information for every table.</source>
+          <target state="translated">Поставщик данных .NET Framework для ODBC также вызывает <bpt id="p1">**</bpt>SQLPrimaryKeys<ept id="p1">**</ept> для получения сведения о ключах для каждой таблицы.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying ODBC driver does not support this function, the data provider calls <bpt id="p1">**</bpt>SQLStatistics<ept id="p1">**</ept> and chooses one of the unique indexes as the primary key for the table.</source>
+          <target state="translated">Если основной драйвер ODBC не поддерживает эту функцию, поставщик данных вызывает <bpt id="p1">**</bpt>SQLStatistics<ept id="p1">**</ept> и выбирает один из уникальных индексов в качестве первичного ключа для таблицы.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may not always give the results that you want.</source>
+          <target state="translated">Это может не всегда возвратить желаемые результаты.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; needs the correct identification of the primary keys of the table in order to work correctly.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;требуется корректная Идентификация первичных ключей таблицы для правильной работы.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the BaseTableName is not returned for every column in the query results, the .NET Framework Data Provider for ODBC tries to parse the SQL statement to find the table names involved in the query.</source>
+          <target state="translated">Если значение BaseTableName не возвращается для каждого столбца в результатах запроса, поставщик данных .NET Framework для ODBC пытается выполнить синтаксический анализ инструкции SQL, чтобы найти имена таблиц, участвующих в запросе.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This works with UPDATE, INSERT, DELETE and simple SELECT statements, but not with stored procedures or SELECT statements based on joins.</source>
+          <target state="translated">Это работает, UPDATE, INSERT, DELETE и простые инструкции SELECT, но не с хранимых процедур или инструкций SELECT, в зависимости от соединения.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If some or all the schema information is missing from this table, the &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; will not work correctly, because it has insufficient schema information to automatically generate the correct INSERT, UPDATE, or DELETE statements.</source>
+          <target state="translated">Если некоторые или все сведения о схеме отсутствует в этой таблице &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;не будет работать правильно, так как она содержит недостаточно сведений схемы для автоматического создания правильного инструкций INSERT, UPDATE или DELETE.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that metadata columns return the correct information, you must call &lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt; with the behavior parameter set to KeyInfo.</source>
+          <target state="translated">Чтобы убедиться в том, что столбцы метаданных возвращают правильные данные, необходимо вызвать метод &lt;xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;с параметром поведение, установленным в значение KeyInfo.&lt;/xref:System.Data.Odbc.OdbcCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, some of the columns in the schema table may return default, null, or incorrect data.</source>
+          <target state="translated">В противном случае некоторые столбцы в таблице схемы могут возвращать по умолчанию, значение null или неправильные данные.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use ODBC.NET to Oracle via the ODBC driver, aliased key columns are not recognized as keys.</source>
+          <target state="translated">При использовании ODBC.NET Oracle через драйвер ODBC столбцы ключей с псевдонимами не распознаются как ключи.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This affects the IsKey and IsUnique columns in the schema table of the OdbcDataReader.</source>
+          <target state="translated">Это влияет на столбцы в таблице схемы OdbcDataReader IsKey и IsUnique.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also affects the OdbcCommandBuilder's ability to generate updating logic.</source>
+          <target state="translated">Он также влияет на OdbcCommandBuilder создавать алгоритм.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consider not using an alias for a primary key column.</source>
+          <target state="translated">Рекомендуется не использовать псевдоним для столбца первичного ключа.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Microsoft Jet ODBC driver always returns unique index and primary key columns as nullable regardless of whether they are nullable or not.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек драйвер Microsoft Jet ODBC всегда возвращает уникальный индекс и первичные ключевые столбцы как допускающие значение NULL, независимо от того, являются ли они значения NULL или нет.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The driver also does not return primary key information; it only returns a list of unique indexes and their columns, including primary key columns, without differentiating among them.</source>
+          <target state="translated">Драйвер также не возвращает сведения о первичных ключах; Возвращает только список уникальных индексов и их столбцов, включая столбцы первичных ключей, не делая различий между ними.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , описывающий метаданные столбца.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.String&gt;.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversions are performed based on the underlying capabilities of the ODBC driver.</source>
+          <target state="translated">Преобразования выполняются на основе базовых возможностей драйвера ODBC.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the conversion is not supported, the method call fails.</source>
+          <target state="translated">Если преобразование не поддерживается, вызов метода завершается ошибкой.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Вызовите &lt;xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;для поиска значений null перед вызовом этого метода.&lt;/xref:System.Data.Odbc.OdbcDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a &lt;xref:System.String&gt;.</source>
+          <target state="translated">Значение указанного столбца в виде &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Заданное приведение является недопустимым.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.TimeSpan&gt; object.</source>
+          <target state="translated">Возвращает значение указанного столбца в виде &lt;xref:System.TimeSpan&gt;объекта.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a &lt;xref:System.TimeSpan&gt; object.</source>
+          <target state="translated">Значение указанного столбца в виде &lt;xref:System.TimeSpan&gt;объекта.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Gets the value of the column at the specified ordinal in its native format.</source>
+          <target state="translated">Получает значение столбца с указанным порядковым номером в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns &lt;xref:System.DBNull&gt; for null database columns.</source>
+          <target state="translated">Этот метод возвращает &lt;xref:System.DBNull&gt;для пустых столбцов базы данных.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The value to return.</source>
+          <target state="translated">Возвращаемое значение.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">Заполняет массив объектов значениями столбца текущей строки.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most applications, the &lt;xref:System.Data.Odbc.OdbcDataReader.GetValues%2A&gt; method provides an efficient means for retrieving all columns, instead of retrieving each column individually.</source>
+          <target state="translated">Для большинства приложений &lt;xref:System.Data.Odbc.OdbcDataReader.GetValues%2A&gt;метод предоставляет эффективные средства для извлечения всех столбцов вместо извлечения каждого столбца отдельно.&lt;/xref:System.Data.Odbc.OdbcDataReader.GetValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can pass an &lt;xref:System.Object&gt; array that contains fewer than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">Можно передать &lt;xref:System.Object&gt;массив, который содержит меньшее число столбцов, содержащихся в результирующей строке.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the amount of data the &lt;xref:System.Object&gt; array holds is copied to the array.</source>
+          <target state="translated">Объем данных &lt;xref:System.Object&gt;содержит массив копируется в массив.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also pass an &lt;xref:System.Object&gt; array whose length is more than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">Можно также передать &lt;xref:System.Object&gt;массив, длина которого превышает количество столбцов, содержащихся в результирующей строке.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns &lt;xref:System.DBNull&gt; for null database columns.</source>
+          <target state="translated">Этот метод возвращает &lt;xref:System.DBNull&gt;для пустых столбцов базы данных.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Object&gt;в который необходимо скопировать столбцы атрибутов.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Число экземпляров &lt;xref:System.Object&gt;в массиве.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит одну или несколько строк.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> содержит одну или несколько строк; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Indicates whether the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">Указывает, является ли <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> закрыт.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsClosed and &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt; are the only properties that you can call after the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is closed.</source>
+          <target state="translated">IsClosed и &lt;xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;только свойства, которые можно вызывать после &lt;xref:System.Data.Odbc.OdbcDataReader&gt;закрыт.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt; &lt;/xref:System.Data.Odbc.OdbcDataReader.RecordsAffected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> закрыт; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains nonexistent or missing values.</source>
+          <target state="translated">Возвращает значение, указывающее, содержит ли столбец несуществующие или отсутствующие значения.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid raising an error, call this method to look for null column values before calling the typed Get methods (for example, &lt;xref:System.Data.Odbc.OdbcDataReader.GetByte%2A&gt;, &lt;xref:System.Data.Odbc.OdbcDataReader.GetChar%2A&gt;, and so on).</source>
+          <target state="translated">Чтобы избежать возникновения ошибки, этот метод для поиска значений null столбцов перед вызовом типизированных методов Get (например, &lt;xref:System.Data.Odbc.OdbcDataReader.GetByte%2A&gt;, &lt;xref:System.Data.Odbc.OdbcDataReader.GetChar%2A&gt;и так далее).&lt;/xref:System.Data.Odbc.OdbcDataReader.GetChar%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataReader.GetByte%2A&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Отсчитываемый от нуля порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column value is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если значение указанного столбца эквивалентно <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column ordinal.</source>
+          <target state="translated">Возвращает значение указанного столбца в его собственном формате по порядковому номеру столбца.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The column ordinal.</source>
+          <target state="translated">Порядковый номер столбца.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Значение указанного столбца в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 through &lt;xref:System.Data.IDataRecord.FieldCount*&gt;.</source>
+          <target state="translated">Переданный индекс находился вне диапазона от 0 до &lt;xref:System.Data.IDataRecord.FieldCount*&gt;.&lt;/xref:System.Data.IDataRecord.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column name.</source>
+          <target state="translated">Возвращает значение указанного столбца в его собственном формате по имени столбца.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A case-sensitive lookup is performed first.</source>
+          <target state="translated">Сначала выполняется поиск с учетом регистра.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">В случае неудачи выполняется второй поиска без учета регистра.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is kana-width insensitive.</source>
+          <target state="translated">Этот метод не учитывает ширину японской азбуки.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The column name.</source>
+          <target state="translated">Имя столбца.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Значение указанного столбца в его собственном формате.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>No column with the specified name was found.</source>
+          <target state="translated">Столбец с указанным именем не найден.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next result when reading the results of batch SQL statements.</source>
+          <target state="translated">Перемещает <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> к следующему результату при считывании результатов пакета инструкций SQL.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used to process multiple results that can be generated by executing batch SQL statements.</source>
+          <target state="translated">Используется для обработки нескольких результатов, которые могут быть созданы при выполнении пакетных инструкций SQL.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is positioned on the first result.</source>
+          <target state="translated">По умолчанию &lt;xref:System.Data.Odbc.OdbcDataReader&gt;расположено на первый результат.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more result sets; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если имеются дополнительные результирующие наборы; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next record.</source>
+          <target state="translated">Перемещает <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> к следующей записи.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is before the first record.</source>
+          <target state="translated">По умолчанию &lt;xref:System.Data.Odbc.OdbcDataReader&gt;— перед первой записью.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call Read to start accessing any data.</source>
+          <target state="translated">Таким образом необходимо вызвать чтения для запуска, доступ к данным.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is being used, the associated &lt;xref:System.Data.Odbc.OdbcConnection&gt; is busy serving it until you call &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;.</source>
+          <target state="translated">Хотя &lt;xref:System.Data.Odbc.OdbcDataReader&gt;используется, &lt;xref:System.Data.Odbc.OdbcConnection&gt;обслуживает его, пока не будет вызван &lt;xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcDataReader.Close%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt; связанные&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more rows; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если имеются дополнительные строки. в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.</source>
+          <target state="translated">Возвращает номер строки изменены, вставлены или удалены инструкцией SQL.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RecordsAffected property is not set until all rows are read and you close the &lt;xref:System.Data.Odbc.OdbcDataReader&gt;.</source>
+          <target state="translated">Свойство RecordsAffected не задано, пока не будут считаны все строки и закройте &lt;xref:System.Data.Odbc.OdbcDataReader&gt;.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is cumulative.</source>
+          <target state="translated">Значение этого свойства является накапливаемым.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if two records are inserted in batch mode, the value of RecordsAffected will be 2.</source>
+          <target state="translated">Например если две записи вставляются в пакетном режиме, значение RecordsAffected будет равен 2.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt; and RecordsAffected are the only properties that you can call after the &lt;xref:System.Data.Odbc.OdbcDataReader&gt; is closed.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt;и RecordsAffected являются единственными свойствами, которые могут быть вызваны после &lt;xref:System.Data.Odbc.OdbcDataReader&gt;закрыт.&lt;/xref:System.Data.Odbc.OdbcDataReader&gt;&lt;/xref:System.Data.Odbc.OdbcDataReader.IsClosed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The number of rows changed, inserted, or deleted.</source>
+          <target state="translated">Число строк, которые были изменены, вставлены или удалены.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>-1 for SELECT statements; 0 if no rows were affected, or the statement failed.</source>
+          <target state="translated">-1 для инструкций SELECT; 0, если строки не были затронуты или выполнение инструкции завершилось ошибкой.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

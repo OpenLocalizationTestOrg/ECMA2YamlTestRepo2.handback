@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e9f1ef102dc82b8f8c8af0e12729df0ff0cac26</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.CipherMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0f088b363a0095e2156b9f6809b8097fffdb5e2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c071a9147e3bbe4359678c7560ee9356b488b55d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the block cipher mode to use for encryption.</source>
+          <target state="translated">Задает режим блочного шифра для использования при шифровании.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Block cipher algorithms encrypt data in block units, rather than a single byte at a time.</source>
+          <target state="translated">Алгоритмы блочного шифра шифруют данные в блоке, а не один байт за раз.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common block size is 8 bytes.</source>
+          <target state="translated">Самый распространенный размер блока — 8 байт.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each block is heavily processed, block ciphers provide a higher level of security than stream ciphers.</source>
+          <target state="translated">Поскольку каждый блок подвергается серьезной обработке, блочные шифры обеспечивают более высокий уровень безопасности, чем поточных шифров.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, block cipher algorithms tend to execute more slowly than stream ciphers.</source>
+          <target state="translated">Однако алгоритмы блочного шифра, как правило, выполняются медленнее, чем поточных шифров.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Block ciphers use the same encryption algorithm for each block.</source>
+          <target state="translated">Блочные шифры используют один и тот же алгоритм шифрования для каждого блока.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of this, a block of plain text will always return the same cipher text when encrypted with the same key and algorithm.</source>
+          <target state="translated">По этой причине блока открытого текста всегда будет возвращать тот же зашифрованный текст, если он зашифрован с один и тот же ключ и алгоритм.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this behavior can be used to crack a cipher, cipher modes are introduced that modify the encryption process based on feedback from earlier block encryptions.</source>
+          <target state="translated">Так как это поведение может использоваться для взлома шифра, представленные режимы шифров, изменяющие процесс шифрования на основе отзывов ранее зашифрованными блоками.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting encryption provides a higher level of security than a simple block encryption.</source>
+          <target state="translated">Результат шифрования обеспечивает более высокий уровень безопасности, чем шифрование простой блок.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Cipher Block Chaining (<bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode introduces feedback.</source>
+          <target state="translated">Сцепления блоков шифра (<bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) режим предоставляет обратную связь.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before each plain text block is encrypted, it is combined with the cipher text of the previous block by a bitwise exclusive OR operation.</source>
+          <target state="translated">Перед шифрованием каждого блока открытого текста он объединяется с зашифрованным текстом предыдущего блока с помощью поразрядной исключающей операции OR.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This ensures that even if the plain text contains many identical blocks, they will each encrypt to a different cipher text block.</source>
+          <target state="translated">Это гарантирует, что даже если открытый текст содержит большое количество идентичных блоков, они будут шифровании различные блоки зашифрованного текста.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The initialization vector is combined with the first plain text block by a bitwise exclusive OR operation before the block is encrypted.</source>
+          <target state="translated">Вектор инициализации объединяется с первого блока открытого текста с помощью поразрядной исключающей операции OR до шифрования блока.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a single bit of the cipher text block is mangled, the corresponding plain text block will also be mangled.</source>
+          <target state="translated">Если один бит блока зашифрованного текста будет искажен будет изменен и соответствующий блок открытого текста.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition, a bit in the subsequent block, in the same position as the original mangled bit, will be mangled.</source>
+          <target state="translated">Кроме того разряда в следующего блока, в той же позиции, что исходный измененный бит будет изменен.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Cipher Feedback (<bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode processes small increments of plain text into cipher text, instead of processing an entire block at a time.</source>
+          <target state="translated">Обратной связи (<bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) режиме обрабатывает небольшие фрагменты открытого текста в зашифрованный текст, вместо преобразования всего блока одновременно.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This mode uses a shift register that is one block in length and is divided into sections.</source>
+          <target state="translated">Этот режим использует регистр сдвига длиной в один блок, разделенный на секции.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, if the block size is 8 bytes, with one byte processed at a time, the shift register is divided into eight sections.</source>
+          <target state="translated">Например если размер блока — 8 байт побайтовой обрабатываться одновременно, регистр сдвига состоит из восьми секций.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a bit in the cipher text is mangled, one plain text bit is mangled and the shift register is corrupted.</source>
+          <target state="translated">Если бит в зашифрованном тексте искажается бит открытого текста будет искажен и регистр сдвига.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This results in the next several plain text increments being mangled until the bad bit is shifted out of the shift register.</source>
+          <target state="translated">Это приведет к следующей несколько увеличивает обычного текста изменять, пока поврежденный бит выйдет за пределы регистра сдвига.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default feedback size can vary by algorithm, but is typically either 8 bits or the number of bits of the block size.</source>
+          <target state="translated">Размер ответа по умолчанию может зависеть от алгоритма, но обычно 8 бит или количество бит размер блока.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can alter the number of feedback bits by using the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt; property.</source>
+          <target state="translated">Число битов отзыв можно изменить с помощью &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt;свойство.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Algorithms that support CFB use this property to set the feedback.</source>
+          <target state="translated">Алгоритмы, поддерживающие CFB использовать это свойство для настройки обратной связи.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Cipher Text Stealing (<bpt id="p1">&lt;xref uid="langword_csharp_CTS" name="CTS" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode handles any length of plain text and produces cipher text whose length matches the plain text length.</source>
+          <target state="translated">Зашифрованного текста (<bpt id="p1">&lt;xref uid="langword_csharp_CTS" name="CTS" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) режиме обрабатывает открытый текст любой длины и создает зашифрованный текст, длина которого совпадает с длиной открытого текста.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This mode behaves like the <bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> mode for all but the last two blocks of the plain text.</source>
+          <target state="translated">В этом режиме ведет себя как <bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> режим для всех, но последних двух блоков в виде обычного текста.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Electronic Codebook (<bpt id="p1">&lt;xref uid="langword_csharp_ECB" name="ECB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode encrypts each block individually.</source>
+          <target state="translated">Электронной кодовой книги (<bpt id="p1">&lt;xref uid="langword_csharp_ECB" name="ECB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) режиме каждый блок зашифровывается отдельно.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Any blocks of plain text that are identical and in the same message, or that are in a different message encrypted with the same key, will be transformed into identical cipher text blocks.</source>
+          <target state="translated">Все блоки открытого текста, которые идентичны и в то же сообщение или находятся в разных сообщение, зашифрованное с тем же ключом, преобразуются в идентичные блоки текста шифра.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Important<ept id="p1">**</ept>:  This mode is not recommended because it opens the door for multiple security exploits.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Важные<ept id="p1">**</ept>: этот режим не рекомендуется, поскольку он создает предпосылки для нескольких уязвимостей безопасности.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the plain text to be encrypted contains substantial repetition, it is feasible for the cipher text to be broken one block at a time.</source>
+          <target state="translated">Если в виде обычного текста, должны шифроваться содержит значительное число повторов, возможна для зашифрованного текста необходимо разделить один блок одновременно.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It is also possible to use block analysis to determine the encryption key.</source>
+          <target state="translated">Можно также использовать анализ блоков, чтобы определить ключ шифрования.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, an active adversary can substitute and exchange individual blocks without detection, which allows blocks to be saved and inserted into the stream at other points without detection.</source>
+          <target state="translated">Кроме того злоумышленник active можно заменить и отдельные блоки обнаружение, позволяющее блоки сохранять и вставляемого в поток в других местах без обнаружения.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Output Feedback (<bpt id="p1">&lt;xref uid="langword_csharp_OFB" name="OFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode processes small increments of plain text into cipher text instead of processing an entire block at a time.</source>
+          <target state="translated">Выходной обратной связи (<bpt id="p1">&lt;xref uid="langword_csharp_OFB" name="OFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) режиме обрабатывает небольшие фрагменты открытого текста в зашифрованный текст вместо преобразования всего блока одновременно.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This mode is similar to <bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; the only difference between the two modes is the way that the shift register is filled.</source>
+          <target state="translated">Этот режим аналогичен <bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; заполняется только разницу между двумя режимами заключается в способе регистрации сдвига.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If a bit in the cipher text is mangled, the corresponding bit of plain text will be mangled.</source>
+          <target state="translated">Если бит в зашифрованном тексте искажается, соответствующий бит открытого текста будет изменен.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>However, if there are extra or missing bits from the cipher text, the plain text will be mangled from that point on.</source>
+          <target state="translated">Тем не менее если имеются лишние или недостающие биты из зашифрованного текста, в виде обычного текста будет изменен, начиная с этой точки.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
