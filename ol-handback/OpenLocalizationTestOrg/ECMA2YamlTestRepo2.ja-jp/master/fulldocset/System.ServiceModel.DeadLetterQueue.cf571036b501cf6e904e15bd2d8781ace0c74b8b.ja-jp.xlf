@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3abe19725c02ecc4b4800a8438430c82743c4e4e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.DeadLetterQueue.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">647b1933bc138deba9388d136c454010b2e61a35</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ca4d178d517ca191056895d986502b448f027c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the type of dead-letter queue to be used.</source>
+          <target state="translated">使用する配信不能キューの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The dead-letter queue is a queue on the queue manager of the sending application for expired messages that have failed to be delivered.</source>
+          <target state="translated">配信不能キューは、配信に失敗した期限切れのメッセージの送信元アプリケーションのキュー マネージャーです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The DeadLetterQueue enumeration specifies the type of dead-letter queue to use.</source>
+          <target state="translated">DeadLetterQueue 列挙体は、使用する配信不能キューの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The values are:      -   None: No dead-letter queue is required.</source>
+          <target state="translated">値:-None: 配信不能キューは必要ありません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If a message fails delivery, no record of it is maintained in the dead-letter queue.</source>
+          <target state="translated">メッセージ配信に失敗した場合、配信不能キューにそのレコードは維持されません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is the default value when &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">これは、既定値に設定と&lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;に設定されている<ph id="ph1">`false`</ph>&lt;/xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   System: The system-wide, dead-letter queue is used to record messages that fail delivery.</source>
+          <target state="translated">-System: システム全体、配信不能キューは、配信に失敗したメッセージを記録する使用されます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>MSMQ has a transactional, system, dead-letter queue and a non-transactional, system, dead-letter queue to record expired messages that failed delivery from transactional and non-transactional queues, respectively.</source>
+          <target state="translated">MSMQ には、トランザクション、システム、配信不能キューおよび非トランザクション、システム、それぞれトランザクションおよび非トランザクション キューからの配信に失敗した期限切れのメッセージを記録する配信不能キュー。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is the default value when &lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt; is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">これは、既定値に設定と&lt;xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;に設定されている<ph id="ph1">`true`</ph>&lt;/xref:System.ServiceModel.MsmqBindingBase.ExactlyOnce%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Custom: The queue specified in the &lt;xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt; is used to record messages that fail delivery.</source>
+          <target state="translated">指定されたキューのカスタム:&lt;xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt;配信に失敗したメッセージの記録に使用します&lt;/xref:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A message can fail to reach the receiving application for any of the following reasons:      -   A transactional message is sent to a non-transactional queue.</source>
+          <target state="translated">メッセージは、次の理由のいずれかの受信側のアプリケーションに到達するできなかんだことができます:-非トランザクション キューへトランザクション メッセージを送信します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   A non-transactional message is sent to a transactional queue.</source>
+          <target state="translated">は、非トランザクション メッセージは、トランザクション キューに送信されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   An unauthenticated message is sent to a queue that accepts only authenticated messages.</source>
+          <target state="translated">-認証されていないメッセージは認証されたメッセージだけを受け取るキューに送信されます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   An unencrypted message is sent to a queue that accepts only encrypted messages.</source>
+          <target state="translated">-暗号化されていないメッセージは暗号化されたメッセージだけを受け取るキューに送信します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   The message's time-to-live value expires before the message is delivered to a receiver.</source>
+          <target state="translated">-メッセージの有効期間値には、メッセージが受信者に配信される前に期限が切れます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   The message storage quota of the target computer or the storage quota of the destination queue is exceeded, or there is no available storage space on the target computer when the message arrives.</source>
+          <target state="translated">ターゲット コンピューターの-メッセージ ストレージ クォータまたは送信先キューの記憶域のクォータを超えた場合、または使用可能記憶域空き領域がないターゲット コンピューターで、メッセージが到着するとします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   The sender does not have the <bpt id="p1">[</bpt>access rights<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=96167)</ept> required to place the message in the destination queue.</source>
+          <target state="translated">-送信者がない、<bpt id="p1">[</bpt>アクセス権を<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=96167)</ept>送信先キューにメッセージを配置するために必要です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   The digital signature attached to the message is not valid.</source>
+          <target state="translated">メッセージに添付-デジタル署名が正しくありません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   An encrypted message cannot be decrypted by the destination queue manager.</source>
+          <target state="translated">、送信先のキュー マネージャーによって暗号化されたメッセージを解読できません。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-   The destination queue is purged or deleted before the message is retrieved.</source>
+          <target state="translated">-送信先キューが削除または、メッセージが取得される前に削除します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Custom dead-letter queue.</source>
+          <target state="translated">カスタム配信不能キュー。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No dead-letter queue is to be used.</source>
+          <target state="translated">使用する配信不能キューはありません。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use the system-wide, dead-letter queue.</source>
+          <target state="translated">システム全体、配信不能キューを使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

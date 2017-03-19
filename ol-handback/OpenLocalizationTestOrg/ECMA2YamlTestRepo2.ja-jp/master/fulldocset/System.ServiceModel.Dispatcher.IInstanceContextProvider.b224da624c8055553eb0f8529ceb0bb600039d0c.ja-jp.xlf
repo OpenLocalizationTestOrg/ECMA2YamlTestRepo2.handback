@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51dd0a1c8c9fcd44da92505545db468c7cfa1364</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInstanceContextProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dad8a850564d0ef9ef0b4a0ff56923be41fed346</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f855c57820fd4d8f7169160ef18e5ae93042a10</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implement to participate in the creation or choosing of a <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object, especially to enable shared sessions.</source>
+          <target state="translated">作成または選択に参加するために実装する<ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>共有セッションを有効にするには、特にのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the IInstanceContextProvider interface to provide the appropriate &lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt; object to the system.</source>
+          <target state="translated">適切なを提供する IInstanceContextProvider インターフェイスを実装して&lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt;をシステム オブジェクトです&lt;/xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, this interface is implemented to support shared sessions, enable service instance pooling, control lifetimes of service instances, or to group contexts among clients.</source>
+          <target state="translated">通常、このインターフェイスは、共有セッションのサポート、サービス インスタンス プールを有効にする、またはクライアントの間でのコンテキストのグループにサービス インスタンスの有効期間の制御に実装されます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, to implement sharing, insert a custom IInstanceContextProvider to decide which session or call from a client is associated with which &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">たとえば、共有を実装するどのセッションまたはクライアントからの呼び出しに関連付けられているかを決定するカスタム IInstanceContextProvider を挿入&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For an example that demonstrates the sharing of instance contexts, see <bpt id="p1">[</bpt>InstanceContextSharing<ept id="p1">](http://msdn.microsoft.com/en-us/4a6a46d7-b7d7-4bb5-a0dd-03ffa3cbc230)</ept>.</source>
+          <target state="translated">インスタンス コンテキストの共有の例は、次を参照してください。 <bpt id="p1">[</bpt>InstanceContextSharing<ept id="p1">](http://msdn.microsoft.com/en-us/4a6a46d7-b7d7-4bb5-a0dd-03ffa3cbc230)</ept>です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When an IInstanceContextProvider is inserted into <ph id="ph2">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>, the normal property that controls the creation of &lt;xref:System.ServiceModel.InstanceContext&gt; objects (the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; property) is no longer checked and has no effect.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ときの IInstanceContextProvider が挿入される<ph id="ph2">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>の作成を制御する通常のプロパティ&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト (、&lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt;プロパティ) は検査されなくなり、影響を与えません&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A more generic mechanism by which you can initialize &lt;xref:System.ServiceModel.InstanceContext&gt; objects when created (for example, to attach custom extensions to each &lt;xref:System.ServiceModel.InstanceContext&gt;) is the &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextInitializer?displayProperty=fullName&gt;.</source>
+          <target state="translated">初期化することができますより汎用的なメカニズム&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト作成時に (たとえば、それぞれにカスタム拡張機能をアタッチする&lt;xref:System.ServiceModel.InstanceContext&gt;) &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextInitializer?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextInitializer?displayProperty=fullName&gt;は、&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Called when a new message is received.</source>
+          <target state="translated">新しいメッセージが受信したときに呼び出されます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The GetExistingInstanceContext method is called when a message is received.</source>
+          <target state="translated">GetExistingInstanceContext メソッドは、メッセージが受信したときに呼び出されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Return the &lt;xref:System.ServiceModel.InstanceContext&gt; object that you want to process the message, or <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">返す、&lt;xref:System.ServiceModel.InstanceContext&gt;メッセージを処理することをオブジェクトまたは<ph id="ph1">`null`</ph>&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the case of <ph id="ph1">`null`</ph>, <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> creates a new &lt;xref:System.ServiceModel.InstanceContext&gt; object for the message and then calls the &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.InitializeInstanceContext%2A&gt; method.</source>
+          <target state="translated">場合、 <ph id="ph1">`null`</ph>、<ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>新たに作成&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトをメッセージを呼び出し、続いて、&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.InitializeInstanceContext%2A&gt;メソッド&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.InitializeInstanceContext%2A&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you return <ph id="ph1">`null`</ph>, the new &lt;xref:System.ServiceModel.InstanceContext&gt; object goes through the throttling system and increments the count of &lt;xref:System.ServiceModel.Dispatcher.ServiceThrottle.MaxConcurrentInstances%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">返す場合<ph id="ph1">`null`</ph>、新しい&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトがスロットル システムが組まれ&lt;xref:System.ServiceModel.Dispatcher.ServiceThrottle.MaxConcurrentInstances%2A?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Dispatcher.ServiceThrottle.MaxConcurrentInstances%2A?displayProperty=fullName&gt;のカウントをインクリメント&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The incoming message.</source>
+          <target state="translated">受信メッセージ。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The channel that received the message.</source>
+          <target state="translated">メッセージを受信したチャネル。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object that is used to process the message; return <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to instruct <ph id="ph3">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> to create a new &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>返し以外のメッセージを処理するために使用できるオブジェクト<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>に指示する<ph id="ph3">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>新しい&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Called when <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned from the &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext*&gt; method.</source>
+          <target state="translated">ときに呼び出されます<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>から返される、&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext*&gt;メソッド&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext*&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>InitializeInstanceContext is called when &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext%2A&gt; returns <ph id="ph1">`null`</ph> and a new &lt;xref:System.ServiceModel.InstanceContext&gt; object is created.</source>
+          <target state="translated">InitializeInstanceContext ときに呼び出される&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext%2A&gt;返します<ph id="ph1">`null`</ph>され、新しい&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトを作成します&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.GetExistingInstanceContext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called to notify you that a new &lt;xref:System.ServiceModel.InstanceContext&gt; has been created.</source>
+          <target state="translated">通知するようにこのメソッドを新しい&lt;xref:System.ServiceModel.InstanceContext&gt;が作成されました&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The new <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object.</source>
+          <target state="translated">新しい<ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.InstanceContext?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The incoming message.</source>
+          <target state="translated">受信メッセージ。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The channel that received the message.</source>
+          <target state="translated">メッセージを受信したチャネル。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Called when all &lt;xref:System.ServiceModel.InstanceContext&gt; activities have completed to enable implementers to prevent the &lt;xref:System.ServiceModel.InstanceContext&gt; from being recycled.</source>
+          <target state="translated">ときに呼び出されますすべて&lt;xref:System.ServiceModel.InstanceContext&gt;を防ぐために実装を有効にするアクティビティが完了した、&lt;xref:System.ServiceModel.InstanceContext&gt;がリサイクルされない&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>IsIdle is called when <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> is about to close and recycle an idle &lt;xref:System.ServiceModel.InstanceContext&gt; object so that you can inform the runtime whether to continue doing so.</source>
+          <target state="translated">ときに呼び出される<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>が閉じてリサイクル、アイドル状態の&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトのランタイム切らないでの作業を続行するかどうか必ず知らせておくように&lt;/xref:System.ServiceModel.InstanceContext&gt;しよう</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For an example that demonstrates the sharing of instance contexts, see <bpt id="p1">[</bpt>InstanceContextSharing<ept id="p1">](http://msdn.microsoft.com/en-us/4a6a46d7-b7d7-4bb5-a0dd-03ffa3cbc230)</ept>.</source>
+          <target state="translated">インスタンス コンテキストの共有の例は、次を参照してください。 <bpt id="p1">[</bpt>InstanceContextSharing<ept id="p1">](http://msdn.microsoft.com/en-us/4a6a46d7-b7d7-4bb5-a0dd-03ffa3cbc230)</ept>です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.InstanceContext&gt; object that is considered idle.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.InstanceContext&gt;アイドル状態になっているオブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> is to close and recycle the &lt;xref:System.ServiceModel.InstanceContext&gt; object and adjust the value of <ph id="ph2">&amp;lt;</ph>xref:System.ServiceModel.Dispatcher.ServiceThrottle.MaxConcurrentInstances%2A?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>を閉じてリサイクルし、&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトし、の値を調整<ph id="ph2">&amp;lt;</ph>xref:System.ServiceModel.Dispatcher.ServiceThrottle.MaxConcurrentInstances%2A?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.ServiceModel.InstanceContext&gt; 。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Called when the &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle*&gt; method returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to enable implementers to provide a callback to notify <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> when the &lt;xref:System.ServiceModel.InstanceContext&gt; object is finished.</source>
+          <target state="translated">ときに呼び出されます、&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle*&gt;メソッドを返します<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>に通知するコールバックを提供する実装を有効にする<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>ときに、&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトが完了した。&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle*&gt; 。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The NotifyIdle method is called when the &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt; method returns <ph id="ph1">`false`</ph> to enable you to provide <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> with a &lt;xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt; object that you use to inform the runtime that the &lt;xref:System.ServiceModel.InstanceContext&gt; has finished its work.</source>
+          <target state="translated">NotifyIdle メソッドが呼び出されます、&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt;メソッドを返します<ph id="ph1">`false`</ph>を提供するために<ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>で、&lt;xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt;オブジェクトのランタイムを通知するために使用することを、&lt;xref:System.ServiceModel.InstanceContext&gt;作業を完了した。&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt; object notifies the runtime that the &lt;xref:System.ServiceModel.InstanceContext&gt; has finished its work, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> calls &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt; once again.</source>
+          <target state="translated">ときに、&lt;xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt;オブジェクト、ランタイムに通知する、 &lt;xref:System.ServiceModel.InstanceContext&gt;、作業を完了した<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>呼び出し&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt;もう一度&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.Dispatcher.InstanceContextIdleCallback?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This cycle continues until &lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt; returns <ph id="ph1">`true`</ph> and the context is closed and recycled.</source>
+          <target state="translated">このサイクルまで&lt;xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt;を返します<ph id="ph1">`true`</ph>コンテキストが閉じられ、再利用されるとします&lt;/xref:System.ServiceModel.Dispatcher.IInstanceContextProvider.IsIdle%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.InstanceContextIdleCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that notifies <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> when the &lt;xref:System.ServiceModel.InstanceContext&gt; object is to be closed and recycled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.InstanceContextIdleCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに通知する<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>ときに、&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトが閉じ、再利用する&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.ServiceModel.InstanceContext&gt;.</source>
+          <target state="translated">現在&lt;xref:System.ServiceModel.InstanceContext&gt;。&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

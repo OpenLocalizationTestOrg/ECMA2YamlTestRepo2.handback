@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b32176d6089fbbc162329a5d737b8d1019d7145</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.PeerNode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b60bef9e4e857e7e2b9c602f9a4f17de5cc73731</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc877a1d3b71f4be4bd47f8fb52425748b7fef15</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the instance of of a peer node used by an application participating in a specific peer mesh.</source>
+          <target state="translated">特定のピア メッシュに参加しているアプリケーションによって使用されるピア ノードのインスタンスを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A peer node can host multiple peer channels within the mesh as long as they share a common URI and host name in the &lt;xref:System.ServiceModel.EndpointAddress&gt; supplied to the binding for each channel.</source>
+          <target state="translated">共通の URI およびホスト名を共有する限り、ピア ノードがメッシュ内の複数のピア チャネルをホストできます、&lt;xref:System.ServiceModel.EndpointAddress&gt;各チャネルのバインドを指定します&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If two or more peer channels defined for a peer node are created with separate bindings, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, and &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; properties must be identical on all bindings.</source>
+          <target state="translated">ピア ノードに対して定義された&amp;2; つまたは複数のピア チャネルが別々 のバインドで作成された場合、 &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;、 &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;、および&lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;プロパティは、すべてのバインドで同じである必要があります&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;&lt;/xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a subsequent channel binding is created after the first one for the same peer node instance, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property on this and subsequent bindings must be less than or equal to the value of &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property as set on the first channel binding.</source>
+          <target state="translated">チャネル バインドが、同じピア ノード インスタンスの&amp;1; つ目の後に作成された場合、&lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;プロパティには、これと後続のバインドの値以下である必要があります&lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;の最初のチャネル バインドに設定されたプロパティ&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the peer node is online and able to send messages to neighboring nodes in the peer mesh.</source>
+          <target state="translated">ピア ノードがオンラインであり、ピア メッシュ内の近隣ノードにメッセージを送信できるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>"Online" indicates that a peer node has available neighbor nodes.</source>
+          <target state="translated">「オンライン」は、ピア ノードが利用可能な近隣ノードを持っていることを示します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>"Offline" indicates that a peer node has no available neighbors.</source>
+          <target state="translated">「オフライン」ピア ノードに使用可能な近隣ノードがないことを示します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the peer node is online; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ピア ノードがオンライン以外の場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets and sets a custom filter for messages received over the peer channel.</source>
+          <target state="translated">取得し、ピア チャネルで受信したメッセージに対するカスタム フィルターを設定します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The message filter must be a derived type and should be recast to that type to use any custom features defined on it.</source>
+          <target state="translated">メッセージ フィルターは、派生型にする必要があり、それに定義されている任意のカスタム機能を使用するには、その型に再キャストする必要があります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom message filter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>カスタム メッセージ フィルターを含むです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">チャネルがリッスンするために開いていません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signals when the peer node goes offline from the peer mesh.</source>
+          <target state="translated">メッシュ、ピアからピア ノードがオフラインになると通知。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An offline peer node has no neighbor nodes within the peer mesh to which it can connect.</source>
+          <target state="translated">オフライン ピア ノードには、接続できるピア メッシュ内の近隣ノードがありません。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Signals when a peer node comes online within the peer mesh.</source>
+          <target state="translated">ピア ノードがピア メッシュ内でオンラインになったときに通知します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An online peer node has at least one neighbor node within the peer mesh to which it is connected.</source>
+          <target state="translated">オンライン ピア ノードが接続されているピア メッシュ内に少なくとも&amp;1; つの近隣ノードがします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the network port on which the peer node is listening.</source>
+          <target state="translated">ピア ノードがリッスンするネットワーク ポートを取得します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Int32&gt; that specifies the network port on which the peer node is listening.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;ピア ノードがリッスンするネットワーク ポートを指定します。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">チャネルがリッスンするために開いていません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refreshes the connection with the peer mesh.</source>
+          <target state="translated">ピア メッシュとの接続を更新します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">チャネルがリッスンするために開いていません。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The refresh operation timed out.</source>
+          <target state="translated">更新操作がタイムアウトしました。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A network error occurred during the refresh attempt.</source>
+          <target state="translated">更新の試行中に、ネットワーク エラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The connection aborted during the refresh attempt.</source>
+          <target state="translated">更新の試行中に、接続が中止されました。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection faulted during the refresh attempt.</source>
+          <target state="translated">接続は、更新の試行中にエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides a string representation of a peer node.</source>
+          <target state="translated">ピア ノードの文字列表現を提供します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; value that contains the mesh ID of the peer node if the mesh ID is set; otherwise, it returns the type.</source>
+          <target state="translated">&lt;xref:System.String&gt;メッシュ ID が設定されている場合は、ピア ノードのメッシュ ID を含む値です。それ以外の場合、型が返されます。&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

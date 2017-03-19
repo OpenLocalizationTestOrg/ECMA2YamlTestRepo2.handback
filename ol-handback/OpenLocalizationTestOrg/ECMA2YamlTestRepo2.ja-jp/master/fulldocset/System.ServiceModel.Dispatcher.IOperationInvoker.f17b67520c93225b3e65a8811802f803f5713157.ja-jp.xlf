@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d21c4cf03220f17cbd4f79f9f691d396d130853</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IOperationInvoker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3334a5b392d3fc19c110d48be14b91646a44b1e9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb2cf6cdfebc5a6b4a2b139bc30cfe58871e159a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Declares methods that take an object and an array of parameters extracted from a message, invoke a method on that object with those parameters, and return the method's return value and output parameters.</source>
+          <target state="translated">オブジェクトおよびメッセージから抽出されたパラメーターの配列を受け取り、これらのパラメーターを使用してそのオブジェクトに対してメソッドを呼び出すとメソッドの戻り値を返す出力パラメーターされるメソッドを宣言します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the IOperationInvoker interface to control the conversion from an untyped object and array of parameters to a strongly-typed method call on that object.</source>
+          <target state="translated">そのオブジェクトの厳密に型指定されたメソッドの呼び出しに型指定されていないオブジェクトとパラメーターの配列から変換を制御する IOperationInvoker インターフェイスを実装します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It has a synchronous &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt; method, which takes an instance and set of inputs of type object and returns an object and a set of outputs of type object.</source>
+          <target state="translated">同期が&lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt;メソッドは、インスタンスと型オブジェクトの入力のセットを受け取り、オブジェクトと型のオブジェクトの出力セットを返します&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It also has a &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeBegin%2A&gt; and <bpt id="p1">[</bpt>InvokeEnd(Object, Object<ph id="ph1">\[</ph><ph id="ph2">\]</ph>, IAsyncResult)<ept id="p1">](assetId:///M:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeEnd(System.Object,System.Object[]@,System.IAsyncResult)?qualifyHint=False&amp;autoUpgrade=True)</ept> variant.</source>
+          <target state="translated">さらに、&lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeBegin%2A&gt;と<bpt id="p1">[</bpt>InvokeEnd (Object, Object<ph id="ph1">\[</ph><ph id="ph2">\]</ph>、IAsyncResult)<ept id="p1">](assetId:///M:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeEnd(System.Object,System.Object[]@,System.IAsyncResult)?qualifyHint=False&amp;autoUpgrade=True)</ept>バリアント&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeBegin%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.IsSynchronous%2A&gt; property specifies whether the synchronous or asynchronous method should be used.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.IsSynchronous%2A&gt;プロパティは、同期または非同期のメソッドを使用するかどうかを指定します&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker.IsSynchronous%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Returns an <ph id="ph1">&amp;lt;</ph>xref:System.Array?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> of parameter objects.</source>
+          <target state="translated">返します、 <ph id="ph1">&amp;lt;</ph>xref:System.Array?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>パラメーター オブジェクトの。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Implement this to return an array of parameters for the operation.</source>
+          <target state="translated">この操作のパラメーターの配列を返すために実装します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This array is filled by the formatter and passed back to the invoker when &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt; is called.</source>
+          <target state="translated">この配列をフォーマッタで塗りつぶされ、呼び出し元に戻すとき&lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt;と呼びます&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The parameters that are to be used as arguments to the operation.</source>
+          <target state="translated">操作の引数として使用されるパラメーター。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Returns an object and a set of output objects from an instance and set of input objects.</source>
+          <target state="translated">インスタンスと一連の入力オブジェクトからオブジェクトと出力オブジェクトのセットを返します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The object to be invoked.</source>
+          <target state="translated">呼び出されるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The inputs to the method.</source>
+          <target state="translated">メソッドに入力します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The outputs from the method.</source>
+          <target state="translated">このメソッドから出力します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The return value.</source>
+          <target state="translated">戻り値。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An asynchronous implementation of the &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke*&gt; method.</source>
+          <target state="translated">非同期実装、&lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke*&gt;メソッド&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke*&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object to be invoked.</source>
+          <target state="translated">呼び出されるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The inputs to the method.</source>
+          <target state="translated">メソッドに入力します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback object.</source>
+          <target state="translated">非同期のコールバック オブジェクト。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Associated state data.</source>
+          <target state="translated">関連付けられた状態データ。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> used to complete the asynchronous call.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>非同期呼び出しを完了するために使用します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The asynchronous end method.</source>
+          <target state="translated">非同期の終了メソッド。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The object invoked.</source>
+          <target state="translated">呼び出すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The outputs from the method.</source>
+          <target state="translated">このメソッドから出力します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The return value.</source>
+          <target state="translated">戻り値。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value that specifies whether the &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.Invoke<bpt id="p1">*</bpt>&gt; or &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker.InvokeBegin<ept id="p1">*</ept>&gt; method is called by the dispatcher.</source>
+          <target state="translated">指定する値を取得するかどうか、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; または&lt;&gt; <ept id="p1">*</ept>&gt; メソッドは、ディスパッチャーによって呼び出されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default invoker dispatches messages to the synchronous operation by default.</source>
+          <target state="translated">既定の呼び出し元は、既定では、同期操作にメッセージをディスパッチします。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This value is cached by the dispatcher and therefore should not change over the lifetime of the object that implements &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker&gt;.</source>
+          <target state="translated">この値は、ディスパッチャーによってキャッシュし、 &lt;xref:System.ServiceModel.Dispatcher.IOperationInvoker&gt;。&lt;/xref:System.ServiceModel.Dispatcher.IOperationInvoker&gt;を実装するオブジェクトの有効期間にわたってので変更しないでください。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dispatcher invokes the synchronous operation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ディスパッチャーが同期操作を呼び出す場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

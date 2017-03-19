@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e116e5d225a67868b8cf48004d224cbfdb1e8839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.SeekableXPathNavigator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dad6141fa61ac21a07de08ea4a5751e0f190630</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f74a8a9fdb89c2abf06a7235fa98251d0a7ba65a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides read-only, random access to data contained in XML documents and enables efficient querying for specified nodes.</source>
+          <target state="translated">XML ドキュメントに含まれるデータへの読み取り専用で、ランダム アクセスを提供し、指定されたノードの効率的なクエリを有効にします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The SOAP messages passed between parts of the <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> system are handled by various components of the system that must inspect these messages to determine what actions to take in processing them.</source>
+          <target state="translated">部分の間で SOAP メッセージが渡される、<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>システムは、これらのメッセージを処理することで実行するアクションを決定を調べる必要がある、システムのさまざまなコンポーネントによって処理されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The XPath engine is a component that queries messages for this purpose and it requires a navigator to read SOAP messages and other XML documents.</source>
+          <target state="translated">XPath エンジンは、この目的のためにメッセージを照会するコンポーネントと、SOAP メッセージおよびその他の XML ドキュメントを読むためのナビゲーターが必要です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A navigator provides a cursor that moves from node to node tracking where the XML document is actually being read.</source>
+          <target state="translated">ナビゲーターは、ノード間の追跡、XML ドキュメントが実際に読み取られている場所に移動する、カーソルを提供します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The XPath engine works with a SeekableXPathNavigator, which extends the &lt;xref:System.Xml.XPath.XPathNavigator&gt; class by adding a &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt; property.</source>
+          <target state="translated">XPath エンジンは、SeekableXPathNavigator では、拡張では、&lt;xref:System.Xml.XPath.XPathNavigator&gt;クラスを追加することによって、&lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;プロパティ&lt;/xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;&lt;/xref:System.Xml.XPath.XPathNavigator&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This property allows positions within the XML document to be saved and loaded quickly without having to clone the navigator, an expensive memory allocation that the &lt;xref:System.Xml.XPath.XPathNavigator&gt; requires for such an operation.</source>
+          <target state="translated">このプロパティに保存し、大量のメモリ割り当て、ナビゲーターを複製しなくてもすぐに読み込まれた XML ドキュメント内の位置を使用する、&lt;xref:System.Xml.XPath.XPathNavigator&gt;のような操作が必要です&lt;/xref:System.Xml.XPath.XPathNavigator&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The XPath engine must frequently record the position of the cursor in the course of executing queries on XML documents, so the SeekableXPathNavigator provides an important optimization for message processing.</source>
+          <target state="translated">XPath エンジンは、SeekableXPathNavigator メッセージ処理にとって重要な最適化を提供するために、XML ドキュメントでクエリを実行中にカーソルの位置を頻繁に記録する必要があります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Note that the value of the &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt; property is implementation-specific and may not map to node position or character position.</source>
+          <target state="translated">なおの値、&lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;プロパティは実装固有であり、ノードの位置または文字の位置にマップされていない可能性があります&lt;/xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Its value is only meaningful to the SeekableXPathNavigator implementation (and instance) that supplied it.</source>
+          <target state="translated">その値はのみ意味が SeekableXPathNavigator 実装 (およびのインスタンス) を指定します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.SeekableXPathNavigator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.SeekableXPathNavigator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a value that describes the document order of the two specified positions.</source>
+          <target state="translated">派生クラスでオーバーライドされると、2 つの指定した位置のドキュメントの順序を示す値を返します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first position in the comparison.</source>
+          <target state="translated">比較で最初の位置。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The second position in the comparison.</source>
+          <target state="translated">比較で&amp;2; 番目の位置。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Xml.XmlNodeOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that describes the relation of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">firstPosition</ph><ept id="p2">&lt;/code&gt;</ept> to <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">secondPosition</ph><ept id="p3">&lt;/code&gt;</ept> in the document.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Xml.XmlNodeOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の関係を記述する値<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">firstPosition</ph> <ept id="p2">&lt;/code&gt;</ept>に<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">secondPosition</ph> <ept id="p3">&lt;/code&gt;</ept>ドキュメントにします。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;firstPosition&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;secondPosition&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;firstPosition&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;secondPosition&lt;/code&gt;</ph>が無効です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets or sets a value associated with the node in the data where the XPath navigator is positioned.</source>
+          <target state="translated">派生クラスでオーバーライドされると、取得または XPath ナビゲーターが配置されているデータ内のノードに関連付けられている値を設定します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`set`</ph> operation moves the navigator to the position associated with the value specified.</source>
+          <target state="translated"><ph id="ph1">`set`</ph>操作は、指定された値に関連付けられている位置にナビゲーターを移動します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`get`</ph> operation returns a value associated with the current position of the navigator.</source>
+          <target state="translated"><ph id="ph1">`get`</ph>操作は、ナビゲーターの現在位置に関連付けられている値を返します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A value that is associated with the navigator’s current position.</source>
+          <target state="translated">ナビゲーターの現在位置に関連付けられている値。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the local name of the node at the position specified.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定された位置にあるノードのローカル名を返します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The position of the node whose local name is being retrieved.</source>
+          <target state="translated">ローカルの名前を取得するノードの位置。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The local name of the node at the specified position.</source>
+          <target state="translated">指定した位置にあるノードのローカル名。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a local name, for example if the current position references a text node.</source>
+          <target state="translated">&lt;xref:System.String&gt;返されます、ノードがローカル名、たとえば、現在の位置がテキスト ノードを参照するかどうか。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the name of the node at the specified position.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定した位置にあるノードの名前を返します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name is the name of the XML element at <ph id="ph1">`nodePosition`</ph> and typically includes a namespace prefix.</source>
+          <target state="translated">名前の位置にある XML 要素名では<ph id="ph1">`nodePosition`</ph>し、通常、名前空間プレフィックスが含まれます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The position of the node whose name is being retrieved.</source>
+          <target state="translated">名前を取得するノードの位置。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The name of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">あるノードの名前<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a name.</source>
+          <target state="translated">&lt;xref:System.String&gt;ノードに名前がないかどうかが返されます。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the namespace of the node at the specified position.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定した位置にあるノードの名前空間を返します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The position of the node whose namespace is being retrieved.</source>
+          <target state="translated">名前空間を持つを取得するノードの位置。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The namespace of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">あるノードの名前空間<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a namespace.</source>
+          <target state="translated">&lt;xref:System.String&gt;かどうか、ノードが名前空間が返されます。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the type of the node at the specified position.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定した位置にあるノードの種類を返します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The position of the node whose node type is being retrieved.</source>
+          <target state="translated">ノード型を取得するノードの位置。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Xml.XPath.XPathNodeType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicate the type of the XML node.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Xml.XPath.XPathNodeType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML ノードの種類を示す値。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the text value of the node at the specified position.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定した位置にあるノードのテキスト値を返します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For elements, this method returns the concatenation of all text descendents of the node at the specified position, similar to the &lt;xref:System.Xml.XmlElement.InnerText%2A&gt; property.</source>
+          <target state="translated">要素については、このメソッドは指定した位置にあるノードのすべてのテキスト子孫を連結したものを返します、&lt;xref:System.Xml.XmlElement.InnerText%2A&gt;プロパティ&lt;/xref:System.Xml.XmlElement.InnerText%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The position of the node whose text value is being retrieved.</source>
+          <target state="translated">テキスト値を取得するノードの位置。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The text value of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">あるノードのテキスト値<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a text value.</source>
+          <target state="translated">&lt;xref:System.String&gt;ノードがテキスト値を持たないかどうかが返されます。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

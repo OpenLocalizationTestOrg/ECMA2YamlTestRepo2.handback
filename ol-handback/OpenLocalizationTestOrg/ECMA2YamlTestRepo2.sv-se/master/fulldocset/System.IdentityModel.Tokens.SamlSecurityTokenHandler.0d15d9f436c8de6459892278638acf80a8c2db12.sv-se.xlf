@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70f80d9050e88dd85bd4ce15dfd3a340a9c7f14e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Tokens.SamlSecurityTokenHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1bcd82025649b47040f1d6484236a7fb328f7096</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7ede6b72020c9b05a59909994a54d52b6bb5857</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a security token handler that creates security tokens from SAML 1.1 Assertions.</source>
+          <target state="translated">Representerar en Säkerhetstokenhanteraren som skapar säkerhetstoken från SAML 1.1 intyg.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SamlSecurityTokenHandler class serializes and deserializes security tokens backed by SAML 1.1 Assertions into &lt;xref:System.IdentityModel.Tokens.SamlSecurityToken&gt; objects.</source>
+          <target state="translated">Klassen SamlSecurityTokenHandler Serialiserar och deserializes säkerhetstoken som backas upp av SAML 1.1 intyg i &lt;xref:System.IdentityModel.Tokens.SamlSecurityToken&gt;objekt.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityToken&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security token handlers are responsible for creating, reading, writing, and validating tokens.</source>
+          <target state="translated">Säkerhet token hanterare ansvarar för att skapa, läsa, skriva och verifiera token.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can configure a security token service (STS) or relying party (RP) application to process SAML 1.1 Assertion-backed security tokens by adding an instance of the SamlSecurityTokenHandler class to the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection&gt; object configured for the service (or application).</source>
+          <target state="translated">Du kan konfigurera en säkerhetstokentjänst (STS) eller förlitande part (RP) för programmet att behandla backas upp av SAML 1.1-kontroll säkerhet token genom att lägga till en instans av klassen SamlSecurityTokenHandler till den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection&gt;objekt som har konfigurerats för tjänsten (eller program).&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be done either programmatically or in the configuration file.</source>
+          <target state="translated">Detta kan göras via programmering eller i konfigurationsfilen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handler itself is configured from the configuration specified for the collection through the collection’s &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection.Configuration%2A&gt; property when it is added to the collection.</source>
+          <target state="translated">Hanteraren själva konfigureras från den konfiguration som angetts för samlingen via mängdens &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection.Configuration%2A&gt;egenskapen när den läggs till i samlingen.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandlerCollection.Configuration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While it is possible to configure the handler individually by setting its &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt; property, this is not normally necessary; however, if the handler must be configured individually, the property should be set after the handler is added to the collection.</source>
+          <target state="translated">När det är möjligt att konfigurera hanteraren separat genom att ange dess &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt;egenskap, detta är inte normalt krävs, men om hanteraren måste konfigureras separat, egenskapen måste anges när hanteraren har lagts till i samlingen.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For many scenarios, the SamlSecurityTokenHandler class can be used as-is; however, the class provides many extension points through the methods it exposes.</source>
+          <target state="translated">I många fall, klassen SamlSecurityTokenHandler kan användas som-är; klassen innehåller emellertid många tillägg som pekar på sätt-den-visar.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By deriving from the SamlSecurityTokenHandler and overriding specific methods, you can modify the functionality of the token processing provided in the default implementation, or you can add processing for extensions to the SAML Assertion specification that may be needed in some custom scenarios.</source>
+          <target state="translated">Du kan ändra funktionen för tokenbearbetning i standardimplementering genom härleds från SamlSecurityTokenHandler och åsidosätta specifika metoder, eller du kan lägga till bearbetning för tillägg till SAML Assertion-specifikationen som kan behövas i vissa scenarier med anpassade.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default security token requirements.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med standard token säkerhetskrav.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement%2A&gt; property is set to an instance of &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenRequirement&gt; that is created with the default constructor.</source>
+          <target state="translated">Den &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement%2A&gt;egenskap är inställd på en instans av &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenRequirement&gt;som har skapats med standardkonstruktor.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenRequirement&gt; &lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified security token requirements.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med angivna token säkerhetskrav.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenRequirement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be used by this instance when validating tokens.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenRequirement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som ska användas av den här instansen när verifiera token.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement*&gt; property.</source>
+          <target state="translated">Anger den &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement*&gt;egenskapen.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.SamlSecurityTokenRequirement*&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlSecurityTokenRequirement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlSecurityTokenRequirement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds all of the delegates associated with the ActAs subject into the attribute collection.</source>
+          <target state="translated">Lägger till alla ombuden som är associerade med ämnet ActAs till attribut-samling.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The delegate of this <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object will be serialized into a <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Om detta <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som ska serialiseras i en <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The delegate is specified by the &lt;xref:System.Security.Claims.ClaimsIdentity.Actor*&gt; property.</source>
+          <target state="translated">Delegaten anges av den &lt;xref:System.Security.Claims.ClaimsIdentity.Actor*&gt;egenskapen.&lt;/xref:System.Security.Claims.ClaimsIdentity.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The attribute collection to which the ActAs token will be serialized.</source>
+          <target state="translated">Attributmängden som ActAs-token ska serialiseras.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>urn:oasis:names:tc:SAML:1.0:assertion</source>
+          <target state="translated">urn: oasis: namn: tc: SAML:1.0:assertion</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>urn:oasis:names:tc:SAML:1.0:cm:bearer</source>
+          <target state="translated">urn: oasis: namn: tc: SAML:1.0:cm:bearer</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Indicates whether the current XML element can be read as a token of the type handled by this instance.</source>
+          <target state="translated">Anger om aktuella XML-elementet kan läsas som en token av typen hanteras av den här instansen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An XML reader positioned at a start element.</source>
+          <target state="translated">En XML-läsaren placerad i ett startelement.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The reader should not be advanced.</source>
+          <target state="translated">Ska inte vara avancerade läsaren.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReadToken*&gt; method can read the element; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReadToken*&gt;metod kan läsa elementet, annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReadToken*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates if this handler can validate tokens of type <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar ett värde som indikerar om denna hanterare kan validera token av typen <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the base class method and always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Den här metoden åsidosätter metoden basklass och returnerar alltid <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that the handler can validate tokens of type <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, vilket anger att hanteraren kan validera token av typen <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this handler can serialize tokens of type <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar ett värde som indikerar om denna hanterare kan serialisera token av typen <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the base class method and always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Den här metoden åsidosätter metoden basklass och returnerar alltid <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; which indicates that the handler can serialize tokens of type <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; Anger att hanteraren kan serialisera token av typen <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the X.509 certificate validator that is used by the current instance to validate X.509 certificates.</source>
+          <target state="translated">Hämtar eller anger verifieraren för X.509-certifikat som används av den aktuella instansen för att verifiera X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.X509CertificateValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the validator.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.X509CertificateValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar verifieraren.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Collects attributes with a common claim type, claim value type, and original issuer into a single attribute with multiple values.</source>
+          <target state="translated">Samlar in attribut med en gemensam Anspråkstyp och värde Anspråkstyp originalutfärdare i ett attribut med flera värden.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A collection of type <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the attributes generated from claims.</source>
+          <target state="translated">En mängd av typen <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller de attribut som genereras av anspråk.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains attributes derived from the input collection.</source>
+          <target state="translated">En samling <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller attribut som härletts från indatamängden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Attributes in the input collection that share a common claim type, claim value, and original issuer with other attributes are consolidated into a single attribute with multiple values in the output collection.</source>
+          <target state="translated">Attribut i indatamängden som delar en gemensam Anspråkstyp anspråksvärde och konsolideras originalutfärdare med andra attribut i ett attribut med flera värden i output-samlingen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Attributes in the input collection that do not share claim type, claim value, or original issuer with other attributes appear unaltered in the output collection.</source>
+          <target state="translated">Attribut i indatamängden som inte delar Anspråkstypen, anspråksvärdet eller originalutfärdare med andra attribut visas oförändrat i samlingen utdata.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the assertion.</source>
+          <target state="translated">När åsidosätts i en härledd klass, skapas en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för kontrollen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, this method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Som standard den här metoden returnerar <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object by using the specified issuer, conditions, advice and statements.</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet med hjälp av den angivna utfärdaren, villkor, råd och instruktioner.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can override this method to customize the parameters used to create the assertion.</source>
+          <target state="translated">Du kan åsidosätta den här metoden om du vill anpassa de parametrar som används för att skapa kontrollen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A unique random id is created for the assertion and the &lt;xref:System.IdentityModel.Tokens.SamlAssertion.AssertionId%2A&gt; property is set to this value.</source>
+          <target state="translated">Ett unikt id för slumpmässiga skapas för kontrollen och &lt;xref:System.IdentityModel.Tokens.SamlAssertion.AssertionId%2A&gt;egenskap är inställd på det här värdet.&lt;/xref:System.IdentityModel.Tokens.SamlAssertion.AssertionId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SamlAssertion.IssueInstant%2A&gt; is set to &lt;xref:System.DateTime.UtcNow%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Tokens.SamlAssertion.IssueInstant%2A&gt;Anges till &lt;xref:System.DateTime.UtcNow%2A&gt;.&lt;/xref:System.DateTime.UtcNow%2A&gt; &lt;/xref:System.IdentityModel.Tokens.SamlAssertion.IssueInstant%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The issuer of the assertion.</source>
+          <target state="translated">Utfärdaren av kontrollen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the assertion.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att lägga till i kontrollen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the assertion.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att lägga till i kontrollen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The collection of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the assertion.</source>
+          <target state="translated">Insamling av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att lägga till i kontrollen.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The SAML assertion that was created.</source>
+          <target state="translated">SAML-kontroll som har skapats.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from a claim.</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt från ett anspråk.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which to generate the SAML Attribute.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från vilken du kan skapa SAML-attributet.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the converted claim.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller omvandlade anspråket.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;claim&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;claim&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from a token descriptor.</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt från en token beskrivning.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method may return <ph id="ph1">`null`</ph> if the token descriptor does not contain any subject or the subject does not have any claims.</source>
+          <target state="translated">Den här metoden kan returnera <ph id="ph1">`null`</ph> om token beskrivningen innehåller inte alla ämnen eller ämnet inte har några anspråk.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use in the <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that is created.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ska användas i den <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> som har skapats.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains claims which will be converted to SAML Attributes.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller anspråk som kommer att konverteras till SAML-attribut.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the converted claims.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller de konverterade anspråk.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Creates a SAML 1.1 authentication statement from the specified authentication information.</source>
+          <target state="translated">Skapar en instruktion för autentisering av SAML 1.1 från angivna autentiseringsinformationen.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The SamlSubject of the statement.</source>
+          <target state="translated">SamlSubject för instruktionen.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Claims.AuthenticationInformation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which to generate the SAML authentication statement.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Claims.AuthenticationInformation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från vilken du kan skapa instruktionen SAML-autentisering.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Contains all the other information that is used in token issuance.</source>
+          <target state="translated">Innehåller alla andra information som används i utfärdande.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The SAML authentication statement that was created.</source>
+          <target state="translated">Instruktionen för SAML-autentisering som har skapats.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlSubject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlSubject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates claims from a SAML 1.1 token.</source>
+          <target state="translated">Skapar anspråk från en 1.1 för SAML-token.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token from which to create the claims.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar den säkerhetstoken som du vill skapa anspråk.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the claims extracted from the token.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller de anspråk som extraheras från token.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlSecurityToken&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlSecurityToken&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SamlSecurityToken.Assertion*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samlSecurityToken</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.IdentityModel.Tokens.SamlSecurityToken.Assertion*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samlSecurityToken</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityToken.Assertion*&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The handler is not configured or an issuer name registry is not configured for the handler.</source>
+          <target state="translated">Hanteraren har inte konfigurerats eller en Utfärdarens namn registret är inte konfigurerad för hanteraren.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.Configuration<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or is set to a <bpt id="p3">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> with an &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.IssuerNameRegistry<ept id="p1">*</ept>&gt; property that is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">(Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen är <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> eller är inställt på ett <bpt id="p3">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> med en &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskap som är <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The issuer name returned by the configured issuer name registry for the security token (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samlSecurityToken</ph><ept id="p1">&lt;/code&gt;</ept>) is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">Utfärdarens namn som returneras av registret konfigurerade Utfärdarens namn för säkerhetstoken (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samlSecurityToken</ph><ept id="p1">&lt;/code&gt;</ept>) är <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> eller tomt.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Creates the conditions for the assertion.</source>
+          <target state="translated">Skapar villkoren för kontrollen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, conditions should be included in assertions to limit the impact of misuse of the assertion.</source>
+          <target state="translated">I allmänhet ska villkor som tas med i intyg och begränsa effekten av missbruk av kontrollen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying the NotBefore and NotOnOrAfter conditions can limit the period of vulnerability in the case of a compromised assertion.</source>
+          <target state="translated">Ange villkor för NotBefore och NotOnOrAfter kan begränsa tidsperiod säkerhetsproblem vid en komprometterad assertion.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AudienceRestrictionCondition can be used to explicitly state the intended relying party or parties of the assertion, which coupled with appropriate audience restriction enforcement at relying parties can help to mitigate spoofing attacks between relying parties.</source>
+          <target state="translated">AudienceRestrictionCondition kan användas för att uttryckligen ange den avsedda förlitande parten eller parterna om kontrollen som tillsammans med tvingande av rätt målgrupp begränsning på förlitande parter kan bidra till att minska förfalskning attacker mellan förlitande parter.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation creates NotBefore and NotOnOrAfter conditions based on the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt; property of the <ph id="ph1">`tokenDescriptor`</ph>.</source>
+          <target state="translated">Standardimplementering skapar NotBefore och NotOnOrAfter villkor baserade på den &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt;egenskapen för den <ph id="ph1">`tokenDescriptor`</ph>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It will also generate an AudienceRestrictionCondition limiting consumption of the assertion to the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt; property of the <ph id="ph1">`tokenDescriptor`</ph>.</source>
+          <target state="translated">Den också att generera en AudienceRestrictionCondition begränsar förbrukning av kontrollen till den &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt;egenskapen för den <ph id="ph1">`tokenDescriptor`</ph>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The lifetime of the token.</source>
+          <target state="translated">Livslängd för token.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The endpoint address for which the token is created.</source>
+          <target state="translated">Slutpunktsadressen som token har skapats.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The address is modeled as an AudienceRestriction condition.</source>
+          <target state="translated">Adressen modelleras som ett AudienceRestriction villkor.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the conditions for the assertion.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller villkor för kontrollen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Creates a SAML 1.1 subject for the assertion.</source>
+          <target state="translated">Skapar en SAML-1.1 ämne för kontrollen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The security token descriptor from which to create the subject.</source>
+          <target state="translated">Token säkerhetsbeskrivningen som att skapa ämnet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the subject of the assertion.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar föremål för kontrollen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Creates the security token reference when the token is not attached to the message.</source>
+          <target state="translated">Skapar tokenreferens för säkerhet när token inte är kopplad till meddelandet.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The SAML token.</source>
+          <target state="translated">SAML-token.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A value that indicates whether an attached or unattached reference should be created.</source>
+          <target state="translated">Ett värde som anger om en ansluten eller referens ska skapas.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifierClause"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the token reference.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifierClause"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar tokenreferensen.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>(An instance of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertionKeyIdentifierClause"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is actually returned.)</source>
+          <target state="translated">(En instans av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertionKeyIdentifierClause"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> returneras.)</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Creates SAML 1.1 statements to be included in the assertion.</source>
+          <target state="translated">Skapar SAML 1.1-uttryck som ska ingå i kontrollen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Statements are not required in a SAML 1.1 assertion.</source>
+          <target state="translated">Instruktioner behövs inte i en SAML 1.1-kontrollen.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method may return an empty collection.</source>
+          <target state="translated">Den här metoden kan returnera en tom samling.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The token descriptor from which to create the statements.</source>
+          <target state="translated">Token beskrivning som du vill skapa instruktionerna.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An enumeration of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the statements.</source>
+          <target state="translated">En uppräkning av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller instruktionerna.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Creates a security token based on a token descriptor.</source>
+          <target state="translated">Skapar en säkerhetstoken baserat på en token beskrivning.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The token descriptor from which to create the security token.</source>
+          <target state="translated">Token beskrivning som du vill skapa säkerhetstoken.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SAML 1.1 security token.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar SAML 1.1 säkerhetstoken.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>(The token returned is actually an instance of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.)</source>
+          <target state="translated">(Det token som returnerades är faktiskt en instans av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.)</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using the specified User Principal Name (UPN).</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.Security.Principal.WindowsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt med det angivna UPN (User Principal Name).</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The UPN to use to create the identity.</source>
+          <target state="translated">UPN-namnet för att skapa identitet.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The Windows identity that was created.</source>
+          <target state="translated">Windows-identitet som har skapats.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;upn&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;upn&lt;/code&gt;</ph>är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller en tom sträng.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Builds an XML formatted string from a collection of SAML 1.1 attributes that represent the Actor.</source>
+          <target state="translated">Skapar en XML-formaterad sträng från en samling SAML 1.1-attribut som representerar aktören.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is of the form "<ph id="ph1">\&lt;</ph>Actor&gt;<ph id="ph2">\&lt;</ph>Attribute name, ns&gt;<ph id="ph3">\&lt;</ph>AttributeValue&gt;...<ph id="ph4">\&lt;</ph>/AttributeValue&gt;, ...<ph id="ph5">\&lt;</ph>/Attribute&gt;...<ph id="ph6">\&lt;</ph>/Actor&gt;"</source>
+          <target state="translated">Strängen har formatet "<ph id="ph1">\&lt;</ph>aktören &gt;<ph id="ph2">\&lt;</ph>attributets namn, ns &gt;<ph id="ph3">\&lt;</ph>AttributeValue &gt;... <ph id="ph4">\&lt;</ph>/AttributeValue &gt;,...  <ph id="ph5">\&lt;</ph> /Attributet &gt;... <ph id="ph6">\&lt;</ph>/Actor&gt;"</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>An enumeration of type <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the attributes.</source>
+          <target state="translated">En uppräkning av typen <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller attribut.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A well-formed XML string constructed using the attributes.</source>
+          <target state="translated">En giltig XML-strängen som skapats med hjälp av attribut.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Returns the SAML11 authentication method identifier that matches the specified normalized value for a SAML authentication method.</source>
+          <target state="translated">Returnerar SAML11 autentisering metoden identifierare som matchar det angivna normaliserade värdet för en SAML-autentiseringsmetod.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DenormalizeAuthenticationType method returns the SAML11 authentication method identifier that matches the specified normalized URI.</source>
+          <target state="translated">Metoden DenormalizeAuthenticationType returnerar SAML11 autentisering metoden identifierare som matchar angiven normaliserade URI.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt; is specified for <ph id="ph1">`normalizedAuthenticationType`</ph>, the following URI is returned: <ph id="ph2">`urn:oasis:names:tc:SAML:1.0:am:X509-PKI`</ph>.</source>
+          <target state="translated">Till exempel om &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt;har angetts för <ph id="ph1">`normalizedAuthenticationType`</ph>, returneras följande URI: <ph id="ph2">`urn:oasis:names:tc:SAML:1.0:am:X509-PKI`</ph>.&lt;/xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a mapping does not exist for <ph id="ph1">`normalizedAuthenticationType`</ph>, it is returned unaltered.</source>
+          <target state="translated">Om det inte finns en mappning för <ph id="ph1">`normalizedAuthenticationType`</ph>, returneras oförändrat.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The normalized value.</source>
+          <target state="translated">Normaliserat värde.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.AuthenticationMethods"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.AuthenticationMethods"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The SAML11 authentication method identifier (URI) that matches the specified normalized identifier.</source>
+          <target state="translated">SAML11 autentisering metoden identifieraren (URI) som matchar den angivna normaliserade identifieraren.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If no matching SAML11 authentication method is found, the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">normalizedAuthenticationType</ph><ept id="p1">&lt;/code&gt;</ept> URI is returned unaltered.</source>
+          <target state="translated">Om ingen matchande SAML11 autentiseringsmetod hittas i <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">normalizedAuthenticationType</ph> <ept id="p1">&lt;/code&gt;</ept> URI returneras oförändrat.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Throws an exception if the specified token already exists in the token replay cache; otherwise the token is added to the cache.</source>
+          <target state="translated">Genererar ett undantag om den angivna token finns redan i token repetitionscachen; Annars läggs token till i cacheminnet.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior is to only check bearer tokens (tokens that do not have keys).</source>
+          <target state="translated">Standardinställningen är att bara kontrollera ägar-token (token som inte har några nycklar).</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token replay cache is the &lt;xref:System.IdentityModel.Tokens.TokenReplayCache&gt; object configured for this handler through the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.TokenReplayCache%2A&gt; property of the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration&gt; object referenced through the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt; property.</source>
+          <target state="translated">Token repetitionscachen är den &lt;xref:System.IdentityModel.Tokens.TokenReplayCache&gt;objekt som har konfigurerats för den här hanteraren via den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.TokenReplayCache%2A&gt;egenskapen för den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration&gt;objekt som refererar till den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt;egenskapen.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration%2A&gt; &lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration&gt; &lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.TokenReplayCache%2A&gt; &lt;/xref:System.IdentityModel.Tokens.TokenReplayCache&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SAML 1.1 security token (the token should be of type <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to be checked.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar SAML 1.1 säkerhets-token (token ska vara av typen <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) som ska kontrolleras.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.TokenReplayCache<ept id="p1">*</ept>&gt; property of the handler configuration (accessed through the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt; property) is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       - eller - &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;-egenskapen för hanterare-konfiguration (nås via den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt;egenskapen) är <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph> cannot be cast as an instance of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph>Det går inte att omvandla som en instans av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The ID of the assertion associated with the token is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">ID för kontrollen som är associerad med token är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller tomt.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Tokens.SamlSecurityToken.Assertion<bpt id="p1">*</bpt>&gt; property of the token references a <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that has an &lt;xref:System.IdentityModel.Tokens.SamlAssertion.Id<ept id="p1">*</ept>&gt; property that references a &lt;xref:System.IdentityModel.Tokens.SamlId&gt; with a &lt;xref:System.IdentityModel.Tokens.SamlId.Value*&gt; property that is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or empty.)</source>
+          <target state="translated">(Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;-egenskapen för token referenserna en <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> som har en &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskap som refererar till en &lt;xref:System.IdentityModel.Tokens.SamlId&gt;med en &lt;xref:System.IdentityModel.Tokens.SamlId.Value*&gt;egenskap som är <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> eller tomt.)&lt;/xref:System.IdentityModel.Tokens.SamlId.Value*&gt; &lt;/xref:System.IdentityModel.Tokens.SamlId&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The token already exists in the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.TokenReplayCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Token finns redan i den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.TokenReplayCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Finds the UPN claim value in the specified <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the purpose of mapping the identity to a &lt;xref:System.Security.Claims.WindowsClaimsIdentity&gt; object.</source>
+          <target state="translated">Söker efter UPN anspråksvärde i angiven <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för att mappa identitet för en &lt;xref:System.Security.Claims.WindowsClaimsIdentity&gt;objektet.&lt;/xref:System.Security.Claims.WindowsClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The claims identity object containing the desired UPN claim.</source>
+          <target state="translated">Anspråk identitet objekt som innehåller det önskade UPN-anspråket.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A string that contains the UPN claim value found.</source>
+          <target state="translated">En sträng som innehåller UPN anspråksvärdet hittades.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets the token encrypting credentials.</source>
+          <target state="translated">Hämtar den token för kryptering av autentiseringsuppgifter.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Override this method to change the token encrypting credentials.</source>
+          <target state="translated">Åsidosätta den här metoden om du vill ändra den token för kryptering av autentiseringsuppgifter.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation retrieves the encrypting credentials from the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt; property of the <ph id="ph1">`tokenDescriptor`</ph>.</source>
+          <target state="translated">Standardimplementering hämtar kryptering autentiseringsuppgifter från den &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt;egenskapen för den <ph id="ph1">`tokenDescriptor`</ph>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Retrieves some scope encrypting credentials from the Scope object.</source>
+          <target state="translated">Hämtar något scope kryptering av autentiseringsuppgifter i Scope-objekt.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt; that represents the token encrypting credentials.</source>
+          <target state="translated">En &lt;xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt;som representerar den token för kryptering av autentiseringsuppgifter.&lt;/xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials retrieved from the token descriptor are asymmetric.</source>
+          <target state="translated">Kryptering autentiseringsuppgifter som hämtats från token beskrivningen är asymmetriska.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets the credentials for signing the assertion.</source>
+          <target state="translated">Hämtar autentiseringsuppgifterna för signering av kontrollen.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SAML2 assertions used as security tokens should be signed.</source>
+          <target state="translated">SAML2 intyg används som säkerhetstoken ska vara signerade.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation uses the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt; property of the <ph id="ph1">`tokenDescriptor`</ph> to retrieve the credentials.</source>
+          <target state="translated">Standardimplementering använder den &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt;egenskapen för den <ph id="ph1">`tokenDescriptor`</ph> att hämta autentiseringsuppgifterna.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The token descriptor.</source>
+          <target state="translated">Token beskrivningen.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SigningCredentials"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the credentials for signing the assertion.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SigningCredentials"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar autentiseringsuppgifter för signering av kontrollen.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenDescriptor&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns the time until which the token should be held in the token replay cache.</source>
+          <target state="translated">Returnerar den tid då token bör behållas i cachen tokenrepetition.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, this method returns the NotOnOrAfter of the SAML Condition if present.</source>
+          <target state="translated">Den här metoden returnerar NotOnOrAfter för SAML-villkor om den finns som standard.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If that value does not exist, it returns the NotOnOrAfter of the first SubjectConfirmationData.</source>
+          <target state="translated">Om värdet inte finns, returnerar NotOnOrAfter för den första SubjectConfirmationData.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This function will never return a value further from the current time (&lt;xref:System.DateTime.Now%2A&gt;) than Configuration.TokenReplayCacheExpirationPeriod.</source>
+          <target state="translated">Den här funktionen kommer aldrig att returnera ett värde längre från den aktuella tiden (&lt;xref:System.DateTime.Now%2A&gt;) än Configuration.TokenReplayCacheExpirationPeriod.&lt;/xref:System.DateTime.Now%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The token for which to return the expiration time.</source>
+          <target state="translated">Token som du vill returnera förfallotid.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that represents the expiration time.</source>
+          <target state="translated">En &lt;xref:System.DateTime&gt;som representerar förfallotiden.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Gets the token type identifier(s) supported by this handler.</source>
+          <target state="translated">Hämtar den tokentypen identifier(s) som stöds av den här hanteraren.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An array of strings that contains the token type identifier(s) supported by this handler.</source>
+          <target state="translated">En matris med strängar som innehåller token Skriv identifier(s) som stöds av den här hanteraren.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the security token serializer that is used to serialize and deserialize key identifiers.</source>
+          <target state="translated">Hämtar eller anger serialiserare för säkerhetstoken som används för att serialisera och deserialisera nyckelidentifierare.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializes and deserializes &lt;xref:System.IdentityModel.Tokens.SecurityKeyIdentifier&gt; objects.</source>
+          <target state="translated">Serialiserar och deserializes &lt;xref:System.IdentityModel.Tokens.SecurityKeyIdentifier&gt;objekt.&lt;/xref:System.IdentityModel.Tokens.SecurityKeyIdentifier&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the serializer.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar serialiseraren.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>An attempt to set the value to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> occurs.</source>
+          <target state="translated">Ett försök att ange värdet till <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inträffar.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Loads custom configuration from XML.</source>
+          <target state="translated">Belastningar anpassad konfiguration från XML.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the SAML token authentication requirements.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som anger autentiseringskraven för SAML-token.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;customConfigElements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;customConfigElements&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The configuration specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">customConfigElements</ph><ept id="p1">&lt;/code&gt;</ept> is not valid.</source>
+          <target state="translated">Den konfiguration som angetts i <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">customConfigElements</ph> <ept id="p1">&lt;/code&gt;</ept> är inte giltig.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>urn:oasis:names:tc:SAML:1.0</source>
+          <target state="translated">urn: oasis: namn: tc: SAML:1.0</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Returns the normalized value that matches a SAML 1.1 authentication method identifier.</source>
+          <target state="translated">Returnerar normaliserat värde som matchar en SAML 1.1 autentisering metoden identifierare.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NormalizeAuthenticationType method returns the &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods&gt; value that matches the specified SAML11 authentication method identifier.</source>
+          <target state="translated">Metoden NormalizeAuthenticationType returnerar den &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods&gt;värde som matchar den angivna metod identifieraren för SAML11 autentisering.&lt;/xref:System.IdentityModel.Tokens.AuthenticationMethods&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if <ph id="ph1">`urn:oasis:names:tc:SAML:1.0:am:X509-PKI`</ph> is specified for <ph id="ph2">`saml11AuthenticationMethod`</ph>, &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt; is returned.</source>
+          <target state="translated">Till exempel om <ph id="ph1">`urn:oasis:names:tc:SAML:1.0:am:X509-PKI`</ph> har angetts för <ph id="ph2">`saml11AuthenticationMethod`</ph>, &lt;xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt;returneras.&lt;/xref:System.IdentityModel.Tokens.AuthenticationMethods.X509&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a mapping does not exist for <ph id="ph1">`saml11AuthenticationMethod`</ph>, it is returned unaltered.</source>
+          <target state="translated">Om det inte finns en mappning för <ph id="ph1">`saml11AuthenticationMethod`</ph>, returneras oförändrat.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The SAML 1.1 authentication method identifier (URI) to normalize.</source>
+          <target state="translated">SAML 1.1 autentisering metoden identifierare (URI) för att normalisera.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The normalized value, which is one of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.AuthenticationMethods"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Normaliserat värde, som är en av de <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.AuthenticationMethods"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>If no matching value exists, <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">saml11AuthenticationMethod</ph><ept id="p1">&lt;/code&gt;</ept> is returned, unaltered.</source>
+          <target state="translated">Om det inte finns något matchande värde <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">saml11AuthenticationMethod</ph> <ept id="p1">&lt;/code&gt;</ept> är returnerade, utan ändringar.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Creates claims from a SAML 1.1 attribute statement and adds them to the specified subject.</source>
+          <target state="translated">Skapar anspråk från ett SAML 1.1 attribute-uttryck och lägger till dem i det angivna ämnet.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The created claims are added to the subject.</source>
+          <target state="translated">Skapade anspråk läggs till ämnet.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the claims are created.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från anspråken har skapats.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The subject to which the claims are added.</source>
+          <target state="translated">Ämne som anspråk ska läggas till.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The issuer.</source>
+          <target state="translated">Utfärdaren.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlStatement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlStatement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Creates claims from a SAML 1.1 authentication statement and adds them to the specified subject.</source>
+          <target state="translated">Skapar anspråk från ett SAML 1.1-instruktion för autentisering och lägger till dem i det angivna ämnet.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the claims are created.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från anspråken har skapats.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The subject to which the claims are added.</source>
+          <target state="translated">Ämne som anspråk ska läggas till.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The issuer.</source>
+          <target state="translated">Utfärdaren.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlStatement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlStatement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Creates claims from a SAML 1.1 authorization decision statement and adds them to the specified subject.</source>
+          <target state="translated">Skapar anspråk från instruktionen SAML 1.1 auktorisering beslut och lägger till dem i det angivna ämnet.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does nothing.</source>
+          <target state="translated">Standardimplementering ingenting.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the claims are created.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från anspråken har skapats.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The subject to which the claims are added.</source>
+          <target state="translated">Ämne som anspråk ska läggas till.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The issuer.</source>
+          <target state="translated">Utfärdaren.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Creates claims from the SAML 1.1 subject and adds them to the specified subject.</source>
+          <target state="translated">Skapar anspråk från SAML 1.1 ämnet och lägger till dem i det angivna ämnet.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the claims are created.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> från anspråken har skapats.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The subject to which the claims are added.</source>
+          <target state="translated">Ämne som anspråk ska läggas till.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The issuer.</source>
+          <target state="translated">Utfärdaren.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;samlSubject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;samlSubject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Creates claims from a collection of SAML 1.1 statements and adds them to the specified subject.</source>
+          <target state="translated">Skapar anspråk från en samling av SAML 1.1 rapporter och lägger till dem i det angivna ämnet.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The SAML statements from which the claims are created.</source>
+          <target state="translated">SAML-satser som anspråk skapas.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The subject to which the claims are added.</source>
+          <target state="translated">Ämne som anspråk ska läggas till.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The issuer.</source>
+          <target state="translated">Utfärdaren.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;statements&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Action<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Action<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Action element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet åtgärd som läses.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Advice<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Advice<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Advice element has an extensibility point to allow XML elements from non-SAML 1.1 namespaces to be included.</source>
+          <target state="translated">Råd elementet har en utökningspunkt på att XML-element från icke - SAML 1.1 namnområden som ska inkluderas.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, because the Advice may be ignored without affecting the semantics of the assertion, any such elements are ignored.</source>
+          <target state="translated">Som standard eftersom råd ignoreras utan att påverka semantiken för kontrollen, ignoreras dessa element.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle the processing of those elements, override this method.</source>
+          <target state="translated">Åsidosätta den här metoden för att hantera bearbetningen av dessa element.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Advice element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAdvice"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet råd som läses.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Assertion<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Assertion<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Assertion element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet Assertion som läses.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Attribute<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Attribute<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation requires that the content of the Attribute element be a simple string.</source>
+          <target state="translated">Standardimplementering kräver att innehållet i attributelementet är en sträng.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle complex content or content of declared simple types other than xs:string, override this method.</source>
+          <target state="translated">Åsidosätta den här metoden för att hantera komplexa innehåll eller innehåll för deklarerade enkla typer än xs:string.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Assertion element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet Assertion som läses.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:AttributeStatement<ph id="ph2">&amp;gt;</ph> element, or a <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element that specifies an xsi:type of saml:AttributeStatementType.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:AttributeStatement<ph id="ph2">&amp;gt;</ph> element eller ett <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element som anger en xsi: Type för saml:AttributeStatementType.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet som läses.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Reads an attribute value.</source>
+          <target state="translated">Läser ett attributvärde.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The attribute being read.</source>
+          <target state="translated">Det attribut som läses.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>A string that contains the attribute value.</source>
+          <target state="translated">En sträng som innehåller attributvärdet.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:AudienceRestrictionCondition<ph id="ph2">&amp;gt;</ph> element from the specified XML reader.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:AudienceRestrictionCondition<ph id="ph2">&amp;gt;</ph> element från den angivna XML-läsaren.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>An XML reader positioned at the <ph id="ph1">&amp;lt;</ph>saml:AudienceRestrictionCondition<ph id="ph2">&amp;gt;</ph> element to read.</source>
+          <target state="translated">XML-läsaren placerad i den <ph id="ph1">&amp;lt;</ph>saml:AudienceRestrictionCondition<ph id="ph2">&amp;gt;</ph> element att läsa.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the element that was read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet som lästes.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:AuthnStatement<ph id="ph2">&amp;gt;</ph> element or a <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element that specifies an xsi:type of saml:AuthnStatementType.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:AuthnStatement<ph id="ph2">&amp;gt;</ph> element eller ett <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element som anger en xsi: Type för saml:AuthnStatementType.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet som läses.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Read the <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läs den <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>An XML reader positioned at the <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element</source>
+          <target state="translated">XML-läsaren placerad i den <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorityBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was read.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorityBinding"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som lästes.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is not positioned at a saml:AuthorityBinding element or contains an unrecognized child element or a child element that is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>har inte placerats på elementet saml:AuthorityBinding eller innehåller ett okänt underordnade element eller ett underordnat element som inte är giltigt.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:AuthzDecisionStatement<ph id="ph2">&amp;gt;</ph> element or a <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element that specifies an xsi:type of saml:AuthzDecisionStatementType.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:AuthzDecisionStatement<ph id="ph2">&amp;gt;</ph> element eller ett <ph id="ph3">&amp;lt;</ph>saml:Statement<ph id="ph4">&amp;gt;</ph> element som anger en xsi: Type för saml:AuthzDecisionStatementType.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IdentityModel.Tokens.SamlAuthorizationStatement&gt; that represents the element that is read.</source>
+          <target state="translated">En &lt;xref:System.IdentityModel.Tokens.SamlAuthorizationStatement&gt;som representerar elementet som läses.&lt;/xref:System.IdentityModel.Tokens.SamlAuthorizationStatement&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Reads a saml:AudienceRestrictionCondition or a saml:DoNotCacheCondition from the specified reader</source>
+          <target state="translated">Läser en saml:AudienceRestrictionCondition eller en saml:DoNotCacheCondition från den angivna smartkortsläsaren</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The reader from which to read the element.</source>
+          <target state="translated">Läsare som du vill läsa elementet.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was read from the XML.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som har lästs från XML.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is positioned at an unknown element.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>är placerad i ett okänt element.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Conditions<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Conditions<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle custom <ph id="ph1">\&lt;</ph>saml:Condition&gt; elements, override this method.</source>
+          <target state="translated">Att hantera anpassade <ph id="ph1">\&lt;</ph>saml:Condition &gt; element, åsidosätta den här metoden.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Conditions element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet villkor som läses.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is not positioned at a Conditions element.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>är inte placerad i ett villkor-element.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Reads a  saml:DoNotCacheCondition element from the specified XML reader.</source>
+          <target state="translated">Läser en saml:DoNotCacheCondition element från den angivna XML-läsaren.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>An XML reader positioned at a saml:DoNotCacheCondition element</source>
+          <target state="translated">En XML-läsaren placerad i ett saml:DoNotCacheCondition-element</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was read.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som lästes.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is not positioned at a saml:DoNotCacheCondition element.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>är inte placerad i ett saml:DoNotCacheCondition-element.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Evidence<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Evidence<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlEvidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Evidence element that is read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlEvidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet bevis som läses.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Deserializes the SAML Signing KeyInfo.</source>
+          <target state="translated">Deserializes SAML KeyInfo-signering.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>An XmlReader that can be positioned at a ds:KeyInfo element.</source>
+          <target state="translated">En XmlReader som kan vara placerad i ett ds:KeyInfo-element.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The assertion that is having the signature checked.</source>
+          <target state="translated">Kontrollen som markerad signaturen.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the key to use to check the signature.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar nyckeln som ska användas för att kontrollera signaturen.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Statement<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Statement<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation only handles Statement elements that specify an xsi:type of saml:AttributeStatementType, saml:AuthnStatementType, and saml:AuthzDecisionStatementType.</source>
+          <target state="translated">Standardimplementering hanterar endast instruktionen element som anger en xsi: type saml:AttributeStatementType, saml:AuthnStatementType och saml:AuthzDecisionStatementType.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle custom statements, override this method.</source>
+          <target state="translated">Åsidosätta den här metoden för att hantera anpassade uttryck.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Statement element that was read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet instruktionen lästes.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Reads the <ph id="ph1">&amp;lt;</ph>saml:Subject<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Läser den <ph id="ph1">&amp;lt;</ph>saml:Subject<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does not handle the optional <ph id="ph1">\&lt;</ph>EncryptedID&gt; element.</source>
+          <target state="translated">Standardimplementering hanterar inte den valfria <ph id="ph1">\&lt;</ph>EncryptedID &gt; element.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle encryped IDs in the Subject, override this method.</source>
+          <target state="translated">Åsidosätta den här metoden för att hantera krypterat-ID: N i ämnesraden.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at the element to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerats på elementet så att läsa.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the Subject element that was read.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSubject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar elementet ämne som lästes.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Deserializes the SAML Subject <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Deserializes SAML-ämne <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; positioned at a <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;placerad i ett <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the contents of the <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar innehållet i den <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Reads a SAML 1.1 token from the specified stream.</source>
+          <target state="translated">Läser en 1.1 för SAML-token från den angivna dataströmmen.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.XmlReader&gt; stream to a SAML 1.1 Security Token.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;dataström som en SAML 1.1 säkerhets-Token.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En instans av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.IssuerTokenResolver<ept id="p1">*</ept>&gt; property of the configuration specified by the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration<bpt id="p3">*</bpt>&gt; property is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandlerConfiguration.ServiceTokenResolver<ept id="p3">*</ept>&gt; property of the configuration specified by the &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt; property is <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       - eller - &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;-egenskapen för den konfiguration som angetts av den &lt;&gt; &lt;/&gt; <bpt id="p3">*</bpt>&gt; egenskapen är <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.       - eller - &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt;-egenskapen för den konfiguration som angetts av den &lt;xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt;egenskapen är <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenHandler.Configuration*&gt;</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>Resolves the Signing Key Identifier to a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Löser signering nyckelidentifierare till en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which the Issuer token is to be resolved.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där utfärdaren token är matchas.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this handler.</source>
+          <target state="translated">Aktuellt <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som är associerade med den här hanteraren.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the resolved token.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar löst token.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;assertion&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;assertion&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>The handler is unable to resolve the token.</source>
+          <target state="translated">Hanteraren kan inte matcha token.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Resolves the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified in a saml:Subject element.</source>
+          <target state="translated">Matchar den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> anges i ett saml:Subject-element.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The key identifier to resolve into a key.</source>
+          <target state="translated">Nyckelidentifierare att matcha till en nyckel.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>The key resolved from the key identifier.</source>
+          <target state="translated">Nyckeln från Nyckelidentifieraren.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Gets or sets the security token requirements for this instance.</source>
+          <target state="translated">Hämtar eller anger säkerheten tokenkrav för den här instansen.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenRequirement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the requirements.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityTokenRequirement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som anger kraven.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>An attempt to set the value to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> occurs.</source>
+          <target state="translated">Ett försök att ange värdet till <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inträffar.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>This method gets called when a special type of <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is detected.</source>
+          <target state="translated">Den här metoden anropas när en särskild typ av <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> har identifierats.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed in wraps a <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that contains a collection of attribute values (in the &lt;xref:System.IdentityModel.Tokens.SamlAttribute.Values*&gt; property), each of which will get mapped to a claim.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> skickades radbryter en <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> som innehåller en samling attributvärden (i den &lt;xref:System.IdentityModel.Tokens.SamlAttribute.Values*&gt;egenskapen), som kommer få mappas till ett anspråk.&lt;/xref:System.IdentityModel.Tokens.SamlAttribute.Values*&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>All of the claims will be returned in an <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the specified issuer.</source>
+          <target state="translated">Alla anspråk som kommer att returneras i en <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med den angivna utgivaren.</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the subject of this token.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som är föremål för denna token.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>The issuer of the claim.</source>
+          <target state="translated">Utfärdaren för anspråk.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not contain any valid attribute values.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inte innehåller något giltigt attribut-värde.</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>Gets the token type supported by this handler.</source>
+          <target state="translated">Hämtar tokentypen stöds av den här hanteraren.</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;av den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>Resolves the Signing Key Identifier to a SecurityToken.</source>
+          <target state="translated">Matchar en SecurityToken signering nyckelidentifierare.</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which the Issuer token is to be resolved.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> där utfärdaren token är matchas.</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this handler.</source>
+          <target state="translated">Aktuellt <bpt id="p1">&lt;xref href="System.IdentityModel.Selectors.SecurityTokenResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som är associerade med den här hanteraren.</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the resolved security token if a token was successfully resolved.</source>
+          <target state="translated">När den här metoden returnerar innehåller löst säkerhetstoken om en token har lösts.</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the token is resolved.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om token har lösts.</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>urn:oasis:names:tc:SAML:1.0:am:unspecified</source>
+          <target state="translated">urn: oasis: namn: tc: SAML:1.0:am: okänt</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Validates the specified <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Validerar angivna <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlConditions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Throws an appropriate exception if the condition is not valid.</source>
+          <target state="translated">Genererar ett lämpligt undantag om villkoret inte är giltig.</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token may not be valid for a number of reasons.</source>
+          <target state="translated">Token är kanske inte giltig för ett antal orsaker.</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the current time may not be within the token's validity period, the token may contain data that is contradictory or not valid, or the token may contain unsupported SAML 1.1 elements.</source>
+          <target state="translated">Exempelvis kanske inte den aktuella tiden inom giltighetstid för token, token kan innehålla data som motstridig eller är inte giltigt eller token kan innehålla element som inte stöds SAML 1.1.</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>The SAML 1.1 condition to be validated.</source>
+          <target state="translated">SAML 1.1 villkoret som ska verifieras.</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to check for Audience Restriction condition.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>för att kontrollera för målgruppen begränsning villkoret.</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Validates the token data and returns its claims.</source>
+          <target state="translated">Verifierar token-data och returnerar dess anspråk.</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Throws an appropriate exception if the token is not valid.</source>
+          <target state="translated">Genererar ett lämpligt undantag om token inte är giltig.</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>The SAML 1.1 token to be validated.</source>
+          <target state="translated">1.1 för SAML-token som ska verifieras.</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The identities contained in the token.</source>
+          <target state="translated">Identiteter i token.</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Action<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Action<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Advice<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Advice<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;advice&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;advice&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Serializes the specified SAML assertion to the specified XML writer.</source>
+          <target state="translated">Serialiserar angivna SAML-kontroll till den angivna XML-skrivaren.</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; to use for the serialization.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;ska användas för serialisering.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the assertion to serialize.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAssertion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar kontrollen att serialisera.</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;assertion&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;assertion&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>The assertion specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">assertion</ph><ept id="p1">&lt;/code&gt;</ept> has both the &lt;xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt; and &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReceivedEncryptingCredentials&gt; properties set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kontrollen som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">assertion</ph> <ept id="p1">&lt;/code&gt;</ept> har både den &lt;xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt;och &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReceivedEncryptingCredentials&gt;egenskaperna <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.ReceivedEncryptingCredentials&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.EncryptingCredentials&gt;</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>-or-       There are no statements and no subject in the assertion specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">data</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- eller - det finns inga instruktioner och inget ämne i kontrollen som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">data</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>(Both the &lt;xref:System.IdentityModel.Tokens.SamlAssertion.Subject<bpt id="p1">*</bpt>&gt; property and the &lt;xref:System.IdentityModel.Tokens.SamlAssertion.Statements<ept id="p1">*</ept>&gt; property are <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.) If an assertion does not contain statements, it must contain a subject.</source>
+          <target state="translated">(Både den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen och &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskapen är <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.) Om ett intyg inte innehåller instruktioner, måste den innehålla ett ämne.</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>-or-       The assertion specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">assertion</ph><ept id="p1">&lt;/code&gt;</ept> contains an authentication, attribute, or authorization decision statement and no subject—these statements require a subject.</source>
+          <target state="translated">- eller - kontrollen som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">assertion</ph> <ept id="p1">&lt;/code&gt;</ept> innehåller ett uttryck för autentisering, attribut eller auktorisering beslut och inget ämne – de här uttrycken kräver ett ämne.</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Tokens.SamlAssertion.Statements<bpt id="p1">*</bpt>&gt; property contains a statement of type <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> and the &lt;xref:System.IdentityModel.Tokens.SamlAssertion.Subject<ept id="p1">*</ept>&gt; property is <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">(Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen innehåller ett uttryck av typen <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlAttributeStatement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IdentityModel.Tokens.SamlAuthenticationStatement"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, eller <bpt id="p4">&lt;xref href="System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> och &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskapen är <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>The token encrypting credentials do not have a Symmetric Key specified.</source>
+          <target state="translated">Token kryptering autentiseringsuppgifterna har inte en symmetrisk nyckel som angetts.</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Attribute<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Attribute<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attribute&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attribute&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:AttributeStatement<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:AttributeStatement<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>Writes the saml:Attribute value.</source>
+          <target state="translated">Registrerar saml:Attribute-värde.</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default the method writes the value as a string.</source>
+          <target state="translated">Som standard skriver metoden värdet som en sträng.</target>       </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>A string that contains the attribute value to be written.</source>
+          <target state="translated">En sträng som innehåller attributvärdet som ska skrivas.</target>       </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the attribute whose value is being written.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar attributet vars värde skrivs.</target>       </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:AudienceRestriction<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:AudienceRestriction<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Tokens.SamlConditions.Conditions*&gt; property of the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">condition</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty collection.</source>
+          <target state="translated">Den &lt;xref:System.IdentityModel.Tokens.SamlConditions.Conditions*&gt;egenskapen för den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> anges i <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">condition</ph> <ept id="p2">&lt;/code&gt;</ept> är <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> eller en tom samling.&lt;/xref:System.IdentityModel.Tokens.SamlConditions.Conditions*&gt;</target>       </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:AuthnStatement<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:AuthnStatement<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:AuthorityBinding<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authorityBinding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authorityBinding&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:AuthzDecisionStatement<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:AuthzDecisionStatement<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>Serializes the specified <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Serialiserar den angivna <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the method invokes either the &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteAudienceRestrictionCondition%2A&gt; or &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteDoNotCacheCondition%2A&gt; method to serialize the condition based on the type of &lt;xref:System.IdentityModel.Tokens.SamlCondition&gt; specified.</source>
+          <target state="translated">Som standard anropar metoden antingen den &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteAudienceRestrictionCondition%2A&gt;eller &lt;xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteDoNotCacheCondition%2A&gt;metod för att serialisera villkoret baserat på vilken typ av &lt;xref:System.IdentityModel.Tokens.SamlCondition&gt;angivna.&lt;/xref:System.IdentityModel.Tokens.SamlCondition&gt; &lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteDoNotCacheCondition%2A&gt; &lt;/xref:System.IdentityModel.Tokens.SamlSecurityTokenHandler.WriteAudienceRestrictionCondition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>By default, only <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> are supported.</source>
+          <target state="translated">Som standard endast <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> stöds.</target>       </trans-unit>
+        <trans-unit id="505" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="506" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="507" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph> is not supported.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph>stöds inte.</target>       </trans-unit>
+        <trans-unit id="508" translate="yes" xml:space="preserve">
+          <source>.</source>
+          <target state="translated">.</target>       </trans-unit>
+        <trans-unit id="509" translate="yes" xml:space="preserve">
+          <source>By default, only <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> are supported.</source>
+          <target state="translated">Som standard endast <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlAudienceRestrictionCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och <bpt id="p2">&lt;xref href="System.IdentityModel.Tokens.SamlDoNotCacheCondition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> stöds.</target>       </trans-unit>
+        <trans-unit id="510" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Conditions<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Conditions<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="511" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="512" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="513" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;conditions&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;conditions&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="514" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="515" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:DoNotCacheCondition<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:DoNotCacheCondition<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="516" translate="yes" xml:space="preserve">
+          <source>The XML writer with which to write the data.</source>
+          <target state="translated">XML-skrivaren att skriva data.</target>       </trans-unit>
+        <trans-unit id="517" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="518" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="519" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;condition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="520" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Evidence<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Evidence<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="521" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="522" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="523" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;evidence&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;evidence&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="524" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="525" translate="yes" xml:space="preserve">
+          <source>Writes the Signing <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element using the specified XML writer.</source>
+          <target state="translated">Skriver signering <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element med hjälp av den angivna XML-skrivaren.</target>       </trans-unit>
+        <trans-unit id="526" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to serialize the key identifier.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill serialisera Nyckelidentifieraren.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="527" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the key identifier to write.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar nyckelidentifierare att skriva.</target>       </trans-unit>
+        <trans-unit id="528" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;signingKeyIdentifier&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;signingKeyIdentifier&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="529" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="530" translate="yes" xml:space="preserve">
+          <source>The handler cannot serialize the key identifier specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">signingKeyIdentifier</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Hanteraren kan inte serialisera nyckelidentifierare som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">signingKeyIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="531" translate="yes" xml:space="preserve">
+          <source>Writes a SamlStatement.</source>
+          <target state="translated">Skriver en SamlStatement.</target>       </trans-unit>
+        <trans-unit id="532" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method may write a <ph id="ph1">\&lt;</ph>saml:AttributeStatement&gt;, <ph id="ph2">\&lt;</ph>saml:AuthnStatement&gt;, or <ph id="ph3">\&lt;</ph>saml:AuthzDecisionStatement&gt; element.</source>
+          <target state="translated">Den här metoden kan skriva en <ph id="ph1">\&lt;</ph>saml:AttributeStatement &gt;, <ph id="ph2">\&lt;</ph>saml:AuthnStatement &gt;, eller <ph id="ph3">\&lt;</ph>saml:AuthzDecisionStatement &gt; element.</target>       </trans-unit>
+        <trans-unit id="533" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To handle custom &lt;xref:System.IdentityModel.Tokens.SamlStatement&gt; classes for writing a <ph id="ph1">\&lt;</ph>saml:Statement&gt; element, override this method.</source>
+          <target state="translated">Att hantera anpassade &lt;xref:System.IdentityModel.Tokens.SamlStatement&gt;klasser för att skriva en <ph id="ph1">\&lt;</ph>saml:Statement &gt; element, åsidosätta den här metoden.&lt;/xref:System.IdentityModel.Tokens.SamlStatement&gt;</target>       </trans-unit>
+        <trans-unit id="534" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="535" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="536" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;statement&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="537" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="538" translate="yes" xml:space="preserve">
+          <source>Writes the <ph id="ph1">&amp;lt;</ph>saml:Subject<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">Skriver den <ph id="ph1">&amp;lt;</ph>saml:Subject<ph id="ph2">&amp;gt;</ph> element.</target>       </trans-unit>
+        <trans-unit id="539" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="540" translate="yes" xml:space="preserve">
+          <source>The data to write.</source>
+          <target state="translated">Data att skriva.</target>       </trans-unit>
+        <trans-unit id="541" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;subject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="542" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="543" translate="yes" xml:space="preserve">
+          <source>Serializes the Subject <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element using the specified XML writer.</source>
+          <target state="translated">Serialiserar ämnet <ph id="ph1">&amp;lt;</ph>ds:KeyInfo<ph id="ph2">&amp;gt;</ph> element med hjälp av den angivna XML-skrivaren.</target>       </trans-unit>
+        <trans-unit id="544" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to serialize the key identifier.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill serialisera Nyckelidentifieraren.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="545" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the key identifier to write.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityKeyIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar nyckelidentifierare att skriva.</target>       </trans-unit>
+        <trans-unit id="546" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;subjectSki&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;subjectSki&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="547" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="548" translate="yes" xml:space="preserve">
+          <source>Writes a Saml Token to the specified XML writer.</source>
+          <target state="translated">Skriver en Saml-Token till den angivna XML-skrivaren.</target>       </trans-unit>
+        <trans-unit id="549" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; with which to write the data.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlWriter&gt;som du vill skriva data.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="550" translate="yes" xml:space="preserve">
+          <source>The token to write.</source>
+          <target state="translated">Token för att skriva.</target>       </trans-unit>
+        <trans-unit id="551" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="552" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="553" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph> is not a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;token&lt;/code&gt;</ph>är inte en <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SamlSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5312381007de9da5dbd731844ed1e0365cf1664</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.TransactedBatchingBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8c64f09486900648235914e47cefde0453a6c60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e038371099cae1787d3d2fdc0e5db7e8fb72d4dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a behavior that optimizes the receive operations for transports that support transactional receives.</source>
+          <target state="translated">トランザクションのサポートが受信するトランスポートの受信操作を最適化する動作を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A transport that is configured with this behavior attempts to batch several receive operations into one transaction.</source>
+          <target state="translated">この動作で構成されるトランスポートは、いくつかのバッチを処理しようとしました。 操作を&amp;1; つのトランザクションを受信します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>By doing so, the relatively high cost of creating a transaction and committing it in every receive operation is avoided.</source>
+          <target state="translated">これにより、トランザクションの作成とそのコミットの比較的高いコストすべて受信操作を回避できます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Description.TransactedBatchingBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified batch size.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceModel.Description.TransactedBatchingBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したバッチ サイズを持つクラス。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`maxBatchSize`</ph> value passed into the constructor is only a hint.</source>
+          <target state="translated"><ph id="ph1">`maxBatchSize`</ph>コンス トラクターに渡された値は、単なるヒントです。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It is possible that all messages are received before reaching the <ph id="ph1">`maxBatchSize`</ph>.</source>
+          <target state="translated">達する前にすべてのメッセージを受信することが可能であれば、<ph id="ph1">`maxBatchSize`</ph>です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When that occurs, it is unnecessary to wait indefinitely for another message to be received.</source>
+          <target state="translated">発生すると、別のメッセージを受信すると無期限に待機する必要はありません。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To prevent this from happening, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> commits the batch early and open a new batch to receive additional messages.</source>
+          <target state="translated">これを防ぐに<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>バッチを早めにコミットし、その他のメッセージを受信する新しいバッチを開きます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The batch is committed if there are no messages to be received and 20 percent of the transaction time-out value has elapsed.</source>
+          <target state="translated">受信するメッセージがなくなってトランザクション タイムアウト値の 20% が経過した場合、バッチはコミットされます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The maximum number of receive operations that can be batched together.</source>
+          <target state="translated">最大数には、まとめてバッチ処理できる操作が表示されます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph>0 未満です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of receive operations that can be batched together in one transaction.</source>
+          <target state="translated">取得または設定の最大数で受信操作バッチ処理できる同時に&amp;1; つのトランザクション。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`maxBatchSize`</ph> value is only a hint.</source>
+          <target state="translated"><ph id="ph1">`maxBatchSize`</ph>値は、単なるヒントです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It is possible that all messages are received before reaching the <ph id="ph1">`maxBatchSize`</ph>.</source>
+          <target state="translated">達する前にすべてのメッセージを受信することが可能であれば、<ph id="ph1">`maxBatchSize`</ph>です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When that occurs, it is unnecessary to wait indefinitely for another message to be received.</source>
+          <target state="translated">発生すると、別のメッセージを受信すると無期限に待機する必要はありません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To prevent this from happening, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> commits the batch early and open a new batch to receive additional messages.</source>
+          <target state="translated">これを防ぐに<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>バッチを早めにコミットし、その他のメッセージを受信する新しいバッチを開きます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The batch is committed if there are no messages to be received and 20 percent of the transaction time-out value has elapsed.</source>
+          <target state="translated">受信するメッセージがなくなってトランザクション タイムアウト値の 20% が経過した場合、バッチはコミットされます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The maximum number of receive operations that can be batched together in one transaction.</source>
+          <target state="translated">最大数は、1 つのトランザクションでまとめてバッチ処理できる操作を受信します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph>0 未満です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Applies binding settings to the specified service endpoint.</source>
+          <target state="translated">指定したサービス エンドポイントにバインディング設定を適用します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">このメソッドは継承できません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enables you to add additional binding parameters to the specified service endpoint.</source>
+          <target state="translated">指定したサービス エンドポイントに追加のバインド パラメーターを追加できます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is normally used when working with a custom binding.</source>
+          <target state="translated">これは通常、カスタム バインドを使用する場合に使用します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">サービス エンドポイント動作の設定が適用されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A collection of binding parameters that store information used by binding elements to build factories.</source>
+          <target state="translated">ファクトリの作成にバインド要素で使用される情報を格納したバインド パラメーターのコレクション。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Applies transaction batching behavior settings to the specified service endpoint.</source>
+          <target state="translated">トランザクション バッチ動作設定を指定したサービス エンドポイントに適用されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">このメソッドは継承できません。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">サービス エンドポイント動作の設定が適用されます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Contains the transaction batching behavior.</source>
+          <target state="translated">トランザクション バッチ動作が含まれています。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Associates an endpoint dispatcher with the specified service endpoint.</source>
+          <target state="translated">指定したサービス エンドポイントをエンドポイント ディスパッチャーを関連付けます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">このメソッドは継承できません。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method is called by <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> to associate a service endpoint with an endpoint dispatcher.</source>
+          <target state="translated">このメソッドによって呼び出されます<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>にサービス エンドポイントをエンドポイント ディスパッチャーに関連付けます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">サービス エンドポイント動作の設定が適用されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An endpoint dispatching for dispatching messages</source>
+          <target state="translated">エンドポイントのメッセージをディスパッチするためのディスパッチ</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Ensures that transacted batching is applicable only for the bindings that support transacted receive operation.</source>
+          <target state="translated">トランザクション バッチが受信操作をトランザクションのサポートをバインディングにのみ適用されることを確認します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">このメソッドは継承できません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method is called by <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> to ensure that batching is available only for bindings that support transacted receive operations.</source>
+          <target state="translated">このメソッドによって呼び出されます<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>をバッチ処理が適用されるだけサポート トランザクション受信するバインディングの操作を確認します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A service endpoint for which batching behavior is validated.</source>
+          <target state="translated">バッチ動作を検証するサービス エンドポイント。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

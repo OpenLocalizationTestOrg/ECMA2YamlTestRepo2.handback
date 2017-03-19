@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4309d0fdcd0905db65698eebc7cfa2b9ea7faa4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Presentation.View.IExpressionEditorService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5239bf87fa756f07a578a6be6574f565eea95d06</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">946a67aa0bad135586e48e03ad586965f874a38c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates or closes expression editors.</source>
+          <target state="translated">만들거나 식 편집기를 닫습니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An expression editor is a Visual Basic control used to edit expressions inside Visual Studio.</source>
+          <target state="translated">식 편집기는 Visual Studio 내에서 식을 편집 하는 데 사용 되는 Visual Basic 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This control provides a full-fledged IDE editing experience, including IntelliSense, colorization, ParamInfo, error squiggles, among other features.</source>
+          <target state="translated">이 컨트롤은 된 포괄적인 IDE 편집 환경을 포함 하 여 IntelliSense, 색 지정, paraminfo, 다른 기능 중 에서도 오류 물결선 등 다양 한 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IExpressionEditorService can also be used to manage instances of custom expression editors.</source>
+          <target state="translated">사용자 지정 식 편집기의 인스턴스를 관리 하는 IExpressionEditorService는 사용할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To register a custom expression editor, you must publish the IExpressionEditorService using the following code :       <ph id="ph1">`this.expressionEditorService = new ExpressionEditorService();`</ph>       <ph id="ph2">`this.workflowDesigner.Context.Services.Publish&lt;IExpressionEditorService&gt;(this.expressionEditorService);`</ph>       An expression editor is created when an &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; instance gains focus and is destroyed on losing focus of a valid expression, or on reloading of the designer.</source>
+          <target state="translated">사용자 지정 식 편집기를 등록 하려면 다음 코드를 사용 하 여 IExpressionEditorService 게시 해야 합니다: <ph id="ph1">`this.expressionEditorService = new ExpressionEditorService();`</ph> <ph id="ph2">`this.workflowDesigner.Context.Services.Publish&lt;IExpressionEditorService&gt;(this.expressionEditorService);`</ph> 식 편집기 때 작성 되는 &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;인스턴스 포커스를 획득 하 고는 유효한 식의 포커스를 잃거나 디자이너가 다시 로드 컴퓨터나 소멸 됩니다.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;       </target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default expression editor is not available for use in rehosted applications.</source>
+          <target state="translated">기본 식 편집기를 다시 호스트 된 응용 프로그램에서 사용 하기 위해 사용할 수 없는 경우</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the default expression editor is used in a rehosted application, a text box is available for editing.</source>
+          <target state="translated">재 호스트 된 응용 프로그램에서 기본 식 편집기가 사용 하는 경우는 입력란을 편집할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, custom expression editors can be used in a rehosted application by publishing the IExpressionEditorService in the application.</source>
+          <target state="translated">그러나 사용자 지정 식 편집기는 IExpressionEditorService 응용 프로그램에서 게시 하 여 다시 호스트 된 응용 프로그램에서 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using an &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; control in a custom activity designer, it is not necessary to create and destroy expression editors using this interface.</source>
+          <target state="translated">사용 하는 경우는 &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;컨트롤 사용자 지정 활동 디자이너에 필요 없는를 만들고이 인터페이스를 사용 하 여 식 편집기를 제거할.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; class manages this for you.</source>
+          <target state="translated">&lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;클래스에서를이 관리 합니다.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Closes all the active expression editors.</source>
+          <target state="translated">모든 활성 식 편집기를 닫습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor.</source>
+          <target state="translated">새 식 편집기를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Used to set the context for the editor session.</source>
+          <target state="translated">편집기 세션에 대 한 컨텍스트를 설정 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The imported namespaces to be used by the expression editor.</source>
+          <target state="translated">식 편집기에서 사용 될 가져온된 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">식 편집기에 대 한 지역 변수입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">식 편집기를 채우는 데 사용 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Returns a<bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">반환 된<bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, and expression type.</source>
+          <target state="translated">새 식을 지정 된 어셈블리, 가져온된 네임 스페이스, 변수, 식 텍스트 및 식 형식을 사용 하 여 편집기를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">환경에서 로컬 및 참조 된 어셈블리입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">식 편집기에 사용 되는 가져온된 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">식 편집기에 대 한 지역 변수입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">식 편집기를 채우는 데 사용 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The type of the expression.</source>
+          <target state="translated">식의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스는 <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, and the initial size.</source>
+          <target state="translated">새 식이 지정된 된 어셈블리, 가져온된 네임 스페이스, 변수, 식 텍스트 및 초기 크기를 사용 하 여 편집기를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">환경에서 로컬 및 참조 된 어셈블리입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">식 편집기에 사용 되는 가져온된 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">식 편집기에 대 한 지역 변수입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">식 편집기를 채우는 데 사용 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The initial height and width of the expression editor control.</source>
+          <target state="translated">초기 높이 식 편집기 컨트롤의 너비입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스는 <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, expression type, and the initial size.</source>
+          <target state="translated">새 식이 지정된 된 어셈블리, 가져온된 네임 스페이스, 변수, 식 텍스트, 식 형식 및 초기 크기를 사용 하 여 편집기를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">환경에서 로컬 및 참조 된 어셈블리입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">식 편집기에 사용 되는 가져온된 네임 스페이스입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">식 편집기에 대 한 지역 변수입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">식 편집기를 채우는 데 사용 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The type of the expression.</source>
+          <target state="translated">식의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The initial height and width of the expression editor control.</source>
+          <target state="translated">초기 높이 식 편집기 컨트롤의 너비입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스는 <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Updates the context for the editing session.</source>
+          <target state="translated">편집 세션에 대 한 컨텍스트를 업데이트합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Used to set the context for the editor session.</source>
+          <target state="translated">편집기 세션에 대 한 컨텍스트를 설정 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">식 편집기에 사용 되는 가져온된 네임 스페이스입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

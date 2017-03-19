@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e0b6524294d5fb1d1c7e485cb60f7c41aeefaa5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.IServiceBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92dc0ef6c3e02b3e07bd6c78f98a38a21f276a86</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4de12739fe47e212218c4b990f24298d335fc0f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to modify or insert custom extensions across an entire service, including the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">変更、または、サービス全体にわたるカスタム拡張機能を挿入するメカニズムを提供など、 <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement IServiceBehavior to modify, examine, or extend some aspect of service-wide execution at the application level:      -   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt; method to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">変更、確認、またはアプリケーション レベルでサービス全体の実行の一部の側面を拡張する IServiceBehavior を実装する:-を使用して、&lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;メソッド実行時にプロパティ値を変更したり、エラー ハンドラー、メッセージ インターセプター、パラメーター インターセプター、セキュリティ拡張機能、およびその他のカスタム拡張オブジェクトなどのカスタム拡張オブジェクトを挿入します&lt;/xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt; method to examine the description before <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> constructs the executing service to confirm that it can execute properly.</source>
+          <target state="translated">-を使用して、&lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;する前に説明を検査するメソッド<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>を正しく実行できることを確認の実行中のサービスを構築します&lt;/xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt; method to pass to a binding element the custom information for the service so that it can support the service correctly.</source>
+          <target state="translated">-を使用して、&lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;メソッドは、サービスを正しくサポートできるように、サービスのカスタム情報をバインド要素に成功します&lt;/xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>IServiceBehavior objects can make use of any of these methods, but often only one is important; in such cases the unused methods can return without a value.</source>
+          <target state="translated">IServiceBehavior オブジェクトで行うことができますが重要です&amp;1; つだけが、多くの場合、これらのメソッドのいずれかの使用。このような場合に使用されないメソッドは値のない返すことができます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the IServiceBehavior methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; IServiceBehavior メソッドの一部を渡す&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;と&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;オブジェクトをパラメーターとして&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination only; if you modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;パラメーターは、検査にのみですこれらのオブジェクトを変更する場合、実行の動作が定義されていません。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt; 。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To perform the customization task for which it is intended, the IServiceBehavior object must be added to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the construction of the service runtime.</source>
+          <target state="translated">想定されているカスタマイズ タスクを実行するに IServiceBehavior オブジェクトを追加、&lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;サービス ランタイムの構築の前にプロパティ&lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are three ways to do this:      -   Programmatically add the custom service behavior to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the point where the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt; method is called on the &lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt; object.</source>
+          <target state="translated">これを行う&amp;3; つの方法があります: - プログラムでのカスタム サービス動作を追加、 &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;、ポイントする前にプロパティを&lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt;でメソッドが呼び出さ、&lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt;オブジェクト&lt;/xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Create a custom attribute that implements IServiceBehavior and use it to mark service classes that are to be modified.</source>
+          <target state="translated">-IServiceBehavior を実装するカスタム属性を作成し、それを使用して変更するサービス クラスをマークします。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.ServiceModel.ServiceHost&gt; object is constructed, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> uses reflection to discover the attributes on the service type.</source>
+          <target state="translated">ときに、&lt;xref:System.ServiceModel.ServiceHost&gt;オブジェクトを構築すると、<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>リフレクションを使用して、サービスの種類の属性を検出します&lt;/xref:System.ServiceModel.ServiceHost&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If any attributes implement IServiceBehavior, they are added to the behaviors collection on &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;.</source>
+          <target state="translated">任意の属性は、IServiceBehavior を実装する場合&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;動作コレクションに追加されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Extend the &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt; class to support the specification of the behavior in an application or machine configuration file.</source>
+          <target state="translated">-拡張、&lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;アプリケーションまたはマシン構成ファイルで動作の仕様をサポートするクラス&lt;/xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See the Example section for more information.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Examples of service behaviors in <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> include the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt; attribute, the &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;, the &lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt; and the &lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt; behavior.</source>
+          <target state="translated">サービス動作の例<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>が含まれて、&lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt;属性、 &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;、&lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt;と&lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt;動作&lt;/xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Provides the ability to pass custom data to binding elements to support the contract implementation.</source>
+          <target state="translated">コントラクトの実装をサポートするために要素をバインディングにカスタム データを渡す機能を提供します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the AddBindingParameters method to add custom data objects to the <ph id="ph1">`parameters`</ph> collection that binding elements can use to acquire extra information to enable them to support the contract.</source>
+          <target state="translated">AddBindingParameters メソッドを使用するカスタム データ オブジェクトを追加して、<ph id="ph1">`parameters`</ph>コントラクトをサポートするようにする追加の情報取得に使用できるバインド要素コレクション。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called once for each listen URI.</source>
+          <target state="translated">このメソッドはリッスン URI ごとに&amp;1; 回呼び出されます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, if a service has four endpoints, and two of them have the same listen URI, then this method gets called three times.</source>
+          <target state="translated">たとえば、サービスに&amp;4; つのエンドポイントが&amp;2; つの場合リッスン URI が同じ、このメソッドが&amp;3; 回呼び出されますを取得します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The reason is that the <ph id="ph1">`bindingParameters`</ph> target each channel stack and there is one channel stack for each listen URI.</source>
+          <target state="translated">その理由は、<ph id="ph1">`bindingParameters`</ph>各チャネル スタックをターゲットし、リッスン URI ごとに&amp;1; つのチャネル スタックがあります。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because each call receives those endpoints at that listen URI, two calls each get a single &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;, and one call gets a collection of two &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt; objects.</source>
+          <target state="translated">各 get、1 つを呼び出す&amp;2; つの各呼び出しは、リッスン URI にそのエンドポイントを受信するため&lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;、1 回の呼び出しは、2 つのコレクションを取得および&lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;オブジェクト&lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; のすべての&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;メソッドが成功&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;と&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;オブジェクトをパラメーターとして&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;パラメーターは、のみのカスタマイズの検査および挿入ですそれ以外の場合、これらのオブジェクトを変更する場合、実行の動作が定義されていません。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt; 。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The service description of the service.</source>
+          <target state="translated">サービスのサービスの説明。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The host of the service.</source>
+          <target state="translated">サービスのホスト。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The service endpoints.</source>
+          <target state="translated">サービス エンドポイント。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Custom objects to which binding elements have access.</source>
+          <target state="translated">バインド要素がアクセスするカスタム オブジェクト。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides the ability to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">実行時のプロパティの値を変更またはエラー ハンドラー、メッセージ インターセプター、パラメーター インターセプター、セキュリティ拡張機能、およびその他のカスタム拡張オブジェクトなどのカスタム拡張オブジェクトを挿入する機能を提供します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Implement the ApplyDispatchBehavior method to inspect or modify the &lt;xref:System.ServiceModel.ServiceHostBase&gt; object that is being constructed in order to support some custom execution scenario.</source>
+          <target state="translated">検査または変更するには、ApplyDispatchBehavior メソッドを実装、&lt;xref:System.ServiceModel.ServiceHostBase&gt;一部のカスタム実行シナリオをサポートするために構築されるオブジェクト&lt;/xref:System.ServiceModel.ServiceHostBase&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; のすべての&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;メソッドが成功&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;と&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;オブジェクトをパラメーターとして&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;パラメーターは、のみのカスタマイズの検査および挿入ですそれ以外の場合、これらのオブジェクトを変更する場合、実行の動作が定義されていません。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt; 。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">サービスの説明。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The host that is currently being built.</source>
+          <target state="translated">現在構築中のホスト。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provides the ability to inspect the service host and the service description to confirm that the service can run successfully.</source>
+          <target state="translated">サービス ホストを検査して、サービスが正常に実行できることを確認するサービスの説明を提供します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Use the Validate method to confirm whether the current service can execute properly according to your scenario.</source>
+          <target state="translated">現在のサービスが、シナリオに従って正しく実行できるかどうかを確認するのにには、タスクの Validate メソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; のすべての&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;メソッドが成功&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;と&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;オブジェクトをパラメーターとして&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;パラメーターは、のみのカスタマイズの検査および挿入ですそれ以外の場合、これらのオブジェクトを変更する場合、実行の動作が定義されていません。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt; 。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">サービスの説明。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service host that is currently being constructed.</source>
+          <target state="translated">現在構築中のサービス ホスト。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

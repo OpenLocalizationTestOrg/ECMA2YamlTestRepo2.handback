@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0bd4f051f259503b6877261552f52f4ab96b9e89</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.FileIO.TextFieldParser.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e465a9c7b2550c6eeb60b528d6f3808681cb04ac</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2197e266b59025815cbe946fba3a6dd47c332987</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods and properties for parsing structured text files.</source>
+          <target state="translated">提供分析结构化的文本文件的方法和属性文件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`TextFieldParser`</ph> object provides methods and properties for parsing structured text files.</source>
+          <target state="translated"><ph id="ph1">`TextFieldParser`</ph>对象提供的方法和属性，用于分析结构化文本文件。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Parsing a text file with the <ph id="ph1">`TextFieldParser`</ph> is similar to iterating over a text file, while the <ph id="ph2">`ReadFields`</ph> method to extract fields of text is similar to splitting the strings.</source>
+          <target state="translated">分析的文本文件<ph id="ph1">`TextFieldParser`</ph>类似于循环访问一个文本文件，而<ph id="ph2">`ReadFields`</ph>要提取文本字段的方法是类似于拆分字符串。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`TextFieldParser`</ph> can parse two types of files: delimited or fixed-width.</source>
+          <target state="translated"><ph id="ph1">`TextFieldParser`</ph>可以分析两种类型的文件︰ 分隔或固定宽度。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Some properties, such as <ph id="ph1">`Delimiters`</ph> and <ph id="ph2">`HasFieldsEnclosedInQuotes`</ph> are meaningful only when working with delimited files, while the <ph id="ph3">`FieldWidths`</ph> property is meaningful only when working with fixed-width files.</source>
+          <target state="translated">某些属性，如<ph id="ph1">`Delimiters`</ph>和<ph id="ph2">`HasFieldsEnclosedInQuotes`</ph>才有意义时使用带分隔符的文件，而<ph id="ph3">`FieldWidths`</ph>属性才有意义的仅当使用固定宽度文件时。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`Microsoft.VisualBasic.FileIO.TextFieldParser`</ph> object.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`Microsoft.VisualBasic.FileIO.TextFieldParser`</ph>对象。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width text file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a text file with multiple formats|<bpt id="p3">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文本文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度的文本文件读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从具有多种格式的文本文件读取 |<bpt id="p3">[</bpt>如何︰ 读取具有多种格式的文本文件<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>对象，以分析文件或流中所表示<ph id="ph2">`stream`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">要分析的流。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>无法从读取。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`reader`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>对象，以分析文件或流中所表示<ph id="ph2">`reader`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.TextReader&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; stream to be parsed.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;要分析的流。&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>要分析指定的文件对象<ph id="ph2">`path`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">要分析的文件的完整路径。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>为一个空字符串。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>对象，以分析文件或流中所表示<ph id="ph2">`stream`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 当你使用特定的区域性设置进行编译的一组字符，并检索这些具有不同的区域性设置的相同字符时，字符可能无法解释和可能会导致引发异常。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">要分析的流。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">从文件不确定要使用如果编码的字符编码。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">默认值是&lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>无法从读取。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>要分析指定的文件对象<ph id="ph2">`path`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 当你使用特定的区域性设置进行编译的一组字符，并检索这些具有不同的区域性设置的相同字符时，字符可能无法解释和可能会导致引发异常。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">要分析的文件的完整路径。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">从文件不确定要使用如果编码的字符编码。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">默认值是&lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>为空字符串或<ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>对象，以分析文件或流中所表示<ph id="ph2">`stream`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">如果<ph id="ph1">`detectEncoding`</ph>参数是<ph id="ph2">`True`</ph>，此构造函数将尝试检测通过查看的前三个字节的文件或流的编码。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">它自动识别 utf-8、 little-endian Unicode 和 big endian Unicode 文本如果文件开头的适当的字节顺序标记。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">否则，通过编码指定<ph id="ph1">`defaultEncoding`</ph>使用。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 当你使用特定的区域性设置进行编译的一组字符，并检索这些具有不同的区域性设置的相同字符时，字符可能无法解释和可能会导致引发异常。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">要分析的流。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">从文件不确定要使用如果编码的字符编码。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">默认值是&lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">指示是否查找字节顺序标记文件的开头。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>无法从读取。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>要分析指定的文件对象<ph id="ph2">`path`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">如果<ph id="ph1">`detectEncoding`</ph>参数是<ph id="ph2">`True`</ph>，此构造函数将尝试检测通过查看的前三个字节的文件或流的编码。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">它自动识别 utf-8、 little-endian Unicode 和 big endian Unicode 文本如果文件开头的适当的字节顺序标记。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">否则，通过编码指定<ph id="ph1">`defaultEncoding`</ph>使用。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 当你使用特定的区域性设置进行编译的一组字符，并检索这些具有不同的区域性设置的相同字符时，字符可能无法解释和可能会导致引发异常。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">要分析的文件的完整路径。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">从文件不确定要使用如果编码的字符编码。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">默认值是&lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">指示是否查找字节顺序标记文件的开头。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>为空字符串或<ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">创建一个新<ph id="ph1">`TextFieldParser`</ph>对象，以分析文件或流中所表示<ph id="ph2">`stream`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">如果<ph id="ph1">`detectEncoding`</ph>参数是<ph id="ph2">`True`</ph>，此构造函数将尝试检测通过查看的前三个字节的文件或流的编码。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">它自动识别 utf-8、 little-endian Unicode 和 big endian Unicode 文本如果文件开头的适当的字节顺序标记。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">否则，通过编码指定<ph id="ph1">`defaultEncoding`</ph>使用。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 当你使用特定的区域性设置进行编译的一组字符，并检索这些具有不同的区域性设置的相同字符时，字符可能无法解释和可能会导致引发异常。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">要分析的流。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">从文件不确定要使用如果编码的字符编码。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">默认值是&lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">指示是否查找字节顺序标记文件的开头。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Indicates whether to leave <ph id="ph1">`stream`</ph> open when the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed.</source>
+          <target state="translated">该值指示是否保留<ph id="ph1">`stream`</ph>时打开的<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象已关闭。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>无法从读取。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Closes the current <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">关闭当前<bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines comment tokens.</source>
+          <target state="translated">定义注释标记。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A comment token is a string that, when placed at the beginning of a line, indicates that the line is a comment and should be ignored by the parser.</source>
+          <target state="translated">注释标记是一个字符串，当放置在行开头，指示该行是一个注释并且分析器应该忽略。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">这是一个高级的成员;除非你单击不显示在 IntelliSense 中<bpt id="p1">**</bpt>所有<ept id="p1">**</ept>选项卡。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Zero-length comment tokens are ignored.</source>
+          <target state="translated">零长度注释标记将被忽略。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A string array that contains all of the comment tokens for the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">一个字符串数组，包含注释的所有标记为<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A comment token includes white space.</source>
+          <target state="translated">注释标记包含空白。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Defines the delimiters for a text file.</source>
+          <target state="translated">定义为的文本文件的分隔符。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This property is meaningful only if the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt; property is set to <ph id="ph1">`FieldType.Delimited`</ph>.</source>
+          <target state="translated">此属性是有意义才&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;属性设置为<ph id="ph1">`FieldType.Delimited`</ph>。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Defining the delimiters for a text file can also be accomplished with the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt; method.</source>
+          <target state="translated">定义分隔符的文本文件还可以使用&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt;方法。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The following table lists an example of a task involving the <ph id="ph1">`Delimiters`</ph> property.</source>
+          <target state="translated">下表列出的任务涉及示例<ph id="ph1">`Delimiters`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文本文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A string array that contains all of the field delimiters for the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">包含所有字段的分隔符的字符串数组<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A delimiter value is set to a newline character, an empty string, or <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">分隔符的值设置为换行符，空字符串，或<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">释放所使用的资源<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">释放所使用的资源<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Boolean.</source>
+          <target state="translated">布尔值。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>仅释放非托管资源。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no non-blank, non-comment lines between the current cursor position and the end of the file.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果不有任何非空，非注释行之间当前光标位置和文件的末尾。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This property can be used when reading from files to determine the end of the data being read.</source>
+          <target state="translated">此属性可以用于从文件读取数据时确定所读取的数据的末尾。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`EndOfData`</ph> property.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`EndOfData`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度文件中读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no more data to read; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有更多的数据，以读取;否则为<bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">返回引起的最新的行<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>异常。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If no &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt; exceptions have been thrown, an empty string is returned.</source>
+          <target state="translated">如果没有&lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;引发的异常，则返回一个空字符串。&lt;/xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt; property can be used to display the number of the line that caused the exception.</source>
+          <target state="translated">&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt;属性可以用于显示引起异常的行数。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ErrorLine`</ph> property.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`ErrorLine`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度文件中读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">引起的最新的行<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>异常。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns the number of the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">返回的引起的最新的行数<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>异常。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If no &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt; exceptions have been thrown, -1 is returned.</source>
+          <target state="translated">如果没有&lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;引发异常，则返回-1。&lt;/xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt; property can be used to display the number of the line that caused the exception.</source>
+          <target state="translated">&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt;属性可以用于显示引起异常的行数。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Blank lines and comments are not ignored when determining the line number.</source>
+          <target state="translated">确定的行号时，不忽略空行和注释。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ErrorLineNumber`</ph> property.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`ErrorLineNumber`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度文件中读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The number of the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">引起的最新的行数<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>异常。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Denotes the width of each column in the text file being parsed.</source>
+          <target state="translated">表示正在分析的文本文件中每个列的宽度。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This property is meaningful only if the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt; property is set to <ph id="ph1">`FieldType.FixedWidth`</ph>.</source>
+          <target state="translated">此属性是有意义才&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;属性设置为<ph id="ph1">`FieldType.FixedWidth`</ph>。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the last entry in the array is less than or equal to zero, the field is assumed to be of variable width.</source>
+          <target state="translated">如果数组中的最后一项小于或等于零，则假定字段为可变宽度。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt; method can also be used to set field widths.</source>
+          <target state="translated">&lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt;方法还可以用于设置字段宽度。&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`FieldWidths`</ph> property.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`FieldWidths`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a fixed-width text file|<bpt id="p1">[</bpt>How to: Read From Fixed-width Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从固定宽度的文本文件读取 |<bpt id="p1">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An integer array that contains the width of each column in the text file that is being parsed.</source>
+          <target state="translated">包含正在分析的文本文件中每个列的宽度的整数数组。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A width value in any location other than the last entry of the array is less than or equal to zero.</source>
+          <target state="translated">以外的最后一项数组的任何位置中的宽度值小于或等于零。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Allows the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to attempt to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</source>
+          <target state="translated">允许<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象尝试释放资源并在被垃圾回收回收之前执行其他清理操作。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Denotes whether fields are enclosed in quotation marks when a delimited file is being parsed.</source>
+          <target state="translated">表示在分析分隔的文件时是否将字段括在引号。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">这是一个高级的成员;除非你单击不显示在 IntelliSense 中<bpt id="p1">**</bpt>所有<ept id="p1">**</ept>选项卡。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If the property is <ph id="ph1">`True`</ph>, the parser assumes that fields are enclosed in quotation marks (" ") and may contain line endings.</source>
+          <target state="translated">如果属性是<ph id="ph1">`True`</ph>，则分析器认为，将字段括在引号 ("")，并且可能包含行尾。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If a field is enclosed in quotation marks, for example, <ph id="ph1">`abc, "field2a,field2b", field3`</ph> and this property is <ph id="ph2">`True`</ph>, then all text enclosed in quotation marks will be returned as is; this example would return <ph id="ph3">`abc|field2a,field2b|field3`</ph>.</source>
+          <target state="translated">如果字段括在引号中，例如，<ph id="ph1">`abc, "field2a,field2b", field3`</ph>并且此属性是<ph id="ph2">`True`</ph>，然后将返回用引号引起来的所有文本，原样; 此示例将返回<ph id="ph3">`abc|field2a,field2b|field3`</ph>。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Setting this property to <ph id="ph1">`False`</ph> would make this example return <ph id="ph2">`abc|"field2a|field2b"|field3`</ph>.</source>
+          <target state="translated">此属性设置为<ph id="ph1">`False`</ph>会使此示例返回<ph id="ph2">`abc|"field2a|field2b"|field3`</ph>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if fields are enclosed in quotation marks; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字段用引号引起来;否则为<bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns the current line number, or returns -1 if no more characters are available in the stream.</source>
+          <target state="translated">返回当前行号，或如果没有更多字符在流中可用，则返回-1。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">这是一个高级的成员;除非你单击不显示在 IntelliSense 中<bpt id="p1">**</bpt>所有<ept id="p1">**</ept>选项卡。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Blank lines and comments are not ignored when determining the line number.</source>
+          <target state="translated">确定的行号时，不忽略空行和注释。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The current line number.</source>
+          <target state="translated">当前行号。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Reads the specified number of characters without advancing the cursor.</source>
+          <target state="translated">读取指定的数目的字符，而不向前移动光标。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`numberOfChars`</ph> value must be less than the total number of characters in the line.</source>
+          <target state="translated"><ph id="ph1">`numberOfChars`</ph>值必须是一行中的字符总数小于。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>If it is not, the string returned by <ph id="ph1">`PeekChars`</ph> will be truncated to the length of the line.</source>
+          <target state="translated">如果不是，通过返回的字符串<ph id="ph1">`PeekChars`</ph>将截断为行的长度。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Blank lines are ignored.</source>
+          <target state="translated">将忽略空行。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>End-of-line characters are not returned.</source>
+          <target state="translated">不返回行尾字符。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`PeekChars`</ph> method performs no parsing; an end-of- line character within a delimited field is interpreted as the actual end of the line.</source>
+          <target state="translated"><ph id="ph1">`PeekChars`</ph>方法执行不分析; 分隔字段中的行尾字符解释为行的实际末尾。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`PeekChars`</ph> method.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`PeekChars`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Determine the format of a field before parsing it|<bpt id="p1">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |在解析它之前确定字段的格式 |<bpt id="p1">[</bpt>如何︰ 读取具有多种格式的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Number of characters to read.</source>
+          <target state="translated">要读取的字符数。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A string that contains the specified number of characters read.</source>
+          <target state="translated">包含指定的数目的字符的字符串读取。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;numberOfChars&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;numberOfChars&lt;/code&gt;</ph>小于 0。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Reads all fields on the current line, returns them as an array of strings, and advances the cursor to the next line containing data.</source>
+          <target state="translated">读取当前行上的所有字段将它们作为一个字符串，数组返回，并将光标前进到下一行包含数据。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>In order to allow users to parse text files in multiple formats, the <ph id="ph1">`ReadFields`</ph> method examines the values of <ph id="ph2">`TextFieldType`</ph>, <ph id="ph3">`Delimiters`</ph>, and <ph id="ph4">`FieldWidths`</ph>, if they are specified, each time it is called.</source>
+          <target state="translated">为了使用户能够分析以多种格式的文本文件<ph id="ph1">`ReadFields`</ph>方法检查的值<ph id="ph2">`TextFieldType`</ph>， <ph id="ph3">`Delimiters`</ph>，和<ph id="ph4">`FieldWidths`</ph>，如果指定，每次调用时。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Users need to correctly configure the <ph id="ph1">`TextFieldType`</ph> and <ph id="ph2">`FieldWidths`</ph> or <ph id="ph3">`Delimiters`</ph> properties, as appropriate.</source>
+          <target state="translated">用户需要正确配置<ph id="ph1">`TextFieldType`</ph>和<ph id="ph2">`FieldWidths`</ph>或<ph id="ph3">`Delimiters`</ph>属性，根据需要。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`TextFieldType`</ph> is set to <ph id="ph2">`Delimited`</ph>, and <ph id="ph3">`Delimiters`</ph> is not set, or if <ph id="ph4">`TextFieldType`</ph> is set to <ph id="ph5">`FixedWidth`</ph> and <ph id="ph6">`FieldWidths`</ph>, an exception is thrown.</source>
+          <target state="translated">如果<ph id="ph1">`TextFieldType`</ph>设置为<ph id="ph2">`Delimited`</ph>，和<ph id="ph3">`Delimiters`</ph>未设置，或者如果<ph id="ph4">`TextFieldType`</ph>设置为<ph id="ph5">`FixedWidth`</ph>和<ph id="ph6">`FieldWidths`</ph>，将引发异常。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ReadFields`</ph> encounters blank lines, they are skipped and the next non-blank line is returned.</source>
+          <target state="translated">如果<ph id="ph1">`ReadFields`</ph>遇到空行，它们将跳过，并且返回的下一步的非空行。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ReadFields`</ph> method cannot parse the current line, it raises an exception and does not move to the next line.</source>
+          <target state="translated">如果<ph id="ph1">`ReadFields`</ph>方法无法分析当前行，它会引发异常，并不会移动到下一行。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>This enables your application to attempt to parse the line again.</source>
+          <target state="translated">这使你的应用程序，以尝试再次分析行。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ReadFields`</ph> method.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`ReadFields`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度文件中读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>An array of strings that contains field values for the current line.</source>
+          <target state="translated">包含当前行的字段值的字符串数组。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>A field cannot be parsed by using the specified format.</source>
+          <target state="translated">字段不能通过使用指定的格式分析。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Returns the current line as a string and advances the cursor to the next line.</source>
+          <target state="translated">返回当前行作为字符串并将光标前进到下一行。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ReadLine`</ph> method performs no parsing; an end-of-line character within a delimited field is interpreted as the actual end of the line.</source>
+          <target state="translated"><ph id="ph1">`ReadLine`</ph>方法执行不分析; 分隔字段中的行尾字符解释为行的实际末尾。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Nothing`</ph> is returned if the end of the file is reached.</source>
+          <target state="translated"><ph id="ph1">`Nothing`</ph>返回已到达文件结尾。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The current line from the file or stream.</source>
+          <target state="translated">文件或流中的当前行。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Reads the remainder of the text file and returns it as a string.</source>
+          <target state="translated">读取文本文件的其余部分并将其作为字符串返回。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">这是一个高级的成员;除非你单击不显示在 IntelliSense 中<bpt id="p1">**</bpt>所有<ept id="p1">**</ept>选项卡。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If there is nothing more to read because the end of the file has been reached, <ph id="ph1">`Nothing`</ph> is returned.</source>
+          <target state="translated">如果没有更多要读取，因为已达到文件末尾，<ph id="ph1">`Nothing`</ph>返回。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ReadToEnd`</ph> method does not ignore blank lines and comments.</source>
+          <target state="translated"><ph id="ph1">`ReadToEnd`</ph>方法不会忽略空行和注释。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The remaining text from the file or stream.</source>
+          <target state="translated">文件或流中的其余文本。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Sets the delimiters for the reader to the specified values, and sets the field type to <bpt id="p1">&lt;xref uid="langword_csharp_Delimited" name="Delimited" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">分隔符设置为指定值，读取器并将字段类型设置为<bpt id="p1">&lt;xref uid="langword_csharp_Delimited" name="Delimited" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The existing contents of the <ph id="ph1">`Delimiters`</ph> property are cleared when this method is set.</source>
+          <target state="translated">现有内容<ph id="ph1">`Delimiters`</ph>属性会清除时设置此方法。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>This method provides a way to set delimiters without creating an array.</source>
+          <target state="translated">此方法提供了如何设置分隔符，而无需创建数组。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The following table lists an example of a task involving the <ph id="ph1">`SetDelimiters`</ph> method.</source>
+          <target state="translated">下表列出的任务涉及示例<ph id="ph1">`SetDelimiters`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Parse a text file|<bpt id="p1">[</bpt>Parsing Text Files with the TextFieldParser Object<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |分析文本文件 |<bpt id="p1">[</bpt>使用 TextFieldParser 对象分析文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Array of type <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">类型数组<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A delimiter is zero-length.</source>
+          <target state="translated">分隔符是长度为零。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Sets the delimiters for the reader to the specified values.</source>
+          <target state="translated">分隔符设置为指定值的读取器。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The existing contents of the <ph id="ph1">`Delimiters`</ph> property are cleared when this is set.</source>
+          <target state="translated">现有内容<ph id="ph1">`Delimiters`</ph>属性会清除此设置时。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>This method provides a way to set delimiters without creating an array.</source>
+          <target state="translated">此方法提供了如何设置分隔符，而无需创建数组。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The following table lists example of tasks involving the <ph id="ph1">`SetFieldWidths`</ph> method.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`SetFieldWidths`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Parse a text file.|<bpt id="p1">[</bpt>Parsing Text Files with the TextFieldParser Object<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |分析的文本文件。 |<bpt id="p1">[</bpt>使用 TextFieldParser 对象分析文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Array of <bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Indicates whether the file to be parsed is delimited or fixed-width.</source>
+          <target state="translated">指示要分析的文件分隔的还是固定宽度。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default value of this property is delimited.</source>
+          <target state="translated">分隔此属性的默认值。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`TextFieldType`</ph> property.</source>
+          <target state="translated">下表列出了所涉及的任务的示例<ph id="ph1">`TextFieldType`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width text file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a text file with multiple formats|<bpt id="p3">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">|到 |请参阅 |  |--------|---------|  |从带分隔符的文本文件中读取 |<bpt id="p1">[</bpt>如何︰ 读取逗号分隔的文本文件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从固定宽度的文本文件读取 |<bpt id="p2">[</bpt>如何︰ 读取固定宽度的文本文件<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|  |从具有多种格式的文本文件读取 |<bpt id="p3">[</bpt>如何︰ 读取具有多种格式的文本文件<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A TextFieldType value that indicates whether the file to be parsed is delimited or fixed-width.</source>
+          <target state="translated">TextFieldType 值，该值指示是否要分析的文件分隔或固定宽度。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Indicates whether leading and trailing white space should be trimmed from field values.</source>
+          <target state="translated">指示是否从字段值，应裁剪掉前导和尾随空格。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The default value for this property is <ph id="ph1">`True`</ph>.</source>
+          <target state="translated">此属性的默认值是<ph id="ph1">`True`</ph>。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if leading and trailing white space should be trimmed from field values; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应从字段值; 删除前导空格和尾随空格否则为<bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
