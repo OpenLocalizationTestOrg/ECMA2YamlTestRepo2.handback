@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c318d102b37a3a54dce318d17b67d180c596b82c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Discovery.DiscoveryServiceExtension.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">deb2f70fda23a13c4954d709a6f9816c20929758</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a43fc4555d21518f451a51c2e286b3dc4c24875</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An abstract WCF extension class for specifying a custom discovery service or for getting the published endpoints.</source>
+          <target state="translated">抽象 WCF 拡張クラス カスタム探索サービスの指定用または公開済みのエンドポイントを取得するためです。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Derive a class from DiscoveryServiceExtension and override the &lt;xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt; method to return your custom discovery service.</source>
+          <target state="translated">DiscoveryServiceExtension およびオーバーライドからクラスを派生させる、 &lt;xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt;、カスタム探索サービスを返すメソッド&lt;/xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add your derived class to the &lt;xref:System.ServiceModel.ServiceHost&gt; extensions that host your discoverable service.</source>
+          <target state="translated">派生クラスを追加、&lt;xref:System.ServiceModel.ServiceHost&gt;探索可能なサービスをホストする拡張機能&lt;/xref:System.ServiceModel.ServiceHost&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.System%23ServiceModel%23Description%23IServiceBehavior%23Validate%2A&gt; is called the behavior iterates through the extensions in the service host and looks for a DiscoveryServiceExtension.</source>
+          <target state="translated">ときに、&lt;xref:System.ServiceModel.ServiceBehaviorAttribute.System%23ServiceModel%23Description%23IServiceBehavior%23Validate%2A&gt;と呼ばれますが、動作、サービス ホストの拡張機能を反復処理し、を DiscoveryServiceExtension を探します&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.System%23ServiceModel%23Description%23IServiceBehavior%23Validate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If one is found its &lt;xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt; is called to get the custom discovery service.</source>
+          <target state="translated">見つかった場合はその&lt;xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt;が呼び出されて、カスタム探索サービスを取得します&lt;/xref:System.ServiceModel.Discovery.DiscoveryServiceExtension.GetDiscoveryService%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If an extension is not found the default discovery service implementation is used.</source>
+          <target state="translated">拡張機能には、既定の探索サービス実装が見つからない場合は使用されます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Discovery.DiscoveryServiceExtension"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceModel.Discovery.DiscoveryServiceExtension"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Override this method to return your custom <bpt id="p1">&lt;xref href="System.ServiceModel.Discovery.DiscoveryService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation.</source>
+          <target state="translated">カスタムを返すには、このメソッドをオーバーライド<bpt id="p1">&lt;xref href="System.ServiceModel.Discovery.DiscoveryService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>実装します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.InvalidOperationException&gt; is thrown while opening the service host if this method returns <ph id="ph1">`null`</ph></source>
+          <target state="translated">&lt;xref:System.InvalidOperationException&gt;このメソッドが戻る場合は、サービス ホストを開くときにスローされる<ph id="ph1">`null`</ph>&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A custom discovery service implementation.</source>
+          <target state="translated">カスタム探索サービスの実装。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets a read-only collection of published endpoints.</source>
+          <target state="translated">公開済みのエンドポイントの読み取り専用コレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The property should be accessed only after the &lt;xref:System.ServiceModel.ServiceHost&gt; has successfully opened.</source>
+          <target state="translated">した場合のみ、プロパティにアクセスする必要があります、&lt;xref:System.ServiceModel.ServiceHost&gt;が正常に開かれました&lt;/xref:System.ServiceModel.ServiceHost&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.ServiceModel.ServiceHost&gt; is in &lt;xref:System.ServiceModel.CommunicationState&gt; state, the &lt;xref:System.ServiceModel.Discovery.EndpointDiscoveryMetadata&gt; is being generated and added to the collection.</source>
+          <target state="translated">ときに、&lt;xref:System.ServiceModel.ServiceHost&gt;に&lt;xref:System.ServiceModel.CommunicationState&gt;、状態、&lt;xref:System.ServiceModel.Discovery.EndpointDiscoveryMetadata&gt;が生成され、コレクションに追加します&lt;/xref:System.ServiceModel.Discovery.EndpointDiscoveryMetadata&gt;&lt;/xref:System.ServiceModel.CommunicationState&gt;&lt;/xref:System.ServiceModel.ServiceHost&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A read-only collection of published endpoints.</source>
+          <target state="translated">公開済みのエンドポイントの読み取り専用コレクション。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

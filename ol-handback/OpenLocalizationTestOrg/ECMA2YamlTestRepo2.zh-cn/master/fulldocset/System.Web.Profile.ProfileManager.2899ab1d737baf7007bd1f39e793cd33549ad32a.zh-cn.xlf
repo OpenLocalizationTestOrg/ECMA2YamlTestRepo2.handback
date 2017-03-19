@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa85ec3909bb99a35bb9a953217ab4b61195b561</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Profile.ProfileManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6f377d49a271e9a9fc6c220cc9864016cef37a9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f0b89e7ca1b1e081eaba838e37bb67d0c447bee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages user profile data and settings.</source>
+          <target state="translated">管理用户配置文件数据和设置。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ASP.NET profile is used to store and retrieve user settings in a data source such as a database.</source>
+          <target state="translated">ASP.NET 配置文件用于存储和检索数据源，如数据库中的用户设置。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The user profile is accessed using the &lt;xref:System.Web.HttpContext.Profile%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Web.HttpContext.Profile%2A&gt;属性的当前&lt;xref:System.Web.HttpContext&gt;.&lt;/xref:System.Web.HttpContext&gt;&lt;/xref:System.Web.HttpContext.Profile%2A&gt;访问用户配置文件</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Profile information and property values are managed using a profile provider.</source>
+          <target state="translated">使用配置文件提供程序管理配置文件信息和属性值。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The ProfileManager class is used to manage profile settings, search for user profiles, and delete user profiles that are no longer in use.</source>
+          <target state="translated">ProfileManager 类用于管理配置文件设置、 用户配置文件，搜索和删除不再使用的用户配置文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The ProfileManager class provides static methods and properties that can be accessed by referencing the ProfileManager class in your application code.</source>
+          <target state="translated">ProfileManager 类提供静态方法和属性，可以通过引用应用程序代码中的 ProfileManager 类进行访问。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For an example, see the Example section in this topic and additional examples in the topics for members of the ProfileManager class.</source>
+          <target state="translated">有关示例，请参阅有关 ProfileManager 类的成员的本主题中的示例部分和主题中的其他示例。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By default, the user profile is disabled for all ASP.NET applications.</source>
+          <target state="translated">默认情况下，所有 ASP.NET 应用程序禁用的用户配置文件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To enable the user profile, set the <ph id="ph1">`enabled`</ph> attribute of the  configuration element to true, as shown in the following example.</source>
+          <target state="translated">若要启用的用户配置文件，设置<ph id="ph1">`enabled`</ph>为 true，如下面的示例中所示的配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       For more information about the user profile, see <bpt id="p1">[</bpt>ASP.NET Profile Properties Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>有关用户配置文件的详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 配置文件属性概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A profile provider is used to store and retrieve properties in the user profile.</source>
+          <target state="translated">配置文件提供程序用于存储和检索用户配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The .NET Framework includes a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class that stores user profile properties in a SQL Server database.</source>
+          <target state="translated">.NET Framework 包括&lt;xref:System.Web.Profile.SqlProfileProvider&gt;为 SQL Server 数据库中存储用户配置文件属性的类。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named <ph id="ph1">`AspNetSqlProvider`</ph> is specified in the machine configuration as the default profile provider.</source>
+          <target state="translated">A&lt;xref:System.Web.Profile.SqlProfileProvider&gt;实例名为<ph id="ph1">`AspNetSqlProvider`</ph>作为默认配置文件提供程序的计算机配置中指定。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`AspNetSqlProvider`</ph> instance connects to the SQL Server database on the local Web server.</source>
+          <target state="translated"><ph id="ph1">`AspNetSqlProvider`</ph>实例连接到本地的 Web 服务器上的 SQL Server 数据库。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can specify a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; that connects to another SQL Server as the default profile provider by using the  configuration element and the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element, as shown in the following example.</source>
+          <target state="translated">你可以指定&lt;xref:System.Web.Profile.SqlProfileProvider&gt;，将连接到其他 SQL Server 作为默认配置文件提供程序使用的配置元素和<ph id="ph1">`defaultProvider`</ph>配置元素，如下面的示例中所示的属性。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a profile property programmatically.</source>
+          <target state="translated">以编程方式添加的配置文件属性。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This method is functionally equivalent to adding the property to the <ph id="ph1">`profile`</ph> section of the configuration file.</source>
+          <target state="translated">此方法在功能上等效于添加到属性<ph id="ph1">`profile`</ph>配置文件节。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To call this method to add the profile property, you must make the call in a method that is marked with the &lt;xref:System.Web.PreApplicationStartMethodAttribute&gt; attribute.</source>
+          <target state="translated">要调用此方法以添加配置文件属性，必须进行调用的方法将标有中&lt;xref:System.Web.PreApplicationStartMethodAttribute&gt;属性。&lt;/xref:System.Web.PreApplicationStartMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property settings to be added.</source>
+          <target state="translated">要添加的属性设置。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">获取或设置其来存储和检索配置文件信息的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager&gt; uses the ApplicationName property to associate profile information with different applications.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager&gt;ApplicationName 属性用于将配置文件信息与不同的应用程序相关联。&lt;/xref:System.Web.Profile.ProfileManager&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This enables multiple applications to use the same database to store user information without running into conflicts between duplicate users.</source>
+          <target state="translated">这使多个应用程序能够使用相同的数据库来存储用户信息而不会遇到重复的用户之间的冲突。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Multiple ASP.NET applications can use the same user database by specifying the same value in the ApplicationName property.</source>
+          <target state="translated">多个 ASP.NET 应用程序可以通过在应用程序名称属性中指定相同的值使用相同的用户数据库。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property can be set programmatically, or it can be set declaratively in the configuration file for the Web application by using the <ph id="ph1">`applicationName`</ph> attribute.</source>
+          <target state="translated">可以以编程方式，设置应用程序名称属性也可以在其进行设置以声明方式的 Web 应用程序的配置文件使用<ph id="ph1">`applicationName`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If a value is not specified for the <ph id="ph1">`applicationName`</ph> attribute in the configuration file for the Web application, then the profile providers included with the .NET Framework use the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property value for ASP.NET applications.</source>
+          <target state="translated">如果没有为指定值<ph id="ph1">`applicationName`</ph>属性在 Web 应用的配置文件，则.NET Framework 附带的配置文件提供程序使用&lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;ASP.NET 应用程序的属性值。&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For non-ASP.NET applications, the default value is the &lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt; property value, without the file extension.</source>
+          <target state="translated">对于非 ASP.NET 应用程序，默认值是&lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;属性值，不含文件扩展名。&lt;/xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property exposes the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt; property of the default profile provider.</source>
+          <target state="translated">应用程序名称属性可公开&lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;的默认配置文件提供程序的属性。&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they may be configured with a different application name.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，它们可能配置一个不同的应用程序名称。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To access the application name of a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and access the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; property of the provider directly.</source>
+          <target state="translated">若要访问配置文件提供者不是默认的提供程序的应用程序名称，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性和访问&lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt;直接的提供程序的属性。&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single default profile provider instance is used for all of the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently and attempting to set the ApplicationName property value.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 由于一个默认配置文件提供程序实例用于所有服务的请求&lt;xref:System.Web.HttpApplication&gt;对象，您可以有多个请求并发执行，并尝试设置的应用程序名称属性值。&lt;/xref:System.Web.HttpApplication&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property is not thread safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">应用程序名称属性不是线程安全的多个写操作，并更改应用程序名称属性值可能导致多个用户的应用程序的意外行为。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It is recommended that you avoid writing code that allows users to set the ApplicationName property unless you require it.</source>
+          <target state="translated">建议你避免编写代码，用户可设置的应用程序名称属性，除非需要它。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An example of an application where setting the ApplicationName property may be required is an administrative application that manages profile data for multiple applications.</source>
+          <target state="translated">应用程序可能需要设置应用程序名称属性的示例是管理应用程序管理多个应用程序的配置文件数据。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Such an application should be a single-user application and not a Web application.</source>
+          <target state="translated">此类应用程序应为单用户应用程序和不是 Web 应用程序。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">其来存储和检索配置文件信息的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile will be automatically saved at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">获取一个值，该值指示是否将 ASP.NET 页的执行结束时自动保存的用户配置文件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The AutomaticSaveEnabled property indicates whether automatic saving of the user profile is enabled for the application.</source>
+          <target state="translated">AutomaticSaveEnabled 属性指示是否为应用程序启用的用户配置文件的自动保存。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If automatic saving is enabled, the &lt;xref:System.Web.Profile.ProfileModule&gt; object raises the &lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; event and calls the &lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt; method during the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">如果启用了自动保存，&lt;xref:System.Web.Profile.ProfileModule&gt;对象引发&lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt;事件并调用&lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt;方法期间&lt;xref:System.Web.HttpApplication.EndRequest&gt;末尾的 ASP.NET 页执行的事件。&lt;/xref:System.Web.HttpApplication.EndRequest&gt; &lt;/xref:System.Web.Profile.ProfileBase.Save%2A&gt; &lt;/xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; &lt;/xref:System.Web.Profile.ProfileModule&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The AutomaticSaveEnabled property is set using the <ph id="ph1">`automaticSaveEnabled`</ph> attribute of the  element in the Web.config file for an ASP.NET application.</source>
+          <target state="translated">使用设置 AutomaticSaveEnabled 属性<ph id="ph1">`automaticSaveEnabled`</ph>的 ASP.NET 应用程序的 Web.config 文件中的元素的属性。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile will be automatically saved at the end of the execution of an ASP.NET page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果将 ASP.NET 页; 的执行结束时自动保存的用户配置文件否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the AutomaticSaveEnabled property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">尝试至少获取 AutomaticSaveEnabled 属性值，但无<bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>权限。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Deletes user profile data for which the last activity date and time occurred before the specified date and time.</source>
+          <target state="translated">删除上次活动日期和时间发生的指定的日期和时间之前的用户配置文件数据。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The DeleteInactiveProfiles method is used to remove unused profile data from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">DeleteInactiveProfiles 方法用于从指定的应用程序的数据源中删除未使用的配置文件数据<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is deleted.</source>
+          <target state="translated">搜索的配置文件，所有与配置文件&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况是日期或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>删除参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The DeleteInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteInactiveProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the profile information in the other data source is not deleted.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，不会删除其他数据源中的配置文件信息。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To delete inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要删除非活动管理的配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are deleted.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名，身份验证，或者两种类型的配置文件被删除。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;，标识哪些用户配置文件被视为处于非活动状态。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">从数据源中删除的配置文件数。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Deletes the profile for the specified user name from the data source.</source>
+          <target state="translated">从数据源中删除指定的用户名称的配置文件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The DeleteProfile method deletes all profile information and properties for the user profile for the specified <ph id="ph1">`username`</ph> from the data source for the specified &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">DeleteProfile 方法将删除所有配置文件信息和对指定的用户配置文件的属性<ph id="ph1">`username`</ph>从指定的&lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;的数据源</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The DeleteProfile method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider to perform the delete operation.</source>
+          <target state="translated">DeleteProfile 方法调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;要执行删除操作的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则它们不会删除。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要删除由配置文件提供者不是默认的提供程序的配置文件属性，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The user name for the profile to be deleted.</source>
+          <target state="translated">要删除的配置文件的用户名。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile was found and deleted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找到并删除; 用户配置文件否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is an empty string ("") or contains a comma.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>为空字符串 ("") 或包含逗号。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information for the supplied list of user names.</source>
+          <target state="translated">删除配置文件属性和提供的一系列的用户名的信息。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">DeleteProfiles 方法指定的应用程序的数据源中删除所有配置文件信息和属性指定配置文件的&lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;属性。&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The list of profiles to delete is specified as a string array of user names.</source>
+          <target state="translated">若要删除的配置文件列表指定为的用户名称的字符串数组。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If profile properties and information exist in the data source for a user name in the <ph id="ph1">`usernames`</ph> parameter, they are deleted.</source>
+          <target state="translated">如果配置文件属性和信息中的用户名称的数据源中存在<ph id="ph1">`usernames`</ph>参数，它们在被删除。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The return value may differ from the length of the specified array of <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">返回值可能与指定的数组的长度不同<ph id="ph1">`usernames`</ph>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This indicates that some of the profiles in the specified array of <ph id="ph1">`usernames`</ph> were already deleted from the data store.</source>
+          <target state="translated">这指示指定的数组中的配置文件的一些<ph id="ph1">`usernames`</ph>了已从数据存储区中删除。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则它们不会删除。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要删除由配置文件提供者不是默认的提供程序的配置文件属性，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string array of user names for profiles to be deleted.</source>
+          <target state="translated">要删除的配置文件的用户名称的字符串数组。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">从数据源中删除的配置文件数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information from the data source for the supplied list of profiles.</source>
+          <target state="translated">提供的配置文件列表的数据源中删除配置文件属性和信息。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">DeleteProfiles 方法指定的应用程序的数据源中删除所有配置文件信息和属性指定配置文件的&lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;属性。&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The list of profiles to delete is specified using a &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; that is passed as the <ph id="ph1">`profiles`</ph> parameter.</source>
+          <target state="translated">使用指定的配置文件，以删除列表&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;作为传递<ph id="ph1">`profiles`</ph>参数。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; can be returned from the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;, and &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; methods.</source>
+          <target state="translated">A&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;可以从返回&lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;， &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;， &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;，和&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;方法。&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Note that the return value may differ from the &lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt; value for the supplied &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated">请注意，返回的值可能不同于&lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt;提供&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;值&lt;/xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This indicates that some of the profiles in the specified &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; were already deleted from the data store.</source>
+          <target state="translated">这指示在指定的配置文件的一些&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;了已从数据存储区中删除。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则它们不会删除。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要删除由配置文件提供者不是默认的提供程序的配置文件属性，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains profile information for profiles to be deleted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含要删除的配置文件的配置文件信息。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">从数据源中删除的配置文件数。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile is enabled for the application.</source>
+          <target state="translated">获取一个值，该值指示是否为应用程序启用的用户配置文件。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The user profile is enabled for an application using the <ph id="ph1">`enabled`</ph> attribute of the  configuration element.</source>
+          <target state="translated">为应用程序中使用启用的用户配置文件<ph id="ph1">`enabled`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用用户配置文件;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information for all profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">检索在其中指定日期或早于指定日期发生的上一次活动日期和时间和配置文件的用户名称匹配的指定的名称的所有配置文件的配置文件信息。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">FindInactiveProfilesByUserName 方法用于检索指定的应用程序的所有未使用的用户配置文件的配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This method will only retrieve profiles for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">此方法将仅检索为其配置文件的用户名匹配所提供的配置文件<ph id="ph1">`usernameToMatch`</ph>参数值。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is returned.</source>
+          <target state="translated">搜索的配置文件，所有与配置文件&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况是日期或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>返回参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can retrieve this information in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">你可以检索此信息使用的重载，以数据页&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;采用其他方法<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Your profile provider may support wildcard characters in the <ph id="ph2">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 配置文件提供程序可能支持的通配符字符<ph id="ph2">`usernameToMatch`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">例如，&lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;方法&lt;xref:System.Web.Profile.SqlProfileProvider&gt;类支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">FindInactiveProfilesByUserName 方法调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序管理的非活动配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">要搜索的用户名。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;，标识哪些用户配置文件被视为处于非活动状态。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles in which the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含不活动的配置文件中的用户名与匹配所提供的用户配置文件信息<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">检索配置文件在其中指定日期或早于指定日期发生的上一次活动日期和时间和配置文件的用户名称匹配的指定的名称的数据页的配置文件信息。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">FindInactiveProfilesByUserName 方法用于检索由指定的应用程序的未使用的用户配置文件的配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This method will only retrieve profiles for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">此方法将仅检索为其在用户名与匹配所提供的配置文件<ph id="ph1">`usernameToMatch`</ph>参数值。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">搜索配置文件中，任何配置文件返回具有&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况是日期或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The results returned by FindInactiveProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">FindInactiveProfilesByUserName 返回的结果都受<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; collection.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>参数标识的最大数&lt;xref:System.Web.Profile.ProfileInfo&gt;对象中返回&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;集合。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; 0 identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>参数标识要返回的结果页; 0 标识的第一页。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数是<ph id="ph2">`out`</ph>参数设置为已配置的非活动状态的用户配置文件的总数<ph id="ph3">`applicationName`</ph>，具体取决<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">例如，如果有 13 个用户配置的<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值为 1<ph id="ph3">`pageSize`</ph>为 5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;返回将包含通过第 10 个非活动状态的配置文件的第六个。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数将设置为 13。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">请注意，配置文件提供程序可能支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">例如，&lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;方法&lt;xref:System.Web.Profile.SqlProfileProvider&gt;类支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">FindInactiveProfilesByUserName 方法调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序管理的非活动配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">要搜索的用户名。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;，标识哪些用户配置文件被视为处于非活动状态。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要返回的结果页的索引。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>是从零开始。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要返回的结果页的大小。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">此方法返回时，包含一个整数，标识配置文件的总数。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">此参数传递时未经初始化。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含在用户名与匹配所提供的不活动配置文件的用户配置文件信息<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Retrieves all profile information for profiles in which the user name matches the specified name.</source>
+          <target state="translated">检索用户名与匹配的指定的名称的配置文件的所有配置文件的信息。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The FindProfilesByUserName method returns a list of all profile information for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value for the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property value.</source>
+          <target state="translated">FindProfilesByUserName 方法返回的所有配置文件信息为其在用户名与匹配所提供的列表<ph id="ph1">`usernameToMatch`</ph>已配置的参数值&lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;属性值。&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>You can retrieve profile information for user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">你可以检索的数据使用的重载，以页中的用户配置文件的配置文件信息&lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;采用其他方法<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。&lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">请注意，配置文件提供程序可能支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">例如，&lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;方法&lt;xref:System.Web.Profile.SqlProfileProvider&gt;类支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The FindProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">FindProfilesByUserName 方法调用&lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">要搜索的用户名。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含在用户名与匹配所提供的配置文件的用户配置文件信息<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the user name matches the specified name.</source>
+          <target state="translated">检索在用户名与匹配的指定的名称的配置文件的数据页的配置文件信息。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method returns a list of profile information for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value of the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;方法返回为其配置文件的用户名匹配所提供的配置文件信息的列表<ph id="ph1">`usernameToMatch`</ph>参数值的配置&lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;。&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">请注意，配置文件提供程序可能支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">例如，&lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;方法&lt;xref:System.Web.Profile.SqlProfileProvider&gt;类支持的通配符字符<ph id="ph1">`usernameToMatch`</ph>参数。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The results returned by FindProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">FindProfilesByUserName 返回的结果都受<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>参数标识&lt;xref:System.Web.Profile.ProfileInfo&gt;对象以返回处于&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;&lt;/xref:System.Web.Profile.ProfileInfo&gt;的最大数目</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>参数标识要返回; 的结果页零标识的第一页。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the application specified by the <ph id="ph3">`applicationName`</ph> attribute in the configuration file, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数是<ph id="ph2">`out`</ph>参数设置为用于通过指定的应用程序处于非活动状态的用户配置文件的总数<ph id="ph3">`applicationName`</ph>特性在配置文件中，根据所提供<ph id="ph4">`authenticationOption`</ph>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">例如，如果有 13 个用户配置的<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值为 1<ph id="ph3">`pageSize`</ph>为 5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;返回将包含通过第 10 个配置文件的第六个。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数将设置为 13。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;方法调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">要搜索的用户名。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要返回的结果页的索引。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>是从零开始。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要返回的结果页的大小。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">此方法返回时，包含一个整数，标识配置文件的总数。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">此参数传递时未经初始化。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含在用户名与匹配所提供的配置文件的用户配置文件信息<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Retrieves all user profile data for profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">检索最后一次活动日期或之前的指定的日期和时间发生的配置文件的所有用户配置文件数据。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetAllInactiveProfiles 方法用于从指定的应用程序的所有未使用的用户配置文件的数据源中检索配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">搜索配置文件中，任何配置文件返回具有&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况是日期或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>You can retrieve profile information for inactive user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">你可以检索处于非活动状态的用户配置文件使用的重载，以数据页的配置文件信息&lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;采用其他方法<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllInactiveProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To find unused profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序管理的未使用配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;，标识哪些用户配置文件被视为处于非活动状态。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含有关处于非活动状态的配置文件的用户配置文件信息。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Retrieves a page of <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for user profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">检索的页<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>最后一次活动日期或之前的指定的日期和时间发生的用户配置文件的对象。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetAllInactiveProfiles 方法用于通过指定的应用程序的未使用的用户配置文件的数据源中检索配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">搜索配置文件中，任何配置文件返回具有&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况之前指定<ph id="ph1">`userInactiveSinceDate`</ph>参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The results returned by GetAllInactiveProfiles are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">GetAllInactiveProfiles 返回的结果都受<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>参数标识&lt;xref:System.Web.Profile.ProfileInfo&gt;对象以返回处于&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;&lt;/xref:System.Web.Profile.ProfileInfo&gt;的最大数目</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>参数标识要返回; 的结果页零标识的第一页。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数是<ph id="ph2">`out`</ph>参数设置为已配置的非活动状态的用户配置文件的总数<ph id="ph3">`applicationName`</ph>，具体取决<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">例如，如果有 13 个用户配置的<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值是指具有<ph id="ph3">`pageSize`</ph>为 5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;返回将包含通过第 10 个非活动状态的配置文件的第六个。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数将设置为 13。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllInactiveProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;，标识哪些用户配置文件被视为处于非活动状态。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要返回的结果页的索引。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>是从零开始。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要返回的结果页的大小。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">此方法返回时，包含一个整数，标识配置文件的总数。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">此参数传递时未经初始化。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含有关处于非活动状态的配置文件的用户配置文件信息。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Retrieves user profile data for profiles in the data source.</source>
+          <target state="translated">检索数据源中的配置文件的用户配置文件数据。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetAllProfiles 方法用于从指定的应用程序的数据源中检索配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>You can retrieve pages of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects for user profiles using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">你可以检索的页面&lt;xref:System.Web.Profile.ProfileInfo&gt;为用户配置文件使用的重载，以对象&lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;采用其他方法<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。&lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含所有数据源中的配置文件的用户配置文件信息。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Retrieves pages of user profile data.</source>
+          <target state="translated">检索用户配置文件数据的页面。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetAllProfiles 方法用于从指定的应用程序的数据源中检索配置文件信息<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The results returned by &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">返回的结果&lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;受到<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>参数。&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>参数标识&lt;xref:System.Web.Profile.ProfileInfo&gt;对象以返回处于&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;&lt;/xref:System.Web.Profile.ProfileInfo&gt;的最大数目</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>参数标识要返回; 的结果页零标识的第一页。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数是<ph id="ph2">`out`</ph>参数设置为已配置的非活动状态的用户配置文件的总数<ph id="ph3">`applicationName`</ph>，将根据所提供<ph id="ph4">`authenticationOption`</ph>。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">例如，如果有 13 个用户配置的<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值是指具有<ph id="ph3">`pageSize`</ph>为 5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;返回将包含通过第 10 个配置文件的第六个。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>参数将设置为 13。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllProfiles 方法调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;的默认配置文件提供程序的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用指定的默认配置文件提供<ph id="ph1">`defaultProvider`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">如果用户配置文件包含管理的配置文件提供者不是默认的提供程序的属性，则不会搜索其他配置文件提供程序的数据源。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">若要查找由配置文件提供者不是默认的提供程序的配置文件，获取对使用配置文件提供程序的引用&lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;属性并调用&lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;的提供程序直接的方法。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要返回的结果页的索引。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>是从零开始。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要返回的结果页的大小。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">此方法返回时，包含一个整数，标识配置文件的总数。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">此参数传递时未经初始化。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含所有数据源中的配置文件的用户配置文件信息。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">指定的日期或之前，请获取上一次活动日期发生的配置文件数。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The GetNumberOfInactiveProfiles method is used to retrieve a count of all of the unused user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetNumberOfInactiveProfiles 方法用于从指定的应用程序的数据源检索的所有未使用的用户配置文件计数<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, all profiles are counted that have a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">搜索的配置文件，所有配置文件将计算具有&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;发生这种情况是日期或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>参数值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A&lt;xref:System.DateTime&gt;标识哪些用户配置文件被视为处于非活动状态的对象。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的用户配置文件之前或在此日期和时间，该配置文件被视为处于非活动状态。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source for which the last activity date occurred before the specified date and time.</source>
+          <target state="translated">在指定的日期和时间之前发生的最后一个活动日期的数据源中的配置文件数。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in the data source.</source>
+          <target state="translated">在数据源中获取配置文件的数。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The GetNumberOfProfiles method is used to retrieve a count of all of the user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">GetNumberOfProfiles 方法用于从指定的应用程序的数据源检索的所有用户配置文件计数<ph id="ph1">`applicationName`</ph>配置文件中的属性。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">使用<ph id="ph1">`authenticationOption`</ph>参数来指定是否希望仅匿名配置文件，仅当身份验证配置文件或要搜索的所有配置文件。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值，指定是否匿名的经过身份验证，或返回这两种类型的配置文件。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source.</source>
+          <target state="translated">数据源中的配置文件数。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default profile provider for the application.</source>
+          <target state="translated">获取应用程序默认配置文件提供程序的引用。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The Provider property enables you to reference the default profile provider for an application directly.</source>
+          <target state="translated">提供程序属性使您能够直接引用应用程序的默认配置文件提供程序。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This is commonly used to access custom members of the profile provider that are not part of the &lt;xref:System.Web.Profile.ProfileProvider&gt; abstract base class.</source>
+          <target state="translated">这通常用于访问自定义配置文件提供程序的成员，它们不属于&lt;xref:System.Web.Profile.ProfileProvider&gt;抽象基的类。&lt;/xref:System.Web.Profile.ProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The default profile provider for the application.</source>
+          <target state="translated">应用程序默认配置文件提供程序。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Provider property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">尝试至少获取提供程序属性值，但无<bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>权限。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the profile providers for the ASP.NET application.</source>
+          <target state="translated">获取 ASP.NET 应用程序配置文件提供程序的集合。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The Providers property references all of the profile providers enabled for an application, including providers added in the machine configuration and providers added in all Web.config files.</source>
+          <target state="translated">提供程序属性引用所有启用应用程序的配置文件提供程序，包括提供程序中的计算机配置和提供程序添加到所有的 Web.config 文件中添加。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>You can control which profile providers are available for an application using the  element of the  section in the configuration file.</source>
+          <target state="translated">你可以控制哪些配置文件提供程序可用于在配置文件中使用部分中的元素的应用程序。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>For example, the following Web.config file removes the profile providers specified in parent configuration files and adds a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance as the profile provider for the application.</source>
+          <target state="translated">例如，下面的 Web.config 文件中删除父配置文件中指定的配置文件提供程序，并将添加&lt;xref:System.Web.Profile.SqlProfileProvider&gt;为应用程序配置文件提供程序的实例。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       When specifying the  section, you must specify a default provider by setting the <ph id="ph2">`defaultProvider`</ph> attribute.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>指定时部分中，你必须指定默认提供程序通过设置<ph id="ph2">`defaultProvider`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>If you do not specify a  section in your Web.config file, the values from the machine configuration are used and the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named AspNetSqlProvider is established as the default provider.</source>
+          <target state="translated">如果未在 Web.config 文件中指定一个部分，将使用计算机配置中的值与&lt;xref:System.Web.Profile.SqlProfileProvider&gt;名为 AspNetSqlProvider 实例则在建立作为默认的提供程序。&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>You can obtain a strongly typed reference to a provider from the Providers collection by indexing the profile provider by name and casting it as the desired type.</source>
+          <target state="translated">可以通过配置文件提供程序编制索引的名称并将它强制转换为所需的类型来获取对提供程序提供程序集合中的强类型化的引用。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the profile providers configured for the ASP.NET application.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的 ASP.NET 应用程序配置的配置文件提供程序。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Providers property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">尝试至少获取提供程序属性值，但无<bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>权限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

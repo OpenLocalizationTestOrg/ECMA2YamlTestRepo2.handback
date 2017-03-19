@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b739a1fd5a3063652b497bb876f28a3ea2008ae7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6359e6c288db666c048ddc5beab842041295d461</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e25be158b62b74beb7e72835b48dacba5cad4d7e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the methods that enable a client application to display a user interface to collect identity information prior to creating the channel.</source>
+          <target state="translated">クライアント アプリケーションがチャネルを作成する前に id 情報を収集するためのユーザー インターフェイスを表示できるようにするメソッドを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the IInteractiveChannelInitializer interface to enable a client application to display a user interface that enables the user of the application to create or select the credentials prior to opening a channel.</source>
+          <target state="translated">ユーザーがアプリケーションの作成またはチャネルを開く前に資格情報を選択できるようにするユーザー インターフェイスを表示するクライアント アプリケーションを有効にする IInteractiveChannelInitializer インターフェイスを実装します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To implement IInteractiveChannelInitializer, perform the following steps in &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;:      1.</source>
+          <target state="translated">IInteractiveChannelInitializer を実装するには、次の手順で&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;: 1&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt; 。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prompt the user and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">ユーザーのプロンプトし、適切な&lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;。&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;の取得</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; &lt;xref:System.ServiceModel.IClientChannel&gt; &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;。&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;の型パラメーターを持つオブジェクト&lt;/xref:System.ServiceModel.IClientChannel&gt;のメソッド&lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;によって返されるコレクションにカスタムのチャネル パラメーター オブジェクトを追加します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">このチャネル パラメーター オブジェクトを使用して、カスタム&lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;チャネルのセキュリティ トークンを確立するためにします&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Return.</source>
+          <target state="translated">返します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To insert IInteractiveChannelInitializer:      1.</source>
+          <target state="translated">IInteractiveChannelInitializer を挿入する: 1。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Override the &lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt; class.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;&lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt;クラス&lt;/xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt;のメソッド&lt;/xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;をオーバーライドします。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In that method, determine whether the endpoint requires an IInteractiveChannelInitializer and if so, add the IInteractiveChannelInitializer to the &lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">このメソッドは場合と、エンドポイントが、IInteractiveChannelInitializer が必要かどうかを決定する IInteractiveChannelInitializer を追加、&lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;コレクションです&lt;/xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are two ways application developers can make use of an inserted IInteractiveChannelInitializer.</source>
+          <target state="translated">2 つの方法がアプリケーション開発者は、挿入された IInteractiveChannelInitializer 使用することができます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The client application can call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version) prior to opening the channel (the <bpt id="p1">*</bpt>explicit<ept id="p1">*</ept> approach) or simply call the first operation (the <bpt id="p2">*</bpt>implicit<ept id="p2">*</ept> approach).</source>
+          <target state="translated">クライアント アプリケーションは、いずれかを呼び出すことができます&lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;または&lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;(または非同期バージョン)、チャネルを開く前に (、<bpt id="p1">*</bpt>明示的な<ept id="p1">*</ept>アプローチ) か、単に最初の操作を呼び出します (、<bpt id="p2">*</bpt>暗黙的な<ept id="p2">*</ept>アプローチ).&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If using the implicit approach, the application must call the first operation on an &lt;xref:System.ServiceModel.ClientBase%601&gt; or &lt;xref:System.ServiceModel.IClientChannel&gt; extension.</source>
+          <target state="translated">アプリケーションでの最初の操作を呼び出す必要があります暗黙的な方法を使用する場合、&lt;xref:System.ServiceModel.ClientBase%601&gt;または&lt;xref:System.ServiceModel.IClientChannel&gt;拡張機能&lt;/xref:System.ServiceModel.IClientChannel&gt;&lt;/xref:System.ServiceModel.ClientBase%601&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If it calls anything other than the first operation, an exception is thrown.</source>
+          <target state="translated">アプリケーションが呼び出した場合、最初の操作以外の何か、例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If using the explicit approach, the application must perform the following steps in order:      1.</source>
+          <target state="translated">アプリケーションでの順序で次の手順を実行する必要があります明示的方法を使用する場合: 1。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version).</source>
+          <target state="translated">いずれかを呼び出す&lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;または&lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;(または非同期バージョン).&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When the initializers have returned, call either the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object or on the &lt;xref:System.ServiceModel.IClientChannel&gt; object returned from the &lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">初期化子が返されると、いずれかを呼び出す、&lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;メソッドを&lt;xref:System.ServiceModel.IClientChannel&gt;オブジェクトか、&lt;xref:System.ServiceModel.IClientChannel&gt;から返されたオブジェクト、&lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceModel.IClientChannel&gt;&lt;/xref:System.ServiceModel.IClientChannel&gt;&lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Call operations.</source>
+          <target state="translated">操作を呼び出します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is recommended that production-quality applications control of the user-interface process by adopting the explicit approach.</source>
+          <target state="translated">明示的なアプローチを採用することで、ユーザー インターフェイス プロセスの実稼働品質アプリケーションを制御するをお勧めします。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applications that use the implicit approach invoke the user-interface initializers, but if the user of the application fails to respond within the send timeout period of the binding, an exception is thrown when the user interface returns.</source>
+          <target state="translated">暗黙的な方法を使用するアプリケーションは、ユーザー インターフェイス初期化子を呼び出すが、アプリケーションのユーザーがバインディングの送信タイムアウト期間内に応答が失敗した場合、例外がスローされます、ユーザー インターフェイスを返します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An asynchronous call to begin using a user interface to obtain credential information.</source>
+          <target state="translated">資格情報を取得するためのユーザー インターフェイスの使用を開始する非同期呼び出しです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To implement &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;, perform the following steps in BeginDisplayInitializationUI:      1.</source>
+          <target state="translated">実装する&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;、BeginDisplayInitializationUI で、次の手順を実行します: 1&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt; 。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Prompt the user in what way you see fit and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">に応じて表示し、適切な&lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;。&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;を取得する方法を求める</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; &lt;xref:System.ServiceModel.IClientChannel&gt; &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;。&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;の型パラメーターを持つオブジェクト&lt;/xref:System.ServiceModel.IClientChannel&gt;のメソッド&lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;によって返されるコレクションにカスタムのチャネル パラメーター オブジェクトを追加します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">このチャネル パラメーター オブジェクトを使用して、カスタム&lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;チャネルのセキュリティ トークンを確立するためにします&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Return.</source>
+          <target state="translated">返します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The client channel.</source>
+          <target state="translated">クライアント チャネル。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The callback object.</source>
+          <target state="translated">コールバック オブジェクト。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Any state data.</source>
+          <target state="translated">任意の状態データ。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> to use to call back when processing has completed.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>処理が完了したときにコールバックするために使用します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called when the &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt; has finished.</source>
+          <target state="translated">ときに呼び出されます、&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;が終了します&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

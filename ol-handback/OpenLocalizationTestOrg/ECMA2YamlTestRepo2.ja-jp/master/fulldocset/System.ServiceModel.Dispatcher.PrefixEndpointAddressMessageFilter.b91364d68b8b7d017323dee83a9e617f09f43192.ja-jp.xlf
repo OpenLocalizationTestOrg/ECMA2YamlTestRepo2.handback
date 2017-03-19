@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4877038646f04e42eb558cd0c6ab66d3b02366d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1fa0e780acb134cf1bb2dbfa364b549b01091b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da55c1e2fe349f7f8177f4841fa02734b9f77587</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a query that tests whether a message matches an EndpointAddress using a <bpt id="p1">*</bpt>Longest-Prefix Match<ept id="p1">*</ept> for the URI component.</source>
+          <target state="translated">EndpointAddress を使用して、メッセージに一致するかどうかを検査するクエリを表す、<bpt id="p1">*</bpt>最長プレフィックス マッチ<ept id="p1">*</ept>URI コンポーネントです。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ServiceModel.EndpointAddress&gt; object includes a URI and an optional collection of addressing headers.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.EndpointAddress&gt;オブジェクトには、URI とオプションのアドレス指定ヘッダーのコレクションが含まれています&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The addressing and message headers are canonicalized to be compared for equality.</source>
+          <target state="translated">アドレス指定とメッセージ ヘッダーは、等しいかどうか比較する正規化します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a parameter appears more than once in an &lt;xref:System.ServiceModel.EndpointAddress&gt;, the corresponding header must appear in the message at least that many times.</source>
+          <target state="translated">パラメーターが&amp;1; 回に複数の表示された場合、&lt;xref:System.ServiceModel.EndpointAddress&gt;を対応するヘッダーは少なくともその回数メッセージに表示される必要があります&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This filter performs the same query as &lt;xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt;, except that the test for whether a message matches an endpoint address is done by a <bpt id="p1">*</bpt>Longest-Prefix Match<ept id="p1">*</ept>.</source>
+          <target state="translated">このフィルターと同じクエリを実行する&lt;xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt;によって、メッセージがエンドポイント アドレスに一致するかどうかのテストを実行する点を除いて、<bpt id="p1">*</bpt>最長プレフィックス マッチ<ept id="p1">*</ept>&lt;/xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that the URI specified in the filter does not have to match the message's URI exactly, but must be contained in that URI as a prefix.</source>
+          <target state="translated">つまり、フィルターで指定された URI は、メッセージの URI を完全に一致する必要はありませんが、プレフィックスとしてその URI に含まれる必要があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if a filter specifies the address "www.foo.com", and a message is addressed to "www.foo.com/customerA", then the URI part of the filter query condition will be met.</source>
+          <target state="translated">たとえば、フィルターがアドレス"www.foo.com"を指定すると、メッセージが"www.foo.com/customerA"宛て、フィルター クエリ条件の URI 部分は満たされます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, the header portion of the filter query still has to be done.</source>
+          <target state="translated">ただし、フィルター クエリのヘッダー部分べきことがあります。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Internet Information Services (IIS) and the underlying file system (NTFS or FAT) are case-insensitive.</source>
+          <target state="translated">インターネット インフォメーション サービス (IIS) と、基になるファイル システム (NTFS または FAT) は区別されません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>URI comparisons done by this class are also case-insensitive.</source>
+          <target state="translated">このクラスによって実行される URI の比較は、大文字と小文字もです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>So, for example, http://www.microsoft.com is evaluated as equal to http://WWW.microsoft.com.</source>
+          <target state="translated">そのため、たとえば、http://www.microsoft.com 評価 http://WWW.microsoft.com に等しいとされます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.EndpointAddress&gt; against which messages are tested.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.EndpointAddress&gt;どのメッセージの判定します&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you have a web service installed on your local machine, there are many equivalent ways to reference it, including the following:      -   http://localhost/foo.svc      -   http://192.168.1.100/foo.svc      -   http://[my-machine-name]/foo.svc      -   http://[my-machine-name].[my-company].com/foo.svc.</source>
+          <target state="translated">ローカル コンピューターにインストールされている web サービスがあれば、方法は多数あります等価を参照する、次を含む: - http://localhost/foo.svc - http://192.168.1.100/foo.svc - http://[my-machine-name]/foo.svc - http://[my-machine-name] です。[my-company].com/foo.svc です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the value of the <ph id="ph1">`includeHostNameInComparison`</ph> parameter is <ph id="ph2">`false`</ph>, the above URIs all resolve to the same endpoint.</source>
+          <target state="translated">場合の値、<ph id="ph1">`includeHostNameInComparison`</ph>パラメーターは<ph id="ph2">`false`</ph>では、上記の Uri はすべて同じエンドポイントに解決します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.EndpointAddress&gt; against which messages are tested.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.EndpointAddress&gt;どのメッセージの判定します&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host name is included in the endpoint address comparison; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>エンドポイントのアドレス比較にホスト名が含まれている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the Endpoint Address that the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> tests messages against.</source>
+          <target state="translated">エンドポイントのアドレスを取得、 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>メッセージを検査します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.EndpointAddress&gt; that the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> tests messages against.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.EndpointAddress&gt;を<bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.PrefixEndpointAddressMessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>メッセージを検査します&lt;/xref:System.ServiceModel.EndpointAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the host name is included in the endpoint address comparison.</source>
+          <target state="translated">エンドポイント アドレスの比較にホスト名が含まれるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have a web service installed on your local machine, there are many equivalent ways to reference it, including the following:      -   http://localhost/foo.svc      -   http://192.168.1.100/foo.svc      -   http://[my-machine-name]/foo.svc      -   http://[my-machine-name].[my-company].com/foo.svc.</source>
+          <target state="translated">ローカル コンピューターにインストールされている web サービスがあれば、方法は多数あります等価を参照する、次を含む: - http://localhost/foo.svc - http://192.168.1.100/foo.svc - http://[my-machine-name]/foo.svc - http://[my-machine-name] です。[my-company].com/foo.svc です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default value of this property is <ph id="ph1">`false`</ph>, so the above URIs all resolve to the same endpoint, unless you change this property.</source>
+          <target state="translated">このプロパティの既定値は<ph id="ph1">`false`</ph>ので、上記の Uri はすべて解決するには、同じエンドポイントにこのプロパティを変更する場合を除きます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host name is included in the endpoint address comparison; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>エンドポイントのアドレス比較にホスト名が含まれている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Tests whether a message satisfies the specified endpoint address.</source>
+          <target state="translated">指定したエンドポイント アドレスをメッセージが満たすかどうかをテストします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The two overloads of this method are equivalent because this filter does not examine the message body, only the address, to do a longest-prefix match, and then the headers.</source>
+          <target state="translated">このフィルターがメッセージの本文を最長プレフィックス一致し、ヘッダーを行うには、アドレスだけをチェックしていないために、このメソッドの&amp;2; つのオーバー ロードは等価です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Message&gt; object to test.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.Message&gt;オブジェクト&lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ServiceModel.Channels.Message&gt; object satisfies the endpoint address specified in the filter; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.ServiceModel.Channels.Message&gt;オブジェクトがフィルターに指定されたエンドポイント アドレスを満たす場合は、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.ServiceModel.Channels.Message&gt; 。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Tests whether a buffered message satisfies the specified endpoint address.</source>
+          <target state="translated">バッファー内のメッセージは、指定したエンドポイント アドレスを満たすかどうかをテストします。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The two overloads of this method are equivalent because this filter does not examine the message body, only the address, to do a longest-prefix match, and then the headers.</source>
+          <target state="translated">このフィルターがメッセージの本文を最長プレフィックス一致し、ヘッダーを行うには、アドレスだけをチェックしていないために、このメソッドの&amp;2; つのオーバー ロードは等価です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.MessageBuffer&gt; object to test.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.MessageBuffer&gt;オブジェクト&lt;/xref:System.ServiceModel.Channels.MessageBuffer&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ServiceModel.Channels.MessageBuffer&gt; object satisfies the endpoint address; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.ServiceModel.Channels.MessageBuffer&gt;オブジェクトがエンドポイント アドレスを満たす、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.ServiceModel.Channels.MessageBuffer&gt; 。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

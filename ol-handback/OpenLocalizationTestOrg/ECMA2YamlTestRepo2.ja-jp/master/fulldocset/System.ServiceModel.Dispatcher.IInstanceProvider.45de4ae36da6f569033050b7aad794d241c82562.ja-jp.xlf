@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bf9c7195ade79aea517a86db7af40951eebda62</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInstanceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">971709a30d4e6065fc15f1718db8693acaa2d5f5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6e852cf478f8b4c8b463014072b179a93f49173</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Declares methods that provide a service object or recycle a service object for a <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service.</source>
+          <target state="translated">オブジェクトまたはのサービス オブジェクトをリサイクル サービスを提供するメソッドを宣言、<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>サービス。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the IInstanceProvider interface to control the creation and recycling of service objects when one is requested or disposed by an &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">作成を制御する IInstanceProvider インターフェイスを実装し、要求またはによって破棄されるときに&amp;1; つのサービス オブジェクトのリサイクル、&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Once the IInstanceProvider interface is implemented, you must assign your custom instance provider object to the &lt;xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt; property using either an endpoint behavior (a &lt;xref:System.ServiceModel.Description.IEndpointBehavior&gt; object) or a contract behavior (a &lt;xref:System.ServiceModel.Description.IContractBehavior&gt; object).</source>
+          <target state="translated">IInstanceProvider インターフェイスを実装した場合に、カスタム インターフェイス プロバイダー オブジェクトを割り当てる必要があります、 &lt;xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt;、エンドポイントの動作を使用してプロパティ (、&lt;xref:System.ServiceModel.Description.IEndpointBehavior&gt;オブジェクト) またはコントラクト動作 (、&lt;xref:System.ServiceModel.Description.IContractBehavior&gt;オブジェクト).&lt;/xref:System.ServiceModel.Description.IContractBehavior&gt; &lt;/xref:System.ServiceModel.Description.IEndpointBehavior&gt; &lt;/xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the insertion mechanism is an endpoint behavior you can also implement a &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt; object that can insert your custom behavior using a configuration file.</source>
+          <target state="translated">挿入メカニズムがエンドポイントの動作の場合実装することも、&lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt;構成ファイルを使用して、カスタム動作を挿入できるオブジェクト&lt;/xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If the insertion mechanism is a contract behavior, you can insert the behavior programmatically prior to the opening of the service host or you can implement a custom attribute.</source>
+          <target state="translated">挿入メカニズムがコントラクトの動作の場合は、サービス ホストの開始前にプログラムで、動作を挿入することができますか、カスタム属性を実装することができます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>(For an example of the contract behavior approach, see the Example section.)       IInstanceProvider has two methods, &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; and &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;.</source>
+          <target state="translated">(コントラクト動作の例は、例」のセクションを参照してください)。     IInstanceProvider が&amp;2; つのメソッド、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;および&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;。&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These methods are typically implemented to create service objects using a non-default constructor or to initialize or dispose of some state related to the lifetime of the object.</source>
+          <target state="translated">これらのメソッドは、通常、既定以外のコンス トラクターを使用してサービス オブジェクトを作成するか、初期化またはオブジェクトの有効期間に関係する状態の破棄を実装します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Service object pooling is one example of custom IInstanceProvider functionality.</source>
+          <target state="translated">サービス オブジェクト プールは、カスタム IInstanceProvider 機能の&amp;1; つの例です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Typically, the &lt;xref:System.ServiceModel.InstanceContext&gt; invokes the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; when the &lt;xref:System.ServiceModel.InstanceContext&gt; is first created and invokes the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; method when the &lt;xref:System.ServiceModel.InstanceContext&gt; is closed.</source>
+          <target state="translated">通常、&lt;xref:System.ServiceModel.InstanceContext&gt;を呼び出します、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;ときに、&lt;xref:System.ServiceModel.InstanceContext&gt;が最初に作成し、起動、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;メソッドときに、&lt;xref:System.ServiceModel.InstanceContext&gt;が閉じられた&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>There are two ways to cause an &lt;xref:System.ServiceModel.InstanceContext&gt; object to release a service object before the &lt;xref:System.ServiceModel.InstanceContext&gt; is closed.</source>
+          <target state="translated">2 つの方法が発生する、&lt;xref:System.ServiceModel.InstanceContext&gt;する前にサービス オブジェクトを解放するオブジェクト、&lt;xref:System.ServiceModel.InstanceContext&gt;が閉じられた&lt;/xref:System.ServiceModel.InstanceContext&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The first method is to set the &lt;xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt; to &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt; or &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt;.</source>
+          <target state="translated">最初のメソッドに設定する、&lt;xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt;&lt;xref:System.ServiceModel.ReleaseInstanceMode&gt;または&lt;xref:System.ServiceModel.ReleaseInstanceMode&gt;。&lt;/xref:System.ServiceModel.ReleaseInstanceMode&gt;&lt;/xref:System.ServiceModel.ReleaseInstanceMode&gt;に&lt;/xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt;は</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The second method is to call the &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt; method.</source>
+          <target state="translated">2 番目のメソッドが呼び出されて、&lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;メソッド&lt;/xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If this is done, the &lt;xref:System.ServiceModel.InstanceContext&gt; calls the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; method on the dispatcher's instance provider.</source>
+          <target state="translated">これを行う場合、&lt;xref:System.ServiceModel.InstanceContext&gt;呼び出し、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;ディスパッチャーのインスタンス プロバイダーのメソッド&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a new message arrives after the instance has been released, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> creates a new instance using the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; method.</source>
+          <target state="translated">インスタンスが解放された後に、新しいメッセージが到着した場合<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>使用して新しいインスタンスを作成、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;メソッド&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.ServiceModel.InstanceContextMode&gt; of the service is &lt;xref:System.ServiceModel.InstanceContextMode&gt;, the system does not call the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; or &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; methods even when the user did not provide a well-known service object unless the user directly calls &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt; and then calls &lt;xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 場合、&lt;xref:System.ServiceModel.InstanceContextMode&gt;サービスは&lt;xref:System.ServiceModel.InstanceContextMode&gt;システムは、&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;または&lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;ユーザーに対して直接呼び出し&lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;と呼び出し&lt;xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt;.&lt;/xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt; 、&lt;/xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;しない限り、ユーザーは、既知のサービス オブジェクトを指定しないしなかった場合でも、メソッド&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;を呼び出しません&lt;/xref:System.ServiceModel.InstanceContextMode&gt;&lt;/xref:System.ServiceModel.InstanceContextMode&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns a service object given the specified &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">指定したサービス オブジェクトを返します&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the GetInstance method to control the exact service object that a <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service receives when it attempts to create a new one.</source>
+          <target state="translated">オブジェクトの正確なサービスを制御する GetInstance メソッドを使用して、<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>サービスが新しいものを作成しようとしたときに受信します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">現在&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A user-defined service object.</source>
+          <target state="translated">ユーザー定義サービス オブジェクト。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns a service object given the specified &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">指定したサービス オブジェクトを返します&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use the GetInstance method to control the exact service object that a <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service receives when it attempts to create a new one.</source>
+          <target state="translated">オブジェクトの正確なサービスを制御する GetInstance メソッドを使用して、<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>サービスが新しいものを作成しようとしたときに受信します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">現在&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクト&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The message that triggered the creation of a service object.</source>
+          <target state="translated">サービス オブジェクトの作成をトリガーするメッセージ。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The service object.</source>
+          <target state="translated">サービス オブジェクト。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Called when an &lt;xref:System.ServiceModel.InstanceContext&gt; object recycles a service object.</source>
+          <target state="translated">ときに呼び出されます、&lt;xref:System.ServiceModel.InstanceContext&gt;オブジェクトがサービス オブジェクトをリサイクルします&lt;/xref:System.ServiceModel.InstanceContext&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use the ReleaseInstance method to perform some custom resource disposal or other recycling customization when a service recycles a service object.</source>
+          <target state="translated">ReleaseInstance メソッドを使用して、サービスがサービス オブジェクトをリサイクルするときに、いくつかのカスタムのリソース破棄処理またはその他のリサイクルに関するカスタマイズを実行します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The service's instance context.</source>
+          <target state="translated">サービスのインスタンス コンテキスト。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The service object to be recycled.</source>
+          <target state="translated">リサイクルするサービス オブジェクト。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

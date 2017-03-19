@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">355e9c21d2e3d3a74eda6a5806f15cf95eb6562d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Routing.SoapProcessingBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3a2f58d175c1d4dd9dcedb069c393d3ed711848</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cb52af1216ea865d9219251e6e885f01d466532</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the client endpoint behavior used to marshal messages between different binding types and message versions.</source>
+          <target state="translated">異なるバインディングの種類およびメッセージ バージョン間でメッセージをマーシャ リングに使用されるクライアント エンドポイントの動作を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>SOAP processing is the process where messages are converted between message versions.</source>
+          <target state="translated">SOAP 処理は、メッセージ バージョン間でメッセージが変換されるプロセスです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Processing messages from one &lt;xref:System.ServiceModel.Channels.MessageVersion&gt; to another is accomplished by constructing a new WCF message that contains the body part and relevant headers from the incoming WCF message.</source>
+          <target state="translated">いずれかからメッセージを処理して&lt;xref:System.ServiceModel.Channels.MessageVersion&gt;別には、着信 WCF メッセージから関連するヘッダー、ボディ部を含む新しい WCF メッセージを構築することによって実現します&lt;/xref:System.ServiceModel.Channels.MessageVersion&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Headers that are specific to addressing, or that are understood at the router level, are not used during construction of the new WCF message because these headers are either of a different version (in the case of addressing headers) or have been processed as part of the communication between the client and the router.</source>
+          <target state="translated">アドレス指定に固有またはルーター レベルで認識されるヘッダーは、これらのヘッダーはか (アドレス指定ヘッダー) の場合、別のバージョンのクライアントとルーターの間の通信の一部として処理されているため、新しい WCF メッセージの構築中には使用されません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Whether a header is placed in the outbound message is determined by whether or not it was marked as understood as it passed through the incoming channel layer.</source>
+          <target state="translated">発信メッセージにヘッダーが配置されるかどうかは、受信チャネル層を介して渡されたと認識されるようにマークされているがかどうかによって決まります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Headers that are not understood (such as custom headers) are not removed and so pass through the routing service.</source>
+          <target state="translated">(カスタム ヘッダーなど) は認識されないヘッダーは削除されず、ルーティング サービスを介して渡さです。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.SoapProcessingBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.SoapProcessingBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Adds new binding elements to an endpoint.</source>
+          <target state="translated">エンドポイントを新しいバインド要素を追加します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The service endpoint to apply the binding elements to.</source>
+          <target state="translated">バインド要素を適用するサービス エンドポイント。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The binding parameter collection to apply to the endpoint.</source>
+          <target state="translated">エンドポイントに適用するバインディング パラメーターのコレクション。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Applies the specified endpoint behavior to the client.</source>
+          <target state="translated">指定したエンドポイント動作をクライアントに適用されます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The service endpoint to apply to the client.</source>
+          <target state="translated">クライアントに適用するサービス エンドポイント。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The runtime on the client.</source>
+          <target state="translated">クライアントのランタイム。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Applies the specified endpoint behavior to the endpoint dispatcher.</source>
+          <target state="translated">指定したエンドポイント動作をエンドポイント ディスパッチャーに適用します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The service endpoint to apply to the client.</source>
+          <target state="translated">クライアントに適用するサービス エンドポイント。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The endpoint dispatcher.</source>
+          <target state="translated">エンドポイント ディスパッチャー。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether messages should be processed.</source>
+          <target state="translated">取得またはメッセージを処理する必要があるかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By default, the &lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt; creates and attaches a new &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt; with ProcessMessages set to <ph id="ph1">`true`</ph> for each client endpoint.</source>
+          <target state="translated">既定では、&lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt;を作成し、新しい接続&lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;'éý' ProcessMessages と<ph id="ph1">`true`</ph>クライアント エンドポイントごとにします&lt;/xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;&lt;/xref:System.ServiceModel.Routing.RoutingBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do not want to use the &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt; on a specific endpoint, create a new &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt; with this value set to <ph id="ph1">`false`</ph>, and then attach it to the endpoint on which you do not want processing to occur.</source>
+          <target state="translated">使用したくない場合、&lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;特定のエンドポイントでは、新規作成&lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;この値を設定して<ph id="ph1">`false`</ph>、し、それをしないようにする処理を実行するエンドポイントに接続しています&lt;/xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;&lt;/xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt; observes that a client already has a &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;, it does not attempt to attach another.</source>
+          <target state="translated">場合、&lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt;に、クライアントは既に監視、 &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;、添付を行いません&lt;/xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;&lt;/xref:System.ServiceModel.Routing.RoutingBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To disable the application of &lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt; on any endpoint, disable SOAP processing on the &lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt; and the &lt;xref:System.ServiceModel.Routing.RoutingConfiguration&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;任意のエンドポイント&lt;xref:System.ServiceModel.Routing.RoutingBehavior&gt;および&lt;xref:System.ServiceModel.Routing.RoutingConfiguration&gt;。&lt;/xref:System.ServiceModel.Routing.RoutingConfiguration&gt;&lt;/xref:System.ServiceModel.Routing.RoutingBehavior&gt;で SOAP 処理を無効にして&lt;/xref:System.ServiceModel.Routing.SoapProcessingBehavior&gt;アプリケーションを無効にするには</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if messages should be marshaled; otherwise, <bpt id="p2">**</bpt>false<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>マーシャ リングされた、それ以外のメッセージがある場合<bpt id="p2">**</bpt>false<ept id="p2">**</ept>です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>true<ept id="p1">**</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">**</bpt>true<ept id="p1">**</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Validates the service endpoint.</source>
+          <target state="translated">サービス エンドポイントを検証します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The service endpoint to validate.</source>
+          <target state="translated">検証するサービス エンドポイント。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
