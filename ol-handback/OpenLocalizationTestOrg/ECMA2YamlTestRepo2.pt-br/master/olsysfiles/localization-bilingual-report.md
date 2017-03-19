@@ -1,31 +1,14 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [fulldocset\System.Runtime.Remoting.Channels.IServerChannelSink.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.yml) | InSyncHandedBackSuccess | [Details](#10239b4c42b4302c96303579e104b0920c163a5579310)
  [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
 
 ## Item Details
-##### <a name='10239b4c42b4302c96303579e104b0920c163a5579310'></a> Source: [fulldocset\System.Runtime.Remoting.Channels.IServerChannelSink.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Runtime.Remoting.Channels.IServerChannelSink.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/41a588910ce10e8c10df8c775e28a9610790e323/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.yml)
-* Handoff File: [System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf)
-* Handoff Datetime: 2017-03-16 04:26:03
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/be0a283d488273e849f84087c33a76156c72cc04/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf)
-* Handback Datetime: 2017-03-18 23:57:39
-* Handback Name: 
-* Bilingual File: [System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/be0a283d488273e849f84087c33a76156c72cc04/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Runtime.Remoting.Channels.IServerChannelSink.0d2ecce98a5edcb1e0d0ab3d5a999410190c7b19.pt-br.xlf)
-* Bilingual Datetime: 2017-03-19 00:12:12
-* [Back to Top](#report-top)
-
 ##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
 * Status: InSyncHandedBackSuccess
 * Target File: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/5f52132cfd6602123f7cc1a9b52f670167c3f210/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
