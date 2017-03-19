@@ -1,30 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.ServiceModel.Description.IServiceBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Description.IServiceBehavior.yml) | InSyncHandedBackSuccess | [Details](#6e0b6524294d5fb1d1c7e485cb60f7c41aeefaa580595)
 
 ## Item Details
-##### <a name='6e0b6524294d5fb1d1c7e485cb60f7c41aeefaa580595'></a> Source: [fulldocset\System.ServiceModel.Description.IServiceBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Description.IServiceBehavior.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Description.IServiceBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/blob/54528887a1a5e177a8ba56aa55ed4b262b66935d/fulldocset/System.ServiceModel.Description.IServiceBehavior.yml)
-* Handoff File: [System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/781482d297b8b1d38838677f99034b1318de6629/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf)
-* Handoff Datetime: 2017-03-16 04:48:53
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/d3af70f770a4fbefc5eb2aaac7abad1c28643d95/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf)
-* Handback Datetime: 2017-03-19 11:00:02
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-ru-ru-sv-se-zh-tw_2
-* Bilingual File: [System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/d3af70f770a4fbefc5eb2aaac7abad1c28643d95/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.ServiceModel.Description.IServiceBehavior.7c43447cedaa42a7c2f05c731a7390f8e4b445ab.sv-se.xlf)
-* Bilingual Datetime: 2017-03-19 11:19:56
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
