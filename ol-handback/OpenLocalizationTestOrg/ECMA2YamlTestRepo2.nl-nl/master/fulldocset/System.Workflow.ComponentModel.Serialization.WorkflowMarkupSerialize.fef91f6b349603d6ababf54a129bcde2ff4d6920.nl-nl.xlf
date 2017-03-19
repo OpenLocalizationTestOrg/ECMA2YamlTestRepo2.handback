@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84d51f11d95a328ee0ce8bc5fcf1275f7e0a3c05</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d76be4b341183a217399094c099f3f0147cc51f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9efdce7e83514cd8a5f3294d60c2f64a755d7491</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the extensible Application Markup Language (XAML) serialization services to workflows at design time.</source>
+          <target state="translated">Biedt de extensible Application Markup Language (XAML) serialisatie-services voor werkstromen in de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       WorkflowMarkupSerializer provides methods that serialize workflow and &lt;xref:System.Workflow.ComponentModel.Activity&gt; classes into XAML format and deserialize XAML content into workflow and activity class objects.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>WorkflowMarkupSerializer biedt methoden voor het serialiseren van de werkstroom en &lt;xref:System.Workflow.ComponentModel.Activity&gt;klassen in XAML formatteren en XAML-content in werkstroom en activiteit klassenobjecten te deserialiseren.&lt;/xref:System.Workflow.ComponentModel.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These services are primarily used by workflow designers to persist the classes on the workflow design surface.</source>
+          <target state="translated">Deze services zijn voornamelijk gebruikt door ontwerpers van de werkstroom voor het persistent maken van de klassen in de ontwerpweergave van de werkstroom.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowMarkupSerializer is the base class for all markup serializers included in the &lt;xref:System.Workflow.ComponentModel.Serialization&gt; namespace.</source>
+          <target state="translated">WorkflowMarkupSerializer is de basisklasse van alle markup objectserializers opgenomen in de &lt;xref:System.Workflow.ComponentModel.Serialization&gt;naamruimte.&lt;/xref:System.Workflow.ComponentModel.Serialization&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>serialisatie<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowMarkupSerializer does not support serialization of nested types.</source>
+          <target state="translated">WorkflowMarkupSerializer biedt geen ondersteuning voor serialisatie van geneste typen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The functionality of WorkflowMarkupSerializer is dependent on functionality of other types outside of Windows Workflow Foundation.</source>
+          <target state="translated">De functionaliteit van WorkflowMarkupSerializer is afhankelijk van de functionaliteit van andere typen buiten Windows Workflow Foundation.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Based on the limitations of those other types, not all data types can be serialized through the WorkflowMarkupSerializer.</source>
+          <target state="translated">Op basis van de beperkingen van deze andere typen, kunnen niet alle gegevenstypen worden geserialiseerd via de WorkflowMarkupSerializer.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is a list is an example of some unsupported types.</source>
+          <target state="translated">Hier volgt dat een lijst is een voorbeeld van een aantal niet-ondersteunde typen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This is not an exhaustive and complete list of unsupported types.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dit is geen uitputtende en een volledige lijst van niet-ondersteunde typen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Arrays (supported only if property is not decorated with <ph id="ph1">`DesignerSerializationVisibility.Content`</ph> attribute value)       Types without parameterless constructors       Multidimensional Arrays       Generic types (Generic <ph id="ph2">`List`</ph> and <ph id="ph3">`Dictionary`</ph> types supported only if property is decorated with <ph id="ph4">`DesignerSerializationVisibility.Content`</ph> attribute value)       <ph id="ph5">`Hashtable`</ph>       <ph id="ph6">`Queue`</ph>       <ph id="ph7">`Stack`</ph>       <ph id="ph8">`XmlDocument`</ph>       <ph id="ph9">`MailMessage`</ph>       <ph id="ph10">`Bitmap`</ph>       Enumeration Arrays       Enumerations decorated with the FlagsAttribute       In addition to this list, any property decorated with both the <ph id="ph11">`ContentPropertyAttibute`</ph> and the <ph id="ph12">`DesignerSerializationVisibilityAttribute`</ph> cannot be serialized by <ph id="ph13">`WorkflowMarkupSerializer`</ph>.</source>
+          <target state="translated">Matrices (alleen ondersteund als de eigenschap is niet gedecoreerd met <ph id="ph1">`DesignerSerializationVisibility.Content`</ph> kenmerkwaarde) typen zonder parameterloze constructors multidimensionale matrices generieke typen (algemene <ph id="ph2">`List`</ph> en <ph id="ph3">`Dictionary`</ph> typen alleen ondersteund als de eigenschap is gedecoreerd met <ph id="ph4">`DesignerSerializationVisibility.Content`</ph> kenmerkwaarde) <ph id="ph5">`Hashtable`</ph> <ph id="ph6">`Queue`</ph> <ph id="ph7">`Stack`</ph> <ph id="ph8">`XmlDocument`</ph> <ph id="ph9">`MailMessage`</ph> <ph id="ph10">`Bitmap`</ph> opsomming matrices opsommingen gedecoreerd FlagsAttribute naast deze lijst, een eigenschap gedecoreerd met zowel de <ph id="ph11">`ContentPropertyAttibute`</ph> en de <ph id="ph12">`DesignerSerializationVisibilityAttribute`</ph> kan niet worden geserialiseerd met <ph id="ph13">`WorkflowMarkupSerializer`</ph>.                                   </target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Adds a child object to the specified object.</source>
+          <target state="translated">Voegt een onderliggend object aan het opgegeven object.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other than exception behavior, AddChild provides no default behavior.</source>
+          <target state="translated">Dan uitzondering gedrag biedt AddChild geen standaardgedrag.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to provide logic for this method in an inheriting serializer.</source>
+          <target state="translated">U moet overschrijven &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;voor logica voor deze methode in een Traceringstabellen serializer.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use in this operation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden gebruikt in deze bewerking.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to which to add the child object.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;waarmee het onderliggende object toevoegen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to add.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Om toe te voegen&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parentObject&lt;/code&gt;</ph> or<ph id="ph2">&lt;code&gt; childObj&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parentObject&lt;/code&gt;</ph>of<ph id="ph2">&lt;code&gt; childObj&lt;/code&gt;</ph> bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean that indicates whether the specified object can be serialized to a string.</source>
+          <target state="translated">Retourneert een Booleaanse waarde die aangeeft of het opgegeven object kan worden geserialiseerd naar een tekenreeks.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to serialize this object.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt om dit object te serialiseren.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">De opgegeven &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified object can be serialized to a string; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het opgegeven object kan worden geserialiseerd naar een tekenreeks; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Removes all child objects from the specified object.</source>
+          <target state="translated">Hiermee verwijdert u alle onderliggende objecten uit het opgegeven object.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other than exception behavior, ClearChildren provides no default behavior.</source>
+          <target state="translated">Dan uitzondering gedrag biedt ClearChildren geen standaardgedrag.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to provide logic for this method in an inheriting serializer.</source>
+          <target state="translated">U moet overschrijven &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;voor logica voor deze methode in een Traceringstabellen serializer.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supporting this operation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ondersteunt deze bewerking.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; from which to remove all child objects.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;waaruit moet worden verwijderd van alle onderliggende objecten.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Represents an attached <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to define which assemblies to reference for custom activities.</source>
+          <target state="translated">Hiermee geeft u een gekoppelde <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt gebruikt om te definiëren welke assembly's verwijzen naar voor aangepaste activiteiten.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about this dependency property, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over deze afhankelijkheidseigenschap <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the specified &lt;xref:System.Type&gt; using the specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Maakt een exemplaar van de opgegeven &lt;xref:System.Type&gt;met behulp van de opgegeven <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CreateInstance uses the type constructor that best matches the specified parameter.</source>
+          <target state="translated">CreateInstance maakt gebruik van de typeconstructor die het meest geschikt is voor de opgegeven parameter.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supporting this operation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ondersteunt deze bewerking.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified &lt;xref:System.Type&gt;</source>
+          <target state="translated">De opgegeven&lt;xref:System.Type&gt;&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An instance of the specified &lt;xref:System.Type&gt;.</source>
+          <target state="translated">Een exemplaar van de opgegeven &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Deserializes workflow markup into an &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Workstroommarkup deserializes in een &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about workflow markup, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over workstroommarkup <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; that contains the workflow definition.</source>
+          <target state="translated">Een &lt;xref:System.Xml.XmlReader&gt;waarin de werkstroomdefinitie.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the definition of the workflow defined in the workflow markup file or stream.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die de definitie van de werkstroom die is gedefinieerd in de werkstroom opmaakbestand of een stream bevat.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Deserializes workflow markup into an &lt;xref:System.Object&gt; using the specified serialization manager.</source>
+          <target state="translated">Deserializes workstroommarkup in een &lt;xref:System.Object&gt;met behulp van de opgegeven serialisatiebeheer.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on workflow markup, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over workstroommarkup <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, such as <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een object dat u implementeert de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface, zoals <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; that contains the workflow definition.</source>
+          <target state="translated">Een &lt;xref:System.Xml.XmlReader&gt;waarin de werkstroomdefinitie.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the definition of the workflow defined in the workflow markup file or stream.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die de definitie van de werkstroom die is gedefinieerd in de werkstroom opmaakbestand of een stream bevat.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Deserializes extensible Application Markup Language (XAML) content from the specified string according to the given type of the property to deserialize.</source>
+          <target state="translated">Deserializes extensible Application Markup Language (XAML) inhoud van de opgegeven tekenreeks volgens het opgegeven type van de eigenschap te deserialiseren.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`value`</ph> must meet one of the following criteria:      -   it is a primitive type, a string, an enumeration, or a &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>moet voldoen aan een van de volgende criteria:-Er is een primitief type, een tekenreeks, een opsomming of een &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   it can be assigned from the &lt;xref:System.IConvertible&gt; interface or from the &lt;xref:System.Delegate&gt; or &lt;xref:System.Type&gt; classes.</source>
+          <target state="translated">-Deze kan worden toegewezen vanuit de &lt;xref:System.IConvertible&gt;interface of vanuit de &lt;xref:System.Delegate&gt;of &lt;xref:System.Type&gt;klassen.&lt;/xref:System.Type&gt; &lt;/xref:System.Delegate&gt; &lt;/xref:System.IConvertible&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the deserialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het deserialisatieproces voor.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; associated with the property to deserialize.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;die zijn gekoppeld aan de eigenschap te deserialiseren.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A string that contains the XAML to deserialize.</source>
+          <target state="translated">Een tekenreeks met de XAML te deserialiseren.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The deserialized &lt;xref:System.Object&gt;.</source>
+          <target state="translated">De gedeserialiseerde &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;propertyType&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;value&lt;/code&gt;</ph>, contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;propertyType&lt;/code&gt;</ph>, of <ph id="ph3">&lt;code&gt;value&lt;/code&gt;</ph>, bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Represents an attached <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the names for event handler properties.</source>
+          <target state="translated">Hiermee geeft u een gekoppelde <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die definieert de namen van eigenschappen van gebeurtenis-handler.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used only at design time, while programmatically emitting a workflow instance using the object model.</source>
+          <target state="translated">Deze eigenschap wordt alleen in de ontwerpfase tijdens het programmatisch verzenden van een workflowexemplaar met het objectmodel gebruikt.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It represents XAML that references the event handler, which has not been compiled yet.</source>
+          <target state="translated">Hiermee geeft u de XAML die verwijst naar de gebeurtenis-handler is nog niet gecompileerd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property contains a <ph id="ph1">`Hashtable`</ph>, with event name and event handler name-value pairs.</source>
+          <target state="translated">Deze eigenschap bevat een <ph id="ph1">`Hashtable`</ph>met de gebeurtenisnaam en gebeurtenis-handler naam / waarde-paren.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After compilation, the event property is associated directly with the handler.</source>
+          <target state="translated">Na de compilatie is de eigenschap event rechtstreeks aan de handler gekoppeld.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Retrieves a list of child objects for the specified object</source>
+          <target state="translated">Haalt een lijst van de onderliggende objecten voor het opgegeven object</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless overridden in a class that inherits from GetChildren always returns <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph>).</source>
+          <target state="translated">Tenzij overschreven in een klasse die eigenschappen van GetChildren altijd overneemt retourneert <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph>).</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> which supports this operation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die ondersteuning biedt voor deze bewerking.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; from which to retrieve child objects.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;waaruit de onderliggende objecten ophalen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; that contains the child objects of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Collections.IList&gt;die de onderliggende objecten van bevat <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;serializationManager&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>of <ph id="ph2">&lt;code&gt;serializationManager&lt;/code&gt;</ph> bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Retrieves information about all events associated with the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Informatie over alle gebeurtenissen die zijn gekoppeld aan de opgegeven &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; opgehaald</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the deserialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het deserialisatieproces voor.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to search for event objects.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;om te zoeken naar gebeurtenisobjecten.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.EventInfo&gt; array that contains information about the events associated with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Reflection.EventInfo&gt;matrix dat informatie over de gebeurtenissen die zijn gekoppeld bevat aan <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Reflection.EventInfo&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;obj&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>of <ph id="ph2">&lt;code&gt;obj&lt;/code&gt;</ph> bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Retrieves information about all properties associated with the specified object.</source>
+          <target state="translated">Informatie over alle eigenschappen die zijn gekoppeld aan het opgegeven object opgehaald.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to search for properties.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;om te zoeken naar eigenschappen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.PropertyInfo&gt; array that contains information about the properties associated with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Reflection.PropertyInfo&gt;matrix dat informatie over de eigenschappen die zijn gekoppeld bevat aan <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;obj&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>of <ph id="ph2">&lt;code&gt;obj&lt;/code&gt;</ph> bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Overridden.</source>
+          <target state="translated">Overschreven.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that an object has just been deserialized.</source>
+          <target state="translated">Waarschuwt de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die een object net is gedeserialiseerd.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnAfterDeserialize is called immediately after the &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt; method runs.</source>
+          <target state="translated">OnAfterDeserialize wordt aangeroepen onmiddellijk na de &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt;methode wordt uitgevoerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override OnAfterDeserialize in a class that inherits &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to perform any required processing on <ph id="ph1">`obj`</ph> after it has been serialized to extensible Application Markup Language (XAML).</source>
+          <target state="translated">U kunt OnAfterDeserialize vervangen in een klasse die overneemt &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;om uit te voeren op de vereiste verwerking op <ph id="ph1">`obj`</ph> nadat deze op extensible Application Markup Language (XAML) is geserialiseerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnAfterSerialize%2A&gt; provides no default behavior.</source>
+          <target state="translated">&lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnAfterSerialize%2A&gt;biedt geen standaardgedrag.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnAfterSerialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override it in a derived class to add any processing logic.</source>
+          <target state="translated">U moet deze in een afgeleide klasse toevoegen alle logica verwerking overschrijven.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; that was deserialized.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;die is gedeserialiseerd.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that an object has just been serialized.</source>
+          <target state="translated">Waarschuwt de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die een object net is geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnAfterSerialize is called immediately after the &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt; method runs.</source>
+          <target state="translated">OnAfterSerialize wordt aangeroepen onmiddellijk na de &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt;methode wordt uitgevoerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override OnAfterSerialize in a class that inherits &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to perform any required processing on <ph id="ph1">`obj`</ph> after it has been serialized to extensible Application Markup Language (XAML).</source>
+          <target state="translated">U kunt OnAfterSerialize vervangen in een klasse die overneemt &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;om uit te voeren op de vereiste verwerking op <ph id="ph1">`obj`</ph> nadat deze op extensible Application Markup Language (XAML) is geserialiseerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnAfterSerialize provides no default behavior.</source>
+          <target state="translated">OnAfterSerialize biedt geen standaardgedrag.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override it in a derived class to add any processing logic.</source>
+          <target state="translated">U moet deze in een afgeleide klasse toevoegen alle logica verwerking overschrijven.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; that was serialized.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;die is geserialiseerd.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Overridden.</source>
+          <target state="translated">Overschreven.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that an object is about to be deserialized.</source>
+          <target state="translated">Waarschuwt de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dat een object is punt te worden gedeserialiseerd.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnBeforeDeserialize is called immediately before the &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt; method runs.</source>
+          <target state="translated">OnBeforeDeserialize heet direct vóór de &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt;methode wordt uitgevoerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Deserialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnBeforeSerialize%2A&gt; in a class that inherits &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to perform required processing on <ph id="ph1">`obj`</ph> before it is serialized to extensible Application Markup Language (XAML).</source>
+          <target state="translated">U kunt onderdrukken &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnBeforeSerialize%2A&gt;in een klasse die overneemt &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;voor het uitvoeren van vereiste verwerking op <ph id="ph1">`obj`</ph> voordat deze naar extensible Application Markup Language (XAML) is geserialiseerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; &lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.OnBeforeSerialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnBeforeDeserialize provides no default behavior.</source>
+          <target state="translated">OnBeforeDeserialize biedt geen standaardgedrag.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override it in a derived class to add any processing logic.</source>
+          <target state="translated">U moet deze in een afgeleide klasse toevoegen alle logica verwerking overschrijven.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that managed the deserialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die het deserialisatieproces beheerd.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; that was deserialized.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;die is gedeserialiseerd.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize*&gt; is about to run.</source>
+          <target state="translated">Waarschuwt de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize*&gt;wordt uitgevoerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize*&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnBeforeSerialize is called immediately before the &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt; method runs.</source>
+          <target state="translated">OnBeforeSerialize heet direct vóór de &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt;methode wordt uitgevoerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override OnBeforeSerialize in a class that inherits &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to perform required processing on <ph id="ph1">`obj`</ph> before it the &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt; step in the serialization process has begun.</source>
+          <target state="translated">U kunt OnBeforeSerialize vervangen in een klasse die overneemt &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;voor het uitvoeren van vereiste verwerking op <ph id="ph1">`obj`</ph> voordat deze de &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt;stap in de serialisatie-proces is gestart.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer.Serialize%2A&gt; &lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnBeforeSerialize provides no default behavior.</source>
+          <target state="translated">OnBeforeSerialize biedt geen standaardgedrag.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override it in a derived class to add any processing logic.</source>
+          <target state="translated">U moet deze in een afgeleide klasse toevoegen alle logica verwerking overschrijven.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be serialized.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;moet worden geserialiseerd.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Serializes the specified &lt;xref:System.Object&gt; into a workflow markup file or stream.</source>
+          <target state="translated">De opgegeven serialiseert &lt;xref:System.Object&gt;in een werkstroom opmaakbestand of een stroom.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must serialize either a new instance of a workflow type or the root activity in a programmatically-created workflow to create workflow markup that can be used in &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; to create a &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.</source>
+          <target state="translated">U moet ofwel een nieuw exemplaar van een workflowtype of de hoofdactiviteit in een werkstroom programmatisch gemaakt voor het maken van workflowopmaak die kan worden gebruikt in &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;voor het maken van een &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; serialiseren</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about workflow markup, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over workstroommarkup <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlWriter&gt; that contains the stream or file used in serializing.</source>
+          <target state="translated">Een &lt;xref:System.Xml.XmlWriter&gt;waarin de stroom of bestand dat wordt gebruikt bij het serialiseren.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The object to be serialized.</source>
+          <target state="translated">Het object dat moet worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Serializes the specified &lt;xref:System.Object&gt; into a workflow markup file or stream using the specified serialization manager.</source>
+          <target state="translated">De opgegeven serialiseert &lt;xref:System.Object&gt;in een werkstroom opmaakbestand of een stream met de opgegeven serialisatiebeheer.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must serialize either a new instance of a workflow type or the root activity in a programmatically-created workflow to create workflow markup that can be used in &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; to create a &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.</source>
+          <target state="translated">U moet ofwel een nieuw exemplaar van een workflowtype of de hoofdactiviteit in een werkstroom programmatisch gemaakt voor het maken van workflowopmaak die kan worden gebruikt in &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;voor het maken van een &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; serialiseren</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on workflow markup, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over workstroommarkup <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, such as <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een object dat u implementeert de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface, zoals <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlWriter&gt; that contains the stream or file used in serializing.</source>
+          <target state="translated">Een &lt;xref:System.Xml.XmlWriter&gt;waarin de stroom of bestand dat wordt gebruikt bij het serialiseren.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The object to be serialized.</source>
+          <target state="translated">Het object dat moet worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Serializes the specified &lt;xref:System.Object&gt; to a string.</source>
+          <target state="translated">De opgegeven serialiseert &lt;xref:System.Object&gt;naar een tekenreeks.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Delegate&gt; instance is assignable from <ph id="ph1">`value`</ph>, SerializeToString writes the method name associated with <ph id="ph2">`value`</ph> to a string.</source>
+          <target state="translated">Als een &lt;xref:System.Delegate&gt;exemplaar kan worden toegewezen vanuit <ph id="ph1">`value`</ph>, SerializeToString schrijft de naam van de methode die is gekoppeld aan <ph id="ph2">`value`</ph> naar een tekenreeks.&lt;/xref:System.Delegate&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Type&gt; instance is assignable from <ph id="ph1">`value`</ph>, SerializeToString writes the fully-qualified name of the type associated with <ph id="ph2">`value`</ph> to a string.</source>
+          <target state="translated">Als een &lt;xref:System.Type&gt;exemplaar kan worden toegewezen vanuit <ph id="ph1">`value`</ph>, SerializeToString schrijft de volledig gekwalificeerde naam van het type dat is gekoppeld aan <ph id="ph2">`value`</ph> naar een tekenreeks.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If neither of these conditions exist, SerializeToString converts <ph id="ph1">`value`</ph> to a string and writes the result.</source>
+          <target state="translated">Als geen van deze voorwaarden bestaan, SerializeToString converteert <ph id="ph1">`value`</ph> naar een tekenreeks en schrijft het resultaat.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to serialize to a string.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;voor het serialiseren van een tekenreeks.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A string that contains the serialized &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Een tekenreeks met de geserialiseerde &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>of <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> should serialize the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Retourneert een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet de opgegeven &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; serialiseren</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ShouldSerializeValue is called by &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; before it serializes the specified object.</source>
+          <target state="translated">ShouldSerializeValue wordt aangeroepen door &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;voordat deze het opgegeven object serialiseert.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method returns <ph id="ph1">`false`</ph> if <ph id="ph2">`value`</ph> contains a null reference (<ph id="ph3">`Nothing`</ph>) or if <ph id="ph4">`value`</ph> and the &lt;xref:System.ComponentModel.DefaultValueAttribute&gt; of the current serialization context are equal.</source>
+          <target state="translated">De methode retourneert <ph id="ph1">`false`</ph> als <ph id="ph2">`value`</ph> bevat een null-verwijzing (<ph id="ph3">`Nothing`</ph>) of als <ph id="ph4">`value`</ph> en de &lt;xref:System.ComponentModel.DefaultValueAttribute&gt;van de huidige serialisatiecontext zijn gelijk.&lt;/xref:System.ComponentModel.DefaultValueAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override ShouldSerializeValue in a class that inherits from &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt; to customize how to determine whether the specified object should be serialized.</source>
+          <target state="translated">U kunt ShouldSerializeValue vervangen in een klasse die eigenschappen van overneemt &lt;xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;om aan te passen hoe om te bepalen of het opgegeven object moet worden geserialiseerd.&lt;/xref:System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the serialization process.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beheert het proces voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to check.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;om te controleren.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> should be serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om aan te geven <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> moet geserialiseerde; anders wordt <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationManager&lt;/code&gt;</ph>bevat een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Represents an attached <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type name, which will be created during compilation.</source>
+          <target state="translated">Hiermee geeft u een gekoppelde <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die definieert de typenaam, die wordt gemaakt tijdens de compilatie.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value corresponds to <ph id="ph1">`x:Class`</ph> attribute in XAML.</source>
+          <target state="translated">Deze waarde komt overeen met <ph id="ph1">`x:Class`</ph> kenmerk in XAML.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Using Workflow Markup<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>met behulp van workflowopmaak<ept id="p1">](http://msdn.microsoft.com/en-us/e2693a12-640b-4ccb-8fb0-db3075e94aa4)</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used only at design time.</source>
+          <target state="translated">Deze eigenschap wordt gebruikt tijdens de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After compilation, it becomes the name of the compiled type.</source>
+          <target state="translated">Na de compilatie wordt de naam van de gecompileerde type.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Represents a code example, embedded into XAML <bpt id="p1">&lt;xref uid="langword_csharp_x:Code" name="x:Code" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Hiermee geeft u een codevoorbeeld in XAML ingesloten <bpt id="p1">&lt;xref uid="langword_csharp_x:Code" name="x:Code" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> element.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used only at design time, while programmatically emitting a workflow using the object model.</source>
+          <target state="translated">Deze eigenschap wordt alleen in de ontwerpfase tijdens het programmatisch verzenden van een werkstroom met het objectmodel gebruikt.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property contains a <ph id="ph1">`CodeTypeMemberCollection`</ph> collection filled with <ph id="ph2">`CodeSnippetTypeMember`</ph> elements.</source>
+          <target state="translated">De eigenschap bevat een <ph id="ph1">`CodeTypeMemberCollection`</ph> collectie gevuld met <ph id="ph2">`CodeSnippetTypeMember`</ph> elementen.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After compilation, the code is compiled as a part of the generated type.</source>
+          <target state="translated">Na de compilatie, wordt de code gecompileerd als onderdeel van het gegenereerde type.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

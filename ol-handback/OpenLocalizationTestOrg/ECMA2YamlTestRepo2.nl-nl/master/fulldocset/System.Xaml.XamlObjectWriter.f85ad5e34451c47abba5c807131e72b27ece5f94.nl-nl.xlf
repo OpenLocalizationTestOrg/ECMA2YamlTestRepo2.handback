@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01f4fcfd0dab5d932e39f791cb9498e75f2095c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlObjectWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5471c74c3ad45da9c7b1397248af4d7ce200daa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccaa85da6afa8c83ee32cc538c7f313b515358e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates an object graph from a source XAML node stream.</source>
+          <target state="translated">Maakt een objectgrafiek van een bron XAML-knooppuntstroom.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Write`</ph> methods of XamlObjectWriter implement a pattern so that the XamlObjectWriter uses the &lt;xref:System.Xaml.XamlWriter&gt; that is defined by the &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; method.</source>
+          <target state="translated">De <ph id="ph1">`Write`</ph> methoden van de XamlObjectWriter implementeren een patroon, zodat de XamlObjectWriter gebruikt de &lt;xref:System.Xaml.XamlWriter&gt;die wordt gedefinieerd door de &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;methode.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt; &lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; logic switches between the <ph id="ph1">`Write`</ph> methods, depending on which node type is at the current position in the reader.</source>
+          <target state="translated">&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;logica schakelt tussen de <ph id="ph1">`Write`</ph> methoden, afhankelijk van welk knooppunt is het type van de huidige positie in de lezer.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scope    A XamlObjectWriter has a concept of scope; that is, the XamlObjectWriter maintains a conceptual point of reference in its output object graph.</source>
+          <target state="translated">Bereik A XamlObjectWriter heeft een concept van bereik; dat wil zeggen, onderhoudt de XamlObjectWriter een conceptuele verwijzing in de objectgrafiek uitvoer-punt.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a particular scope, certain operations might be valid or invalid, or produce a no-operation result.</source>
+          <target state="translated">Voor een bepaald bereik bepaalde bewerkingen mogelijk geldig of is ongeldig, of een niet-bewerking resultaat oplevert.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you call &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; to write directives for initialization on an object that already exists as an instance, the default implementation throws an exception.</source>
+          <target state="translated">Bijvoorbeeld, als u aanroepen &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;voor het schrijven richtlijnen voor initialisatie op een object dat al als een exemplaar bestaat, de standaardimplementatie er een uitzondering gegenereerd.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A possible technique for tracking scope in a custom XamlObjectWriter is to align the node actions with a stack or frame class.</source>
+          <target state="translated">Een mogelijke techniek voor het bijhouden van bereik in een aangepaste XamlObjectWriter is de knooppunt-acties met een klasse stack of frame uitlijnen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stack or frame can keep track of push and pop for each level of object-model depth that is entered or exited while the XamlObjectWriter writes the object graph.</source>
+          <target state="translated">De stack of frame kunt bijhouden van push- en pop-server voor elk bedreigingsniveau-objectmodel diepte die is ingevoerd of is afgesloten tijdens de XamlObjectWriter de objectgrafiek schrijft.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Callbacks    To support intermediate and advanced XamlObjectWriter scenarios, the mechanism of writing an object graph provides callback entry points that occur when a XamlObjectWriter commits or is about to commit certain actions.</source>
+          <target state="translated">Retouraanroepen aan ondersteuning tussenliggende en geavanceerde XamlObjectWriter-scenario's het mechanisme voor het schrijven van een objectgrafiek wordt callback toegangspunten die zich voordoen als een XamlObjectWriter is doorgevoerd of om bepaalde acties.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some callbacks are enabled in the settings and are not specific to the object type or the member being written; however, callback information is often available in context or is in the event data that is sent through the callback.</source>
+          <target state="translated">Sommige retouraanroepen in de instellingen zijn ingeschakeld en zijn niet specifiek voor het objecttype of het lid wordt geschreven; callback informatie is echter vaak beschikbaar in de context of is in het logboek gegevens die worden verzonden via de retouraanroep.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is a list of relevant callbacks:      -   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">Hieronder volgt een lijst met relevante retouraanroepen:-de callback die wordt gedeclareerd door &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;wordt aangeroepen wanneer het bereik gaat naar een nieuw object en op de &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt;fase van de levensduur van het object voor elk object gemaakt.&lt;/xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">-De callback die wordt gedeclareerd door &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;wordt aangeroepen wanneer het bereik gaat naar een nieuw object en op de &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt;fase van de levensduur van het object voor elk object gemaakt.&lt;/xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt; is invoked when the scope starts in an object, and occurs when the first &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-De callback die wordt gedeclareerd door &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;wordt aangeroepen wanneer het bereik wordt gestart in een object en deze gebeurtenis treedt op wanneer de eerste &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;aanroep dat bereik van het object is gemaakt maar nog niet zijn doorgevoerd.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt; is invoked when the scope starts in an object, and happens when the &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-De callback die wordt gedeclareerd door &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;wordt aangeroepen wanneer het bereik wordt gestart in een object en er gebeurt wanneer de &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;aanroep dat bereik van het object is gemaakt maar nog niet zijn doorgevoerd.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is invoked when &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; is called.</source>
+          <target state="translated">-De callback die wordt gedeclareerd door &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;wordt aangeroepen wanneer &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt;wordt aangeroepen.&lt;/xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writing Dictionary Keys    The default implementation of XamlObjectWriter supports type conversion on the constraints of a &lt;xref:System.Collections.Generic.Dictionary%602&gt; before the dictionary contents are added to the object graph.</source>
+          <target state="translated">Typeomzetting schrijven woordenlijst sleutels van de standaardimplementatie van XamlObjectWriter ondersteunt op de beperkingen van een &lt;xref:System.Collections.Generic.Dictionary%602&gt;voordat het woordenboek inhoud worden toegevoegd aan de objectgrafiek.&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this manner, a generic dictionary can be keyed at run time by objects and can match the relevant generic <ph id="ph1">`Add`</ph> and indexer behavior.</source>
+          <target state="translated">Op deze manier een algemene woordenlijst tijdens runtime kan worden ingevoerd met objecten en voldoen aan de relevante algemene <ph id="ph1">`Add`</ph> en het gedrag van de indexeerfunctie.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, as implemented for the base XamlObjectWriter, this capability exists only for object graph creation from the base &lt;xref:System.Collections.Generic.Dictionary%602&gt; class and not for derived classes of &lt;xref:System.Collections.Generic.Dictionary%602&gt;.</source>
+          <target state="translated">Als ze zijn geïmplementeerd voor de basis XamlObjectWriter, deze mogelijkheid bestaat echter alleen voor het maken van het object grafiek van de basis &lt;xref:System.Collections.Generic.Dictionary%602&gt;klasse en niet voor afgeleide klassen van &lt;xref:System.Collections.Generic.Dictionary%602&gt;.&lt;/xref:System.Collections.Generic.Dictionary%602&gt; &lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Checks for Disposed    XAML writers are potentially used for deferred operations or where a call is made against a XAML writer instance that has been disposed in the interim.</source>
+          <target state="translated">Controles voor schrijvers van XAML verwijderd worden mogelijk gebruikt voor uitgestelde bewerkingen of waar wordt een aanroep uitgevoerd op basis van een XAML-schrijver-exemplaar dat in de tussentijd is verwijderd.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Various APIs of XamlObjectWriter might throw &lt;xref:System.ObjectDisposedException&gt; in these cases.</source>
+          <target state="translated">Verschillende API's van de XamlObjectWriter mogelijk throw &lt;xref:System.ObjectDisposedException&gt;in dergelijke gevallen.&lt;/xref:System.ObjectDisposedException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using  the XAML schema context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de context van de XAML-schema dat wordt gebruikt door een <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">De context van een XAML-schema wordt gedeeld met de XAML-lezer met knooppunten voor schrijven.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and its settings.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de context die wordt gebruikt door een <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en de bijbehorende instellingen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">De context van een XAML-schema wordt gedeeld met de XAML-lezer met knooppunten voor schrijven.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A settings object that specifies certain options for <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> behavior and output.</source>
+          <target state="translated">Een object-instellingen waarmee bepaalde opties voor <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gedrag en de uitvoer.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resets all possible frames and clears the object graph.</source>
+          <target state="translated">Hiermee stelt u alle mogelijke frames en wist u de objectgrafiek.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and optionally, releases the managed resources.</source>
+          <target state="translated">Heft de niet-beheerde bronnen worden gebruikt door de <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, en desgewenst de beheerde bronnen vrij.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release the managed resources; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>voor het vrijgeven van de beheerde bronnen; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wordt een &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;methode die is gekoppeld aan <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">Het object waarvoor het rapport.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Het object wordt verpakt in <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wanneer de handler wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wordt een &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;methode die is gekoppeld aan <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">Het object waarvoor het rapport.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value  is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">De waarde wordt verpakt in <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wanneer de handler wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wordt een &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;verwezen methode die is gekoppeld aan <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">Het object waarvoor het rapport.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Dit wordt verpakt in <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wanneer de handler wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wordt een &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;verwezen methode die is gekoppeld aan <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value to pass through <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">De waarde doorgeven <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wanneer de handler wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this writer, as long as <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">handled</ph><ept id="p2">&lt;/code&gt;</ept> in <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> event data is not <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wordt een &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;verwezen methode die is gekoppeld aan <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze writer, zo lang <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">handled</ph> <ept id="p2">&lt;/code&gt;</ept> in <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> gebeurtenisgegevens is niet <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`SetValue`</ph> operation for this XAML writer has an associated handler (a &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is declared in &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), this method creates new &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt; and passes them to the handler.</source>
+          <target state="translated">Als de <ph id="ph1">`SetValue`</ph> bewerking voor deze XAML-schrijver heeft een bijbehorende handler (een &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;is gedeclareerd in &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), deze methode maakt u nieuwe &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt;en geeft deze door aan de handler.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is set by reading the &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt; value that is passed through the event data.</source>
+          <target state="translated">De geretourneerde waarde is ingesteld door het lezen van de &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;waarde die wordt doorgegeven via de gebeurtenisgegevens.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no handler exists and this method is invoked, the call returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Als er geen handler bestaat en wordt deze methode wordt aangeroepen, wordt de aanroep retourneert <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to report as the source to the handler.</source>
+          <target state="translated">Het object dat aan het rapport als de bron aan de handler.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of the property to set, which is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De naam van de eigenschap in te stellen, die wordt doorgegeven aan de handler als onderdeel van <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value to provide for the property that is named by <ph id="ph1">`property`</ph>.</source>
+          <target state="translated">De waarde voor de eigenschap met de naam door <ph id="ph1">`property`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De waarde wordt doorgegeven aan de handler als onderdeel van <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is set by any associated handler; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een Booleaanse waarde die is ingesteld door een handler gekoppeld; anders <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Zie de opmerkingen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the last object that was written.</source>
+          <target state="translated">Haalt de laatste object dat is geschreven.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Typically only called when the node stream is at its end and the object graph is complete.</source>
+          <target state="translated">Normaal gesproken alleen wordt aangeroepen wanneer de knooppuntstroom aan het einde is en de objectgrafiek voltooid is.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most typical usage of Result is to call it only when the node stream is known to be at its end, and the object graph is complete.</source>
+          <target state="translated">De meest voorkomende gebruik van het resultaat is kunnen aanroepen wanneer de knooppuntstroom bekend is dat deze aan het einde en de objectgrafiek voltooid is.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the object graph is likely to be incomplete, and is not useful for most platform scenarios.</source>
+          <target state="translated">Anders de objectgrafiek waarschijnlijk onvolledig te zijn en is niet geschikt voor de meeste scenario's met platform.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Result typically only contains a non-null value if it is called immediately after a call to &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, and if the current scope is in the member where the object provides a value.</source>
+          <target state="translated">Resultaat doorgaans alleen bevat een niet-null-waarde als deze wordt aangeroepen onmiddellijk na een aanroep van &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, en als het huidige bereik in het lid waar het object een waarde bevat.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The last object written, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het laatste object dat is geschreven, of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Zie de opmerkingen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the absolute node root of the XAML object writer.</source>
+          <target state="translated">Haalt de &lt;xref:System.Windows.Markup.INameScope&gt;service die wordt onderhouden door de XAML-namescope voor de hoofdmap absolute knooppunt van de XAML-object-schrijver.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property may come from the object writer context.</source>
+          <target state="translated">De waarde van deze eigenschap kan afkomstig zijn van de schrijver ObjectContext.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the current root of the object writer.</source>
+          <target state="translated">De &lt;xref:System.Windows.Markup.INameScope&gt;service die wordt onderhouden door de XAML-namescope voor de huidige hoofdmap van de object-schrijver.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the active XAML schema context.</source>
+          <target state="translated">Hiermee haalt u de actieve schemacontext van XAML.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XAML schema context is a necessary information source for most practical object-writing scenarios.</source>
+          <target state="translated">XAML-schemacontext is een bron van de benodigde informatie voor meest praktische object schrijven scenario's.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XAML schema context influences the type lookup for backing types and holds information about the assemblies where backing types exist.</source>
+          <target state="translated">De XAML-schemacontext van invloed is op het type lookup voor typen back-ups en bevat informatie over de assembly's waar back-ups maken typen voorkomen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default XAML schema context is based on CLR type-mapping rules.</source>
+          <target state="translated">De standaardcontext XAML-schema is gebaseerd op regels voor CLR-type-toewijzing.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Frameworks typically provide their own XAML schema context in order to assure that that the assembly-loading mechanisms match the framework's programming amd application models.</source>
+          <target state="translated">Frameworks geven doorgaans hun eigen schemacontext XAML om te waarborgen dat of de assembly geladen mechanismen overeenkomen met het framework amd toepassing programmeermodellen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The XAML schema context.</source>
+          <target state="translated">De context van de XAML-schema.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Implements <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> and provides line information for exceptions.</source>
+          <target state="translated">Implements <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> en line-informatie voor uitzonderingen.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service method is not intended to be called directly from your code.</source>
+          <target state="translated">Deze servicemethode is niet bedoeld om rechtstreeks vanuit uw code worden aangeroepen.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if you are creating a derived class from &lt;xref:System.Xaml.XamlObjectWriter&gt; and expect to report a context where line numbers are unavailable or not useful, this method may be called.</source>
+          <target state="translated">Echter, als u een afgeleide klasse van maakt &lt;xref:System.Xaml.XamlObjectWriter&gt;en verwacht voor het rapporteren van een context waarin regelnummers zijn niet beschikbaar of niet kan handig zijn, deze methode kan worden aangeroepen.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The line number from the reader.</source>
+          <target state="translated">Het regelnummer van de lezer.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The line position from the reader.</source>
+          <target state="translated">De regelpositie uit de lezer.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a value that reports whether a line information service should provide values and therefore, should also call the &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt; method when it is relevant.</source>
+          <target state="translated">Haalt een waarde die rapporten of een service line-informatie moet bieden waarden en daarom moet ook roept de &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;methode als dit relevant.&lt;/xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Deze implementatie altijd retourneert <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if line information is used by the writer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als gegevens wordt gebruikt door de writer. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Closes the current member scope, and may write the value of the member scope while it closes.</source>
+          <target state="translated">Hiermee sluit u het huidige lid bereik en kan de waarde van het bereik lid schrijven terwijl deze wordt gesloten.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The new scope becomes the parent object scope of the member.</source>
+          <target state="translated">De nieuwe scope wordt het bereik van het bovenliggende object van het lid.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Failed to create member value from a value node that is encountered between this call and a previous <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kan niet de waarde van het maken van een waardeknooppunt die is opgetreden tussen deze aanroep en een eerdere <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Closes the current object scope in the writer.</source>
+          <target state="translated">Hiermee sluit u het huidige bereik van het object in de writer.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The new object scope becomes the parent member scope.</source>
+          <target state="translated">Het bereik van het nieuwe object wordt het bovenliggende lid bereik.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this <ph id="ph1">`EndObject`</ph> position scope is closing the root object, the new object scope becomes the root scope.</source>
+          <target state="translated">Als dit <ph id="ph1">`EndObject`</ph> positie bereik het hoofdobject wordt gesloten, wordt het bereik van het nieuwe object het root-bereik.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; might not yet have created the object because an object member might be a necessary initialization pathway, such as initialization text or initialization parameters.</source>
+          <target state="translated">De aanroep van &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;mogelijk nog niet hebt gemaakt het object omdat een Objectlid kan de initialisatie van de benodigde toegang, zoals de initialisatie van de tekst of initialisatieparameters.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For these cases, the call to WriteEndObject actually writes the object.</source>
+          <target state="translated">Voor deze gevallen schrijft u de aanroep van WriteEndObject daadwerkelijk het object.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Writes the conceptual <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the object graph when the specified object is a default or implicit value of the parent property.</source>
+          <target state="translated">Schrijft de conceptuele <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in de objectgrafiek wanneer het opgegeven object een standaardwaarde of een impliciete waarde van de eigenschap parent is.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The implicit value comes from information that is obtained from the XAML schema context and backing type information, instead of being specified as an object value in the input XAML node set.</source>
+          <target state="translated">De impliciete wordt opgehaald uit de informatie die wordt opgehaald uit de XAML-schemacontext en back-ups maken type informatie, in plaats van wordt opgegeven als de objectwaarde van een in de invoerset van de XAML-knooppunt.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The difference between writing with WriteGetObject and writing with &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; can be seen in the resulting object graph.</source>
+          <target state="translated">Het verschil tussen schrijven met WriteGetObject en schrijven met &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;kunt bekijken in de resulterende objectgrafiek.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteGetObject does not construct an instance of a type because the WriteGetObject API has no information to inform the object graph of what to construct.</source>
+          <target state="translated">WriteGetObject heeft een exemplaar van een type niet maken omdat de API WriteGetObject heeft geen informatie om te informeren over de objectgrafiek wat om samen te stellen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the object was created when the parent property was initialized; so a &lt;xref:System.Xaml.XamlObjectWriter&gt; does not need to construct it.</source>
+          <target state="translated">In plaats daarvan is het object gemaakt als de eigenschap parent is geïnitialiseerd; dus een &lt;xref:System.Xaml.XamlObjectWriter&gt;heeft geen nodig om deze samen te stellen&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; specifies that an instance of that type should be constructed and inserted into the object graph.</source>
+          <target state="translated">Daarentegen &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;geeft aan dat een exemplaar van dat type moet worden samengesteld en ingevoegd in de objectgrafiek.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you think of the XAML node stream as a series of frames, a WriteGetObject is balanced to a &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call.</source>
+          <target state="translated">Als u de XAML-knooppuntstroom als een reeks frames beschouwen, een WriteGetObject wordt verdeeld op een &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;aanroepen.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the number of WriteGetObject plus &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; calls should equal the number of &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; calls as part of a complete object-writing evaluation of the XAML node stream.</source>
+          <target state="translated">Daarom het aantal WriteGetObject plus &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;aanroepen moeten gelijk zijn aan het aantal &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;aanroepen als onderdeel van een volledige object schrijven evaluatie van de XAML-knooppuntstroom.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The conceptual <ph id="ph1">`StartObject`</ph> position for an implicit object in the object graph is necessary because although the object value itself is an implicit default, that object might still have members that need to be written based on the XAML node stream.</source>
+          <target state="translated">De conceptuele <ph id="ph1">`StartObject`</ph> plaats voor een impliciete object in de objectgrafiek nodig is omdat de objectwaarde zelf is de standaardwaarde van een impliciete, dat object kan wel leden die moeten worden geschreven op basis van de XAML-knooppuntstroom.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical scenario where this occurs is when &lt;xref:System.Xaml.XamlObjectWriter&gt; writes member nodes for a collection property, and the collection initialization is implicit to creating the object that owns the collection property.</source>
+          <target state="translated">Een typisch scenario waar dit het geval is wanneer &lt;xref:System.Xaml.XamlObjectWriter&gt;schrijfbewerkingen lid knooppunten voor de verzamelingseigenschap van een en de initialisatie van de verzameling is impliciet zijn voor het maken van het object dat eigenaar is van de eigenschap collection.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines a namespace declaration that applies to the next object scope or member scope.</source>
+          <target state="translated">Hiermee definieert u de declaratie van een naamruimte die van toepassing op het volgende bereik van het object of lid bereik.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration can be written if the current scope is a root scope, object scope, or member scope.</source>
+          <target state="translated">Een naamruimtedeclaratie kan worden geschreven als het huidige bereik een hoofdmap bereik, een bereik van het object of een lid bereik is.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, WriteNamespace can only be called immediately before a call to one of the following: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.</source>
+          <target state="translated">WriteNamespace kan echter alleen worden aangeroepen vóór een aanroep van een van de volgende: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, of &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consecutive WriteNamespace case is for writing multiple namespace declarations to the same node.</source>
+          <target state="translated">De opeenvolgende WriteNamespace-aanvraag is voor het schrijven van meerdere naamruimtedeclaraties hetzelfde knooppunt.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Eventually, either &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; must be called.</source>
+          <target state="translated">Uiteindelijk een &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;of &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;moet worden aangeroepen.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteNamespace does not use a <ph id="ph1">`Start`</ph><ph id="ph2">/</ph><ph id="ph3">`End`</ph> metaphor.</source>
+          <target state="translated">WriteNamespace maakt geen gebruik van een <ph id="ph1">`Start`</ph> <ph id="ph2">/</ph> <ph id="ph3">`End`</ph> metafoor.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although a XAML namespace has members in the CLR representation sense, the members are known and do not need to be represented as a special type of &lt;xref:System.Xaml.XamlMember&gt; for extensibility.</source>
+          <target state="translated">Hoewel een XAML-naamruimte leden in de zin CLR-weergave heeft, de leden worden aangeduid en hoeft niet te worden weergegeven als een speciaal type &lt;xref:System.Xaml.XamlMember&gt;voor uitbreidbaarheid.&lt;/xref:System.Xaml.XamlMember&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the values of a &lt;xref:System.Xaml.NamespaceDeclaration&gt;, you access its &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; and &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; properties.</source>
+          <target state="translated">Voor toegang tot de waarden van een &lt;xref:System.Xaml.NamespaceDeclaration&gt;, u toegang tot de &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt;en &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt;Eigenschappen.&lt;/xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration may have a &lt;xref:System.String.Empty?displayProperty=fullName&gt; value for the prefix.</source>
+          <target state="translated">Een naamruimtedeclaratie heeft misschien een &lt;xref:System.String.Empty?displayProperty=fullName&gt;waarde voor het voorvoegsel.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.String.Empty?displayProperty=fullName&gt; prefix represents a declaration of the default XAML namespace.</source>
+          <target state="translated">Een &lt;xref:System.String.Empty?displayProperty=fullName&gt;voorvoegsel vertegenwoordigt een verklaring van de standaard XAML-naamruimte.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not attempt to use null to represent the default prefix;  it throws an exception in this API.</source>
+          <target state="translated">Probeer niet te gebruiken null vertegenwoordigt het standaardvoorvoegsel;  het genereert een uitzondering in deze API.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Xaml.NamespaceDeclaration&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Xaml.NamespaceDeclaration&gt;.&lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The namespace declaration to write.</source>
+          <target state="translated">De naamruimtedeclaratie schrijven.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Tried to write a XAML namespace node in an invalid scope.</source>
+          <target state="translated">Er is geprobeerd schrijven van een XAML-naamruimte-knooppunt in een ongeldig bereik.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Writes a new member node into the current object scope, and the scope becomes a new member scope.</source>
+          <target state="translated">Een nieuw lid knooppunt schrijft naar het huidige objectbereik en het bereik wordt een nieuw lid scope.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The XAML property to write.</source>
+          <target state="translated">De XAML-eigenschap te schrijven.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader through the XAML node stream intermediate.</source>
+          <target state="translated">Normaal gesproken krijgt u deze waarde van een XAML-lezer door de XAML-knooppuntstroom tussenliggende.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> passed, which indicates that the XAML node stream contained content for an object that does not support content.</source>
+          <target state="translated">- of - <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> doorgegeven, wat aangeeft dat de XAML-knooppuntstroom opgenomen inhoud voor een object dat geen ondersteuning voor inhoud.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start member in an invalid scope.</source>
+          <target state="translated">- of - poging tot schrijven van een lid van het begin in een ongeldig bereik.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> specifies a property that is already explicitly set in the parent object scope.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>Hiermee geeft u een eigenschap die al expliciet is ingesteld in het bereik van het bovenliggende object.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Writes an object node into the current scope, and sets the scope to a new object scope.</source>
+          <target state="translated">Een Objectknooppunt naar het huidige bereik schrijft en stelt u de scope naar een nieuw object-scope.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The type to write.</source>
+          <target state="translated">Het type schrijven.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader.</source>
+          <target state="translated">Normaal gesproken krijgt u deze waarde van een XAML-lezer.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Processing an &lt;xref:System.Xaml.XamlType.IsUnknown*&gt; type and cannot create an object.</source>
+          <target state="translated">Verwerking van een &lt;xref:System.Xaml.XamlType.IsUnknown*&gt;typt en kan geen object maken.&lt;/xref:System.Xaml.XamlType.IsUnknown*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start object in an invalid scope.</source>
+          <target state="translated">- of - poging tot schrijven van een start-object in een ongeldig bereik.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Attempted to write a root object when the root object was already provided in the settings.</source>
+          <target state="translated">Poging tot schrijven van een hoofdobject wanneer het hoofdobject al in de instellingen opgegeven is.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Writes a value to the current member scope.</source>
+          <target state="translated">Schrijft een waarde aan het huidige lid bereik.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the current scope is inside a collection, dictionary, or array object, the value should be added to the collection, dictionary, or array.</source>
+          <target state="translated">Als het huidige bereik binnen een verzameling, woordenlijst of array-object is, kan de waarde moet worden toegevoegd aan de verzameling, een woordenlijst of een matrix.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value to write.</source>
+          <target state="translated">De waarde om te schrijven.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Attempted to write a value in an invalid scope.</source>
+          <target state="translated">Poging tot schrijven van een waarde in een ongeldig bereik.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

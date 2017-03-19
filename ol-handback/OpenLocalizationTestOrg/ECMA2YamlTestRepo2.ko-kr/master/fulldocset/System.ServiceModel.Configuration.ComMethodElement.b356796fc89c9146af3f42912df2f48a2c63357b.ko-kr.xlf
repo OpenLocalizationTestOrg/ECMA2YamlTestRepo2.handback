@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4fc578275c7bbe18249fe2a0952acb4b986c103</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Configuration.ComMethodElement.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">74367d85939efb273097435f14bb4dad36c0874b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d34160bcb82a46b30e311f97952489837a507be6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a COM+ method that is exposed when the interface on a COM+ component is exposed as a Web service.</source>
+          <target state="translated">COM + 구성 요소의 인터페이스가 웹 서비스로 노출 될 때 노출 되는 COM + 메서드를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The COM+ integration configuration tool (ComSvcConfig.exe) can be used to add specific methods from a COM interface to appear on the generated service contract.</source>
+          <target state="translated">생성된 된 서비스 계약에 나타나도록 하려면 COM 인터페이스에서 특정 메서드를 추가 하려면 COM + 통합 구성 도구 (ComSvcConfig.exe)를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can use the following command to add the three named methods from the <ph id="ph1">`IFinances`</ph> COM interface on the <ph id="ph2">`ItemOrders.Financial`</ph> component, to the generated service contract.</source>
+          <target state="translated">명명 된 메서드&amp;3; 개를 추가 하려면 다음 명령을 사용할 수는 예를 들어는 <ph id="ph1">`IFinances`</ph> COM 인터페이스는 <ph id="ph2">`ItemOrders.Financial`</ph> 생성 된 서비스 계약의 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   ComSvcConfig.exe /i /application:OnlineStore /contract:ItemOrders.Financial,IFinances.{TransferFunds,AddFunds,RemoveFunds} /hosting:complus   ```</ph>       When you run the ComSvcConfig.exe too, it then generates the following service contract listing the previously mentioned methods as <ph id="ph2">`exposedMethod`</ph> elements.</source>
+          <target state="translated"><ph id="ph1">```   ComSvcConfig.exe /i /application:OnlineStore /contract:ItemOrders.Financial,IFinances.{TransferFunds,AddFunds,RemoveFunds} /hosting:complus   ```</ph>위의 메서드를 나열 하는 다음 서비스 계약이 생성 됩니다 너무는 ComSvcConfig.exe를 실행 하면 <ph id="ph2">`exposedMethod`</ph> 요소입니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```      &lt;comContract contractType="{C551FBA9-E3AA-4272-8C2A-84BD8D290AC7}" name="IFinances" namespace="http://contoso.com/services/financial"&gt;       &lt;exposedMethod name="TransferFunds"/&gt;       &lt;exposedMethod name="AddFunds"/&gt;       &lt;exposedMethod name="RemoveFunds"/&gt;   &lt;/comContract&gt;      ```</ph>       At service initialization time, the runtime attempts to generate a service contract by reflecting over and adding only the methods included in the list of <ph id="ph2">`exposedMethod`</ph> elements.</source>
+          <target state="translated"><ph id="ph1">```      &lt;comContract contractType="{C551FBA9-E3AA-4272-8C2A-84BD8D290AC7}" name="IFinances" namespace="http://contoso.com/services/financial"&gt;       &lt;exposedMethod name="TransferFunds"/&gt;       &lt;exposedMethod name="AddFunds"/&gt;       &lt;exposedMethod name="RemoveFunds"/&gt;   &lt;/comContract&gt;      ```</ph>서비스 초기화 시 런타임에서 검토 하 고 목록에 포함 된 메서드만 추가 하 여 서비스 계약을 생성 하려고 <ph id="ph2">`exposedMethod`</ph> 요소입니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A trace is produced for every interface method that is not included on the service contract.</source>
+          <target state="translated">서비스 계약에 포함 되지 않은 모든 인터페이스 메서드에 대해서는 추적이 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ComMethodElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ComMethodElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ComMethodElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified method.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ComMethodElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 메서드를 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A COM+ method exposed.</source>
+          <target state="translated">COM + 메서드를 노출 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the COM+ method that is exposed when the interface on a COM+ component is exposed as a Web service.</source>
+          <target state="translated">COM + 구성 요소의 인터페이스가 웹 서비스로 노출 될 때 노출 되는 COM + 메서드를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the COM+ method that is exposed when the interface on a COM+ component is exposed as a Web service.</source>
+          <target state="translated">COM + 구성 요소의 인터페이스가 웹 서비스로 노출 될 때 노출 되는 COM + 메서드의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

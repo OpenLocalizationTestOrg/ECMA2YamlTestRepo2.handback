@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7eaeef8182df822d8450ac41fd997baeb1b5ca0a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.IStackWalk.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5f0f12ba5c73a23f5e5435b0558980edd191022</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3847cece6936397f0018f665bdc1dd7b863aea97</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages the stack walk that determines whether all callers in the call stack have the required permissions to access a protected resource.</source>
+          <target state="translated">管理堆疊查核行程，判斷呼叫堆疊中的所有呼叫端是否具有存取受保護的資源的必要權限。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Partially trusted code always presents a security risk.</source>
+          <target state="translated">部分信任程式碼一律會顯示安全性風險。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It can sometimes be manipulated to perform actions on behalf of malicious code that does not have permission to access a resource.</source>
+          <target state="translated">有時候可以代表沒有存取資源的權限的惡意程式碼執行動作操作。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this way, malicious code can achieve higher security access than it should be allowed.</source>
+          <target state="translated">如此一來，惡意程式碼可以達到比應該允許較高的安全性存取權。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The common language runtime helps protect managed code from these attacks by running a stack walk on all calls.</source>
+          <target state="translated">通用語言執行平台可協助保護免於這些攻擊的 managed 程式碼所執行的所有呼叫堆疊查核行程。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The stack walk requires that all code in the call stack has permission to access a protected resource.</source>
+          <target state="translated">堆疊查核行程要求所有呼叫堆疊中的程式碼必須都具有存取受保護的資源的權限。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because the code attempting the attack will always be somewhere in the call stack, it will be unable to exceed its own security permissions.</source>
+          <target state="translated">因為嘗試攻擊的程式碼一定會某處呼叫堆疊中，將無法超過自己的安全性權限。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Asserts that the calling code can access the resource identified by the current permission object, even if callers higher in the stack have not been granted permission to access the resource.</source>
+          <target state="translated">即使堆疊中較高層的呼叫端未獲得存取資源的權限呼叫程式碼可以存取目前權限物件所識別之資源的判斷提示。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Calling Assert stops the permission check on callers higher in the call stack.</source>
+          <target state="translated">呼叫判斷提示，就會停止在呼叫堆疊中較高的呼叫端的權限檢查。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Therefore, even if these callers do not have the requisite permissions, they can still access resources.</source>
+          <target state="translated">因此，即使這些呼叫端沒有必要的權限，他們仍然可以存取資源。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An assertion is effective only if the code that calls Assert passes the security check for the permission that it is asserting.</source>
+          <target state="translated">判斷提示就會生效，只有當呼叫判斷提示的程式碼通過安全性檢查，它會判斷提示之權限。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A call to Assert is effective until the calling code returns to its caller or until a subsequent call to Assert renders the previous assertion ineffective.</source>
+          <target state="translated">判斷提示的呼叫是有效的直到呼叫程式碼會傳回其呼叫端或判斷提示的後續呼叫會呈現先前的判斷提示的效果不佳。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Also, &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; removes a pending Assert.</source>
+          <target state="translated">此外，&lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;或&lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;移除暫止的判斷提示。&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Assert is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">判斷提示該權限的要求將會失敗，因為未授與權限會被忽略。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, if code lower on the call stack calls &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call Assert.</source>
+          <target state="translated">不過，如果在呼叫堆疊中較低的程式碼呼叫&lt;xref:System.Security.IStackWalk.Demand%2A&gt;該權限，&lt;xref:System.Security.SecurityException&gt;堆疊查核行程到達程式碼嘗試呼叫判斷提示時，會擲回。&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This happens because the code that called Assert has not been granted the permission, even though it tried to Assert it.</source>
+          <target state="translated">這不會因為呼叫判斷提示的程式碼無法獲得的權限，即使它嘗試將它判斷提示。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because calling Assert removes the requirement that all code in the call chain must be granted permission to access the specified resource, it can open up security vulnerabilities if used incorrectly or inappropriately.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 呼叫 Assert 移除所有的程式碼呼叫鏈結中，必須授存取指定的資源的權限的需求，因為它可以開啟安全性漏洞如果使用不正確或不正確。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Therefore, it should be used with great caution.</source>
+          <target state="translated">因此，應該使用小心謹慎。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The calling code does not have <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼叫程式碼並沒有<bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Determines at run time whether all callers in the call stack have been granted the permission specified by the current permission object.</source>
+          <target state="translated">決定在執行階段呼叫堆疊中的所有呼叫端獲得目前權限物件所指定的權限。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">這個方法通常可由安全程式庫來確定呼叫端擁有存取資源的權限。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, a file class in a secure class library calls Demand for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">例如，檔案中的類別安全類別庫呼叫的必要需求&lt;xref:System.Security.Permissions.FileIOPermission&gt;之前執行檔案作業的呼叫端要求。&lt;/xref:System.Security.Permissions.FileIOPermission&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">不會檢查呼叫這個方法的程式碼的權限;檢查該程式碼的立即呼叫端從開始，然後進行堆疊。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Demand succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">要求執行成功，只有當沒有&lt;xref:System.Security.SecurityException&gt;，就會引發。&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A caller higher in the call stack does not have the permission specified by the current permission object.</source>
+          <target state="translated">呼叫堆疊中較高層的呼叫端沒有目前的權限物件所指定的權限。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       A caller in the call stack has called &lt;xref:System.Security.IStackWalk.Deny*&gt; on the current permission object.</source>
+          <target state="translated">-或-呼叫堆疊中的呼叫端已呼叫&lt;xref:System.Security.IStackWalk.Deny*&gt;上目前的權限物件。&lt;/xref:System.Security.IStackWalk.Deny*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Causes every &lt;xref:System.Security.IStackWalk.Demand*&gt; for the current object that passes through the calling code to fail.</source>
+          <target state="translated">會導致每個&lt;xref:System.Security.IStackWalk.Demand*&gt;目前物件通過呼叫程式碼失敗。&lt;/xref:System.Security.IStackWalk.Demand*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method prevents callers higher in the call stack from accessing the protected resource through the code that calls this method, even if those callers have been granted permission to access it.</source>
+          <target state="translated">這個方法會防止呼叫堆疊中較高層的呼叫端程式碼呼叫此方法，透過存取受保護的資源，即使這些呼叫端必須被授與存取權限。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">呼叫堆疊通常會表示向下成長，使方法呼叫堆疊中較高層呼叫的方法較低的呼叫堆疊中。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Deny can limit the liability of the programmer or help prevent accidental security vulnerabilities because it helps prevent the method that calls Deny from being used to access the resource protected by the denied permission.</source>
+          <target state="translated">拒絕可以限制程式設計人員的責任，或協助防止意外安全性漏洞，因為它可協助防止拒絕會從用來存取拒絕的權限所保護的資源呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If a method calls Deny on a permission, and if a &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission is invoked by a caller lower in the call stack, that security check will fail when it reaches the Deny.</source>
+          <target state="translated">如果方法呼叫 Deny 權限，而且如果&lt;xref:System.Security.IStackWalk.Demand%2A&gt;到達 Deny 時，安全性檢查的呼叫堆疊中較低的呼叫端所叫用該權限時，將會失敗。&lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Deny is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">拒絕權限未授與該權限的要求將會失敗，因為已忽略。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Causes every &lt;xref:System.Security.IStackWalk.Demand*&gt; for all objects except the current one that passes through the calling code to fail, even if code higher in the call stack has been granted permission to access other resources.</source>
+          <target state="translated">會導致每個&lt;xref:System.Security.IStackWalk.Demand*&gt;通過呼叫程式碼失敗，即使在呼叫堆疊中較高的程式碼授與權限來存取其他資源目前以外的所有物件。&lt;/xref:System.Security.IStackWalk.Demand*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PermitOnly is similar to &lt;xref:System.Security.IStackWalk.Deny%2A&gt;, in that both cause stack walks to fail when they would otherwise succeed.</source>
+          <target state="translated">PermitOnly 是類似於&lt;xref:System.Security.IStackWalk.Deny%2A&gt;，在於兩者會導致堆疊查核行程符合則成功時失敗。&lt;/xref:System.Security.IStackWalk.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The difference is that &lt;xref:System.Security.IStackWalk.Deny%2A&gt; specifies permissions that will cause the stack walk to fail, but PermitOnly specifies the only permissions that do not cause the stack walk to fail.</source>
+          <target state="translated">其差異在於，&lt;xref:System.Security.IStackWalk.Deny%2A&gt;指定權限，會導致堆疊查核行程失敗，但 PermitOnly 指定不會導致堆疊查核行程失敗的唯一權限。&lt;/xref:System.Security.IStackWalk.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Call this method to ensure that your code can be used to access only the specified resources.</source>
+          <target state="translated">呼叫此方法，以確保您的程式碼，可用來存取指定的資源。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PermitOnly is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">PermitOnly 會忽略該權限的要求將會失敗，因為未授與的權限。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>However, if code lower on the call stack later calls &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call PermitOnly.</source>
+          <target state="translated">不過，如果程式碼呼叫較低堆疊稍後呼叫&lt;xref:System.Security.IStackWalk.Demand%2A&gt;該權限，&lt;xref:System.Security.SecurityException&gt;堆疊查核行程到達程式碼嘗試呼叫 PermitOnly 時，會擲回。&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is because the code that called PermitOnly has not been granted the permission, even though it called PermitOnly for that permission.</source>
+          <target state="translated">這是因為呼叫 PermitOnly 的程式碼無法獲得的權限，即使它針對該權限來呼叫 PermitOnly。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">呼叫堆疊通常會表示向下成長，使方法呼叫堆疊中較高層呼叫的方法較低的呼叫堆疊中。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

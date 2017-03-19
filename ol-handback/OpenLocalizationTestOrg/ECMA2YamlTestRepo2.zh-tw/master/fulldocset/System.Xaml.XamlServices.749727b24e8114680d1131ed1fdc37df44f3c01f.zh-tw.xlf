@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">208467e763933988cad96c707aa193768e98b704</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlServices.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53d4dead39cd9a3a0a69a75137ac94c69f545387</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">251086e4a08beb46e415516b715d313312131e2b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides higher-level services (static methods) for the common XAML tasks of reading XAML and writing an object graph; or reading an object graph and writing XAML file output for serialization purposes.</source>
+          <target state="translated">如需 XAML 的讀取和寫入物件圖形; 常見的 XAML 工作提供更高層級服務 （靜態方法）或讀取物件圖形，和寫入進行序列化的 XAML 檔案輸出。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The modes of the XamlServices class that are used in the most common XAML reading and writing scenarios rely on creating instances of XAML readers and XAML writers.</source>
+          <target state="translated">建立執行個體的 XAML 讀取器和 XAML 寫入器依賴 XamlServices 類別最常見的 XAML 讀取和寫入的案例中所使用的模式。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These readers and writers are specialized but internal implementations of public classes, such as &lt;xref:System.Xml.XmlReader&gt;, &lt;xref:System.Xaml.XamlXmlReader&gt;, and &lt;xref:System.Xaml.XamlObjectWriter&gt;.</source>
+          <target state="translated">這些讀取器和寫入器，特製化，但內部實作的公用類別，例如&lt;xref:System.Xml.XmlReader&gt;， &lt;xref:System.Xaml.XamlXmlReader&gt;，和&lt;xref:System.Xaml.XamlObjectWriter&gt;。&lt;/xref:System.Xaml.XamlObjectWriter&gt; &lt;/xref:System.Xaml.XamlXmlReader&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To use XamlServices for most scenarios, you can rely on the default internal implementations to obtain the results that you want.</source>
+          <target state="translated">若要使用 XamlServices 大部分的情況下，您可以依賴預設內部實作，以取得您想要的結果。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more specialized scenarios, you might define readers and writers yourself, and then pass them as arguments for overloads of the XamlServices methods.</source>
+          <target state="translated">更具特製化的情況下，您可能會定義讀取器及寫入您自己，並再將其傳遞做為 XamlServices 方法的多載引數。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  XamlServices is not the recommended XAML reading or XAML writing API set if you are processing WPF-defined types, or types based on WPF.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; XamlServices 不是建議的 XAML 讀取或寫入的 API 集，如果您正在處理 WPF 定義型別或 WPF 為基礎類型的 XAML。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML (or BAML); and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">如<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>使用方式，使用&lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;進行讀取或載入 XAML （BAML）; 和&lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;的回寫 XAML。&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These classes use .NET Framework XAML Services APIs and the XAML readers and XAML writers internally in their implementation; however, they also provide support and specialized XAML schema context for WPF-specific concepts, such as optimizations for dependency properties and WPF known types.</source>
+          <target state="translated">這些類別用於.NET Framework XAML 服務應用程式開發介面的 XAML 讀取器和 XAML 寫入器在內部實作;不過，它們也提供支援和特定的 XAML 結構描述內容為 WPF 專屬的概念，例如相依性屬性與已知型別的 WPF 的最佳化。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Loads a &lt;xref:System.IO.Stream&gt; source for a XAML reader and writes its output as an object graph.</source>
+          <target state="translated">載入&lt;xref:System.IO.Stream&gt;XAML 讀取器的來源，並將其輸出為物件圖形。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Different signatures for the Load method specify different types of input for the source XAML.</source>
+          <target state="translated">不同的簽章的 Load 方法指定不同的輸入來源 XAML 的類型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Load internal implementation first creates an &lt;xref:System.Xml.XmlReader&gt; by calling &lt;xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt; and then creates a new instance of a specialized &lt;xref:System.Xaml.XamlReader&gt; that processes the input.</source>
+          <target state="translated">載入內部實作會先建立&lt;xref:System.Xml.XmlReader&gt;藉由呼叫&lt;xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt;，然後建立特殊的新執行個體&lt;xref:System.Xaml.XamlReader&gt;，可處理輸入。&lt;/xref:System.Xaml.XamlReader&gt; &lt;/xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In order for the Load call to successfully create an object graph, the following must be true:      -   The source is well-formed and valid XML.</source>
+          <target state="translated">已成功建立物件圖形的負載呼叫的順序，下列必須為 true:-來源是格式正確且有效的 XML。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   The source is valid XAML at the language level.</source>
+          <target state="translated">-來源是有效的 XAML 語言層級。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   The XAML types that are specified in the source XAML must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">在來源中指定-XAML 類型 XAML 必須解析成相關的 XAML 命名空間中的備份類型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, XAML types for WPF namespaces can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or available in the run time; and so on.</source>
+          <target state="translated">例如，WPF 命名空間的 XAML 型別可解析成指定 XAML; 中的 WPF XAML 命名空間wpf 組件必須包含在專案或可執行的時間;等等。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  &lt;xref:System.Xaml.XamlServices&gt; is not the recommended XAML reading or XAML writing API set if you are processing <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> types, or types based on <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;&lt;xref:System.Xaml.XamlServices&gt;不是建議的 XAML 讀取或寫入應用程式開發介面的 XAML 設定，如果您正在處理<ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>型別或根據<ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>。&lt;/xref:System.Xaml.XamlServices&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML; and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">如<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>使用方式，使用&lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;進行讀取或載入 XAML; 和&lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;的回寫 XAML。&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These classes use &lt;xref:System.Xaml&gt; APIs internally in their implementation; however, they also provide support for WPF-specific concepts that influence the nature of XAML reading and writing, such as optimizations for dependency properties.</source>
+          <target state="translated">這些類別會使用&lt;xref:System.Xaml&gt;Api 在其實作; 內部不過，它們也支援的 WPF 專屬影響的 XAML 讀取和寫入，例如相依性屬性的最佳化性質的概念。&lt;/xref:System.Xaml&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The stream to load as input.</source>
+          <target state="translated">載入做為輸入資料流。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object graph that is written as output.</source>
+          <target state="translated">會寫入做為輸出的物件圖形。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creates a XAML reader from a &lt;xref:System.IO.TextReader&gt;, and returns an object graph.</source>
+          <target state="translated">建立從 XAML 讀取器&lt;xref:System.IO.TextReader&gt;，並傳回物件圖形。&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In order to return the object graph, the <ph id="ph1">`textReader`</ph> input should be constructed by using its relevant input.</source>
+          <target state="translated">若要傳回的物件圖形，<ph id="ph1">`textReader`</ph>輸入應該使用其相關的輸入來建構。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, it should pass a &lt;xref:System.IO.StringReader&gt; that is constructed by using a valid XAML-as-string input for the &lt;xref:System.IO.StringReader.%23ctor%28System.String%29&gt; constructor.</source>
+          <target state="translated">例如，它應該傳遞&lt;xref:System.IO.StringReader&gt;所使用的有效的 XAML 字串做為輸入來建構&lt;xref:System.IO.StringReader.%23ctor%28System.String%29&gt;建構函式。&lt;/xref:System.IO.StringReader.%23ctor%28System.String%29&gt; &lt;/xref:System.IO.StringReader&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; to use as the basis for the created &lt;xref:System.Xml.XmlReader&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;要做為建立&lt;xref:System.Xml.XmlReader&gt;.&lt;/xref:System.Xml.XmlReader&gt;的基礎&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">傳回的物件圖形。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textReader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textReader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Loads a &lt;xref:System.IO.Stream&gt; source for a XAML reader and returns an object graph.</source>
+          <target state="translated">載入&lt;xref:System.IO.Stream&gt;XAML 讀取器的來源，並傳回物件圖形。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Different signatures for the Load method specify different types of input for the source XAML.</source>
+          <target state="translated">不同的簽章的 Load 方法指定不同的輸入來源 XAML 的類型。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Load internal implementation first creates an &lt;xref:System.Xml.XmlReader&gt; by calling &lt;xref:System.Xml.XmlReader.Create%28System.String%29&gt; and then creates a new instance of a specialized &lt;xref:System.Xaml.XamlReader&gt; that processes the input.</source>
+          <target state="translated">載入內部實作會先建立&lt;xref:System.Xml.XmlReader&gt;藉由呼叫&lt;xref:System.Xml.XmlReader.Create%28System.String%29&gt;，然後建立特殊的新執行個體&lt;xref:System.Xaml.XamlReader&gt;，可處理輸入。&lt;/xref:System.Xaml.XamlReader&gt; &lt;/xref:System.Xml.XmlReader.Create%28System.String%29&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In order for the Load call to successfully create an object graph, the following must be true:      -   The source is well-formed and valid XML.</source>
+          <target state="translated">已成功建立物件圖形的負載呼叫的順序，下列必須為 true:-來源是格式正確且有效的 XML。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-   The source is valid XAML at the language level.</source>
+          <target state="translated">-來源是有效的 XAML 語言層級。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-   The XAML types that are specified in the source XAML must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">在來源中指定-XAML 類型 XAML 必須解析成相關的 XAML 命名空間中的備份類型。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, XAML types for WPF namespaces can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or be available in the run time; and so on.</source>
+          <target state="translated">例如，WPF 命名空間的 XAML 型別可解析成指定 XAML; 中的 WPF XAML 命名空間wpf 組件必須包含在專案中，或可在執行階段中。等等。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The file name to load and use as source.</source>
+          <target state="translated">要載入，並當做來源使用的檔案名稱。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">傳回的物件圖形。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Loads a specific XAML reader implementation and returns an object graph.</source>
+          <target state="translated">載入特定的 XAML 讀取器實作，並傳回物件圖形。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You should typically use this signature only in the following cases:      -   You defined your own implementation of a &lt;xref:System.Xaml.XamlReader&gt;.</source>
+          <target state="translated">您通常應該只有在下列情況下使用此簽章:-定義您自己的&lt;xref:System.Xaml.XamlReader&gt;。&lt;/xref:System.Xaml.XamlReader&gt;的實作</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-   You specified settings for a &lt;xref:System.Xaml.XamlReader&gt; that differ from the default settings.</source>
+          <target state="translated">-您指定的設定&lt;xref:System.Xaml.XamlReader&gt;不同於預設設定。&lt;/xref:System.Xaml.XamlReader&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The XAML reader implementation to use as the reader for this <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operation.</source>
+          <target state="translated">這個讀取器為使用 XAML 讀取器實作<bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作業。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">傳回的物件圖形。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Loads a specific XML reader implementation and returns an object graph.</source>
+          <target state="translated">載入特定的 XML 讀取器實作，並傳回物件圖形。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You should typically use this signature only if you defined your own implementation of a &lt;xref:System.Xml.XmlReader&gt;.</source>
+          <target state="translated">您通常應該使用此簽章，如果您定義自己的&lt;xref:System.Xml.XmlReader&gt;.&lt;/xref:System.Xml.XmlReader&gt;實作</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlReader&gt; implementation to use as the reader for this <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operation.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlReader&gt;當做讀取器使用這個實作<bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作業。&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The output object graph.</source>
+          <target state="translated">輸出物件圖形中。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Reads XAML as string output and returns an object graph.</source>
+          <target state="translated">讀取字串輸出為 XAML 並傳回物件圖形。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In order for the Parse call to successfully create an object tree, the following must be true:      -   The <ph id="ph1">`xaml`</ph> input is well-formed and valid XML.</source>
+          <target state="translated">已成功建立物件樹狀結構的剖析呼叫的順序，下列必須為 true:-<ph id="ph1">`xaml`</ph>輸入的格式正確且有效的 XML。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`xaml`</ph> input is valid XAML at the language level.</source>
+          <target state="translated">-<ph id="ph1">`xaml`</ph>輸入都是有效的 XAML 語言層級。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-   The XAML types that are specified in the <ph id="ph1">`xaml`</ph> input must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">-XAML 所指定之類型的<ph id="ph1">`xaml`</ph>輸入必須解析成支援類型相關的 XAML 命名空間中。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, XAML types for a WPF namespace can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or be available in the run time; and so on.</source>
+          <target state="translated">例如，WPF 命名空間的 XAML 型別可解析成指定 XAML; 中的 WPF XAML 命名空間wpf 組件必須包含在專案中，或可在執行階段中。等等。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  &lt;xref:System.Xaml.XamlServices&gt; is not the recommended XAML reading or XAML writing API set if you are processing <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> types, or types based on <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;&lt;xref:System.Xaml.XamlServices&gt;不是建議的 XAML 讀取或寫入應用程式開發介面的 XAML 設定，如果您正在處理<ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>型別或根據<ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>。&lt;/xref:System.Xaml.XamlServices&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML, and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">如<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>使用方式，使用&lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;進行讀取或載入 XAML，和&lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;的回寫 XAML。&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>These classes use &lt;xref:System.Xaml&gt; APIs internally in their implementation; however, they also provide support for WPF-specific concepts that influence the nature of XAML reading and writing, such as optimizations for dependency properties.</source>
+          <target state="translated">這些類別會使用&lt;xref:System.Xaml&gt;Api 在其實作; 內部不過，它們也支援的 WPF 專屬影響的 XAML 讀取和寫入，例如相依性屬性的最佳化性質的概念。&lt;/xref:System.Xaml&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The XAML string input to parse.</source>
+          <target state="translated">要剖析的 XAML 字串輸入。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">傳回的物件圖形。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xaml&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xaml&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Processes a provided object tree into a XAML node representation, and returns a string representation of the output XAML.</source>
+          <target state="translated">處理提供的物件樹狀結構至 XAML 節點表示法，並傳回的輸出為 XAML 字串表示。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The output from this method is the <ph id="ph1">`ToString`</ph> result of an &lt;xref:System.Xml.XmlWriter&gt; that is created by the method call.</source>
+          <target state="translated">這個方法的輸出是<ph id="ph1">`ToString`</ph>結果&lt;xref:System.Xml.XmlWriter&gt;，它由方法呼叫。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>That &lt;xref:System.Xml.XmlWriter&gt; is created by using the following settings: &lt;xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt; is <ph id="ph1">`true`</ph>; and &lt;xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt; is <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">確認&lt;xref:System.Xml.XmlWriter&gt;由使用下列設定︰&lt;xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt;是<ph id="ph1">`true`</ph>; 和&lt;xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt;是<ph id="ph2">`true`</ph>。&lt;/xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The returned string can be loaded as valid XML through the &lt;xref:System.Xml.XmlReader.Create%2A&gt; method if you processed the string into a stream, or into a reader more specifically dedicated for XAML.</source>
+          <target state="translated">傳回的字串可以載入為有效的 XML，透過&lt;xref:System.Xml.XmlReader.Create%2A&gt;方法，如果您處理字串更明確地說專用讀取器放入資料流，或是為 XAML。&lt;/xref:System.Xml.XmlReader.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The XAML markup output as a string.</source>
+          <target state="translated">XAML 標記做為字串輸出。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then into an output stream for serialization.</source>
+          <target state="translated">XAML 節點表示法中，然後將序列化的輸出資料流處理提供的物件圖形。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The destination stream.</source>
+          <target state="translated">目的地資料流。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then into an output that goes to the provided &lt;xref:System.IO.TextWriter&gt;.</source>
+          <target state="translated">XAML 節點表示法中，然後將會移至提供&lt;xref:System.IO.TextWriter&gt;.&lt;/xref:System.IO.TextWriter&gt;輸出會處理提供的物件圖形</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; that writes the output.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;寫入輸出。&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to an output file at a provided location.</source>
+          <target state="translated">XAML 節點表示將處理提供的物件圖形，然後將其寫入輸出檔在提供的位置。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`fileName`</ph> parameter value is used as the <ph id="ph2">`outputFileName`</ph> input for a call to &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;, which creates a &lt;xref:System.Xml.XmlWriter&gt; as part of the method call.</source>
+          <target state="translated"><ph id="ph1">`fileName`</ph>參數值作為<ph id="ph2">`outputFileName`</ph>呼叫的輸入&lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;，它會建立&lt;xref:System.Xml.XmlWriter&gt;做為方法呼叫的一部分。&lt;/xref:System.Xml.XmlWriter&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name and location of the file to write the output to.</source>
+          <target state="translated">名稱和要寫入輸出檔案的位置。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>為空字串。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to the provided XAML writer.</source>
+          <target state="translated">XAML 節點表示將處理提供的物件圖形，然後將其寫入提供的 XAML 寫入器。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You should typically use this signature only in the following cases:      -   You defined your own implementation of a &lt;xref:System.Xaml.XamlWriter&gt;.</source>
+          <target state="translated">您通常應該只有在下列情況下使用此簽章:-定義您自己的&lt;xref:System.Xaml.XamlWriter&gt;。&lt;/xref:System.Xaml.XamlWriter&gt;的實作</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-   You specified settings for the &lt;xref:System.Xaml.XamlWriter&gt; that differ from the default settings.</source>
+          <target state="translated">-您指定的設定&lt;xref:System.Xaml.XamlWriter&gt;不同於預設設定。&lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用實作。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to the provided &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">XAML 節點表示將處理提供的物件圖形，然後將它寫入至提供&lt;xref:System.Xml.XmlWriter&gt;。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; implementation to use.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlWriter&gt;使用實作。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">若要處理的物件圖形的根。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Connects a <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use a common XAML node set intermediary.</source>
+          <target state="translated">連接<bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>使用常見的 XAML 節點中繼設定。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Potentially transforms the content, depending on the types of readers and writers that are provided.</source>
+          <target state="translated">可能會將轉換的內容中，根據讀取器和寫入器所提供的類型。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This method is a wrapper around &lt;xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;, where <ph id="ph1">`closeWriter`</ph> is specified as <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">這個方法是周圍的包裝函式&lt;xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;，其中<ph id="ph1">`closeWriter`</ph>指定為<ph id="ph2">`true`</ph>。&lt;/xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用實作。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The XAML schema context does not match between the provided <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xamlReader</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">xamlWriter</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">XAML 結構描述內容不相符提供<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xamlReader</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">xamlWriter</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Connects a <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use a common XAML node set intermediary.</source>
+          <target state="translated">連接<bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>使用常見的 XAML 節點中繼設定。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Potentially transforms the content, depending on the types of readers and writers that are provided.</source>
+          <target state="translated">可能會將轉換的內容中，根據讀取器和寫入器所提供的類型。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Provides a parameter for specifying whether to close the writer after the call is completed.</source>
+          <target state="translated">指定是否要在呼叫完成之後關閉寫入器提供的參數。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用實作。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to close the writer after the call is complete; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to leave the writer active at the last written position.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要關閉寫入器之後呼叫已完成。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>最後寫入的位置，將寫入器會保持作用中。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The XAML schema context does not match between the provided <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xamlReader</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">xamlWriter</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">XAML 結構描述內容不相符提供<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xamlReader</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">xamlWriter</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

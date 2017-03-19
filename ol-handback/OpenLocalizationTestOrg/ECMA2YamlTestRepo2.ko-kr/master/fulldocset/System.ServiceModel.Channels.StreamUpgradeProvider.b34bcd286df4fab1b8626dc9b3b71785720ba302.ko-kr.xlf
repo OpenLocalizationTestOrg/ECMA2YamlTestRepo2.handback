@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edefd2a2e5d76048d1e07021f0622752d20019e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.StreamUpgradeProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b163bb91bcf34e913407dbbd8f25fe1f3e5f0c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2445860506c3a5f46d1942357aba997cd28eee0b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a custom upgrade provider, inherited from this <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">이 항목에서 상속 되며, 사용자 지정 업그레이드 공급자를 구현 <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 기본 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a stream upgrade is to build a compression stream directly on top of the transport stream.</source>
+          <target state="translated">스트림 업그레이드의 예는 전송 스트림의 맨 위에서 직접 압축 스트림을 빌드하 것입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add a security upgrade, you additionally implement a class that derives from &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.</source>
+          <target state="translated">보안 업그레이드를 추가 하려면를 추가로 구현 &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.&lt;/xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt; 에서 파생 되는 클래스</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement multiple upgrades, each wrapping the preceding one.</source>
+          <target state="translated">이전 래핑 각각 여러 업그레이드를 구현할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The upgrade process has the following steps:      1.</source>
+          <target state="translated">업그레이드 프로세스는 다음 단계로: 1입니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement a class that derives from StreamUpgradeProvider.</source>
+          <target state="translated">StreamUpgradeProvider에서 파생 되는 클래스를 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Register it.</source>
+          <target state="translated">에 등록 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by creating a binding element for it, and registering the provider in a custom binding.</source>
+          <target state="translated">바인딩 요소를 만들고 사용자 지정 바인딩에서 공급자를 등록 하 여이 작업을 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, which at run time initiates a request to the other end of its connection to upgrade the channel transport layer.</source>
+          <target state="translated">구현 하는 파생된 클래스의 인스턴스를 만들고 &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, 런타임 시 연결의 다른 쪽 끝에 채널 전송 계층을 업그레이드 하는 요청이 시작 됩니다.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, which at run time receives the upgrade request from the preceding step and, if possible, accepts the upgrade and returns the upgraded stream to the other side of its connection.</source>
+          <target state="translated">구현 하는 파생된 클래스의 인스턴스를 만들고 &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, 런타임에 이전 단계의 업그레이드 요청을 수신 하 고, 가능한 경우, 업그레이드 수락 하는 업그레이드 된 스트림을 연결의 다른 쪽에 반환 합니다.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are additional upgrade requests, they are processed sequentially, as described in the preceding two steps.</source>
+          <target state="translated">추가 업그레이드 요청이 있으면 위의 두 단계에 설명 된 대로 순차적으로 처리 됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Time-out properties are set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">시간 제한 속성이로 설정 된 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provided time-outs control the default Open and Close time-outs for a transport using this upgrade provider.</source>
+          <target state="translated">제공 된 시간 제한이 제어 기본 열기 및 닫기 시간 제한이이 업그레이드 공급자를 사용 하 여 전송 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default communication time-outs.</source>
+          <target state="translated">기본 통신 시간 제한입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">인스턴스를 만들고 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated UpgradeAcceptor for this upgrade provider that can accept upgrade requests from the matching UpgradeInitiator.</source>
+          <target state="translated">이 메서드는 일치 하는 UpgradeInitiator 로부터 업그레이드 요청을 수락할 수 있는이 업그레이드 공급자에 대 한 연결된 된 UpgradeAcceptor를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">인스턴스를 반환 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">인스턴스를 만들고 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt; for this upgrade provider that creates upgrade requests for the matching &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; at the endpoint provided.</source>
+          <target state="translated">이 메서드가 만드는 연결 된 &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;는 일치에 대 한 업그레이드 요청을 생성 하는이 업그레이드 공급자에 대 한 &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;제공 된 끝점에서.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; &lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Endpoint address for the channel.</source>
+          <target state="translated">채널에 대 한 끝점 주소입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The address of the Via URI (an intermediate URI through which communication may be routed).</source>
+          <target state="translated">Via URI의 주소 (통신 수 라우팅할 수 있는 중간 URI).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">인스턴스를 반환 <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultCloseTimeout.</source>
+          <target state="translated">DefaultCloseTimeout을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultCloseTimeout.</source>
+          <target state="translated">반환 된 &lt;xref:System.TimeSpan&gt;DefaultCloseTimeout에 대 한.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultOpenTimeout.</source>
+          <target state="translated">DefaultOpenTimeout을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultOpenTimeout.</source>
+          <target state="translated">반환 된 &lt;xref:System.TimeSpan&gt;DefaultOpenTimeout에 대 한.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

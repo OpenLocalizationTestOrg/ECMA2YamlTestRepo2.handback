@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0af5c8f670965d1f8fd2682ca55f1b10e1d69d4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.AuthenticationManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dea4552d35b7cd62b38a5694e27c76840870709</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">187a7d000c287b5fa0cbe5c6c1ac0c278951001e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages the authentication modules called during the client authentication process.</source>
+          <target state="translated">클라이언트 인증 프로세스 중 호출 된 인증 모듈을 관리 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AuthenticationManager is a static class that manages the authentication modules that an application uses.</source>
+          <target state="translated">AuthenticationManager 응용 프로그램에서 사용 하는 인증 모듈을 관리 하는 정적 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a request is made to protected resources, the AuthenticationManager calls the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method to get an &lt;xref:System.Net.Authorization&gt; instance to use in subsequent requests.</source>
+          <target state="translated">보호 된 리소스, AuthenticationManager 호출을 요청 하면는 &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;가져올 메서드를 한 &lt;xref:System.Net.Authorization&gt;후속 요청에 사용할 인스턴스를.&lt;/xref:System.Net.Authorization&gt; &lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AuthenticationManager queries each registered authentication module by calling the &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt; method for each module.</source>
+          <target state="translated">AuthenticationManager 각 등록 된 인증 모듈을 호출 하 여 쿼리는 &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;각 모듈에 대 한 메서드.&lt;/xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first authentication module to return an &lt;xref:System.Net.Authorization&gt; instance is used to authenticate the request.</source>
+          <target state="translated">첫 번째 인증 모듈을 반환 하는 &lt;xref:System.Net.Authorization&gt;인스턴스 요청을 인증 하는 데 사용 됩니다.&lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modules that provide the basic, digest, negotiate, NTLM, and Kerberos authentication types are registered with the AuthenticationManager by default.</source>
+          <target state="translated">기본, 다이제스트, 제공 하는 모듈 협상, NTLM 및 Kerberos 인증 유형을 기본적으로 등록 된 AuthenticationManager 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additional authentication modules that implement the &lt;xref:System.Net.IAuthenticationModule&gt; interface can be added using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method.</source>
+          <target state="translated">구현 하는 추가 인증 모듈의 &lt;xref:System.Net.IAuthenticationModule&gt;인터페이스를 사용 하 여 추가할 수는 &lt;xref:System.Net.AuthenticationManager.Register%2A&gt;메서드.&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt; &lt;/xref:System.Net.IAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules are called in the order in which they were added to the list.</source>
+          <target state="translated">인증 모듈 목록에 추가 된 순서 대로 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Kerberos and negotiate authentication type is not supported on Windows 95/98 or Windows NT 4.0.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; The Kerberos 및 협상 Windows 95/98 또는 Windows NT 4.0에서 인증 유형은 지원 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Calls each registered authentication module to find the first module that can respond to the authentication request.</source>
+          <target state="translated">인증 요청에 응답할 수 있는 첫 번째 모듈을 찾을 각 등록 된 인증 모듈을 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate method calls the &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt; method on each registered authentication module until one of the module responds with an &lt;xref:System.Net.Authorization&gt; instance.</source>
+          <target state="translated">Authenticate 메서드 호출의 &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;각 등록 된 인증 모듈을 사용 하 여 응답 모듈 중 하나가 될 때까지 메서드는 &lt;xref:System.Net.Authorization&gt;인스턴스.&lt;/xref:System.Net.Authorization&gt; &lt;/xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first &lt;xref:System.Net.Authorization&gt; instance returned is used to authenticate the request.</source>
+          <target state="translated">첫 번째 &lt;xref:System.Net.Authorization&gt;반환 된 인스턴스는 요청을 인증 하는 데 사용 됩니다.&lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no authentication module can authenticate the request, the Authenticate method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">인증 메서드가 반환 하는 경우 요청을 인증할 수 없는 사용자 지정 인증 모듈을 <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules are called in the order in which they are registered with the &lt;xref:System.Net.AuthenticationManager&gt;.</source>
+          <target state="translated">인증 모듈 &lt;xref:System.Net.AuthenticationManager&gt;.&lt;/xref:System.Net.AuthenticationManager&gt; 등록 된 순서로 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The challenge returned by the Internet resource.</source>
+          <target state="translated">인터넷 리소스를 반환한 요구 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.WebRequest&gt; that initiated the authentication challenge.</source>
+          <target state="translated">&lt;xref:System.Net.WebRequest&gt;인증 챌린지를 초기화 합니다.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.ICredentials&gt; associated with this request.</source>
+          <target state="translated">&lt;xref:System.Net.ICredentials&gt;이 요청과 관련 된.&lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class containing the result of the authorization attempt.</source>
+          <target state="translated">인스턴스는 <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증 시도의 결과 포함 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If there is no authentication module to respond to the challenge, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 메서드가 반환 하는 경우에 다음과 같은 질문에 응답 하도록 없습니다 인증 모듈을 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;challenge&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;challenge&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;credentials&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;credentials&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the credential policy to be used for resource requests made using the &lt;xref:System.Net.HttpWebRequest&gt; class.</source>
+          <target state="translated">&lt;xref:System.Net.HttpWebRequest&gt;클래스&lt;/xref:System.Net.HttpWebRequest&gt; 를 사용 하 여 만든 리소스 요청에 사용할 자격 증명 정책을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The credential policy determines whether to send credentials when sending a request for a network resource, such as the content of a Web page.</source>
+          <target state="translated">자격 증명 정책을 웹 페이지의 콘텐츠와 같은 네트워크 리소스에 대 한 요청을 보낼 때 자격 증명을 보낼 것인지 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If credentials are sent, servers that require client authentication can attempt to authenticate the client when the request is received instead of sending a response indicating that the client's credentials are required.</source>
+          <target state="translated">자격 증명을 보내는 경우 클라이언트 인증을 요구 하는 서버 클라이언트의 자격 증명이 필요 함을 나타내는 응답을 전송 하는 대신 요청을 받으면 클라이언트를 시도할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While this saves a round trip to the server, this must be balanced against the security risk inherent in sending credentials across the network.</source>
+          <target state="translated">서버에 대 한 왕복을 저장이이 네트워크를 통해 자격 증명을 보낼 때는 보안 위험이 비교 평가 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the destination server does not require client authentication it is best to not send credentials.</source>
+          <target state="translated">대상 서버에 클라이언트 인증이 필요 없는 경우 자격 증명을 전송 하지 않도록는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The credential policy will be called only for requests that specify credentials or use a &lt;xref:System.Net.WebProxy&gt; object that specifies credentials.</source>
+          <target state="translated">자격 증명 정책을 사용 하거나 자격 증명을 지정 하는 요청에 대해서만 호출 됩니다는 &lt;xref:System.Net.WebProxy&gt;자격 증명을 지정 하는 개체입니다.&lt;/xref:System.Net.WebProxy&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Net.ICredentialPolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that determines whether credentials are sent with requests.</source>
+          <target state="translated">구현 하는 개체는 <bpt id="p1">&lt;xref href="System.Net.ICredentialPolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 자격 증명을 요청과 함께 보내는 지 여부를 결정 하는 인터페이스입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the dictionary that contains Service Principal Names (SPNs) that are used to identify hosts during Kerberos authentication for requests made using &lt;xref:System.Net.WebRequest&gt; and its derived classes.</source>
+          <target state="translated">사용한 요청에 대 한 Kerberos 인증 하는 동안 호스트를 식별 하는 데 사용 되는 서비스 사용자 이름 (Spn)을 포함 하는 사전을 가져옵니다 &lt;xref:System.Net.WebRequest&gt;와 해당 파생된 클래스입니다.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An SPN is a name by which a client uniquely identifies an instance of a service or application on a server for purposes of mutual authentication.</source>
+          <target state="translated">SPN은 클라이언트에서 서비스 또는 상호 인증을 위해 서버에서 응용 프로그램 인스턴스 고유 하 게 식별 하는 이름입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mutual authentication is requested by default, and you can require it by setting &lt;xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt; to &lt;xref:System.Net.Security.AuthenticationLevel&gt; in your request.</source>
+          <target state="translated">상호 인증이 기본적으로 요청 되 고 설정 하 여 요구할 수 있는 &lt;xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt;를 &lt;xref:System.Net.Security.AuthenticationLevel&gt;요청에.&lt;/xref:System.Net.Security.AuthenticationLevel&gt; &lt;/xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Net.WebRequest&gt; requires mutual authentication, the SPN for the destination must be supplied by the client.</source>
+          <target state="translated">경우는 &lt;xref:System.Net.WebRequest&gt;클라이언트에서 꼭 필요한 대상에 대 한 상호 인증 SPN 필요 합니다.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you know the SPN, you can add it to the CustomTargetNameDictionary before sending the request.</source>
+          <target state="translated">SPN을 알고 있는 경우 요청을 보내기 전에 CustomTargetNameDictionary도 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have not added SPN information to this dictionary, the &lt;xref:System.Net.AuthenticationManager&gt; uses the &lt;xref:System.Net.WebRequest.RequestUri%2A&gt; method to compose the most likely SPN; however, this is a computed value and might be incorrect.</source>
+          <target state="translated">하지만 SPN 정보가이 사전에 추가 하지 않은 경우는 &lt;xref:System.Net.AuthenticationManager&gt;사용 하 여는 &lt;xref:System.Net.WebRequest.RequestUri%2A&gt;메서드를 가장 가능성이 높은 SPN; 작성이 계산 된 값 이며 올바르지 않을 수 있습니다.&lt;/xref:System.Net.WebRequest.RequestUri%2A&gt; &lt;/xref:System.Net.AuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If mutual authentication is attempted and fails, you can check the dictionary to determine the computed SPN.</source>
+          <target state="translated">상호 인증을 시도 하 고 실패 하면 사전 계산 된 SPN을 확인 하려면 확인할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No SPN is entered into the dictionary if the authentication protocol does not support mutual authentication.</source>
+          <target state="translated">SPN이 없으면 인증 프로토콜은 상호 인증을 지원 하지 않는 경우 사전에 입력 됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add an SPN value to this dictionary, use the &lt;xref:System.Uri.AbsoluteUri%2A&gt; of the &lt;xref:System.Net.WebRequest.RequestUri%2A&gt; as the key.</source>
+          <target state="translated">이 사전에 SPN 값을 추가 하려면 사용 된 &lt;xref:System.Uri.AbsoluteUri%2A&gt;의 &lt;xref:System.Net.WebRequest.RequestUri%2A&gt;키로.&lt;/xref:System.Net.WebRequest.RequestUri%2A&gt; &lt;/xref:System.Uri.AbsoluteUri%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, the key is truncated to include the &lt;xref:System.Uri.Scheme%2A&gt;, &lt;xref:System.Uri.Host%2A&gt;, and the &lt;xref:System.Uri.Port%2A&gt; if it is not the default port.</source>
+          <target state="translated">키를 포함 하도록 잘렸습니다. 내부적으로 &lt;xref:System.Uri.Scheme%2A&gt;, &lt;xref:System.Uri.Host%2A&gt;, 및 &lt;xref:System.Uri.Port%2A&gt;기본 없으면 포트&lt;/xref:System.Uri.Port%2A&gt; &lt;/xref:System.Uri.Host%2A&gt; &lt;/xref:System.Uri.Scheme%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Accessing the methods and properties of the CustomTargetNameDictionary requires unrestricted &lt;xref:System.Net.WebPermission&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 무제한 &lt;xref:System.Net.WebPermission&gt;.&lt;/xref:System.Net.WebPermission&gt; 필요 메서드 및 속성의 CustomTargetNameDictionary의에 액세스</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When Kerberos authentication is performed through a proxy, both the proxy and the ultimate host name need to be resolved to an SPN.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 때 Kerberos 인증을 수행 하는 프록시를 통해, 프록시와 최종 호스트 이름을 SPN으로 확인 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy name resolution is protected by a timeout.</source>
+          <target state="translated">프록시 이름 확인은 시간 초과로 보호 됩니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Resolution of the ultimate host name to a SPN requires a DNS lookup, and there is no timeout associated directly with this operation.</source>
+          <target state="translated">SPN 지정 하는 최종 호스트 이름의 확인 DNS 조회 걸리며이 작업와 직접 관련 된 제한 시간이 없습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore synchronous operations may take longer to timeout.</source>
+          <target state="translated">따라서 동기 작업 제한 시간이 만료 오래 걸릴 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To overcome this, add the ultimate host's URI prefix to the SPN cache prior to making requests to it.</source>
+          <target state="translated">이 문제를 해결 하려면 요청 하기 전에 SPN 캐시를 최종 호스트의 URI 접두사를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version 3.5 SP1 now defaults to specifying the host name used in the request URL in the SPN in the NTLM (NT LAN Manager) authentication exchange when the CustomTargetNameDictionary property is not set.</source>
+          <target state="translated">버전 3.5 s p 1 CustomTargetNameDictionary 속성이 설정 되지 않은 경우 NTLM (NT LAN Manager) 인증 교환에서 SPN의 요청 URL에 사용 되는 호스트 이름 지정으로 기본 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host name used in the request URL may be different from the Host header specified in the &lt;xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt; in the client request.</source>
+          <target state="translated">요청 URL에 사용 되는 호스트 이름에 지정 된 호스트 헤더에서 다를 수 있습니다는 &lt;xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt;클라이언트 요청에.&lt;/xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host name used in the request URL may be different from the actual host name of the server, the machine name of the server, the computer's IP address, or the loopback address.</source>
+          <target state="translated">요청 URL에 사용 되는 호스트 이름 다 서버의 실제 호스트 이름, 서버, 컴퓨터의 IP 주소 또는 루프백 주소 라는 컴퓨터를 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, Windows will fail the authentication request.</source>
+          <target state="translated">이러한 경우 Windows는 인증 요청을 거부 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address the issue, you may need to notify Windows that the host name used in the request URL in the client request ("contoso", for example) is actually an alternate name for the local computer.</source>
+          <target state="translated">호스트 이름을 사용 하는 Windows에 알리기 위해 할 수는 문제를 해결 하기 위해 클라이언트에서 요청 URL에서 요청 (예: "contoso")은 실제로 로컬 컴퓨터에 대 한 대체 이름입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A writable <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the SPN values for keys composed of host information.</source>
+          <target state="translated">쓰기 가능한 <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 호스트 정보로 구성 된 키에 대 한 SPN 값이 들어 있는입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Preauthenticates a request.</source>
+          <target state="translated">요청을 사전 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the authentication module can preauthenticate the request, the PreAuthenticate method returns an Authentication instance and sends the authorization information to the server preemptively instead of waiting for the resource to issue a challenge.</source>
+          <target state="translated">인증 모듈에는 요청 미리 인증 수, 하는 경우 PreAuthenticate 메서드는 인스턴스를 반환 하 고 챌린지를 발급 하는 리소스를 기다리지 않고 서버에 인증 정보를 보냅니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior is outlined in section 3.3 of RFC 2617 (HTTP Authentication: Basic and Digest Access Authentication).</source>
+          <target state="translated">이 동작은 RFC 2617 섹션 3.3에에서 같습니다 (HTTP 인증: 기본 및 다이제스트 액세스 인증).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules that support preauthentication allow clients to improve server efficiency by avoiding extra round trips caused by authentication challenges.</source>
+          <target state="translated">인증 요구로 인 한 추가 왕복을 방지 하 여 서버 효율성을 개선 하기 위해 클라이언트를 허용 하는 인증 모듈을 사전 인증을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authorization modules that can preauthenticate requests set the &lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">집합을 요청 하는 사전 인증할 수 있는 권한 부여 모듈의 &lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt;속성을 <ph id="ph1">`true`</ph>.&lt;/xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.WebRequest&gt; to an Internet resource.</source>
+          <target state="translated">A &lt;xref:System.Net.WebRequest&gt;인터넷 리소스에.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.ICredentials&gt; associated with the request.</source>
+          <target state="translated">&lt;xref:System.Net.ICredentials&gt;요청과 관련 된.&lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class if the request can be preauthenticated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">인스턴스는 <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 요청이 고, 그렇지 않으면 사전 인증 될 수 있도록 클래스 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">credentials</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, this method returns <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">credentials</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, this method returns <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Registers an authentication module with the authentication manager.</source>
+          <target state="translated">인증 관리자와 사용자 지정 인증 모듈을 등록합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Register method adds authentication modules to the end of the list of modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">Register 메서드 인증 모듈을 호출한 모듈 목록 끝에 추가 &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;메서드.&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules are called in the order in which they were added to the list.</source>
+          <target state="translated">인증 모듈 목록에 추가 된 순서 대로 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a module with the same &lt;xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt; is already registered, this method removes the registered module and adds <ph id="ph1">`authenticationModule`</ph> to the end of the list.</source>
+          <target state="translated">하는 경우 동일한 모듈 &lt;xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt;가 이미 등록 되어이 메서드는 등록 된 모듈을 제거 및 추가 <ph id="ph1">`authenticationModule`</ph> 목록의 끝에.&lt;/xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to register with the authentication manager.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인증 관리자와 등록할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets a list of authentication modules that are registered with the authentication manager.</source>
+          <target state="translated">인증 관리자에 등록 하는 인증 모듈의 목록을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisteredModules property provides an &lt;xref:System.Collections.IEnumerator&gt; instance that enables the list of registered authentication modules to be read.</source>
+          <target state="translated">RegisteredModules 속성은 제공 된 &lt;xref:System.Collections.IEnumerator&gt;목록이 수 있도록 하는 인스턴스 등록 인증 모듈을 읽을 수.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method adds modules to the list, and the &lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt; method removes modules from it.</source>
+          <target state="translated">&lt;xref:System.Net.AuthenticationManager.Register%2A&gt;모듈 목록 및 &lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt;메서드를 제거 합니다.에서 모듈&lt;/xref:System.Net.AuthenticationManager.Unregister%2A&gt; 을 추가합니다 하는 메서드&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that enables the registered authentication modules to be read.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;등록 된 인증 모듈을 읽을 수 있도록 합니다.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Removes the specified authentication module from the list of registered modules.</source>
+          <target state="translated">등록 된 모듈 목록에서 지정된 된 인증 모듈을 제거합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Unregister method removes the specified authentication module from the list of authentication modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">Unregister 메서드 인증 모듈에 의해 호출의 목록에서 지정된 된 인증 모듈을 제거는 &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;메서드.&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The module must have been added to the list using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method before it can be removed from the list.</source>
+          <target state="translated">모듈을 사용 하 여 목록에 추가 해야 합니다는 &lt;xref:System.Net.AuthenticationManager.Register%2A&gt;메서드 목록에서 제거 하기 전에.&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the list of registered modules.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 등록 된 모듈 목록에서를 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not registered.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 등록 되어 있지 않습니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Removes authentication modules with the specified authentication scheme from the list of registered modules.</source>
+          <target state="translated">등록 된 모듈 목록에서 지정된 된 인증 체계를 사용 하 여 인증 모듈을 제거합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt; method removes the authentication module with the specified authentication scheme from the list of authentication modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt;인증 모듈에 의해 호출의 목록에서 지정된 된 인증 체계를 사용 하 여 인증 모듈을 제거 하는 메서드는 &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;메서드.&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt; &lt;/xref:System.Net.AuthenticationManager.Unregister%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The module must have been added to the list using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method before it can be removed from the list.</source>
+          <target state="translated">모듈을 사용 하 여 목록에 추가 해야 합니다는 &lt;xref:System.Net.AuthenticationManager.Register%2A&gt;메서드 목록에서 제거 하기 전에.&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The authentication scheme of the module to remove.</source>
+          <target state="translated">제거할 모듈의 인증 체계입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationScheme&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationScheme&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A module for this authentication scheme is not registered.</source>
+          <target state="translated">이 인증 체계에 대 한 모듈 등록 되지 않았습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
