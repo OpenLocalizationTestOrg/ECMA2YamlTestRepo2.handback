@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d39f4de189aa7f00b325aafdae9d126a84b4b17a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.CheckBoxList.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf7bd4e36612fd5361f3fb9cb5cda5651841197d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1e13d438cfd4408d289b084602ec1b32ca14096</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates a multi selection check box group that can be dynamically created by binding the control to a data source.</source>
+          <target state="translated">Cria um grupo de caixa de verificação de seleção múltipla que pode ser criado dinamicamente pelo controlo de enlace a uma origem de dados.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Specifying List Layout<ept id="p2">](#SpecifyingListLayout)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Specifying List Items<ept id="p3">](#SpecifyingListItems)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Accessibility<ept id="p4">](#Accessibility)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Declarative Syntax<ept id="p5">](#DeclarativeSyntax)</ept>      <bpt id="p6">&lt;a name="Introduction"&gt;</bpt><ept id="p6">&lt;/a&gt;</ept>    ## Introduction    The CheckBoxList control provides a multi selection check box group that can be dynamically generated with data binding.</source>
+          <target state="translated">Neste tópico:- <bpt id="p1">[</bpt>introdução<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>esquema de lista especificando<ept id="p2">](#SpecifyingListLayout)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>itens de lista especificando<ept id="p3">](#SpecifyingListItems)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>acessibilidade<ept id="p4">](#Accessibility)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>sintaxe declarativa<ept id="p5">](#DeclarativeSyntax)</ept> <bpt id="p6">&lt;a name="Introduction"&gt;</bpt> <ept id="p6">&lt;/a&gt;</ept> # # CheckBoxList a introdução controlo fornece um grupo de caixa de verificação de seleção múltipla que pode ser gerado dinamicamente com o enlace de dados.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It contains an &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; collection with members corresponding to individual items in the list.</source>
+          <target state="translated">Contém um &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;coleção com correspondente a itens individuais na lista de membros.&lt;/xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine which items are checked, iterate through the collection and test the &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt; property of each item in the list.</source>
+          <target state="translated">Para determinar quais os itens são verificados, itere através da coleção e teste a &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;propriedade de cada item na lista.&lt;/xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can also use multiple &lt;xref:System.Web.UI.WebControls.CheckBox&gt; controls.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Também pode utilizar vários &lt;xref:System.Web.UI.WebControls.CheckBox&gt;controlos.&lt;/xref:System.Web.UI.WebControls.CheckBox&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CheckBoxList control is easier for creating a set of check boxes using data binding, while the individual &lt;xref:System.Web.UI.WebControls.CheckBox&gt; control gives you greater control over layout.</source>
+          <target state="translated">O controlo de CheckBoxList é mais fácil para criar um conjunto de caixas de verificação utilizando o enlace de dados, enquanto o indivíduo &lt;xref:System.Web.UI.WebControls.CheckBox&gt;controlo dá-lhe maior controlo sobre o esquema.&lt;/xref:System.Web.UI.WebControls.CheckBox&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="SpecifyingListLayout"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Specifying List Layout    You can specify the way the list is displayed by using the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; and &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt; properties.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="SpecifyingListLayout"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Especificação de esquema de lista, pode especificar a forma como a lista é apresentado utilizando o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;e &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt;Propriedades.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about layout options, see the &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; enumeration.</source>
+          <target state="translated">Para obter informações sobre as opções de esquema, consulte o &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;enumeração.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt; is set to <ph id="ph1">`RepeatDirection.Vertical`</ph>.</source>
+          <target state="translated">Por predefinição, &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt;está definido como <ph id="ph1">`RepeatDirection.Vertical`</ph>.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatDirection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to <ph id="ph1">`RepeatDirection.Horizontal`</ph> renders the list horizontally.</source>
+          <target state="translated">Definição desta propriedade como <ph id="ph1">`RepeatDirection.Horizontal`</ph> compõe a lista horizontalmente.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; settings do not allow horizontal layout.</source>
+          <target state="translated">Alguns &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;definições não permitem o esquema horizontal.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; enumeration.</source>
+          <target state="translated">Para obter mais informações, consulte o &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;enumeração.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="SpecifyingListItems"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Specifying List Items    To specify items that you want to appear in the CheckBoxList control, place a <ph id="ph1">`ListItem`</ph> element for each entry between the opening and closing tags of the CheckBoxList control.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="SpecifyingListItems"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Especificação itens da lista para especificar os itens que pretende ver apresentado no controlo da CheckBoxList, coloque uma <ph id="ph1">`ListItem`</ph> elemento para cada entrada entre a abertura e fecho do controlo CheckBoxList.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CheckBoxList control also supports data binding.</source>
+          <target state="translated">O controlo de CheckBoxList também suporta o enlace de dados.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To bind the control to a data source, first create a data source, such as one of the &lt;xref:System.Web.UI.DataSourceControl&gt; objects, that contains the items to display in the control.</source>
+          <target state="translated">Para vincular o controlo a uma origem de dados, criar uma origem de dados, tais como um do &lt;xref:System.Web.UI.DataSourceControl&gt;objetos, que contém os itens para apresentar no controlo.&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Next, use the &lt;xref:System.Web.UI.Control.DataBind%2A&gt; method to bind the data source to the CheckBoxList control.</source>
+          <target state="translated">Em seguida, utilize o &lt;xref:System.Web.UI.Control.DataBind%2A&gt;método para vincular a origem de dados para o controlo de CheckBoxList.&lt;/xref:System.Web.UI.Control.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.ListControl.DataTextField%2A&gt; and &lt;xref:System.Web.UI.WebControls.ListControl.DataValueField%2A&gt; properties to specify which field in the data source to bind to the <ph id="ph1">`Text`</ph> and <ph id="ph2">`Value`</ph> properties of each list item in the control, respectively.</source>
+          <target state="translated">Utilize o &lt;xref:System.Web.UI.WebControls.ListControl.DataTextField%2A&gt;e &lt;xref:System.Web.UI.WebControls.ListControl.DataValueField%2A&gt;Propriedades para especificar que o campo na origem de dados à qual vincular o <ph id="ph1">`Text`</ph> e <ph id="ph2">`Value`</ph> propriedades da lista de cada item no controlo da, respetivamente.&lt;/xref:System.Web.UI.WebControls.ListControl.DataValueField%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.DataTextField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CheckBoxList control will now display the information from the data source.</source>
+          <target state="translated">O controlo de CheckBoxList agora irá apresentar as informações da origem de dados.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the selected items in the CheckBoxList control, iterate through the &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; collection and test the &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt; property of each item in the collection.</source>
+          <target state="translated">Para determinar os itens selecionados no controlo CheckBoxList, itere através de &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;coleção e teste a &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;propriedade de cada item na coleção.&lt;/xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use validation controls to verify user input before displaying the input text in a control.</source>
+          <target state="translated">Pode utilizar controlos de validação para verificar a intervenção do utilizador antes de apresentar o texto de entrada num controlo.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Securing Standard Controls<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, <bpt id="p2">[</bpt>How to: Protect Against Script Exploits in a Web Application by Applying HTML Encoding to Strings<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Validating User Input in ASP.NET Web Pages<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>proteger controlos padrão<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, <bpt id="p2">[</bpt>como: proteger contra scripts Exploits numa aplicação Web por aplicar a codificação HTML para cadeias<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, e <bpt id="p3">[</bpt>a validar a intervenção do utilizador no ASP.NET Web Pages<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="Accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Accessibility    For information about how to configure this control so that it generates markup that conforms to accessibility standards, see <bpt id="p2">[</bpt>Accessibility in Visual Studio and ASP.NET<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p3">[</bpt>ASP.NET Controls and Accessibility<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="Accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Acessibilidade para obter informações sobre como configurar este controlo para que gera markup que está em conformidade com as normas de acessibilidade, consulte <bpt id="p2">[</bpt>acessibilidade no Visual Studio e ao ASP.NET<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p3">[</bpt>controlos do ASP.NET e acessibilidade<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:CheckBoxList       AccessKey="string"       AppendDataBoundItems="True|False"       AutoPostBack="True|False"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CellPadding="integer"       CellSpacing="integer"       CssClass="string"       DataMember="string"       DataSource="string"       DataSourceID="string"       DataTextField="string"       DataTextFormatString="string"       DataValueField="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnDataBinding="DataBinding event handler"       OnDataBound="DataBound event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnSelectedIndexChanged="SelectedIndexChanged event handler"       OnTextChanged="TextChanged event handler"       OnUnload="Unload event handler"       RepeatColumns="integer"       RepeatDirection="Horizontal|Vertical"       RepeatLayout="Table|Flow|OrderedList|UnorderedList"       runat="server"       SelectedIndex="integer"       SelectedValue="string"       SkinID="string"       Style="string"       TabIndex="integer"       TextAlign="Left|Right"       ToolTip="string"       ValidationGroup="string"       Visible="True|False"       Width="size"   &gt;               &lt;asp:ListItem                   Enabled="True|False"                   Selected="True|False"                   Text="string"                   Value="string"               /&gt;   &lt;/asp:CheckBoxList&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Sintaxe declarativa<ph id="ph1">```   &lt;asp:CheckBoxList       AccessKey="string"       AppendDataBoundItems="True|False"       AutoPostBack="True|False"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CellPadding="integer"       CellSpacing="integer"       CssClass="string"       DataMember="string"       DataSource="string"       DataSourceID="string"       DataTextField="string"       DataTextFormatString="string"       DataValueField="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnDataBinding="DataBinding event handler"       OnDataBound="DataBound event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnSelectedIndexChanged="SelectedIndexChanged event handler"       OnTextChanged="TextChanged event handler"       OnUnload="Unload event handler"       RepeatColumns="integer"       RepeatDirection="Horizontal|Vertical"       RepeatLayout="Table|Flow|OrderedList|UnorderedList"       runat="server"       SelectedIndex="integer"       SelectedValue="string"       SkinID="string"       Style="string"       TabIndex="integer"       TextAlign="Left|Right"       ToolTip="string"       ValidationGroup="string"       Visible="True|False"       Width="size"   &gt;               &lt;asp:ListItem                   Enabled="True|False"                   Selected="True|False"                   Text="string"                   Value="string"               /&gt;   &lt;/asp:CheckBoxList&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create and initialize a new instance of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">Utilize este construtor para criar e inicializar uma nova instância de &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the distance (in pixels) between the border and contents of the cell.</source>
+          <target state="translated">Obtém ou define a distância (em pixéis) entre o limite e o conteúdo da célula.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to control the spacing between the contents of a cell and the cell's border in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">Utilize esta propriedade para controlar o espaçamento entre o conteúdo de uma célula e o limite da célula no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The padding amount specified is added to all four sides of a cell with the height of the tallest cell and width of the widest cell in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">A quantidade de preenchimento especificada é adicionada a todas as quatro lados de uma célula com a altura da célula tallest e a largura da célula ser no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting cell size is applied uniformly to all cells in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">O tamanho de célula resultante é aplicado uniformemente para todas as células no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The distance (in pixels) between the border and contents of the cell.</source>
+          <target state="translated">A distância (em pixéis) entre o limite e o conteúdo da célula.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default is -1, which indicates this property is not set.</source>
+          <target state="translated">A predefinição é de -1, o que indica que esta propriedade não está definida.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets the distance (in pixels) between cells.</source>
+          <target state="translated">Obtém ou define a distância (em pixéis) entre células.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to control the spacing between individual cells in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">Utilize esta propriedade para controlar o espaçamento entre células individuais no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is applied both vertically and horizontally.</source>
+          <target state="translated">Esta propriedade é aplicada verticalmente e horizontalmente.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The distance (in pixels) between cells.</source>
+          <target state="translated">A distância (em pixéis) entre células.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_-1" name="-1" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that this property is not set.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_-1" name="-1" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, que indica que esta propriedade não está definida.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Creates a style object that is used internally by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to implement all style related properties.</source>
+          <target state="translated">Cria um objeto de estilo que é utilizado internamente pelo <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> as propriedades relacionadas com controlo para implementar todos os estilo.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateControlStyle method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método CreateControlStyle é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the style properties of the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém as propriedades de estilo do controlo.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Searches the current naming container for a server control with the specified ID and path offset.</source>
+          <target state="translated">Procura o contentor de nomenclatura atual para um controlo de servidor com o deslocamento de ID e o caminho especificado.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The FindControl method always returns the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">O método de FindControl sempre devolve o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindControl method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método FindControl é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindControl method overrides the &lt;xref:System.Web.UI.Control.FindControl%2A&gt; method of the base &lt;xref:System.Web.UI.Control&gt; class.</source>
+          <target state="translated">O método FindControl substitui o &lt;xref:System.Web.UI.Control.FindControl%2A&gt;método da base de &lt;xref:System.Web.UI.Control&gt;classe.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Control.FindControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should not override this version of the &lt;xref:System.Web.UI.Control.FindControl%2A&gt; method.</source>
+          <target state="translated">Não devem substituir esta versão do &lt;xref:System.Web.UI.Control.FindControl%2A&gt;método.&lt;/xref:System.Web.UI.Control.FindControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The identifier for the control to find.</source>
+          <target state="translated">O identificador para o controlo a localizar.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The number of controls up the page control hierarchy needed to reach a naming container.</source>
+          <target state="translated">O número de controlos ascendentemente na hierarquia de controlo de página necessários para atingir um contentor de nomenclatura.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Atual <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Retrieves the style of the specified item type at the specified index in the list control.</source>
+          <target state="translated">Obtém o estilo do tipo de item especificado no índice especificado no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetItemStyle method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método GetItemStyle é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The style attribute for the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control applies to all list items that are contained by the control.</source>
+          <target state="translated">O atributo de estilo para o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo aplica-se a todos os itens de lista que estão contidos pelo controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.Style&gt; property of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; to examine or set the style attribute for the control and its list items.</source>
+          <target state="translated">Utilize o &lt;xref:System.Web.UI.WebControls.Style&gt;propriedade o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;para examinar ou definir o atributo de estilo para o controlo e os seus itens de lista.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.Style&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An ordinal index that specifies the location of the item in the list control.</source>
+          <target state="translated">Um índice ordinal que especifica a localização do item no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, indicating that style attributes are not set on individual list items in a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, que indica que os atributos de estilo não estão definidos em itens individuais lista um <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control contains a footer section.</source>
+          <target state="translated">Obtém um valor que indica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo contém uma secção de rodapé.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HasFooter property is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">A propriedade HasFooter é utilizada principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Footers are not supported when the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; or &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.</source>
+          <target state="translated">Rodapés de página não são suportadas quando a &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;ou &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, indicating that a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> does not contain a footer section.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, que indica que um <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> não contém uma secção de rodapé.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control contains a heading section.</source>
+          <target state="translated">Obtém um valor que indica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo contém uma secção de cabeçalho.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HasHeader property is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">A propriedade HasHeader é utilizada principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Headers are not supported when the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; or &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.</source>
+          <target state="translated">Os cabeçalhos não são suportadas quando a &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;ou &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, indicating that a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> does not contain a heading section.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, que indica que um <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> não contém uma secção de cabeçalho.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control contains a separator between items in the list.</source>
+          <target state="translated">Obtém um valor que indica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo contém um separador entre itens na lista.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HasSeparators method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método HasSeparators é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Separators are not supported when the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; or &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.</source>
+          <target state="translated">Separadores não são suportadas quando a &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;ou &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, indicating that a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> does not contain separators.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, que indica que um <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> não contém separadores.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Processes the posted data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Processa os dados publicados para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadPostData method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método LoadPostData é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadPostData method indicates whether the state of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control has changed.</source>
+          <target state="translated">O método LoadPostData indica se o estado do &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo foi alterada.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, it determines whether each list item in the control has the same &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt; value as the last posted value.</source>
+          <target state="translated">Por outras palavras, determina se a cada item de lista no controlo tem o mesmo &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;valor como o último valor publicado.&lt;/xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A user selecting or clearing an item in the control changes the &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt; property value for the corresponding &lt;xref:System.Web.UI.WebControls.ListItem&gt; object in the &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; collection of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">Um utilizador selecionando ou desmarcando num item de controlo é alterada a &lt;xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;valor da propriedade correspondente &lt;xref:System.Web.UI.WebControls.ListItem&gt;objeto o &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;coleção do &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListItem&gt; &lt;/xref:System.Web.UI.WebControls.ListItem.Selected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the same list items are selected in the control, or if the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; is disabled, LoadPostData returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Se os itens de lista mesma estão selecionados no controlo ou se o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;estiver desativada, LoadPostData devolve <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the LoadPostData method returns <ph id="ph1">`true`</ph> for a control, the page framework invokes the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A&gt; method for the control.</source>
+          <target state="translated">Quando o método de LoadPostData devolve <ph id="ph1">`true`</ph> para um controlo, a estrutura de página invoca o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A&gt;método para o controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The key identifier for the control, used to index the <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified in the <ph id="ph1">`postCollection`</ph> parameter.</source>
+          <target state="translated">O identificador da chave para o controlo, utilizado para o índice de <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> especificado no <ph id="ph1">`postCollection`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains value information indexed by control identifiers.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém informações de valor indexadas por identificadores de controlo.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the state of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is different from the last posting; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o estado do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> é diferente da publicação último; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An object that contains event data.</source>
+          <target state="translated">Um objeto que contém dados de eventos.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Configures the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control prior to rendering on the client.</source>
+          <target state="translated">Configura o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo antes da composição no cliente.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método OnPreRender é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method allows derived classes to handle the &lt;xref:System.Web.UI.Control.PreRender&gt; event without attaching a delegate.</source>
+          <target state="translated">O método OnPreRender permite classes derivadas processar o &lt;xref:System.Web.UI.Control.PreRender&gt;eventos sem anexar um delegado.&lt;/xref:System.Web.UI.Control.PreRender&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Este é a preferido técnica para processar o evento de uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method performs any necessary prerendering steps prior to saving view state and rendering content for the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;.</source>
+          <target state="translated">O método OnPreRender efetua quaisquer passos prerendering necessários antes de guardar estado de visualização e o conteúdo de composição para &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The individual list items contained in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control are initialized for rendering using the current &lt;xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt;, &lt;xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt;, and &lt;xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt; values.</source>
+          <target state="translated">Os itens de lista individuais contidos no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;são inicializados de controlo para composição utilizando atual &lt;xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt;, &lt;xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt;, e &lt;xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt;valores.&lt;/xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados do evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Notifies the ASP.NET application that the state of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control has changed.</source>
+          <target state="translated">Notifica a aplicação de ASP.NET que o estado do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo foi alterada.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RaisePostDataChangedEvent method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método RaisePostDataChangedEvent é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The page framework calls the RaisePostDataChangedEvent method on a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control when the &lt;xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt; method indicates that the state of the list items have changed in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">A estrutura de página chama o método RaisePostDataChangedEvent num &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlar quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt;método indica que o estado dos itens da lista foram alterados no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RaisePostDataChangedEvent method calls the &lt;xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt; method to raise the &lt;xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt; event.</source>
+          <target state="translated">As chamadas de método RaisePostDataChangedEvent o &lt;xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt;método para aumentar o &lt;xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt;eventos.&lt;/xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control developers can override the &lt;xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt; method to perform custom processing when the user selects or clears list items in the control.</source>
+          <target state="translated">Os programadores do controlo podem substituir o &lt;xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt;método para efetuar o processamento personalizada quando o utilizador seleciona ou apaga lista itens no controlo.&lt;/xref:System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt; method can optionally perform validation before raising the &lt;xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt; event for the control.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;método, opcionalmente, pode efetuar a validação antes de gerar o &lt;xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt;eventos para o controlo.&lt;/xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To validate a group of controls on the page when a list item within the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; is selected, set the &lt;xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt; and &lt;xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt; properties to <ph id="ph1">`true`</ph>, and specify the group of controls to validate in the &lt;xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt; property.</source>
+          <target state="translated">Para validar um grupo de controlos na página quando um item de lista dentro o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;estiver selecionada, definir o &lt;xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt;e &lt;xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt;Propriedades para <ph id="ph1">`true`</ph>, e especifique o grupo de controlos para validar no &lt;xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.ListControl.ValidationGroup%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.CausesValidation%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListControl.AutoPostBack%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Displays the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on the client.</source>
+          <target state="translated">Apresenta o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no cliente.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">O método de composição é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render implementation for a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control initializes a &lt;xref:System.Web.UI.WebControls.RepeatInfo&gt; object for the list, and calls the &lt;xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt; method, which in turn uses the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A&gt; method to render individual check box list items.</source>
+          <target state="translated">A implementação de composição para um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlar inicializa um &lt;xref:System.Web.UI.WebControls.RepeatInfo&gt;objeto para a lista e chamadas a &lt;xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt;método, o que por sua vez utiliza o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A&gt;método para compor itens de lista de caixa de verificação individuais.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A&gt; &lt;/xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt; &lt;/xref:System.Web.UI.WebControls.RepeatInfo&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the output stream for rendering on the client.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém o fluxo de saída para composição no cliente.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Renders a list item in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Composições um item da lista no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">Este método é utilizado principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.CheckBoxList.Render%2A&gt; implementation for a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control calls the &lt;xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt; method, which in turn uses the RenderItem method to render individual checkbox list items.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.CheckBoxList.Render%2A&gt;implementação para um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlar chamadas a &lt;xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt;método, o que por sua vez, utiliza o método de RenderItem para compor caixa de verificação individuais itens da lista.&lt;/xref:System.Web.UI.WebControls.RepeatInfo.RenderRepeater%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderItem method for a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control ignores the <ph id="ph1">`itemType`</ph> and <ph id="ph2">`repeatInfo`</ph> parameters.</source>
+          <target state="translated">O método de RenderItem de um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo ignora a <ph id="ph1">`itemType`</ph> e <ph id="ph2">`repeatInfo`</ph> parâmetros.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`repeatIndex`</ph> value is used to select the checkbox list item in the &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; collection, and the selected list item is rendered to the output stream.</source>
+          <target state="translated">O <ph id="ph1">`repeatIndex`</ph> valor é utilizado para selecionar o item da lista na caixa de verificação a &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;recolha e o item de lista selecionada é composto para o fluxo de saída.&lt;/xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An ordinal index that specifies the location of the item in the list control.</source>
+          <target state="translated">Um índice ordinal que especifica a localização do item no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the information used to render the item in the list.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa as informações para compor o item da lista.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream to render HTML content on the client.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa o fluxo de saída para compor HTML conteúdo no cliente.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the control is rendered when the data source has no data or the control is not data-bound.</source>
+          <target state="translated">Obtém ou define um valor que indica se o controlo é apresentado quando a origem de dados não tem nenhum tipo de dados ou o controlo não está vinculado a dados.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control is rendered when the data source has no data or the control is not data-bound; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo é composto quando a origem de dados não tem nenhum tipo de dados ou o controlo não está vinculado a dados; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of columns to display in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém ou define o número de colunas a apresentar no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, you can use this property to specify the number of columns that display in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">Quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, pode utilizar esta propriedade para especificar o número de colunas que aparecem no &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is not set, the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control displays all list items in a single column.</source>
+          <target state="translated">Se esta propriedade não for definida, o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo apresenta todos os itens de lista numa única coluna.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The number of columns to display in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">O número de colunas a apresentar no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates this property is not set.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, que indica que esta propriedade não está definido.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of columns is set to a negative value.</source>
+          <target state="translated">O número de colunas está definido para um valor negativo.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the control displays vertically or horizontally.</source>
+          <target state="translated">Obtém ou define um valor que indica se o controlo mostra verticalmente ou horizontalmente.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to specify the display direction of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control.</source>
+          <target state="translated">Utilize esta propriedade para especificar a direção de apresentação do &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The number of columns that are displayed is always determined by the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt; property.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; O número de colunas que são apresentadas sempre é determinado pelo &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set to <ph id="ph1">`RepeatDirection.Vertical`</ph> and if the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, the first column is filled from top to bottom, then the next column, and so on until all items are rendered.</source>
+          <target state="translated">Se esta propriedade estiver definida como <ph id="ph1">`RepeatDirection.Vertical`</ph> e se o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, a primeira coluna é preenchida a partir da parte superior para inferior, em seguida, a coluna seguinte, e assim sucessivamente até que todos os itens são apresentados.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt; property is set to <ph id="ph1">`3`</ph>, the items in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control are displayed in three columns, as in the following table.</source>
+          <target state="translated">Por exemplo, se o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;propriedade está definida como <ph id="ph1">`3`</ph>, os itens a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo são apresentados nas três colunas, como a tabela seguinte.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>||||   |-|-|-|   |1|4|7|   |2|5|8|   |3|6|9|       If this property is set to <ph id="ph1">`RepeatDirection.Horizontal`</ph> and if the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt; property is set to &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, the first column is filled from top to bottom, then the next column, and so on until all items are rendered.</source>
+          <target state="translated">||||   |-|-|-|   |&amp;1; |&amp;4; |&amp;7; |   |&amp;2; |&amp;5; |&amp;8; |   |&amp;3; |&amp;6; |&amp;9; |       Se esta propriedade estiver definida como <ph id="ph1">`RepeatDirection.Horizontal`</ph> e se o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;propriedade está definida como &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;, a primeira coluna é preenchida a partir da parte superior para inferior, em seguida, a coluna seguinte, e assim sucessivamente até que todos os itens são apresentados.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt; property is set to <ph id="ph1">`3`</ph>, the items of the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; control are displayed in rows of three items each, as in the following table.</source>
+          <target state="translated">Por exemplo, se o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;propriedade está definida como <ph id="ph1">`3`</ph>, os itens do &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;controlo são apresentados nas linhas de três itens, como na seguinte tabela.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>||||   |-|-|-|   |1|2|3|   |4|5|6|   |7|8|9|</source>
+          <target state="translated">||||   |-|-|-|   |1|2|3|   |4|5|6|   |7|8|9|</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Vertical" name="Vertical" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_Vertical" name="Vertical" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The specified display direction of the list is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A direção de visualização da lista não é um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets the number of list items in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém o número de itens de lista no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RepeatedItemCount property is used primarily by control developers in custom controls that derive from the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; class.</source>
+          <target state="translated">A propriedade RepeatedItemCount é utilizada principalmente pelos programadores de controlo no controlos personalizados que derivam da &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;classe.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no items set in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;, the RepeatedItemCount is zero.</source>
+          <target state="translated">Se existirem não existem itens definido &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;, o RepeatedItemCount é zero.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are items set in the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;, the RepeatedItemCount is the same as the &lt;xref:System.Web.UI.WebControls.ListItemCollection.Count%2A&gt; property on the &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; collection.</source>
+          <target state="translated">Se existirem itens definido &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;, o RepeatedItemCount é igual a &lt;xref:System.Web.UI.WebControls.ListItemCollection.Count%2A&gt;propriedade o &lt;xref:System.Web.UI.WebControls.ListControl.Items%2A&gt;coleção.&lt;/xref:System.Web.UI.WebControls.ListControl.Items%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListItemCollection.Count%2A&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The number of items in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O número de itens a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether the list will be rendered by using a <bpt id="p1">&lt;xref uid="langword_csharp_table" name="table" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element, a <bpt id="p2">&lt;xref uid="langword_csharp_ul" name="ul" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element, an <bpt id="p3">&lt;xref uid="langword_csharp_ol" name="ol" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> element, or a <bpt id="p4">&lt;xref uid="langword_csharp_span" name="span" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Obtém ou define um valor que especifica se a lista será composta utilizando um <bpt id="p1">&lt;xref uid="langword_csharp_table" name="table" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemento, um <bpt id="p2">&lt;xref uid="langword_csharp_ul" name="ul" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elemento, um <bpt id="p3">&lt;xref uid="langword_csharp_ol" name="ol" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> elemento, ou um <bpt id="p4">&lt;xref uid="langword_csharp_span" name="span" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> elemento.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about the available options, see the &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; enumeration.</source>
+          <target state="translated">Para obter informações sobre as opções disponíveis, consulte o &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;enumeração.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Two options are new as of ASP.NET 4: &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; and &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Duas opções são novas a partir do ASP.NET 4: &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;e &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt; &lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some RepeatLayout settings do not allow horizontal layout.</source>
+          <target state="translated">Algumas definições de RepeatLayout não permitem esquema horizontal.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt; enumeration.</source>
+          <target state="translated">Para obter mais informações, consulte o &lt;xref:System.Web.UI.WebControls.RepeatLayout&gt;enumeração.&lt;/xref:System.Web.UI.WebControls.RepeatLayout&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether the list will be rendered by using a <bpt id="p1">&lt;xref uid="langword_csharp_table" name="table" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element, a <bpt id="p2">&lt;xref uid="langword_csharp_ul" name="ul" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element, an <bpt id="p3">&lt;xref uid="langword_csharp_ol" name="ol" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> element, or a <bpt id="p4">&lt;xref uid="langword_csharp_span" name="span" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Um valor que especifica se a lista será composta utilizando um <bpt id="p1">&lt;xref uid="langword_csharp_table" name="table" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemento, um <bpt id="p2">&lt;xref uid="langword_csharp_ul" name="ul" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elemento, um <bpt id="p3">&lt;xref uid="langword_csharp_ol" name="ol" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> elemento, ou um <bpt id="p4">&lt;xref uid="langword_csharp_span" name="span" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> elemento.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatLayout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatLayout"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The specified layout is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatLayout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">O esquema especificado não é um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatLayout"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Processes posted data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Processos publicar dados para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CheckBoxList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt; method to process posted data for a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt;método dados publicado de processo para um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.LoadPostData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IPostBackDataHandler.LoadPostData method is an explicit interface member implementation.</source>
+          <target state="translated">O método de IPostBackDataHandler.LoadPostData é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.IPostBackDataHandler&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.IPostBackDataHandler&gt;interface.&lt;/xref:System.Web.UI.IPostBackDataHandler&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The key identifier for the control, used to index the <ph id="ph1">`postCollection`</ph>.</source>
+          <target state="translated">O identificador da chave para o controlo, utilizado para o índice de <ph id="ph1">`postCollection`</ph>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains value information indexed by control identifiers.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém informações de valor indexadas por identificadores de controlo.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the server control's state changes as a result of the postback; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se mudar de estado do controlo de servidor como resultado a nova colocação; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Raised when posted data for a control has changed.</source>
+          <target state="translated">É desencadeado quando os dados para um controlo é alterado.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A?displayProperty=fullName&gt; method to raise an event when the posted data for a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object changes.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A?displayProperty=fullName&gt;método para accionar um evento quando os dados publicados para uma &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;alterações de objetos.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IPostBackDataHandler.RaisePostDataChangedEvent method is an explicit interface member implementation.</source>
+          <target state="translated">O método de IPostBackDataHandler.RaisePostDataChangedEvent é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.IPostBackDataHandler&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.IPostBackDataHandler&gt;interface.&lt;/xref:System.Web.UI.IPostBackDataHandler&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.Web.UI.WebControls.IRepeatInfoUser.GetItemStyle%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Para obter uma descrição deste membro, consulte <ph id="ph1">&amp;lt;</ph>xref:System.Web.UI.WebControls.IRepeatInfoUser.GetItemStyle%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.GetItemStyle%2A?displayProperty=fullName&gt; method to retrieve the style of an item in a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.GetItemStyle%2A?displayProperty=fullName&gt;método para obter o estilo de um item num &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.GetItemStyle%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.GetItemStyle method is an explicit interface member implementation.</source>
+          <target state="translated">O método de IRepeatInfoUser.GetItemStyle é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An ordinal index that specifies the location of the item in the list control.</source>
+          <target state="translated">Um índice ordinal que especifica a localização do item no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the style of the specified item type at the specified index in the list control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa o estilo do tipo de item especificado no índice especificado no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the list control contains a footer section.</source>
+          <target state="translated">Obtém um valor que indica se o controlo de lista contém uma secção de rodapé.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasFooter%2A?displayProperty=fullName&gt; property to determine if a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object contains a footer section.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasFooter%2A?displayProperty=fullName&gt;propriedade para determinar se um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto contém uma secção de rodapé.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.HasFooter%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.HasFooter member is an explicit interface member implementation.</source>
+          <target state="translated">O membro IRepeatInfoUser.HasFooter é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the list control contains a footer section; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo de lista contém uma secção de rodapé; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the list control contains a heading section.</source>
+          <target state="translated">Obtém um valor que indica se o controlo de lista contém uma secção de cabeçalho.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasHeader%2A?displayProperty=fullName&gt; property to determine a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object contains a heading section.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasHeader%2A?displayProperty=fullName&gt;propriedade para determinar um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto contém uma secção de cabeçalho.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.HasHeader%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.HasHeader member is an explicit interface member implementation.</source>
+          <target state="translated">O membro IRepeatInfoUser.HasHeader é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the list control contains a heading section; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo de lista contém uma secção de cabeçalho; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the list control contains a separator between items in the list.</source>
+          <target state="translated">Obtém um valor que indica se o controlo de lista contém um separador entre itens na lista.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasSeparators%2A?displayProperty=fullName&gt; property to determine whether a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object contains a separator.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.HasSeparators%2A?displayProperty=fullName&gt;propriedade para determinar se um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto contém um separador.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.HasSeparators%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.HasSeparators member is an explicit interface member implementation.</source>
+          <target state="translated">O membro IRepeatInfoUser.HasSeparators é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the list control contains a separator; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo de lista contém um separador; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser.RenderItem*&gt;.</source>
+          <target state="translated">Para obter uma descrição deste membro, consulte &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser.RenderItem*&gt;.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser.RenderItem*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A?displayProperty=fullName&gt; method to render items in a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A?displayProperty=fullName&gt;método para compor itens um &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RenderItem%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.RenderItem method is an explicit interface member implementation.</source>
+          <target state="translated">O método de IRepeatInfoUser.RenderItem é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An ordinal index that specifies the location of the item in the list control.</source>
+          <target state="translated">Um índice ordinal que especifica a localização do item no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the information used to render the item in the list.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeatInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa as informações para compor o item da lista.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream to render HTML content on the client.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa o fluxo de saída para compor HTML conteúdo no cliente.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets the number of items in the list control.</source>
+          <target state="translated">Obtém o número de itens no controlo da lista.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatedItemCount%2A?displayProperty=fullName&gt; property to determine the number of items in a &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; object.</source>
+          <target state="translated">Normalmente, deve utilizar o &lt;xref:System.Web.UI.WebControls.CheckBoxList.RepeatedItemCount%2A?displayProperty=fullName&gt;propriedade para determinar o número de itens num &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;objeto.&lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList.RepeatedItemCount%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IRepeatInfoUser.RepeatedItemCount member is an explicit interface member implementation.</source>
+          <target state="translated">O membro IRepeatInfoUser.RepeatedItemCount é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt; instance is cast to an &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; interface.</source>
+          <target state="translated">Pode ser utilizado apenas quando o &lt;xref:System.Web.UI.WebControls.CheckBoxList&gt;instância é convertida para um &lt;xref:System.Web.UI.WebControls.IRepeatInfoUser&gt;interface.&lt;/xref:System.Web.UI.WebControls.IRepeatInfoUser&gt; &lt;/xref:System.Web.UI.WebControls.CheckBoxList&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The number of items in the list.</source>
+          <target state="translated">O número de itens na lista.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text alignment for the check boxes within the group.</source>
+          <target state="translated">Obtém ou define o alinhamento do texto para as caixas de verificação dentro do grupo.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to specify whether the text associated with the check boxes appears on the left or right of the check box.</source>
+          <target state="translated">Utilize esta propriedade para especificar se o texto associado as caixas de verificação é apresentado no lado esquerdo ou direito da caixa de verificação.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set to <ph id="ph1">`TextAlign.Right`</ph>, the text is displayed to the right of the check box.</source>
+          <target state="translated">Se esta propriedade estiver definida como <ph id="ph1">`TextAlign.Right`</ph>, será apresentado o texto à direita da caixa de verificação.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set to <ph id="ph1">`TextAlign.Left`</ph>, the text is displayed to the left of the check box.</source>
+          <target state="translated">Se esta propriedade estiver definida como <ph id="ph1">`TextAlign.Left`</ph>, será apresentado o texto à esquerda da caixa de verificação.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.TextAlign"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.TextAlign"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_Right" name="Right" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_Right" name="Right" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The specified label text alignment is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.TextAlign"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">O alinhamento de texto da etiqueta especificada não é um do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.TextAlign"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

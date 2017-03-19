@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f78857544d6ac9faf75c4f713ec1dea53c315fea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.FormsAuthentication.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48693291cd23c71c28fb29620b22ade587ed7c55</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75a63e6fb1dfd98629135ca71aa3afec4b54fdda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages forms-authentication services for Web applications.</source>
+          <target state="translated">Formulierverificatie services voor webtoepassingen beheert.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Deze klasse kan niet worden overgenomen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Forms authentication enables user and password validation for Web applications that do not require Windows authentication.</source>
+          <target state="translated">Formulierverificatie kan gebruikers- en valideren van het wachtwoord voor webtoepassingen die geen Windows-verificatie vereist.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, user information is stored in an external data source, such as a &lt;xref:System.Web.Security.Membership&gt; database, or in the configuration file for an application.</source>
+          <target state="translated">Met formulierverificatie, gebruikersinformatie wordt opgeslagen in een externe gegevensbron, zoals een &lt;xref:System.Web.Security.Membership&gt;-database, of in het configuratiebestand voor een toepassing.&lt;/xref:System.Web.Security.Membership&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a user is authenticated, forms authentication maintains an authentication ticket in a cookie or in the URL so that an authenticated user does not need to supply credentials with each request.</source>
+          <target state="translated">Als een gebruiker is geverifieerd, onderhoudt formulierverificatie een verificatieticket in een cookie of in de URL zodat een geverifieerde gebruiker niet hoeft op te geven van referenties met elke aanvraag.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Forms authentication is enabled by setting the <ph id="ph1">`mode`</ph> attribute of the  configuration element to <ph id="ph2">`Forms`</ph>.</source>
+          <target state="translated">Formulierverificatie is ingeschakeld door in te stellen de <ph id="ph1">`mode`</ph> kenmerk van het configuratie-element moet <ph id="ph2">`Forms`</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can require that all requests to an application contain a valid user authentication ticket by using the  configuration element to deny the request of any unknown user, as shown in the following example.</source>
+          <target state="translated">U kunt vereisen dat alle aanvragen voor een toepassing een geldige gebruiker verificatieticket bevatten met behulp van het configuratie-element voor het weigeren van de aanvraag van een onbekende gebruiker, zoals wordt weergegeven in het volgende voorbeeld.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>       In the previous example, any request for an ASP.NET page that is part of the application requires a valid user name that is supplied by forms authentication.</source>
+          <target state="translated"><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>In het vorige voorbeeld is een aanvraag voor een ASP.NET-pagina die deel uitmaakt van de toepassing vereist een geldige gebruikersnaam op die wordt geleverd door verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no user name exists, then the request is redirected to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">Als er geen gebruikersnaam bestaat, wordt klikt u vervolgens de aanvraag omgeleid naar de geconfigureerde &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsAuthentication class provides access to methods and properties that you can use in an application that authenticates users.</source>
+          <target state="translated">De klasse FormsAuthentication biedt toegang tot methoden en eigenschappen die u kunt gebruiken in een toepassing die gebruikers worden geverifieerd.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method redirects a browser to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; for users to log into an application.</source>
+          <target state="translated">De &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;methode een browser omgeleid naar de geconfigureerde &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;voor gebruikers aan te melden bij een toepassing.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method redirects an authenticated user back to the original protected URL that was requested or to the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.</source>
+          <target state="translated">De &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;methode terug naar de oorspronkelijke beveiligde URL die is aangevraagd of de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; van een geverifieerde gebruiker wordt omgeleid&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are also methods that enable you to manage forms-authentication tickets, if needed.</source>
+          <target state="translated">Er zijn ook methoden waarmee u voor het beheren van tickets voor verificatie van formulieren, indien nodig.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be used from your code.</source>
+          <target state="translated">Deze constructor is niet bedoeld voor gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Validates a user name and password against credentials stored in the configuration file for an application.</source>
+          <target state="translated">Valideert een gebruikersnaam en wachtwoord op basis van de referenties die zijn opgeslagen in het configuratiebestand voor een toepassing.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate method verifies user credentials that are stored in the  section of the application configuration file.</source>
+          <target state="translated">De Authenticate-methode controleert of de referenties van de gebruiker die zijn opgeslagen in de sectie van het toepassingsconfiguratiebestand.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials and call the &lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt; to verify the credentials.</source>
+          <target state="translated">U kunt ook ASP.NET-lidmaatschap gebruiken voor het opslaan van referenties van gebruiker en de aanroep van de &lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;om te controleren of de referenties.&lt;/xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>gebruikers beheren door gebruik van het lidmaatschap<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For improved security, you can encrypt passwords stored in the configuration file for an application by using the &lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt; method.</source>
+          <target state="translated">Voor betere beveiliging, kunt u coderen wachtwoorden worden opgeslagen in het configuratiebestand voor een toepassing met behulp van de &lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;methode.&lt;/xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The user name.</source>
+          <target state="translated">De naam van de gebruiker.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The password for the user.</source>
+          <target state="translated">Het wachtwoord voor de gebruiker.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user name and password are valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de gebruikersnaam en het wachtwoord geldig zijn. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the value of the domain of the forms-authentication cookie.</source>
+          <target state="translated">Hiermee wordt de waarde van het domein van de cookie voor verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieDomain property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`domain`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap CookieDomain is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met behulp van de <ph id="ph1">`domain`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieDomain property value determines the &lt;xref:System.Web.HttpCookie.Domain%2A&gt; that the cookie will be used for.</source>
+          <target state="translated">De waarde van de eigenschap CookieDomain bepaalt de &lt;xref:System.Web.HttpCookie.Domain%2A&gt;dat de cookie gebruikt moet worden&lt;/xref:System.Web.HttpCookie.Domain%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Domain*&gt; of the forms-authentication cookie.</source>
+          <target state="translated">De &lt;xref:System.Web.HttpCookie.Domain*&gt;van de cookie voor verificatie van formulieren.&lt;/xref:System.Web.HttpCookie.Domain*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">De standaardwaarde is een lege tekenreeks ("").</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de toepassing is geconfigureerd voor formulierverificatie zonder cookies.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieMode property reflects the value for the <ph id="ph1">`cookieless`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De eigenschap CookieMode geeft de waarde voor de <ph id="ph1">`cookieless`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieMode property determines whether the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value will be stored in a session cookie in the browser or stored in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">De eigenschap CookieMode bepaalt of de &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;waarde wordt opgeslagen in een sessiecookie in de browser of opgeslagen in de &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;eigenschap.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value is stored in the URI, the length of the generated URI may be longer than the maximum length allowed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Wanneer de &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;waarde wordt opgeslagen in de URI, de lengte van de gegenereerde URI kan niet langer zijn dan de maximaal toegestane lengte.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is most likely to occur when the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property is set to the application name and the application name is long (40 or more characters), when user names in the application are long, or when long &lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; strings are stored in the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value.</source>
+          <target state="translated">Dit is meestal op wanneer de &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;eigenschap is ingesteld op de naam van de toepassing en de toepassingsnaam van de lang is (40 of meer tekens), wanneer de namen van gebruiker in de toepassing zijn lang, of wanneer lange &lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt;tekenreeksen worden opgeslagen in de &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;waarde.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the generated URI is too long, the Web server will return a <ph id="ph1">`400 - Bad Request`</ph> error.</source>
+          <target state="translated">Als de gegenereerde URI te lang is, de webserver retourneert een <ph id="ph1">`400 - Bad Request`</ph> fout.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">Een van de <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarden die aangeeft of de toepassing is geconfigureerd voor formulierverificatie zonder cookies.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured to support cookieless forms authentication.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de toepassing is geconfigureerd voor de ondersteuning van cookieless formulierverificatie.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookiesSupported property returns a value based on the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; value and the capabilities of the browser.</source>
+          <target state="translated">De eigenschap CookiesSupported retourneert een waarde op basis van de &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;waarde en de mogelijkheden van de browser.&lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-Als de &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;eigenschap is ingesteld op &lt;xref:System.Web.HttpCookieMode&gt;, de eigenschap CookiesSupported retourneert <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-Als de &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;eigenschap is ingesteld op &lt;xref:System.Web.HttpCookieMode&gt;, de eigenschap CookiesSupported retourneert <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the browser supports cookies and cookies are enabled; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-Als de &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;eigenschap is ingesteld op &lt;xref:System.Web.HttpCookieMode&gt;, retourneert de eigenschap CookiesSupported <ph id="ph1">`true`</ph> als de browser cookies ondersteunt en cookies zijn ingeschakeld; anders wordt de eigenschap CookiesSupported retourneert <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the &lt;xref:System.Web.HttpRequest.Browser%2A&gt; for the current &lt;xref:System.Web.HttpContext.Request%2A&gt; supports both cookies and redirecting with cookies; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-Als de &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;eigenschap is ingesteld op &lt;xref:System.Web.HttpCookieMode&gt;, retourneert de eigenschap CookiesSupported <ph id="ph1">`true`</ph> als de &lt;xref:System.Web.HttpRequest.Browser%2A&gt;voor de huidige &lt;xref:System.Web.HttpContext.Request%2A&gt;biedt ondersteuning voor cookies en omleiden met cookies; anders wordt de eigenschap CookiesSupported retourneert <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpContext.Request%2A&gt; &lt;/xref:System.Web.HttpRequest.Browser%2A&gt; &lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the application is configured to support cookieless forms authentication; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de toepassing is geconfigureerd voor ondersteuning van cookieless formulierverificatie; anders <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the encrypted forms-authentication ticket passed to the method.</source>
+          <target state="translated">Maakt een <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object op basis van het ticket versleutelde formulierverificatie is doorgegeven aan de methode.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The encrypted authentication ticket.</source>
+          <target state="translated">De versleutelde verificatieticket.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedTicket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid ticket, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">Als de <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedTicket</ph> <ept id="p1">&lt;/code&gt;</ept> parameter is niet een geldig ticket <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">De URL opgehaald die de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse worden omgeleid naar als er geen Omleidings-URL is opgegeven.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`defaultUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap DefaultUrl is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met behulp van de <ph id="ph1">`defaultUrl`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultUrl property is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method if no return URL is included in the request.</source>
+          <target state="translated">De eigenschap DefaultUrl wordt gebruikt door de &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;methode als er geen retour-URL is opgenomen in de aanvraag.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method will return the DefaultUrl if no return URL is included in the request.</source>
+          <target state="translated">Op dezelfde manier de &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;methode retourneert de DefaultUrl als er geen retour-URL is opgenomen in de aanvraag.&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">De URL die de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse worden omgeleid naar als er geen Omleidings-URL is opgegeven.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is "default.aspx."</source>
+          <target state="translated">De standaardwaarde is "default.aspx."</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether authenticated users can be redirected to URLs in other Web applications.</source>
+          <target state="translated">Haalt een waarde die aangeeft of geverifieerde gebruikers kunnen worden omgeleid naar de URL's in andere webtoepassingen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableCrossAppRedirects property value is set using the <ph id="ph1">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap EnableCrossAppRedirects is ingesteld met behulp van de <ph id="ph1">`enableCrossAppRedirects`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableCrossAppRedirects property is checked within the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method when the redirect URL does not point to a page in the current application.</source>
+          <target state="translated">De eigenschap EnableCrossAppRedirects is ingeschakeld in de &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;methode wanneer de omleiding URL niet naar een pagina in de huidige toepassing wijst.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If EnableCrossAppRedirects is <ph id="ph1">`true`</ph>, then the redirect is performed; if EnableCrossAppRedirects is <ph id="ph2">`false`</ph>, the browser is redirected to the page defined in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als EnableCrossAppRedirects <ph id="ph1">`true`</ph>, en vervolgens de omleiding wordt uitgevoerd; als EnableCrossAppRedirects <ph id="ph2">`false`</ph>, de browser wordt omgeleid naar de pagina die is gedefinieerd in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you redirect pages across applications, you must make sure that specific attributes in the  configuration element are duplicated across the authenticated applications.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Wanneer u pagina's voor toepassingen wordt omgeleid, moet u ervoor zorgen dat specifieke kenmerken in het configuratie-element in de geverifieerde toepassingen worden gedupliceerd.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information and an example, see <bpt id="p1">[</bpt>Forms Authentication Across Applications<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie en een voorbeeld <bpt id="p1">[</bpt>Forms-verificatie tussen toepassingen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When cross-application redirects are allowed, your site is vulnerable to an exploit that directs users to a malicious Web site but uses the login page for your site.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Wanneer meerdere toepassingen omleidingen zijn toegestaan, uw site is kwetsbaar voor een aanval uit te voeren die gebruiker wordt doorverwezen naar een schadelijke website, maar de aanmeldingspagina voor uw site gebruikt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Always verify that the redirect URL that is returned by the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method is a URL that you expect so that you can make sure that you allow redirects only to approved Web sites.</source>
+          <target state="translated">Controleer altijd of de omleidings-URL die wordt geretourneerd door de &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;methode is een URL die u verwacht dat kunt u ervoor zorgen dat u omleidingen alleen goedgekeurde websites op Internet toestaan.&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must also verify that the redirect URL uses the appropriate protocol (HTTP or HTTPS).</source>
+          <target state="translated">U moet ook controleren of de omleidings-URL wordt gebruikt voor het betreffende protocol (HTTP of HTTPS).</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform these verifications, you can add a postback event handler to your login page, or you can add a handler for the &lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt; event of the &lt;xref:System.Web.UI.WebControls.Login&gt; control.</source>
+          <target state="translated">Als u wilt deze verificaties uitvoert, kunt u een terugposten gebeurtenis-handler toevoegen aan uw aanmeldingspagina of u kunt een handler voor toevoegen de &lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt;gebeurtenis van de &lt;xref:System.Web.UI.WebControls.Login&gt;besturingselement.&lt;/xref:System.Web.UI.WebControls.Login&gt; &lt;/xref:System.Web.UI.WebControls.Login.LoggedIn&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if authenticated users can be redirected to URLs in other Web applications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de geverifieerde gebruikers kunnen worden omgeleid naar de URL's in andere webtoepassingen. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enables forms authentication.</source>
+          <target state="translated">Formulierverificatie kunt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the default URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">Als de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap is <ph id="ph1">`null`</ph>, dat de eigenschap is ingesteld op de standaardwaarde van de URL van de <ph id="ph2">`configurationData`</ph> parameter.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the login URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">Als de &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;eigenschap is <ph id="ph1">`null`</ph>, dat de eigenschap is ingesteld op de aanmeldings-URL-waarde van de <ph id="ph2">`configurationData`</ph> parameter.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A name-value collection that contains values for "defaultUrl" and/or "loginUrl".</source>
+          <target state="translated">Een naam / waarde-verzameling die de waarden voor 'defaultUrl' en/of 'loginUrl' bevat.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The parameter can be null if there are no values for the default URL or the login URL.</source>
+          <target state="translated">De parameter kan niet null zijn als er geen waarden voor de standaard-URL of de aanmeldings-URL zijn.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The application is not in the pre-start initialization phase.</source>
+          <target state="translated">De toepassing is niet in de initialisatiefase vóór het starten.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates a string containing an encrypted forms-authentication ticket suitable for use in an HTTP cookie.</source>
+          <target state="translated">Maakt een tekenreeks met een versleutelde formulierverificatie ticket die geschikt zijn voor gebruik in een HTTP-cookie.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with which to create the encrypted forms-authentication ticket.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object waarmee de versleutelde formulierverificatie ticket maken.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A string containing an encrypted forms-authentication ticket.</source>
+          <target state="translated">Een tekenreeks met een versleutelde formulierverificatie ticket.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets the name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">Hiermee haalt u de naam van de cookie die wordt gebruikt voor het opslaan van het ticket voor de verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookieName property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`name`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap FormsCookieName is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met behulp van de <ph id="ph1">`name`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookieName is used to reference the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">De FormsCookieName wordt gebruikt om te verwijzen naar de cookie die slaat de &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;informatie.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">De naam van de cookie die wordt gebruikt voor het opslaan van het ticket voor de verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is ".ASPXAUTH".</source>
+          <target state="translated">De standaardwaarde is ". ASPXAUTH'.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the path for the forms-authentication cookie.</source>
+          <target state="translated">Hiermee wordt het pad voor de cookie voor formulierverificatie gebruikt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookiePath property value is set in the configuration file for an ASP.NET application using the <ph id="ph1">`path`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap FormsCookiePath is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met de <ph id="ph1">`path`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookiePath specifies the &lt;xref:System.Web.HttpCookie.Path%2A&gt; for the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">De FormsCookiePath geeft de &lt;xref:System.Web.HttpCookie.Path%2A&gt;voor de cookie die slaat de &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;informatie.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.HttpCookie.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The path of the cookie where the forms-authentication ticket information is stored.</source>
+          <target state="translated">Het pad van de cookie waar de ticket formulierverificatie informatie wordt opgeslagen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default is "/".</source>
+          <target state="translated">De standaardwaarde is "/".</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">Maakt een verificatiecookie voor een bepaalde gebruikersnaam.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response, so that an application can have more control over how the cookie is issued.</source>
+          <target state="translated">Dit wordt de cookie niet ingesteld als onderdeel van het uitgaande antwoord zodat meer controle over hoe de cookie is uitgegeven door een toepassing kan hebben.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The path of the cookie is determined by the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property.</source>
+          <target state="translated">Het pad van de cookie wordt bepaald door de &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">De naam van de geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een duurzame cookie (één die wordt opgeslagen tussen browsersessies); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die versleutelde formulierverificatie ticket informatie bevat.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default value for the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt; property is used.</source>
+          <target state="translated">De standaardwaarde voor de &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;eigenschap wordt gebruikt.&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">Maakt een verificatiecookie voor een bepaalde gebruikersnaam.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response.</source>
+          <target state="translated">Hiermee wordt de cookie niet ingesteld als onderdeel van het uitgaande antwoord.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">De naam van de geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een duurzame cookie (één die wordt opgeslagen tussen browsersessies); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Path*&gt; of the authentication cookie.</source>
+          <target state="translated">De &lt;xref:System.Web.HttpCookie.Path*&gt;van de verificatiecookie.&lt;/xref:System.Web.HttpCookie.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die versleutelde formulierverificatie ticket informatie bevat.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the redirect URL for the original request that caused the redirect to the login page.</source>
+          <target state="translated">Retourneert de omleidings-URL voor de oorspronkelijke aanvraag waardoor de omleiding naar de aanmeldingspagina.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this method when you want to perform the redirect in your application code instead of using the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method.</source>
+          <target state="translated">U kunt deze methode gebruiken als u wilt uitvoeren van de omleiding in uw toepassingscode in plaats van de &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;methode.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetRedirectUrl method returns the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">De methode GetRedirectUrl retourneert de URL die is opgegeven in het query-tekenreeks met de <ph id="ph1">`ReturnURL`</ph> variabelenaam.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the GetRedirectUrl method returns the return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Bijvoorbeeld, in de URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, de methode GetRedirectUrl retourneert de retour-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the GetRedirectUrl method returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als de <ph id="ph1">`ReturnURL`</ph> variabele bestaat niet, de methode GetRedirectUrl retourneert de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">De retour-URL ASP.NET automatisch toegevoegd als de browser wordt omgeleid naar de aanmeldingspagina.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Standaard de <ph id="ph1">`ReturnUrl`</ph> variabele moet verwijzen naar een pagina in de huidige toepassing.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the GetRedirectUrl methods returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als <ph id="ph1">`ReturnUrl`</ph> verwijst naar een pagina in een andere toepassing of op een andere server, de methoden GetRedirectUrl retourneert de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow the return URL to refer to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Als u toestaan dat de retour-URL om te verwijzen naar een pagina buiten de huidige toepassing wilt, moet u instellen de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph1">`true`</ph> met behulp van de <ph id="ph2">`enableCrossAppRedirects`</ph> kenmerk van het configuratie-element.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Instelling de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph2">`true`</ph> om toe te staan tussen verschillende toepassingen omleidingen is een mogelijk beveiligingsrisico.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Zie voor meer informatie de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">De naam van de geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is ignored.</source>
+          <target state="translated">Deze parameter wordt genegeerd.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A string that contains the redirect URL.</source>
+          <target state="translated">Een tekenreeks die de omleidings-URL bevat.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Produces a hash password suitable for storing in a configuration file based on the specified password and hash algorithm.</source>
+          <target state="translated">Produceert een geschikt voor het opslaan in een configuratiebestand op basis van het opgegeven wachtwoord en de hash-algoritme hash-wachtwoord.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HashPasswordForStoringInConfigFile method creates a hashed password value that can be used when storing forms-authentication credentials in the configuration file for an application.</source>
+          <target state="translated">De methode HashPasswordForStoringInConfigFile maakt een hash-wachtwoordwaarde die kan worden gebruikt bij het opslaan van referenties voor verificatie van formulieren in het configuratiebestand voor een toepassing.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication credentials stored in the configuration file for an application are used by the &lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt; method to verify passwords for users of an application.</source>
+          <target state="translated">Verificatiereferenties die zijn opgeslagen in het configuratiebestand voor een toepassing worden gebruikt door de &lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;methode om te controleren of de wachtwoorden voor gebruikers van een toepassing.&lt;/xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials.</source>
+          <target state="translated">U kunt ook kunt u ASP.NET-lidmaatschap voor het opslaan van gebruikersreferenties.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>gebruikers beheren door gebruik van het lidmaatschap<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The password to hash.</source>
+          <target state="translated">Het wachtwoord voor de hash.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use.</source>
+          <target state="translated">Het hash-algoritme om te gebruiken.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`passwordFormat`</ph> is a <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents one of the <bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated"><ph id="ph1">`passwordFormat`</ph>is een <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor een van de <bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> opsommingswaarden.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The hashed password.</source>
+          <target state="translated">Het hash-wachtwoord.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph>is geen geldige <bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the configuration settings for the application.</source>
+          <target state="translated">Initialiseert de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object op basis van de configuratie-instellingen voor de toepassing.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Initialize method is called when the &lt;xref:System.Web.Security.FormsAuthenticationModule&gt; creates an instance of the &lt;xref:System.Web.Security.FormsAuthentication&gt; class.</source>
+          <target state="translated">De methode Initialize wordt aangeroepen wanneer de &lt;xref:System.Web.Security.FormsAuthenticationModule&gt;maakt een exemplaar van de &lt;xref:System.Web.Security.FormsAuthentication&gt;klasse.&lt;/xref:System.Web.Security.FormsAuthentication&gt; &lt;/xref:System.Web.Security.FormsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from your code.</source>
+          <target state="translated">Deze methode is niet bedoeld om te worden aangeroepen vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether forms authentication is enabled.</source>
+          <target state="translated">Haalt een waarde die aangeeft of formulierverificatie is ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if forms authentication is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u formulierverificatie is ingeschakeld; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets the URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">De URL opgehaald voor aanmelding bij de pagina die de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse omleidt.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoginUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`loginUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap LoginUrl is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met behulp van de <ph id="ph1">`loginUrl`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoginUrl is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method.</source>
+          <target state="translated">De LoginUrl wordt gebruikt door de &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;methode.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">De URL voor de aanmelding pagina die de <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse omleidt.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The default is "login.aspx."</source>
+          <target state="translated">De standaardwaarde is "login.aspx."</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL.</source>
+          <target state="translated">Een geverifieerde gebruiker omgeleid naar de oorspronkelijk aangevraagde URL of de standaard-URL.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectFromLoginPage method redirects to the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">De methode RedirectFromLoginPage wordt omgeleid naar de URL die is opgegeven in het query-tekenreeks met de <ph id="ph1">`ReturnURL`</ph> variabelenaam.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Bijvoorbeeld, in de URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, de methode RedirectFromLoginPage wordt omgeleid naar de retour-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als de <ph id="ph1">`ReturnURL`</ph> variabele bestaat niet, de methode RedirectFromLoginPage wordt omgeleid naar de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">De retour-URL ASP.NET automatisch toegevoegd als de browser wordt omgeleid naar de aanmeldingspagina.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Standaard de <ph id="ph1">`ReturnUrl`</ph> variabele moet verwijzen naar een pagina in de huidige toepassing.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage methods redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als <ph id="ph1">`ReturnUrl`</ph> verwijst naar een pagina in een andere toepassing of een andere server, de methoden RedirectFromLoginPage omgeleid naar de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Als u toestaan dat leidt tot een pagina buiten de huidige toepassing wilt, moet u instellen de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph1">`true`</ph> met behulp van de <ph id="ph2">`enableCrossAppRedirects`</ph> kenmerk van het configuratie-element.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Instelling de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph2">`true`</ph> om toe te staan tussen verschillende toepassingen omleidingen is een mogelijk beveiligingsrisico.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Zie voor meer informatie de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the default cookie using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">Als de &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;eigenschap is <ph id="ph1">`true`</ph>, en de <ph id="ph2">`ReturnUrl`</ph> variabele is in de huidige toepassing of de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap is <ph id="ph3">`true`</ph>, en vervolgens de methode RedirectFromLoginPage een verificatieticket uitgeeft en het in het standaard-cookie met plaatst de &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;methode.&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">Als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph> en de omleidingspad is naar een URL in de huidige toepassing, het ticket is uitgegeven als onderdeel van de omleidings-URL.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">Als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;is <ph id="ph2">`true`</ph>, en de omleiding URL niet naar een pagina in de huidige toepassing verwijst, de methode RedirectFromLoginPage een verificatieticket uitgeeft en plaatst het in de &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;eigenschap.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">De naam van de geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een duurzame cookie (één die wordt opgeslagen tussen browsersessies); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">De retour-URL opgegeven in de queryreeks bevat een ander protocol dan HTTP: of HTTPS:.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL using the specified cookie path for the forms-authentication cookie.</source>
+          <target state="translated">Een geverifieerde gebruiker leidt terug naar de oorspronkelijk aangevraagde URL of de standaard-URL met behulp van het opgegeven cookiepad voor de cookie voor formulierverificatie.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectFromLoginPage method redirects to the return URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">De methode RedirectFromLoginPage wordt omgeleid naar de retour-URL opgegeven in het query-tekenreeks met de <ph id="ph1">`ReturnURL`</ph> variabelenaam.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Bijvoorbeeld, in de URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, de methode RedirectFromLoginPage wordt omgeleid naar de retour-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als de <ph id="ph1">`ReturnURL`</ph> variabele bestaat niet, de methode RedirectFromLoginPage wordt omgeleid naar de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">De retour-URL ASP.NET automatisch toegevoegd als de browser wordt omgeleid naar de aanmeldingspagina.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Standaard de <ph id="ph1">`ReturnUrl`</ph> variabele moet verwijzen naar een pagina in de huidige toepassing.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Als <ph id="ph1">`ReturnUrl`</ph> verwijst naar een pagina in een andere toepassing of een andere server, de RedirectFromLoginPage methode wordt omgeleid naar de URL in de &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Als u toestaan dat leidt tot een pagina buiten de huidige toepassing wilt, moet u instellen de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph1">`true`</ph> met behulp van de <ph id="ph2">`enableCrossAppRedirects`</ph> kenmerk van het configuratie-element.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Instelling de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap <ph id="ph2">`true`</ph> om toe te staan tussen verschillende toepassingen omleidingen is een mogelijk beveiligingsrisico.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Zie voor meer informatie de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the cookie specified by the <ph id="ph4">`strCookiePath`</ph> parameter using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">Als de &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;eigenschap is <ph id="ph1">`true`</ph>, en de <ph id="ph2">`ReturnUrl`</ph> variabele is in de huidige toepassing of de &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;eigenschap is <ph id="ph3">`true`</ph>, en vervolgens de methode RedirectFromLoginPage een verificatieticket uitgeeft en het in de cookie die is opgegeven plaatst door de <ph id="ph4">`strCookiePath`</ph> parameter met behulp van de &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;methode.&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">Als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph> en de omleidingspad is naar een URL in de huidige toepassing, het ticket is uitgegeven als onderdeel van de omleidings-URL.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">Als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;is <ph id="ph2">`true`</ph>, en de omleiding URL niet naar een pagina in de huidige toepassing verwijst, de methode RedirectFromLoginPage een verificatieticket uitgeeft en plaatst het in de &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;eigenschap.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">De naam van de geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een duurzame cookie (één die wordt opgeslagen tussen browsersessies); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">Het cookiepad voor het ticket voor de verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">De retour-URL opgegeven in de queryreeks bevat een ander protocol dan HTTP: of HTTPS:.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL.</source>
+          <target state="translated">De browser omgeleid naar de aanmeldings-URL.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">De methode RedirectToLoginPage leidt de browser om naar de &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">De methode RedirectToLoginPage de cookie voor formulierverificatie niet gewist.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">U kunt de methode RedirectToLoginPage gebruiken in combinatie met de &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;methode voor één gebruiker af te melden en toestaan dat een andere gebruiker aan te melden.&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL with the specified query string.</source>
+          <target state="translated">De browser omgeleid naar de aanmeldings-URL met de opgegeven queryreeks.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; and includes the <ph id="ph1">`extraQueryString`</ph> value as the &lt;xref:System.Management.ManagementQuery.QueryString%2A&gt; for the redirected URL.</source>
+          <target state="translated">De methode RedirectToLoginPage leidt de browser van de &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;en bevat de <ph id="ph1">`extraQueryString`</ph> waarde als de &lt;xref:System.Management.ManagementQuery.QueryString%2A&gt;voor de omgeleide URL.&lt;/xref:System.Management.ManagementQuery.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">De methode RedirectToLoginPage de cookie voor formulierverificatie niet gewist.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">U kunt de methode RedirectToLoginPage gebruiken in combinatie met de &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;methode voor één gebruiker af te melden en toestaan dat een andere gebruiker aan te melden.&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The query string to include with the redirect URL.</source>
+          <target state="translated">De query-tekenreeks wilt opnemen in de omleidings-URL.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Conditionally updates the issue date and time and expiration date and time for a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Voorwaardelijk updates de uitgifte en de tijd en de vervaldatum en de tijd voor een <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenewTicketIfOld method updates the expiration date and time of the supplied &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; if the current date and time minus the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value is greater than the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the current date and time.</source>
+          <target state="translated">De methode RenewTicketIfOld werkt de vervaldatum en -tijd van de opgegeven &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;Als de huidige datum en tijd min de &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;waarde groter is dan de &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;waarde minus de huidige datum en tijd.&lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ticket is updated with the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; property set to the current date and time and the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; property set to the current date and time plus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value.</source>
+          <target state="translated">Het ticket is bijgewerkt met de &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;eigenschap is ingesteld op de huidige datum en tijd en de &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;eigenschap is ingesteld op de huidige datum en tijd plus de oorspronkelijke &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;waarde minus de oorspronkelijke &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;waarde.&lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The forms-authentication ticket to update.</source>
+          <target state="translated">Het ticket voor de verificatie van formulieren om bij te werken.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The updated <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De bijgewerkte <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the forms-authentication cookie requires SSL in order to be returned to the server.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de cookie voor formulierverificatie SSL vereist om te kunnen worden geretourneerd naar de server.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequireSSL property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`requireSSL`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap RequireSSL is ingesteld in het configuratiebestand voor een ASP.NET-toepassing met behulp van de <ph id="ph1">`requireSSL`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify in the Web.config file for your ASP.NET application whether SSL (Secure Sockets Layer) is required to return the forms-authentication cookie to the server by setting the <ph id="ph1">`requireSSL`</ph> attribute .</source>
+          <target state="translated">U kunt opgeven in het bestand Web.config voor uw ASP.NET-toepassing of SSL (Secure Sockets Layer) vereist is voor de cookie voor formulierverificatie terugkeren naar de server door in te stellen de <ph id="ph1">`requireSSL`</ph> kenmerk.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.HttpCookie.Secure%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Web.HttpCookie.Secure%2A&gt;.&lt;/xref:System.Web.HttpCookie.Secure%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">Het wordt aanbevolen als u configureert <ph id="ph1">`requireSSL`</ph> als <ph id="ph2">`false`</ph>, ook configureren <ph id="ph3">`slidingExpiration`</ph> als <ph id="ph4">`false`</ph>, te verminderen de hoeveelheid tijd waarvoor een ticket geldig is.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if SSL is required to return the forms-authentication cookie to the server; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als SSL vereist is voor de cookie voor formulierverificatie terug naar de server. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, or to the URL if you are using cookieless authentication.</source>
+          <target state="translated">Maakt een verificatieticket voor de opgegeven gebruikersnaam en toegevoegd aan de verzameling cookies van de reactie of naar de URL als u van verificatie zonder cookies gebruikmaakt.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection, or to the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De methode SetAuthCookie voegt een ticket formulierverificatie naar de collectie cookies, of de URL als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">Het ticket voor de verificatie van formulieren verstrekt formulierverificatie informatie op de volgende aanvraag is ingediend door de browser.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">Met verificatie van formulieren, kunt u de methode SetAuthCookie als u wilt verifiëren van een gebruiker, maar nog steeds beheer van de navigatie met omleidingen behouden.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">De naam van een geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This does not have to map to a Windows account.</source>
+          <target state="translated">Dit heeft geen toewijzen aan een Windows-account.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a persistent cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een permanente cookie (één die tussen browsersessies is opgeslagen); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, using the supplied cookie path, or using the URL if you are using cookieless authentication.</source>
+          <target state="translated">Maakt een verificatieticket voor de opgegeven gebruikersnaam en voegt het toe aan de verzameling cookies van het antwoord, met behulp van het opgegeven cookiepad of via de URL als u van verificatie zonder cookies gebruikmaakt.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De methode SetAuthCookie wordt een ticket formulierverificatie toegevoegd aan de verzameling cookies of de URL als &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">Het ticket voor de verificatie van formulieren verstrekt formulierverificatie informatie op de volgende aanvraag is ingediend door de browser.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">Met verificatie van formulieren, kunt u de methode SetAuthCookie als u wilt verifiëren van een gebruiker, maar nog steeds beheer van de navigatie met omleidingen behouden.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">De naam van een geverifieerde gebruiker.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van een duurzame cookie (één die wordt opgeslagen tussen browsersessies); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">Het cookiepad voor het ticket voor de verificatie van formulieren.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Removes the forms-authentication ticket from the browser.</source>
+          <target state="translated">Hiermee verwijdert u de verificatie van formulieren ticket vanuit de browser.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignOut method removes the forms-authentication ticket information from the cookie or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De methode SignOut verwijdert u de verificatie van formulieren ticket informatie bij de cookie of URL van de &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;is <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the SignOut method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">U kunt de methode SignOut gebruiken in combinatie met de &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;methode voor één gebruiker af te melden en toestaan dat een andere gebruiker aan te melden.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you run exclusively in cookieless mode, or if you support both authenticated and anonymous users, you should explicitly control the redirect to the login page if you require special business logic to execute as a result of removing the anonymous identifier.</source>
+          <target state="translated">Als u uitsluitend in cookieless modus uitvoert of als u geen geverifieerde en anonieme gebruikers ondersteunen, u expliciet moet bepaalt u de omleiding naar de aanmeldingspagina als u speciale zakelijke logica worden uitgevoerd als gevolg van het verwijderen van de anonieme id vereist.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the SignOut method is called, a redirect to the application's login page is made by calling the &lt;xref:System.Web.HttpResponse.Redirect%2A&gt; method with the <ph id="ph1">`endResponse`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Als de methode SignOut wordt aangeroepen, een omleiding naar de aanmeldingspagina van de toepassing wordt gemaakt door het aanroepen van de &lt;xref:System.Web.HttpResponse.Redirect%2A&gt;methode met de <ph id="ph1">`endResponse`</ph> parameter ingesteld op <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpResponse.Redirect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The redirect does not take place until the current page has finished executing, so additional code can be run.</source>
+          <target state="translated">De omleiding vindt niet plaats totdat de huidige pagina volledig is uitgevoerd, zodat u aanvullende code kan worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the code does not contain an explicit redirect to another page, the user is redirected to the login page configured in the application's configuration file.</source>
+          <target state="translated">Als de code een expliciete omleiding naar een andere pagina geen bevat, wordt de gebruiker wordt omgeleid naar de aanmeldingspagina geconfigureerd in het configuratiebestand van de toepassing.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the SignOut method only removes the forms authentication cookie.</source>
+          <target state="translated">De methode SignOut wordt aangeroepen, verwijdert alleen de cookie voor formulierverificatie.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web server does not store valid and expired authentication tickets for later comparison.</source>
+          <target state="translated">De webserver slaat geen geldig en verlopen verificatietickets voor later te vergelijken.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This makes your site vulnerable to a replay attack if a malicious user obtains a valid forms authentication cookie.</source>
+          <target state="translated">Dit is uw site kwetsbaar voor een replay-aanval als een kwaadwillende gebruiker een geldige formulierverificatiecookie krijgt.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To improve security when using a forms authentication cookie, you should do the following:      -   Use absolute expiration for forms authentication cookies by setting the &lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt; property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Voor betere beveiliging bij gebruik van een cookie voor formulierverificatie, moet u het volgende doen:-absolute vervaldatum gebruikt voor formulieren verificatiecookies door in te stellen de &lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;eigenschap <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limits the window in which a hijacked cookie can be replayed.</source>
+          <target state="translated">Hiermee wordt het venster waarin een gehackte cookie replay kan worden beperkt.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Only issue and accept authentication cookies over Secure Sockets Layer (SSL), by setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> and by running the entire Web site under SSL.</source>
+          <target state="translated">-Alleen uitgeven en verificatiecookies via Secure Sockets Layer (SSL), accepteer door in te stellen de &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;eigenschap <ph id="ph1">`true`</ph> en door het uitvoeren van de gehele website onder SSL.&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> ensures that ASP.NET will never send an authentication cookie to the browser over a non-SSL connection; however, the client might not honor the secure setting on the cookie.</source>
+          <target state="translated">Instellen van de &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;eigenschap <ph id="ph1">`true`</ph> zorgt ervoor dat ASP.NET nooit een verificatiecookie naar de browser via een niet-SSL-verbinding verzenden wordt; echter, de client mogelijk niet voldoen aan de veilige instelling voor de cookie.&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means the client might send the forms authentication cookie over a non-SSL connection, thus leaving it vulnerable to hijack.</source>
+          <target state="translated">Dit betekent dat de client kan de cookie voor formulierverificatie verzenden via een niet-SSL-verbinding, waardoor deze kwetsbaar voor overnemen.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can prevent a client from sending the forms authentication cookie in the clear by running the entire Web site under SSL.</source>
+          <target state="translated">U kunt voorkomen dat een client verzenden van de cookie voor formulierverificatie onversleuteld door het uitvoeren van de gehele website onder SSL.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Use persistent storage on the server to record when a user logs out of the Web site, and then use an application event such as &lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt; event to determine whether the current user was authenticated with forms authentication.</source>
+          <target state="translated">-Permanente opslag op de server gebruiken om vast te leggen wanneer een gebruiker meldt zich buiten de website en gebruik vervolgens een toepassingsgebeurtenis zoals &lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;gebeurtenis om te bepalen of de huidige gebruiker is geverifieerd met formulierverificatie.&lt;/xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user was authenticated with forms authentication, and if the information in persistent storage indicates the user is logged out, immediately clear the authentication cookie and redirect the browser back to the login page.</source>
+          <target state="translated">Als de gebruiker is geverifieerd met verificatie van formulieren en als de informatie in de permanente opslag wordt aangegeven dat de gebruiker is afgemeld, onmiddellijk de verificatiecookie wissen en de browser wordt terug omgeleid naar de aanmeldingspagina.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a successful login, update storage to reflect that the user is logged in.</source>
+          <target state="translated">Na een geslaagde aanmelding bijwerken opslag zodat de gebruiker is aangemeld.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use this method, your application must track the logged-in status of the user, and must force idle users to log out.</source>
+          <target state="translated">Wanneer u deze methode gebruikt, wordt uw toepassing moet de status geregistreerd in van de gebruiker bijhouden en moet ervoor zorgen dat niet-actieve gebruikers afmelden.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether sliding expiration is enabled.</source>
+          <target state="translated">Haalt een waarde die aangeeft of verschuivend verloop is ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SlidingExpiration property value is set using the <ph id="ph1">`slidingExpiration`</ph> attribute of the  configuration element.</source>
+          <target state="translated">De waarde van de eigenschap SlidingExpiration is ingesteld met behulp van de <ph id="ph1">`slidingExpiration`</ph> kenmerk van het configuratie-element.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sliding expiration resets the expiration time for a valid authentication cookie if a request is made and more than half of the timeout interval has elapsed.</source>
+          <target state="translated">Bij verschuivend verloop Hiermee stelt u de verlooptijd voor een geldige verificatiecookie als een aanvraag wordt gedaan en meer dan de helft van de time-outperiode is verstreken.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cookie expires, the user must re-authenticate.</source>
+          <target state="translated">Als de cookie verloopt, moet de gebruiker opnieuw worden geverifieerd.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the SlidingExpiration property to <ph id="ph1">`false`</ph> can improve the security of an application by limiting the time for which an authentication cookie is valid, based on the configured <ph id="ph2">`timeout`</ph> value.</source>
+          <target state="translated">De eigenschap SlidingExpiration instelt op <ph id="ph1">`false`</ph> kunt verbeteren de beveiliging van een toepassing door de tijd waarop een verificatiecookie geldig is, beperken op basis van de geconfigureerde <ph id="ph2">`timeout`</ph> waarde.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">We raden aan dat als u configureert <ph id="ph1">`requireSSL`</ph> als <ph id="ph2">`false`</ph>, ook configureren <ph id="ph3">`slidingExpiration`</ph> als <ph id="ph4">`false`</ph>, te verminderen de hoeveelheid tijd waarvoor een ticket geldig is.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if sliding expiration is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als verschuivend verloop is ingeschakeld; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">Haalt een waarde die aangeeft of voor de vervaldatum van het ticket Coordinated Universal Time (UTC) of de lokale tijd te gebruiken.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">Een waarde die aangeeft of voor de vervaldatum van het ticket Coordinated Universal Time (UTC) of de lokale tijd te gebruiken.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets the amount of time before an authentication ticket expires.</source>
+          <target state="translated">Hiermee haalt u de hoeveelheid tijd voordat een verificatieticket is verlopen.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The amount of time before an authentication ticket expires.</source>
+          <target state="translated">De hoeveelheid tijd voordat een verificatieticket is verlopen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

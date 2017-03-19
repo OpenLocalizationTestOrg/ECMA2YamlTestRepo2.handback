@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22ef00ff8e29bcf055dac4b83a0263b7ccaf7420</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.TypeConverter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93b40b4d0133d219f68057ef3a05a31d2944bf8a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85f8101833ab2c5ec4b8919718650ce813d8b407</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a unified way of converting types of values to other types, as well as for accessing standard values and subproperties.</source>
+          <target state="translated">Fornece uma forma de conversão de tipos de valores de outros tipos, bem como para aceder aos valores padrão e subproperties unificada.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common type of converter is one that converts to and from a text representation.</source>
+          <target state="translated">O tipo de conversor mais comum é aquele que converte de e para uma representação de texto.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type converter for a class is bound to the class with a &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.</source>
+          <target state="translated">O conversor de tipos para uma classe está vinculado à classe com &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless this attribute is overridden, all classes that inherit from this class use the same type converter as the base class.</source>
+          <target state="translated">A menos que este atributo é substituído, todas as classes que herdam desta classe utilizam o mesmo conversor de tipos que a classe base.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For general type system purposes, do not access a type converter directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Para fins de sistema de tipo geral, não acedam a um conversor de tipos diretamente.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, access the appropriate converter by using &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Em vez disso, aceder o conversor adequado utilizando &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the code examples provided.</source>
+          <target state="translated">Para obter mais informações, consulte os exemplos de código fornecidos.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> For XAML purposes, a XAML processor searches for the &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; directly, instead of going through &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tenha em atenção<ept id="p1">**</ept> para fins XAML, um processador XAML procura &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;diretamente, em vez de percorrer &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For cases where you do want a &lt;xref:System.ComponentModel.TypeDescriptor&gt; instance from code, or where you create a shared instance in WPF resources, it is acceptable to construct it directly without referencing &lt;xref:System.ComponentModel.TypeDescriptor&gt; or other reflection and type system support.</source>
+          <target state="translated">Nos casos em que pretende que um &lt;xref:System.ComponentModel.TypeDescriptor&gt;instância a partir do código, ou onde criar uma instância partilhada no WPF recursos, é aceitável para construi-lo diretamente sem referenciar &lt;xref:System.ComponentModel.TypeDescriptor&gt;ou outro sistema de reflexão e o tipo de suporte.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes derived from TypeConverter are often referenced as part of how a XAML processor converts an attribute or initialization text value from markup (which is inherently a string) and generates an object for a run-time representation.</source>
+          <target state="translated">Classes derivadas de TypeConverter, muitas vezes, são referenciadas como parte de como um processador XAML converte um valor de texto do atributo ou inicialização a partir do markup (que é, inerentemente, uma cadeia) e gera um objeto para uma representação de tempo de execução.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a TypeConverter class that supports their own unique <ph id="ph1">`ConvertFrom`</ph> behavior from a string.</source>
+          <target state="translated">Os autores de tipo personalizado que pretendam para suportar um comportamento de conversão de tipo XAML, normalmente, implementam uma classe TypeConverter que suporta os seus próprios exclusivo <ph id="ph1">`ConvertFrom`</ph> comportamento de uma cadeia.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">Este comportamento permite a conversão de tipo de cadeia fornecida como um valor de atributo XAML e fornece um processador XAML com o suporte necessário para criar um objeto de cadeia, para que o objeto pode ser produzido no gráfico de objeto analisados.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom TypeConverter implementation.</source>
+          <target state="translated">Tipos personalizados ou membros dos tipos personalizados são indicados por aplicar &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;as definições, com o atributo a referenciar a implementação personalizada de TypeConverter.&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>conversores de tipo de descrição geral de XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter.</source>
+          <target state="translated">Devolve se este conversor pode converter um objeto do tipo indicado para o tipo deste conversor.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It never returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Nunca devolve <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;que representa o tipo de que pretende converter de.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se este conversor pode efetuar a conversão; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.</source>
+          <target state="translated">Devolve se este conversor pode converter um objeto do tipo indicado para o tipo deste conversor, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method returns <ph id="ph1">`false`</ph>, unless <ph id="ph2">`sourceType`</ph> is an &lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve <ph id="ph1">`false`</ph>, a menos que <ph id="ph2">`sourceType`</ph> é &lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;que representa o tipo de que pretende converter de.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se este conversor pode efetuar a conversão; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type.</source>
+          <target state="translated">Devolve se este conversor pode converter o objeto para o tipo especificado.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Se <ph id="ph1">`destinationType`</ph> é uma cadeia, a implementação predefinida do &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;sempre devolve <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;que representa o tipo de que pretende converter.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se este conversor pode efetuar a conversão; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type, using the specified context.</source>
+          <target state="translated">Devolve se este conversor pode converter o objeto para o tipo especificado, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Se <ph id="ph1">`destinationType`</ph> é uma cadeia, a implementação predefinida do &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;sempre devolve <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;que representa o tipo de que pretende converter.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se este conversor pode efetuar a conversão; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Converts the given value to the type of this converter.</source>
+          <target state="translated">Converte o valor indicado para o tipo deste conversor.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Converts the given object to the type of this converter, using the specified context and culture information.</source>
+          <target state="translated">Converte o objecto fornecido para o tipo deste conversor, utilizando as informações de contexto e cultura especificada.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports ConvertFrom behavior from a string.</source>
+          <target state="translated">Os autores de tipo personalizado que pretendam para suportar um comportamento de conversão de tipo XAML, normalmente, implementam um &lt;xref:System.ComponentModel.TypeConverter&gt;classe que suporta o comportamento de ConvertFrom de uma cadeia.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">Este comportamento permite a conversão de tipo de cadeia fornecida como um valor de atributo XAML e fornece um processador XAML com o suporte necessário para criar um objeto de cadeia, para que o objeto pode ser produzido no gráfico de objeto analisados.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom &lt;xref:System.ComponentModel.TypeConverter&gt; implementation.</source>
+          <target state="translated">Tipos personalizados ou membros dos tipos personalizados são indicados por aplicar &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;as definições, com o atributo referenciar personalizado &lt;xref:System.ComponentModel.TypeConverter&gt;implementação.&lt;/xref:System.ComponentModel.TypeConverter&gt; &lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For XAML purposes, you do not typically provide branching implementations based on <ph id="ph1">`culture`</ph>.</source>
+          <target state="translated">Para efeitos XAML, não normalmente fornecer implementações de ramificação com base no <ph id="ph1">`culture`</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because XAML is precompiled in a development environment context, and culture-specific information for runtime XAML is not relevant for XAML type conversion.</source>
+          <target state="translated">Isto acontece porque XAML é pré-compilada num contexto de ambiente de desenvolvimento e informações de cultura específicas para o runtime XAML não é relevante para a conversão de tipo XAML.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>conversores de tipo de descrição geral de XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.CultureInfo&gt; to use as the current culture.</source>
+          <target state="translated">O &lt;xref:System.Globalization.CultureInfo&gt;para utilizar como a cultura atual.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture.</source>
+          <target state="translated">Converte a cadeia especificada para o tipo deste conversor, utilizando a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Devolve a implementação predefinida sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.String&gt;converter.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o texto convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture and the specified context.</source>
+          <target state="translated">Converte a cadeia especificada para o tipo deste conversor, utilizando a cultura invariável e o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">Uma exceção é gerada se a cadeia não é possível converter o objecto apropriado.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Devolve a implementação predefinida sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.String&gt;converter.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o texto convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Converts the specified text to an object.</source>
+          <target state="translated">Converte o texto especificado para um objeto.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Devolve a implementação predefinida sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The text representation of the object to convert.</source>
+          <target state="translated">A representação de texto do objecto a converter.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o texto convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The string cannot be converted into the appropriate object.</source>
+          <target state="translated">A cadeia não é possível converter o objecto apropriado.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context.</source>
+          <target state="translated">Converte o texto especificado para um objeto, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">Uma exceção é gerada se a cadeia não é possível converter o objecto apropriado.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Devolve a implementação predefinida sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.String&gt;converter.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o texto convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context and culture information.</source>
+          <target state="translated">Converte o texto especificado para um objeto, utilizando as informações de contexto e cultura especificada.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">Uma exceção é gerada se a cadeia não é possível converter o objecto apropriado.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Devolve a implementação predefinida sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> é transmitida atual é assumida cultura.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.String&gt;converter.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o texto convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the arguments.</source>
+          <target state="translated">Converte o objeto do valor indicado para o tipo especificado, utilizando os argumentos.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common type to convert to and from is a string object.</source>
+          <target state="translated">O tipo mais comum para converter de e é um objeto de cadeia.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object, if the object is valid and if the destination type is a string.</source>
+          <target state="translated">Esta implementação chama &lt;xref:System.Object.ToString%2A&gt;do objeto, se o objeto é válido e se o tipo de destino é uma cadeia.&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">O &lt;xref:System.Type&gt;para converter o <ph id="ph1">`value`</ph> parâmetro.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the specified context and culture information.</source>
+          <target state="translated">Converte o objeto do valor indicado para o tipo especificado, utilizando as informações de contexto e cultura especificada.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common types to convert are to and from a string object.</source>
+          <target state="translated">Os tipos de mais comuns para converter são para e de um objeto de cadeia.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object if the object is valid and if the destination type is a string.</source>
+          <target state="translated">Esta implementação chama &lt;xref:System.Object.ToString%2A&gt;no objeto se o objeto é válido e se o tipo de destino é uma cadeia.&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; behavior from a string.</source>
+          <target state="translated">Os autores de tipo personalizado que pretendam para suportar um comportamento de conversão de tipo XAML, normalmente, implementam um &lt;xref:System.ComponentModel.TypeConverter&gt;classe que suporta &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;comportamento de uma cadeia.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These type converters might also implement ConvertTo to support serialization back to XAML.</source>
+          <target state="translated">Estes conversores de tipo também podem implementar ConvertTo para suportar a serialização para XAML.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some XAML serialization scenarios cannot be adequately addressed with &lt;xref:System.ComponentModel.TypeConverter&gt; alone.</source>
+          <target state="translated">Alguns cenários de serialização XAML não podem ser endereçados adequadamente com &lt;xref:System.ComponentModel.TypeConverter&gt;individualmente.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, it may be necessary to also define a &lt;xref:System.Windows.Markup.ValueSerializer&gt; that handles the serialization cases that would otherwise be handled by ConvertTo.</source>
+          <target state="translated">Nestes casos, poderá ser necessário também definir um &lt;xref:System.Windows.Markup.ValueSerializer&gt;que processa os casos de serialização que caso contrário, teriam de ser processados por ConvertTo.&lt;/xref:System.Windows.Markup.ValueSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Markup.ValueSerializer&gt;.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Windows.Markup.ValueSerializer&gt;.&lt;/xref:System.Windows.Markup.ValueSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> é transmitida atual é assumida cultura.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">O &lt;xref:System.Type&gt;para converter o <ph id="ph1">`value`</ph> parâmetro.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation.</source>
+          <target state="translated">Converte o valor especificado para uma representação de cadeia de cultura invariante.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`context`</ph> parameter can be used to extract additional information about the environment from which this converter is being invoked.</source>
+          <target state="translated">O <ph id="ph1">`context`</ph> parâmetro pode ser utilizado para extrair informações adicionais sobre o ambiente a partir do qual está a ser invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be <ph id="ph1">`null`</ph>, so always check.</source>
+          <target state="translated">Isto pode ser <ph id="ph1">`null`</ph>, por isso sempre a existência.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">Dependendo da implementação do formatador de valor, poderá ser possível transferir a cadeia devolvida novamente para o formatador de valor para voltar a criar uma instância do objeto.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A &lt;xref:System.String&gt;que representa o valor convertido.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation, using the specified context.</source>
+          <target state="translated">Converte o valor especificado para uma representação de cadeia de cultura invariante, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">Dependendo da implementação do formatador de valor, poderá ser possível transferir a cadeia devolvida novamente para o formatador de valor para voltar a criar uma instância do objeto.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A &lt;xref:System.String&gt;que representa o valor convertido.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a string representation.</source>
+          <target state="translated">Converte o valor especificado para uma representação de cadeia.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">Dependendo da implementação do formatador de valor, poderá ser possível transferir a cadeia devolvida novamente para o formatador de valor para voltar a criar uma instância do objeto.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the given context.</source>
+          <target state="translated">Converte o valor indicado para uma representação de cadeia, utilizando o contexto fornecido.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">Dependendo da implementação do formatador de valor, poderá ser possível transferir a cadeia devolvida novamente para o formatador de valor para voltar a criar uma instância do objeto.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the specified context and culture information.</source>
+          <target state="translated">Converte o valor indicado para uma representação de cadeia, utilizando as informações de contexto e cultura especificada.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">Dependendo da implementação do formatador de valor, poderá ser possível transferir a cadeia devolvida novamente para o formatador de valor para voltar a criar uma instância do objeto.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> é transmitida atual é assumida cultura.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;converter.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o valor convertido.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">Não é possível efetuar a conversão.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Re-creates an &lt;xref:System.Object&gt; given a set of property values for the object.</source>
+          <target state="translated">Recria um &lt;xref:System.Object&gt;num determinado conjunto de valores de propriedade para o objeto.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">Utilize este método para objetos que são imutáveis, mas para os quais pretende fornecer propriedades das partições.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dictionary provided by the <ph id="ph1">`propertyValues`</ph> parameter has a series of name/value pairs, one for each property returned from &lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.</source>
+          <target state="translated">O dicionário fornecido o <ph id="ph1">`propertyValues`</ph> parâmetro tem uma série de pares nome/valor, um para cada propriedade devolvido de &lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that represents a dictionary of new property values.</source>
+          <target state="translated">Um &lt;xref:System.Collections.IDictionary&gt;que representa um dicionário de novos valores de propriedade.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o determinado &lt;xref:System.Collections.IDictionary&gt;, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se não é possível criar o objeto.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Este método devolve sempre <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the type that this <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with, using the specified context, given a set of property values for the object.</source>
+          <target state="translated">Cria uma instância do tipo que isto <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> está associado, utilizando o contexto especificado, num determinado conjunto de valores de propriedade para o objeto.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">Utilize este método para objetos que são imutáveis, mas para os quais pretende fornecer propriedades das partições.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; of new property values.</source>
+          <target state="translated">Um &lt;xref:System.Collections.IDictionary&gt;dos novos valores de propriedade.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que representa o determinado &lt;xref:System.Collections.IDictionary&gt;, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se não é possível criar o objeto.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Este método devolve sempre <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">Devolve uma exceção a acionar quando não é possível efetuar uma conversão.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;para converter, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o objeto não está disponível.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">Um &lt;xref:System.Exception&gt;que representa a exceção a acionar quando não é possível efetuar uma conversão.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">Automaticamente emitida por este método.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">Devolve uma exceção a acionar quando não é possível efetuar uma conversão.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;para converter, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o objeto não está disponível.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type the conversion was trying to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;que representa o tipo de conversão estava a tentar converter.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">Um &lt;xref:System.Exception&gt;que representa a exceção a acionar quando não é possível efetuar uma conversão.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">Automaticamente emitida por este método.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to the &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; method to create a new value.</source>
+          <target state="translated">Devolve se alterar um valor deste objeto requer uma chamada para o &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;método para criar um novo valor.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se alterar uma propriedade deste objeto necessita de uma chamada para &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;para criar um novo valor; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value, using the specified context.</source>
+          <target state="translated">Devolve se alterar um valor deste objeto requer uma chamada para &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;para criar um novo valor utilizando o contexto especificado.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se alterar uma propriedade deste objeto necessita de uma chamada para &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;para criar um novo valor; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter.</source>
+          <target state="translated">Devolve uma coleção de propriedades para o tipo de matriz especificada pelo parâmetro de valor.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">Por predefinição, um tipo de retorno não propriedades.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">Uma implementação fácil deste método pode chamar &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;para o tipo de dados correto.&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que especifica o tipo de matriz para o qual pretende obter propriedades.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com as propriedades expostas para este tipo de dados, ou <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se existirem sem propriedades.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.</source>
+          <target state="translated">Devolve uma coleção de propriedades para o tipo de matriz especificada pelo parâmetro de valor, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">Por predefinição, um tipo de retorno não propriedades.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">Uma implementação fácil deste método pode chamar &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;para o tipo de dados correto.&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que especifica o tipo de matriz para o qual pretende obter propriedades.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com as propriedades expostas para este tipo de dados, ou <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se existirem sem propriedades.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context and attributes.</source>
+          <target state="translated">Devolve uma coleção de propriedades para o tipo de matriz especificada pelo parâmetro de valor, utilizando os atributos e contexto especificado.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;que especifica o tipo de matriz para o qual pretende obter propriedades.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">Uma matriz do tipo &lt;xref:System.Attribute&gt;que é utilizado como um filtro.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com as propriedades expostas para este tipo de dados, ou <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se existirem sem propriedades.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties.</source>
+          <target state="translated">Devolve se este objeto suporta propriedades.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;deve ser chamado para localizar as propriedades deste objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties, using the specified context.</source>
+          <target state="translated">Devolve se este objeto suporta propriedades, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;deve ser chamado para localizar as propriedades deste objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values from the default context for the data type this type converter is designed for.</source>
+          <target state="translated">Devolve uma coleção de valores padrão do contexto predefinido para este conversor de tipos foi concebido para o tipo de dados.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; containing a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;que contém um conjunto de valores válidos, padrão ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o tipo de dados não suporta um conjunto padrão de valores.&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.</source>
+          <target state="translated">Devolve um conjunto de valores padrão para o tipo de dados, que este conversor de tipos foi concebido para quando é fornecido com um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in &lt;xref:System.ComponentModel.TypeConverter&gt;, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Como implementados no &lt;xref:System.ComponentModel.TypeConverter&gt;, este método devolve sempre <ph id="ph1">`null`</ph>.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context that can be used to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato que pode ser utilizado para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This parameter or properties of this parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Este parâmetro ou as propriedades deste parâmetro podem ser <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; that holds a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;que contém um conjunto de valores válidos, padrão ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o tipo de dados não suporta um conjunto padrão de valores.&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list.</source>
+          <target state="translated">Devolve se a coleção de valores padrão devolvido de &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;é uma lista exclusiva.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">Se a lista é exclusiva, tal como um tipo de dados de enumeração, outros valores não são válidos.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">Se a lista não for exclusiva, poderão existir outros valores válidos além da lista de valores padrão que o &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;fornece de método.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">Se os valores são exclusivos, a lista devolvida pelo &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;não deve permitir estes valores ser editado.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;devolvido de &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;é uma lista exaustiva de possíveis valores; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se outros valores são possíveis.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list of possible values, using the specified context.</source>
+          <target state="translated">Devolve se a coleção de valores padrão devolvido de &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;é uma lista exclusiva de valores possíveis, utilizando o contexto especificado.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">Se a lista é exclusiva, tal como um tipo de dados de enumeração, outros valores não são válidos.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">Se a lista não for exclusiva, poderão existir outros valores válidos além da lista de valores padrão que o &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;fornece de método.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">Se os valores são exclusivos, a lista devolvida pelo &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;não deve permitir estes valores ser editado.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;devolvido de &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;é uma lista exaustiva de possíveis valores; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se outros valores são possíveis.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list.</source>
+          <target state="translated">Devolve se este objeto suporta um conjunto padrão de valores que podem ser selecionadas a partir de uma lista.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;deve ser chamado para localizar um conjunto comum de valores que suporta o objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.</source>
+          <target state="translated">Devolve se este objeto suporta um conjunto padrão de valores que podem ser selecionadas a partir de uma lista, utilizando o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Conforme implementado desta classe, este método devolve sempre <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;deve ser chamado para localizar um conjunto comum de valores que suporta o objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type.</source>
+          <target state="translated">Devolve se o objeto do valor fornecido é válido para este tipo.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">A partir de <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, a &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;método obtém as exceções do &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;e &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;métodos.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Se o tipo de valor de entrada faz com que &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;para devolver <ph id="ph1">`false`</ph>, ou se o valor de entrada faz com que &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;para gerar uma exceção, o &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;método devolve <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">Para ativar o comportamento de legado, inserir as seguintes linhas no ficheiro de configuração da aplicação, por exemplo, application1.exe.config.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The object to test for validity.</source>
+          <target state="translated">O objeto de teste de validade.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o valor especificado é válido para este objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type and for the specified context.</source>
+          <target state="translated">Devolve se o objeto do valor fornecido é válido para este tipo de e para o contexto especificado.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">Utilize o <ph id="ph1">`context`</ph> parâmetro para extrair informações adicionais sobre o ambiente a partir do qual é invocado este conversor.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">Este parâmetro pode ser <ph id="ph1">`null`</ph>, sempre a verificar.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Além disso, podem devolver propriedades no objeto context <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the IsValid method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">A partir de <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, o método IsValid intercete as exceções do &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;e &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;métodos.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the IsValid method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Se o tipo de valor de entrada faz com que &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;para devolver <ph id="ph1">`false`</ph>, ou se o valor de entrada faz com que &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;para gerar uma exceção, o método de IsValid devolve <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">Para ativar o comportamento de legado, inserir as seguintes linhas no ficheiro de configuração da aplicação, por exemplo, application1.exe.config.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que fornece um contexto de formato.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to test for validity.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;para testar a validade.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o valor especificado é válido para este objeto; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Sorts a collection of properties.</source>
+          <target state="translated">Ordena um conjunto de propriedades.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All properties in the collection that are not already in the array of names are added alphabetically to the end.</source>
+          <target state="translated">Todas as propriedades na coleção que não estão a ser a matriz de nomes já são adicionadas, por ordem alfabética, ao fim.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`names`</ph> parameter is an empty array or <ph id="ph2">`null`</ph>, all the properties in the collection are sorted alphabetically.</source>
+          <target state="translated">Se o <ph id="ph1">`names`</ph> parâmetro é uma matriz vazia ou <ph id="ph2">`null`</ph>, todas as propriedades da coleção são ordenadas por ordem alfabética.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that has the properties to sort.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que tem as propriedades para ordenar.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>An array of names in the order you want the properties to appear in the collection.</source>
+          <target state="translated">Uma matriz de nomes na ordem de que pretende que as propriedades a aparecer na coleção.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the sorted properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém as propriedades ordenadas.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
