@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0201620333a3d8ecd693283dec3ed1d92bb73aa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ServiceHostBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf6f4571b00ecfc4d70da58ba4640a09bf41e288</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e445e2d4d267677b16b06b66f40c8206553570c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Extends the ServiceHostBase class to implement hosts that expose custom programming models.</source>
+          <target state="translated">Expande a classe de ServiceHostBase para implementar os anfitriões que expõem os modelos de programação personalizados.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ServiceHostBase class to create hosts that provide a custom programming model.</source>
+          <target state="translated">Utilize a classe de ServiceHostBase para criar a anfitriões que fornecem um modelo de programação personalizado.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service programming model uses the &lt;xref:System.ServiceModel.ServiceHost&gt; class.</source>
+          <target state="translated">O <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> modelo de programação service utiliza a &lt;xref:System.ServiceModel.ServiceHost&gt;classe.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Special note for Managed C++ users deriving from this class:      -   Put your cleanup code in (On)(Begin)Close (and/or OnAbort), not in a destructor.</source>
+          <target state="translated">Tenha em atenção especial para os utilizadores geridos C++ efectuar a derivação desta classe:-colocar a limpeza código (Begin) (em) feche (e/ou OnAbort), não num destrutor.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid destructors; they cause the compiler to auto-generate &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">-Evitar os processos de destruição; poderem provocar o compilador gerar automaticamente &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid non-reference members; they can cause the compiler to auto-generate &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">-Evitar membros de não referência; Pode fazer com que o compilador gerar automaticamente &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid finalizers; but if you include one, you should suppress the build warning and call &lt;xref:System.GC.SuppressFinalize%28System.Object%29&gt; and the finalizer itself from (On)(Begin)Close (and/or OnAbort) to emulate what would have been the auto-generated &lt;xref:System.IDisposable&gt; behavior.</source>
+          <target state="translated">-Evitar os finalizadores; mas se incluir um, deve suprimir o aviso de compilação e a chamada &lt;xref:System.GC.SuppressFinalize%28System.Object%29&gt;e o finalizador próprio de (em) (Begin) feche (e/ou OnAbort) para emular o que poderia ter sido a geração automática &lt;xref:System.IDisposable&gt;comportamento.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.GC.SuppressFinalize%28System.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Adds a base address to the service host.</source>
+          <target state="translated">Adiciona um endereço base para o anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property allows users extending &lt;xref:System.ServiceModel.ServiceHostBase&gt; to provide the base address after the host is constructed.</source>
+          <target state="translated">Esta propriedade permite aos utilizadores expandir &lt;xref:System.ServiceModel.ServiceHostBase&gt;para fornecer o endereço base depois do anfitrião é construído.&lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddBaseAddress can be used to add base addresses to an existing host, but throws an exception if the description is already initialized.</source>
+          <target state="translated">AddBaseAddress podem ser utilizados para adicionar endereços base para um anfitrião existente, mas emite uma exceção se a descrição já foi inicializada.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; that contains the base address for services hosted on the current host.</source>
+          <target state="translated">A &lt;xref:System.Uri&gt;que contém o endereço base para serviços alojados no anfitrião atual.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">baseAddress</ph><ept id="p1">&lt;/code&gt;</ept> cannot be called.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">baseAddress</ph> <ept id="p1">&lt;/code&gt;</ept> não pode ser chamado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Adds service endpoints for all base addresses in each contract found in the service host with the default binding.</source>
+          <target state="translated">Adiciona pontos finais de serviço para todos os endereços base em cada contrato encontrado no anfitrião de serviço com o enlace de predefinição.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A read-only collection of default endpoints.</source>
+          <target state="translated">Uma coleção de só de leitura de pontos finais predefinidos.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds the specified service endpoint to the hosted service.</source>
+          <target state="translated">Adiciona o ponto final do serviço especificado para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using the method, the service host does a "by-configuration-name" validation on the contract description.</source>
+          <target state="translated">Quando utilizar o método, o anfitrião do serviço efetua uma validação de "por-configuração-name" com a descrição do contrato.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, the host verifies that &lt;xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt; exists in the list of configuration names of the service contracts implemented by the service.</source>
+          <target state="translated">Por outras palavras, o anfitrião verifica que &lt;xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt;existe na lista de nomes de configuração dos contratos de serviço implementados pelo serviço.&lt;/xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the validation passes, the description in the &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; is used as it is, even if the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; reflected from the service is different.</source>
+          <target state="translated">Se a validação é efetuada, a descrição no &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;é utilizado como está, mesmo que o &lt;xref:System.ServiceModel.Description.ContractDescription&gt;refletidas do serviço é diferente.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt; &lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example, assume that the description in the ServiceEndpoint and the contract description reflected from the service have the same name, but different operation behaviors.</source>
+          <target state="translated">Por exemplo, partem do princípio de que a descrição na ServiceEndpoint e a descrição do contrato refletidas do serviço têm o mesmo nome, mas os comportamentos de outra operação.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implication of only “by-configuration-name” validation is that there is no validation that the behaviors are the same and there are one updates to one description because of another description.</source>
+          <target state="translated">A implicação da validação de "por-configuração-name" só é que não há nenhuma validação para que os comportamentos são os mesmos e existem atualizações para uma descrição devido a outra descrição.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`address`</ph> is a relative URI, one of the base addresses of the &lt;xref:System.ServiceModel.ServiceHost&gt; (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se o <ph id="ph1">`address`</ph> é um URI relativo, um dos endereços base do &lt;xref:System.ServiceModel.ServiceHost&gt;(consoante o protocolo de enlace) é utilizado como endereço base do ponto final.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">O ponto final de serviço.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Endpoint&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Endpoint&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The host is not in a Created or an Opening state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">O anfitrião não está a ser um Estado de abertura ou de um criado ou não existe nenhum <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Address</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">Binding,</ph><ept id="p2"> &lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">Contract</ph><ept id="p3">&lt;/code&gt;</ept> property is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Address</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">Binding,</ph><ept id="p2"> &lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">Contract</ph><ept id="p3">&lt;/code&gt;</ept> property is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, and endpoint address.</source>
+          <target state="translated">Adiciona um ponto final de serviço para o serviço alojado com um contrato especificado, o enlace e o endereço de ponto final.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">O contrato implementado pelo ponto final.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Channels.Binding&gt;para o ponto final adicionado.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The address for the endpoint added.</source>
+          <target state="translated">O endereço para o ponto final adicionado.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This can be an absolute or relative URI.</source>
+          <target state="translated">Isto pode ser um URI absoluto ou relativo.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se é um URI relativo, um endereço base do <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (consoante o protocolo de enlace) é utilizado como endereço base do ponto final.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;adicionadas para o serviço alojado.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added or the binding lacks a transport of binding scheme.</source>
+          <target state="translated">O anfitrião não está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado ou há é nenhum <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado e por isso não é possível adicionar um ponto final ou o enlace não possui um transporte do esquema de enlace.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, and a URI that contains the endpoint address.</source>
+          <target state="translated">Adiciona um ponto final de serviço para o serviço alojado com um contrato especificado, o enlace e o URI que contém o endereço de ponto final.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">O contrato implementado pelo ponto final.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Channels.Binding&gt;para o ponto final adicionado.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.Uri&gt;que contém o endereço para o ponto final adicionado.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This can be an absolute or relative URI.</source>
+          <target state="translated">Isto pode ser um URI absoluto ou relativo.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se é um URI relativo, um endereço base do <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (consoante o protocolo de enlace) é utilizado como endereço base do ponto final.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;adicionadas para o serviço alojado.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">O anfitrião não está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado ou há é nenhum <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado e por isso não é possível adicionar um ponto final.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, endpoint address and URI that contains the address at which it listens.</source>
+          <target state="translated">Adiciona um ponto final de serviço para o serviço alojado com um contrato especificado, a enlace, o endereço do ponto final e a URI que contém o endereço no qual escuta.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`address`</ph> is a relative URI, one of the base addresses of the &lt;xref:System.ServiceModel.ServiceHost&gt; (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se o <ph id="ph1">`address`</ph> é um URI relativo, um dos endereços base do &lt;xref:System.ServiceModel.ServiceHost&gt;(consoante o protocolo de enlace) é utilizado como endereço base do ponto final.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">O contrato implementado pelo ponto final.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Channels.Binding&gt;para o ponto final adicionado.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The address for the endpoint added.</source>
+          <target state="translated">O endereço para o ponto final adicionado.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This address can be an absolute or relative URI.</source>
+          <target state="translated">Este endereço pode ser um URI absoluto ou relativo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se é um URI relativo, um endereço base do <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (consoante o protocolo de enlace) é utilizado como endereço base do ponto final.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address which the endpoint listens to for incoming messages.</source>
+          <target state="translated">O &lt;xref:System.Uri&gt;que contém o endereço que o ponto final de escuta para mensagens a receber.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This URI can be relative or absolute.</source>
+          <target state="translated">Este URI pode ser relativo ou absoluto.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;adicionadas para o serviço alojado.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">O anfitrião não está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado ou há é nenhum <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado e por isso não é possível adicionar um ponto final.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with the specified contract, binding, and URIs that contain the endpoint and listening addresses.</source>
+          <target state="translated">Adiciona um ponto final de serviço para o serviço alojado com o contrato especificado, o enlace e o URI que contêm os endereços de escuta e o ponto final.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">O contrato implementado pelo ponto final.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Channels.Binding&gt;para o ponto final adicionado.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address for the endpoint added.</source>
+          <target state="translated">O &lt;xref:System.Uri&gt;que contém o endereço para o ponto final adicionado.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Se é um URI relativo, um endereço base do <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (consoante o protocolo de enlace) é utilizado como endereço base do ponto final.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address at which the endpoint listens for incoming messages.</source>
+          <target state="translated">O &lt;xref:System.Uri&gt;que contém o endereço em que o ponto final de escuta para mensagens a receber.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">O &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;adicionadas para o serviço alojado.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This URI can be absolute or relative.</source>
+          <target state="translated">Este URI pode ser absoluto ou relativo.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">O anfitrião não está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado ou há é nenhum <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado e por isso não é possível adicionar um ponto final.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Loads the service description information from the configuration file and applies it to the runtime being constructed.</source>
+          <target state="translated">Carrega as informações de descrição de serviço no ficheiro de configuração e aplica-lo para o tempo de execução que está a ser construído.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A descrição do serviço alojado é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the service authentication behavior.</source>
+          <target state="translated">Obtém o comportamento de autenticação do serviço.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The service authentication behavior.</source>
+          <target state="translated">O comportamento de autenticação do serviço.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the authorization behavior for the service hosted.</source>
+          <target state="translated">Obtém o comportamento de autorização para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceAuthorizationBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service hosted.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceAuthorizationBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the base addresses used by the hosted service.</source>
+          <target state="translated">Obtém os endereços base utilizados pelo serviço alojado.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of type &lt;xref:System.Uri&gt; that contains the base addresses for the hosted service.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> do tipo &lt;xref:System.Uri&gt;que contenha os endereços base para o serviço alojado.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the collection of channel dispatchers used by the service host.</source>
+          <target state="translated">Obtém a coleção de dispatchers canal utilizado pelo anfitrião de serviço.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the channel dispatchers used by the service host.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dispatchers de canal utilizados pelo anfitrião de serviço.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the interval of time allowed for the service host to close.</source>
+          <target state="translated">Obtém ou define o intervalo de tempo permitido para o anfitrião do serviço fechar.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time allowed for the service host to close.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o intervalo de tempo permitido para o anfitrião do serviço fechar.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value, in milliseconds, is less than zero or is larger than &lt;xref:System.Int32.MaxValue&gt; (2,147,483,647 or, in hexadecimal notation, 0X7FFFFFFF).</source>
+          <target state="translated">O valor de, em milissegundos, é inferior a zero ou superior a &lt;xref:System.Int32.MaxValue&gt;(2,147,483,647 ou, na notação hexadecimal, 0X7FFFFFFF).&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The host is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The host is already in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião já está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The host is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, creates the description of the hosted service.</source>
+          <target state="translated">Quando implementada numa classe derivada, cria a descrição do serviço alojado.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> that contains the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; objects for the service.</source>
+          <target state="translated">O <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> que contém o &lt;xref:System.ServiceModel.Description.ContractDescription&gt;objetos para o serviço.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets the credential for the service hosted.</source>
+          <target state="translated">Obtém a credencial para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceCredentials"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service hosted.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceCredentials"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets the default interval of time allowed for the service host to close.</source>
+          <target state="translated">Obtém o intervalo predefinido de tempo permitido para o anfitrião do serviço fechar.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the default interval of time allowed for the service host to close.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o intervalo predefinido de tempo permitido para o anfitrião do serviço fechar.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the default interval of time allowed for the service host to open.</source>
+          <target state="translated">Obtém o intervalo predefinido de tempo permitido para o anfitrião do serviço abrir.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the default interval of time allowed for the service host to open.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o intervalo predefinido de tempo permitido para o anfitrião do serviço abrir.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets the description of the service hosted.</source>
+          <target state="translated">Obtém a descrição do serviço alojado.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets the extensions for the current specified service host.</source>
+          <target state="translated">Obtém as extensões para o anfitrião atual do serviço especificado.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.IExtensionCollection%601<ph id="ph2">&amp;gt;</ph> of type <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Um <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.IExtensionCollection%601<ph id="ph2">&amp;gt;</ph> do tipo <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Retrieves the contracts implemented by the service hosted.</source>
+          <target state="translated">Obtém os contratos implementados pelo serviço alojado.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> that contains the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; objects for the service.</source>
+          <target state="translated">O <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> que contém o &lt;xref:System.ServiceModel.Description.ContractDescription&gt;objetos para o serviço.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Increases the limit on the flow rate of messages to the hosted service by a specified increment.</source>
+          <target state="translated">Aumenta o limite de taxa de fluxo de mensagens em fila para o serviço alojado por um incremento específico.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limit can be accessed using the &lt;xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt; property.</source>
+          <target state="translated">Este limite pode ser acedido através de &lt;xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt;propriedade.&lt;/xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The number of messages by which to increase the flow control limit.</source>
+          <target state="translated">O número de mensagens através do qual aumentar o limite de controlo de fluxo.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The new limit after the increment is added.</source>
+          <target state="translated">O novo limite depois do incremento é adicionado.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The value is less than zero.</source>
+          <target state="translated">O valor é menor do que zero.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creates and initializes the service host with the contract and service descriptions.</source>
+          <target state="translated">Cria e inicia o anfitrião do serviço com descrições de contrato e serviço.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceModel.UriSchemeKeyedCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the base addresses for the service hosted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceModel.UriSchemeKeyedCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contenha os endereços base para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Initializes the runtime for the service host.</source>
+          <target state="translated">Inicializa o tempo de execução para o anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A descrição do serviço alojado é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Loads the service element from the configuration file of the hosted service.</source>
+          <target state="translated">Carrega o elemento de serviço no ficheiro de configuração do serviço alojado.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ServiceElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be loaded from configuration.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ServiceElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> seja carregado a partir da configuração.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceSection&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceSection&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A descrição do serviço alojado é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets the flow control limit for messages received by the service hosted.</source>
+          <target state="translated">Obtém ou define o limite de controlo de fluxo de mensagens recebidas pelo serviço alojado.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limit can be incremented using the &lt;xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt; method.</source>
+          <target state="translated">Este limite pode ser incrementado utilizando o &lt;xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt;método.&lt;/xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The flow control limit for messages received by the service hosted.</source>
+          <target state="translated">O limite de controlo de fluxo de mensagens recebidas pelo serviço alojado.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value is less than zero.</source>
+          <target state="translated">O valor é menor do que zero.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Aborts the service.</source>
+          <target state="translated">Interrompe o serviço.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation invoked on the close of the service host.</source>
+          <target state="translated">Começa uma operação assíncrona invocada no fecho do anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-close operation has to complete before timing out.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o período de tempo a operação no fecho seja concluída antes de exceder o tempo limite.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous operation on-close completion.</source>
+          <target state="translated">O &lt;xref:System.AsyncCallback&gt;delegado que recebe a notificação de conclusão de no fecho operação assíncrona.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous on-close operation.</source>
+          <target state="translated">Um objeto, especificado pela aplicação, que contém informações de estado associadas a operação no fecho assíncrona.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous on-close operation.</source>
+          <target state="translated">O &lt;xref:System.IAsyncResult&gt;que referencia a operação assíncrona em Fechar.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation invoked on the opening of the service host.</source>
+          <target state="translated">Começa uma operação assíncrona invocada de abertura do anfitrião de serviço.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-open operation has to complete before timing out.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o período de tempo a operação na abertura seja concluída antes de exceder o tempo limite.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous operation on-open completion.</source>
+          <target state="translated">O &lt;xref:System.AsyncCallback&gt;delegado que recebe a notificação da conclusão em open operação assíncrona.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous on-open operation.</source>
+          <target state="translated">Um objeto, especificado pela aplicação, que contém informações de estado associadas a operação no open assíncrona.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous on-open operation.</source>
+          <target state="translated">O &lt;xref:System.IAsyncResult&gt;que referencia a operação no open assíncrona.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Closes down the hosted service, including their channel dispatchers and associated instance contexts and listeners.</source>
+          <target state="translated">Fecha-se para baixo o serviço alojado, incluindo os respetivos dispatchers canal e os serviços de escuta e contextos de instância associada.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling OnClose does the following:      -   Closes all input to &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;, which also closes their associated &lt;xref:System.ServiceModel.Channels.IChannelListener&gt; instances.</source>
+          <target state="translated">Chamar OnClose faz o seguinte:-fechar todas as entradas para &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;, que também fecha-se os seus associado &lt;xref:System.ServiceModel.Channels.IChannelListener&gt;instâncias.&lt;/xref:System.ServiceModel.Channels.IChannelListener&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This stops any new channels from being accepting.</source>
+          <target state="translated">Este deixa de quaisquer novos canais de que está a ser aceitarem.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calls &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt; on all &lt;xref:System.ServiceModel.InstanceContext&gt; objects, which mean they stop accepting new messages.</source>
+          <target state="translated">-Chama &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt;em todos os &lt;xref:System.ServiceModel.InstanceContext&gt;objetos, o que significam a parar a aceitar novas mensagens.&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Waits for all &lt;xref:System.ServiceModel.InstanceContext&gt; objects to close down, which happens when their associated channels finish sending all pending messages.</source>
+          <target state="translated">-Aguarda para todos os &lt;xref:System.ServiceModel.InstanceContext&gt;objetos fechar pendente, o que acontece quando os seus canais associados concluir o envio de todas as mensagens pendentes.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Closes the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; objects associated with the host.</source>
+          <target state="translated">-Fecha o &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;objetos associados ao anfitrião.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-close operation has to complete before timing out.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o período de tempo a operação no fecho seja concluída antes de exceder o tempo limite.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the service host.</source>
+          <target state="translated">Versões recursos utilizados pelo anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous operation invoked on the closing of the service host.</source>
+          <target state="translated">Concluir uma operação assíncrona invocada no fecho do anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginClose%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">O &lt;xref:System.IAsyncResult&gt;devolvido por uma chamada para o <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginClose%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> método.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous operation invoked on the opening of the service host.</source>
+          <target state="translated">Concluir uma operação assíncrona invocada de abertura do anfitrião de serviço.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginOpen%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">O &lt;xref:System.IAsyncResult&gt;devolvido por uma chamada para o <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginOpen%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> método.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Opens the channel dispatchers.</source>
+          <target state="translated">Abre os dispatchers de canal.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-open operation has to complete before timing out.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o período de tempo a operação na abertura seja concluída antes de exceder o tempo limite.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets the service credentials,service authentication and authorization behavior for the hosted service.</source>
+          <target state="translated">Obtém a credenciais de serviço, o comportamento de autenticação e autorização de serviço para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once these behaviors are initialized when opening the service, they cannot be changed.</source>
+          <target state="translated">Depois destes comportamentos são inicializados ao abrir o serviço, não pode ser alteradas.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets or sets the interval of time allowed for the service host to open.</source>
+          <target state="translated">Obtém ou define o intervalo de tempo permitido para o anfitrião do serviço abrir.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time allowed for the service host to open.</source>
+          <target state="translated">O &lt;xref:System.TimeSpan&gt;que especifica o intervalo de tempo permitido para o anfitrião do serviço abrir.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The value is less than zero or is larger than &lt;xref:System.Int32.MaxValue&gt; (2,147,483,647 or, in hexadecimal notation, 0X7FFFFFFF).</source>
+          <target state="translated">O valor é menor que zero ou superior a &lt;xref:System.Int32.MaxValue&gt;(2,147,483,647 ou, na notação hexadecimal, 0X7FFFFFFF).&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The host is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;ou &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The host is already in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião já está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The host is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">O anfitrião está a ser um &lt;xref:System.ServiceModel.CommunicationState&gt;Estado e não pode ser modificado.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Releases the service and channel dispatcher performance counters for the hosted service.</source>
+          <target state="translated">Versões os contadores de desempenho de emissor de serviço e o canal para o serviço alojado.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is invoked when calling &lt;xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt; and       &lt;xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt;.</source>
+          <target state="translated">Este método é invocado quando chamar &lt;xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt;e &lt;xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt;.&lt;/xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt; &lt;/xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Sets the endpoint address of the specified endpoint to the specified address.</source>
+          <target state="translated">Define o endereço de ponto final do ponto final especificado para o endereço especificado.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">O ponto final de serviço.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The endpoint address.</source>
+          <target state="translated">O endereço de ponto final.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Closes the service host.</source>
+          <target state="translated">Fecha o anfitrião do serviço.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Occurs when an unknown message is received.</source>
+          <target state="translated">Ocorre quando é recebida uma mensagem desconhecida.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
