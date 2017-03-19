@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7686d97a120fc5284e355957732fd7190798cca7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ConcurrencyMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b64e62626a8dd299f66fdf65d6b19a77f198eb9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94bc04f1b85d89bfbf0b2b7830d610e8a2bd91ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies whether a service class supports single-threaded or multi-threaded modes of operation.</source>
+          <target state="translated">Especifica se uma classe de serviço oferece suporte a modos de thread único ou vários threads de operação.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ConcurrencyMode is used in conjunction with the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode%2A&gt; property to specify whether a service class supports single-threaded or multi-threaded modes of operation.</source>
+          <target state="translated">ConcurrencyMode é usado em conjunto com o &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode%2A&gt;propriedade para especificar se uma classe de serviço oferece suporte a modos de thread único ou vários threads de operação.&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A single-threaded operation can be either reentrant or non-reentrant.</source>
+          <target state="translated">Uma operação de thread único pode ser reentrante ou não reentrante.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows when <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> permits an operation to be invoked while another one is in progress, depending upon the ConcurrencyMode.</source>
+          <target state="translated">A tabela a seguir mostra quando <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> permite uma operação a ser chamado enquanto outro está em andamento, dependendo do ConcurrencyMode.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|ConcurrencyMode Value|Can a new operation be invoked?|   |---------------------------|-------------------------------------|   |Single|Never.|   |Reentrant|Only while invoking another service or a callback.|   |Multiple|Always.|</source>
+          <target state="translated">| Valor de ConcurrencyMode | Uma nova operação pode ser invocada? |   |---------------------------|-------------------------------------|   | Único | Nunca. |   | Reentrante | Somente durante a chamada de outro serviço ou um retorno de chamada. |   | Vários | Sempre. |</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The service instance is multi-threaded.</source>
+          <target state="translated">A instância do serviço é multi-threaded.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>No synchronization guarantees are made.</source>
+          <target state="translated">Não há nenhuma garantia de sincronização é feita.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Because other threads can change your service object at any time, you must handle synchronization and state consistency at all times.</source>
+          <target state="translated">Como outros threads podem alterar o objeto de serviço a qualquer momento, você deve tratar a sincronização e consistência de estado em todos os momentos.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The service instance is single-threaded and accepts reentrant calls.</source>
+          <target state="translated">A instância de serviço é de thread único e aceita chamadas reentrantes.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The reentrant service accepts calls when you call another service; it is therefore your responsibility to leave your object state consistent before callouts and you must confirm that operation-local data is valid after callouts.</source>
+          <target state="translated">O serviço reentrante aceita chamadas quando chama outro serviço; Portanto, é sua responsabilidade para deixar o estado do objeto consistente antes de textos explicativos e você deve confirmar que os dados do local de operação são válidos após textos explicativos.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Note that the service instance is unlocked only by calling another service over a <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> channel.</source>
+          <target state="translated">Observe que a instância do serviço é desbloqueada apenas por chama outro serviço em um <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> canal.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this case, the called service can reenter the first service via a callback.</source>
+          <target state="translated">Nesse caso, o serviço chamado pode reinserir o primeiro serviço por meio de um retorno de chamada.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the first service is not reentrant, the sequence of calls results in a deadlock.</source>
+          <target state="translated">Se o primeiro serviço não for reentrante, a sequência de chamadas resulta em um deadlock.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For details, see &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode*&gt;.</source>
+          <target state="translated">Para obter detalhes, consulte &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode*&gt;.&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode*&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The service instance is single-threaded and does not accept reentrant calls.</source>
+          <target state="translated">A instância de serviço é de thread único e não aceita chamadas reentrantes.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode*&gt; property is <bpt id="p1">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and additional messages arrive while the instance services a call, these messages must wait until the service is available or until the messages time out.</source>
+          <target state="translated">Se o &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode*&gt;é de propriedade <bpt id="p1">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>e outras mensagens chegam enquanto a instância de uma chamada de serviços, essas mensagens devem aguardar até que o serviço está disponível ou até que o tempo limite de mensagens.&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

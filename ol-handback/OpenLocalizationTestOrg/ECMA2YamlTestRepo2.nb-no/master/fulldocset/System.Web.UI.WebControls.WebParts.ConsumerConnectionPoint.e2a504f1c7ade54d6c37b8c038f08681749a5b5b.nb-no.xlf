@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67918dc525bfbcd675508d197c42b3f57a721e48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff521578c20cf51de832f4911f8e533360661b4a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e25f0da82404cfdce94a97208dbecc5d97c05d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a connection point object that enables a server control acting as a consumer to form a connection with a provider.</source>
+          <target state="translated">Definerer en connection point-objektet som aktiverer en serverkontroll fungerer som forbruker å utgjøre en tilkobling til en leverandør.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In every Web Parts connection between two server controls, each control must have (among other requirements) an associated connection point object that enables it to connect to the other control and to either provide or consume data, depending on whether the control is designated as the provider or consumer for the connection.</source>
+          <target state="translated">Hver webdeler tilkobling mellom to serverkontroller må hver kontroll ha (blant andre krav) en tilknyttet tilkobling punkt-objekt som gjør det mulig å koble til den andre kontrollen, og for å angi eller bruke data, avhengig av om kontrollen er angitt som leverandøren eller forbrukeren for tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; object in general contains the details for how a control can connect to another control and the type of data it can share.</source>
+          <target state="translated">En &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;objektet Generelt inneholder detaljer om hvordan en kontroll kan koble til en annen kontroll og datatypen kan dele.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a control acting as the consumer in a connection, its connection point must be a ConsumerConnectionPoint object.</source>
+          <target state="translated">Tilkoblingspunktet må være et ConsumerConnectionPoint-objekt for en kontroll som fungerer som forbrukeren i en tilkobling.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details on Web Parts connections and connection points, read the topics listed in the See Also section below.</source>
+          <target state="translated">For informasjon om webdeler lese tilkoblinger og tilkobling punkt emnene i Se også delen nedenfor.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a ConsumerConnectionPoint object, several steps are required:      1.</source>
+          <target state="translated">Flere trinn kreves for å opprette et ConsumerConnectionPoint-objekt: 1.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enable a consumer control to reference an interface instance.</source>
+          <target state="translated">Aktiver en forbrukeren kontrollen referere til en grensesnittet-forekomst.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or other server control (any type of server control that will be added to a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone can be used) must be able to consume data from a specific interface instance.</source>
+          <target state="translated">En &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;eller andre serverkontroll (alle typer serverkontroll som blir lagt til en &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;sone kan brukes) må kunne bruke data fra en bestemt grensesnitt-forekomst.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control need not implement the interface; only the provider must implement it.</source>
+          <target state="translated">Kontrollen må ikke implementere grensesnittet; bare leverandøren må implementere den.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consumer can either work with the exact interface type served by a provider or, if it does not, a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object can be used to transform data from a provider's interface type to a type understood by the consumer.</source>
+          <target state="translated">Brukeren kan enten arbeide med nøyaktige grensesnittype som er behandlet av en leverandør eller, hvis ikke, en &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;objektet kan brukes til å gjøre dataene fra en leverandør grensesnittype til en type forstått av forbrukeren.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical way to enable a consumer is to declare a private field to contain a reference to the desired interface type.</source>
+          <target state="translated">Vanlig måte å aktivere en forbruker, er å deklarere et private felt inneholder en referanse til den ønskede grensesnittypen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Identify a callback method.</source>
+          <target state="translated">Angi en tilbakeringing-metode.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A method in the consumer must be identified as the callback method to establish a connection with the provider.</source>
+          <target state="translated">En metode i forbrukeren må være identifisert som metoden tilbakeringing for å opprette en tilkobling til leverandøren.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves an instance of the interface that the provider implements, and assigns it to (for example) the private field created in the first step.</source>
+          <target state="translated">Denne metoden henter en forekomst av grensesnitt som leverandøren implementerer og tilordner den til (for eksempel) private feltet som er opprettet i første trinn.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts approach for identifying a callback method in the consumer is to add a <ph id="ph1">`ConnectionConsumer`</ph> metadata attribute (defined by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; class) to the method that receives the interface instance.</source>
+          <target state="translated">Tilnærmingen webdeler for å identifisere en tilbakeringing-metoden i forbrukeren er å legge til en <ph id="ph1">`ConnectionConsumer`</ph> metadataattributt (definert av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;klassen) til metoden som mottar grensesnittet-forekomsten.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the attribute is added, the only required parameter is a display name to use for the consumer connection point.</source>
+          <target state="translated">Når attributtet er lagt til, er bare nødvendige parameteren et visningsnavn skal brukes for tilkoblingspunktet for brukeren.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Optional parameters can also be added, such as an ID.</source>
+          <target state="translated">Valgfrie parametere kan også legges til, for eksempel en ID.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Process and output the data from the interface instance.</source>
+          <target state="translated">Behandle, og sender dataene fra grensesnittet-forekomst.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Perform any internal processing as needed on the data, and then typically a consumer control will render the data to the page.</source>
+          <target state="translated">Utføre en intern behandling etter behov på dataene, og deretter vanligvis en Forbrukerkontroll vil føre til at dataene på siden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A common way of doing this is to override the control's &lt;xref:System.Web.UI.Control.OnPreRender%2A&gt; method.</source>
+          <target state="translated">Er en vanlig måte å gjøre dette til å overstyre kontrollens &lt;xref:System.Web.UI.Control.OnPreRender%2A&gt;metode.&lt;/xref:System.Web.UI.Control.OnPreRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  During a synchronous request, a consumer should request data directly from the provider during or immediately after the &lt;xref:System.Web.UI.Control.PreRender&gt; event.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Under synkron forespørsel, en forbruker skal be om data direkte fra leverandøren under eller umiddelbart etter at den &lt;xref:System.Web.UI.Control.PreRender&gt;hendelsen.&lt;/xref:System.Web.UI.Control.PreRender&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During an asynchronous request, if the provider's callback method is not called at any point during rendering, the developer can assume that no data was sent to the consumer.</source>
+          <target state="translated">Under en asynkron forespørsel om leverandørens tilbakeringing metoden ikke er kalles når som helst under gjengivelse, kan utvikleren ha at ingen data ble sendt til brukeren.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a control has been equipped to act as a consumer, the control can participate in connections (assuming that a provider control is also equipped and available).</source>
+          <target state="translated">Når en kontroll har blitt forutsetninger for å utføre en handling som forbruker, kan kontrollen kobles sammen (forutsatt at leverandøren kontrollen er også stand og tilgjengelig).</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a static, declarative connection in the markup of a Web page, developers can use the <ph id="ph1">`&lt;asp:webpartconnection&gt;`</ph> element.</source>
+          <target state="translated">Hvis du vil opprette en statisk, deklarerende tilkobling i koden for en webside, utviklere kan bruke den <ph id="ph1">`&lt;asp:webpartconnection&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ConnectionConsumer`</ph> attribute in the consumer source code that identifies the callback method specifies an ID for the connection point, then that value must be assigned to the <ph id="ph2">`ConsumerConnectionPointID`</ph> attribute in the <ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph> element on a page.</source>
+          <target state="translated">Hvis den <ph id="ph1">`ConnectionConsumer`</ph> attributt i forbrukeren kildekode som identifiserer metoden tilbakeringing angir en ID for tilkoblingspunktet og denne verdien må være tilordnet til den <ph id="ph2">`ConsumerConnectionPointID`</ph> attributt i den <ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph> element på en side.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A reason that a developer might specify an ID for a consumer connection point is if there are multiple connection points defined in the consumer control.</source>
+          <target state="translated">En årsak for at en utvikler kan angi en ID for et forbrukeren connection point er hvis det er flere tilkoblingen punkt som er definert i forbrukeren kontrollen.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an ID is not specified for the consumer connection point in the consumer control, a value does not have to be assigned to the <ph id="ph1">`ConsumerConnectionPointID`</ph> attribute in the page either, because the connection will be created using a default value obtained from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt; field.</source>
+          <target state="translated">Hvis en ID ikke er angitt for forbrukstilkoblingspunktet forbrukeren kontrollens, har ikke en verdi som skal tilordnes til det <ph id="ph1">`ConsumerConnectionPointID`</ph> attributt på denne siden, fordi tilkoblingen vil bli opprettet med en standardverdi som er hentet fra den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;felt.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a connection in code, developers must create a new ConsumerConnectionPoint object by calling the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; method and passing to it the ID of the consumer control, along with the ID or index of the defined ConsumerConnectionPoint object in the consumer control.</source>
+          <target state="translated">Hvis du vil opprette en tilkobling i koden, må utviklere opprette et nytt objekt ConsumerConnectionPoint ved å kalle den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;metoden og sende til den ID sammen med ID eller indeksen for definerte ConsumerConnectionPoint objektet forbrukeren kontrollens kontrollen forbrukeren.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned ConsumerConnectionPoint object, along with a reference to the consumer control, a reference to the provider control, and a corresponding &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; object, are all passed to the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt; method to create a new &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; object.</source>
+          <target state="translated">Det returnerte ConsumerConnectionPoint-objektet, sammen med en referanse til kontrollen forbrukeren, en referanse til kontrollen leverandør og en tilsvarende &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;objekt, blir alle sendt til den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt;metode for å opprette en ny &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;objektet.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although developers can use consumer connection points as part of establishing connections either declaratively or programmatically, users can also interact with consumer connection points to establish connections through the user interface (UI).</source>
+          <target state="translated">Men utviklere kan bruke forbrukeren tilkoblingen punkt som en del av oppretter tilkoblinger deklarativt eller programmatisk, kan brukere også samhandle med forbrukeren tilkoblingen peker til å opprette tilkoblinger via brukergrensesnittet (UI).</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If developers declare a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control on a Web page, it provides a run-time UI for users to create connections.</source>
+          <target state="translated">Hvis utviklere deklarere en &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll på en webside det gir en kjøretid Brukergrensesnittet for brukere å opprette tilkoblinger.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If users choose the provider control as the starting point for establishing the connection by clicking its connect verb (they could also choose the consumer; there is no difference in the resulting connection), in the UI they will see a drop-down list control with the display names of the available consumer connection point (or points if there are multiple ones) that the provider can send the data to.</source>
+          <target state="translated">Hvis brukere velger leverandøren kontrollen som utgangspunkt for oppretting av tilkoblingen ved å klikke den koble verb (de kan også velge forbrukeren; det er ingen forskjell i den resulterende tilkoblingen), i Brukergrensesnittet kommentarene rullegardinlistekontroll med visningsnavnet for tilgjengelig forbrukeren tilkoblingen punkt (eller punkt hvis det finnes flere dem) som leverandøren kan sende data til.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users must select a consumer connection point to establish a connection.</source>
+          <target state="translated">Brukerne må velge et forbrukeren connection point å opprette en tilkobling.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ConsumerConnectionPoint object associates directly with a specific consumer control, and stores details about a connection in the properties it inherits from the base &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class.</source>
+          <target state="translated">Et objekt for ConsumerConnectionPoint knytter direkte til en bestemt Forbrukerkontroll og lagrer detaljer om en tilkobling i egenskapene for den arver fra base &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;klasse.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the inherited &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; property, a consumer connection point keeps the type of interface it uses.</source>
+          <target state="translated">I for eksempel arvet &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;egenskapen tilkoblingspunktet en forbruker beholder typen grensesnitt den bruker.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provider and consumer in a connection both understand the interface type, the controls are compatible and capable of forming a direct connection.</source>
+          <target state="translated">Hvis begge forstår grensesnittypen leverandør og forbrukeren i en tilkobling, er kontrollene kompatible og kan utgjør en direkte tilkobling.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provider and consumer cannot work with the same interface type, they are incompatible and must use a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object to translate the provider connection point's &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; property into a type that the consumer can work with.</source>
+          <target state="translated">Hvis leverandør og forbrukeren ikke virker med den samme grensesnittypen, de er kompatible og må bruke en &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;objektet som oversettes leverandøren for tilkoblingspunktet &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;egenskapen til en type som brukeren kan arbeide med.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another important inherited property is the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt; property, which provides a friendly name to display in the UI for users to choose a consumer connection point when creating connections.</source>
+          <target state="translated">En annen viktig arvede egenskapen den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;egenskap, som gir et egendefinert navn skal vises i Brukergrensesnittet for brukere å velge en forbrukeren tilkobling peke når du oppretter tilkoblinger.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The display name is the required parameter when developers add a <ph id="ph1">`ConnectionConsumer`</ph> attribute to the callback method in a consumer control.</source>
+          <target state="translated">Visningsnavnet er den obligatoriske parameteren når utviklere legger til en <ph id="ph1">`ConnectionConsumer`</ph> attributt til tilbakeringing-metoden i en Forbrukerkontroll.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The inherited &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt; property is also useful, as indicated above, because it provides a unique identifier for a consumer connection point in the event that a consumer has multiple connection points.</source>
+          <target state="translated">Arvet &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;er også nyttig, slik det er angitt ovenfor, fordi den inneholder en unik identifikator for et forbrukeren connection point som en forbruker har flere tilkoblingen punkter.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A consumer can have multiple ConsumerConnectionPoint objects defined in it, and in this case, when developers add the <ph id="ph1">`ConnectionConsumer`</ph> attribute to a method, they should specify an ID value to distinguish each connection point.</source>
+          <target state="translated">En forbruker kan ha flere ConsumerConnectionPoint-objekter som er definert i den, og i dette tilfellet når utviklere legger til den <ph id="ph1">`ConnectionConsumer`</ph> attributtet de bør angi ID-verdien for å skille hver tilkoblingspunktet til en metode.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One other notable inherited property is the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt; property, which indicates whether a consumer connection point can connect simultaneously to multiple providers.</source>
+          <target state="translated">En annen viktige arvede-egenskap er den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;egenskapen som indikerer om et forbrukeren connection point kan koble samtidig til flere leverandører.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property value is <ph id="ph1">`false`</ph> by default for consumer connection points (whereas it defaults to <ph id="ph2">`true`</ph> for provider connection points).</source>
+          <target state="translated">En verdi for denne egenskapen er <ph id="ph1">`false`</ph> som standard for forbrukeren tilkoblingen punkt (mens brukes som standard <ph id="ph2">`true`</ph> for leverandøren tilkoblingen punkt).</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConsumerConnectionPoint class adds several unique methods to the members it inherits from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class.</source>
+          <target state="translated">Klassen ConsumerConnectionPoint legger til flere unike metoder for medlemmene som arver fra &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;klasse.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt; method invokes the consumer's own defined callback method to retrieve the interface instance from the provider.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt;metoden aktiverer metoden forbrukeren egen definert tilbakeringing for å hente grensesnittet forekomsten av leverandøren.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt; method returns a Boolean value that indicates whether the connection point is able to establish connections, based on the current state of the associated consumer control.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt;metoden returnerer en boolsk verdi som angir om tilkoblingspunktet er i stand til å opprette tilkoblinger, basert på gjeldende status for den tilknyttede forbruker kontrollen.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConsumerConnectionPoint constructor for the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class simply calls the base constructor, passing to it the various parameters and initializing the base class.</source>
+          <target state="translated">Konstruktøren ConsumerConnectionPoint for &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klassen kaller ganske enkelt base konstruktøren, sende til den forskjellige parametere og initialiserer base klassen.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base class constructor checks a number of the parameters for a connection point and can throw several exceptions.</source>
+          <target state="translated">Basisklassen konstruktøren kontrollerer et antall parametere for et connection point, og kan iverksette flere unntak.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of possible exceptions, see the Exceptions section.</source>
+          <target state="translated">En liste over mulige unntak, kan du se delen unntak.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call the ConsumerConnectionPoint constructor to create your own instance of the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class.</source>
+          <target state="translated">Du kan ringe konstruktøren ConsumerConnectionPoint for å opprette en forekomst av &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klassen.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in cases where you are simply establishing a connection and not extending the class, you should call the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; method to return a connection point object from a provider.</source>
+          <target state="translated">Imidlertid i tilfeller der du er ganske enkelt å opprette en tilkobling og utvider ikke klassen, må du først kalle den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;metode til å returnere en connection point-objektet fra en leverandør.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method in the consumer control that returns an interface instance to consumers to establish a connection.</source>
+          <target state="translated">Metoden forbrukeren kontrollens som returnerer en grensesnittet forekomst til forbrukerne til å opprette en tilkobling.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the interface that the consumer receives from a provider.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;grensesnittet forbrukeren mottar fra en leverandør.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the consumer control with which the consumer connection point is associated.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;av forbrukeren kontrollen som er tilknyttet tilkoblingspunktet forbrukeren.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A friendly display name for the consumer connection point that appears to users in the connection user interface (UI).</source>
+          <target state="translated">Et egendefinert navn for tilkoblingspunktet forbrukeren som vises for brukere i tilkoblingen-brukergrensesnittet (UI).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the consumer connection point.</source>
+          <target state="translated">En unik identifikator for tilkoblingspunktet for brukeren.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating whether the consumer connection point can have multiple simultaneous connections with providers.</source>
+          <target state="translated">En boolsk verdi som angir om tilkoblingspunktet forbrukeren kan ha flere samtidige tilkoblinger leverandører.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;controlType &lt;/code&gt;</ph>is not the same type as the consumer control (or a valid class derived from it).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;controlType &lt;/code&gt;</ph>er ikke av samme type som forbruker-kontrollen (eller en gyldig klasse som er avledet fra den).</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Invokes the callback method in a consumer control and retrieves the interface instance from a provider control.</source>
+          <target state="translated">Aktiverer tilbakeringing-metoden i en Forbrukerkontroll og henter grensesnittet forekomsten fra en leverandør-kontroll.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method receives an interface instance from a provider that contains data for the consumer control.</source>
+          <target state="translated">Denne metoden mottar en grensesnittet forekomst fra en leverandør som inneholder data for de forbrukeren-kontrollen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetObject method is called by &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; objects when a connection is being activated.</source>
+          <target state="translated">Metoden SetObject kalles av &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;objekter når en tilkobling blir aktivert.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a critical step that is part of initiating a connection and enabling two controls to share data.</source>
+          <target state="translated">Dette er et viktig trinn som en del av initialisere en tilkobling og aktivere to kontroller å dele data.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consumer control in a connection must be able to work with the same type of interface as the provider.</source>
+          <target state="translated">Forbrukeren kontrollen i en tilkobling må være kan arbeide med den samme typen grensesnittet som leverandøren.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does not, the controls are incompatible and a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object must be used to establish a connection.</source>
+          <target state="translated">Hvis ikke, kontrollene er inkompatible og en &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;objektet må brukes til å opprette en tilkobling.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The consumer control associated with a consumer connection point.</source>
+          <target state="translated">Forbrukeren kontrollen som er forbundet med et forbrukeren connection point.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The interface instance returned from a provider control.</source>
+          <target state="translated">Grensesnittet forekomsten ble returnert fra en leverandør-kontroll.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Determines whether a consumer connection point is currently capable of establishing a connection.</source>
+          <target state="translated">Bestemmer om tilkoblingspunktet en forbruker, er for øyeblikket kan opprette en tilkobling.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsConnection method as implemented always returns <ph id="ph1">`true`</ph> in all cases for the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class.</source>
+          <target state="translated">Metoden SupportsConnection som implementert alltid returnerer <ph id="ph1">`true`</ph> i alle tilfellene for &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klasse.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The intent for this method is to have it check on the state of <ph id="ph1">`control`</ph> and <ph id="ph2">`secondaryInterfaces`</ph> at certain critical points to determine whether a &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; object is presently able to create a connection.</source>
+          <target state="translated">Meningen for denne metoden er at den skal se på tilstanden til <ph id="ph1">`control`</ph> og <ph id="ph2">`secondaryInterfaces`</ph> på bestemte kritiske tidspunkter å finne ut om en &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;objektet er for øyeblikket kan opprette en tilkobling.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There can be scenarios where <ph id="ph1">`control`</ph> is in a state that would make it impossible to form a connection, or where <ph id="ph2">`secondaryInterfaces`</ph> must exist before a connection can be formed.</source>
+          <target state="translated">Det kan være scenarioer der <ph id="ph1">`control`</ph> i en tilstand som kan gjøre det mulig å opprette en tilkobling eller hvor <ph id="ph2">`secondaryInterfaces`</ph> må finnes før en tilkobling kan utformes.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, developers can inherit from the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class, and override the SupportsConnection method, providing a custom implementation to determine when the connection point is ready to support connections.</source>
+          <target state="translated">I slike tilfeller utviklere kan arve fra den &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klasse, og overstyre metoden SupportsConnection gir en egendefinert implementering for å finne ut når tilkoblingspunktet er klar til å støtte tilkoblinger.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The consumer control associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Forbrukeren kontrollen som er tilknyttet den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionInterfaceCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of any secondary interfaces that participate in a connection.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionInterfaceCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for alle sekundære grensesnitt som deltar i en tilkobling.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a connection point can currently establish a connection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis et connection point for øyeblikket kan opprette en tilkobling; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

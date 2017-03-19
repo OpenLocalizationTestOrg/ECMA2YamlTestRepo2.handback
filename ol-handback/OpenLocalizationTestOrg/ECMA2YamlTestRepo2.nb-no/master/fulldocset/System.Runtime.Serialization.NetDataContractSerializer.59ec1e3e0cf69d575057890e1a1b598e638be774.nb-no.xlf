@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53500fa0905a822960a5d323370b23d5eda77216</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.NetDataContractSerializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8df1589ce8717cf8fa13e868da3ecdcb32d45883</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f02ce8744ba65e695153b90463929eddf7003a4b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes and deserializes an instance of a type into XML stream or document using the supplied <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> types.</source>
+          <target state="translated">Serializes og deserializes en forekomst av en type i XML-strømmen eller dokumentet med den angitte <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> typer.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Denne klassen kan ikke arves.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NetDataContractSerializer differs from the &lt;xref:System.Runtime.Serialization.DataContractSerializer&gt; in one important way: the NetDataContractSerializer includes CLR type information in the serialized XML, whereas the &lt;xref:System.Runtime.Serialization.DataContractSerializer&gt; does not.</source>
+          <target state="translated">NetDataContractSerializer er forskjellig fra det &lt;xref:System.Runtime.Serialization.DataContractSerializer&gt;på én viktig måte: NetDataContractSerializer inneholder informasjon om CLR i serialisert XML-filen, mens den &lt;xref:System.Runtime.Serialization.DataContractSerializer&gt;ikke.&lt;/xref:System.Runtime.Serialization.DataContractSerializer&gt; &lt;/xref:System.Runtime.Serialization.DataContractSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the NetDataContractSerializer can be used only if both the serializing and deserializing ends share the same CLR types.</source>
+          <target state="translated">NetDataContractSerializer kan derfor brukes bare hvis begge serialisering og deserialisering av endene deler samme CLR-typer.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer can serialize types to which either the &lt;xref:System.Runtime.Serialization.DataContractAttribute&gt; or &lt;xref:System.SerializableAttribute&gt; attribute has been applied.</source>
+          <target state="translated">Serialiseringen kan serialisere typer som enten den &lt;xref:System.Runtime.Serialization.DataContractAttribute&gt;eller &lt;xref:System.SerializableAttribute&gt;attributtet er brukt.&lt;/xref:System.SerializableAttribute&gt; &lt;/xref:System.Runtime.Serialization.DataContractAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also serializes types that implement &lt;xref:System.Runtime.Serialization.ISerializable&gt;.</source>
+          <target state="translated">Det også serializes typer som implementerer &lt;xref:System.Runtime.Serialization.ISerializable&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about serialization, see <bpt id="p1">[</bpt>Serialization and Deserialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om serialisering <bpt id="p1">[</bpt>serialiseringen og Deserialiseringen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Incompatibility with XElement    The &lt;xref:System.Xml.Linq.XElement&gt; class is used to write XML.</source>
+          <target state="translated">Ikke er kompatibel med XElement den &lt;xref:System.Xml.Linq.XElement&gt;klassen brukes til å skrive til XML.&lt;/xref:System.Xml.Linq.XElement&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the <ph id="ph1">`NetDataContractSerializer`</ph> cannot serialize an instance of the type.</source>
+          <target state="translated">Imidlertid den <ph id="ph1">`NetDataContractSerializer`</ph> kan ikke serialisere en forekomst av typen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code, therefore, fails with the exception: "Root type 'System.Xml.Linq.XElement' is not supported at the top level by NetDataContractSerializer since it is IXmlSerializable with <ph id="ph1">`IsAny`</ph><ph id="ph2">=</ph><ph id="ph3">`true`</ph> and must write all its contents including the root element."</source>
+          <target state="translated">Følgende kode, mislykkes derfor med unntaket: "rotmappen type, System.Xml.Linq.XElement, ikke støttes på øverste nivå av NetDataContractSerializer fordi den er IXmlSerializable med <ph id="ph1">`IsAny`</ph> <ph id="ph2">=</ph> <ph id="ph3">`true`</ph> og må skrive inn innholdet inkludert rotelementet."</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>NetDataContractSerializer#15<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.seriali_19_1.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>NetDataContractSerializer#15<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.seriali_19_1.vb)</ept><ept id="p3">]</ept>       However, if an <ph id="ph1">`XElement`</ph> is used as the type of a field or property of a class, the data contained by the field or property is serialized.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>NetDataContractSerializer&amp;#15;<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.seriali_19_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>NetDataContractSerializer&amp;#15;<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.seriali_19_1.vb)</ept> <ept id="p3">]</ept> imidlertid Hvis en <ph id="ph1">`XElement`</ph> brukes som type et felt eller en egenskap av en klasse, dataene ved feltet eller egenskapen serialiseres.  </target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because as a member of a class, the data is not the top level of the class.</source>
+          <target state="translated">Dette er fordi som medlem av en klasse dataene ikke er det øverste nivået i klassen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied streaming context data.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med de angitte direkteavspilling kontekst dataene.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; class allows you to pass in user-specific context data to use while reading and writing objects.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.StreamingContext&gt;klassen lar deg sende i brukerspesifikke konteksten dataene som skal brukes under lesing og skriving av objekter.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains context data.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder Kontekstdata.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied XML root element and namespace.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte rot-XML-elementet og navneområde.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">Navnet på XML-elementet som omslutter innhold til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The namespace of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">Navneområdet for XML-elementet som omslutter innhold til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with two parameters of type &lt;xref:System.Xml.XmlDictionaryString&gt; that contain the root element and namespace used to specify the content.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse to parametere av typen &lt;xref:System.Xml.XmlDictionaryString&gt;som inneholder rotelementet og navneområdet som brukes til å angi innholdet.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.XmlDictionaryString&gt; can be used to optimize performance when the same set of strings is used across object instances.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlDictionaryString&gt;kan brukes til å optimalisere ytelsen når det samme settet med strenger brukes på tvers av objektforekomster av.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlDictionaryString&gt; that contains the name of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlDictionaryString&gt;som inneholder navnet på XML-elementet som omslutter innhold til å serialisere eller deserialisere.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlDictionaryString&gt; that contains the namespace of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlDictionaryString&gt;som inneholder navneområdet for XML-elementet som omslutter innhold til å serialisere eller deserialisere.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied context data; in addition, specifies the maximum number of items in the object to be serialized, and parameters to specify whether extra data is ignored, the assembly loading method, and a surrogate selector.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse med de angitte kontekst dataene; i tillegg angir det maksimale antallet elementer i objektet som skal serialiseres og parameterne til å angi om ekstra data ignoreres metoden samlingen innlasting og en erstatning velger.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ignoreExtensionDataObject`</ph> parameter is used when the &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt; interface is implemented in the class that is being serialized or deserialized.</source>
+          <target state="translated">Den <ph id="ph1">`ignoreExtensionDataObject`</ph> parameteren brukes når det &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt;grensesnittet er implementert i klassen som er i serialiseres eller deserialiseres.&lt;/xref:System.Runtime.Serialization.IExtensibleDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains context data.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder Kontekstdata.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The maximum number of items in the graph to serialize or deserialize.</source>
+          <target state="translated">Maksimalt antall elementer i diagrammet til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to ignore the data supplied by an extension of the type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ignorerer data som er angitt av en filtype av type. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value that specifies a method for locating and loading assemblies.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opplistingsverdi som angir en metode for å finne og laste inn samlinger.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An implementation of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Implementering av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph> value is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph>verdien er mindre enn 0.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied context data and root name and namespace; in addition, specifies the maximum number of items in the object to be serialized, and parameters to specify whether extra data is ignored, the assembly loading method, and a surrogate selector.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse med den angitte konteksten data og roten navn og navneområde; i tillegg angir det maksimale antallet elementer i objektet som skal serialiseres og parameterne til å angi om ekstra data ignoreres metoden samlingen innlasting og en erstatning velger.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ignoreExtensionDataObject`</ph> parameter is used when the &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt; interface is implemented in the class that is being serialized or deserialized.</source>
+          <target state="translated">Den <ph id="ph1">`ignoreExtensionDataObject`</ph> parameteren brukes når det &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt;grensesnittet er implementert i klassen som er i serialiseres eller deserialiseres.&lt;/xref:System.Runtime.Serialization.IExtensibleDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">Navnet på XML-elementet som omslutter innhold til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The namespace of the XML element that encloses the content to serialize or deserialize.</source>
+          <target state="translated">Navneområdet for XML-elementet som omslutter innhold til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains context data.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder Kontekstdata.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The maximum number of items in the graph to serialize or deserialize.</source>
+          <target state="translated">Maksimalt antall elementer i diagrammet til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to ignore the data supplied by an extension of the type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ignorerer data som er angitt av en filtype av type. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value that specifies a method for locating and loading assemblies.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opplistingsverdi som angir en metode for å finne og laste inn samlinger.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An implementation of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDataContractSurrogate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to handle the legacy type.</source>
+          <target state="translated">Implementering av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDataContractSurrogate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> til å håndtere eldre typen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph> value is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph>verdien er mindre enn 0.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied context data, and root name and namespace (as &lt;xref:System.Xml.XmlDictionaryString&gt; parameters); in addition, specifies the maximum number of items in the object to be serialized, and parameters to specify whether extra data found is ignored, assembly loading method, and a surrogate selector.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.NetDataContractSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Kontekstdata og roten navn og navneområde (som &lt;xref:System.Xml.XmlDictionaryString&gt;Parametere); i tillegg angir det maksimale antallet elementer i objektet som skal serialiseres og parameterne til å angi om ekstra data funnet ignoreres metoden for innlasting av samlingen og en erstatning velger.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.XmlDictionaryString&gt; can be used to optimize performance when the same set of strings is used across object instances.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlDictionaryString&gt;kan brukes til å optimalisere ytelsen når det samme settet med strenger brukes på tvers av objektforekomster av.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ignoreExtensionDataObject`</ph> parameter is used when the &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt; interface is implemented in the class that is being serialized or deserialized.</source>
+          <target state="translated">Den <ph id="ph1">`ignoreExtensionDataObject`</ph> parameteren brukes når det &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt;grensesnittet er implementert i klassen som er i serialiseres eller deserialiseres.&lt;/xref:System.Runtime.Serialization.IExtensibleDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlDictionaryString&gt; that contains the root element of the content.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlDictionaryString&gt;som inneholder rotelementet for innholdet.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlDictionaryString&gt; that contains the namespace of the root element.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlDictionaryString&gt;som inneholder navneområdet for rotelementet.&lt;/xref:System.Xml.XmlDictionaryString&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains context data.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder Kontekstdata.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The maximum number of items in the graph to serialize or deserialize.</source>
+          <target state="translated">Maksimalt antall elementer i diagrammet til å serialisere eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to ignore the data supplied by an extension of the type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ignorerer data som er angitt av en filtype av type. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value that specifies a method for locating and loading assemblies.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opplistingsverdi som angir en metode for å finne og laste inn samlinger.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An implementation of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDataContractSurrogate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to handle the legacy type.</source>
+          <target state="translated">Implementering av den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDataContractSurrogate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> til å håndtere eldre typen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph> value is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;maxItemsInObjectGraph&lt;/code&gt;</ph>verdien er mindre enn 0.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets a value that specifies a method for locating and loading assemblies.</source>
+          <target state="translated">Henter en verdi som angir en metode for å finne og samlinger lastes inn.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An <ph id="ph1">`AssemblyFormat`</ph> instance can have two styles: &lt;xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt; or &lt;xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt;.</source>
+          <target state="translated">En <ph id="ph1">`AssemblyFormat`</ph> forekomsten kan ha to stiler: &lt;xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt;eller &lt;xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt;.&lt;/xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt; &lt;/xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying <ph id="ph1">`Simple`</ph> allows types in one version to be loaded and deserialized from an instance serialized from a different version.</source>
+          <target state="translated">Angir <ph id="ph1">`Simple`</ph> tillater typer i én versjon lastes inn og deserialiseres fra en forekomst serialisert fra en annen versjon.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value that specifies a method for locating and loading assemblies.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opplistingsverdi som angir en metode for å finne og laste inn samlinger.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value being set does not correspond to any of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Angir verdien som ikke tilsvarer noen av de <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that controls class loading.</source>
+          <target state="translated">Henter eller angir et objekt som styrer klassen innlasting.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During serialization, a formatter transmits the information required to create an instance of an object of the correct type and version.</source>
+          <target state="translated">Under serialisering sender en formatering informasjonen som kreves for å opprette en forekomst av et objekt av riktig type og versjon.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information generally includes the full type name and assembly name of the object.</source>
+          <target state="translated">Denne informasjonen inkluderer vanligvis fullt typenavn og samlingsnavnet for objektet.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The assembly name includes the name, version, and strong name hash of the assembly.</source>
+          <target state="translated">Navnet på samlingen inneholder navn, versjonen og sterkt navn hash for samlingen.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, deserialization uses this information to create an instance of an identical object (with the exception of any assembly loading restricted by the security policy).</source>
+          <target state="translated">Som standard bruker deserialisering denne informasjonen til å opprette en forekomst av et identisk objekt (med unntak av samlinger innlasting av begrenset av sikkerhetspolicyen).</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some users need to control which class to load, either because the class has moved between assemblies or a different version of the class is required on the server and client.</source>
+          <target state="translated">Noen brukere må kontrollere hvilke klassen for å laste inn, enten fordi klassen har flyttet mellom samlinger eller en annen versjon av klassen kreves på serveren og klientprogrammene.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used with the current formatter.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> brukes med den gjeldende formateringen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets the object that enables the passing of context data that is useful while serializing or deserializing.</source>
+          <target state="translated">Henter eller angir objektet som gjør det mulig at ingen Kontekstdata som kan brukes under serialisering eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains the context data.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder dataene kontekst.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Deserializes an XML document or stream into an object.</source>
+          <target state="translated">Deserializes en XML-dokument eller strømmen til et objekt.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method assumes the default format is text XML.</source>
+          <target state="translated">Denne metoden tolket standardformatet teksten XML.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Kalle denne metoden med uklarerte data er en sikkerhetsrisiko.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Kalle denne metoden bare med klarert data.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>uklarerte Data sikkerhetsrisiko<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; that contains the XML to deserialize.</source>
+          <target state="translated">En &lt;xref:System.IO.Stream&gt;som inneholder XML deserialisering.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The deserialized object.</source>
+          <target state="translated">Deserialisert objektet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets a value that specifies whether data supplied by an extension of the object is ignored.</source>
+          <target state="translated">Henter en verdi som angir om dataene som ble levert av objektet-filtypen ignoreres.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When implementing the &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt;, data from a future version of a type can be stored by the &lt;xref:System.Runtime.Serialization.ExtensionDataObject&gt;.</source>
+          <target state="translated">Ved implementering av den &lt;xref:System.Runtime.Serialization.IExtensibleDataObject&gt;data fra en fremtidig versjon av en type som kan lagres av &lt;xref:System.Runtime.Serialization.ExtensionDataObject&gt;.&lt;/xref:System.Runtime.Serialization.ExtensionDataObject&gt; &lt;/xref:System.Runtime.Serialization.IExtensibleDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During a round trip (where an object is deserialized, altered, and serialized again), the extra data is stored and serialized again.</source>
+          <target state="translated">Under en tur-retur (der et objekt er deserialiseres, endrede og serialiserte på nytt), ekstra dataene lagres og serialisert på nytt.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Serialization and Deserialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>serialiseringen og Deserialiseringen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to ignore the data supplied by an extension of the type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ignorerer data som er angitt av en filtype av type. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Xml.XmlDictionaryReader&gt; is positioned on an object that can be deserialized using the specified reader.</source>
+          <target state="translated">Bestemmer om den &lt;xref:System.Xml.XmlDictionaryReader&gt;plasseres på et objekt som kan deserialiseres ved hjelp av den angitte leseren.&lt;/xref:System.Xml.XmlDictionaryReader&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.DataContractSerializer.IsStartObject%2A&gt; determines whether it can read an object by examining the name and namespace of the XML element the reader is positioned at, and comparing the values to expected name and namespace.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.DataContractSerializer.IsStartObject%2A&gt;bestemmer om den kan lese et objekt ved å kontrollere navn og navneområde for elementet XML-leseren er plassert i og sammenligne verdiene som forventet navn og navneområde.&lt;/xref:System.Runtime.Serialization.DataContractSerializer.IsStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The expected name and namespace can be set with the following: the data contract name and namespace of the type passed into the constructor, or the <ph id="ph1">`rootName`</ph> and <ph id="ph2">`rootNamespace`</ph> values passed into the constructor (if present).</source>
+          <target state="translated">Forventet navn og navneområde kan angis med følgende: dataene kontrakt navn og navneområde av typen som ble sendt til konstruktøren, eller <ph id="ph1">`rootName`</ph> og <ph id="ph2">`rootNamespace`</ph> verdier som ble sendt til konstruktøren (hvis aktuelt).</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the <ph id="ph1">`rootName`</ph> and <ph id="ph2">`rootNamespace`</ph> in the following constructors: &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.String%2CSystem.String%29?displayProperty=fullName&gt;, &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%29?displayProperty=fullName&gt;, and &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%2CSystem.Runtime.Serialization.StreamingContext%2CSystem.Int32%2CSystem.Boolean%2CSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle%2CSystem.Runtime.Serialization.ISurrogateSelector%29?displayProperty=fullName&gt;.</source>
+          <target state="translated">Du kan angi den <ph id="ph1">`rootName`</ph> og <ph id="ph2">`rootNamespace`</ph> i følgende Konstruktører: &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.String%2CSystem.String%29?displayProperty=fullName&gt;, &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%29?displayProperty=fullName&gt;, og &lt;xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%2CSystem.Runtime.Serialization.StreamingContext%2CSystem.Int32%2CSystem.Boolean%2CSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle%2CSystem.Runtime.Serialization.ISurrogateSelector%29?displayProperty=fullName&gt;.&lt;/xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%2CSystem.Runtime.Serialization.StreamingContext%2CSystem.Int32%2CSystem.Boolean%2CSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle%2CSystem.Runtime.Serialization.ISurrogateSelector%29?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.Xml.XmlDictionaryString%2CSystem.Xml.XmlDictionaryString%29?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Serialization.NetDataContractSerializer.%23ctor%28System.String%2CSystem.String%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlDictionaryReader&gt; that contains the XML to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlDictionaryReader&gt;som inneholder XML-filen til å lese.&lt;/xref:System.Xml.XmlDictionaryReader&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the reader is at the start element of the stream to read; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, hvis leseren på startelement i dataflyten lese; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Xml.XmlReader&gt; is positioned on an object that can be deserialized using the specified reader.</source>
+          <target state="translated">Bestemmer om den &lt;xref:System.Xml.XmlReader&gt;plasseres på et objekt som kan deserialiseres ved hjelp av den angitte leseren.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; that contains the XML to read.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlReader&gt;som inneholder XML-filen til å lese.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the reader is at the start element of the stream to read; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis leseren på startelement i dataflyten lese; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets the maximum number of items allowed in the object to be serialized.</source>
+          <target state="translated">Henter maksimalt antall elementer som er tillatt i objektet som skal serialiseres.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about setting quotas, see <bpt id="p1">[</bpt>Security Considerations for Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om innstillingen opp <bpt id="p1">[</bpt>sikkerhetshensyn for Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The maximum number of items allowed in the object.</source>
+          <target state="translated">Maksimalt antall elementer som er tillatt i objektet.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The default is &lt;xref:System.Int32&gt;.</source>
+          <target state="translated">Standard er &lt;xref:System.Int32&gt;.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Reads the XML stream or document with an &lt;xref:System.Xml.XmlDictionaryReader&gt; and returns the deserialized object.</source>
+          <target state="translated">Leser XML-strømmen eller dokumentet med en &lt;xref:System.Xml.XmlDictionaryReader&gt;og returnerer deserialisert objektet.&lt;/xref:System.Xml.XmlDictionaryReader&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Kalle denne metoden med uklarerte data er en sikkerhetsrisiko.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Kalle denne metoden bare med klarert data.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>uklarerte Data sikkerhetsrisiko<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlReader&gt; used to read the XML stream or document.</source>
+          <target state="translated">Den &lt;xref:System.Xml.XmlReader&gt;brukes til å lese XML-strømmen eller dokumentet.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The deserialized object.</source>
+          <target state="translated">Deserialisert objektet.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is set to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

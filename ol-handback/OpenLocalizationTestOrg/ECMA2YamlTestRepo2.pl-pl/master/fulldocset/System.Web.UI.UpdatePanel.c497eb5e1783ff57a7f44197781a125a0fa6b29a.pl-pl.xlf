@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">efac7803b565a181d8e19ceb83c6112c434bc9bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.UpdatePanel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4488409970feeda34f1864d05aad336b78b89191</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">272ca70a79920fd7bd3723df5baf492737f12dec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables sections of a page to be partially rendered without a postback.</source>
+          <target state="translated">Umożliwia sekcjach strony do renderowania częściowo bez odświeżania strony.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Refreshing UpdatePanel Content<ept id="p2">](#refreshing_updatepanel_content)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>UpdatePanel Usage<ept id="p3">](#updatepanel_usage)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Applying Styles<ept id="p4">](#applying_styles)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Declarative Syntax<ept id="p5">](#declarative_syntax)</ept>      <bpt id="p6">&lt;a name="introduction"&gt;</bpt><ept id="p6">&lt;/a&gt;</ept>    ## Introduction    UpdatePanel controls are a central part of AJAX functionality in ASP.NET.</source>
+          <target state="translated">W tym temacie:- <bpt id="p1">[</bpt>wprowadzenie<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>odświeżenie zawartości elementu UpdatePanel<ept id="p2">](#refreshing_updatepanel_content)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>użycia elementu UpdatePanel<ept id="p3">](#updatepanel_usage)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>stosowanie stylów<ept id="p4">](#applying_styles)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>składni deklaratywnej<ept id="p5">](#declarative_syntax)</ept> <bpt id="p6">&lt;a name="introduction"&gt;</bpt> <ept id="p6">&lt;/a&gt;</ept> ## UpdatePanel wprowadzenie kontrolki są centralnej część funkcjonalności interfejsu AJAX w programie ASP.NET.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They are used with the &lt;xref:System.Web.UI.ScriptManager&gt; control to enable partial-page rendering.</source>
+          <target state="translated">Są one używane przez &lt;xref:System.Web.UI.ScriptManager&gt;formantu, aby umożliwić renderowanie stron częściowych.&lt;/xref:System.Web.UI.ScriptManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Partial-page rendering reduces the need for synchronous postbacks and complete page updates when only part of the page has to be updated.</source>
+          <target state="translated">Częściowego renderowania strony zmniejsza potrzebę synchroniczne ogłaszania zwrotnego strony pełnej aktualizacji, gdy tylko część strony ma zostać zaktualizowany.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Partial-page rendering improves the user experience because it reduces the screen flicker that occurs during a full-page postback and improves Web page interactivity.</source>
+          <target state="translated">Renderowanie stron częściowych poprawia środowisko użytkownika, ponieważ redukuje migotania ekranu, który występuje podczas całej strony ogłaszania zwrotnego i zwiększa interakcyjności strony sieci Web.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="refreshing_updatepanel_content"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Refreshing UpdatePanel Content    When partial-page rendering is enabled, a control can perform a postback that updates the whole page or an asynchronous postback that updates the content of one or more UpdatePanel controls.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="refreshing_updatepanel_content"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Odświeżyć element UpdatePanel zawartości podczas renderowania stron częściowych jest włączone, formantu można wykonać odświeżenie strony, która aktualizuje całej strony lub asynchronicznego ogłaszania zwrotnego, która aktualizuje zawartość jeden lub kilka formantów elementu UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether a control causes an asynchronous postback and updates an UpdatePanel control depends on the following:      -   If the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property of the UpdatePanel control is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the UpdatePanel control's content is updated on every postback that originates from the page.</source>
+          <target state="translated">Określa, czy formant powoduje asynchronicznego ogłaszania zwrotnego i aktualizuje formantu UpdatePanel zależy od następujących czynników: - Jeśli &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;ma ustawioną właściwość formantu UpdatePanel &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, zawartość formantu UpdatePanel jest aktualizowany co odświeżania strony, od którego pochodzi ze strony.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes asynchronous postbacks from controls that are inside other UpdatePanel controls and postbacks from controls that are not inside UpdatePanel controls.</source>
+          <target state="translated">Obejmuje asynchronicznego ogłaszania zwrotnego z formantami, które znajdują się wewnątrz innych kontrolek UpdatePanel i postbacks z formantami, które nie są wewnątrz formantów elementu UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the UpdatePanel control's content is updated in the following circumstances:          -   When you call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the UpdatePanel control explicitly.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;właściwość jest ustawiona na &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, trwa aktualizowanie zawartości formantu UpdatePanel w następujących okolicznościach: — w przypadku wywołania &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metody elementu UpdatePanel kontrolować jawnie.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the UpdatePanel control is nested inside another UpdatePanel control, and the parent panel is updated.</source>
+          <target state="translated">— Gdy formantu UpdatePanel jest zagnieżdżona w innym formantu UpdatePanel i panelu nadrzędnego jest aktualizowany.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When a postback is caused by a control that is defined as a trigger by using the <ph id="ph1">`Triggers`</ph> property of the UpdatePanel control.</source>
+          <target state="translated">-Podczas odświeżania strony jest spowodowany przez formant, który jest zdefiniowany jako wyzwalacz za pomocą <ph id="ph1">`Triggers`</ph> właściwości formantu UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, the control explicitly triggers an update of the panel content.</source>
+          <target state="translated">W tym scenariuszu formantu jawnie wyzwala aktualizacji zawartości panelu.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control can be either inside or outside the UpdatePanel control that the trigger is associated with.</source>
+          <target state="translated">Formant może być wewnątrz lub na zewnątrz formantu UpdatePanel skojarzonego z wyzwalacza.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is set to <ph id="ph1">`true`</ph> and a child control of the UpdatePanel control causes a postback.</source>
+          <target state="translated">-Gdy &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;właściwość jest ustawiona na <ph id="ph1">`true`</ph> i kontrolka podrzędna formantu UpdatePanel powoduje odświeżenie strony.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Child controls of nested UpdatePanel controls do not cause an update to the outer UpdatePanel control unless they are explicitly defined as triggers.</source>
+          <target state="translated">Formantów podrzędnych zagnieżdżonych formantów UpdatePanel nie powodują aktualizację zewnętrznego formantu UpdatePanel, chyba że jawnie są zdefiniowane jako wyzwalacze.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The combination of setting the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property to <ph id="ph1">`false`</ph> and the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt; is not allowed and will throw an exception.</source>
+          <target state="translated">Kombinacja ustawienie &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;właściwości <ph id="ph1">`false`</ph> i &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;właściwości &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;nie jest dozwolone i zgłosi wyjątek.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UpdatePanel control performs an asynchronous post, it adds a custom HTTP header.</source>
+          <target state="translated">Gdy formantu UpdatePanel wykonuje asynchroniczne post, dodaje niestandardowy nagłówek HTTP.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some proxies remove this custom HTTP header.</source>
+          <target state="translated">Niektóre serwery proxy, Usuń ten niestandardowy nagłówek HTTP.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this occurs, the server handles the request as a regular postback, which causes a client error.</source>
+          <target state="translated">W takim przypadku serwer obsługuje żądanie jako zwykły ogłaszania zwrotnego, co powoduje, że błąd klienta.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To resolve this issue, insert a custom form field when you perform asynchronous posts.</source>
+          <target state="translated">Aby rozwiązać ten problem, należy wstawić niestandardowego pola formularza, podczas wykonywania asynchronicznych ogłoszeń.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then check the header or the custom form field in server code.</source>
+          <target state="translated">Następnie zaznacz nagłówek lub niestandardowego pola w kodzie serwera.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="updatepanel_usage"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## UpdatePanel Usage    You can use multiple UpdatePanel controls to update different page regions independently.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="updatepanel_usage"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## UpdatePanel użycia umożliwia wielu formantów UpdatePanel niezależnie aktualizować strony w różnych regionach.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the page that contains one or more UpdatePanel controls is first rendered, all the content of all UpdatePanel controls are rendered and sent to the browser.</source>
+          <target state="translated">Po pierwszej strony, która zawiera co najmniej jeden formant UpdatePanel renderowana zawartość wszystkich kontrolek elementu UpdatePanel są renderowane i wysyłany do przeglądarki.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On subsequent asynchronous postbacks, the content of each UpdatePanel control might not be updated depending on the panel settings and on client or server logic for individual panels.</source>
+          <target state="translated">W kolejnych asynchroniczne ogłaszanie zwrotne zawartości każdego formantu UpdatePanel nie mogły zostać zaktualizowane w zależności od ustawienia panelu i na logice klienta lub serwera dla poszczególnych paneli.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use UpdatePanel controls in the following scenarios:      -   In user controls.</source>
+          <target state="translated">Umożliwia także UpdatePanel formantów w następujących scenariuszach: - w formantach użytkownika.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On master and content pages.</source>
+          <target state="translated">— Na stronie głównej i zawartości.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Nested inside other UpdatePanel controls.</source>
+          <target state="translated">-Zagnieżdżone w innych kontrolek elementu UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Inside templated controls such as the &lt;xref:System.Web.UI.WebControls.GridView&gt; or &lt;xref:System.Web.UI.WebControls.Repeater&gt; controls.</source>
+          <target state="translated">-Wewnątrz opartego na szablonie kontrolki, takich jak &lt;xref:System.Web.UI.WebControls.GridView&gt;lub &lt;xref:System.Web.UI.WebControls.Repeater&gt;formantów.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>UpdatePanel controls can be added declaratively or programmatically.</source>
+          <target state="translated">Można dodawać formanty UpdatePanel deklaratywnie lub programowo.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add an UpdatePanel control programmatically, but you cannot add triggers programmatically.</source>
+          <target state="translated">Można dodać formantu UpdatePanel programowo, ale nie można dodać wyzwalaczy programowo.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create trigger-like behavior, you can register a control on the page as an asynchronous postback control.</source>
+          <target state="translated">Można utworzyć wyzwalacza podobne zachowania, można zarejestrować formantu na stronie jako formant asynchronicznego odświeżania strony.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by calling the &lt;xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt; method of the &lt;xref:System.Web.UI.ScriptManager&gt; control.</source>
+          <target state="translated">Można to zrobić przez wywołanie metody &lt;xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt;metody &lt;xref:System.Web.UI.ScriptManager&gt;kontroli.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then create an event handler that runs in response to the asynchronous postback, and in the handler, call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the UpdatePanel control.</source>
+          <target state="translated">Następnie możesz utworzyć program obsługi zdarzeń, który jest uruchamiany w odpowiedzi na asynchronicznego ogłaszania zwrotnego i obsługi wywołania &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metody formantu UpdatePanel.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="applying_styles"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Applying Styles    The UpdatePanel control accepts expando attributes.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="applying_styles"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Stosowanie stylów UpdatePanel kontroli akceptuje expando atrybuty.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This lets you set a CSS class for the HTMLelements that the controls render.</source>
+          <target state="translated">Dzięki temu można ustawić klasę CSS dla HTMLelements, renderowanie kontrolek.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might create the markup shown in the following example:      <ph id="ph1">```   &lt;asp:UpdatePanel runat="server" class="myStyle"&gt;   &lt;/asp:UpdatePanel&gt;    ```</ph>       The markup in the previous example renders HTML similar to the following when the page runs:      <ph id="ph2">```   &lt;div id="ctl00_MainContent_UpdatePanel1" class="MyStyle"&gt;   &lt;/div&gt;   ```</ph>      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph3">```   &lt;asp:UpdatePanel       ChildrenAsTriggers="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       RenderMode="Block|Inline"       runat="server"       SkinID="string"       UpdateMode="Always|Conditional"       Visible="True|False"   &gt;       &lt;ContentTemplate&gt;           &lt;!-- child controls --&gt;       &lt;/ContentTemplate&gt;       &lt;Triggers&gt;           &lt;asp:AsyncPostBackTrigger                ControlID="string"               EventName="string"           /&gt;           &lt;asp:PostBackTrigger                ControlID="string"           /&gt;       &lt;/Triggers&gt;   &lt;/asp:UpdatePanel&gt;   ```</ph></source>
+          <target state="translated">Na przykład można utworzyć kod znaczników pokazano w poniższym przykładzie: <ph id="ph1">```   &lt;asp:UpdatePanel runat="server" class="myStyle"&gt;   &lt;/asp:UpdatePanel&gt;    ```</ph> znaczników w poprzednim przykładzie renderuje HTML podobny do następującego po uruchomieniu na stronie: <ph id="ph2">```   &lt;div id="ctl00_MainContent_UpdatePanel1" class="MyStyle"&gt;   &lt;/div&gt;   ```</ph> <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> ## składni deklaratywnej      <ph id="ph3">```   &lt;asp:UpdatePanel       ChildrenAsTriggers="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       RenderMode="Block|Inline"       runat="server"       SkinID="string"       UpdateMode="Always|Conditional"       Visible="True|False"   &gt;       &lt;ContentTemplate&gt;           &lt;!-- child controls --&gt;       &lt;/ContentTemplate&gt;       &lt;Triggers&gt;           &lt;asp:AsyncPostBackTrigger                ControlID="string"               EventName="string"           /&gt;           &lt;asp:PostBackTrigger                ControlID="string"           /&gt;       &lt;/Triggers&gt;   &lt;/asp:UpdatePanel&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to initialize a new instance of the &lt;xref:System.Web.UI.UpdatePanel&gt; class.</source>
+          <target state="translated">Ten konstruktor umożliwia inicjuje nowe wystąpienie &lt;xref:System.Web.UI.UpdatePanel&gt;klasy.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dynamically add an &lt;xref:System.Web.UI.UpdatePanel&gt; control to a page, create a new &lt;xref:System.Web.UI.UpdatePanel&gt; instance and then add child controls to the control object that is exposed by the instance's &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Dynamiczne dodawanie &lt;xref:System.Web.UI.UpdatePanel&gt;sterowania do strony, Utwórz nową &lt;xref:System.Web.UI.UpdatePanel&gt;wystąpienia, a następnie dodaj formanty podrzędne do obiektu sterowania udostępnianym przez to wystąpienie &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;Właściwości.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the cascading style sheet (CSS) attributes collection of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Pobiera kolekcję atrybutów kaskadowy arkusz stylów (CSS) <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Attributes property contains a collection of CSS style attributes that can be used in the enclosing <ph id="ph1">`div`</ph> element of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Właściwość Attributes zawiera kolekcję atrybutów stylu CSS, których można użyć w załączonym <ph id="ph1">`div`</ph> elementu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The names of the CSS style rules in the attributes collection.</source>
+          <target state="translated">Nazwy CSS stylów reguły w kolekcji atrybutów.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether postbacks from immediate child controls of an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control update the panel's content.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy ogłaszania zwrotnego z bezpośrednio podrzędne kontrolki z <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroli zaktualizować zawartość panelu.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the ChildrenAsTriggers property to <ph id="ph1">`true`</ph> if you want postbacks from immediate child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to cause an update of the panel's content.</source>
+          <target state="translated">Ustaw właściwości dla właściwości ChildrenAsTriggers <ph id="ph1">`true`</ph> Jeśli chcesz ogłaszania zwrotnego z formanty podrzędne natychmiastowego &lt;xref:System.Web.UI.UpdatePanel&gt;formantu, aby spowodować, że aktualizacja panelu zawartości.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Child controls of nested &lt;xref:System.Web.UI.UpdatePanel&gt; controls will not cause an update of the parent &lt;xref:System.Web.UI.UpdatePanel&gt; control's content unless you call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method explicitly or you define the child controls as triggers.</source>
+          <target state="translated">Formanty podrzędne zagnieżdżone &lt;xref:System.Web.UI.UpdatePanel&gt;formanty nie spowoduje aktualizację nadrzędnej &lt;xref:System.Web.UI.UpdatePanel&gt;formantu elementu zawartości, chyba, że należy wywołać &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;— Metoda jawnie lub zdefiniuj formantów podrzędnych jako wyzwalacze.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt; and the ChildrenAsTriggers property is set to <ph id="ph2">`false`</ph>, an &lt;xref:System.InvalidOperationException&gt; exception is thrown during the &lt;xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Podczas &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;właściwość jest ustawiona na &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;i właściwości dla właściwości ChildrenAsTriggers ustawiono <ph id="ph2">`false`</ph>, &lt;xref:System.InvalidOperationException&gt;zgłoszenia wyjątku podczas &lt;xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt;metody.&lt;/xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination of properties is not allowed for the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Ta kombinacja właściwości nie jest dozwolone dla &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A scenario where you might set ChildrenAsTriggers to <ph id="ph1">`false`</ph> is when you have two &lt;xref:System.Web.UI.UpdatePanel&gt; controls and you want a postback from the first panel to update the content of the second panel but not update its own content.</source>
+          <target state="translated">Scenariusz, w którym można ustawić dla właściwości ChildrenAsTriggers na <ph id="ph1">`false`</ph> jest w przypadku dwóch &lt;xref:System.Web.UI.UpdatePanel&gt;formantów i mają być odświeżenie strony z pierwszym panelu, aby zaktualizować zawartość drugiego panelu, ale nie została zaktualizowana własną zawartość.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the first panel might be a list of products to buy and the second panel might be a shopping cart.</source>
+          <target state="translated">Na przykład pierwszy panelu może być listę produktów kupić i drugi panel może być koszyk.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if postbacks from immediate child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control update the panel's content; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli ogłaszania zwrotnego z bezpośrednio podrzędne kontrolki z <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> aktualizacji kontrolki panelu elementu zawartości, a w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets the template that defines the content of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Pobiera lub ustawia szablon definiujący zawartość <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentTemplate property contains the content that appears inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control when it is rendered.</source>
+          <target state="translated">Właściwość elementu ContentTemplate zawiera zawartość, która pojawia się wewnątrz &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli, gdy jest on renderowany.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create the template's content declaratively or programmatically.</source>
+          <target state="translated">Można utworzyć szablonu zawartości, deklaratywnego lub programowo.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content template of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is a single-instance template.</source>
+          <target state="translated">Szablon zawartości &lt;xref:System.Web.UI.UpdatePanel&gt;formant jest pojedynczym wystąpieniem szablonu.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the properties of the controls it contains can be accessed directly on the page without using the &lt;xref:System.Web.UI.Page.FindControl%2A&gt; method.</source>
+          <target state="translated">W związku z tym właściwości formantów zawiera będą dostępne bezpośrednio na stronie bez użycia &lt;xref:System.Web.UI.Page.FindControl%2A&gt;metody.&lt;/xref:System.Web.UI.Page.FindControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.UI.TemplateInstanceAttribute&gt; class overview.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz &lt;xref:System.Web.UI.TemplateInstanceAttribute&gt;Przegląd klasy.&lt;/xref:System.Web.UI.TemplateInstanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add items to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively, add an <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element between the opening and closing tags of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Aby dodać elementy do &lt;xref:System.Web.UI.UpdatePanel&gt;deklaratywnego sterowania, Dodaj <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element pomiędzy otwierającym, a zamykającym tagiem elementu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Inside the <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element tags, declare other controls and HTML elements.</source>
+          <target state="translated">Wewnątrz <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> znaczniki elementów zadeklarować inne formanty i elementów HTML.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add items to the &lt;xref:System.Web.UI.UpdatePanel&gt; control dynamically, use the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property, which enables you to add child controls without having to create a custom template that implements the &lt;xref:System.Web.UI.ITemplate&gt; interface.</source>
+          <target state="translated">Aby dodać elementy do &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować dynamicznie, użyj &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;właściwość, która umożliwia dodawanie formantów podrzędnych bez konieczności tworzenia szablonu niestandardowego, który implementuje &lt;xref:System.Web.UI.ITemplate&gt;interfejsu.&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that defines the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Wystąpienie definiujące zawartość <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ContentTemplate property of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is set after an instance of the template is created or after the content template container is created.</source>
+          <target state="translated">Właściwość elementu ContentTemplate elementu <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroli jest ustawiona, po utworzeniu wystąpienia szablonu lub po utworzeniu kontenera zawartości szablonu.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a control object to which you can programmatically add child controls.</source>
+          <target state="translated">Pobiera obiekt formantu, z którym można dodać programistycznie formantów podrzędnych.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentTemplateContainer property enables you to programmatically add child controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control without having to define a custom template that inherits from the &lt;xref:System.Web.UI.ITemplate&gt; interface.</source>
+          <target state="translated">Właściwości ContentTemplateContainer umożliwia programowane dodawanie formantów podrzędnych z &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli bez konieczności definiowania szablonu niestandardowego, który dziedziczy &lt;xref:System.Web.UI.ITemplate&gt;interfejsu.&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are adding content to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively or through a designer, you should add content to the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property by using a <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element.</source>
+          <target state="translated">W przypadku dodawania zawartości do &lt;xref:System.Web.UI.UpdatePanel&gt;deklaratywnego sterowania lub za pomocą projektanta, należy dodać zawartości do &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;Właściwości przy użyciu <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> elementu.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który definiuje zawartość <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the child controls for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który zawiera elementu podrzędnego kontrolki dla <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Controls property is overridden from the base &lt;xref:System.Web.UI.Control&gt; class and sealed to prevent additional derivation.</source>
+          <target state="translated">Właściwości formantów jest zastępowany od podstawy &lt;xref:System.Web.UI.Control&gt;klasy i zapieczętowany, aby uniknąć dodatkowych pochodnym.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively, create a <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element inside the &lt;xref:System.Web.UI.UpdatePanel&gt; control markup.</source>
+          <target state="translated">Do dodawania formantów do &lt;xref:System.Web.UI.UpdatePanel&gt;deklaratywnego sterowania, Utwórz <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element wewnątrz &lt;xref:System.Web.UI.UpdatePanel&gt;znacznika kontrolki.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control programmatically, use the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Aby dodać kontrolki do &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować programowo, użyj &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;Właściwości.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Kolekcja formantów podrzędnych dla <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlCollection.Add<bpt id="p1">*</bpt>&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt<ept id="p1">*</ept>&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear<bpt id="p2">*</bpt>&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove<ept id="p2">*</ept>&gt;, or &lt;xref:System.Web.UI.ControlCollection.RemoveAt<bpt id="p3">*</bpt>&gt; method of the <bpt id="p4">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> class has been called. To change the content of the <bpt id="p5">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> control, modify the child controls of the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer<ept id="p3">*</ept>&gt; property.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt;, &lt;&gt;<ept id="p1">*</ept>&gt;, &lt;&gt;<bpt id="p2">*</bpt>&gt;, &lt;&gt;<ept id="p2">*</ept>&gt;, or &lt;&gt;<bpt id="p3">*</bpt>&gt; method of the <bpt id="p4">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> class has been called. Aby zmienić zawartość <bpt id="p5">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept> kontrolować, zmodyfikuj formanty podrzędne &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; właściwości.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that acts as a container for child controls that define the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu, który działa jako kontener dla formantów podrzędnych, które definiują <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zawartości formantu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for use by control developers who want to extend the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Ta metoda jest przeznaczona do użycia przez deweloperów kontroli, którzy chcą rozszerzyć &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in derived classes, you can provide a different root control that acts as a container for your &lt;xref:System.Web.UI.UpdatePanel&gt; control's content.</source>
+          <target state="translated">Na przykład w klasach pochodnych, możesz podać różnych głównych formant, który działa jako kontener dla Twojego &lt;xref:System.Web.UI.UpdatePanel&gt;zawartości formantu.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns a &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Domyślna implementacja zwraca &lt;xref:System.Web.UI.Control&gt;obiektu.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> container for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontener <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zawartości formantu.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns the collection of all controls that are contained in the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Zwraca kolekcję wszystkich kontrolek, które są zawarte w <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateControlCollection method is used by control developers.</source>
+          <target state="translated">Metoda CreateControlCollection jest używana przez deweloperów formantu.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this method is protected and sealed, it is visible to classes that inherit from the &lt;xref:System.Web.UI.UpdatePanel&gt; class, but it cannot be overridden.</source>
+          <target state="translated">Ponieważ ta metoda jest chroniona i zapieczętowany, nie jest widoczna na klasy dziedziczące &lt;xref:System.Web.UI.UpdatePanel&gt;klasy, ale nie można zastąpić.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the base implementation to return a specialized &lt;xref:System.Web.UI.ControlCollection&gt; object that throws an &lt;xref:System.InvalidOperationException&gt; when the &lt;xref:System.Web.UI.ControlCollection.Add%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove%2A&gt;, or &lt;xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt; method of the &lt;xref:System.Web.UI.ControlCollection&gt; class is invoked.</source>
+          <target state="translated">Ta metoda zastępuje implementację podstawową do zwrócenia specjalistycznej &lt;xref:System.Web.UI.ControlCollection&gt;obiekt, który zgłasza &lt;xref:System.InvalidOperationException&gt;podczas &lt;xref:System.Web.UI.ControlCollection.Add%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove%2A&gt;, lub &lt;xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt;metody &lt;xref:System.Web.UI.ControlCollection&gt;klasy jest wywoływany.&lt;/xref:System.Web.UI.ControlCollection&gt; &lt;/xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Remove%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Clear%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.AddAt%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Add%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.UI.ControlCollection&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control, modify the child controls of the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Aby zmienić zawartość &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować, zmodyfikuj formanty podrzędne &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;Właściwości.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that consists of all controls that define the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który zawiera wszystkie formanty, które definiują zawartość <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control trigger collection if partial-page rendering is enabled.</source>
+          <target state="translated">Inicjuje <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroli wyzwalacza kolekcji, jeśli włączono częściowego renderowania strony.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If partial-page rendering is not enabled, the triggers that are defined in the &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt; property are not initialized because they have no effect.</source>
+          <target state="translated">Jeśli nie włączono częściowego renderowania strony, wyzwalaczy, które są zdefiniowane w &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;właściwość nie jest zainicjowana, ponieważ nie mają wpływu.&lt;/xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt; property of the &lt;xref:System.Web.UI.ScriptManager&gt; control gets or sets a value that indicates whether partial-page rendering is enabled.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt;Właściwość &lt;xref:System.Web.UI.ScriptManager&gt;formantu pobiera lub ustawia wartość wskazującą, czy włączono częściowego renderowania strony.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt; property of the &lt;xref:System.Web.UI.ScriptManager&gt; control gets or sets a value that indicates whether partial-page rendering is supported.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt;Właściwość &lt;xref:System.Web.UI.ScriptManager&gt;formantu pobiera lub ustawia wartość wskazującą, czy renderowanie stron częściowych jest obsługiwane.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is being updated as a result of an asynchronous postback.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroli jest aktualizowana w wyniku asynchronicznego ogłaszania zwrotnego.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsInPartialRendering property is intended for use by control developers who want to know when an &lt;xref:System.Web.UI.UpdatePanel&gt; control is being updated as a result of an asynchronous postback.</source>
+          <target state="translated">Właściwość IsInPartialRendering jest przeznaczony do użytku przez formant deweloperów, którzy chcieli wiedzieć, kiedy &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli jest aktualizowana w wyniku asynchronicznego ogłaszania zwrotnego.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In page development scenarios, use the &lt;xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt; property to determine whether a page is processing as a result of an asynchronous postback.</source>
+          <target state="translated">W scenariuszach programowanie strony, należy użyć &lt;xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt;Właściwości w celu określenia, czy strony są przetwarzane w wyniku asynchronicznego ogłaszania zwrotnego.&lt;/xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is being updated as a result of an asynchronous postback; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli bieżący <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> formantu ma zostać zaktualizowany w wyniku asynchronicznego ogłaszania zwrotnego; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Zgłasza <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zdarzeń.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel&gt; control's &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property is instantiated during the OnInit method.</source>
+          <target state="translated">&lt;xref:System.Web.UI.UpdatePanel&gt;Formantu &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;właściwość zostanie uruchomiony podczas metody OnInit.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnInit method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metody OnInit jest używany przez deweloperów w kontroli, aby rozszerzyć funkcjonalność programu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Obiekt, który zawiera dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate<bpt id="p1">*</bpt>&gt; property is being defined when the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer<ept id="p1">*</ept>&gt; property has already been created.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwość jest zdefiniowana, kiedy &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwość już istnieje.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control and invokes the &lt;xref:System.Web.UI.UpdatePanel.Initialize*&gt; method when partial-page rendering is not enabled.</source>
+          <target state="translated">Zgłasza <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zdarzenia dla <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroli i wywołuje &lt;xref:System.Web.UI.UpdatePanel.Initialize*&gt;metodą podczas renderowania stron częściowych nie jest włączona.&lt;/xref:System.Web.UI.UpdatePanel.Initialize*&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Obiekt, który zawiera dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Zgłasza <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zdarzeń.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoda OnPreRender jest używany przez deweloperów kontroli aby rozszerzyć funkcjonalność programu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Obiekt, który zawiera dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers<bpt id="p1">*</bpt>&gt; property is set to <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode<ept id="p1">*</ept>&gt; property is set to <bpt id="p3">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwość jest ustawiona na <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>i &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwość jest ustawiona na <bpt id="p3">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Raises the base <bpt id="p1">&lt;xref href="System.Web.UI.Control.Unload"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Zgłasza podstawowym <bpt id="p1">&lt;xref href="System.Web.UI.Control.Unload"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zdarzeń.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnUnload method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control</source>
+          <target state="translated">Metodzie OnUnload jest używany przez deweloperów formant do rozszerzenia funkcji &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Obiekt, który zawiera dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Web.UI.Control.Render*&gt; event.</source>
+          <target state="translated">Zgłasza &lt;xref:System.Web.UI.Control.Render*&gt;zdarzeń.&lt;/xref:System.Web.UI.Control.Render*&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoda renderowania jest używany przez deweloperów kontroli aby rozszerzyć funkcjonalność programu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method writes the rendered content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to the browser by using the supplied &lt;xref:System.Web.UI.HtmlTextWriter&gt; object.</source>
+          <target state="translated">Metoda renderowania zapisuje renderowanej zawartości &lt;xref:System.Web.UI.UpdatePanel&gt;formantu do przeglądarki przy użyciu dostarczonego &lt;xref:System.Web.UI.HtmlTextWriter&gt;obiektu.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you override the Render method in a derived class, make sure to call the Render method of the base class so that the child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control are rendered.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej metody renderowania, upewnij się, że wywołać metodę renderowania klasy podstawowej, aby dziecko kontrolki z &lt;xref:System.Web.UI.UpdatePanel&gt;formantu są renderowane.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream for rendering HTML content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, który reprezentuje strumienia wyjściowego do renderowania zawartości HTML.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Raises the RenderChildren event.</source>
+          <target state="translated">Zgłasza zdarzenie RenderChildren.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderChildren method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoda RenderChildren jest używany przez deweloperów kontroli aby rozszerzyć funkcjonalność programu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderChildren method writes the rendered content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to the browser by using the supplied &lt;xref:System.Web.UI.HtmlTextWriter&gt; object.</source>
+          <target state="translated">Metoda RenderChildren zapisuje renderowanej zawartości &lt;xref:System.Web.UI.UpdatePanel&gt;formantu do przeglądarki przy użyciu dostarczonego &lt;xref:System.Web.UI.HtmlTextWriter&gt;obiektu.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you override the RenderChildren method in a derived class, make sure to call the RenderChildren method of the base class so that the child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control are rendered.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej metody RenderChildren, upewnij się, że wywołać metodę RenderChildren klasy podstawowej, aby dziecko kontrolki z &lt;xref:System.Web.UI.UpdatePanel&gt;formantu są renderowane.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream for rendering HTML content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, który reprezentuje strumienia wyjściowego do renderowania zawartości HTML.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's content is enclosed in an HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawartość formantu jest ujęta w kodzie HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> lub <bpt id="p3">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> elementu.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RenderMode property is set to &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, the content of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is rendered inside an HTML <ph id="ph1">`&lt;span&gt;`</ph> element.</source>
+          <target state="translated">Jeśli ustawiono właściwość RenderMode &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, treść &lt;xref:System.Web.UI.UpdatePanel&gt;renderowania formantu w formacie HTML <ph id="ph1">`&lt;span&gt;`</ph> elementu.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanelRenderMode&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RenderMode property is set to &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, it is rendered inside an HTML <ph id="ph1">`&lt;div&gt;`</ph> element.</source>
+          <target state="translated">Jeśli ustawiono właściwość RenderMode &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, jest on renderowany wewnątrz HTML <ph id="ph1">`&lt;div&gt;`</ph> elementu.&lt;/xref:System.Web.UI.UpdatePanelRenderMode&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> so that the content of the panel is enclosed in an HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tak, aby zawartość panelu jest ujęta w kodzie HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elementu.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the content of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control will be updated.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy zawartość <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu zostanie zaktualizowany.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the RequiresUpdate property returns <ph id="ph1">`true`</ph> if the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method was explicitly called or if the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.</source>
+          <target state="translated">Domyślnie właściwość RequiresUpdate zwraca <ph id="ph1">`true`</ph> Jeśli &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;jawnie wywołano metodę lub, jeśli &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;właściwość jest ustawiona na &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is intended for use by control developers who want to extend the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Ta właściwość jest przeznaczony do użytku przez formant deweloperów, którzy chcą rozszerzyć &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in derived classes, you might provide additional logic to determine whether an &lt;xref:System.Web.UI.UpdatePanel&gt; control should be updated.</source>
+          <target state="translated">Na przykład w klasach pochodnych, można określić dodatkowe logika do określenia, czy &lt;xref:System.Web.UI.UpdatePanel&gt;formant powinien zostać zaktualizowany.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content will be updated; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zawartość formantu zostanie zaktualizowany, a w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Returns an attribute of a Web control by using a specified name.</source>
+          <target state="translated">Zwraca atrybut formantu sieci Web przy użyciu określonej nazwy.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ten element jest jawną implementacją elementu interfejsu.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.UpdatePanel&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Można go używać tylko wtedy, gdy &lt;xref:System.Web.UI.UpdatePanel&gt;wystąpienia jest rzutowane na &lt;xref:System.Web.UI.IAttributeAccessor&gt;interfejsu.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Nazwa atrybutu.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Wartość atrybutu.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the value of the specified control attribute.</source>
+          <target state="translated">Ustawia wartość atrybutu określonego formantu.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ten element jest jawną implementacją elementu interfejsu.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.UpdatePanel&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Można go używać tylko wtedy, gdy &lt;xref:System.Web.UI.UpdatePanel&gt;wystąpienia jest rzutowane na &lt;xref:System.Web.UI.IAttributeAccessor&gt;interfejsu.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The name of the attribute to set.</source>
+          <target state="translated">Nazwa atrybutu, aby ustawić.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value of the attribute to set.</source>
+          <target state="translated">Wartość atrybutu do ustawienia.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelTriggerCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains <bpt id="p2">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects that were registered declaratively for the <bpt id="p4">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelTriggerCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który zawiera <bpt id="p2">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> i <bpt id="p3">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> obiektów, które zostały zarejestrowane deklaratywnie dla <bpt id="p4">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Triggers property gets a collection of all the triggers that have been defined for the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Właściwość wyzwalaczy pobiera zbiór wszystkich wyzwalaczy, które zostały zdefiniowane dla &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(You can define triggers declaratively by using the <bpt id="p1">**</bpt>UpdatePanelTrigger Collection Editor<ept id="p1">**</ept> dialog box in the designer or by using the <ph id="ph1">`&lt;Triggers&gt;`</ph> element of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.) The collection includes &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt; and &lt;xref:System.Web.UI.PostBackTrigger&gt; objects.</source>
+          <target state="translated">(Zdefiniuj wyzwalacze deklaratywnie przy użyciu <bpt id="p1">**</bpt>edytora kolekcji UpdatePanelTrigger<ept id="p1">**</ept> okno dialogowe w Projektancie lub za pomocą <ph id="ph1">`&lt;Triggers&gt;`</ph> elementu &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.)&lt;/xref:System.Web.UI.UpdatePanel&gt; Zawiera kolekcję &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt;i &lt;xref:System.Web.UI.PostBackTrigger&gt;obiektów.&lt;/xref:System.Web.UI.PostBackTrigger&gt; &lt;/xref:System.Web.UI.AsyncPostBackTrigger&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Declarative triggers that are defined in the Triggers collection are not tracked in view state.</source>
+          <target state="translated">Deklaracyjne wyzwalacze, które są zdefiniowane w wyzwalaczy kolekcji nie są śledzone w widoku stanu.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a control that is a naming container is used as a trigger, all its child controls that cause postback behave as triggers.</source>
+          <target state="translated">Gdy formant jest kontenerem nazewnictwa jest używany jako wyzwalacz, wszystkie jej kontrolkach podrzędnych, które powodują ogłaszania zwrotnego zachowują się jako wyzwalacze.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A collection of objects of type <bpt id="p1">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kolekcja obiektów typu <bpt id="p1">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i <bpt id="p2">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Causes an update of the content of an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Powoduje, że aktualizacja zawartości <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> formantu.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the page is enabled for partial-page rendering, when you invoke the Update method, the &lt;xref:System.Web.UI.UpdatePanel&gt; control's content is updated in the browser.</source>
+          <target state="translated">Jeśli strona jest włączony do renderowania stron częściowych po wywołaniu metody aktualizacji &lt;xref:System.Web.UI.UpdatePanel&gt;zawartość formantu jest aktualizowana w przeglądarce.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the Update method if you have server code that must execute to determine whether an &lt;xref:System.Web.UI.UpdatePanel&gt; control should be updated.</source>
+          <target state="translated">Wywołanie metody aktualizacji, jeśli masz kod serwera, które należy wykonać, aby określić, czy &lt;xref:System.Web.UI.UpdatePanel&gt;formant powinien zostać zaktualizowany.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you plan to use the Update method, set the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.</source>
+          <target state="translated">Jeśli planujesz użyć metody aktualizacji, ustaw &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;dla właściwości &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the decision to update the panel in server logic, make sure that the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is <ph id="ph1">`false`</ph> and that no explicit triggers are defined for the panel.</source>
+          <target state="translated">Chcąc decyzja o aktualizacji panelu logiki serwera, upewnij się, że &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;właściwość jest <ph id="ph1">`false`</ph> , a wyzwalacze jawne nie są zdefiniowane w panelu.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a typical page development scenario, if you define triggers or if the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is <ph id="ph1">`true`</ph> for the &lt;xref:System.Web.UI.UpdatePanel&gt; control, the Update method is automatically called during the page life cycle.</source>
+          <target state="translated">W przypadku rozwoju typowej strony Jeśli zdefiniuj Wyzwalacze lub &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;właściwość jest <ph id="ph1">`true`</ph> dla &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli, metoda aktualizacji automatycznie jest wywoływana podczas cyklu życia strony.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property is not defined for the &lt;xref:System.Web.UI.UpdatePanel&gt; control, no updates of the panel will occur.</source>
+          <target state="translated">Jeśli &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;właściwość nie jest zdefiniowany dla &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować, nie aktualizacji panelu.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates when an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's content is updated.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, kiedy <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawartość formantu jest aktualizowana.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an &lt;xref:System.Web.UI.UpdatePanel&gt; control is not inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control, the panel is updated according to the settings of the UpdateMode and &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; properties, together with the collection of triggers.</source>
+          <target state="translated">Gdy &lt;xref:System.Web.UI.UpdatePanel&gt;formant nie jest wewnątrz innego &lt;xref:System.Web.UI.UpdatePanel&gt;formantu panelu jest aktualizowane zgodnie z ustawieniami UpdateMode i &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;Właściwości, oraz kolekcja wyzwalaczy.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an &lt;xref:System.Web.UI.UpdatePanel&gt; control is inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control, the child panel is automatically updated when the parent panel is updated.</source>
+          <target state="translated">Gdy &lt;xref:System.Web.UI.UpdatePanel&gt;formant znajduje się wewnątrz innego &lt;xref:System.Web.UI.UpdatePanel&gt;formantu, z panelu podrzędnych jest automatycznie aktualizowany po zaktualizowaniu nadrzędnej panel.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is updated in the following circumstances:      -   If the UpdateMode property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the &lt;xref:System.Web.UI.UpdatePanel&gt; control's content is updated on every postback that originates from anywhere on the page.</source>
+          <target state="translated">Zawartość &lt;xref:System.Web.UI.UpdatePanel&gt;aktualizacji formantu w następujących okolicznościach: - Jeśli właściwość UpdateMode ma wartość &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, &lt;xref:System.Web.UI.UpdatePanel&gt;zawartość formantu jest aktualizowany co odświeżania strony, która pochodzi z dowolnego miejsca na stronie.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes asynchronous postbacks from controls that are inside other &lt;xref:System.Web.UI.UpdatePanel&gt; controls and postbacks from controls that are not inside &lt;xref:System.Web.UI.UpdatePanel&gt; controls.</source>
+          <target state="translated">Dotyczy to również asynchronicznego ogłaszania zwrotnego z formantami, które znajdują się wewnątrz innych &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolek i ogłaszania zwrotnego z formantami, które nie są w &lt;xref:System.Web.UI.UpdatePanel&gt;formantów.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.UpdatePanel&gt; control is nested inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control and the parent update panel is updated.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli jest zagnieżdżony w innym &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli i panelu aktualizacji nadrzędnego jest aktualizowany.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the UpdateMode property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, and one of the following conditions occurs:          -   You call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the &lt;xref:System.Web.UI.UpdatePanel&gt; control explicitly.</source>
+          <target state="translated">— Jeśli właściwość UpdateMode ma wartość &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, i wystąpi jedno z następujących warunków:-wywołania &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metody &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować jawnie.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The postback is caused by a control that is defined as a trigger by using the &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt; property of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">-Ogłaszania zwrotnego jest spowodowany przez formant, który jest zdefiniowany jako wyzwalacz za pomocą &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;Właściwość &lt;xref:System.Web.UI.UpdatePanel&gt;kontroli.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, the control explicitly triggers an update of the panel content.</source>
+          <target state="translated">W tym scenariuszu formantu jawnie wyzwala aktualizacji zawartości panelu.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control can be either inside or outside the &lt;xref:System.Web.UI.UpdatePanel&gt; control that defines the trigger.</source>
+          <target state="translated">Formant może być wewnętrznego lub zewnętrznego &lt;xref:System.Web.UI.UpdatePanel&gt;formant, który definiuje wyzwalacza.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is set to <ph id="ph1">`true`</ph> and a child control of the &lt;xref:System.Web.UI.UpdatePanel&gt; control causes a postback.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;Właściwość jest ustawiona na <ph id="ph1">`true`</ph> i podrzędne formantu &lt;xref:System.Web.UI.UpdatePanel&gt;formant powoduje odświeżenie strony.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A child control of a nested &lt;xref:System.Web.UI.UpdatePanel&gt; control does not cause an update to the outer &lt;xref:System.Web.UI.UpdatePanel&gt; control unless it is explicitly defined as a trigger.</source>
+          <target state="translated">Formant podrzędny zagnieżdżoną &lt;xref:System.Web.UI.UpdatePanel&gt;formantu nie powoduje aktualizacji do zewnętrznego &lt;xref:System.Web.UI.UpdatePanel&gt;kontrolować, jeśli nie jest jawnie zdefiniowany jako wyzwalacz.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The specified type is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Określony typ nie jest jednym z <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
