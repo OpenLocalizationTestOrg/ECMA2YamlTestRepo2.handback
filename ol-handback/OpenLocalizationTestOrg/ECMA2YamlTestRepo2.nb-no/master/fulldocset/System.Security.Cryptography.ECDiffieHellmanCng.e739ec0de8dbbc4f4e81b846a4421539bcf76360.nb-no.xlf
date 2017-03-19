@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05341b24816b6b5fc059951d6a7af2d112f7f8f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.ECDiffieHellmanCng.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be8de649adf464bc82b062f5ae3090bb11cf58f3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">754734b7a0e7795c930c3485ff540813fbe3d4a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a Cryptography Next Generation (CNG) implementation of the Elliptic Curve Diffie-Hellman (ECDH) algorithm.</source>
+          <target state="translated">Inneholder en kryptografi neste generasjon (CNG) implementering av algoritmen Elliptic kurve Diffie-Hellman (ECDH).</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is used to perform cryptographic operations.</source>
+          <target state="translated">Denne klassen brukes til å utføre kryptografiske operasjoner.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ECDiffieHellmanCng class enables two parties to exchange private key material even if they are communicating through a public channel.</source>
+          <target state="translated">Klassen ECDiffieHellmanCng aktiverer to parter til exchange private nøkkelen materiale selv om de kommuniserer via en offentlig kanal.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both parties can calculate the same secret value, which is referred to as the <bpt id="p1">*</bpt>secret agreement<ept id="p1">*</ept> in the managed Diffie-Hellman classes.</source>
+          <target state="translated">Begge parter kan beregne samme hemmelige-verdien som er referert til som den <bpt id="p1">*</bpt>hemmelig avtale<ept id="p1">*</ept> i forvaltet Diffie-Hellman klassene.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The secret agreement can then be used for a variety of purposes, including as a symmetric key.</source>
+          <target state="translated">Hemmelig avtale kan deretter brukes for en rekke formål, inkludert som en symmetrisk nøkkel.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, instead of exposing the secret agreement directly, the ECDiffieHellmanCng class does some post-processing on the agreement before providing the value.</source>
+          <target state="translated">I stedet for at hemmelig avtale direkte, støtter klassen ECDiffieHellmanCng noen etterbehandling i avtalen før du oppgir verdien.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This post processing is referred to as the <bpt id="p1">*</bpt>key derivation function (KDF)<ept id="p1">*</ept>; you can select which KDF you want to use and set its parameters through a set of properties on the instance of the Diffie-Hellman object.</source>
+          <target state="translated">Denne etterbehandling kalles i <bpt id="p1">*</bpt>for utledning-funksjonen (KDF)<ept id="p1">*</ept>; du kan velge hvilken KDF du vil bruke, og angi parameterne gjennom et sett med egenskaper for forekomsten av Diffie-Hellman-objektet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key derivation function|Properties|   |-----------------------------|----------------|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">| Nøkkel utleding funksjonen | Egenskaper |   |-----------------------------|----------------|   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-Hash-algoritmen som brukes til å behandle hemmelig avtale.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt; - An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;– En valgfri bytematrise til sikkerhetskopifilnavnene hemmelige avtalen før nummer den.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;– En valgfri bytematrise skal føyes til den hemmelige avtalen før nummer det. |   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-Hash-algoritmen som brukes til å behandle hemmelig avtale.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;- An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;– En valgfri bytematrise til sikkerhetskopifilnavnene hemmelige avtalen før nummer den.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt; - The label for key derivation.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;– En valgfri bytematrise skal føyes til den hemmelige avtalen før nummer det. |   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt;-Etiketten for nøkkelen utledning.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt; - The seed for key derivation.|       The result of passing the secret agreement through the key derivation function is a byte array that may be used as key material for your application.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;-Seed for nøkkelen utledning. |       Resultatet av Kast hemmelig avtale via key utledning-funksjonen er en bytematrise som kan brukes som nøkkel materiale for programmet.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of bytes of key material generated is dependent on the key derivation function; for example, SHA-256 will generate 256 bits of key material, whereas SHA-512 will generate 512 bits of key material.The basic flow of an ECDH key exchange is as follows:      1.</source>
+          <target state="translated">Antall byte oppbygning key generert er avhengig av key utledning-funksjonen. for eksempel genererer SHA-256 256 biter key materiale, mens SHA 512 genererer 512 biter key oppbygning. Basic flyten av en ECDH nøkkelens utvekslingsnøkkel er som følger: 1.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob create a key pair to use for the Diffie-Hellman key exchange operation      2.</source>
+          <target state="translated">Anne og Bob kan du opprette et nøkkelpar skal brukes for Diffie-Hellman nøkkelutvekslingen operasjonen 2.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob configure the KDF using parameters the agree on.</source>
+          <target state="translated">Anne og Bob Konfigurer KDF ved hjelp av godtatt parametere på.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice sends Bob her public key.</source>
+          <target state="translated">Anne sender Bob fellesnøkkelen hennes.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Bob sends Alice his public key.</source>
+          <target state="translated">BOB sender Alice sin fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob use each other's public keys to generate the secret agreement, and apply the KDF to the secret agreement to generate key material.</source>
+          <target state="translated">Anne Bob Bruk hverandre fellesnøkler til å generere hemmelige avtalen og bruke KDF hemmelige avtalen for å generere nøkkelen materiale.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med et tilfeldig nøkkelpar.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The random key pair has a default public key length of 521 bits.</source>
+          <target state="translated">Tilfeldig nøkkelparet har en standard offentlig nøkkellengde på 521 biter.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair, using the specified key size.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med et tilfeldig nøkkelpar, ved hjelp av den angitte nøkkelstørrelsen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The random key pair will have the public key length defined by the <ph id="ph1">`keySize`</ph> parameter.</source>
+          <target state="translated">Tilfeldig nøkkelparet får offentlige nøkkellengden er definert av den <ph id="ph1">`keySize`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The size of the key.</source>
+          <target state="translated">Størrelsen på nøkkelen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Valid key sizes are 256, 384, and 521 bits.</source>
+          <target state="translated">Ugyldig er nøkkel 256, 384 og 521 biter.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph> specifies an invalid length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph>angir en ugyldig lengde.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Kryptografi neste generasjon (CNG) klasser støttes ikke på dette systemet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified <bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen ved hjelp av den angitte <bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key that will be used as input to the cryptographic operations performed by the current object.</source>
+          <target state="translated">Nøkkelen som brukes som inndata til de kryptografiske operasjonene som utføres av det gjeldende objektet.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> does not specify an Elliptic Curve Diffie-Hellman (ECDH) algorithm group.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>angir ikke en elliptisk kurve Diffie-Hellman (ECDH) algoritmen gruppe.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Kryptografi neste generasjon (CNG) klasser støttes ikke på dette systemet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a hash function, given another party's public key, hash algorithm's name, a prepend value and an append value.</source>
+          <target state="translated">Utleder byte som kan brukes som en nøkkel med en hash-funksjonen gitt en tredjepart fellesnøkkel, hash-algoritmen navn, en prepend verdi og en append-verdi.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">Hvis verdien for <ph id="ph1">`secretPrepend`</ph> eller <ph id="ph2">`secretAppend`</ph> er <ph id="ph3">`null`</ph>, behandles de som tom matriser.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">Den andres fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The hash algorithm  to use to derive the key material.</source>
+          <target state="translated">Hash-algoritmen til å bruke avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">En verdi som sikkerhetskopifilnavnene avledede hemmeligheten før nummer.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">En verdi som skal føyes til den utledede hemmeligheten før nummer.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Nøkkelen materiale fra nøkkelutvekslingen med en annen krever fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en ECDH nøkkel, eller det er ikke riktig størrelse.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andre feil.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">Utleder byte som kan brukes som en nøkkel med en Hash-baserte Message Authentication Code (HMAC).</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">Hvis verdien for <ph id="ph1">`secretPrepend`</ph> eller <ph id="ph2">`secretAppend`</ph> er <ph id="ph3">`null`</ph>, behandles de som tom matriser.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`hmacKey`</ph> is <ph id="ph2">`null`</ph>, the result of the Elliptic Curve Diffie-Hellman (ECDH) algorithm will be used as the HMAC key.</source>
+          <target state="translated">Hvis verdien for <ph id="ph1">`hmacKey`</ph> er <ph id="ph2">`null`</ph>, resultatet av algoritmen Elliptic kurve Diffie-Hellman (ECDH) brukes som nøkkelen for HMAC.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">Den andres fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to derive the key material.</source>
+          <target state="translated">Hash-algoritmen til å bruke avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The key for the HMAC.</source>
+          <target state="translated">Nøkkelen for HMAC.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">En verdi som sikkerhetskopifilnavnene avledede hemmeligheten før nummer.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">En verdi som skal føyes til den utledede hemmeligheten før nummer.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Nøkkelen materiale fra nøkkelutvekslingen med en annen krever fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en ECDH nøkkel, eller det er ikke riktig størrelse.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andre feil.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Avledes key materiale som er generert fra hemmelig avtale mellom to parter gitt en <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder den andre tredjeparter fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">Et objekt som inneholder den offentlige delen av elliptisk kurve Diffie-Hellman (ECDH)-nøkkelen fra motparten i nøkkelutvekslingen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">En bytematrise som inneholder key materiale.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Denne informasjonen blir generert fra hemmelige avtalen som beregnes fra det gjeldende objektet privat nøkkel og angitte fellesnøkkelen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ugyldig.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Either its <ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph> property does not specify <ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph> or its key size does not match the key size of this instance.</source>
+          <target state="translated">Enten den <ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph> egenskapen er ikke angitt <ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph> eller dens nøkkelstørrelsen samsvarer ikke med nøkkelstørrelsen på denne forekomsten.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This object's &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction<bpt id="p1">*</bpt>&gt; property specifies the <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> key derivation function, but either &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label<ept id="p1">*</ept>&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dette objektet &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen angir de <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> key utledning-funksjonen, men enten &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; eller &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;er <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andre feil.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Avledes key materiale som er generert fra hemmelig avtale mellom to parter gitt en <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder den andre tredjeparter fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">Fellesnøkkel fra motparten i nøkkelutvekslingen.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">En bytematrise som inneholder key materiale.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Denne informasjonen blir generert fra hemmelige avtalen som beregnes fra det gjeldende objektet privat nøkkel og angitte fellesnøkkelen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nøkkel.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Transport Layer Security (TLS) Pseudo-Random Function (PRF) derivation algorithm.</source>
+          <target state="translated">Utleder byte som kan brukes som en nøkkel med en sikkerhet TLS (Transport Layer) Pseudo-Random funksjonen (PRF) utledning algoritmen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">Den andres fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The ASCII-encoded PRF label.</source>
+          <target state="translated">ASCII-kodet PRF etiketten.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The 64-byte PRF seed.</source>
+          <target state="translated">64-byte PRF utgangsverdi.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Nøkkelen materiale fra nøkkelutvekslingen med en annen krever fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en ECDH nøkkel, eller det er ikke riktig størrelse.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is not exactly 64 bytes in length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph>er ikke nøyaktig 64 byte.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       All other cryptographic errors.</source>
+          <target state="translated">- eller andre kryptografisk feil.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Henter en referanse til hemmelig avtale generert mellom to parter gitt en <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder den andre tredjeparter fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">Et objekt som inneholder den offentlige delen av elliptisk kurve Diffie-Hellman (ECDH)-nøkkelen fra motparten i nøkkelutvekslingen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">En referanse til hemmelig avtale.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Denne informasjonen beregnes fra det gjeldende objektet privat nøkkel og angitte fellesnøkkelen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en ECDH nøkkel, eller det er ikke riktig størrelse.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andre feil.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Henter en referanse til hemmelig avtale generert mellom to parter gitt en <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder den andre tredjeparter fellesnøkkel.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">Fellesnøkkel fra motparten i nøkkelutvekslingen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">En referanse til hemmelig avtale.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Denne informasjonen beregnes fra det gjeldende objektet privat nøkkel og angitte fellesnøkkelen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>er ikke en <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nøkkel.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">Denne metoden er ikke implementert.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To deserialize an XML key, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">Hvis du vil deserialisere en XML-nøkkel, kan du bruke den &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;overbelaste i stedet.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">I XML-baserte nøkkelinformasjon deserialiseres.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">Denne metoden er ikke overstyres for denne forekomsten.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Deserializes the key information from an XML string by using the specified format.</source>
+          <target state="translated">Deserializes nøkkelinformasjon fra en XML-strengen ved hjelp av angitt format.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">I XML-baserte nøkkelinformasjon deserialiseres.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">En av verdiene for enumeration som angir formatet for XML-strengen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den eneste som er godkjent formatet <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is malformed.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>har feil format.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>angir et ugyldig format.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den eneste aksepterte verdien er <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andre feil.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets the hash algorithm to use when generating key material.</source>
+          <target state="translated">Henter eller angir nummeralgoritmen skal brukes ved generering key materiale.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used by Cryptography Next Generation (CNG) objects only if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">Denne egenskapen brukes bare hvis for kryptografi neste generasjon (CNG) objekter i &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;eller &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;verdi er angitt i den &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property accepts the following algorithms: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;, and &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;.</source>
+          <target state="translated">Egenskapen godtar følgende algoritmer: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;, og &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;.&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other custom hash algorithms may also be used.</source>
+          <target state="translated">Andre tilpassede hash-algoritmer kan også brukes.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default algorithm is &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;.</source>
+          <target state="translated">Standard-algoritmen er &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;.&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An object that specifies the hash algorithm.</source>
+          <target state="translated">Et objekt som angir hash-algoritmen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is <bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">Verdien er<bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets the Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">Henter eller angir Hash-baserte Message Authentication Code (HMAC)-nøkkelen som brukes når det avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property applies only when the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property, and the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt; property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Denne egenskapen gjelder bare når den &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;verdi er angitt i den &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen og &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt;egenskapen <ph id="ph1">`false`</ph>.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Verdien er som standard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">Hash-baserte Message Authentication Code (HMAC)-nøkkelen som brukes når det avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used by the current object for cryptographic operations.</source>
+          <target state="translated">Angir den <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som brukes av gjeldende objekt for kryptografiske operasjoner.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The key pair used by this object to perform cryptographic operations.</source>
+          <target state="translated">Nøkkelparet brukes av dette objektet til å utføre kryptografiske operasjoner.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key derivation function for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Henter eller angir funksjonen key utledning for den <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property specifies the key derivation function that is used to transform the secret agreement into key material.</source>
+          <target state="translated">Egenskapen angir key utledning-funksjonen, som brukes til å transformere hemmelig avtale i nøkkelen materiale.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardverdien er <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The enumeration value is out of range.</source>
+          <target state="translated">Opplistingsverdien er utenfor området.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets the label value that is used for key derivation.</source>
+          <target state="translated">Henter eller angir etikettverdien som brukes til viktige utledning.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">Denne verdien brukes for nøkkelen utledning hvis den &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;verdi er angitt i den &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, it is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Som standard er det <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The label value.</source>
+          <target state="translated">Etikettverdien.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the public key that can be used by another <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to generate a shared secret agreement.</source>
+          <target state="translated">Henter fellesnøkkelen som kan brukes av en annen <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet til å generere en delt hemmelig avtale.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The public key that is associated with this instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Fellesnøkkelen som er knyttet til denne forekomsten av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be appended to the secret agreement when generating key material.</source>
+          <target state="translated">Henter eller angir en verdi som legges til hemmelig avtale ved generering av nøkkelen materiale.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; key derivation function (KDF) is used.</source>
+          <target state="translated">Denne verdien brukes for nøkkelen utledning hvis den &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;eller &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;key utledning-funksjonen (KDF).&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value is appended to the secret agreement, and the combined value is passed to the KDF to generate the key material.</source>
+          <target state="translated">Verdien som skal legges til i hemmelig avtale, og den kombinerte verdien som er sendt til KDF til å generere nøkkelen materiale.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Verdien er som standard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the secret agreement.</source>
+          <target state="translated">Verdien som skal legges til hemmelig avtale.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be added to the beginning of the secret agreement when deriving key material.</source>
+          <target state="translated">Henter eller angir en verdi som legges til starten av hemmelig avtale når det avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to one of the following values:      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;       The value is prepended to the secret agreement, and the combined value is passed to the key derivation function (KDF) to generate the key material.</source>
+          <target state="translated">Denne verdien brukes for nøkkelen utledning hvis den &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen settes til én av følgende verdier:- &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;- &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;verdien som er foran hemmelig avtale, og den kombinerte verdien som er sendt til funksjonen key utledning (KDF) til å generere nøkkelen materiale.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Verdien er som standard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the beginning of the secret agreement during key derivation.</source>
+          <target state="translated">Verdien som skal legges til starten av den hemmelige avtalen under key utledning.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the seed value that will be used when deriving key material.</source>
+          <target state="translated">Henter eller angir seedverdi som skal brukes når det avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated">Denne verdien brukes for nøkkelen utledning Hvis &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen er satt til &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Verdien er som standard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The seed value.</source>
+          <target state="translated">Seedverdi.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">Denne metoden er ikke implementert.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To convert the current key to an XML representation, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">Bruk til å konvertere gjeldende nøkkel til en XML-representasjon av &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;overbelaste i stedet.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>inkludere private parametere; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Not applicable.</source>
+          <target state="translated">Gjelder ikke.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">Denne metoden er ikke overstyres for denne forekomsten.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Serializes the key information to an XML string by using the specified format.</source>
+          <target state="translated">Serializes nøkkelinformasjon til en XML-strengen ved hjelp av angitt format.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">En av verdiene for enumeration som angir formatet for XML-strengen.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den eneste som er godkjent formatet <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A string object that contains the key information, serialized to an XML string, according to the requested format.</source>
+          <target state="translated">Strengobjekt som inneholder nøkkelinformasjon serialisert til en XML-streng, i henhold til det forespurte formatet.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>angir et ugyldig format.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den eneste aksepterte verdien er <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the secret agreement is used as a Hash-based Message Authentication Code (HMAC) key to derive key material.</source>
+          <target state="translated">Henter en verdi som angir om den hemmelige avtalen brukes som en Hash-baserte Message Authentication Code (HMAC) nøkkel avledes key materiale.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">-</ph>   This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated"><ph id="ph1">-</ph>Denne verdien brukes for nøkkelen utledning Hvis &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;egenskapen er satt til &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Verdien er som standard <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the secret agreement is used as an HMAC key to derive key material; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den hemmelige avtalen brukes som en nøkkel for HMAC avledes key materiale; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
