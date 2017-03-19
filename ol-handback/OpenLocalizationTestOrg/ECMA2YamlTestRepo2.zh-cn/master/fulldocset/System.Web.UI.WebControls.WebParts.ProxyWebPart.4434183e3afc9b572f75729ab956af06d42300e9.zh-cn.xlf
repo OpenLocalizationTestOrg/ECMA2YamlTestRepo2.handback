@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d66212e4d4ee7e571817adfa941e2afbec4f7219</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ProxyWebPart.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddcd3a77206ab9e0f615d4ede31743d45278e796</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b74e084e23e787db0f7630dbc59da7ff538c0a2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base class for Web Parts controls that under certain conditions must replace other Web Parts controls on a page.</source>
+          <target state="translated">表示 Web 部件控件，在某些情况下必须替换页面上的其他 Web 部件控件的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ProxyWebPart is the base class for a set of Web Parts controls, such as &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;, that can be used as placeholders for other Web Parts controls on a page.</source>
+          <target state="translated">ProxyWebPart 是一组 Web 部件控件的基类，如&lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;和&lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;，可用以占位符形式的页面上的其他 Web 部件控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, a ProxyWebPart control will replace another Web Parts control when some type of error or failure has occurred.</source>
+          <target state="translated">通常情况下，ProxyWebPart 控件将某种类型的错误或故障发生时替换另一个 Web 部件控件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, when a user is not authorized to view a Web Parts control on a page, the intended Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; control.</source>
+          <target state="translated">例如，当用户无权查看页上的 Web 部件控件，则的目标 Web 部件控件替换为&lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a Web Parts control cannot be loaded or a new instance of it cannot be created, the original Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; control.</source>
+          <target state="translated">如果无法加载 Web 部件控件或不能创建它的新实例，将替换原始的 Web 部件控件&lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the intended Web Parts control later becomes available to the user, it will be restored to the page and the object derived from the ProxyWebPart class will be removed.</source>
+          <target state="translated">如果 Web 部件控件更高版本的预期变得可供用户，将还原到页，并且将删除从 ProxyWebPart 类派生的对象。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ProxyWebPart class does not save view state or control state.</source>
+          <target state="translated">ProxyWebPart 类不保存视图状态，也不控制状态。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If a Web Parts control is replaced by a ProxyWebPart object and then later becomes available, its view state and control state will be empty.</source>
+          <target state="translated">如果 Web 部件控件替换为 ProxyWebPart 对象，并将更高版本变为可用，则其视图状态和控件状态将为空。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ProxyWebPart object preserves personalization data for the Web Parts control that it replaced.</source>
+          <target state="translated">ProxyWebPart 对象保留它替换为 Web 部件控件的个性化数据。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the original Web Parts control becomes available, its personalization data will be restored.</source>
+          <target state="translated">如果原始的 Web 部件控件变为可用，将还原其个性化数据。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control saves personalization data, it does not save the properties of a ProxyWebPart object.</source>
+          <target state="translated">当&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;控件保存个性化数据，它不会保存 ProxyWebPart 对象的属性。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Instead, it saves the properties of the control that the ProxyWebPart object replaced.</source>
+          <target state="translated">相反，它将保存 ProxyWebPart 对象替换为控件的属性。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the original Web Parts control becomes available, the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control will automatically load it.</source>
+          <target state="translated">如果原始的 Web 部件控件变为可用，&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;控件将自动加载它。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt; object contains the ProxyWebPart object.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;对象包含 ProxyWebPart 对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The ID of the intended Web Parts control can be retrieved from the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt; property or the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; property.</source>
+          <target state="translated">可以从检索 Web 部件控件的预期的 ID&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;属性或&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If a ProxyWebPart object replaces a Web Parts control that is either the provider or consumer of a Web Parts connection, the connection is not activated but will not be deleted.</source>
+          <target state="translated">ProxyWebPart 对象将替换的 Web 部件控件的提供程序或 Web 部件连接中使用者时，如果连接未激活，但将不会删除。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the original Web Parts control becomes available, the connection will be reactivated.</source>
+          <target state="translated">如果原始的 Web 部件控件变为可用，则连接将重新激活。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a static Web Parts control (or server or user control) must be replaced.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>时静态 Web 部件控件 （或服务器或用户控件） 的类必须将其替换。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This constructor is used to create a proxy Web Parts control to replace a static Web Parts control.</source>
+          <target state="translated">此构造函数用于创建替换静态的 Web 部件控件的代理 Web 部件控件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To replace a dynamically created Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt; constructor to create the proxy Web Parts control.</source>
+          <target state="translated">若要替换动态创建的 Web 部件控件，请使用&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;构造函数来创建代理 Web 部件控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Web Parts control to be replaced.</source>
+          <target state="translated">要替换的 Web 部件控件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a dynamic Web Parts control must be replaced.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>时动态 Web 部件控件的类必须将其替换。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This constructor is used to create a proxy Web Parts control to replace a dynamic Web Parts control.</source>
+          <target state="translated">此构造函数用于创建替换动态 Web 部件控件的代理 Web 部件控件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To replace a static Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt; constructor to create a proxy Web Parts control.</source>
+          <target state="translated">若要替换静态的 Web 部件控件，请使用&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;构造函数来创建一个代理 Web 部件控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A string that is the control ID (not the unique ID) of the control to replace.</source>
+          <target state="translated">是的控件 ID (不是唯一的 ID) 的控件替换的字符串。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the ID is the ID of its child server control.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件被替换，该 ID 是子服务器控件的 ID。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A string that is the name of the &lt;xref:System.Type&gt; of the control to replace.</source>
+          <target state="translated">一个字符串，它的名称&lt;xref:System.Type&gt;要替换的控件。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the type name is the type of its child server control.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件被替换，类型名称是其子服务器控件的类型。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to the user control to replace.</source>
+          <target state="translated">包含要替换的用户控件的路径的字符串。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A string that returns the ID of a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control, if that type of control is being replaced.</source>
+          <target state="translated">返回的 ID 字符串<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制，如果该类型的控件将被替换。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is needed for controls that do not inherit from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">这不是继承自的控件的必需<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基类。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph> is specified but <ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph>指定但<ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或空字符串。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the value of the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; property from the generic Web Parts control replaced by a proxy Web Parts control.</source>
+          <target state="translated">获取的值&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;从泛型替换由一个代理服务器的 Web 部件控件的属性 Web 部件控件。&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; control, this property contains the value from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">当&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;对象替换&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;控件，此属性包含的值从&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; value.</source>
+          <target state="translated">一个字符串，包含&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;值。&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the programmatic identifier assigned to the Web Parts control.</source>
+          <target state="translated">获取或设置分配给 Web 部件控件的编程标识符。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object will contain the same value in its ID property as the control it replaced.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;对象将包含它替换为该控件在其 ID 属性相同的值。&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the identifier.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含标识符。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadControlState*&gt; to prevent loading previously saved state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">重写&lt;xref:System.Web.UI.Control.LoadControlState*&gt;以防止加载以前保存的状态<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。&lt;/xref:System.Web.UI.Control.LoadControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The LoadControlState method overrides &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; to prevent loading the control state.</source>
+          <target state="translated">LoadControlState 方法重写&lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;以防止加载的控件状态。&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The method does not load the control state or perform any other action.</source>
+          <target state="translated">该方法不会加载的控件状态或执行任何其他操作。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">以前保存的状态数据。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadViewState*&gt; to prevent loading previously saved view state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">重写&lt;xref:System.Web.UI.Control.LoadViewState*&gt;以防止加载以前保存的视图状态<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。&lt;/xref:System.Web.UI.Control.LoadViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The LoadViewState method overrides &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; to prevent loading the view state.</source>
+          <target state="translated">LoadViewState 方法重写&lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;以避免在加载视图状态。&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The method does not load the view state or perform any other action.</source>
+          <target state="translated">方法不加载视图状态或执行任何其他操作。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">以前保存的状态数据。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.UI.Control.ID*&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">获取&lt;xref:System.Web.UI.Control.ID*&gt;Web 部件控件的 Web 部件控件替换为代理。&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a Web Parts control, the OriginalID property contains the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the replaced control.</source>
+          <target state="translated">当&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;对象将替换 Web 部件控件、 OriginalID 属性包含&lt;xref:System.Web.UI.Control.ID%2A&gt;的被替换的控件。&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the replaced control is a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; object, this property contains the ID from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">被替换的控件是否&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;对象，此属性包含来自 ID&lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.Control.ID*&gt; value of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">一个字符串，包含&lt;xref:System.Web.UI.Control.ID*&gt;Web 部件控件的值替换为 Web 部件控件的代理。&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the path to the user control being replaced.</source>
+          <target state="translated">获取正在替换的用户控件的路径。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to a user control being replaced.</source>
+          <target state="translated">包含要替换的用户控件的路径的字符串。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">获取&lt;xref:System.Type&gt;Web 部件控件的 Web 部件控件替换为代理。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a control, this property contains the &lt;xref:System.Type&gt; of the control that the proxy Web Parts control replaces.</source>
+          <target state="translated">当&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;对象替换控件时，此属性包含&lt;xref:System.Type&gt;代理 Web 部件控件替换的控件。&lt;/xref:System.Type&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Type&gt; of the control replaced by the proxy Web Parts control.</source>
+          <target state="translated">一个字符串，包含&lt;xref:System.Type&gt;替换由代理的控件的 Web 部件控件。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Saves any server control state changes that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">将所有服务器控件都保存自页回发到服务器的时间以来发生的状态更改。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns the server control's current state.</source>
+          <target state="translated">返回服务器控件的当前状态。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If there is no state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果没有与控件关联的状态，则此方法返回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Saves any state that was modified after the &lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt; method was invoked.</source>
+          <target state="translated">将保存已修改后的任何状态&lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;调用方法。&lt;/xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An object that contains the current view state of the control; otherwise, if there is no view state associated with the control, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">包含控件; 的当前视图状态的对象否则为如果没有与该控件关联的视图状态<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

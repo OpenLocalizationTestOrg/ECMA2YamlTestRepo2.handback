@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">414ae757991da71715a8f5575dedee1c0d6b2c93</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.BasicDesignerLoader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d125d3dcecb686b4ab0fe13bff3d32a419909beb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c154751e563b903d5bf944a9660ed6a02f5e9705</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an implementation of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Предоставляет реализацию <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BasicDesignerLoader is a complete implementation of a designer loader without anything relating to a persistence format.</source>
+          <target state="translated">BasicDesignerLoader является полной реализацией загрузчика конструктора не привязан к постоянному формату.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BasicDesignerLoader does not dictate either a text or binary persistence, but it does support the following features:      -   Multiple load dependencies.</source>
+          <target state="translated">BasicDesignerLoader не определяет положение текстовых или двоичных сохраняемости, но он поддерживает следующие возможности: - несколько загрузить зависимости.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Tracking changes within the designer.</source>
+          <target state="translated">-Отслеживание изменений в конструкторе.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Deferred idle-time reloading.</source>
+          <target state="translated">-Отложенной перезагрузки времени простоя.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BasicDesignerLoader adds two kinds of services to the designer host’s service container: replaceable services and irreplaceable services.</source>
+          <target state="translated">BasicDesignerLoader добавляет два вида служб контейнер службы узла конструктора: заменяемое службы и невосстановимых службы.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can replace a replaceable service by changing the value of the protected &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.LoaderHost%2A&gt; property.</source>
+          <target state="translated">Можно заменить заменяемая служба, изменив значение защищенный &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.LoaderHost%2A&gt;свойство.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.LoaderHost%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot replace irreplaceable services because their implementations depend on each other.</source>
+          <target state="translated">Невозможно заменить невосстановимых служб, так как их реализация зависит друг с другом.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table describes the services that are provided by default.</source>
+          <target state="translated">Ниже перечислены службы, которые предоставляются по умолчанию.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Default Service|Description|   |---------------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;|Allows objects to request that the designer reload itself when it is idle.</source>
+          <target state="translated">| По умолчанию службы | Описание |   |---------------------|-----------------|   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;| Позволяет объектам запрашивать, повторной загрузке конструктора при простое.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a replaceable service.|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;|Used to serialize and deserialize objects.</source>
+          <target state="translated">Это заменяемая служба. |   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;| Используется для сериализации и десериализации объектов.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager is added as a service so objects that need to perform serialization can utilize any serialization providers that were added to the serialization manager.</source>
+          <target state="translated">Диспетчер сериализации добавляется как служба, поэтому объекты, которые необходимо выполнить сериализацию могут использовать поставщиков сериализации, которые были добавлены в диспетчер сериализации.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an irreplaceable service.|</source>
+          <target state="translated">Это является службой невосстановимых. |</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.BasicDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.BasicDesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Starts the loading process.</source>
+          <target state="translated">Запускает процесс загрузки.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an implementation of the abstract &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Это является реализацией абстрактного &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A?displayProperty=fullName&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to override this method in your own class.</source>
+          <target state="translated">Необходимо переопределить этот метод в классе.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginLoad method performs the following actions:      -   It verifies that the design surface has not already loaded.</source>
+          <target state="translated">Метод BeginLoad выполняет следующие действия:-проверяет, что область конструктора уже загружена.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On the first call, it adds relevant services and calls the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Initialize%2A&gt; method.</source>
+          <target state="translated">— При первом вызове, он добавляет важные службы и вызовы &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Initialize%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It calls the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt;, and &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; methods.</source>
+          <target state="translated">— Вызывается &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt;, и &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;методы.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the designer loader service has not been removed from the service container, BeginLoad will call the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; methods instead of the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; methods.</source>
+          <target state="translated">Если служба загрузчик конструктора не был удален из контейнера службы, будет вызывать BeginLoad &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt;и &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt;вместо методов &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;и &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;методы.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, it is the responsibility of the designer loader service to call &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;.</source>
+          <target state="translated">В этом случае отвечает службы загрузчика конструктора для вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;и &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The designer loader host to load.</source>
+          <target state="translated">Узел загрузчика для загрузки.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The designer is already loaded, or BeginLoad has been called with a different designer loader host.</source>
+          <target state="translated">Конструктор уже загружен или BeginLoad был вызван с узла различных загрузчик конструктора.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> has been disposed.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>был удален.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.BasicDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Освобождает ресурсы, используемые <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.BasicDesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Dispose method does not flush changes to the designer loader.</source>
+          <target state="translated">Вызвать метод Dispose, не сбрасывает изменения в загрузчик конструктора.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want changes to be saved, call &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt; before calling Dispose.</source>
+          <target state="translated">Если необходимо сохранить изменения, необходимо вызвать &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;перед вызовом Dispose.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;.</source>
+          <target state="translated">После использования &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; всегда вызывать Dispose.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; in an unusable state.</source>
+          <target state="translated">Метод Dispose оставляет &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;окажется в неработоспособном состоянии.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; was occupying.</source>
+          <target state="translated">После вызова Dispose, необходимо освободить все ссылки на &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;, сборщик мусора мог освободить память, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;занимаемую.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>очистки неуправляемых ресурсов<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> и <bpt id="p2">[</bpt>метода<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек всегда вызова Dispose перед освобождением последней ссылки на &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">В противном случае им ресурсы не будут освобождены пока сборщик мусора не вызовет метод &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;объекта <ph id="ph1">`Finalize`</ph> метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Enables or disables component notification with the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Включает или отключает уведомления компонент с <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to enable component notification by the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to disable component notification by the <bpt id="p4">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для включения компонента уведомлений по <bpt id="p2">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> для отключения компонента уведомлений по <bpt id="p4">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the component notification was enabled prior to this call; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если уведомление о компоненте был включен перед этим вызовом; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Flushes pending changes to the designer loader.</source>
+          <target state="translated">Сбрасывает ожидающие изменения в загрузчик конструктора.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the designer loader has not been loaded or has not been marked as modified, the Flush method returns immediately.</source>
+          <target state="translated">Если загрузчик конструктора еще не был загружен или не был помечен как измененный, метод Flush немедленно возвращает.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, Flush asks the serialization manager to create a serialization session and then calls &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt;.</source>
+          <target state="translated">В противном случае — Очистка запрашивает у диспетчера сериализации для создания сеанса сериализации и затем вызывает &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">Возвращает запрашиваемую службу.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetService is a helper method that allows classes deriving from &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; to access services offered by the designer loader host.</source>
+          <target state="translated">GetService — это вспомогательный метод, который позволяет классы, производные от &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;для доступа к службам, предоставляемые узлом загрузчика конструктора.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Службы.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested service cannot be found.</source>
+          <target state="translated">Запрошенную службу, или <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если не удается найти запрошенную службу.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Initializes services.</source>
+          <target state="translated">Инициализирует службы.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Initialize method is called the first time &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; is invoked.</source>
+          <target state="translated">Метод Initialize вызывается в первый раз &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;вызывается.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add any services necessary to the designer loader host at this time.</source>
+          <target state="translated">В настоящее время можно добавить любые необходимые службы на узел загрузчика конструктора.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base implementation adds services that &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; provides, so after calling the base implementation you may replace existing services.</source>
+          <target state="translated">Добавляет базовую реализацию службы, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;обеспечивает, чтобы после вызова базовой реализации может заменить существующие службы.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must remove any custom services you add here by overriding &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Dispose%2A&gt;.</source>
+          <target state="translated">Необходимо удалить все пользовательские службы, добавьте здесь путем переопределения &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Dispose%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Был удален.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Indicates whether the designer should be reloaded.</source>
+          <target state="translated">Указывает, следует ли перезапустить конструктор.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsReloadNeeded method is used by some designer loaders to optimize reloading.</source>
+          <target state="translated">Метод IsReloadNeeded используется Некоторые загрузчики конструктора для оптимизации повторной загрузки.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be overridden if your designer loader supports intelligent reloading.</source>
+          <target state="translated">Этот метод может быть переопределен, если загрузчик конструктора поддерживает intelligent перезагрузку.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some designer loaders can detect changes made to their underlying document and determine if a reload of the designer is actually necessary.</source>
+          <target state="translated">Некоторые загрузчики конструктора можно обнаружить изменения, внесенные в их базового документа и определить, является ли фактически необходимости перезагрузки конструктора.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not, they should return <ph id="ph1">`false`</ph> from this method.</source>
+          <target state="translated">Если нет, они возвращают <ph id="ph1">`false`</ph> из этого метода.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation always returns <ph id="ph1">`true`</ph>, indicating that any call to &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload%2A&gt; will succeed.</source>
+          <target state="translated">Реализация по умолчанию всегда возвращает <ph id="ph1">`true`</ph>, указывающее на то, что любой вызов &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload%2A&gt;будет выполнена успешно.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the designer should be reloaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если конструктор следует перезагрузить; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Реализация по умолчанию всегда возвращает <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets the loader host.</source>
+          <target state="translated">Возвращает узел загрузчика.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns the loader host that was given to this designer loader.</source>
+          <target state="translated">Этот метод возвращает узел загрузчика, заданный для этого загрузчик конструктора.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be <ph id="ph1">`null`</ph> if &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; has not been called yet, or if this designer loader has been disposed.</source>
+          <target state="translated">Это может быть <ph id="ph1">`null`</ph> Если &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;не был вызван, или если загрузчик конструктора была удалена.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was passed to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad*&gt; method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Переданный &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad*&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Был удален.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the designer loader is loading the design surface.</source>
+          <target state="translated">Возвращает значение, указывающее, загружается ли загрузчик конструктора области конструктора.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; class provides the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;, which supports load dependencies.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;Класс предоставляет &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;, который поддерживает загрузить зависимости.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property takes load dependencies into account and will return <ph id="ph1">`true`</ph> if there are any outstanding load dependencies.</source>
+          <target state="translated">Это свойство принимает зависимостей загрузки в режиме учетной записи и возврата <ph id="ph1">`true`</ph> при наличии зависимости баланс нагрузки.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the designer loader is currently loading the design surface; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если загрузчик конструктора загружается область конструктора; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the designer has been modified.</source>
+          <target state="translated">Возвращает или задает значение, указывающее, был ли изменен конструктор.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Determines if the designer loader has detected that the designer has been modified.</source>
+          <target state="translated">Определяет, если загрузчик конструктора было обнаружено, что конструктор был изменен.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is <ph id="ph1">`true`</ph> when the designer loader’s &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt; method is called, the designer loader will call the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt; method.</source>
+          <target state="translated">Если это свойство имеет <ph id="ph1">`true`</ph> при загрузчик конструктора &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;вызывается метод, загрузчик конструктора будет вызывать &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformFlush%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the designer has been modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>,</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если конструктор был изменен; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>,</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Notifies the designer loader that loading is about to begin.</source>
+          <target state="translated">Уведомляет загрузчика конструктора, что загрузка должно быть запущено.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBeginLoad method is invoked to start the loading process.</source>
+          <target state="translated">Метод OnBeginLoad вызывается для запуска процесса загрузки.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should perform any necessary initialization for loading at this time.</source>
+          <target state="translated">Следует выполнить инициализацию для загрузки в данный момент.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be used to perform the actual load.</source>
+          <target state="translated">Этот метод не должен использоваться для выполнения самой загрузки.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation disables change notifications and sets up the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; for loading.</source>
+          <target state="translated">Реализация по умолчанию отключает уведомления об изменениях и настраивает &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;для загрузки.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you implement &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; to provide dependent load support, you should call OnBeginLoad when the first dependent load occurs.</source>
+          <target state="translated">Если вы реализуете &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;для предоставления поддержки для зависимой загрузки, необходимо вызвать OnBeginLoad при возникновении первой зависимой загрузки.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; method after the last call to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; method.</source>
+          <target state="translated">Вызовите &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;метод после последнего вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; implements &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; and does this for you.</source>
+          <target state="translated">По умолчанию &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;реализует &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;и делает это для вас.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; is not available when &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; is called, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; will directly call OnBeginLoad.</source>
+          <target state="translated">Если &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;недоступно при &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;вызове &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;напрямую вызывает OnBeginLoad.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you provide your own loader service, or if you choose not to provide a loader service, you are responsible for calling this method.</source>
+          <target state="translated">Если предоставить собственную службу загрузчика, или если вы решили не предоставлять службу загрузчика, вы отвечаете за вызовом этого метода.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; method will automatically call this, either indirectly by calling &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt; if &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; is available, or directly if it is not.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;Метод автоматически вызывается, либо косвенно путем вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt;Если &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;доступен, прямо или если это не так.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Notifies the designer loader that unloading is about to begin.</source>
+          <target state="translated">Уведомляет загрузчика конструктора, выгрузка должно быть запущено.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBeginUnload method is invoked when the designer loader is about to unload the document.</source>
+          <target state="translated">Метод OnBeginUnload вызывается при выгрузке документа загрузчик конструктора.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The document may be unloaded in preparation for reloading, or if the document failed to load.</source>
+          <target state="translated">Документ может быть выгружены для подготовки к перезагрузке, или если не удалось загрузить документ.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you added document-specific services in &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt; or &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;, remove them here.</source>
+          <target state="translated">Если вы добавили службы конкретного документа в &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;или &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt;, удалите их здесь.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnEndLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Notifies the designer loader that loading is complete.</source>
+          <target state="translated">Уведомляет загрузчика конструктора о завершении загрузки.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnEndLoad method is invoked when loading is finished.</source>
+          <target state="translated">Метод OnEndLoad вызывается после завершения загрузки.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is always called, even if an exception is thrown during loading.</source>
+          <target state="translated">Он вызывается всегда, даже если исключение создается во время загрузки.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of <ph id="ph1">`successful`</ph> will be set to <ph id="ph2">`true`</ph> if the load succeeded, or <ph id="ph3">`false`</ph> if a fatal error occurred.</source>
+          <target state="translated">Значение <ph id="ph1">`successful`</ph> будет присвоено <ph id="ph2">`true`</ph> Если загрузка выполнена успешно, или <ph id="ph3">`false`</ph> Если произошла неустранимая ошибка.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`errors`</ph> collection will contain objects that were reported as errors.</source>
+          <target state="translated"><ph id="ph1">`errors`</ph> Коллекция содержит объекты, которые были выведены как ошибки.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Usually, these objects are exceptions.</source>
+          <target state="translated">Как правило эти объекты являются исключениями.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you implement &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; to provide dependent load support, you should call the OnEndLoad method after the last call to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; method.</source>
+          <target state="translated">Если вы реализуете &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;для предоставления поддержки для зависимой загрузки, OnEndLoad метод следует вызывать после последнего вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt; implements &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; and does this for you.</source>
+          <target state="translated">По умолчанию &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;реализует &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;и делает это для вас.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; is not available when &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; is called, &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; will directly call OnEndLoad after calling &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt;.</source>
+          <target state="translated">Если &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;недоступно при &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;вызове &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;напрямую вызывает OnEndLoad после вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.PerformLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should be called by the designer loader service when all dependent loads have been completed.</source>
+          <target state="translated">Этот метод должен вызываться службой загрузчика конструктора после завершения всех зависимых загрузок.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This stops the loading process that was initiated by the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; method.</source>
+          <target state="translated">Это останавливает процесс загрузки, которая была начата &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you provide your own loader service, or if you choose not to provide a loader service, you are responsible for calling this method.</source>
+          <target state="translated">Если предоставить собственную службу загрузчика, или если вы решили не предоставлять службу загрузчика, вы отвечаете за вызовом этого метода.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt; method will automatically call this, either indirectly by calling the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; method if &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; is available, or directly if it is not.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;Метод автоматически вызывается, либо косвенно путем вызова &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt;метод Если &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt;доступен, прямо или если это не так.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23DependentLoadComplete%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the load completed successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если загрузка завершена успешно. в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; containing objects (usually exceptions) that were reported as errors.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;Содержащих объекты (обычно исключения), которые были выведены как ошибки.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Был удален.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Notifies the designer loader that the state of the document is about to be modified.</source>
+          <target state="translated">Уведомляет загрузчика конструктора, который собираетесь изменить состояние документа.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnModifying method is called in response to a component changing, adding, or removing event which indicates that the designer is about to be modified.</source>
+          <target state="translated">Метод OnModifying вызывается в ответ на изменение компонента, добавление, или удаления события, который указывает, что конструктор является должен быть изменен.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement source code control by overriding this method.</source>
+          <target state="translated">Управление исходным кодом можно реализовать путем переопределения этого метода.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A call to OnModifying does not mean that the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Modified%2A&gt; property will later be set to <ph id="ph1">`true`</ph>; it merely indicates an intention to do so.</source>
+          <target state="translated">Вызов OnModifying не означает, что &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Modified%2A&gt;свойство будет необходимо задать <ph id="ph1">`true`</ph>; это означает просто намерение. не&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Modified%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Flushes all changes to the designer.</source>
+          <target state="translated">Сбрасывает все изменения в конструктор.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PerformFlush method is invoked when the designer loader needs to flush to persistence any changes made to the designers.</source>
+          <target state="translated">Метод PerformFlush вызывается, когда загрузчик конструктора необходимо сбросить на сохраняемости любые изменения, внесенные в конструкторах.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is invoked in response to a call to the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt; method.</source>
+          <target state="translated">Вызывается в ответ на вызов &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for persisting the state of loaded designers.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для сохранения состояния загружена конструкторов.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Loads a designer from persistence.</source>
+          <target state="translated">Загружает конструктор из хранилища сохраняемости.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PerformLoad method is invoked when the designer loader needs to load its state.</source>
+          <target state="translated">Метод PerformLoad вызывается, когда загрузчик конструктора необходимо загрузить его состояние.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PerformLoad is called before the &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt; method.</source>
+          <target state="translated">Вызывается перед performLoad &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;метод.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.OnBeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must implement this method to load the designer contents.</source>
+          <target state="translated">Необходимо реализовать этот метод для загрузки содержимого конструктора.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for loading state for the designers.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Должен использоваться для загрузки состояния для конструкторов.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the property provider for the serialization manager being used by the loader.</source>
+          <target state="translated">Возвращает или задает поставщика свойств для диспетчера сериализации, используемый загрузчик.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager provides a <ph id="ph1">`Properties`</ph> property on its primary interface that can be read by serializers to customize their serialization to specific needs.</source>
+          <target state="translated">Диспетчер сериализации предоставляет <ph id="ph1">`Properties`</ph> свойства на его основной интерфейс, который можно считать сериализаторами для сериализации конкретных потребностей.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties that are examined by the serializers vary depending on the type of serializer used.</source>
+          <target state="translated">Свойства, проверяемые сериализаторами, зависят от типа используемого сериализатора.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An object whose properties are to be provided to the serialization manager.</source>
+          <target state="translated">Объект со свойствами, должны быть предоставлены для диспетчера сериализации.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a reload has been queued.</source>
+          <target state="translated">Возвращает значение, указывающее, поставлен в очередь перезагрузка.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if a call to &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload*&gt; has queued a reload request; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, если вызов &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload*&gt;поставил в очередь запрос на перезагрузку; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Reload*&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Reports errors that occurred while flushing changes.</source>
+          <target state="translated">Сообщает об ошибках, возникших при выполнении сброса изменений.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReportFlushErrors method is called during &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt; if one or more errors occurred while flushing changes.</source>
+          <target state="translated">Метод ReportFlushErrors вызывается во время &lt;xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;Если произошла одна или несколько ошибок при выполнении сброса изменений.&lt;/xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values in the <ph id="ph1">`errors`</ph> collection can be exceptions or objects with &lt;xref:System.Object.ToString%2A&gt; values that describe the error.</source>
+          <target state="translated">Значения в <ph id="ph1">`errors`</ph> коллекции может быть исключения или объектов, содержащих &lt;xref:System.Object.ToString%2A&gt;значения, описывающие ошибки.&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of ReportFlushErrors raises the last exception in the collection.</source>
+          <target state="translated">Реализация по умолчанию ReportFlushErrors вызывает последнее исключение в коллекции.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; containing error objects, usually exceptions.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;Содержащий объекты ошибок, как правило исключения.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>One or more errors occurred while flushing changes.</source>
+          <target state="translated">При очистке изменений произошла одна или несколько ошибок.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Sets the full class name of the base component.</source>
+          <target state="translated">Задает полное имя класса базового компонента.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetBaseComponentClassName method should be called during loading to establish the full name of the component a designer is designing.</source>
+          <target state="translated">Метод SetBaseComponentClassName должен вызываться во время загрузки для задания полного имени компонента, который конструктором.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A string representing the full name of the component to be designed.</source>
+          <target state="translated">Строка, представляющая полное имя компонента.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Registers an external component as part of the load process managed by <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Регистрирует внешний компонент как часть процесса загрузки под управлением <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt; method once for each external object participating in the load process.</source>
+          <target state="translated">Вызовите &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt;метод один раз для каждого внешнего объекта, участвующего в процессе загрузки.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt; method is called when the work of the load process is done.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt;Метод вызывается, когда работа процесса загрузки.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Signals that a dependent load has finished.</source>
+          <target state="translated">Сигнализирует о завершении зависимой загрузки.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDesignerLoaderService.DependentLoadComplete method is called to signal that a dependent loading operation has completed.</source>
+          <target state="translated">Метод IDesignerLoaderService.DependentLoadComplete вызывается для подачи сигнала завершение операции зависимой загрузки.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt; method once for every process that was registered by calling the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt; method, which has already completed.</source>
+          <target state="translated">Вызовите &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt;метод один раз для каждого процесса, который был зарегистрирован, вызвав &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt;метод, который уже завершен.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.AddLoadDependency%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderService.DependentLoadComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the dependent load succeeds, the caller sets the <ph id="ph1">`successful`</ph> parameter to <ph id="ph2">`true`</ph> and passes either an empty collection or <ph id="ph3">`null`</ph> to the <ph id="ph4">`errorCollection`</ph> parameter.</source>
+          <target state="translated">Если зависимая загрузка прошла успешно, вызывающая функция задает <ph id="ph1">`successful`</ph> параметр <ph id="ph2">`true`</ph> и передает пустую коллекцию или <ph id="ph3">`null`</ph> для <ph id="ph4">`errorCollection`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the dependent load encounters errors, the caller sets the <ph id="ph1">`successful`</ph> parameter to <ph id="ph2">`false`</ph> and passes a collection of exceptions that indicate the reason or reasons for failure to the <ph id="ph3">`errorCollection`</ph> parameter.</source>
+          <target state="translated">Если в зависимой загрузке возникли ошибки, вызывающий оператор задает <ph id="ph1">`successful`</ph> параметр <ph id="ph2">`false`</ph> и передает набор исключений, которые указывают на причину или причины сбоя в <ph id="ph3">`errorCollection`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для успешной загрузки; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; containing errors that occurred during the load.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;Содержащий ошибки, возникшие во время загрузки.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>No load dependencies have been added by <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A<ph id="ph2">&amp;gt;</ph>, or the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has not been initialized.</source>
+          <target state="translated">Зависимости не нагрузки были добавлены по <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.Serialization.BasicDesignerLoader.System%23ComponentModel%23Design%23Serialization%23IDesignerLoaderService%23AddLoadDependency%2A<ph id="ph2">&amp;gt;</ph>, или <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> не был инициализирован.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerLoaderHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Был удален.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Reloads the design document.</source>
+          <target state="translated">Перезагружает документ проекта.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any object can call the IDesignerLoaderService.Reload method to request that the loader reload the design document.</source>
+          <target state="translated">Любой объект можно вызвать метод IDesignerLoaderService.Reload запрос на перезагрузку документа проекта.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the loader supports reloading and complies with the reload, the designer loader can return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Если загрузчик поддерживает и выполняет перезагрузку, загрузчик конструктора может возвращать <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it returns <ph id="ph1">`false`</ph>, indicating that the reload will not occur.</source>
+          <target state="translated">В противном случае он возвращает <ph id="ph1">`false`</ph>, означающее, что не произойдет перезагрузка.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Callers cannot rely on the reload happening immediately; the designer loader can schedule this for some other time, or it can try to reload the designer at once.</source>
+          <target state="translated">Вызывающие объекты не следует полагаться на перезагрузку немедленно; загрузчик конструктора можно назначить другое время, или чтобы попытаться перезагрузить конструктор за один раз.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller can display a message to the user if the designer cannot be reloaded.</source>
+          <target state="translated">Вызывающий объект может отобразить сообщение для пользователя, если не удается перезапустить конструктор.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the reload request is accepted; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the loader does not allow the reload.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если принимается запрос на перезагрузку; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> если перезагрузка запрещена.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

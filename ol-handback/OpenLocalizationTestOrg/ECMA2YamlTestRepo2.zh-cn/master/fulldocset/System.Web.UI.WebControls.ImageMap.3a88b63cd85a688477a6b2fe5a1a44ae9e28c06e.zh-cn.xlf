@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa0719809b8ebfacff4e73ccdd964959449c26c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.ImageMap.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99af725ed838db089c6bb91cebda2259d3071279</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7a1527bc25dccb7477a4cae1ba7903d1b542903</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates a control that displays an image on a page.</source>
+          <target state="translated">创建在页面显示图像的控件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When a hot spot region defined within the ImageMap control is clicked, the control either generates a postback to the server or navigates to a specified URL.</source>
+          <target state="translated">单击 ImageMap 控件中定义的作用点区域时，该控件生成到服务器的回发或导航到所指定 URL。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Accessibility<ept id="p2">](#accessibility)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Declarative Syntax<ept id="p3">](#declarative_syntax)</ept>      <bpt id="p4">&lt;a name="introduction"&gt;</bpt><ept id="p4">&lt;/a&gt;</ept>    ## Introduction    Use the ImageMap control to create an image that contains defined hot spot regions.</source>
+          <target state="translated">本主题中:-<bpt id="p1">[</bpt>简介<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>可访问性<ept id="p2">](#accessibility)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>声明性语法<ept id="p3">](#declarative_syntax)</ept><bpt id="p4">&lt;a name="introduction"&gt;</bpt> <ept id="p4">&lt;/a&gt;</ept> # # 介绍使用 ImageMap 控件来创建映像，其中包含定义的作用点区域。      </target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When a user clicks a hot spot region, the control can either generate a postback to the server or navigate to a specified URL.</source>
+          <target state="translated">当用户单击作用点区域时，控件可以生成到服务器的回发或导航到指定的 URL。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, you can use this control to display a map of a geographical region.</source>
+          <target state="translated">例如，可以使用此控件以显示的地理区域的映射。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a user clicks a specific region on the map, the control navigates to a URL that provides additional data about the selected region.</source>
+          <target state="translated">当用户单击地图上的特定区域时，控件导航到提供有关所选区域的其他数据的 URL。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also use this control to generate a postback to the server and run specific code based on the hot spot region that was clicked.</source>
+          <target state="translated">你还可以使用此控件生成回发到服务器和运行基于被单击的作用点区域的特定代码。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, you can use an ImageMap control to capture user responses such as votes.</source>
+          <target state="translated">例如，可以使用 ImageMap 控制捕获用户响应如投票。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a user clicks the hot spot region defined for yes votes, code is called to record a yes response in a database.</source>
+          <target state="translated">当用户单击是投票为定义的作用点区域时，调用代码可在数据库中记录的是响应。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When a user clicks on the hot spot region defined for no votes, a no response is recorded.</source>
+          <target state="translated">当用户单击为不投票定义的作用点区域时，记录没有响应。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can also mix these two scenarios within a single ImageMap control.</source>
+          <target state="translated">此外可以混合使用这两个方案，单个 ImageMap 控件内。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, you can specify one hot spot region to navigate to a URL and another hot spot region to post back to the server.</source>
+          <target state="translated">例如，你可以指定一个作用点区域以导航到的 URL 和要回发到服务器的另一个作用点区域。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt; property to specify the path to the image to display for the ImageMap control.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt;属性来指定要为 ImageMap 控件显示的图像的路径。&lt;/xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can define any number of &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects within an ImageMap control.</source>
+          <target state="translated">你可以定义任意数量的&lt;xref:System.Web.UI.WebControls.HotSpot&gt;ImageMap 控件中的对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Web.UI.WebControls.CircleHotSpot&gt;, &lt;xref:System.Web.UI.WebControls.RectangleHotSpot&gt;, and &lt;xref:System.Web.UI.WebControls.PolygonHotSpot&gt; classes to define hot spot regions.</source>
+          <target state="translated">你可以使用&lt;xref:System.Web.UI.WebControls.CircleHotSpot&gt;， &lt;xref:System.Web.UI.WebControls.RectangleHotSpot&gt;，和&lt;xref:System.Web.UI.WebControls.PolygonHotSpot&gt;类来定义作用点区域。&lt;/xref:System.Web.UI.WebControls.PolygonHotSpot&gt; &lt;/xref:System.Web.UI.WebControls.RectangleHotSpot&gt; &lt;/xref:System.Web.UI.WebControls.CircleHotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can derive from the abstract &lt;xref:System.Web.UI.WebControls.HotSpot&gt; class to define your own custom hot spot object.</source>
+          <target state="translated">或者，你可以从抽象派生&lt;xref:System.Web.UI.WebControls.HotSpot&gt;类来定义你自己的自定义的作用点对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>There are two ways to specify the behavior of a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object in an ImageMap control when the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked.</source>
+          <target state="translated">有两种方法，以指定的行为&lt;xref:System.Web.UI.WebControls.HotSpot&gt;中 ImageMap 对象控制&lt;xref:System.Web.UI.WebControls.HotSpot&gt;单击。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use either the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property on the ImageMap control or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; property on an individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object.</source>
+          <target state="translated">你可以使用&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;ImageMap 控件上的属性或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;对单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These properties are set using one of the &lt;xref:System.Web.UI.WebControls.HotSpotMode&gt; enumeration values.</source>
+          <target state="translated">使用之一设置这些属性&lt;xref:System.Web.UI.WebControls.HotSpotMode&gt;枚举值。&lt;/xref:System.Web.UI.WebControls.HotSpotMode&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If both properties are set, the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; property specified on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object takes precedence over the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property on the ImageMap control.</source>
+          <target state="translated">如果设置这两个属性，&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;属性指定针对每个单个&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象将优先于&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;ImageMap 控件属性。&lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To navigate to a URL, set either the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt; property or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property to <ph id="ph1">`HotSpotMode.Navigate`</ph>.</source>
+          <target state="translated">若要导航到的 URL，设置&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;属性或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性<ph id="ph1">`HotSpotMode.Navigate`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt; property to specify the URL to navigate to.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt;属性来指定要导航到的 URL。&lt;/xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To generate a postback to the server, set either the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt; property or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property to <ph id="ph1">`HotSpotMode.Postback`</ph>.</source>
+          <target state="translated">若要生成回发到服务器，设置&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;属性或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性<ph id="ph1">`HotSpotMode.Postback`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt; property to specify a name for the hot spot region.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt;属性指定的作用点区域的名称。&lt;/xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This name will be passed in the &lt;xref:System.Web.UI.WebControls.ImageMapEventArgs&gt; event data when a postback event occurs.</source>
+          <target state="translated">此名称将传递中&lt;xref:System.Web.UI.WebControls.ImageMapEventArgs&gt;回发事件发生时的事件数据。&lt;/xref:System.Web.UI.WebControls.ImageMapEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When a postback &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked, the &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event is raised.</source>
+          <target state="translated">在回发时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;单击后，&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;引发事件。&lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To programmatically control the actions performed when a postback &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked, provide an event handler for the &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event.</source>
+          <target state="translated">以编程方式控制时执行的操作回发&lt;xref:System.Web.UI.WebControls.HotSpot&gt;是单击，提供的事件处理程序&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;事件。&lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To cause all &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects in an ImageMap control to have the same behavior, use the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt; property to specify the behavior.</source>
+          <target state="translated">若要使所有&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象中的 ImageMap 控件具有相同的行为，请使用&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;属性指定的行为。&lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Then, either set the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to <ph id="ph1">`HotSpotMode.NotSet`</ph> or do not specify a value for the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">然后，设置&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;针对每个单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象传递给<ph id="ph1">`HotSpotMode.NotSet`</ph>或者未指定的值&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To specify different behaviors for &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects in an ImageMap, set the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to either <ph id="ph1">`HotSpotMode.Navigate`</ph> or <ph id="ph2">`HotSpotMode.PostBack`</ph>.</source>
+          <target state="translated">若要指定不同的行为的&lt;xref:System.Web.UI.WebControls.HotSpot&gt;ImageMap 中的对象设置&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;针对每个单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象为<ph id="ph1">`HotSpotMode.Navigate`</ph>或<ph id="ph2">`HotSpotMode.PostBack`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If an ImageMap control's &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt; property or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property on any of the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects it contains is set to <ph id="ph2">`HotSpotMode.NotSet`</ph> or is not set to a value, by default the behavior is <ph id="ph3">`HotSpotMode.Navigate`</ph>.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果 ImageMap 控件的&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;属性或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性上的任何&lt;xref:System.Web.UI.WebControls.HotSpot&gt;它所包含的对象设置为<ph id="ph2">`HotSpotMode.NotSet`</ph>或默认行为是未设置为一个值， <ph id="ph3">`HotSpotMode.Navigate`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Accessibility    For information about how to configure this control so that it generates markup that conforms to accessibility standards, see <bpt id="p2">[</bpt>Accessibility in Visual Studio and ASP.NET<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p3">[</bpt>ASP.NET Controls and Accessibility<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 有关如何配置此控件，以使其生成符合辅助功能标准的标记辅助功能的信息，请参阅<bpt id="p2">[</bpt>Visual Studio 和 ASP.NET 中的辅助功能<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p3">[</bpt>ASP.NET 控件和可访问性<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:ImageMap       AccessKey="string"       AlternateText="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       DescriptionUrl="uri"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ForeColor="color name|#dddddd"       Height="size"       HotSpotMode="NotSet|Navigate|PostBack|Inactive"       ID="string"       ImageAlign="NotSet|Left|Right|Baseline|Top|Middle|Bottom|           AbsBottom|AbsMiddle|TextTop"       ImageUrl="uri"       OnClick="Click event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Target="string"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;               &lt;asp:CircleHotSpot                   AccessKey="string"                   AlternateText="string"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   NavigateUrl="uri"                   PostBackValue="string"                   Radius="integer"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"                   X="integer"                   Y="integer"               /&gt;               &lt;asp:PolygonHotSpot                   AccessKey="string"                   AlternateText="string"                   Coordinates="string"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   NavigateUrl="uri"                   PostBackValue="string"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"               /&gt;               &lt;asp:RectangleHotSpot                   AccessKey="string"                   AlternateText="string"                   Bottom="integer"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   Left="integer"                   NavigateUrl="uri"                   PostBackValue="string"                   Right="integer"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"                   Top="integer"               /&gt;   &lt;/asp:ImageMap&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 声明性语法<ph id="ph1">```   &lt;asp:ImageMap       AccessKey="string"       AlternateText="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       DescriptionUrl="uri"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ForeColor="color name|#dddddd"       Height="size"       HotSpotMode="NotSet|Navigate|PostBack|Inactive"       ID="string"       ImageAlign="NotSet|Left|Right|Baseline|Top|Middle|Bottom|           AbsBottom|AbsMiddle|TextTop"       ImageUrl="uri"       OnClick="Click event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Target="string"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;               &lt;asp:CircleHotSpot                   AccessKey="string"                   AlternateText="string"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   NavigateUrl="uri"                   PostBackValue="string"                   Radius="integer"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"                   X="integer"                   Y="integer"               /&gt;               &lt;asp:PolygonHotSpot                   AccessKey="string"                   AlternateText="string"                   Coordinates="string"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   NavigateUrl="uri"                   PostBackValue="string"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"               /&gt;               &lt;asp:RectangleHotSpot                   AccessKey="string"                   AlternateText="string"                   Bottom="integer"                   HotSpotMode="NotSet|Navigate|PostBack|Inactive"                   Left="integer"                   NavigateUrl="uri"                   PostBackValue="string"                   Right="integer"                   TabIndex="integer"                   Target="string|_blank|_parent|_search|_self|_top"                   Top="integer"               /&gt;   &lt;/asp:ImageMap&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Use this constructor to initialize a new instance of the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; class.</source>
+          <target state="translated">使用此构造函数初始化&lt;xref:System.Web.UI.WebControls.ImageMap&gt;类&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;的新实例</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Adds the HTML attributes and styles of an <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to be rendered to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">将 HTML 特性和样式添加<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件呈现到指定<bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by control developers to insert the appropriate attributes and styles to the &lt;xref:System.Web.UI.HtmlTextWriter?displayProperty=fullName&gt; output stream for an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">此方法主要由控件开发人员使用插入适当的特性和样式&lt;xref:System.Web.UI.HtmlTextWriter?displayProperty=fullName&gt;输出流&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.HtmlTextWriter?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A?displayProperty=fullName&gt;.&lt;/xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the output stream to render HTML content on the client.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它表示要在客户端呈现 HTML 内容的输出流。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Occurs when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in an <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">发生时<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象在<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件被单击。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Click event is raised when a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object in an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control is clicked.</source>
+          <target state="translated">将引发单击事件时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象在&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件被单击。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To allow a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; to raise the Click event, you must first set either the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property on the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; property on the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to <ph id="ph1">`HotSpotMode.Postback`</ph>.</source>
+          <target state="translated">若要允许&lt;xref:System.Web.UI.WebControls.HotSpot&gt;引发单击事件，你必须首先设置&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;属性&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象传递给<ph id="ph1">`HotSpotMode.Postback`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To programmatically control the actions performed when a postback &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked, provide an event handler for the Click event that contains the code to run when the event is raised.</source>
+          <target state="translated">以编程方式控制时执行的操作回发&lt;xref:System.Web.UI.WebControls.HotSpot&gt;是单击，包含用于引发事件时运行的代码的单击事件提供事件处理程序。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control can respond to user interaction.</source>
+          <target state="translated">获取或设置一个值，该值指示控件是否可以对用户交互作出响应。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>With the Enabled property, you can enable or disable the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control at run time.</source>
+          <target state="translated">使用的 Enabled 属性中，你可以启用或禁用&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件在运行时。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control is to respond to user clicks; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控件将响应用户单击;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default behavior for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects of an <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control when the <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects are clicked.</source>
+          <target state="translated">获取或设置的默认行为<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的对象<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制<bpt id="p3">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>单击对象。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use the HotSpotMode property to specify the default click behavior of the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects within an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">使用要指定默认的 HotSpotMode 属性单击行为&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象内&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This property is set using one of the &lt;xref:System.Web.UI.WebControls.HotSpotMode&gt; enumeration values.</source>
+          <target state="translated">此属性使用其中一个设置&lt;xref:System.Web.UI.WebControls.HotSpotMode&gt;枚举值。&lt;/xref:System.Web.UI.WebControls.HotSpotMode&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The following table lists the possible values.</source>
+          <target state="translated">下表列出可能的值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>|Item|Description|   |----------|-----------------|   |<ph id="ph1">`Inactive`</ph>|The &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object does not have any behavior.|   |<ph id="ph2">`NotSet`</ph>|The &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object uses the behavior set by the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control's HotSpotMode property.</source>
+          <target state="translated">|项 |说明 |  |----------|-----------------|  |<ph id="ph1">`Inactive`</ph>|&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象不具有任何行为。 |  |<ph id="ph2">`NotSet`</ph>|&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象使用设置的行为&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件的 HotSpotMode 属性。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control does not define the behavior, the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects all navigate to a URL.|   |<ph id="ph1">`Navigate`</ph>|The &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects navigate to a URL.|   |<ph id="ph2">`PostBack`</ph>|The &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects generate a postback to the server.|       You can specify a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object's behavior using either the HotSpotMode property of the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property of each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件未定义行为，&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象所有导航到的 URL。 |  |<ph id="ph1">`Navigate`</ph>|&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象导航到的 URL。 |  |<ph id="ph2">`PostBack`</ph>|&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象生成到服务器的回发。 |      你可以指定&lt;xref:System.Web.UI.WebControls.HotSpot&gt;使用任一 HotSpotMode 的属性的对象的行为&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;的每个单独的属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If both properties are set, the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property specified on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object takes precedence over the HotSpotMode property on the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">如果设置这两个属性，&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性指定针对每个单个&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象将优先于 HotSpotMode 属性&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you set the HotSpotMode property of the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control, note that the <ph id="ph1">`HotSpotMode.NotSet`</ph> and <ph id="ph2">`HotSpotMode.Navigate`</ph> values have the same behavior: both navigate to a URL.</source>
+          <target state="translated">当你设置的 HotSpotMode 属性&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控制，请注意，<ph id="ph1">`HotSpotMode.NotSet`</ph>和<ph id="ph2">`HotSpotMode.Navigate`</ph>值具有相同的行为︰ 同时导航到的 URL。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you specify <ph id="ph1">`HotSpotMode.NotSet`</ph> for the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property of an individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object, that &lt;xref:System.Web.UI.WebControls.HotSpot&gt; determines its behavior from the value of the HotSpotMode property of the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">当指定<ph id="ph1">`HotSpotMode.NotSet`</ph>为&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;的单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象，&lt;xref:System.Web.UI.WebControls.HotSpot&gt;确定的 HotSpotMode 属性的值从其行为&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you specify <ph id="ph1">`HotSpotMode.Navigate`</ph> for the HotSpotMode property, the page navigates to a URL when the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked.</source>
+          <target state="translated">如果指定<ph id="ph1">`HotSpotMode.Navigate`</ph>HotSpotMode 属性中，此页将导航到 URL 时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;单击。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt; property to specify the URL to navigate to.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt;属性来指定要导航到的 URL。&lt;/xref:System.Web.UI.WebControls.HotSpot.NavigateUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you specify <ph id="ph1">`HotSpotMode.PostBack`</ph> for the HotSpotMode property, the page generates a postback to the server when the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked.</source>
+          <target state="translated">如果指定<ph id="ph1">`HotSpotMode.PostBack`</ph>HotSpotMode 属性页生成回发到服务器时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;单击。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt; property to specify the name of the hot spot region.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt;属性指定的作用点区域的名称。&lt;/xref:System.Web.UI.WebControls.HotSpot.PostBackValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This name will be passed in the &lt;xref:System.Web.UI.WebControls.ImageMapEventArgs&gt; event data when a postback event occurs.</source>
+          <target state="translated">此名称将传递中&lt;xref:System.Web.UI.WebControls.ImageMapEventArgs&gt;回发事件发生时的事件数据。&lt;/xref:System.Web.UI.WebControls.ImageMapEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When a postback &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked, the &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event is raised.</source>
+          <target state="translated">在回发时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;单击后，&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;引发事件。&lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To programmatically control the actions performed when a postback &lt;xref:System.Web.UI.WebControls.HotSpot&gt; is clicked, provide an event handler for the &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event.</source>
+          <target state="translated">以编程方式控制时执行的操作回发&lt;xref:System.Web.UI.WebControls.HotSpot&gt;是单击，提供的事件处理程序&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;事件。&lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If you specify <ph id="ph1">`HotSpotMode.Inactive`</ph> for the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property, the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object does not have any behavior when it is clicked.</source>
+          <target state="translated">如果指定<ph id="ph1">`HotSpotMode.Inactive`</ph>为&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性，&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象不具有任何行为，单击时其。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can use this value to create an inactive hot spot within a larger active hot spot.</source>
+          <target state="translated">此值可用于创建更大的活动作用点内处于非活动状态的作用点。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This option is provided to allow you to create more complex hot spot zones within an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">提供此选项以允许你创建更复杂的作用点区域内&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To create an inactive area within an active hot spot, you must specify the inactive hot spot before the active hot spot in the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">若要创建活动的作用点内的某个非活动区域，必须指定在活动的作用点之前处于非活动状态的作用点&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, the following &lt;xref:System.Web.UI.WebControls.ImageMap&gt; defines an active ring by specifying an inactive circular hot spot within a larger active circular hot spot:      <ph id="ph1">```   &lt;asp:ImageMap ID="SaturnImage"           ImageUrl="~/saturn.PNG"           runat="server" OnClick="SaturnImage_Click"&gt;       &lt;asp:CircleHotSpot AlternateText="planet" HotSpotMode=PostBack             PostBackValue="planet" Radius=40 X=100 Y=100 /&gt;          &lt;asp:CircleHotSpot HotSpotMode=Inactive              Radius=60 X=100 Y=100 /&gt;       &lt;asp:CircleHotSpot AlternateText="rings" HotSpotMode=PostBack             PostBackValue="rings" Radius=80 X=100 Y=100 /&gt;   &lt;/asp:ImageMap&gt;   ```</ph>       To cause all &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects in an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control to have the same behavior, use the HotSpotMode property on the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control to specify the behavior.</source>
+          <target state="translated">例如，以下&lt;xref:System.Web.UI.WebControls.ImageMap&gt;通过指定非活动状态的圆形作用点中较大 active 圆形作用点定义一个活动环形︰<ph id="ph1">```   &lt;asp:ImageMap ID="SaturnImage"           ImageUrl="~/saturn.PNG"           runat="server" OnClick="SaturnImage_Click"&gt;       &lt;asp:CircleHotSpot AlternateText="planet" HotSpotMode=PostBack             PostBackValue="planet" Radius=40 X=100 Y=100 /&gt;          &lt;asp:CircleHotSpot HotSpotMode=Inactive              Radius=60 X=100 Y=100 /&gt;       &lt;asp:CircleHotSpot AlternateText="rings" HotSpotMode=PostBack             PostBackValue="rings" Radius=80 X=100 Y=100 /&gt;   &lt;/asp:ImageMap&gt;   ```</ph>若要使所有&lt;xref:System.Web.UI.WebControls.HotSpot&gt;中的对象&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件具有相同的行为，请使用 HotSpotMode 属性&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件指定的行为。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Then, either set the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; property on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to <ph id="ph1">`HotSpotMode.NotSet`</ph> or do not specify a value for the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">然后，设置&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;针对每个单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象传递给<ph id="ph1">`HotSpotMode.NotSet`</ph>或者未指定的值&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To specify different behaviors for &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects in an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control, set the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property on each individual &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to either <ph id="ph1">`HotSpotMode.Navigate`</ph>, <ph id="ph2">`HotSpotMode.PostBack`</ph>, or <ph id="ph3">`HotSpotMode.Inactive`</ph>.</source>
+          <target state="translated">若要指定不同的行为的&lt;xref:System.Web.UI.WebControls.HotSpot&gt;中的对象&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控制、 设置&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;针对每个单个属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象为<ph id="ph1">`HotSpotMode.Navigate`</ph>， <ph id="ph2">`HotSpotMode.PostBack`</ph>，或<ph id="ph3">`HotSpotMode.Inactive`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control's HotSpotMode property or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; property on any of the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects it contains is either set to <ph id="ph2">`HotSpotMode.NotSet`</ph> or not set to a value, by default the behavior is <ph id="ph3">`HotSpotMode.Navigate`</ph>.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件的 HotSpotMode 属性或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt;属性上的任何&lt;xref:System.Web.UI.WebControls.HotSpot&gt;它所包含的对象被设置为<ph id="ph2">`HotSpotMode.NotSet`</ph>或不设置为一个值，默认情况下的行为是<ph id="ph3">`HotSpotMode.Navigate`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_NotSet" name="NotSet" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_NotSet" name="NotSet" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The specified type is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">指定的类型不是之一<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举值。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represents the defined hot spot regions in an <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取的集合<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>热表示定义的对象发现中的区域<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Use the HotSpots property to programmatically manage the hot spot regions in an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">使用热点属性以编程方式管理中的作用点区域&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can use the HotSpots property to add, insert, remove, and retrieve &lt;xref:System.Web.UI.WebControls.HotSpot&gt; objects.</source>
+          <target state="translated">热点属性可用于添加、 插入、 删除和检索&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.WebControls.HotSpotCollection&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.HotSpotCollection&gt;。&lt;/xref:System.Web.UI.WebControls.HotSpotCollection&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the defined hot spot regions in an <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.HotSpotCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，表示中定义的作用点区域<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Restores view-state information for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control from a previous page request that was saved by the &lt;xref:System.Web.UI.WebControls.ImageMap.SaveViewState*&gt; method.</source>
+          <target state="translated">还原视图状态信息<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件从保存的一个页面请求&lt;xref:System.Web.UI.WebControls.ImageMap.SaveViewState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.ImageMap.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">此方法主要由.NET Framework 基础结构使用，但不可在代码中直接使用。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>However, control developers can override this method to specify how a custom server control restores its view state.</source>
+          <target state="translated">但是，控件开发人员可以重写此方法以指定自定义服务器控件还原其视图状态的方式。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 状态管理概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to restore.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要还原的控件。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;savedState&lt;/code&gt;</ph> is not a valid <ph id="ph2">&lt;xref:System.Web.UI.Control.ViewState*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;savedState&lt;/code&gt;</ph>不是有效<ph id="ph2">&lt;xref:System.Web.UI.Control.ViewState*&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap.Click"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event for the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap.Click"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event is raised when a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object in an &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control is clicked.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;引发事件时&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象在&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件被单击。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To allow a &lt;xref:System.Web.UI.WebControls.HotSpot&gt; to raise the &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event, you must first set either the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property on the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control or the &lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; property on the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object to <ph id="ph1">`HotSpotMode.Postback`</ph>.</source>
+          <target state="translated">若要允许&lt;xref:System.Web.UI.WebControls.HotSpot&gt;引发&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;事件，你必须首先设置&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;属性&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件或&lt;xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt;属性&lt;xref:System.Web.UI.WebControls.HotSpot&gt;对象传递给<ph id="ph1">`HotSpotMode.Postback`</ph>。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.HotSpot&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 引发事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The OnClick method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnClick 方法还允许派生的类对事件进行处理而不必附加委托。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">这是处理派生类中的事件的首选的技术。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An argument of type <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMapEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">类型的自变量<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMapEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Raises events for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when a form is posted back to the server.</source>
+          <target state="translated">引发事件<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制当窗体回发到服务器。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The page passes the value of the <ph id="ph1">`eventArgument`</ph> parameter to the RaisePostBackEvent method of the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control.</source>
+          <target state="translated">页的值传递<ph id="ph1">`eventArgument`</ph>RaisePostBackEvent 方法的参数为&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.ImageMap&gt; raises a &lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt; event for the &lt;xref:System.Web.UI.WebControls.HotSpot&gt; object that was clicked.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.ImageMap&gt;引发&lt;xref:System.Web.UI.WebControls.ImageMap.Click&gt;事件&lt;xref:System.Web.UI.WebControls.HotSpot&gt;被单击的对象。&lt;/xref:System.Web.UI.WebControls.HotSpot&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.Click&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">事件自变量。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Sends the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control content to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, which writes the content to render on the client.</source>
+          <target state="translated">发送<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件内容写入指定<bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ，对象该对象编写相应内容以便呈现在客户端。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by control developers.</source>
+          <target state="translated">此方法主要由控件开发人员使用。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When developing a custom server control derived from the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control, you can override this method to generate content for the &lt;xref:System.Web.UI.WebControls.ImageMap&gt;.</source>
+          <target state="translated">当开发自定义服务器控件派生&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件，你可以重写此方法以生成&lt;xref:System.Web.UI.WebControls.ImageMap&gt;.&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;的内容&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;从</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that receives the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收对象<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件内容。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Saves any changes to an <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's view-state that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">保存到任何更改<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件的视图状态页以来发生回发到服务器。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by control developers.</source>
+          <target state="translated">此方法主要由控件开发人员使用。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>View state is the accumulation of the values of a server control's properties.</source>
+          <target state="translated">视图状态是服务器控件的属性的值的累计。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>These values are automatically placed in the server control's &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property, which is an instance of the &lt;xref:System.Web.UI.StateBag&gt; class.</source>
+          <target state="translated">这些值会自动放在服务器控件的&lt;xref:System.Web.UI.Control.ViewState%2A&gt;属性，它是&lt;xref:System.Web.UI.StateBag&gt;类&lt;/xref:System.Web.UI.StateBag&gt;的实例&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This property's value is then persisted to a string object after the save state stage of the server control life cycle.</source>
+          <target state="translated">保存状态的服务器控件生命周期阶段后，此属性的值随后会保存到一个字符串对象。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 状态管理概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When view state is saved, this string object is returned to the client as a variable that is stored in an <ph id="ph1">`Hidden`</ph> HTML element.</source>
+          <target state="translated">视图状态保存时，此字符串对象返回到客户端为存储在一个变量<ph id="ph1">`Hidden`</ph>HTML 元素。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When you author custom server controls, you can improve efficiency by overriding this method and modifying your server control's <ph id="ph1">`ViewState`</ph> property.</source>
+          <target state="translated">在创作自定义服务器控件时，你可以通过重写此方法并修改你的服务器控件的提高效率<ph id="ph1">`ViewState`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](../Topic/ASP.NET%20State%20Management%20Overview.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 状态管理概述<ept id="p1">](../Topic/ASP.NET%20State%20Management%20Overview.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's current view state.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件的当前视图状态。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果没有与控件关联的视图状态，则此方法返回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent*&gt;.</source>
+          <target state="translated">有关此成员的说明，请参阅&lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent*&gt;。&lt;/xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent*&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Typically, you should use the &lt;xref:System.Web.UI.WebControls.ImageMap.RaisePostBackEvent%2A?displayProperty=fullName&gt; method to raise an event for the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control when a form is posted back to the server.</source>
+          <target state="translated">通常情况下，应使用&lt;xref:System.Web.UI.WebControls.ImageMap.RaisePostBackEvent%2A?displayProperty=fullName&gt;方法来引发的事件&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控制当窗体回发到服务器。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.RaisePostBackEvent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The IPostBackEventHandler.RaisePostBackEvent method is an explicit interface member implementation.</source>
+          <target state="translated">IPostBackEventHandler.RaisePostBackEvent 方法是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; instance is cast to an &lt;xref:System.Web.UI.IPostBackEventHandler&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Web.UI.WebControls.ImageMap&gt;实例被强制转换为&lt;xref:System.Web.UI.IPostBackEventHandler&gt;接口。&lt;/xref:System.Web.UI.IPostBackEventHandler&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">事件自变量。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the target window or frame that displays the Web page content linked to when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">获取或设置目标窗口或显示时所链接到的网页内容的帧<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件被单击。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use the Target property to specify the frame or window that displays the Web page r when the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control is clicked.</source>
+          <target state="translated">目标属性用于指定的框架或显示网页 r 的窗口时&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件被单击。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The Web page is specified by setting the &lt;xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt; property.</source>
+          <target state="translated">通过将设置指定 Web 页&lt;xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Image.ImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The Target property is used when the value of the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property is <ph id="ph1">`HotSpotMode.Navigate`</ph>; it is ignored when the value of the &lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; property is <ph id="ph2">`HotSpotMode.PostBack`</ph>.</source>
+          <target state="translated">使用的目标属性时的值&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;属性是<ph id="ph1">`HotSpotMode.Navigate`</ph>; 它将被忽略时的值&lt;xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;属性是<ph id="ph2">`HotSpotMode.PostBack`</ph>。&lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.ImageMap.HotSpotMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If the Target property is not set, the browser or window with focus refreshes when the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control is clicked.</source>
+          <target state="translated">如果未设置目标属性，浏览器或具有焦点的窗口时刷新&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件被单击。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Target property renders as a <ph id="ph2">`target`</ph> attribute.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; Target 属性呈现为<ph id="ph2">`target`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`target`</ph> attribute on <ph id="ph2">`anchor`</ph> elements is not allowed in the XHTML 1.1 document type definition.</source>
+          <target state="translated"><ph id="ph1">`target`</ph>属性<ph id="ph2">`anchor`</ph>XHTML 1.1 文档类型定义中不允许的元素。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Do not set the Target property if the rendered output for the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; must be XHTML 1.1-compliant.</source>
+          <target state="translated">如果未设置目标属性的呈现的输出&lt;xref:System.Web.UI.WebControls.ImageMap&gt;必须是 XHTML 1.1 合规。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>XHTML Standards in Visual Studio and ASP.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>在 Visual Studio 和 ASP.NET 的 XHTML 标准<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  When creating accessible Web pages, it is strongly recommended that you avoid using the Target property to target another window.</source>
+          <target state="translated">&gt;&gt; 时创建可访问网页，强烈建议你避免使用的目标属性将另一个窗口作为目标。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Accessibility in Visual Studio and ASP.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>ASP.NET Controls and Accessibility<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>Visual Studio 和 ASP.NET 中的辅助功能<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>ASP.NET 控件和可访问性<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The target window or frame that displays the specified Web page when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">目标窗口或框架显示指定的 Web 页上时<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件被单击。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Values must begin with a letter in the range of A through Z (case-insensitive), except for the following special values, which begin with an underscore:</source>
+          <target state="translated">值必须以字母中的 A 到 Z 范围 （不区分大小写），以下划线开头的以下特殊值除外开头︰</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Renders the content in a new window without frames.</source>
+          <target state="translated">呈现在新窗口中没有框架的内容。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Renders the content in the immediate frameset parent.</source>
+          <target state="translated">呈现的即时框架集父代中的内容。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Renders the content in the search pane.</source>
+          <target state="translated">呈现搜索窗格中的内容。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Renders the content in the frame with focus.</source>
+          <target state="translated">呈现具有焦点的框架中的内容。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Renders the content in the full window without frames.</source>
+          <target state="translated">呈现没有框架的完整窗口中的内容。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Check your browser documentation to determine if the <bpt id="p1">&lt;xref uid="langword_csharp__search" name="_search" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value is supported.</source>
+          <target state="translated">检查你的浏览器文档以确定如果<bpt id="p1">&lt;xref uid="langword_csharp__search" name="_search" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值受到支持。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For example, Microsoft Internet Explorer 5.0 and later support the <bpt id="p1">&lt;xref uid="langword_csharp__search" name="_search" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> target value.</source>
+          <target state="translated">例如，Microsoft Internet Explorer 5.0 和更高版本支持<bpt id="p1">&lt;xref uid="langword_csharp__search" name="_search" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>目标值。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Tracks view-state changes to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control so they can be stored in the control's <bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">跟踪视图状态更改为<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ImageMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制以便将它们存储在控件的<bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This object is accessible through the <ph id="ph1">&amp;lt;</ph>xref:System.Web.UI.Control.ViewState%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">此对象是可通过访问<ph id="ph1">&amp;lt;</ph>xref:System.Web.UI.Control.ViewState%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>属性。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This method is called automatically by ASP.NET when the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control is initialized.</source>
+          <target state="translated">由 ASP.NET 自动调用此方法时&lt;xref:System.Web.UI.WebControls.ImageMap&gt;控件初始化。&lt;/xref:System.Web.UI.WebControls.ImageMap&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
