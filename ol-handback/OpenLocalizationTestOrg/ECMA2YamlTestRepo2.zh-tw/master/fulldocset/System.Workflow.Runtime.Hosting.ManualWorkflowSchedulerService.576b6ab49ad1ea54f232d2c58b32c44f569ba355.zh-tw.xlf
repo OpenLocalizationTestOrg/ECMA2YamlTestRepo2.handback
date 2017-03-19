@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a55a76d650355dcb4510e1490e9765c319755c0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e255cec2da71ea50ec9dce61c8153f7d33e9d5e0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2036982566e2d0c66fb74d79153f84533f88a517</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a threading service that allows the host application creating a workflow instance to donate the <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the workflow instance is run.</source>
+          <target state="translated">提供執行緒服務，可讓主應用程式建立的工作流程執行個體所在<bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>上執行工作流程執行個體。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using this threading service, host applications can run a workflow instance on a single <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in synchronous mode (although if the workflow contains a delay activity, the work is postponed until after the delay activity is executed on a separate thread spawned by <bpt id="p2">[</bpt>System.Threading.Timer<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>).This mode blocks the execution of the host application until the workflow instance becomes idle.</source>
+          <target state="translated">使用此執行緒服務，主機應用程式可以執行的工作流程執行個體上單一<bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>同步模式中 (但是如果工作流程包含延遲活動，工作則會延期之前所繁衍的個別執行緒執行延遲活動之後<bpt id="p2">[</bpt>System.Threading.Timer<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>)。此模式會封鎖直到工作流程執行個體變成閒置的主應用程式執行。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Subsequently, the workflow instance can only be executed using the &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt; method of this service.</source>
+          <target state="translated">接著，工作流程執行個體，才可執行使用&lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt;此服務的方法。&lt;/xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       ManualWorkflowSchedulerService does not automatically run a workflow instance that is in the queue.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>ManualWorkflowSchedulerService 不會自動執行佇列中的工作流程執行個體。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The host must call &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt; to run a specified workflow.</source>
+          <target state="translated">主機必須呼叫&lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt;執行指定的工作流程。&lt;/xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that determines how delay activities are handled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>決定如何處理延遲活動。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the scheduler service automatically resumes workflows after delay activities expire (by using an in-memory timer).</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，排程器服務會自動繼續工作流程，在延遲活動到期後 （透過使用記憶體中的計時器）。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the host must manually resume the workflow after the delay activities expire.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，在延遲活動到期後，主機必須手動繼續工作流程。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains parameters for <ph id="ph1">`useActiveTimers`</ph>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含參數<ph id="ph1">`useActiveTimers`</ph>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the scheduler service automatically resumes workflows after delay activities expire (by using an in-memory timer).</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，排程器服務會自動繼續工作流程，在延遲活動到期後 （透過使用記憶體中的計時器）。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the host must manually resume the workflow after the delay activities expire.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，在延遲活動到期後，主機必須手動繼續工作流程。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cancels the specified existing workflow instance work item.</source>
+          <target state="translated">取消指定現有工作流程執行個體工作項目。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; associated with the existing scheduled work item to cancel.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;來取消現有的排程的工作項目相關聯。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Overloaded from <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">多載自<ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called whenever <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is called and is used by the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to do work that is needed when the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> starts.</source>
+          <target state="translated">這個方法會呼叫每當<ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>呼叫，而且會由<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要執行的作業也就是需要時<bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>啟動。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Runs the specified workflow instance.</source>
+          <target state="translated">執行指定的工作流程執行個體。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This is a synchronous call that uses the current thread to run the workflow.</source>
+          <target state="translated">這是使用目前的執行緒執行工作流程的同步呼叫。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It does not return until the workflow idles, suspends, completes, terminates, or aborts.</source>
+          <target state="translated">它不會傳回工作流程閒置、 暫止、 完成、 結束，或中止之前。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; for the workflow instance to run.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;執行工作流程執行個體。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow starts running; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果工作流程開始執行否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph> is an empty GUID.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph>是空的 GUID。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Adds a workflow instance to the pending work items queue using the specified workflow instance using the specified multicast delegate.</source>
+          <target state="translated">將工作流程執行個體加入至暫止的工作項目佇列，使用指定的工作流程執行個體使用指定的多點傳送的委派。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> multicast delegate that represents the method to run.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>多點傳送的委派，表示要執行的方法。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the workflow instance.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;代表工作流程執行個體。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph>包含 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Adds the specified workflow instance to the pending work item queue using the specified multicast delegate, &lt;xref:System.DateTime&gt; and GUIDs.</source>
+          <target state="translated">將指定的工作流程執行個體加入至使用指定的多點傳送的委派、 暫止的工作項目佇列&lt;xref:System.DateTime&gt;和 Guid。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> multicast delegate that represents the method to run.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>多點傳送的委派，表示要執行的方法。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the workflow instance.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;代表工作流程執行個體。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DateTime&gt; that indicates the time to begin running the thread.</source>
+          <target state="translated">&lt;xref:System.DateTime&gt;表示開始執行執行緒的時間。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the scheduled thread.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;表示排定的執行緒。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph>包含 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;timerId&lt;/code&gt;</ph> is an empty GUID.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;timerId&lt;/code&gt;</ph>是空的 GUID。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Overloaded from <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">多載自<ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses this method to do work that is needed when the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stops.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>會使用這個方法來執行工作也就是需要時<bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>停止。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

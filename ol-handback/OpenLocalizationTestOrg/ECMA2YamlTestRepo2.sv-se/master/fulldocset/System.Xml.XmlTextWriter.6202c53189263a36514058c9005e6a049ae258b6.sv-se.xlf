@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac4162547698a48fe39e08ff26df179b6f737c0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlTextWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42aacef2fea067c0ef9bb42b09693b780c510bc9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a34e831f49b89fd11c3e958e52e11db9d61ef1c8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a writer that provides a fast, non-cached, forward-only way of generating streams or files containing XML data that conforms to the W3C Extensible Markup Language (XML) 1.0 and the Namespaces in XML recommendations.</source>
+          <target state="translated">Representerar en skrivare som ger en snabb, icke-cachelagrat, framåtriktade sätt att skapa dataströmmar eller filer som innehåller XML-data som överensstämmer med W3C Extensible Markup Language (XML) 1.0 och namnområden i XML-rekommendationer.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework 2.0, we recommend that you use the <ph id="ph1">&amp;lt;</ph>xref:System.Xml.XmlWriter?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> class instead.</source>
+          <target state="translated">Från och med .NET Framework 2.0, rekommenderar vi att du använder den <ph id="ph1">&amp;lt;</ph>xref:System.Xml.XmlWriter?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> klassen i stället.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class implements the &lt;xref:System.Xml.XmlWriter&gt; class.</source>
+          <target state="translated">Den här klassen implementerar &lt;xref:System.Xml.XmlWriter&gt;klass.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Starting with the .NET Framework 2.0, we recommend that you create &lt;xref:System.Xml.XmlWriter&gt; instances by using the &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; method and the &lt;xref:System.Xml.XmlWriterSettings&gt; class to take advantage of new functionality.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Från och med .NET Framework 2.0, rekommenderar vi att du skapar &lt;xref:System.Xml.XmlWriter&gt;instanser med hjälp av den &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;metoden och &lt;xref:System.Xml.XmlWriterSettings&gt;klassen för att dra nytta av nya funktioner.&lt;/xref:System.Xml.XmlWriterSettings&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`XmlTextWriter`</ph> maintains a namespace stack corresponding to all the namespaces defined in the current element stack.</source>
+          <target state="translated"><ph id="ph1">`XmlTextWriter`</ph>upprätthåller en namnområde stack som motsvarar alla namnområden som definierats i den aktuella element-stacken.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using <ph id="ph1">`XmlTextWriter`</ph> you can declare namespaces manually.</source>
+          <target state="translated">Med hjälp av <ph id="ph1">`XmlTextWriter`</ph> kan du deklarera namnområden manuellt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   w.WriteStartElement("root");   w.WriteAttributeString("xmlns", "x", null, "urn:1");    w.WriteStartElement("item","urn:1");    w.WriteEndElement();    w.WriteStartElement("item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   ```</ph>       The above C# code produces the following output.</source>
+          <target state="translated"><ph id="ph1">```   w.WriteStartElement("root");   w.WriteAttributeString("xmlns", "x", null, "urn:1");    w.WriteStartElement("item","urn:1");    w.WriteEndElement();    w.WriteStartElement("item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   ```</ph>C# koden ovan ger följande utdata.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`XmlTextWriter`</ph> promotes the namespace declaration to the root element to avoid having it duplicated on the two child elements.</source>
+          <target state="translated"><ph id="ph1">`XmlTextWriter`</ph>Flyttar upp namnområdesdeklaration rotelementet för att undvika att det duplicerade på två underordnade element.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The child elements pick up the prefix from the namespace declaration.</source>
+          <target state="translated">De underordnade elementen hämtar prefixet från namnområdesdeklarationen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;root xmlns:x="urn:1"&gt;    &lt;x:item/&gt;    &lt;x:item/&gt;   &lt;/x:root&gt;   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph> also allows you to override the current namespace declaration.</source>
+          <target state="translated"><ph id="ph1">```   &lt;root xmlns:x="urn:1"&gt;    &lt;x:item/&gt;    &lt;x:item/&gt;   &lt;/x:root&gt;   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph>Du kan också åsidosätta aktuella namnområdesdeklaration.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the following example, the namespace URI "123" is overridden by "abc" to produce the XML element <ph id="ph1">`&lt;x:node xmlns:x="abc"/&gt;`</ph>.</source>
+          <target state="translated">I följande exempel namnområdes-URI "123" åsidosätts av "abc" för att skapa XML-elementet <ph id="ph1">`&lt;x:node xmlns:x="abc"/&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   w.WriteStartElement("x","node","123");   w.WriteAttributeString("xmlns","x",null,"abc");   ```</ph>       By using the write methods that take a prefix as an argument you can also specify which prefix to use.</source>
+          <target state="translated"><ph id="ph1">```   w.WriteStartElement("x","node","123");   w.WriteAttributeString("xmlns","x",null,"abc");   ```</ph>Med hjälp av write-metoder som har ett prefix som ett argument kan du också ange som prefix som ska användas.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the following example, two different prefixes are mapped to the same namespace URI to produce the XML text <ph id="ph1">`&lt;x:root xmlns:x="urn:1"&gt;&lt;y:item xmlns:y="urn:1"/&gt;&lt;/x:root&gt;`</ph>.</source>
+          <target state="translated">I följande exempel visas två olika prefix mappas till samma namnområdes-URI för att skapa XML-texten <ph id="ph1">`&lt;x:root xmlns:x="urn:1"&gt;&lt;y:item xmlns:y="urn:1"/&gt;&lt;/x:root&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.WriteStartElement("x","root","urn:1");    w.WriteStartElement("y","item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>       If there are multiple namespace declarations mapping different prefixes to the same namespace URI, <ph id="ph2">`XmlTextWriter`</ph> walks the stack of namespace declarations backwards and picks the closest one.</source>
+          <target state="translated"><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.WriteStartElement("x","root","urn:1");    w.WriteStartElement("y","item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>Om det finns flera namnområdesdeklarationer mappa olika prefix till samma namnområdes-URI, <ph id="ph2">`XmlTextWriter`</ph> vägleder stack för namnrymdsdeklarationer bakåtkompatibilitet och hämtar det närmaste.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.Formatting = Formatting.Indented;   w.WriteStartElement("x","root","urn:1");   w.WriteStartElement("y","item","urn:1");   w.WriteAttributeString("attr","urn:1","123");   w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>       In the above C# example, because the <ph id="ph2">`WriteAttributeString`</ph> call does not specify a prefix, the writer uses the last prefix pushed onto the namespace stack, and produces the following XML:      <ph id="ph3">```   &lt;x:root xmlns:x="urn:1"&gt;    &lt;y:item y:attr="123" xmlns:y="urn:1" /&gt;   &lt;/x:root&gt;   ```</ph>       If namespace conflicts occur, <ph id="ph4">`XmlTextWriter`</ph> resolves them by generating alternate prefixes.</source>
+          <target state="translated"><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.Formatting = Formatting.Indented;   w.WriteStartElement("x","root","urn:1");   w.WriteStartElement("y","item","urn:1");   w.WriteAttributeString("attr","urn:1","123");   w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>I C#-exemplet ovan, eftersom den <ph id="ph2">`WriteAttributeString`</ph> anropet inte ange ett prefix, skrivaren namnområdesprefixet senaste pushas till stacken namnområde och genererar följande XML: <ph id="ph3">```   &lt;x:root xmlns:x="urn:1"&gt;    &lt;y:item y:attr="123" xmlns:y="urn:1" /&gt;   &lt;/x:root&gt;   ```</ph> om namnområdet konflikter uppstår, <ph id="ph4">`XmlTextWriter`</ph> matchar dem genom att generera alternativa prefix.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if an attribute and element have the same prefix but different namespaces, <ph id="ph1">`XmlWriter`</ph> generates an alternate prefix for the attribute.</source>
+          <target state="translated">Till exempel om ett attribut och element har samma prefix men olika namnområden <ph id="ph1">`XmlWriter`</ph> genererar ett alternativt prefix för attributet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The generated prefixes are named <ph id="ph1">`n{i}`</ph> where <ph id="ph2">`i`</ph> is a number beginning at 1.</source>
+          <target state="translated">De genererade prefixen namnges <ph id="ph1">`n{i}`</ph> där <ph id="ph2">`i`</ph> är ett tal som börjar vid 1.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number is reset to 1 for each element.</source>
+          <target state="translated">Återställs till 1 för varje element.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attributes which are associated with a namespace URI must have a prefix (default namespaces do not apply to attributes).</source>
+          <target state="translated">Attribut som är associerade med ett namnområdes-URI måste ha ett prefix (standard namnområden inte gäller för attribut).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This conforms to section 5.2 of the W3C Namespaces in XML recommendation.</source>
+          <target state="translated">Detta motsvarar avsnitt 5.2 W3C-namnområden i XML-rekommendation.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an attribute references a namespace URI, but does not specify a prefix, the writer generates a prefix for the attribute.</source>
+          <target state="translated">Om ett attribut refererar till en namnområdes-URI, men inte anger ett prefix, genererar skrivaren ett prefix för attributet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing an empty element, an additional space is added between tag name and the closing tag, for example <ph id="ph1">`&lt;item /&gt;`</ph>.</source>
+          <target state="translated">När du skriver ett tomt element kan ett ytterligare utrymme läggs till mellan taggnamnet och sluttagg, till exempel <ph id="ph1">`&lt;item /&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides compatibility with older browsers.</source>
+          <target state="translated">Detta ger kompatibilitet med äldre webbläsare.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a <ph id="ph1">`String`</ph> is used as method parameter, <ph id="ph2">`null`</ph> and <ph id="ph3">`String.Empty`</ph> are equivalent.</source>
+          <target state="translated">När en <ph id="ph1">`String`</ph> används som Metodparametern, <ph id="ph2">`null`</ph> och <ph id="ph3">`String.Empty`</ph> är likvärdiga.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`String.Empty`</ph> follows the W3C rules.</source>
+          <target state="translated"><ph id="ph1">`String.Empty`</ph>följer reglerna för W3C.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To write strongly typed data, use the &lt;xref:System.Xml.XmlConvert&gt; class to convert data types to string.</source>
+          <target state="translated">Om du vill skriva starkt typangivna data använder den &lt;xref:System.Xml.XmlConvert&gt;klassen för att konvertera-datatyper till sträng.&lt;/xref:System.Xml.XmlConvert&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following C# code converts the data from <ph id="ph1">`Double`</ph> to <ph id="ph2">`String`</ph> and writes the element <ph id="ph3">`&lt;price&gt;19.95&lt;/price&gt;`</ph>.</source>
+          <target state="translated">Till exempel följande C#-kod konverterar data från <ph id="ph1">`Double`</ph> till <ph id="ph2">`String`</ph> och skriver elementet <ph id="ph3">`&lt;price&gt;19.95&lt;/price&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   Double price = 19.95;   writer.WriteElementString("price", XmlConvert.ToString(price));   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph> does not check for the following:      -   Invalid characters in attribute and element names.</source>
+          <target state="translated"><ph id="ph1">```   Double price = 19.95;   writer.WriteElementString("price", XmlConvert.ToString(price));   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph>kontrollerar inte om följande:-attribut och element namn innehåller otillåtna tecken.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Unicode characters that do not fit the specified encoding.</source>
+          <target state="translated">-Unicode tecken som inte motsvarar den angivna kodningen.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Unicode characters do not fit the specified encoding, the <ph id="ph1">`XmlTextWriter`</ph> does not escape the Unicode characters into character entities.</source>
+          <target state="translated">Om Unicode-tecken inte ryms den angivna kodningen i <ph id="ph1">`XmlTextWriter`</ph> inte att undanta Unicode-tecken till tecknet entiteter.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Duplicate attributes.</source>
+          <target state="translated">-Duplicerat attribut.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Characters in the DOCTYPE public identifier or system identifier.</source>
+          <target state="translated">-Tecken i DOCTYPE offentlig identifierare eller systemidentifierare.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security Considerations    The following items are things to consider when working with the XmlTextWriter class.</source>
+          <target state="translated">Följande objekt är saker att tänka på när du arbetar med klassen XmlTextWriter.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Exceptions thrown by the XmlTextWriter can disclose path information that you do not want bubbled up to the application.</source>
+          <target state="translated">-Undantag från XmlTextWriter kan lämna ut information om sökvägen som du inte vill bubbled upp till programmet.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your applications must catch exceptions and process them appropriately.</source>
+          <target state="translated">Ditt program måste fånga upp undantag och bearbeta dem på lämpligt sätt.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When you pass the XmlTextWriter to another application the underlying stream is exposed to that application.</source>
+          <target state="translated">-När du skickar XmlTextWriter till ett annat program för den underliggande är dataströmmen exponerad för programmet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to pass the XmlTextWriter to a semi-trusted application, you should use an &lt;xref:System.Xml.XmlWriter&gt; object created by the &lt;xref:System.Xml.XmlWriter.Create%2A&gt; method instead.</source>
+          <target state="translated">Om du behöver skicka XmlTextWriter till en delvis betrodda program bör du använda ett &lt;xref:System.Xml.XmlWriter&gt;objekt som skapas av den &lt;xref:System.Xml.XmlWriter.Create%2A&gt;metoden i stället.&lt;/xref:System.Xml.XmlWriter.Create%2A&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The XmlTextWriter does not validate any data that is passed to the &lt;xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt; or &lt;xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt; methods.</source>
+          <target state="translated">-XmlTextWriter validerar inte alla data som skickas till den &lt;xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt;eller &lt;xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt;metoder.&lt;/xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt; &lt;/xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should not pass arbitrary data to these methods.</source>
+          <target state="translated">Du bör inte skicka godtyckliga data till dessa metoder.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the default settings are changed, there is no guarantee that the generated output is well-formed XML data.</source>
+          <target state="translated">-Om standardinställningarna ändras, är det inte säkert att den genererade utdatan är giltig XML-data.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Do not accept supporting components, such as an &lt;xref:System.Text.Encoding&gt; object, from an untrusted source.</source>
+          <target state="translated">-Accepterar inte stödjande komponenter, t.ex ett &lt;xref:System.Text.Encoding&gt;objekt från en ej betrodd källa.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref uid="langword_csharp_XmlTextWriter" name="XmlTextWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified &lt;xref:System.IO.TextWriter&gt;.</source>
+          <target state="translated">Skapar en instans av den <bpt id="p1">&lt;xref uid="langword_csharp_XmlTextWriter" name="XmlTextWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av angivna &lt;xref:System.IO.TextWriter&gt;.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  Starting with the .NET Framework 2.0, we recommend that you create &lt;xref:System.Xml.XmlWriter&gt; instances by using the &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; method and the &lt;xref:System.Xml.XmlWriterSettings&gt; class to take advantage of new functionality.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt; Börjar med .NET Framework 2.0, rekommenderar vi att du skapar &lt;xref:System.Xml.XmlWriter&gt;instanser med hjälp av den &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;metoden och &lt;xref:System.Xml.XmlWriterSettings&gt;klassen för att dra nytta av nya funktioner.&lt;/xref:System.Xml.XmlWriterSettings&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
