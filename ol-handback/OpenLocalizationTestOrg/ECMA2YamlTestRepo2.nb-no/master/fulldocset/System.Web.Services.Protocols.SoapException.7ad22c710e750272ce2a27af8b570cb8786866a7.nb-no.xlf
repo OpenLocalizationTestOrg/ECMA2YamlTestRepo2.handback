@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8c41e98a8d0b87bdc0cc3e2687716b3754d2b72</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.SoapException.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2192ff1b3e9b4616462598f990afb5dec22739e9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53552dd7687b76aa81393bd2a068d34e52f1ac48</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the exception that is thrown when an XML Web service method is called over SOAP and an exception occurs.</source>
+          <target state="translated">Representerer unntak forårsakes når en XML-Web service-metoden over SOAP og oppstår et unntak.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapException can either be thrown by the common language runtime or by an XML Web service method.</source>
+          <target state="translated">SoapException kan enten bli utløst av common language runtime eller av en XML-Web service-metode.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime can throw a SoapException if a response to a request is not formatted correctly.</source>
+          <target state="translated">Common language runtime kan Iverksett en SoapException Hvis svar på en forespørsel ikke er riktig formatert.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML Web service methods can generate a SoapException by simply throwing an exception within the XML Web service method.</source>
+          <target state="translated">XML-metoder kan generere en SoapException ved ganske enkelt et unntak i XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the client accessed the method over SOAP, the exception is caught on the server and wrapped inside a new SoapException.</source>
+          <target state="translated">Hvis klienten åpnet metoden over SOAP, unntaket oppstod på serveren og står i en ny SoapException.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapException thrown has the following property values:      |Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.Message%2A&gt;|The &lt;xref:System.Exception.Message%2A&gt; property of the original exception.|   |&lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;|&lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;.|   |&lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;|The URL of the XML Web service method.|   |&lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt;|<ph id="ph1">`null`</ph>, but an empty detail element is present in the fault element.|       An XML Web service method might throw a SoapException when clients call using SOAP.</source>
+          <target state="translated">SoapException et har følgende egenskapsverdier: | Egenskapen | Verdien |   |--------------|-----------|   | &lt;xref:System.Exception.Message%2A&gt;| Egenskapen &lt;xref:System.Exception.Message%2A&gt;for det opprinnelige unntaket. |   | &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;| &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;.|   | &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;| URL-adressen i XML-Web service-metoden. |   | &lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt;| <ph id="ph1">`null`</ph>, men en tom detail elementet finnes i elementet feil. |       Et XML-Web service-metoden kan throw en SoapException når klienter kaller ved hjelp av SOAP.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Exception.Message%2A&gt; &lt;/xref:System.Exception.Message%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an XML Web service throws the SoapException, other details can be added through the &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;, &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; and &lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt; properties that cannot otherwise be set by an XML Web service method if another type of exception is thrown.</source>
+          <target state="translated">Hvis en XML-webtjeneste oppstår i SoapException, andre detaljer kan legges til i &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;, &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;og &lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt;Egenskaper som ellers ikke kan angis som en XML-tjeneste metoden hvis en annen type unntak oppstod.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with serialized data.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse serialiserte dataene.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the serialized object data about the exception being thrown.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder den serialiserte objektdata om som oppstod et unntak.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The T:System.Runtime.Serialization.StreamingContext  that contains contextual information about the source or destination.</source>
+          <target state="translated">T:System.Runtime.Serialization.StreamingContext som inneholder kontekstavhengig informasjon om kilden eller målet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message and exception code.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmelding og unntakskode.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, and reference to the root cause of the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmelding unntakskode og referanse til den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An exception that is the root cause of the exception.</source>
+          <target state="translated">Et unntak som er den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.InnerException*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.InnerException*&gt;egenskapen.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, and URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmelding unntakskode og URI-adresse som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer koden som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, and subcode.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmelding unntakskode og delkode.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An optional subcode for the SOAP fault.</source>
+          <target state="translated">En valgfri delkode for SOAP-feil.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, URI that identifies the code that caused the exception, and reference to the root cause of the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmeldingen, unntakskode, URI som identifiserer koden som forårsaket unntaket, og referanse til den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An exception that is the root cause of the exception.</source>
+          <target state="translated">Et unntak som er den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.InnerException*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.InnerException*&gt;egenskapen.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, URI that identifies the piece of code that caused the exception, and application specific exception information.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med det angitte unntaket meldingen, unntakskode, URI-adresse som identifiserer type kode som forårsaket unntaket og programinformasjonen bestemt unntak.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains application specific exception information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder programinformasjonen bestemt unntak.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail*&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, URI that identifies the piece of code that caused the exception, application-specific exception information, and reference to the root cause of the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med det angitte unntaket meldingen, unntakskode, URI-adresse som identifiserer type kode som forårsaket unntaket, programspesifikk unntaksinformasjon og referanse til den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains application specific exception information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder programinformasjonen bestemt unntak.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An exception that is the root cause of the exception.</source>
+          <target state="translated">Et unntak som er den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.InnerException*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.InnerException*&gt;egenskapen.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, URI that identifies the piece of code that caused the exception, application-specific exception information, and reference to the root cause of the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med det angitte unntaket meldingen, unntakskode, URI-adresse som identifiserer type kode som forårsaket unntaket, programspesifikk unntaksinformasjon og referanse til den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A URI that represents the XML Web service's function in processing the SOAP message.</source>
+          <target state="translated">URIEN som representerer XML-webtjenesten-funksjonen i behandling av SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Role*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Role*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Role*&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains application specific exception information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder programinformasjonen bestemt unntak.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail*&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An optional subcode for the SOAP fault.</source>
+          <target state="translated">En valgfri delkode for SOAP-feil.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An exception that is the root cause of the exception.</source>
+          <target state="translated">Et unntak som er den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.InnerException*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.InnerException*&gt;egenskapen.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified exception message, exception code, URI that identifies the piece of code that caused the exception, URI that represents the XML Web service's function in processing the SOAP message, the human language associated with the exception, the application-specific exception information, the subcode for the SOAP fault and reference to the root cause of the exception.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte Unntaksmeldingen, unntakskode, URI-adresse som identifiserer type kode som forårsaket unntaket URI som representerer XML-webtjenesten funksjonen under behandling av SOAP-meldingen, Personal språket som er forbundet med unntaket programspesifikk unntaksinformasjon, delkode for SOAP-feil og referanse til den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A message that identifies the reason the exception occurred.</source>
+          <target state="translated">Det oppstod en melding som identifiserer årsak unntaket.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.Message*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.Message*&gt;egenskapen.&lt;/xref:System.Exception.Message*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type of error that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir hvilken type feil som oppstod.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Code*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Code*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the piece of code that caused the exception.</source>
+          <target state="translated">URIEN som identifiserer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Typically, this is a URL to an XML Web service method.</source>
+          <target state="translated">Dette er vanligvis en URL-adresse til en XML-Web service-metoden.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Actor*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor*&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A URI that represents the XML Web service's function in processing the SOAP message.</source>
+          <target state="translated">URIEN som representerer XML-webtjenesten-funksjonen i behandling av SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Role*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Role*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Role*&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A human language associated with the exception.</source>
+          <target state="translated">En Personal språket som er tilknyttet unntaket.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Lang*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Lang*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Lang*&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains application specific exception information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder programinformasjonen bestemt unntak.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An optional subcode for the SOAP fault.</source>
+          <target state="translated">En valgfri delkode for SOAP-feil.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.SubCode*&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>An exception that is the root cause of the exception.</source>
+          <target state="translated">Et unntak som er den opprinnelige årsaken til unntaket.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This parameter sets the &lt;xref:System.Exception.InnerException*&gt; property.</source>
+          <target state="translated">Denne parameteren angir den &lt;xref:System.Exception.InnerException*&gt;egenskapen.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the piece of code that caused the exception.</source>
+          <target state="translated">Henter type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Actor property can only be set using one of the constructors that accepts an Actor argument.</source>
+          <target state="translated">Aktør-egenskapen kan bare angis ved hjelp av én av konstruktører som et argument for aktøren.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a SOAP request is made, the message is sent to a recipient, which is specified in a SOAP actor attribute.</source>
+          <target state="translated">Når en SOAP-forespørselen er utført, sendes meldingen til en mottaker som er angitt i et SOAP aktør-attributt.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception occurs within an XML Web service, the value of the SOAP actor attribute is assigned to the Actor property.</source>
+          <target state="translated">Hvis det oppstår et unntak i en XML-webtjeneste, må tilordnes verdien til attributtet SOAP aktøren aktør-egenskapen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For XML Web services created using ASP.NET, the URL to the XML Web service method is the value of the SOAP actor attribute and is returned in the Actor property.</source>
+          <target state="translated">For XML-webtjenester ble opprettet ved hjelp av ASP.NET, URL-adressen til XML Web service-metoden er verdien av attributtet SOAP aktøren og returneres i aktør-egenskapen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the SOAP actor attribute, see the SOAP specification at http://www.w3.org/TR/SOAP/.</source>
+          <target state="translated">Se i SOAP-spesifikasjonen på http://www.w3.org/TR/SOAP/ for mer informasjon om SOAP aktør-attributtet.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The piece of code that caused the exception.</source>
+          <target state="translated">Type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies a SOAP fault code that represents a client call that is not formatted correctly or does not contain the appropriate information.</source>
+          <target state="translated">Angir en SOAP-feilkode som representerer en klient-kall som ikke er riktig formatert eller inneholder ikke riktig informasjon.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of when a ClientFaultCode can be generated, is when a client call does not have proper authentication or payment information.</source>
+          <target state="translated">Det er et eksempel på når en ClientFaultCode kan genereres, når en klient-kall ikke har riktig informasjon om godkjenning eller betaling.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is generally an indication that the client call must be changed before it is resent.</source>
+          <target state="translated">Det er vanligvis en indikasjon klient-kall må være endres før den sendes på nytt.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the type of SOAP fault code.</source>
+          <target state="translated">Henter av SOAP-feilkoden.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Code property can only be set when creating a new instance of the &lt;xref:System.Web.Services.Protocols.SoapException&gt; class.</source>
+          <target state="translated">Egenskapen koden kan bare angis når du oppretter en ny forekomst av &lt;xref:System.Web.Services.Protocols.SoapException&gt;klassen.&lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Services.Protocols.SoapException&gt; class is for use by XML Web service clients that call XML Web service methods over SOAP.</source>
+          <target state="translated">Den &lt;xref:System.Web.Services.Protocols.SoapException&gt;klassen er kun til bruk av XML-Web service-klienter som kaller XML-metoder over SOAP.&lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET handles whether the client that calls uses SOAP.</source>
+          <target state="translated">ASP.NET behandler om klienten som kaller bruker SOAP.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is when an exception occurs in an XML Web service.</source>
+          <target state="translated">Dette er når det oppstår et unntak i en XML-webtjenesten.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the client uses SOAP, ASP.NET wraps the specific exception into a &lt;xref:System.Web.Services.Protocols.SoapException&gt; and sets the &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt; and Code properties.</source>
+          <target state="translated">Hvis klienten bruker SOAP, ASP.NET bryter bestemt unntak i en &lt;xref:System.Web.Services.Protocols.SoapException&gt;og angir de &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;og Code egenskaper.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of available codes, known as SOAP Fault Codes for SOAP protocol version 1.1, are the following:      |Item|Description|   |----------|-----------------|   |&lt;xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode&gt;|An invalid namespace for a SOAP envelope was found.|   |&lt;xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode&gt;|Not all SOAP elements require processing.</source>
+          <target state="translated">Settet med tilgjengelige koder, kjent som SOAP feilkoder for SOAP-protokollen versjon 1.1, er følgende: | Elementet | Beskrivelse |   |----------|-----------------|   | &lt;xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode&gt;| Fant et ugyldig navneområde for SOAP-konvolutten. |   | &lt;xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode&gt;| Ikke alle SOAP-elementer krever behandling.&lt;/xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if a SOAP element is marked with the <ph id="ph1">`MustUnderstand`</ph> attribute with a value of 1, it is required.</source>
+          <target state="translated">Men hvis et SOAP-element er merket med den <ph id="ph1">`MustUnderstand`</ph> attributtet med verdien 1, er obligatorisk.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Failure to process the element generates this exception.|   |&lt;xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt;|A client call was not formatted correctly or did not contain the appropriate information.</source>
+          <target state="translated">Kan ikke behandle elementet genererer dette unntaket. |   | &lt;xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt;| En klient-kall ble ikke riktig formatert eller inneholdt ikke riktige opplysninger.&lt;/xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the client call might not have the proper authentication or payment information.</source>
+          <target state="translated">For eksempel kanskje klient-kallet har ikke riktig godkjenning eller betaling informasjonen.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is generally an indication that the message must be changed before it is resent.|   |&lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;|An error occurred during the processing of a client call on the server, however, the problem is not due to the message contents.</source>
+          <target state="translated">Det er vanligvis indikerer som meldingen må endres før den sendes på nytt. |   | &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;| Det oppstod en feilen under behandling av en klient-kall på serveren, men problemet er ikke på grunn av meldingsinnholdet.&lt;/xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an upstream server might not respond to a request due to network problems.</source>
+          <target state="translated">En overordnet server kan for eksempel ikke svarer på forespørselen på grunn av nettverksproblemer.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, with this type of exception, the client call might succeed later.</source>
+          <target state="translated">Vanligvis med denne typen unntak klient-kall blir kanskje vellykket senere.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an XML Web service throws an exception, other than &lt;xref:System.Web.Services.Protocols.SoapException&gt; and the client calls using SOAP, ASP.NET converts the exception to a &lt;xref:System.Web.Services.Protocols.SoapException&gt;, setting the Code property to &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt; and throws it back to the client.|</source>
+          <target state="translated">Hvis en XML-webtjeneste oppstår det et unntak enn &lt;xref:System.Web.Services.Protocols.SoapException&gt;og klientkall ved hjelp av SOAP, ASP.NET konverterer unntaket en &lt;xref:System.Web.Services.Protocols.SoapException&gt;, angir egenskapen kode til &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;og oppstår tilbake til klienten. |&lt;/xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the SOAP fault code that occurred.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som angir SOAP-feilkoden som ble utført.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the application-specific error information details.</source>
+          <target state="translated">Henter en <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer informasjon programspesifikk feildetaljer.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Detail property can be set using one of the class constructors that accepts a Detail value.</source>
+          <target state="translated">Egenskapen Detail kan angis ved hjelp av én av klassekonstruktører som godtar en verdi for detaljer.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Detail property is used to supply application-specific error details related to the <ph id="ph1">`Body`</ph> element of the SOAP request.</source>
+          <target state="translated">Egenskapen Detail brukes til å angi programspesifikk feildetaljer relatert til det <ph id="ph1">`Body`</ph> elementet i SOAP-forespørselen.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>According to the SOAP specification, if an error occurs because the client request cannot be processed due to the <ph id="ph1">`Body`</ph> element of the SOAP request, the Detail property must be set.</source>
+          <target state="translated">I henhold til SOAP-spesifikasjonen, hvis det oppstår feilen fordi klientforespørselen ikke kan behandles på grunn av <ph id="ph1">`Body`</ph> element av SOAP-forespørselen detalj-egenskapen må være angitt.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an error occurs in the header entries of the SOAP request, you must throw a &lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt;, so that the error details are returned in the SOAP header.</source>
+          <target state="translated">Hvis det oppstår en feil i topp-oppføringer i SOAP-forespørselen, må du slette en &lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt;, slik at informasjon om feilen returneres i SOAP-hodet.&lt;/xref:System.Web.Services.Protocols.SoapHeaderException&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the error does not occur, due to the processing of the <ph id="ph1">`Body`</ph> element, then the Detail property must not be set.</source>
+          <target state="translated">Hvis feilen ikke oppstår, på grunn av behandlingen av den <ph id="ph1">`Body`</ph> elementet og detalj-egenskapen må være angitt.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In building an &lt;xref:System.Xml.XmlNode&gt; for the Detail property, the &lt;xref:System.Xml.XmlQualifiedName.Name%2A&gt; and &lt;xref:System.Xml.XmlQualifiedName.Namespace%2A&gt; properties of &lt;xref:System.Web.Services.Protocols.SoapException.DetailElementName&gt; can be used to ensure consistency with the SOAP specification.</source>
+          <target state="translated">I bygning en &lt;xref:System.Xml.XmlNode&gt;for egenskapen Detail den &lt;xref:System.Xml.XmlQualifiedName.Name%2A&gt;og &lt;xref:System.Xml.XmlQualifiedName.Namespace%2A&gt;Egenskaper for &lt;xref:System.Web.Services.Protocols.SoapException.DetailElementName&gt;kan brukes til å sikre konsekvens med SOAP-spesifikasjonen.&lt;/xref:System.Web.Services.Protocols.SoapException.DetailElementName&gt; &lt;/xref:System.Xml.XmlQualifiedName.Namespace%2A&gt; &lt;/xref:System.Xml.XmlQualifiedName.Name%2A&gt; &lt;/xref:System.Xml.XmlNode&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All immediate child elements of the detail element are called detail entries and each detail entry is encoded as an independent element within the detail element.</source>
+          <target state="translated">Alle umiddelbare underordnede elementer i elementet detail kalles detail oppføringer og hver detail oppføring kodes som en uavhengig elementet i detalj-elementet.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The application-specific error information.</source>
+          <target state="translated">Programspesifikt feilinformasjon.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Xml.XmlQualifiedName&gt; that represents the &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt; element of a SOAP Fault code.</source>
+          <target state="translated">Henter en &lt;xref:System.Xml.XmlQualifiedName&gt;som representerer den &lt;xref:System.Web.Services.Protocols.SoapException.Detail*&gt;element i en SOAP-feilkode.&lt;/xref:System.Web.Services.Protocols.SoapException.Detail*&gt; &lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In building an &lt;xref:System.Xml.XmlNode&gt; for the &lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt; property, the &lt;xref:System.Xml.XmlQualifiedName.Name%2A&gt; and &lt;xref:System.Xml.XmlQualifiedName.Namespace%2A&gt; properties of DetailElementName can be used to ensure consistency with the SOAP specification.</source>
+          <target state="translated">I bygning en &lt;xref:System.Xml.XmlNode&gt;for den &lt;xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt;egenskapen den &lt;xref:System.Xml.XmlQualifiedName.Name%2A&gt;og &lt;xref:System.Xml.XmlQualifiedName.Namespace%2A&gt;Egenskaper for DetailElementName kan brukes til å sikre konsekvens med SOAP-spesifikasjonen.&lt;/xref:System.Xml.XmlQualifiedName.Namespace%2A&gt; &lt;/xref:System.Xml.XmlQualifiedName.Name%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException.Detail%2A&gt; &lt;/xref:System.Xml.XmlNode&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Runtime.Serialization.&gt;<bpt id="p1">[</bpt>SerializationInfo<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> with information about the exception.</source>
+          <target state="translated">Angir &lt;xref:System.Runtime.Serialization.&gt; <bpt id="p1">[</bpt>SerializationInfo<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> med informasjon om unntaket.&lt;/xref:System.Runtime.Serialization.&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the serialized object data about the exception being thrown.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder den serialiserte objektdata om som oppstod et unntak.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that contains contextual information about the source or destination.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.StreamingContext&gt;som inneholder kontekstavhengig informasjon om kilden eller målet.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the SOAP fault code is equivalent to the <bpt id="p1">&lt;xref uid="langword_csharp_Client" name="Client" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SOAP fault code regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Returnerer en verdi som angir om SOAP-feilkode er lik den <bpt id="p1">&lt;xref uid="langword_csharp_Client" name="Client" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP feilkoden uavhengig av versjonen av SOAP-protokollen som brukes.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recipients of a &lt;xref:System.Web.Services.Protocols.SoapException&gt; can use this method to determine whether the &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property is functionally equivalent to the <ph id="ph1">`Client`</ph> SOAP fault code defined in SOAP 1.1 regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Mottakere av en &lt;xref:System.Web.Services.Protocols.SoapException&gt;kan bruke denne metoden til å bestemme om den &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskapen tilsvarer Funksjonsmessig den <ph id="ph1">`Client`</ph> SOAP feilkoden som er definert i SOAP 1.1 uavhengig av versjonen av SOAP-protokollen som brukes.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Versions of the SOAP protocol later than 1.1 might use different names or namespaces for the <ph id="ph1">`Client`</ph> SOAP fault code defined in SOAP version 1.1, which is represented by the &lt;xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt; field.</source>
+          <target state="translated">Versjoner av av SOAP-protokollen senere enn 1.1 kan bruke forskjellige navn eller navneområder for den <ph id="ph1">`Client`</ph> SOAP feilkoden som er definert i SOAP versjon 1.1, som er representert av den &lt;xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt;felt.&lt;/xref:System.Web.Services.Protocols.SoapException.ClientFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SOAP 1.2 names the fault code <ph id="ph1">`Sender`</ph>, which is represented by the &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.SenderFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">SOAP 1.2 navngir feilkoden <ph id="ph1">`Sender`</ph>, som er representert av den &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.SenderFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.SenderFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that contains a SOAP fault code.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som inneholder en SOAP-feilkode.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">code</ph><ept id="p2">&lt;/code&gt;</ept> is equivalent to the <bpt id="p3">&lt;xref uid="langword_csharp_Client" name="Client" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> SOAP fault code; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">code</ph> <ept id="p2">&lt;/code&gt;</ept> er lik den <bpt id="p3">&lt;xref uid="langword_csharp_Client" name="Client" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> SOAP-feilkode; ellers <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the SOAP fault code is equivalent to <bpt id="p1">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Returnerer en verdi som angir om SOAP-feilkoden tilsvarer <bpt id="p1">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uavhengig av versjonen av SOAP-protokollen som brukes.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recipients of a &lt;xref:System.Web.Services.Protocols.SoapException&gt; can use this method to determine whether the &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property is functionally equivalent to the <ph id="ph1">`MustUnderstand`</ph> SOAP fault code defined in SOAP 1.1 regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Mottakere av en &lt;xref:System.Web.Services.Protocols.SoapException&gt;kan bruke denne metoden til å bestemme om den &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskapen tilsvarer Funksjonsmessig den <ph id="ph1">`MustUnderstand`</ph> SOAP feilkoden som er definert i SOAP 1.1 uavhengig av versjonen av SOAP-protokollen som brukes.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Versions of the SOAP protocol later than 1.1 might use different names or namespaces for the <ph id="ph1">`MustUnderstand`</ph> SOAP fault code defined in SOAP version 1.1, which is represented by the &lt;xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">Versjoner av av SOAP-protokollen senere enn 1.1 kan bruke forskjellige navn eller navneområder for den <ph id="ph1">`MustUnderstand`</ph> SOAP feilkoden som er definert i SOAP versjon 1.1, som er representert av den &lt;xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.SoapException.MustUnderstandFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SOAP 1.2 names the fault code the same; however it is scoped by a different XML namespace and is represented by the &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.MustUnderstandFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">SOAP 1.2 navngir feilkoden den samme. imidlertid omfattes av en annen XML-navneområde og representeres av den &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.MustUnderstandFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.MustUnderstandFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that contains a SOAP fault code.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som inneholder en SOAP-feilkode.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">code</ph><ept id="p2">&lt;/code&gt;</ept> is equivalent to the <bpt id="p3">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> SOAP fault code; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">code</ph> <ept id="p2">&lt;/code&gt;</ept> er lik den <bpt id="p3">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> SOAP-feilkode; ellers <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the SOAP fault code is equivalent to the <bpt id="p1">&lt;xref uid="langword_csharp_Server" name="Server" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SOAP fault code regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Returnerer en verdi som angir om SOAP-feilkode er lik den <bpt id="p1">&lt;xref uid="langword_csharp_Server" name="Server" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP feilkoden uavhengig av versjonen av SOAP-protokollen som brukes.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recipients of a &lt;xref:System.Web.Services.Protocols.SoapException&gt; can use this method to determine whether the &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property is functionally equivalent to the <ph id="ph1">`Server`</ph> SOAP fault code defined in SOAP 1.1 regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Mottakere av en &lt;xref:System.Web.Services.Protocols.SoapException&gt;kan bruke denne metoden til å bestemme om den &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskapen tilsvarer Funksjonsmessig den <ph id="ph1">`Server`</ph> SOAP feilkoden som er definert i SOAP 1.1 uavhengig av versjonen av SOAP-protokollen som brukes.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Versions of the SOAP protocol later than 1.1 might use different names or namespaces for the <ph id="ph1">`Server`</ph> SOAP fault code defined in SOAP version 1.1, which is represented by the &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt; field.</source>
+          <target state="translated">Versjoner av av SOAP-protokollen senere enn 1.1 kan bruke forskjellige navn eller navneområder for den <ph id="ph1">`Server`</ph> SOAP feilkoden som er definert i SOAP versjon 1.1, som er representert av den &lt;xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;felt.&lt;/xref:System.Web.Services.Protocols.SoapException.ServerFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SOAP 1.2 names the fault code <ph id="ph1">`Receiver`</ph>, which is represented by the &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.ReceiverFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">SOAP 1.2 navngir feilkoden <ph id="ph1">`Receiver`</ph>, som er representert av den &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.ReceiverFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.ReceiverFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that contains a SOAP fault code.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som inneholder en SOAP-feilkode.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">code</ph><ept id="p2">&lt;/code&gt;</ept> is equivalent to the <bpt id="p3">&lt;xref uid="langword_csharp_Server" name="Server" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> SOAP fault code; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">code</ph> <ept id="p2">&lt;/code&gt;</ept> er lik den <bpt id="p3">&lt;xref uid="langword_csharp_Server" name="Server" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> SOAP-feilkode; ellers <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the SOAP fault code is equivalent to the <bpt id="p1">&lt;xref uid="langword_csharp_VersionMismatch" name="VersionMismatch" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SOAP fault code regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Returnerer en verdi som angir om SOAP-feilkode er lik den <bpt id="p1">&lt;xref uid="langword_csharp_VersionMismatch" name="VersionMismatch" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP feilkoden uavhengig av versjonen av SOAP-protokollen som brukes.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recipients of a &lt;xref:System.Web.Services.Protocols.SoapException&gt; can use this method to determine whether the &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property is functionally equivalent to the <ph id="ph1">`VersionMismatch`</ph> SOAP fault code defined in SOAP 1.1 regardless of the version of the SOAP protocol used.</source>
+          <target state="translated">Mottakere av en &lt;xref:System.Web.Services.Protocols.SoapException&gt;kan bruke denne metoden til å bestemme om den &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskapen tilsvarer Funksjonsmessig den <ph id="ph1">`VersionMismatch`</ph> SOAP feilkoden som er definert i SOAP 1.1 uavhengig av versjonen av SOAP-protokollen som brukes.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Versions of the SOAP protocol later than 1.1 might use different names or namespaces for the <ph id="ph1">`VersionMismatch`</ph> SOAP fault code defined in SOAP version 1.1, which is represented by the &lt;xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">Versjoner av av SOAP-protokollen senere enn 1.1 kan bruke forskjellige navn eller navneområder for den <ph id="ph1">`VersionMismatch`</ph> SOAP feilkoden som er definert i SOAP versjon 1.1, som er representert av den &lt;xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.SoapException.VersionMismatchFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SOAP 1.2 names the fault code the same; however, it is scoped by a different XML namespace and is represented by the &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.VersionMismatchFaultCode?displayProperty=fullName&gt; field.</source>
+          <target state="translated">SOAP 1.2 navngir feilkoden den samme. imidlertid omfattes av en annen XML-navneområde og representeres av den &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.VersionMismatchFaultCode?displayProperty=fullName&gt;felt.&lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.VersionMismatchFaultCode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that contains a SOAP fault code.</source>
+          <target state="translated">En &lt;xref:System.Xml.XmlQualifiedName&gt;som inneholder en SOAP-feilkode.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">code</ph><ept id="p2">&lt;/code&gt;</ept> is equivalent to the <bpt id="p3">&lt;xref uid="langword_csharp_VersionMismatch" name="VersionMismatch" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> SOAP fault code; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">code</ph> <ept id="p2">&lt;/code&gt;</ept> er lik den <bpt id="p3">&lt;xref uid="langword_csharp_VersionMismatch" name="VersionMismatch" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> SOAP-feilkode; ellers <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Gets the human language associated with the exception.</source>
+          <target state="translated">Henter Personal språket som er forbundet med unntaket.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your Web service works with multiple human languages, throw exceptions with message text or other properties localized to each language.</source>
+          <target state="translated">Hvis Web-tjenesten kan brukes med flere Personal språk, Iverksett unntak med meldingsteksten eller andre egenskaper lokalisert for hvert språk.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to identify the language associated with the exception.</source>
+          <target state="translated">Bruk denne egenskapen til å identifisere språket som er tilknyttet unntaket.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; value that identifies the human language associated with the exception.</source>
+          <target state="translated">En &lt;xref:System.String&gt;verdi som angir Personal språket som er tilknyttet unntaket.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A SOAP Fault Code that represents a SOAP element marked with the <bpt id="p1">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute was not processed.</source>
+          <target state="translated">En SOAP-feilkode som representerer et SOAP-element som er merket med den <bpt id="p1">&lt;xref uid="langword_csharp_MustUnderstand" name="MustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> attributtet ble ikke behandlet.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not all SOAP elements require processing by the server.</source>
+          <target state="translated">Ikke alle SOAP-elementer krever behandling av serveren.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if a SOAP element is marked with the <ph id="ph1">`MustUnderstand`</ph> attribute equal to 1 or <ph id="ph2">`true`</ph>, processing is required.</source>
+          <target state="translated">Men hvis et SOAP-element er merket med den <ph id="ph1">`MustUnderstand`</ph> attributtet som er lik 1 eller <ph id="ph2">`true`</ph>, behandling er nødvendig.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Failure to process the element generates a &lt;xref:System.Web.Services.Protocols.SoapException&gt; with a MustUnderstandFaultCode.</source>
+          <target state="translated">Kan ikke behandle elementet genererer en &lt;xref:System.Web.Services.Protocols.SoapException&gt;med en MustUnderstandFaultCode.&lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets a URI that represents the piece of code that caused the exception.</source>
+          <target state="translated">Henter en URI som representerer type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Node property is ignored when the SOAP protocol version 1.1 is used to communicate with an XML Web service.</source>
+          <target state="translated">Node-egenskapen ignoreres når SOAP-protokollversjonen 1.1 brukes til å kommunisere med en XML-webtjenesten.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When SOAP 1.2 is used, the Node property sets the <ph id="ph1">`node`</ph> element within a <ph id="ph2">`fault`</ph> element of a SOAP message.</source>
+          <target state="translated">Når SOAP 1.2 brukes, angir egenskapen noden den <ph id="ph1">`node`</ph> element i en <ph id="ph2">`fault`</ph> element i en SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt; and Node properties both identify the piece of code that caused the exception; they just refer to their SOAP 1.1 and SOAP 1.2 names respectively.</source>
+          <target state="translated">Den &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;og egenskaper for Node begge identifisere type kode som forårsaket unntaket; de ganske enkelt referere til navnene SOAP 1.1 og SOAP 1.2 henholdsvis.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because they both refer to the same property value, applications can just access the &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt; property.</source>
+          <target state="translated">Fordi begge referere til samme egenskapsverdi, programmer kan bare få tilgang til den &lt;xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;egenskapen.&lt;/xref:System.Web.Services.Protocols.SoapException.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of these properties is set by the constructors that accept an <ph id="ph1">`actor`</ph> parameter.</source>
+          <target state="translated">Verdien for disse egenskapene er angitt av konstruktører godtar en <ph id="ph1">`actor`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The piece of code that caused the exception.</source>
+          <target state="translated">Type kode som forårsaket unntaket.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets a URI that represents the XML Web service's function in processing the SOAP message.</source>
+          <target state="translated">Henter en URI som representerer XML-webtjenesten-funksjonen i behandling av SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Role property is ignored when the SOAP protocol version 1.1 is used to communicate with an XML Web service.</source>
+          <target state="translated">Rollen-egenskapen ignoreres når SOAP-protokollversjonen 1.1 brukes til å kommunisere med en XML-webtjenesten.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When SOAP 1.2 is used, the Role property sets the <ph id="ph1">`role`</ph> element within a <ph id="ph2">`fault`</ph> element of a SOAP message.</source>
+          <target state="translated">Når SOAP 1.2 brukes, angir egenskapen rolle i <ph id="ph1">`role`</ph> element i en <ph id="ph2">`fault`</ph> element i en SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The role of the XML Web service throwing the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Rollen XML Web service forårsaket av <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The default is &lt;xref:System.String.Empty&gt;.</source>
+          <target state="translated">Standard er &lt;xref:System.String.Empty&gt;.&lt;/xref:System.String.Empty&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Specifies that a SOAP fault code that represents an error occurred during the processing of a client call on the server, where the problem is not due to the message contents.</source>
+          <target state="translated">Angir at en SOAP-feilkode som representerer en feil oppstod under behandling av en klient-kall på serveren, der problemet ikke er på grunn av meldingsinnholdet.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ServerFaultCode might occur, for example, if a server being called cannot respond to a request due to network problems.</source>
+          <target state="translated">En ServerFaultCode kan for eksempel oppstå hvis en server blir kalt ikke kan svarer på forespørselen på grunn av nettverksproblemer.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, with this type of exception, the client call might succeed later.</source>
+          <target state="translated">Vanligvis med denne typen unntak klient-kall blir kanskje vellykket senere.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an XML Web service throws an exception, other than the &lt;xref:System.Web.Services.Protocols.SoapException&gt;, and the client is communicating with the XML Web service using the SOAP protocol, ASP.NET returns a SOAP fault.</source>
+          <target state="translated">Hvis en XML-webtjeneste oppstår det et unntak enn den &lt;xref:System.Web.Services.Protocols.SoapException&gt;, og klienten kommuniserer med XML-webtjenesten ved hjelp av SOAP-protokollen, ASP.NET returnerer SOAP-feil.&lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework running on the client machine converts that SOAP fault into a &lt;xref:System.Web.Services.Protocols.SoapException&gt;, setting the &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property to ServerFaultCode, and throws that exception to the client.</source>
+          <target state="translated">.NET Framework kjører på klientmaskinen konverterer som SOAP-feil i en &lt;xref:System.Web.Services.Protocols.SoapException&gt;, aktiveres i &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskapen ServerFaultCode, og oppstår som unntak til klienten.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapException&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets the optional error information contained in the <bpt id="p1">&lt;xref uid="langword_csharp_subcode" name="subcode" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML element of a SOAP fault.</source>
+          <target state="translated">Henter valgfrie feilinformasjonen i den <bpt id="p1">&lt;xref uid="langword_csharp_subcode" name="subcode" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML-elementet i SOAP-feil.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SubCode property is ignored when the SOAP protocol version 1.1 is used to communicate with an XML Web service.</source>
+          <target state="translated">Egenskapen delkode ignoreres når SOAP-protokollversjonen 1.1 brukes til å kommunisere med en XML-webtjenesten.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt; property that represents the contents of the <ph id="ph1">`code`</ph> element specifies the type of error that occurred using a limited number of pre-defined error codes specified by the SOAP protocol, whereas the optional <ph id="ph2">`subcode`</ph> element allows an application to provide user-defined error codes specific to the application.</source>
+          <target state="translated">Den &lt;xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;egenskap som viser innholdet i den <ph id="ph1">`code`</ph> elementet angir feil som oppstod ved hjelp av et begrenset antall forhåndsdefinert feilkoder som er angitt av SOAP-protokollen mens den valgfrie <ph id="ph2">`subcode`</ph> elementet gjør det mulig for en applikasjon å angi en brukerdefinert feilkoder spesifikke for programmet.&lt;/xref:System.Web.Services.Protocols.SoapException.Code%2A&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET defines two such codes that are represented by the &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcProcedureNotPresentFaultCode&gt; and &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcBadArgumentsFaultCode&gt; fields.</source>
+          <target state="translated">ASP.NET definerer to slike koder som er representert av den &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcProcedureNotPresentFaultCode&gt;og &lt;xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcBadArgumentsFaultCode&gt;felt.&lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcBadArgumentsFaultCode&gt; &lt;/xref:System.Web.Services.Protocols.Soap12FaultCodes.RpcProcedureNotPresentFaultCode&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapFaultSubCode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the contents of the <bpt id="p2">&lt;xref uid="langword_csharp_subcode" name="subcode" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> XML element of a SOAP fault.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapFaultSubCode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer innholdet i den <bpt id="p2">&lt;xref uid="langword_csharp_subcode" name="subcode" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> XML-elementet i SOAP-feil.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A SOAP fault code that represents an invalid namespace for a SOAP envelope was found during the processing of the SOAP message.</source>
+          <target state="translated">En SOAP-feilkode som representerer et ugyldig navneområde for SOAP-konvolutten ble funnet under behandling av SOAP-meldingen.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A SOAP envelope is the top-level element of an XML document that represents a SOAP message.</source>
+          <target state="translated">SOAP-konvolutten er elementet på øverste nivå i et XML-dokument som representerer en SOAP-melding.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

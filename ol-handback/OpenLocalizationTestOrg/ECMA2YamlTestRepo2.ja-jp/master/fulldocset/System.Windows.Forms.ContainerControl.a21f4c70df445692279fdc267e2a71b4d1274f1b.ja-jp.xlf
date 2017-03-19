@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d924d58dea7ef971a724121d2481ce24c5aa907</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ContainerControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">704e5148a079185e9713e3b6e4986214bcb23222</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57478781d4a0277bb5f461713656a55d24d705fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides focus-management functionality for controls that can function as a container for other controls.</source>
+          <target state="translated">その他のコントロールのコンテナーとして機能するコントロールにフォーカスを管理する機能を提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A ContainerControl represents a control that can function as a container for other controls and provides focus management.</source>
+          <target state="translated">ContainerControl は、他のコントロールのコンテナーとして機能し、フォーカス管理を提供するコントロールを表します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Controls that inherit from this class can track the active control they contain, even when the focus moves somewhere within a different container.</source>
+          <target state="translated">このクラスから継承するコントロールは、そこに含まれる別のコンテナー内でフォーカスが任意の場所に移動するにもアクティブなコントロールを追跡できます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ContainerControl objects provide a logical boundary for contained controls.</source>
+          <target state="translated">ContainerControl オブジェクトは、含まれているコントロールを論理的な境界を提供します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The container control can capture the TAB key press and move focus to the next control in the collection.</source>
+          <target state="translated">コンテナー コントロールは、TAB キーが押さをキャプチャし、コレクション内の次のコントロールにフォーカスを移動します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The container control does not receive focus; the focus is always set to the first child control in the collection of contained controls.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; コンテナー コントロールがフォーカスを受け取らない以外の場合は、フォーカスは常に含まれているコントロールのコレクション内の最初の子コントロールに設定します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You do not typically inherit directly from the ContainerControl class.</source>
+          <target state="translated">通常、ContainerControl クラスから直接継承はしません。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.Form&gt;, &lt;xref:System.Windows.Forms.UserControl&gt;, and &lt;xref:System.Windows.Forms.UpDownBase&gt; classes inherit from ContainerControl.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Form&gt;、 &lt;xref:System.Windows.Forms.UserControl&gt;、および&lt;xref:System.Windows.Forms.UpDownBase&gt;ContainerControl からクラスを継承します。&lt;/xref:System.Windows.Forms.UpDownBase&gt; &lt;/xref:System.Windows.Forms.UserControl&gt;&lt;/xref:System.Windows.Forms.Form&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or sets the active control on the container control.</source>
+          <target state="translated">取得またはコンテナー コントロール上のアクティブ コントロールを設定します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The ActiveControl property activates or retrieves the active control on the container control.</source>
+          <target state="translated">ActiveControl プロパティは、アクティブ化またはコンテナー コントロール上のアクティブ コントロールを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In order to receive a valid value from this property, the object that calls it must either contain or be contained in the control it is calling.</source>
+          <target state="translated">このプロパティから有効な値を受信するためには、含める必要がありますか、またはが呼び出しコントロールに含まれているをそれを呼び出すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If one form tries to call another form's ActiveControl properties, it will receive an undefined value.</source>
+          <target state="translated">1 つの形式は、別のフォームの ActiveControl プロパティを呼び出そうとすると、未定義の値が適用されます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this case, you need to define your own communication mechanism between the forms to pass this data.</source>
+          <target state="translated">この場合、このデータを渡してフォーム間で、独自の通信メカニズムを定義する必要があります。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is currently active on the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で現在アクティブになっている、 <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> assigned could not be activated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>割り当てられているアクティブ化できませんでした。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adjusts the scroll bars on the container based on the current control positions and the control currently selected.</source>
+          <target state="translated">現在のコントロールの位置に基づいて、コンテナーと現在選択されているコントロール上のスクロール バーを調整します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to show the scroll bars; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スクロール バーを表示するにはそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets the dimensions that the control was designed to.</source>
+          <target state="translated">取得または設定するコントロールのように設計されたディメンション。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The AutoScaleDimensions property represents the DPI or font setting of the screen that the control was scaled to or designed for.</source>
+          <target state="translated">AutoScaleDimensions プロパティでは、コントロールにスケールまたは用に設計されていますが、画面の DPI やフォントの設定を表します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifically, at design time this property will be set by the Windows Forms designer to the value your monitor is currently using.</source>
+          <target state="translated">具体的には、デザイン時にこのプロパティに設定されます、Windows フォーム デザイナーによって、値、モニターが現在使用しています。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Then, when the form loads at run time, if the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; property is different from the AutoScaleDimensions, the &lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt; method will be called to perform scaling of the control and all of its children.</source>
+          <target state="translated">次に、読み込むときに、フォーム、実行時に場合、&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;プロパティとは異なる、AutoScaleDimensions、&lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt;コントロールとそのすべての子のスケーリングを実行するメソッドが呼び出されます&lt;/xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt;&lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Afterwards, AutoScaleDimensions will be updated to reflect the new scaling size.</source>
+          <target state="translated">その後、AutoScaleDimensions は、新しいスケール サイズを反映するように更新されます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">自動スケーリングの詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームにおける自動スケーリング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size that the control was designed to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ドット/インチ (DPI) を含むまたは<bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>にコントロールのように設計されたサイズ。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The width or height of the <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value is less than 0 when setting this value.</source>
+          <target state="translated">幅または高さの<bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>この値を設定するときに値が 0 未満です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the scaling factor between the current and design-time automatic scaling dimensions.</source>
+          <target state="translated">現在およびデザイン時の自動スケーリング ディメンション間のスケール ファクターを取得します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The AutoScaleFactor property represents the scaling factor between the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; properties.</source>
+          <target state="translated">AutoScaleFactor プロパティ間のスケール ファクターを表す、&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;と&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;プロパティ&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;&lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This value is calculated when it is required.</source>
+          <target state="translated">この値は、必要なときに計算されます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, if &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; is (192, 144) and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; is (96, 96) then the AutoScaleFactor is (2.0, 1.5).</source>
+          <target state="translated">たとえば場合、&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;は (192, 144) および&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;は (96、96)、AutoScaleFactor は (2.0, 1.5).&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">自動スケーリングの詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームにおける自動スケーリング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the scaling ratio between the current and design-time scaling automatic scaling dimensions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在デザイン時の自動スケール設定の寸法をスケーリングと比率を含むです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets the automatic scaling mode of the control.</source>
+          <target state="translated">取得またはコントロールの自動スケーリング モードを設定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The AutoScaleMode property specifies the current automatic scaling mode of this control.</source>
+          <target state="translated">AutoScaleMode プロパティでは、このコントロールの現在の自動スケーリング モードを指定します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful if you want to have a control or form stretch or shrink according to the size of the fonts in the operating system, and should be used when the absolute size of the control or form does not matter.</source>
+          <target state="translated">スケーリング&lt;xref:System.Windows.Forms.AutoScaleMode&gt;コントロールまたはフォームを拡大または縮小、オペレーティング システム内のフォントのサイズに従って設定を選択して、コントロールまたはフォームの絶対サイズが重要ではないときに使用する場合に便利です&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful when you want to size a control or form relative to the screen.</source>
+          <target state="translated">スケーリング&lt;xref:System.Windows.Forms.AutoScaleMode&gt;はコントロールまたは画面に対して相対的フォームのサイズを変更する場合に役立ちます&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, you may want to use dots per inch (DPI) scaling on a control displaying a chart or other graphic so that it always occupies a certain percentage of the screen.</source>
+          <target state="translated">たとえば、ドット/インチ (DPI) は、画面の一定の割合を常が占有するように、グラフなどのグラフィックを表示するコントロールのスケーリングを使用することがあります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">自動スケーリングの詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームにおける自動スケーリング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current scaling mode.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表す現在のスケーリング モード。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このプロパティを設定が無効な値が使用されました。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether controls in this container will be automatically validated when the focus changes.</source>
+          <target state="translated">取得または検証を示すかどうか、このコンテナー内のコントロールが自動的にフォーカスが変更されたときに値を設定します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value for AutoValidate will differ for each control.</source>
+          <target state="translated">AutoValidate の既定値は、各コントロールによって異なります。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more details on implicit validation, see <bpt id="p1">[</bpt>User Input Validation in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">暗黙の検証の詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームでのユーザーの入力検証<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Setting this property to a new value will raise the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt; event.</source>
+          <target state="translated">新しい値にこのプロパティの設定が生成されます、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;イベント&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerated value that indicates whether contained controls are implicitly validated on focus change.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コンテナー内のコントロールがフォーカスの変更に暗黙的に検証するかどうかを示す値を列挙します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このプロパティを設定が無効な値が使用されました。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property changes.</source>
+          <target state="translated">発生したときに、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;プロパティが変更された&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">イベント処理の詳細については、次を参照してください。<bpt id="p1">[</bpt>イベント<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the &lt;xref:System.Windows.Forms.Control.ImeMode*&gt; property can be set to an active value, to enable IME support.</source>
+          <target state="translated">示す値を取得するかどうか、&lt;xref:System.Windows.Forms.Control.ImeMode*&gt;プロパティは、IME サポートを有効にする、アクティブな値に設定できます&lt;/xref:System.Windows.Forms.Control.ImeMode*&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> and later, IME functionality is handled by the framework and native IME support for individual controls is disabled.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>および後で、IME 機能は、フレームワークによって処理される、個々 のコントロールのネイティブの IME サポートを無効にします。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A user control that derives from the &lt;xref:System.Windows.Forms.ContainerControl&gt; class can enable native IME support by overriding this property to return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">派生するユーザー コントロール、&lt;xref:System.Windows.Forms.ContainerControl&gt;を返すには、このプロパティをオーバーライドすることで、クラスがネイティブの IME サポートを有効にできます<ph id="ph1">`true`</ph>&lt;/xref:System.Windows.Forms.ContainerControl&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>However, the application is then responsible for making sure that there are no conflicts between the native IME and the Windows Forms IME.</source>
+          <target state="translated">ただし、アプリケーションは、し、ネイティブの IME と Windows フォームの IME の間の競合がないことを確認する場合。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This scenario is not supported.</source>
+          <target state="translated">このシナリオはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>すべての場合。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the required creation parameters when the control handle is created.</source>
+          <target state="translated">コントロール ハンドルが作成されるときに、必要な作成パラメーターを取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the required creation parameters when the handle to the control is created.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロールへのハンドルが作成されたときに必要な作成パラメーターを格納します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the current run-time dimensions of the screen.</source>
+          <target state="translated">現在の画面の実行時寸法を取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The CurrentAutoScaleDimensions property represents the reference dimensions on the current screen.</source>
+          <target state="translated">CurrentAutoScaleDimensions プロパティでは、現在の画面に参照ディメンションを表します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; property represents the design-time reference dimensions of the design environment for the current control, while the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt; property is the ratio of the two.</source>
+          <target state="translated">これに対し、&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;プロパティが現在のコントロールのデザイン環境のデザイン時の参照ディメンションを表すときに、&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt;プロパティは、2 つの比率&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt;&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The interpretation of the dimension value depends on the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property in the following ways:      -   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the resolution of the screen, in dots per inch.</source>
+          <target state="translated">ディメンションの値の解釈が異なります、&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;プロパティを次の方法で: モードの場合 - &lt;xref:System.Windows.Forms.AutoScaleMode&gt;、このプロパティは、ドット/インチで、画面の解像度を表します&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the average font character size in pixels.</source>
+          <target state="translated">-モードの場合、 &lt;xref:System.Windows.Forms.AutoScaleMode&gt;、このプロパティは、平均フォントの文字サイズ (ピクセル単位) を表します&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property is set to &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, CurrentAutoScaleDimensions is set equal to &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.</source>
+          <target state="translated">場合&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;&lt;xref:System.Windows.Forms.AutoScaleMode&gt;CurrentAutoScaleDimensions の&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;と等しい設定は&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;、プロパティを設定&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;する</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">自動スケーリングの詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームにおける自動スケーリング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the current dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size of the screen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在ドット/インチ (DPI) を含むまたは<bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>画面のサイズ。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A Win32 device context could not be created for the current screen.</source>
+          <target state="translated">現在の画面の Win32 デバイス コンテキストを作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and its child controls and optionally releases the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>とその子コントロール オプションでマネージ リソースも解放します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">イベントを発生させるには、イベント ハンドラーがデリゲートからを呼び出されます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>イベント<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The OnAutoValidateChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnAutoValidateChanged メソッドでは、派生クラスでデリゲートを結び付けずに、イベントを処理することもできます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">これは、派生クラスでイベントを処理するための手法をお勧めします。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;イベント データを格納します&lt;/xref:System.EventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Windows.Forms.Control.CreateControl*&gt; method.</source>
+          <target state="translated">発生させる、&lt;xref:System.Windows.Forms.Control.CreateControl*&gt;メソッド&lt;/xref:System.Windows.Forms.Control.CreateControl*&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Changing the font used by a &lt;xref:System.Windows.Forms.ContainerControl&gt; will cause the layout to be recalculated and reapplied to the contained controls if the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property has a value of &lt;xref:System.Windows.Forms.AutoScaleMode&gt;.</source>
+          <target state="translated">使用されるフォントを変更する、 &lt;xref:System.Windows.Forms.ContainerControl&gt;、レイアウトを再計算され、場合に含まれるコントロールを再適用する&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;&lt;xref:System.Windows.Forms.AutoScaleMode&gt;.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;の値を持つプロパティ&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;&lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">イベントを発生させるには、イベント ハンドラーがデリゲートからを呼び出されます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>イベント<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The OnFontChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnFontChanged メソッドでは、派生クラスでデリゲートを結び付けずに、イベントを処理することもできます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">これは、派生クラスでイベントを処理するための手法をお勧めします。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;イベント データを格納します&lt;/xref:System.EventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント データを格納します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;イベント データを格納します&lt;/xref:System.EventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the form that the container control is assigned to.</source>
+          <target state="translated">コンテナー コントロールが割り当てられるフォームを取得します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the container control is assigned to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>にコンテナー コントロールが割り当てられています。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This property will return null if the control is hosted inside of Internet Explorer or in another hosting context where there is no parent form.</source>
+          <target state="translated">このプロパティは、コントロールが Internet Explorer 内、または別のホスト コンテキストでホストされている場合は null を返します親フォームが存在しません。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Performs scaling of the container control and its children.</source>
+          <target state="translated">コンテナー コントロールとその子のスケーリングを実行します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An explicit call to the PerformAutoScale method is typically only required after programmatic changes to the layout during run time.</source>
+          <target state="translated">PerformAutoScale メソッドへの明示的な呼び出しは、通常実行時にレイアウトをプログラムで変更した後にのみ必要です。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>PerformAutoScale is implicitly called from the &lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt; method.</source>
+          <target state="translated">PerformAutoScale はから暗黙的に呼び出される、&lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;メソッド&lt;/xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PerformAutoScale is recursive; each child control, if it is a container, will have its version of this method called when the container's version executes.</source>
+          <target state="translated">PerformAutoScale は再帰的です。各子コントロールのコンテナーである場合がそのバージョンのコンテナーのバージョンを実行するときと呼ばれるこのメソッドがあります。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">自動スケーリングの詳細については、次を参照してください。 <bpt id="p1">[</bpt>Windows フォームにおける自動スケーリング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Processes a command key.</source>
+          <target state="translated">コマンド キーを処理します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, passed by reference, that represents the window message to process.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、処理するウィンドウ メッセージを表す、参照によって渡されます。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を処理するキーを表す値です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>文字がコントロールによって処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Processes a dialog character.</source>
+          <target state="translated">ダイアログ文字を処理します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">処理する文字。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>文字がコントロールによって処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Processes a dialog key.</source>
+          <target state="translated">ダイアログ キーを処理します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を処理するキーを表す値です。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キーがコントロールによって処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Processes a mnemonic character.</source>
+          <target state="translated">ニーモニック文字を処理します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">処理する文字。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed as a mnemonic by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>文字がコントロールによってニーモニックとして処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Selects the next available control and makes it the active control.</source>
+          <target state="translated">[次へ] の使用可能なコントロールを選択し、アクティブなコントロールを使用します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A control with its &lt;xref:System.Windows.Forms.Control.TabStop%2A&gt; property set to <ph id="ph1">`false`</ph> cannot be selected, so the next available control will be selected.</source>
+          <target state="translated">コントロールがその&lt;xref:System.Windows.Forms.Control.TabStop%2A&gt;プロパティに設定<ph id="ph1">`false`</ph>ことはできませんが選択され、[次へ] の使用可能なコントロールが選択されます&lt;/xref:System.Windows.Forms.Control.TabStop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to cycle forward through the controls in the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>循環内のコントロール、 <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a control is selected; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コントロールがオンの場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Activates a child control.</source>
+          <target state="translated">子コントロールをアクティブにします。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Optionally specifies the direction in the tab order to select the control from.</source>
+          <target state="translated">コントロールを選択するタブ オーダーの方向を指定します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify the direction of the control to select; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>選択するコントロールの方向を指定するにはそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to move forward in the tab order; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to move backward in the tab order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>タブ オーダー内を前方に移動するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>タブ オーダーで後方に移動します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Activates the specified control.</source>
+          <target state="translated">指定したコントロールをアクティブにします。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`control`</ph> parameter must be a child of the container control.</source>
+          <target state="translated"><ph id="ph1">`control`</ph>パラメーター コンテナー コントロールの子である必要があります。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>をアクティブ化します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control is successfully activated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コントロールが正常にアクティブにする場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When overridden by a derived class, updates which button is the default button.</source>
+          <target state="translated">派生クラスでオーバーライドされると、既定のボタンを更新します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl&gt; class does not provide an implementation for the UpdateDefaultButton method.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl&gt;クラスは UpdateDefaultButton メソッドの実装を提供しません&lt;/xref:System.Windows.Forms.ContainerControl&gt;。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Classes that inherit this method must implement UpdateDefaultButton to update the default button.</source>
+          <target state="translated">このメソッドを継承するクラスには、既定のボタンを更新する UpdateDefaultButton を実装しなければなりません。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control losing focus by causing the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> events to occur, in that order.</source>
+          <target state="translated">発生させることによって、フォーカスを失ったコントロールの値を確認、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>と<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>をこの順序で発生するイベントです。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;メソッドは、検証されていない最後の子コントロールとその先祖がないなど、現在のコンテナー コントロールを検証します&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This overloaded version always performs validation, regardless of the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent.</source>
+          <target state="translated">このオーバー ロードされたバージョンが常の値に関係なく、検証を実行、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;コントロールの親のプロパティ&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Therefore use it to unconditionally force validation.</source>
+          <target state="translated">したがって無条件に検証を使用します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>検証が成功した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼び出された場合、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>イベント ハンドラーでは、このメソッドは常に返します<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control that is losing focus; conditionally dependent on whether automatic validation is turned on.</source>
+          <target state="translated">フォーカスを失ったコントロールの値を確認します。条件付きで依存自動検証が入っているかどうか。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;メソッドは、検証されていない最後の子コントロールとその先祖がないなど、現在のコンテナー コントロールを検証します&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This overloaded version performs validation based on the following conditions:      -   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`true`</ph>, validation always occurs for child controls that are not validated.</source>
+          <target state="translated">このオーバー ロードされたバージョンは、次の条件に基づく検証を実行します: - 場合は、<ph id="ph1">`checkAutoValidate`</ph>パラメーターは<ph id="ph2">`true`</ph>、子コントロールが検証されないに常に検証が発生します。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`false`</ph>, validation occurs only if the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent is enabled.</source>
+          <target state="translated">場合、<ph id="ph1">`checkAutoValidate`</ph>パラメーターは<ph id="ph2">`false`</ph>場合に、のみ検証が行われます、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;コントロールの親のプロパティを有効にします&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property is used to determine if validation should be performed; if <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, validation is unconditionally performed.</source>
+          <target state="translated">場合<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の値、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;プロパティのかどうかは、検証を実行する必要がありますかどうかを使用<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、検証は無条件に実行します。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; 。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>検証が成功した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼び出された場合、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>イベント ハンドラーでは、このメソッドは常に返します<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">すべての子コントロール内のデータを検証する検証をサポートするコントロールをによりします。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>ValidateChildren will descend a control's hierarchy and examine each control to see if it supports validation.</source>
+          <target state="translated">ValidateChildren は下りる際に、コントロールの階層と、各コントロールの検証がサポートしているかを確認します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If the control can be selected by the user and its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property is <ph id="ph1">`true`</ph>, ValidateChildren will cause the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">コントロールをユーザーが選択できる場合、その&lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;プロパティは<ph id="ph1">`true`</ph>、ValidateChildren が発生、&lt;xref:System.Windows.Forms.Control.Validating&gt;イベントが発生する&lt;/xref:System.Windows.Forms.Control.Validating&gt;&lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If any of the controls cancel the &lt;xref:System.Windows.Forms.Control.Validating&gt; event, this method will return <ph id="ph1">`false`</ph>; otherwise, it will return <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">[キャンセル] のコントロールのいずれかの場合、&lt;xref:System.Windows.Forms.Control.Validating&gt;イベント、このメソッドは<ph id="ph1">`false`</ph>以外の場合が返されます<ph id="ph2">`true`</ph>&lt;/xref:System.Windows.Forms.Control.Validating&gt;。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">コントロールがデータ ソースにバインドされている場合、&lt;xref:System.Windows.Forms.Control.Validating&gt;イベントが発生するおそれがあるコントロールをデータ ソースへの現在のデータをプッシュして戻します&lt;/xref:System.Windows.Forms.Control.Validating&gt;。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Calling ValidateChildren is equivalent to calling &lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt; with a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; of &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">ValidateChildren を呼び出すことは&lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;、 &lt;xref:System.Windows.Forms.ValidationConstraints&gt; &lt;xref:System.Windows.Forms.ValidationConstraints&gt;。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;&lt;/xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;呼び出し元に相当</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>すべての子が正常に検証された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼び出された場合、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>イベント ハンドラーでは、このメソッドは常に返します<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">すべての子コントロール内のデータを検証する検証をサポートするコントロールをによりします。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>ValidateChildren will examine all the children of the current control, causing the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur on a control if it meets the criteria spelled out by &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">ValidateChildren では、すべての子の現在の管理&lt;xref:System.Windows.Forms.Control.Validating&gt;条件を満たしている場合、コントロールで発生するイベントが&lt;xref:System.Windows.Forms.ValidationConstraints&gt;。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;略さず&lt;/xref:System.Windows.Forms.Control.Validating&gt;の原因を確認します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>You may use several &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameters at once by combining them with a bitwise OR operator.</source>
+          <target state="translated">いくつかを使用することは&lt;xref:System.Windows.Forms.ValidationConstraints&gt;ビットごとの OR 演算子でそれらを組み合わせることで、一度にパラメーター&lt;/xref:System.Windows.Forms.ValidationConstraints&gt; 。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Combining parameters with a bitwise OR operator will result in a logical AND operation.</source>
+          <target state="translated">ビットごとの OR 演算子のパラメーターを組み合わせると、論理 AND 演算が発生します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, calling <ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph> will only raise the &lt;xref:System.Windows.Forms.Control.Validating&gt; event on controls that are both immediate children of the container AND are enabled.</source>
+          <target state="translated">たとえば、呼び出し<ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph>のみが生成されます、&lt;xref:System.Windows.Forms.Control.Validating&gt;コンテナーの両方の直系の子は、有効になっているコントロール上のイベント&lt;/xref:System.Windows.Forms.Control.Validating&gt;。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Regardless of which parameters you specify for this method, a control must have its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property set to <ph id="ph1">`true`</ph> in order for its &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">このメソッドを指定するパラメーターに関係なく、コントロールがあります、&lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;プロパティに設定<ph id="ph1">`true`</ph>の順序でその&lt;xref:System.Windows.Forms.Control.Validating&gt;イベントが発生する&lt;/xref:System.Windows.Forms.Control.Validating&gt;&lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You should also set the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control or of the control's container to <ph id="ph1">`false`</ph> if you want validation to happen only when you call ValidateChildren, and not when the user shifts focus from the control.</source>
+          <target state="translated">設定することも必要があります、&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;プロパティ、コントロールやコントロールのコンテナーの<ph id="ph1">`false`</ph>ValidateChildren を呼び出した場合にのみ発生する可能性を検証する場合と、ユーザーがコントロールからフォーカスを移すときではなく&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">コントロールがデータ ソースにバインドされている場合、&lt;xref:System.Windows.Forms.Control.Validating&gt;イベントが発生するおそれがあるコントロールをデータ ソースへの現在のデータをプッシュして戻します&lt;/xref:System.Windows.Forms.Control.Validating&gt;。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You cannot achieve the opposite effect of a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameter by applying a bitwise negation operator.</source>
+          <target state="translated">反対の効果を実現することはできません、&lt;xref:System.Windows.Forms.ValidationConstraints&gt;ビットごとの否定演算子を適用することによってパラメーター&lt;/xref:System.Windows.Forms.ValidationConstraints&gt; 。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, if you supply the negative value of the &lt;xref:System.Windows.Forms.ValidationConstraints&gt; field to ValidateChildren, it will not validate all children that are not visible on the container.</source>
+          <target state="translated">たとえばの負の値を指定する場合、&lt;xref:System.Windows.Forms.ValidationConstraints&gt;フィールド ValidateChildren には検証されません、コンテナーに表示されていないすべての子&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Supplying any negative parameter to ValidateChildren will have no effect on the container or its children.</source>
+          <target state="translated">ValidateChildren に任意の負のパラメーターを指定する効果はありません、コンテナーまたはその子にします。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Places restrictions on which controls have their <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event raised.</source>
+          <target state="translated">コントロールがある制限の<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>に発生するイベントです。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>すべての子が正常に検証された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼び出された場合、 <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>イベント ハンドラーでは、このメソッドは常に返します<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Processes Windows messages.</source>
+          <target state="translated">Windows メッセージを処理します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to process.</source>
+          <target state="translated">Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を処理します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

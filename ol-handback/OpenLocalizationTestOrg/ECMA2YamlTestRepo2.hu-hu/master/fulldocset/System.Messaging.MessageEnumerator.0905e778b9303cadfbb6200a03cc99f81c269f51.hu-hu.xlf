@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48866610ef8d80da05371b0b6ef7e6d9609661bd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageEnumerator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a570860269ef6d3d9454ac1b94ae9a92fb373c77</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">033622fbc69b34a2532b7f1b35be969738c8cd13</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a forward-only cursor to enumerate through messages in a message queue.</source>
+          <target state="translated">A csak előrefelé bejárható kurzor enumerálása, egy üzenet-várólista üzeneteinek biztosít.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use MessageEnumerator for dynamic interaction with messages in a queue.</source>
+          <target state="translated">A várólistában lévő üzenetek dinamikus interakcióba MessageEnumerator használja.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods available through the &lt;xref:System.Messaging.MessageQueue&gt; class can return either a MessageEnumerator pointing to a dynamic list of messages in the queue, or an array that contains a copy at a given instant - a snapshot - of the queue at the time the specified method was called.</source>
+          <target state="translated">Keresztül elérhető módszerek a &lt;xref:System.Messaging.MessageQueue&gt;osztály adhat vissza vagy egy, az üzenetek a várólistát, vagy olyan tömb, amely időben, a várólista megadott azonnali - pillanatkép - tartalmazza a megadott metódus lett meghívva dinamikus listára mutató MessageEnumerator.&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike a static snapshot, an enumerator allows you to modify the collection.</source>
+          <target state="translated">Pillanatnyi, eltérően enumerátor lehetővé teszi a gyűjtemény módosítható.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a MessageEnumerator, you can remove messages from the queue, and the change is immediately reflected in the queue.</source>
+          <target state="translated">Egy MessageEnumerator üzenetek eltávolítása a sorból, és a változás azonnal megjelennek a várólistát.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enumerator does not remove the messages from the queue when it queries the queue.</source>
+          <target state="translated">Enumerátor nem távolítja el az üzenetet az üzenetsorból amikor lekérdezi a várólista.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It returns information about the message at the current cursor position, but it leaves the message in the queue.</source>
+          <target state="translated">Az jelenik meg a jelenlegi kurzor pozíciójával kapcsolatos információkat ad vissza, de hagyja az üzenetet a várólistában.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A MessageEnumerator is a cursor, initialized to the head of a dynamic list.</source>
+          <target state="translated">Egy MessageEnumerator kurzor, a dinamikus listáját vezetője inicializálva.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list order is the same as the order of the messages in the queue, according to message priority.</source>
+          <target state="translated">A lista sorrendje megegyezik a várólistában lévő üzenetek sorrendjének üzenet prioritása alapján.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can move the cursor to the first message in the queue by calling &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;.</source>
+          <target state="translated">A várólista első üzenetébe a kurzor a &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; meghívásával áthelyezheti</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the enumerator has been initialized, you can use &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; to step forward through the remaining messages.</source>
+          <target state="translated">A számbavevő inicializálása után használhatja &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;segítségével előre a további üzeneteket.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify whether to wait for a message to become available by passing a timeout into the &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; method.</source>
+          <target state="translated">Várjon, amíg elérhető nem lesz úgy, hogy az időtúllépés üzenet megadhatja a &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;metódus.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the enumerator is dynamic, a message that is appended beyond the cursor's current position (for example, due to low priority), can be accessed by the enumerator.</source>
+          <target state="translated">Mivel a számbavevő dinamikus, egy üzenet, miszerint túl a kurzor aktuális pozíciója (például, kis prioritású virtuális gép), mert a rendszer hozzáfűzi a számbavevő hozzáférhet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A message that is inserted before the cursor's current position cannot be accessed.</source>
+          <target state="translated">Egy üzenet beszúrt előtt a kurzor jelenlegi állapotában nem érhető el.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not possible to step backward with a MessageEnumerator.</source>
+          <target state="translated">Nincs lehetőség a Visszalépés egy MessageEnumerator.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A cursor allows forward-only movement.</source>
+          <target state="translated">A kurzor lehetővé teszi, hogy a csak előrefelé bejárható mozgása.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.MessageEnumerator.Reset%2A&gt; method enables you to place the cursor back at the beginning of the queue.</source>
+          <target state="translated">A &lt;xref:System.Messaging.MessageEnumerator.Reset%2A&gt;módszer lehetővé teszi, vigye a kurzort visszaállítása a várólista elejére.&lt;/xref:System.Messaging.MessageEnumerator.Reset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instances of MessageEnumerator for a given queue work independently.</source>
+          <target state="translated">Egy adott várólistában az MessageEnumerator példányait egymástól függetlenül működnek.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create two MessageEnumerator instances that apply to the same queue.</source>
+          <target state="translated">Létrehozhat két MessageEnumerator példányokat, amelyek ugyanazon a várólistán vonatkoznak.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The changes that one MessageEnumerator makes to the messages in the queue will be reflected immediately in a second enumerator if the second enumerator is positioned before the first.</source>
+          <target state="translated">Az egy MessageEnumerator a várólistán lévő üzenetek által végrehajtott módosítások jelenik meg azonnal a második enumerátor Ha a második enumerátor első.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if two enumerators have the same position and one of them removes the message at that position, an exception is thrown if the other enumerator attempts to get the value of the &lt;xref:System.Messaging.MessageEnumerator.Current%2A&gt; property on the now-deleted message.</source>
+          <target state="translated">Azonban ha két enumerálók azonos helyzetben rendelkezik, és egyik eltávolítja az adott helyen az üzenetet, kivételt vált ki, ha az egyéb enumerátor megpróbálja értékének beolvasása a &lt;xref:System.Messaging.MessageEnumerator.Current%2A&gt;tulajdonság a most már törölt üzenethez.&lt;/xref:System.Messaging.MessageEnumerator.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you create an instance of &lt;xref:System.Messaging.MessageQueue&gt; with &lt;xref:System.Messaging.MessageQueue.DenySharedReceive%2A?displayProperty=fullName&gt; set to <ph id="ph2">`true`</ph>, no other application can modify the messages in your enumerator while you have the connection to the queue.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Példányának létrehozásakor &lt;xref:System.Messaging.MessageQueue&gt;rendelkező &lt;xref:System.Messaging.MessageQueue.DenySharedReceive%2A?displayProperty=fullName&gt;beállítása <ph id="ph2">`true`</ph>, egyetlen másik alkalmazás is módosítható a számbavevő található üzenetek, amíg a kapcsolat a várólistára.&lt;/xref:System.Messaging.MessageQueue.DenySharedReceive%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Frees the resources associated with the enumerator.</source>
+          <target state="translated">A számbavevő társított erőforrásokat felszabadul.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operating system retains an open handle to the queue during the lifetime of the cursor.</source>
+          <target state="translated">Az operációs rendszer egy megnyitott leírót a várólistára megőrzi a kurzor élettartama során.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have finished working with the enumerator, call Close to release the resources associated with the handle.</source>
+          <target state="translated">Ha befejezte a Bezárás gombra a számbavevő hívás használata szabadítsa fel a leíró társított erőforrásokat.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this enumerator points to.</source>
+          <target state="translated">Lekérdezi az aktuális <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , hogy ez az enumeráló mutat.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the enumerator is created, it points to the head of the queue, at a location before the first message.</source>
+          <target state="translated">A számbavevő jön létre, amikor a várólista első üzenetének előtt egy helyen vezetője mutat.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, Current is not valid and will throw an exception if it is accessed.</source>
+          <target state="translated">Ebben az esetben aktuális csak akkor érvényes, és fog kivételt jelez, ha érhető el.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; to position the cursor at the first message in the queue.</source>
+          <target state="translated">Meg kell hívnia &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;számára, hogy a várólista első üzenetébe a kurzor.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The current message.</source>
+          <target state="translated">Az aktuális üzenet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You called Current before the first call to &lt;xref:System.Messaging.MessageEnumerator.MoveNext<bpt id="p1">*</bpt>&gt;. The cursor is located before the first element of the message enumeration.       -or-       You called Current after a call to &lt;xref:System.Messaging.MessageEnumerator.MoveNext<ept id="p1">*</ept>&gt; had returned <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> (indicating the cursor is located after the last element of the message enumeration.)</source>
+          <target state="translated">Aktuális hívva az első hívás &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;. Az egérmutatónak a üzenet számbavétel első eleme előtt helyezkedik el.       – vagy – meghívása után kell a jelenlegi hívott &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; vissza kellett <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> (a kurzor jelző is található az üzenet enumerálás utolsó eleme mögé.)</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The message the enumerator is currently pointing to no longer exists.</source>
+          <target state="translated">Az üzenetet a számbavevő a már nem létezik.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It might have been deleted.</source>
+          <target state="translated">Előfordulhat, hogy törölték.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the native Message Queuing cursor handle used to browse messages in the queue.</source>
+          <target state="translated">Lekérdezi a Message Queuing kurzor használatos natív leíró keresse meg a várólista üzeneteit.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property contains the native handle to the enumeration.</source>
+          <target state="translated">Ez a tulajdonság a számbavétel natív leírójának tartalmazza.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have finished working with the enumerator, call &lt;xref:System.Messaging.MessageEnumerator.Close%2A&gt; to release this resource.</source>
+          <target state="translated">A számbavevő végzett befejezése után hívható &lt;xref:System.Messaging.MessageEnumerator.Close%2A&gt;felszabadítása ehhez az erőforráshoz.&lt;/xref:System.Messaging.MessageEnumerator.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The native cursor handle.</source>
+          <target state="translated">A kurzor natív leíró.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The handle does not exist.</source>
+          <target state="translated">A leíró nem létezik.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Feloldja a által használt erőforrások a <bpt id="p1">&lt;xref href="System.Messaging.MessageEnumerator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling Dispose allows the resources used by the &lt;xref:System.Messaging.MessageEnumerator&gt; to be reallocated for other purposes.</source>
+          <target state="translated">A által használt erőforrások Dispose hívása lehetővé teszi a &lt;xref:System.Messaging.MessageEnumerator&gt;foglalhatók le más célra való.&lt;/xref:System.Messaging.MessageEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about Dispose, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Dispose kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>nem felügyelt erőforrások tisztítás<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">A nem felügyelt által használt erőforrások kiadja a <bpt id="p1">&lt;xref href="System.Messaging.MessageEnumerator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és opcionálisan kiadja a felügyelt erőforrások.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public &lt;xref:System.Messaging.MessageEnumerator.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ezt a módszert nevezik nyilvános &lt;xref:System.Messaging.MessageEnumerator.Dispose%2A&gt;metódus és a &lt;xref:System.Object.Finalize%2A&gt;metódus.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.Messaging.MessageEnumerator.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>meghívja a védett <ph id="ph2">`Dispose(Boolean)`</ph> metódust a <ph id="ph3">`disposing`</ph> paraméter <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;Elindítja a <ph id="ph1">`Dispose`</ph> rendelkező <ph id="ph2">`disposing`</ph> beállítása <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Messaging.MessageEnumerator&gt; references.</source>
+          <target state="translated">Ha a <ph id="ph1">`disposing`</ph> paraméter <ph id="ph2">`true`</ph>, ez a módszer minden felügyelt objektum által tárolt összes erőforrás kiadja, amelyhez a &lt;xref:System.Messaging.MessageEnumerator&gt;hivatkozik.&lt;/xref:System.Messaging.MessageEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Ez a metódus meghívja a <ph id="ph1">`Dispose()`</ph> minden hivatkozott metódusa.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Advances the enumerator to the next message in the queue, if one is currently available.</source>
+          <target state="translated">Kiadásokban a számbavevő a várólista következő üzenetére, ha jelenleg.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload returns immediately if there is no message in the queue.</source>
+          <target state="translated">Ha nincs üzenet a várólistában a túlterhelési azonnal visszaadja.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is another overload that waits a specified &lt;xref:System.TimeSpan&gt; for a message to arrive.</source>
+          <target state="translated">Nincs másik többszörös definíciót, amely megvárja-e a megadott &lt;xref:System.TimeSpan&gt;üzenet érkezésére.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a message is not currently available because the queue is empty or because you have moved beyond the last element in the collection, MoveNext returns <ph id="ph1">`false`</ph> to the calling method.</source>
+          <target state="translated">Ha egy üzenet jelenleg nem áll rendelkezésre, mert a várólista, vagy meghaladja az utolsó elem a gyűjteményben az áthelyezett, meg a MoveNext metódust ad vissza <ph id="ph1">`false`</ph> a hívó metódus.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon creation, an enumerator is conceptually positioned before the first message of the queue, and the first call to MoveNext brings the first message of the queue into view.</source>
+          <target state="translated">Létrehozás után egy elméletben a számbavevő a várólista első üzenetének előtt, és a MoveNext metódust első hívás során a várólista első üzenetének kerülnek nézet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the enumerator was succesfully advanced to the next message; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the enumerator has reached the end of the queue.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a számbavevő sikeresen megtörtént a következő üzenetre; speciális <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha a számbavevő elérte a sor végéig.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An exception specific to Message Queuing was thrown.</source>
+          <target state="translated">Adott üzenetsor kivételt váltott ki.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Advances the enumerator to the next message in the queue.</source>
+          <target state="translated">A számbavevő a várólista következő üzenetére állomásra.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the enumerator is positioned at the end of the queue, &lt;xref:System.Messaging.MessageEnumerator.MoveNext*&gt; waits until a message is available or the given timeout expires.</source>
+          <target state="translated">Ha a számbavevő a sor végén &lt;xref:System.Messaging.MessageEnumerator.MoveNext*&gt;megvárja, amíg az üzenetet, vagy a megadott időkorlát lejárta.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload waits if there is no message in the queue or if the cursor has reached the end of the queue.</source>
+          <target state="translated">Ez a túlterhelés vár, ha nincs üzenet a várólistában, vagy ha a kurzor a várólista véget ért.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a message is not currently available because the queue is empty or because you have moved beyond the last element in the collection, &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; waits the specified timeout.</source>
+          <target state="translated">Ha az üzenet már nem érhető el, mert a várólista üres, vagy mert az utolsó elem a gyűjteményben lévő túl áthelyezett &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;megvárja-e a megadott időkorlát.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cursor is already at the end of the queue, &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; only returns <ph id="ph1">`true`</ph> if the new message arrives within the specified time interval, has lower priority than all messages currently in the queue and is placed at the end of the queue.</source>
+          <target state="translated">Ha a kurzor már a sor végén &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;csak <ph id="ph1">`true`</ph> az új üzenet érkezik a megadott időintervallumon belül, ha rendelkezik az összes üzenet alacsonyabb prioritású jelenleg a várólistán lévő és a sor végére kerül.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An overload with no parameter returns immediately if no further messages are in the queue.</source>
+          <target state="translated">Nincs paraméterrel túlterhelés azonnal visszaadja az Ha nincsenek további üzenetek vannak a várólistában.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon creation, an enumerator is conceptually positioned before the first message of the enumeration, and the first call to &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; brings the first message of the enumeration into view.</source>
+          <target state="translated">Létrehozás után egy elméletben a számbavevő az első üzenet a számbavétel, és az első hívás előtt &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;számos lehetőséget kínál a nézetben a számbavétel első üzenetét.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; to wait for a message to be available if the enumerator is positioned at the end of the queue.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;érhető el, ha a számbavevő a sor végén üzenet várakozási.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the enumerator successfully advanced to the next message; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the enumerator has reached the end of the queue and a message does not become available within the time specified by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a számbavevő sikeresen speciális a következő üzenetre; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , ha a számbavevő elérte a várólistát végén, és az üzenet nem áll rendelkezésre a megadott időn belül a <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p3">&lt;/code&gt;</ept> paraméter.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The value specified for the timeout parameter is invalid.</source>
+          <target state="translated">Az időtúllépés paraméter megadott értéke érvénytelen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It might represent a negative number.</source>
+          <target state="translated">Előfordulhat, hogy határoz meg, negatív szám.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An exception specific to Message Queuing was thrown.</source>
+          <target state="translated">Adott üzenetsor kivételt váltott ki.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-or-       The timeout has expired.</source>
+          <target state="translated">– vagy – időtúllépés történt.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Removes the current message from a transactional or non-transactional queue and returns the message to the calling application.</source>
+          <target state="translated">Eltávolítja az aktuális üzenetet tranzakciós vagy nem tranzakciós sorból, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>There is no timeout specified for a message to arrive in the queue.</source>
+          <target state="translated">Nincs semmilyen üzenet a várólistában lévő érkezésére megadott időkorlát.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RemoveCurrent removes and returns the message at the cursor's current location.</source>
+          <target state="translated">RemoveCurrent eltávolítja, és visszaadja az üzenetet a kurzor aktuális helyen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling RemoveCurrent.</source>
+          <target state="translated">Nincs hívására &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;RemoveCurrent hívása után.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call this overload on a transactional queue, Message Queuing creates a single internal transaction.</source>
+          <target state="translated">A túlterhelési hívásakor a tranzakcionális várósor, a Message Queuing egyetlen belső tranzakció hoz létre.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Removes the current message from a transactional queue and returns the message to the calling application.</source>
+          <target state="translated">A tranzakciós várólistában lévő eltávolítja az aktuális üzenetet, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>There is no timeout specified for a message to arrive in the queue.</source>
+          <target state="translated">Nincs semmilyen üzenet a várólistában lévő érkezésére megadott időkorlát.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; removes and returns the message at the cursor's current location, using the internal transaction context defined by the <ph id="ph1">`transaction`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;eltávolítja és visszaállítja a kurzor aktuális helyen, a belső tranzakció adataival határozzák meg az üzenetet a <ph id="ph1">`transaction`</ph> paraméter.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with transactional queues, a rollback of a transaction causes any messages removed by a call to &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; to be returned to the queue.</source>
+          <target state="translated">Tranzakciós várólisták használata, amikor egy tranzakció visszaállítása okozza-e bármilyen hívásával eltávolított üzenetek &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;vissza kell helyezni a várólista.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The removal is not irreversible until the transaction is committed.</source>
+          <target state="translated">Az eltávolítás nem nem vonható vissza, amíg a tranzakció.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.</source>
+          <target state="translated">Nem kell &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; hívása után&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; hívható</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the transaction in which the message will be removed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely meghatározza a tranzakció, amelyben eltávolítja az üzenetet.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transaction</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transaction</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Removes the current message from a queue and returns the message to the calling application.</source>
+          <target state="translated">Eltávolítja az aktuális üzenetet az üzenetsorból, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>There is no timeout specified for a message to arrive in the queue.</source>
+          <target state="translated">Nincs semmilyen üzenet a várólistában lévő érkezésére megadott időkorlát.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; removes and returns the message at the cursor's current location, using a transaction context defined by the <ph id="ph1">`transactionType`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;eltávolítja és visszaállítja a kurzor aktuális helyen, egy tranzakció környezetében határozzák meg az üzenetet a <ph id="ph1">`transactionType`</ph> paraméter.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`Automatic`</ph> for the <ph id="ph2">`transactionType`</ph> parameter if there is already an external transaction context attached to the thread that you want to use to receive the message.</source>
+          <target state="translated">Adja meg <ph id="ph1">`Automatic`</ph> a a <ph id="ph2">`transactionType`</ph> paraméternek, ha már van egy külső tranzakciós környezet lett átadva a szál az üzenetet használni kívánt csatolva.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`Single`</ph> if you want to receive the message as a single internal transaction.</source>
+          <target state="translated">Adja meg <ph id="ph1">`Single`</ph> Ha azt szeretné, hogy az üzenetet egy belső tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify <ph id="ph1">`None`</ph> if you want to receive a message from a transactional queue outside of a transaction context.</source>
+          <target state="translated">Megadhat <ph id="ph1">`None`</ph> Ha azt szeretné, egy üzenet fogadása tranzakcionális kívül egy tranzakciós környezet lett átadva.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with transactional queues, a rollback of a transaction causes any messages removed by a call to &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; to be returned to the queue.</source>
+          <target state="translated">Tranzakciós várólisták használata, amikor egy tranzakció visszaállítása okozza-e bármilyen hívásával eltávolított üzenetek &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;vissza kell helyezni a várólista.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The removal is not irreversible until the transaction is committed.</source>
+          <target state="translated">Az eltávolítás nem nem vonható vissza, amíg a tranzakció.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.</source>
+          <target state="translated">Nem kell &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; hívása után&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; hívható</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, describing the type of transaction context to associate with the message.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, a tranzakciós környezet lett átadva az üzenet társítandó leíró.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transactionType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not one of the <bpt id="p2">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> members.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">transactionType</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter egyike nem a <bpt id="p2">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> tagokat.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Removes the current message from the queue and returns the message to the calling application.</source>
+          <target state="translated">Eltávolítja az aktuális üzenetet a sorból, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If there is a message to remove, the method returns it immediately.</source>
+          <target state="translated">Ha egy üzenetet, amely eltávolítja, a metódus visszaadja azt azonnal.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Otherwise, the method waits the specified timeout for a new message to arrive.</source>
+          <target state="translated">A metódus ellenkező esetben a megadott időkorlátnak egy új üzenet érkezésekor vár.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; removes and returns the message at the cursor's current location.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;eltávolítja, és visszaadja az üzenetet a kurzor aktuális helyen.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cursor is at the end of the queue, this overload of the method waits until a message is available or the interval specified by the <ph id="ph1">`timeout`</ph> parameter has expired.</source>
+          <target state="translated">A sor végén a kurzor esetén ez a módszer túlterhelés megvárja, amíg egy üzenetet, vagy az időköz által megadott a <ph id="ph1">`timeout`</ph> paraméter érvényessége lejárt.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.</source>
+          <target state="translated">Nem kell &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; hívása után&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; hívható</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call this overload on a transactional queue, Message Queuing creates a single internal transaction.</source>
+          <target state="translated">A túlterhelési hívásakor a tranzakcionális várósor, a Message Queuing egyetlen belső tranzakció hoz létre.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The interval of time to wait for a message to arrive in the queue.</source>
+          <target state="translated">Az üzenet a várólistában lévő érkezésére várakozási időintervallum.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is invalid.</source>
+          <target state="translated">A megadott a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter értéke érvénytelen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The timeout has expired.</source>
+          <target state="translated">Az időtúllépés történt.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Removes the current message from a transactional queue and returns the message to the calling application.</source>
+          <target state="translated">A tranzakciós várólistában lévő eltávolítja az aktuális üzenetet, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If there is a message to remove, the method returns it immediately.</source>
+          <target state="translated">Ha egy üzenetet, amely eltávolítja, a metódus visszaadja azt azonnal.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Otherwise, the method waits the specified timeout for a new message to arrive.</source>
+          <target state="translated">A metódus ellenkező esetben a megadott időkorlátnak egy új üzenet érkezésekor vár.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; removes and returns the message at the cursor's current location.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;eltávolítja, és visszaadja az üzenetet a kurzor aktuális helyen.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cursor is at the end of the queue, this overload of the method waits until a message is available or the interval specified by the <ph id="ph1">`timeout`</ph> parameter has expired.</source>
+          <target state="translated">A sor végén a kurzor esetén ez a módszer túlterhelés megvárja, amíg egy üzenetet, vagy az időköz által megadott a <ph id="ph1">`timeout`</ph> paraméter érvényessége lejárt.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with transactional queues, a rollback of a transaction causes any messages removed by a call to &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; to be returned to the queue.</source>
+          <target state="translated">Tranzakciós várólisták használata, amikor egy tranzakció visszaállítása okozza-e bármilyen hívásával eltávolított üzenetek &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;vissza kell helyezni a várólista.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The removal is not irreversible until the transaction is committed.</source>
+          <target state="translated">Az eltávolítás nem nem vonható vissza, amíg a tranzakció.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.</source>
+          <target state="translated">Nem kell &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; hívása után&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; hívható</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The interval of time to wait for the message to be removed.</source>
+          <target state="translated">Az eltávolítani kívánt üzenet várakozási idő időintervallum.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the transaction context for the message.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely meghatározza a tranzakciós környezet lett átadva az üzenet.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is invalid.</source>
+          <target state="translated">A megadott a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter értéke érvénytelen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transaction</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transaction</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The timeout has expired.</source>
+          <target state="translated">Az időtúllépés történt.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Removes the current message from a queue and returns the message to the calling application.</source>
+          <target state="translated">Eltávolítja az aktuális üzenetet az üzenetsorból, és visszaadja az üzenetet a hívó alkalmazás.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If there is a message to remove, the method returns it immediately.</source>
+          <target state="translated">Ha egy üzenetet, amely eltávolítja, a metódus visszaadja azt azonnal.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Otherwise, the method waits the specified timeout for a new message to arrive.</source>
+          <target state="translated">A metódus ellenkező esetben a megadott időkorlátnak egy új üzenet érkezésekor vár.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; removes and returns the message at the cursor's current location, using a transaction context defined by the <ph id="ph1">`transactionType`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;eltávolítja és visszaállítja a kurzor aktuális helyen, egy tranzakció környezetében határozzák meg az üzenetet a <ph id="ph1">`transactionType`</ph> paraméter.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cursor is at the end of the queue, this overload of the method waits until a message is available or the interval specified by the <ph id="ph1">`timeout`</ph> parameter has expired.</source>
+          <target state="translated">A sor végén a kurzor esetén ez a módszer túlterhelés megvárja, amíg egy üzenetet, vagy az időköz által megadott a <ph id="ph1">`timeout`</ph> paraméter érvényessége lejárt.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`Automatic`</ph> for the <ph id="ph2">`transactionType`</ph> parameter if there is already an external transaction context attached to the thread that you want to use to receive the message.</source>
+          <target state="translated">Adja meg <ph id="ph1">`Automatic`</ph> a a <ph id="ph2">`transactionType`</ph> paraméternek, ha már van egy külső tranzakciós környezet lett átadva a szál az üzenetet használni kívánt csatolva.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`Single`</ph> if you want to receive the message as a single internal transaction.</source>
+          <target state="translated">Adja meg <ph id="ph1">`Single`</ph> Ha azt szeretné, hogy az üzenetet egy belső tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify <ph id="ph1">`None`</ph> if you want to receive a message from a transactional queue outside of a transaction context.</source>
+          <target state="translated">Megadhat <ph id="ph1">`None`</ph> Ha azt szeretné, egy üzenet fogadása tranzakcionális kívül egy tranzakciós környezet lett átadva.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using queue journaling, removing the message causes a copy to be kept in the journal queue, just as the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method does.</source>
+          <target state="translated">Várólistára naplózási használ, ha egy példányt a naplóvárólistában levő hasonlóan eltávolítása hatására a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;metódus végzi.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with transactional queues, a rollback of a transaction causes any messages removed by a call to &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; to be returned to the queue.</source>
+          <target state="translated">Tranzakciós várólisták használata, amikor egy tranzakció visszaállítása okozza-e bármilyen hívásával eltávolított üzenetek &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;vissza kell helyezni a várólista.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The removal is not irreversible until the transaction is committed.</source>
+          <target state="translated">Az eltávolítás nem nem vonható vissza, amíg a tranzakció.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you remove the current message, the cursor is moved to the next message.</source>
+          <target state="translated">Eltávolítja az aktuális üzenet, amikor a kurzor a következő üzenet kerül.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.</source>
+          <target state="translated">Nem kell &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; &lt;xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt;.&lt;/xref:System.Messaging.MessageEnumerator.RemoveCurrent%2A&gt; hívása után&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; hívható</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The interval of time to wait for the message to be removed.</source>
+          <target state="translated">Az eltávolítani kívánt üzenet várakozási idő időintervallum.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, describing the type of transaction context to associate with the message.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, a tranzakciós környezet lett átadva az üzenet társítandó leíró.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the first message available in the queue.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely elérhető a várólista első üzenetének hivatkozik.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is invalid.</source>
+          <target state="translated">A megadott a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter értéke érvénytelen.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The timeout has expired.</source>
+          <target state="translated">Az időtúllépés történt.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transactionType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not one of the <bpt id="p2">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> members.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">transactionType</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter egyike nem a <bpt id="p2">&lt;xref href="System.Messaging.MessageQueueTransactionType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> tagokat.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Resets the current enumerator so it points to the head of the queue.</source>
+          <target state="translated">Alaphelyzetbe állítja az aktuális enumerátor, így a várólista vezetője mutat.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enumerator can only move in a forward direction.</source>
+          <target state="translated">Enumerátor csak áthelyezheti egy előre.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to start over at the beginning of the queue.</source>
+          <target state="translated">Ezt a módszert kezdje újra a folyamatot a várólista elejére.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Reset, the cursor points to the first message.</source>
+          <target state="translated">Az első üzenet után hívja meg alaphelyzetbe állítása, a kurzor mutat.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to call &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt; after calling Reset to move the cursor forward to the first message in the queue.</source>
+          <target state="translated">Nem kell hívnia &lt;xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;alaphelyzetbe állítása a kurzort hívása után továbbítja a várólista első üzenetébe.&lt;/xref:System.Messaging.MessageEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the message at the current cursor position.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely hivatkozik az jelenik meg a jelenlegi kurzor pozíciójával.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that references the message at the current cursor position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely hivatkozik az jelenik meg a jelenlegi kurzor pozíciójával.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

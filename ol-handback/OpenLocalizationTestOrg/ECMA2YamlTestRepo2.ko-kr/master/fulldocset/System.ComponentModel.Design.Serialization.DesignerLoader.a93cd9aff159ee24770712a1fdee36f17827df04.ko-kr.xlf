@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fdfb1060c05d77935d9a1b388048e1cfd603184c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.DesignerLoader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c92957480fd575529abda2858ac73aa81a5e64b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">34c09b70f02ffb0898c4c1988d5911e5d3d3cc7b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a basic designer loader interface that can be used to implement a custom designer loader.</source>
+          <target state="translated">사용자 지정 디자이너 로더를 구현 하는 데 사용할 수 있는 기본 디자이너 로더 인터페이스를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DesignerLoader can be implemented to support custom loading of a designer and designer components.</source>
+          <target state="translated">DesignerLoader는 디자이너 및 디자이너 구성 요소 사용자 지정 로딩을 지원 하기 위해 구현할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A designer loader is also responsible for writing changes to an open document back to the storage the loader used when loading the document after the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.Flush%2A&gt; method is called.</source>
+          <target state="translated">또한 디자이너 로더는 후 문서 로딩 시 로더가 사용한 저장소에 다시 열려 있는 문서에 변경 내용을 기록 합니다는 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.Flush%2A&gt;메서드를 호출 합니다.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the Visual Studio development environment creates its own variety of DesignerLoader that can load basic designer projects.</source>
+          <target state="translated">기본적으로 Visual Studio 개발 환경에서는 다양 한 기본 디자이너 프로젝트를 로드할 수 있는 DesignerLoader 자체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a custom designer loader, you must inherit from and implement the abstract DesignerLoader class.</source>
+          <target state="translated">사용자 지정 디자이너 로더를 만들려면에서 상속 하 고 추상 DesignerLoader 클래스를 구현 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot directly instantiate DesignerLoader, as it has no public constructor.</source>
+          <target state="translated">직접 생성자가 없는 공개 하는 대로 DesignerLoader를 인스턴스화할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A&gt; is invoked, the designer loader loads the design document, displays the designer surface using the &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; interface, and calls &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost.EndLoad%2A&gt; on the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt; interface when done.</source>
+          <target state="translated">때 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A&gt;은 호출 디자이너 로더 디자인 문서를 로드, 사용해는 디자이너 화면 표시는 &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;인터페이스 및 호출 &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost.EndLoad%2A&gt;에 &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt;완료 한 후에 인터페이스.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost.EndLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt; implementation is usually the same class that implements &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt;구현 &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; 를 구현 하는 동일한 클래스 일반적으로는&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Begins loading a designer.</source>
+          <target state="translated">디자이너를 로드 되기 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt; that is passed to the <ph id="ph1">`host`</ph> parameter is typically the same object as the designer host.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt;에 전달 되는 <ph id="ph1">`host`</ph> 매개 변수는 일반적으로 디자이너 호스트와 같은 개체입니다.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerLoaderHost&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Through this reference to the loader host, the designer loader can reload the design document and indicate that it has finished loading the design document.</source>
+          <target state="translated">로더 호스트에이 참조를 통해 디자이너 로더는 디자인 문서를 다시 로드할 수 있으며 디자인 문서를 로드 완료 되었음을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The loader host through which this loader loads components.</source>
+          <target state="translated">이 로더는 구성 요소를 로드 하는 로더 호스트입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">사용 하는 모든 리소스를 해제는 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; 를 사용 하 여 작업을 마쳤으면 Dispose를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; in an unusable state.</source>
+          <target state="translated">Dispose 메서드는 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;불안정 한 상태가.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; was occupying.</source>
+          <target state="translated">Dispose를 호출한 후에 대 한 모든 참조를 해제 해야는 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;가비지 수집기는 메모리를 회수할 수 있도록 하는 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;차지한.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>관리 되지 않는 리소스 정리<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> 및 <bpt id="p2">[</bpt>Dispose 메서드를 구현<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; 에 대 한 마지막 참조를 해제 하기 전에 항상 호출 삭제</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">사용 중인 리소스가 가비지 수집기 호출할 때까지 해제 되지 것입니다 그렇지 않은 경우는 &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;개체의 <ph id="ph1">`Finalize`</ph> 메서드.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Writes cached changes to the location that the designer was loaded from.</source>
+          <target state="translated">캐시 된 디자이너에서 로드 된 위치에 대 한 변경을 씁니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The designer host calls this method periodically to ensure that changes made to the document were saved by the designer loader.</source>
+          <target state="translated">디자이너 호스트는이 메서드는 문서의 변경 내용을 디자이너 로더에 의해 저장 된를 주기적으로 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows designer loaders to implement an asynchronous write scheme to improve performance.</source>
+          <target state="translated">이 메서드는 성능 향상을 위해 비동기 쓰기 체계를 구현 하려면 디자이너 로더를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method does nothing.</source>
+          <target state="translated">이 메서드의 기본 구현은 아무 작업도 수행합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the loader is currently loading a document.</source>
+          <target state="translated">로더 현재 문서를 로드 하는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the loader is currently loading a document; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>로더는 현재; 문서를 로드 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

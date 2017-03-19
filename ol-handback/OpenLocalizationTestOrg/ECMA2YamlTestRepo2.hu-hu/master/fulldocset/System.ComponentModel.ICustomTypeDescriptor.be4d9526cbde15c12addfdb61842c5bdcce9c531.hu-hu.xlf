@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a8746252d51807933401be5968c0c11467969e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.ICustomTypeDescriptor.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">107f4dfa4f9ab21d5b8636349dafd923fe444559</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">433a4b8195734b70cdb315a5bad116bb98dc83b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface that supplies dynamic custom type information for an object.</source>
+          <target state="translated">Megadja az objektum dinamikus egyéni típusinformációt felületet biztosít.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ICustomTypeDescriptor interface allows an object to provide type information about itself.</source>
+          <target state="translated">A ICustomTypeDescriptor felület lehetővé teszi, hogy a típus információ saját magát adja meg egy objektumot.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, this interface is used when an object needs dynamic type information.</source>
+          <target state="translated">Általában ez az interfész akkor objektum dinamikus típusinformációt használatos.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class provides static type information that is obtained from metadata.</source>
+          <target state="translated">Ezzel szemben a &lt;xref:System.ComponentModel.TypeDescriptor&gt;osztály statikus típusú információkat tartalmaz, amelyek a metaadatok egységekre.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, ICustomTypeDescriptor is used in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to provide type information for COM objects.</source>
+          <target state="translated">Például ICustomTypeDescriptor szerepel a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> COM-objektumok típusú információk megadására.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>COM objects do not support properties or attributes.</source>
+          <target state="translated">COM-objektumok nem támogatják a Tulajdonságok vagy attribútumok.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> uses ICustomTypeDescriptor to implement properties and attributes for COM objects.</source>
+          <target state="translated">Ezért a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> ICustomTypeDescriptor használja a tulajdonságok és a COM-objektum attribútumainak megvalósításához.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To provide dynamic custom type information, a class can implement ICustomTypeDescriptor or derive from the &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; class, which provides a simple implementation of this interface.</source>
+          <target state="translated">Dinamikus egyéni típussal kapcsolatos információk megadásához egy osztály ICustomTypeDescriptor megvalósítása vagy származik a &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;osztályt, amely egyszerű valósítja meg az adott illesztő.&lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  There is no design-time support for data binding to objects that implement the ICustomTypeDescriptor interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A ICustomTypeDescriptor felületet megvalósító objektumok az adatkötés nem tervezési idejű támogatása.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, when binding to a runtime instance of ICustomTypeDescriptor, the public properties of the underlying type are ignored.</source>
+          <target state="translated">Ezenkívül kötés ICustomTypeDescriptor futásidejű-példányra, az alapjául szolgáló típus nyilvános tulajdonságait figyelmen kívül hagyja.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a collection of custom attributes for this instance of a component.</source>
+          <target state="translated">Az összetevő példányhoz tartozó egyéni attribútumok gyűjteményének beolvasása.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is never <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A visszatérési értéke soha nem <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementers can return an empty &lt;xref:System.ComponentModel.AttributeCollection&gt; if no custom attributes are specified for an object.</source>
+          <target state="translated">Végrehajtók visszatérhet egy üres &lt;xref:System.ComponentModel.AttributeCollection&gt;Ha nincs egyéni attribútum van megadva az objektum.&lt;/xref:System.ComponentModel.AttributeCollection&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the attributes for this object.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó objektum attribútumai.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns the class name of this instance of a component.</source>
+          <target state="translated">Ez a példány egy összetevő az osztály nevét adja vissza.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the type name from the &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt; method.</source>
+          <target state="translated">Ha <ph id="ph1">`null`</ph> van a típusnév a lett visszaadva, akkor használja a &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;metódus.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The class name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the class does not have a name.</source>
+          <target state="translated">Az osztály az objektum nevét, vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha az osztály nincs neve.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns the name of this instance of a component.</source>
+          <target state="translated">Ez az összetevő a példány nevét adja vissza.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default name.</source>
+          <target state="translated">Ha <ph id="ph1">`null`</ph> van lett visszaadva, akkor használja az alapértelmezett nevet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object does not have a name.</source>
+          <target state="translated">Az objektum neve vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha az objektum nincs neve.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a type converter for this instance of a component.</source>
+          <target state="translated">Az összetevőt ezen példányának olyan típuskonvertert adja vissza.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default &lt;xref:System.ComponentModel.TypeConverter&gt;.</source>
+          <target state="translated">Ha <ph id="ph1">`null`</ph> van lett visszaadva, akkor használja az alapértelmezett &lt;xref:System.ComponentModel.TypeConverter&gt;.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the converter for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for this object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az objektum, a konverter vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> esetén nem <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> ehhez az objektumhoz.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Returns the default event for this instance of a component.</source>
+          <target state="translated">Ez az összetevő a példány alapértelmezett eseménye adja vissza.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default event for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have events.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli az alapértelmezett esemény az objektum, vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha ez az objektum nem rendelkezik az események.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the default property for this instance of a component.</source>
+          <target state="translated">Az alapértelmezett tulajdonság az összetevőt ezen példányának adja vissza.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default property for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli az alapértelmezett tulajdonság az objektum, vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha ez az objektum nem rendelkezik a tulajdonságai.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an editor of the specified type for this instance of a component.</source>
+          <target state="translated">A megadott típusú összetevő ezen példányának szerkesztővé adja vissza.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the <ph id="ph1">`editorBaseType`</ph> parameter is usually &lt;xref:System.Drawing.Design.UITypeEditor&gt;, but you can also use other types (for example, &lt;xref:System.ComponentModel.ComponentEditor&gt; and &lt;xref:System.ComponentModel.InstanceCreationEditor&gt;).</source>
+          <target state="translated">Milyen típusú a <ph id="ph1">`editorBaseType`</ph> paraméter általában &lt;xref:System.Drawing.Design.UITypeEditor&gt;, más tárolótípus is használhatják (például &lt;xref:System.ComponentModel.ComponentEditor&gt;és &lt;xref:System.ComponentModel.InstanceCreationEditor&gt;).&lt;/xref:System.ComponentModel.InstanceCreationEditor&gt; &lt;/xref:System.ComponentModel.ComponentEditor&gt; &lt;/xref:System.Drawing.Design.UITypeEditor&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the editor for this object.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;, amely jelöli, hogy ez az objektum szerkesztője.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; of the specified type that is the editor for this object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the editor cannot be found.</source>
+          <target state="translated">Egy &lt;xref:System.Object&gt;a megadott típus, amely az objektum, a szerkesztő vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha az nem található.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component.</source>
+          <target state="translated">Az események az összetevőt ezen példányának adja vissza.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">Az események az adott példány eltérőek lehetnek az eseményeket, amelyek az osztály tartalmazza a készletből.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">Például ha az összetevő site-alapú, a webhely is hozzáadása vagy eltávolítása a további eseményeket.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementors can return &lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">Implementors visszatérhessen &lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;Ha nincsenek megadva a tulajdonságai.&lt;/xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ez a módszer soha nem kell visszaadnia <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the events for this component instance.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az adott összetevő példány események jelöli.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component using the specified attribute array as a filter.</source>
+          <target state="translated">Ez a példány a megadott attribútum tömb használatával szűrőként összetevő eseményeinek adja vissza.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">Az események az adott példány eltérőek lehetnek az eseményeket, amelyek az osztály tartalmazza a készletből.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">Például ha az összetevő site-alapú, a webhely is hozzáadása vagy eltávolítása a további eseményeket.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the event does not have an instance of the class for that attribute, the returned array includes the event if the &lt;xref:System.Attribute&gt; is the default event.</source>
+          <target state="translated">Ha egy &lt;xref:System.Attribute&gt;van megadva a <ph id="ph1">`attributes`</ph> tömb és az esemény nem rendelkezik az adott attribútum az osztály egy példányát, a visszaadott tömb magában foglalja az esemény, ha a &lt;xref:System.Attribute&gt;az alapértelmezett esemény.&lt;/xref:System.Attribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.Attribute&gt;használt szűrőként.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered events for this component instance.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az adott összetevő példány szűrt események.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component.</source>
+          <target state="translated">Ez a példány egy összetevő tulajdonságait adja vissza.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">Ez a példány tulajdonságainak eltérhet a tulajdonságkészletbe, amely az osztály.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">Például ha az összetevő kell elhelyezni, a webhely is hozzáadása vagy eltávolítása további tulajdonságokat.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementers can return &lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">Végrehajtók visszatérhessen &lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;Ha nincsenek megadva a tulajdonságai.&lt;/xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ez a módszer soha nem kell visszaadnia <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az adott összetevő példány tulajdonságait adja meg.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component using the attribute array as a filter.</source>
+          <target state="translated">Ez a példány használatával a attribútum tömb szűrőként összetevő tulajdonságait adja vissza.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">Ez a példány tulajdonságainak eltérhet a tulajdonságkészletbe, amely az osztály.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">Például ha az összetevő kell elhelyezni, a webhely is hozzáadása vagy eltávolítása további tulajdonságokat.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the property does not have an instance of the class for that attribute, the returned collection will include the property if the &lt;xref:System.Attribute&gt; is the default property.</source>
+          <target state="translated">Ha egy &lt;xref:System.Attribute&gt;van megadva a <ph id="ph1">`attributes`</ph> tömb és a tulajdonság nem rendelkezik az adott attribútum az osztály egy példányát, a visszaadott gyűjtemény tartalmazza a tulajdonságot, ha a &lt;xref:System.Attribute&gt;az alapértelmezett tulajdonság.&lt;/xref:System.Attribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For filtering rules, see &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">Szűrési szabályok, lásd: &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.Attribute&gt;használt szűrőként.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az adott összetevő példány szűrt tulajdonságait adja meg.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns an object that contains the property described by the specified property descriptor.</source>
+          <target state="translated">Objektum beállítása/beolvasása, amely szerint a megadott tulajdonság leíró tulajdonság tartalmazza.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPropertyOwner method retrieves the object that contains the property member that is described by &lt;xref:System.ComponentModel.PropertyDescriptor&gt; parameter.</source>
+          <target state="translated">A GetPropertyOwner metódus lekéri az objektum, amely tartalmazza a property taggal által ismertetett &lt;xref:System.ComponentModel.PropertyDescriptor&gt;paraméter.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, this object is required for the &lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt; and &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt; methods.</source>
+          <target state="translated">Ez az objektum általában szükséges a &lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;és &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt;módszerek.&lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should return an object that you can use as follows:      <ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph>       If <ph id="ph2">`myPd`</ph> is <ph id="ph3">`null`</ph>, your implementation of the &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface should return the default object (typically, the base object that exposes the properties and attributes).</source>
+          <target state="translated">Ez a módszer olyan objektum, amely a következőképpen használhatja kell visszaadnia: <ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph> Ha <ph id="ph2">`myPd`</ph> van <ph id="ph3">`null`</ph>, megvalósítását a &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;felületet az alapértelmezett objektum (általában a objektum, amely elérhetővé teszi a tulajdonságok és attribútumok) kell visszaadnia.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property whose owner is to be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a tulajdonságot, amelynek tulajdonosa található jelöli.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the owner of the specified property.</source>
+          <target state="translated">Egy &lt;xref:System.Object&gt;, amely jelzi, hogy a megadott tulajdonság tulajdonosa.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

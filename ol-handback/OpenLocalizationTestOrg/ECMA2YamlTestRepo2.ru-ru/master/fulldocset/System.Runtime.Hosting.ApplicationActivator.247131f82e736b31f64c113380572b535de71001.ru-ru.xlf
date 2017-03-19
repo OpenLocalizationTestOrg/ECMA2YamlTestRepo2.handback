@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9a36fa407756482063031954b726696caf422d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Hosting.ApplicationActivator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b06fcfa50a0ef605ad4d7e52e540dce0f40db651</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">069ca4d9790d60082baf920e47505746d1b15ce9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base class for the activation of manifest-based assemblies.</source>
+          <target state="translated">Предоставляет базовый класс для активации на основе манифеста сборки.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is a single designated instance of the ApplicationActivator class in each &lt;xref:System.AppDomain&gt; to which all activation calls are routed.</source>
+          <target state="translated">Один экземпляр указанного класса ApplicationActivator в каждом &lt;xref:System.AppDomain&gt;какие активацию все вызовы будут маршрутизированы.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.AppDomainManager&gt; for the current &lt;xref:System.AppDomain&gt; can provide its own custom ApplicationActivator for this purpose.</source>
+          <target state="translated">&lt;xref:System.AppDomainManager&gt;Для текущего &lt;xref:System.AppDomain&gt;может предоставить свои собственные пользовательские ApplicationActivator для этой цели.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.AppDomainManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a custom ApplicationActivator is not provided, an instance of the default ApplicationActivator is created.</source>
+          <target state="translated">Если пользовательские ApplicationActivator не указано, экземпляр по умолчанию создается ApplicationActivator.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps describe the behavior of the default &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method implementation:      1.</source>
+          <target state="translated">Следующие шаги описывают поведение по умолчанию &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;реализации метода: 1.&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Checks if the &lt;xref:System.ActivationContext&gt; of the add-in to be activated matches the &lt;xref:System.ActivationContext&gt; of the current domain; if not, proceeds to step 2.</source>
+          <target state="translated">Проверяет, если &lt;xref:System.ActivationContext&gt;надстройки для активации совпадений &lt;xref:System.ActivationContext&gt;текущего домена; в противном случае переходит к шагу 2.&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, executes the assembly and returns the result wrapped in an object handle.</source>
+          <target state="translated">В противном случае выполняет сборку и возвращает результат, заключенное в дескриптор объекта.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Activates the add-in in a new &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Активирует надстройку в новый &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps are taken to initialize a new &lt;xref:System.AppDomain&gt; using the &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; for the add-in.</source>
+          <target state="translated">Следующие действия выполняются для инициализации нового &lt;xref:System.AppDomain&gt;с помощью &lt;xref:System.Runtime.Hosting.ActivationArguments&gt;для надстройки.&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new &lt;xref:System.AppDomainSetup&gt; object using an &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; object containing the activation context for the add-in.</source>
+          <target state="translated">Создает новый &lt;xref:System.AppDomainSetup&gt;объект, используя &lt;xref:System.Runtime.Hosting.ActivationArguments&gt;объект, содержащий контекст активации для надстройки.&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt; &lt;/xref:System.AppDomainSetup&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calls the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method to create a new domain using the &lt;xref:System.AppDomainSetup&gt; object.</source>
+          <target state="translated">Вызовы &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;метод для создания нового домена с помощью &lt;xref:System.AppDomainSetup&gt;объекта.&lt;/xref:System.AppDomainSetup&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method calls the &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method to acquire an &lt;xref:System.Security.Policy.ApplicationTrust&gt; object for the add-in.</source>
+          <target state="translated">&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;Метод вызывает &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt;метод для получения &lt;xref:System.Security.Policy.ApplicationTrust&gt;объекта надстройки.&lt;/xref:System.Security.Policy.ApplicationTrust&gt; &lt;/xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt; property returns <ph id="ph1">`true`</ph>, the add-in is executed.</source>
+          <target state="translated">Если &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;возвращает <ph id="ph1">`true`</ph>, надстройка выполняется.&lt;/xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not, &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; throws a &lt;xref:System.Security.Policy.PolicyException&gt; indicating that execution permission could not be acquired.</source>
+          <target state="translated">В противном случае &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;вызывает &lt;xref:System.Security.Policy.PolicyException&gt;, указывающее, что разрешение на выполнение не может быть получена.&lt;/xref:System.Security.Policy.PolicyException&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the add-in is trusted to run, then a new &lt;xref:System.AppDomain&gt; is created and configured for the &lt;xref:System.ActivationContext&gt; of the add-in, and the add-in is loaded and executed.</source>
+          <target state="translated">Если надстройка является доверенным для выполнения, а затем новый &lt;xref:System.AppDomain&gt;создается и настраивается для &lt;xref:System.ActivationContext&gt;надстройки, и надстройка загружается и выполняется.&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of the activation of the add-in is returned, wrapped in an object handle.</source>
+          <target state="translated">Возвращается результат активации надстройки, заключенное в дескриптор объекта.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A custom activator can tailor the activation of an add-in to a particular set of circumstances.</source>
+          <target state="translated">Пользовательский активатор может использоваться для активации надстройки уровня приложения для определенного набора обстоятельств.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a custom activator could find an existing &lt;xref:System.AppDomain&gt; to activate this add-in instead of creating a new domain every time.</source>
+          <target state="translated">Например, пользовательский активатор может найти существующий &lt;xref:System.AppDomain&gt;для активации этой надстройки вместо создания нового домена каждый раз.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps describe the behavior of a custom ApplicationActivator that activates an add-in in an existing &lt;xref:System.AppDomain&gt;:      1.</source>
+          <target state="translated">Следующие шаги описывают поведение пользовательской ApplicationActivator, который активирует надстройки в существующем &lt;xref:System.AppDomain&gt;: 1.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The custom activator finds a domain that has the same &lt;xref:System.ActivationContext&gt; as the add-in that is being activated.</source>
+          <target state="translated">Пользовательским активатором выполняется поиск домена с таким же &lt;xref:System.ActivationContext&gt;как надстройка активируется.&lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.ActivationContext&gt; has never been seen before in the process, the custom activator creates a new &lt;xref:System.AppDomain&gt; for this &lt;xref:System.ActivationContext&gt; by calling the &lt;xref:System.AppDomain.CreateDomain%2A&gt; method directly, or delegating this activity to the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; in the base class.</source>
+          <target state="translated">Если &lt;xref:System.ActivationContext&gt;никогда не было выявлено, прежде чем в процессе пользовательского активатора создаст новый &lt;xref:System.AppDomain&gt;для этой &lt;xref:System.ActivationContext&gt;путем вызова &lt;xref:System.AppDomain.CreateDomain%2A&gt;метода напрямую, или делегирование это действие для &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;базового класса.&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; &lt;/xref:System.AppDomain.CreateDomain%2A&gt; &lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an existing domain with the same &lt;xref:System.ActivationContext&gt;, then the activator can delegate the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method call to the ApplicationActivator in the target domain.</source>
+          <target state="translated">При наличии существующего домена с тем же &lt;xref:System.ActivationContext&gt;, а затем можно делегировать активатор &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;вызова метода ApplicationActivator в целевом домене.&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this would be a cross-domain call to an ApplicationActivator that resides in the target &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Обратите внимание, что эта возможность вызова между доменами ApplicationActivator, который находится в целевом &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context.</source>
+          <target state="translated">Создает экземпляр приложения для активации, используя указанный контекст активации.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Этот метод предназначен для активации на основе манифестов приложений.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Определяющий приложение для активации.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Программа-оболочка для возвращаемого значения выполнения приложения.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Возвращаемое значение должно быть оболочки для доступа к реальному объекту.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context  and custom activation data.</source>
+          <target state="translated">Создает экземпляр приложения, которое необходимо активировать, используя заданный контекст активации и пользовательские данные активации.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Этот метод предназначен для активации на основе манифестов приложений.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The activation data consists of information such as the query string portion of a URL.</source>
+          <target state="translated">Данные активации состоят из сведений, таких как часть строки запроса URL-адреса.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Определяющий приложение для активации.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Custom activation data.</source>
+          <target state="translated">Пользовательские данные активации.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Программа-оболочка для возвращаемого значения выполнения приложения.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Возвращаемое значение должно быть оболочки для доступа к реальному объекту.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creates an instance of an application using the specified <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Создает экземпляр приложения с использованием указанного <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Этот метод предназначен для активации на основе манифестов приложений.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object whose &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Которого &lt;xref:System.AppDomainSetup.ActivationArguments*&gt;свойство определяет приложение, чтобы активировать.&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Программа-оболочка для возвращаемого значения выполнения приложения.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Возвращаемое значение должно быть оболочки для доступа к реальному объекту.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The application instance failed to execute because the policy settings on the current application domain do not provide permission for this application to run.</source>
+          <target state="translated">Сбой при выполнении настройки политики в текущем домене приложения не имеют разрешения для этого приложения для запуска экземпляра приложения.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

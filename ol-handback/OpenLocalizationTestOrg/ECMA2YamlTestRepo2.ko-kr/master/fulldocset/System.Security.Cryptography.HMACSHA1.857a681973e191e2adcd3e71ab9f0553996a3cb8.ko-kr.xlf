@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9cbb4b710f26bb7a24ffb0931bd220410b02f08</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACSHA1.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95ac27e1ee8549423483122b5b1d05c2886dcf76</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cdbc8d1cb5b64dee109ed6282f40fb8f40368020</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">해시 기반 계산 HMAC 메시지 인증 코드 ()를 사용 하는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 됩니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACSHA1 is a type of keyed hash algorithm that is constructed from the SHA1 hash function and used as an HMAC, or hash-based message authentication code.</source>
+          <target state="translated">HMACSHA1는 SHA1 해시 함수에서 생성 되며 HMAC, 또는 해시 기반 메시지 인증 코드 사용 된 키 지정된 해시 알고리즘의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC 프로세스는 비밀 키를 메시지 데이터와 혼합, 해시 함수가 그 결과, 비밀 키와 해당 해시 값을 다시, 혼합 및 해시 함수를 두 번 적용 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bits in length.</source>
+          <target state="translated">출력 해시는 160 비트 길이입니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An HMAC can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">HMAC는 발신자와 수신자 공유 비밀 키를 보안 되지 않은 채널을 통해 보낸 메시지가 훼손 되었는지 여부를 확인 데 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and hash value as a single message.</source>
+          <target state="translated">보낸 사람에 게는 원본 데이터에 대 한 해시 값을 계산 하 고 단일 메시지로 원래 데이터와 해시 값을 보냅니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">수신자는 받은 메시지에 대해 해시 값을 다시 계산 하 고 계산된 HMAC 전송 된 HMAC 일치 하는지 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">비밀 키의 지식이 없어도 메시지를 변경 하 고 올바른 해시 값을 다시 만들기 때문에 데이터 나 해시 값을 변경한 경우 불일치가 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">따라서 원래과 계산 된 해시 값이 일치 하는 경우에 메시지가 인증 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SHA-1 (Secure Hash Algorithm, also called SHS, Secure Hash Standard) is a cryptographic hash algorithm published by the United States Government.</source>
+          <target state="translated">S h A-1 (보안 해시 알고리즘 해시 표준 보안 SHS 라고도 함)는는 미국 연방 정부에서 게시는 암호화 해시 알고리즘입니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It produces a 160-bit hash value from an arbitrary length string.</source>
+          <target state="translated">160 비트 해시 값은 임의의 길이의 문자열을 생성합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACSHA1 accepts keys of any size, and produces a hash sequence that is 160 bits in length.</source>
+          <target state="translated">HMACSHA1 모든 크기의 키를 받아서 해시 시퀀스는 길이가 160 비트를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a randomly generated key.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 임의로 생성 된 키를 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACSHA1&gt; is a type of keyed hash algorithm that is constructed from the SHA1 hash function and used as an HMAC, or hash-based message authentication code.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACSHA1&gt;SHA1 해시 함수에서 생성 되며 HMAC, 또는 해시 기반 메시지 인증 코드 사용 된 키 지정된 해시 알고리즘 유형이입니다.&lt;/xref:System.Security.Cryptography.HMACSHA1&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC 프로세스는 비밀 키를 메시지 데이터와 혼합, 해시 함수가 그 결과, 비밀 키와 해당 해시 값을 다시, 혼합 및 해시 함수를 두 번 적용 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bits (20 bytes) in length.</source>
+          <target state="translated">출력 해시는 길이가 160 비트 (20 바이트)입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a 64-byte, randomly generated key.</source>
+          <target state="translated">이 생성자는 64 바이트, 임의로 생성 된 키를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key data.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 키 데이터를 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACSHA1&gt; is a type of keyed hash algorithm that is constructed from the SHA1 hash function and used as an HMAC, or hash-based message authentication code.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACSHA1&gt;SHA1 해시 함수에서 생성 되며 HMAC, 또는 해시 기반 메시지 인증 코드 사용 된 키 지정된 해시 알고리즘 유형이입니다.&lt;/xref:System.Security.Cryptography.HMACSHA1&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC 프로세스는 비밀 키를 메시지 데이터와 혼합, 해시 함수가 그 결과, 비밀 키와 해당 해시 값을 다시, 혼합 및 해시 함수를 두 번 적용 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bits (20 bytes) in length.</source>
+          <target state="translated">출력 해시는 길이가 160 비트 (20 바이트)입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This constructor creates an unmanaged instance of the algorithm by using the &lt;xref:System.Security.Cryptography.SHA1CryptoServiceProvider&gt; class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;이 생성자는 &lt;xref:System.Security.Cryptography.SHA1CryptoServiceProvider&gt;클래스&lt;/xref:System.Security.Cryptography.SHA1CryptoServiceProvider&gt; 를 사용 하 여 알고리즘의 관리 되지 않는 인스턴스를 만듭니다</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">에 대 한 비밀 키 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 암호화 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The key can be any length, but if it is more than 64 bytes long it is hashed (using SHA-1) to derive a 64-byte key.</source>
+          <target state="translated">키 길이 가능 합니다. 하지만 (사용 하 여 s h A-1) 해시 되기 64 바이트를 초과 하는 경우 64 비트 키를 파생 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Therefore, the recommended size of the secret key is 64 bytes.</source>
+          <target state="translated">따라서 비밀 키의 권장된 크기는 64 바이트입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key data and a value that specifies whether to use the managed version of the SHA1 algorithm.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 된 지정 된 키 데이터와 관리 되는 버전의 SHA1 알고리즘을 사용할지 여부를 지정 하는 값입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">에 대 한 비밀 키 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 암호화 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The key can be any length, but if it is more than 64 bytes long, it is hashed (using SHA-1) to derive a 64-byte key.</source>
+          <target state="translated">키 길이 가능 합니다. 하지만 (사용 하 여 s h A-1) 해시 되기 64 바이트를 초과 이면 64 비트 키를 파생 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Therefore, the recommended size of the secret key is 64 bytes.</source>
+          <target state="translated">따라서 비밀 키의 권장된 크기는 64 바이트입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use the managed implementation of the SHA1 algorithm (the <bpt id="p2">&lt;xref href="System.Security.Cryptography.SHA1Managed"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class); <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to use the unmanaged implementation (the <bpt id="p4">&lt;xref href="System.Security.Cryptography.SHA1CryptoServiceProvider"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> class).</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 구현을 SHA1 알고리즘을 사용 하려면 (의 <bpt id="p2">&lt;xref href="System.Security.Cryptography.SHA1Managed"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 클래스). <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 관리 되지 않는 구현을 사용 하도록 (의 <bpt id="p4">&lt;xref href="System.Security.Cryptography.SHA1CryptoServiceProvider"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> 클래스).</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f272b81c23d0027aaacedca4b6ea4db57f73d795</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.SqlTrackingService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08fa1771f97255b14ce758019fad8fbc4edbdb98</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5e3d5d8ce04f60a55a331ce3af68a642171a243</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a tracking service that uses a SQL database to store tracking information.</source>
+          <target state="translated">表示使用 SQL 資料庫來儲存追蹤資訊的追蹤服務。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The SqlTrackingService class represents a fully functional tracking service.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>SqlTrackingService 類別代表功能完整的追蹤服務。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use this service out-of-box to collect and store tracking information, and to store tracking profiles and provide them when requested by the workflow runtime engine.</source>
+          <target state="translated">您可以使用此服務的全新收集並儲存追蹤資訊，以及儲存追蹤設定檔，並提供給他們由工作流程執行階段引擎要求時。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The SQL tracking service writes tracking data sent to it by the runtime tracking infrastructure to a SQL database.</source>
+          <target state="translated">SQL 追蹤服務會寫入追蹤資料傳送給它，執行階段追蹤基礎結構到 SQL 資料庫。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In many scenarios it is important for the SqlTrackingService to maintain consistency between its database and the state of the workflow runtime engine.</source>
+          <target state="translated">在許多案例中很重要的 SqlTrackingService 以維護其資料庫與工作流程執行階段引擎的狀態之間的一致性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">`SqlTrackingChannel`</ph> class makes use of the &lt;xref:System.Workflow.Runtime.IPendingWork&gt; interface to participate in the workflow transaction batching functionality provided by the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.</source>
+          <target state="translated">因此，<ph id="ph1">`SqlTrackingChannel`</ph>類別運用&lt;xref:System.Workflow.Runtime.IPendingWork&gt;介面來參與工作流程交易批次處理功能&lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;所提供&lt;/xref:System.Workflow.Runtime.IPendingWork&gt;的使用</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; or pass the appropriate parameters to the constructor to configure the SqlTrackingService to participate in batching and add objects that represent pending changes to the SQL database to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">您可以設定&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;，或傳遞適當的參數，來設定要參與批次處理，並加入代表暫止的變更至&lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;。&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; SQL 資料庫的物件 SqlTrackingService 建構函式&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The SqlTrackingService also maintains tracking profiles in its database.</source>
+          <target state="translated">SqlTrackingService 也會維護追蹤設定檔，其資料庫中。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine must be kept apprised of changes to any of the tracking profiles that it is using.</source>
+          <target state="translated">工作流程執行階段引擎必須能夠持續得知變更的任何它正在使用的追蹤設定檔。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The SqlTrackingService implements the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface and periodically examines the tracking profiles in its database in order to notify the workflow runtime engine of changes to a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; stored in its database.</source>
+          <target state="translated">實作 SqlTrackingService&lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;介面，並定期檢查其資料庫中的追蹤設定檔，以通知工作流程執行階段引擎的變更&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;儲存其資料庫中。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; or pass the appropriate parameter to the constructor in order to set the interval at which the SqlTrackingService examines its tracking profiles to notify the tracking runtime of any profile changes.</source>
+          <target state="translated">您可以設定&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;或適當的參數傳遞給建構函式，以便設定 SqlTrackingService 會檢查其追蹤設定檔，以通知追蹤執行階段的任何設定檔變更的間隔。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When using both the SqlTrackingService and the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; in a workflow application, it is recommended that you use a single database for both persistence and tracking.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 時使用這兩個 SqlTrackingService 和&lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;在工作流程應用程式，建議您使用單一資料庫進行保存和追蹤。&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified <bpt id="p2">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的類別<bpt id="p2">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This constructor is called by the workflow runtime engine when the workflow runtime engine is initialized from an application configuration file that specifies a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;.</source>
+          <target state="translated">當工作流程執行階段引擎會從應用程式組態檔，指定&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;初始化工作流程執行階段引擎便會呼叫這個建構函式</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also use this constructor to initialize the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; from a host application.</source>
+          <target state="translated">您也可以使用這個建構函式來初始化&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;從主應用程式。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; is initialized according to the key-value pairs that are contained in the &lt;xref:System.Collections.Specialized.NameValueCollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;初始化根據&lt;xref:System.Collections.Specialized.NameValueCollection&gt;.&lt;/xref:System.Collections.Specialized.NameValueCollection&gt;中所包含的索引鍵-值組&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following table enumerates the potential keys, the property which each value initializes, and the type of each property.</source>
+          <target state="translated">下表列舉可能的索引鍵、 每個值初始化的屬性和每個屬性的型別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The value associated with each key should be a string that represents the appropriate type for the property referred to by that key.</source>
+          <target state="translated">每個索引鍵相關聯的值應該是字串，代表該索引鍵所參考之屬性的適當型別。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can specify one or more of these key-value pairs.</source>
+          <target state="translated">您可以指定一或多個這些金鑰-值組。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>|Key|Property Type|Property Description|   |---------|-------------------|--------------------------|   |<ph id="ph1">`"IsTransactional"`</ph><ph id="ph2">|</ph><ph id="ph3">`bool`</ph>|Specifies whether &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; participates in workflow transactions by using the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">|索引鍵 |屬性類型 |屬性描述 |  |---------|-------------------|--------------------------|  |<ph id="ph1">`"IsTransactional"`</ph><ph id="ph2">|</ph><ph id="ph3">`bool`</ph>|指定是否&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;參與工作流程交易使用&lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default is <ph id="ph1">`true`</ph>, specifying that tracking changes are written to the database in a synchronous manner.|   |<ph id="ph2">`"UseDefaultProfile"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|Specifies whether the default tracking profile will be returned if a tracking profile cannot be found for a &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; call.</source>
+          <target state="translated">預設值是<ph id="ph1">`true`</ph>，指定追蹤變更寫入以同步方式資料庫。 |  |<ph id="ph2">`"UseDefaultProfile"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|指定針對找不到追蹤設定檔時，是否會傳回預設的追蹤設定檔&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;呼叫。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default is <ph id="ph1">`true`</ph>, specifying that the default tracking profile will be used.|   |<ph id="ph2">`"ProfileChangeCheckInterval"`</ph><ph id="ph3">|</ph><ph id="ph4">`double`</ph>|Specifies the time in milliseconds at which to examine the database for changes to its tracking profiles.</source>
+          <target state="translated">預設值是<ph id="ph1">`true`</ph>，指定預設追蹤設定檔，將會使用。 |  |<ph id="ph2">`"ProfileChangeCheckInterval"`</ph><ph id="ph3">|</ph><ph id="ph4">`double`</ph>|以毫秒為單位，來檢查資料庫的變更，其追蹤設定檔中指定的時間。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The default is 60000 milliseconds.|   |<ph id="ph1">`"ConnectionString"`</ph><ph id="ph2">|</ph><ph id="ph3">`string`</ph>|Specifies the database connection string.</source>
+          <target state="translated">預設值為 60000 毫秒。 |  |<ph id="ph1">`"ConnectionString"`</ph><ph id="ph2">|</ph><ph id="ph3">`string`</ph>|指定資料庫連接字串。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |<ph id="ph2">`"PartitionOnCompletion"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|Specifies whether tracking data for a workflow instance should be moved to the currently active partition in the database when the workflow instance is completed.|</source>
+          <target state="translated">預設值是 null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中)。 |  |<ph id="ph2">`"PartitionOnCompletion"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|指定是否工作流程執行個體的追蹤資料應移到目前作用中磁碟分割資料庫中完成工作流程執行個體時。 |</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies properties of <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and their initial values.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可指定屬性的<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和其初始值。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph>為 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value associated with a <bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> property key in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">parameters</ph><ept id="p3">&lt;/code&gt;</ept> is not represented by either &lt;xref:System.Boolean.TrueString&gt; or &lt;xref:System.Boolean.FalseString&gt;.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與相關聯的值<bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>屬性索引鍵中的<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">parameters</ph> <ept id="p3">&lt;/code&gt;</ept>不由一個&lt;xref:System.Boolean.TrueString&gt;或&lt;xref:System.Boolean.FalseString&gt;.&lt;/xref:System.Boolean.FalseString&gt; &lt;/xref:System.Boolean.TrueString&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified database connection string.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的資料庫連接字串。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A valid database connection string.</source>
+          <target state="translated">有效的資料庫連接字串。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The database connection string is not valid.</source>
+          <target state="translated">資料庫連接字串無效。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the connection string for the tracking database.</source>
+          <target state="translated">取得追蹤資料庫的連接字串。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The connection string for the tracking database.</source>
+          <target state="translated">追蹤資料庫連接字串。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets and sets a value specifying whether the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will retry when performing a database operation.</source>
+          <target state="translated">取得並設定值，指定是否<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>執行資料庫作業時將重試。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; property is set to <ph id="ph1">`false`</ph> and EnableRetries is set to <ph id="ph2">`true`</ph>, then all transaction retries depend on the value of the EnableRetries property.</source>
+          <target state="translated">如果&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;屬性設定為<ph id="ph1">`false`</ph>和而且 EnableRetries 設<ph id="ph2">`true`</ph>，則所有異動重試將都視而且 EnableRetries 屬性的值。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`true`</ph>, then certain work is batched and retries of those work batch transactions are handled by a derived type of &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, such as &lt;xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt; or &lt;xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt;.</source>
+          <target state="translated">如果&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;設<ph id="ph1">`true`</ph>，然後特定工作進行批次處理，並透過衍生類型的處理那些工作批次交易的重試&lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;，例如&lt;xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt;或&lt;xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Regardless of whether &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`true`</ph>, the following work items cannot be batched and any transaction retries must be handled through the EnableRetries property.</source>
+          <target state="translated">無論&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;設<ph id="ph1">`true`</ph>，下列工作項目無法批次處理，而且必須透過而且 EnableRetries 屬性處理任何異動重試。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-   Polling for tracking profile changes.</source>
+          <target state="translated">輪詢追蹤設定檔變更。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-   All writes to a SQL Server database when &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-SQL Server 所有寫入都資料庫時&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;設<ph id="ph1">`false`</ph>。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Besides being set programmatically, this functionality can be enabled through a configuration file.</source>
+          <target state="translated">除了以程式設計方式設定，可以透過組態檔啟用這項功能。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about how to set this property through a configuration file, see <bpt id="p1">[</bpt>Workflow Configuration Files<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>.</source>
+          <target state="translated">如需如何透過組態檔設定這個屬性的詳細資訊，請參閱<bpt id="p1">[</bpt>工作流程組態檔<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For general information about retrying work batch transactions, see <bpt id="p1">[</bpt>Batching State Information in Workflows<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>.</source>
+          <target state="translated">如需重試工作批次異動的一般資訊，請參閱<bpt id="p1">[</bpt>批次中的工作流程的狀態資訊<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should retry the operation; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>應該重試此作業，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> participates in workflow transactions.</source>
+          <target state="translated">取得或設定值，指出是否<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參與工作流程交易。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Ordinarily tracking data is written to the database synchronously, that is, the data is written as soon as it is received on the Tracking Channel.</source>
+          <target state="translated">通常追蹤資料寫入至資料庫以同步方式，也就是，一旦收到追蹤通道上會寫入資料。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If IsTransactional is <ph id="ph1">`true`</ph>, &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; participates in the workflow transaction.</source>
+          <target state="translated">如果是 istransactional 來<ph id="ph1">`true`</ph>，&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;參與工作流程交易。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>That is, it follows the semantics defined by &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; and adds any changes to its database as work items to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">也就是說，它會依照定義&lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;，並將其資料庫，為工作項目至&lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;。&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;的任何變更&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;的語意</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The service commits these changes when instructed to by the workflow runtime engine.</source>
+          <target state="translated">服務會認可這些變更工作流程執行階段引擎指示時。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> participates in the workflow transaction; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>參與工作流程異動; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether tracking data for a workflow instance should be moved to the currently active partition in the database when the workflow instance is completed.</source>
+          <target state="translated">取得或設定值，指定是否工作流程執行個體的追蹤資料應移到目前作用中磁碟分割資料庫中完成工作流程執行個體。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; allows you to partition the database in order to provide an efficient method for archiving and deleting tracking records.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;可讓您分割資料庫，以提供有效率的方法，以利封存和刪除追蹤記錄。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If your database experiences long periods between down times or your database has no planned downtime, you can set PartitionOnCompletion to move tracking records associated with a workflow instance from the active instance tables to the currently active partition when the workflow instance completes.</source>
+          <target state="translated">如果您的資料庫發生長時間之間，停機時間或您的資料庫沒有任何規劃停機時間，您可以設定 PartitionOnCompletion 移動關聯的追蹤記錄工作流程執行個體從作用中執行個體資料表使用的磁碟分割與工作流程執行個體完成時。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This allows you to archive or delete these records without having to lock the data in the active instance tables of the database.</source>
+          <target state="translated">這可讓您封存或刪除這些記錄，而不必鎖定資料庫的作用中執行個體資料表中的資料。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information about partitioning, see <bpt id="p1">[</bpt>Data Maintenance with SqlTrackingService<ept id="p1">](http://msdn.microsoft.com/en-us/a62d5719-d6cd-4871-a3ab-56ea629d4e00)</ept>.</source>
+          <target state="translated">如需有關資料分割的詳細資訊，請參閱<bpt id="p1">[</bpt>資料維護與 SqlTrackingService<ept id="p1">](http://msdn.microsoft.com/en-us/a62d5719-d6cd-4871-a3ab-56ea629d4e00)</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if tracking data should be moved to the currently active partition on workflow completion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果追蹤資料應移到目前作用中的資料分割，在工作流程完成。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies the interval at which the database should be checked for changes to one or more of its tracking profiles.</source>
+          <target state="translated">取得或設定值，這個值，指定資料庫應檢查的間隔，變更一個或多個其追蹤設定檔。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines the database to determine whether one or more of its tracking profiles have been changed or have been deleted.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;定期檢查資料庫，以判斷是否至少有一個其追蹤設定檔已變更或已刪除。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; determines that a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been deleted it raises an &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; event; when it determines that a profile has been changed it raises a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; event.</source>
+          <target state="translated">當&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;判斷&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;已被刪除，則會引發&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;事件; 當判定設定檔已變更，會引發&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;事件。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The runtime tracking infrastructure subscribes to both of these events and updates its tracking profile cache appropriately when they occur.</source>
+          <target state="translated">執行階段追蹤基礎結構會訂閱這兩個，這些事件和更新其追蹤設定檔快取適當地發生時。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also subscribe to either or both of these events if you want to be notified of changes to a tracking profile.</source>
+          <target state="translated">如果您想要的追蹤設定檔的變更通知，您也可以訂閱到一個或兩個事件。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can set ProfileChangeCheckInterval to specify the frequency with which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; should test for such changes.</source>
+          <target state="translated">您可以設定與指定的頻率 ProfileChangeCheckInterval&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;應該針對這類變更測試。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When you specify a new value for ProfileChangeCheckInterval, the timer interval is immediately set to this new value.</source>
+          <target state="translated">當您指定新值 ProfileChangeCheckInterval 的時，計時器間隔會立刻設定為這個新值。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The interval length in milliseconds.</source>
+          <target state="translated">時間間隔長度以毫秒為單位。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is 60000.</source>
+          <target state="translated">預設值為 60000。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> detects that a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been deleted.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>偵測到<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已被刪除。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines its database to determine whether one or more of its tracking profiles have been deleted.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;定期檢查其資料庫，以判斷是否已刪除一或多個其追蹤設定檔。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If it detects that a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been deleted, it raises the ProfileRemoved event and puts the workflow &lt;xref:System.Type&gt; in the &lt;xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt;.</source>
+          <target state="translated">如果它偵測到&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;已被刪除，會引發 ProfileRemoved 事件，並將工作流程&lt;xref:System.Type&gt;在&lt;xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The runtime tracking infrastructure uses this event to update its profile cache.</source>
+          <target state="translated">執行階段追蹤基礎結構會使用此事件更新其設定檔快取。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; to specify the frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; examines its database.</source>
+          <target state="translated">您可以設定&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;指定的頻率&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;檢查它的資料庫。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> detects that a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been changed.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>偵測到<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已變更。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines its database to determine whether one or more of its tracking profiles have been changed.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;定期檢查其資料庫，以判斷是否已變更一個或多個其追蹤設定檔。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If it detects such a change in a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, it raises the ProfileUpdated event with the tracking profile encapsulated in a &lt;xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt;.</source>
+          <target state="translated">如果偵測到這類變更&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;，便會產生 ProfileUpdated 事件與封裝在&lt;xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt;追蹤設定檔&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The runtime tracking infrastructure uses this event to update its profile cache.</source>
+          <target state="translated">執行階段追蹤基礎結構會使用此事件更新其設定檔快取。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; to specify the frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; examines its database.</source>
+          <target state="translated">您可以設定&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;指定的頻率&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;檢查它的資料庫。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value specifying whether a default <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> should be used for workflow types that do not have a tracking profile.</source>
+          <target state="translated">取得或設定值，指定是否預設<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>適用於沒有追蹤設定檔的工作流程類型。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If UseDefaultProfile is <ph id="ph1">`true`</ph>, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; will return a default &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; whenever the workflow runtime engine tries to get a tracking profile for a workflow &lt;xref:System.Type&gt; for which the tracking service has no associated &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">如果 UseDefaultProfile <ph id="ph1">`true`</ph>，&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;將會傳回預設&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;每當工作流程執行階段引擎嘗試取得工作流程，&lt;xref:System.Type&gt;具有沒有相關聯的&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;之追蹤服務&lt;/xref:System.Type&gt;的追蹤設定檔&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The out-of-box default tracking profile matches all activity events, user events, and workflow events emitted by a workflow instance.</source>
+          <target state="translated">鶈蜪預設追蹤設定檔符合所有活動事件、 使用者事件和工作流程由工作流程執行個體發出的事件。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can change the default tracking profile by using the <ph id="ph1">`UpdateDefaultProfile`</ph> stored procedure.</source>
+          <target state="translated">您可以變更預設的追蹤設定檔使用<ph id="ph1">`UpdateDefaultProfile`</ph>預存程序。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`UpdateDefaultProfile`</ph> stored procedure will change the default tracking profile.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;<ph id="ph2">`UpdateDefaultProfile`</ph>預存程序將變更預設的追蹤設定檔。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This new default profile will be returned when the workflow runtime engine requests a profile for a workflow type for which the tracking service has no associated tracking profile.</source>
+          <target state="translated">當工作流程執行階段引擎要求的追蹤服務會有任何相關聯的追蹤設定檔的工作流程類型的設定檔時，將會傳回此新的預設設定檔。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Workflow types that were previously associated with the old default profile will still be associated with that profile even after <ph id="ph1">`UpdateDefaultProfile`</ph> is called; you must explicitly call the <ph id="ph2">`UpdateTrackingProfile`</ph> stored procedure on any of these workflow types that you want to associate with the new default profile.</source>
+          <target state="translated">先前使用舊的預設設定檔關聯的工作流程類型仍會與該設定檔相關聯後還是<ph id="ph1">`UpdateDefaultProfile`</ph>呼叫; 您必須明確呼叫<ph id="ph2">`UpdateTrackingProfile`</ph>預存程序，在任何一種您想要與新的預設設定檔關聯的工作流程類型上。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>While UseDefaultProfile is true, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; will return the default tracking profile to the workflow runtime engine for any workflow type for which it doesn't have a tracking profile associated in its database.</source>
+          <target state="translated">UseDefaultProfile 時為 true，&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;會傳回預設的追蹤設定檔至工作流程執行階段引擎，其沒有追蹤設定檔，其資料庫中相關聯的工作流程型別。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you later set UseDefaultProfile to false, the default profile will still be associated with these workflow types in the database.</source>
+          <target state="translated">如果您稍後 UseDefaultProfile 設為 false，仍然會在資料庫中的這些工作流程類型相關聯的預設設定檔。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can call the <ph id="ph1">`DeleteTrackingProfile`</ph> stored procedure on a workflow type to no longer associate a tracking profile with that type, or you can call the <ph id="ph2">`UpdateTrackingProfile`</ph> stored procedure on a workflow type to change the tracking profile associated with that type.</source>
+          <target state="translated">您可以呼叫<ph id="ph1">`DeleteTrackingProfile`</ph>使不會再追蹤設定檔與該型別，或您的工作流程類型上的預存程序可以呼叫<ph id="ph2">`UpdateTrackingProfile`</ph>預存程序來變更該類型相關聯的追蹤設定檔的工作流程類型上。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The workflow runtime engine caches its tracking profiles.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 工作流程執行階段引擎會快取其追蹤設定檔。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Therefore, it must receive a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; event for any workflow type for which it already has a tracking profile associated in its cache before it will stop using its cached profile for new instances of that workflow type.</source>
+          <target state="translated">因此，它必須接收&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;它已經有追蹤設定檔才會停止該工作流程類型的新執行個體使用其快取的設定檔，其快取中相關聯的工作流程型別事件。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Likewise, the workflow runtime engine must receive a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; event for such workflow types before it will load a new tracking profile into its cache to associate with new instances of the workflow type.</source>
+          <target state="translated">同樣地，工作流程執行階段引擎必須收到&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;之前它會將新的追蹤設定檔載入其快取與工作流程類型的新執行個體這類工作流程類型的事件。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; raises the appropriate events for applicable workflow types when it examines the database for changes to its tracking profiles.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;引發適用的工作流程類型的適當事件時，它會檢查資料庫的變更，其追蹤設定檔。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; performs this operation is set by &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;.</source>
+          <target state="translated">頻率&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;執行此作業由&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;設定&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Therefore, whenever you call the <ph id="ph1">`UpdateTrackingProfile`</ph> or <ph id="ph2">`DeleteTrackingProfile`</ph> stored procedures there may be a delay of up to the period specified by &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; before the workflow runtime engine will reflect your changes in its profile cache.</source>
+          <target state="translated">因此，每當您呼叫<ph id="ph1">`UpdateTrackingProfile`</ph>或<ph id="ph2">`DeleteTrackingProfile`</ph>預存程序可能會延遲到所指定的期間有&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;之前工作流程執行階段引擎會反映您的變更，其設定檔快取中。&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  For more information about tracking profiles, see <bpt id="p1">[</bpt>Creating and Using Tracking Profiles<ept id="p1">](http://msdn.microsoft.com/en-us/f018ad09-d20f-4626-9792-31d9f278d0b0)</ept>.</source>
+          <target state="translated">&gt;&gt; 如需追蹤設定檔的詳細資訊，請參閱<bpt id="p1">[</bpt>建立和使用追蹤設定檔<ept id="p1">](http://msdn.microsoft.com/en-us/f018ad09-d20f-4626-9792-31d9f278d0b0)</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a default tracking profile should be used; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果應該使用預設的追蹤設定檔。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

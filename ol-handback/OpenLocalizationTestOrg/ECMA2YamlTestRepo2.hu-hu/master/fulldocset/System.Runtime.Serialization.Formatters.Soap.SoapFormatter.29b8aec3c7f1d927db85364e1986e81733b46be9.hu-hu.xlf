@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">679072ddcef579e8e85e52f5a0e1b84c9e61eb26</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.Formatters.Soap.SoapFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a37769e550d5fe18c8c54946c3f06cb74e744f6c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e21a9d35323525f7266853a6a9a498b6a3542897</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes and deserializes an object, or an entire graph of connected objects, in SOAP format.</source>
+          <target state="translated">Rendezi sorba, és deserializes egy objektumot, vagy egy teljes diagramot csatlakoztatott objektum – a SOAP-formátum.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  Beginning with the .NET Framework 2.0, this class is obsolete.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt;-Tól kezdődően a .NET-keretrendszer 2.0, ez az osztály már elavult.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt; instead.</source>
+          <target state="translated">Használjon &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;helyette.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapFormatter and &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt; classes implement the &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; interface to support remote procedure calls (RPCs), and the &lt;xref:System.Runtime.Serialization.IFormatter&gt; interface (inherited by the &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;) to support serialization of a graph of objects.</source>
+          <target state="translated">A SoapFormatter és &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;osztályok megvalósítása a &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;felülettel támogatva távoli eljáráshívásokat (RPC), és a &lt;xref:System.Runtime.Serialization.IFormatter&gt;felületet (örökli a &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;) támogatásához az objektumok egy grafikonon szerializálását.&lt;/xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; &lt;/xref:System.Runtime.Serialization.IFormatter&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; &lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapFormatter class also supports RPCs with &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; objects, without using the &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; functionality.</source>
+          <target state="translated">A SoapFormatter osztály is támogatja a távoli eljáráshívások &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;objektumok használata nélkül a &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;funkció.&lt;/xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; &lt;/xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During RPCs, the &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; interface allows the specification of two separate object graphs: the graph of objects to serialize, and an additional graph that contains an array of header objects that convey information about the remote function call (for example, transaction ID or a method signature).</source>
+          <target state="translated">Távoli eljáráshívások, során a &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;felület lehetővé teszi, hogy a két külön objektumgrafikonok megadását: a diagram objektum szerializálása, és egy további, hogy a távoli függvény hívásához szükséges (például Tranzakcióazonosító vagy a metódus-aláírás) kapcsolatos információk fejléc objektumokból álló tömb tartalmazó gráf.&lt;/xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For proper serialization, the root object of the first graph must be an object that implements either the &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt; interface or the &lt;xref:System.Runtime.Remoting.Messaging.IMethodReturnMessage&gt; interface.</source>
+          <target state="translated">Megfelelő szerializálásra első gráf legfelső szintű objektumnak kell lennie egy objektum, amely vagy megvalósítja az &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;felület vagy a &lt;xref:System.Runtime.Remoting.Messaging.IMethodReturnMessage&gt;felületet.&lt;/xref:System.Runtime.Remoting.Messaging.IMethodReturnMessage&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During deserialization of an RPC, a &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt; delegate is specified to the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize%2A&gt; method of the formatter.</source>
+          <target state="translated">Egy RPC deszerializálása során egy &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;delegált van megadva a &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize%2A&gt;formázó metódusában.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize%2A&gt; &lt;/xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The remoting infrastructure uses the &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt; delegate to produce an object that supports the &lt;xref:System.Runtime.Serialization.ISerializable&gt; interface.</source>
+          <target state="translated">A távoli eljáráshívási infrastruktúrában használja a &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;delegált létrehozásához egy objektumot, amely támogatja a &lt;xref:System.Runtime.Serialization.ISerializable&gt;felületet.&lt;/xref:System.Runtime.Serialization.ISerializable&gt; &lt;/xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object contains the information stored in the headers, and becomes the root of the graph returned by the deserializer.</source>
+          <target state="translated">Ez az objektum a fejlécek tárolt információkat tartalmaz, és a legfelső szintű a deszerializáló által visszaadott gráf kerül.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapFormatter can also handle RPCs that are produced with objects that implement the &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; interface.</source>
+          <target state="translated">A SoapFormatter is, amelyek megvalósítják az objektumok előállítása távoli eljáráshívások kezelni tud a &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;felületet.&lt;/xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an RPC without using the &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt; functionality, place an object that supports the &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; interface at the root of a graph being serialized.</source>
+          <target state="translated">A távoli Eljáráshívás létrehozása nélkül a &lt;xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;funkciót, az objektumra, amely támogatja a hely a &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;felület egy grafikonon éppen szerializált gyökerében.&lt;/xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IRemotingFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To deserialize an RPC created in this manner the &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt; property must be set to another object that supports the &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; interface, and contains the relevant remote call information.</source>
+          <target state="translated">Az ilyen módon létrehozott távoli Eljáráshívás deszerializálni a &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt;tulajdonságot kell beállítani egy másik objektum, amely támogatja a &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt;illesztőfelület, és a távoli hívás releváns információkat tartalmaz.&lt;/xref:System.Runtime.Serialization.Formatters.ISoapMessage&gt; &lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TimeSpan Serialization    TimeSpan objects are serialized according to the ISO 8601: 1998 section 5.5.3.2.1 "Alternative" standard.</source>
+          <target state="translated">A TimeSpan szerializálási TimeSpan-objektumok szerializálva vannak az ISO 8601:1998 szakasz 5.5.3.2.1 "Alternatív" szabvány szerint.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    The SoapFormatter does not support serialization compatibility between versions of the .NET Framework.</source>
+          <target state="translated">Információkat a SoapFormatter verzió nem támogatja a szerializálási kompatibilitási a .NET-keretrendszer verziója közötti.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serialization between versions 1.1 and 2.0 types in the Framework often fails.</source>
+          <target state="translated">Gyakran a keretrendszer 1.1-es és 2.0 típusú közötti szerializálás sikertelen lesz.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following actions can be taken to remedy this issue:      -   Convert to use the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;, which provides compatibility between 1.1 and 2.0.</source>
+          <target state="translated">A következő műveletek használható-e a probléma orvoslása érdekében:-használandó Convert a &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;, amely 1.1-es és 2.0 közötti kompatibilitást biztosít.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Convert existing persisted data to the new format.</source>
+          <target state="translated">-A meglévő tárolt adatokat átalakítani az új formátumra.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Convert all producers and consumers of serialized data to version 2.0.</source>
+          <target state="translated">-Átalakítása összes létrehozói és felhasználói szerializált adatok 2.0-s verziójában.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid using types that changed from 1.1 to 2.0.</source>
+          <target state="translated">-Elkerülése érdekében, hogy az 1.1-es 2.0 típus használatával.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default property values.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály tulajdonság alapértelmezett értékekkel.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt;.</source>
+          <target state="translated">Az alábbi táblázat a kezdeti tulajdonságértékek &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt;.&lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt; példánya</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.SurrogateSelector%2A&gt;|<ph id="ph1">`null`</ph>|   |&lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context%2A&gt;|A new &lt;xref:System.Runtime.Serialization.StreamingContext&gt; initialized to specify that the serialized data can be transmitted to or received from any of the other contexts|</source>
+          <target state="translated">| Tulajdonság |} Érték |}   |--------------|-----------|   | &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.SurrogateSelector%2A&gt;| <ph id="ph1">`null`</ph>|   | &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context%2A&gt;| Egy új &lt;xref:System.Runtime.Serialization.StreamingContext&gt;határozza meg, hogy az a szerializált adatok továbbítani vagy bármely más környezetek kapott inicializálva |}&lt;/xref:System.Runtime.Serialization.StreamingContext&gt; &lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context%2A&gt; &lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.SurrogateSelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Runtime.Serialization.StreamingContext&gt;.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a megadott osztály <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és &lt;xref:System.Runtime.Serialization.StreamingContext&gt;.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects are serialized to, or deserialized from, the specified &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Objektumok szerializálható vagy helyről a megadott &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt; deszerializálni</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization or deserialization process uses the specified &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt; to search for surrogates that are registered for the object types you want to deserialize.</source>
+          <target state="translated">A szerializálás vagy deszerializálás folyamat használja a megadott &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt;keresni az az objektumtípus regisztrált helyettesek kívánja deszerializálni.&lt;/xref:System.Runtime.Serialization.ISurrogateSelector&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Surrogates are helpers that serialize and deserialize objects of specific classes.</source>
+          <target state="translated">Helyettesek olyan segítők, szerializálása és deszerializálása adott osztályok objektumainak.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt; cannot handle the serialization of objects that derive from the &lt;xref:System.MarshalByRefObject&gt; for remoting purposes.</source>
+          <target state="translated">Az alapértelmezett &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt;a szerializálási objektumok, amelyek a nem tudja kezelni a &lt;xref:System.MarshalByRefObject&gt;távoli eljáráshívás célokra.&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.Runtime.Serialization.ISurrogateSelector&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a remoting situation the specified &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt; replaces the object derived from &lt;xref:System.MarshalByRefObject&gt; with a &lt;xref:System.Runtime.Remoting.ObjRef&gt; object that is serialized by the specified surrogate selector.</source>
+          <target state="translated">A megadott távoli eljáráshívási helyzetben &lt;xref:System.Runtime.Serialization.ISurrogateSelector&gt;a felváltja az objektum származó &lt;xref:System.MarshalByRefObject&gt;rendelkező egy &lt;xref:System.Runtime.Remoting.ObjRef&gt;objektum, amely szerint a megadott helyettesítő választó szerializált.&lt;/xref:System.Runtime.Remoting.ObjRef&gt; &lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.Runtime.Serialization.ISurrogateSelector&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you want to use remote objects, set the <ph id="ph1">`selector`</ph> parameter to an instance of &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.</source>
+          <target state="translated">Ezért, ha a távoli objektumok használni kívánt, állítsa be a <ph id="ph1">`selector`</ph> paraméter &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt; -példányra</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not need surrogates, set the <ph id="ph1">`selector`</ph> parameter to be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Ha helyettesek nem szükséges, állítsa be a <ph id="ph1">`selector`</ph> paramétert <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use with the new instance of <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> új példányát használandó <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; that holds the source and destination of the serialization.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.StreamingContext&gt;, amely tartalmazza a forrás- és a szerializálásnak.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`context`</ph> parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then the &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context*&gt; defaults to <bpt id="p2">&lt;xref href="System.Runtime.Serialization.StreamingContextStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha a <ph id="ph1">`context`</ph> paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, akkor a &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context*&gt;alapértelmezés szerint az <bpt id="p2">&lt;xref href="System.Runtime.Serialization.StreamingContextStates"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.Context*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets the behavior of the deserializer with regards to finding and loading assemblies.</source>
+          <target state="translated">Lekérdezi vagy beállítja a deszerializáló jelenítik keresése és szerelvények betöltése viselkedését.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the deserializer behavior.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza, deszerializáló értékeket.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that controls the binding of a serialized object to a type.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza, hogy a kötés egy szerializált objektum.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used with this <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used with this <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Runtime.Serialization.StreamingContext&gt; used with this <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi vagy beállítja a &lt;xref:System.Runtime.Serialization.StreamingContext&gt;ennek használt <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; provides an enumeration that describes the source and the destination for a given serialized stream, as well as a way for serialization to retain that context and an additional caller-defined context.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.StreamingContext&gt;biztosít, amely leírja a forrás- és egy adott szerializált adatfolyam célját, valamint a környezetben, és egy további, a hívó által megadott környezetben a megőrizni kívánt szerializálás úgy felsorolásoknak.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; used with this <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.StreamingContext&gt;ennek használt <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Deserializes the data on the provided stream and reconstitutes the graph of objects.</source>
+          <target state="translated">A megadott adatfolyam lévő adatok deserializes, és a graph-objektumok reconstitutes.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For successful deserialization, the current position in the stream must be at the beginning of the object graph.</source>
+          <target state="translated">Sikeres deszerializáláshoz az aktuális pozíciót az adatfolyamban az objektumgráf elején kell lennie.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Biztonsági kockázatot jelent a nem megbízható adatokkal metódus hívása.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Ez a metódus csak a megbízható meghívható.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>nem megbízható adatok biztonsági kockázatok<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The stream that contains the data to deserialize.</source>
+          <target state="translated">Az adatfolyam, amely tartalmazza az adatok deszerializálása.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The top object of the deserialized graph (root).</source>
+          <target state="translated">A legfelső szintű objektum deszerializált gráf (root).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Deserializes the stream into an object graph with any headers in that stream being handled by the given <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.HeaderHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az adatfolyam deserializes a kezeli az adott adatfolyam minden fejlécek objektumdiagram be a megadott <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.HeaderHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Headers are used only for specific remoting applications.</source>
+          <target state="translated">Fejlécek csak az adott távoli eljáráshívási alkalmazások használják.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt; parameter is one of two ways to return headers from a stream in SOAP Remote Procedure Call (RPC) format.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;paraméter kétféleképpen fejlécek vissza a folyam SOAP távoli eljáráshívás (RPC) formátumban.&lt;/xref:System.Runtime.Remoting.Messaging.HeaderHandler&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The other way is to use the &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt; property.</source>
+          <target state="translated">A más módon, hogy használja a &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt;tulajdonság.&lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For successful deserialization, the current position in the stream must be at the beginning of the object graph.</source>
+          <target state="translated">Sikeres deszerializáláshoz az aktuális pozíciót az adatfolyamban az objektumgráf elején kell lennie.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TimeSpan Serialization    TimeSpan objects are serialized according to the ISO 8601: 1998 section 5.5.3.2.1 "Alternative" standard.</source>
+          <target state="translated">A TimeSpan szerializálási TimeSpan-objektumok szerializálva vannak az ISO 8601:1998 szakasz 5.5.3.2.1 "Alternatív" szabvány szerint.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Biztonsági kockázatot jelent a nem megbízható adatokkal metódus hívása.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Ez a metódus csak a megbízható meghívható.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>nem megbízható adatok biztonsági kockázatok<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The stream that contains the data to deserialize.</source>
+          <target state="translated">Az adatfolyam, amely tartalmazza az adatok deszerializálása.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Delegate to handle any headers found on the stream.</source>
+          <target state="translated">Delegált megtalálható-e az adatfolyam fejléc kezelésére.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The top object of the deserialized graph (root).</source>
+          <target state="translated">A legfelső szintű objektum deszerializált gráf (root).</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph> supports seeking, and its length is 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph>támogatja a keresést, és annak értéke 0.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.TypeFilterLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of automatic deserialization for .NET Framework remoting.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.TypeFilterLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , a .NET-keretrendszer távelérése automatikus deszerializálása.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supported values are &lt;xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt; and &lt;xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt; (the default).</source>
+          <target state="translated">Támogatott értékek a következők &lt;xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt;és &lt;xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt;(alapértelmezett).&lt;/xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt; &lt;/xref:System.Runtime.Serialization.Formatters.TypeFilterLevel&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details about deserialization levels, see <bpt id="p1">[</bpt>Automatic Deserialization in .NET Remoting<ept id="p1">](http://msdn.microsoft.com/en-us/313a0e88-5b2b-4a17-8391-0ddf9f7a787b)</ept>.</source>
+          <target state="translated">Deszerializálási szintekkel kapcsolatos részletekért lásd: <bpt id="p1">[</bpt>a távoli .NET automatikus deszerializálása<ept id="p1">](http://msdn.microsoft.com/en-us/313a0e88-5b2b-4a17-8391-0ddf9f7a787b)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.TypeFilterLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current automatic deserialization level.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.TypeFilterLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az aktuális automatikus deszerializálása szintjét jelöli.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Serializes an object or graph of objects with the specified root to the given &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Rendezi sorba az objektum vagy az adott &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt; megadott gyökérrel rendelkező objektumok számának függvényében ábrázoló grafikon</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TimeSpan objects are serialized according to the ISO 8601: 1998 section 5.5.3.2.1 "Alternative" standard.</source>
+          <target state="translated">A TimeSpan-objektumok szerializálva vannak az ISO 8601:1998 szakasz 5.5.3.2.1 "Alternatív" szabvány szerint.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The stream onto which the formatter puts the data to serialize.</source>
+          <target state="translated">Az adatfolyam, amelyre a formázó helyezi szerializálni az adatokat.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The object, or root of the object graph, to serialize.</source>
+          <target state="translated">Az objektum, vagy a diagramot, szerializálni gyökérmappájában.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>All child objects of this root object are automatically serialized.</source>
+          <target state="translated">A legfelső szintű objektum az összes gyermekobjektum automatikusan szerializálva vannak.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Serializes an object or graph of objects with the specified root to the given &lt;xref:System.IO.Stream&gt; in the SOAP Remote Procedure Call (RPC) format.</source>
+          <target state="translated">Egy objektum vagy a megadott gyökérrel rendelkező objektumok számának függvényében ábrázoló grafikon rendezi sorba az adott &lt;xref:System.IO.Stream&gt;SOAP távoli eljáráshívás (RPC) formátumban.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Headers are used only for specific remoting applications.</source>
+          <target state="translated">Fejlécek csak az adott távoli eljáráshívási alkalmazások használják.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TimeSpan objects are serialized according to the ISO 8601: 1998 section 5.5.3.2.1 "Alternative" standard.</source>
+          <target state="translated">A TimeSpan-objektumok szerializálva vannak az ISO 8601:1998 szakasz 5.5.3.2.1 "Alternatív" szabvány szerint.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The stream onto which the formatter puts the data to serialize.</source>
+          <target state="translated">Az adatfolyam, amelyre a formázó helyezi szerializálni az adatokat.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The object or root of the object graph to serialize.</source>
+          <target state="translated">Az objektum vagy szerializálni diagramot gyökérmappájában.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>All child objects of this root object are automatically serialized.</source>
+          <target state="translated">A legfelső szintű objektum az összes gyermekobjektum automatikusan szerializálva vannak.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Remoting headers to include in the serialization.</source>
+          <target state="translated">Távoli eljáráshívás fejlécek ahhoz, hogy a szerializálás szerepeljen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializationStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that controls type substitution during serialization and deserialization.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SurrogateSelector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , hogy a vezérlők írja be a helyettesítés szerializálása és deszerializálása során.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used by &lt;xref:System.Runtime.Remoting&gt; to generate &lt;xref:System.Runtime.Remoting.ObjRef&gt; instances for &lt;xref:System.MarshalByRefObject&gt; objects.</source>
+          <target state="translated">Által használt &lt;xref:System.Runtime.Remoting&gt;létrehozásához &lt;xref:System.Runtime.Remoting.ObjRef&gt;példányának &lt;xref:System.MarshalByRefObject&gt;objektumok.&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.Runtime.Remoting.ObjRef&gt; &lt;/xref:System.Runtime.Remoting&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used with this <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used with this <bpt id="p2">&lt;xref href="System.Runtime.Serialization.Formatters.Soap.SoapFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.ISoapMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the SOAP top object is deserialized.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.ISoapMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azokat a legfelső szintű SOAP-objektum deszerializálása.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used for SOAP remote procedure call (RPC) format and specifies that the SOAP top record is a method called remotely, not a common language runtime object type.</source>
+          <target state="translated">Ez a tulajdonság SOAP távoli eljáráshívási (RPC) formátumot használja, és megadja, hogy a felső SOAP-rekord nevű távolról, nem a közös nyelvi futtatókörnyezet objektumtípus metódust.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.ISoapMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the SOAP top object is deserialized.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.ISoapMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azokat a legfelső szintű SOAP-objektum deszerializálása.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets the format in which type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">Lekérdezi vagy beállítja azt a formátumot, amelyben a típusdefiníciók elrendezésének a szerializált adatfolyamban.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The format in which type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">A formátum, amelyekben leírásokat elrendezésének a szerializált adatfolyamban.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
