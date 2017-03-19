@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cece4817c2925a8a87034bbfdde9940c1647e8aa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.Eventing.EventProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">271ebe424613c9a018a734e6c80709a41089b8f2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6470fe74d37cea8bdae6ac50e6349ae52c5d584e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use this class to write events.</source>
+          <target state="translated">Utilize esta classe para escrever eventos no registo.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To consume events written using the &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt; and &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt; methods, the events must be defined in a manifest; events written using the &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt; method do not require a manifest.</source>
+          <target state="translated">Para consumir eventos escritos utilizando o &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt;e &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt;métodos, os eventos tem de ser definidos num manifesto; eventos escritos utilizando o &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt;método não necessitam de um manifesto.&lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt; &lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt; &lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Events can contain the following managed data types:      -   bool      -   Boolean      -   byte      -   char      -   decimal      -   double      -   float      -   Guid      -   int      -   IntPtr      -   long      -   sbyte      -   short      -   string      -   uint      -   UInt64       If an event in your manifest uses the <ph id="ph1">`Boolean`</ph> in-type, you cannot write the data element using a <ph id="ph2">`Boolean`</ph> data type in your managed code.</source>
+          <target state="translated">Os eventos podem conter os seguintes tipos de dados geridos: - bool - booleano - byte - char - decimal - duplo utiliza - float - Guid - int - IntPtr - comprimento - sbyte - curto - cadeia - uint - UInt64 se um evento no seu manifesto o <ph id="ph1">`Boolean`</ph> no tipo, não é possível escrever o elemento de dados utilizando um <ph id="ph2">`Boolean`</ph> tipo de dados no seu código gerido.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Boolean`</ph> in-type in your manifest expects a 4-byte value, and a <ph id="ph2">`Boolean`</ph> data type in managed code is 1-byte.</source>
+          <target state="translated">O <ph id="ph1">`Boolean`</ph> no tipo no seu manifesto espera um valor de 4 bytes e um <ph id="ph2">`Boolean`</ph> tipo de dados no código gerido é de 1 byte.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, you must use an <ph id="ph1">`int`</ph> data type to write the value.</source>
+          <target state="translated">Em vez disso, tem de utilizar um <ph id="ph1">`int`</ph> tipo de dados a escrever o valor.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to log a <ph id="ph1">`Boolean`</ph> value, use the UInt8 in-type in your manifest.</source>
+          <target state="translated">Se pretender registar um <ph id="ph1">`Boolean`</ph> valor, utilize o UInt8 no tipo no seu manifesto.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Registers the provider.</source>
+          <target state="translated">Regista o fornecedor.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To remove the registration when finished, call the &lt;xref:System.Diagnostics.Eventing.EventProvider.Close%2A&gt; method.</source>
+          <target state="translated">Para remover o registo quando terminar, chame o &lt;xref:System.Diagnostics.Eventing.EventProvider.Close%2A&gt;método.&lt;/xref:System.Diagnostics.Eventing.EventProvider.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Guid that uniquely identifies the provider.</source>
+          <target state="translated">GUID que identifica exclusivamente o fornecedor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to complete the operation.</source>
+          <target state="translated">Não há memória suficiente para concluir a operação.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The classes in the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> namespace work only on Windows Vista.</source>
+          <target state="translated">As classes no <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> espaço de nomes de trabalho apenas no Windows Vista.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerGuid</ph><ept id="p1">&lt;/code&gt;</ept> parameter cannot be null.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerGuid</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro não pode ser nulo.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An error returned by the ETW subsystem.</source>
+          <target state="translated">Erro devolvido pelo subsistema ETW.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Removes the provider's registration from the ETW subsystem and releases all unmanaged resources.</source>
+          <target state="translated">Remove o registo do fornecedor do subsistema de ETW e disponibiliza todos os recursos não geridos.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should call this method when finished instead of waiting for the system to dispose of the resources.</source>
+          <target state="translated">Deve chamar este método quando terminar em vez de aguardar a eliminar os recursos do sistema.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An error returned by the ETW subsystem.</source>
+          <target state="translated">Erro devolvido pelo subsistema ETW.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creates a unique activity identifier for the provider.</source>
+          <target state="translated">Cria um identificador de atividade exclusiva para o fornecedor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a static method.</source>
+          <target state="translated">Este é um método estático.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A unique Guid that you use when calling the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId*&gt; method to set the activity identifier for the provider.</source>
+          <target state="translated">Um Guid exclusivo que utilizam ao chamar o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId*&gt;método para definir o identificador de atividade do fornecedor.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by this <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Liberta os recursos utilizados por este <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by this <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Liberta os recursos utilizados por este <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This parameter is ignored by this method since there are no unmanaged resources.</source>
+          <target state="translated">Este parâmetro é ignorado por este método, uma vez que existem não existem recursos não geridos.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Frees resources and performs internal cleanup before the instance is reclaimed by garbage collection.</source>
+          <target state="translated">Liberta recursos e efetua a limpeza interna antes da instância está recuperada através da recolha de lixo.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets the last error associated with an event write failure.</source>
+          <target state="translated">Obtém o último erro associado uma falha de escrita de eventos.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt;, &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt;, and &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt; methods set this value if they fail to write the event.</source>
+          <target state="translated">O &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt;, &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt;, e &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt;métodos definir este valor se falharem ao escrever o evento.&lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteTransferEvent%2A&gt; &lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteMessageEvent%2A&gt; &lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a static method.</source>
+          <target state="translated">Este é um método estático.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use the value to determine the cause of an event write failure.</source>
+          <target state="translated">Utilize o valor para determinar a causa de uma falha de escrita de eventos.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Determines whether any session enabled the provider, regardless of the level and keyword values used to enable the provider.</source>
+          <target state="translated">Determina se a qualquer sessão ativa o fornecedor, independentemente dos valores de nível e a palavra-chave utilizada para permitir que o fornecedor.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a provider does not call this method to determine whether the provider has been enabled by a session; the provider simply writes the event, and ETW determines whether the event is logged to the session.</source>
+          <target state="translated">Normalmente, um fornecedor não chame este método para determinar se o fornecedor foi ativado por uma sessão; o fornecedor simplesmente grava o evento e ETW determina se o evento é registado para a sessão.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A provider may want to call this function if the provider needs to perform extra work to generate the event.</source>
+          <target state="translated">Poderá ser útil um fornecedor de chamar esta função, se o fornecedor precisa de realizar o trabalho adicional para gerar o evento.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, calling this function first may save resources and time.</source>
+          <target state="translated">Neste caso, chamar esta função primeiro poderá poupar recursos e tempo.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the provider is enabled to any session; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o fornecedor está ativada para qualquer sessão; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Determines whether any session is requesting the specified event from the provider.</source>
+          <target state="translated">Determina se qualquer sessão está a solicitar o evento especificado do fornecedor.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a provider does not call this method to determine whether a session requested the specified event; the provider simply writes the event, and ETW determines whether the event is logged to a session.</source>
+          <target state="translated">Normalmente, um fornecedor não chame este método para determinar se uma sessão pedido o evento especificado; o fornecedor simplesmente grava o evento e ETW determina se o evento é registado para uma sessão.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A provider may want to call this function if the provider needs to perform extra work to generate the event.</source>
+          <target state="translated">Poderá ser útil um fornecedor de chamar esta função, se o fornecedor precisa de realizar o trabalho adicional para gerar o evento.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, calling this function first to determine if a session requested the event or not, may save resources and time.</source>
+          <target state="translated">Neste caso, a chamar esta função primeiro para determinar se uma sessão do evento ou pedido não, pode poupar recursos e tempo.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Level of detail included in the event.</source>
+          <target state="translated">Nível de detalhe incluído no evento.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Bit mask that specifies the event category.</source>
+          <target state="translated">Máscara de bits que especifica a categoria de evento.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This mask should be the same keyword mask that is defined in the manifest for the event.</source>
+          <target state="translated">Esta máscara deve ser a mesma máscara de palavra-chave que está definida no manifesto para o evento.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if any session is requesting the specified event; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se qualquer sessão está a solicitar o evento especificado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Sets the current activity identifier used by the &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent*&gt; methods.</source>
+          <target state="translated">Define o identificador de atividade atual utilizado pelo &lt;xref:System.Diagnostics.Eventing.EventProvider.WriteEvent*&gt;métodos.&lt;/xref:System.Diagnostics.Eventing.EventProvider.WriteEvent*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identifier is stored in the thread context.</source>
+          <target state="translated">O identificador é armazenado no contexto do thread.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that in version 3.5 of the .NET framework, you had to set the <ph id="ph1">`id`</ph> parameter of this method and the &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt; property value to the same identifier value.</source>
+          <target state="translated">Tenha em atenção que numa versão 3.5 do .NET framework, era necessário definir o <ph id="ph1">`id`</ph> parâmetro deste método e o &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;valor da propriedade para o mesmo valor do identificador.&lt;/xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in version 4.0 of the framework, the SetActivityId method automatically sets the correlation activity identifier for you.</source>
+          <target state="translated">No entanto, numa versão 4.0 do framework, o método SetActivityId configura automaticamente o identificador de atividade de correlação para si.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a static method.</source>
+          <target state="translated">Este é um método estático.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A unique activity identifier that the &lt;xref:System.Diagnostics.Eventing.EventProvider.CreateActivityId*&gt; method returns.</source>
+          <target state="translated">Um identificador de atividade exclusiva que o &lt;xref:System.Diagnostics.Eventing.EventProvider.CreateActivityId*&gt;método devolve.&lt;/xref:System.Diagnostics.Eventing.EventProvider.CreateActivityId*&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Writes an event.</source>
+          <target state="translated">Escreve um evento.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The event data is specified as an array of objects.</source>
+          <target state="translated">Os dados do evento estão especificados como uma matriz de objetos.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method to specify an activity identifier for the event, this method retrieves the identifier from the thread context and includes it with the event.</source>
+          <target state="translated">Se chama o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método para especificar um identificador de atividade para o evento, este método obtém o identificador do contexto do thread e inclui-lo com o evento.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object type is not supported, the method writes the value of the object's &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt; method in the payload.</source>
+          <target state="translated">Se o tipo de objeto não é suportado, o método de escreve o valor do objeto &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;método no payload.&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of supported object types, see the Remarks for the &lt;xref:System.Diagnostics.Eventing.EventProvider&gt; class.</source>
+          <target state="translated">Para obter uma lista dos tipos de objeto suportados, consulte os comentários para a &lt;xref:System.Diagnostics.Eventing.EventProvider&gt;classe.&lt;/xref:System.Diagnostics.Eventing.EventProvider&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the event to write.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que identifica o evento para escrita.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An array of objects that contain the event data to write.</source>
+          <target state="translated">Uma matriz de objetos que contêm os dados de eventos para escrita.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The object must be in the order specified in the manifest.</source>
+          <target state="translated">O objeto tem de ser na ordem especificada no manifesto.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The array is limited to 32 objects, of which only eight may be strings.</source>
+          <target state="translated">A matriz é limitada a 32 objetos, que apenas oito poderá ser cadeias.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The maximum data size for the event is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O tamanho máximo de dados para o evento é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This parameter can be null.</source>
+          <target state="translated">Este parâmetro pode ser nulo.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If false, call the <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> método para determinar a causa da falha.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventPayload</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains too many objects or strings.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">eventPayload</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro contém demasiados objetos ou cadeias.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Writes an event.</source>
+          <target state="translated">Escreve um evento.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The event data is specified as a string.</source>
+          <target state="translated">Os dados do evento estão especificados como uma cadeia.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method to specify an activity identifier for the event, this method retrieves the identifier from the thread context and includes it with the event.</source>
+          <target state="translated">Se chama o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método para especificar um identificador de atividade para o evento, este método obtém o identificador do contexto do thread e inclui-lo com o evento.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum string length is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O comprimento de máximo de cadeia é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the event to write.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que identifica o evento para escrita.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The string to write as the event data.</source>
+          <target state="translated">A cadeia a escrever como os dados do evento.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If false, call the <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> método para determinar a causa da falha.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">data</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">data</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Writes an event.</source>
+          <target state="translated">Escreve um evento.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The event data is specified as a block of memory.</source>
+          <target state="translated">Os dados do evento estão especificados como um bloco de memória.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method to specify an activity identifier for the event, this method retrieves the identifier from the thread context and includes it with the event.</source>
+          <target state="translated">Se chama o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método para especificar um identificador de atividade para o evento, este método obtém o identificador do contexto do thread e inclui-lo com o evento.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the event to write.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que identifica o evento para escrita.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Size of the event data to which the <ph id="ph1">`data`</ph> parameter points.</source>
+          <target state="translated">Tamanho dos dados de eventos para o qual o <ph id="ph1">`data`</ph> pontos de parâmetro.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The maximum event data size is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O tamanho dos dados máxima do evento é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Pointer to the event data to write.</source>
+          <target state="translated">Apontador para os dados de eventos para escrita.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If false, call the <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> método para determinar a causa da falha.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Writes an event that contains a string as its data.</source>
+          <target state="translated">Escreve um evento que contém uma cadeia como os respetivos dados.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum string length is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O comprimento de máximo de cadeia é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>String to write as the event data.</source>
+          <target state="translated">Cadeia como os dados do evento.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If false, call the <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> método para determinar a causa da falha.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventMessage</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventMessage</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Writes an event that contains a string as its data if the level and keyword value match the events requested by the session.</source>
+          <target state="translated">Escreve um evento que contém uma cadeia como os dados se os eventos de pedido pela sessão de coincidir com o valor de nível e a palavra-chave.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum string length is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O comprimento de máximo de cadeia é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>String to write as the event data.</source>
+          <target state="translated">Cadeia como os dados do evento.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Level of detail included in the event.</source>
+          <target state="translated">Nível de detalhe incluído no evento.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the provider uses a manifest to define the event, set this value to the same level defined in the manifest.</source>
+          <target state="translated">Se o fornecedor utiliza um manifesto para definir o evento, defina este valor para o mesmo nível definido no manifesto.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Bit mask that specifies the event category.</source>
+          <target state="translated">Máscara de bits que especifica a categoria de evento.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the provider uses a manifest to define the event, set this value to the same keyword mask defined in the manifest.</source>
+          <target state="translated">Se o fornecedor utiliza um manifesto para definir o evento, defina este valor para a mesma máscara de palavra-chave definida no manifesto.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If false, call the <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o <ph id="ph1">&amp;lt;</ph>xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> método para determinar a causa da falha.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventMessage</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventMessage</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Links events together when tracing events in an end-to-end scenario.</source>
+          <target state="translated">Eventos de ligações em conjunto, quando o rastreio de eventos num cenário de ponto a ponto.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The event data is specified as an array of objects.</source>
+          <target state="translated">Os dados do evento estão especificados como uma matriz de objetos.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method uses the activity ID set in the thread context to identify this component.</source>
+          <target state="translated">O método utiliza o ID de atividade definido o contexto do thread para identificar este componente.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the activity ID, call the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method.</source>
+          <target state="translated">Para definir o ID de atividade, chame o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use the &lt;xref:System.Diagnostics.Trace&gt; class, you do not use the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method to specify the activity ID.</source>
+          <target state="translated">Se utilizar o &lt;xref:System.Diagnostics.Trace&gt;classe, não utilize o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método para especificar a ID de atividade&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; &lt;/xref:System.Diagnostics.Trace&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, access the &lt;xref:System.Diagnostics.Trace.CorrelationManager%2A&gt; property to get the &lt;xref:System.Diagnostics.CorrelationManager&gt; object.</source>
+          <target state="translated">Em vez disso, aceder a &lt;xref:System.Diagnostics.Trace.CorrelationManager%2A&gt;propriedade para obter o &lt;xref:System.Diagnostics.CorrelationManager&gt;objeto.&lt;/xref:System.Diagnostics.CorrelationManager&gt; &lt;/xref:System.Diagnostics.Trace.CorrelationManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, set the &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt; property to the activity ID.</source>
+          <target state="translated">Em seguida, defina a &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;propriedade ID da atividade&lt;/xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must also set the <ph id="ph1">`relatedActivityId`</ph> to a &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt; value.</source>
+          <target state="translated">Também tem de definir o <ph id="ph1">`relatedActivityId`</ph> para um &lt;xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;valor.&lt;/xref:System.Diagnostics.CorrelationManager.ActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the event to write.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que identifica o evento para escrita.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Activity identifier from the previous component.</source>
+          <target state="translated">Identificador de atividade do componente anterior.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Use this parameter to link your component's events to the previous component's events.</source>
+          <target state="translated">Utilize este parâmetro para associar eventos do componente para eventos do componente anterior.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An array of objects that contain the event data to write.</source>
+          <target state="translated">Uma matriz de objetos que contêm os dados de eventos para escrita.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The data must be in the order specified in the manifest.</source>
+          <target state="translated">Os dados tem de ser na ordem especificada no manifesto.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The array is limited to 32 objects, of which only eight may be strings.</source>
+          <target state="translated">A matriz é limitada a 32 objetos, que apenas oito poderá ser cadeias.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The maximum data size for the event is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O tamanho máximo de dados para o evento é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If false, call the &lt;xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt; method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o &lt;xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt;método para determinar a causa da falha.&lt;/xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">eventPayload</ph><ept id="p1">&lt;/code&gt;</ept> contains too many objects or strings.</source>
+          <target state="translated">Se <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">eventPayload</ph> <ept id="p1">&lt;/code&gt;</ept> contém demasiados objetos ou cadeias.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Links events together when tracing events in an end-to-end scenario.</source>
+          <target state="translated">Eventos de ligações em conjunto, quando o rastreio de eventos num cenário de ponto a ponto.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The event data is specified as a block of memory.</source>
+          <target state="translated">Os dados do evento estão especificados como um bloco de memória.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method uses the activity ID set in the thread context to identify this component.</source>
+          <target state="translated">O método utiliza o ID de atividade definido o contexto do thread para identificar este componente.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the activity ID, call the &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt; method.</source>
+          <target state="translated">Para definir o ID de atividade, chame o &lt;xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;método.&lt;/xref:System.Diagnostics.Eventing.EventProvider.SetActivityId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the event to write.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que identifica o evento para escrita.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Activity identifier from the previous component.</source>
+          <target state="translated">Identificador de atividade do componente anterior.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Use this parameter to link your component's events to the previous component's events.</source>
+          <target state="translated">Utilize este parâmetro para associar eventos do componente para eventos do componente anterior.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Size of the event data to which the <ph id="ph1">`data`</ph> parameter points.</source>
+          <target state="translated">Tamanho dos dados de eventos para o qual o <ph id="ph1">`data`</ph> pontos de parâmetro.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The maximum event data size is limited to 64 KB minus the size of the event headers.</source>
+          <target state="translated">O tamanho dos dados máxima do evento é limitado a 64 KB menos o tamanho dos cabeçalhos de eventos.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The event size is less if the session's buffer size is less and the session includes extended data items with the event.</source>
+          <target state="translated">O tamanho de eventos é menor se o tamanho de memória intermédia da sessão é inferior e a sessão inclui itens de dados expandidos com o evento.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Pointer to the event data to write.</source>
+          <target state="translated">Apontador para os dados de eventos para escrita.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event is written; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se o evento é escrito; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If false, call the &lt;xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt; method to determine the cause of the failure.</source>
+          <target state="translated">Se for FALSO, chame o &lt;xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt;método para determinar a causa da falha.&lt;/xref:System.Diagnostics.Eventing.EventProvider.GetLastWriteEventError*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

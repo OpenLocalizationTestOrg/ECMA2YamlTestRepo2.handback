@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e9700e3e84b6b2084491d25bc5fea87d509504a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.SqlServer.Server.SqlPipe.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bce8c3dc884c1f9752a1a34de1c7788c2e904914</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">32db9fcbb176f251a16f9423dd4247d0ace51a45</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows managed stored procedures running in-process on a SQL Server database to return results back to the caller.</source>
+          <target state="translated">允许在使用 SQL Server 数据库来将结果返回给调用方上的托管存储的过程运行过程。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An instance of this class is made available to managed stored procedures through the &lt;xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt; property of the &lt;xref:Microsoft.SqlServer.Server.SqlContext&gt; class.</source>
+          <target state="translated">此类的实例将提供给被管理的存储过程，通过&lt;xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt;属性的&lt;xref:Microsoft.SqlServer.Server.SqlContext&gt;类。&lt;/xref:Microsoft.SqlServer.Server.SqlContext&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Executes the command passed as a parameter and sends the results to the client.</source>
+          <target state="translated">执行作为参数传递的命令，并将结果发送到客户端。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In addition to any actual results, other messages and errors are also sent directly to the client.</source>
+          <target state="translated">除了任何实际的结果，其他消息和错误是还直接发送到客户端。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Output parameters and return values are not sent to the client; these are available to the caller, through the parameters collection of the command object.</source>
+          <target state="translated">输出参数和返回值不会发送到客户端;这些是用于调用方，通过命令对象的 parameters 集合。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the command is not bound to an in-process connection, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">如果该命令未绑定到的进程内连接，&lt;xref:System.InvalidOperationException&gt;引发。&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This method is not supported on commands bound to out-of-process connections.</source>
+          <target state="translated">绑定到的进程外连接的命令不支持此方法。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there are errors in the &lt;xref:System.Data.SqlClient.SqlCommand&gt; object that was submitted, exceptions are sent to the pipe, but a copy is also sent to calling managed code.</source>
+          <target state="translated">如果中有错误&lt;xref:System.Data.SqlClient.SqlCommand&gt;异常发送到的命名管道，但副本也会发送给调用托管代码已提交的对象。&lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the calling code doesn't catch the exception, it will propagate up the stack to the Transact-SQL code and appear in the output twice.</source>
+          <target state="translated">如果调用的代码不会捕获异常，将 Transact SQL 代码在堆栈中向上传播并在输出中出现两次。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the calling code does catch the exception, the pipe consumer will still see the error, but there will not be a duplicate error.</source>
+          <target state="translated">如果调用代码捕获了异常，则管道使用者仍会看到以下错误，但不是会重复错误。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be executed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要执行对象。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This method is not supported on commands bound to out-of-process connections.</source>
+          <target state="translated">绑定到的进程外连接的命令不支持此方法。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is in the mode of sending single result sets back to the client.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中将单个结果集发送回客户端的模式。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This property is read-only.</source>
+          <target state="translated">此属性是只读的。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method has been called and the <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is in the mode of sending single result sets back to the client; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;调用方法和<bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>处于的模式将单个结果集发送回客户端; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Sends a single-row result set directly to the client or current output consumer.</source>
+          <target state="translated">将发送的单行结果集直接向客户端或当前输出使用者。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The single-row result set sent to the client: a <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">发送到客户端的单行结果集︰ <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sends a multirow result set directly to the client or current output consumer.</source>
+          <target state="translated">将发送多行结果集直接向客户端或当前输出使用者。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.SqlClient.SqlDataReader&gt; object passed in as a parameter has hidden columns, those columns are not propagated to the result set sent to the client.</source>
+          <target state="translated">如果&lt;xref:System.Data.SqlClient.SqlDataReader&gt;作为一个参数具有隐藏列传入的对象，这些列不会传播到结果集发送到客户端。&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The multirow result set to be sent to the client: a <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">多行的结果集发送到客户端︰ <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Sends a string message directly to the client or current output consumer.</source>
+          <target state="translated">直接向客户端或当前输出使用者发送字符串消息。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The message string is sent as an informational message to the client.</source>
+          <target state="translated">作为一条信息性消息情况下，消息字符串发送到客户端。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Client applications can listen to messages through different mechanisms, depending on the data access application programming interface (API) that they use.</source>
+          <target state="translated">客户端应用程序可通过不同的机制，具体取决于数据访问应用程序编程接口 (API)，它们使用侦听消息。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, if the client is using ADO.NET, the messages transmit through the &lt;xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt; event.</source>
+          <target state="translated">例如，如果客户端正在使用 ADO.NET，消息传输通过&lt;xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt;事件。&lt;/xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The message string to be sent to the client.</source>
+          <target state="translated">要发送到客户端的消息字符串。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is greater than 4,000 characters.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">message</ph> <ept id="p1">&lt;/code&gt;</ept>大于 4000 个字符。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Marks the end of a result set, and returns the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance back to the initial state.</source>
+          <target state="translated">标记的一个结果集，结束，并且返回<bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>回初始状态的实例。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">托管的存储的过程可以将结果集发送到不想实现一种&lt;xref:System.Data.SqlClient.SqlDataReader&gt;。&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;的客户端</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;, allow stored procedures to send custom result sets to the client.</source>
+          <target state="translated">此方法，以及&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;和&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;，允许要发送到客户端的自定义结果集的存储的过程。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method was not previously called.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;方法以前未被调用。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Sends a single row of data back to the client.</source>
+          <target state="translated">将单个行的数据发送回客户端。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">托管的存储的过程可以将结果集发送到不想实现一种&lt;xref:System.Data.SqlClient.SqlDataReader&gt;。&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;的客户端</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, allows stored procedures to send custom result sets to the client.</source>
+          <target state="translated">此方法，以及&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;和&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;，允许要发送到客户端的自定义结果集的存储的过程。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The SendResultsRow method sends a single row of data back to the client.</source>
+          <target state="translated">SendResultsRow 方法将一行数据发送回客户端。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Rows can subsequently be returned to the caller by calling SendResultsRow, one time for each row being sent.</source>
+          <target state="translated">通过调用一次发送每一行的 SendResultsRow，之前，随后可以将行返回给调用方。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>After all the rows have been sent, a call to the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; method is required to mark the end of the result set.</source>
+          <target state="translated">已发送的所有行，对的调用后&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;方法仍要求标记结果集的末尾。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the column values for the row to be sent to the client.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象发送到客户端的行的列的值。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The schema for the record must match the schema described by the metadata of the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed to the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method.</source>
+          <target state="translated">记录的架构必须与匹配的元数据所述的架构<bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>传递给&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;方法。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method was not previously called.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;方法以前未被调用。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Marks the beginning of a result set to be sent back to the client, and uses the record parameter to construct the metadata that describes the result set.</source>
+          <target state="translated">标记开始某一结果集发回到客户端，并使用记录的参数来构造描述结果集的元数据。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">托管的存储的过程可以将结果集发送到不想实现一种&lt;xref:System.Data.SqlClient.SqlDataReader&gt;。&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;的客户端</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, allow stored procedures to send custom result sets to the client.</source>
+          <target state="translated">此方法，以及&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;和&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;，允许要发送到客户端的自定义结果集的存储的过程。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The SendResultsStart method marks the beginning of a result set, and uses the record parameter to construct the metadata that describes the result set.</source>
+          <target state="translated">SendResultsStart 方法标记的一个结果集，开始，并使用记录的参数来构造描述结果集的元数据。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>All the subsequent rows, sent using the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; method, must match that metadata definition.</source>
+          <target state="translated">所有后续的行，使用发送&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;方法，必须与该元数据定义匹配。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note that after calling SendResultsStart, only &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; can be called.</source>
+          <target state="translated">请注意，仅在调用 SendResultsStart 之后,&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;和&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;可以调用。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Any other method in the same instance of &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt; throws an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt;引发&lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:Microsoft.SqlServer.Server.SqlPipe&gt;的相同实例中的任何其他方法</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; sets &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt; back to the initial state where other methods can be called.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;设置&lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt;回中可以调用其他方法的初始状态。&lt;/xref:Microsoft.SqlServer.Server.SqlPipe&gt;&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>After control returns to Transact-SQL from CLR execution, do not attempt to use a static or local variable initialized to CLR memory.</source>
+          <target state="translated">控制权将返回给 TRANSACT-SQL 从 CLR 执行后，不尝试使用静态或本地变量初始化为 CLR 内存。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, do not store an instance of an in process class, for example <ph id="ph1">`SQLDataRecord`</ph>, which will be used after control returns from CLR.</source>
+          <target state="translated">例如，是否存储在进程的实例类，例如<ph id="ph1">`SQLDataRecord`</ph>，控制从 CLR 返回之后将使用它。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>One exception is the <ph id="ph1">`SQLMetaData`</ph> in process class.</source>
+          <target state="translated">一个例外是<ph id="ph1">`SQLMetaData`</ph>进程类中。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from which metadata is extracted and used to describe the result set.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象元数据是从其提取，用于描述结果集。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> has no columns or has not been initialized.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">record</ph> <ept id="p1">&lt;/code&gt;</ept>没有列或尚未初始化。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A method other than &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow<bpt id="p1">*</bpt>&gt; or &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd<ept id="p1">*</ept>&gt; was called after the SendResultsStart method.</source>
+          <target state="translated">以外的其他方法&lt;&gt; <bpt id="p1">*</bpt>1&gt; 或&lt;&gt; <ept id="p1">*</ept>1&gt; 在 SendResultsStart 方法之后调用。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
