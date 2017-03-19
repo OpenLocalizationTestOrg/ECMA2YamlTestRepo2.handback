@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92f96cb8b1a4729cd8414a74d63a31ea58dc4cb9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.BindingManagerBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebb30acaaeb92feb5b02ad5b10b40802ba4141be</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff6c7ce01328eadc12e4bc4b1a93ea57f9e16fa7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages all <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that are bound to the same data source and data member.</source>
+          <target state="translated">Управляет всеми <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов, привязанных к одному члену данных источника и данных.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is abstract.</source>
+          <target state="translated">Этот класс является абстрактным.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BindingManagerBase enables the synchronization of data-bound controls on a Windows Form that are bound to the same data source.</source>
+          <target state="translated">BindingManagerBase позволяет синхронизировать элементы управления с привязкой к данным на форме Windows Forms, привязанных к одному источнику данных.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(For more information about simple binding a control to a data source, see the &lt;xref:System.Windows.Forms.Binding&gt; class.) For example, suppose that a form contains two &lt;xref:System.Windows.Forms.TextBox&gt; controls that are bound to the same data source but to different columns.</source>
+          <target state="translated">(Дополнительные сведения о простой привязке элемента управления к источнику данных см. в разделе &lt;xref:System.Windows.Forms.Binding&gt;класса.)&lt;/xref:System.Windows.Forms.Binding&gt; Например, предположим, что форма содержит два &lt;xref:System.Windows.Forms.TextBox&gt;элементов управления, привязанных к одному источнику данных, но с различными столбцами.&lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source might be a &lt;xref:System.Data.DataTable&gt; that contains customer names, while the columns might contain the first and last names.</source>
+          <target state="translated">Источник данных может быть &lt;xref:System.Data.DataTable&gt;, содержит имена клиентов, а столбцы могут содержать имена и фамилии.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The two controls must be synchronized in order to display the correct first and last names together for the same customer.</source>
+          <target state="translated">Два элемента управления должны быть синхронизированы для отображения правильного имени и фамилии вместе для того же клиента.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager&gt;, which inherits from the BindingManagerBase class, accomplishes this synchronization by maintaining a pointer to the current item in the data source.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager&gt;, Который наследует от класса BindingManagerBase выполняет эту синхронизацию путем сохранения указателя на текущий элемент в источнике данных.&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.TextBox&gt; controls are bound to the current item so they display the information for the same row.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.TextBox&gt;Элементы управления привязаны к текущему элементу, поэтому в них отображаются сведения для одной строки.&lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the current item changes, the &lt;xref:System.Windows.Forms.CurrencyManager&gt; notifies all the bound controls so that they can refresh their data.</source>
+          <target state="translated">При изменении текущего элемента, &lt;xref:System.Windows.Forms.CurrencyManager&gt;уведомляет все привязки элементов управления, чтобы они могут обновлять свои данные.&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Furthermore, you can set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; property to specify the row in the &lt;xref:System.Data.DataTable&gt; that the controls point to.</source>
+          <target state="translated">Кроме того, можно задать &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;свойство, чтобы указать строку в &lt;xref:System.Data.DataTable&gt;, указывающие элементы управления.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine how many rows exist in the data source, use the &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property.</source>
+          <target state="translated">Чтобы определить, сколько строк существует в источнике данных, используйте &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;свойство.&lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager&gt; is necessary because data sources do not necessarily maintain a current-item pointer.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager&gt;Необходима, так как источники данных не обязательно сохраняют указатель текущего элемента.&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, arrays and &lt;xref:System.Collections.ArrayList&gt; objects can be data sources, but they do not have a property that returns the current item.</source>
+          <target state="translated">Например, массивы и &lt;xref:System.Collections.ArrayList&gt;объекты могут быть источниками данных, но они не имеют свойства, которое возвращает текущий элемент.&lt;/xref:System.Collections.ArrayList&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get the current item, use the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; property.</source>
+          <target state="translated">Чтобы получить текущий элемент, используйте &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;свойство.&lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.PropertyManager&gt; also inherits from the BindingManagerBase, and it is used to maintain the current property of an object, rather than the property of a current object in a data source.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.PropertyManager&gt;Наследует от BindingManagerBase, и он используется для поддержания текущего свойства объекта, а не свойства текущего объекта в источнике данных.&lt;/xref:System.Windows.Forms.PropertyManager&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this reason, trying to set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; or &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property for a &lt;xref:System.Windows.Forms.PropertyManager&gt; has no effect.</source>
+          <target state="translated">По этой причине попытка установить &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;или &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;свойство &lt;xref:System.Windows.Forms.PropertyManager&gt;не делает ничего.&lt;/xref:System.Windows.Forms.PropertyManager&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a BindingManagerBase, use the &lt;xref:System.Windows.Forms.BindingContext&gt; class, which returns either a &lt;xref:System.Windows.Forms.CurrencyManager&gt; or a &lt;xref:System.Windows.Forms.PropertyManager&gt;, depending on the data source being managed.</source>
+          <target state="translated">Чтобы создать BindingManagerBase, используйте &lt;xref:System.Windows.Forms.BindingContext&gt;класс, который возвращает один &lt;xref:System.Windows.Forms.CurrencyManager&gt;или &lt;xref:System.Windows.Forms.PropertyManager&gt;, в зависимости от управляемого источника данных.&lt;/xref:System.Windows.Forms.PropertyManager&gt; &lt;/xref:System.Windows.Forms.CurrencyManager&gt; &lt;/xref:System.Windows.Forms.BindingContext&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Solutions programmers are encouraged to bind controls directly to a &lt;xref:System.Windows.Forms.BindingSource&gt; component, which acts as both a data source and data connector to the actual target data source.</source>
+          <target state="translated">Программистам решений рекомендуется привязывать элементы управления непосредственно в &lt;xref:System.Windows.Forms.BindingSource&gt;компонент, который выступает в качестве источника данных и соединителя данных для фактического источника данных.&lt;/xref:System.Windows.Forms.BindingSource&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Forms.BindingSource&gt; greatly simplifies both simple and complex data binding, including managing currency between the control and its target.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingSource&gt;значительно упрощает оба простых и сложных привязку данных, включая управление денежных единиц между элементом управления и цели.&lt;/xref:System.Windows.Forms.BindingSource&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor sets the &lt;xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt; property to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Конструктор по умолчанию присваивает &lt;xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt;Свойства <ph id="ph1">`null`</ph>.&lt;/xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, adds a new item to the underlying list.</source>
+          <target state="translated">При переопределении в производном классе добавляет новый элемент в базовый список.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddNew method adds a new item to the underlying list by using the default constructor for that item's type.</source>
+          <target state="translated">Метод AddNew добавляет новый элемент в базовый список с помощью конструктора по умолчанию для типа этого элемента.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddNew is intended primarily to be used by programmers adding complex data-binding support to their custom component.</source>
+          <target state="translated">AddNew предназначен главным образом для использования программистами, добавление поддержки сложной привязки данных в их пользовательского компонента.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddNew is commonly implemented using the following pattern that allows application programmers to inject their own code for creating customized items:      1.</source>
+          <target state="translated">AddNew часто реализуется с помощью следующих шаблон, который позволяет разработчикам приложения для вставки свой собственный код для создания настроенных элементов: 1.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddNew raises the &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt; event.</source>
+          <target state="translated">Вызывает метод AddNew &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt;событий.&lt;/xref:System.Windows.Forms.BindingSource.AddingNew&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The programmer can supply a custom item by handling the &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt; event and setting the &lt;xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt; property of the &lt;xref:System.ComponentModel.AddingNewEventArgs&gt; parameter to the new item.</source>
+          <target state="translated">Программист может предоставить пользовательского элемента путем обработки &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt;событий и параметр &lt;xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt;свойство &lt;xref:System.ComponentModel.AddingNewEventArgs&gt;параметр с новым элементом.&lt;/xref:System.ComponentModel.AddingNewEventArgs&gt; &lt;/xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt; &lt;/xref:System.Windows.Forms.BindingSource.AddingNew&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the component should create an item using the default constructor.</source>
+          <target state="translated">В противном случае компонент будет создавать элемент с помощью конструктора по умолчанию.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, the item is immediately added to the data source and underlying list.</source>
+          <target state="translated">Если источник данных не реализует &lt;xref:System.ComponentModel.IEditableObject&gt;интерфейса, элемент добавляется непосредственно к источнику данных и базовый список.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this interface is supported, then the addition is transacted by the &lt;xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt; and &lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt; methods.</source>
+          <target state="translated">Если этот интерфейс поддерживается, то Добавление транзакции с &lt;xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt;и &lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt;методы.&lt;/xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Occurs at the completion of a data-binding operation.</source>
+          <target state="translated">Происходит после завершения операции привязки данных.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BindingComplete event occurs after the completion of a data-binding operation, which may include the following:      -   Pushing information from the data source into the property of its bound control.</source>
+          <target state="translated">Это событие BindingComplete возникает после завершения операции привязки данных, которые могут содержать следующие:-Принудительная передача данных из источника данных в свойство привязанного элемента управления.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Pulling information from a bound control into its associated data source.</source>
+          <target state="translated">-Передача данных из связанного элемента управления в связанном источнике данных.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this event is raised regardless of the completion status of the binding operation, although this status can be determined by examining the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; parameter associated with the event.</source>
+          <target state="translated">Обратите внимание, что это событие возникает независимо от того, состояние завершения операции привязки, несмотря на то, что это состояние можно определить с помощью проверки &lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;свойство &lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;параметр, связанный с событием.&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt; &lt;/xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; may also contain error and exception information.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;также могут содержать сообщение об исключении и данные.&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a binding operation that attempts to push a null value from a data source into a &lt;xref:System.Windows.Forms.DateTimePicker&gt; control will generate an exception, since a &lt;xref:System.DateTime&gt; cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Например, операции привязки, который пытается отправить значение null из источника данных в &lt;xref:System.Windows.Forms.DateTimePicker&gt;управления создают исключение, поскольку &lt;xref:System.DateTime&gt;не может быть <ph id="ph1">`null`</ph>.&lt;/xref:System.DateTime&gt; &lt;/xref:System.Windows.Forms.DateTimePicker&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, although the binding operation does not successfully complete, the BindingComplete event will be raised, and the event will contain information on the failed binding attempt.</source>
+          <target state="translated">Таким образом несмотря на то, что операция привязки не завершается успешно, возникает событие BindingComplete и событие будет содержать сведения о неудачных привязки попытки.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the collection of bindings being managed.</source>
+          <target state="translated">Возвращает коллекцию управляемых привязок.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingsCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects managed by this <bpt id="p3">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingsCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объектов, управляемых этим объектом <bpt id="p3">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, cancels the current edit.</source>
+          <target state="translated">При переопределении в производном классе отменяет текущее изменение.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is supported only if the data source implements the &lt;xref:System.ComponentModel.IEditableObject&gt; interface.</source>
+          <target state="translated">Этот метод поддерживается только в том случае, если источник данных реализует &lt;xref:System.ComponentModel.IEditableObject&gt;интерфейса.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, changes made to the data will not be discarded.</source>
+          <target state="translated">Если объект не реализует &lt;xref:System.ComponentModel.IEditableObject&gt;интерфейс изменений, внесенных в данные не будут отменены.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the CancelCurrentEdit method causes the &lt;xref:System.Windows.Forms.Binding.Format&gt; event to occur.</source>
+          <target state="translated">Вызов метода CancelCurrentEdit вызывает &lt;xref:System.Windows.Forms.Binding.Format&gt;возникновения события.&lt;/xref:System.Windows.Forms.Binding.Format&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the number of rows managed by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">При переопределении в производном классе, возвращает число строк, управляемых объектом <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Count property to determine the last item in the list of rows maintained by the &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.</source>
+          <target state="translated">Используйте свойство Count для определения последнего элемента в списке поддерживаемых &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.&lt;/xref:System.Windows.Forms.BindingManagerBase&gt; строк</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To go to the last item, set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; property to the Count property value minus 1.</source>
+          <target state="translated">Чтобы перейти к последней элементов, задайте &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;свойство в значение свойства Count минус 1.&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The number of rows managed by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Число строк, управляемых объектом <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the current object.</source>
+          <target state="translated">При переопределении в производном классе, возвращает текущий объект.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Current object contains the value of the current item in the data source.</source>
+          <target state="translated">Текущий объект содержит значение текущего элемента в источнике данных.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use the value of the current item, you must cast the item to the &lt;xref:System.Type&gt; of the object contained by the &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;.</source>
+          <target state="translated">Чтобы использовать значение текущего элемента, необходимо привести элемента &lt;xref:System.Type&gt;из объекта, находящегося &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;.&lt;/xref:System.Windows.Forms.Binding.DataSource%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a &lt;xref:System.Data.DataTable&gt; contains &lt;xref:System.Data.DataRowView&gt; objects.</source>
+          <target state="translated">Например &lt;xref:System.Data.DataTable&gt;содержит &lt;xref:System.Data.DataRowView&gt;объектов.&lt;/xref:System.Data.DataRowView&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the type of the current object, use the &lt;xref:System.Object.GetType%2A&gt; and &lt;xref:System.Type.ToString%2A&gt; methods.</source>
+          <target state="translated">Чтобы определить тип текущего объекта, используйте &lt;xref:System.Object.GetType%2A&gt;и &lt;xref:System.Type.ToString%2A&gt;методы.&lt;/xref:System.Type.ToString%2A&gt; &lt;/xref:System.Object.GetType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt; is a &lt;xref:System.Data.DataSet&gt;, &lt;xref:System.Data.DataViewManager&gt;, or &lt;xref:System.Data.DataTable&gt;, you are actually binding to a &lt;xref:System.Data.DataView&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;— &lt;xref:System.Data.DataSet&gt;, &lt;xref:System.Data.DataViewManager&gt;, или &lt;xref:System.Data.DataTable&gt;, то фактически привязки на &lt;xref:System.Data.DataView&gt;.&lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Windows.Forms.Binding.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consequently, each Current object is a &lt;xref:System.Data.DataRowView&gt; object.</source>
+          <target state="translated">Следовательно, каждый текущий объект является &lt;xref:System.Data.DataRowView&gt;объекта.&lt;/xref:System.Data.DataRowView&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the current object.</source>
+          <target state="translated">&lt;xref:System.Object&gt;, Представляющий текущий объект.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occurs when the currently bound item changes.</source>
+          <target state="translated">Происходит при изменении элемента, к которому имеется привязка.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CurrentChanged event is raised whenever the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; property changes or the &lt;xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt; event occurs.</source>
+          <target state="translated">Событие CurrentChanged вызывается всякий раз, когда &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;изменения свойств или &lt;xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt;событием.&lt;/xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения об обработке событий см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Occurs when the state of the currently bound item changes.</source>
+          <target state="translated">Происходит при изменении состояния элемента, к которому имеется привязка.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CurrentItemChanged event occurs whenever there is a change in the state in the currently bound item.</source>
+          <target state="translated">Это событие CurrentItemChanged возникает при изменении состояния, в данный момент связанный элемент.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can occur if one of the properties of this item is changed or if the item itself is replaced or moved.</source>
+          <target state="translated">Это может произойти, если одно из свойств этого элемента изменяется или сам элемент заменяется или перемещается.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when an &lt;xref:System.Exception&gt; is silently handled by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Происходит при &lt;xref:System.Exception&gt;обрабатывается автоматически <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is informational and reports Common Language Specification (CLS)-compliant exceptions only.</source>
+          <target state="translated">Это событие является информационным и сообщает общеязыковой спецификацией (CLS) — только исключения.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine what type of exception occurred, handle this event and check the &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt;.</source>
+          <target state="translated">Чтобы определить, какой тип исключения, обрабатывать и проверьте &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt;свойство &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt;.&lt;/xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt; &lt;/xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения об обработке событий см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, ends the current edit.</source>
+          <target state="translated">При переопределении в производном классе завершает текущее изменение.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is supported only if the data source implements the &lt;xref:System.ComponentModel.IEditableObject&gt; interface.</source>
+          <target state="translated">Этот метод поддерживается только в том случае, если источник данных реализует &lt;xref:System.ComponentModel.IEditableObject&gt;интерфейса.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, changes will be saved.</source>
+          <target state="translated">В этом случае изменения будут сохранены.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, changes made to the data will not be saved.</source>
+          <target state="translated">Если объект не реализует &lt;xref:System.ComponentModel.IEditableObject&gt;интерфейс, не будут сохранены изменения, внесенные в данные.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the collection of property descriptors for the binding.</source>
+          <target state="translated">При переопределении в производном классе возвращает коллекцию дескрипторов свойств для привязки.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий дескрипторов свойств для привязки.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets the collection of property descriptors for the binding using the specified <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает коллекцию дескрипторов свойств для привязки, с помощью указанного <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by developers creating data-bound controls.</source>
+          <target state="translated">Этот метод используется разработчиками для создания элементов управления с привязкой к данным.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the data sources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий источники данных.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий свойства привязки таблицы.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий дескрипторов свойств для привязки.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the list of properties of the items managed by this <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает список свойств элементов, управляемых этим объектом <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload is used by developers to create data-bound controls.</source>
+          <target state="translated">Эта перегрузка используется разработчиками для создания элементов управления с привязкой к данным.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the bound list.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Списка с привязкой.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A counter used to recursively call the method.</source>
+          <target state="translated">Счетчик, используемый для рекурсивного вызова метода.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the data sources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий источники данных.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий свойства привязки таблицы.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий дескрипторов свойств для привязки.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the name of the list supplying the data for the binding.</source>
+          <target state="translated">При переопределении в производном классе возвращает имя списка, предоставляющего данные для привязки.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий свойства привязки таблицы.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The name of the list supplying the data for the binding.</source>
+          <target state="translated">Имя списка, предоставляющего данные для привязки.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether binding is suspended.</source>
+          <target state="translated">Возвращает значение, указывающее, приостановлена ли привязка.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if binding is suspended; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если привязка приостановлена; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.BindingComplete"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.BindingComplete"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBindingComplete method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnBindingComplete также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий данные события.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCurrentChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnCurrentChanged также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;, Содержащий данные события.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the event handler for the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Задает обработчик событий для <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentItemChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentItemChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCurrentItemChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnCurrentItemChanged также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;, Содержащий данные события.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataError method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnDataError также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that caused the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to occur.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;, Вызвавшего <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> возникновения события.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the event handler for the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.PositionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Задает обработчик событий для <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.PositionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets or sets the position in the underlying list that controls bound to this data source point to.</source>
+          <target state="translated">При переопределении в производном классе, возвращает или задает позицию в базовом списке, элементы управления, привязанные к этой точке источника данных для.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Position property to iterate through the underlying list maintained by the &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.</source>
+          <target state="translated">Использовать свойство для перебора базового списка, поддерживаемого &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.&lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To go to the first item, set the Position to 0.</source>
+          <target state="translated">Чтобы перейти к первому элементу, задайте положение 0.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To go to the end of the list, set the Position to the value of the &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property minus 1.</source>
+          <target state="translated">Чтобы перейти к концу списка, задайте положение значению &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;свойство минус 1.&lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt; event occurs when the Position property value changes.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt;Событие возникает при изменении значения свойства позиции.&lt;/xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A zero-based index that specifies a position in the underlying list.</source>
+          <target state="translated">Отсчитываемый от нуля индекс, задающий позицию в базовом списке.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Occurs after the value of the &lt;xref:System.Windows.Forms.BindingManagerBase.Position*&gt; property has changed.</source>
+          <target state="translated">Происходит после изменения значения &lt;xref:System.Windows.Forms.BindingManagerBase.Position*&gt;измененное свойство.&lt;/xref:System.Windows.Forms.BindingManagerBase.Position*&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения об обработке событий см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Pulls data from the data-bound control into the data source, returning no information.</source>
+          <target state="translated">Передает данные из элемента управления с привязкой к данным в источнике данных, не возвращая никаких сведений.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PullData method is a programmatic way to pull information from the data-bound control back into the data source.</source>
+          <target state="translated">Метод PullData программный способ для извлечения сведений из элемента управления с привязкой к данным в источнике данных.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not required for standard operation of a control, since normally a control automatically updates its bound data source when focus leaves it.</source>
+          <target state="translated">Он не является обязательным для стандартных операций управления, поскольку обычно элемент управления автоматически обновляет его привязанного источника данных, когда фокус покидает его.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PullData raises the &lt;xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt; event and change events on the data source as appropriate.</source>
+          <target state="translated">Вызывает PullData &lt;xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt;событий и событий изменения в данные источника соответствующим образом.&lt;/xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Pushes data from the data source into the data-bound control, returning no information.</source>
+          <target state="translated">Передает данные из источника данных в элемент управления с привязкой к данным, не возвращая никаких сведений.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PushData method is a programmatic way to push information from the data source into the data-bound control.</source>
+          <target state="translated">Метод PushData является программный способ передачи сведения из источника данных в элемент управления с привязкой к данным.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not required if the data source implements the &lt;xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt; interface, because the &lt;xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt; event should automatically cause the control to be updated through its currency manager.</source>
+          <target state="translated">Этот метод не является обязательным, если источник данных реализует &lt;xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt;интерфейс, так как &lt;xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt;событий должны автоматически переводит элемент управления в обновляться через диспетчер денежных единиц.&lt;/xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is issued when a &lt;xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt; operation is being performed, the PushData method returns immediately with a value of <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Если этот метод выдается &lt;xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt;выполняется операция, PushData метод возвращается немедленно со значением <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes the row at the specified index from the underlying list.</source>
+          <target state="translated">При переопределении в производном классе удаляет строку с указанным индексом из базового списка.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RemoveAt method relies on the underlying data source to determine how the method behaves.</source>
+          <target state="translated">Метод RemoveAt полагается на источнике данных, чтобы определить поведение метода.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(See the &lt;xref:System.Windows.Forms.Binding&gt; class for a list of supported data sources.) For classes that implement &lt;xref:System.Collections.IList&gt;, &lt;xref:System.ComponentModel.IBindingList&gt;, or &lt;xref:System.ComponentModel.ITypedList&gt;, as well as strongly typed classes that implement &lt;xref:System.Collections.IList&gt;, the RemoveAt method actually deletes the row in the underlying list instead of removing its contents.</source>
+          <target state="translated">(См. &lt;xref:System.Windows.Forms.Binding&gt;класса для получения списка поддерживаемых источников данных.)&lt;/xref:System.Windows.Forms.Binding&gt; Для классов, реализующих интерфейс &lt;xref:System.Collections.IList&gt;, &lt;xref:System.ComponentModel.IBindingList&gt;, или &lt;xref:System.ComponentModel.ITypedList&gt;, также как строго типизированные классы, реализующие &lt;xref:System.Collections.IList&gt;, метод RemoveAt фактически удаляет строку в базовом списке, а отключите ее содержимое.&lt;/xref:System.Collections.IList&gt; &lt;/xref:System.ComponentModel.ITypedList&gt; &lt;/xref:System.ComponentModel.IBindingList&gt; &lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying list implements the &lt;xref:System.ComponentModel.IBindingList&gt; interface, the &lt;xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt; property must return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Если базовый список реализует &lt;xref:System.ComponentModel.IBindingList&gt;интерфейс, &lt;xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt;свойство должно возвращать <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt; &lt;/xref:System.ComponentModel.IBindingList&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying list implements the &lt;xref:System.Collections.IList&gt; interface, the &lt;xref:System.Collections.IList.IsFixedSize%2A&gt; property must return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Если базовый список реализует &lt;xref:System.Collections.IList&gt;интерфейс, &lt;xref:System.Collections.IList.IsFixedSize%2A&gt;свойство должно возвращать <ph id="ph1">`false`</ph>.&lt;/xref:System.Collections.IList.IsFixedSize%2A&gt; &lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The index of the row to delete.</source>
+          <target state="translated">Индекс удаляемой строки.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>There is no row at the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Нет строк в заданной <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, resumes data binding.</source>
+          <target state="translated">При переопределении в производном классе возобновляет действие привязки данных.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt; and ResumeBinding are two methods that allow the temporary suspension and resumption of data binding.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt;и ResumeBinding двух методов, позволяющих временную приостановку и возобновление привязки данных.&lt;/xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You would typically suspend data binding if the user must be allowed to edit data fields before validation occurs.</source>
+          <target state="translated">Обычно привязка данных приостанавливается, если необходимо разрешить пользователю для редактирования поля данных перед проверкой.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the user might need to change a field to be in accordance with a second field; otherwise, validating the first field would cause the second field to be in error.</source>
+          <target state="translated">Например пользователю может потребоваться изменить поля в соответствии с второго поля; в противном случае проверка первого поля приведет к тому второе поле как ошибочный.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, suspends data binding.</source>
+          <target state="translated">При переопределении в производном классе приостанавливает действие привязки данных.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SuspendBinding and &lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt; are two methods that allow the temporary suspension and resumption of data binding.</source>
+          <target state="translated">Методы SuspendBinding и &lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;два метода, позволяющие временную приостановку и возобновление привязки данных.&lt;/xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You would typically suspend data binding if the user must be allowed to edit data fields before validation occurs.</source>
+          <target state="translated">Обычно привязка данных приостанавливается, если необходимо разрешить пользователю для редактирования поля данных перед проверкой.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the user might need to change a field to be in accordance with a second field; otherwise, validating the first field would cause the second field to be in error.</source>
+          <target state="translated">Например пользователю может потребоваться изменить поля в соответствии с второго поля; в противном случае проверка первого поля приведет к тому второе поле как ошибочный.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, updates the binding.</source>
+          <target state="translated">При переопределении в производном классе обновляет привязку.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UpdateIsBinding method updates the data binding between the bound control and its data source.</source>
+          <target state="translated">Метод UpdateIsBinding обновляет привязки данных между связанным элементом управления и источником данных.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For complex data-binding scenarios, it also resets the current position to the beginning of the underlying list.</source>
+          <target state="translated">В сложных сценариях привязки к данным он также возвращает текущую позицию в начало базового списка.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e571f08ffc24a7897d38816d873e6a547db39bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.IVersioningPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c3f0bcf7381f01bcbce6b9d31084fa0ad96028e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">167eac32a3398fd156e49441e07c81afdb8b3672</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an interface that can manage personalization data belonging to a previous version of a Web Parts control.</source>
+          <target state="translated">Представляет интерфейс, который может управлять данные персонализации, относящиеся к предыдущей версии элемента управления веб-частей.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you upgrade a Web Parts control to a newer version, there might be changes to the personalizable properties on the upgraded class.</source>
+          <target state="translated">При обновлении до более новой версии элемента управления веб-частей, может возникнуть изменение настраиваемых свойств измениться.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an upgraded version of a Web Parts control might no longer support properties that were available in previous versions.</source>
+          <target state="translated">Например обновленной версии элемента управления веб-частей может больше не поддерживает свойства, которые были доступны в предыдущих версиях.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such a scenario, the Web Parts control set might load personalization data from the underlying data store, but have no properties against which to apply this data.</source>
+          <target state="translated">В этом случае в наборе элементов управления веб-частей может загрузить данные индивидуальной настройки из базового хранилища данных, но нет свойств, к которому следует применить эти данные.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control implements the IVersioningPersonalizable interface, the Web Parts control is passed the orphaned personalization data.</source>
+          <target state="translated">Если элемент управления реализует интерфейс IVersioningPersonalizable, управления веб-частей передается персонализации потерянных данных.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application can then use this data to update properties in the newer version, or use the data in some other manner.</source>
+          <target state="translated">Приложение может использовать эти данные для обновления свойств в новой версии или использовать данные в других целях.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that if orphaned properties are detected when importing Web Parts controls, the &lt;xref:System.Web.UI.WebControls.WebParts.IVersioningPersonalizable.Load%2A&gt; method is also called.</source>
+          <target state="translated">Обратите внимание, что если при импорте веб-частей ASP.NET, будут обнаружены потерянные свойства &lt;xref:System.Web.UI.WebControls.WebParts.IVersioningPersonalizable.Load%2A&gt;метод также вызывается.&lt;/xref:System.Web.UI.WebControls.WebParts.IVersioningPersonalizable.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Loads personalization data to a Web Parts control that does not have a corresponding personalized property for the data due to a version change.</source>
+          <target state="translated">Загружает данные персонализации к элементу управления веб-части, который не поддерживает необходимые настраиваемые свойства для данных из-за изменения версии.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`unknownProperties`</ph> parameter contains a merged representation of unknown personalization data, of both "User" and "Shared" scope, that could not be applied to the control.</source>
+          <target state="translated"><ph id="ph1">`unknownProperties`</ph> Параметр содержит объединенные представления неизвестных данных персонализации, области «User» и «Общий», который не удалось применить к элементу управления.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a page is running in user scope, the unknown user-scope values are supplied (if available) rather than unknown shared-scope values.</source>
+          <target state="translated">Когда страница выполняется в пользовательской области, неизвестный области пользователя значения предоставляются (если доступно) вместо неизвестных значений общей областью.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information is stored as a series of name/value pairs where each name is the string name of a property that was not found on the control and each value contains the property value.</source>
+          <target state="translated">Эти сведения хранятся в виде последовательности пар имя значение, где имя каждого — строковое имя свойства, которое не было найдено в элементе управления, а каждое значение содержит значение свойства.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is the responsibility of the control to cast or convert the value to the appropriate type and carry out further processing (such as mapping data from an old property to a new property).</source>
+          <target state="translated">Он отвечает элемента управления, чтобы привести или преобразовать значение к соответствующему типу и выполняет дальнейшую обработку (например, сопоставление данных из старого свойства новое свойство).</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control's state changes, it should call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; (either the inherited method, or the public static method in the case of a control that does not derive from &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;).</source>
+          <target state="translated">При изменении состояния элемента управления, он должен вызывать &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;(унаследованного метода или общего статического метода в случае элемент управления, который является производным от &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;).&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control marks itself as "dirty", the Web Parts control set will extract personalization data from the control, regardless of the control's "dirty" state, and save it back to the underlying data store later in the personalization life cycle.</source>
+          <target state="translated">Если элемент управления помечает сам себя как «грязных», набор элементов управления веб-частей будет извлечь данные персонализации из элемента управления, независимо от состояния элемента управления «грязных» и сохраните его обратно в хранилище данных в жизненном цикле персонализации позже.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control should mark itself as "dirty" if, as a result of processing the values in the <ph id="ph1">`unknownProperties`</ph> parameter, the control's state has changed.</source>
+          <target state="translated">Элемент управления необходимо пометить как «грязных», в результате обработки значений в самой <ph id="ph1">`unknownProperties`</ph> параметр, состояние элемента управления изменилось.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that if orphaned properties are detected when importing Web Parts controls, this method is automatically called.</source>
+          <target state="translated">Обратите внимание, что если при импорте веб-части элементов управления будут обнаружены потерянные свойства, этот метод вызывается автоматически.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A dictionary of personalization data that could not be applied to a control.</source>
+          <target state="translated">Словарь данных персонализации, которые не удалось применить к элементу управления.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c49f0e1be87f960b7dfcf7d811ca0b2f625045e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Rfc2898DeriveBytes.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">381767a32ebe81b7940e57f2314493eeae3850c2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c70f348fc116936174057b69bfe07f4c9d5fd90</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements password-based key derivation functionality, PBKDF2, by using a pseudo-random number generator based on <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">实现基于密码的密钥派生功能 （PBKDF2) 通过使用基于的伪随机数生成器<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Rfc2898DeriveBytes takes a password, a salt, and an iteration count, and then generates keys through calls to the &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt; method.</source>
+          <target state="translated">Rfc2898DeriveBytes 采用密码、 salt 值和迭代次数，，然后生成密钥对的调用通过&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt;方法。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Rfc2898DeriveBytes class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">Rfc2898DeriveBytes 类可以用于生成派生的密钥从是基项和其他参数。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">有关 PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password and salt to derive the key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的密码和 salt 值派生密钥。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The salt size must be 8 bytes or larger.</source>
+          <target state="translated">Salt 大小必须为 8 个字节或更大。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类可以用于生成派生的密钥从是基项和其他参数。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">有关 PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">用于派生密钥的密码。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">用于派生密钥的密钥 salt。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节或迭代次数等于或大于 1。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">密码或 salt <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the password and salt size to derive the key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的密码和 salt 大小派生密钥。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The salt size must be 8 bytes or larger.</source>
+          <target state="translated">Salt 大小必须为 8 个字节或更大。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类可以用于生成派生的密钥从是基项和其他参数。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">有关 PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">用于派生密钥的密码。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The size of the random salt that you want the class to generate.</source>
+          <target state="translated">你希望类生成的随机 salt 的大小。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">密码或 salt <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt, and number of iterations to derive the key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用密码、 salt 值和迭代次数派生密钥。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">Salt 大小必须为 8 个字节或更大和迭代次数必须是大于零。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">建议的最小迭代数为 1000年。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类可以用于生成派生的密钥从是基项和其他参数。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">有关 PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">用于派生密钥的密码。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">用于派生密钥的密钥 salt。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">该操作的迭代数。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节或迭代次数等于或大于 1。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">密码或 salt <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt, and number of iterations to derive the key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用密码、 salt 值和迭代次数派生密钥。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">Salt 大小必须为 8 个字节或更大和迭代次数必须是大于零。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">建议的最小迭代数为 1000年。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类可以用于生成派生的密钥从是基项和其他参数。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">有关 PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">用于派生密钥的密码。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">用于派生密钥的密钥 salt。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">该操作的迭代数。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节或迭代次数等于或大于 1。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">密码或 salt <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt size, and number of iterations to derive the key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用密码、 salt 大小和迭代次数派生密钥。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">Salt 大小必须为 8 个字节或更大和迭代次数必须是大于零。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">建议的最小迭代数为 1000年。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 包括用于从密码和 salt 创建密钥和初始化向量 (IV) 的方法。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">PBKDF2，基于密码的密钥派生函数，可用于派生密钥使用允许键几乎不受限制的长度，以生成一个伪随机函数。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类可以用于生成派生的密钥从是基项和其他参数。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">在基于密码的密钥派生函数中，基密钥是密码和其他参数是一个 salt 值和迭代次数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information on PBKDF2, see RFC 2898,"PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">PBKDF2 的详细信息，请参阅 RFC 2898"PKCS #5︰ 基于密码的加密规范版本 2.0 中，"可在上找到<bpt id="p1">[</bpt>征求意见文档网站<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">有关完整详细信息，请参阅部分 5.2，"PBKDF2，"。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 切勿硬编码你的源代码中的密码。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">可以通过使用从程序集检索硬编码密码<bpt id="p1">[</bpt>Ildasm.exe （IL 反汇编程序）<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>、 使用十六进制编辑器中，或只需打开 Notepad.exe 等文本编辑器中的程序集。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">用于派生密钥的密码。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The size of the random salt that you want the class to generate.</source>
+          <target state="translated">你希望类生成的随机 salt 的大小。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">该操作的迭代数。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节或迭代次数等于或大于 1。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">密码或 salt <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;iterations &lt;/code&gt;</ph>is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;iterations &lt;/code&gt;</ph>超出了范围。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This parameter requires a non-negative number.</source>
+          <target state="translated">此参数要求的非负数。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Derives a cryptographic key from the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">派生的加密密钥<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This function is a wrapper for the Crypto API function CryptDeriveKey(), and is intended to offer interoperability with applications using the Crypto API.</source>
+          <target state="translated">此函数是加密 API 函数 CryptDeriveKey() 的包装器，并旨在提供与使用加密 API 的应用程序的互操作性。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`keySize`</ph> parameter is set to 0 bits, the default key size for the specified algorithm is used.</source>
+          <target state="translated">如果<ph id="ph1">`keySize`</ph>参数设置为 0 位，则将使用指定的算法的默认密钥大小。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The algorithm name for which to derive the key.</source>
+          <target state="translated">为其派生密钥的算法名称。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The hash algorithm name to use to derive the key.</source>
+          <target state="translated">要用于派生密钥的哈希算法名称。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The size of the key, in bits, to derive.</source>
+          <target state="translated">密钥，以位为单位，派生的大小。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The initialization vector (IV) to use to derive the key.</source>
+          <target state="translated">初始化向量 (IV) 要用于派生密钥。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The derived key.</source>
+          <target state="translated">派生的密钥。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keySize</ph><ept id="p1">&lt;/code&gt;</ept> parameter is incorrect.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keySize</ph> <ept id="p1">&lt;/code&gt;</ept>参数不正确。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">-或者-无法获取加密服务提供程序 (CSP)。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">algname</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid algorithm name.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">algname</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的算法名称。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">alghashname</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid hash algorithm name.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">alghashname</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的哈希算法名称。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resources.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the <ph id="ph2">`Finalize`</ph> method.</source>
+          <target state="translated">此方法称为由公共<ph id="ph1">`Dispose()`</ph>方法和<ph id="ph2">`Finalize`</ph>方法。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>调用受保护<ph id="ph2">`Dispose(Boolean)`</ph>方法替换<ph id="ph3">`disposing`</ph>参数设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Finalize`</ph> invokes <ph id="ph2">`Dispose`</ph> with <ph id="ph3">`disposing`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Finalize`</ph>调用<ph id="ph2">`Dispose`</ph>与<ph id="ph3">`disposing`</ph>设置为<ph id="ph4">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; references.</source>
+          <target state="translated">当<ph id="ph1">`disposing`</ph>参数是<ph id="ph2">`true`</ph>，此方法释放由任何托管对象持有的全部资源此&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;引用。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">此方法调用<ph id="ph1">`Dispose()`</ph>每个引用对象的方法。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns the pseudo-random key for this object.</source>
+          <target state="translated">返回此对象的伪随机密钥。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class implements PBKDF2 functionality by using a pseudorandom number generator based on &lt;xref:System.Security.Cryptography.HMACSHA1&gt;.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类实现通过使用基于&lt;xref:System.Security.Cryptography.HMACSHA1&gt;.&lt;/xref:System.Security.Cryptography.HMACSHA1&gt;的伪随机数生成器的 PBKDF2 功能&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class takes a password, a salt, and an iteration count, and then generates keys through calls to the GetBytes method.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;类采用密码、 salt 值和迭代次数，，然后生成通过对 GetBytes 方法的调用的键。&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Repeated calls to this method will not generate the same key; instead, appending two calls of the GetBytes method with a <ph id="ph1">`cb`</ph> parameter value of <ph id="ph2">`20`</ph> is the equivalent of calling the GetBytes method once with a <ph id="ph3">`cb`</ph> parameter value of <ph id="ph4">`40`</ph>.</source>
+          <target state="translated">重复的调用此方法将不会生成相同的密钥;相反，追加两个方法调用的 GetBytes 与<ph id="ph1">`cb`</ph>参数值的<ph id="ph2">`20`</ph>等效于调用一次带有 GetBytes 方法<ph id="ph3">`cb`</ph>的参数值<ph id="ph4">`40`</ph>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The number of pseudo-random key bytes to generate.</source>
+          <target state="translated">若要生成的伪随机密钥字节数。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A byte array filled with pseudo-random key bytes.</source>
+          <target state="translated">伪随机密钥字节填充字节数组。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cb &lt;/code&gt;</ph>is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cb &lt;/code&gt;</ph>超出了范围。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter requires a non-negative number.</source>
+          <target state="translated">此参数要求的非负数。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of iterations for the operation.</source>
+          <target state="translated">获取或设置操作的迭代数。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Iteration count is the number of times an operation is performed.</source>
+          <target state="translated">迭代次数是执行操作的次数。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For this method, the count should be greater than zero.</source>
+          <target state="translated">对于此方法中，计数应大于零。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">建议的最小迭代数为 1000年。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">该操作的迭代数。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The number of iterations is less than 1.</source>
+          <target state="translated">迭代数为小于 1。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Resets the state of the operation.</source>
+          <target state="translated">重置操作的状态。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This method is automatically called if the salt or iteration count is modified.</source>
+          <target state="translated">如果修改 salt 值或迭代计数，会自动调用此方法。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key salt value for the operation.</source>
+          <target state="translated">获取或设置操作的密钥 salt 值。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Salt, a random set of bytes, is used to make unauthorized decrypting of a message more difficult.</source>
+          <target state="translated">Salt，随机的一组字节，用于使未经授权的难度消息解密。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A dictionary attack is an attack in which the attacker attempts to decrypt an encrypted message by comparing the encrypted value with previously computed encrypted values for the most likely keys.</source>
+          <target state="translated">字典攻击是一种攻击，攻击者尝试通过将以前计算的加密值的最可能的密钥的加密的值进行比较解密加密的消息。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This attack is made much more difficult by the introduction of salt, or random bytes, at the end of the password before the key derivation.</source>
+          <target state="translated">困难得多的 salt，或随机字节，密码才能密钥派生末尾简介进行这种攻击。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The key salt value for the operation.</source>
+          <target state="translated">操作的密钥 salt 值。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes.</source>
+          <target state="translated">指定的 salt 大小小于 8 个字节。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Salt 是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">208208ba837b1634f468f0e432c1e0fb3523881c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Log.LogStore.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b2f8e51c70f6d4312af9a12879adb75c089c3af</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1143cfd537d1fc012a918de83fb6085b18c8e509</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a log-structured storage.</source>
+          <target state="translated">Reprezentuje magazynu opartą na strukturze dziennika.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Log.LogRecordSequence&gt; class provides an implementation of the record sequence interface on top of a Common Log File System (CLFS) log.</source>
+          <target state="translated">&lt;xref:System.IO.Log.LogRecordSequence&gt;Klasa zawiera implementację interfejsu sekwencja rekordów na wspólnej dziennika File System (CLFS) w dzienniku.&lt;/xref:System.IO.Log.LogRecordSequence&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It works with the LogStore class, which provides an interface for directly manipulating and managing a CLFS log file.</source>
+          <target state="translated">Działa on z klasą elementów LogStore, która zapewnia interfejs do bezpośrednio manipulowanie i zarządzanie CLFS pliku dziennika.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A log store provides append-only storage across a set of disk extents.</source>
+          <target state="translated">Magazynu dziennika zawiera tylko Dołącz magazynu zestawu zakresów dysków.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LogStore class represents this storage, and provides methods for adding and removing containers, setting policy, and creating archives.</source>
+          <target state="translated">Klasa elementów LogStore reprezentuje tego magazynu i dostarcza metod dodawania i usuwania kontenerów, ustawienia zasad i tworzenia archiwa.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does not provide methods for reading from and writing to the storage; these methods are provided by the &lt;xref:System.IO.Log.LogRecordSequence&gt; class.</source>
+          <target state="translated">Nie ma metody dla odczytywanie z oraz zapisywanie do magazynu; te metody są udostępniane przez &lt;xref:System.IO.Log.LogRecordSequence&gt;klasę.&lt;/xref:System.IO.Log.LogRecordSequence&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The relationship between the LogStore class and the &lt;xref:System.IO.Log.LogRecordSequence&gt; class is similar to the relationship between a disk file and a &lt;xref:System.IO.FileStream&gt; object.</source>
+          <target state="translated">Relacja między klasy elementów LogStore i &lt;xref:System.IO.Log.LogRecordSequence&gt;klasy jest podobna do relacji między pliku na dysku i &lt;xref:System.IO.FileStream&gt;obiektu.&lt;/xref:System.IO.FileStream&gt; &lt;/xref:System.IO.Log.LogRecordSequence&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The disk file provides the actual storage and has attributes such as length and last access time, while the &lt;xref:System.IO.FileStream&gt; object provides a view on the file that can be used to read from it and write to it.</source>
+          <target state="translated">Plik dysku miejsce przechowywania i atrybuty, takie jak długość i czas ostatniego dostępu, podczas &lt;xref:System.IO.FileStream&gt;obiektu zawiera widok na plik, który może służyć do odczytu i zapisu do niego.&lt;/xref:System.IO.FileStream&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the LogStore class has attributes like a policy and a collection of disk extents, and the &lt;xref:System.IO.Log.LogRecordSequence&gt; class provides a record-oriented mechanism for reading and writing data.</source>
+          <target state="translated">Podobnie, klasa elementów LogStore ma atrybutów, takich jak zasady i kolekcję zakresów dysków i &lt;xref:System.IO.Log.LogRecordSequence&gt;Klasa udostępnia zorientowane na rekordy mechanizm odczytywania i zapisywania danych.&lt;/xref:System.IO.Log.LogRecordSequence&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the file record sequence represented by the &lt;xref:System.IO.Log.FileRecordSequence&gt; class, a LogStore instance stores its data in a collection of disk extents, represented by &lt;xref:System.IO.Log.LogExtent&gt; instances.</source>
+          <target state="translated">W odróżnieniu od sekwencja rekordów pliku reprezentowany przez &lt;xref:System.IO.Log.FileRecordSequence&gt;klasy wystąpienia elementów LogStore przechowuje dane w kolekcji zakresów dysków, reprezentowany przez &lt;xref:System.IO.Log.LogExtent&gt;wystąpień.&lt;/xref:System.IO.Log.LogExtent&gt; &lt;/xref:System.IO.Log.FileRecordSequence&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extents in a given LogStore instance are all of uniform size, and space is added to and removed from a LogStore instance in extent increments.</source>
+          <target state="translated">Zakresów w podanym wystąpieniu elementów LogStore są wszystkie o różnych wielkościach i miejsca zostanie dodany do i usunąć z wystąpienia elementów LogStore w przyrostach zakresu.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add and remove log extents, use the &lt;xref:System.IO.Log.LogExtentCollection.Add%2A&gt; and &lt;xref:System.IO.Log.LogExtentCollection.Remove%2A&gt; methods of the &lt;xref:System.IO.Log.LogExtentCollection&gt; object, which can be returned by the &lt;xref:System.IO.Log.LogStore.Extents%2A&gt; property.</source>
+          <target state="translated">Aby dodać lub usunąć zakresy dziennika, należy użyć &lt;xref:System.IO.Log.LogExtentCollection.Add%2A&gt;i &lt;xref:System.IO.Log.LogExtentCollection.Remove%2A&gt;metody &lt;xref:System.IO.Log.LogExtentCollection&gt;obiektu, który może być zwracany przez &lt;xref:System.IO.Log.LogStore.Extents%2A&gt;Właściwości.&lt;/xref:System.IO.Log.LogStore.Extents%2A&gt; &lt;/xref:System.IO.Log.LogExtentCollection&gt; &lt;/xref:System.IO.Log.LogExtentCollection.Remove%2A&gt; &lt;/xref:System.IO.Log.LogExtentCollection.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A LogStore instance can have policies associated with it.</source>
+          <target state="translated">Wystąpienia elementów LogStore może mieć zasady skojarzone z nim.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These are represented by &lt;xref:System.IO.Log.LogPolicy&gt; instances that can be returned by the &lt;xref:System.IO.Log.LogStore.Policy%2A&gt; property.</source>
+          <target state="translated">Są one reprezentowane przez &lt;xref:System.IO.Log.LogPolicy&gt;wystąpień, które mogą być zwrócone przez &lt;xref:System.IO.Log.LogStore.Policy%2A&gt;Właściwości.&lt;/xref:System.IO.Log.LogStore.Policy%2A&gt; &lt;/xref:System.IO.Log.LogPolicy&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A policy dictates rules that the log will attempt to follow, such as maximum number of extents and minimum size, and instructions on growing or shrinking the LogStore under certain conditions.</source>
+          <target state="translated">Zasady wymuszają zasady, które dziennika będzie podejmować kolejnych, takich jak maksymalna liczba zakresów, a minimalny rozmiar i instrukcje związanych z rośnie lub zmniejszanie elementów LogStore w niektórych warunkach.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, you can specify whether a LogStore instance can be archived.</source>
+          <target state="translated">Ponadto można określić, czy można je archiwizować wystąpienia elementów LogStore.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Policies are set per log and are volatile, which means that once every handle to the log is closed, the policy no longer exists.</source>
+          <target state="translated">Zasady są ustawione na dziennika i są nietrwałe, co oznacza, że po zamknięciu co dojścia do dziennika zasady już nie istnieje.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified handle.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy dla określonego dojścia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A file handle for the log file that the current <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object encapsulates.</source>
+          <target state="translated">Dojście do pliku dziennika plik, który bieżącego <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hermetyzuje obiektu.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;handle&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;handle&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The log handle could not be bound to the thread pool.</source>
+          <target state="translated">Nie można powiązać dojścia dziennika z pulą wątków.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified path and mode.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określoną ścieżką i trybu.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to open a log store with the specified path and mode.</source>
+          <target state="translated">Ten konstruktor umożliwia otwieranie magazynu dziennika z określoną ścieżką i trybu.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The store is opened with read/write access, and shares read access.</source>
+          <target state="translated">Magazyn jest otwarta z dostępem do odczytu/zapisu i udostępnia dostęp do odczytu.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`path`</ph> parameter should use the following syntax:       <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph>       where <ph id="ph3">`&lt;physical log name&gt;`</ph> is a valid path to a log file, and <ph id="ph4">`&lt;log client name&gt;`</ph> is a unique client identifier.</source>
+          <target state="translated"><ph id="ph1">`path`</ph> Parametru należy użyć następującej składni: <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph> gdzie <ph id="ph3">`&lt;physical log name&gt;`</ph> jest prawidłową ścieżką do pliku dziennika i <ph id="ph4">`&lt;log client name&gt;`</ph> jest identyfikatorem unikatowych klientów.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A log store should be either a physical log store or a virtual log store, but not both.</source>
+          <target state="translated">Magazynu dziennika powinien być magazynu fizycznego dziennika lub magazynu wirtualnego dziennika, ale nie oba.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a log store has been created physically or virtually, it remains so for its lifetime.</source>
+          <target state="translated">Po utworzeniu magazynu dziennika, fizycznie lub praktycznie, pozostaje tak przez jego okres istnienia.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A physical log store is created by specifying only the physical log name.</source>
+          <target state="translated">Magazynu fizycznego dziennika jest tworzony, określając nazwę dziennika fizycznego.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A virtual log store is created by specifying both the physical log name and the log client name.</source>
+          <target state="translated">Magazynu wirtualnego dziennika jest tworzony przez określenie zarówno nazwę dziennika fizycznych, jak i nazwę dziennika klienta.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that share the same physical log name share the same extents collection and policy.</source>
+          <target state="translated">Klientów, które mają taką samą nazwę dziennika fizycznego korzysta z tej samej kolekcji zakresów i zasad.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A relative or absolute path for the base file of the log store to open.</source>
+          <target state="translated">Względna lub bezwzględna ścieżka pliku podstawowego magazynu dziennika do otwarcia.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how to open or create the store.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak otworzyć lub utworzyć magazynu.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>to ciąg pusty ("").</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains only white space.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera tylko biały znak.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains one or more invalid characters.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera jeden lub więcej nieprawidłowych znaków.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Nie można odnaleźć pliku.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when opening the log store.</source>
+          <target state="translated">Występuje błąd We/Wy podczas otwierania magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used because the required Common Log File System (CLFS) component is not installed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Nie można użyć, ponieważ wymagany składnik wspólnej dziennika File System (CLFS) nie jest zainstalowany.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Install the CLFS component if it is available for your platform or use the <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class instead.</source>
+          <target state="translated">Zainstaluj składnik CLFS, jeśli jest dostępna dla platformy lub użyj <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zamiast klasy.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified path, mode, and access.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z określonej ścieżki, tryb i dostępu.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to open a new log store with the specified path, mode, and access.</source>
+          <target state="translated">Aby otworzyć nowy magazyn dziennika z określonej ścieżki, tryb i dostępu, należy użyć tego konstruktora.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The store is opened sharing read access.</source>
+          <target state="translated">Magazyn jest otwarty, udostępnianie dostęp do odczytu.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`path`</ph> parameter should use the following syntax:       <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph>       where <ph id="ph3">`&lt;physical log name&gt;`</ph> is a valid path to a log file, and <ph id="ph4">`&lt;log client name&gt;`</ph> is a unique client identifier.</source>
+          <target state="translated"><ph id="ph1">`path`</ph> Parametru należy użyć następującej składni: <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph> gdzie <ph id="ph3">`&lt;physical log name&gt;`</ph> jest prawidłową ścieżką do pliku dziennika i <ph id="ph4">`&lt;log client name&gt;`</ph> jest identyfikatorem unikatowych klientów.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A log store should be either a physical log store or a virtual log store, but not both.</source>
+          <target state="translated">Magazynu dziennika powinien być magazynu fizycznego dziennika lub magazynu wirtualnego dziennika, ale nie oba.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a log store has been created physically or virtually, it remains so for its lifetime.</source>
+          <target state="translated">Po utworzeniu magazynu dziennika, fizycznie lub praktycznie, pozostaje tak przez jego okres istnienia.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A physical log store is created by specifying only the physical log name.</source>
+          <target state="translated">Magazynu fizycznego dziennika jest tworzony, określając nazwę dziennika fizycznego.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A virtual log store is created by specifying both the physical log name and the log client name.</source>
+          <target state="translated">Magazynu wirtualnego dziennika jest tworzony przez określenie zarówno nazwę dziennika fizycznych, jak i nazwę dziennika klienta.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that share the same physical log name share the same extents collection and policy.</source>
+          <target state="translated">Klientów, które mają taką samą nazwę dziennika fizycznego korzysta z tej samej kolekcji zakresów i zasad.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A relative or absolute path for the base file of the log store to open.</source>
+          <target state="translated">Względna lub bezwzględna ścieżka pliku podstawowego magazynu dziennika do otwarcia.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how to open or create the store.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak otworzyć lub utworzyć magazynu.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how the file can be accessed by the <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak można uzyskać dostępu do pliku <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>to ciąg pusty ("").</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains only white space.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera tylko biały znak.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains one or more invalid characters.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera jeden lub więcej nieprawidłowych znaków.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-or       <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated">- lub <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Nie można odnaleźć pliku.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when opening the log store.</source>
+          <target state="translated">Występuje błąd We/Wy podczas otwierania magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used because the required Common Log File System (CLFS) component is not installed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Nie można użyć, ponieważ wymagany składnik wspólnej dziennika File System (CLFS) nie jest zainstalowany.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Install the CLFS component if it is available for your platform or use the <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class instead.</source>
+          <target state="translated">Zainstaluj składnik CLFS, jeśli jest dostępna dla platformy lub użyj <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zamiast klasy.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a new &lt;xref:System.IO.Log.LogStore&gt; object that it opens with the specified path, mode, and access.</source>
+          <target state="translated">Ten konstruktor inicjuje nowy &lt;xref:System.IO.Log.LogStore&gt;obiekt, który zostanie otwarty z określonej ścieżki, tryb i dostępu.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The store is opened sharing the specified access.</source>
+          <target state="translated">Magazyn jest otwarty, udostępnianie określonego dostępu.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`path`</ph> parameter should use the following syntax:       <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph>       where <ph id="ph3">`&lt;physical log name&gt;`</ph> is a valid path to a log file, and <ph id="ph4">`&lt;log client name&gt;`</ph> is a unique client identifier.</source>
+          <target state="translated"><ph id="ph1">`path`</ph> Parametru należy użyć następującej składni: <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph> gdzie <ph id="ph3">`&lt;physical log name&gt;`</ph> jest prawidłową ścieżką do pliku dziennika i <ph id="ph4">`&lt;log client name&gt;`</ph> jest identyfikatorem unikatowych klientów.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A log store should be either a physical log store or a virtual log store, but not both.</source>
+          <target state="translated">Magazynu dziennika powinien być magazynu fizycznego dziennika lub magazynu wirtualnego dziennika, ale nie oba.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a log store has been created physically or virtually, it remains so for its lifetime.</source>
+          <target state="translated">Po utworzeniu magazynu dziennika, fizycznie lub praktycznie, pozostaje tak przez jego okres istnienia.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A physical log store is created by specifying only the physical log name.</source>
+          <target state="translated">Magazynu fizycznego dziennika jest tworzony, określając nazwę dziennika fizycznego.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A virtual log store is created by specifying both the physical log name and the log client name.</source>
+          <target state="translated">Magazynu wirtualnego dziennika jest tworzony przez określenie zarówno nazwę dziennika fizycznych, jak i nazwę dziennika klienta.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that share the same physical log name share the same extents collection and policy.</source>
+          <target state="translated">Klientów, które mają taką samą nazwę dziennika fizycznego korzysta z tej samej kolekcji zakresów i zasad.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A relative or absolute path for the base file of the log store to open.</source>
+          <target state="translated">Względna lub bezwzględna ścieżka pliku podstawowego magazynu dziennika do otwarcia.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how to open or create the store.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak otworzyć lub utworzyć magazynu.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how the file can be accessed by the <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak można uzyskać dostępu do pliku <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileShare"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how the log store will be shared among processes.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileShare"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak magazynu dziennika będzie współdzielona przez procesy.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>to ciąg pusty ("").</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains only white space.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera tylko biały znak.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains one or more invalid characters.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera jeden lub więcej nieprawidłowych znaków.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-or       <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated">- lub <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;share&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;share&lt;/code&gt;</ph> zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Nie można odnaleźć pliku.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when opening the log store.</source>
+          <target state="translated">Występuje błąd We/Wy podczas otwierania magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used because the required Common Log File System (CLFS) component is not installed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Nie można użyć, ponieważ wymagany składnik wspólnej dziennika File System (CLFS) nie jest zainstalowany.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Install the CLFS component if it is available for your platform or use the <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class instead.</source>
+          <target state="translated">Zainstaluj składnik CLFS, jeśli jest dostępna dla platformy lub użyj <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zamiast klasy.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a new &lt;xref:System.IO.Log.LogStore&gt; object that it opens with the specified path, mode, and access.</source>
+          <target state="translated">Ten konstruktor inicjuje nowy &lt;xref:System.IO.Log.LogStore&gt;obiekt, który zostanie otwarty z określonej ścieżki, tryb i dostępu.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The store is opened sharing the specified access.</source>
+          <target state="translated">Magazyn jest otwarty, udostępnianie określonego dostępu.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`path`</ph> parameter should follow the following syntax:       <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph>       where <ph id="ph3">`&lt;physical log name&gt;`</ph> is a valid path to a log file, and <ph id="ph4">`&lt;log client name&gt;`</ph> is a unique client identifier.</source>
+          <target state="translated"><ph id="ph1">`path`</ph> Parametr należy wykonać następującą składnię: <ph id="ph2">`log:&lt;physical log name&gt;[::&lt;log client name&gt;]`</ph> gdzie <ph id="ph3">`&lt;physical log name&gt;`</ph> jest prawidłową ścieżką do pliku dziennika i <ph id="ph4">`&lt;log client name&gt;`</ph> jest identyfikatorem unikatowych klientów.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A log store should be either a physical log store or a virtual log store, but not both.</source>
+          <target state="translated">Magazynu dziennika powinien być magazynu fizycznego dziennika lub magazynu wirtualnego dziennika, ale nie oba.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a log store has been created physically or virtually, it remains so for its lifetime.</source>
+          <target state="translated">Po utworzeniu magazynu dziennika, fizycznie lub praktycznie, pozostaje tak przez jego okres istnienia.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A physical log store is created by specifying only the physical log name.</source>
+          <target state="translated">Magazynu fizycznego dziennika jest tworzony, określając nazwę dziennika fizycznego.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A virtual log store is created by specifying both the physical log name and the log client name.</source>
+          <target state="translated">Magazynu wirtualnego dziennika jest tworzony przez określenie zarówno nazwę dziennika fizycznych, jak i nazwę dziennika klienta.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that share the same physical log name share the same extents collection and policy.</source>
+          <target state="translated">Klientów, które mają taką samą nazwę dziennika fizycznego korzysta z tej samej kolekcji zakresów i zasad.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A relative or absolute path for the base file of the log store to open.</source>
+          <target state="translated">Względna lub bezwzględna ścieżka pliku podstawowego magazynu dziennika do otwarcia.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how to open or create the store.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak otworzyć lub utworzyć magazynu.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how the file can be accessed by the <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak można uzyskać dostępu do pliku <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.FileShare"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that determines how the log store will be shared among processes.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.FileShare"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa, jak magazynu dziennika będzie współdzielona przez procesy.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the security to set on the newly created store if the store must be created.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość, która określa zabezpieczeń można ustawić na nowo utworzony magazyn, jeśli magazyn musi zostać utworzony.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The log store file name specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> is not valid.</source>
+          <target state="translated">Nazwa pliku magazynu dziennika określony przez <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Mode</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_CreateNew" name="CreateNew" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, which cannot be used without write access.</source>
+          <target state="translated">- lub - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">Mode</ph> <ept id="p1">&lt;/code&gt;</ept> jest <bpt id="p2">&lt;xref uid="langword_csharp_CreateNew" name="CreateNew" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, której nie można używać bez dostępu do zapisu.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Mode</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_OpenOrCreate" name="OpenOrCreate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, which cannot be used without write access.</source>
+          <target state="translated">- lub - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">Mode</ph> <ept id="p1">&lt;/code&gt;</ept> jest <bpt id="p2">&lt;xref uid="langword_csharp_OpenOrCreate" name="OpenOrCreate" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, której nie można używać bez dostępu do zapisu.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-or       <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated">- lub <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;share&lt;/code&gt;</ph> contains an invalid value.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;share&lt;/code&gt;</ph> zawiera nieprawidłową wartość.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Nie można odnaleźć pliku.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when opening the log store.</source>
+          <target state="translated">Występuje błąd We/Wy podczas otwierania magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The file specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> cannot be accessed because it is in use by another process.</source>
+          <target state="translated">Plik określony przez <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> jest niedostępny, ponieważ jest on używany przez inny proces.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-or-       The file specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> cannot be created because the file or directory already exists.</source>
+          <target state="translated">- lub - plik określony przez <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> nie można utworzyć, ponieważ plik lub katalog już istnieje.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       The log handle could not be bound to the thread pool.</source>
+          <target state="translated">- lub - nie można powiązać dojścia dziennika z pulą wątków.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-or-       The specified log file format or version is invalid.</source>
+          <target state="translated">- lub - format pliku dziennika określonego lub wersja jest nieprawidłowa.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used because the required Common Log File System (CLFS) component is not installed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Nie można użyć, ponieważ wymagany składnik wspólnej dziennika File System (CLFS) nie jest zainstalowany.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Install the CLFS component if it is available for your platform or use the <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class instead.</source>
+          <target state="translated">Zainstaluj składnik CLFS, jeśli jest dostępna dla platformy lub użyj <bpt id="p1">&lt;xref href="System.IO.Log.FileRecordSequence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zamiast klasy.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The record sequence is full.</source>
+          <target state="translated">Sekwencja rekordów jest pełna.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance can be archived.</source>
+          <target state="translated">Pobiera wartość wskazującą czy to <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienie może być archiwizowane.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.IO.Log.LogStore&gt; is not archivable, calls to the &lt;xref:System.IO.Log.LogStore.CreateLogArchiveSnapshot%2A&gt; and &lt;xref:System.IO.Log.LogStore.SetArchiveTail%2A&gt; methods result in a &lt;xref:System.NotSupportedException&gt; being thrown.</source>
+          <target state="translated">Jeśli &lt;xref:System.IO.Log.LogStore&gt;nie można utworzyć archiwum, wywołań &lt;xref:System.IO.Log.LogStore.CreateLogArchiveSnapshot%2A&gt;i &lt;xref:System.IO.Log.LogStore.SetArchiveTail%2A&gt;metody powoduje &lt;xref:System.NotSupportedException&gt;został zgłoszony.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.IO.Log.LogStore.SetArchiveTail%2A&gt; &lt;/xref:System.IO.Log.LogStore.CreateLogArchiveSnapshot%2A&gt; &lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance can be archived; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wystąpienie może być archiwizowane; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The property was accessed after the sequence has been disposed of.</source>
+          <target state="translated">Właściwość uzyskano po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets the lowest sequence number that corresponds to a valid record in this <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Pobiera najniższy numer sekwencji, odpowiadający z prawidłowym rekordem w tym <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid sequence numbers are greater than or equal to BaseSequenceNumber and less than &lt;xref:System.IO.Log.LogStore.LastSequenceNumber%2A&gt;.</source>
+          <target state="translated">Prawidłowych numerów sekwencji jest większa niż lub równa BaseSequenceNumber i mniejsza niż &lt;xref:System.IO.Log.LogStore.LastSequenceNumber%2A&gt;.&lt;/xref:System.IO.Log.LogStore.LastSequenceNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The lowest sequence number that corresponds to a valid record in this <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Najniższy numer sekwencji, umożliwiająca prawidłowy rekord w tym <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The property was accessed after the sequence has been disposed of.</source>
+          <target state="translated">Właściwość uzyskano po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Takes a snapshot of the log store state for making a backup.</source>
+          <target state="translated">Pobiera migawkę stanu magazynu dziennika do tworzenia kopii zapasowej.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Log.LogArchiveSnapshot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the state necessary to make an archive.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Log.LogArchiveSnapshot"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który zawiera stan niezbędne do archiwum.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The log store is not archivable.</source>
+          <target state="translated">Nie można utworzyć archiwum magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when creating the archive snapshot.</source>
+          <target state="translated">Występuje błąd We/Wy podczas tworzenia migawki archiwum.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An argument is not valid.</source>
+          <target state="translated">Argument jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An invalid operation has been executed.</source>
+          <target state="translated">Nieprawidłowa operacja zostało wykonane.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The record sequence is full.</source>
+          <target state="translated">Sekwencja rekordów jest pełna.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Takes a snapshot of the log store state between the specified sequence numbers for making a backup.</source>
+          <target state="translated">Pobiera migawkę stanu magazynu dziennika między liczbami określona sekwencja do tworzenia kopii zapasowej.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The archive snapshot returned from this method encompasses information from either the base sequence number or the archive sequence number, whichever is lower, to the last sequence number.</source>
+          <target state="translated">Informacje z numerem podstawowej lub numer sekwencyjny archiwum obejmuje migawki archiwum zwracane z tej metody, nastąpi małe, ostatni numer sekwencji.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not inclusive for the last sequence number, which means that the archive only includes records up to but not including last.</source>
+          <target state="translated">Nie jest ostatniego numeru sekwencji, co oznacza, że archiwum tylko znajdują się rekordy do z wyjątkiem ostatnich włącznie.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, when using this method, the start SequenceNumber must be equal to the BaseSequenceNumber in order for the archive to be consistent.</source>
+          <target state="translated">Ponadto przy użyciu tej metody, start SequenceNumber musi być równa BaseSequenceNumber aby archiwum było spójne.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The starting sequence number in the range to archive.</source>
+          <target state="translated">Numer początkowej sekwencji w zakresie archiwizacji.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The ending sequence number in the range to archive.</source>
+          <target state="translated">Końcowy numer sekwencji w zakresie archiwizacji.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Log.LogArchiveSnapshot"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the state necessary to make an archive.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Log.LogArchiveSnapshot"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który zawiera stan niezbędne do archiwum.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;first&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;last&lt;/code&gt;</ph> is not between the base and last sequence numbers of this sequence.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;first&lt;/code&gt;</ph>lub <ph id="ph2">&lt;code&gt;last&lt;/code&gt;</ph> nie jest od podstawowego do ostatniego numeru sekwencji.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;first&lt;/code&gt;</ph> is larger than <ph id="ph2">&lt;code&gt;last&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;first&lt;/code&gt;</ph>jest większe niż <ph id="ph2">&lt;code&gt;last&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An invalid operation has been executed.</source>
+          <target state="translated">Nieprawidłowa operacja zostało wykonane.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when creating the archive snapshot.</source>
+          <target state="translated">Występuje błąd We/Wy podczas tworzenia migawki archiwum.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The log store is not archivable.</source>
+          <target state="translated">Nie można utworzyć archiwum magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The record sequence is full.</source>
+          <target state="translated">Sekwencja rekordów jest pełna.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Removes the log store.</source>
+          <target state="translated">Usuwa magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A relative or absolute path for the base file of the log store to remove.</source>
+          <target state="translated">Względna lub bezwzględna ścieżka pliku podstawowego magazynu dziennika do usunięcia.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>to ciąg pusty ("").</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains only white space.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera tylko biały znak.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> contains one or more invalid characters.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> zawiera jeden lub więcej nieprawidłowych znaków.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Nie można odnaleźć pliku.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when opening the log store.</source>
+          <target state="translated">Występuje błąd We/Wy podczas otwierania magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwalnia wszelkie zasoby używane przez <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you have finished using the &lt;xref:System.IO.Log.LogStore&gt;.</source>
+          <target state="translated">Wywołaj metodę Dispose po zakończeniu przy użyciu &lt;xref:System.IO.Log.LogStore&gt;.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.IO.Log.LogStore&gt; in an unusable state.</source>
+          <target state="translated">Metoda Dispose pozostawia &lt;xref:System.IO.Log.LogStore&gt;w stanie uniemożliwiającym jego używanie.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose , you must release all references to the &lt;xref:System.IO.Log.LogStore&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.IO.Log.LogStore&gt; was occupying.</source>
+          <target state="translated">Po wywołaniu metody Dispose, konieczne jest zwolnienie wszystkich odwołań do &lt;xref:System.IO.Log.LogStore&gt;, moduł zbierający elementy bezużyteczne mógł odzyskać pamięć który &lt;xref:System.IO.Log.LogStore&gt;klasy.&lt;/xref:System.IO.Log.LogStore&gt; &lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.IO.Log.LogStore&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Wywołania zawsze dysponować przed zwolnieniem ostatniego odwołania do &lt;xref:System.IO.Log.LogStore&gt;.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.IO.Log.LogStore&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">W przeciwnym razie używa zasobów nie zostanie zwolniona do wywołania modułu zbierającego elementy bezużyteczne &lt;xref:System.IO.Log.LogStore&gt;obiektu <ph id="ph1">`Finalize`</ph> metody.&lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets the collection of log extents that contain the data for this log store.</source>
+          <target state="translated">Pobiera kolekcję zakresów dziennika, które zawierają dane dla tego magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Log.LogStore&gt; instance stores its data in a collection of disk extents, represented by &lt;xref:System.IO.Log.LogExtent&gt; instances.</source>
+          <target state="translated">A &lt;xref:System.IO.Log.LogStore&gt;wystąpienia przechowuje dane w kolekcji zakresów dysków, reprezentowany przez &lt;xref:System.IO.Log.LogExtent&gt;wystąpień.&lt;/xref:System.IO.Log.LogExtent&gt; &lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extents in a given &lt;xref:System.IO.Log.LogStore&gt; instance are all of uniform size, and space is added to and removed from a &lt;xref:System.IO.Log.LogStore&gt; instance in extent increments.</source>
+          <target state="translated">Zakresów w danym &lt;xref:System.IO.Log.LogStore&gt;wystąpienia są wszystkie o różnych wielkościach, a miejsca zostaną dodane do i usunięte z &lt;xref:System.IO.Log.LogStore&gt;wystąpienie w zakresie zwiększa.&lt;/xref:System.IO.Log.LogStore&gt; &lt;/xref:System.IO.Log.LogStore&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add and remove log extents, use the &lt;xref:System.IO.Log.LogExtentCollection.Add%2A&gt;and&lt;xref:System.IO.Log.LogExtentCollection.Remove%2A&gt; methods of the &lt;xref:System.IO.Log.LogExtentCollection&gt; object, which is returned by this property.</source>
+          <target state="translated">Aby dodać lub usunąć zakresy dziennika, należy użyć &lt;xref:System.IO.Log.LogExtentCollection.Add%2A&gt;i&lt;xref:System.IO.Log.LogExtentCollection.Remove%2A&gt; metody &lt;xref:System.IO.Log.LogExtentCollection&gt;obiektu, który jest zwracany przez tę właściwość.&lt;/xref:System.IO.Log.LogExtentCollection&gt; &lt;/xref:System.IO.Log.LogExtentCollection.Remove%2A&gt; &lt;/xref:System.IO.Log.LogExtentCollection.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Log.LogExtentCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance containing the collection of log extents that encapsulates data for this log store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Log.LogExtentCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia zawierający kolekcję zakresów dziennika, który hermetyzuje dane dla tego magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets the number of bytes available in the log store.</source>
+          <target state="translated">Pobiera liczbę bajtów dostępnych w magazynie dziennika.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The number of bytes available in the log store.</source>
+          <target state="translated">Liczba bajtów, które są dostępne w magazynie dziennika.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The property was accessed after the sequence has been disposed of.</source>
+          <target state="translated">Właściwość uzyskano po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets the operating system file handle for the log file that the current <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance encapsulates.</source>
+          <target state="translated">Pobiera dojście do pliku systemu operacyjnego dla plików dziennika, który bieżącego <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hermetyzuje wystąpienia.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The operating system file handle for the log file that the current <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance encapsulates.</source>
+          <target state="translated">Dojście do pliku systemu operacyjnego dla dziennika pliku bieżącego <bpt id="p1">&lt;xref href="System.IO.Log.LogStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hermetyzuje wystąpienia.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the sequence number of the next record to be appended to the log store.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej pobiera numer sekwencyjny następnego rekordu mają być dołączane do magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid sequence numbers are greater than or equal to &lt;xref:System.IO.Log.LogStore.BaseSequenceNumber%2A&gt; and less than LastSequenceNumber.</source>
+          <target state="translated">Prawidłowych numerów sekwencji są większe niż lub równe &lt;xref:System.IO.Log.LogStore.BaseSequenceNumber%2A&gt;i mniejsza niż LastSequenceNumber.&lt;/xref:System.IO.Log.LogStore.BaseSequenceNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The sequence number of the next record to be appended to the log store.</source>
+          <target state="translated">Numer sekwencyjny następnego rekordu mają być dołączane do magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The property was accessed after the sequence has been disposed of.</source>
+          <target state="translated">Właściwość uzyskano po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the size of the log store, in bytes.</source>
+          <target state="translated">Pobiera rozmiar magazynu dziennika w bajtach.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The size of the log store is the sum of the sizes of the log extents.</source>
+          <target state="translated">Rozmiar magazynu dziennika jest sumą rozmiary zakresów dziennika.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The size of the log store, in bytes.</source>
+          <target state="translated">Rozmiar magazynu dziennika w bajtach.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The property was accessed after the sequence has been disposed of.</source>
+          <target state="translated">Właściwość uzyskano po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Gets the policy associated with this log store.</source>
+          <target state="translated">Pobiera zasady skojarzone z tym magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.IO.Log.LogPolicy&gt; instance returned by this property to examine and manipulate the log policy associated with this &lt;xref:System.IO.Log.LogStore&gt;.</source>
+          <target state="translated">Można użyć &lt;xref:System.IO.Log.LogPolicy&gt;wystąpienia zwracane przez tę właściwość do badania i manipulowania zasad dziennika skojarzonych z tym &lt;xref:System.IO.Log.LogStore&gt;.&lt;/xref:System.IO.Log.LogStore&gt; &lt;/xref:System.IO.Log.LogPolicy&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Log.LogPolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance representing the policy associated with this log store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Log.LogPolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia reprezentującej zasady skojarzone z tym magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Sets the sequence number of the archive tail.</source>
+          <target state="translated">Ustawia numer sekwencji uchwyt archiwum.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The smaller of the base sequence number and the archive tail determines the tail of the log.</source>
+          <target state="translated">Mniejsze numer sekwencyjny podstawowej i uchwyt archiwum określa końcowego fragmentu dziennika.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The sequence number of the archive tail.</source>
+          <target state="translated">Numer sekwencji uchwyt archiwum.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveTail&lt;/code&gt;</ph> is not between the base and last sequence numbers of this sequence.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveTail&lt;/code&gt;</ph>nie jest od podstawowego do ostatniego numeru sekwencji.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveTail&lt;/code&gt;</ph> is not valid for this sequence.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveTail&lt;/code&gt;</ph>jest nieprawidłowy dla tej sekwencji.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>An invalid operation has been executed.</source>
+          <target state="translated">Nieprawidłowa operacja zostało wykonane.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An I/O error occurs when creating the archive snapshot.</source>
+          <target state="translated">Występuje błąd We/Wy podczas tworzenia migawki archiwum.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The log store is not archivable.</source>
+          <target state="translated">Nie można utworzyć archiwum magazynu dziennika.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The method was called after the sequence has been disposed of.</source>
+          <target state="translated">Metoda została wywołana po sekwencji został zlikwidowany.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to continue the execution of a program.</source>
+          <target state="translated">Nie ma wystarczającej ilości pamięci, aby kontynuować wykonywanie programu.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Access for the specified log store is denied by the operating system.</source>
+          <target state="translated">Odmowa dostępu do magazynu określony dziennik przez system operacyjny.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Gets the number of log streams in this log store.</source>
+          <target state="translated">Pobiera liczbę strumieni dziennik w tym magazynie dziennika.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The number of log streams in this log store.</source>
+          <target state="translated">Liczba strumieni dziennik w tym magazynie dziennika.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">707a802f6c13f9a11f596a09282f85a91083f54f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpCacheVaryByContentEncodings.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">165ba4530ed71024b564a6316e0f6009d3df48d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed4e969331e9bf0047293dbac25e1bb18a95bb3a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a type-safe way to set the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt; property of the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">提供以类型安全的方式来设置&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt;属性<bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property is used to specify whether dynamically compressed responses are cached.</source>
+          <target state="translated">&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;属性用于指定是否缓存动态压缩的响应。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Caching dynamically compressed responses means that the cost of compression is incurred only one time, during the first request for the resource (or after an application restart) and when the cache item expires.</source>
+          <target state="translated">缓存动态压缩的响应，则意味着，压缩的成本只发生一次，在第一次请求资源 （或应用程序重新启动后） 和缓存项的到期时期间。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property of the &lt;xref:System.Web.HttpCachePolicy&gt; class identifies which request header parameters ASP.NET uses to uniquely identify a variation of the response if there are multiple cached responses for a resource.</source>
+          <target state="translated">&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;属性&lt;xref:System.Web.HttpCachePolicy&gt;类标识 ASP.NET 用于唯一标识的响应变体，如果有多个资源的缓存的响应的请求标头参数。&lt;/xref:System.Web.HttpCachePolicy&gt; &lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is useful when a response depends on a set of client inputs, such as headers, parameters, or content encodings.</source>
+          <target state="translated">当响应依赖于一组客户端输入，如标头、 参数或内容编码时，这非常有用。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The HttpCacheVaryByContentEncodings class is not directly related to HTTP cache-control headers.</source>
+          <target state="translated">与 HTTP 缓存控制标头 HttpCacheVaryByContentEncodings 类不直接相关。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, it helps make sure that a response to a client or a proxy varies by the specified content encoding.</source>
+          <target state="translated">但是，它可帮助确保响应客户端或代理因指定的内容编码。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Setting the cache to vary by content encoding enables ASP.NET to vary the response by the <ph id="ph1">`Accept-Encoding`</ph> header.</source>
+          <target state="translated">设置缓存因内容编码使 ASP.NET 可以改变的响应将随<ph id="ph1">`Accept-Encoding`</ph>标头。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a request is processed, the <ph id="ph1">`Accept-Encoding`</ph> header is checked and the first acceptable encoding is identified and used to take one of the following actions:      -   If a matching encoding is also found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list and a cached response exists, the cached response is sent.</source>
+          <target state="translated">处理请求时，<ph id="ph1">`Accept-Encoding`</ph>检查标头和第一个可接受编码出以及用于执行以下操作之一:-如果相匹配的编码，另请参阅&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;列表和缓存的响应存在，则发送缓存的响应。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   If a matching encoding is also found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list but a cached response does not exist, a response is generated and inserted into the cache.</source>
+          <target state="translated">-如果相匹配的编码，另请参阅&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;列表，但缓存的响应不存在，生成响应并将其插入缓存。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   If a matching encoding is not found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list, the cache is searched for a non-encoded response, also referred to as the identity response.</source>
+          <target state="translated">-如果在未找到相匹配的编码&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;有非编码的响应，也称为标识响应搜索列表，缓存。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the identity response is found, it is sent.</source>
+          <target state="translated">如果找到标识响应，则将它发送。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Otherwise a new non-encoded response is generated and stored in the cache.</source>
+          <target state="translated">否则为新非编码响应的生成，并存储在缓存中。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information about the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">有关详细信息&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;属性，请参阅 RFC 2616︰ 超文本传输协议-HTTP/1.1，可在上找到<bpt id="p1">[</bpt>World Wide Web Consortium (W3C) 网站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>See section 14, "Header Field Definitions", for complete details.</source>
+          <target state="translated">请参阅完整的详细信息部分 14 中，"标头字段定义"。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can set the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property by using the  directive or by adding a profile to the  element in the Web.config file.</source>
+          <target state="translated">你可以设置&lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;通过使用指令或通过将配置文件添加到 Web.config 文件中的元素的属性。&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByContentEncodings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByContentEncodings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets an array of values which specify the content encodings to be used for varying the cache.</source>
+          <target state="translated">获取数组的值指定要用于改变缓存的内容编码。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An array of values which contain the content encodings for varying the cache.</source>
+          <target state="translated">包含用于改变缓存的内容编码的值的数组。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the cache varies according to the specified content encoding.</source>
+          <target state="translated">获取或设置一个值，该值指示是否缓存会根据指定的内容编码而不同。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The name of the content encoding.</source>
+          <target state="translated">内容编码的名称。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache should vary by the specified content encoding; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果缓存应因指定的内容编码;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The content encoding is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">内容编码是将<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Sets an array of values which specify the content encodings to be used for varying the cache.</source>
+          <target state="translated">设置的值指定要用于改变缓存的内容编码的数组。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An array of values which contain the content encodings for varying the cache.</source>
+          <target state="translated">包含用于改变缓存的内容编码的值的数组。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

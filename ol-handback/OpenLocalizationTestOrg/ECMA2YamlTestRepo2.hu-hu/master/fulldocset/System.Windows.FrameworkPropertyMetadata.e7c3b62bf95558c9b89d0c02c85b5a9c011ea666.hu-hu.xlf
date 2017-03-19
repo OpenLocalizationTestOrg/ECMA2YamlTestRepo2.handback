@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d09a32cf05909536a9016c9613e848634f520d8b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.FrameworkPropertyMetadata.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ce04c5a688c1da3dcf0b9a592994f41fa7022c5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3d94579fab6a7da9eb09e2f1fbaa83afdfae263</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Reports or applies metadata for a dependency property, specifically adding framework-specific property system characteristics.</source>
+          <target state="translated">Jelentések, vagy a metaadatokat egy függőség tulajdonság, kifejezetten a keretrendszer-specifikus tulajdonság jellemzői hozzáadása alkalmazza.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class derives from &lt;xref:System.Windows.PropertyMetadata&gt; (through &lt;xref:System.Windows.UIPropertyMetadata&gt;) .</source>
+          <target state="translated">Ez az osztály származik &lt;xref:System.Windows.PropertyMetadata&gt;(keresztül &lt;xref:System.Windows.UIPropertyMetadata&gt;).&lt;/xref:System.Windows.UIPropertyMetadata&gt; &lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most WPF framework-level application development purposes, FrameworkPropertyMetadata is the type used for dependency property metadata, rather than the base metadata types &lt;xref:System.Windows.PropertyMetadata&gt; or &lt;xref:System.Windows.UIPropertyMetadata&gt;.</source>
+          <target state="translated">A legtöbb WPF keretrendszert szintű alkalmazás fejlesztési célra FrameworkPropertyMetadata egy függőség tulajdonság metaadatai ahelyett, hogy az alapmetaadatoknak típusok &lt;xref:System.Windows.PropertyMetadata&gt;vagy &lt;xref:System.Windows.UIPropertyMetadata&gt;.&lt;/xref:System.Windows.UIPropertyMetadata&gt; &lt;/xref:System.Windows.PropertyMetadata&gt; használt típus</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is true both for existing dependency properties and for most custom dependency property scenarios.</source>
+          <target state="translated">Ez igaz mind a meglévő függőségi tulajdonságok, illetve a legtöbb egyéni függőségi tulajdonság esetében.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The members declared by this class that supplement the &lt;xref:System.Windows.PropertyMetadata&gt; base class include various Boolean properties that specify or report WPF framework-level property system behavior such as property inheritance, data binding, and layout.</source>
+          <target state="translated">A tagok ez deklarál osztály adott kiegészítés a &lt;xref:System.Windows.PropertyMetadata&gt;alaposztály közé tartoznak, adja meg, vagy a jelentés a WPF keretrendszert szintű tulajdonság rendszerműködést például tulajdonságöröklés adatkötés vagy elrendezés logikai tulajdonságait.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Several constructor signatures for creating a FrameworkPropertyMetadata instance take a &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; parameter.</source>
+          <target state="translated">Több konstruktor aláírásának FrameworkPropertyMetadata példány létrehozása igénybe vehet egy &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;paraméter.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; enumeration is used only to specify initial behavior in the constructor, and is not otherwise exposed after FrameworkPropertyMetadata is constructed.</source>
+          <target state="translated">A &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;számbavételi csak a kezdeti viselkedés meg a konstruktorban használjuk, és nincs más módon felfedve után FrameworkPropertyMetadata összeállított.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>From a constructed instance, you can get or set the corresponding information through various properties that share the name of the enumeration values used in the constructor call.</source>
+          <target state="translated">A létrehozott példány beolvasása, vagy állítsa be a megfelelő adatok különböző tulajdonságai, amelyek az enumerálási adatokat a konstruktorhívás használt nevét.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    This class is not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Ez az osztály nem általában használatos XAML szöveg használati <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This signature initializes all values of FrameworkPropertyMetadata to their property defaults.</source>
+          <target state="translated">Az aláírás inicializálja szereplő összes FrameworkPropertyMetadata tulajdonságot alapértelmezett értékre.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.PropertyMetadata.DefaultValue%2A&gt; will be <ph id="ph1">`null`</ph>, and the various &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; Boolean properties will be <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Windows.PropertyMetadata.DefaultValue%2A&gt;lesz <ph id="ph1">`null`</ph>, és a különböző &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;logikai tulajdonságok lesz <ph id="ph2">`false`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;&lt;/xref:System.Windows.PropertyMetadata.DefaultValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified default value.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értékkel.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a value of a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadott adott típusú értékként.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> callback.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a megadott osztály <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> visszahívás.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and framework-level metadata options.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értéket és a keretrendszer szintű metaadatok beállításokkal.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values marked as set flags in the <ph id="ph1">`flags`</ph> parameter will set the Boolean value of &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; properties that match that &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; flag's name to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Értékek jelölésű set jelzőt a <ph id="ph1">`flags`</ph> paraméter állítja be a logikai értéke &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;tulajdonsága, amely egyezik &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;jelző nevét <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can subsequently change the values of the properties in the metadata, as long as the metadata has not yet been applied to a specific property system operation.</source>
+          <target state="translated">Ezt követően módosíthatja az értékeket a metaadat-tulajdonságokat, mindaddig, amíg a metaadatok nincs még telepítve van egy adott tulajdonságra rendszerművelet.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a value of a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadott adott típusú értékként.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The metadata option flags (a combination of <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values).</source>
+          <target state="translated">A metaadatok beállítási jelző (kombinációja <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek).</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These options specify characteristics of the dependency property that interact with systems such as layout or data binding.</source>
+          <target state="translated">Ezek a beállítások a függőség tulajdonság módosításának jellemzői rendszerek – például a szükséges elrendezést vagy adatkötés adja meg.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and specified <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> callback.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értékkel, és a megadott <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> visszahívás.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a value of a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadott adott típusú értékként.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified callbacks.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott visszahívások osztályra.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation calls a base initializer and then adds the <ph id="ph1">`coerceValueCallback`</ph> by setting the property on the base instance.</source>
+          <target state="translated">Ez a megvalósítás alap inicializáló hívja, és hozzáadja a <ph id="ph1">`coerceValueCallback`</ph> tulajdonságának beállításával alap-példányon.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation will be called whenever the property system calls &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt; for this dependency property.</source>
+          <target state="translated">Kezelő megvalósításához hivatkozást kell meghívni, amikor a tulajdonság rendszer meghívja a &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt;a függőség tulajdonság.&lt;/xref:System.Windows.DependencyObject.CoerceValue*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and framework metadata options, and specified <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> callback.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értéket és a keretrendszer metaadatok beállításokkal, és a megadott <bpt id="p2">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> visszahívás.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values marked as set flags in the <ph id="ph1">`flags`</ph> parameter will set the Boolean value of &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; properties that match that &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; flag's name to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Értékek jelölésű set jelzőt a <ph id="ph1">`flags`</ph> paraméter állítja be a logikai értéke &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;tulajdonsága, amely egyezik &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;jelző nevét <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can still change the values of the properties in the metadata, as long as the metadata has not yet been applied to a specific property system operation.</source>
+          <target state="translated">A metaadat-tulajdonságokat az értékeket módosíthatja, amíg a metaadatok nincs még telepítve van egy adott tulajdonságra rendszerművelet továbbra is.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a value of a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadott adott típusú értékként.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The metadata option flags (a combination of <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values).</source>
+          <target state="translated">A metaadatok beállítási jelző (kombinációja <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek).</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These options specify characteristics of the dependency property that interact with systems such as layout or data binding.</source>
+          <target state="translated">Ezek a beállítások a függőség tulajdonság módosításának jellemzői rendszerek – például a szükséges elrendezést vagy adatkötés adja meg.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and specified callbacks.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott alapértelmezett értéket és a megadott visszahívások osztály.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadja azt a megadott típusra.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that will be called whenever the property system calls &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt; for this dependency property.</source>
+          <target state="translated">Egy hivatkozást, amely hívható, ha a tulajdonság rendszer meghívja a kezelő megvalósításához &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt;a függőség tulajdonság.&lt;/xref:System.Windows.DependencyObject.CoerceValue*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and framework metadata options, and specified callbacks.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott alapértelmezett értéket, és a keretrendszer metaadatok beállítások és a megadott visszahívások osztály.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values marked as set flags in the <ph id="ph1">`flags`</ph> parameter will set the Boolean value of &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; properties that match that &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; flag's name to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Értékek jelölésű set jelzőt a <ph id="ph1">`flags`</ph> paraméter állítja be a logikai értéke &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;tulajdonsága, amely egyezik &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;jelző nevét <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can still change the values of the properties in the metadata, as long as the metadata has not yet been applied to a specific property system operation.</source>
+          <target state="translated">A metaadat-tulajdonságokat az értékeket módosíthatja, amíg a metaadatok nincs még telepítve van egy adott tulajdonságra rendszerművelet továbbra is.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadja azt a megadott típusra.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The metadata option flags (a combination of <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values).</source>
+          <target state="translated">A metaadatok beállítási jelző (kombinációja <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek).</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>These options specify characteristics of the dependency property that interact with systems such as layout or data binding.</source>
+          <target state="translated">Ezek a beállítások a függőség tulajdonság módosításának jellemzői rendszerek – például a szükséges elrendezést vagy adatkötés adja meg.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that will be called whenever the property system calls &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt; against this property.</source>
+          <target state="translated">Egy hivatkozást, amely hívható, ha a tulajdonság rendszer meghívja a kezelő megvalósításához &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt;elleni ehhez a tulajdonsághoz.&lt;/xref:System.Windows.DependencyObject.CoerceValue*&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and framework metadata options, specified callbacks, and a Boolean that can be used to prevent animation of the property.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értéket és a keretrendszer metaadatok beállítások, a megadott visszahívások és a logikai érték a tulajdonság az animáció megelőzése érdekében használható.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`isAnimationProhibited`</ph> parameter sets the initial value of the &lt;xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt; property declared by the immediate base &lt;xref:System.Windows.UIPropertyMetadata&gt; class.</source>
+          <target state="translated">A <ph id="ph1">`isAnimationProhibited`</ph> paraméter állandóként állítja be a kezdeti értéke &lt;xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt;tulajdonságot deklarál azonnali alap &lt;xref:System.Windows.UIPropertyMetadata&gt;osztályhoz.&lt;/xref:System.Windows.UIPropertyMetadata&gt; &lt;/xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values marked as set flags in the <ph id="ph1">`flags`</ph> parameter will set the Boolean value of &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; properties that match that &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; flag's name to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Értékek jelölésű set jelzőt a <ph id="ph1">`flags`</ph> paraméter állítja be a logikai értéke &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;tulajdonsága, amely egyezik &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;jelző nevét <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can still change the values of the properties in the metadata, as long as the metadata has not yet been applied to a specific property system operation.</source>
+          <target state="translated">A metaadat-tulajdonságokat az értékeket módosíthatja, amíg a metaadatok nincs még telepítve van egy adott tulajdonságra rendszerművelet továbbra is.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadja azt a megadott típusra.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The metadata option flags (a combination of <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values).</source>
+          <target state="translated">A metaadatok beállítási jelző (kombinációja <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>These options specify characteristics of the dependency property that interact with systems such as layout or data binding.</source>
+          <target state="translated">Ezek a beállítások a függőség tulajdonság módosításának jellemzői rendszerek – például a szükséges elrendezést vagy adatkötés adja meg.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that will be called whenever the property system calls &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt; on this dependency property.</source>
+          <target state="translated">Egy hivatkozást, amely hívható, ha a tulajdonság rendszer meghívja a kezelő megvalósításához &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt;ezen függőségi tulajdonsággal.&lt;/xref:System.Windows.DependencyObject.CoerceValue*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to prevent the property system from animating the property that this metadata is applied to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a tulajdonság rendszer érdekében a tulajdonság a metaadatok alkalmazott animációjának.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Such properties will raise a run-time exception originating from the property system if animations of them are attempted.</source>
+          <target state="translated">Az ilyen tulajdonságok emeli a futásidejű kivételt a tulajdonság rendszerből származó, ha azok animációk próbált vannak.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to permit animating the property.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>lehetővé teszi a animálása tulajdonság.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the provided default value and framework metadata options, specified callbacks, a Boolean that can be used to prevent animation of the property, and a data-binding update trigger default.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadata"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott alapértelmezett értéket és a keretrendszer metaadatokkal lehetőségek, megadott visszahívások, olyan logikai érték, amely megakadályozza a tulajdonságot, és egy adatkötési update trigger alapértelmezett animáció használható.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the value provided for <ph id="ph1">`defaultValue`</ph> must match or be related to the type specified in the original registration of the dependency property that this metadata will be applied to.</source>
+          <target state="translated">A megadott érték típusa <ph id="ph1">`defaultValue`</ph> kell lenniük, vagy az eredeti regisztráció a függőség tulajdonság, az alkalmazni fogja a metaadatok megadott típus kapcsolódnak.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Mismatches between metadata default value type and the type of the dependency property it is being applied to can be difficult to debug, because the mismatch is not detectable during compilation.</source>
+          <target state="translated">Inkonzisztens metaadatok alapértelmezett érték típusa és a alkalmazva van a függőség tulajdonság hibakeresési, nehézkes lehet, mert a következő ütközés nem felismerhető történik a fordítás során.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system does not evaluate the effective value of a property until run time, so the result of a default value type/property type mismatch is a run-time error.</source>
+          <target state="translated">A tulajdonság-rendszer nem értékeli az érvényes érték a tulajdonság futási idő, amíg, alapértelmezett érték típusa/tulajdonság Típuseltérés eredménye egy futásidejű hiba.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt; has special meaning in the property system, and cannot be used as a dependency property default value.</source>
+          <target state="translated">Az érték &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;kulcsszó különleges jelentéssel bír az tulajdonság rendszerben, és nem használható egy függőség tulajdonság alapértelmezett értéke.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`isAnimationProhibited`</ph> parameter sets the initial value of the &lt;xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt; property declared by the immediate base &lt;xref:System.Windows.UIPropertyMetadata&gt; class.</source>
+          <target state="translated">A <ph id="ph1">`isAnimationProhibited`</ph> paraméter állandóként állítja be a kezdeti értéke &lt;xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt;tulajdonságot deklarál azonnali alap &lt;xref:System.Windows.UIPropertyMetadata&gt;osztályhoz.&lt;/xref:System.Windows.UIPropertyMetadata&gt; &lt;/xref:System.Windows.UIPropertyMetadata.IsAnimationProhibited%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the update source behavior for bindings, see <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">A frissítési forrás viselkedése kötések kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values marked as set flags in the <ph id="ph1">`flags`</ph> parameter will set the Boolean value of &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; properties that match that &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; flag's name to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Értékek jelölésű set jelzőt a <ph id="ph1">`flags`</ph> paraméter állítja be a logikai értéke &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;tulajdonsága, amely egyezik &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;jelző nevét <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can still change the values of the properties in the metadata, as long as the metadata has not yet been applied to a specific property system operation.</source>
+          <target state="translated">A metaadat-tulajdonságokat az értékeket módosíthatja, amíg a metaadatok nincs még telepítve van egy adott tulajdonságra rendszerművelet továbbra is.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value of the dependency property, usually provided as a specific type.</source>
+          <target state="translated">Az alapértelmezett érték a függőség tulajdonság, általában megadja azt a megadott típusra.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The metadata option flags (a combination of <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values).</source>
+          <target state="translated">A metaadatok beállítási jelző (kombinációja <bpt id="p1">&lt;xref href="System.Windows.FrameworkPropertyMetadataOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>These options specify characteristics of the dependency property that interact with systems such as layout or data binding.</source>
+          <target state="translated">Ezek a beállítások a függőség tulajdonság módosításának jellemzői rendszerek – például a szükséges elrendezést vagy adatkötés adja meg.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that the property system will call whenever the effective value of the property changes.</source>
+          <target state="translated">Egy hivatkozás, amely a tulajdonság rendszer fel fogja hívni, az érvényes érték a tulajdonság megváltozásakor kezelő megvalósításához.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A reference to a handler implementation that will be called whenever the property system calls &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt; against this property.</source>
+          <target state="translated">Egy hivatkozást, amely hívható, ha a tulajdonság rendszer meghívja a kezelő megvalósításához &lt;xref:System.Windows.DependencyObject.CoerceValue*&gt;elleni ehhez a tulajdonsághoz.&lt;/xref:System.Windows.DependencyObject.CoerceValue*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to prevent the property system from animating the property that this metadata is applied to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a tulajdonság rendszer érdekében a tulajdonság a metaadatok alkalmazott animációjának.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Such properties will raise a run-time exception originating from the property system if animations of them are attempted.</source>
+          <target state="translated">Az ilyen tulajdonságok emeli a futásidejű kivételt a tulajdonság rendszerből származó, ha azok animációk próbált vannak.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use when bindings for this property are applied that have their <bpt id="p2">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> set to <bpt id="p3">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> használja, ha ehhez a tulajdonsághoz kötések lesznek alkalmazva, amelyek rendelkeznek a saját <bpt id="p2">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> beállítása <bpt id="p3">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; see Remarks.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;defaultValue&lt;/code&gt;</ph>értéke <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty.UnsetValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; lásd: a megjegyzések.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a dependency property potentially affects the arrange pass during layout engine operations.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság érintheti a rendezés fázis elrendezés motor műveletek során.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkElement&gt; and &lt;xref:System.Windows.FrameworkContentElement&gt; include an implementation of &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; that monitors effective value changes to all dependency properties that exist on an element.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkElement&gt;és &lt;xref:System.Windows.FrameworkContentElement&gt;közé tartoznak az megvalósítását &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt;, amely figyeli, hogy az összes függőség tulajdonság, amely létezik egy elem hatékony változásainak.&lt;/xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; &lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of that logic, dependency properties that change effective value and have metadata with AffectsArrange set to <ph id="ph1">`true`</ph> will initiate a deferred request to invalidate the visuals for that element (a call to &lt;xref:System.Windows.UIElement.InvalidateArrange%2A&gt;).</source>
+          <target state="translated">Adott logikájának részeként, hatékony érték módosításához és AffectsArrange metaadatait függőségi tulajdonságok beállítása <ph id="ph1">`true`</ph> érvénytelenné válnak az adott elemhez látványelemek késleltetett kérést kezdeményez (hívása &lt;xref:System.Windows.UIElement.InvalidateArrange%2A&gt;).&lt;/xref:System.Windows.UIElement.InvalidateArrange%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this WPF framework-level implementation is already in place, you typically do not need to look for dependency properties with AffectsArrange unless you are substantially replacing or modifying the WPF framework-level layout behavior.</source>
+          <target state="translated">A WPF keretrendszert szintű megvalósításával már rendelkezésre áll, mert általában nem kell AffectsArrange függőség tulajdonság keres, kivéve, ha jelentősen cseréje vagy módosítása a WPF keretrendszert szintű elrendezés viselkedését.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt; implementations might choose to have similar behavior for dependency property changes where AffectsArrange is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Egyéni &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;megvalósítások kiválaszthat olyan hasonló viselkedését a függőségi tulajdonságok módosításának amelyekben AffectsArrange <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_AffectsArrange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are either not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_AffectsArrange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati tagokat az osztály vagy nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists potentially affects the arrange pass; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található vélhetően hatással van az elrendezés fázis; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a dependency property potentially affects the measure pass during layout engine operations.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság érintheti a mérték fázis elrendezés motor műveletek során.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkElement&gt; and &lt;xref:System.Windows.FrameworkContentElement&gt; include an implementation of &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; that monitors effective value changes to all dependency properties that exist on an element.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkElement&gt;és &lt;xref:System.Windows.FrameworkContentElement&gt;közé tartoznak az megvalósítását &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt;, amely figyeli, hogy az összes függőség tulajdonság, amely létezik egy elem hatékony változásainak.&lt;/xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; &lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of that logic, dependency properties that change effective value and have metadata with AffectsMeasure set to <ph id="ph1">`true`</ph> will initiate a deferred request to invalidate the visuals for that element.</source>
+          <target state="translated">Adott logikájának részeként, hatékony érték módosításához és AffectsMeasure metaadatait függőségi tulajdonságok beállítása <ph id="ph1">`true`</ph> érvénytelenné válnak az adott elemhez látványelemek késleltetett kérést kezdeményez.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this WPF framework-level implementation is already in place, you typically do not need to look for dependency properties with AffectsMeasure unless you are substantially replacing or modifying the WPF framework-level layout behavior.</source>
+          <target state="translated">A WPF keretrendszert szintű megvalósításával már rendelkezésre áll, mert általában nem kell AffectsMeasure függőség tulajdonság keres, kivéve, ha jelentősen cseréje vagy módosítása a WPF keretrendszert szintű elrendezés viselkedését.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt; implementations might choose to have similar behavior for dependency property changes where AffectsMeasure is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Egyéni &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;megvalósítások kiválaszthat olyan hasonló viselkedését a függőségi tulajdonságok módosításának amelyekben AffectsMeasure <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_AffectsMeasure"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_AffectsMeasure"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists potentially affects the measure pass; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található vélhetően hatással van a mérték fázis; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a dependency property potentially affects the arrange pass of its parent element's layout during layout engine operations.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság érintheti a szülőelem elrendezése az elrendezés fázis elrendezés motor műveletek során.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkElement&gt; and &lt;xref:System.Windows.FrameworkContentElement&gt; include an implementation of &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; that monitors effective value changes to all dependency properties that exist on an element.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkElement&gt;és &lt;xref:System.Windows.FrameworkContentElement&gt;közé tartoznak az megvalósítását &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt;, amely figyeli, hogy az összes függőség tulajdonság, amely létezik egy elem hatékony változásainak.&lt;/xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; &lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of that logic, dependency properties that change effective value and have metadata with AffectsParentArrange set to <ph id="ph1">`true`</ph> will initiate a deferred request to invalidate the visuals for the parent element.</source>
+          <target state="translated">Adott logikájának részeként, hatékony érték módosításához és AffectsParentArrange metaadatait függőségi tulajdonságok beállítása <ph id="ph1">`true`</ph> érvénytelenné válnak a szülő elem látványelemek késleltetett kérést kezdeményez.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, you do not need to report changes of a &lt;xref:System.Windows.FrameworkElement&gt; property to a parent element using AffectsParentArrange because the element itself would already have its own &lt;xref:System.Windows.FrameworkPropertyMetadata.AffectsArrange%2A&gt; as <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Általában nem kell a jelentés módosításainak egy &lt;xref:System.Windows.FrameworkElement&gt;AffectsParentArrange használatával, mert a maga az elem már rendelkezik saját szülőelem tulajdonságot &lt;xref:System.Windows.FrameworkPropertyMetadata.AffectsArrange%2A&gt;, <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadata.AffectsArrange%2A&gt; &lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is usually sufficient, because changes in the child element generally initiate a parent arrange when appropriate.</source>
+          <target state="translated">Ez általában elegendő, mivel általában kezdeményezhet a gyermekelem változásai a fölérendelt elrendezése adott esetben.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AffectsParentArrange is sometimes used for a &lt;xref:System.Windows.FrameworkContentElement&gt; derived class.</source>
+          <target state="translated">AffectsParentArrange használható egy &lt;xref:System.Windows.FrameworkContentElement&gt;osztály származtatott&lt;/xref:System.Windows.FrameworkContentElement&gt; a</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the child element sets a property, but a &lt;xref:System.Windows.FrameworkContentElement&gt; derived class does not control its own rendering.</source>
+          <target state="translated">Ebben az esetben a gyermek elem egyik tulajdonságának, de a készletek &lt;xref:System.Windows.FrameworkContentElement&gt;származtatott osztály nem felügyeli a saját megjelenítési.&lt;/xref:System.Windows.FrameworkContentElement&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering is handled by a &lt;xref:System.Windows.FrameworkElement&gt; parent element that serves as the content host.</source>
+          <target state="translated">A Megjelenítés kezeli a &lt;xref:System.Windows.FrameworkElement&gt;szülőelem, amelyek a tartalomszolgáltató.&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, a change to the value of the &lt;xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt; attached property by a child element invalidates arrange of the parent, because the position of the child in the parent must be changed.</source>
+          <target state="translated">Például az értékét módosítva a &lt;xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt;csatolt tulajdonság által egy gyermekelem érvényteleníti a szülő elrendezése, mert a szülő az alárendelt helyének meg kell változtatni.&lt;/xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the &lt;xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt; attached property has metadata where AffectsParentArrange is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ezért a &lt;xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt;csatolt tulajdonság-metaadattal rendelkezik AffectsParentArrange esetén <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Documents.FixedPage.Left%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another example is &lt;xref:System.Windows.Controls.Control.Padding%2A&gt;; when this property changes, the parent might change the positioning of the child, depending on available space.</source>
+          <target state="translated">Egy másik példa &lt;xref:System.Windows.Controls.Control.Padding%2A&gt;; módosításakor a tulajdonságok módosítását a szülő előfordulhat, hogy elhelyezkedését a gyermek, attól függően, hogy a rendelkezésre álló területet.&lt;/xref:System.Windows.Controls.Control.Padding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this WPF framework-level implementation is already in place, you typically do not need to look for dependency properties with AffectsParentArrange unless you are substantially replacing or modifying the WPF framework-level layout behavior.</source>
+          <target state="translated">A WPF keretrendszert szintű megvalósításával már rendelkezésre áll, mert általában nem kell AffectsParentArrange függőség tulajdonság keres, kivéve, ha jelentősen cseréje vagy módosítása a WPF keretrendszert szintű elrendezés viselkedését.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt; implementations might choose to have similar behavior for dependency property changes where AffectsParentArrange is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Egyéni &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;megvalósítások kiválaszthat olyan hasonló viselkedését a függőségi tulajdonságok módosításának amelyekben AffectsParentArrange <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on any derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A Tulajdonságok származtatott osztályait &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_AffectsParentArrange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_AffectsParentArrange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists potentially affects the arrange pass specifically on its parent element; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található vélhetően hatással van a rendezés továbbítják kifejezetten a szülőelem; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a dependency property potentially affects the measure pass of its parent element's layout during layout engine operations.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság érintheti a mérték fázis a szülőelem elrendezése elrendezés motor műveletek során.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkElement&gt; and &lt;xref:System.Windows.FrameworkContentElement&gt; include an implementation of &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; that monitors effective value changes to all dependency properties that exist on an element.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkElement&gt;és &lt;xref:System.Windows.FrameworkContentElement&gt;közé tartoznak az megvalósítását &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt;, amely figyeli, hogy az összes függőség tulajdonság, amely létezik egy elem hatékony változásainak.&lt;/xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; &lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of that logic, dependency properties that change effective value and have metadata with AffectsParentMeasure set to <ph id="ph1">`true`</ph> will initiate a deferred request to invalidate the visuals for the parent element.</source>
+          <target state="translated">Adott logikájának részeként, hatékony érték módosításához és AffectsParentMeasure metaadatait függőségi tulajdonságok beállítása <ph id="ph1">`true`</ph> érvénytelenné válnak a szülő elem látványelemek késleltetett kérést kezdeményez.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this WPF framework-level implementation is already in place, you typically do not need to look for dependency properties with AffectsParentMeasure unless you are substantially replacing or modifying the WPF framework-level layout behavior.</source>
+          <target state="translated">A WPF keretrendszert szintű megvalósításával már rendelkezésre áll, mert általában nem kell AffectsParentMeasure függőség tulajdonság keres, kivéve, ha jelentősen cseréje vagy módosítása a WPF keretrendszert szintű elrendezés viselkedését.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, you do not need to report changes of a &lt;xref:System.Windows.FrameworkElement&gt; property to a parent element using AffectsParentMeasure because the element itself would already have its own &lt;xref:System.Windows.FrameworkPropertyMetadata.AffectsMeasure%2A&gt; as <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Általában nem kell a jelentés módosításainak egy &lt;xref:System.Windows.FrameworkElement&gt;AffectsParentMeasure használatával, mert a maga az elem már rendelkezik saját szülőelem tulajdonságot &lt;xref:System.Windows.FrameworkPropertyMetadata.AffectsMeasure%2A&gt;, <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.FrameworkPropertyMetadata.AffectsMeasure%2A&gt; &lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is usually sufficient, because changes in the child element generally initiate a parent measure pass when appropriate.</source>
+          <target state="translated">Ennek oka általában elegendő, a gyermekelem változásai általában kezdeményezni egy szülő mérték fázist, amikor szükséges.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AffectsParentMeasure is sometimes used for a &lt;xref:System.Windows.FrameworkContentElement&gt; derived class.</source>
+          <target state="translated">AffectsParentMeasure használható egy &lt;xref:System.Windows.FrameworkContentElement&gt;osztály származtatott&lt;/xref:System.Windows.FrameworkContentElement&gt; a</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the child element sets a property, but a &lt;xref:System.Windows.FrameworkContentElement&gt; derived class does not control its own rendering.</source>
+          <target state="translated">Ebben az esetben a gyermek elem egyik tulajdonságának, de a készletek &lt;xref:System.Windows.FrameworkContentElement&gt;származtatott osztály nem felügyeli a saját megjelenítési.&lt;/xref:System.Windows.FrameworkContentElement&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering is handled by a &lt;xref:System.Windows.FrameworkElement&gt; parent element that serves as the content host.</source>
+          <target state="translated">A Megjelenítés kezeli a &lt;xref:System.Windows.FrameworkElement&gt;szülőelem, amelyek a tartalomszolgáltató.&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, a change to the value of the &lt;xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt; property by a child element invalidates measure of the parent, because the relative spacing of paragraphs might change and might increase or decrease the content host size.</source>
+          <target state="translated">Például az értékét módosítva a &lt;xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt;egy gyermekelem tulajdonság a szülő mérték érvénytelenné válik, mert bekezdések relatív térközének előfordulhat, hogy módosítsa és előfordulhat, hogy növeli vagy csökkenti a tartalomszolgáltató méretét.&lt;/xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the &lt;xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt; property has metadata where AffectsParentMeasure is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ezért a &lt;xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt;tulajdonságnak metaadatok AffectsParentMeasure esetén <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Documents.Paragraph.KeepWithNext%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Content host elements also frequently look for changes in dependency properties where AffectsParentMeasure is <ph id="ph1">`true`</ph>, as part of content host rendering logic.</source>
+          <target state="translated">Tartalomszolgáltató elemek is gyakran keresse meg a függőségi tulajdonságok változásokat AffectsParentMeasure esetén <ph id="ph1">`true`</ph>, tartalomszolgáltató megjelenítési logikája.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, the &lt;xref:System.Windows.Controls.TextBox&gt; element must respond to certain changes within text that might require that the bounding box of the &lt;xref:System.Windows.Controls.TextBox&gt; itself be changed.</source>
+          <target state="translated">Például a &lt;xref:System.Windows.Controls.TextBox&gt;elem válaszolnia kell a szöveg, előfordulhat, hogy egyes változásokkal körbe a &lt;xref:System.Windows.Controls.TextBox&gt;maga módosítható.&lt;/xref:System.Windows.Controls.TextBox&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt; implementations might choose to have similar behavior for dependency property changes where AffectsParentMeasure is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Egyéni &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;megvalósítások kiválaszthat olyan hasonló viselkedését a függőségi tulajdonságok módosításának amelyekben AffectsParentMeasure <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on any derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A Tulajdonságok származtatott osztályait &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_AffectsParentMeasure"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_AffectsParentMeasure"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists potentially affects the measure pass specifically on its parent element; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.The default is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található vélhetően hatással van a mérték továbbítják kifejezetten a szülőelem; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>. Az alapértelmezett érték <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a dependency property potentially affects the general layout in some way that does not specifically influence arrangement or measurement, but would require a redraw.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság potenciális hatása valamilyen módon, amely befolyásolja kifejezetten megállapodás vagy mérési, de egy újbóli igényelnének általános elrendezése.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkElement&gt; and &lt;xref:System.Windows.FrameworkContentElement&gt; include an implementation of &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; that monitors effective value changes to all dependency properties that exist on an element.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkElement&gt;és &lt;xref:System.Windows.FrameworkContentElement&gt;közé tartoznak az megvalósítását &lt;xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt;, amely figyeli, hogy az összes függőség tulajdonság, amely létezik egy elem hatékony változásainak.&lt;/xref:System.Windows.FrameworkElement.OnPropertyChanged%2A&gt; &lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of that logic, dependency properties that change effective value and have metadata with AffectsRender set to <ph id="ph1">`true`</ph> will initiate a deferred request to invalidate the visuals for that element.</source>
+          <target state="translated">Adott logikájának részeként, hatékony érték módosításához és AffectsRender metaadatait függőségi tulajdonságok beállítása <ph id="ph1">`true`</ph> érvénytelenné válnak az adott elemhez látványelemek késleltetett kérést kezdeményez.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this WPF framework-level implementation is already in place, you typically do not need to look for dependency properties with AffectsRender unless you are substantially replacing or modifying the WPF framework-level layout behavior.</source>
+          <target state="translated">A WPF keretrendszert szintű megvalósításával már rendelkezésre áll, mert általában nem kell AffectsRender függőség tulajdonság keres, kivéve, ha jelentősen cseréje vagy módosítása a WPF keretrendszert szintű elrendezés viselkedését.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt; implementations might choose to have similar behavior for dependency property changes where AffectsRender is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Egyéni &lt;xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;megvalósításokhoz lehet, hogy választja, hogy a függőségi tulajdonságok módosításának hasonló viselkedés AffectsRender esetén <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.DependencyObject.OnPropertyChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on any derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A Tulajdonságok származtatott osztályait &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_AffectsRender"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_AffectsRender"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists affects rendering; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található hatással van a megjelenítési; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the property binds two-way by default.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a tulajdonság van kötve kétirányú alapértelmezés szerint.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In absence of this property being <ph id="ph1">`true`</ph>, binding updates are one-way by default, based on the default behavior of the &lt;xref:System.Windows.Data.Binding&gt; constructors or equivalent <ph id="ph2">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> syntax.</source>
+          <target state="translated">Hiányában ez a tulajdonság, amely nem <ph id="ph1">`true`</ph>, kötelező frissítések egyirányúak alapértelmezés szerint az alapértelmezett viselkedése alapján a &lt;xref:System.Windows.Data.Binding&gt;konstruktorok vagy ezzel egyenértékű csoport <ph id="ph2">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> szintaxis.&lt;/xref:System.Windows.Data.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In existing elements, you will usually find this property set to <ph id="ph1">`true`</ph> in metadata for dependency properties that both report state and are modifiable by user action, for example &lt;xref:System.Windows.Controls.Primitives.Selector.IsSelected%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">A meglévő elemeket megtalálható ez a tulajdonság beállítása <ph id="ph1">`true`</ph> a metaadatok között, amelyek mind a jelentés állapot és a felhasználói beavatkozásra, például &lt;xref:System.Windows.Controls.Primitives.Selector.IsSelected%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Controls.Primitives.Selector.IsSelected%2A?displayProperty=fullName&gt; által módosítható függőségi tulajdonságok</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property only reports the default binding update characteristics of the dependency property in general.</source>
+          <target state="translated">Ez a tulajdonság csak a jelentés a függőség tulajdonság alapértelmezett kötés frissítés jellemzői általában.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any binding set to this property on an instance can locally set the &lt;xref:System.Windows.Data.Binding.Mode%2A&gt; property of the binding and change this default.</source>
+          <target state="translated">Ez a példány tulajdonság értéke kötés helyileg állíthatja be a &lt;xref:System.Windows.Data.Binding.Mode%2A&gt;tulajdonság a kötés és az alapértelmezés módosításáról.&lt;/xref:System.Windows.Data.Binding.Mode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on any derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A Tulajdonságok származtatott osztályait &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_BindsTwoWayByDefault"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_BindsTwoWayByDefault"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property on which this metadata exists binds two-way by default; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyen a metaadatok található köti kétirányú alapértelmezett; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default for <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use when bindings for the property with this metadata are applied, which have their <bpt id="p2">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> set to <bpt id="p3">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi vagy beállítja azt az alapértelmezett <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a tulajdonságot a metaadatok kötései alkalmazásakor használatára, amely rendelkezik a <bpt id="p2">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> beállítása <bpt id="p3">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_DefaultUpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_DefaultUpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A value of the enumeration, other than <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A számbavétel, eltérő értékű <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>This property is set to <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; the value you set is supposed to become the default when requested by bindings.</source>
+          <target state="translated">Ez a tulajdonság értéke <bpt id="p1">&lt;xref href="System.Windows.Data.UpdateSourceTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; legyen, az alapértelmezett kötések által kért kellene beállított értéket.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the value of the dependency property is inheritable.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság örökölhető.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Property value inheritance is a feature of the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> property system at the WPF framework level, whereby certain dependency properties can be locally set on an element at or near the root of a <ph id="ph2">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> element tree and then have their value inherited by all elements within the logical tree of child elements that also possess that property.</source>
+          <target state="translated">Tulajdonságöröklés érték csak a a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> tulajdonság rendszer szinten WPF keretrendszert, amellyel bizonyos függőségi tulajdonságok helyileg beállítható kevés vagy gyökérmappájában elemet egy <ph id="ph2">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> elem fán, és azok előnyeit, a logikai fája, amelyek is rendelkezik az adott tulajdonsághoz az összes elem által örökölt már rendelkezik.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Property value inheritance is not enabled by default, and enabling it does have some performance implications.</source>
+          <target state="translated">Alapértelmezés szerint nincs engedélyezve a tulajdonságöröklés értéket, és lehetővé téve rendelkezik néhány teljesítményre gyakorolt hatása.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Property Value Inheritance<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>érték tulajdonságöröklés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Although property value inheritance might appear to work for nonattached dependency properties, the inheritance behavior for a nonattached property through certain object-object divisions in the runtime tree is undefined.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ugyan tulajdonságöröklés érték lehet, hogy nonattached függőségi tulajdonságok esetében működik, az öröklési működést egy bizonyos objektum osztályok a futásidejű fában nonattached tulajdonság nincs definiálva.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Always use &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; to register properties where you specify Inherits in the metadata.</source>
+          <target state="translated">Mindig &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;a metaadatok megadott Inherits tulajdonságok regisztrálni.&lt;/xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Inherits"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Inherits"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property value is inheritable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a tulajdonság értéke nem örökölhető; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether data binding is supported for the dependency property.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy támogatott-e az adatkötés a függőségi tulajdonság esetében.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property reports <ph id="ph1">`false`</ph> for one of two possible conditions: either data binding to a dependency property is not allowed because the dependency property is read-only (as reported in the dependency property identifier, not the metadata), or the value of another metadata property, &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;, is set to <ph id="ph2">`true`</ph> in this metadata.</source>
+          <target state="translated">Ez a tulajdonság jelzi <ph id="ph1">`false`</ph> két lehetséges feltételek egyike: vagy az adatkötés egyik függőség tulajdonság nem engedélyezett, mert a függőség tulajdonság csak olvasható (a történtek a függőség tulajdonság azonosítója, nem a metaadatokat), vagy egy másik metaadatok tulajdonság &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;, értékre van állítva <ph id="ph2">`true`</ph> a metaadatokban.&lt;/xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is exposed as a convenience so that callers do not have to check both &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt; and &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;.</source>
+          <target state="translated">Ez a tulajdonság a könnyebb elérhetőség érdekében van közzétéve, így nem kell hívóknak Ellenőrizze mindkét &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;és &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;.&lt;/xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt; &lt;/xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are attempting to create metadata that specifies that an otherwise read/write property should not support data binding, specify the flag &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; (note the slight naming convention difference versus &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;).</source>
+          <target state="translated">Ha létre, amely meghatározza, hogy egy egyébként olvasási/írási tulajdonsággal kell nem támogatja az adatkötést próbál, adja meg a jelzőt &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;(vegye figyelembe a némi elnevezési egyezmény különbséget és &lt;xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt;).&lt;/xref:System.Windows.FrameworkPropertyMetadata.IsNotDataBindable%2A&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_IsDataBindingAllowed"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_IsDataBindingAllowed"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data binding is supported on the dependency property to which this metadata applies; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság, amelyekre ezek a metaadatok vonatkozik; adatkötés esetén támogatott Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the dependency property supports data binding.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely jelzi, hogy a függőség tulajdonság támogatja az adatkötés.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this metadata property is set to <ph id="ph1">`true`</ph> specifically for properties that should not support data binding, despite being read-write properties.</source>
+          <target state="translated">Vegye figyelembe, hogy a metaadatok tulajdonsága <ph id="ph1">`true`</ph> kifejezetten azokhoz a tulajdonságokhoz, nem kell támogatja az adatkötést, annak ellenére, hogy az írható-olvasható tulajdonságok.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The expectation is that in most cases where a dependency property is declared, data binding is desired, because data binding is one of the key scenarios where a dependency property is useful.</source>
+          <target state="translated">Az elvárás, hogy a legtöbb esetben, amikor a függőség tulajdonság van deklarálva, adatkötés van szükség, mert az adatkötés egyike azon kulcsfontosságú forgatókönyvek, ahol a függőség tulajdonság akkor hasznos.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike &lt;xref:System.Windows.FrameworkPropertyMetadata.BindsTwoWayByDefault%2A&gt;, this does not merely change a default that can later be changed on a specific binding.</source>
+          <target state="translated">Eltérően &lt;xref:System.Windows.FrameworkPropertyMetadata.BindsTwoWayByDefault%2A&gt;, nem csupán egy adott kötésének később módosítható az alapértelmezett változik.&lt;/xref:System.Windows.FrameworkPropertyMetadata.BindsTwoWayByDefault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property <ph id="ph1">`true`</ph> in the metadata for a dependency property metadata will disable all bindings from applying their values through expressions to that dependency property.</source>
+          <target state="translated">A tulajdonság beállítása <ph id="ph1">`true`</ph> egy függőségi tulajdonság esetében a metaadatokban metaadatok letiltja a kifejezések keresztül értékeik alkalmazása az adott függőségi tulajdonság összes kötéseket.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read-only dependency properties do not support data binding (because they have no setter that can apply changed values), but will still report <ph id="ph1">`false`</ph> for IsNotDataBindable.</source>
+          <target state="translated">Csak olvasható függőségi tulajdonságok nem támogatják az adatok kötésének (mert az nincs beállítója, amely a módosított érték is alkalmazható), de továbbra is jelentést <ph id="ph1">`false`</ph> IsNotDataBindable számára.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because properties that correspond to a &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt; values will report parity with how the metadata was actually established, rather than always reporting the end result behavior that the naming of the property might imply.</source>
+          <target state="translated">Ennek az az oka tulajdonságait, amelyek megfelelnek egy &lt;xref:System.Windows.FrameworkPropertyMetadataOptions&gt;értékek jelentést küld a paritás hogyan a metaadatok ténylegesen létrejött, ahelyett, hogy az eredmény viselkedési, amelyek azt sugallják tulajdonságának elnevezési előfordulhat, hogy mindig reporting.&lt;/xref:System.Windows.FrameworkPropertyMetadataOptions&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether a given dependency property permits data binding, you should usually check &lt;xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt; instead.</source>
+          <target state="translated">Annak megállapításához, hogy egy adott függőségi tulajdonság engedélyezi-e az adatkötés, általában ellenőrizze &lt;xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt;helyette.&lt;/xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt; is a convenience for checking both &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt; and IsNotDataBindable as a single operation, yielding the expected result.</source>
+          <target state="translated">&lt;xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt;a könnyebb ellenőrzésére is van &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;és IsNotDataBindable egyetlen műveletként, a várt eredményt készítésére.&lt;/xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;&lt;/xref:System.Windows.FrameworkPropertyMetadata.IsDataBindingAllowed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_IsNotDataBindable"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_IsNotDataBindable"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property does not support data binding; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a tulajdonság támogatja az adatkötést; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether this property contains journaling information that applications can or should store as part of a journaling implementation.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy ez a tulajdonság tartalmaz-e a naplózási adatokat, alkalmazások vagy a naplózási megvalósításának részeként tárolja.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Journal"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Journal"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if journaling should be performed on the dependency property that this metadata is applied to; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a naplózási kell végezni a függőség tulajdonság, a metaadatok alkalmazott; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Enables a merge of the source metadata with base metadata.</source>
+          <target state="translated">Lehetővé teszi, hogy a forrás metaadatait alapmetaadatoknak egyesítésével.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used internally when metadata is being overridden.</source>
+          <target state="translated">Ezt a módszert belső használatra, ha felülírja a metaadatok.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The base metadata to merge.</source>
+          <target state="translated">A kiinduló metaadatokra ahhoz, hogy egyesíteni.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The dependency property this metadata is being applied to.</source>
+          <target state="translated">A függőség tulajdonság, a metaadatok vonatkozik.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Called when this metadata has been applied to a property, which indicates that the metadata is being sealed.</source>
+          <target state="translated">Hívható meg, ha ezek a metaadatok telepítve van egy tulajdonság, amely azt jelzi, hogy a metaadatok lezárásához.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any mutability of the data structure of a &lt;xref:System.Windows.FrameworkPropertyMetadata&gt; instance should be marked as immutable when this method is invoked.</source>
+          <target state="translated">Az adatok szerkezete bármely mutability egy &lt;xref:System.Windows.FrameworkPropertyMetadata&gt;példány kell megjelölni, nem módosítható a metódus meghívásakor.&lt;/xref:System.Windows.FrameworkPropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>The dependency property to which the metadata has been applied.</source>
+          <target state="translated">A függőség tulajdonság, amelyhez a metaadatok alkalmazták.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>The type associated with this metadata if this is type-specific metadata.</source>
+          <target state="translated">A metaadatok társított, ha ez típusra vonatkozó metaadatokhoz típusa.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>If this is default metadata, this value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez az alapértelmezett metaadatok, ha az érték lehet <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the property value inheritance evaluation should span across certain content boundaries in the logical tree of elements.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a tulajdonság értékének öröklési kiértékelése a logikai fán. az elem bizonyos tartalom határain túlnyúló kell span.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This metadata reports a seldom-applied modification to property value inheritance behavior across special parent element-child element boundaries.</source>
+          <target state="translated">A metaadatok tulajdonság értéke öröklési viselkedés ritkán alkalmazott módosítása különleges szülő elem-alárendelt elem határain túlnyúló jelentéseket.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The canonical example of such a boundary is the contents of a &lt;xref:System.Windows.Controls.Frame&gt;, where the &lt;xref:System.Windows.Controls.Frame&gt; content might get reloaded independently of the existence of the &lt;xref:System.Windows.Controls.Frame&gt;.</source>
+          <target state="translated">A kanonikus példa ilyen a határ egy tartalmát egy &lt;xref:System.Windows.Controls.Frame&gt;, ahol &lt;xref:System.Windows.Controls.Frame&gt;Előfordulhat, hogy a tartalom létezik-e a &lt;xref:System.Windows.Controls.Frame&gt;.&lt;/xref:System.Windows.Controls.Frame&gt; függetlenül beolvasása módosítás&lt;/xref:System.Windows.Controls.Frame&gt; &lt;/xref:System.Windows.Controls.Frame&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The desired property system behavior is that property value inheritance should not traverse into the contents of the &lt;xref:System.Windows.Controls.Frame&gt;, because these contents might be elements that the application hosting the frame does not own or control.</source>
+          <target state="translated">A kívánt tulajdonság rendszerműködést, hogy tulajdonságöröklés érték nem bejárása kell a tartalmát a &lt;xref:System.Windows.Controls.Frame&gt;, mivel előfordulhat, hogy ezek a tartalmak elemek, amelyek a keret futtató alkalmazás tulajdonosa, vagy nem szabályozza.&lt;/xref:System.Windows.Controls.Frame&gt;</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying metadata with OverridesInheritanceBehavior set to <ph id="ph1">`true`</ph>, as well as specifying &lt;xref:System.Windows.FrameworkPropertyMetadata.Inherits%2A&gt; as <ph id="ph2">`true`</ph>, will cause the property on which the metadata is applied to be inheritable even across the &lt;xref:System.Windows.Controls.Frame&gt; boundary or similar boundaries.</source>
+          <target state="translated">Metaadatok megadása a OverridesInheritanceBehavior beállítása <ph id="ph1">`true`</ph>, valamint megadását &lt;xref:System.Windows.FrameworkPropertyMetadata.Inherits%2A&gt;, <ph id="ph2">`true`</ph>, a tulajdonság a metaadatok alkalmazott kell örökölhető keresztben még akkor is, akkor a &lt;xref:System.Windows.Controls.Frame&gt;határ vagy hasonló határokat.&lt;/xref:System.Windows.Controls.Frame&gt; &lt;/xref:System.Windows.FrameworkPropertyMetadata.Inherits%2A&gt;</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_OverridesInheritanceBehavior"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_OverridesInheritanceBehavior"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property value inheritance should span across certain content boundaries; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a tulajdonság értékének öröklési kell span teljes különböző bizonyos tartalom; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether sub-properties of the dependency property do not affect the rendering of the containing object.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a függőség tulajdonság alárendelt tulajdonságok nem befolyásolják a tartalmazó objektum megjelenítésének.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This metadata option is pertinent for dependency properties that are reference types, where that type has property values of its own.</source>
+          <target state="translated">A metaadatok beállítás akkor megfelelő függőségi tulajdonságok esetében a referencia típusoknak, ahol az adott típusú rendelkezik saját tulajdonságértékek.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the layout system logic is to assume that any dependency property with sub-properties potentially will affect layout, because checking all sub-properties for changes is more time consuming than actually running another render pass.</source>
+          <target state="translated">Az elrendezés rendszer logikai általában azt feltételezik, hogy bármely függőség tulajdonság alárendelt tulajdonságokkal potenciálisan érvényesek elrendezés, mert az összes alárendelt tulajdonságok változások ellenőrzése több időigényes, mint ténylegesen fut egy másik leképezési fázis.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this option to <ph id="ph1">`true`</ph> is useful for optimizing performance of the WPF framework level layout system implementation.</source>
+          <target state="translated">Ezt a beállítást <ph id="ph1">`true`</ph> akkor hasznos, ha a WPF keretrendszert szintű elrendezés rendszer végrehajtásának teljesítmény optimalizálása.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties on derived classes of &lt;xref:System.Windows.PropertyMetadata&gt; are typically defined in the object model as read-write.</source>
+          <target state="translated">A származtatott osztályait tulajdonságainak &lt;xref:System.Windows.PropertyMetadata&gt;általában határozzák meg a hálózatiobjektum-modellje, írható-olvasható.&lt;/xref:System.Windows.PropertyMetadata&gt;</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is so they can be adjusted after initialization of the instance.</source>
+          <target state="translated">Ez a helyzet a példány inicializálása után módosítható.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, once the metadata is consumed as part of a call to &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, or &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, the property system will seal that metadata instance and properties that convey the specifics of the metadata are now considered immutable.</source>
+          <target state="translated">Azonban Miután a metaadatok felhasznált hívása részeként &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;, &lt;xref:System.Windows.DependencyProperty.AddOwner%2A&gt;, vagy &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;, a tulajdonság rendszer fog lezárni metaadat példánynak, és átadja a részletekről a metaadatok tulajdonságok most minősülnek nem módosítható.&lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; &lt;/xref:System.Windows.DependencyProperty.AddOwner%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to set this property after &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt; is <ph id="ph1">`true`</ph> on this metadata instance will raise an exception.</source>
+          <target state="translated">Kísérlet után ez a tulajdonság &lt;xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;van <ph id="ph1">`true`</ph> ezeket a metaadatokat a példány emeli kivétel.&lt;/xref:System.Windows.PropertyMetadata.IsSealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_SubPropertiesDoNotAffectRender"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    Members of this class are not typically used in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_SubPropertiesDoNotAffectRender"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati Ez az osztály tagjai nem jellemzően <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changes to sub-property values do not affect rendering if changed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az alárendelt tulajdonságértékek változtatások nincsenek hatással a megjelenítési megváltozásakor; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The metadata has already been applied to a dependency property operation, so that metadata is sealed and properties of the metadata cannot be set.</source>
+          <target state="translated">A metaadatok már telepített függőség tulajdonság művelethez, így metaadatok le van zárva, és nem lehet beállítani a metaadatok tulajdonságait.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
