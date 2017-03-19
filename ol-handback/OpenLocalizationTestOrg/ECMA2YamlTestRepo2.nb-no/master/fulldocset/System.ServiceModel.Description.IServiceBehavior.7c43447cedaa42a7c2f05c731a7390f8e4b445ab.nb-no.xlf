@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e0b6524294d5fb1d1c7e485cb60f7c41aeefaa5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.IServiceBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4db822106f9434b1516fe81166151af0c7284d32</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4de12739fe47e212218c4b990f24298d335fc0f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to modify or insert custom extensions across an entire service, including the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inneholder en metode for å endre eller sette inn tilpassede utvidelser på tvers av en hele tjeneste, inkludert de <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement IServiceBehavior to modify, examine, or extend some aspect of service-wide execution at the application level:      -   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt; method to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">Implementere IServiceBehavior for å endre, undersøke eller utvide deler av tjenesteomfattende kjøring på programnivå:-Bruk av &lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;metode for å endre kjøretid egenskapsverdier eller sette inn egendefinert utvidelse objekter som feil behandlingsprogrammer, melding eller parameteren interceptors, utvidelser for sikkerhet og andre egendefinert utvidelse-objekter.&lt;/xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt; method to examine the description before <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> constructs the executing service to confirm that it can execute properly.</source>
+          <target state="translated">-Bruk av &lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;metode for å undersøke beskrivelsen før <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> bygger tjenesten kjøres for å bekrefte at det kan kjøres riktig.&lt;/xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt; method to pass to a binding element the custom information for the service so that it can support the service correctly.</source>
+          <target state="translated">-Bruk av &lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;metoden skal sendes til et bindingselement den egendefinerte informasjonen for tjenesten slik at den støtter tjenesten på riktig måte.&lt;/xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IServiceBehavior objects can make use of any of these methods, but often only one is important; in such cases the unused methods can return without a value.</source>
+          <target state="translated">IServiceBehavior objekter kan gjøre bruk av noen av disse metodene, men ofte bare én er viktig. i slike tilfeller ubrukte metodene til å returnere en verdi.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the IServiceBehavior methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alle metodene for IServiceBehavior sende &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;og &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;objekter som en parametere.&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination only; if you modify these objects the execution behavior is undefined.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;parameteren er for gjennomgang bare; hvis du endrer disse objektene kjøring virkemåten er udefinert.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform the customization task for which it is intended, the IServiceBehavior object must be added to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the construction of the service runtime.</source>
+          <target state="translated">Hvis du vil utføre tilpassing oppgave den er beregnet, IServiceBehavior-objektet må legges til i &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;egenskapen før bygging av kjøretiden service.&lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are three ways to do this:      -   Programmatically add the custom service behavior to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the point where the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt; method is called on the &lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt; object.</source>
+          <target state="translated">Tre måter å gjøre dette: – programmatisk Legg til egendefinert tjenestevirkemåten til den &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;egenskapen før punktet der den &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt;-metoden på den &lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt;objektet.&lt;/xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Create a custom attribute that implements IServiceBehavior and use it to mark service classes that are to be modified.</source>
+          <target state="translated">-Opprett en egendefinert attributt som implementerer IServiceBehavior og bruke den til å merke Tjenesteklasser som skal endres.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.ServiceModel.ServiceHost&gt; object is constructed, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> uses reflection to discover the attributes on the service type.</source>
+          <target state="translated">Når en &lt;xref:System.ServiceModel.ServiceHost&gt;objektet bygges, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> bruker gjenspeiling til å oppdage attributter i tjenestetypen.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any attributes implement IServiceBehavior, they are added to the behaviors collection on &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;.</source>
+          <target state="translated">Hvis noen attributter implementerer IServiceBehavior, legges de til virkemåtesamlingen &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Extend the &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt; class to support the specification of the behavior in an application or machine configuration file.</source>
+          <target state="translated">-Utvide den &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;klassen for å støtte angivelse av virkemåten i et program eller maskinen konfigurasjonsfilen.&lt;/xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the Example section for more information.</source>
+          <target state="translated">Se eksempel for mer informasjon.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Examples of service behaviors in <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> include the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt; attribute, the &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;, the &lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt; and the &lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt; behavior.</source>
+          <target state="translated">Eksempler på tjenesten virkemåter i <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> inkluderer den &lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt;attributtet i &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt;og &lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt;virkemåte.&lt;/xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ServiceBehaviorAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Provides the ability to pass custom data to binding elements to support the contract implementation.</source>
+          <target state="translated">Gjør mulighet å sende tilpassede data til binding elementer å støtte implementeringen kontrakten.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the AddBindingParameters method to add custom data objects to the <ph id="ph1">`parameters`</ph> collection that binding elements can use to acquire extra information to enable them to support the contract.</source>
+          <target state="translated">Bruke AddBindingParameters metode for å legge til objekter som tilpassede data til den <ph id="ph1">`parameters`</ph> samlingen binding elementer kan bruke til å hente ekstra opplysninger slik at de kan støtte kontrakten.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called once for each listen URI.</source>
+          <target state="translated">Denne metoden kalles én gang for hver URIEN.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a service has four endpoints, and two of them have the same listen URI, then this method gets called three times.</source>
+          <target state="translated">For eksempel hvis en tjeneste har fire endepunkt, og to av dem har lytte samme URI, og denne metoden henter kalles tre ganger.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The reason is that the <ph id="ph1">`bindingParameters`</ph> target each channel stack and there is one channel stack for each listen URI.</source>
+          <target state="translated">Årsaken er at den <ph id="ph1">`bindingParameters`</ph> target hver kanal bunke og det er én kanal stakk for hver URIEN.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each call receives those endpoints at that listen URI, two calls each get a single &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;, and one call gets a collection of two &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt; objects.</source>
+          <target state="translated">Fordi hvert kall mottar disse endepunkt på lytte-URI, to kaller hver get én &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;, og ett kall henter en samling av to &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;objekter.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alle de &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;metoder sende &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;og &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;objekter som en parametere.&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;parameteren er for gjennomgang og innsetting av tilpassinger bare; hvis du endrer ellers disse objektene kjøring virkemåten er udefinert.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The service description of the service.</source>
+          <target state="translated">Tjenestebeskrivelsen for tjenesten.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The host of the service.</source>
+          <target state="translated">Verten for tjenesten.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The service endpoints.</source>
+          <target state="translated">Service-endepunkt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Custom objects to which binding elements have access.</source>
+          <target state="translated">Egendefinert objekter som bindingen elementer har tilgang til.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides the ability to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">Gir muligheten til å endre kjøretid egenskapsverdier eller sette inn egendefinert utvidelse objekter som feil behandlingsprogrammer, melding eller parameteren interceptors, utvidelser for sikkerhet og andre egendefinert utvidelse-objekter.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the ApplyDispatchBehavior method to inspect or modify the &lt;xref:System.ServiceModel.ServiceHostBase&gt; object that is being constructed in order to support some custom execution scenario.</source>
+          <target state="translated">Implementere ApplyDispatchBehavior-metode for å kontrollere eller endre den &lt;xref:System.ServiceModel.ServiceHostBase&gt;objekt som bygges for å støtte noen egendefinert kjøring scenarioet.&lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alle de &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;metoder sende &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;og &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;objekter som en parametere.&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;parameteren er for gjennomgang og innsetting av tilpassinger bare; hvis du endrer ellers disse objektene kjøring virkemåten er udefinert.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">Tjenestebeskrivelsen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The host that is currently being built.</source>
+          <target state="translated">Verten som for øyeblikket opprettes.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provides the ability to inspect the service host and the service description to confirm that the service can run successfully.</source>
+          <target state="translated">Gir muligheten til å kontrollere Tjenesteverten og tjenestebeskrivelsen for å bekrefte at tjenesten kan kjøres.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Validate method to confirm whether the current service can execute properly according to your scenario.</source>
+          <target state="translated">Bruk metoden Valider for å bekrefte om den gjeldende tjenesten kan kjøre riktig i henhold til scenariet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alle de &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;metoder sende &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;og &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;objekter som en parametere.&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;parameteren er for gjennomgang og innsetting av tilpassinger bare; hvis du endrer ellers disse objektene kjøring virkemåten er udefinert.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">Tjenestebeskrivelsen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service host that is currently being constructed.</source>
+          <target state="translated">Tjenesteverten som blir opprettet.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
