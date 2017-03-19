@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf81347af22dba66a1f1948ec5e4057dd57bb5a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ISerializable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5516bc5c765c2d022a27d708a59c47b00681299</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec8abb95db674a321b19560dea4f05cddf27e899</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows an object to control its own serialization and deserialization.</source>
+          <target state="translated">Lehetővé teszi, hogy a saját szerializálása és deszerializálása objektum.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any class that might be serialized must be marked with the &lt;xref:System.SerializableAttribute&gt;.</source>
+          <target state="translated">Előfordulhat, hogy szerializálni lehessen osztály kell jelölni a &lt;xref:System.SerializableAttribute&gt;.&lt;/xref:System.SerializableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a class needs to control its serialization process, it can implement the ISerializable interface.</source>
+          <target state="translated">Ha egy osztály a szerializálási folyamatot szabályozhatja, hogy az ISerializable illesztőfelületet valósíthat meg.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; calls the &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; at serialization time and populates the supplied &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data required to represent the object.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.Formatter&gt;hívások a &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;szerializálási időpontban tölti fel a megadott &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;képviselő objektum szükséges összes adatot tartalmazó.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; &lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; creates a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with the type of the object in the graph.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.Formatter&gt;létrehoz egy &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;azzal a típussal, az objektum a grafikonon.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that need to send proxies for themselves can use the &lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt; and &lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt; methods on &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; to change the transmitted information.</source>
+          <target state="translated">Objektumok kell küldeniük proxyk maguk is használható a &lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;és &lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt;metódusai &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;módosítása az átvitt adatokat.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of class inheritance, it is possible to serialize a class that derives from a base class that implements ISerializable.</source>
+          <target state="translated">Osztályöröklődést, ha egy osztály, amely egy olyan alaposztályból, amely megvalósítja az ISerializable származik szerializálni.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the derived class should call the base class implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; inside its implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">Ebben az esetben a származtatott osztály meg kell hívnia az alaposztály végrehajtásának &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;belül &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; megvalósítása&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the data from the base class will not be serialized.</source>
+          <target state="translated">Ellenkező esetben az alaposztály adatait fogja nem szerializálható.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ISerializable interface implies a constructor with the signature constructor (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt; information, &lt;xref:System.Runtime.Serialization.StreamingContext&gt; context).</source>
+          <target state="translated">Az ISerializable illesztőfelületet magában foglalja az aláírás konstruktorral rendelkező konstruktor (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt; információ &lt;xref:System.Runtime.Serialization.StreamingContext&gt;környezet).&lt;/xref:System.Runtime.Serialization.StreamingContext&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At deserialization time, the current constructor is called only after the data in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; has been deserialized by the formatter.</source>
+          <target state="translated">A deszerializálás során, az aktuális konstruktor neve csak után az adatokat a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;rendelkezik a formázó által lett deszerializálva.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, this constructor should be protected if the class is not sealed.</source>
+          <target state="translated">Ez a konstruktor általában védendő, ha az osztály nincs lezárva.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order in which objects are deserialized cannot be guaranteed.</source>
+          <target state="translated">Nem lehet garantálni a sorrendet, amelyben a objektum deszerializálása.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if one type references a type that has not been deserialized yet, an exception will occur.</source>
+          <target state="translated">Például egy típus, amely még nem lett deszerializálva. még típusra hivatkozik, ha kivétel lép fel.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are creating types that have such dependencies, you can work around the problem by implementing the <ph id="ph1">`IDeserializationCallback`</ph> interface and the <ph id="ph2">`OnDeserialization`</ph> method.</source>
+          <target state="translated">Ilyen függőségekkel rendelkező típusok létrehozásakor, akkor a probléma megkerüléséhez alkalmazásával a <ph id="ph1">`IDeserializationCallback`</ph> felület és a <ph id="ph2">`OnDeserialization`</ph> metódust.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization architecture handles object types that extend &lt;xref:System.MarshalByRefObject&gt; the same as types that extend &lt;xref:System.Object&gt;.</source>
+          <target state="translated">A szerializálási architektúra típusú objektumokat, amelyek &lt;xref:System.MarshalByRefObject&gt;azonos típusú &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; kiterjesztése, amely&lt;/xref:System.MarshalByRefObject&gt; kezeli</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These types can be marked with the &lt;xref:System.SerializableAttribute&gt; and implement the ISerializable interface as any other object type.</source>
+          <target state="translated">Ezek a típusok képes ellátni a &lt;xref:System.SerializableAttribute&gt;és valósítja meg az ISerializable illesztőfelületet, mint bármely más objektumtípus.&lt;/xref:System.SerializableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Their object state will be captured and persisted onto the stream.</source>
+          <target state="translated">Az objektum állapotát a rendszer rögzített, majd maradnak, az adatfolyam.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When these types are being used through &lt;xref:System.Runtime.Remoting&gt;, the remoting infrastructure provides a surrogate that preempts typical serialization and instead serializes a proxy to the &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">Ha ezek a típusok használt keresztül &lt;xref:System.Runtime.Remoting&gt;, a távoli eljáráshívási infrastruktúrában biztosít egy helyettesítő, amely jellemző szerializálási várólistájának, és ehelyett rendezi sorba az &lt;xref:System.MarshalByRefObject&gt;.&lt;/xref:System.MarshalByRefObject&gt; proxy&lt;/xref:System.Runtime.Remoting&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A surrogate is a helper that knows how to serialize and deserialize objects of a particular type.</source>
+          <target state="translated">A helyettesítő, hogy ismeri a szerializálása és deszerializálása egy adott típusú objektumokat segítő.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy, invisible to the user in most cases, will be of type &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">A proxy, nem látható a legtöbb esetben a felhasználó számára lesz &lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt; típusú</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a general design pattern, it would be unusual for a class to be both marked with the serializable attribute and extend &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">Általános tervezési mintaként lenne szokatlan egy osztály egyaránt jelölhetők a serializable attribútummal és &lt;xref:System.MarshalByRefObject&gt;.&lt;/xref:System.MarshalByRefObject&gt; kiterjesztése</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers should think carefully about the possible serialization and remoting scenarios when combining these two characteristics.</source>
+          <target state="translated">A fejlesztők kell fontolnunk, gondosan a szerializálás és a távelérés a következő eljárások e két jellemzők egyesítésekor.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One example where this might be applicable is with a &lt;xref:System.IO.MemoryStream&gt;.</source>
+          <target state="translated">Egy példa, ahol ez előfordulhat, hogy alkalmazhatók a &lt;xref:System.IO.MemoryStream&gt;.&lt;/xref:System.IO.MemoryStream&gt; van</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the base class of &lt;xref:System.IO.MemoryStream&gt; (&lt;xref:System.IO.Stream&gt;) extends from &lt;xref:System.MarshalByRefObject&gt;, it is possible to capture the state of a &lt;xref:System.IO.MemoryStream&gt; and restore it at will.</source>
+          <target state="translated">Miközben az alaposztály alaposztályát &lt;xref:System.IO.MemoryStream&gt;(&lt;xref:System.IO.Stream&gt;) fájlleképezés &lt;xref:System.MarshalByRefObject&gt;, lehetséges állapotának rögzítéséhez egy &lt;xref:System.IO.MemoryStream&gt;, majd visszaállítja azt, majd.&lt;/xref:System.IO.MemoryStream&gt; &lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It might, therefore, be meaningful to serialize the state of this stream into a database and restore it at some later point in time.</source>
+          <target state="translated">Ezért lehet, az adatfolyam állapotának szerializálni az adatbázisba, és visszaállíthatja a későbbi bármikor időben jelentéssel bíró.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when used through remoting, an object of this type would be proxied.</source>
+          <target state="translated">Azonban távoli eljáráshívás keresztül használatakor az ilyen típusú objektum lenne küldése a proxyn keresztül.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about serialization of classes that extend &lt;xref:System.MarshalByRefObject&gt;, see &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.</source>
+          <target state="translated">További információ a szerializálási osztályok &lt;xref:System.MarshalByRefObject&gt;, lásd: &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt; &lt;/xref:System.MarshalByRefObject&gt; kibővítő</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about implementing ISerializable, see <bpt id="p1">[</bpt>Custom Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Történt ISerializable illesztőfelülettel kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>egyéni szerializálási<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Populates a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the target object.</source>
+          <target state="translated">Kitölti egy <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szükség lehet, mert a célobjektum adatokkal.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any objects that are included in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; are automatically tracked and serialized by the formatter.</source>
+          <target state="translated">Minden olyan objektumot, szerepel a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;automatikusan nyomon követheti és a formázó által szerializált.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code that calls GetObjectData requires the &lt;xref:System.Security.Permissions.SecurityPermission&gt; for providing serialization services.</source>
+          <target state="translated">GetObjectData eljárás behívó kód szükséges a &lt;xref:System.Security.Permissions.SecurityPermission&gt;szerializálási szolgáltatások.&lt;/xref:System.Security.Permissions.SecurityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.</source>
+          <target state="translated">Kapcsolódó számbavételi: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is not guaranteed that this method will be called only once per object instance during serialization.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nem garantált, hogy ezt a módszert fog csak egyszer hívható objektum példányonként a szerializálás során.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the method should be implemented in such a way that its behavior will be the same regardless of the number of times it is called.</source>
+          <target state="translated">A metódus, ezért úgy, hogy annak viselkedését ugyanaz lesz, függetlenül a szám, ahányszor nevezik kell végrehajtani.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatokkal feltölteni.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) for this serialization.</source>
+          <target state="translated">A célként megadott (lásd: &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) a szerializáláshoz.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">A hívó nem rendelkezik a szükséges engedélyekkel.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
