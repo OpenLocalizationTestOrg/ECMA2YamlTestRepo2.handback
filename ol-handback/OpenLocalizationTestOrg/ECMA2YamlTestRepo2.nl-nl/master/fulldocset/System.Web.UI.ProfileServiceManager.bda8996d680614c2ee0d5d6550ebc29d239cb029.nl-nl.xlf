@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99c09253f1115c1afbd1225f1ae4220a155409a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ProfileServiceManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc9e5b0820b7bb489c2197e14d98ea4386c689aa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4a0e4ccd3612c7cfd3d393d613364b70ee27bda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Configures a set of preloaded profile properties and the location of a custom implementation of the profile service.</source>
+          <target state="translated">Hiermee configureert u een reeks vooraf geladen profieleigenschappen en de locatie van een aangepaste implementatie van de profielservice.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProfileServiceManager class corresponds to the &lt;xref:System.Web.UI.ScriptManager.ProfileService%2A&gt; property that can be added to the &lt;xref:System.Web.UI.ScriptManager&gt; or &lt;xref:System.Web.UI.ScriptManagerProxy&gt; control.</source>
+          <target state="translated">De klasse ProfileServiceManager komt overeen met de &lt;xref:System.Web.UI.ScriptManager.ProfileService%2A&gt;eigenschap die kan worden toegevoegd aan de &lt;xref:System.Web.UI.ScriptManager&gt;of &lt;xref:System.Web.UI.ScriptManagerProxy&gt;besturingselement.&lt;/xref:System.Web.UI.ScriptManagerProxy&gt; &lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.ProfileService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use ProfileServiceManager to specify a set of profile properties that will be preloaded when the page is rendered and will be available to client script.</source>
+          <target state="translated">U kunt ProfileServiceManager gebruiken om op te geven van een set van profieleigenschappen die vooraf wordt geladen wanneer de pagina wordt weergegeven en beschikbaar zijn voor clientscript.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, instead of using the built-in profile Web service provided by AJAX features of ASP.NET, you can use this class to provide the path of an alternative implementation of the Web service that will be used for loading or saving profile properties from script.</source>
+          <target state="translated">In plaats van het ingebouwde profiel geleverd door AJAX-functies van ASP.NET-webservice, kunt u ook deze klasse gebruiken om het pad van een alternatieve implementatie van de webservice die wordt gebruikt voor het laden of opslaan van profieleigenschappen uit het script.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use the profile service in your application, you must enable it in the configuration file.</source>
+          <target state="translated">Als u wilt de profielservice gebruikt in uw toepassing, moet u het inschakelen in het configuratiebestand.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use the built-in profile Web service and do not have to preload properties, you do not have to explicitly declare the profile service manager on the page.</source>
+          <target state="translated">Als u de ingebouwde webservice-profiel gebruiken en niet hoeft vooraf laden van eigenschappen, hoeft u niet expliciet declareren het profiel voor servicemanager op de pagina.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To declaratively specify a set of preloaded properties, or a custom profile Web service, include a <ph id="ph1">`&lt;ProfileService&gt;`</ph> element inside the <ph id="ph2">`&lt;asp:ScriptManager&gt;`</ph> element on the page, as shown in the following example.</source>
+          <target state="translated">Als een reeks vooraf geladen eigenschappen of een aangepast profiel webservice declaratief opgeven, bevatten een <ph id="ph1">`&lt;ProfileService&gt;`</ph> -element in de <ph id="ph2">`&lt;asp:ScriptManager&gt;`</ph> element op de pagina, zoals wordt weergegeven in het volgende voorbeeld.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;asp:ScriptManager ID="SM1" runat="server"&gt;     &lt;ProfileService LoadProperties="propertyA,propertyB" Path="MyProfileService.asmx" /&gt;   &lt;/asp:ScriptManager&gt;   ```</ph>       You can also programmatically configure the profile service to preload properties or to use a custom profile Web service.</source>
+          <target state="translated"><ph id="ph1">```   &lt;asp:ScriptManager ID="SM1" runat="server"&gt;     &lt;ProfileService LoadProperties="propertyA,propertyB" Path="MyProfileService.asmx" /&gt;   &lt;/asp:ScriptManager&gt;   ```</ph>U kunt ook programmatisch de profielservice eigenschappen vooraf laden of gebruiken van een aangepast profiel webservice configureren.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example shows the basic class structure that must be implemented in a custom profile Web service.</source>
+          <target state="translated">Het volgende voorbeeld ziet de algemene klassenstructuur die moet worden geïmplementeerd in een aangepast profiel webservice.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>XpsCreate#XpsCreateAddPkgContent<ept id="p2">](~/add/codesnippet/csharp/XpsCreate/XpsCreate.cs#xpscreateaddpkgcontent)</ept><ept id="p1">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>XpsCreate #XpsCreateAddPkgContent<ept id="p2">](~/add/codesnippet/csharp/XpsCreate/XpsCreate.cs#xpscreateaddpkgcontent)</ept><ept id="p1">]</ept></target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.ProfileServiceManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.UI.ProfileServiceManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets an array that contains the profile properties that will be made available to client script.</source>
+          <target state="translated">Opgehaald of ingesteld van een matrix met de profieleigenschappen die beschikbaar zijn voor clientscript zal worden gesteld.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If LoadProperties contains at least one string that corresponds to the name of a profile property, then the built-in profile service in the Web application retrieves the current user's profile data for each of the specified profile properties.</source>
+          <target state="translated">Als LoadProperties ten minste één tekenreeks die overeenkomt met de naam van een profieleigenschap bevat, haalt de profielservice ingebouwde in de webtoepassing profielgegevens van de huidige gebruiker voor elk van de eigenschappen van het opgegeven profiel.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The profile property values are serialized and then made available to client script through the <bpt id="p1">[</bpt>properties Field<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> collection.</source>
+          <target state="translated">De waarden voor profieleigenschappen worden geserialiseerd en vervolgens beschikbaar gemaakt voor clientscript via de <bpt id="p1">[</bpt>eigenschappen veld<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> verzameling.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To set this property declaratively, use a comma-separated list of property names.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Kunt u deze eigenschap declaratief instellen met een door komma's gescheiden lijst met namen van eigenschappen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For grouped property values, use the syntax <bpt id="p1">*</bpt>GroupName<ept id="p1">*</ept>.<bpt id="p2">*</bpt>PropertyName<ept id="p2">*</ept>.</source>
+          <target state="translated">Gebruik de syntaxis voor gegroepeerde eigenschapswaarden en <bpt id="p1">*</bpt>GroupName<ept id="p1">*</ept>.<bpt id="p2">*</bpt> PropertyName<ept id="p2">*</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When LoadProperties is an empty array, no profile data is preloaded.</source>
+          <target state="translated">Wanneer LoadProperties lege matrix is, wordt er geen profielgegevens vooraf geladen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadProperties property can be specified in the &lt;xref:System.Web.UI.ScriptManager&gt; control or in an associated &lt;xref:System.Web.UI.ScriptManagerProxy&gt; control.</source>
+          <target state="translated">De eigenschap LoadProperties kan worden opgegeven in de &lt;xref:System.Web.UI.ScriptManager&gt;besturingselement of in een gekoppeld &lt;xref:System.Web.UI.ScriptManagerProxy&gt;besturingselement.&lt;/xref:System.Web.UI.ScriptManagerProxy&gt; &lt;/xref:System.Web.UI.ScriptManager&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When LoadProperties is set on both the &lt;xref:System.Web.UI.ScriptManager&gt; control and on one or more &lt;xref:System.Web.UI.ScriptManagerProxy&gt; controls, the set of properties is determined by merging all the specified properties.</source>
+          <target state="translated">Wanneer LoadProperties is ingesteld op zowel de &lt;xref:System.Web.UI.ScriptManager&gt;besturingselement en op een of meer &lt;xref:System.Web.UI.ScriptManagerProxy&gt;besturingselementen, de set eigenschappen wordt bepaald door de opgegeven eigenschappen samen te voegen.&lt;/xref:System.Web.UI.ScriptManagerProxy&gt; &lt;/xref:System.Web.UI.ScriptManager&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Duplicate properties are ignored.</source>
+          <target state="translated">Dubbele eigenschappen worden genegeerd.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A string array that contains the names of the profile properties that will be preloaded and made available to client script.</source>
+          <target state="translated">Een string-matrix met de namen van de profieleigenschappen die wordt geladen en beschikbaar gesteld voor clientscript.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default is an empty array.</source>
+          <target state="translated">De standaardwaarde is een lege matrix.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The LoadProperties property includes property names that are not in the current application’s profile schema.</source>
+          <target state="translated">De eigenschap LoadProperties bevat de namen van eigenschappen die niet zijn opgenomen in de huidige toepassing profielschema.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets the path of a custom implementation of the profile Web service.</source>
+          <target state="translated">Opgehaald of ingesteld van het pad van een aangepaste implementatie van het profiel webservice.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Relative virtual paths, absolute virtual paths, and fully-qualified paths are allowed.</source>
+          <target state="translated">Relatieve paden voor virtuele absolute virtuele paden en volledig gekwalificeerde paden zijn toegestaan.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Path property is not set, the return value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">Als de eigenschap Path is niet ingesteld, is de retourwaarde &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the AJAX features of ASP.NET will then use the built-in profile Web service that corresponds to the following internal default path: ~/ScriptServices_ProfileService.asmx.</source>
+          <target state="translated">In dit geval de AJAX-functies van ASP.NET wordt het ingebouwde profiel webservice die overeenkomt met het volgende pad van de intern standaard gebruikt: ~ / ScriptServices_ProfileService.asmx.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same behavior occurs if you set Path to be an empty value or <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Hetzelfde kan gebeuren als u het pad naar een lege waarde worden ingesteld of <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Path can be specified in the &lt;xref:System.Web.UI.ScriptManager&gt; control or in an associated &lt;xref:System.Web.UI.ScriptManagerProxy&gt; control.</source>
+          <target state="translated">Pad kan worden opgegeven de &lt;xref:System.Web.UI.ScriptManager&gt;besturingselement of in een gekoppeld &lt;xref:System.Web.UI.ScriptManagerProxy&gt;besturingselement.&lt;/xref:System.Web.UI.ScriptManagerProxy&gt; &lt;/xref:System.Web.UI.ScriptManager&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When Path is set at the &lt;xref:System.Web.UI.ScriptManagerProxy&gt; level, the following caveats apply:      -   If there are multiple proxies in the control hierarchy, Path does not have to be set on each proxy instance.</source>
+          <target state="translated">Als het pad is ingesteld op de &lt;xref:System.Web.UI.ScriptManagerProxy&gt;niveau, het volgende voorbehoud toepassen:-als er meerdere proxy's in de besturingselementhiërarchie, pad hoeft niet te worden ingesteld voor elk exemplaar van de proxy.&lt;/xref:System.Web.UI.ScriptManagerProxy&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If Path is explicitly set on a proxy instance, the value must be the same for all other proxies on which this property is explicitly set.</source>
+          <target state="translated">-Als het pad is expliciet ingesteld op een proxy-exemplaar, de waarde moet hetzelfde voor alle andere proxy's waarvoor deze eigenschap expliciet is ingesteld.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The path of a custom implementation of the profile Web service.</source>
+          <target state="translated">Het pad van een aangepaste implementatie van het profiel webservice.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>More than one unique path was set in the control hierarchy.</source>
+          <target state="translated">Meer dan één unieke pad is ingesteld in de hiërarchie beheren.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
