@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">681b5d3bfe416be90e27e85c69c9dd647f1a981d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.Repeater.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fc40cb678de5ea806749635534c4728e8e72020</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b059f6bfb0df1c2f25e76c752a2df3e7403ea0fb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A data-bound list control that allows custom layout by repeating a specified template for each item displayed in the list.</source>
+          <target state="translated">Um controlo de lista de vinculados a dados que permite o esquema personalizada, repetindo um modelo especificado para cada item apresentado na lista.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Data Binding<ept id="p2">](#data_binding)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Templates<ept id="p3">](#templates)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Declarative Syntax<ept id="p4">](#declarative_syntax)</ept>      <bpt id="p5">&lt;a name="introduction"&gt;</bpt><ept id="p5">&lt;/a&gt;</ept>    ## Introduction    The Repeater control is a basic templated data-bound list.</source>
+          <target state="translated">Neste tópico:- <bpt id="p1">[</bpt>introdução<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>enlace de dados<ept id="p2">](#data_binding)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>modelos<ept id="p3">](#templates)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>sintaxe declarativa<ept id="p4">](#declarative_syntax)</ept> <bpt id="p5">&lt;a name="introduction"&gt;</bpt> <ept id="p5">&lt;/a&gt;</ept> # # controlo Repeater a introdução se uma lista de vinculados a dados transformada em modelo básica.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It has no built-in layout or styles, so you must explicitly declare all layout, formatting, and style tags within the control's templates.</source>
+          <target state="translated">Não tem nenhum esquema incorporada ou estilos, pelo que tem de declarar explicitamente todos os esquema, formatação e etiquetas de estilo nos modelos do controlo.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Repeater control allows you to split markup tags across the templates.</source>
+          <target state="translated">O controlo de Repeater permite-lhe dividir etiquetas de marcação pelos modelos.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a table using templates, include the begin table tag (<ph id="ph1">`&lt;table&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, a single table row tag (<ph id="ph2">`&lt;tr&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;, and the end table tag (<ph id="ph3">`&lt;/table&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;.</source>
+          <target state="translated">Para criar uma tabela com os modelos, incluir a etiqueta de tabela de begin (<ph id="ph1">`&lt;table&gt;`</ph>) no &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, uma tag de linha única tabela (<ph id="ph2">`&lt;tr&gt;`</ph>) no &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;e a etiqueta de tabela de fim (<ph id="ph3">`&lt;/table&gt;`</ph>) no &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Repeater control has no built-in selection capabilities or editing support.</source>
+          <target state="translated">O controlo de Repeater tem capacidades não seleção incorporado ou edição de suporte.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt; event to process control events that are raised from the templates to the control.</source>
+          <target state="translated">Pode utilizar o &lt;xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt;eventos para processar eventos de controlo que são geradas a partir de modelos ao controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="data_binding"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Data Binding    The Repeater control provides two properties to support data binding.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="data_binding"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Vincular dados controlo Repeater fornece duas propriedades para suportar o enlace de dados.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To bind data to any collection that implements the &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; interface (such as a &lt;xref:System.Data.DataView?displayProperty=fullName&gt;, a &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, or an array), or the &lt;xref:System.ComponentModel.IListSource&gt; interface, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to specify the data source.</source>
+          <target state="translated">Para vincular dados para qualquer coleção que implementa o &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;interface (tal como um &lt;xref:System.Data.DataView?displayProperty=fullName&gt;, um &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, ou uma matriz), ou o &lt;xref:System.ComponentModel.IListSource&gt;interface, utilize o &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade para especificar a origem de dados.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property, you must manually write the code to perform data binding.</source>
+          <target state="translated">Quando configurar o &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade, manualmente tem de escrever o código para efetuar o enlace de dados.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To automatically bind the Repeater control to a data source represented by a data source control, set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property to the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the data source control to use.</source>
+          <target state="translated">Para vincular automaticamente o controlo de Repeater a uma origem de dados representada por um controlo de origem de dados, defina o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade para o &lt;xref:System.Web.UI.Control.ID%2A&gt;do controlo de origem de dados a utilizar.&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt; property, the Repeater control automatically binds to the specified data source control on the first request.</source>
+          <target state="translated">Quando configurar o &lt;xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt;propriedade, o controlo de Repeater automaticamente está vinculado ao controlo de origem de dados especificado no primeiro pedido.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you do not need to explicitly call the &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt; method unless you have changed data-related properties of the Repeater control.</source>
+          <target state="translated">Por conseguinte, não terá de chamar explicitamente o &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;método, exceto se tiver alterado as propriedades relacionadas com a dados do controlo Repeater.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Repeater control binds its &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt; to either the data model declared and referenced by its &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property or the data source control specified by its &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property.</source>
+          <target state="translated">Está vinculado a um controlo Repeater respetivo &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;e &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;para os dados de modelo declarado e referenciada pelo respetivo &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade ou os dados de origem controlo especificado pelo respetivo &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;, and &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; are not data-bound.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;, e &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;não são vinculados a dados.&lt;/xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Repeater control's data source is set but no data is returned, the control renders the &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; with no items.</source>
+          <target state="translated">Se a origem de dados do controlo Repeater está definida, mas não são devolvidos dados, o controlo compõe o &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;e &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;com não existem itens.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source is <ph id="ph1">`null`</ph>, the Repeater is not rendered.</source>
+          <target state="translated">Se a origem de dados é <ph id="ph1">`null`</ph>, o Repeater não é composto.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="templates"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Templates    At a minimum, every Repeater control must define an &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="templates"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Modelos, no mínimo, cada controlo Repeater tem de definir um &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, other optional templates described in the following table can be used to customize the appearance of the list.</source>
+          <target state="translated">No entanto, os outros modelos opcionais descritos na tabela seguinte podem ser utilizados para personalizar o aspeto da lista.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Template name|Description|   |-------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;|Defines the content and layout of items within the list.</source>
+          <target state="translated">| Nome do modelo | Descrição |   |-------------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;| Define o conteúdo e o esquema de itens na lista.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This template is required.|   |&lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;|If defined, determines the content and layout of alternating (zero-based odd-indexed) items.</source>
+          <target state="translated">Este modelo não é necessário. |   | &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;| Se definido, determina o conteúdo e o esquema de alternar (baseado em zero ímpar-indexada) itens.&lt;/xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; is used.|   |&lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;|If defined, is rendered between items (and alternating items).</source>
+          <target state="translated">Se não definido, &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;é utilizado. |   | &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;| Se definido, é composto entre itens (e alternadas itens).&lt;/xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a separator is not rendered.|   |&lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;|If defined, determines the content and layout of the list header.</source>
+          <target state="translated">Se não definido um separador não está a ser composto. |   | &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;| Se definido, determina o conteúdo e o esquema de cabeçalho da lista.&lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a header is not rendered.|   |&lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;|If defined, determines the content and layout of the list footer.</source>
+          <target state="translated">Se não definido, um cabeçalho não é composto. |   | &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;| Se definido, determina o conteúdo e o esquema do rodapé da lista.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a footer is not rendered.|      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:Repeater       DataMember="string"       DataSource="string"       DataSourceID="string"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCommand="ItemCommand event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       Visible="True|False"   &gt;           &lt;AlternatingItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/AlternatingItemTemplate&gt;           &lt;FooterTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/FooterTemplate&gt;           &lt;HeaderTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/HeaderTemplate&gt;           &lt;ItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/ItemTemplate&gt;           &lt;SeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/SeparatorTemplate&gt;   &lt;/asp:Repeater&gt;   ```</ph></source>
+          <target state="translated">Se não definido, um rodapé não é composto. |      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # Sintaxe declarativa<ph id="ph1">```   &lt;asp:Repeater       DataMember="string"       DataSource="string"       DataSourceID="string"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCommand="ItemCommand event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       Visible="True|False"   &gt;           &lt;AlternatingItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/AlternatingItemTemplate&gt;           &lt;FooterTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/FooterTemplate&gt;           &lt;HeaderTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/HeaderTemplate&gt;           &lt;ItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/ItemTemplate&gt;           &lt;SeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/SeparatorTemplate&gt;   &lt;/asp:Repeater&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the object implementing <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how alternating items in the control are displayed.</source>
+          <target state="translated">Obtém ou define o tipo de implementação de objeto <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como alternar os itens no controlo são apresentados.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to provide a different appearance for alternating items in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control from what is specified in the &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.</source>
+          <target state="translated">Utilize esta propriedade para fornecer um aspeto diferente para alternar itens de &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo do que é especificado no &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how alternating items are displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define a forma como alternadas itens são apresentados.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Occurs when data methods are being called.</source>
+          <target state="translated">Ocorre quando os métodos de dados estão a ser chamados.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of this event is to give you an opportunity to specify that the data methods to be called are on a different object than the &lt;xref:System.Web.UI.Page&gt; object.</source>
+          <target state="translated">O objetivo deste evento é para lhe dar uma oportunidade para especificar que os métodos de dados denominado estão num objeto diferente que o &lt;xref:System.Web.UI.Page&gt;objeto.&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém um <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os controlos subordinados do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Controls collection to manage the child controls of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Utilizar a coleção de controlos para gerir os controlos subordinados do &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is commonly used to retrieve a child control from the collection.</source>
+          <target state="translated">É frequentemente utilizado para obter um controlo subordinado da coleção.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add and remove child controls from the collection.</source>
+          <target state="translated">Também pode adicionar e remover controlos subordinados da coleção.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To access a child control within a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, iterate through the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control's &lt;xref:System.Web.UI.WebControls.Repeater.Items%2A&gt; collection to retrieve the &lt;xref:System.Web.UI.WebControls.RepeaterItem&gt; for a given index.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Para aceder a um controlo subordinado dentro de um &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlar, itere através de &lt;xref:System.Web.UI.WebControls.Repeater&gt;do controlo &lt;xref:System.Web.UI.WebControls.Repeater.Items%2A&gt;coleção para obter o &lt;xref:System.Web.UI.WebControls.RepeaterItem&gt;para um índice fornecido.&lt;/xref:System.Web.UI.WebControls.RepeaterItem&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.Items%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then call the <bpt id="p1">**</bpt>Repeater<ept id="p1">**</ept> item's inherited &lt;xref:System.Web.UI.Control.FindControl%2A&gt; method to retrieve a control with a particular ID.</source>
+          <target state="translated">Em seguida, chame o <bpt id="p1">**</bpt>Repeater<ept id="p1">**</ept> item do herdadas &lt;xref:System.Web.UI.Control.FindControl%2A&gt;método para obter um controlo com um ID específico.&lt;/xref:System.Web.UI.Control.FindControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os controlos subordinados do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Called by the ASP.NET page framework to notify server controls that use composition-based implementation to create any child controls they contain in preparation for posting back or rendering.</source>
+          <target state="translated">Chamado pela estrutura de página do ASP.NET para notificar os controlos de servidor que utilizar implementação baseada em composição para criar quaisquer controlos subordinados contêm em preparação para voltar a publicar ou composição.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Creates a control hierarchy, with or without the specified data source.</source>
+          <target state="translated">Cria uma hierarquia de controlo, com ou sem a origem de dados especificada.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Indicates whether to use the specified data source.</source>
+          <target state="translated">Indica se deve utilizar a origem de dados especificada.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">Devolve o &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;valor.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first call to the &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; property calls the CreateDataSourceSelectArguments method to return the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; value.</source>
+          <target state="translated">A primeira chamada para o &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;propriedade chama o método de CreateDataSourceSelectArguments para devolver o &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt;valor.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;valor.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified item type and location within the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Cria um <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto com o tipo de item especificado e a localização dentro de <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The specified location within the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to place the created item.</source>
+          <target state="translated">A localização especificada dentro do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo a colocar o item criado.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the specified type of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> item to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa o tipo especificado do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> item para criar.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A nova <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is being created.</source>
+          <target state="translated">Ocorre quando o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está a ser criado.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of this event is to give you an opportunity to change the &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt; instance in scenarios where you want to use a custom class that derives from the &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt; class.</source>
+          <target state="translated">O objetivo deste evento é para lhe dar uma oportunidade para alterar a &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt;instância em cenários em que pretende utilizar uma classe personalizada que derive da &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt;classe.&lt;/xref:System.Web.UI.WebControls.ModelDataSourceView&gt; &lt;/xref:System.Web.UI.WebControls.ModelDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control and all its child controls to the specified data source.</source>
+          <target state="translated">Vincula o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo e todos os respectivos controlos subordinados para a origem de dados especificada.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataBind method to bind the data source specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Utilizar o método de DataBind para vincular a origem de dados especificada pelo &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you bind a data source to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, the information in the data source is displayed in the control.</source>
+          <target state="translated">Quando vincular uma origem de dados para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo, as informações da origem de dados é apresentado no controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt; method is also commonly used to synchronize the data source and a data listing control after information in the data source is updated.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;método também costuma é utilizado para sincronizar a origem de dados e uma listagem controlo depois de informações da origem de dados são atualizadas de dados.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows any changes in the data source to also be updated in a data listing control.</source>
+          <target state="translated">Isto permite que as alterações da origem de dados também seja actualizado numa lista de controlo de dados.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source for the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, you do not need to explicitly call the DataBind method.</source>
+          <target state="translated">Se a origem de dados para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo é especificado pelo &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade, não terá de chamar o método DataBind explicitamente.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET calls this method automatically to bind the specified data source control to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">ASP.NET chama este método automaticamente para vincular o controlo de origem de dados especificada para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets the specific table in the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt; to bind to the control.</source>
+          <target state="translated">Obtém ou define a tabela específica no &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;para vincular ao controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property contains multiple sources of data, use the DataMember property to specify the specific source to bind to the control.</source>
+          <target state="translated">Se a origem de dados especificada pelo &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade contém várias origens de dados, utilize a propriedade DataMember para especificar a origem específica para vincular ao controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you have a &lt;xref:System.Data.DataSet?displayProperty=fullName&gt; with multiple tables, you must specify which table to bind to the control.</source>
+          <target state="translated">Por exemplo, se tiver um &lt;xref:System.Data.DataSet?displayProperty=fullName&gt;com várias tabelas, tem de especificar que tabela para vincular ao controlo.&lt;/xref:System.Data.DataSet?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you have specified the data source, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind the data source to the control.</source>
+          <target state="translated">Depois de especificar a origem de dados, utilize o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método para vincular a origem de dados para o controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">O valor desta propriedade é armazenado no estado de visualização.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string that specifies a table in the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;.</source>
+          <target state="translated">Uma cadeia que especifica uma tabela em &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets the data source that provides data for populating the list.</source>
+          <target state="translated">Obtém ou define a origem de dados que fornece dados para preencher a lista.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to specify the source of data to populate the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Utilize esta propriedade para especificar a origem de dados para preencher o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataSource can be any &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; collection such as a &lt;xref:System.Data.DataView?displayProperty=fullName&gt; for accessing databases, a &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, or an array, or an &lt;xref:System.ComponentModel.IListSource&gt; object.</source>
+          <target state="translated">A origem de dados pode ser qualquer &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;coleção como um &lt;xref:System.Data.DataView?displayProperty=fullName&gt;para aceder a bases de dados, uma &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, ou uma matriz ou uma &lt;xref:System.ComponentModel.IListSource&gt;objeto.&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the DataSource property you must manually write the code to bind to the data source.</source>
+          <target state="translated">Quando definir a propriedade de origem de dados tem de escrever manualmente o código para vincular a origem de dados.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source specified by the DataSource property contains multiple sources of data, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; property to specify the specific source to bind to the control.</source>
+          <target state="translated">Se a origem de dados especificada pela propriedade da origem de dados contém várias origens de dados, utilize o &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;propriedade para especificar a origem específica para vincular ao controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you have a &lt;xref:System.Data.DataSet?displayProperty=fullName&gt; with multiple tables, you must specify which table to bind to the control.</source>
+          <target state="translated">Por exemplo, se tiver um &lt;xref:System.Data.DataSet?displayProperty=fullName&gt;com várias tabelas, tem de especificar que tabela para vincular ao controlo.&lt;/xref:System.Data.DataSet?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you have specified the data source, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind the data source to the control.</source>
+          <target state="translated">Depois de especificar a origem de dados, utilize o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método para vincular a origem de dados para o controlo.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternately, you can use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property to automatically bind to a data source represented by a data source control.</source>
+          <target state="translated">Em alternativa, pode utilizar o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade automaticamente vinculada a uma origem de dados representada por um controlo de origem de dados.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control automatically binds to the specified data source control.</source>
+          <target state="translated">Quando configurar o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade, o &lt;xref:System.Web.UI.WebControls.Repeater&gt;automaticamente controlo está vinculado ao controlo de origem de dados especificada.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to write code that explicitly calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method unless you dynamically change properties of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Não é necessário escrever código que explicitamente chamadas a &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método, a menos que alterar dinamicamente as propriedades do &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If values are specified for both the DataSource property and the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, ASP.NET is not able to resolve the data source and a &lt;xref:System.Web.HttpException?displayProperty=fullName&gt; is thrown.</source>
+          <target state="translated">Se os valores são especificados para a propriedade de origem de dados e o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade, o ASP.NET não é possível resolver a origem de dados e um &lt;xref:System.Web.HttpException?displayProperty=fullName&gt;é emitida.&lt;/xref:System.Web.HttpException?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerable&gt; or <bpt id="p1">&lt;xref href="System.ComponentModel.IListSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains a collection of values used to supply data to this control.</source>
+          <target state="translated">Um &lt;xref:System.Collections.IEnumerable&gt;ou <bpt id="p1">&lt;xref href="System.ComponentModel.IListSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém uma coleção de valores utilizados para fornecer dados a este controlo.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The DataSource object specified is not a supported source of data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">O objeto de origem de dados especificado não é uma origem suportada dos dados para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The data source cannot be resolved because a value is specified for both the DataSource property and the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property.</source>
+          <target state="translated">Não é possível resolver a origem de dados porque foi especificado um valor para a propriedade de origem de dados e o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Web.UI.Control.ID*&gt; property of the data source control that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control should use to retrieve its data source.</source>
+          <target state="translated">Obtém ou define o &lt;xref:System.Web.UI.Control.ID*&gt;controlar a propriedade da origem de dados que o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo deve utilizar para obter a respetiva origem de dados.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataSourceID property to access the &lt;xref:System.Web.UI.Control.ID%2A&gt; property of the data source control that the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control should use to retrieve its data source.</source>
+          <target state="translated">Utilize a propriedade DataSourceID para aceder a &lt;xref:System.Web.UI.Control.ID%2A&gt;controlar a propriedade da origem de dados que o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo deve utilizar para obter a respetiva origem de dados.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.Control.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source control that is referenced by the DataSourceID property can be any control that implements the &lt;xref:System.Web.UI.IDataSource&gt; interface.</source>
+          <target state="translated">O controlo de origem de dados que é referenciado pela propriedade DataSourceID pode ser qualquer controlo que implementa o &lt;xref:System.Web.UI.IDataSource&gt;interface.&lt;/xref:System.Web.UI.IDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source control must exist either in the same naming container as the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control that references it or in a parent control of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">O controlo de origem de dados tem de existir no mesmo contentor de nomenclatura que o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo que faça referência a este ou num controlo principal do &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a value for the DataSourceID property, the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control binds to the specified data source control.</source>
+          <target state="translated">Quando especificar um valor para a propriedade DataSourceID, o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo está vinculado ao controlo de origem de dados especificada.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to write code that explicitly calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method.</source>
+          <target state="translated">Não é necessário escrever código que explicitamente chamadas a &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to specify the source of values to bind to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Em alternativa, pode utilizar o &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade para especificar a origem dos valores para o enlace para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source must be a collection that implements the &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; interface (such as the &lt;xref:System.Data.DataView?displayProperty=fullName&gt; or &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt; object) or the &lt;xref:System.ComponentModel.IListSource&gt; interface.</source>
+          <target state="translated">A origem de dados tem de ser uma coleção que implementa o &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;interface (tais como o &lt;xref:System.Data.DataView?displayProperty=fullName&gt;ou &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;objeto) ou o &lt;xref:System.ComponentModel.IListSource&gt;interface.&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property, you must write the code to perform the data binding.</source>
+          <target state="translated">Quando configurar o &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade, tem de escrever o código para efetuar o enlace de dados.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If values are specified for both the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; and DataSourceID properties, ASP.NET is not able to resolve the data source and an &lt;xref:System.Web.HttpException?displayProperty=fullName&gt; exception is thrown.</source>
+          <target state="translated">Se os valores especificados para ambos os &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;e DataSourceID propriedades, o ASP.NET não é possível resolver a origem de dados e um &lt;xref:System.Web.HttpException?displayProperty=fullName&gt;exceção é emitida.&lt;/xref:System.Web.HttpException?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">O valor desta propriedade é armazenado no estado de visualização.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_ID" name="ID" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property of the data source control.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref uid="langword_csharp_ID" name="ID" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> propriedade do controlo de origem de dados.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The data source cannot be resolved for one of the following reasons:      -   A value is specified for both the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt; and DataSourceID properties.</source>
+          <target state="translated">A origem de dados não é possível resolver para uma das seguintes razões:-é especificado um valor para ambos os &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;e propriedades de DataSourceID.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-   The data source specified by the DataSourceID property cannot be found on the page.</source>
+          <target state="translated">-A origem de dados especificada pela propriedade DataSourceID não é possível encontrar na página.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-   The data source specified by the DataSourceID property does not implement <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-Não implementa a origem de dados especificada pela propriedade DataSourceID <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether themes are applied to this control.</source>
+          <target state="translated">Obtém ou define um valor que indica se temas são aplicados a este controlo.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableTheming property indicates whether themes are enabled.</source>
+          <target state="translated">A propriedade EnableTheming indica se temas estão ativados.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the EnableTheming property is <ph id="ph1">`true`</ph>, the theme directory for the application is searched for control skins to apply.</source>
+          <target state="translated">Quando a propriedade EnableTheming é <ph id="ph1">`true`</ph>, o diretório de tema da aplicação será pesquisado as skins de controlo aplicar.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no skin for the particular control exists in the theme directory, skins are not applied.</source>
+          <target state="translated">Se existir sem máscara para o controlo específico no diretório de tema, das máscaras não são aplicadas.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use themes; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Para utilizar temas; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Verifies that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control requires data binding and that a valid data source control is specified before calling the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind*&gt; method.</source>
+          <target state="translated">Verifica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo requer o enlace de dados e de que é especificado um controlo de origem de dados válida antes de chamar o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind*&gt;método.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a value for the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, ASP.NET automatically binds the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to the specified data source control.</source>
+          <target state="translated">Quando especificar um valor para o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade, o ASP.NET automaticamente vincula o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo para o controlo de origem de dados especificada.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When ASP.NET performs data binding for the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, it first calls the EnsureDataBound method to verify that the control has not already been data bound and that a valid data source control that implements the &lt;xref:System.Web.UI.IDataSource&gt; interface is specified for its &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property.</source>
+          <target state="translated">Quando o ASP.NET efetua o enlace de dados para o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo, primeiro chama o método EnsureDataBound para verificar se o controlo não tiver já sido vinculados por dados e de que uma origem de dados válido controla que implementa o &lt;xref:System.Web.UI.IDataSource&gt;interface é especificada para o respetivo &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.IDataSource&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnsureDataBound method then calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method.</source>
+          <target state="translated">Em seguida, chama o método EnsureDataBound o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the footer section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">Obtém ou define o <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como a secção de rodapé do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo é apresentado.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how the footer section of a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is displayed.</source>
+          <target state="translated">Utilize esta propriedade para criar um modelo que controla como a secção de rodapé de uma &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo é apresentado.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the footer section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como a secção de rodapé do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo é apresentado.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerable&gt; interface from the data source.</source>
+          <target state="translated">Devolve um &lt;xref:System.Collections.IEnumerable&gt;interface da origem de dados.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source is specified either by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property or by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; properties.</source>
+          <target state="translated">A origem de dados é especificada pelo &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;propriedade ou o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;e &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;Propriedades.&lt;/xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An object implementing &lt;xref:System.Collections.IEnumerable&gt; that represents the data from the data source.</source>
+          <target state="translated">Implementar um objeto &lt;xref:System.Collections.IEnumerable&gt;que representa os dados da origem de dados.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the header section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">Obtém ou define o <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como a secção de cabeçalho do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo é apresentado.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how the header section of a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is displayed.</source>
+          <target state="translated">Utilize esta propriedade para criar um modelo que controla a forma como a secção de cabeçalho de um &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo é apresentado.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the header section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como a secção de cabeçalho do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo é apresentado.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the control has been initialized.</source>
+          <target state="translated">Devolve um valor que indica se o controlo foi inicializado.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Initialized property is a helper property that is used to determine whether data binding is required when the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property is changed.</source>
+          <target state="translated">A propriedade Initialized é uma propriedade de programa auxiliar que é utilizada para determinar se o enlace de dados é necessária quando a &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, ou &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade é alterada.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the control has been initialized, otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, se o controlo foi inicializado, caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Populates iteratively the specified <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with a sub-hierarchy of child controls.</source>
+          <target state="translated">Preenche iteratively especificado <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> com uma hierarquia secundárias de controlos subordinados.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The control to be initialized from an inline template.</source>
+          <target state="translated">O controlo ao inicializar a partir de um modelo de inline.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property is set.</source>
+          <target state="translated">Obtém um valor que indica se o &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;propriedade está definida.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsBoundUsingDataSourceID property is a helper property that determines whether the control is bound to an ASP.NET 2.0 data source control, such as an &lt;xref:System.Web.UI.WebControls.ObjectDataSource&gt; or a &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt; control.</source>
+          <target state="translated">A propriedade IsBoundUsingDataSourceID é uma propriedade de programa auxiliar que determina se o controlo está vinculado a um controlo de origem de dados do ASP.NET 2.0, tal como um &lt;xref:System.Web.UI.WebControls.ObjectDataSource&gt;ou um &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt;controlo.&lt;/xref:System.Web.UI.WebControls.SqlDataSource&gt; &lt;/xref:System.Web.UI.WebControls.ObjectDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property is set to a value other than an empty string (""); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a propriedade &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;estiver definida como um valor diferente de uma cadeia vazia (""); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether data binding is automatic.</source>
+          <target state="translated">Obtém um valor que indica se o enlace de dados é automático.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data binding is automatic if the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is bound to a data source control or if model binders are in use.</source>
+          <target state="translated">O enlace de dados é automático se o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo está vinculado a um controlo de origem de dados ou se binders do modelo estão em utilização.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data binding is automatic; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o enlace de dados é automático; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Occurs when a button is clicked in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Ocorre quando um botão é clicado no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when a button in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is clicked.</source>
+          <target state="translated">Este evento é desencadeado quando um botão de &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event causes a round-trip from the client to occur.</source>
+          <target state="translated">Este evento faz com que um round-trip do cliente para ocorrer.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como lidar com eventos, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when an item is created in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Ocorre quando um item é criado no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when an item is created in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">Este evento é desencadeado quando um item é criado no &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como lidar com eventos, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Occurs after an item in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is data-bound but before it is rendered on the page.</source>
+          <target state="translated">Ocorre depois de um item no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo está vinculado a dados, mas antes é composto na página.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when an item in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is data-bound.</source>
+          <target state="translated">Este evento é desencadeado quando um item no &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo está vinculado a dados.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como lidar com eventos, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém uma coleção de <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos no <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater&gt; control populates the Items collection by enumerating every object in its &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo preenche a colecção de itens por enumerar cada objeto no respetivo &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Items collection is then used by the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to render each item in the control.</source>
+          <target state="translated">A colecção de itens, em seguida, é utilizada pelo &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo compor cada item no controlo.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Uma coleção de <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is an empty <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é vazio <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how items in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control are displayed.</source>
+          <target state="translated">Obtém ou define o <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como os itens no <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo são apresentados.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how items in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control are displayed.</source>
+          <target state="translated">Utilize esta propriedade para criar um modelo que controla como os itens no &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo são apresentados.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Este controlo pode ser utilizado para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how items in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control are displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define como os itens no <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo são apresentados.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the model type for strongly typed data binding.</source>
+          <target state="translated">O nome do tipo de modelo para tipos de dados inflexíveis enlace de dados.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you set this property and use the &lt;xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt; property, the type that is returned by the Select method must be of the type specified by this property or must be capable of being cast to the type specified by this property.</source>
+          <target state="translated">Se definir esta propriedade e utilizar o &lt;xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt;propriedade, o tipo que é devolvido pelo método Select tem de ser do tipo especificado por esta propriedade ou tem de ser capaz de que está a ser convertido no tipo especificado por esta propriedade.&lt;/xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property automatically enables Dynamic Data functionality.</source>
+          <target state="translated">Definir esta propriedade automaticamente ativa a funcionalidade de dados dinâmicos.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The name of the model type.</source>
+          <target state="translated">O nome do tipo de modelo.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Restores view-state information from a previous page request that was saved using the &lt;xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt; method.</source>
+          <target state="translated">Restaura as informações de estado de visualização a partir de um pedido de página anterior, que foi guardado com o &lt;xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt;método.&lt;/xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An object that represents the control state to restore.</source>
+          <target state="translated">Um objeto que representa o estado de controlo para restaurar.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">EventArgs</ph><ept id="p2">&lt;/code&gt;</ept> parameter is an instance of <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> evento se o <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">EventArgs</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro é uma instância de <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">A origem do evento.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;objeto que contém os dados do evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> was raised, otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> foi gerado, caso contrário <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.CreatingModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.CreatingModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>An object that provides access to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is being created.</source>
+          <target state="translated">Um objeto que fornece acesso para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que está a ser criado.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref uid="langword_csharp_DataBinding" name="DataBinding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref uid="langword_csharp_DataBinding" name="DataBinding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;objeto que contém os dados do evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Determines whether data binding is required.</source>
+          <target state="translated">Determina se o enlace de dados é necessário.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataPropertyChanged method is a helper method that is called when the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property is changed.</source>
+          <target state="translated">O método OnDataPropertyChanged é um método de programa auxiliar que é chamado quando a &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, ou &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;propriedade é alterada.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OnDataPropertyChanged is called during the data-binding phase of the control.</source>
+          <target state="translated">OnDataPropertyChanged denomina-se durante a fase de enlace de dados do controlo.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt; property to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Define o &lt;xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt;propriedade <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceViewChanged method is a helper method that participates in the data binding process.</source>
+          <target state="translated">O método OnDataSourceViewChanged é um método de programa auxiliar que participa no processo de enlace de dados.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when the &lt;xref:System.Web.UI.DataSourceView&gt; object that is associated data source control raises its &lt;xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt; event.</source>
+          <target state="translated">Este método é chamado quando a &lt;xref:System.Web.UI.DataSourceView&gt;objeto que se gera de controlo de origem de dados associados a &lt;xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt;eventos.&lt;/xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt; &lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event causes the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to bind data to the updated data.</source>
+          <target state="translated">O evento faz com que o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo ao vincular dados para os dados atualizados.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">A origem do evento.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;objeto que contém os dados do evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;objeto que contém os dados do evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém os dados do evento.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCreated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém os dados do evento.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemDataBound"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemDataBound"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém os dados do evento.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event and performs other initialization.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos e efetua outra inicialização.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLoad method notifies the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control that it should perform actions that are common to each HTTP request for the page that it is associated with, such as setting up a database query.</source>
+          <target state="translated">O método de OnLoad notifica o &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlar que deve executar as ações que são comuns a cada pedido HTTP para a página que está associada a, tais como configurar uma consulta de base de dados.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this stage in the page life cycle, server controls in the hierarchy are created and initialized, view state is restored, and form controls reflect client-side data.</source>
+          <target state="translated">Nesta fase no ciclo de vida de página, controlos de servidor na hierarquia são criados e inicializados, estado de vista é restaurado e controlos de formulário refletem os dados do lado do cliente.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que contém os dados do evento.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Control.PreRender&gt; event is used to perform any updates before the output for the server control is rendered to the page.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.Control.PreRender&gt;eventos é utilizado para efetuar quaisquer atualizações antes do resultado para o controlo de servidor é composto para a página.&lt;/xref:System.Web.UI.Control.PreRender&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any changes in the view state of the server control can be saved during this event.</source>
+          <target state="translated">As alterações no estado de visualização do controlo de servidor podem ser guardadas durante este evento.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such changes made in the rendering phase are not saved.</source>
+          <target state="translated">Essas alterações efetuadas na fase de composição não são guardadas.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains the event data.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto contém os dados do evento.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control needs to bind to its specified data source.</source>
+          <target state="translated">Obtém ou define um valor que indica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo tem de vincular à respetiva origem de dados especificada.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater&gt; control uses the RequiresDataBinding property to determine whether the control needs to call the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind to its specified data source.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlo utiliza a propriedade RequiresDataBinding para determinar se o controlo tem de chamar o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método para vincular à respetiva origem de dados especificada.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each time the set accessor is called on either the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; property to change the data source after the &lt;xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt; method has already been called, ASP.NET sets the value of the RequiresDataBinding property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Sempre que o acessor denomina-se no &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;, ou &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;propriedade para alterar a origem de dados após a &lt;xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt;método já foi chamado, ASP.NET define o valor da propriedade RequiresDataBinding para <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the RequiresDataBinding property is also set to <ph id="ph1">`true`</ph> when the &lt;xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt; method is called.</source>
+          <target state="translated">O valor da propriedade RequiresDataBinding também é definido como <ph id="ph1">`true`</ph> quando o &lt;xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt;método é chamado.&lt;/xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET sets the value of the RequiresDataBinding property to <ph id="ph1">`false`</ph> immediately after the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method is called.</source>
+          <target state="translated">ASP.NET define o valor da propriedade RequiresDataBinding para <ph id="ph1">`false`</ph> imediatamente após o &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;método é chamado.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control needs to bind to a data source; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo tem de vincular a uma origem de dados; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Saves any view-state changes that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">Guarda as alterações de estado de vista que ocorreram desde a hora que a página foi publicada para o servidor.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The control's current view state.</source>
+          <target state="translated">Estado de visualização atual do controlo.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se não houver nenhuma associada ao controlo de vista de estado, este método devolve <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control uses when retrieving data from a data source control.</source>
+          <target state="translated">Obtém um <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo utiliza ao obter dados a partir de um controlo de origem de dados.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first call to the &lt;xref:System.Web.UI.DataSourceSelectArguments&gt; object calls the &lt;xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt; method to create the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; object.</source>
+          <target state="translated">A primeira chamada para o &lt;xref:System.Web.UI.DataSourceSelectArguments&gt;chamadas de objeto a &lt;xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt;método para criar o &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt;objeto.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt; &lt;/xref:System.Web.UI.DataSourceSelectArguments&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to retrieve data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto utilizado para obter dados.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The default is the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">A predefinição é o &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;valor.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The name of the method to call in order to read data.</source>
+          <target state="translated">O nome do método a chamar para ler os dados.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property causes model binding to be used as the data binding method.</source>
+          <target state="translated">Definir esta propriedade faz com que o enlace do modelo a ser utilizado como o método de enlace de dados.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The name of the method.</source>
+          <target state="translated">O nome do método.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that defines how the separator between items is displayed.</source>
+          <target state="translated">Obtém ou define o <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface que define a forma como é apresentado o separador entre itens.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SeparatorTemplate property to create a template that controls how the separator between items is displayed.</source>
+          <target state="translated">Utilize a propriedade de SeparatorTemplate para criar um modelo que controla a forma como é apresentado o separador entre itens.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  You can use the SeparatorTemplate property to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Pode utilizar a propriedade SeparatorTemplate para apresentar a intervenção do utilizador, que pode incluir script de cliente malicioso.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">Verifique as informações que são enviadas de um cliente para o executável script, instruções SQL ou outro código antes de apresentá-lo na sua aplicação.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">O ASP.NET fornece uma funcionalidade de validação de pedido de entrada para o bloco de script e HTML simultaneamente na entrada de utilizador.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">Os controlos de servidor de validação também são fornecidos para avaliar a intervenção do utilizador.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>sintaxe de controlo do servidor de validação<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the separator between items is displayed.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define a forma como é apresentado o separador entre itens.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Causes tracking of view-state changes to the control so they can be stored in the control's <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Faz com que controlo de alterações de estado de visualização para o controlo de, pelo que pode ser armazenados no controlo da <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
