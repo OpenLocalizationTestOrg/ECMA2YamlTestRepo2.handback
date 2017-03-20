@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6cd64a9249ff66c827b4c894d02e584c6c252eb1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Hosting.IRegisteredObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64381e27b338dee24903a68b2beab833233048d7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2e027d5b43b0b8a65eabfefb795c0d7c005812e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods for objects that are managed by the hosting environment.</source>
+          <target state="translated">Определяет методы для объектов, которые управляются средой размещения.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects must implement the IRegisteredObject interface in order to register with the hosting environment and have their lifetime managed by the hosting environment.</source>
+          <target state="translated">Объекты должен реализовывать интерфейс IRegisteredObject для регистрации в среде размещения и времени их жизни управляется средой размещения.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create an instance of a registered object by calling the &lt;xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt; method on the application manager.</source>
+          <target state="translated">Можно создать экземпляр зарегистрированного объекта путем вызова &lt;xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt;метод для диспетчера приложений.&lt;/xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application manager returns the newly created object to the caller, which can then call a type-specific method on the object.</source>
+          <target state="translated">Диспетчер приложения возвращает созданный объект вызывающему объекту, который затем может вызывать метод конкретного типа объекта.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During startup, the registered object should call the &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt; method to complete registration of the object.</source>
+          <target state="translated">Во время запуска, зарегистрированного объекта следует вызвать &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt;метод для завершения регистрации объекта.&lt;/xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the application manager needs to stop a registered object, it will call the &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; method.</source>
+          <target state="translated">Когда диспетчер приложений требуется остановить зарегистрированного объекта, он вызывает &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;метод.&lt;/xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications can have only one instance of a registered type.</source>
+          <target state="translated">Приложения могут иметь только один экземпляр зарегистрированного типа.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create multiple instances of a registered type, use the factory pattern to create an object manager that is registered with the application and then manages the multiple instances.</source>
+          <target state="translated">Чтобы создать несколько экземпляров зарегистрированного типа, используйте шаблон фабрики для создания объекта диспетчер, который зарегистрирован в приложении и затем управляет несколькими экземплярами.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of an object implementing the factory pattern, see the example for the &lt;xref:System.Web.Hosting.ApplicationManager&gt; class.</source>
+          <target state="translated">Пример объекта, реализующего шаблон фабрики см. пример для &lt;xref:System.Web.Hosting.ApplicationManager&gt;класса.&lt;/xref:System.Web.Hosting.ApplicationManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Requests a registered object to unregister.</source>
+          <target state="translated">Запрашивает зарегистрированный объект для отмены регистрации.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application manager will call the Stop method to ask a registered object to unregister.</source>
+          <target state="translated">Диспетчер приложений вызовет метод Stop попросить отменить регистрацию зарегистрированного объекта.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During processing of the Stop method, the registered object must call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Во время обработки метода Stop зарегистрированного объекта необходимо вызвать метод &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt;метод.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop method is first called with the <ph id="ph1">`immediate`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Сначала вызывается метод Stop с <ph id="ph1">`immediate`</ph> равным <ph id="ph2">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object can either complete processing, call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method, and then return or it can return immediately and complete processing asynchronously before calling the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method.</source>
+          <target state="translated">Объект можно либо завершения обработки вызова &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;метод и возвращается его немедленный возврат и может завершить обработку асинхронно перед вызовом &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;метод.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; &lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the registered object does not complete processing before the application manager's time-out period expires, the Stop method is called again with the <ph id="ph1">`immediate`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Если зарегистрированный объект не была завершена обработка до истечения времени ожидания диспетчера приложений, метод Stop снова вызывается с <ph id="ph1">`immediate`</ph> равным <ph id="ph2">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`immediate`</ph> parameter is <ph id="ph2">`true`</ph>, the registered object must call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method before returning; otherwise, its registration will be removed by the application manager.</source>
+          <target state="translated">Когда <ph id="ph1">`immediate`</ph> параметр <ph id="ph2">`true`</ph>, зарегистрированного объекта необходимо вызвать метод &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;метод перед возвратом; в противном случае его регистрация будет отменена диспетчером приложения.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate the registered object should unregister from the hosting environment before returning; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Чтобы указать зарегистрированного объекта требуется отменить регистрацию в среде размещения перед возвратом; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

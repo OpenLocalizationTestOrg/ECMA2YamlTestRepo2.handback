@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fa1aefe9e30a5a7debcf2801913a9ff3bece583</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.DirectoryServices.ActiveDirectory.DirectoryContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c55d2dc7a97a5587681ca0bc2ccba3d3f9c69bb0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">355d33dbf2fdb10e07ee579fcbcfca1d4464393d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DirectoryContext class identifies a specific directory and the credentials that are used to access the directory.</source>
+          <target state="translated">Класс DirectoryContext определяет конкретный каталог и учетные данные, используемые для доступа к каталогу.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A directory context must be created before accessing the methods and properties of a System.DirectoryServices.ActiveDirectory directory object such as a domain or forest.</source>
+          <target state="translated">Контекста каталога должен быть создан до доступа к методам и свойствам объекта каталога System.DirectoryServices.ActiveDirectory например домена или леса.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When creating a directory context, the process' current credentials or alternate credentials can be applied to that context by using the appropriate constructor.</source>
+          <target state="translated">При создании контекста каталога, учетные данные текущего процесса или альтернативные учетные данные могут применяться к этому контексту с помощью соответствующего конструктора.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These credentials determine the permissions that are in effect when the program accesses directory objects.</source>
+          <target state="translated">Эти данные определяют разрешения, которые вступают в силу, когда программа обращается к объектам каталога.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because Active Directory Domain Services objects might be protected against retrieval or modification by non-administrative users, the use of alternate credentials with permission to access the target objects is sometimes necessary for proper program functionality.</source>
+          <target state="translated">Так как объекты доменных служб Active Directory могут быть защищены от извлечения или изменения пользователями без прав администратора, использование альтернативных учетных данных с разрешением на доступ к целевым объектам иногда это необходимо для правильного функционирования программы.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table contains a list of the target types that are allowed and a description of the format of the target string.</source>
+          <target state="translated">Следующая таблица содержит список разрешенных типов целевого объекта и описание формата целевой строки.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Target type|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; member|Target name format|   |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|   |Domain Controller|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|The DNS name of the domain controller.|   |AD LDS Instance|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|The DNS name of the AD LDS server and the LDAP port number, for example, ad_lds_instance.fabrikam.com:389.|   |Domain|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|The DNS name of the domain, for example, sales.corp.fabrikam.com.|   |Forest|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|The DNS name of the forest, for example, corp.fabrikam.com.|   |Application Partition|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|The DNS name of the application partition.|   |AD LDS Configuration Set|&lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;|One of the keywords that is associated with the service connection point registered by AD LDS instances for the configuration set.|</source>
+          <target state="translated">| Целевой тип | член &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| Имя целевой формат |   |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|   | Контроллер домена | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| DNS-имя контроллера домена. |   | Экземпляр AD LDS | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| Номер, например, ad_lds_instance.fabrikam.com:389.| порта DNS-имя сервера AD LDS и LDAP   | Домен | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| DNS-имя домена, например, sales.corp.fabrikam.com.|   | Лес | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| DNS-имя леса, к примеру, corp.fabrikam.com.|   | Раздел приложения | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| DNS-имя раздела приложений. |   | Набор конфигурации AD LDS | &lt;xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;| Одно из ключевых слов, связанных с точкой подключения службы зарегистрирована, экземпляры AD LDS в наборе конфигурации. |&lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt; &lt;/xref:System.DirectoryServices.ActiveDirectory.DirectoryContextType&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class of the specified type that contains the credentials of the current user context.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс указанного типа, содержащее учетные данные текущего пользователя.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> members that specifies the type of context to create.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , которое указывает тип контекста для создания элементов.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For this constructor, the context type must be <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Для этого конструктора должен быть тип контекста <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> или <bpt id="p2">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Other types of directory contexts cannot be created using this constructor because other types require a constructor that includes a parameter specifying the directory or target name.</source>
+          <target state="translated">Другие типы контекстов каталога нельзя создать, используя этот конструктор, так как другие типы требуют конструктор, который включает параметр, указывающий каталог или целевое имя.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This class does not work on the current platform.</source>
+          <target state="translated">Этот класс не работает на текущей платформе.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class of the specified type that contains the specified name and the credentials of the current user context.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс объекта указанного типа, который содержит указанное имя и учетные данные текущего пользователя.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> members that specifies the type of context to create.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , которое указывает тип контекста для создания элементов.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The target of the directory context.</source>
+          <target state="translated">Цель контекста каталога.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This string can take any of the formats defined in the Remarks section of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> topic.</source>
+          <target state="translated">Эта строка может принимать любую из форматов, определенных в подразделе "Примечания" <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> раздела.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This class does not work on the current platform.</source>
+          <target state="translated">Этот класс не работает на текущей платформе.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class of the specified type that contains the specified user name and password.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс указанного типа, содержащий указанное имя пользователя и пароль.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> members that specifies the type of context to create.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , которое указывает тип контекста для создания элементов.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For this constructor, this parameter must be <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Для этого конструктора, этот параметр должен быть <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> или <bpt id="p2">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The user name to use for access.</source>
+          <target state="translated">Имя пользователя, используемое для доступа.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The password to use for access.</source>
+          <target state="translated">Пароль, используемый для доступа.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This class does not work on the current platform.</source>
+          <target state="translated">Этот класс не работает на текущей платформе.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class of the specified type that contains the specified target, user name, and password.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс типа, который содержит указанный целевой объект, имя пользователя и пароль.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> members that specifies the type of context to create.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , которое указывает тип контекста для создания элементов.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The target of the directory context.</source>
+          <target state="translated">Цель контекста каталога.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This string can take any of the formats defined in the Remarks section of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> topic.</source>
+          <target state="translated">Эта строка может принимать любую из форматов, определенных в подразделе "Примечания" <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> раздела.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The user name to use for access.</source>
+          <target state="translated">Имя пользователя, используемое для доступа.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The password to use for access.</source>
+          <target state="translated">Пароль, используемый для доступа.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contextType&lt;/code&gt;</ph>не допускается.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This class does not work on the current platform.</source>
+          <target state="translated">Этот класс не работает на текущей платформе.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the type of the context object.</source>
+          <target state="translated">Возвращает тип объекта контекста.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> members that specifies the type of context.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectory.DirectoryContextType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> элементов, которое указывает тип контекста.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the name of the context.</source>
+          <target state="translated">Возвращает имя контекста.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The name of the context.</source>
+          <target state="translated">Имя контекста.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the user name of the context.</source>
+          <target state="translated">Возвращает имя пользователя контекста.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The user name to use for access by this context.</source>
+          <target state="translated">Имя пользователя, используемое для доступа в данном контексте.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
