@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e41eda21055d6e92115a5ca671798138ef93c8f0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.Financial.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db5d8bc19f6308ebd75371f08dfff35e8a618740</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8167b10c1eac34e9192bba2c93c0833fb58a4b21</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_Financial" name="Financial" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> module contains procedures used to perform financial operations.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Financial" name="Financial" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>模块包含用于执行财务操作的过程。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This module supports the Visual Basic run-time library members that perform financial calculations such as depreciation, present and future values, interest rates, rates of return, and payments.</source>
+          <target state="translated">此模块支持执行如折旧、 现在和将来的值、 利率、 返回时，和付款的比率的财务计算的 Visual Basic 运行时库成员。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the depreciation of an asset for a specific time period using the double-declining balance method or some other method you specify.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定特定时间段内使用双倍余额递减平衡方法或某些其他方法来指定的资产折旧。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The double-declining balance method computes depreciation at an accelerated rate.</source>
+          <target state="translated">双倍余额递减平衡方法来计算折旧以加速的速率。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Depreciation is highest in the first period and decreases in successive periods.</source>
+          <target state="translated">折旧是第一个时间段内最高和后续周期中会降低。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Life`</ph> and <ph id="ph2">`Period`</ph> arguments must be expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Life`</ph>和<ph id="ph2">`Period`</ph>自变量必须以相同的单位表示。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Life`</ph> is given in months, <ph id="ph2">`Period`</ph> must also be given in months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Life`</ph>在月中，给定<ph id="ph2">`Period`</ph>还必须为其提供在月中。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">所有参数必须都是正数。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`DDB`</ph> function uses the following formula to calculate depreciation for a given period:       Depreciation / Period = ((Cost – Salvage) * Factor) / Life</source>
+          <target state="translated"><ph id="ph1">`DDB`</ph>函数使用以下公式计算的一段给定时间折旧︰ 折旧 / 段 = ((Cost – Salvage) * 因素) / 生命</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的初始的成本。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定在其使用年限末尾资产值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying length of useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的资产的使用年限的长度。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying period for which asset depreciation is calculated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定计算资产折旧的时期。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying rate at which the balance declines.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定从该处余额递减的速率。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If omitted, 2 (double-declining method) is assumed.</source>
+          <target state="translated">如果省略，则假定 2 （双倍余额递减法）。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the depreciation of an asset for a specific time period using the double-declining balance method or some other method you specify.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定特定时间段内使用双倍余额递减平衡方法或某些其他方法来指定的资产折旧。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Factor&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0, <ph id="ph3">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph> 0, <ph id="ph5">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph6">&amp;lt;</ph>= 0, or <ph id="ph7">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph8">&amp;gt;</ph> <ph id="ph9">&lt;code&gt;Life.&lt;/code&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Factor&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>= 0, <ph id="ph3">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph> 0, <ph id="ph5">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph6">&amp;lt;</ph>= 0, or <ph id="ph7">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph8">&amp;gt;</ph><ph id="ph9">&lt;code&gt;Life.&lt;/code&gt;</ph></target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the future value of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定未来年金值基于定期固定付款和固定的利率。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over time.</source>
+          <target state="translated">年金是一系列段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>和<ph id="ph2">`NPer`</ph>必须使用以相同的单位表示的付款周期计算自变量。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Rate`</ph>使用月计算<ph id="ph2">`NPer`</ph>还必须按月进行计算。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 中支付的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款了的 4 x 12 （即 48） 付款周期。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定进行每个段内的付款。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that doesn't change over the life of the annuity.</source>
+          <target state="translated">付款通常包含主体和利息，都不会更改年金的生命周期。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value (or lump sum) of a series of future payments.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定一系列将来付款存在的值 （即总额）。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This argument must be either <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if payments are due at the end of the payment period, or <bpt id="p2">&lt;xref uid="langword_csharp_DueDate.BegOfPeriod" name="DueDate.BegOfPeriod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果付款的付款周期，末尾的到期时间或<bpt id="p2">&lt;xref uid="langword_csharp_DueDate.BegOfPeriod" name="DueDate.BegOfPeriod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If omitted, <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is assumed.</source>
+          <target state="translated">如果省略， <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>假定。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the future value of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定未来年金值基于定期固定付款和固定的利率。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款和固定的利率指定年金的给定期间利率付款。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over time.</source>
+          <target state="translated">年金是一系列段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>和<ph id="ph2">`NPer`</ph>必须使用以相同的单位表示的付款周期计算自变量。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Rate`</ph>使用月计算<ph id="ph2">`NPer`</ph>还必须按月进行计算。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 中支付的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment period in the range 1 through <ph id="ph1">`NPer`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定到 1 范围内的付款周期<ph id="ph1">`NPer`</ph>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款了的 4 x 12 （即 48） 付款周期。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定存在值，或当前，值的一系列的未来付款或回执。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you've made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定将来的值或你希望之后所做的最后一次付款的现金余额。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that's its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要保存你的孩子教育版大于 18 岁的 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款和固定的利率指定年金的给定期间利率付款。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>= 0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph></target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定一系列定期现金流量 （付款和收款） 的内部收益率。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The internal rate of return is the interest rate received for an investment consisting of payments and receipts that occur at regular intervals.</source>
+          <target state="translated">返回的内部收益率是收到组成付款和收款定期进行投资的兴趣速率。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`IRR`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`IRR`</ph>函数使用在该数组中的值的顺序来解释付款和收款的顺序。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">请确保以正确的顺序输入付款和回执值。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The cash flow for each period does not need to be fixed, as it is for an annuity.</source>
+          <target state="translated">每个段内现金流量不必固定的、 按原样年金。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`IRR`</ph> is calculated by iteration.</source>
+          <target state="translated"><ph id="ph1">`IRR`</ph>通过迭代计算。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Starting with the value of <ph id="ph1">`Guess`</ph>, <ph id="ph2">`IRR`</ph> cycles through the calculation until the result is accurate to within 0.00001 percent.</source>
+          <target state="translated">从的值开始<ph id="ph1">`Guess`</ph>，<ph id="ph2">`IRR`</ph>进行计算，直到结果是精确到 0.00001%范围内的周期。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`IRR`</ph> cannot find a result after 20 tries, it fails.</source>
+          <target state="translated">如果<ph id="ph1">`IRR`</ph>找不到 20 后的结果尝试，它将失败。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash flow values.</source>
+          <target state="translated">数组<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定现金流量值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">该数组必须包含至少一个负值 （支出） 和一个正值 （接收）。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Object specifying value you estimate will be returned by <bpt id="p1">&lt;xref uid="langword_csharp_IRR" name="IRR" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">将返回对象，它指定估算的值<bpt id="p1">&lt;xref uid="langword_csharp_IRR" name="IRR" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`Guess`</ph> is 0.1 (10 percent).</source>
+          <target state="translated">如果省略，<ph id="ph1">`Guess`</ph>为 0.1 （10%)。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定一系列定期现金流量 （付款和收款） 的内部收益率。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Array argument values are invalid or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Guess</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph>= -1.</source>
+          <target state="translated">数组自变量值均无效或<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">Guess</ph> <ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph>=-1。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the modified internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定一系列定期现金流量 （付款和收款） 的已修改内部收益率。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The modified internal rate of return is the internal rate of return when payments and receipts are financed at different rates.</source>
+          <target state="translated">已修改的内部收益率时付款和收款利率时不同的速率的内部收益率。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MIRR`</ph> function takes into account both the cost of the investment (<ph id="ph2">`FinanceRate`</ph>) and the interest rate received on reinvestment of cash (<ph id="ph3">`ReinvestRate`</ph>).</source>
+          <target state="translated"><ph id="ph1">`MIRR`</ph>函数将考虑在内的投资成本 (<ph id="ph2">`FinanceRate`</ph>) 和中得到的现金利率的利率 (<ph id="ph3">`ReinvestRate`</ph>)。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`FinanceRate`</ph> and <ph id="ph2">`ReinvestRatearguments`</ph> are percentages expressed as decimal values.</source>
+          <target state="translated"><ph id="ph1">`FinanceRate`</ph>和<ph id="ph2">`ReinvestRatearguments`</ph>是表示为十进制值的百分比。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For example, 12 percent is expressed as 0.12.</source>
+          <target state="translated">例如，12%表示为 0.12。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MIRR`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`MIRR`</ph>函数使用在该数组中的值的顺序来解释付款和收款的顺序。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">请确保以正确的顺序输入付款和回执值。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash-flow values.</source>
+          <target state="translated">数组<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定现金流量值。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">该数组必须包含至少一个负值 （支出） 和一个正值 （接收）。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate paid as the cost of financing.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定利率付费作为金融的成本。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate received on gains from cash reinvestment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定从现金利息所得收益的利率。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the modified internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定一系列定期现金流量 （付款和收款） 的已修改内部收益率。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Rank of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">ValueArray</ph><ept id="p1">&lt;/code&gt;</ept> does not equal 1, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">FinanceRate</ph><ept id="p2">&lt;/code&gt;</ept> = -1, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">ReinvestRate</ph><ept id="p3">&lt;/code&gt;</ept> = -1</source>
+          <target state="translated">Rank of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">ValueArray</ph><ept id="p1">&lt;/code&gt;</ept> does not equal 1, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">FinanceRate</ph><ept id="p2">&lt;/code&gt;</ept> = -1, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">ReinvestRate</ph><ept id="p3">&lt;/code&gt;</ept> = -1</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Division by zero has occurred.</source>
+          <target state="translated">出现被零除。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the number of periods for an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定的付款和固定的利率指定年金的期间数。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金是一系列段一段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 中支付的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定进行每个段内的付款。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that does not change over the life of the annuity.</source>
+          <target state="translated">付款通常包含主体和利息，都不会更改年金的生命周期。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定存在值，或当前，值的一系列的未来付款或回执。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定将来的值或你希望之后所做的最后一次付款的现金余额。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要保存你的孩子教育版大于 18 岁的 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the number of periods for an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定的付款和固定的利率指定年金的期间数。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Rate&lt;/code&gt;</ph> = 0 and <ph id="ph2">&lt;code&gt;Pmt&lt;/code&gt;</ph> = 0</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Rate&lt;/code&gt;</ph>= 0 and <ph id="ph2">&lt;code&gt;Pmt&lt;/code&gt;</ph> = 0</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the net present value of an investment based on a series of periodic cash flows (payments and receipts) and a discount rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定投资的净现值基于一系列定期现金流量 （付款和收款） 和贴现率而定。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The net present value of an investment is the current value of a future series of payments and receipts.</source>
+          <target state="translated">投资的净现值是未来的一系列付款和收款的当前值。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>函数使用在该数组中的值的顺序来解释付款和收款的顺序。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">请确保以正确的顺序输入付款和回执值。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> investment begins one period before the date of the first cash flow value and ends with the last cash flow value in the array.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>投资日期之前的第一个现金流量值的一个周期开始和结束的最后一个的现金流值数组中。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The net present value calculation is based on future cash flows.</source>
+          <target state="translated">Net 存在的值计算基于未来的现金流。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If your first cash flow occurs at the beginning of the first period, the first value must be added to the value returned by <ph id="ph1">`NPV`</ph> and must not be included in the cash flow values of <ph id="ph2">`ValueArray`</ph>.</source>
+          <target state="translated">如果在第一个期间开始处出现第一个的现金流，第一个的值必须添加到返回的值<ph id="ph1">`NPV`</ph>和中的现金流值不能包含<ph id="ph2">`ValueArray`</ph>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> function is similar to the <ph id="ph2">`PV`</ph> function (present value) except that the <ph id="ph3">`PV`</ph> function allows cash flows to begin either at the end or the beginning of a period.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>函数是类似于<ph id="ph2">`PV`</ph>函数 （现值） 但<ph id="ph3">`PV`</ph>函数允许现金流开始在结束或句点开头。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Unlike the variable <ph id="ph1">`NPV`</ph> cash flow values, <ph id="ph2">`PV`</ph> cash flows must be fixed throughout the investment.</source>
+          <target state="translated">与该变量不同<ph id="ph1">`NPV`</ph>现金流量值<ph id="ph2">`PV`</ph>现金流必须固定在整个投资。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying discount rate over the length of the period, expressed as a decimal.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的期间长度贴现率，表示为十进制。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash flow values.</source>
+          <target state="translated">数组<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定现金流量值。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">该数组必须包含至少一个负值 （支出） 和一个正值 （接收）。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the net present value of an investment based on a series of periodic cash flows (payments and receipts) and a discount rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定投资的净现值基于一系列定期现金流量 （付款和收款） 和贴现率而定。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ValueArray&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, rank of <ph id="ph2">&lt;code&gt;ValueArray&lt;/code&gt;</ph> <ph id="ph3">&amp;lt;</ph><ph id="ph4">&amp;gt;</ph> 1, or <ph id="ph5">&lt;code&gt;Rate&lt;/code&gt;</ph> = -1</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ValueArray&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, rank of <ph id="ph2">&lt;code&gt;ValueArray&lt;/code&gt;</ph> <ph id="ph3">&amp;lt;</ph><ph id="ph4">&amp;gt;</ph> 1, or <ph id="ph5">&lt;code&gt;Rate&lt;/code&gt;</ph> = -1</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the payment for an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款和固定的利率指定年金的付款。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made during a period of time.</source>
+          <target state="translated">年金是一系列在一段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>和<ph id="ph2">`NPer`</ph>必须使用以相同的单位表示的付款周期计算自变量。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Rate`</ph>使用月计算<ph id="ph2">`NPer`</ph>还必须按月进行计算。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 付费的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定按年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 × 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款了的 4 × 12 （即 48） 付款周期。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the present value (or lump sum) that a series of payments to be paid in the future is worth now.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定存在值 （或总计） 在将来支付的付款一系列值得现在。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定将来的值或你希望之后所做的最后一次付款的现金余额。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 during 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要在你的孩子教育版 18 岁期间保存 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the payment for an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款和固定的利率指定年金的付款。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> = 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> = 0.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the principal payment for a given period of an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定的付款和固定的利率指定年金的给定时间段内本金付款。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金是一系列段一段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>和<ph id="ph2">`NPer`</ph>必须使用以相同的单位表示的付款周期计算自变量。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Rate`</ph>使用月计算<ph id="ph2">`NPer`</ph>还必须按月进行计算。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 付费的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment period in the range 1 through <ph id="ph1">`NPer`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定到 1 范围内的付款周期<ph id="ph1">`NPer`</ph>。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定按年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款了的 4 x 12 （即 48） 付款周期。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the current value of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的未来付款或收入一系列的当前值。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定将来的值或你希望之后所做的最后一次付款的现金余额。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要保存你的孩子教育版大于 18 岁的 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the principal payment for a given period of an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定的付款和固定的利率指定年金的给定时间段内本金付款。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>=0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>=0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the present value of an annuity based on periodic, fixed payments to be paid in the future and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款将来付费和固定的利率指定年金的现值。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金是一系列段一段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>和<ph id="ph2">`NPer`</ph>必须使用以相同的单位表示的付款周期计算自变量。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Rate`</ph>使用月计算<ph id="ph2">`NPer`</ph>还必须按月进行计算。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 中支付的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定每个周期的利率。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">例如，如果你获得的汽车贷款年增长率百分比 (APR) 的 10%，并使每月付款，每个周期的速率为 0.1/12，即 0.0083。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定按年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款具有 4 x 12 （即 48） 期偿付。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定进行每个段内的付款。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that does not change during the life of the annuity.</source>
+          <target state="translated">付款通常包含主体和利息年金的生命周期内不会更改。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the future value or cash balance you want after you make the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定你希望之后进行最后一次付款终值或现金余额。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要保存你的孩子教育版大于 18 岁的 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the present value of an annuity based on periodic, fixed payments to be paid in the future and a fixed interest rate.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>基于定期固定付款将来付费和固定的利率指定年金的现值。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest rate per period for an annuity.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定年金周期的利率。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金是一系列段一段时间内所做的固定数量现金付款。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金可以 （例如住房抵押） 贷款或 （如每月节省计划） 投资。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">（如存款） 中支付的现金表示为负数; 对于所有参数，表示正数表示 （如被除数检查） 收到的现金。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Rate`</ph> is calculated by iteration.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>通过迭代计算。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Starting with the value of <ph id="ph1">`Guess`</ph>, <ph id="ph2">`Rate`</ph> cycles through the calculation until the result is accurate to within 0.00001 percent.</source>
+          <target state="translated">从的值开始<ph id="ph1">`Guess`</ph>，<ph id="ph2">`Rate`</ph>进行计算，直到结果是精确到 0.00001%范围内的周期。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Rate`</ph> cannot find a result after 20 tries, it fails.</source>
+          <target state="translated">如果<ph id="ph1">`Rate`</ph>找不到 20 后的结果尝试，它将失败。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If your guess is 10 percent and <ph id="ph1">`Rate`</ph> fails, try a different value for <ph id="ph2">`Guess`</ph>.</source>
+          <target state="translated">如果该值为 10%和<ph id="ph1">`Rate`</ph>失败，请尝试不同的值<ph id="ph2">`Guess`</ph>。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定按年金的付款周期总数。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 * 12 (or 48) payment periods.</source>
+          <target state="translated">例如，如果你在四年的汽车贷款上进行每月付款，你的贷款了的 4 * 12 （即 48） 付款周期。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定进行每个段内的付款。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that doesn't change over the life of the annuity.</source>
+          <target state="translated">付款通常包含主体和利息，都不会更改年金的生命周期。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定当前值，或当前，未来付款或收入一系列的值。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">例如，当您贷款钱购买一辆汽车，贷款量是到您每月付款 lender 的现值。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the future value or cash balance you want after you make the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定你希望之后进行最后一次付款终值或现金余额。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">例如，一笔贷款将来的值是 $0，因为最终付款之后，所以其值。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">但是，如果你想要保存你的孩子教育版大于 18 岁的 50000，则 50000 是将来的值。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">如果省略，则假定为 0。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">类型的对象<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定何时付款。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">此参数必须是<ph id="ph1">`DueDate.EndOfPeriod`</ph>如果付款的付款周期，末尾的到期时间或<ph id="ph2">`DueDate.BegOfPeriod`</ph>如果在该期间开始付款的到期时间。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">如果省略，<ph id="ph1">`DueDate.EndOfPeriod`</ph>假定。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value you estimate is returned by <bpt id="p2">&lt;xref uid="langword_csharp_Rate" name="Rate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定你估计的值返回<bpt id="p2">&lt;xref uid="langword_csharp_Rate" name="Rate" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`Guess`</ph> is 0.1 (10 percent).</source>
+          <target state="translated">如果省略，<ph id="ph1">`Guess`</ph>为 0.1 （10%)。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest rate per period for an annuity.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定年金周期的利率。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the straight-line depreciation of an asset for a single period.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产直线折旧一段时间内的。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The depreciation period must be expressed in the same unit as the <ph id="ph1">`Life`</ph> argument.</source>
+          <target state="translated">必须为相同的单位表示折旧期间<ph id="ph1">`Life`</ph>自变量。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">所有参数必须都是正数。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的初始的成本。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定在其使用年限末尾资产值。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying length of the useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的使用年限的长度。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the straight-line depreciation of an asset for a single period.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产直线折旧一段时间内的。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Life&lt;/code&gt;</ph> = 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Life&lt;/code&gt;</ph> = 0.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the sum-of-years digits depreciation of an asset for a specified period.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的指定时间段内的总和的年限总额折旧。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Life`</ph> and <ph id="ph2">`Period`</ph> arguments must be expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Life`</ph>和<ph id="ph2">`Period`</ph>自变量必须以相同的单位表示。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Life`</ph> is given in months, <ph id="ph2">`Period`</ph> must also be given in months.</source>
+          <target state="translated">例如，如果<ph id="ph1">`Life`</ph>在月中，给定<ph id="ph2">`Period`</ph>还必须为其提供在月中。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">所有参数必须都是正数。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的初始成本。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定在其使用年限末尾资产的值。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the length of the useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的使用年限的长度。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the period for which asset depreciation is calculated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定计算资产折旧的时间。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the sum-of-years digits depreciation of an asset for a specified period.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定资产的指定时间段内的总和的年限总额折旧。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;Life&lt;/code&gt;</ph>, or <ph id="ph6">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph7">&amp;lt;</ph>=0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Salvage&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;Life&lt;/code&gt;</ph>, or <ph id="ph6">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph7">&amp;lt;</ph>=0.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

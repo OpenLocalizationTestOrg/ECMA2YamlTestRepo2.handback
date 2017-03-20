@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63eafba92c6e33e4dacbdfc8e30a29575dff3689</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Compiler.Validator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">750e8d17946270655a6aed2ee0dfa67f08d39020</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dcb5f9e4d0f888cbe44e3c6757f5ccf4e31e4da</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Base class for all validator components.</source>
+          <target state="translated">모든 유효성 검사기 구성 요소에 대 한 기본 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The Validator class is used to ensure that activities are configured properly at design time.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>유효성 검사기 클래스는 활동이 디자인 타임에 적절히 구성 되어 있는지 확인 하는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators are instantiated during design time when the designer validates the properties assigned to activities; if an activity's parameters are not configured properly, the designer will show smart tag errors for the incorrect values.</source>
+          <target state="translated">유효성 검사기 디자이너 작업에 할당 된 속성의 유효성을 검사 하면 디자인 타임 동안 인스턴스화됩니다. 활동의 매개 변수가 제대로 구성 되지 않은 경우 디자이너에 잘못 된 값에 대 한 스마트 태그 오류가 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators also run during compile time, and will return validation errors if constraints such as object parent or child type, minimum number of children, etc. are not correct.</source>
+          <target state="translated">유효성 검사기도 실행 하는 동안 컴파일 및 제약 조건 같은 개체 부모 또는 자식 형식, 최소 자식 수 등 올바르지 않은 경우 유효성 검사 오류를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators will also run at runtime when a markup-based workflow is instantiated using the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; method.</source>
+          <target state="translated">유효성 검사기를 사용 하 여 마크업 기반 워크플로가 인스턴스화되는 또한 런타임 시 실행 됩니다는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;메서드.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The main purpose of a Validator is to ensure that errors are known during design time, and are not exposed as exceptions during runtime.</source>
+          <target state="translated">유효성 검사기의 주 목적은 오류가 디자인 타임 동안 알려져 있고 런타임 동안 예외로 노출 되지 않습니다 있도록 보장 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators are associated with the activities that they validate using the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt; attribute; all activity validators must inherit from the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt; class.</source>
+          <target state="translated">유효성 검사기가 사용 하는 &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt;특성; 유효성 검사기 &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt;클래스&lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt; 에서 상속 해야 하는 모든 활동의&lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt; 유효성을 검사 하는 동작으로 연결 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, validators will validate meta properties; they do not validate instance properties which are settable at runtime.</source>
+          <target state="translated">유효성 검사기는 메타 속성을 확인 하는 데 기본적으로 런타임에 설정할 수 있는 인스턴스 속성의 유효성을 검사 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Helper method to extract the full property name.</source>
+          <target state="translated">전체 속성 이름을 추출할 도우미 메서드입니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Useful when the validated property is nested.</source>
+          <target state="translated">유효성을 검사 한 속성이 중첩 되는 경우 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method traverses the &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; in the stack to build the full name of the property.</source>
+          <target state="translated">메서드를 통과 &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;스택에서 속성의 전체 이름을 만듭니다.&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example: the name My.Actor.Bas is built using three &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; items.</source>
+          <target state="translated">예: 이름 my.actor.bas는 세 가지를 사용 하 여 &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;항목.&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the validated property belongs to an object that is an item in a collection, the method will produce the name of the collection.</source>
+          <target state="translated">유효성이 검사 된 속성 컬렉션의 항목인 개체에 속하면 메서드가 컬렉션의 이름을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> linked to the validation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 유효성 검사에 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The full property name.</source>
+          <target state="translated">전체 속성 이름입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Validates the specified object and returns a collection of validation errors.</source>
+          <target state="translated">지정된 된 개체의 유효성을 검사 하 고 유효성 검사 오류의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">유효성 검사에 연결 된 유효성 검사 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be validated.</source>
+          <target state="translated">&lt;xref:System.Object&gt;유효성을 검사 합니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 작업으로 인해 발생 한 유효성 검사 오류가 들어 있는입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, validates a change based on a specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> being added or removed.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 지정 된에 따라 변경의 유효성을 검사 <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 추가 또는 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This function is called during the application of changes that are made to the workflow during dynamic updates.</source>
+          <target state="translated">이 함수는 동적 업데이트 중에 워크플로에 대 한 변경 내용 적용 하는 동안 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the base implementation, a null reference (Visual Basic <ph id="ph1">`Nothing`</ph>) is returned.</source>
+          <target state="translated">기본 구현에서 null 참조 (Visual Basic <ph id="ph1">`Nothing`</ph>)이 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generated by the operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 작업에서 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph>가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Helper method to automatically validate the specific objects properties.</source>
+          <target state="translated">자동으로 특정 개체 속성의 유효성 검사 도우미 메서드.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">유효성 검사에 연결 된 유효성 검사 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be validated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 유효성을 검사 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 작업으로 인해 발생 한 유효성 검사 오류가 들어 있는입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Performs validation on a property and returns a <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">속성에 유효성 검사를 수행 하 고 반환 된 <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 해당 유효성 검사의 결과 포함 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no errors result from the validation, an empty &lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt; is returned.</source>
+          <target state="translated">빈 유효성 검사에서 결과 오류가 없으면 &lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;반환 됩니다.&lt;/xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.PropertyInfo&gt; on the subject property.</source>
+          <target state="translated">&lt;xref:System.Reflection.PropertyInfo&gt;subject 속성에.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The owner of the property.</source>
+          <target state="translated">속성의 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the property.</source>
+          <target state="translated">속성의 값입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 작업에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 해당 유효성 검사의 결과 포함 하는 합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

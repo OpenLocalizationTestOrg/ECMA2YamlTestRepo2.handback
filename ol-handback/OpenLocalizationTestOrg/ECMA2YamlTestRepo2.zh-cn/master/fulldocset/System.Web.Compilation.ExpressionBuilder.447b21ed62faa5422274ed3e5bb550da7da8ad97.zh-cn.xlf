@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1dc66224dc3fb523851a79fa8d490199a15eff87</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.ExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">490f91cdb750597845e3d953174e0dec5e9c452c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d5145c50b9fb0956a3e3cea59fa36aaaf8fb75d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Evaluates expressions during page parsing.</source>
+          <target state="translated">在页分析过程中计算表达式。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ExpressionBuilder class is the base class for expression builders, such as the &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt; class, that create code expressions during page parsing.</source>
+          <target state="translated">ExpressionBuilder 类是表达式生成器的基类如&lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;类，这在页分析过程中创建的代码表达式。&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Expression builders parse declarative expressions and create code to retrieve values bound to a control property.</source>
+          <target state="translated">表达式生成器分析声明性的表达式，并创建代码来检索绑定到的控件属性的值。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In no-compile scenarios, an expression builder that supports a no-compile feature evaluates the expression during run time.</source>
+          <target state="translated">在非编译方案中，支持非编译功能的表达式生成器计算过程运行时中的表达式。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the page parser encounters an expression that is delimited with the string <ph id="ph1">`&lt;%$ %&gt;`</ph>, it creates an expression builder for the expression based on the prefix in the string.</source>
+          <target state="translated">当页分析器遇到与字符串分隔的表达式<ph id="ph1">`&lt;%$ %&gt;`</ph>，它创建基于字符串中的前缀的表达式的表达式生成器。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The prefix is the portion of the string that is to the left of the colon (:).</source>
+          <target state="translated">前缀是字符串的冒号 （:） 左侧的部分。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, when the parser encounters the string <ph id="ph1">`&lt;%$ ConnectionStrings:MessageDB %&gt;`</ph>, it creates a &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt; object.</source>
+          <target state="translated">例如，当分析器遇到字符串<ph id="ph1">`&lt;%$ ConnectionStrings:MessageDB %&gt;`</ph>，它会创建&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;对象。&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Prefixes are associated with expression builders in the Web.config file in the &lt;xref:System.Web.Configuration.CompilationSection.ExpressionBuilders%2A&gt; section.</source>
+          <target state="translated">前缀是与中的 Web.config 文件中的表达式生成器关联&lt;xref:System.Web.Configuration.CompilationSection.ExpressionBuilders%2A&gt;部分。&lt;/xref:System.Web.Configuration.CompilationSection.ExpressionBuilders%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The right side of the declarative expression is passed to the expression builder for evaluation.</source>
+          <target state="translated">声明性的表达式的右侧将传递到表达式生成器，进行评估。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Override the &lt;xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt; method to generate code that will be compiled with the page.</source>
+          <target state="translated">重写&lt;xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt;方法以生成将替换为页编译的代码。&lt;/xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you want the custom expression builder to be active on pages that are not compiled, you must also override the &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method to return an object that represents the results of the expression.</source>
+          <target state="translated">如果你想要不进行编译的页面上处于活动状态的自定义表达式生成器，还必须重写&lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;方法以返回一个对象，表示表达式的结果。&lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You also must override the &lt;xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt; property to indicate that the custom expression builder does support no-compile pages.</source>
+          <target state="translated">此外必须重写&lt;xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt;属性以指示，自定义表达式生成器支持非编译页。&lt;/xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can define a set of properties and methods for selecting and evaluating an expression that is associated with a control property at design time by implementing an expression editor.</source>
+          <target state="translated">你可以定义一组属性和用于选择并计算表达式与该键关联的控件属性在设计时通过实现一个表达式编辑器的方法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The editor is marked on the expression builder through class-level metadata.</source>
+          <target state="translated">编辑器是在类级别的元数据通过表达式生成器上标记。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.Design.ExpressionEditor&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.Design.ExpressionEditor&gt;。&lt;/xref:System.Web.UI.Design.ExpressionEditor&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.Compilation.ExpressionBuilder&gt; class is abstract, you cannot create an instance of &lt;xref:System.Web.Compilation.ExpressionBuilder&gt; directly by using the ExpressionBuilder constructor.</source>
+          <target state="translated">因为&lt;xref:System.Web.Compilation.ExpressionBuilder&gt;类为抽象类，你无法创建的实例&lt;xref:System.Web.Compilation.ExpressionBuilder&gt;直接通过使用 ExpressionBuilder 构造函数。&lt;/xref:System.Web.Compilation.ExpressionBuilder&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns an object that represents an evaluated expression.</source>
+          <target state="translated">当在派生类中重写，则返回一个对象，表示计算的表达式。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you want your &lt;xref:System.Web.Compilation.ExpressionBuilder&gt; object to be active on a page that supports the no-compile feature, you can override the EvaluateExpression method and the &lt;xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt; property.</source>
+          <target state="translated">如果你希望你&lt;xref:System.Web.Compilation.ExpressionBuilder&gt;对象以支持非编译功能的页上处于活动状态可以替代 EvaluateExpression 方法和&lt;xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt;属性。&lt;/xref:System.Web.Compilation.ExpressionBuilder.SupportsEvaluate%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The EvaluateExpression method should return the evaluation of the current expression.</source>
+          <target state="translated">EvaluateExpression 方法应返回当前表达式的计算。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The object containing the expression.</source>
+          <target state="translated">包含表达式的对象。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The object that represents information about the property bound to by the expression.</source>
+          <target state="translated">表示有关属性的信息的对象绑定到由表达式。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object containing parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">由&lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;返回对象，其中包含分析数据</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Contextual information for the evaluation of the expression.</source>
+          <target state="translated">对表达式求值的上下文信息。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An object that represents the evaluated expression; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the inheritor does not implement EvaluateExpression.</source>
+          <target state="translated">一个对象，表示计算的表达式;否则为<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果继承者不实现 EvaluateExpression。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns code that is used during page execution to obtain the evaluated expression.</source>
+          <target state="translated">当在派生类中重写，则返回页执行期间中用于获取计算的表达式的代码。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Classes that inherit from the &lt;xref:System.Web.Compilation.ExpressionBuilder&gt; class must implement the GetCodeExpression abstract method.</source>
+          <target state="translated">继承自的类&lt;xref:System.Web.Compilation.ExpressionBuilder&gt;类必须实现 GetCodeExpression 抽象方法。&lt;/xref:System.Web.Compilation.ExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The object that represents information about the property bound to by the expression.</source>
+          <target state="translated">表示有关属性的信息的对象绑定到由表达式。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The object containing parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">由&lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;返回对象，其中包含分析数据</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Contextual information for the evaluation of the expression.</source>
+          <target state="translated">对表达式求值的上下文信息。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used for property assignment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用于属性赋值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns an object that represents the parsed expression.</source>
+          <target state="translated">当在派生类中重写，则返回一个对象，表示已分析的表达式。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, this method parses the expression and returns it as an object that can be used as the <ph id="ph1">`parsedData`</ph> parameter in a &lt;xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt; or &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method.</source>
+          <target state="translated">当在派生类中重写此方法分析表达式，并将其作为一个对象，可用作返回<ph id="ph1">`parsedData`</ph>中的参数&lt;xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt;或&lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;方法。&lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.GetCodeExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value of the declarative expression.</source>
+          <target state="translated">声明性的表达式的值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The type of the property bound to by the expression.</source>
+          <target state="translated">通过表达式绑定到属性的类型。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Contextual information for the evaluation of the expression.</source>
+          <target state="translated">对表达式求值的上下文信息。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; containing the parsed representation of the expression; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if ParseExpression is not implemented.</source>
+          <target state="translated">&lt;xref:System.Object&gt;包含已分析的表达式表示形式; 否则为<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果未实现 ParseExpression。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a value indicating whether the current <bpt id="p1">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object supports no-compile pages.</source>
+          <target state="translated">当在派生类中重写，则返回一个值，该值指示是否当前<bpt id="p1">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象支持非编译页。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default value for the SupportsEvaluate property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">SupportsEvaluate 属性的默认值是<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To support no-compile pages, you must override both the &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method and the SupportsEvaluate property.</source>
+          <target state="translated">若要支持非编译页，你必须重写二者&lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;方法和 SupportsEvaluate 属性。&lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> supports expression evaluation; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Web.Compilation.ExpressionBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>支持表达式求值; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

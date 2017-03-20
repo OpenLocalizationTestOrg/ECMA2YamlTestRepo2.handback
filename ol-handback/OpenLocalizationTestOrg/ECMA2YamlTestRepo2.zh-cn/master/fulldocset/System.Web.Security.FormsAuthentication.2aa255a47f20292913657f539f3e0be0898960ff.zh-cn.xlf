@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f78857544d6ac9faf75c4f713ec1dea53c315fea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.FormsAuthentication.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c2fa917a7f111ddaea901468ab868f28d2d3e70</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75a63e6fb1dfd98629135ca71aa3afec4b54fdda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages forms-authentication services for Web applications.</source>
+          <target state="translated">管理 Web 应用程序的窗体身份验证服务。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Forms authentication enables user and password validation for Web applications that do not require Windows authentication.</source>
+          <target state="translated">窗体身份验证使用户和密码验证的 Web 应用程序不需要 Windows 身份验证。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With forms authentication, user information is stored in an external data source, such as a &lt;xref:System.Web.Security.Membership&gt; database, or in the configuration file for an application.</source>
+          <target state="translated">使用窗体身份验证，用户信息存储在外部数据源，如&lt;xref:System.Web.Security.Membership&gt;数据库，或应用程序的配置文件中。&lt;/xref:System.Web.Security.Membership&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Once a user is authenticated, forms authentication maintains an authentication ticket in a cookie or in the URL so that an authenticated user does not need to supply credentials with each request.</source>
+          <target state="translated">一旦用户进行身份验证，窗体身份验证都维护在 cookie 或 URL 中的身份验证票证，以便经过身份验证的用户不需要提供与每个请求的凭据。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Forms authentication is enabled by setting the <ph id="ph1">`mode`</ph> attribute of the  configuration element to <ph id="ph2">`Forms`</ph>.</source>
+          <target state="translated">通过设置启用 forms 身份验证<ph id="ph1">`mode`</ph>到的配置元素的属性<ph id="ph2">`Forms`</ph>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can require that all requests to an application contain a valid user authentication ticket by using the  configuration element to deny the request of any unknown user, as shown in the following example.</source>
+          <target state="translated">你可以要求对应用程序的所有请求使用的配置元素为拒绝该任何的请求未知的用户，如下面的示例中所示都包含有效的用户身份验证票证。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>       In the previous example, any request for an ASP.NET page that is part of the application requires a valid user name that is supplied by forms authentication.</source>
+          <target state="translated"><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>在前面的示例中，应用程序的一部分的 ASP.NET 页的任何请求需要由窗体身份验证提供有效的用户名称。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If no user name exists, then the request is redirected to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">如果用户名不存在，则该请求重定向到配置&lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;。&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The FormsAuthentication class provides access to methods and properties that you can use in an application that authenticates users.</source>
+          <target state="translated">FormsAuthentication 类提供给方法和属性可以在对用户进行身份验证的应用程序中使用的访问。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method redirects a browser to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; for users to log into an application.</source>
+          <target state="translated">&lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;方法将浏览器重定向到已配置&lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;以便用户可以登录到应用程序。&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method redirects an authenticated user back to the original protected URL that was requested or to the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;方法将返回到请求的原始受保护 URL 或&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;身份验证的用户重定向&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are also methods that enable you to manage forms-authentication tickets, if needed.</source>
+          <target state="translated">也有必要使你能够管理窗体身份验证票证的方法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This constructor is not intended to be used from your code.</source>
+          <target state="translated">此构造函数不应在代码中使用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Validates a user name and password against credentials stored in the configuration file for an application.</source>
+          <target state="translated">验证用户名和密码与应用程序的配置文件中存储的凭据。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Authenticate method verifies user credentials that are stored in the  section of the application configuration file.</source>
+          <target state="translated">身份验证方法验证应用程序配置文件的部分中存储的用户凭据。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials and call the &lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt; to verify the credentials.</source>
+          <target state="translated">或者，可以使用 ASP.NET 成员身份来存储用户凭据和调用&lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;以验证凭据。&lt;/xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>使用成员资格管理用户<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For improved security, you can encrypt passwords stored in the configuration file for an application by using the &lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt; method.</source>
+          <target state="translated">为了提高安全性，你可以对密码进行加密存储在应用程序的配置文件，通过使用&lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;方法。&lt;/xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The user name.</source>
+          <target state="translated">用户名。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The password for the user.</source>
+          <target state="translated">用户的密码。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user name and password are valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果用户名和密码有效，则为否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the value of the domain of the forms-authentication cookie.</source>
+          <target state="translated">获取窗体身份验证 cookie 的域的值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The CookieDomain property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`domain`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用 ASP.NET 应用程序配置文件中设置 CookieDomain 属性值<ph id="ph1">`domain`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The CookieDomain property value determines the &lt;xref:System.Web.HttpCookie.Domain%2A&gt; that the cookie will be used for.</source>
+          <target state="translated">CookieDomain 属性值确定的&lt;xref:System.Web.HttpCookie.Domain%2A&gt;cookie 将使用的为&lt;/xref:System.Web.HttpCookie.Domain%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Domain*&gt; of the forms-authentication cookie.</source>
+          <target state="translated">&lt;xref:System.Web.HttpCookie.Domain*&gt;窗体身份验证 cookie。&lt;/xref:System.Web.HttpCookie.Domain*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">获取一个值，该值指示是否为无 cookie 窗体身份验证配置应用程序。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The CookieMode property reflects the value for the <ph id="ph1">`cookieless`</ph> attribute of the  configuration element.</source>
+          <target state="translated">CookieMode 属性反映的值<ph id="ph1">`cookieless`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The CookieMode property determines whether the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value will be stored in a session cookie in the browser or stored in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">CookieMode 属性确定是否&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;将存储在浏览器中的会话 cookie 值，或将其存储在&lt;xref:System.Web.HttpRequest.QueryString%2A&gt;属性。&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value is stored in the URI, the length of the generated URI may be longer than the maximum length allowed.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 时&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;值存储在 URI 中，生成的 URI 的长度可能超过允许的最大长度。&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is most likely to occur when the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property is set to the application name and the application name is long (40 or more characters), when user names in the application are long, or when long &lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; strings are stored in the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value.</source>
+          <target state="translated">这是最有可能发生时&lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;属性设置为应用程序名称和应用程序名称太长 （40 或多个字符），当用户在应用程序名称时较长，或者长&lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt;字符串存储在&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;值。&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the generated URI is too long, the Web server will return a <ph id="ph1">`400 - Bad Request`</ph> error.</source>
+          <target state="translated">如果生成的 URI 是太长，则 Web 服务器将返回<ph id="ph1">`400 - Bad Request`</ph>错误。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值指示是否为无 cookie 窗体身份验证配置应用程序。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured to support cookieless forms authentication.</source>
+          <target state="translated">获取一个值，该值指示是否将应用程序配置为支持无 cookie 窗体身份验证。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The CookiesSupported property returns a value based on the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; value and the capabilities of the browser.</source>
+          <target state="translated">CookiesSupported 属性返回一个值基于&lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;值和浏览器的功能。&lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-如果&lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;属性设置为&lt;xref:System.Web.HttpCookieMode&gt;，CookiesSupported 属性将返回<ph id="ph1">`true`</ph>。&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-如果&lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;属性设置为&lt;xref:System.Web.HttpCookieMode&gt;，CookiesSupported 属性将返回<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the browser supports cookies and cookies are enabled; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-如果&lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;属性设置为&lt;xref:System.Web.HttpCookieMode&gt;，CookiesSupported 属性将返回<ph id="ph1">`true`</ph>如果浏览器支持 cookie，并且已启用 cookie; 否则，将返回 CookiesSupported 属性<ph id="ph2">`false`</ph>。&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the &lt;xref:System.Web.HttpRequest.Browser%2A&gt; for the current &lt;xref:System.Web.HttpContext.Request%2A&gt; supports both cookies and redirecting with cookies; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-如果&lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;属性设置为&lt;xref:System.Web.HttpCookieMode&gt;，CookiesSupported 属性将返回<ph id="ph1">`true`</ph>如果&lt;xref:System.Web.HttpRequest.Browser%2A&gt;当前&lt;xref:System.Web.HttpContext.Request%2A&gt;支持 cookie 和重定向使用 cookie; 否则，CookiesSupported 属性将返回<ph id="ph2">`false`</ph>。&lt;/xref:System.Web.HttpContext.Request%2A&gt; &lt;/xref:System.Web.HttpRequest.Browser%2A&gt; &lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the application is configured to support cookieless forms authentication; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应用程序配置为支持无 cookie 窗体身份验证;否则为<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the encrypted forms-authentication ticket passed to the method.</source>
+          <target state="translated">创建<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象基于传递给方法的加密的窗体身份验证票证。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The encrypted authentication ticket.</source>
+          <target state="translated">加密的身份验证票证。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedTicket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid ticket, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">如果<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedTicket</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的票证， <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>返回。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">获取的 URL <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>类将重定向到如果不指定 URL 的重定向。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The DefaultUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`defaultUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用 ASP.NET 应用程序配置文件中设置 DefaultUrl 属性值<ph id="ph1">`defaultUrl`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The DefaultUrl property is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method if no return URL is included in the request.</source>
+          <target state="translated">使用 DefaultUrl 属性&lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;如果请求中包含不返回 URL 的方法。&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Similarly, the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method will return the DefaultUrl if no return URL is included in the request.</source>
+          <target state="translated">同样，&lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;方法将返回 DefaultUrl 如果请求中包含不返回 URL。&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">URL 的<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类将重定向到如果不指定 URL 的重定向。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is "default.aspx."</source>
+          <target state="translated">默认值是"default.aspx"。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether authenticated users can be redirected to URLs in other Web applications.</source>
+          <target state="translated">获取一个值，该值指示是否已经过身份验证的用户可以将重定向到 Url 中其他 Web 应用程序。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The EnableCrossAppRedirects property value is set using the <ph id="ph1">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用设置 EnableCrossAppRedirects 属性值<ph id="ph1">`enableCrossAppRedirects`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The EnableCrossAppRedirects property is checked within the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method when the redirect URL does not point to a page in the current application.</source>
+          <target state="translated">中选中 EnableCrossAppRedirects 属性&lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;方法时重定向 URL 未指向当前应用程序中的页。&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If EnableCrossAppRedirects is <ph id="ph1">`true`</ph>, then the redirect is performed; if EnableCrossAppRedirects is <ph id="ph2">`false`</ph>, the browser is redirected to the page defined in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果 EnableCrossAppRedirects <ph id="ph1">`true`</ph>，然后执行重定向; 如果 EnableCrossAppRedirects <ph id="ph2">`false`</ph>，将浏览器重定向到中定义的页&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you redirect pages across applications, you must make sure that specific attributes in the  configuration element are duplicated across the authenticated applications.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 时跨应用程序执行重定向页面，你必须确保内经过身份验证的应用程序重复的配置元素中的特定属性。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For more information and an example, see <bpt id="p1">[</bpt>Forms Authentication Across Applications<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息及示例，请参阅<bpt id="p1">[</bpt>跨应用程序的窗体身份验证<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When cross-application redirects are allowed, your site is vulnerable to an exploit that directs users to a malicious Web site but uses the login page for your site.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 允许跨应用程序重定向，你的站点时，容易遭受攻击来将用户定向到恶意网站，但为您的网站使用的登录页。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Always verify that the redirect URL that is returned by the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method is a URL that you expect so that you can make sure that you allow redirects only to approved Web sites.</source>
+          <target state="translated">始终验证重定向 URL 返回&lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;方法是希望，以便你可以确保你允许重定向仅到已批准的网站的 URL。&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You must also verify that the redirect URL uses the appropriate protocol (HTTP or HTTPS).</source>
+          <target state="translated">你还必须验证重定向 URL，使用适当的协议 （HTTP 或 HTTPS）。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To perform these verifications, you can add a postback event handler to your login page, or you can add a handler for the &lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt; event of the &lt;xref:System.Web.UI.WebControls.Login&gt; control.</source>
+          <target state="translated">若要执行这些验证，可以将一个回发事件处理程序添加到您的登录页，也可以添加的处理程序&lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt;事件&lt;xref:System.Web.UI.WebControls.Login&gt;控件。&lt;/xref:System.Web.UI.WebControls.Login&gt; &lt;/xref:System.Web.UI.WebControls.Login.LoggedIn&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if authenticated users can be redirected to URLs in other Web applications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果经过身份验证的用户可以重定向到 Url 中其他 Web 应用程序中;，否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enables forms authentication.</source>
+          <target state="translated">启用窗体身份验证。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the default URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性是<ph id="ph1">`null`</ph>，属性设置为默认 URL 值从<ph id="ph2">`configurationData`</ph>参数。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the login URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;属性是<ph id="ph1">`null`</ph>，，将属性设置为从登录 URL 值<ph id="ph2">`configurationData`</ph>参数。&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A name-value collection that contains values for "defaultUrl" and/or "loginUrl".</source>
+          <target state="translated">包含"defaultUrl"和/或"登录 Url"的值的名称 / 值集合。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The parameter can be null if there are no values for the default URL or the login URL.</source>
+          <target state="translated">参数可以为没有默认 URL 或登录 URL 的值的情况下为 null。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The application is not in the pre-start initialization phase.</source>
+          <target state="translated">在开始前初始化阶段不是应用程序。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates a string containing an encrypted forms-authentication ticket suitable for use in an HTTP cookie.</source>
+          <target state="translated">创建包含适合在 HTTP cookie 中使用的加密的窗体身份验证票证的字符串。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with which to create the encrypted forms-authentication ticket.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用来创建加密的窗体身份验证票证的对象。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A string containing an encrypted forms-authentication ticket.</source>
+          <target state="translated">包含加密的窗体身份验证票证的字符串。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets the name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">获取用于存储窗体身份验证票证的 cookie 的名称。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The FormsCookieName property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`name`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用 ASP.NET 应用程序配置文件中设置 FormsCookieName 属性值<ph id="ph1">`name`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The FormsCookieName is used to reference the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">FormsCookieName 用于引用将存储的 cookie&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;信息。&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">用于存储窗体身份验证票证的 cookie 名称。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is ".ASPXAUTH".</source>
+          <target state="translated">默认值是"。ASPXAUTH"。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the path for the forms-authentication cookie.</source>
+          <target state="translated">获取窗体身份验证 cookie 的路径。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The FormsCookiePath property value is set in the configuration file for an ASP.NET application using the <ph id="ph1">`path`</ph> attribute of the  configuration element.</source>
+          <target state="translated">ASP.NET 应用程序中使用的配置文件中设置了 FormsCookiePath 属性值<ph id="ph1">`path`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The FormsCookiePath specifies the &lt;xref:System.Web.HttpCookie.Path%2A&gt; for the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">FormsCookiePath 指定&lt;xref:System.Web.HttpCookie.Path%2A&gt;的 cookie 存储&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;信息。&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.HttpCookie.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The path of the cookie where the forms-authentication ticket information is stored.</source>
+          <target state="translated">其中存储表单身份验证票证信息的 cookie 的路径。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default is "/".</source>
+          <target state="translated">默认值是"/"。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">创建给定的用户名的身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response, so that an application can have more control over how the cookie is issued.</source>
+          <target state="translated">这不，以便应用程序可以具有更好地控制颁发 cookie 的方式的传出响应的一部分设置 cookie。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The path of the cookie is determined by the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property.</source>
+          <target state="translated">Cookie 的路径由&lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">经过身份验证的用户的名称。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建一个持久的 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含加密的窗体身份验证票证的信息。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default value for the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt; property is used.</source>
+          <target state="translated">默认值为&lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;使用属性。&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">创建给定的用户名的身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response.</source>
+          <target state="translated">这不作为传出响应的一部分设置 cookie。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">经过身份验证的用户的名称。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建一个持久的 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Path*&gt; of the authentication cookie.</source>
+          <target state="translated">&lt;xref:System.Web.HttpCookie.Path*&gt;身份验证 cookie。&lt;/xref:System.Web.HttpCookie.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含加密的窗体身份验证票证的信息。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the redirect URL for the original request that caused the redirect to the login page.</source>
+          <target state="translated">返回原始请求导致重定向到登录页的重定向 URL。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use this method when you want to perform the redirect in your application code instead of using the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method.</source>
+          <target state="translated">你可以使用此方法，当你想要在而不是使用应用程序代码中执行重定向&lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;方法。&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The GetRedirectUrl method returns the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">GetRedirectUrl 方法返回在查询字符串中使用指定的 URL<ph id="ph1">`ReturnURL`</ph>变量名称。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the GetRedirectUrl method returns the return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">例如，在 URL 中<ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>，GetRedirectUrl 方法返回的返回 URL <ph id="ph2">`caller.aspx`</ph>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the GetRedirectUrl method returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnURL`</ph>变量不存在，则 GetRedirectUrl 方法返回中的 URL&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">将浏览器重定向到登录页时，ASP.NET 会自动添加的返回 URL。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">默认情况下，<ph id="ph1">`ReturnUrl`</ph>变量必须引用某页在当前应用程序中。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the GetRedirectUrl methods returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnUrl`</ph>不同的服务器的 GetRedirectUrl 方法返回的 URL 中的页上或不同的应用程序是指&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you want to allow the return URL to refer to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">如果你想要允许使用返回的 URL 来指代当前应用程序之外的网页，则必须设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph1">`true`</ph>使用<ph id="ph2">`enableCrossAppRedirects`</ph>配置元素的属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph2">`true`</ph>以允许跨应用程序重定向是一个潜在的安全威胁。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">经过身份验证的用户的名称。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is ignored.</source>
+          <target state="translated">忽略此参数。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A string that contains the redirect URL.</source>
+          <target state="translated">一个字符串，包含重定向 URL。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Produces a hash password suitable for storing in a configuration file based on the specified password and hash algorithm.</source>
+          <target state="translated">生成适用于基于指定的密码和哈希算法的配置文件中存储的哈希密码。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The HashPasswordForStoringInConfigFile method creates a hashed password value that can be used when storing forms-authentication credentials in the configuration file for an application.</source>
+          <target state="translated">HashPasswordForStoringInConfigFile 方法创建一个经过哈希处理的密码值，将窗体身份验证凭据存储在应用程序的配置文件时，可以使用。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Authentication credentials stored in the configuration file for an application are used by the &lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt; method to verify passwords for users of an application.</source>
+          <target state="translated">使用存储在应用程序配置文件的身份验证凭据&lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;方法以验证的应用程序的用户的密码。&lt;/xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials.</source>
+          <target state="translated">或者，可以使用 ASP.NET 成员资格来存储用户凭据。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>使用成员资格管理用户<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The password to hash.</source>
+          <target state="translated">哈希处理密码。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use.</source>
+          <target state="translated">要使用的哈希算法。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`passwordFormat`</ph> is a <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents one of the <bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated"><ph id="ph1">`passwordFormat`</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示之一<bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>枚举值。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The hashed password.</source>
+          <target state="translated">经过哈希处理的密码。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the configuration settings for the application.</source>
+          <target state="translated">初始化<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>根据应用程序的配置设置的对象。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Initialize method is called when the &lt;xref:System.Web.Security.FormsAuthenticationModule&gt; creates an instance of the &lt;xref:System.Web.Security.FormsAuthentication&gt; class.</source>
+          <target state="translated">Initialize 方法调用时&lt;xref:System.Web.Security.FormsAuthenticationModule&gt;创建的&lt;xref:System.Web.Security.FormsAuthentication&gt;类&lt;/xref:System.Web.Security.FormsAuthentication&gt;实例&lt;/xref:System.Web.Security.FormsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This method is not intended to be called from your code.</source>
+          <target state="translated">此方法不应在代码中调用。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether forms authentication is enabled.</source>
+          <target state="translated">获取一个值，该值指示是否启用表单身份验证。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if forms authentication is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用了窗体身份验证;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets the URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">获取的 URL 的登录页<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类将重定向到。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The LoginUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`loginUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用 ASP.NET 应用程序配置文件中设置的登录 Url 属性值<ph id="ph1">`loginUrl`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The LoginUrl is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method.</source>
+          <target state="translated">LoginUrl 由&lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;方法。&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">该登录名的 URL 页面<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类将重定向到。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The default is "login.aspx."</source>
+          <target state="translated">默认值为"login.aspx。"</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL.</source>
+          <target state="translated">经过身份验证的用户重定向回最初请求的 URL 或默认 URL。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The RedirectFromLoginPage method redirects to the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">RedirectFromLoginPage 方法将重定向到在查询字符串中使用指定的 URL<ph id="ph1">`ReturnURL`</ph>变量名称。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">例如，在 URL 中<ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>，RedirectFromLoginPage 方法的重定向到返回 URL <ph id="ph2">`caller.aspx`</ph>。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnURL`</ph>变量不存在，则 RedirectFromLoginPage 方法将重定向到中的 URL&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">将浏览器重定向到登录页时，ASP.NET 会自动添加的返回 URL。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">默认情况下，<ph id="ph1">`ReturnUrl`</ph>变量必须引用某页在当前应用程序中。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage methods redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnUrl`</ph>引用在不同的应用程序或不同的服务器，RedirectFromLoginPage 方法上的页面重定向到中的 URL&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">如果你想要允许重定向到当前应用程序之外的网页，则必须设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph1">`true`</ph>使用<ph id="ph2">`enableCrossAppRedirects`</ph>配置元素的属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph2">`true`</ph>以允许跨应用程序重定向是一个潜在的安全威胁。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the default cookie using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;属性是<ph id="ph1">`true`</ph>，并且<ph id="ph2">`ReturnUrl`</ph>变量位于当前应用程序或&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性是<ph id="ph3">`true`</ph>，然后 RedirectFromLoginPage 方法发出的身份验证票证，并将其放在默认 cookie 中使用&lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;方法。&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>和重定向路径为当前应用程序中的 URL，该票证颁发重定向 URL 的一部分。&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>，&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;是<ph id="ph2">`true`</ph>，和重定向 URL 不是指某页在当前应用程序中，RedirectFromLoginPage 方法发出身份验证票证，并将其放入&lt;xref:System.Web.HttpRequest.QueryString%2A&gt;属性。&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">经过身份验证的用户名。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建一个持久的 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">查询字符串中指定的返回 URL 包含除 HTTP 之外的协议︰ 或 HTTPS:。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL using the specified cookie path for the forms-authentication cookie.</source>
+          <target state="translated">经过身份验证的用户重定向回最初请求的 URL 或指定的 cookie 路径用于窗体身份验证 cookie 的默认 URL。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The RedirectFromLoginPage method redirects to the return URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">RedirectFromLoginPage 方法将重定向到在查询字符串中使用指定的返回 URL<ph id="ph1">`ReturnURL`</ph>变量名称。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">例如，在 URL 中<ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>，RedirectFromLoginPage 方法的重定向到返回 URL <ph id="ph2">`caller.aspx`</ph>。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnURL`</ph>变量不存在，则 RedirectFromLoginPage 方法将重定向到中的 URL&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">将浏览器重定向到登录页时，ASP.NET 会自动添加的返回 URL。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">默认情况下，<ph id="ph1">`ReturnUrl`</ph>变量必须引用某页在当前应用程序中。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">如果<ph id="ph1">`ReturnUrl`</ph>指的是在不同的应用程序中或在不同服务器上，方法将重定向到中的 URL RedirectFromLoginPage 的页面&lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">如果你想要允许重定向到当前应用程序之外的网页，则必须设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph1">`true`</ph>使用<ph id="ph2">`enableCrossAppRedirects`</ph>配置元素的属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 设置&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性<ph id="ph2">`true`</ph>以允许跨应用程序重定向是一个潜在的安全威胁。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性。&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the cookie specified by the <ph id="ph4">`strCookiePath`</ph> parameter using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;属性是<ph id="ph1">`true`</ph>，并且<ph id="ph2">`ReturnUrl`</ph>变量位于当前应用程序或&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;属性是<ph id="ph3">`true`</ph>，然后 RedirectFromLoginPage 方法发出身份验证票证，并将其放在指定的 cookie<ph id="ph4">`strCookiePath`</ph>参数使用&lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;方法。&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>和重定向路径为当前应用程序中的 URL，该票证颁发重定向 URL 的一部分。&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>，&lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;是<ph id="ph2">`true`</ph>，和重定向 URL 不是指某页在当前应用程序中，RedirectFromLoginPage 方法发出身份验证票证，并将其放入&lt;xref:System.Web.HttpRequest.QueryString%2A&gt;属性。&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">经过身份验证的用户名。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建一个持久的 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">窗体身份验证票证的 cookie 路径。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">查询字符串中指定的返回 URL 包含除 HTTP 之外的协议︰ 或 HTTPS:。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL.</source>
+          <target state="translated">将浏览器重定向到登录 URL。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">RedirectToLoginPage 方法将浏览器重定向到&lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;。&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">RedirectToLoginPage 方法并不会清除窗体身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">你可以使用 RedirectToLoginPage 方法结合&lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;方法日志出的一个用户，并允许不同用户登录。&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL with the specified query string.</source>
+          <target state="translated">将浏览器重定向到登录 URL 与指定的查询字符串。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; and includes the <ph id="ph1">`extraQueryString`</ph> value as the &lt;xref:System.Management.ManagementQuery.QueryString%2A&gt; for the redirected URL.</source>
+          <target state="translated">RedirectToLoginPage 方法重定向到浏览器&lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;并包括<ph id="ph1">`extraQueryString`</ph>值作为&lt;xref:System.Management.ManagementQuery.QueryString%2A&gt;重定向 url。&lt;/xref:System.Management.ManagementQuery.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">RedirectToLoginPage 方法并不会清除窗体身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">你可以使用 RedirectToLoginPage 方法结合&lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;方法日志出的一个用户，并允许不同用户登录。&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The query string to include with the redirect URL.</source>
+          <target state="translated">要包括在重定向 URL 查询字符串。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Conditionally updates the issue date and time and expiration date and time for a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">有条件地更新颁发日期和时间和到期日期和时间<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The RenewTicketIfOld method updates the expiration date and time of the supplied &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; if the current date and time minus the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value is greater than the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the current date and time.</source>
+          <target state="translated">RenewTicketIfOld 方法将更新的到期日期和时间所提供的&lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;如果当前日期和时间减去&lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;值是否大于&lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;值的当前日期和时间减去。&lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The ticket is updated with the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; property set to the current date and time and the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; property set to the current date and time plus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value.</source>
+          <target state="translated">使用更新的票证&lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;属性设置为当前日期和时间与&lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;属性设置为当前日期和时间加上原始&lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;值减去原始&lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;值。&lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The forms-authentication ticket to update.</source>
+          <target state="translated">若要更新的窗体身份验证票证。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The updated <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">已更新<bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the forms-authentication cookie requires SSL in order to be returned to the server.</source>
+          <target state="translated">获取一个值，该值指示窗体身份验证 cookie 是否需要 SSL 以便返回到服务器。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The RequireSSL property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`requireSSL`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用 ASP.NET 应用程序配置文件中设置的 RequireSSL 属性值<ph id="ph1">`requireSSL`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>You can specify in the Web.config file for your ASP.NET application whether SSL (Secure Sockets Layer) is required to return the forms-authentication cookie to the server by setting the <ph id="ph1">`requireSSL`</ph> attribute .</source>
+          <target state="translated">你可以在 Web.config 文件中为指定 ASP.NET 应用程序是否需要 SSL （安全套接字层） 来返回到服务器的窗体身份验证 cookie，通过设置<ph id="ph1">`requireSSL`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.HttpCookie.Secure%2A&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.HttpCookie.Secure%2A&gt;。&lt;/xref:System.Web.HttpCookie.Secure%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>It is recommended that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">如果你配置建议，<ph id="ph1">`requireSSL`</ph>作为<ph id="ph2">`false`</ph>，还配置<ph id="ph3">`slidingExpiration`</ph>作为<ph id="ph4">`false`</ph>，从而缩短票证的有效时间量。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if SSL is required to return the forms-authentication cookie to the server; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果需要返回到服务器; 在窗体身份验证 cookie SSL否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, or to the URL if you are using cookieless authentication.</source>
+          <target state="translated">创建提供的用户名的验证票证，并将其添加到响应 cookie 集合或 URL 如果你使用的无 cookie 的身份验证。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection, or to the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">SetAuthCookie 方法将添加窗体身份验证票证的 cookie 集合到或 URL 如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">窗体身份验证票证提供到下一步所做的浏览器的请求的窗体身份验证信息。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">使用窗体身份验证，你可以使用 SetAuthCookie 方法，当你想要对用户进行身份验证，但仍保留使用重定向对导航的控制。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">经过身份验证的用户的名称。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This does not have to map to a Windows account.</source>
+          <target state="translated">这没有映射到 Windows 帐户。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a persistent cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建的持久性 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, using the supplied cookie path, or using the URL if you are using cookieless authentication.</source>
+          <target state="translated">创建提供的用户名的验证票证，并将其添加到的响应，使用提供的 cookie 的路径，或使用 URL，如果你使用的无 cookie 的身份验证的 cookie 集合。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">SetAuthCookie 方法︰ 将窗体身份验证票证添加 cookie 集合或 URL，如果&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">窗体身份验证票证提供到下一步所做的浏览器的请求的窗体身份验证信息。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">使用窗体身份验证，你可以使用 SetAuthCookie 方法，当你想要对用户进行身份验证，但仍保留使用重定向对导航的控制。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">经过身份验证的用户的名称。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建一个持久的 cookie （一种跨浏览器会话保存）;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">窗体身份验证票证的 cookie 路径。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Removes the forms-authentication ticket from the browser.</source>
+          <target state="translated">从浏览器中移除的窗体身份验证票证。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The SignOut method removes the forms-authentication ticket information from the cookie or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">注销方法的窗体身份验证票证信息如果从中删除 cookie 或 URL&lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;是<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You can use the SignOut method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">你可以使用 SignOut 方法结合&lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;方法日志出的一个用户，并允许不同用户登录。&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>If you run exclusively in cookieless mode, or if you support both authenticated and anonymous users, you should explicitly control the redirect to the login page if you require special business logic to execute as a result of removing the anonymous identifier.</source>
+          <target state="translated">如果无 cookie 模式，以独占方式运行，或如果支持经过身份验证和匿名用户，你应显式控制重定向到登录页，如果需要特殊的业务逻辑，若要移除的匿名标识符后执行。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>When the SignOut method is called, a redirect to the application's login page is made by calling the &lt;xref:System.Web.HttpResponse.Redirect%2A&gt; method with the <ph id="ph1">`endResponse`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">当调用 SignOut 方法时，通过调用来发出重定向到应用程序的登录页&lt;xref:System.Web.HttpResponse.Redirect%2A&gt;方法替换<ph id="ph1">`endResponse`</ph>参数设置为<ph id="ph2">`false`</ph>。&lt;/xref:System.Web.HttpResponse.Redirect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The redirect does not take place until the current page has finished executing, so additional code can be run.</source>
+          <target state="translated">重定向不进行直到当前页已完成执行，以便可以运行附加代码。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If the code does not contain an explicit redirect to another page, the user is redirected to the login page configured in the application's configuration file.</source>
+          <target state="translated">如果代码不包含的显式重定向到另一页，则会将用户重定向到应用程序的配置文件中配置的登录页。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Calling the SignOut method only removes the forms authentication cookie.</source>
+          <target state="translated">调用 SignOut 方法只会删除窗体身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The Web server does not store valid and expired authentication tickets for later comparison.</source>
+          <target state="translated">Web 服务器不存储有效和过期的身份验证票证以便更高版本的比较。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>This makes your site vulnerable to a replay attack if a malicious user obtains a valid forms authentication cookie.</source>
+          <target state="translated">这使得您的网站很容易遭受重播攻击，如果恶意用户获得有效的窗体身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>To improve security when using a forms authentication cookie, you should do the following:      -   Use absolute expiration for forms authentication cookies by setting the &lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt; property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">为了提高安全性，使用窗体身份验证 cookie 时，你应执行以下操作:-用于窗体的身份验证 cookie 设置绝对过期&lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;属性<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>This limits the window in which a hijacked cookie can be replayed.</source>
+          <target state="translated">这就限制了可以在其中重播被劫持的 cookie 窗口。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>-   Only issue and accept authentication cookies over Secure Sockets Layer (SSL), by setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> and by running the entire Web site under SSL.</source>
+          <target state="translated">-仅发布和接受身份验证 cookie，请通过安全套接字层 (SSL)，通过设置&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;属性<ph id="ph1">`true`</ph>以及通过运行整个网站在 SSL 下。&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> ensures that ASP.NET will never send an authentication cookie to the browser over a non-SSL connection; however, the client might not honor the secure setting on the cookie.</source>
+          <target state="translated">设置&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;属性<ph id="ph1">`true`</ph>可确保，ASP.NET 会永远不会将身份验证 cookie 发送到浏览器通过非 SSL 连接; 但是，客户端可能不接受该 cookie 的安全设置。&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>This means the client might send the forms authentication cookie over a non-SSL connection, thus leaving it vulnerable to hijack.</source>
+          <target state="translated">这意味着客户端可能发送的窗体身份验证 cookie 通过非 SSL 连接，从而使易受到劫持。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>You can prevent a client from sending the forms authentication cookie in the clear by running the entire Web site under SSL.</source>
+          <target state="translated">你可以防止客户端通过运行在 SSL 下整个网站以明文发送的窗体身份验证 cookie。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>-   Use persistent storage on the server to record when a user logs out of the Web site, and then use an application event such as &lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt; event to determine whether the current user was authenticated with forms authentication.</source>
+          <target state="translated">-使用持久存储在服务器上记录当用户注销该网站，然后再使用应用程序事件如&lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;事件，以确定是否当前的用户进行身份验证通过 forms 身份验证。&lt;/xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If the user was authenticated with forms authentication, and if the information in persistent storage indicates the user is logged out, immediately clear the authentication cookie and redirect the browser back to the login page.</source>
+          <target state="translated">如果用户进行身份验证通过 forms 身份验证，并且如果持久存储中的信息指示用户已注销，立即清除身份验证 cookie，并将浏览器重定向回登录页。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>After a successful login, update storage to reflect that the user is logged in.</source>
+          <target state="translated">成功登录后，更新存储以反映用户已登录。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>When you use this method, your application must track the logged-in status of the user, and must force idle users to log out.</source>
+          <target state="translated">当你使用此方法时，你的应用程序必须跟踪的用户的登录状态，并必须强制空闲用户注销。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether sliding expiration is enabled.</source>
+          <target state="translated">获取一个值，该值指示是否启用相对过期机制。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The SlidingExpiration property value is set using the <ph id="ph1">`slidingExpiration`</ph> attribute of the  configuration element.</source>
+          <target state="translated">使用设置 SlidingExpiration 属性值<ph id="ph1">`slidingExpiration`</ph>配置元素的属性。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Sliding expiration resets the expiration time for a valid authentication cookie if a request is made and more than half of the timeout interval has elapsed.</source>
+          <target state="translated">相对过期机制重置为有效的身份验证 cookie 的到期时间，如果发出请求，并且有超过一半的超时间隔已过。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>If the cookie expires, the user must re-authenticate.</source>
+          <target state="translated">如果 cookie 已过期，用户必须重新进行身份验证。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Setting the SlidingExpiration property to <ph id="ph1">`false`</ph> can improve the security of an application by limiting the time for which an authentication cookie is valid, based on the configured <ph id="ph2">`timeout`</ph> value.</source>
+          <target state="translated">将 SlidingExpiration 属性设置为<ph id="ph1">`false`</ph>可应用的安全性通过限制提高的身份验证 cookie 的有效，时间基于配置<ph id="ph2">`timeout`</ph>值。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>We recommend that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">我们建议，如果你配置<ph id="ph1">`requireSSL`</ph>作为<ph id="ph2">`false`</ph>，还配置<ph id="ph3">`slidingExpiration`</ph>作为<ph id="ph4">`false`</ph>，从而缩短票证的有效时间量。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if sliding expiration is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用相对过期机制，则否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">获取一个值，该值指示是否使用协调世界时 (UTC) 还是本地时间，对于票证到期日期。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">一个值，该值指示是否使用协调世界时 (UTC) 还是本地时间，对于票证到期日期。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets the amount of time before an authentication ticket expires.</source>
+          <target state="translated">获取身份验证票证过期之前的时间量。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The amount of time before an authentication ticket expires.</source>
+          <target state="translated">过期之前的身份验证票证的时间量。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

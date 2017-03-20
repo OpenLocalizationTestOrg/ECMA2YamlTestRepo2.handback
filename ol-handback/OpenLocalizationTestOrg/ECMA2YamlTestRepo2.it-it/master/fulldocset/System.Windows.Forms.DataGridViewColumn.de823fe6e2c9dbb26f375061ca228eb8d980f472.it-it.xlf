@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2a83557deca84a1d9bd23f57313a198fd86fcaa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.DataGridViewColumn.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b2ca2138933427a258074d4fb5ae88a1cfd1816</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30b26397a51cd5677d52f86ac724e91d43cd5fa0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a column in a <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Rappresenta una colonna in un <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controllo.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataGridViewColumn class represents a logical column in a &lt;xref:System.Windows.Forms.DataGridView&gt; control.</source>
+          <target state="translated">La classe DataGridViewColumn rappresenta una colonna logica in un &lt;xref:System.Windows.Forms.DataGridView&gt;controllo.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve columns through the &lt;xref:System.Windows.Forms.DataGridView.Columns%2A&gt; collection of the control.</source>
+          <target state="translated">È possibile recuperare colonne tramite il &lt;xref:System.Windows.Forms.DataGridView.Columns%2A&gt;raccolta del controllo.&lt;/xref:System.Windows.Forms.DataGridView.Columns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike a &lt;xref:System.Windows.Forms.DataGridViewRow&gt;, which contains the actual collection of cells in a &lt;xref:System.Windows.Forms.DataGridView&gt;, DataGridViewColumn is used mainly to adjust the appearance and behavior of the column user interface (UI), such as column width and cell style.</source>
+          <target state="translated">A differenza di un &lt;xref:System.Windows.Forms.DataGridViewRow&gt;, che contiene l'insieme di celle in un &lt;xref:System.Windows.Forms.DataGridView&gt;, DataGridViewColumn viene usato principalmente per regolare l'aspetto e il comportamento dell'interfaccia utente della colonna (UI), ad esempio stile di cella e di larghezza di colonna.&lt;/xref:System.Windows.Forms.DataGridView&gt; &lt;/xref:System.Windows.Forms.DataGridViewRow&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about cell styles, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sugli stili di cella, vedere <bpt id="p1">[</bpt>stili della cella nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Types that derive from DataGridViewColumn typically initialize the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; property to a new instance of a related type derived from the &lt;xref:System.Windows.Forms.DataGridViewCell&gt; class.</source>
+          <target state="translated">Tipi che derivano da DataGridViewColumn in genere inizializzano la &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;proprietà in una nuova istanza di un tipo correlato derivato dalla &lt;xref:System.Windows.Forms.DataGridViewCell&gt;classe.&lt;/xref:System.Windows.Forms.DataGridViewCell&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any column properties that relate to the appearance or behavior of individual cells are wrappers for the corresponding properties of the template cell.</source>
+          <target state="translated">Delle proprietà della colonna che riguardano l'aspetto o il comportamento delle singole celle sono wrapper per le proprietà della cella modello corrispondente.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing one of these properties on the column automatically changes the value on the cell template and on all cells in the column.</source>
+          <target state="translated">La modifica di una di queste proprietà nella colonna automaticamente cambia il valore nel modello di cella e su tutte le celle nella colonna.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To override the specified value for individual cells, set the cell values after you set the column value.</source>
+          <target state="translated">Per ignorare il valore specificato per le singole celle, impostare i valori delle celle dopo aver impostato il valore della colonna.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the default state.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe allo stato predefinito.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an existing <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as a template.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizzando un oggetto esistente <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> come modello.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor sets the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; property to the value of the <ph id="ph1">`cellTemplate`</ph> parameter.</source>
+          <target state="translated">Questo costruttore imposta la &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;il valore di proprietà di <ph id="ph1">`cellTemplate`</ph> parametro.&lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An existing <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use as a template.</source>
+          <target state="translated">Un oggetto esistente <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da utilizzare come modello.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets or sets the mode by which the column automatically adjusts its width.</source>
+          <target state="translated">Ottiene o imposta la modalità con cui la colonna regolazione automatica della larghezza.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The automatic sizing behavior of the column is determined by the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property, which is the same as the value of the AutoSizeMode property for all values except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, which indicates that the value is inherited from the &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; property instead.</source>
+          <target state="translated">Il comportamento di ridimensionamento automatico della colonna è determinato dal valore della &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;proprietà, che corrisponde al valore della proprietà AutoSizeMode per tutti i valori tranne &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, che indica che il valore viene ereditato dal &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt;proprietà invece.&lt;/xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode.</source>
+          <target state="translated">Quando il &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;valore della proprietà è &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, la colonna viene ridimensionata insieme alle altre colonne in tale modalità.&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt; property values.</source>
+          <target state="translated">Tutte le colonne in modalità riempimento nel controllo dividono lo spazio disponibile in base a proporzioni loro &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;i valori delle proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The width available for fill mode is determined by subtracting the widths of all other columns from the width of the client area of the control.</source>
+          <target state="translated">La larghezza disponibile per la modalità di riempimento è determinata sottraendo la larghezza di tutte le altre colonne dalla larghezza dell'area client del controllo.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this width is smaller than the combined &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; values of all fill-mode columns, the horizontal scroll bar is displayed, all fill-mode columns are shown with their minimum widths, and user column-resizing is disabled.</source>
+          <target state="translated">Se questa larghezza è minore della somma &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;valori di tutte le colonne in modalità di riempimento, viene visualizzata la barra di scorrimento orizzontale, tutte le colonne in modalità di riempimento vengono visualizzate con la larghezza minima e il ridimensionamento delle colonne da parte dell'utente è disabilitato.&lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla modalità di riempimento di colonna, vedere <bpt id="p1">[</bpt>modalità di riempimento delle colonne nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property is set to any other value except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column will manage its width so that its cell values are fully displayed without clipping.</source>
+          <target state="translated">Quando il &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;è impostata su qualsiasi valore diverso &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, la colonna gestirà la larghezza in modo che i relativi valori di cella vengono visualizzate completamente senza troncamenti.&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In content-based sizing modes, size adjustments occur whenever cell contents change or, if &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; is enabled, whenever row heights change.</source>
+          <target state="translated">Nelle modalità di ridimensionamento basato sul contenuto regolazioni si verificano ogni volta che cambia il contenuto della cella o, se &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;è abilitata, ogni volta che cambia l'altezza delle righe.&lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some content-based sizing modes let you limit the size adjustment to the currently displayed rows in order to increase performance.</source>
+          <target state="translated">Alcune modalità di ridimensionamento basato sul contenuto consente di limitare le regolazioni alle righe attualmente visualizzate allo scopo di migliorare le prestazioni.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only columns with a &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value of <ph id="ph1">`true`</ph> are resized, and changing the visibility of a column does not cause resizing to occur.</source>
+          <target state="translated">Solo le colonne con un &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;valore della proprietà <ph id="ph1">`true`</ph> vengono modificate le dimensioni e la modifica della visibilità di una colonna non venga eseguito il ridimensionamento.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, when columns are set to automatically resize, the user cannot adjust the column widths with the mouse.</source>
+          <target state="translated">Inoltre, quando le colonne sono impostate per il ridimensionamento automatico, l'utente non è possibile regolare la larghezza delle colonne con il mouse.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To adjust column widths programmatically, use the &lt;xref:System.Windows.Forms.DataGridView&gt; control's &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; or &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; methods or set the column &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property.</source>
+          <target state="translated">Per regolare la larghezza delle colonne a livello di codice, utilizzare il &lt;xref:System.Windows.Forms.DataGridView&gt;del controllo &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt;o &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt;metodi o impostare la colonna &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about content-based automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sul ridimensionamento automatico basato sul contenuto, vedere <bpt id="p1">[</bpt>opzioni di ridimensionamento nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines whether the column will automatically adjust its width and how it will determine its preferred width.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valore che determina se la colonna regolerà automaticamente la larghezza e la modalità determina la larghezza preferita.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is a <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is not valid.</source>
+          <target state="translated">Il valore specificato durante l'impostazione di questa proprietà è un <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che non è valido.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property results in an &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode<bpt id="p1">*</bpt>&gt; value of <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for a visible column when column headers are hidden.       -or-       The specified value when setting this property results in an &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode<ept id="p1">*</ept>&gt; value of <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for a visible column that is frozen.</source>
+          <target state="translated">Il valore specificato durante l'impostazione di questa proprietà comporta un &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; valore <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per una colonna visibile quando le intestazioni di colonna sono nascoste.       - oppure - il valore specificato durante l'impostazione di questa proprietà comporta un &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; valore <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> per una colonna visibile bloccata.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the template used to create new cells.</source>
+          <target state="translated">Ottiene o imposta il modello utilizzato per creare nuove celle.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructors for the &lt;xref:System.Windows.Forms.DataGridViewColumn&gt; class initialize this property.</source>
+          <target state="translated">I costruttori per la &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;classe inizializzare questa proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor sets the property to <ph id="ph1">`null`</ph>; the other constructor copies the cell template from its parameter.</source>
+          <target state="translated">Il costruttore predefinito imposta la proprietà su <ph id="ph1">`null`</ph>; l'altro costruttore copia modello di cella dal relativo parametro.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Changing the properties of the cell template will not immediately affect the user interface (UI) of the column's existing cells.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; La modifica le proprietà del modello di cella non immediatamente avrà l'interfaccia utente (UI) delle celle della colonna esistente.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These changes are only apparent after the column is regenerated (for example, by sorting the column or through a call to the &lt;xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt; method).</source>
+          <target state="translated">Queste modifiche saranno visibili solo dopo la rigenerazione della colonna (ad esempio, dell'ordinamento della colonna o tramite una chiamata al &lt;xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt;(metodo)).&lt;/xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that all other cells in the column are modeled after.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> al quale sono modellate tutte le altre celle nella colonna.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the run-time type of the cell template.</source>
+          <target state="translated">Ottiene il tipo di runtime del modello di cella.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base type of the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; is &lt;xref:System.Windows.Forms.DataGridViewCell&gt;.</source>
+          <target state="translated">Il tipo di base &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;è &lt;xref:System.Windows.Forms.DataGridViewCell&gt;.&lt;/xref:System.Windows.Forms.DataGridViewCell&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to determine the actual derived type.</source>
+          <target state="translated">Utilizzare questa proprietà per determinare il tipo derivato effettivo.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used as a template for this column.</source>
+          <target state="translated">Il &lt;xref:System.Type&gt;del <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utilizzato come modello per questa colonna.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates an exact copy of this band.</source>
+          <target state="translated">Crea una copia esatta della banda.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the cloned <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Un &lt;xref:System.Object&gt;che rappresenta il duplicato <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the shortcut menu for the column.</source>
+          <target state="translated">Ottiene o imposta il menu di scelta rapida per la colonna.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The shortcut menu appears when a user clicks the right mouse button in the column's display area.</source>
+          <target state="translated">Quando un utente sceglie il pulsante destro del mouse nell'area di visualizzazione della colonna, viene visualizzato il menu di scelta rapida.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ContextMenuStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the current <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Windows.Forms.ContextMenuStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato all'oggetto corrente <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the data source property or database column to which the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is bound.</source>
+          <target state="translated">Ottiene o imposta il nome della colonna di proprietà o un database di origine di dati a cui il <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> è associato.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property is set to <ph id="ph1">`true`</ph>, each column automatically sets its DataPropertyName property to the name of a property or database column in the data source specified by the &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A&gt; property.</source>
+          <target state="translated">Quando il &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;è impostata su <ph id="ph1">`true`</ph>, ogni colonna imposta automaticamente la proprietà DataPropertyName per il nome di una colonna di proprietà o un database nell'origine dati specificato per il &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridView.DataSource%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This binding can also be performed manually, which is useful when you want to display only a subset of the properties or database columns available in the data source.</source>
+          <target state="translated">Questa associazione può essere eseguita anche manualmente, è utile quando si desidera visualizzare solo un subset delle proprietà o delle colonne di database disponibili nell'origine dati.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, set the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property to <ph id="ph1">`false`</ph>, and then manually add each &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;, setting the value of each DataPropertyName property to the properties or database columns in the data source that you want to display.</source>
+          <target state="translated">In questi casi, impostare il &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;proprietà <ph id="ph1">`false`</ph>, quindi aggiungere manualmente ogni &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;, impostazione del valore di ogni proprietà DataPropertyName alle proprietà o del database di colonne nell'origine dati che si desidera visualizzare.&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The case-insensitive name of the property or database column associated with the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il nome della colonna associata a proprietà o un database tra maiuscole e minuscole di <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets the column's default cell style.</source>
+          <target state="translated">Ottiene o imposta lo stile di cella predefinito della colonna.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.DataGridView&gt; control displays its cells using the styles indicated by the cell &lt;xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt; property, which inherits styles from other properties of type &lt;xref:System.Windows.Forms.DataGridViewCellStyle&gt;.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Forms.DataGridView&gt;controllo consente di visualizzare le relative celle, utilizzando gli stili indicati dalla &lt;xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt;proprietà, che eredita da altre proprietà di tipo &lt;xref:System.Windows.Forms.DataGridViewCellStyle&gt;.&lt;/xref:System.Windows.Forms.DataGridViewCellStyle&gt; gli stili di&lt;/xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt; cella&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For cells in this column, the styles specified through the DefaultCellStyle property override the styles specified through the &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; property, but are overridden by the styles specified through the &lt;xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt;, and &lt;xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt; properties.</source>
+          <target state="translated">Per le celle della colonna, gli stili specificati mediante la proprietà DefaultCellStyle sostituiscono gli stili specificati mediante il &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;proprietà, ma vengono sostituiti dagli stili specificati mediante il &lt;xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt;, e &lt;xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>stili della cella nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default style of the cells in the column.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta lo stile predefinito delle celle nella colonna.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets or sets the display order of the column relative to the currently displayed columns.</source>
+          <target state="translated">Ottiene o imposta l'ordine di visualizzazione della colonna relativa alle colonne attualmente visualizzate.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt; property, the DisplayIndex property corresponds to the current position of the column as displayed by the user interface (UI).</source>
+          <target state="translated">A differenza di &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;proprietà, la proprietà DisplayIndex corrisponde alla posizione corrente della colonna visualizzato dall'interfaccia utente (UI).&lt;/xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, each column's DisplayIndex is set to numbers of increasing order, which reflects the order in which they were added.</source>
+          <target state="translated">Per impostazione predefinita, DisplayIndex di ciascuna colonna sono impostate su numeri di ordine crescente, che corrisponde all'ordine in cui sono stati aggiunti.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value does not affect the DisplayIndex value.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;valore della proprietà non influisce sul valore DisplayIndex.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the display position of a column based on its visibility or other state, use the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;, &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt;, or &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt; method of the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt; class.</source>
+          <target state="translated">Per determinare la posizione di visualizzazione di una colonna in base alla visibilità o altro stato, utilizzare il &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;, &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt;, o il &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt;metodo di &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt;classe.&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every column in the control has a unique DisplayIndex value.</source>
+          <target state="translated">Valore DisplayIndex univoco per ogni colonna nel controllo.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values start with 0 and proceed in numerical order without skipping any values.</source>
+          <target state="translated">I valori iniziano con 0 e procedono in ordine numerico senza ignorare tutti i valori.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you change the DisplayIndex value for a column, the DisplayIndex values for other columns are changed to reflect the new order.</source>
+          <target state="translated">Quando si modifica il valore DisplayIndex di una colonna, i valori DisplayIndex per le altre colonne vengono modificati per riflettere il nuovo ordine.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column has an associated &lt;xref:System.Windows.Forms.DataGridView&gt; control, setting this property will cause the control to redraw itself.</source>
+          <target state="translated">Se la colonna è associato un &lt;xref:System.Windows.Forms.DataGridView&gt;controllo, l'impostazione di questa proprietà in modo che il controllo ridisegni.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The zero-based position of the column as it is displayed in the associated <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or -1 if the band is not contained within a control.</source>
+          <target state="translated">La posizione in base zero della colonna come viene visualizzata associato <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, oppure -1 se la banda non è contenuta all'interno di un controllo.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the specified value when setting this property is less than 0 or greater than or equal to the number of columns in the control.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>XRef:System.Windows.Forms.DataGridViewElement.DataGridView%2a?displayProperty=FullName<ph id="ph2">&amp;gt;</ph> non <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e il valore specificato durante l'impostazione di questa proprietà è minore di 0 o maggiore di o uguale al numero di colonne nel controllo.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the specified value when setting this property is less than -1.</source>
+          <target state="translated">- oppure - <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> è <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e il valore specificato durante l'impostazione di questa proprietà è minore di -1.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-or-       The specified value when setting this property is equal to <ph id="ph1">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Il valore specificato durante l'impostazione di questa proprietà è uguale a - oppure - <ph id="ph1">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Rilascia le risorse non gestite usate dal <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e facoltativamente rilascia le risorse gestite.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per rilasciare le risorse gestite e non gestite. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per rilasciare solo le risorse non gestite.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is disposed.</source>
+          <target state="translated">Si verifica quando il <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> è stato eliminato.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla gestione degli eventi, vedere <bpt id="p1">[</bpt>NIB: utilizzo degli eventi<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets the width, in pixels, of the column divider.</source>
+          <target state="translated">Ottiene o imposta la larghezza, in pixel, del divisore di colonna.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is useful to provide a visual boundary between frozen columns and columns that can scroll.</source>
+          <target state="translated">Questa proprietà è utile per fornire i limiti visivi tra le colonne bloccate e le colonne che supportano lo scorrimento.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extra edge is part of the current column, although it will take on the foreground color of the associated &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">Il bordo aggiuntivo fa parte della colonna corrente, sebbene verrà utilizzato il colore di sfondo dell'elemento associato &lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extra edge does not extend the area in which users can double-click to automatically resize a column.</source>
+          <target state="translated">Il bordo aggiuntivo non estende l'area in cui gli utenti possono fare doppio clic per ridimensionare automaticamente una colonna.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To resize a column, the user must double-click on the boundary between the divider and the adjacent column.</source>
+          <target state="translated">Per ridimensionare una colonna, l'utente deve fare doppio clic sul limite tra il divisore e nella colonna adiacente.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The thickness, in pixels, of the divider (the column's right margin).</source>
+          <target state="translated">Lo spessore, in pixel, del divisore (margine destro della colonna).</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that represents the width of the column when it is in fill mode relative to the widths of other fill-mode columns in the control.</source>
+          <target state="translated">Ottiene o imposta un valore che rappresenta la larghezza della colonna quando è in modalità di riempimento relativamente alle larghezze di altre colonne in modalità riempimento nel controllo.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode so that all visible columns in the control exactly fill the horizontal width of the available display area.</source>
+          <target state="translated">Quando il &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;valore della proprietà è &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, la colonna viene ridimensionata insieme alle altre colonne in tale modalità, in modo che tutte le colonne visibili nel controllo occupino esattamente la larghezza orizzontale dell'area di visualizzazione disponibili.&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their FillWeight property values.</source>
+          <target state="translated">Tutte le colonne in modalità riempimento nel controllo dividono lo spazio disponibile in base alle proporzioni determinate dai valori di proprietà FillWeight.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla modalità di riempimento di colonna, vedere <bpt id="p1">[</bpt>modalità di riempimento delle colonne nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum sum of FillWeight values for all columns in a &lt;xref:System.Windows.Forms.DataGridView&gt; control is 65535.</source>
+          <target state="translated">La somma dei valori FillWeight per tutte le colonne di massima un &lt;xref:System.Windows.Forms.DataGridView&gt;controllo è 65535.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Single&gt; representing the width of the column when it is in fill mode relative to the widths of other fill-mode columns.</source>
+          <target state="translated">Oggetto &lt;xref:System.Single&gt;che rappresenta la larghezza della colonna quando è in modalità di riempimento relativamente alle larghezze di altre colonne in modalità di riempimento.&lt;/xref:System.Single&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default is 100.</source>
+          <target state="translated">Il valore predefinito è 100.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is less than or equal to 0.</source>
+          <target state="translated">Il valore specificato durante l'impostazione di questa proprietà è minore o uguale a 0.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether a column will move when a user scrolls the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control horizontally.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se una colonna si sposterà quando un utente scorre il <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controllo in senso orizzontale.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a column is frozen, all the columns to its left (or to its right in right-to-left languages) are frozen as well.</source>
+          <target state="translated">Quando una colonna è bloccata, vengono bloccate anche tutte le colonne alla sua sinistra (o alla sua destra in lingue da destra a sinistra).</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The frozen and unfrozen columns form two groups.</source>
+          <target state="translated">Le colonne fisse e formano due gruppi.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If column repositioning is enabled by setting the &lt;xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt; property to <ph id="ph1">`true`</ph>, the user cannot drag a column from one group to the other.</source>
+          <target state="translated">Se il riposizionamento della colonna viene abilitata impostando il &lt;xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt;proprietà <ph id="ph1">`true`</ph>, l'utente non è possibile trascinare una colonna da un gruppo a altro.&lt;/xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to freeze the column; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per bloccare la colonna. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Calculates the ideal width of the column based on the specified criteria.</source>
+          <target state="translated">Calcola la larghezza ideale della colonna in base ai criteri specificati.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used by the content-based automatic sizing feature of the &lt;xref:System.Windows.Forms.DataGridView&gt; control to determine the ideal width of a column.</source>
+          <target state="translated">Questa proprietà viene utilizzata dalla funzionalità di ridimensionamento automatico basato sul contenuto di &lt;xref:System.Windows.Forms.DataGridView&gt;controllo per determinare la larghezza ideale di una colonna.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A <ph id="ph1">`fixedHeight`</ph> parameter value of <ph id="ph2">`false`</ph> calculates the column width based on calculated row heights that will achieve ideal cell height-to-width ratios.</source>
+          <target state="translated">Oggetto <ph id="ph1">`fixedHeight`</ph> valore del parametro di <ph id="ph2">`false`</ph> calcola la larghezza della colonna in base alle altezze delle righe calcolate in modo da ottenere rapporti ideali per altezza e larghezza delle celle.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For cell contents to wrap onto multiple lines, the cell style in effect for the cell must have a &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; property value of &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;.</source>
+          <target state="translated">Affinché il contenuto eseguire il wrapping su più righe, lo stile di cella per la cella deve avere un &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;valore della proprietà di &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;.&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt; &lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sul ridimensionamento automatico, vedere <bpt id="p1">[</bpt>opzioni di ridimensionamento nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies an automatic sizing mode.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valore che specifica una modalità di ridimensionamento automatico.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to calculate the width of the column based on the current row heights; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to calculate the width with the expectation that the row heights will be adjusted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per calcolare la larghezza della colonna in base alle altezze correnti delle righe; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per calcolare la larghezza nella previsione che verrà regolata l'altezza delle righe.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The ideal width, in pixels, of the column.</source>
+          <target state="translated">La larghezza ideale, in pixel, della colonna.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph>non è un valido <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valore.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the column header.</source>
+          <target state="translated">Ottiene o imposta il <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'intestazione di colonna.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The header of a column is typically used to display a column label.</source>
+          <target state="translated">L'intestazione di una colonna è in genere utilizzata per visualizzare un'etichetta di colonna.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the current values of the &lt;xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt; and &lt;xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt; properties, users can also click the column header to sort or select the column.</source>
+          <target state="translated">A seconda dei valori di corrente di &lt;xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt;e &lt;xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt;proprietà, gli utenti inoltre possono fare clic sull'intestazione di colonna per ordinare o selezionare la colonna.&lt;/xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the header cell for the column.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta la cella di intestazione per la colonna.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the caption text on the column's header cell.</source>
+          <target state="translated">Ottiene o imposta il testo della didascalia sulla cella di intestazione della colonna.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is useful only when the column has an associated header cell.</source>
+          <target state="translated">Questa proprietà è utile solo quando la colonna dispone di una cella di intestazione associata.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt; property.</source>
+          <target state="translated">Per ulteriori informazioni, vedere il &lt;xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  There is no corresponding header text property for rows.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nessuna proprietà di testo di intestazione corrispondente per le righe.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To display labels in row headers, you must handle the &lt;xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt; event and paint your own labels when &lt;xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt; is -1.</source>
+          <target state="translated">Per visualizzare le etichette nelle intestazioni di riga, è necessario gestire il &lt;xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt;evento e disegno etichette personalizzate quando &lt;xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt;è -1.&lt;/xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; with the desired text.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;con il testo desiderato.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("").</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the sizing mode in effect for the column.</source>
+          <target state="translated">Ottiene la modalità di dimensionamento attiva per la colonna.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The automatic sizing behavior of the column is determined by the value of the InheritedAutoSizeMode property, which is the same as the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt; property for all values except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, which indicates that the value is inherited from the &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; property instead.</source>
+          <target state="translated">Il comportamento di ridimensionamento automatico della colonna è determinato dal valore della proprietà InheritedAutoSizeMode, che corrisponde al valore del &lt;xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt;proprietà per tutti i valori tranne &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, che indica che il valore viene ereditato dal &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt;proprietà invece.&lt;/xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the InheritedAutoSizeMode property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode so that all visible columns in the control exactly fill the horizontal width of the available display area.</source>
+          <target state="translated">Quando il valore della proprietà InheritedAutoSizeMode è &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, la colonna viene ridimensionata insieme alle altre colonne in tale modalità, in modo che tutte le colonne visibili nel controllo occupino esattamente la larghezza orizzontale dell'area di visualizzazione disponibili.&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt; property values.</source>
+          <target state="translated">Tutte le colonne in modalità riempimento nel controllo dividono lo spazio disponibile in base a proporzioni loro &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;i valori delle proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla modalità di riempimento di colonna, vedere <bpt id="p1">[</bpt>modalità di riempimento delle colonne nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the InheritedAutoSizeMode property is set to any other value except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column will manage its width so that its cell values are fully displayed without clipping.</source>
+          <target state="translated">Quando la proprietà di InheritedAutoSizeMode è impostata su qualsiasi valore diverso &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, la colonna gestirà la larghezza in modo che i relativi valori di cella vengono visualizzate completamente senza troncamenti.&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In content-based sizing modes, size adjustments occur whenever cell contents change or, if &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; is enabled, whenever row heights change.</source>
+          <target state="translated">Nelle modalità di ridimensionamento basato sul contenuto regolazioni si verificano ogni volta che cambia il contenuto della cella o, se &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;è abilitata, ogni volta che cambia l'altezza delle righe.&lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some content-based sizing modes let you limit the size adjustment to the currently displayed rows in order to increase performance.</source>
+          <target state="translated">Alcune modalità di ridimensionamento basato sul contenuto consente di limitare le regolazioni alle righe attualmente visualizzate allo scopo di migliorare le prestazioni.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only columns with a &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value of <ph id="ph1">`true`</ph> are resized, and changing the visibility of a column does not cause resizing to occur.</source>
+          <target state="translated">Solo le colonne con un &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;valore della proprietà <ph id="ph1">`true`</ph> vengono modificate le dimensioni e la modifica della visibilità di una colonna non venga eseguito il ridimensionamento.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, when columns are set to automatically resize, the user cannot adjust the column widths with the mouse.</source>
+          <target state="translated">Inoltre, quando le colonne sono impostate per il ridimensionamento automatico, l'utente non è possibile regolare la larghezza delle colonne con il mouse.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To adjust column widths programmatically, use the &lt;xref:System.Windows.Forms.DataGridView&gt; control's &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; or &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; methods or set the column &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property.</source>
+          <target state="translated">Per regolare la larghezza delle colonne a livello di codice, utilizzare il &lt;xref:System.Windows.Forms.DataGridView&gt;del controllo &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt;o &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt;metodi o impostare la colonna &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about content-based automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sul ridimensionamento automatico basato sul contenuto, vedere <bpt id="p1">[</bpt>opzioni di ridimensionamento nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value in effect for the column.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valore attiva per la colonna.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the cell style currently applied to the column.</source>
+          <target state="translated">Ottiene lo stile di cella attualmente applicato alla colonna.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is useful to determine which cell styles are applied to all cells in a column regardless of any row styles that are also applied to the cells.</source>
+          <target state="translated">Questa proprietà è utile per determinare quali stili di cella vengono applicate a tutte le celle in una colonna indipendentemente dalle eventuali stili di riga vengono applicate anche alle celle.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The column InheritedStyle property inherits its values from the &lt;xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt; and the &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">La colonna InheritedStyle proprietà eredita i valori dal &lt;xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt;e &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about cell style inheritance, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sull'ereditarietà, vedere <bpt id="p1">[</bpt>stili della cella nel controllo DataGridView Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the cell style used to display the column.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta lo stile di cella consente di visualizzare la colonna.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the column is bound to a data source.</source>
+          <target state="translated">Ottiene un valore che indica se la colonna è associata a un'origine dati.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A column becomes bound to a data source if it is part of a data-bound &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">Una colonna viene associata a un'origine dati se fa parte di un'associazione a dati &lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A column can become part of a data-bound &lt;xref:System.Windows.Forms.DataGridView&gt; if the column is automatically created when the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property is set to <ph id="ph1">`true`</ph>, or if the column's &lt;xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt; property is set when the column is manually added to the &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">Una colonna può diventare una parte di un'associazione a dati &lt;xref:System.Windows.Forms.DataGridView&gt;Se la colonna viene creata automaticamente quando il &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;è impostata su <ph id="ph1">`true`</ph>, o se &lt;xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt;viene impostata quando la colonna viene aggiunto manualmente a &lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt; la colonna&lt;/xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the column is connected to a data source; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se la colonna è connesso a un'origine dati. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum width, in pixels, of the column.</source>
+          <target state="translated">Ottiene o imposta la larghezza minima, in pixel, della colonna.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MinimumWidth property sets a limit on how narrow the column can be resized in the user interface (UI).</source>
+          <target state="translated">MinimumWidth, proprietà imposta un limite per la modalità "narrow" la colonna può essere ridimensionata nell'interfaccia utente (UI).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property can override the MinimumWidth property.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;possibile MinimumWidth, proprietà di override di proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The number of pixels, from 2 to &lt;xref:System.Int32&gt;, that specifies the minimum width of the column.</source>
+          <target state="translated">Il numero di pixel, da 2 a &lt;xref:System.Int32&gt;, che specifica la larghezza minima della colonna.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is 5.</source>
+          <target state="translated">Il valore predefinito è 5.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value is less than 2 or greater than <ph id="ph1">&amp;lt;</ph>xref:System.Int32?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Il valore è minore di 2 o maggiore di <ph id="ph1">&amp;lt;</ph>xref:System.Int32?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the column.</source>
+          <target state="translated">Ottiene o imposta il nome della colonna.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property represents a formal name associated with the column that can be used to identify the column in a collection.</source>
+          <target state="translated">Questa proprietà rappresenta un nome formale associato alla colonna che può essere usata per identificare la colonna in una raccolta.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt; and &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt; methods of the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt; class use the Name property.</source>
+          <target state="translated">Ad esempio, il &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt;e &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt;metodi del &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt;classe usare la proprietà Name.&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name is case-insensitive.</source>
+          <target state="translated">Il nome è tra maiuscole e minuscole.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.DataGridView&gt; will treat <ph id="ph1">`column1`</ph> and <ph id="ph2">`COLUMN1`</ph> as the same column.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Forms.DataGridView&gt;considererà <ph id="ph1">`column1`</ph> e <ph id="ph2">`COLUMN1`</ph> come la stessa colonna.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the name of the column.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;che contiene il nome della colonna.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Il valore predefinito è una stringa vuota ("").</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the user can edit the column's cells.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se l'utente può modificare le celle della colonna.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReadOnly property affects the &lt;xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt; property of each cell in the column.</source>
+          <target state="translated">La proprietà ReadOnly influisce sul &lt;xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt;proprietà di ogni cella nella colonna.&lt;/xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user cannot edit the column's cells; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'utente non è possibile modificare le celle della colonna; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This property is set to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for a column that is bound to a read-only data source.</source>
+          <target state="translated">Questa proprietà è impostata su <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per una colonna in cui è associata a un'origine dati di sola lettura.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the column is resizable.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se la colonna è ridimensionabile.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Resizable property is &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, the user will not be able to manually adjust the column width.</source>
+          <target state="translated">Se la proprietà ridimensionabile &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, l'utente non sarà in grado di modificare manualmente la larghezza della colonna.&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the Resizable property value is based on the &lt;xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt; property value.</source>
+          <target state="translated">Per impostazione predefinita, il valore della proprietà ridimensionabile dipende il &lt;xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt;valore della proprietà.&lt;/xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you explicitly set Resizable to &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; or &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, however, the control value is ignored.</source>
+          <target state="translated">Se si imposta in modo esplicito Consenti ridimensionamento su &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;o &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, tuttavia, il valore di controllo viene ignorato.&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set Resizable to &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; to restore the value-inheritance behavior.</source>
+          <target state="translated">Impostare Consenti ridimensionamento &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;per ripristinare il comportamento di ereditarietà di valore.&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; restores the value inheritance, the Resizable property will never return a &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; value unless the column has not been added to a &lt;xref:System.Windows.Forms.DataGridView&gt; control.</source>
+          <target state="translated">Poiché &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;Ripristina l'ereditarietà del valore, la proprietà ridimensionabile non restituisce mai un &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;valore a meno che la colonna non è stato aggiunto un &lt;xref:System.Windows.Forms.DataGridView&gt;controllo.&lt;/xref:System.Windows.Forms.DataGridView&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to determine whether the Resizable property value of a column is inherited, check its &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt; property.</source>
+          <target state="translated">Se è necessario determinare se il valore della proprietà ridimensionabile di una colonna viene ereditato, controllare il relativo &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt; property value includes the &lt;xref:System.Windows.Forms.DataGridViewElementStates&gt; flag, the Resizable property value is not inherited.</source>
+          <target state="translated">Se il &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;valore della proprietà include il &lt;xref:System.Windows.Forms.DataGridViewElementStates&gt;flag, il valore della proprietà ridimensionabili non viene ereditato.&lt;/xref:System.Windows.Forms.DataGridViewElementStates&gt; &lt;/xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Uno del <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valori.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the site of the column.</source>
+          <target state="translated">Ottiene o imposta il sito della colonna.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the column, if any.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato alla colonna, se presente.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets the sort mode for the column.</source>
+          <target state="translated">Ottiene o imposta la modalità di ordinamento per la colonna.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Forms.DataGridView&gt; control is sorted using a column with a SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, a sorting glyph is automatically displayed in the column header.</source>
+          <target state="translated">Quando un &lt;xref:System.Windows.Forms.DataGridView&gt;controllo viene ordinato utilizzando una colonna con un valore della proprietà SortMode &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, un'icona di ordinamento viene automaticamente visualizzata nell'intestazione di colonna.&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting in the <ph id="ph1">[!INCLUDE[net_2015](~/add/includes/net-2015-md.md)]</ph>, the sorting glyph is resized according to the system DPI settings when the app.config file contains the following entry:      <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;   ```</ph>       When the control is sorted using a column with a SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, you must display the sorting glyph yourself through the &lt;xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt; property.</source>
+          <target state="translated">A partire dal <ph id="ph1">[!INCLUDE[net_2015](~/add/includes/net-2015-md.md)]</ph>, l'icona di ordinamento viene ridimensionato in base alle impostazioni di sistema DPI quando il file app. config contiene la voce seguente: <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;   ```</ph> quando il controllo viene ordinato utilizzando una colonna con un valore della proprietà SortMode &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, è necessario visualizzare l'icona di ordinamento tramite la &lt;xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt;proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default sort mode of a &lt;xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt; is &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.</source>
+          <target state="translated">La modalità di ordinamento predefinita di &lt;xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt;è &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default sort mode for other column types is &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.</source>
+          <target state="translated">La modalità di ordinamento predefinita per gli altri tipi di colonna è &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SortMode value does not prevent you from sorting a column programmatically, although other restrictions may apply.</source>
+          <target state="translated">Il valore SortMode non impedisce di ordinare una colonna a livello di codice, anche se alcune restrizioni.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Windows.Forms.DataGridView.Sort%2A&gt; method.</source>
+          <target state="translated">Per ulteriori informazioni, vedere il &lt;xref:System.Windows.Forms.DataGridView.Sort%2A&gt;metodo.&lt;/xref:System.Windows.Forms.DataGridView.Sort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt; will not prevent the &lt;xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt; event from occurring, but it will prevent the header from changing its appearance when it is clicked.</source>
+          <target state="translated">Il valore della proprietà SortMode &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;non impedirà il &lt;xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt;evento da in corso, ma si impedirà l'intestazione di modifica dell'aspetto quando viene selezionato.&lt;/xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnSortMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the criteria used to order the rows based on the cell values in a column.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnSortMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che specifica i criteri utilizzati per ordinare le righe in base ai valori delle celle in una colonna.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value assigned to the property conflicts with &lt;xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;.</source>
+          <target state="translated">Il valore assegnato per la proprietà in conflitto con &lt;xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;.&lt;/xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text used for ToolTips.</source>
+          <target state="translated">Ottiene o imposta il testo utilizzato per le descrizioni comandi.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The column's ToolTip displays when the mouse pointer rests on the column header.</source>
+          <target state="translated">Descrizione della colonna viene visualizzato quando l'utente sposta il puntatore del mouse sull'intestazione di colonna.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The text to display as a ToolTip for the column.</source>
+          <target state="translated">Il testo da visualizzare come descrizione comando per la colonna.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets a string that describes the column.</source>
+          <target state="translated">Ottiene una stringa che descrive la colonna.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Questo metodo esegue l'override di &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;metodo.&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned string contains the &lt;xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt; and &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt; properties of the &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;.</source>
+          <target state="translated">La stringa restituita conterrà &lt;xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt;e &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;le proprietà di &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;.&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt; &lt;/xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that describes the column.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;che descrive la colonna.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets or sets the data type of the values in the column's cells.</source>
+          <target state="translated">Ottiene o imposta il tipo di dati dei valori nelle celle della colonna.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used when filtering or sorting the columns with respect to the contents of their cells.</source>
+          <target state="translated">Questa proprietà viene utilizzata quando il filtro o ordinamento delle colonne rispetto al contenuto delle relative celle.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that describes the run-time class of the values stored in the column's cells.</source>
+          <target state="translated">Oggetto &lt;xref:System.Type&gt;che descrive la classe in fase di esecuzione dei valori archiviati nelle celle della colonna.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the column is visible.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se la colonna è visibile.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to hide a column from view while keeping the column in the &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">Utilizzare questa proprietà per nascondere una colonna mantenendola nella &lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To completely remove a column, use the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Per rimuovere completamente una colonna, utilizzare il &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt;metodo.&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To hide a column that is automatically generated when binding to a data source, set this property in a &lt;xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt; event handler.</source>
+          <target state="translated">Per nascondere una colonna che viene generata automaticamente quando l'associazione a un'origine dati, impostare questa proprietà un &lt;xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt;gestore dell'evento.&lt;/xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the column is visible; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se la colonna è visibile; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current width of the column.</source>
+          <target state="translated">Ottiene o imposta la larghezza corrente della colonna.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified value when setting this property is less than the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; property, the &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; property value is used instead.</source>
+          <target state="translated">Se il valore specificato durante l'impostazione di questa proprietà è minore del valore del &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;proprietà, il &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;viene utilizzato il valore di proprietà.&lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The width, in pixels, of the column.</source>
+          <target state="translated">La larghezza, in pixel, della colonna.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The default is 100.</source>
+          <target state="translated">Il valore predefinito è 100.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is greater than 65536.</source>
+          <target state="translated">Il valore specificato durante l'impostazione di questa proprietà è maggiore di 65536.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

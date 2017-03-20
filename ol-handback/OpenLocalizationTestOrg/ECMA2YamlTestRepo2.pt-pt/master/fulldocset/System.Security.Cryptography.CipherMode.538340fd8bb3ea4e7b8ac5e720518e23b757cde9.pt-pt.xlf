@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e9f1ef102dc82b8f8c8af0e12729df0ff0cac26</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.CipherMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0f088b363a0095e2156b9f6809b8097fffdb5e2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c071a9147e3bbe4359678c7560ee9356b488b55d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the block cipher mode to use for encryption.</source>
+          <target state="translated">Especifica o modo de cifra blocos a utilizar para encriptação.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Block cipher algorithms encrypt data in block units, rather than a single byte at a time.</source>
+          <target state="translated">Algoritmos de cifras bloco encriptam dados em unidades de blocos, em vez de um único byte cada vez.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common block size is 8 bytes.</source>
+          <target state="translated">O tamanho do bloco mais comuns é de 8 bytes.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each block is heavily processed, block ciphers provide a higher level of security than stream ciphers.</source>
+          <target state="translated">Uma vez que cada bloco descontos elevados é processado, o bloco de cifras fornecem um nível superior de segurança de cifras de fluxo.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, block cipher algorithms tend to execute more slowly than stream ciphers.</source>
+          <target state="translated">No entanto, algoritmos de cifra do bloco tendem a execução mais lentamente cifras de fluxo.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Block ciphers use the same encryption algorithm for each block.</source>
+          <target state="translated">Bloco de cifras utilizam o mesmo algoritmo de encriptação para cada bloco.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of this, a block of plain text will always return the same cipher text when encrypted with the same key and algorithm.</source>
+          <target state="translated">Por este motivo, um bloco de texto simples devolverá sempre o mesmo texto de cifra quando encriptada com a mesma chave e o algoritmo.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this behavior can be used to crack a cipher, cipher modes are introduced that modify the encryption process based on feedback from earlier block encryptions.</source>
+          <target state="translated">Porque este comportamento pode ser utilizado para violar uma cifra, foram introduzidos modos de cifras que modificam o processo de encriptação com base nos comentários de encriptações de bloco anteriores.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting encryption provides a higher level of security than a simple block encryption.</source>
+          <target state="translated">A encriptação resultante fornece um nível superior de segurança de uma encriptação de bloco simples.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Cipher Block Chaining (<bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode introduces feedback.</source>
+          <target state="translated">Encadeamento de bloco de cifras (<bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) modo apresenta comentários.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before each plain text block is encrypted, it is combined with the cipher text of the previous block by a bitwise exclusive OR operation.</source>
+          <target state="translated">Antes de cada bloco de texto simples é encriptado, é combinado com o texto de cifra do bloco do anterior por uma operação de OR bit a bit exclusiva.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This ensures that even if the plain text contains many identical blocks, they will each encrypt to a different cipher text block.</source>
+          <target state="translated">Isto garante que, mesmo se o texto simples contém vários blocos idênticos, estes serão cada encriptar para um bloco de texto de cifra diferentes.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The initialization vector is combined with the first plain text block by a bitwise exclusive OR operation before the block is encrypted.</source>
+          <target state="translated">O vetor de inicialização é combinado com o bloco de texto simples primeiro por uma operação de exclusiva ou bit a bit antes do bloco é encriptado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a single bit of the cipher text block is mangled, the corresponding plain text block will also be mangled.</source>
+          <target state="translated">Se um único bits o bloco de texto de cifra é mangled, o bloco de texto simples correspondente também será mangled.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition, a bit in the subsequent block, in the same position as the original mangled bit, will be mangled.</source>
+          <target state="translated">Além disso, um pouco no bloco de subsequente, na mesma posição como o bit mangled original, irão ser mangled.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Cipher Feedback (<bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode processes small increments of plain text into cipher text, instead of processing an entire block at a time.</source>
+          <target state="translated">Os comentários de cifras (<bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) modo processa pequenos incrementos de texto simples no texto de cifra, em vez de processamento de um bloco completo cada vez.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This mode uses a shift register that is one block in length and is divided into sections.</source>
+          <target state="translated">Este modo utiliza um registo de shift que é um bloco de comprimento e está dividido em secções.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, if the block size is 8 bytes, with one byte processed at a time, the shift register is divided into eight sections.</source>
+          <target state="translated">Por exemplo, se o tamanho do bloco 8 bytes, com um byte processados cada vez, o registo de shift está dividido em oito secções.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a bit in the cipher text is mangled, one plain text bit is mangled and the shift register is corrupted.</source>
+          <target state="translated">Se um pouco de cifra é mangled texto, é mangled um bit de texto simples e o registo de shift está danificado.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This results in the next several plain text increments being mangled until the bad bit is shifted out of the shift register.</source>
+          <target state="translated">Isto resulta no seguintes texto simples incrementos de vários que está a ser mangled até o bit incorreto é desviado fora do registo shift.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default feedback size can vary by algorithm, but is typically either 8 bits or the number of bits of the block size.</source>
+          <target state="translated">O tamanho de comentários predefinido pode variar pelo algoritmo, mas é, geralmente, 8 bits ou o número de bits de tamanho do bloco.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can alter the number of feedback bits by using the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt; property.</source>
+          <target state="translated">Pode alterar o número de bits de comentários usando o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Algorithms that support CFB use this property to set the feedback.</source>
+          <target state="translated">Algoritmos que suportam CFB utilizam esta propriedade para definir os comentários.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Cipher Text Stealing (<bpt id="p1">&lt;xref uid="langword_csharp_CTS" name="CTS" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode handles any length of plain text and produces cipher text whose length matches the plain text length.</source>
+          <target state="translated">O roubo de texto de cifra (<bpt id="p1">&lt;xref uid="langword_csharp_CTS" name="CTS" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) modo processa qualquer período de texto simples e produz cifras texto cujo comprimento corresponde o comprimento de texto simples.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This mode behaves like the <bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> mode for all but the last two blocks of the plain text.</source>
+          <target state="translated">Este modo tem o mesmo comportamento de <bpt id="p1">&lt;xref uid="langword_csharp_CBC" name="CBC" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> modo para todos os, mas os dois últimos blocos do texto simples.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Electronic Codebook (<bpt id="p1">&lt;xref uid="langword_csharp_ECB" name="ECB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode encrypts each block individually.</source>
+          <target state="translated">O Codebook eletrónicas (<bpt id="p1">&lt;xref uid="langword_csharp_ECB" name="ECB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) modo encripta cada bloco individualmente.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Any blocks of plain text that are identical and in the same message, or that are in a different message encrypted with the same key, will be transformed into identical cipher text blocks.</source>
+          <target state="translated">Os blocos de texto simples que são idênticos e na mesma mensagem ou que estejam numa mensagem diferentes encriptada com a mesma chave, serão transformados blocos de texto de cifra idênticos.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Important<ept id="p1">**</ept>:  This mode is not recommended because it opens the door for multiple security exploits.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Importante<ept id="p1">**</ept>: Este modo não é recomendado porque abre-se a porta para vários exploits de segurança.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the plain text to be encrypted contains substantial repetition, it is feasible for the cipher text to be broken one block at a time.</source>
+          <target state="translated">Se o texto simples para ser encriptada contém substancial repetição, é exequível para o texto de cifra a dividir um bloco de cada vez.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It is also possible to use block analysis to determine the encryption key.</source>
+          <target state="translated">Também é possível utilizar a análise do bloco para determinar a chave de encriptação.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, an active adversary can substitute and exchange individual blocks without detection, which allows blocks to be saved and inserted into the stream at other points without detection.</source>
+          <target state="translated">Além disso, um adversário Active Directory pode substituir e do exchange blocos individuais sem deteção, o que permite que os blocos de ser guardado e inserido o fluxo de outros pontos sem deteção.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Output Feedback (<bpt id="p1">&lt;xref uid="langword_csharp_OFB" name="OFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) mode processes small increments of plain text into cipher text instead of processing an entire block at a time.</source>
+          <target state="translated">Os comentários de saída (<bpt id="p1">&lt;xref uid="langword_csharp_OFB" name="OFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) modo processa pequenos incrementos de texto simples no texto de cifra em vez de processamento de um bloco completo cada vez.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This mode is similar to <bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; the only difference between the two modes is the way that the shift register is filled.</source>
+          <target state="translated">Este modo é semelhante à <bpt id="p1">&lt;xref uid="langword_csharp_CFB" name="CFB" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; o apenas diferença entre os dois modos é a forma de registar o shift é preenchido.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If a bit in the cipher text is mangled, the corresponding bit of plain text will be mangled.</source>
+          <target state="translated">Se um pouco de cifra é mangled texto, irá ser mangled o bit correspondente de texto simples.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>However, if there are extra or missing bits from the cipher text, the plain text will be mangled from that point on.</source>
+          <target state="translated">No entanto, se existirem bits adicionais ou em falta do texto de cifra, o texto simples irá ser mangled partir desse ponto no.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
