@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6139996398d194d4187afa956b1e62141e623a21</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Design.IPropertyValueUIService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50274f2ec7d994efbacd185e281b4404dc564279</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea018cbab03c0f47816695fbd3384c9f46a9bb3e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface to manage the images, ToolTips, and event handlers for the properties of a component displayed in a property browser.</source>
+          <target state="translated">提供一个接口，可管理映像、 工具提示和事件处理程序组件属性浏览器中显示的属性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A component can use the IPropertyValueUIService interface to provide &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; objects for any properties of the component.</source>
+          <target state="translated">组件可以使用 IPropertyValueUIService 接口提供&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;组件的任何属性的对象。&lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; associated with a property can provide an image, a ToolTip and an event handler for the event that is raised when the image associated with the property is clicked.</source>
+          <target state="translated">A&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;与关联属性可以单击与属性关联的图像时引发的事件中提供的映像，工具提示和事件处理程序。&lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The IPropertyValueUIService interface provides methods to add, remove, and retrieve &lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt; delegates to or from an internal list.</source>
+          <target state="translated">IPropertyValueUIService 接口提供方法来添加、 删除和检索&lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt;委托到或从内部列表。&lt;/xref:System.Drawing.Design.PropertyValueUIHandler&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the properties of a component are displayed in a property browser, each &lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt; in the list is given an opportunity to provide a &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; for each property of the component.</source>
+          <target state="translated">组件的属性都显示在属性浏览器中，每个&lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt;列表中时，有机会提供&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;组件的每个属性。&lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt; &lt;/xref:System.Drawing.Design.PropertyValueUIHandler&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a property browser is set to display the properties of an object, it calls the &lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt; method of this interface for each property of the component, passing a &lt;xref:System.ComponentModel.PropertyDescriptor&gt; that represents the property.</source>
+          <target state="translated">当属性浏览器设置来显示对象的属性时，它将调用&lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;此接口的组件，并传递每个属性的方法&lt;xref:System.ComponentModel.PropertyDescriptor&gt;表示的属性。&lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt; method calls each &lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt; that has been added to the service.</source>
+          <target state="translated">&lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;方法调用每个&lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt;已添加到服务。&lt;/xref:System.Drawing.Design.PropertyValueUIHandler&gt; &lt;/xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt; can add a &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; to the &lt;xref:System.Collections.ArrayList&gt; parameter passed in the <ph id="ph1">`valueUIItemList`</ph> parameter to supply UI items for the property represented by the &lt;xref:System.ComponentModel.PropertyDescriptor&gt; passed in the <ph id="ph2">`propDesc`</ph> parameter.</source>
+          <target state="translated">每个&lt;xref:System.Drawing.Design.PropertyValueUIHandler&gt;可以添加&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;到&lt;xref:System.Collections.ArrayList&gt;参数传递中<ph id="ph1">`valueUIItemList`</ph>参数来提供 UI 项表示的属性以便&lt;xref:System.ComponentModel.PropertyDescriptor&gt;传入<ph id="ph2">`propDesc`</ph>参数。&lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.Collections.ArrayList&gt; &lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt; &lt;/xref:System.Drawing.Design.PropertyValueUIHandler&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; can contain an image to display next to the property name, a ToolTip string, and an event handler to invoke when an image associated with the property is double-clicked.</source>
+          <target state="translated">A&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;可以包含属性名称、 工具提示字符串和事件处理程序与属性关联的映像在双击时要调用旁边显示的图像。&lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to this service.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到此服务。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When &lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt; is called, each handler added to this service is called and given the opportunity to add an icon for the property.</source>
+          <target state="translated">当&lt;xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;是调用，每个添加到此服务的处理程序调用该方法并有机会在添加属性图标。&lt;/xref:System.Drawing.Design.IPropertyValueUIService.GetPropertyUIValueItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The property value UI handler to add.</source>
+          <target state="translated">属性值 UI 要添加处理程序。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that match the specified context and property descriptor characteristics.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>匹配的指定的上下文和属性描述符特征的对象。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to gain additional context information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以用于获取附加上下文信息。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the property to match with the properties to return.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，该值指示要与要返回的属性匹配的属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that match the specified parameters.</source>
+          <target state="translated">数组<bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与指定的参数匹配的对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Drawing.Design.IPropertyValueUIService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation that the global list of <bpt id="p2">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects has been modified.</source>
+          <target state="translated">通知<bpt id="p1">&lt;xref href="System.Drawing.Design.IPropertyValueUIService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实现的全局列表<bpt id="p2">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>修改对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Occurs when the list of <bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects is modified.</source>
+          <target state="translated">发生时的列表<bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>修改对象。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Components that serve &lt;xref:System.Drawing.Design.PropertyValueUIItem&gt; objects can call &lt;xref:System.Drawing.Design.IPropertyValueUIService.NotifyPropertyValueUIItemsChanged%2A&gt; when they change their list of items.</source>
+          <target state="translated">提供的组件&lt;xref:System.Drawing.Design.PropertyValueUIItem&gt;对象可以调用&lt;xref:System.Drawing.Design.IPropertyValueUIService.NotifyPropertyValueUIItemsChanged%2A&gt;更改其项的列表时。&lt;/xref:System.Drawing.Design.IPropertyValueUIService.NotifyPropertyValueUIItemsChanged%2A&gt; &lt;/xref:System.Drawing.Design.PropertyValueUIItem&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Removes the specified <bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the property value UI service.</source>
+          <target state="translated">中移除指定<bpt id="p1">&lt;xref href="System.Drawing.Design.PropertyValueUIHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从 UI 服务的属性值。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The handler to remove.</source>
+          <target state="translated">要删除的处理程序。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

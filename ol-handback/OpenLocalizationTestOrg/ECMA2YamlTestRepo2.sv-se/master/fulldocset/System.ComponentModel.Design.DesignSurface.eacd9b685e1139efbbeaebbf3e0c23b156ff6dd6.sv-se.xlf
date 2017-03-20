@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5fbb3ffd37f521873bd174d0e6c43f5ea6cb164</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignSurface.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8d00b1c023e442015bbbbdefe3c4fee33228805</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cda2d5d2cef10a257c5c490d133a4155eb6d3bfb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Presents a user interface for designing components.</source>
+          <target state="translated">Visar ett användargränssnitt för att utforma komponenter.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignSurface class implements what the user perceives as a designer.</source>
+          <target state="translated">DesignSurface-klassen implementerar användaren inser som en designer.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DesignSurface is the user interface the user manipulates to change design-time features.</source>
+          <target state="translated">DesignSurface är användargränssnittet användaren manipulerar om du vill ändra funktionerna i designläge.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DesignSurface provides a completely self-contained design surface.</source>
+          <target state="translated">DesignSurface ger en helt fristående designytan.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignSurface class may be used as a stand-alone designer, or it may be coupled with the &lt;xref:System.ComponentModel.Design.DesignSurfaceManager&gt; class to provide a common implementation for an application that hosts multiple DesignSurface objects.</source>
+          <target state="translated">Klassen DesignSurface kan användas som en fristående designer eller det kan vara tillsammans med den &lt;xref:System.ComponentModel.Design.DesignSurfaceManager&gt;klassen för att tillhandahålla en gemensam implementering för ett program som är värd för flera DesignSurface objekt.&lt;/xref:System.ComponentModel.Design.DesignSurfaceManager&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignSurface class can be used by itself, or the user can derive a new class from it and augment the behavior.</source>
+          <target state="translated">Klassen DesignSurface kan användas fristående eller användaren kan en ny klass härledd från den och utöka beteendet.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignSurface class provides several design-time services automatically.</source>
+          <target state="translated">DesignSurface-klassen innehåller flera designläge tjänster automatiskt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignSurface class adds all of its services in its constructor.</source>
+          <target state="translated">Klassen DesignSurface lägger till alla tjänster i sin konstruktor.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of these services can be overridden by replacing them in the protected &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; property.</source>
+          <target state="translated">De flesta av dessa tjänster kan åsidosättas genom att ersätta dem i den skyddade &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;egenskap.&lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To replace a service, override the constructor, call base, and make any changes through the protected &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; property.</source>
+          <target state="translated">Om du vill ersätta en tjänst åsidosätta konstruktorn anropa grundläggande och göra ändringar via den skyddade &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;egenskap.&lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All services that are added to the service container and that implement &lt;xref:System.IDisposable&gt; are disposed when the design surface is disposed.</source>
+          <target state="translated">Alla tjänster som har lagts till i tjänstbehållaren och som implementerar &lt;xref:System.IDisposable&gt;kasseras när designytan har tagits bort.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default set of replaceable services that the DesignSurface class provides is shown in the following table.</source>
+          <target state="translated">En standarduppsättning av utbytbara tjänster som DesignSurface-klassen innehåller visas i följande tabell.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IExtenderProviderService&gt;|Enables objects that are not part of the container’s components collection to provide their own extender providers.|   |&lt;xref:System.ComponentModel.Design.IExtenderListService&gt;|Used by &lt;xref:System.ComponentModel.TypeDescriptor&gt; to get a list of extender providers.</source>
+          <target state="translated">| Tjänsten | Beskrivning |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.IExtenderProviderService&gt;| Gör att objekt som inte är en del av behållarens komponenter samling för att tillhandahålla sina egna utökare providers. |   | &lt;xref:System.ComponentModel.Design.IExtenderListService&gt;| Används av &lt;xref:System.ComponentModel.TypeDescriptor&gt;att hämta en lista över leverantörer utökare.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.Design.IExtenderListService&gt; &lt;/xref:System.ComponentModel.Design.IExtenderProviderService&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With this service, extender providers can live outside of the container.|   |&lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;|Provides designer metadata hooks.</source>
+          <target state="translated">Med den här tjänsten utökare leverantörer kan live utanför behållaren. |   | &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;| Ger designer metadata hook.&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the primary interface for metadata filtering.|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Provides a way to select components in the designer.|   |&lt;xref:System.ComponentModel.Design.IReferenceService&gt;|Provides a way to get a name for objects, even when those objects are not sited.|   |DesignSurface|Offers the design surface itself as a service.|   |&lt;xref:System.ComponentModel.Design.DesignerOptionService&gt;|Provides a base class for getting and setting option values for a designer.|       The following table shows the non-replaceable services provided by default.</source>
+          <target state="translated">Detta är det primära gränssnittet för filtrering av metadata. |   | &lt;xref:System.ComponentModel.Design.ISelectionService&gt;| Ett sätt att välja komponenter i designern. |   | &lt;xref:System.ComponentModel.Design.IReferenceService&gt;| Ett sätt att hämta ett namn för objekt, även om de här objekten inte är placerad. |   | DesignSurface | Erbjuder designytan sig själv som en tjänst. |   | &lt;xref:System.ComponentModel.Design.DesignerOptionService&gt;| Innehåller en basklass för hämtning och ange värden för alternativ för en designer. |       I följande tabell visas de icke-utbytbara tjänster som tillhandahålls som standard.&lt;/xref:System.ComponentModel.Design.DesignerOptionService&gt; &lt;/xref:System.ComponentModel.Design.IReferenceService&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Raises events as changes are made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Controls access to types, services, and transactions.</source>
+          <target state="translated">| Tjänsten | Beskrivning |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;| Genererar händelser när ändras till komponenter. |   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| Styr åtkomsten till typer, tjänster och transaktioner.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Master interface for designers.|   |&lt;xref:System.ComponentModel.IContainer&gt;|Owns the set of components that are being designed.</source>
+          <target state="translated">Master-gränssnitt för designers. |   | &lt;xref:System.ComponentModel.IContainer&gt;| Äger uppsättning komponenter som konstrueras.&lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each designer has an &lt;xref:System.ComponentModel.IContainer&gt; that owns the components.|   |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|Derives from &lt;xref:System.IServiceProvider&gt; and provides a way to add and remove services from the designer.|       In addition to these services, the DesignSurface class also provides a single service that is available through a component’s site.</source>
+          <target state="translated">Varje designer har en &lt;xref:System.ComponentModel.IContainer&gt;som äger komponenterna. |   | &lt;xref:System.ComponentModel.Design.IServiceContainer&gt;| Härleds från &lt;xref:System.IServiceProvider&gt;och ger ett sätt att lägga till och ta bort tjänster från designer. |       Förutom dessa tjänster DesignSurface-klassen innehåller också en enskild tjänst som är tillgänglig via en komponent plats.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.ComponentModel.Design.IServiceContainer&gt; &lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service is unique for each component.</source>
+          <target state="translated">Den här tjänsten är unikt för varje komponent.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the services that cannot be replaced.</source>
+          <target state="translated">I följande tabell visas de tjänster som inte kan ersättas.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IDictionaryService&gt;|A generic dictionary of key/value pairs that can be used to store arbitrary data about a component.|   |&lt;xref:System.ComponentModel.INestedContainer&gt;|A container that enables a component to add additional child components to the designer.</source>
+          <target state="translated">| Tjänsten | Beskrivning |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.IDictionaryService&gt;| En allmän dictionary med nyckel/värde-par som kan användas för att lagra godtyckliga data om en komponent. |   | &lt;xref:System.ComponentModel.INestedContainer&gt;| En behållare som gör att en komponent som du lägger till ytterligare underordnade komponenter Designer.&lt;/xref:System.ComponentModel.INestedContainer&gt; &lt;/xref:System.ComponentModel.Design.IDictionaryService&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These components will be part of the design surface, but will not participate in serialization.</source>
+          <target state="translated">De här komponenterna kommer att ingå i designytan, men kommer inte att ingå i serialisering.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful when you want to design a control that is capable of exposing a region of itself in a designer, but you do not want the region to participate in serialization.|       In addition to &lt;xref:System.ComponentModel.ISite&gt;, the site also implements the following interfaces.</source>
+          <target state="translated">Detta är användbart när du vill utforma en kontroll som kan exponera en region i sig själv i en designer, men du inte vill att regionen som ska delta i serialisering. |       Förutom &lt;xref:System.ComponentModel.ISite&gt;, platsen implementerar också följande gränssnitt.&lt;/xref:System.ComponentModel.ISite&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Check for the existence of these interfaces, rather than use indiscriminate casting, because other site implementations may not implement them.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Kontrollera förekomsten av dessa gränssnitt, i stället använda icke-selektiva omvandling, eftersom andra plats-implementeringar inte kan implementeras.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.IServiceContainer&gt;|Provides a way to get to the container of site-specific services.</source>
+          <target state="translated">| Tjänsten | Beskrivning |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.IServiceContainer&gt;| Ett sätt att komma åt en behållare för platsspecifika tjänster.&lt;/xref:System.ComponentModel.Design.IServiceContainer&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, &lt;xref:System.ComponentModel.Design.IDictionaryService&gt; is a site-specific service.</source>
+          <target state="translated">Till exempel &lt;xref:System.ComponentModel.Design.IDictionaryService&gt;är en tjänst som platsspecifika.&lt;/xref:System.ComponentModel.Design.IDictionaryService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With this service, you can add additional site-specific services.|</source>
+          <target state="translated">Med den här tjänsten kan du lägga till ytterligare platsspecifika tjänster. |</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`parentProvide`</ph> is present, designers contained within the surface can retrieve services from the application.</source>
+          <target state="translated">När <ph id="ph1">`parentProvide`</ph> finns designers som ingår i ytan kan hämta tjänster från programmet.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The parent service provider, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no parent used to resolve services.</source>
+          <target state="translated">Tjänstprovidern överordnade eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om det finns ingen överordnad som används för att matcha tjänster.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the DesignSurface constructor, it creates a simple designer loader that, in turn, creates a component of the given type and then ends the loading process.</source>
+          <target state="translated">När du använder DesignSurface konstruktorn skapar en enkel designerinläsare som i sin tur skapar en del av den angivna typen och slutar inläsningen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a straightforward way to create a designer, under the assumption that all saving of state will be done externally.</source>
+          <target state="translated">Detta är ett enkelt sätt att skapa en designer under förutsättningen som alla sparande av tillstånd kommer att göras externt.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, this calls &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; and passes the root component type.</source>
+          <target state="translated">Internt, detta anropar &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;och skickar komponenttypen som roten.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DesignSurface overload is not affected by &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I DesignSurface överlagring påverkas inte av &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;.&lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt; must be in the service container before the design surface loads.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;måste vara i tjänstbehållaren innan du läser in designytan.&lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need access to &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;, call the empty constructor, add the &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt; to the &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; and call &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; with <ph id="ph1">`rootComponentType`</ph>.</source>
+          <target state="translated">Om du behöver åtkomst till &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;, anropar den tomma konstruktorn, lägga till den &lt;xref:System.Windows.Forms.Design.DesignerOptions&gt;till den &lt;xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt;och anropa &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;med <ph id="ph1">`rootComponentType`</ph>.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.ServiceContainer%2A&gt; &lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt; &lt;/xref:System.Windows.Forms.Design.DesignerOptions&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The type of root component to create.</source>
+          <target state="translated">Typ av rotkomponent att skapa.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the DesignSurface constructor creates a simple designer loader that creates a component of the given type and then ends the loading process.</source>
+          <target state="translated">Med hjälp av konstruktorn DesignSurface skapar en enkel designerinläsare som skapar en del av den angivna typen och slutar inläsningen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a straightforward way to create a designer, under the assumption that all saving of state will be done externally.</source>
+          <target state="translated">Detta är ett enkelt sätt att skapa en designer under förutsättningen som alla sparande av tillstånd kommer att göras externt.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, this calls &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; and passes the root component type.</source>
+          <target state="translated">Internt, detta anropar &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;och skickar komponenttypen som roten.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The parent service provider, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no parent used to resolve services.</source>
+          <target state="translated">Tjänstprovidern överordnade eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om det finns ingen överordnad som används för att matcha tjänster.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The type of root component to create.</source>
+          <target state="translated">Typ av rotkomponent att skapa.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Begins the loading process with the given designer loader.</source>
+          <target state="translated">Börjar med angivna Designerinläsaren inläsningen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Designer loading can be asynchronous, so the loading may continue to progress after this call has returned.</source>
+          <target state="translated">Designer inläsningen kan vara asynkront, så inläsningen kan fortsätta att utvecklas när anropet har returnerats.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attach an event handler to the &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt; event to be notified when the design surface has completed loading.</source>
+          <target state="translated">Koppla en händelsehanterare för den &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;händelse som ska meddelas när designytan har lästs.&lt;/xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; is called, you can immediately obtain the view for the designer, because designer loaders must provide at least the root component when loading asynchronously.</source>
+          <target state="translated">Efter &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;är anropas omedelbart hittar du vyn för designer, eftersom designer inläsare måste ange minst rotkomponenten vid inläsning av asynkront.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The designer loader to use for loading the designer.</source>
+          <target state="translated">Designerinläsaren ska användas för att läsa in designern.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;loader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;loader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Begins the loading process.</source>
+          <target state="translated">Börjar inläsningen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`rootComponentType`</ph> is specified, a default designer loader that simply creates an instance of <ph id="ph2">`rootComponentType`</ph> will be used.</source>
+          <target state="translated">När <ph id="ph1">`rootComponentType`</ph> anges en standard designerinläsare som bara skapar en instans av <ph id="ph2">`rootComponentType`</ph> kommer att användas.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Designer loading can be asynchronous, so the loading may continue to progress after this call has returned.</source>
+          <target state="translated">Designer inläsningen kan vara asynkront, så inläsningen kan fortsätta att utvecklas när anropet har returnerats.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attach an event handler to the &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt; event to be notified when the design surface has completed loading.</source>
+          <target state="translated">Koppla en händelsehanterare för den &lt;xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;händelse som ska meddelas när designytan har lästs.&lt;/xref:System.ComponentModel.Design.IDesignerHost.LoadComplete&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After BeginLoad is called, you can immediately obtain the view for the designer, because designer loaders must provide at least the root component when loading asynchronously.</source>
+          <target state="translated">När BeginLoad anropas hittar omedelbart du vyn för designer, eftersom designer inläsare måste ange minst rotkomponenten vid inläsning av asynkront.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The BeginLoad method creates an instance of the component type and initializes a designer for this instance.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I BeginLoad metoden skapar en instans av komponenttypen och initierar en designer för den här instansen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignSurface.Loaded&gt; event is raised before this method returns.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.DesignSurface.Loaded&gt;händelse utlöses innan den här metoden returnerar.&lt;/xref:System.ComponentModel.Design.DesignSurface.Loaded&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The type of component to create in design mode.</source>
+          <target state="translated">Typ av komponent som du vill skapa i designläge.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rootComponentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rootComponentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation within the design surface.</source>
+          <target state="translated">Hämtar den <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> implementering inom designytan.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ComponentContainer property holds all objects that are currently in design mode.</source>
+          <target state="translated">Egenskapen ComponentContainer innehåller alla objekt som för närvarande i designläge.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When components are added to ComponentContainer, their designer, if any, is loaded.</source>
+          <target state="translated">När komponenter läggs till ComponentContainer har sina designer eventuella lästs in.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The component is sited with a site that provides full access to the design surface.</source>
+          <target state="translated">Komponenten är placerad med en webbplats som ger fullständig åtkomst till designytan.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation within the design surface.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> implementering inom designytan.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates an instance of a component.</source>
+          <target state="translated">Skapar en instans av en komponent.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateComponent method is called by the design surface’s &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt; method to create an instance of a component.</source>
+          <target state="translated">CreateComponent-metoden anropas av designytan &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt;metod för att skapa en instans av en komponent.&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateComponent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The component should be created and added to the public container on the design surface.</source>
+          <target state="translated">Komponenten som ska skapas och läggs till offentlig behållare i designvyn.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The type of component to create.</source>
+          <target state="translated">Typ av komponent som du vill skapa.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The newly created component.</source>
+          <target state="translated">Den nyligen skapade komponenten.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;componentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;componentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Creates a designer when a component is added to the container.</source>
+          <target state="translated">Skapar en designer när en komponent har lagts till i behållaren.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateDesigner method is called by the design surface’s &lt;xref:System.ComponentModel.IContainer&gt; when a component is added to the container.</source>
+          <target state="translated">CreateDesigner-metoden anropas av designytan &lt;xref:System.ComponentModel.IContainer&gt;när en komponent har lagts till i behållaren.&lt;/xref:System.ComponentModel.IContainer&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a designer, but does not initialize it.</source>
+          <target state="translated">Den här metoden skapar en designer, men initieras inte.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When it returns, the designer is initialized by the container.</source>
+          <target state="translated">När den returnerar har designern initierats från behållaren.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CreateDesigner can create two different types of designers: root designers and normal designers.</source>
+          <target state="translated">CreateDesigner kan skapa två typer av designers: rot designers och normal Designer.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A root designer is a designer for the root component in the design surface, which by definition is the first component added to the container.</source>
+          <target state="translated">En rotdesigner är en designer för rotkomponenten i designytan som per definition är den första komponenten läggas till i behållaren.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Root designers differ from normal designers because they are responsible for the user interface presented to the end user.</source>
+          <target state="translated">Rot-designers skiljer sig från normala designers eftersom de är ansvarig för användargränssnitt som visas för användaren.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Root designers typically coordinate with the rest of the designers on a design surface to provide this interface.</source>
+          <target state="translated">Rot-designers samordna vanligtvis med resten av designers på en designytan att ge det här gränssnittet.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method delegates to &lt;xref:System.ComponentModel.TypeDescriptor&gt;, passing in &lt;xref:System.ComponentModel.Design.IRootDesigner&gt; as the designer type for root designers, or &lt;xref:System.ComponentModel.Design.IDesigner&gt; for normal designers.</source>
+          <target state="translated">Standardimplementering av den här metoden delegerar till &lt;xref:System.ComponentModel.TypeDescriptor&gt;, och skickar &lt;xref:System.ComponentModel.Design.IRootDesigner&gt;som designer typ för rot-designers eller &lt;xref:System.ComponentModel.Design.IDesigner&gt;för normal designers.&lt;/xref:System.ComponentModel.Design.IDesigner&gt; &lt;/xref:System.ComponentModel.Design.IRootDesigner&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this method to request a specific type of designer.</source>
+          <target state="translated">Du kan åsidosätta den här metoden om du vill begära en viss typ av designer.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The component for which the designer should be created.</source>
+          <target state="translated">Den komponent som designern ska skapas.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a root designer; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create a normal designer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en rotdesigner; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att skapa en normal designer.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An instance of the requested designer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no matching designer could be found.</source>
+          <target state="translated">En instans av den begärda designern eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om ingen matchande designer kunde hittas.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the given type.</source>
+          <target state="translated">Skapar en instans av den angivna typen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`type`</ph> is an &lt;xref:System.ComponentModel.IComponent&gt;, CreateInstance searches for a constructor of type &lt;xref:System.ComponentModel.IContainer&gt; first, followed by an empty constructor.</source>
+          <target state="translated">Om <ph id="ph1">`type`</ph> är en &lt;xref:System.ComponentModel.IComponent&gt;, CreateInstance söker efter en konstruktor av typen &lt;xref:System.ComponentModel.IContainer&gt;först, följt av en tom konstruktor.&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The type to create.</source>
+          <target state="translated">Att skapa typ.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The newly created object.</source>
+          <target state="translated">Det nya objektet.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Creates a container suitable for nesting controls or components.</source>
+          <target state="translated">Skapar en behållare som passar för kapslade kontroller och komponenter.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding a component to a nested container creates its designer and makes it eligible for all services available from the design surface.</source>
+          <target state="translated">Lägga till en komponent i en kapslad behållare skapar dess designer och gör den tillämplig för alla tjänster tillgängliga från designytan.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Components added to nested containers do not participate in serialization.</source>
+          <target state="translated">Komponenterna som läggs till kapslade behållare ingår inte i serialisering.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The component that manages the nested container.</source>
+          <target state="translated">Den komponent som hanterar kapslade behållaren.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The nested container.</source>
+          <target state="translated">Kapslade behållare.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Creates a container suitable for nesting controls or components.</source>
+          <target state="translated">Skapar en behållare som passar för kapslade kontroller och komponenter.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding a component to a nested container creates its designer and makes it eligible for all services available from the design surface.</source>
+          <target state="translated">Lägga till en komponent i en kapslad behållare skapar dess designer och gör den tillämplig för alla tjänster tillgängliga från designytan.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Components added to nested containers do not participate in serialization.</source>
+          <target state="translated">Komponenterna som läggs till kapslade behållare ingår inte i serialisering.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can provide an additional name for the CreateNestedContainer method by passing a value into <ph id="ph1">`containerName`</ph>.</source>
+          <target state="translated">Du kan ange ytterligare ett namn för metoden CreateNestedContainer genom att skicka ett värde i <ph id="ph1">`containerName`</ph>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The component that manages the nested container.</source>
+          <target state="translated">Den komponent som hanterar kapslade behållaren.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An additional name for the nested container.</source>
+          <target state="translated">Ytterligare ett namn för den kapslade behållaren.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The nested container.</source>
+          <target state="translated">Kapslade behållare.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owningComponent&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Släpper de resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public Dispose method follows the standard &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">Metoden offentliga Dispose följer standarden &lt;xref:System.IDisposable&gt;mönstret.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method destroys the design surface.</source>
+          <target state="translated">Den här metoden anropas förstör designytan.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The protected version of this method is <ph id="ph1">`virtual`</ph> and follows the normal &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">Versionen av den här metoden är <ph id="ph1">`virtual`</ph> och följer normalt &lt;xref:System.IDisposable&gt;mönstret.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because &lt;xref:System.ComponentModel.Design.DesignSurface&gt; does not have any native code to clean up, it does not have a finalizer that calls &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Eftersom &lt;xref:System.ComponentModel.Design.DesignSurface&gt;inte har någon inbyggd kod för att rensa, den har inte en slutföraren som anropar &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to call &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;, you must add a finalizer yourself.</source>
+          <target state="translated">Om du behöver anropa &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;, måste du lägga till en slutföraren själv.&lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%28System.Boolean%29&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">Anropa Dispose när du är klar med hjälp av &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; in an unusable state.</source>
+          <target state="translated">Metoden Dispose lämnar den &lt;xref:System.ComponentModel.Design.DesignSurface&gt;oanvändbar.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; was occupying.</source>
+          <target state="translated">När du anropar Dispose, måste du släppa alla referenser till den &lt;xref:System.ComponentModel.Design.DesignSurface&gt;så skräpinsamlingen kan frigöra minne som den &lt;xref:System.ComponentModel.Design.DesignSurface&gt;var upptar.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Rensa ohanterade resurser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> och <bpt id="p2">[</bpt>implementera en metod för ta bort<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alltid anropet avyttra innan du släpper senaste referens till &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.DesignSurface&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">De resurser som den använder frigörs annars inte förrän skräpinsamlingen anrop av &lt;xref:System.ComponentModel.Design.DesignSurface&gt;objektets <ph id="ph1">`Finalize`</ph> metod.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Släpper de resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose&gt; method follows the standard &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">Offentligt &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose&gt;metoden följer standarden &lt;xref:System.IDisposable&gt;mönstret.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method destroys the design surface.</source>
+          <target state="translated">Den här metoden anropas förstör designytan.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The protected version of this method is <ph id="ph1">`virtual`</ph> and follows the normal &lt;xref:System.IDisposable&gt; pattern.</source>
+          <target state="translated">Versionen av den här metoden är <ph id="ph1">`virtual`</ph> och följer normalt &lt;xref:System.IDisposable&gt;mönstret.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because &lt;xref:System.ComponentModel.Design.DesignSurface&gt; does not have any native code to clean up, it does not have a finalizer that calls Dispose.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Eftersom &lt;xref:System.ComponentModel.Design.DesignSurface&gt;inte har någon inbyggd kod för att rensa, den har inte en slutföraren som anropar Dispose.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to call Dispose, you must add a finalizer yourself.</source>
+          <target state="translated">Om du behöver anropa Dispose du måste lägga till en slutföraren själv.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas av allmänheten <ph id="ph1">`Dispose()`</ph>metod och &lt;xref:System.Object.Finalize%2A&gt;metod.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>anropar den skyddade <ph id="ph2">`Dispose(Boolean)`</ph> metod med den <ph id="ph3">`disposing`</ph> parametern <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;anropar <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> inställd på <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignSurface&gt; references.</source>
+          <target state="translated">När den <ph id="ph1">`disposing`</ph> parametern är true, den här metoden Frigör alla resurser som innehas av alla hanterade objekt som den här &lt;xref:System.ComponentModel.Design.DesignSurface&gt;referenser.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Den här metoden startar den <ph id="ph1">`Dispose()`</ph> metod för varje refererade till objekt.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Occurs when the design surface is disposed.</source>
+          <target state="translated">Inträffar när designytan har tagits bort.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The surface is only disposed when the public &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt; method on &lt;xref:System.ComponentModel.Design.DesignSurface&gt; is called.</source>
+          <target state="translated">Ytan är endast Borttaget när allmänheten &lt;xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt;metoden på &lt;xref:System.ComponentModel.Design.DesignSurface&gt;kallas.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt; &lt;/xref:System.ComponentModel.Design.DesignSurface.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">**</bpt>Design-time Error List<ept id="p1">**</ept> is loading.</source>
+          <target state="translated">Hämtar ett värde som anger om den <bpt id="p1">**</bpt>designläge fellista<ept id="p1">**</ept> läses in.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">**</bpt>Design-time Error List<ept id="p2">**</ept> is loading; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den <bpt id="p2">**</bpt>designläge fellista<ept id="p2">**</ept> är inläsning, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Serializes changes to the design surface.</source>
+          <target state="translated">Serialiserar ändringar till designytan.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Flush method can be called to push changes made to the design surface down to the serializer.</source>
+          <target state="translated">Metoden Flush kan anropas för att vidarebefordra ändringar som gjorts i designytan till serialiseraren.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This ensures that the design surface and its serialized state are synchronized.</source>
+          <target state="translated">Detta säkerställer att designytan och dess serialiserade tillstånd är synkroniserade.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual implementation of this method is forwarded to the designer loader associated with design surface.</source>
+          <target state="translated">Den faktiska implementeringen av den här metoden vidarebefordras till Designerinläsaren som är kopplade till designytan.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The designer loader may choose to defer changes until Flush is called, or it may choose to keep the serialized data up to date with all user changes.</source>
+          <target state="translated">Designerinläsaren kan välja att skjuta upp ändringarna förrän Flush anropas eller den kan välja att behålla serialiserade data uppdaterade med alla ändringar av användare.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Flush method ensures that regardless of the model the designer loader chooses to use, the serialized state is synchronized with the actual design surface.</source>
+          <target state="translated">Metoden Flush säkerställer att tillståndet serialiserade oavsett modellen Designerinläsaren väljer att använda synkroniseras med den faktiska designytan.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when a call is made to the &lt;xref:System.ComponentModel.Design.DesignSurface.Flush*&gt; method of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inträffar när ett anrop görs för att den &lt;xref:System.ComponentModel.Design.DesignSurface.Flush*&gt;metod för <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.Design.DesignSurface.Flush*&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The designer loader is flushed first, and then the Flushed event is raised.</source>
+          <target state="translated">Designerinläsaren rensas först och sedan Flushed händelsen utlöses.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets a service from the service container.</source>
+          <target state="translated">Hämtar en tjänst från denna tjänstbehållare.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetService method retrieves a service in the design surface’s service container.</source>
+          <target state="translated">Metoden GetService hämtar en tjänst i den designytan tjänstbehållaren.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, this will forward to any service provider that was given to the design surface at construction time.</source>
+          <target state="translated">Dessutom vidarebefordras till någon leverantör som gavs till designytan konstruktionen för närvarande.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Typ av tjänst för att hämta.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>An object that implements, or is a derived class of, <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service does not exist in the service container.</source>
+          <target state="translated">Ett objekt som implementerar eller är en härledd klass, <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>, eller <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om tjänsten inte finns i tjänstbehållaren.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the design surface is currently loaded.</source>
+          <target state="translated">Hämtar ett värde som anger om designytan är inläst.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the design surface is currently loaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om designytan är för närvarande är inlästa; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Occurs when the designer load has completed.</source>
+          <target state="translated">Inträffar när designer belastningen har slutförts.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Loaded event is raised for successful loads as well as unsuccessful ones.</source>
+          <target state="translated">Läsa in händelsen utlöses för lyckade inläsningar samt de misslyckade.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If code in this event handler throws an exception, the designer is unloaded.</source>
+          <target state="translated">Om koden i den här händelsehanteraren genererar ett undantag, tas designern bort.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.LoadedEventArgs&gt; object can be used to determine if loading succeeded, and it can also provide a list of errors that occurred during the load.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.LoadedEventArgs&gt;objekt som kan användas för att avgöra om läser in lyckades och den kan också tillhandahålla en lista med fel som uppstod under inläsningen.&lt;/xref:System.ComponentModel.Design.LoadedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Errors can occur for successful loads as well, provided that the serialization system can tolerate errors.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Fel kan inträffa om lyckade inläsningar också, förutsatt att systemets serialisering kan tolerera fel.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Returns a collection of loading errors or a void collection.</source>
+          <target state="translated">Returnerar en mängd med inläsning av fel eller en void-samling.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.ICollection&gt; of loading errors.</source>
+          <target state="translated">En &lt;xref:System.Collections.ICollection&gt;för att läsa in fel.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Occurs when the designer is about to be loaded.</source>
+          <target state="translated">Inträffar när designern ska inte läsas in.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loaded"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.LoadedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.LoadedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller informationen om händelsen.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Loading"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloaded"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloaded"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloading"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.Unloading"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.ViewActivated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignSurface.ViewActivated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Gets the service container.</source>
+          <target state="translated">Hämtar tjänstbehållaren.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At construction time, &lt;xref:System.ComponentModel.Design.DesignSurface&gt; adds default services into this service container.</source>
+          <target state="translated">Konstruktionen samtidigt &lt;xref:System.ComponentModel.Design.DesignSurface&gt;lägger till standardtjänster i denna tjänstbehållare.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can leave the default services in their present state, or you can remove them and replace them with your own.</source>
+          <target state="translated">Du kan lämna standardtjänster i befintligt skick, eller du kan ta bort dem och ersätta dem med din egen.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default services are all demand-created, so there is no loss in performance for adding them at construction time.</source>
+          <target state="translated">Standardtjänster som är alla begäran skapas, så att det finns någon minskad prestanda för att lägga till dem konstruktionen för närvarande.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The service container that provides all services to designers contained within the design surface.</source>
+          <target state="translated">Denna tjänstbehållare som tillhandahåller alla tjänster till Designer i designytan.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Occurs when a designer has finished unloading.</source>
+          <target state="translated">Inträffar när en designer har avslutat togs bort.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Occurs when a designer is about to unload.</source>
+          <target state="translated">Inträffar när en designer är på väg att ta bort.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer unloads, the entire state for that designer is destroyed, including the designer’s view.</source>
+          <target state="translated">När en designer inaktiveras förstörs hela tillståndet för den designern, inklusive den designer vyn.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The view should be unparented at this time.</source>
+          <target state="translated">Vyn ska utan överordnat objekt just nu.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Gets the view for the root designer.</source>
+          <target state="translated">Hämtar vyn för rotdesigner.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; method must be called beforehand to start the loading process.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;metoden måste anropas förhand att starta inläsningen.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is possible to return a view before the designer loader finishes loading because the root designer, which supplies the view, is the first object created by the designer loader.</source>
+          <target state="translated">Det är möjligt att returnera en vy innan Designerinläsaren slutar inläsning eftersom rotdesigner som tillhandahåller vyn är det första objektet som skapats av Designerinläsaren.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a view is unavailable, &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt; raises an exception.</source>
+          <target state="translated">Om vyn är inte tillgänglig, &lt;xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;genererar ett undantag.&lt;/xref:System.ComponentModel.Design.DesignSurface.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The notion of a view technology is obsolete.</source>
+          <target state="translated">Om en vy-teknik är föråldrad.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But, it remains in the interfaces for root designers for backward compatibility.</source>
+          <target state="translated">Men det finns fortfarande i gränssnitten för rot-designers för bakåtkompatibilitet.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Its use is hidden from anyone using &lt;xref:System.ComponentModel.Design.DesignSurface&gt; objects.</source>
+          <target state="translated">Användningen är dold från alla som använder &lt;xref:System.ComponentModel.Design.DesignSurface&gt;objekt.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The View property hides view technologies by passing the supported technologies back into the root designer.</source>
+          <target state="translated">Egenskapen Visa döljer Visa teknik genom att skicka teknikerna som stöds i rotdesigner igen.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The view for the root designer.</source>
+          <target state="translated">Vy för rotdesigner.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The design surface is not loading, the designer loader has not yet created a root designer, or the design surface finished the load, but failed.</source>
+          <target state="translated">Designytan laddas inte, Designerinläsaren har ännu inte skapats en rotdesigner eller designytan klar load, men misslyckades.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>More information may available in the &lt;xref:System.Exception.InnerException*&gt;.</source>
+          <target state="translated">Mer information kan tillgänglig i &lt;xref:System.Exception.InnerException*&gt;.&lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The designer loaded, but it does not offer a view compatible with this design surface.</source>
+          <target state="translated">Designern har lästs in, men den tillhandahåller inte en vy som är kompatibel med den här designytan.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attached to the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been disposed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kopplade till den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignSurface"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> har tagits bort.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt; method has been called on <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inträffar när den &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt;metoden har anropats på <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.ComponentModel.Design.IDesignerHost.Activate*&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to support the &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt; method, your event handler should activate the window for this design surface.</source>
+          <target state="translated">Om du vill kunna använda den &lt;xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt;metoden din händelsehanteraren ska aktivera fönster för den här designytan.&lt;/xref:System.ComponentModel.Design.IDesignerHost.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

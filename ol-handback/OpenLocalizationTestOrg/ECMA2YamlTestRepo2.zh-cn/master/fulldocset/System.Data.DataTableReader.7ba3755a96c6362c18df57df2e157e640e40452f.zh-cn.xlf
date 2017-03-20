@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae7883ac016d898fb61f8ff024054878e9b16ff2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.DataTableReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb0ebba87fa259cdff77417a03c6361197925475</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78fcb4893c6e1f06b978de0a798527a82f480235</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DataTableReader obtains the contents of one or more <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the form of one or more read-only, forward-only result sets.</source>
+          <target state="translated">DataTableReader 获取一个或多个内容<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中一个或多个只读、 只进结果集的形式的对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DataTableReader works much like any other data reader, such as the &lt;xref:System.Data.SqlClient.SqlDataReader&gt;, except that the DataTableReader provides for iterating over rows in a &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">DataTableReader 的工作方式极其类似任何其他数据读取器，例如&lt;xref:System.Data.SqlClient.SqlDataReader&gt;，只不过 DataTableReader 提供用于循环访问一种&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;中的行&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In other words, it provides for iterating over rows in a cache.</source>
+          <target state="translated">换而言之，它提供了用于循环访问缓存中的行。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cached data can be modified while the DataTableReader is active, and the reader automatically maintains its position.</source>
+          <target state="translated">DataTableReader 处于活动状态，并读取器自动维护其位置时，可以修改缓存的数据。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you create a DataTableReader from a &lt;xref:System.Data.DataTable&gt;, the resulting DataTableReader object contains one result set with the same data as the &lt;xref:System.Data.DataTable&gt; from which it was created, except for any rows that have been marked as deleted.</source>
+          <target state="translated">当你创建从 DataTableReader &lt;xref:System.Data.DataTable&gt;，生成的 DataTableReader 对象包含一个结果集具有相同的数据&lt;xref:System.Data.DataTable&gt;从创建它，除已标记为删除任何行。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The columns appear in the same order as in the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">与在原始&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;相同的顺序显示的列</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The structure of the returned result is identical in schema and data to the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">返回的结构是结果的在架构和数据与原始&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;相同</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A DataTableReader that was created by calling the &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method of a &lt;xref:System.Data.DataSet&gt; object contains multiple result sets if the &lt;xref:System.Data.DataSet&gt;contains more than one table.</source>
+          <target state="translated">通过调用创建 DataTableReader&lt;xref:System.Data.DataSet.GetDataReader%2A&gt;方法&lt;xref:System.Data.DataSet&gt;对象包含多个结果集，如果&lt;xref:System.Data.DataSet&gt;包含多个表。&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet.GetDataReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The results are in the same sequence as the &lt;xref:System.Data.DataTable&gt;objects in the &lt;xref:System.Data.DataTableCollection&gt; of the &lt;xref:System.Data.DataSet&gt; object.</source>
+          <target state="translated">结果将为相同的序列&lt;xref:System.Data.DataTable&gt;中的对象&lt;xref:System.Data.DataTableCollection&gt;的&lt;xref:System.Data.DataSet&gt;对象。&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableCollection&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The returned result set contains only the current version of each &lt;xref:System.Data.DataRow&gt;; rows that are marked for deletion are skipped.</source>
+          <target state="translated">返回的结果集包含仅当前版本的每个&lt;xref:System.Data.DataRow&gt;; 将跳过标记为删除的行。&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`DataTableReader`</ph> provides a stable iterator; that is, the contents of the <ph id="ph2">`DataTableReader`</ph> are not invalidated if the size of the underlying collection is modified during iteration.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph>提供稳定迭代器; 即，内容<ph id="ph2">`DataTableReader`</ph>如果在迭代期间修改基础集合的大小将不会失效。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, if one or more rows in the &lt;xref:System.Data.DataTable.Rows%2A&gt; collection are deleted or removed during iteration, the current position within the <ph id="ph1">`DataTableReader`</ph> is maintained appropriately and it does not invalidate the iterator.</source>
+          <target state="translated">为示例中，如果一个或多个行中&lt;xref:System.Data.DataTable.Rows%2A&gt;集合被删除或在迭代中中的当前位置过程中删除<ph id="ph1">`DataTableReader`</ph>适当保持并不会使迭代器失效。&lt;/xref:System.Data.DataTable.Rows%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using data from the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用从提供的数据类<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> obtains its result set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>从中新<bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>获取其结果集。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied array of <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的提供的数组<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you must create a &lt;xref:System.Data.DataTableReader&gt; based on all or a subset of the tables within a specific &lt;xref:System.Data.Dataset&gt;, call the <ph id="ph1">`DataSet`</ph>'s &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method.</source>
+          <target state="translated">如果必须创建&lt;xref:System.Data.DataTableReader&gt;全部或在特定的表的子集基于&lt;xref:System.Data.Dataset&gt;，调用<ph id="ph1">`DataSet`</ph>的&lt;xref:System.Data.DataSet.GetDataReader%2A&gt;方法。&lt;/xref:System.Data.DataSet.GetDataReader%2A&gt; &lt;/xref:System.Data.Dataset&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you want to create a new &lt;xref:System.Data.DataTableReader&gt; instance based on a group of <ph id="ph1">`DataTable`</ph> instances that are not otherwise related, use this constructor.</source>
+          <target state="translated">如果你想要创建一个新&lt;xref:System.Data.DataTableReader&gt;实例根据一组<ph id="ph1">`DataTable`</ph>实例都不否则相关，使用此构造函数。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also take advantage of this constructor to rearrange the ordering of the <ph id="ph1">`DataTables`</ph> within the <ph id="ph2">`DataTableReader`</ph>, if their ordering within their source <ph id="ph3">`DataSet`</ph> does not meet your needs.</source>
+          <target state="translated">你还可以利用此构造函数以重新排列的顺序<ph id="ph1">`DataTables`</ph>内<ph id="ph2">`DataTableReader`</ph>，如果它们的顺序在其源<ph id="ph3">`DataSet`</ph>并不满足你的需求。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The array of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that supplies the results for the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">数组<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>提供的新的结果的对象<bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Closes the current <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关闭当前<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Calling <ph id="ph1">`Close()`</ph> on a closed <ph id="ph2">`DataTableReader`</ph> object does not raise an error.</source>
+          <target state="translated">调用<ph id="ph1">`Close()`</ph>上关闭<ph id="ph2">`DataTableReader`</ph>对象不会引发错误。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">当前行的嵌套深度<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`DataTableReader`</ph> does not support nesting.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph>不支持嵌套。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Depth`</ph> property always returns zero.</source>
+          <target state="translated"><ph id="ph1">`Depth`</ph>属性始终返回零。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row; always zero.</source>
+          <target state="translated">当前行; 嵌套深度始终为零。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the number of columns in the current row.</source>
+          <target state="translated">当前行中返回列的数。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When not positioned in a valid result set, 0; otherwise the number of columns in the current row.</source>
+          <target state="translated">如果未定位在有效的结果集，0;否则为的当前行中的列数。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve the field count in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试检索中关闭的字段计数<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Boolean&gt;.</source>
+          <target state="translated">一种&lt;xref:System.Boolean&gt;。&lt;/xref:System.Boolean&gt;的形式获取指定列的值</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must either already be a Boolean or coercible to a Boolean, or an exception is generated.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据已必须的布尔值或强制转换为一个布尔值，或生成异常。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的列不包含<bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">字节的形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte or coercible to a byte.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是一个字节或强制转换为一个字节。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte.</source>
+          <target state="translated">指定的列不包含一个字节。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes starting at the specified column offset into the buffer as an array starting at the specified buffer offset.</source>
+          <target state="translated">读取为一个以指定的缓冲区偏移量开始的数组中开始到缓冲区的指定的列偏移量的字节流。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`GetBytes`</ph> returns the number of available bytes in the field.</source>
+          <target state="translated"><ph id="ph1">`GetBytes`</ph>返回的字段中的可用字节数。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">大多数情况下这是字段的确切长度。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetBytes`</ph> has already been used to obtain bytes from the field.</source>
+          <target state="translated">但是，返回的版本号可能会小于该字段的真实长度如果<ph id="ph1">`GetBytes`</ph>具有用于从字段中获取字节。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This may be the case, for example, when the &lt;xref:System.Data.DataTableReader&gt; is reading a large data structure into a buffer       If you pass a buffer that is <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic), <ph id="ph3">`GetBytes`</ph> returns the length of the entire field in bytes, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">这可能是这种情况，例如，当&lt;xref:System.Data.DataTableReader&gt;如果传递的缓冲区，则读取到缓冲区中的大型数据结构<ph id="ph1">`null`</ph>(<ph id="ph2">`Nothing`</ph>在 Visual Basic 中)，<ph id="ph3">`GetBytes`</ph>返回整个字段的长度以字节为单位，不是基于缓冲区偏移量参数的剩余大小。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte array or coercible to a byte array.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是字节数组或强制转换为字节数组。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">中从其开始读取的操作的字段的索引。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of bytes.</source>
+          <target state="translated">要读取的字节流缓冲区。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">若要开始将数据放在缓冲区中的索引。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">要复制到缓冲区的最大长度。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">实际读取的字节数。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte array.</source>
+          <target state="translated">指定的列不包含的字节数组。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a character.</source>
+          <target state="translated">字符的形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a character or coercible to a character.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是一个字符或强制转换为一个字符。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">列的值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The specified field does not contain a character.</source>
+          <target state="translated">指定的字段不包含一个字符。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Returns the value of the specified column as a character array.</source>
+          <target state="translated">字符数组的形式返回指定列的值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`GetChars`</ph> returns the number of available characters in the field.</source>
+          <target state="translated"><ph id="ph1">`GetChars`</ph>返回的字段中的可用的字符数。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">大多数情况下这是字段的确切长度。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetChars`</ph> has already been used to obtain characters from the field.</source>
+          <target state="translated">但是，返回的版本号可能会小于该字段的真实长度如果<ph id="ph1">`GetChars`</ph>具有用于从字段中获取字符。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read can be less than the requested length, if the end of the field is reached.</source>
+          <target state="translated">实际读取的字符数可以小于请求的长度，如果字段的结尾为止。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you pass a buffer that is null (<ph id="ph1">`Nothing`</ph> in Visual Basic), <ph id="ph2">`GetChars`</ph> returns the length of the entire field in characters, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">如果传递的缓冲区，则为 null (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中)，<ph id="ph2">`GetChars`</ph>以字符为单位，不是基于缓冲区偏移量参数的剩余大小返回整个字段的长度。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data to be retrieved must already be a character array or coercible to a character array.</source>
+          <target state="translated">不进行任何转换;因此要检索的数据必须已经是字符数组或强制转换为字符数组。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">中从其开始读取的操作的字段的索引。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of chars.</source>
+          <target state="translated">若要读取的字符流到的缓冲区。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">若要开始将数据放在缓冲区中的索引。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">要复制到缓冲区的最大长度。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">实际读取的字符数。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a character array.</source>
+          <target state="translated">指定的列不包含的字符数组。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a string representing the data type of the specified column.</source>
+          <target state="translated">获取表示指定的列的数据类型的字符串。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The GetDataTypeName method always returns the type of the underlying &lt;xref:System.Data.DataColumn&gt; instead of a provider-specific type.</source>
+          <target state="translated">GetDataTypeName 方法始终返回的一种基础&lt;xref:System.Data.DataColumn&gt;而不是特定于提供程序类型。&lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A string representing the column's data type.</source>
+          <target state="translated">表示列的数据类型的字符串。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">获取指定列的值&lt;xref:System.DateTime&gt;对象。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.DateTime&gt; or coercible to a <ph id="ph1">`DataTime`</ph>.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是&lt;xref:System.DateTime&gt;或强制转换为<ph id="ph1">`DataTime`</ph>。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a DateTime value.</source>
+          <target state="translated">指定的列不包含日期时间值。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt;.</source>
+          <target state="translated">一种&lt;xref:System.Decimal&gt;。&lt;/xref:System.Decimal&gt;的形式获取指定列的值</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Decimal&gt; or coercible to a <ph id="ph1">`Decimal`</ph>.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是&lt;xref:System.Decimal&gt;或强制转换为<ph id="ph1">`Decimal`</ph>。&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">指定的列不包含<bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the value of the column as a double-precision floating point number.</source>
+          <target state="translated">双精度浮点数字的形式获取列的值。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a double-precision floating point number or must be coercible to a double-precision floating point number.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是双精度浮点数，或必须可以强制转换为双精度浮点数。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The zero-based ordinal of the column.</source>
+          <target state="translated">列的从零开始的序号。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a double-precision floating point number.</source>
+          <target state="translated">指定的列不包含双精度浮点数。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that can be used to iterate through the item collection.</source>
+          <target state="translated">返回可用于循环访问项集合的枚举。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Enumerators only allow for reading the data in the &lt;xref:System.Data.DataTableReader&gt;.</source>
+          <target state="translated">枚举器只允许读取&lt;xref:System.Data.DataTableReader&gt;.&lt;/xref:System.Data.DataTableReader&gt;中的数据</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Enumerators cannot be used to modify the underlying collection.</source>
+          <target state="translated">枚举器不能用于修改基础集合。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>At first, the enumerator is positioned before the first element in the collection.</source>
+          <target state="translated">首先，枚举数定位在集合中的第一个元素之前。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>At this position, calling &lt;xref:System.Collections.IEnumerator.Current%2A&gt; throws an exception.</source>
+          <target state="translated">在此位置，调用&lt;xref:System.Collections.IEnumerator.Current%2A&gt;引发异常。&lt;/xref:System.Collections.IEnumerator.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Therefore, you must call <ph id="ph1">`MoveNext`</ph> to advance the enumerator to the first element of the collection before reading the value of <ph id="ph2">`Current`</ph>.</source>
+          <target state="translated">因此，必须调用<ph id="ph1">`MoveNext`</ph>将枚举数前移到集合，然后再读取的值的第一个元素<ph id="ph2">`Current`</ph>。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Current`</ph> returns a &lt;xref:System.Data.Common.DbDataRecord&gt;, and returns the same object until either &lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt; or &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; is called.</source>
+          <target state="translated"><ph id="ph1">`Current`</ph>返回&lt;xref:System.Data.Common.DbDataRecord&gt;，直到返回相同的对象和&lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt;或&lt;xref:System.Collections.IEnumerator.Reset%2A&gt;称为。&lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; &lt;/xref:System.Collections.IEnumerator.MoveNext%2A&gt; &lt;/xref:System.Data.Common.DbDataRecord&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`MoveNext`</ph> sets <ph id="ph2">`Current`</ph> to the next element.</source>
+          <target state="translated"><ph id="ph1">`MoveNext`</ph>设置<ph id="ph2">`Current`</ph>到下一个元素。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>After the end of the collection is passed, the enumerator is positioned after the last element in the collection, and calling <ph id="ph1">`MoveNext`</ph> returns false.</source>
+          <target state="translated">该枚举数传递到集合的末尾之后，将放在集合中，最后一个元素后面且调用<ph id="ph1">`MoveNext`</ph>返回 false。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the last call to <ph id="ph1">`MoveNext`</ph> returned <ph id="ph2">`false`</ph>, calling <ph id="ph3">`Current`</ph> throws an exception.</source>
+          <target state="translated">如果最后一次调用到<ph id="ph1">`MoveNext`</ph>返回<ph id="ph2">`false`</ph>，则调用<ph id="ph3">`Current`</ph>引发异常。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>In addition, because the &lt;xref:System.Data.DataTableReader&gt; provides forward-only access to its data, calling the &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; method of the IEnumerator throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">此外，因为&lt;xref:System.Data.DataTableReader&gt;提供只进访问其数据，调用&lt;xref:System.Collections.IEnumerator.Reset%2A&gt;的 IEnumerator 的方法将引发一种&lt;xref:System.NotSupportedException&gt;。&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.DataTableReader&gt; provides a stable enumerator.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader&gt;提供稳定的枚举器。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This means that even if row deletions or additions occur within the underlying data, the enumerator returned by a call to GetEnumerator is still valid.</source>
+          <target state="translated">这意味着，即使行删除或添加在基础数据中发生，通过 GetEnumerator 调用返回的枚举器没有仍然有效。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that represents the item collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;表示项集合的对象。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">获取&lt;xref:System.Type&gt;对象的数据类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;对象的数据类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating point number.</source>
+          <target state="translated">单精度浮点数字的形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a single-precision floating point number or must be coercible to a single-precision floating point number.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是单精度浮点数，或必须可以强制转换为单精度浮点数。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">列的值。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a single-precision floating point number.</source>
+          <target state="translated">指定的列不包含单精度浮点数。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally-unique identifier (GUID).</source>
+          <target state="translated">以全局唯一标识符 (GUID) 的形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Guid&gt; or coercible to a <ph id="ph1">`Guid`</ph>.</source>
+          <target state="translated">不进行任何转换;因此检索到的数据必须已经是&lt;xref:System.Guid&gt;或强制转换为<ph id="ph1">`Guid`</ph>。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a GUID.</source>
+          <target state="translated">指定的列不包含一个 GUID。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">获取指定列的值作为 16 位有符号整数。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int16&gt; or coercible to an <ph id="ph1">`Int16`</ph>.</source>
+          <target state="translated">不进行任何转换;因此，检索的数据必须已经是&lt;xref:System.Int16&gt;或强制转换为<ph id="ph1">`Int16`</ph>。&lt;/xref:System.Int16&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 16-bit signed integer.</source>
+          <target state="translated">指定的列不包含一个 16 位带符号的整数。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">获取指定列的值作为 32 位有符号整数。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int32&gt; or coercible to an <ph id="ph1">`Int32`</ph>.</source>
+          <target state="translated">不进行任何转换;因此，检索的数据必须已经是&lt;xref:System.Int32&gt;或强制转换为<ph id="ph1">`Int32`</ph>。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 32-bit signed integer value.</source>
+          <target state="translated">指定的列不包含 32 位有符号的整数值。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">以 64 位有符号整数的形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int64&gt; or coercible to an <ph id="ph1">`Int64`</ph>.</source>
+          <target state="translated">不进行任何转换;因此，检索的数据必须已经是&lt;xref:System.Int64&gt;或强制转换为<ph id="ph1">`Int64`</ph>。&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 64-bit signed integer value.</source>
+          <target state="translated">指定的列不包含 64 位有符号的整数值。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.String&gt;.</source>
+          <target state="translated">一种&lt;xref:System.String&gt;。&lt;/xref:System.String&gt;的形式获取指定列的值</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`GetName`</ph> and &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; methods provide inverse functionality.</source>
+          <target state="translated"><ph id="ph1">`GetName`</ph>和&lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;方法提供反向功能。&lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>That is, calling <ph id="ph1">`GetOrdinal`</ph> on the return value of calling <ph id="ph2">`GetName`</ph> should return the original parameter passed to <ph id="ph3">`GetName`</ph>; the same applies to calling the procedures in the opposite order.</source>
+          <target state="translated">也就是说，调用<ph id="ph1">`GetOrdinal`</ph>上调用的返回值<ph id="ph2">`GetName`</ph>应返回原始的参数传递给<ph id="ph3">`GetName`</ph>; 这同样适用于以相反顺序调用过程。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">指定列的名称。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal, given the name of the column.</source>
+          <target state="translated">获取的列序号，给定的列的名称。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Because most of the methods provided by the &lt;xref:System.Data.DataTableReader&gt; class must be provided with an ordinal column number, you can use the <ph id="ph1">`GetOrdinal`</ph> method to retrieve the column number, given the name of the column.</source>
+          <target state="translated">因为由提供的大多数方法&lt;xref:System.Data.DataTableReader&gt;类必须提供与某一序号列号，你可以使用<ph id="ph1">`GetOrdinal`</ph>方法来检索列号，给定的列的名称。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`GetOrdinal`</ph> performs a case-sensitive lookup first.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>第一次执行区分大小写的查找。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">如果失败，进行第二个的不区分大小写搜索。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>If the column number is not found an <ph id="ph1">`IndexOutOfRangeException`</ph> is thrown.</source>
+          <target state="translated">如果找不到的列号<ph id="ph1">`IndexOutOfRangeException`</ph>引发。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`GetOrdinal`</ph> is kana-width insensitive.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>不区分假名宽度。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Because ordinal-based lookups are more efficient than named lookups, it is inefficient to call <ph id="ph1">`GetOrdinal`</ph> within a loop.</source>
+          <target state="translated">由于基于序号的查找，比命名查找更为有效，它是效率不高调用<ph id="ph1">`GetOrdinal`</ph>在循环中。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Save time by calling <ph id="ph1">`GetOrdinal`</ph> one time and assigning the results to an integer variable for use within the loop</source>
+          <target state="translated">通过调用来节省时间<ph id="ph1">`GetOrdinal`</ph>一次并将结果赋给整数变量以便在循环内的使用</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">列的名称。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">指定的名称不是有效的列名称。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Gets the type of the specified column in provider-specific format.</source>
+          <target state="translated">获取指定列的类型提供程序特定格式。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificFieldType method always returns the same type as the type stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">因为&lt;xref:System.Data.DataTableReader&gt;始终返回类型存储在基础的&lt;xref:System.Data.DataColumn&gt;通过调用 GetProviderSpecificFieldType 方法始终返回相同的类型为&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;中存储的类型返回的值&lt;/xref:System.Data.DataColumn&gt;&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificFieldType method returns the same type as calling the &lt;xref:System.Type.GetType%2A&gt; method.</source>
+          <target state="translated">当你处理的&lt;xref:System.Data.DataTableReader&gt;类，调用 GetProviderSpecificFieldType 方法返回相同的类型与调用&lt;xref:System.Type.GetType%2A&gt;方法。&lt;/xref:System.Type.GetType%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;对象的数据类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in provider-specific format.</source>
+          <target state="translated">获取提供程序特定格式的指定列的值。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificValue method always returns data of the same type as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">因为&lt;xref:System.Data.DataTableReader&gt;始终返回类型存储在基础的&lt;xref:System.Data.DataColumn&gt;则通过调用 GetProviderSpecificValue 方法始终返回的值返回&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;中存储的数据与相同类型的数据&lt;/xref:System.Data.DataColumn&gt;&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValue method returns the same value and type as calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">当你处理的&lt;xref:System.Data.DataTableReader&gt;类，调用 GetProviderSpecificValue 方法返回相同值，然后键入作为调用&lt;xref:System.Data.DataTableReader.GetValue%2A&gt;方法。&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The zero-based number of the column whose value is retrieved.</source>
+          <target state="translated">从零开始检索其值的列数。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in provider-specific format.</source>
+          <target state="translated">提供程序特定格式指定列的值。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Fills the supplied array with provider-specific type information for all the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">填充提供的数组中的所有列的提供程序特定的类型信息与<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the data of the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the values returned by calling the GetProviderSpecificValues method is always of the same types as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">因为&lt;xref:System.Data.DataTableReader&gt;始终返回类型的数据存储在基础的&lt;xref:System.Data.DataColumn&gt;通过调用方法始终属于相同的类型的数据存储在&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; GetProviderSpecificValues 返回的值&lt;/xref:System.Data.DataColumn&gt;&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValues method returns the same values and types as calling the &lt;xref:System.Data.DataTableReader.GetValues%2A&gt; method.</source>
+          <target state="translated">当你处理的&lt;xref:System.Data.DataTableReader&gt;类，调用 GetProviderSpecificValues 方法与调用返回相同的值和类型&lt;xref:System.Data.DataTableReader.GetValues%2A&gt;方法。&lt;/xref:System.Data.DataTableReader.GetValues%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>An array of objects to be filled in with type information for the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要使用中的列的类型信息填充的对象数组<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">复制到数组中的列值的数目。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>描述列元数据的<bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The GetSchemaTable method returns metadata about each column in the following order:      |DataReader column|Description|   |-----------------------|-----------------|   |ColumnName|The name of the column as it appears in the &lt;xref:System.Data.DataTable&gt;.|   |ColumnOrdinal|The ordinal of the column|   |ColumnSize|-1 if the &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; (or &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;) property of the &lt;xref:System.Data.DataColumn&gt; cannot be determined or is not relevant; otherwise, 0 or a positive integer that contains the <ph id="ph1">`MaxLength`</ph> value.|   |NumericPrecision|If the column type is a numeric type, this is the maximum precision of the column.</source>
+          <target state="translated">GetSchemaTable 方法按以下顺序返回关于每个列的元数据: |DataReader 列 |说明 |  |-----------------------|-----------------|  |ColumnName |如果将列作为它的名称显示在&lt;xref:System.Data.DataTable&gt;。 |  |ColumnOrdinal |列序号 |  |Columnsize 类型 | 则为-1 &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt;（或&lt;xref:System.Data.DataColumn.MaxLength%2A&gt;） 无法确定或不相关的&lt;xref:System.Data.DataColumn&gt;属性; 否则为 0 或一个正整数，包含<ph id="ph1">`MaxLength`</ph>值。 |  |NumericPrecision |如果列类型为数值类型，这是列的最大精度。&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>If the column type is not a numeric data type, this is a null value.|   |NumericScale|If column data type has a scale component, return the number of digits to the right of the decimal point.</source>
+          <target state="translated">如果列类型不是数值数据类型，这是一个 null 值。 |  |NumericScale |如果列数据类型具有小数位数部分，返回的小数点右侧的位数。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Otherwise, return a null value.|   |DataType|The underlying type of the column.|   |ProviderType|The indicator of the column's data type.</source>
+          <target state="translated">否则，返回一个 null 值。 |  |数据类型 |列的基础类型。 |  |提供程序类型 |列的数据类型的指示符。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>If the data type of the column varies from row to row, this value is &lt;xref:System.Object&gt;.</source>
+          <target state="translated">如果列的数据类型会从行至行发生变化，此值为&lt;xref:System.Object&gt;。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>This column cannot contain a null value.|   |IsLong|<ph id="ph1">`true`</ph> if the data type of the column is &lt;xref:System.String&gt; and its &lt;xref:System.Data.DataColumn.MaxLength%2A&gt; property is -1.</source>
+          <target state="translated">此列不能包含 null 值。 |  |IsLong |<ph id="ph1">`true`</ph>列的数据类型是否&lt;xref:System.String&gt;及其&lt;xref:System.Data.DataColumn.MaxLength%2A&gt;属性为-1。&lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Otherwise, <ph id="ph1">`false`</ph>.|   |AllowDBNull|<ph id="ph2">`true`</ph> if the AllowDbNull constraint is set to true for the column; otherwise, <ph id="ph3">`false`</ph>.|   |IsReadOnly|<ph id="ph4">`true`</ph> if the column cannot be modified; otherwise <ph id="ph5">`false`</ph>.|   |IsRowVersion|<ph id="ph6">`false`</ph>, for every column.|   |IsUnique|<ph id="ph7">`true`</ph>: No two rows in the &lt;xref:System.Data.DataTable&gt; can have the same value in this column.</source>
+          <target state="translated">否则为<ph id="ph1">`false`</ph>。 |  |AllowDBNull |<ph id="ph2">`true`</ph> AllowDbNull 约束设置为 true 的列; 否则为如果<ph id="ph3">`false`</ph>。 |  |IsReadOnly |<ph id="ph4">`true`</ph>如果列不能修改; 否则为<ph id="ph5">`false`</ph>。 |  |IsRowVersion |<ph id="ph6">`false`</ph>，每个列。 |  |是唯一的 |<ph id="ph7">`true`</ph>︰ 中的任何两行&lt;xref:System.Data.DataTable&gt;可以在此列中具有相同的值。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`IsUnique`</ph> is guaranteed to be true if the column represents a key by itself or if there is a constraint of type UNIQUE that applies only to this column.</source>
+          <target state="translated"><ph id="ph1">`IsUnique`</ph>为 true，如果列表示一个密钥由保证本身，或者如果没有类型仅适用于此列的 UNIQUE 约束。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`false`</ph>: The column can contain duplicate values in the <ph id="ph2">`DataTable`</ph>.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: 列可以包含重复值<ph id="ph2">`DataTable`</ph>。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |IsKey|<ph id="ph2">`true`</ph>: The column is one of a set of columns that, taken together, uniquely identify the row in the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">此列的默认值是<ph id="ph1">`false`</ph>。 |  |IsKey |<ph id="ph2">`true`</ph>: 列是一组列之一，合在一起，唯一地标识&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;中的行</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The set of columns with <ph id="ph1">`IsKey`</ph> set to <ph id="ph2">`true`</ph> must uniquely identify a row in the <ph id="ph3">`DataTable`</ph>.</source>
+          <target state="translated">列集<ph id="ph1">`IsKey`</ph>设置为<ph id="ph2">`true`</ph>必须唯一地标识中的行<ph id="ph3">`DataTable`</ph>。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>There is no requirement that this set of columns is a minimal set of columns.</source>
+          <target state="translated">没有任何要求此列集是列的最小集。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This set of columns may be generated from a <ph id="ph1">`DataTable`</ph> primary key, a unique constraint or a unique index.</source>
+          <target state="translated">此列集可能会生成从<ph id="ph1">`DataTable`</ph>为主键、 唯一约束或唯一索引。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`false`</ph>: The column is not required to uniquely identify the row.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: 列不需要唯一标识行。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>This value is <ph id="ph1">`true`</ph> if the column participates in a single or composite primary key.</source>
+          <target state="translated">此值是<ph id="ph1">`true`</ph>如果该列参与单一或复合主键。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Otherwise, its value is <ph id="ph1">`false`</ph>.|   |IsAutoIncrement|<ph id="ph2">`true`</ph>: The column assigns values to new rows in fixed increments.</source>
+          <target state="translated">否则，其值是<ph id="ph1">`false`</ph>。 |  |IsAutoIncrement |<ph id="ph2">`true`</ph>: 列将值分配给新行以固定的增量。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`false`</ph>: The column does not assign values to new rows in fixed increments.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>: 列不会分配到新行以固定的增量值。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |BaseCatalogName|The name of the catalog in the data store that contains the column.</source>
+          <target state="translated">此列的默认值是<ph id="ph1">`false`</ph>。 |  |BaseCatalogName |包含的列的数据存储区中目录的名称。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Null`</ph> if the base catalog name cannot be determined.</source>
+          <target state="translated"><ph id="ph1">`Null`</ph>如果无法确定基目录名称。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The default value for this column is a <ph id="ph1">`null`</ph> value.|   |BaseSchemaName|This value is always <ph id="ph2">`Null`</ph>.|   |BaseTableName|The name of the &lt;xref:System.Data.DataTable&gt;.|   |BaseColumnName|The name of the column in the &lt;xref:System.Data.DataTable&gt;.|   |AutoIncrementSeed|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; property.|   |AutoIncrementStep|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; property.|   |DefaultValue|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.DefaultValue%2A&gt; property.|   |Expression|The expression string, if the current column is an expression column and all columns used in the expression belong to the same <ph id="ph3">`T:System.Data.DataTable`</ph> that contains the expression column; otherwise <ph id="ph4">`null`</ph>.|   |ColumnMapping|The &lt;xref:System.Data.MappingType&gt; value associated with the &lt;xref:System.Data.DataColumn&gt;.</source>
+          <target state="translated">此列的默认值是<ph id="ph1">`null`</ph>值。 |  |BaseSchemaName |此值始终为<ph id="ph2">`Null`</ph>。 |  |BaseTableName |&lt;xref:System.Data.DataTable&gt;的名称。 |  |BaseColumnName |&lt;xref:System.Data.DataTable&gt;中的列的名称。 |  |AutoIncrementSeed |&lt;xref:System.Data.DataTable&gt;&lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt;属性的值。 |  |AutoIncrementStep |&lt;xref:System.Data.DataTable&gt;&lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt;属性的值。 |  |DefaultValue |&lt;xref:System.Data.DataColumn&gt;&lt;xref:System.Data.DataColumn.DefaultValue%2A&gt;属性的值。 |  |表达式 |表达式字符串，如果当前的列是表达式列，在表达式中使用的所有列都属于同一个<ph id="ph3">`T:System.Data.DataTable`</ph>包含表达式列; 否则为<ph id="ph4">`null`</ph>。 |  |ColumnMapping |&lt;xref:System.Data.MappingType&gt;值与&lt;xref:System.Data.DataColumn&gt;.&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.MappingType&gt; &lt;/xref:System.Data.DataColumn.DefaultValue%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The type can be one of <ph id="ph1">`Attribute`</ph>, <ph id="ph2">`Element`</ph>, <ph id="ph3">`Hidden`</ph>, or <ph id="ph4">`SimpleContent`</ph>.</source>
+          <target state="translated">类型可以是之一<ph id="ph1">`Attribute`</ph>， <ph id="ph2">`Element`</ph>， <ph id="ph3">`Hidden`</ph>，或<ph id="ph4">`SimpleContent`</ph>。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">`Element`</ph>.|   |BaseTableNamespace|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataTable.Namespace%2A&gt; property.|   |BaseColumnNamespace|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.Namespace%2A&gt; property.|</source>
+          <target state="translated">默认值是<ph id="ph1">`Element`</ph>。 |  |BaseTableNamespace |&lt;xref:System.Data.DataTable&gt;&lt;xref:System.Data.DataTable.Namespace%2A&gt;属性的值。 |  |BaseColumnNamespace |值&lt;xref:System.Data.DataColumn&gt;的&lt;xref:System.Data.DataColumn.Namespace%2A&gt;属性。 |&lt;/xref:System.Data.DataColumn.Namespace%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTable.Namespace%2A&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述列元数据。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>已关闭。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a string.</source>
+          <target state="translated">字符串形式获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a string.</source>
+          <target state="translated">指定的列不包含一个字符串。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format.</source>
+          <target state="translated">以本机格式中获取指定列的值。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Although you can call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method, you do not have to do this.</source>
+          <target state="translated">尽管你可以调用&lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;以查看是否存在 null 值调用此方法之前，则不需要执行此操作。&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">指定列的值。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for null columns.</source>
+          <target state="translated">此方法返回<bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>为 null 的列。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access columns in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">将填充使用当前行的列值的对象数组。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>For most applications, this method provides an efficient means for retrieving all columns, instead of retrieving each column individually.</source>
+          <target state="translated">对于大多数应用程序，此方法用于检索所有列，而不是单独都检索每个列提供一种高效的方法。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>If your intent is to retrieve all the column values from a row within the &lt;xref:System.Data.DataTableReader&gt;, the <ph id="ph1">`GetValues`</ph> method provides the most efficient solution.</source>
+          <target state="translated">如果你的意图是检索所有列的值中的行&lt;xref:System.Data.DataTableReader&gt;、<ph id="ph1">`GetValues`</ph>方法提供最高效的解决方案。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>You can pass an &lt;xref:System.Object&gt; array that contains fewer than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">你可以将传递&lt;xref:System.Object&gt;数组，其中包含的结果行中包含的列数少于。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Only the amount of data the <ph id="ph1">`Object`</ph> array can hold is copied to the array.</source>
+          <target state="translated">数据量<ph id="ph1">`Object`</ph>数组可以容纳复制到数组。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>You can also pass an <ph id="ph1">`Object`</ph> array whose length is more than the number of columns that are contained in the resulting row, in which case the additional array elements remains unchanged by the method call.</source>
+          <target state="translated">你还可以传递<ph id="ph1">`Object`</ph>其长度不只是包含在生成的行中，在方法调用后附加数组元素保持不变的列数的数组。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>This method places <ph id="ph1">`DBNull`</ph> in the output array for null columns.</source>
+          <target state="translated">此方法将<ph id="ph1">`DBNull`</ph>用于 null 列的输出数组中。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the column values from the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">数组&lt;xref:System.Object&gt;从中复制的列的值从<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">复制到数组中的列值的数目。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含一个或多个行。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`HasRows`</ph> property returns information about the current result set.</source>
+          <target state="translated"><ph id="ph1">`HasRows`</ph>属性返回有关当前结果集的信息。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.DataTableReader&gt; contains multiple result sets, you can examine the value of the <ph id="ph1">`HasRows`</ph> property immediately after you call the &lt;xref:System.Data.DataTableReader.NextResult%2A&gt; method in order to determine whether the new result set contains rows.</source>
+          <target state="translated">如果&lt;xref:System.Data.DataTableReader&gt;包含多个结果集，你可以检查的值<ph id="ph1">`HasRows`</ph>属性之后立即调用&lt;xref:System.Data.DataTableReader.NextResult%2A&gt;方法，以确定新的结果集是否包含行。&lt;/xref:System.Data.DataTableReader.NextResult%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`HasRows`</ph> property to avoid the requirement to call the &lt;xref:System.Data.DataTableReader.Read%2A&gt; method of the &lt;xref:System.Data.DataTableReader&gt; if there are no rows within the current result set.</source>
+          <target state="translated">使用<ph id="ph1">`HasRows`</ph>属性以避免调用的要求&lt;xref:System.Data.DataTableReader.Read%2A&gt;方法&lt;xref:System.Data.DataTableReader&gt;如果当前的结果集内没有行。&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>包含一个或多个行; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve information about a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试检索有关关闭的信息<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已关闭。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.DataTableReader.Close%2A&gt; is the only method and <ph id="ph1">`IsClosed`</ph> and &lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt; are the only properties that can be accessed after the &lt;xref:System.Data.DataTableReader&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader.Close%2A&gt;是唯一的方法和<ph id="ph1">`IsClosed`</ph>和&lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt;是可以访问后的唯一属性&lt;xref:System.Data.DataTableReader&gt;已关闭。&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.RecordsAffected%2A&gt;&lt;/xref:System.Data.DataTableReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已关闭; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains non-existent or missing values.</source>
+          <target state="translated">获取一个值，该值指示列是否包含不存在或丢失的值。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Call this method to see if there are null column values before calling the typed get methods (for example, &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;, &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;, and so on) to avoid raising an error.</source>
+          <target state="translated">调用此方法以查看是否存在 null 列的值在调用类型化的 get 方法 (例如， &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;， &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;，依次类推) 以避免产生一个错误。&lt;/xref:System.Data.DataTableReader.GetChar%2A&gt; &lt;/xref:System.Data.DataTableReader.GetByte%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">从零开始的列序号</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column value is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的列值等效于<bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column ordinal.</source>
+          <target state="translated">获取指定列的值以本机格式在给定列序号。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>This overload for &lt;xref:System.Data.DataTableReader.Item%2A&gt; behaves identically to the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">为此重载&lt;xref:System.Data.DataTableReader.Item%2A&gt;的行为相同与&lt;xref:System.Data.DataTableReader.GetValue%2A&gt;方法。&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">从零开始的列序号。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">以本机格式指定列的值。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">传递的索引超出了范围 0 到&lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1。&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column name.</source>
+          <target state="translated">获取指定列的值以本机格式在给定列名称。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>A case-sensitive lookup is performed first.</source>
+          <target state="translated">第一次执行区分大小写的查找。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">如果失败，进行第二个的不区分大小写搜索。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>This method is kana-width insensitive.</source>
+          <target state="translated">此方法是不区分假名宽度。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>This overloaded version of &lt;xref:System.Data.DataTableReader.Item%2A&gt; corresponds to calling the &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; method, and then subsequently calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">此重载的版本的&lt;xref:System.Data.DataTableReader.Item%2A&gt;对应于调用&lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;方法，并随后调用&lt;xref:System.Data.DataTableReader.GetValue%2A&gt;方法。&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">列的名称。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">以本机格式指定列的值。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">指定的名称不是有效的列名称。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">尝试从已删除的行中检索数据。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next result set, if any.</source>
+          <target state="translated">推进<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到下一个结果集，如果有的话。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Used to process multiple results that can be generated by creating a &lt;xref:System.Data.DataTableReader&gt; over a &lt;xref:System.Data.DataSet&gt; that contains two or more tables, or an array that contains two or more &lt;xref:System.Data.DataTable&gt; instances.</source>
+          <target state="translated">用于处理多个结果，可以通过创建生成&lt;xref:System.Data.DataTableReader&gt;通过&lt;xref:System.Data.DataSet&gt;，其中包含两个或多个表或一个数组，包含两个或多&lt;xref:System.Data.DataTable&gt;实例。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Data.DataTableReader&gt; is positioned on the first result.</source>
+          <target state="translated">一个新&lt;xref:System.Data.DataTableReader&gt;位于第一个结果。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another result set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有另一个结果集;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>An attempt was made to navigate within a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试在关闭中导航<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next record.</source>
+          <target state="translated">推进<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到下一个记录。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>The default position of the &lt;xref:System.Data.DataTableReader&gt; is before the first record.</source>
+          <target state="translated">默认位置&lt;xref:System.Data.DataTableReader&gt;之前第一条记录。&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>Therefore, you must call <ph id="ph1">`Read`</ph> to start accessing any data.</source>
+          <target state="translated">因此，必须调用<ph id="ph1">`Read`</ph>来开始访问任何数据。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another row to read; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有另一行以读取;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">尝试读取或访问中关闭的列<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows inserted, changed, or deleted by execution of the SQL statement.</source>
+          <target state="translated">获取插入、 更改或删除通过执行 SQL 语句的行的数。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not support this property and always returns 0.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不支持此属性，并始终返回 0。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

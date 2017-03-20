@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb3e979e47ed7c11ae622e924e038945cb6060ee</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.SiteMapDataSource.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3803da668d0c364c9d5e26e97d24adc6ccbc76da</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d40b10e13451338995c5a992ffec0664eaad361</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a data source control that Web server controls and other controls can use to bind to hierarchical site map data.</source>
+          <target state="translated">提供一个数据源控件，Web 服务器控件和其他控件可用于将绑定到分层站点地图数据。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Specifying the Starting Node<ept id="p2">](#specifying_the_starting_node)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Retrieving Site Map Data<ept id="p3">](#retrieving_site_map_data)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Declarative Syntax<ept id="p4">](#declarative_syntax)</ept>      <bpt id="p5">&lt;a name="introduction"&gt;</bpt><ept id="p5">&lt;/a&gt;</ept>    ## Introduction    The SiteMapDataSource control is a data source to the site map data that is stored by the site map providers that are configured for your site.</source>
+          <target state="translated">本主题中:-<bpt id="p1">[</bpt>简介<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>指定启动节点<ept id="p2">](#specifying_the_starting_node)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>检索站点地图数据<ept id="p3">](#retrieving_site_map_data)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>声明性语法<ept id="p4">](#declarative_syntax)</ept><bpt id="p5">&lt;a name="introduction"&gt;</bpt> <ept id="p5">&lt;/a&gt;</ept> # # 简介 SiteMapDataSource 控件是到站点地图数据由地图提供程序，为您的网站配置存储的数据源。      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The SiteMapDataSource enables Web server controls that are not specifically site navigation controls, such as the &lt;xref:System.Web.UI.WebControls.TreeView&gt;, &lt;xref:System.Web.UI.WebControls.Menu&gt;, and &lt;xref:System.Web.UI.WebControls.DropDownList&gt; controls, to bind to hierarchical site map data.</source>
+          <target state="translated">SiteMapDataSource 使不是专门站点导航控件，如的 Web 服务器控件&lt;xref:System.Web.UI.WebControls.TreeView&gt;， &lt;xref:System.Web.UI.WebControls.Menu&gt;，和&lt;xref:System.Web.UI.WebControls.DropDownList&gt;控件，可以绑定到分层站点地图数据。&lt;/xref:System.Web.UI.WebControls.DropDownList&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt; &lt;/xref:System.Web.UI.WebControls.TreeView&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use these Web server controls to display a site map as a table of contents or to actively navigate a site.</source>
+          <target state="translated">要作为内容的表中显示站点图或者主动导航站点，你可以使用这些 Web 服务器控件。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control, which is designed specifically as a site navigation control and therefore does not need an instance of the SiteMapDataSource control.</source>
+          <target state="translated">或者，可以使用&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控件，它专门设计为站点导航控件，因此不需要 SiteMapDataSource 控件的实例。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="specifying_the_starting_node"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Specifying the Starting Node    The SiteMapDataSource binds to site map data and presents its view based on a specified starting node in the site map hierarchy.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="specifying_the_starting_node"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 指定启动节点 SiteMapDataSource 将绑定到站点地图数据并显示站点地图层次结构中的指定起始节点基于其视图。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By default, it is the root node of the hierarchy but it can also be any node within the hierarchy.</source>
+          <target state="translated">默认情况下，它是层次结构的根节点，但它也可以是层次结构中的任何节点。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The starting node is identified by the values of several SiteMapDataSource properties as follows:      |Starting Node|Property Values|   |-------------------|---------------------|   |The root node of the hierarchy (the default setting).|The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">启动节点，如下所示由几个 SiteMapDataSource 属性的值: |启动节点 |属性值 |  |-------------------|---------------------|  |层次结构 （默认设置） 的根节点。 |The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; is not set.|   |The node that represents the currently viewed page.|The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">未设置&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;。 |  |表示当前正在查看的页的节点。 |The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; is not set.|   |A specific node of the hierarchy.|The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">未设置&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;。 |  |层次结构的特定节点。 |The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; is <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; is set.|       If the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; property is set to a value other than 0, it affects the starting node and with it the site map data hierarchy that is exposed by the SiteMapDataSource control.</source>
+          <target state="translated">设置&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;。 |      如果&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;属性设置为 0 以外的值，它将影响启动的节点以及与其站点映射 SiteMapDataSource 控件所公开的数据层次结构。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The negative or positive integer value of the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; identifies the number of levels up or down the site map hierarchy from the starting node that is identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; properties to offset the starting node of the subtree that is exposed by data source control.</source>
+          <target state="translated">负整数或正整数值&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;标识向上或向下站点地图层次结构从起始节点由其标识的级别数&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;属性偏移公开的数据的子树的起始节点源代码管理。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; property is set to a negative number <bpt id="p1">*</bpt>-n<ept id="p1">*</ept>, the starting node of the subtree that is exposed by the data source control is the ancestor node <bpt id="p2">*</bpt>n<ept id="p2">*</ept> hierarchical levels above the identified starting node.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;属性设置为负数<bpt id="p1">*</bpt>-n<ept id="p1">*</ept>，公开的数据源控件的子树的起始节点处于祖先节点<bpt id="p2">*</bpt>n<ept id="p2">*</ept>上面所标识的起始节点的层次结构级别。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the value <bpt id="p1">*</bpt>n<ept id="p1">*</ept> is greater than the number of ancestor levels in the hierarchical tree, the starting node of the subtree is the root node of the site map hierarchy.</source>
+          <target state="translated">如果值<bpt id="p1">*</bpt>n<ept id="p1">*</ept>大于在分层树中，子树的起始节点的上级级别数是站点地图层次结构的根节点。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; property is set to a positive number +<bpt id="p1">*</bpt>n<ept id="p1">*</ept>, the starting node of the subtree that is exposed is a child node <bpt id="p2">*</bpt>n<ept id="p2">*</ept> levels below the identified starting node.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;属性设置为正数值 +<bpt id="p1">*</bpt>n<ept id="p1">*</ept>，公开的子树的起始节点是子节点<bpt id="p2">*</bpt>n<ept id="p2">*</ept>下所标识的起始节点级别。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because more than one branch of child nodes might exist in the hierarchy, the SiteMapDataSource attempts to resolve a child node directly on the path between the identified starting node and the node that represents the currently requested page, if possible.</source>
+          <target state="translated">因为层次结构中可能存在的子节点的多个分支，SiteMapDataSource 将尝试解析直接上所标识的起始节点和表示当前请求的页中，如有可能的节点之间的路径的子节点。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the node that represents the currently requested page is not in the subtree of the identified starting node, the value of the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt; property is ignored.</source>
+          <target state="translated">表示当前请求的页的节点不是标识的起始节点的值的子树中&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;属性将被忽略。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeOffset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the node that represents the currently requested page is less than <bpt id="p1">*</bpt>n<ept id="p1">*</ept> levels below the identified starting node, the currently requested page node is used as the starting node.</source>
+          <target state="translated">表示当前请求的页的节点是否小于<bpt id="p1">*</bpt>n<ept id="p1">*</ept>所标识的开始节点，当前请求的页节点下级别用作起始节点。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="retrieving_site_map_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Retrieving Site Map Data    Site map data is retrieved from an &lt;xref:System.Web.SiteMapProvider&gt; object, such as &lt;xref:System.Web.XmlSiteMapProvider&gt;, which is the default site map provider for ASP.NET.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="retrieving_site_map_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 检索站点地图数据站点地图数据从&lt;xref:System.Web.SiteMapProvider&gt;对象，如&lt;xref:System.Web.XmlSiteMapProvider&gt;，这是 ASP.NET 的默认 site 映射提供程序。&lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can specify any provider that is configured for your site to provide the site map data to the SiteMapDataSource and can obtain the list of available providers by accessing the &lt;xref:System.Web.SiteMap.Providers%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">你可以指定任何提供程序为您的网站来提供站点的数据映射到 SiteMapDataSource 并可通过访问获得可用的提供程序的列表配置&lt;xref:System.Web.SiteMap.Providers%2A?displayProperty=fullName&gt;集合。&lt;/xref:System.Web.SiteMap.Providers%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Like all data source controls, every instance of a SiteMapDataSource is associated with a single helper object, known as a data source view.</source>
+          <target state="translated">所有数据源控件，如 SiteMapDataSource 的每个实例都与一个帮助器对象，称为数据源视图相关联。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt; is a view on the site map data, according to the properties of the data source, and is retrieved by calling the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;根据数据源的属性都是视图站点地图数据，并通过调用检索&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt; maintains the &lt;xref:System.Web.SiteMapNodeCollection&gt; object that the controls bind to.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;维护&lt;xref:System.Web.SiteMapNodeCollection&gt;控件所绑定到的对象。&lt;/xref:System.Web.SiteMapNodeCollection&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>By default, the starting node is the root node of the hierarchy, but you can set the starting node to any node.</source>
+          <target state="translated">默认情况下，启动的节点是在层次结构的根节点，但你可以将起始节点设置为任何节点。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The starting point can be a node that is relative to the current position in the site map or to an absolute position.</source>
+          <target state="translated">起始点可以是相对于当前位置站点地图中或位置的绝对位置的节点。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can specify the starting node by setting the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; property.</source>
+          <target state="translated">你可以通过设置指定的起始节点&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The SiteMapDataSource is specialized for navigation data, and does not support common data source operations such as sorting, filtering, paging, caching, or data record operations such as updates, insertions or deletions.</source>
+          <target state="translated">SiteMapDataSource 专用于导航数据并不支持常见的数据源操作，例如排序、 筛选、 分页、 缓存，或如更新、 插入或删除数据记录操作。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:SiteMapDataSource       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       ShowStartingNode="True|False"       SiteMapProvider="string"       SkinID="string"       StartFromCurrentNode="True|False"       StartingNodeOffset="integer"       StartingNodeUrl="uri"       Visible="True|False"   /&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 声明性语法<ph id="ph1">```   &lt;asp:SiteMapDataSource       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       ShowStartingNode="True|False"       SiteMapProvider="string"       SkinID="string"       StartFromCurrentNode="True|False"       StartingNodeOffset="integer"       StartingNodeUrl="uri"       Visible="True|False"   /&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the data source control contains a collection of data source view objects.</source>
+          <target state="translated">获取一个值，该值指示数据源控件是否包含的数据源视图对象的集合。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The ContainsListCollection property calls the static &lt;xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A&gt; method of the &lt;xref:System.Web.UI.ListSourceHelper&gt; class.</source>
+          <target state="translated">ContainsListCollection 属性调用静态&lt;xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A&gt;方法的&lt;xref:System.Web.UI.ListSourceHelper&gt;类。&lt;/xref:System.Web.UI.ListSourceHelper&gt; &lt;/xref:System.Web.UI.ListSourceHelper.ContainsListCollection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data source control contains a collection of data source view objects; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果数据源控件包含数据源视图对象的集合否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Retrieves a single view on the site map data for the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object according to the starting node and other properties of the data source.</source>
+          <target state="translated">检索的站点地图数据上的单一视图<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>根据起始节点和数据源的其他属性的对象。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The URL of the starting node, specified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;.</source>
+          <target state="translated">指定&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;的起始节点的 URL</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> helper object on the site map data, starting with the node that is identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl<bpt id="p2">*</bpt>&gt; or its child, if the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.ShowStartingNode<ept id="p2">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>站点地图数据，从由标识的节点上的帮助程序对象&lt;&gt; <bpt id="p2">*</bpt>1&gt; 或其子级中，如果&lt;&gt; <ept id="p2">*</ept>1&gt; 是<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>No <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is configured or available for the site.</source>
+          <target state="translated">不<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>配置或为站点提供。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl<ept id="p1">*</ept>&gt; is set.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but the &lt;&gt;<ept id="p1">*</ept>&gt; is set.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt; is set but the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot resolve a node for the specified URL.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;设置但<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>无法解析为指定的 URL 的一个节点。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Retrieves a list of data source controls that can be used as sources of lists of data.</source>
+          <target state="translated">检索的数据源控件可用作列表的数据源的列表。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use the GetList method to retrieve a set of objects that can be used as sources for the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control.</source>
+          <target state="translated">使用 GetList 方法来检索一组对象可以用作源为&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;控件。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Site map data source controls encapsulate their lists of data as &lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt; objects.</source>
+          <target state="translated">站点地图数据源控件将数据作为其列表封装&lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;对象。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Therefore, when associated with one or more &lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt; objects, a &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control represents a list source object and the GetList method returns a list containing one element — the data source control itself.</source>
+          <target state="translated">因此，与一个或多个关联时&lt;xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;对象，&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;控件表示列表源对象和 GetList 方法返回包含一个元素的列表-的数据源控件本身。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The GetList method calls the static &lt;xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt; method to retrieve a list of objects that can be used as sources of data.</source>
+          <target state="translated">GetList 方法调用静态&lt;xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt;方法来检索其中的可用作数据源的对象的列表。&lt;/xref:System.Web.UI.ListSourceHelper.GetList%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ListSourceHelper&gt; checks whether the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames%2A&gt; method returns a valid collection of view names.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ListSourceHelper&gt;检查是否&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames%2A&gt;方法返回的视图名称的有效集合。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames%2A&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If it does, the &lt;xref:System.Web.UI.ListSourceHelper&gt; returns a list containing one element — the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;.</source>
+          <target state="translated">如果是这样，&lt;xref:System.Web.UI.ListSourceHelper&gt;返回包含一个元素的列表- &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt; &lt;/xref:System.Web.UI.ListSourceHelper&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; of data source controls that can be used as sources of lists of data.</source>
+          <target state="translated">&lt;xref:System.Collections.IList&gt;的可以用作列表的数据源的数据源控件。&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Retrieves a named view on the site map data of the site map provider according to the starting node and other properties of the data source.</source>
+          <target state="translated">检索在站点地图数据根据启动节点的 site 映射提供程序和数据源的其他属性上的命名的视图。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`viewName`</ph> parameter is the URL for the root node of the view, not the name of the data source view as it is with other data source controls that support named views.</source>
+          <target state="translated"><ph id="ph1">`viewName`</ph>参数是视图中，不是数据源视图的名称的根节点的 URL，因为它是与其他数据源控件支持命名的视图。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The name of the data source view to retrieve.</source>
+          <target state="translated">名称的数据源视图来检索。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> helper object on the site map data, according to the starting node that is identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl<bpt id="p2">*</bpt>&gt; property or its child, if the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.ShowStartingNode<ept id="p2">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>站点地图数据，根据由标识的起始节点上的帮助程序对象&lt;&gt; <bpt id="p2">*</bpt>1&gt; 属性或其子级中，如果&lt;&gt; <ept id="p2">*</ept>1&gt; 是<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.Provider*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.Provider*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.Provider*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl<ept id="p1">*</ept>&gt; is set.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but the &lt;&gt;<ept id="p1">*</ept>&gt; is set.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt; is set but the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot resolve a node for the specified URL.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;设置但<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>无法解析为指定的 URL 的一个节点。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Retrieves a collection of named views for the data source control.</source>
+          <target state="translated">检索的数据源控件的命名视图的集合。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The GetViewNames method returns a collection with one element (the default name) instead of <ph id="ph1">`null`</ph> so that the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.ContainsListCollection%2A&gt; method returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">GetViewNames 方法返回一个元素 （默认名称） 的集合，而不是<ph id="ph1">`null`</ph>以便&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.ContainsListCollection%2A&gt;方法返回<ph id="ph2">`true`</ph>。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.ContainsListCollection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of named <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;的命名<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与关联的对象<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supports only one named view, the GetViewNames method returns an &lt;xref:System.Collections.ICollection&gt; with one <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> element.</source>
+          <target state="translated">因为<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>只支持一个命名的视图，GetViewNames 方法返回&lt;xref:System.Collections.ICollection&gt;具有一个<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>元素。&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is associated with the data source control.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与数据源控件相关联的对象。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Use the Provider property to specify the site map provider instance to use with the data source control.</source>
+          <target state="translated">提供程序属性用于指定要与数据源控件使用的站点映射提供程序实例。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The instance can be different than the provider that is identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.SiteMapProvider%2A&gt; property, if set.</source>
+          <target state="translated">实例可以是不同的提供程序由标识&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.SiteMapProvider%2A&gt;属性，如果设置。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.SiteMapProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with the data source control; otherwise, if no provider is explicitly set, the default site map provider.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>与数据源控件相关联; 否则，如果没有提供程序显式设置，默认站点映射提供程序。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the starting node is retrieved and displayed.</source>
+          <target state="translated">获取或设置一个值，该值起始节点是否为检索并显示。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ShowStartingNode property is evaluated during calls to the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; methods, when the node tree that is returned by these methods is populated.</source>
+          <target state="translated">在调用过程中计算 ShowStartingNode 属性&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt;方法，当填充由这些方法返回的节点树。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The value of the ShowStartingNode property is stored in view state.</source>
+          <target state="translated">属性是 ShowStartingNode 的值存储在视图状态。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the starting node is displayed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果起始节点会显示出来;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the site map provider that the data source binds to.</source>
+          <target state="translated">获取或设置数据源绑定到站点地图提供商提供的名称。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The value of the SiteMapProvider property is stored in view state.</source>
+          <target state="translated">属性是 SiteMapProvider 的值存储在视图状态。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The name of the site map provider that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> binds to.</source>
+          <target state="translated">站点地图提供商提供的名称， <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>将绑定到。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>By default, the value is &lt;xref:System.String.Empty&gt;, and the default site map provider for the site is used.</source>
+          <target state="translated">默认情况下，值是&lt;xref:System.String.Empty&gt;，并使用站点的默认站点映射提供程序。&lt;/xref:System.String.Empty&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the site map node tree is retrieved using the node that represents the current page.</source>
+          <target state="translated">获取或设置一个值，该值使用表示当前页的节点来检索站点映射节点树。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The StartFromCurrentNode property is evaluated during calls to the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt; and the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; methods to help determine which site map node to use as a starting point to build the node tree.</source>
+          <target state="translated">在调用过程中计算 StartFromCurrentNode 属性&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt;方法，以帮助确定哪个站点映射节点作为起始点生成的节点树。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetHierarchicalView%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The StartFromCurrentNode and &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; properties are mutually exclusive — if you set the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; property, ensure that the StartFromCurrentNode property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">StartFromCurrentNode 和&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;属性是互相排斥 — 如果你设置&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;属性，确保 StartFromCurrentNode 属性是<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value of the StartFromCurrentNode property is stored in view state.</source>
+          <target state="translated">属性是 StartFromCurrentNode 的值存储在视图状态。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node tree is retrieved relative to the current page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果相对于当前页，则检索节点树否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets a positive or negative integer offset from the starting node that determines the root hierarchy that is exposed by the data source control.</source>
+          <target state="translated">获取或设置从确定根层次结构显示的数据源控件的起始节点正整数或负整数偏移量。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the StartingNodeOffset property is set to a value other than 0, it affects the starting node and with it the site map data hierarchy that is exposed by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control.</source>
+          <target state="translated">如果 StartingNodeOffset 属性设置为 0 以外的值，它会影响启动的节点，并与之站点将映射由公开的数据层次结构&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;控件。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The negative or positive integer value of the StartingNodeOffset identifies the number of levels up or down the site map hierarchy from the starting node that is identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; properties to offset the starting node of the subtree that is exposed by data source control.</source>
+          <target state="translated">StartingNodeOffset 的负整数或正整数值标识的向上或向下站点地图层次结构从起始节点由其标识的级别数&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt;属性偏移公开的数据的子树的起始节点源代码管理。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If the identified starting node is the node that represents the currently requested page, the StartingNodeOffset is ignored.</source>
+          <target state="translated">如果所标识的起始节点是表示当前请求的页的节点，则忽略 StartingNodeOffset。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the StartingNodeOffset property is set to a negative number -<bpt id="p1">*</bpt>n<ept id="p1">*</ept>, the starting node of the subtree that is exposed by the data source control is the ancestor node <bpt id="p2">*</bpt>n<ept id="p2">*</ept> hierarchical levels above the identified starting node.</source>
+          <target state="translated">如果 StartingNodeOffset 属性设置为负数-<bpt id="p1">*</bpt>n<ept id="p1">*</ept>，公开的数据源控件的子树的起始节点处于祖先节点<bpt id="p2">*</bpt>n<ept id="p2">*</ept>上面所标识的起始节点的层次结构级别。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If the value <bpt id="p1">*</bpt>n<ept id="p1">*</ept> is greater than the number of ancestor levels in the hierarchical tree, the starting node of the subtree is the root node of the site map hierarchy.</source>
+          <target state="translated">如果值<bpt id="p1">*</bpt>n<ept id="p1">*</ept>大于在分层树中，子树的起始节点的上级级别数是站点地图层次结构的根节点。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the StartingNodeOffset property is set to a positive number +<bpt id="p1">*</bpt>n<ept id="p1">*</ept>, the starting node of the subtree that is exposed is a child node <bpt id="p2">*</bpt>n<ept id="p2">*</ept> levels below the identified starting node.</source>
+          <target state="translated">如果 StartingNodeOffset 属性设置为正数值 +<bpt id="p1">*</bpt>n<ept id="p1">*</ept>，公开的子树的起始节点是子节点<bpt id="p2">*</bpt>n<ept id="p2">*</ept>下所标识的起始节点级别。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because more than one branch of child nodes might exist in the hierarchy, the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; attempts to resolve a child node directly on the path between the identified starting node and the node that represents the currently requested page, if possible.</source>
+          <target state="translated">因为层次结构中可能存在的子节点的多个分支&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;尝试解析直接上所标识的起始节点和表示当前请求的页中，如有可能的节点之间的路径的子节点。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the node that represents the currently requested page is not in the subtree of the identified starting node, the value of the StartingNodeOffset property is ignored.</source>
+          <target state="translated">如果该节点表示当前请求的页面不是标识的起始节点的子树中，则忽略 StartingNodeOffset 属性的值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If the node that represents the currently requested page is less than <bpt id="p1">*</bpt>n<ept id="p1">*</ept> levels below the identified starting node, the currently requested page node is used as the starting node.</source>
+          <target state="translated">表示当前请求的页的节点是否小于<bpt id="p1">*</bpt>n<ept id="p1">*</ept>所标识的开始节点，当前请求的页节点下级别用作起始节点。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The value of the StartingNodeOffset property is stored in view state.</source>
+          <target state="translated">属性是 StartingNodeOffset 的值存储在视图状态。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is 0, which indicates that the root hierarchy exposed by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is the same as the starting node.</source>
+          <target state="translated">默认值为 0，指示根层次结构由公开<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与开始节点相同。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets a node in the site map that the data source then uses as a reference point to retrieve nodes from a hierarchical site map.</source>
+          <target state="translated">获取或设置一个节点站点地图中，数据源随后将用作参考点从分层站点地图中检索节点。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; property binds to site map data and presents its view based on a specified starting node in the site map hierarchy.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;属性将绑定到站点地图数据，并显示其视图基于站点地图层次结构中的指定起始节点。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, the starting node is the root node of the hierarchy, but you can set the starting node to any node with the StartingNodeUrl property or set the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">默认情况下，启动的节点是在层次结构的根节点，但你可以将起始节点设置为任何节点与 StartingNodeUrl 属性或设置&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;属性<ph id="ph1">`true`</ph>。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.StartFromCurrentNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The value of the StartingNodeUrl property is stored in view state.</source>
+          <target state="translated">属性是 StartingNodeUrl 的值存储在视图状态。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The URL of a node in the site map.</source>
+          <target state="translated">站点图中的节点的 URL。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> retrieves the identified <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and any child nodes from the site map.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>检索标识<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>以及从站点映射的任何子节点。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default is an &lt;xref:System.String.Empty&gt;.</source>
+          <target state="translated">默认值为&lt;xref:System.String.Empty&gt;。&lt;/xref:System.String.Empty&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the collection is a collection of &lt;xref:System.Collections.IList&gt; objects.</source>
+          <target state="translated">获取一个值，该值指示集合是否是一套&lt;xref:System.Collections.IList&gt;对象。&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; instance is cast to an &lt;xref:System.ComponentModel.IListSource&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;实例被强制转换为&lt;xref:System.ComponentModel.IListSource&gt;接口。&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with one or more <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>与一个或多个关联<bpt id="p3">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>对象; 否则为<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.IListSource.GetList*&gt;.</source>
+          <target state="translated">有关此成员的说明，请参阅&lt;xref:System.ComponentModel.IListSource.GetList*&gt;。&lt;/xref:System.ComponentModel.IListSource.GetList*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; instance is cast to an &lt;xref:System.ComponentModel.IListSource&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;实例被强制转换为&lt;xref:System.ComponentModel.IListSource&gt;接口。&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; of data source controls that can be used as sources of lists of data.</source>
+          <target state="translated">&lt;xref:System.Collections.IList&gt;的可以用作列表的数据源的数据源控件。&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Web.UI.IDataSource.GetView*&gt;.</source>
+          <target state="translated">有关此成员的说明，请参阅&lt;xref:System.Web.UI.IDataSource.GetView*&gt;。&lt;/xref:System.Web.UI.IDataSource.GetView*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; instance is cast to an &lt;xref:System.Web.UI.IDataSource&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;实例被强制转换为&lt;xref:System.Web.UI.IDataSource&gt;接口。&lt;/xref:System.Web.UI.IDataSource&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The URL of the root node of the view.</source>
+          <target state="translated">视图的根节点的 URL。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> helper object on the site map data, according to the starting node identified by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl<bpt id="p2">*</bpt>&gt; property or its child, if the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.ShowStartingNode<ept id="p2">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>站点地图数据，根据由标识的起始节点上的帮助程序对象&lt;&gt; <bpt id="p2">*</bpt>1&gt; 属性或其子级中，如果&lt;&gt; <ept id="p2">*</ept>1&gt; 是<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>No <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is configured or available for the site.</source>
+          <target state="translated">不<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>配置或为站点提供。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Web.UI.IDataSource.GetViewNames*&gt;.</source>
+          <target state="translated">有关此成员的说明，请参阅&lt;xref:System.Web.UI.IDataSource.GetViewNames*&gt;。&lt;/xref:System.Web.UI.IDataSource.GetViewNames*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; instance is cast to an &lt;xref:System.Web.UI.IDataSource&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;实例被强制转换为&lt;xref:System.Web.UI.IDataSource&gt;接口。&lt;/xref:System.Web.UI.IDataSource&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of named <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects associated with the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;的命名<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与关联的对象<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supports only one named view, the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames*&gt; returns a collection containing one element set to <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">因为<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>只支持一个命名的视图，&lt;xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames*&gt;返回一个集合，包含一个元素设置为<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource.GetViewNames*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

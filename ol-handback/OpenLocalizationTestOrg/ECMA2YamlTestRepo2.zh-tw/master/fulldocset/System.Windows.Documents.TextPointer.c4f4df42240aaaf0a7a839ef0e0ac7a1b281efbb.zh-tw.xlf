@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a131a3b6e85199e9cd0f4371f8ce5b54d87e00e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.TextPointer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec93b4d648636e735e6901b917d80cb9b8536cbc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edcbb6eebabe2118ebcf7c53d55711f17e118d6f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a position within a <bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">表示中的位置<bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The TextPointer class introduces the following terminology:      -   Position - Inherently, a TextPointer always points to a <bpt id="p1">*</bpt>position<ept id="p1">*</ept> in content.</source>
+          <target state="translated">TextPointer 類別導入了下列詞彙:-位置-原本 TextPointer 永遠指向<bpt id="p1">*</bpt>位置<ept id="p1">*</ept>內容中。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Such positions either fall between characters in the content, or between flow content element tags that define structure for the content.</source>
+          <target state="translated">請切換流程或在內容中，字元間內容項目標記，這類位置定義內容的結構。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Current Position - Because a TextPointer always indicates a position, and because many of the operations that can be performed through a TextPointer are relative to the position currently pointed to by the TextPointer, it makes sense to simply refer to the position indicated by a TextPointer as the <bpt id="p1">*</bpt>current position<ept id="p1">*</ept>.</source>
+          <target state="translated">-目前的位置-TextPointer 一律表示的位置中，因此有許多可透過 TextPointer 執行的作業是相對於目前指向的 TextPointer 的位置，因為合理的參考做為 TextPointer 所指定的位置<bpt id="p1">*</bpt>目前位置<ept id="p1">*</ept>。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   Insertion Position - An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">插入位置-<bpt id="p1">*</bpt>插入位置<ept id="p1">*</ept>位置，而不會中斷任何語意規則相關聯的內容可能會加入新的內容。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">在實務上，插入位置是在插入號可能位於所在位置的內容。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An example of a valid TextPointer position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">不是插入位置的有效 TextPointer 位置的範例是相鄰的兩個位置&lt;xref:System.Windows.Documents.Paragraph&gt;標記 (亦即，在上一段結尾標記之間的下一個段落的開頭標記)。&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Symbol - For the purposes of TextPointer operations that involve symbols, any of the following is considered to be a <bpt id="p1">*</bpt>symbol<ept id="p1">*</ept>:          -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">-符號-目的 TextPointer 作業牽涉到下列任何一個的符號會被視為<bpt id="p1">*</bpt>符號<ept id="p1">*</ept>:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained within an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目包含在&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Each 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-每個 16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   Text Container - A <bpt id="p1">*</bpt>text container<ept id="p1">*</ept> is the element that forms the ultimate border for the flow content at hand; the position indicated by a TextPointer always falls within a text container.</source>
+          <target state="translated">文字容器-A<bpt id="p1">*</bpt>文字容器<ept id="p1">*</ept>form 於非固定格式內容的最終框線的項目，則由 TextPointer 永遠落在的文字容器內的位置。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Currently, a text container must be either a &lt;xref:System.Windows.Documents.FlowDocument&gt; or a &lt;xref:System.Windows.Controls.TextBlock&gt;.</source>
+          <target state="translated">目前，文字容器必須是其中一個&lt;xref:System.Windows.Documents.FlowDocument&gt;或&lt;xref:System.Windows.Controls.TextBlock&gt;.&lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Generally speaking, operations between TextPointer instances in different text containers are not supported.</source>
+          <target state="translated">一般而言，不支援 TextPointer 不同的文字容器中的執行個體之間的作業。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   Document - The content in a text container is referred to as a <bpt id="p1">*</bpt>document<ept id="p1">*</ept>, as in the &lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt; method and the &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; properties.</source>
+          <target state="translated">-文件-文字中的內容容器指<bpt id="p1">*</bpt>文件<ept id="p1">*</ept>，如同在&lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;方法和&lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;和&lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;屬性。&lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The TextPointer class is intended to facilitate traversal and manipulation of content that is represented by <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> flow content elements; in general, such elements derive from &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">TextPointer 類別為了加速周遊和操作的內容所表示之<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>流動內容項目，則這類項目在一般情況下，衍生自&lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Some of the operations that TextPointer facilitates include the following:      -   Perform an ordinal comparison of the current position with a second specified position.</source>
+          <target state="translated">某些作業，可促進 TextPointer 如下:-執行序數比較的第二個指定的位置與目前的位置。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; method.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   Determine the type of content adjacent to the current position in a specified direction.</source>
+          <target state="translated">-判斷目前的位置，以指定方向相鄰的內容類型。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointerContext&gt; enumeration.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;方法和&lt;xref:System.Windows.Documents.TextPointerContext&gt;列舉型別。&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-   Get the &lt;xref:System.Windows.Documents.TextElement&gt; that scopes or is adjacent to the current position.</source>
+          <target state="translated">-取得&lt;xref:System.Windows.Documents.TextElement&gt;的範圍或相鄰的目前位置。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Documents.Paragraph&gt; and the &lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; method.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.Paragraph&gt;和&lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; &lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-   Get the text container that scopes the current document.</source>
+          <target state="translated">-取得目前文件的範圍限制文字容器。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; property.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;屬性。&lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-   Get a specified number of characters preceding or following the current position.</source>
+          <target state="translated">-取得指定的前置或後的目前位置的字元數。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt; method.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   Insert a string of characters at the current position.</source>
+          <target state="translated">-在目前的位置插入字元的字串。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt; method.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   Find line boundaries in content.</source>
+          <target state="translated">-尋找內容中的行邊界。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;方法和&lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;屬性。&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-   Translate between TextPointer positions and symbol offsets into content.</source>
+          <target state="translated">-TextPointer 的位置和符號位移之間的內容進行轉譯。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;和&lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-   Perform visual hit testing by translating between a TextPointer position and a &lt;xref:System.Windows.Point&gt; representing relative coordinates.</source>
+          <target state="translated">-執行凙 TextPointer 位置之間視覺點擊測試和&lt;xref:System.Windows.Point&gt;代表相對座標表示。&lt;/xref:System.Windows.Point&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-   Find a nearby insertion position, or check whether the current position is an insertion position.</source>
+          <target state="translated">-尋找附近的插入位置，或檢查目前的位置是否為插入位置。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; methods and the &lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; property.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;和&lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;方法和&lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt;屬性。&lt;/xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The position and &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; indicated by a TextPointer object are immutable.</source>
+          <target state="translated">位置和&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;TextPointer 物件所指出是不變。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When content is edited or modified, the position indicated by a TextPointer does not change relative to the surrounding text; rather the offset of that position from the beginning of content is adjusted correspondingly to reflect the new relative position in content.</source>
+          <target state="translated">當內容是編輯或修改時，TextPointer 所指定的位置就不會變更相對於與周圍文字;而是內容開始從該位置的位移會跟著調整，以反映新的相對位置內容中。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, a TextPointer that indicates a position at the beginning of a given paragraph continues to point to the beginning of that paragraph even when content is inserted or deleted before or after the paragraph.</source>
+          <target state="translated">比方說，指出給定的段落開頭位置 TextPointer 會繼續以指向該段落的開頭，插入或刪除之前或之後在一段內容時，即使。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The TextPointer class does not provide any public constructors.</source>
+          <target state="translated">TextPointer 類別並未提供任何公用建構函式。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An instance of TextPointer is created by using properties or methods of other objects (including other TextPointer objects).</source>
+          <target state="translated">使用其他物件 （包括其他 TextPointer 物件） 的屬性或方法被建立 TextPointer 的執行個體。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following list provides a few examples of methods and properties that create and return a TextPointer.</source>
+          <target state="translated">下列清單提供一些方法和屬性，建立並傳回 TextPointer 的範例。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This list is not exhaustive:      -   From a &lt;xref:System.Windows.Documents.TextRange&gt;: &lt;xref:System.Windows.Documents.TextRange.Start%2A&gt; and &lt;xref:System.Windows.Documents.TextRange.End%2A&gt;.</source>
+          <target state="translated">此清單未全部列出:-從&lt;xref:System.Windows.Documents.TextRange&gt;︰&lt;xref:System.Windows.Documents.TextRange.Start%2A&gt;和&lt;xref:System.Windows.Documents.TextRange.End%2A&gt;。&lt;/xref:System.Windows.Documents.TextRange.End%2A&gt; &lt;/xref:System.Windows.Documents.TextRange.Start%2A&gt; &lt;/xref:System.Windows.Documents.TextRange&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.</source>
+          <target state="translated">-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.&lt;/xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-   From a &lt;xref:System.Windows.Controls.TextBlock&gt; (text container): &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;, &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;, and &lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;.</source>
+          <target state="translated">-從&lt;xref:System.Windows.Controls.TextBlock&gt;（文字容器）︰ &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;， &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;，和&lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;。&lt;/xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-   From a &lt;xref:System.Windows.Documents.FlowDocument&gt; (text container): &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;, and &lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;      -   From an existing TextPointer: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;, and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;.</source>
+          <target state="translated">-從&lt;xref:System.Windows.Documents.FlowDocument&gt;（文字容器）︰ &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;，和&lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;-從現有的 TextPointer: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;， &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;， &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;，和&lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;。&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Performs an ordinal comparison between the positions specified by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行序數比較目前所指定的位置之間<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和第二個指定<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A value of –1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; precedes the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">值為-1 表示位置指定由目前&lt;xref:System.Windows.Documents.TextPointer&gt;所指定的位置之前<ph id="ph1">`position`</ph>。&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates that the indicated positions are equal.</source>
+          <target state="translated">值為 0 指出指出的位置相等。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A value of positive +1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; follows the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">值為正數的 +&amp;1; 表示位置指定由目前&lt;xref:System.Windows.Documents.TextPointer&gt;遵循所指定的位置<ph id="ph1">`position`</ph>。&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定要比較的目前位置的位置。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>–1 if the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>; 0 if the locations are the same; +1 if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> follows <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">– 1，否則目前<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>之前<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>; 如果是相同的位置 0，則 + 1 如果目前<bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>遵循<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>指定目前的位置與相關聯的文字容器之外的位置。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Deletes the specified number of characters from the position indicated by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">從目前所指定的位置中刪除指定的字元數<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specify a positive value to delete characters that follow the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); specify a negative value to delete characters that precede the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">指定正值以刪除依照目前位置的字元 (在&lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); 指定負值可刪除在目前位置前面的字元 (像是&lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;)。&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of characters actually deleted may be less than the number specified by <ph id="ph1">`count`</ph>.</source>
+          <target state="translated">實際刪除的字元數目可能小於指定的數字<ph id="ph1">`count`</ph>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This happens in cases where <ph id="ph1">`count`</ph> specifies more characters than exist to be deleted.</source>
+          <target state="translated">此動作會在案例其中<ph id="ph1">`count`</ph>指定字元數超過要刪除的存在。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The number of characters to delete, starting at the current position.</source>
+          <target state="translated">要刪除的字元數從目前位置開始。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specify a positive value to delete characters that follow the current position; specify a negative value to delete characters that precede the current position.</source>
+          <target state="translated">指定要刪除依照目前的位置; 字元的正數值指定要刪除在目前位置前面的字元為負值。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The number of characters actually deleted.</source>
+          <target state="translated">實際刪除的字元數。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The method is called at a position where text is not allowed.</source>
+          <target state="translated">不允許文字的位置，會呼叫方法。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中目前的位置與相關聯的文字容器內容的結尾。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;如傳回&lt;xref:System.Windows.Documents.TextPointer&gt;永遠是文字容器 (&lt;xref:System.Windows.Controls.TextBlock&gt;或&lt;xref:System.Windows.Documents.FlowDocument&gt;)，而不是&lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>中目前的位置與相關聯的文字容器內容的結尾。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中目前的位置與相關聯的文字容器內容的開頭。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Use the position returned by this property as a baseline position from which to work with relative offsets to other positions.</source>
+          <target state="translated">使用這個屬性所傳回工作的其他位置的相對位移基準位置為的位置。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods provide a way to translate between positions and position offsets.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;和&lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;方法提供一個方式來轉譯位置和位置位移。&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;如傳回&lt;xref:System.Windows.Documents.TextPointer&gt;永遠是文字容器 (&lt;xref:System.Windows.Controls.TextBlock&gt;或&lt;xref:System.Windows.Documents.FlowDocument&gt;)，而不是&lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>中目前的位置與相關聯的文字容器內容的開頭。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns the element, if any, that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">傳回的項目，如果有的話，框線目前<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The returned element is typically a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">傳回的項目通常是&lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.UIElement&gt; can be returned when the &lt;xref:System.Windows.Documents.TextPointer&gt; indicates a position inside a &lt;xref:System.Windows.Documents.BlockUIContainer&gt; element or an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; element.</source>
+          <target state="translated">A&lt;xref:System.Windows.UIElement&gt;可以時會傳回&lt;xref:System.Windows.Documents.TextPointer&gt;表示的位置內&lt;xref:System.Windows.Documents.BlockUIContainer&gt;項目或&lt;xref:System.Windows.Documents.InlineUIContainer&gt;項目。&lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for an adjacent element.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定要在其中搜尋的相鄰項目邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The adjacent element in the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">direction</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no adjacent element exists.</source>
+          <target state="translated">在指定的相鄰項目<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">direction</ph> <ept id="p1">&lt;/code&gt;</ept>，或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果相鄰項目不存在。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Returns a bounding box (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) for content that borders the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">週框方塊會傳回 (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) 之內容的框線目前<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Documents.TextElement&gt; edges are not considered content for the purposes of this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextElement&gt;邊緣不考慮基於此方法的內容。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is positioned before a &lt;xref:System.Windows.Documents.TextElement&gt; edge, the return value is a bounding box for the next non-&lt;xref:System.Windows.Documents.TextElement&gt; content in the specified direction.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;位於之前&lt;xref:System.Windows.Documents.TextElement&gt;邊緣，則傳回值是週框方塊的下一個非&lt;xref:System.Windows.Documents.TextElement&gt;內容中指定的方向。&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If there is no content in the specified direction, a zero-width &lt;xref:System.Windows.Rect&gt; is returned with a height matching the height of any preceding content.</source>
+          <target state="translated">不是否有任何內容以指定方向，也就是零寬度&lt;xref:System.Windows.Rect&gt;傳回高度比對的高度任何先前的內容。&lt;/xref:System.Windows.Rect&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">這個方法所執行的作業取決於有效的配置。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">必要時，這個方法會嘗試自動重新產生有效的配置，再繼續作業。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">重新產生配置可能會相當耗費資源的作業。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;屬性來執行作業，可能會重新產生配置前先檢查有效的配置。&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>配置<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find a content bounding box.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定在其中尋找內容，週框方塊邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A bounding box for content that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified direction, or <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if current, valid layout information is unavailable.</source>
+          <target state="translated">週框方塊框線目前的內容<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以指定的方向，或<ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>目前，有效配置資訊是否無法使用。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified logical direction.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到最接近的插入位置，以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">插入位置是的位置，而不會中斷任何語意規則相關聯的內容可能會加入新的內容。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">在實務上，插入位置是在插入號可能位於所在位置的內容。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">有效範例&lt;xref:System.Windows.Documents.TextPointer&gt;不是插入位置的位置是相鄰的兩個位置&lt;xref:System.Windows.Documents.Paragraph&gt;標記 (亦即，在上一段結尾標記之間的下一個段落的開頭標記)。&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; already points to a valid insertion position, but the closing tag for a non-empty formatting sequence directly follows that position in the given direction, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is adjusted to point to the insertion position just after the close of the formatting sequence.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;已指向有效的插入位置，但結尾標記為非空白的格式化順序直接遵循該位置，以指定的方向，則&lt;xref:System.Windows.Documents.TextPointer&gt;傳回此方法會調整為指向插入位置，只在格式化序列的關閉之後。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For example, consider the markup sequence <ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>.</source>
+          <target state="translated">例如，請考慮標記序列<ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Note that there are two insertion positions between the letters <ph id="ph1">`a`</ph> and <ph id="ph2">`b`</ph>—one that precedes the closing <ph id="ph3">`Bold`</ph> tag, and one directly following the closing <ph id="ph4">`Bold`</ph> tag.</source>
+          <target state="translated">請注意，有兩個字母之間的插入位置<ph id="ph1">`a`</ph>和<ph id="ph2">`b`</ph>— 一個之前關閉<ph id="ph3">`Bold`</ph>標籤和一個直接跟在結尾<ph id="ph4">`Bold`</ph>標記。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If GetInsertionPosition is called on a &lt;xref:System.Windows.Documents.TextPointer&gt; to the position directly after the letter <ph id="ph1">`a`</ph> and before of the closing <ph id="ph2">`Bold`</ph> tag, and with a <ph id="ph3">`direction`</ph> of &lt;xref:System.Windows.Documents.LogicalDirection&gt;, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is adjusted to point to the position just before the letter <ph id="ph4">`b`</ph>, after the closing <ph id="ph5">`Bold`</ph> tag.</source>
+          <target state="translated">如果上呼叫 GetInsertionPosition&lt;xref:System.Windows.Documents.TextPointer&gt;直接在字母之後的位置<ph id="ph1">`a`</ph>之前關閉作業的<ph id="ph2">`Bold`</ph>標記，與<ph id="ph3">`direction`</ph>的&lt;xref:System.Windows.Documents.LogicalDirection&gt;，傳回&lt;xref:System.Windows.Documents.TextPointer&gt;調整以指向剛才的字母前面的位置<ph id="ph4">`b`</ph>，關閉後<ph id="ph5">`Bold`</ph>標記。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A similar adjustment is made for opening formatting tags when working in the opposite logical direction.</source>
+          <target state="translated">會進行類似的調整方向會相反邏輯工作時開啟格式標記。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This method is intended to provide a means of disambiguation between insertion positions in similar cases.</source>
+          <target state="translated">這個方法會提供類似的情況下的插入位置之間的去除混淆的。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This method can also be used to be selective about insertion points when a sequence of structural tags is involved.</source>
+          <target state="translated">這個方法也可以用於當涉及一連串的結構化的標記是選擇插入點。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, when at a position between closing and opening paragraph tags, the direction parameter can be used to select the closest insertion point at the beginning of the following paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) or at the end of the preceding paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">例如，在初餘額和期末段落標記之間的位置，當方向參數可用來選取下列段落的開頭處最接近插入點 (藉由指定&lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) 或在上一段的結尾 (藉由指定&lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;)。&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the pointer is already at insertion position, and there are no adjacent formatting tags in the specified <ph id="ph1">`direction`</ph>, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; points to the same position as the calling &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">如果指標已經插入位置，並在指定沒有任何相鄰的格式化標記<ph id="ph1">`direction`</ph>，傳回&lt;xref:System.Windows.Documents.TextPointer&gt;呼叫&lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;相同位置的點&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It is possible that no valid insertion position exists relative to the position pointed to by a &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">可能沒有有效的插入位置有存在相對於&lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;所指向的位置</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This can happen if the referenced content is structurally incomplete, as in an empty table or list.</source>
+          <target state="translated">如果參照的內容在結構上尚未完成，如所示的空白資料表或清單，也可能會發生。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>In such cases, this method simply returns a &lt;xref:System.Windows.Documents.TextPointer&gt; to the same position as the &lt;xref:System.Windows.Documents.TextPointer&gt; from which this method was called.</source>
+          <target state="translated">在這種情況下，這個方法只會傳回&lt;xref:System.Windows.Documents.TextPointer&gt;為相同的位置以&lt;xref:System.Windows.Documents.TextPointer&gt;從呼叫這個方法。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This method always returns a valid &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">這個方法一律會傳回有效的&lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the closest insertion position.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定要在其中搜尋最接近的插入位置的邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified direction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>到最接近的插入位置，以指定的方向。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來指定相對於目前的行首<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; is selected as the relative starting line.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;指向模稜兩可的位置，例如，兩行，之間所指定的方向中的行&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;當做相對的開始行。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">這個方法所執行的作業取決於有效的配置。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">必要時，這個方法會嘗試自動重新產生有效的配置，再繼續作業。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">重新產生配置可能會相當耗費資源的作業。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Use &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;執行作業，可能會重新產生配置前先檢查有效的配置。&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>配置<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">判斷要傳回的開始位置的行時，略過的起始行的標記數目。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">負數值指定前線條、 0 指定目前的行，以及下列行，指定正數值。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the specified line is out of range or otherwise cannot be located.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指向指定的行首 (與&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;設<bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，或<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>如果指定的行超出範圍或否則找不到。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and reports how many lines were skipped.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來指定相對於目前的行首<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，並報告已略過多少行。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;指向模稜兩可的位置，例如，兩行，之間所指定的方向中的行&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;屬性當做相對的開始行。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">判斷要傳回的開始位置的行時，略過的起始行的標記數目。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">負數值指定前線條、 0 指定目前的行，以及下列行，指定正數值。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the actual number of start-of-line markers that were skipped when determining the line for which to return the starting position.</source>
+          <target state="translated">這個方法傳回時，包含起始的行標記判斷要傳回的開始位置的行時略過的實際數目。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This value may be less than <ph id="ph1">`count`</ph> if the beginning or end of content is encountered before the specified number of lines are skipped.</source>
+          <target state="translated">此值可能小於<ph id="ph1">`count`</ph>如果的開頭或結尾的內容之前遇到中斷點會略過指定的行數。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or to the beginning of the line closest to the specified line if the specified line is out of range.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指向指定的行首 (與&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;設<bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，或如果指定的行超出指定的行最接近一行的開頭。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns a pointer to the next symbol in the specified logical direction.</source>
+          <target state="translated">讓指標回到指定的邏輯方向中的下一個符號。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">下列其中一項會被視為符號:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目中包含&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, &lt;xref:System.Windows.Documents.TextPointerContext&gt;, or &lt;xref:System.Windows.Documents.TextPointerContext&gt; (as identified by the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method), then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced by exactly one symbol from the current position.</source>
+          <target state="translated">如果下一個符號是否分類為&lt;xref:System.Windows.Documents.TextPointerContext&gt;， &lt;xref:System.Windows.Documents.TextPointerContext&gt;，或&lt;xref:System.Windows.Documents.TextPointerContext&gt;(以&lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;方法)，則&lt;xref:System.Windows.Documents.TextPointer&gt;傳回此方法由一個符號進階從目前的位置。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced past the text to the next non-text symbol (that is, the next position where the &lt;xref:System.Windows.Documents.TextPointerContext&gt; is not &lt;xref:System.Windows.Documents.TextPointerContext&gt;).</source>
+          <target state="translated">如果下一個符號是否分類為&lt;xref:System.Windows.Documents.TextPointerContext&gt;，然後在&lt;xref:System.Windows.Documents.TextPointer&gt;傳回此方法會超過文字前進至下一個非文字符號 (也就是下一個位置&lt;xref:System.Windows.Documents.TextPointerContext&gt;不&lt;xref:System.Windows.Documents.TextPointerContext&gt;)。&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The exact symbol count crossed can be calculated in advance by calling the &lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt; method.</source>
+          <target state="translated">確切的符號計數已超過可以事先計算方式是呼叫&lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;方法。&lt;/xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next symbol.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定要在其中搜尋下一個符號邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next symbol in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> borders the start or end of content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>到要求的方向的下一個符號或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果目前<bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>框線的開始或結束內容。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next insertion position in the specified logical direction.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的下一個的插入位置，以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated"><bpt id="p1">*</bpt>插入位置<ept id="p1">*</ept>位置，而不會中斷任何語意規則相關聯的內容可能會加入新的內容。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">在實務上，插入位置是在插入號可能位於所在位置的內容。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">有效範例&lt;xref:System.Windows.Documents.TextPointer&gt;不是插入位置的位置是相鄰的兩個位置&lt;xref:System.Windows.Documents.Paragraph&gt;標記 (亦即，在上一段結尾標記之間的下一個段落的開頭標記)。&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next insertion position.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定要在其中搜尋下一個的插入位置的邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the next insertion position in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no next insertion position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>識別要求的方向下, 一步的插入位置或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果找不到任何下一步的插入位置。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns the count of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回的符號計數之間目前<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和第二個指定<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">下列其中一項會被視為符號:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目中包含&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to find the distance (in symbols) to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定要尋找的距離 （以符號） 的位置。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The relative number of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">相對的數字的符號之間目前<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A negative value indicates that the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> follows the position specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>, 0 indicates that the positions are equal, and a positive value indicates that the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> precedes the position specified by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">負數的值，指出目前<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>遵循所指定的位置<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>，0 表示位置相等，而正數的值，指出目前<bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>所指定的位置之前<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>指定目前的位置與相關聯的文字容器之外的位置。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returns a category indicator for the content adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">傳回內容的類別指標至目前相鄰<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to determine the category for adjacent content.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定邏輯的方向，以決定相鄰內容類別。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the category for adjacent content in the specified logical direction.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，表示相鄰的內容，以指定的邏輯方向的分類。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至指定的位移，符號，從目前的開頭中所指定的位置<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">下列其中一項會被視為符號:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目中包含&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">以符號，這是要計算並傳回位置的位移。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the position is calculated in the logical direction opposite of that indicated by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; property.</source>
+          <target state="translated">位置位移為負數，如果計算中所指出的相反邏輯方向&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;屬性。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no corresponding position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>至指定的位移所指定的位置或<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果找不到任何對應的位置。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and in the specified direction.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至指定的位移，符號，從目前的開頭中所指定的位置<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和指定的方向。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">下列其中一項會被視為符號:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目中包含&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">以符號，這是要計算並傳回位置的位移。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the returned <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, it follows.</source>
+          <target state="translated">如果位移為負數，傳回<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>位於目前<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; 否則它會遵循。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction of the returned <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定傳回之邏輯的方向<bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if the offset extends past the end of the content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>至指定的位移所指定的位置或<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果位移超出內容的結尾。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Returns a string containing any text adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">傳回字串，包含要與目前鄰近的任何文字<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">這個方法會傳回只執行不中斷的執行的文字。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">如果任何符號類型以外，不會傳回&lt;xref:System.Windows.Documents.TextPointerContext&gt;相鄰目前&lt;xref:System.Windows.Documents.TextPointer&gt;中指定的方向。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">同樣地，文字只會傳回至下一個非文字符號。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and return any adjacent text.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定邏輯，以尋找並傳回任何相鄰的文字方向的值。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>A string containing any adjacent text in the specified logical direction, or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if no adjacent text can be found.</source>
+          <target state="translated">字串，包含任何相鄰的文字，以指定的邏輯方向，或<ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>如果找不到任何相鄰的文字。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Copies the specified maximum number of characters from any adjacent text in the specified direction into a caller-supplied character array.</source>
+          <target state="translated">將指定的最大字元數複製從任何相鄰的文字，以指定的方向為呼叫端提供的字元陣列。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">這個方法會傳回只執行不中斷的執行的文字。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">如果任何符號類型以外，不會傳回&lt;xref:System.Windows.Documents.TextPointerContext&gt;相鄰目前&lt;xref:System.Windows.Documents.TextPointer&gt;中指定的方向。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">同樣地，文字只會傳回至下一個非文字符號。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and copy any adjacent text.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定邏輯，以尋找並複製任何相鄰的文字方向的值。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A buffer into which any text is copied.</source>
+          <target state="translated">複製到其中的任何文字緩衝區。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An index into <ph id="ph1">`textBuffer`</ph> at which to begin writing copied text.</source>
+          <target state="translated">中的索引<ph id="ph1">`textBuffer`</ph>中要開始複製的書寫文字。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to copy.</source>
+          <target state="translated">要複製的字元數目上限。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The number of characters actually copied into <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">textBuffer</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">實際複製的字元數<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">textBuffer</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph> is less than 0 or greater than the <ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph> property of <ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>小於 0 或大於<ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph>屬性<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0 or greater than the remaining space in <ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph> (<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>小於 0 或大於區內的剩餘空間<ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph>(<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>。<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>minus <ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>).</source>
+          <target state="translated">減<ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>)。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Returns the number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol, in the specified logical direction.</source>
+          <target state="translated">傳回目前之間的 Unicode 字元數<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和下一步的非文字符號，以指定的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">下列其中一項會被視為符號:-開頭或結尾標記&lt;xref:System.Windows.Documents.TextElement&gt;項目。&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.UIElement&gt;項目中包含&lt;xref:System.Windows.Documents.InlineUIContainer&gt;或&lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt; a</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">請注意，這類&lt;xref:System.Windows.UIElement&gt;一律會計算為一個符號，則為任何其他內容或所包含的項目&lt;xref:System.Windows.UIElement&gt;不會計入為符號。&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-16 位元<ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph>內文字的字元&lt;xref:System.Windows.Documents.Run&gt;項目。&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to count the number of characters.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定要在其中計算的字元數邏輯的方向。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol.</source>
+          <target state="translated">目前之間的 Unicode 字元的數目<bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和下一個非文字符號。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>This number may be 0 if there is no adjacent text.</source>
+          <target state="translated">這個數字可能是 0，如果沒有相鄰的文字。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the text container associated with the current position has a valid (up-to-date) layout.</source>
+          <target state="translated">取得值，指出目前的位置與相關聯的文字容器是否具有有效 （最新） 的配置。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>When necessary, operations that depend on a valid layout (such as the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method, &lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; method, and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property) attempt to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">如有必要，取決於有效的配置的作業 (例如&lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;方法，&lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt;方法，和&lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;屬性) 嘗試自動重新產生有效的配置，再繼續作業。&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">重新產生配置可能會相當耗費資源的作業。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Use this property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">使用這個屬性來執行作業，可能會重新產生配置前先檢查有效的配置。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>配置<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the layout is current and valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果版面配置是最新且有效。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Inserts a line break at the current position.</source>
+          <target state="translated">在目前的位置插入分行符號。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> positioned immediately after the <bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element inserted by this method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>放置之後立即<bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>這個方法所插入的項目。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Inserts a paragraph break at the current position.</source>
+          <target state="translated">在目前的位置插入分段符號。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>If this method is called when the current position is inside of an existing &lt;xref:System.Windows.Documents.Paragraph&gt; element, the existing paragraph and any content it contains are split into two paragraphs at the current position.</source>
+          <target state="translated">如果目前的位置內的現有時，呼叫此方法&lt;xref:System.Windows.Documents.Paragraph&gt;項目、 現有段落和它所包含的任何內容，已分成兩個段落，目前的位置。&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>If this method is called when the current position is not inside of an existing paragraph, a new, empty paragraph is inserted.</source>
+          <target state="translated">如果目前的位置不在現有的段落內時呼叫這個方法時，會插入新的空白段落。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>If this method is called at a position unsuitable for splitting or inserting a paragraph (for example, if the current position is inside of a &lt;xref:System.Windows.Documents.Hyperlink&gt; element), an exception is thrown.</source>
+          <target state="translated">如果這個方法呼叫的位置不適合進行分割，或插入段落 (例如，如果目前的位置是在&lt;xref:System.Windows.Documents.Hyperlink&gt;項目)，會擲回例外狀況。&lt;/xref:System.Windows.Documents.Hyperlink&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) of the new paragraph.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>開頭 (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) 的新的段落。&lt;/xref:System.Windows.Documents.TextElement.ContentStart*&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This method is called on a position that cannot be split to accommodate a new paragraph, such as in the scope of a <bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">無法以容納新的段落，例如，範圍中的分割位置呼叫這個方法<bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Inserts the specified text into the text <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the current position.</source>
+          <target state="translated">將指定的文字插入至文字<bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在目前的位置。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is not scoped by a &lt;xref:System.Windows.Documents.Run&gt; element, a &lt;xref:System.Windows.Documents.Run&gt; is inserted along with the <ph id="ph1">`textData`</ph>.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;範圍不是由&lt;xref:System.Windows.Documents.Run&gt;項目，&lt;xref:System.Windows.Documents.Run&gt;插入連同<ph id="ph1">`textData`</ph>。&lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The text to insert.</source>
+          <target state="translated">要插入的文字。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The current position is not within a <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">目前的位置不在<bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>項目。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is an insertion position.</source>
+          <target state="translated">取得值，指出目前位置是否為插入位置。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">插入位置是的位置，而不會中斷任何語意規則相關聯的內容可能會加入新的內容。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">在實務上，插入位置是在插入號可能位於所在位置的內容。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">有效範例&lt;xref:System.Windows.Documents.TextPointer&gt;不是插入位置的位置是相鄰的兩個位置&lt;xref:System.Windows.Documents.Paragraph&gt;標記 (亦即，在上一段結尾標記之間的下一個段落的開頭標記)。&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is an insertion position; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果目前的位置插入位置。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is at the beginning of a line.</source>
+          <target state="translated">取得值，指出目前的位置是否在一行的開頭。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Documents.TextPointer&gt;指向模稜兩可的位置，例如，兩行，之間所指定的方向中的行&lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;屬性當做相對的開始行。&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The operation performed by this property depends on a valid layout.</source>
+          <target state="translated">這個屬性所執行的作業取決於有效的配置。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">必要時，這個方法會嘗試自動重新產生有效的配置，再繼續作業。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">重新產生配置可能會相當耗費資源的作業。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;屬性來執行作業，可能會重新產生配置前先檢查有效的配置。&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>配置<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is at the beginning of a line; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果目前位置的行開頭否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified position is in the same text container as the current position.</source>
+          <target state="translated">指出是否為目前的位置相同的文字容器中指定的位置。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Most operations that involve multiple &lt;xref:System.Windows.Documents.TextPointer&gt; instances are only valid if the instances in question indicate positions that are in the same text container scope.</source>
+          <target state="translated">大部分的作業牽涉到多個&lt;xref:System.Windows.Documents.TextPointer&gt;執行個體才有效，如果有問題的執行個體表示相同的文字容器範圍中的位置。&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>For example the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; methods cannot be used with a &lt;xref:System.Windows.Documents.TextPointer&gt; to a position outside of the text container associated with the current position.</source>
+          <target state="translated">例如&lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;和&lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;方法不能與&lt;xref:System.Windows.Documents.TextPointer&gt;到目前的位置與相關聯的文字容器之外的位置。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Use this method to verify that a specified &lt;xref:System.Windows.Documents.TextPointer&gt; is compatible with the current position for such operations.</source>
+          <target state="translated">使用這個方法可讓您確認指定&lt;xref:System.Windows.Documents.TextPointer&gt;與這類作業的目前位置相容。&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定要比較的目前位置的位置。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">textPosition</ph><ept id="p2">&lt;/code&gt;</ept> indicates a position that is in the same text container as the current position; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">textPosition</ph> <ept id="p2">&lt;/code&gt;</ept>指出的位置時，在相同的文字容器中與目前的位置; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets the logical direction associated with the current position which is used to disambiguate content associated with the current position.</source>
+          <target state="translated">取得與目前用來區分目前位置相關聯的內容所在位置相關聯的邏輯方向。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>As an example of how this property is used, the &lt;xref:System.Windows.Documents.LogicalDirection&gt; of the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by a hit test method gives a hit that is between two characters of text.</source>
+          <target state="translated">如何使用這個屬性，例如&lt;xref:System.Windows.Documents.LogicalDirection&gt;的&lt;xref:System.Windows.Documents.TextPointer&gt;傳回點擊測試方法會將兩個字元的文字之間叫用。&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The logical direction specifies which of the two characters was actually hit—the left or the right.</source>
+          <target state="translated">邏輯方向指定這兩個字元的實際點擊 — 左邊或右邊。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is associated with the current position.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>目前的位置與相關聯的值。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets the paragraph that scopes the current position, if any.</source>
+          <target state="translated">如果有的話，請取得範圍的目前位置的段落。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that scopes the current position, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no such paragraph exists.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的範圍目前的位置，或<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果沒有這類段落存在。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the logical parent that scopes the current position.</source>
+          <target state="translated">取得範圍的目前位置的邏輯父代。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The logical parent that scopes the current position.</source>
+          <target state="translated">範圍的目前位置邏輯父代。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This type or member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">這個類型或成員支援<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>基礎結構，不適合直接從您的程式碼使用。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The string that represents the object.</source>
+          <target state="translated">代表物件的字串。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

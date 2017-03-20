@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92f96cb8b1a4729cd8414a74d63a31ea58dc4cb9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.BindingManagerBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85af309bbe2853dd910965a8a4f3f311881f7291</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff6c7ce01328eadc12e4bc4b1a93ea57f9e16fa7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages all <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that are bound to the same data source and data member.</source>
+          <target state="translated">管理所有<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>繫結至相同的資料來源和資料成員的物件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is abstract.</source>
+          <target state="translated">這個類別是抽象的。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The BindingManagerBase enables the synchronization of data-bound controls on a Windows Form that are bound to the same data source.</source>
+          <target state="translated">BindingManagerBase 可讓 Windows Form 上的資料繫結控制項繫結至相同的資料來源的同步處理。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>(For more information about simple binding a control to a data source, see the &lt;xref:System.Windows.Forms.Binding&gt; class.) For example, suppose that a form contains two &lt;xref:System.Windows.Forms.TextBox&gt; controls that are bound to the same data source but to different columns.</source>
+          <target state="translated">(如需簡單的控制項繫結至資料來源的詳細資訊，請參閱&lt;xref:System.Windows.Forms.Binding&gt;類別)&lt;/xref:System.Windows.Forms.Binding&gt;例如，假設表單包含兩個&lt;xref:System.Windows.Forms.TextBox&gt;相同的資料來源，但不同的資料行繫結的控制項。&lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The data source might be a &lt;xref:System.Data.DataTable&gt; that contains customer names, while the columns might contain the first and last names.</source>
+          <target state="translated">資料來源可能是&lt;xref:System.Data.DataTable&gt;，其中包含客戶的名稱，而資料行可能包含第一個和最後一個名稱。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The two controls must be synchronized in order to display the correct first and last names together for the same customer.</source>
+          <target state="translated">必須同步處理兩個控制項，以顯示正確的第一個和最後一個名稱，以相同的客戶。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager&gt;, which inherits from the BindingManagerBase class, accomplishes this synchronization by maintaining a pointer to the current item in the data source.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager&gt;，後者繼承自 BindingManagerBase 類別，藉由維護目前的項目中的資料來源的指標會完成此同步處理。&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.TextBox&gt; controls are bound to the current item so they display the information for the same row.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.TextBox&gt;控制項的繫結到目前的項目使它們顯示相同的資料列的資訊。&lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the current item changes, the &lt;xref:System.Windows.Forms.CurrencyManager&gt; notifies all the bound controls so that they can refresh their data.</source>
+          <target state="translated">當目前的項目變更時，&lt;xref:System.Windows.Forms.CurrencyManager&gt;通知所有繫結控制項，好讓它們可以重新整理其資料。&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Furthermore, you can set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; property to specify the row in the &lt;xref:System.Data.DataTable&gt; that the controls point to.</source>
+          <target state="translated">此外，您可以設定&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;屬性來指定中的資料列&lt;xref:System.Data.DataTable&gt;控制項指向。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To determine how many rows exist in the data source, use the &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property.</source>
+          <target state="translated">若要判斷資料來源中的多少資料列存在，請使用&lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;屬性。&lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager&gt; is necessary because data sources do not necessarily maintain a current-item pointer.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager&gt;是必要的因為資料來源不一定會維護目前項目指標。&lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For instance, arrays and &lt;xref:System.Collections.ArrayList&gt; objects can be data sources, but they do not have a property that returns the current item.</source>
+          <target state="translated">例如，陣列和&lt;xref:System.Collections.ArrayList&gt;物件可以是資料來源，但它們之間沒有屬性，可傳回目前的項目。&lt;/xref:System.Collections.ArrayList&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To get the current item, use the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; property.</source>
+          <target state="translated">若要取得目前的項目，請使用&lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;屬性。&lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.PropertyManager&gt; also inherits from the BindingManagerBase, and it is used to maintain the current property of an object, rather than the property of a current object in a data source.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.PropertyManager&gt;也會繼承 BindingManagerBase，而且它用來維護之目前屬性的物件，而不是資料來源中的目前物件的屬性。&lt;/xref:System.Windows.Forms.PropertyManager&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For this reason, trying to set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; or &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property for a &lt;xref:System.Windows.Forms.PropertyManager&gt; has no effect.</source>
+          <target state="translated">基於這個理由，嘗試設定&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;或&lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;屬性&lt;xref:System.Windows.Forms.PropertyManager&gt;沒有任何作用。&lt;/xref:System.Windows.Forms.PropertyManager&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To create a BindingManagerBase, use the &lt;xref:System.Windows.Forms.BindingContext&gt; class, which returns either a &lt;xref:System.Windows.Forms.CurrencyManager&gt; or a &lt;xref:System.Windows.Forms.PropertyManager&gt;, depending on the data source being managed.</source>
+          <target state="translated">若要建立 BindingManagerBase，使用&lt;xref:System.Windows.Forms.BindingContext&gt;類別，會傳回&lt;xref:System.Windows.Forms.CurrencyManager&gt;或&lt;xref:System.Windows.Forms.PropertyManager&gt;，視受管理的資料來源。&lt;/xref:System.Windows.Forms.PropertyManager&gt; &lt;/xref:System.Windows.Forms.CurrencyManager&gt; &lt;/xref:System.Windows.Forms.BindingContext&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Solutions programmers are encouraged to bind controls directly to a &lt;xref:System.Windows.Forms.BindingSource&gt; component, which acts as both a data source and data connector to the actual target data source.</source>
+          <target state="translated">方案的程式設計人員會鼓勵直接繫結控制項至&lt;xref:System.Windows.Forms.BindingSource&gt;元件，可做為資料來源和實際的目標資料來源的資料連接器。&lt;/xref:System.Windows.Forms.BindingSource&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.BindingSource&gt; greatly simplifies both simple and complex data binding, including managing currency between the control and its target.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingSource&gt;大幅簡化了這兩個簡單和複雜資料繫結，包括管理控制項和其目標之間的貨幣。&lt;/xref:System.Windows.Forms.BindingSource&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default constructor sets the &lt;xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt; property to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設建構函式集&lt;xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt;屬性<ph id="ph1">`null`</ph>。&lt;/xref:System.Windows.Forms.BindingManagerBase.Bindings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, adds a new item to the underlying list.</source>
+          <target state="translated">在衍生類別中覆寫，將新項目加入基礎清單中。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The AddNew method adds a new item to the underlying list by using the default constructor for that item's type.</source>
+          <target state="translated">AddNew 方法會將新項目加入基礎清單加入的項目類型使用預設建構函式。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>AddNew is intended primarily to be used by programmers adding complex data-binding support to their custom component.</source>
+          <target state="translated">AddNew 主要被為了供程式設計人員將複雜資料繫結支援加入至其自訂元件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>AddNew is commonly implemented using the following pattern that allows application programmers to inject their own code for creating customized items:      1.</source>
+          <target state="translated">使用下列模式，可讓應用程式設計人員將自己的程式碼建立自訂項目通常實作 AddNew: 1。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>AddNew raises the &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt; event.</source>
+          <target state="translated">AddNew 引發&lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt;事件。&lt;/xref:System.Windows.Forms.BindingSource.AddingNew&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The programmer can supply a custom item by handling the &lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt; event and setting the &lt;xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt; property of the &lt;xref:System.ComponentModel.AddingNewEventArgs&gt; parameter to the new item.</source>
+          <target state="translated">程式設計人員可以提供自訂的項目，藉由處理&lt;xref:System.Windows.Forms.BindingSource.AddingNew&gt;事件及設定&lt;xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt;屬性&lt;xref:System.ComponentModel.AddingNewEventArgs&gt;參數，以新的項目。&lt;/xref:System.ComponentModel.AddingNewEventArgs&gt; &lt;/xref:System.ComponentModel.AddingNewEventArgs.NewObject%2A&gt; &lt;/xref:System.Windows.Forms.BindingSource.AddingNew&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Otherwise, the component should create an item using the default constructor.</source>
+          <target state="translated">否則，此元件應該建立使用預設建構函式項目。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the data source does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, the item is immediately added to the data source and underlying list.</source>
+          <target state="translated">如果資料來源沒有實作&lt;xref:System.ComponentModel.IEditableObject&gt;介面，將項目立即加入基礎清單與資料來源。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If this interface is supported, then the addition is transacted by the &lt;xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt; and &lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt; methods.</source>
+          <target state="translated">如果支援這個介面，然後加入已由交易&lt;xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt;和&lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt;方法。&lt;/xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.CancelCurrentEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Occurs at the completion of a data-binding operation.</source>
+          <target state="translated">在資料繫結作業完成時發生。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The BindingComplete event occurs after the completion of a data-binding operation, which may include the following:      -   Pushing information from the data source into the property of its bound control.</source>
+          <target state="translated">資料繫結作業，其中可能包含下列完成後就會發生 BindingComplete 事件:-將資訊從資料來源推送至其繫結控制項的屬性。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-   Pulling information from a bound control into its associated data source.</source>
+          <target state="translated">-提取資訊從繫結控制項至其相關聯的資料來源。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Note that this event is raised regardless of the completion status of the binding operation, although this status can be determined by examining the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; parameter associated with the event.</source>
+          <target state="translated">請注意會引發這個事件，不論完成狀態的繫結作業中，雖然這個狀態可以檢查來判斷&lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;屬性&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;與事件相關聯的參數。&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt; &lt;/xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; may also contain error and exception information.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;也可能包含錯誤和例外狀況資訊。&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, a binding operation that attempts to push a null value from a data source into a &lt;xref:System.Windows.Forms.DateTimePicker&gt; control will generate an exception, since a &lt;xref:System.DateTime&gt; cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">例如，在嘗試推播到資料來源的 null 值的繫結作業&lt;xref:System.Windows.Forms.DateTimePicker&gt;控制項將會產生例外狀況，因為&lt;xref:System.DateTime&gt;不可<ph id="ph1">`null`</ph>。&lt;/xref:System.DateTime&gt; &lt;/xref:System.Windows.Forms.DateTimePicker&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In this case, although the binding operation does not successfully complete, the BindingComplete event will be raised, and the event will contain information on the failed binding attempt.</source>
+          <target state="translated">在此情況下，繫結作業未順利完成，雖然 BindingComplete 事件將會引發，和事件將包含在嘗試失敗的繫結資訊。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the collection of bindings being managed.</source>
+          <target state="translated">取得受管理的繫結的集合。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingsCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects managed by this <bpt id="p3">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingsCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含<bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件，此管理<bpt id="p3">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, cancels the current edit.</source>
+          <target state="translated">當在衍生類別中覆寫時，取消目前的編輯。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method is supported only if the data source implements the &lt;xref:System.ComponentModel.IEditableObject&gt; interface.</source>
+          <target state="translated">這個方法僅支援資料來源實作&lt;xref:System.ComponentModel.IEditableObject&gt;介面。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the object does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, changes made to the data will not be discarded.</source>
+          <target state="translated">如果物件未實作&lt;xref:System.ComponentModel.IEditableObject&gt;介面，對資料進行的變更不會被捨棄。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Calling the CancelCurrentEdit method causes the &lt;xref:System.Windows.Forms.Binding.Format&gt; event to occur.</source>
+          <target state="translated">呼叫 CancelCurrentEdit 方法會導致&lt;xref:System.Windows.Forms.Binding.Format&gt;事件發生。&lt;/xref:System.Windows.Forms.Binding.Format&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the number of rows managed by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">當在衍生類別中覆寫時，取得所管理的資料列數目<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use the Count property to determine the last item in the list of rows maintained by the &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.</source>
+          <target state="translated">使用 Count 屬性來判斷&lt;xref:System.Windows.Forms.BindingManagerBase&gt;.&lt;/xref:System.Windows.Forms.BindingManagerBase&gt;所維護的資料列在清單中的最後一個項目</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To go to the last item, set the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; property to the Count property value minus 1.</source>
+          <target state="translated">若要移到最後一個項目，設定&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;計數屬性值減 1 的屬性。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The number of rows managed by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">管理的資料列數目<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the current object.</source>
+          <target state="translated">當在衍生類別中覆寫時，取得目前的物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Current object contains the value of the current item in the data source.</source>
+          <target state="translated">目前的物件包含資料來源中的目前項目的值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To use the value of the current item, you must cast the item to the &lt;xref:System.Type&gt; of the object contained by the &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;.</source>
+          <target state="translated">若要使用目前的項目值，您必須轉換至&lt;xref:System.Type&gt;&lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;.&lt;/xref:System.Windows.Forms.Binding.DataSource%2A&gt;所包含之物件的&lt;/xref:System.Type&gt;項目</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, a &lt;xref:System.Data.DataTable&gt; contains &lt;xref:System.Data.DataRowView&gt; objects.</source>
+          <target state="translated">例如，&lt;xref:System.Data.DataTable&gt;包含&lt;xref:System.Data.DataRowView&gt;物件。&lt;/xref:System.Data.DataRowView&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To determine the type of the current object, use the &lt;xref:System.Object.GetType%2A&gt; and &lt;xref:System.Type.ToString%2A&gt; methods.</source>
+          <target state="translated">若要判斷目前物件的類型，請使用&lt;xref:System.Object.GetType%2A&gt;和&lt;xref:System.Type.ToString%2A&gt;方法。&lt;/xref:System.Type.ToString%2A&gt; &lt;/xref:System.Object.GetType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt; is a &lt;xref:System.Data.DataSet&gt;, &lt;xref:System.Data.DataViewManager&gt;, or &lt;xref:System.Data.DataTable&gt;, you are actually binding to a &lt;xref:System.Data.DataView&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 時&lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;是&lt;xref:System.Data.DataSet&gt;， &lt;xref:System.Data.DataViewManager&gt;，或&lt;xref:System.Data.DataTable&gt;，您就實際繫結至&lt;xref:System.Data.DataView&gt;。&lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Windows.Forms.Binding.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Consequently, each Current object is a &lt;xref:System.Data.DataRowView&gt; object.</source>
+          <target state="translated">因此，每個目前的物件是&lt;xref:System.Data.DataRowView&gt;物件。&lt;/xref:System.Data.DataRowView&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the current object.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，代表目前物件。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occurs when the currently bound item changes.</source>
+          <target state="translated">發生於目前繫結項目變更時。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The CurrentChanged event is raised whenever the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; property changes or the &lt;xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt; event occurs.</source>
+          <target state="translated">CurrentChanged 引發每當&lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;屬性變更或&lt;xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt;就會發生事件。&lt;/xref:System.Windows.Forms.BindingManagerBase.CurrentItemChanged&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Occurs when the state of the currently bound item changes.</source>
+          <target state="translated">發生於目前繫結項目的狀態變更時。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The CurrentItemChanged event occurs whenever there is a change in the state in the currently bound item.</source>
+          <target state="translated">在目前繫結項目狀態變更時，就會發生 CurrentItemChanged 事件。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This can occur if one of the properties of this item is changed or if the item itself is replaced or moved.</source>
+          <target state="translated">如果此項目的屬性已變更或取代或移動項目本身，也可能會發生。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when an &lt;xref:System.Exception&gt; is silently handled by the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">發生時&lt;xref:System.Exception&gt;以無訊息模式由<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This event is informational and reports Common Language Specification (CLS)-compliant exceptions only.</source>
+          <target state="translated">此事件僅提供資訊，並報告 Common Language Specification (CLS)-僅相容的例外狀況。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To determine what type of exception occurred, handle this event and check the &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt;.</source>
+          <target state="translated">若要判斷發生何種類型的例外狀況，處理這個事件，並檢查&lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt;&lt;xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt;.&lt;/xref:System.Windows.Forms.BindingManagerDataErrorEventArgs&gt;屬性&lt;/xref:System.Windows.Forms.BindingManagerDataErrorEventArgs.Exception%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, ends the current edit.</source>
+          <target state="translated">在衍生類別中覆寫，結束目前的編輯。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This method is supported only if the data source implements the &lt;xref:System.ComponentModel.IEditableObject&gt; interface.</source>
+          <target state="translated">這個方法僅支援資料來源實作&lt;xref:System.ComponentModel.IEditableObject&gt;介面。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In that case, changes will be saved.</source>
+          <target state="translated">在此情況下，將儲存的變更。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the object does not implement the &lt;xref:System.ComponentModel.IEditableObject&gt; interface, changes made to the data will not be saved.</source>
+          <target state="translated">如果物件未實作&lt;xref:System.ComponentModel.IEditableObject&gt;介面，將不儲存資料所做的變更。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the collection of property descriptors for the binding.</source>
+          <target state="translated">當在衍生類別中覆寫時，取得繫結的屬性描述項集合。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示繫結的屬性描述元。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets the collection of property descriptors for the binding using the specified <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得使用指定的繫結的屬性描述項集合<bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This method is used by developers creating data-bound controls.</source>
+          <target state="translated">建立資料繫結控制項的開發人員會使用這個方法。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the data sources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料來源。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料表的繫結的屬性。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示繫結的屬性描述元。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the list of properties of the items managed by this <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得由這個項目的屬性清單<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This overload is used by developers to create data-bound controls.</source>
+          <target state="translated">這個多載是開發人員用來建立資料繫結控制項。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the bound list.</source>
+          <target state="translated">&lt;xref:System.Type&gt;的繫結的清單。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A counter used to recursively call the method.</source>
+          <target state="translated">計數器，用來以遞迴方式呼叫方法。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the data sources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料來源。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料表的繫結的屬性。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property descriptors for the binding.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示繫結的屬性描述元。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the name of the list supplying the data for the binding.</source>
+          <target state="translated">當在衍生類別中覆寫時，取得提供資料給繫結清單的名稱。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the table's bound properties.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料表的繫結的屬性。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The name of the list supplying the data for the binding.</source>
+          <target state="translated">提供資料給繫結清單的名稱。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether binding is suspended.</source>
+          <target state="translated">取得值，指出繫結是否已暫止。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if binding is suspended; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果繫結已暫止;，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.BindingComplete"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.BindingComplete"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The OnBindingComplete method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnBindingComplete 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The OnCurrentChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnCurrentChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the event handler for the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">指定的事件處理常式<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentItemChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.CurrentItemChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The OnCurrentItemChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnCurrentItemChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The OnDataError method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnDataError 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that caused the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to occur.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;造成<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.DataError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件發生。&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the event handler for the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.PositionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">指定的事件處理常式<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase.PositionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets or sets the position in the underlying list that controls bound to this data source point to.</source>
+          <target state="translated">當在衍生類別中覆寫時，取得或設定控制項繫結到此資料來源指向基礎清單中的位置。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Use the Position property to iterate through the underlying list maintained by the &lt;xref:System.Windows.Forms.BindingManagerBase&gt;.</source>
+          <target state="translated">使用 [位置] 屬性來逐一查看基礎&lt;xref:System.Windows.Forms.BindingManagerBase&gt;.&lt;/xref:System.Windows.Forms.BindingManagerBase&gt;所維護的清單</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To go to the first item, set the Position to 0.</source>
+          <target state="translated">若要移至第一個項目，將位置設定為 0。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>To go to the end of the list, set the Position to the value of the &lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt; property minus 1.</source>
+          <target state="translated">若要移至清單的結尾，將位置設定的值&lt;xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;減 1 的屬性。&lt;/xref:System.Windows.Forms.BindingManagerBase.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt; event occurs when the Position property value changes.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt;位置屬性值變更時，就會發生事件。&lt;/xref:System.Windows.Forms.BindingManagerBase.PositionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A zero-based index that specifies a position in the underlying list.</source>
+          <target state="translated">以零為起始的索引，指定基礎清單中的位置。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Occurs after the value of the &lt;xref:System.Windows.Forms.BindingManagerBase.Position*&gt; property has changed.</source>
+          <target state="translated">值之後，就會發生&lt;xref:System.Windows.Forms.BindingManagerBase.Position*&gt;屬性已變更。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position*&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Pulls data from the data-bound control into the data source, returning no information.</source>
+          <target state="translated">從資料繫結的控制項取出資料送入資料來源，並不傳回任何資訊。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The PullData method is a programmatic way to pull information from the data-bound control back into the data source.</source>
+          <target state="translated">PullData 方法是程式設計方式來提取資料繫結控制項回資料來源的資訊。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>It is not required for standard operation of a control, since normally a control automatically updates its bound data source when focus leaves it.</source>
+          <target state="translated">因為通常在控制項時，自動更新其繫結的資料來源焦點離開不需要標準控制項的作業。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PullData raises the &lt;xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt; event and change events on the data source as appropriate.</source>
+          <target state="translated">PullData 引發&lt;xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt;事件和變更事件的資料來源依適當情況。&lt;/xref:System.Windows.Forms.BindingManagerBase.BindingComplete&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Pushes data from the data source into the data-bound control, returning no information.</source>
+          <target state="translated">從資料來源會將資料推送到資料繫結控制項，不傳回任何資訊。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The PushData method is a programmatic way to push information from the data source into the data-bound control.</source>
+          <target state="translated">PushData 方法是將資訊從資料來源推送至資料繫結控制項的程式設計的方式。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This method is not required if the data source implements the &lt;xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt; interface, because the &lt;xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt; event should automatically cause the control to be updated through its currency manager.</source>
+          <target state="translated">如果資料來源實作這個方法不需要&lt;xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt;介面，因為&lt;xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt;事件應該會自動讓控制項透過其 currency 管理員進行更新。&lt;/xref:System.ComponentModel.IBindingList.ListChanged?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.IBindingList?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If this method is issued when a &lt;xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt; operation is being performed, the PushData method returns immediately with a value of <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">如果這個方法發出時&lt;xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt;正在執行的操作，PushData 方法會立即傳回值是<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.BindingManagerBase.PullData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes the row at the specified index from the underlying list.</source>
+          <target state="translated">在衍生類別中覆寫，請從基礎清單中刪除指定索引處的資料列。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The RemoveAt method relies on the underlying data source to determine how the method behaves.</source>
+          <target state="translated">RemoveAt 方法會依賴基礎資料來源來判斷方法的行為。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(See the &lt;xref:System.Windows.Forms.Binding&gt; class for a list of supported data sources.) For classes that implement &lt;xref:System.Collections.IList&gt;, &lt;xref:System.ComponentModel.IBindingList&gt;, or &lt;xref:System.ComponentModel.ITypedList&gt;, as well as strongly typed classes that implement &lt;xref:System.Collections.IList&gt;, the RemoveAt method actually deletes the row in the underlying list instead of removing its contents.</source>
+          <target state="translated">(請參閱&lt;xref:System.Windows.Forms.Binding&gt;類別支援的資料來源清單。)&lt;/xref:System.Windows.Forms.Binding&gt;針對類別可實作&lt;xref:System.Collections.IList&gt;， &lt;xref:System.ComponentModel.IBindingList&gt;，或&lt;xref:System.ComponentModel.ITypedList&gt;、 以及做為強型別的類別可實作&lt;xref:System.Collections.IList&gt;，RemoveAt 方法實際上會刪除基礎的清單，而非移除它的內容中的資料列。&lt;/xref:System.Collections.IList&gt; &lt;/xref:System.ComponentModel.ITypedList&gt; &lt;/xref:System.ComponentModel.IBindingList&gt; &lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If the underlying list implements the &lt;xref:System.ComponentModel.IBindingList&gt; interface, the &lt;xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt; property must return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">如果基礎清單實作&lt;xref:System.ComponentModel.IBindingList&gt;介面，&lt;xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt;屬性必須傳回<ph id="ph1">`true`</ph>。&lt;/xref:System.ComponentModel.IBindingList.AllowRemove%2A&gt; &lt;/xref:System.ComponentModel.IBindingList&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If the underlying list implements the &lt;xref:System.Collections.IList&gt; interface, the &lt;xref:System.Collections.IList.IsFixedSize%2A&gt; property must return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">如果基礎清單實作&lt;xref:System.Collections.IList&gt;介面，&lt;xref:System.Collections.IList.IsFixedSize%2A&gt;屬性必須傳回<ph id="ph1">`false`</ph>。&lt;/xref:System.Collections.IList.IsFixedSize%2A&gt; &lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The index of the row to delete.</source>
+          <target state="translated">要刪除的資料列索引。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>There is no row at the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">沒有資料列中的指定位置<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, resumes data binding.</source>
+          <target state="translated">當在衍生類別中覆寫時，會繼續資料繫結。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt; and ResumeBinding are two methods that allow the temporary suspension and resumption of data binding.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt;和 ResumeBinding 所允許的暫止和繼續資料繫結的兩種方法。&lt;/xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>You would typically suspend data binding if the user must be allowed to edit data fields before validation occurs.</source>
+          <target state="translated">如果必須允許使用者編輯資料欄位發生驗證之前，您通常會暫止資料繫結。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For example, the user might need to change a field to be in accordance with a second field; otherwise, validating the first field would cause the second field to be in error.</source>
+          <target state="translated">例如，使用者可能需要變更成符合第二個欄位; 的欄位否則，驗證的第一個欄位會導致錯誤的第二個欄位。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, suspends data binding.</source>
+          <target state="translated">當在衍生類別中覆寫時，暫止資料繫結。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>SuspendBinding and &lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt; are two methods that allow the temporary suspension and resumption of data binding.</source>
+          <target state="translated">SuspendBinding 和&lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;允許的暫止和繼續資料繫結的兩種方法。&lt;/xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You would typically suspend data binding if the user must be allowed to edit data fields before validation occurs.</source>
+          <target state="translated">如果必須允許使用者編輯資料欄位發生驗證之前，您通常會暫止資料繫結。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>For example, the user might need to change a field to be in accordance with a second field; otherwise, validating the first field would cause the second field to be in error.</source>
+          <target state="translated">例如，使用者可能需要變更成符合第二個欄位; 的欄位否則，驗證的第一個欄位會導致錯誤的第二個欄位。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, updates the binding.</source>
+          <target state="translated">當在衍生類別中覆寫時，更新繫結。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The UpdateIsBinding method updates the data binding between the bound control and its data source.</source>
+          <target state="translated">UpdateIsBinding 方法會更新繫結的控制項和其資料來源之間的資料繫結。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For complex data-binding scenarios, it also resets the current position to the beginning of the underlying list.</source>
+          <target state="translated">複雜資料繫結案例中，它也會重設目前的位置加入基礎清單的開頭。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

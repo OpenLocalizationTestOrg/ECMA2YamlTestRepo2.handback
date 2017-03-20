@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8741904f60d9cdd9157e887a3c871a064f110f2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ControlStyles.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8281c8dd7a498ac92db5b5c29b605a9e09d11db4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e77d5af3fb11487e16d284bafd99c6ef3cb33a96</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the style and behavior of a control.</source>
+          <target state="translated">指定的樣式和控制項的行為。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Controls use this enumeration in various properties and methods to specify functionality.</source>
+          <target state="translated">控制項可使用這個列舉型別不同的屬性和方法中指定的功能。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A control can enable a style by calling the &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt; method and passing in the appropriate ControlStyles bit (or bits) and the Boolean value to set the bit(s) to.</source>
+          <target state="translated">控制項可以藉由呼叫啟用樣式&lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt;方法並傳入適當 ControlStyles 位元 （或位元） 及要設為位元的布林值。&lt;/xref:System.Windows.Forms.Control.SetStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, the following line of Visual Basic code would enable double-buffering.</source>
+          <target state="translated">例如下, 面 Visual Basic 程式碼會啟用雙重緩衝。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>       If the AllPaintingInWmPaint bit is set to <ph id="ph2">`true`</ph>, the window message WM_ERASEBKGND is ignored, and both &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; and &lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt; methods are called directly from the window message WM_PAINT.</source>
+          <target state="translated"><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>如果 AllPaintingInWmPaint 位元設為<ph id="ph2">`true`</ph>，WM_ERASEBKGND 會被忽略的視窗訊息，兩者均&lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;和&lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt;會呼叫方法，直接從視窗訊息 WM_PAINT。&lt;/xref:System.Windows.Forms.Control.OnPaint%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This generally reduces flicker unless other controls send the window message WM_ERASEBKGND to the control.</source>
+          <target state="translated">除非其他控制項傳送至控制項的視窗訊息 WM_ERASEBKGND，這通常會減少重繪閃動。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You might send the window message WM_ERASEBKGRND to achieve a pseudo-transparent effect similar to SupportsTransparentBackColor; for example, a &lt;xref:System.Windows.Forms.ToolBar&gt; with flat appearance does this.</source>
+          <target state="translated">您可能會傳送要的視窗訊息 WM_ERASEBKGRND 達到虛擬透明效果類似於 SupportsTransparentBackColor;例如，&lt;xref:System.Windows.Forms.ToolBar&gt;一般外觀與做法。&lt;/xref:System.Windows.Forms.ToolBar&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To fully enable double-buffering, you can set the OptimizedDoubleBuffer and AllPaintingInWmPaint bits to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">若要完全啟用雙重緩衝，您可以將 OptimizedDoubleBuffer 和 AllPaintingInWmPaint 個位元<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>However the preferred method for enabling double buffering, which yields the same result, is to set the &lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt; property for the control to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">不過，建議啟用雙重緩衝，會產生相同的結果，是設定&lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;屬性來控制<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the SupportsTransparentBackColor bit is set to <ph id="ph1">`true`</ph>, and the &lt;xref:System.Windows.Forms.Control.BackColor%2A&gt; is set to a color whose alpha component is less than 255, &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; will simulate transparency by asking its parent control to paint the background.</source>
+          <target state="translated">如果 SupportsTransparentBackColor 位元設為<ph id="ph1">`true`</ph>，而&lt;xref:System.Windows.Forms.Control.BackColor%2A&gt;設的色彩的 alpha 元件都小於 255，&lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;會模擬要求來繪製背景其父控制項的透明度。&lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; &lt;/xref:System.Windows.Forms.Control.BackColor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is not true transparency.</source>
+          <target state="translated">這不是，則為 true 的透明度。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If there is another control between the control and its parent, the current control will not show the control in the middle.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果沒有在控制項和其父代之間的另一個控制項，目前的控制項不會顯示控制項的中間。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the UserMouse bit is set to <ph id="ph1">`true`</ph>, the following methods are still called: &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;, and &lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">當 UserMouse 位元設定為<ph id="ph1">`true`</ph>，仍會呼叫下列方法︰ &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;，和&lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;。&lt;/xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When the control is clicked, if the StandardClick bit is set to <ph id="ph1">`true`</ph> the &lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; event.</source>
+          <target state="translated">當按一下控制項時，如果 StandardClick 位元設為<ph id="ph1">`true`</ph>&lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;呼叫方法時，便會產生&lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;事件。&lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the control is double-clicked, and both the StandardClick and StandardDoubleClick bits are set to <ph id="ph1">`true`</ph>, the click is passed on to the &lt;xref:System.Windows.Forms.Control.DoubleClick&gt; event.</source>
+          <target state="translated">當按兩下，控制項時，且 StandardClick 和 StandardDoubleClick 位元會設為<ph id="ph1">`true`</ph>，按一下會傳遞給&lt;xref:System.Windows.Forms.Control.DoubleClick&gt;事件。&lt;/xref:System.Windows.Forms.Control.DoubleClick&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Then the &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; event.</source>
+          <target state="translated">然後在&lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;呼叫方法時，便會產生&lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;事件。&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, the control can call &lt;xref:System.Windows.Forms.Control.OnClick%2A&gt; or &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; directly regardless of the StandardClick and StandardDoubleClick bit values.</source>
+          <target state="translated">不過，可以呼叫控制項&lt;xref:System.Windows.Forms.Control.OnClick%2A&gt;或&lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt;直接不論 StandardClick 和 StandardDoubleClick 位元值。&lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information on control click and double click behaviors, see the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; and &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; topics.</source>
+          <target state="translated">如需詳細資訊，在控制項上按一下和按兩下行為，請參閱&lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;和&lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;主題。&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When the UseTextForAccessibility bit is set and there is a value in the control's <ph id="ph1">`Text`</ph> property, the value of that control's <ph id="ph2">`Text`</ph> property determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">當設定 UseTextForAccessibility 位元，而且沒有在控制項的值<ph id="ph1">`Text`</ph>屬性，該控制項的值<ph id="ph2">`Text`</ph>屬性決定控制項的預設 Active Accessibility 的名稱和快顯金鑰。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Otherwise, the text of the preceding &lt;xref:System.Windows.Forms.Label&gt; control will be used instead.</source>
+          <target state="translated">否則，之前的文字&lt;xref:System.Windows.Forms.Label&gt;控制項將會改用。&lt;/xref:System.Windows.Forms.Label&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This style is set by default.</source>
+          <target state="translated">此樣式會依預設設定。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Certain built-in control types, such as &lt;xref:System.Windows.Forms.TextBox&gt; and &lt;xref:System.Windows.Forms.ComboBox&gt;, reset this style so that the <ph id="ph1">`Text`</ph> property of those controls will not be used by Active Accessibility.</source>
+          <target state="translated">某些內建的控制項類型，例如&lt;xref:System.Windows.Forms.TextBox&gt;和&lt;xref:System.Windows.Forms.ComboBox&gt;，重設此樣式，讓<ph id="ph1">`Text`</ph>這些控制項的屬性不會使用由 Active Accessibility。&lt;/xref:System.Windows.Forms.ComboBox&gt; &lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control ignores the window message WM_ERASEBKGND to reduce flicker.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項會忽略 WM_ERASEBKGND 減少重繪閃動的視窗訊息。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This style should only be applied if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果 UserPaint 位元設定為，應該只套用此樣式<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control keeps a copy of the text rather than getting it from the &lt;xref:System.Windows.Forms.Control.Handle*&gt; each time it is needed.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制會保留一份文字，而不是從&lt;xref:System.Windows.Forms.Control.Handle*&gt;每次需要它。&lt;/xref:System.Windows.Forms.Control.Handle*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個樣式預設為<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This behavior improves performance, but makes it difficult to keep the text synchronized.</source>
+          <target state="translated">這個行為可改進效能，但很難保持同步處理的文字。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is a container-like control.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，此控制項為類似容器的控制項。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, drawing is performed in a buffer, and after it completes, the result is output to the screen.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 繪圖會執行在緩衝區中，並完成之後，結果會輸出到畫面。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Double-buffering prevents flicker caused by the redrawing of the control.</source>
+          <target state="translated">雙重緩衝可防止重繪閃動的控制項重繪作業所造成。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you set DoubleBuffer to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set UserPaint and AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果您將設定 DoubleBuffer <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，您也應該設定 UserPaint 和至 AllPaintingInWmPaint <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the &lt;xref:System.Windows.Forms.Control.OnNotifyMessage<bpt id="p2">*</bpt>&gt; method is called for every message sent to the control's &lt;xref:System.Windows.Forms.Control.WndProc<ept id="p2">*</ept>&gt;.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 方法針對每個訊息傳送至控制項的呼叫&lt;&gt; <ept id="p2">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個樣式預設為<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EnableNotifyMessage does not work in partial trust.</source>
+          <target state="translated">EnableNotifyMessage 在部分信任中無法運作。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed height when auto-scaled.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項有固定的高度時自動調整。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Height*&gt; remains unchanged.</source>
+          <target state="translated">例如，若要調整大小以容納新控制項的配置作業嘗試<bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項的&lt;xref:System.Windows.Forms.Control.Height*&gt;維持不變。&lt;/xref:System.Windows.Forms.Control.Height*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed width when auto-scaled.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項都有固定的寬度時自動調整。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Width*&gt; remains unchanged.</source>
+          <target state="translated">例如，若要調整大小以容納新控制項的配置作業嘗試<bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項的&lt;xref:System.Windows.Forms.Control.Width*&gt;維持不變。&lt;/xref:System.Windows.Forms.Control.Width*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is drawn opaque and the background is not painted.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項繪製不透明，不繪製背景。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is first drawn to a buffer rather than directly to the screen, which can reduce flicker.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 第一次繪製控制項的緩衝區，而非直接至螢幕，以減少重繪閃動。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you set this property to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set the AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果您將此屬性設定為<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，您也應該將 AllPaintingInWmPaint 設<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is redrawn when it is resized.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，它會在重新調整大小時重繪控制項時。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control can receive focus.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項可以接收焦點。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項實作標準<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>行為。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項實作標準<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>行為。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This style is ignored if the StandardClick bit is not set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果 StandardClick 元未設定為，則會忽略這個樣式<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control accepts a &lt;xref:System.Windows.Forms.Control.BackColor*&gt; with an alpha component of less than 255 to simulate transparency.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項接受&lt;xref:System.Windows.Forms.Control.BackColor*&gt;小於模擬透明度 255 的 alpha 元件。&lt;/xref:System.Windows.Forms.Control.BackColor*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Transparency will be simulated only if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the parent control is derived from <bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">只有當 UserPaint 位元設定為將不透明度會模擬<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以及父控制項衍生自<bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control does its own mouse processing, and mouse events are not handled by the operating system.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 控制項沒有自己的滑鼠處理，以及滑鼠事件不由作業系統處理。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control paints itself rather than the operating system doing so.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，控制項會繪製本身而不是這樣的作業系統。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is not raised.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>不會引發事件。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This style only applies to classes derived from <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個樣式只適用於衍生自類別<bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies that the value of the control's <ph id="ph1">`Text`</ph> property, if set, determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">指定控制項的值<ph id="ph1">`Text`</ph>屬性，如果設定，決定控制項的預設 Active Accessibility 的名稱和快顯金鑰。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
