@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47d2d1f7239658b0974710a2f857c2568fa3fa13</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Media.SoundPlayer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa1dd9e3b653fa1faa6bccead7c173529387a7e2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e5d1a567b8ab7890225fb8299eb6b3f7f930d5b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Controls playback of a sound from a .wav file.</source>
+          <target state="translated">控制項播放的.wav 檔案中的音效。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The SoundPlayer class provides a simple interface for loading and playing a .wav file.</source>
+          <target state="translated">SoundPlayer 類別提供一個簡單的介面，來載入和播放.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The SoundPlayer class supports loading a .wav file from a file path, a URL, a &lt;xref:System.IO.Stream&gt; that contains a .wav file, or an embedded resource that contains a .wav file.</source>
+          <target state="translated">SoundPlayer 類別支援的檔案路徑，URL 中，從載入.wav 檔案&lt;xref:System.IO.Stream&gt;包含.wav 檔案或包含.wav 檔案內嵌的資源。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To play a sound using the SoundPlayer class, configure a SoundPlayer with a path to the .wav file and call one of the play methods.</source>
+          <target state="translated">若要播放聲音，使用 SoundPlayer 類別，設定 SoundPlayer 與.wav 檔案的路徑以及呼叫播放方法之一。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can identify the .wav file to play by using one of the constructors or by setting either the &lt;xref:System.Media.SoundPlayer.SoundLocation%2A&gt; or &lt;xref:System.Media.SoundPlayer.Stream%2A&gt; property.</source>
+          <target state="translated">您可以識別.wav 檔案播放使用其中一種建構函式，或藉由設定 &lt;xref:System.Media.SoundPlayer.SoundLocation%2A&gt;或&lt;xref:System.Media.SoundPlayer.Stream%2A&gt;屬性。&lt;/xref:System.Media.SoundPlayer.Stream%2A&gt; &lt;/xref:System.Media.SoundPlayer.SoundLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The file can be loaded prior to playing by using one of the load methods, or loading can be deferred until one of the play methods is called.</source>
+          <target state="translated">可以使用其中一種負載方法播放之前載入的檔案，或可以延後載入，直到其中一種播放方法呼叫。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A SoundPlayer configured to load a .wav file from a &lt;xref:System.IO.Stream&gt; or URL must load the .wav file into memory before playback begins.</source>
+          <target state="translated">SoundPlayer 設定為載入中的.wav 檔案&lt;xref:System.IO.Stream&gt;或 URL 必須.wav 檔案載入記憶體之前開始播放。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can load or play a .wav file synchronously or asynchronously.</source>
+          <target state="translated">您可以載入或播放.wav 檔案，以同步或非同步。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you call a synchronous load or play method, the calling thread will wait until the method returns, which may cause painting and other events to be interrupted.</source>
+          <target state="translated">如果您呼叫同步的負載，或播放方法，呼叫的執行緒會等到方法傳回時，可能會導致中斷的繪製和其他事件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Calling an asynchronous load or play method will allow the calling thread to continue without interruption.</source>
+          <target state="translated">呼叫非同步載入或播放方法可讓呼叫執行緒能夠繼續使用不中斷。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information on asynchronous method calls, see <bpt id="p1">[</bpt>How to: Run an Operation in the Background<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需非同步方法呼叫的詳細資訊，請參閱<bpt id="p1">[</bpt>How to︰ 在背景執行作業<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When a SoundPlayer has finished loading a .wav file, it raises the &lt;xref:System.Media.SoundPlayer.LoadCompleted&gt; event.</source>
+          <target state="translated">當 SoundPlayer 完成載入.wav 檔案時，便會產生&lt;xref:System.Media.SoundPlayer.LoadCompleted&gt;事件。&lt;/xref:System.Media.SoundPlayer.LoadCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can examine the &lt;xref:System.ComponentModel.AsyncCompletedEventArgs&gt; in your event handler to determine if the load succeeded or failed.</source>
+          <target state="translated">您可以檢查&lt;xref:System.ComponentModel.AsyncCompletedEventArgs&gt;在事件處理常式來判斷是否載入成功或失敗。&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Media.SoundPlayer.SoundLocationChanged&gt; event is raised when the audio source is set to a new file path or URL.</source>
+          <target state="translated">&lt;xref:System.Media.SoundPlayer.SoundLocationChanged&gt;音訊的來源設定為新的檔案路徑或 URL 時，就會引發事件。&lt;/xref:System.Media.SoundPlayer.SoundLocationChanged&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Media.SoundPlayer.StreamChanged&gt; event is raised when the audio source is set to a new &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.Media.SoundPlayer.StreamChanged&gt;音訊的來源會設定為新的&lt;xref:System.IO.Stream&gt;。&lt;/xref:System.IO.Stream&gt;時引發事件&lt;/xref:System.Media.SoundPlayer.StreamChanged&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information about SoundPlayer, see <bpt id="p1">[</bpt>SoundPlayer Class Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需 SoundPlayer 的詳細資訊，請參閱<bpt id="p1">[</bpt>SoundPlayer 類別概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The SoundPlayer class cannot play other file types, such as .wma or .mp3.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SoundPlayer 類別不能播放其他檔案類型，例如.wma 或.mp3。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you want to play other file types, you can use the Windows Media Player control.</source>
+          <target state="translated">如果您想要播放其他檔案類型，您可以使用 Windows Media Player 控制項。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using the Windows Media Player Control in a .NET Framework Solution<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=131267)</ept> and <bpt id="p2">[</bpt>Windows Media Player Object Model Reference for Visual Basic .NET and C#<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=131269)</ept> in the Windows Media Player SDK.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>在.NET Framework 方案中使用 Windows Media Player 控制項<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=131267)</ept>和<bpt id="p2">[</bpt>Windows Media Player 物件模型參考適用於 Visual Basic.NET 和 C#<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=131269)</ept> Windows Media Player SDK 中。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Media.SoundPlayer&gt; with no audio source.</source>
+          <target state="translated">這個建構函式初始化&lt;xref:System.Media.SoundPlayer&gt;但沒有音訊的來源。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Until it is configured with an audio source path, the &lt;xref:System.Media.SoundPlayer&gt; will play a beep sound when one of its playback methods is called.</source>
+          <target state="translated">設定與音訊來源路徑，直到&lt;xref:System.Media.SoundPlayer&gt;會播放嗶聲音效其中一個播放方法呼叫時。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, and attaches the .wav file within the specified &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，並附加內指定&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt; .wav 檔案</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; passed to the <ph id="ph1">`stream`</ph> parameter should be a &lt;xref:System.IO.Stream&gt; containing a .wav file.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;傳遞至<ph id="ph1">`stream`</ph>參數應該是&lt;xref:System.IO.Stream&gt;包含.wav 檔案。&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The data returned by the &lt;xref:System.IO.Stream.Read%2A&gt; method of the &lt;xref:System.IO.Stream&gt; should be the data within a .wav file.</source>
+          <target state="translated">所傳回的資料&lt;xref:System.IO.Stream.Read%2A&gt;方法&lt;xref:System.IO.Stream&gt;應該是.wav 檔案內的資料。&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.Stream.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; to a .wav file.</source>
+          <target state="translated">A &lt;xref:System.IO.Stream&gt;.wav 檔案。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, and attaches the specified .wav file.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，並附加指定的.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The string passed to the <ph id="ph1">`soundLocation`</ph> parameter can be either a file path or a URL to a .wav file.</source>
+          <target state="translated">將字串傳遞至<ph id="ph1">`soundLocation`</ph>參數可以是檔案路徑或.wav 檔案的 URL。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the path or URL is not valid, the &lt;xref:System.Media.SoundPlayer&gt; will still be constructed, but subsequent calls to a load or play method will fail.</source>
+          <target state="translated">如果路徑或 URL 不正確，&lt;xref:System.Media.SoundPlayer&gt;仍會在負載的建構，但後續呼叫，或播放方法將會失敗。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The location of a .wav file to load.</source>
+          <target state="translated">要載入之.wav 檔案的位置。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The URL value specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">soundLocation</ph><ept id="p1">&lt;/code&gt;</ept> cannot be resolved.</source>
+          <target state="translated">所指定的 URL 值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">soundLocation</ph> <ept id="p1">&lt;/code&gt;</ept>無法解析。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be used for deserialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来用於還原序列化。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The destination to be used for deserialization.</source>
+          <target state="translated">要用於還原序列化的目的地。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serializationInfo</ph><ept id="p1">&lt;/code&gt;</ept> cannot be resolved.</source>
+          <target state="translated">&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;中所指定<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serializationInfo</ph> <ept id="p1">&lt;/code&gt;</ept>無法解析。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether loading of a .wav file has successfully completed.</source>
+          <target state="translated">取得值，指出是否已成功完成.wav 檔載入。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a .wav file is loaded; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a .wav file has not yet been loaded.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果載入.wav 檔案;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果尚未載入.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Loads a sound synchronously.</source>
+          <target state="translated">以同步方式載入音效。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Load method uses the current thread to load a .wav file, preventing the thread from handling other messages until the load is complete.</source>
+          <target state="translated">Load 方法載入.wav 檔案，防止執行緒處理其他訊息負載完成之前，使用目前的執行緒。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The Load method may produce a delay while loading a large .wav file.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 的 Load 方法可能產生延遲載入大型.wav 檔案時發生。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In addition, painting and other events will be blocked until the load is completed.</source>
+          <target state="translated">此外，在載入完成之前，都會被封鎖繪製和其他事件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt; method to load a sound asynchronously, which allows the calling thread to continue without interruption.</source>
+          <target state="translated">使用&lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt;方法來以非同步方式載入音效可讓呼叫執行緒能夠繼續使用不中斷。&lt;/xref:System.Media.SoundPlayer.LoadAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.Media.SoundPlayer.LoadCompleted&gt; event when loading completes, even if the load was not successful.</source>
+          <target state="translated">這個方法會引發&lt;xref:System.Media.SoundPlayer.LoadCompleted&gt;事件載入時完成，即使負載不成功。&lt;/xref:System.Media.SoundPlayer.LoadCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The elapsed time during loading exceeds the time, in milliseconds, specified by &lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;.</source>
+          <target state="translated">在載入期間所經過的時間超過的時間，以毫秒為單位，指定&lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;。&lt;/xref:System.Media.SoundPlayer.LoadTimeout*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; cannot be found.</source>
+          <target state="translated">所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;找不到。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Loads a .wav file from a stream or a Web resource using a new thread.</source>
+          <target state="translated">從資料流或使用新的執行緒將 Web 資源載入.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Media.SoundPlayer&gt; is configured to load a .wav file from a &lt;xref:System.IO.Stream&gt; or Web resource, this method begins loading a .wav file from the location using a new thread.</source>
+          <target state="translated">如果&lt;xref:System.Media.SoundPlayer&gt;設定為載入中的.wav 檔案&lt;xref:System.IO.Stream&gt;或 Web 資源，這個方法會開始使用新的執行緒從位置載入.wav 檔案。&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.Media.SoundPlayer.LoadCompleted&gt; event when loading completes, even if the load was not successful.</source>
+          <target state="translated">這個方法會引發&lt;xref:System.Media.SoundPlayer.LoadCompleted&gt;事件載入時完成，即使負載不成功。&lt;/xref:System.Media.SoundPlayer.LoadCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Media.SoundPlayer&gt; is configured to load a .wav file from a local file path, this method does nothing, because loading is deferred until playing begins.</source>
+          <target state="translated">如果&lt;xref:System.Media.SoundPlayer&gt;已載入的.wav 檔案從本機檔案路徑，這個方法不會執行任何動作，因為會延後載入，直到播放開始。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information about asynchronous loading, see <bpt id="p1">[</bpt>How to: Load a Sound Asynchronously within a Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需非同步載入的詳細資訊，請參閱<bpt id="p1">[</bpt>如何︰ 載入音效以非同步方式在 Windows Form 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The elapsed time during loading exceeds the time, in milliseconds, specified by &lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;.</source>
+          <target state="translated">在載入期間所經過的時間超過的時間，以毫秒為單位，指定&lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;。&lt;/xref:System.Media.SoundPlayer.LoadTimeout*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; cannot be found.</source>
+          <target state="translated">所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;找不到。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Occurs when a .wav file has been successfully or unsuccessfully loaded.</source>
+          <target state="translated">發生於.wav 檔案已成功或失敗載入。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This event is raised when loading of a .wav file is complete.</source>
+          <target state="translated">.Wav 檔案載入完成時，會引發這個事件。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The event arguments indicate whether the load of the sound was completed successfully or failed.</source>
+          <target state="translated">事件引數指出音效載入已成功完成或失敗。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets or sets the time, in milliseconds, in which the .wav file must load.</source>
+          <target state="translated">取得或設定的時間，以毫秒為單位，.wav 檔案必須在其中載入。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>After this time has expired, the loading is canceled and a &lt;xref:System.ServiceProcess.TimeoutException&gt; exception is thrown.</source>
+          <target state="translated">這個時間已經過期之後，已取消載入和&lt;xref:System.ServiceProcess.TimeoutException&gt;擲回例外狀況。&lt;/xref:System.ServiceProcess.TimeoutException&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The number of milliseconds to wait.</source>
+          <target state="translated">要等候的毫秒數。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is 10000 (10 seconds).</source>
+          <target state="translated">預設值為 10000 （10 秒）。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer.LoadCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Media.SoundPlayer.LoadCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This method is called when loading of a .wav file is complete.</source>
+          <target state="translated">.Wav 檔案載入完成時，會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The OnLoadCompleted method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnLoadCompleted 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ComponentModel.AsyncCompletedEventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.AsyncCompletedEventArgs&gt;包含事件資料。&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer.SoundLocationChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Media.SoundPlayer.SoundLocationChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This method is called when a new audio source path for this &lt;xref:System.Media.SoundPlayer&gt; has been set.</source>
+          <target state="translated">呼叫這個方法是新的音效來源路徑時這個&lt;xref:System.Media.SoundPlayer&gt;已設定。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information, see How to: Provide Event functionality and <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱 &lt; 如何︰ 提供事件的功能和<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The OnSoundLocationChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnSoundLocationChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer.StreamChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Media.SoundPlayer.StreamChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This method is called when a new &lt;xref:System.IO.Stream&gt; audio source for this &lt;xref:System.Media.SoundPlayer&gt; has been set.</source>
+          <target state="translated">當新時，會呼叫這個方法&lt;xref:System.IO.Stream&gt;音訊來源&lt;xref:System.Media.SoundPlayer&gt;已設定。&lt;/xref:System.Media.SoundPlayer&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The OnStreamChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnStreamChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Plays the .wav file using a new thread, and loads the .wav file first if it has not been loaded.</source>
+          <target state="translated">播放.wav 檔案使用新的執行緒，並先載入.wav 檔案，如果未載入。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The Play method plays the sound using a new thread.</source>
+          <target state="translated">播放方法播放使用新的執行緒。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If you call Play before the .wav file has been loaded into memory, the .wav file will be loaded before playback starts.</source>
+          <target state="translated">如果您呼叫播放之前.wav 檔案載入記憶體時，就會開始播放之前，將會載入.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt; or &lt;xref:System.Media.SoundPlayer.Load%2A&gt; method to load the .wav file to memory in advance.</source>
+          <target state="translated">您可以使用&lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt;或&lt;xref:System.Media.SoundPlayer.Load%2A&gt;預先載入至記憶體.wav 檔案的方法。&lt;/xref:System.Media.SoundPlayer.Load%2A&gt; &lt;/xref:System.Media.SoundPlayer.LoadAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>After a .wav file is successfully loaded from a &lt;xref:System.IO.Stream&gt; or URL, future calls to playback methods for the &lt;xref:System.Media.SoundPlayer&gt; will not need to reload the .wav file until the path for the sound changes.</source>
+          <target state="translated">之後.wav 檔案成功載入從&lt;xref:System.IO.Stream&gt;或 to 播放方法的後續呼叫 URL&lt;xref:System.Media.SoundPlayer&gt;不需要重新載入.wav 檔案，直到音效變更路徑。&lt;/xref:System.Media.SoundPlayer&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the .wav file has not been specified or it fails to load, the Play method will play the default beep sound.</source>
+          <target state="translated">如果尚未指定.wav 檔案或無法載入，播放方法將會播放預設的嗶聲聲音。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The elapsed time during loading exceeds the time, in milliseconds, specified by &lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;.</source>
+          <target state="translated">在載入期間所經過的時間超過的時間，以毫秒為單位，指定&lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;。&lt;/xref:System.Media.SoundPlayer.LoadTimeout*&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; cannot be found.</source>
+          <target state="translated">所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;找不到。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The .wav header is corrupted; the file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; is not a PCM .wav file.</source>
+          <target state="translated">.Wav 標頭已損毀。所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;不 PCM.wav 檔案。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Plays and loops the .wav file using a new thread, and loads the .wav file first if it has not been loaded.</source>
+          <target state="translated">播放迴圈.wav 檔案使用新的執行緒，並先載入.wav 檔案，如果未載入。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The PlayLooping method plays and loops the sound using a new thread.</source>
+          <target state="translated">PlayLooping 方法播放，並執行迴圈使用新的執行緒的聲音。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you call PlayLooping before the .wav file has been loaded into memory, the .wav file will be loaded before playback starts.</source>
+          <target state="translated">如果您呼叫 PlayLooping 之前.wav 檔案載入記憶體時，就會開始播放之前，將會載入.wav 檔案。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt; or &lt;xref:System.Media.SoundPlayer.Load%2A&gt; method to load the .wav file to memory in advance.</source>
+          <target state="translated">您可以使用&lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt;或&lt;xref:System.Media.SoundPlayer.Load%2A&gt;預先載入至記憶體.wav 檔案的方法。&lt;/xref:System.Media.SoundPlayer.Load%2A&gt; &lt;/xref:System.Media.SoundPlayer.LoadAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>After a .wav file is successfully loaded from a &lt;xref:System.IO.Stream&gt; or URL, future calls to playback methods for the &lt;xref:System.Media.SoundPlayer&gt; will not need to reload the .wav file until the path for the sound changes.</source>
+          <target state="translated">之後.wav 檔案成功載入從&lt;xref:System.IO.Stream&gt;或 to 播放方法的後續呼叫 URL&lt;xref:System.Media.SoundPlayer&gt;不需要重新載入.wav 檔案，直到音效變更路徑。&lt;/xref:System.Media.SoundPlayer&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the .wav file has not been specified or it fails to load, the PlayLooping method will play the default beep sound.</source>
+          <target state="translated">如果尚未指定.wav 檔案或無法載入，PlayLooping 方法將會播放預設的嗶聲聲音。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For more information about PlayLooping, see <bpt id="p1">[</bpt>How to: Loop a Sound Playing on a Windows Form<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需 PlayLooping 的詳細資訊，請參閱<bpt id="p1">[</bpt>How to︰ 循環播放 Windows Form 上播放的聲音<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The elapsed time during loading exceeds the time, in milliseconds, specified by &lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;.</source>
+          <target state="translated">在載入期間所經過的時間超過的時間，以毫秒為單位，指定&lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;。&lt;/xref:System.Media.SoundPlayer.LoadTimeout*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; cannot be found.</source>
+          <target state="translated">所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;找不到。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The .wav header is corrupted; the file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; is not a PCM .wav file.</source>
+          <target state="translated">.Wav 標頭已損毀。所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;不 PCM.wav 檔案。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Plays the .wav file and loads the .wav file first if it has not been loaded.</source>
+          <target state="translated">播放.wav 檔，並先載入.wav 檔案，如果未載入。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The PlaySync method uses the current thread to play a .wav file, preventing the thread from handling other messages until the load is complete.</source>
+          <target state="translated">PlaySync 方法會使用目前的執行緒，才能播放.wav 檔案，防止執行緒處理其他訊息，直到負載已完成。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt; or &lt;xref:System.Media.SoundPlayer.Load%2A&gt; method to load the .wav file to memory in advance.</source>
+          <target state="translated">您可以使用&lt;xref:System.Media.SoundPlayer.LoadAsync%2A&gt;或&lt;xref:System.Media.SoundPlayer.Load%2A&gt;預先載入至記憶體.wav 檔案的方法。&lt;/xref:System.Media.SoundPlayer.Load%2A&gt; &lt;/xref:System.Media.SoundPlayer.LoadAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>After a .wav file is successfully loaded from a &lt;xref:System.IO.Stream&gt; or URL, future calls to playback methods for the &lt;xref:System.Media.SoundPlayer&gt; will not need to reload the .wav file until the path for the sound changes.</source>
+          <target state="translated">之後.wav 檔案成功載入從&lt;xref:System.IO.Stream&gt;或 to 播放方法的後續呼叫 URL&lt;xref:System.Media.SoundPlayer&gt;不需要重新載入.wav 檔案，直到音效變更路徑。&lt;/xref:System.Media.SoundPlayer&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If the .wav file has not been specified or it fails to load, the PlaySync method will play the default beep sound.</source>
+          <target state="translated">如果尚未指定.wav 檔案或無法載入，PlaySync 方法將會播放預設的嗶聲聲音。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The elapsed time during loading exceeds the time, in milliseconds, specified by &lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;.</source>
+          <target state="translated">在載入期間所經過的時間超過的時間，以毫秒為單位，指定&lt;xref:System.Media.SoundPlayer.LoadTimeout*&gt;。&lt;/xref:System.Media.SoundPlayer.LoadTimeout*&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; cannot be found.</source>
+          <target state="translated">所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;找不到。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The .wav header is corrupted; the file specified by &lt;xref:System.Media.SoundPlayer.SoundLocation*&gt; is not a PCM .wav file.</source>
+          <target state="translated">.Wav 標頭已損毀。所指定的檔案&lt;xref:System.Media.SoundPlayer.SoundLocation*&gt;不 PCM.wav 檔案。&lt;/xref:System.Media.SoundPlayer.SoundLocation*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the file path or URL of the .wav file to load.</source>
+          <target state="translated">取得或設定檔案路徑或 URL 的.wav 檔案以載入。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This property is set to &lt;xref:System.String?displayProperty=fullName&gt; when the &lt;xref:System.Media.SoundPlayer.Stream%2A&gt; property is set to a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">這個屬性設定為&lt;xref:System.String?displayProperty=fullName&gt;時的&lt;xref:System.Media.SoundPlayer.Stream%2A&gt;屬性設定為&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.Media.SoundPlayer.Stream%2A&gt; &lt;/xref:System.String?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The file path or URL from which to load a .wav file, or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if no file path is present.</source>
+          <target state="translated">檔案路徑或從中載入.wav 檔案的 URL 或<ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>如果檔案路徑不存在。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default is <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Occurs when a new audio source path for this <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been set.</source>
+          <target state="translated">當新的音效來源路徑時發生這個<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已設定。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This event is raised when a new audio source path for this &lt;xref:System.Media.SoundPlayer&gt; has been set.</source>
+          <target state="translated">會引發這個事件的新的音效來源路徑時這個&lt;xref:System.Media.SoundPlayer&gt;已設定。&lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Stops playback of the sound if playback is occurring.</source>
+          <target state="translated">停止播放發生時播放音效。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.IO.Stream&gt; from which to load the .wav file.</source>
+          <target state="translated">取得或設定&lt;xref:System.IO.Stream&gt;從中載入.wav 檔案。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This property is set to <ph id="ph1">`null`</ph> when the &lt;xref:System.Media.SoundPlayer.SoundLocation%2A&gt; property is set to a new and valid sound location.</source>
+          <target state="translated">這個屬性設定為<ph id="ph1">`null`</ph>時&lt;xref:System.Media.SoundPlayer.SoundLocation%2A&gt;屬性設定為新的和有效的聲音位置。&lt;/xref:System.Media.SoundPlayer.SoundLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; from which to load the .wav file, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no stream is available.</source>
+          <target state="translated">A&lt;xref:System.IO.Stream&gt;要從中載入.wav 檔案，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>沒有資料流是否可用。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Occurs when a new &lt;xref:System.IO.Stream&gt; audio source for this <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been set.</source>
+          <target state="translated">發生於將新&lt;xref:System.IO.Stream&gt;音訊來源<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已設定。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This event is raised when a new &lt;xref:System.IO.Stream&gt; audio source for this &lt;xref:System.Media.SoundPlayer&gt; has been set.</source>
+          <target state="translated">當新時，會引發這個事件&lt;xref:System.IO.Stream&gt;音訊來源&lt;xref:System.Media.SoundPlayer&gt;已設定。&lt;/xref:System.Media.SoundPlayer&gt; &lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">如需這個成員的說明，請參閱<ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>方法。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Media.SoundPlayer&gt; instance is cast to an &lt;xref:System.Runtime.Serialization.ISerializable&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Media.SoundPlayer&gt;執行個體轉換成&lt;xref:System.Runtime.Serialization.ISerializable&gt;介面。&lt;/xref:System.Runtime.Serialization.ISerializable&gt; &lt;/xref:System.Media.SoundPlayer&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来填入資料。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) for this serialization.</source>
+          <target state="translated">目的地 (請參閱&lt;xref:System.Runtime.Serialization.StreamingContext&gt;) 這個序列化。&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Object&gt; that contains data about the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定&lt;xref:System.Object&gt;資料包含關於<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains data about the <bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;資料包含關於<bpt id="p1">&lt;xref href="System.Media.SoundPlayer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

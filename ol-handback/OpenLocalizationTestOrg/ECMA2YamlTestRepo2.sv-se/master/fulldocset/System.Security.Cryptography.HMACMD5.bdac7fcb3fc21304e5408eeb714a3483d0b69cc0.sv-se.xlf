@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">018e468bce3679da2331370739c9acc77c3ffb0d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACMD5.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">374df046026e44c918c7e6733696729cef834a2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22bd20a454d948cdddccfb1a74cafdd0f23ce32d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) by using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.MD5"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">Beräknar ett Hash-baserad meddelandeautentiseringskod (HMAC) med hjälp av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.MD5"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hash-funktionen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACMD5 is a type of keyed hash algorithm that is constructed from the Message Digest Algorithm 5 (MD5) hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">HMACMD5 är en typ av nycklad hashalgoritm som konstrueras utifrån hash-funktionen Message Digest Algorithm 5 (MD5) och används som en hashbaserad meddelandeautentiseringskod (HMAC).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Processen HMAC kombinerar en hemlig nyckel med meddelandedata, hashar resultatet med hashfunktionen, kombinerar det hashvärdet med den hemliga nyckeln igen och tillämpar sedan hashfunktionen en andra gång.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 128 bits in length.</source>
+          <target state="translated">Utgående hash är 128 bitar långt.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An HMAC can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">En HMAC kan användas för att avgöra om ett meddelande som skickas via en osäker kanal har manipulerats, förutsatt att avsändaren och mottagaren dela en hemlig nyckel.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and hash value as a single message.</source>
+          <target state="translated">Avsändaren beräknar hash-värdet för den ursprungliga informationen och skickar både ursprungliga data och hash-värde som ett enda meddelande.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">Mottagaren beräknar hash-värdet för det mottagna meddelandet och kontrollerar att den beräknade HMAC matchar överförda HMAC.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Ändringar i data eller hash-värdet ger ett matchningsfel eftersom kännedom om den hemliga nyckeln som krävs för att ändra meddelandet och återskapa rätt hash-värdet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Om de ursprungliga och beräknade hash-värdena matchar autentiseras därför meddelandet.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MD5 is a cryptographic hash algorithm developed at RSA Laboratories.</source>
+          <target state="translated">MD5 är en kryptografisk hash-algoritm som utvecklade RSA Laboratories.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACMD5 accepts keys of any size, and produces a hash sequence that is 128 bits in length.</source>
+          <target state="translated">HMACMD5 accepterar nycklar i alla storlekar och ger en hash-sekvens som är 128 bitar långt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using a randomly generated key.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av en slumpmässigt genererad nyckel.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACMD5&gt; is a type of keyed hash algorithm that is constructed from the MD5 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACMD5&gt;är en typ av nycklad hashalgoritm som konstrueras utifrån MD5 hash-funktionen och som används som en hashbaserad meddelandeautentiseringskod (HMAC).&lt;/xref:System.Security.Cryptography.HMACMD5&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Processen HMAC kombinerar en hemlig nyckel med meddelandedata, hashar resultatet med hashfunktionen, kombinerar det hashvärdet med den hemliga nyckeln igen och tillämpar sedan hashfunktionen en andra gång.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 128 bits in length.</source>
+          <target state="translated">Utgående hash är 128 bitar långt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a 64-byte, randomly generated key.</source>
+          <target state="translated">Den här konstruktorn använder en 64-byte, slumpmässigt genererad nyckel.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified key.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av den angivna nyckeln.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACMD5&gt; is a type of keyed hash algorithm that is constructed from the MD5 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACMD5&gt;är en typ av nycklad hashalgoritm som konstrueras utifrån MD5 hash-funktionen och som används som en hashbaserad meddelandeautentiseringskod (HMAC).&lt;/xref:System.Security.Cryptography.HMACMD5&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Processen HMAC kombinerar en hemlig nyckel med meddelandedata, hashar resultatet med hashfunktionen, kombinerar det hashvärdet med den hemliga nyckeln igen och tillämpar sedan hashfunktionen en andra gång.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 128 bits in length.</source>
+          <target state="translated">Utgående hash är 128 bitar långt.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a key you provide to create the &lt;xref:System.Security.Cryptography.HMACMD5&gt; object.</source>
+          <target state="translated">Den här konstruktorn använder en nyckel som du anger för att skapa den &lt;xref:System.Security.Cryptography.HMACMD5&gt;objekt.&lt;/xref:System.Security.Cryptography.HMACMD5&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">Den hemliga nyckeln för <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACMD5"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kryptering.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The key can be any length, but if it is more than 64 bytes long it will be hashed (using SHA-1) to derive a 64-byte key.</source>
+          <target state="translated">Nyckeln kan vara valfri längd, men om det är fler än 64 byte långt den ska kodas (med SHA-1) att härleda en 64-byte-nyckel.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Therefore, the recommended size of the secret key is 64 bytes.</source>
+          <target state="translated">Därför är den rekommenderade storleken på den hemliga nyckeln 64 byte.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01f4fcfd0dab5d932e39f791cb9498e75f2095c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlObjectWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5471c74c3ad45da9c7b1397248af4d7ce200daa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccaa85da6afa8c83ee32cc538c7f313b515358e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates an object graph from a source XAML node stream.</source>
+          <target state="translated">A forrás XAML-csomópont adatfolyama objektumdiagram jön létre.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Write`</ph> methods of XamlObjectWriter implement a pattern so that the XamlObjectWriter uses the &lt;xref:System.Xaml.XamlWriter&gt; that is defined by the &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; method.</source>
+          <target state="translated">A <ph id="ph1">`Write`</ph> XamlObjectWriter módszerek megvalósítása mintát, hogy az XamlObjectWriter használja a &lt;xref:System.Xaml.XamlWriter&gt;által definiált a &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;metódus.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt; &lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; logic switches between the <ph id="ph1">`Write`</ph> methods, depending on which node type is at the current position in the reader.</source>
+          <target state="translated">&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;logikai kapcsolók között a <ph id="ph1">`Write`</ph> módszerek, attól függően, hogy melyik csomópont típus az olvasó az aktuális helyén.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scope    A XamlObjectWriter has a concept of scope; that is, the XamlObjectWriter maintains a conceptual point of reference in its output object graph.</source>
+          <target state="translated">Hatókör A XamlObjectWriter rendelkezik egy fogalom hatókör; Ez azt jelenti, hogy az XamlObjectWriter tart fenn a kimeneti objektum graph-hivatkozás fogalmi ponttá.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a particular scope, certain operations might be valid or invalid, or produce a no-operation result.</source>
+          <target state="translated">Egy adott hatókör bizonyos műveletek végrehajtását lehet, hogy érvényes, vagy érvénytelen, vagy nem műveleti eredmény.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you call &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; to write directives for initialization on an object that already exists as an instance, the default implementation throws an exception.</source>
+          <target state="translated">Például, ha meghívja a &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;írni irányelvek egy objektum inicializálása már létezik egy példányt, az alapértelmezett megvalósítása kivételt jelez.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A possible technique for tracking scope in a custom XamlObjectWriter is to align the node actions with a stack or frame class.</source>
+          <target state="translated">Egy lehetséges módszer a hatókörben található egyéni XamlObjectWriter nyomkövetési a csomópont műveletek verem vagy keret osztállyal igazíthatók.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stack or frame can keep track of push and pop for each level of object-model depth that is entered or exited while the XamlObjectWriter writes the object graph.</source>
+          <target state="translated">A verem vagy keret is nyomon követheti, leküldéses és az egyes van megadva, vagy kilépett, amíg az XamlObjectWriter ír az objektumgráf objektummodell mélység pop.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Callbacks    To support intermediate and advanced XamlObjectWriter scenarios, the mechanism of writing an object graph provides callback entry points that occur when a XamlObjectWriter commits or is about to commit certain actions.</source>
+          <target state="translated">Itt a támogatási köztes és speciális XamlObjectWriter objektumdiagram rendszerekben mechanizmus forgatókönyvek visszahívási fordulhat elő, ha egy XamlObjectWriter megmutatják a véglegesítések számát, vagy végre bizonyos műveleteket belépési pontok.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some callbacks are enabled in the settings and are not specific to the object type or the member being written; however, callback information is often available in context or is in the event data that is sent through the callback.</source>
+          <target state="translated">Néhány visszahívásokat beállítások engedélyezve vannak, és nem vonatkoznak az objektum típusának vagy a tag írása; azonban visszahívási információ gyakran érhető el a környezetben vagy az esemény a visszahívás keresztül küldött adatok.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is a list of relevant callbacks:      -   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">Az alábbiakban található a megfelelő visszahívásokat listáját:-a visszahívást, amelyet a deklarálja &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;nyílik meg, ha a hatókör kerül egy új objektumot, és a a &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt;minden létrehozott objektum objektum élettartama fázisa.&lt;/xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">-A visszahívást, amelyet a deklarálja &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;nyílik meg, ha a hatókör kerül egy új objektumot, és a a &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt;minden létrehozott objektum objektum élettartama fázisa.&lt;/xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt; is invoked when the scope starts in an object, and occurs when the first &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-A visszahívást, amelyet a deklarálja &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;nyílik meg, ha a hatókör objektum elindul, és akkor fordul elő, amikor az első &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;objektum hatókörnek hívása történt, de még nem véglegesített.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt; is invoked when the scope starts in an object, and happens when the &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-A visszahívást, amelyet a deklarálja &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;nyílik meg, ha a hatókör objektum elindul, és akkor fordul elő, amikor a &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;objektum hatókörnek hívása történt, de még nem véglegesített.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is invoked when &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; is called.</source>
+          <target state="translated">-A visszahívást, amelyet a deklarálja &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;amikor meghívták &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt;nevezik.&lt;/xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writing Dictionary Keys    The default implementation of XamlObjectWriter supports type conversion on the constraints of a &lt;xref:System.Collections.Generic.Dictionary%602&gt; before the dictionary contents are added to the object graph.</source>
+          <target state="translated">Kulcsok szótár XamlObjectWriter alapértelmezett végrehajtását támogatja a típuskonverziós korlátai egy &lt;xref:System.Collections.Generic.Dictionary%602&gt;előtt a szótár tartalma hozzáadódnak a objektumdiagram.&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this manner, a generic dictionary can be keyed at run time by objects and can match the relevant generic <ph id="ph1">`Add`</ph> and indexer behavior.</source>
+          <target state="translated">Ezen a módon kikapcsolja, általános dictionary úgy is beállítható, futási időben objektum, és megfelelnek a vonatkozó általános <ph id="ph1">`Add`</ph> és indexelő viselkedését.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, as implemented for the base XamlObjectWriter, this capability exists only for object graph creation from the base &lt;xref:System.Collections.Generic.Dictionary%602&gt; class and not for derived classes of &lt;xref:System.Collections.Generic.Dictionary%602&gt;.</source>
+          <target state="translated">Azonban az alap XamlObjectWriter megvalósuló Ez a lehetőség létezik csak objektum graph létrehozása az alaposztályból &lt;xref:System.Collections.Generic.Dictionary%602&gt;osztály és származtatott osztályainak &lt;xref:System.Collections.Generic.Dictionary%602&gt;.&lt;/xref:System.Collections.Generic.Dictionary%602&gt; a nem&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Checks for Disposed    XAML writers are potentially used for deferred operations or where a call is made against a XAML writer instance that has been disposed in the interim.</source>
+          <target state="translated">Ellenőrzi az eldobása XAML-íróhoz Késleltetett műveletek vagy ahol a rendszer telefonhívást indít el lett távolítva az ideiglenes XAML-író példány elleni potenciálisan szolgálnak.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Various APIs of XamlObjectWriter might throw &lt;xref:System.ObjectDisposedException&gt; in these cases.</source>
+          <target state="translated">Különböző XamlObjectWriter API-k előfordulhat, hogy throw &lt;xref:System.ObjectDisposedException&gt;ezekben az esetekben.&lt;/xref:System.ObjectDisposedException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using  the XAML schema context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály által használt XAML-séma környezetet használ a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">Egy XAML séma környezetében, az XAML-olvasó, amely csomópontok írásra meg van osztva.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and its settings.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály által használt környezetével egy <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és annak beállításait.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">Egy XAML séma környezetében, az XAML-olvasó, amely csomópontok írásra meg van osztva.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A settings object that specifies certain options for <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> behavior and output.</source>
+          <target state="translated">A beállítási objektumot, amely bizonyos beállítások <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> viselkedést és a kimeneti.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resets all possible frames and clears the object graph.</source>
+          <target state="translated">Alaphelyzetbe állítja az összes lehetséges keretek, és törli a diagramot.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and optionally, releases the managed resources.</source>
+          <target state="translated">A nem felügyelt által használt erőforrások kiadja a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, és szükség esetén kiadja a felügyelt erőforrások.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release the managed resources; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a felügyelt erőforrások; felszabadítása Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghívja a &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;metódust, amelyhez társítva van <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">A jelentés az objektumot.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Az objektum van csomagolva <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amikor meghívták a kezelő.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghívja a &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;metódust, amelyhez társítva van <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">A jelentés az objektumot.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value  is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Az érték van csomagolva <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amikor meghívták a kezelő.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghívja a &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;metódust, amelyhez társítva van hivatkozott <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">A jelentés az objektumot.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Ez van csomagolva <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amikor meghívták a kezelő.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghívja a &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;metódust, amelyhez társítva van hivatkozott <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value to pass through <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">Az érték az áthaladás, <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amikor meghívták a kezelő.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this writer, as long as <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">handled</ph><ept id="p2">&lt;/code&gt;</ept> in <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> event data is not <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghívja a &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;metódust, amelyhez társítva van hivatkozott <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mindaddig író <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">handled</ph> <ept id="p2">&lt;/code&gt;</ept> a <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> eseményadat nem <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`SetValue`</ph> operation for this XAML writer has an associated handler (a &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is declared in &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), this method creates new &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt; and passes them to the handler.</source>
+          <target state="translated">Ha a <ph id="ph1">`SetValue`</ph> egy társított kezelő műveletnek az XAML-író (egy &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;fájlban deklarált &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), ezzel a módszerrel hoz létre új &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt;, és továbbadja őket a kezelőnek.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is set by reading the &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt; value that is passed through the event data.</source>
+          <target state="translated">A visszatérési érték van beállítva ehhez beolvassa a &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;érték, amely az eseményadatok keresztül.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no handler exists and this method is invoked, the call returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Ha nincs kezelő létezik, és ez a módszer meghívták, adott vissza a hívása <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to report as the source to the handler.</source>
+          <target state="translated">A forrás és a kezelő a jelentés az objektumhoz.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of the property to set, which is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A tulajdonság beállítása, a nevét, a kezelő részeként átadott <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value to provide for the property that is named by <ph id="ph1">`property`</ph>.</source>
+          <target state="translated">Az érték a tulajdonság által nevű biztosít <ph id="ph1">`property`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték a kezelőnek átadott részeként <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is set by any associated handler; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy logikai érték, amely a van beállítva, a társított kezelő; Ellenkező esetben <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Tekintse meg a megjegyzés.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the last object that was written.</source>
+          <target state="translated">Lekérdezi az utolsó objektum írt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Typically only called when the node stream is at its end and the object graph is complete.</source>
+          <target state="translated">Általában csak hívható meg, ha a csomópont adatfolyamában végén, és a objektumdiagram befejeződött.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most typical usage of Result is to call it only when the node stream is known to be at its end, and the object graph is complete.</source>
+          <target state="translated">Az eredmény a legjellemzőbb használatát is hívják, csak akkor, ha a csomópont adatfolyamában ismert, hogy a végén, és a objektumdiagram befejeződött.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the object graph is likely to be incomplete, and is not useful for most platform scenarios.</source>
+          <target state="translated">Ellenkező esetben a objektumdiagram valószínű, hogy nem teljesek, és nem a legtöbb platformon forgatókönyvek esetén hasznos.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Result typically only contains a non-null value if it is called immediately after a call to &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, and if the current scope is in the member where the object provides a value.</source>
+          <target state="translated">Eredmény általában csak nem null értéket tartalmaz hívása után azonnal hívása esetén &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, és ha az objektum rendelkezik egy értéket a tag az aktuális hatókörben van.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The last object written, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az utolsó objektum írt, vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Tekintse meg a megjegyzés.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the absolute node root of the XAML object writer.</source>
+          <target state="translated">Lekérdezi a &lt;xref:System.Windows.Markup.INameScope&gt;szolgáltatás, amely megőrzi az XAML namescope az XAML-objektum író abszolút csomópont gyökerének.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property may come from the object writer context.</source>
+          <target state="translated">Ez a tulajdonság az objektum írási környezete származhatnak.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the current root of the object writer.</source>
+          <target state="translated">A &lt;xref:System.Windows.Markup.INameScope&gt;szolgáltatás, amely megőrzi az XAML namescope az objektum-író aktuális gyökerének.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the active XAML schema context.</source>
+          <target state="translated">Lekérdezi a aktív XAML séma környezetében.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XAML schema context is a necessary information source for most practical object-writing scenarios.</source>
+          <target state="translated">XAML-séma környezetében legtöbb gyakorlati objektum-írási forgatókönyvek szükséges információ forrását.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XAML schema context influences the type lookup for backing types and holds information about the assemblies where backing types exist.</source>
+          <target state="translated">Az XAML-séma környezetében hatását a biztonsági típusok típusú kereséskor, és biztonsági létezik ahol a szerelvények kapcsolatos információkat tartalmazza.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default XAML schema context is based on CLR type-mapping rules.</source>
+          <target state="translated">Az alapértelmezett XAML séma környezet CLR típus-hozzárendelési szabályok alapul.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Frameworks typically provide their own XAML schema context in order to assure that that the assembly-loading mechanisms match the framework's programming amd application models.</source>
+          <target state="translated">Keretrendszerek általában biztosítják, hogy, hogy a szerelvény-betöltése mechanizmusok egyezik-e a keretrendszer programozási amd alkalmazás modellek érdekében adja meg a saját XAML séma környezetében.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The XAML schema context.</source>
+          <target state="translated">Az XAML-séma környezetében.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Implements <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> and provides line information for exceptions.</source>
+          <target state="translated">Megvalósítja <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> és kivételek sor információkat nyújt.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service method is not intended to be called directly from your code.</source>
+          <target state="translated">Ezt a módszert nem javasolt közvetlenül a kódból hívható.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if you are creating a derived class from &lt;xref:System.Xaml.XamlObjectWriter&gt; and expect to report a context where line numbers are unavailable or not useful, this method may be called.</source>
+          <target state="translated">Azonban ha a származtatott osztály létrehozásakor &lt;xref:System.Xaml.XamlObjectWriter&gt;és várhatóan kontextusban jelentést a sorok számát esetén nem érhető el, vagy nem lehet hasznos, ez a metódus hívható.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The line number from the reader.</source>
+          <target state="translated">Az olvasó a sor száma.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The line position from the reader.</source>
+          <target state="translated">Az olvasó a sor pozícióját.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a value that reports whether a line information service should provide values and therefore, should also call the &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt; method when it is relevant.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy biztosítania kell egy sor információs szolgáltatás értékeket, és ezért kell is meghívhatja lekérdezi a &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;metódust, ha a megfelelő.&lt;/xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ez a megvalósítás mindig adja vissza <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if line information is used by the writer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha sor adatok a író; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Closes the current member scope, and may write the value of the member scope while it closes.</source>
+          <target state="translated">Bezárja az aktuális tagot hatókör, és az értéket a tag hatókör írhat, amíg lezárja.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The new scope becomes the parent object scope of the member.</source>
+          <target state="translated">Az új hatókörhöz a szülőhatókörben objektum tag lesz.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Failed to create member value from a value node that is encountered between this call and a previous <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nem sikerült létrehozni a tag értékét a hívás, és a korábbi közötti megtalált érték csomópont <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Closes the current object scope in the writer.</source>
+          <target state="translated">Bezárja az író objektum a jelenlegi hatókörhöz.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The new object scope becomes the parent member scope.</source>
+          <target state="translated">Az új objektum hatóköre a szülőhatókörben tagja lesz.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this <ph id="ph1">`EndObject`</ph> position scope is closing the root object, the new object scope becomes the root scope.</source>
+          <target state="translated">Ha a <ph id="ph1">`EndObject`</ph> pozíció hatókör lezárul, a legfelső szintű objektum, az új objektum hatóköre lesz a gyökérszintű hatókörben.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; might not yet have created the object because an object member might be a necessary initialization pathway, such as initialization text or initialization parameters.</source>
+          <target state="translated">A hívás &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;Előfordulhat, hogy még nem rendelkezik hozott létre az objektum mivel előfordulhat, hogy az objektum tag szükséges inicializálási végzett információküldéshez, például az inicializálási szöveg vagy inicializálási paramétereket.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For these cases, the call to WriteEndObject actually writes the object.</source>
+          <target state="translated">Ezekben az esetekben a WriteEndObject hívása írna a objektum.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Writes the conceptual <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the object graph when the specified object is a default or implicit value of the parent property.</source>
+          <target state="translated">A fogalmi ír <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az objektumgráf, ha a megadott objektum egy alapértelmezett vagy a szülő tulajdonság értékének implicit be.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The implicit value comes from information that is obtained from the XAML schema context and backing type information, instead of being specified as an object value in the input XAML node set.</source>
+          <target state="translated">Az implicit érték a XAML séma környezetben szerzett ügyféladatoktól és biztonsági típussal kapcsolatos információk, egy olyan objektumértéket XAML-csomópont beviteli készletben alatt megadott helyett származik.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The difference between writing with WriteGetObject and writing with &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; can be seen in the resulting object graph.</source>
+          <target state="translated">A különbség WriteGetObject való írás és való írás &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;láthatók az eredményül kapott objektumdiagram.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteGetObject does not construct an instance of a type because the WriteGetObject API has no information to inform the object graph of what to construct.</source>
+          <target state="translated">WriteGetObject összeállítani egy típus egy példánya, mert a WriteGetObject API nem tartalmaz információt, mit összeállításához diagramot tájékoztatja.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the object was created when the parent property was initialized; so a &lt;xref:System.Xaml.XamlObjectWriter&gt; does not need to construct it.</source>
+          <target state="translated">Ehelyett lett létrehozva az objektum inicializálása a szülő tulajdonságot; így &lt;xref:System.Xaml.XamlObjectWriter&gt;nem kell létrehozni azt.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; specifies that an instance of that type should be constructed and inserted into the object graph.</source>
+          <target state="translated">Ezzel szemben &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;határozza meg, hogy a típus egy példányának kell megtervezni és diagramot beszúrt.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you think of the XAML node stream as a series of frames, a WriteGetObject is balanced to a &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call.</source>
+          <target state="translated">Ha úgy gondolja, hogy az az XAML-csomópont adatfolyama keretek sorozataként, hogy egy WriteGetObject kiegyensúlyozott egy &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;hívása.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the number of WriteGetObject plus &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; calls should equal the number of &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; calls as part of a complete object-writing evaluation of the XAML node stream.</source>
+          <target state="translated">Ezért, plusz WriteGetObject száma &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;hívások száma meg kell egyeznie az &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;az XAML-csomópont adatfolyama teljes objektum-írási kiértékelésének részeként hívások.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The conceptual <ph id="ph1">`StartObject`</ph> position for an implicit object in the object graph is necessary because although the object value itself is an implicit default, that object might still have members that need to be written based on the XAML node stream.</source>
+          <target state="translated">A fogalmi <ph id="ph1">`StartObject`</ph> elhelyezése a diagramot implicit objektumára szükség, mert egy implicit alapértelmezett maga az objektum érték azonban, hogy az objektum, amely előfordulhat, hogy továbbra is fennáll tagokat írandó alapján az XAML-csomópont adatfolyama.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical scenario where this occurs is when &lt;xref:System.Xaml.XamlObjectWriter&gt; writes member nodes for a collection property, and the collection initialization is implicit to creating the object that owns the collection property.</source>
+          <target state="translated">Meg kell a jellemző forgatókönyv, ahol ez akkor fordulhat elő, ha &lt;xref:System.Xaml.XamlObjectWriter&gt;írások tag csomópontok egy gyűjtemény tulajdonság és az gyűjtemény inicializálását a gyűjteménytulajdonság birtokló objektum létrehozásához implicit módon.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines a namespace declaration that applies to the next object scope or member scope.</source>
+          <target state="translated">Határozza meg, amely a következő objektum hatóköre vagy a tag hatókörben érvényes névtér-deklaráció.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration can be written if the current scope is a root scope, object scope, or member scope.</source>
+          <target state="translated">A névtér-deklaráció csak írható, ha az aktuális hatókörben, egy gyökérszintű hatókörben, az objektum hatóköre vagy a tag hatókör.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, WriteNamespace can only be called immediately before a call to one of the following: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.</source>
+          <target state="translated">Azonban WriteNamespace csak akkor hívható közvetlenül előtt hívása a következő: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, vagy &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consecutive WriteNamespace case is for writing multiple namespace declarations to the same node.</source>
+          <target state="translated">Az egymást követő WriteNamespace esetben van több névtér-deklarációk írásához ugyanahhoz a csomóponthoz.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Eventually, either &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; must be called.</source>
+          <target state="translated">Végül, vagy &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;vagy &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;kell meghívni.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteNamespace does not use a <ph id="ph1">`Start`</ph><ph id="ph2">/</ph><ph id="ph3">`End`</ph> metaphor.</source>
+          <target state="translated">WriteNamespace nem használ egy <ph id="ph1">`Start`</ph> <ph id="ph2">/</ph> <ph id="ph3">`End`</ph> metaphor.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although a XAML namespace has members in the CLR representation sense, the members are known and do not need to be represented as a special type of &lt;xref:System.Xaml.XamlMember&gt; for extensibility.</source>
+          <target state="translated">Bár egy XAML-névtér a CLR-ábrázolását értelemben tagja van, a tagok nevezik, és nem jeleníthető meg speciális kell &lt;xref:System.Xaml.XamlMember&gt;Kiterjeszthetőség.&lt;/xref:System.Xaml.XamlMember&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the values of a &lt;xref:System.Xaml.NamespaceDeclaration&gt;, you access its &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; and &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; properties.</source>
+          <target state="translated">Értékének eléréséhez a &lt;xref:System.Xaml.NamespaceDeclaration&gt;, hozzáférhet a &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt;és &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt;Tulajdonságok.&lt;/xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration may have a &lt;xref:System.String.Empty?displayProperty=fullName&gt; value for the prefix.</source>
+          <target state="translated">A névtér-deklaráció előfordulhat, hogy rendelkezik egy &lt;xref:System.String.Empty?displayProperty=fullName&gt;érték a előtag.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.String.Empty?displayProperty=fullName&gt; prefix represents a declaration of the default XAML namespace.</source>
+          <target state="translated">A &lt;xref:System.String.Empty?displayProperty=fullName&gt;előtag jelöli az alapértelmezett XAML-névtér nyilatkozatot.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not attempt to use null to represent the default prefix;  it throws an exception in this API.</source>
+          <target state="translated">Ne próbálja meg használni az alapértelmezett előtag; képviselő null  Ez kivételt ezt az API-ban.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Xaml.NamespaceDeclaration&gt;.</source>
+          <target state="translated">További információkért lásd: &lt;xref:System.Xaml.NamespaceDeclaration&gt;.&lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The namespace declaration to write.</source>
+          <target state="translated">A névtér-deklaráció írni.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Tried to write a XAML namespace node in an invalid scope.</source>
+          <target state="translated">Próbált írni a csomópont a XAML-KÓDBAN érvénytelen hatókörben.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Writes a new member node into the current object scope, and the scope becomes a new member scope.</source>
+          <target state="translated">Egy új tag csomópont írja be az aktuális objektum hatókör, és a hatókör válik az új tag hatókör.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The XAML property to write.</source>
+          <target state="translated">Az XAML-tulajdonság írása.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader through the XAML node stream intermediate.</source>
+          <target state="translated">Ezt az értéket általában egy XAML-olvasó keresztül közbülső XAML-csomópont adatfolyama az beszerzése.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> passed, which indicates that the XAML node stream contained content for an object that does not support content.</source>
+          <target state="translated">– vagy – <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> sikeres, ami azt jelenti, hogy az XAML-csomópont adatfolyama található olyan objektum, amely nem támogatja a tartalom a tartalom.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start member in an invalid scope.</source>
+          <target state="translated">– vagy – megkísérelt start tagja írása érvénytelen hatókörben.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> specifies a property that is already explicitly set in the parent object scope.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>Adja meg azt a tulajdonságot, az objektum szülőhatókörben már explicit módon beállított.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Writes an object node into the current scope, and sets the scope to a new object scope.</source>
+          <target state="translated">Egy objektum csomópont írja be az aktuális hatókörben, és beállítja a hatókört annak egy új objektumot.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The type to write.</source>
+          <target state="translated">A típus írni.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader.</source>
+          <target state="translated">Ezt az értéket általában egy XAML-olvasó az beszerzése.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Processing an &lt;xref:System.Xaml.XamlType.IsUnknown*&gt; type and cannot create an object.</source>
+          <target state="translated">Feldolgozása egy &lt;xref:System.Xaml.XamlType.IsUnknown*&gt;Írja be, és nem lehet létrehozni egy objektumot.&lt;/xref:System.Xaml.XamlType.IsUnknown*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start object in an invalid scope.</source>
+          <target state="translated">– vagy – próbált írni egy kezdő objektum érvénytelen hatókörben.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Attempted to write a root object when the root object was already provided in the settings.</source>
+          <target state="translated">Kísérlet történt egy legfelső szintű objektum írni, amikor a legfelső szintű objektum már meg lett adva a beállításai.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Writes a value to the current member scope.</source>
+          <target state="translated">Egy értéket ír az aktuális tagot hatókörben.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the current scope is inside a collection, dictionary, or array object, the value should be added to the collection, dictionary, or array.</source>
+          <target state="translated">Ha az aktuális hatókörben egy gyűjteményt, a szótár vagy a tömb objektum belül, az értéket meg kell adni a gyűjteményt, a szótár vagy a tömb.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value to write.</source>
+          <target state="translated">Az érték írni.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Attempted to write a value in an invalid scope.</source>
+          <target state="translated">Kísérlet történt egy érték érvénytelen hatókörben.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

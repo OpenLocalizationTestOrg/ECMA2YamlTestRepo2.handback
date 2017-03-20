@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42f6f703297a095c149e4b0f5057745041e23d52</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Interop.ComponentDispatcher.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0157343f99a08863fda692719229c7161034ad0f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e1e3c30df6ff2fa79fd3596eb9a1b038207c2a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables shared control of the message pump between <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> and <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> in interoperation scenarios.</source>
+          <target state="translated">Kunnen worden besturingselement van het bericht pomp tussen gedeelde <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> en <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> in interoperaties tussen scenario's.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the class itself is static, all members of ComponentDispatcher are specific to a particular thread.</source>
+          <target state="translated">Hoewel de klasse zelf statisch is, zijn alle leden van ComponentDispatcher specifiek voor een bepaalde thread.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you examine the value of &lt;xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt; on two different threads, you might get different values.</source>
+          <target state="translated">Bijvoorbeeld, als u de waarde van onderzoeken &lt;xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt;op twee verschillende threads, krijgt u mogelijk verschillende waarden.&lt;/xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The methods are static but they are backed by per-thread data structures.</source>
+          <target state="translated">De methoden zijn statisch, maar ze worden ondersteund door gegevensstructuren per thread.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The static methods allow singleton access but the ComponentDispatcher is sorting out the appropriate per-thread operations.</source>
+          <target state="translated">De statische methoden singleton-toegang toestaan, maar het sorteren van de ComponentDispatcher uit de juiste thread-bewerkingen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The owner of the message pump is defined by the code that calls the <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> function  <bpt id="p1">[</bpt>GetMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644936.aspx)</ept>.</source>
+          <target state="translated">De eigenaar van de pomp bericht is gedefinieerd door de code die roept de <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> functie <bpt id="p1">[</bpt>GetMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644936.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The owner calls &lt;xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt; for every keyboard message.</source>
+          <target state="translated">Het aanroepen van de eigenaar &lt;xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt;voor elk bericht toetsenbord.&lt;/xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt; event with the messages contained in the event data.</source>
+          <target state="translated">Deze methode wordt gegeven de &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;gebeurtenis met de berichten in het gebeurtenisbericht bevat gegevens.&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If that event is not handled, the owner raises the &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt; event with the messages contained in the event argument.</source>
+          <target state="translated">Als deze gebeurtenis niet verwerkt wordt, wordt de eigenaar van het gegeven de &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt;gebeurtenis met de berichten die zijn opgenomen in de gebeurtenisstroom argument.&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only keyboard messages are supported.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alleen toetsenbordberichten worden ondersteund.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the last message that was raised.</source>
+          <target state="translated">Haalt het laatste bericht dat is gegenereerd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The last message.</source>
+          <target state="translated">Het laatste bericht.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Occurs when a thread becomes modal.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer een thread modaal wordt.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the thread is modal.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de thread modaal is.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the thread is modal; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de thread modaal is. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Occurs when a modal thread becomes nonmodal.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer een modaal thread wordt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Called to indicate that a modal thread is no longer modal.</source>
+          <target state="translated">Om aan te geven een modaal thread is niet langer modaal wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Called to indicate that the thread is modal.</source>
+          <target state="translated">Om aan te geven dat de thread modaal is aangeroepen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Called to indicate that a thread is idle.</source>
+          <target state="translated">Aangeroepen om aan te geven dat een thread inactief is.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Indicates that a new message is available for possible handling.</source>
+          <target state="translated">Hiermee wordt aangegeven dat een nieuw bericht beschikbaar voor de verwerking van de mogelijke is.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The owner of the message pump should call this method for every keyboard message.</source>
+          <target state="translated">De eigenaar van het bericht pomp moet deze methode niet aanroepen voor elk bericht toetsenbord.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message and its associated data.</source>
+          <target state="translated">Het bericht en de bijbehorende gegevens.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if one of the modules listening to the message loop processed the message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, als een van de modules die luisteren naar de berichtenlus van het bericht verwerkt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The owner of the message loop should ignore the message.</source>
+          <target state="translated">De eigenaar van de berichtenlus van het bericht moet worden genegeerd.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the message was not processed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, als het bericht is niet verwerkt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this case, the owner of the message pump should call the <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> function <bpt id="p1">[</bpt>TranslateMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644955.aspx)</ept> followed by <bpt id="p2">[</bpt>DispatchMessage<ept id="p2">](http://msdn.microsoft.com/library/ms644934.aspx)</ept>.</source>
+          <target state="translated">In dit geval wordt de eigenaar van het bericht pomp moet aanroepen de <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> functie <bpt id="p1">[</bpt>TranslateMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644955.aspx)</ept> gevolgd door <bpt id="p2">[</bpt>DispatchMessage<ept id="p2">](http://msdn.microsoft.com/library/ms644934.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs when the message pump receives a keyboard message.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer de pomp bericht een bericht toetsenbord ontvangt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Occurs when the thread is idle.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer de thread inactief is.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no messages in the queue, then the idle state announced by the ThreadIdle event is an efficient time to do processing.</source>
+          <target state="translated">Als er geen berichten in de wachtrij zijn, is het niet-actieve status aangekondigd door de gebeurtenis ThreadIdle een efficiënte tijd verwerking.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Occurs when the message pump receives a keyboard message.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer de pomp bericht een bericht toetsenbord ontvangt.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event should be raised after &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;, if that event is not handled.</source>
+          <target state="translated">Deze gebeurtenis moet worden gegenereerd na &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;, als deze gebeurtenis wordt niet verwerkt.&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

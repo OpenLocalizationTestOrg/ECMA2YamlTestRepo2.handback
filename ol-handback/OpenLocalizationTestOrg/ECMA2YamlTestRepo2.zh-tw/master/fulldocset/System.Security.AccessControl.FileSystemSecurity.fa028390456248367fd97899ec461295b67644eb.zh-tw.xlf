@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a13a92a4e59f934e20d7b3352a2d8f0d26b1029e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.AccessControl.FileSystemSecurity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e005a9aa4fa29cb5c067031bd4fd1e32c63af13a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb0f6ada75c05a5aa787886a2ca8191ae70a23b6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the access control and audit security for a file or directory.</source>
+          <target state="translated">代表存取控制和稽核檔案或目錄的安全性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The FileSystemSecurity class is the base class for the &lt;xref:System.Security.AccessControl.FileSecurity&gt; and &lt;xref:System.Security.AccessControl.DirectorySecurity&gt; classes.</source>
+          <target state="translated">FileSystemSecurity 類別是基底類別&lt;xref:System.Security.AccessControl.FileSecurity&gt;和&lt;xref:System.Security.AccessControl.DirectorySecurity&gt;類別。&lt;/xref:System.Security.AccessControl.DirectorySecurity&gt; &lt;/xref:System.Security.AccessControl.FileSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These classes represent all of the access rights for a system file or directory and define how access attempts are audited.</source>
+          <target state="translated">這些類別代表所有的系統檔案或目錄的存取權限，並且定義嘗試存取稽核的方式。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The FileSystemSecurity class represents access and audit rights as a set of rules.</source>
+          <target state="translated">FileSystemSecurity 類別會表示為一組規則的存取和稽核 」 權限。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each access rule is represented by a &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; object, while each audit rule is represented by a &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object.</source>
+          <target state="translated">每個存取規則由&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;物件，而每個稽核規則由&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt; &lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The FileSystemSecurity class is an abstraction of the underlying Microsoft Windows file security system.</source>
+          <target state="translated">FileSystemSecurity 類別是抽象的基礎的 Microsoft Windows 檔案安全性系統。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this system, each file or directory has a discretionary access control list (DACL), which controls access to the file or directory, and a system access control list (SACL), which specifies the access control attempts that are audited.</source>
+          <target state="translated">在此系統中，每個檔案或目錄已判別存取控制清單 (DACL)，以控制存取檔案或目錄和系統存取控制清單 (SACL)，其指定要稽核的存取控制嘗試。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; and &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; classes are abstractions of access control entries (ACEs) that comprise DACLs and SACLs.</source>
+          <target state="translated">&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;和&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;類別是抽象的存取控制項目 (Ace) 組成的 Dacl Sacl。&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt; &lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The FileSystemSecurity class hides many of details of DACLs and SACLs; you do not have to worry about ACE ordering or null DACLS.</source>
+          <target state="translated">FileSystemSecurity 類別隱藏許多細節，Dacl 的 Sacl。您不必擔心 ACE 排序或 null 的 DACL。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To persist new or changed access control list (ACL) information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要保存至檔案的新增或變更的存取控制清單 (ACL) 資訊，請使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets the enumeration that the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class uses to represent access rights.</source>
+          <target state="translated">取得列舉型別<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別用來表示的存取權限。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; class override the AccessRightType property and return the type they use to represent access rights.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;類別覆寫 AccessRightType 屬性，並傳回它們以表示的存取權限的類型。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct enumeration type to use with each security object.</source>
+          <target state="translated">當您使用陣列或包含多個類型的安全性物件的集合時，使用這個屬性來判斷要用於每個安全性物件的正確的列舉類型。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; object representing the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemRights"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;物件，代表<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemRights"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>列舉型別。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that represents a new access control rule for the specified user, with the specified access rights, access control, and flags.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，表示指定的使用者，使用指定的存取權限、 存取控制和旗標的新存取控制規則。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The recommended way to create access control rules is to use the constructors of the &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; class.</source>
+          <target state="translated">若要建立存取控制規則的建議的方式是使用&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;類別&lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt;的建構函式</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The return type of the AccessRuleFactory method is the base class, &lt;xref:System.Security.AccessControl.AccessRule&gt;, but the return value can be cast safely to the derived class.</source>
+          <target state="translated">AccessRuleFactory 方法的傳回型別是基底類別， &lt;xref:System.Security.AccessControl.AccessRule&gt;，但傳回的值可以安全地轉換為衍生的類別。&lt;/xref:System.Security.AccessControl.AccessRule&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Principal.IdentityReference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a user account.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Principal.IdentityReference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An integer that specifies an access type.</source>
+          <target state="translated">整數，指定存取類型。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the access rule is inherited; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果繼承的存取規則。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies how to propagate access masks to child objects.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定如何傳播到子物件的存取遮罩。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies how to propagate Access Control Entries (ACEs) to child objects.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定如何傳播到子物件的存取控制項目 (Ace)。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies whether access is allowed or denied.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否允許或拒絕存取。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a new access control rule for the specified user, with the specified access rights, access control, and flags.</source>
+          <target state="translated">新<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的使用者，使用指定的存取權限、 存取控制和旗標的新存取控制規則。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">type</ph><ept id="p4">&lt;/code&gt;</ept> parameters specify an invalid value.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">type</ph><ept id="p4">&lt;/code&gt;</ept> parameters specify an invalid value.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept> parameter is zero.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">accessMask</ph> <ept id="p1">&lt;/code&gt;</ept>參數為零。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> parameter is neither of type <bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, nor of a type such as <bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> that can be converted to type <bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">identityReference</ph> <ept id="p1">&lt;/code&gt;</ept>參數既不是類型<bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或這類類型的<bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>可以轉換為類型<bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the enumeration that the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class uses to represent access rules.</source>
+          <target state="translated">取得列舉型別<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別用來代表存取規則。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; class override the AccessRuleType property and return the type they use to represent access rules.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;類別覆寫 AccessRuleType 屬性和傳回型別，用以代表存取規則。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct access rule type to use with each security object.</source>
+          <target state="translated">當您使用陣列或包含多個類型的安全性物件的集合時，使用這個屬性來判斷用於每個安全性物件的正確的存取規則類型。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; object representing the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;物件，代表<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Adds the specified access control list (ACL) permission to the current file or directory.</source>
+          <target state="translated">將指定的存取控制清單 (ACL) 權限加入至目前檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The AddAccessRule method adds a new rule to the list of rules contained within a &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">AddAccessRule 方法將新的規則加入至內含的規則清單&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If an access control list (ACL) already exists for the specified rule, the AddAccessRule method will still add the rule, with one exception: a &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; enumeration value supersedes an object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; enumeration value.</source>
+          <target state="translated">如果指定的規則已存在的存取控制清單 (ACL)，請 AddAccessRule 方法仍會加入規則，有一個例外狀況︰&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;使用建立物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;列舉值會取代使用所建立的物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;列舉值。&lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到檔案，使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you add an access rule without setting the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag will be automatically added to your rule.</source>
+          <target state="translated">當您新增存取規則未設定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標將會自動加入至您的規則。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you remove the rule later without specifying the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the flag will automatically be removed.</source>
+          <target state="translated">如果您移除規則稍後但未指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，此旗標將會自動移除。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an access control list (ACL) permission to add to a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要加入至檔案或目錄存取控制清單 (ACL) 權限。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Adds the specified audit rule to the current file or directory.</source>
+          <target state="translated">將指定的稽核規則加入至目前檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The AddAuditRule method adds a new audit rule to the list of rules contained within a &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">AddAuditRule 方法內所包含的規則清單中加入新的稽核規則&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If an audit rule already exists for the specified rule, the AddAuditRule method will still add the rule.</source>
+          <target state="translated">如果稽核規則已經存在指定的規則，AddAuditRule 方法仍會將規則。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an audit rule to add to a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要加入至檔案或目錄的稽核規則。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class representing the specified audit rule for the specified user.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，代表指定之使用者指定的稽核規則。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The recommended way to create audit rules is to use the constructors of the &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; class.</source>
+          <target state="translated">若要建立的稽核規則的建議的方式是使用&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;類別&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt;的建構函式</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The return type of the AuditRuleFactory method is the base class, &lt;xref:System.Security.AccessControl.AuditRule&gt;, but the return value can be cast safely to the derived class.</source>
+          <target state="translated">AuditRuleFactory 方法的傳回型別是基底類別， &lt;xref:System.Security.AccessControl.AuditRule&gt;，但傳回的值可以安全地轉換為衍生的類別。&lt;/xref:System.Security.AccessControl.AuditRule&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Principal.IdentityReference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a user account.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Principal.IdentityReference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An integer that specifies an access type.</source>
+          <target state="translated">整數，指定存取類型。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the access rule is inherited; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果繼承的存取規則。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies how to propagate access masks to child objects.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定如何傳播到子物件的存取遮罩。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies how to propagate Access Control Entries (ACEs) to child objects.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定如何傳播到子物件的存取控制項目 (Ace)。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the type of auditing to perform.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定執行稽核類型的值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the specified audit rule for the specified user.</source>
+          <target state="translated">新<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，代表指定之使用者指定的稽核規則。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">flags</ph><ept id="p4">&lt;/code&gt;</ept> properties specify an invalid value.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">flags</ph><ept id="p4">&lt;/code&gt;</ept> properties specify an invalid value.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept> property is zero.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">accessMask</ph> <ept id="p1">&lt;/code&gt;</ept>屬性為零。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is neither of type <bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, nor of a type such as <bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> that can be converted to type <bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">identityReference</ph> <ept id="p1">&lt;/code&gt;</ept>屬性的型別既不是<bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或這類類型的<bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>可以轉換為類型<bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets the type that the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class uses to represent audit rules.</source>
+          <target state="translated">取得型別<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別用來代表稽核規則。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; class override the AuditRuleType property and return the type they use to represent audit rights.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;類別覆寫 AuditRuleType 屬性，並傳回它們以表示稽核權限的類型。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct audit rule type to use with each security object.</source>
+          <target state="translated">當您使用陣列或包含多個類型的安全性物件的集合時，使用這個屬性來判斷用於每個安全性物件的正確的稽核規則類型。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; object representing the <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;物件，代表<bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Removes all matching allow or deny access control list (ACL) permissions from the current file or directory.</source>
+          <target state="translated">移除所有相符允許或拒絕存取控制清單 (ACL) 從目前的檔案或目錄的權限。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The RemoveAccessRule method removes either all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules or all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules from the current &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">RemoveAccessRule 方法中移除所有符合&lt;xref:System.Security.AccessControl.AccessControlType&gt;存取規則或比對所有&lt;xref:System.Security.AccessControl.AccessControlType&gt;從目前的存取規則&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove all &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, and a user account.</source>
+          <target state="translated">例如，您可以使用這個方法來移除所有&lt;xref:System.Security.AccessControl.AccessControlType&gt;存取使用者的規則，藉由傳遞&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;使用建立物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;值，&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值和使用者帳戶。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAccessRule method removes any deny rules that specify the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value or the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value.</source>
+          <target state="translated">當您這樣做時，則 RemoveAccessRule 方法會移除任何指定的拒絕規則&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值或&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To persist new or changed access control list (ACL) information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要保存至檔案的新增或變更的存取控制清單 (ACL) 資訊，請使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When you add an access rule without setting the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag will be automatically added to your rule.</source>
+          <target state="translated">當您新增存取規則未設定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標將會自動加入至您的規則。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If you remove the rule later without specifying the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the flag will automatically be removed.</source>
+          <target state="translated">如果您移除規則稍後但未指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，此旗標將會自動移除。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an access control list (ACL) permission to remove from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要移除檔案或目錄存取控制清單 (ACL) 權限。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the access rule was removed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已移除的存取規則。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Removes all access control list (ACL) permissions for the specified user from the current file or directory.</source>
+          <target state="translated">移除目前檔案或目錄的所有存取控制清單 (ACL) 權限指定的使用者。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The RemoveAccessRuleAll method removes all access control list (ACL) permissions for the specified user.</source>
+          <target state="translated">RemoveAccessRuleAll 方法移除所有存取控制清單 (ACL) 權限指定的使用者。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The method ignores all values in the &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; object except the user account.</source>
+          <target state="translated">這個方法會忽略中的所有值&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;物件以外的使用者帳戶。&lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到檔案，使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When you add an access rule without setting the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag will be automatically added to your rule.</source>
+          <target state="translated">當您新增存取規則未設定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標將會自動加入至您的規則。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you remove the rule later without specifying the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the flag will automatically be removed.</source>
+          <target state="translated">如果您移除規則稍後但未指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，此旗標將會自動移除。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies a user whose access control list (ACL) permissions should be removed from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，指定其存取控制清單 (ACL) 權限的使用者應該會從檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Removes a single matching allow or deny access control list (ACL) permission from the current file or directory.</source>
+          <target state="translated">移除單一比對允許或拒絕存取控制清單 (ACL) 權限，從目前的檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The RemoveAccessRuleSpecific method removes the specified &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rule or the specified matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rule from the current &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">RemoveAccessRuleSpecific 方法移除指定&lt;xref:System.Security.AccessControl.AccessControlType&gt;存取規則，或指定的比對&lt;xref:System.Security.AccessControl.AccessControlType&gt;從目前的存取規則&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove a specified &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rule for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, and a user account.</source>
+          <target state="translated">例如，您可以使用這個方法，若要移除指定&lt;xref:System.Security.AccessControl.AccessControlType&gt;藉由傳遞使用者的存取規則&lt;xref:System.Security.AccessControl.FileSystemAccessRule&gt;使用建立物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;值&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值和使用者帳戶。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.FileSystemAccessRule&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAccessRuleSpecific method removes only the deny rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value.</source>
+          <target state="translated">當您這樣做時，RemoveAccessRuleSpecific 方法移除僅拒絕規則，以指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It does not remove any deny rules that specify the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value.</source>
+          <target state="translated">它不會移除任何指定的拒絕規則&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To persist new or changed access control list (ACL) information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要保存至檔案的新增或變更的存取控制清單 (ACL) 資訊，請使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When you add an access rule without setting the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag will be automatically added to your rule.</source>
+          <target state="translated">當您新增存取規則未設定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標將會自動加入至您的規則。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you remove the rule later without specifying the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; flag, the flag will automatically be removed.</source>
+          <target state="translated">如果您移除規則稍後但未指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;旗標，此旗標將會自動移除。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies a user whose access control list (ACL) permissions should be removed from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，指定其存取控制清單 (ACL) 權限的使用者應該會從檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Removes all matching allow or deny audit rules from the current file or directory.</source>
+          <target state="translated">移除所有相符允許或拒絕從目前的檔案或目錄的稽核規則。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRule method removes either all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules or all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules from the current &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">RemoveAuditRule 方法中移除所有符合&lt;xref:System.Security.AccessControl.AccessControlType&gt;稽核規則或比對所有&lt;xref:System.Security.AccessControl.AccessControlType&gt;稽核規則從目前&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove all &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value, and a user account.</source>
+          <target state="translated">例如，您可以使用這個方法來移除所有&lt;xref:System.Security.AccessControl.AccessControlType&gt;稽核規則的使用者藉由傳遞&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;使用建立物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;值，&lt;xref:System.Security.AccessControl.AuditFlags&gt;值和使用者帳戶。&lt;/xref:System.Security.AccessControl.AuditFlags&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAuditRule method removes any deny rules that specify the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value or the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">當您這樣做時，則 RemoveAuditRule 方法會移除任何指定的拒絕規則&lt;xref:System.Security.AccessControl.AuditFlags&gt;值或&lt;xref:System.Security.AccessControl.AuditFlags&gt;值。&lt;/xref:System.Security.AccessControl.AuditFlags&gt; &lt;/xref:System.Security.AccessControl.AuditFlags&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an audit rule to remove from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要移除檔案或目錄的稽核規則。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the audit rule was removed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果稽核規則已移除;否則，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Removes all audit rules for the specified user from the current file or directory.</source>
+          <target state="translated">從目前的檔案或目錄中移除指定之使用者的所有稽核規則。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRuleAll method removes all audit rules for the specified user.</source>
+          <target state="translated">RemoveAuditRuleAll 方法中移除指定之使用者的所有稽核規則。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>It ignores all values in the &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object except the user account.</source>
+          <target state="translated">它會忽略中的所有值&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;物件以外的使用者帳戶。&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies a user whose audit rules should be removed from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，指定應移除其稽核規則，從檔案或目錄的使用者。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Removes a single matching allow or deny audit rule from the current file or directory.</source>
+          <target state="translated">移除單一比對允許或拒絕從目前的檔案或目錄的稽核規則。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRuleSpecific method removes the specified matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule or the specified matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule from the current &lt;xref:System.Security.AccessControl.FileSystemSecurity&gt; object.</source>
+          <target state="translated">RemoveAuditRuleSpecific 方法中移除指定的比對&lt;xref:System.Security.AccessControl.AccessControlType&gt;稽核規則，或指定的比對&lt;xref:System.Security.AccessControl.AccessControlType&gt;從目前的稽核規則&lt;xref:System.Security.AccessControl.FileSystemSecurity&gt;物件。&lt;/xref:System.Security.AccessControl.FileSystemSecurity&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove a specified &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value, and a user account.</source>
+          <target state="translated">例如，您可以使用這個方法，若要移除指定&lt;xref:System.Security.AccessControl.AccessControlType&gt;藉由傳遞使用者的稽核規則&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;使用建立物件&lt;xref:System.Security.AccessControl.AccessControlType&gt;值&lt;xref:System.Security.AccessControl.AuditFlags&gt;值和使用者帳戶。&lt;/xref:System.Security.AccessControl.AuditFlags&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt; &lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt; &lt;/xref:System.Security.AccessControl.AccessControlType&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAuditRuleSpecific method removes only a deny rule that specifies the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">當您這樣做時，RemoveAuditRuleSpecific 方法移除僅拒絕規則，以指定&lt;xref:System.Security.AccessControl.AuditFlags&gt;值。&lt;/xref:System.Security.AccessControl.AuditFlags&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>It does not remove any deny rules that specify the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">它不會移除任何指定的拒絕規則&lt;xref:System.Security.AccessControl.AuditFlags&gt;值。&lt;/xref:System.Security.AccessControl.AuditFlags&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an audit rule to remove from a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要移除檔案或目錄的稽核規則。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Adds the specified access control list (ACL) permission to the current file or directory and removes all matching ACL permissions.</source>
+          <target state="translated">將指定的存取控制清單 (ACL) 權限加入至目前檔案或目錄，並移除所有相符的 ACL 權限。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The ResetAccessRule method adds the specified access control list (ACL) rule or overwrites any identical ACL rules that match the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">ResetAccessRule 方法新增指定的存取控制清單 (ACL) 規則，或覆寫的比對任何相同 ACL 規則<ph id="ph1">`rule`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value and the ResetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">例如，如果<ph id="ph1">`rule`</ph>參數會指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值和 ResetAccessRule 方法尋找相同的 ACL 規則，以指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則就會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If the ResetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will also be overwritten.</source>
+          <target state="translated">如果此 ResetAccessRule 方法會尋找完全相同的 ACL 規則指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則也會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到檔案，使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an access control list (ACL) permission to add to a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表要加入至檔案或目錄存取控制清單 (ACL) 權限。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Sets the specified access control list (ACL) permission for the current file or directory.</source>
+          <target state="translated">設定目前檔案或目錄的指定的存取控制清單 (ACL) 權限。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The SetAccessRule method adds the specified access control list (ACL) rule or overwrites any identical ACL rules that match the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value of the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">SetAccessRule 方法新增指定的存取控制清單 (ACL) 規則，或覆寫的比對任何相同 ACL 規則&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值<ph id="ph1">`rule`</ph>參數。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value and the SetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">例如，如果<ph id="ph1">`rule`</ph>參數會指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值和 SetAccessRule 方法尋找相同的 ACL 規則，以指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則就會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the SetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will not be overwritten.</source>
+          <target state="translated">如果此 SetAccessRule 方法會尋找完全相同的 ACL 規則指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則就不會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a file, use the &lt;xref:System.IO.File.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到檔案，使用&lt;xref:System.IO.File.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.File.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>To persist new or changed ACL information to a directory, use the &lt;xref:System.IO.Directory.SetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要新增或變更 ACL 將資訊保存到目錄，使用&lt;xref:System.IO.Directory.SetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.SetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.SetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.SetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a file, use the &lt;xref:System.IO.File.GetAccessControl%2A&gt; or &lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從檔案擷取 ACL 資訊，請使用&lt;xref:System.IO.File.GetAccessControl%2A&gt;或&lt;xref:System.IO.FileInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.FileInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.File.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To retrieve ACL information from a directory, use the &lt;xref:System.IO.Directory.GetAccessControl%2A&gt; or &lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">若要從目錄擷取 ACL 資訊，請使用&lt;xref:System.IO.Directory.GetAccessControl%2A&gt;或&lt;xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt;方法。&lt;/xref:System.IO.DirectoryInfo.GetAccessControl%2A&gt; &lt;/xref:System.IO.Directory.GetAccessControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an access control list (ACL) permission to set for a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表檔案或目錄設定存取控制清單 (ACL) 權限。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Sets the specified audit rule for the current file or directory.</source>
+          <target state="translated">設定目前檔案或目錄的指定的稽核規則。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The SetAuditRule method adds the specified audit rule or overwrites any identical audit rules that match the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value of the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">SetAuditRule 方法新增指定的稽核規則，或覆寫比對任何相同的稽核規則&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值<ph id="ph1">`rule`</ph>參數。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value and the SetAuditRule method finds an identical audit rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">例如，如果<ph id="ph1">`rule`</ph>參數會指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值和 SetAuditRule 方法會尋找指定的完全相同的稽核規則&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則就會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt; &lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If the SetAuditRule method finds an identical audit rule that specifies the &lt;xref:System.Security.AccessControl.FileSystemRights&gt; value, the identical rule will not be overwritten.</source>
+          <target state="translated">如果 SetAuditRule 方法所找到的相同的稽核規則指定&lt;xref:System.Security.AccessControl.FileSystemRights&gt;值完全相同的規則就不會覆寫。&lt;/xref:System.Security.AccessControl.FileSystemRights&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an audit rule to set for a file or directory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.AccessControl.FileSystemAuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示若要設定檔案或目錄的稽核規則的物件。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

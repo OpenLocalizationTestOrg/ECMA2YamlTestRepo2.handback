@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e674a08da3b960e30128d1630787f553764af671</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OracleClient.OracleBFile.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">301ec1c3352d0b944d3b69cf7b8a9622c2751424</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a6357e2b92e69ae6219d65418d496dd74cc4a2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a managed OracleBFile object designed to work with the Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data type.</source>
+          <target state="translated">A felügyelt OracleBFile objektum működnek együtt az Oracle jelöli <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adattípus.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ez az osztály nem örökölhető.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Oracle <ph id="ph1">`BFILE`</ph> data type is an Oracle <ph id="ph2">`LOB`</ph> data type that contains a reference to binary data with a maximum size of 4 gigabytes.</source>
+          <target state="translated">Az Oracle <ph id="ph1">`BFILE`</ph> az Oracle <ph id="ph2">`LOB`</ph> adattípus, amely tartalmaz egy hivatkozást a bináris adatok 4 GB maximális mérettel.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An Oracle <ph id="ph1">`BFILE`</ph> differs from other Oracle <ph id="ph2">`LOB`</ph> data types in that its data is stored in a physical file in the operating system instead of on the server.</source>
+          <target state="translated">Az Oracle <ph id="ph1">`BFILE`</ph> eltér a más Oracle <ph id="ph2">`LOB`</ph> adattípusok abban, hogy az adatokat a kiszolgálón az operációs rendszer helyett egy fizikai fájl tárolja.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the <ph id="ph1">`BFILE`</ph> data type provides read-only access to data.</source>
+          <target state="translated">Vegye figyelembe, hogy a <ph id="ph1">`BFILE`</ph> adattípus adatok csak olvasási hozzáférést biztosít.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, write-oriented methods inherited from the &lt;xref:System.IO.Stream&gt; class are not supported.</source>
+          <target state="translated">Írási célú módszerek öröklődnek, ezért a &lt;xref:System.IO.Stream&gt;osztály nem támogatottak.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other characteristics of a <ph id="ph1">`BFILE`</ph> data type that distinguish it from a <ph id="ph2">`LOB`</ph> data type are that it:      -   Contains unstructured data.</source>
+          <target state="translated">Egyéb jellemzői egy <ph id="ph1">`BFILE`</ph> adattípus, amely megkülönbözteti a egy <ph id="ph2">`LOB`</ph> adattípus is, hogy az informatikai:-strukturálatlan adatokat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Supports server-side chunking.</source>
+          <target state="translated">– Támogatja a kiszolgálóoldali adattömbösítő.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Uses reference copy semantics.</source>
+          <target state="translated">-Használ másolási szemantikáját hivatkozik.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you perform a copy operation on a <ph id="ph1">`BFILE`</ph>, only the <ph id="ph2">`BFILE`</ph> locator (which is a reference to the file) is copied.</source>
+          <target state="translated">Például, ha a másolási műveletet hajt végre egy <ph id="ph1">`BFILE`</ph>, csak a <ph id="ph2">`BFILE`</ph> (amely a fájlra mutató) lokátor másolódik.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data in the file is not copied.</source>
+          <target state="translated">A fájl nem másolódik.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`BFILE`</ph> data type should be used for referencing <ph id="ph2">`LOB`</ph>s that are large in size, and therefore, not practical to store in the database.</source>
+          <target state="translated">A <ph id="ph1">`BFILE`</ph> adattípus hivatkozó használható <ph id="ph2">`LOB`</ph>s, nagy méretű, és ezért nem gyakorlati az adatbázisban tárolja.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is client, server, and communication overhead for using a <ph id="ph1">`BFILE`</ph> data type compared to the <ph id="ph2">`LOB`</ph> data type.</source>
+          <target state="translated">Az ügyfél, a kiszolgáló és a kommunikáció terhelés van egy <ph id="ph1">`BFILE`</ph> adattípus képest a <ph id="ph2">`LOB`</ph> adattípus.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is more efficient to access a <ph id="ph1">`BFILE`</ph> if you only need to obtain a small amount of data.</source>
+          <target state="translated">Hatékonyabb eléréséhez a <ph id="ph1">`BFILE`</ph> Ha csak be kell szereznie egy kisebb mennyiségű adatot.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is more efficient to access database-resident <ph id="ph1">`LOB`</ph>s if you need to obtain the entire object.</source>
+          <target state="translated">Hozzáférés adatbázis rezidens hatékonyabb <ph id="ph1">`LOB`</ph>s, ha be kell szereznie a teljes objektumot.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each non-NULL OracleBFile object is associated with two entities that define the location of the underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">Minden nem null értékű OracleBFile két olyan entitás, amely meghatározza az alapul szolgáló fizikai fájl helyét társítva lesz:-az Oracle-DIRECTORY objektum, amely egy adatbázis alias könyvtár van, a fájlrendszer, és - a mögöttes fizikai fájl, amely a CÍMTÁR objektumhoz rendelt könyvtárban található a fájl nevét.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a <ph id="ph1">`BFILE`</ph> is created, you can retrieve its locator in the form of an OracleBFile object using the &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt; or &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; methods.</source>
+          <target state="translated">Után egy <ph id="ph1">`BFILE`</ph> van létrehozva, a lokátor formájában egy OracleBFile objektum használatával kérheti le a &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;vagy &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt;módszerek.&lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; &lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain an OracleBFile object, call the &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt; method.</source>
+          <target state="translated">OracleBFile objektum beszerzéséhez hívja meg a &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;metódus.&lt;/xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The physical file that an OracleBFile object is associated with does not need to exist until you attempt to access it.</source>
+          <target state="translated">A következő fizikai fájlt, amelyhez társítva van egy OracleBFile objektum nem kell jelen lesz-e férni próbál.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can bind an OracleBFile to a nonexistent file, create the physical file in the expected location, and then call &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.</source>
+          <target state="translated">Egy alkalmazás egy OracleBFile kötése egy nem létező fájlt, a várt helyen hozza létre a következő fizikai fájlt és &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; , majd hívja</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed OracleBFile using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an OracleBFile stream automatically.</source>
+          <target state="translated">A lezárt OracleBFile használatával elérésére tett kísérlet a &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;vagy &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;módszerek automatikusan megnyitja a OracleBFile adatfolyamokat.&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example demonstrates how you can create a <ph id="ph1">`BFILE`</ph> in an Oracle table, and then retrieve it in the form of an OracleBFile object.</source>
+          <target state="translated">A következő C# példa bemutatja, hogyan hozhat létre egy <ph id="ph1">`BFILE`</ph> az Oracle a táblázatot, és ezután lekéréséhez OracleBFile objektum formájában.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The example demonstrates the use of the &lt;xref:System.Data.OracleClient.OracleDataReader&gt; object and the OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; methods.</source>
+          <target state="translated">A példa bemutatja, hogy a &lt;xref:System.Data.OracleClient.OracleDataReader&gt;objektum és a OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; és &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;módszerek.&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept><ept id="p1">]</ept>       For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept> <ept id="p1">]</ept> olvashat létrehozása és használata az Oracle <ph id="ph1">`BFILE`</ph>, az Oracle dokumentációját megfelelő témakörében talál.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, and <ph id="ph4">`WriteByte`</ph> methods, which are inherited from the <ph id="ph5">`System.IO.Stream`</ph> class, are not supported because the <ph id="ph6">`BFILE`</ph> data type is read-only.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, és <ph id="ph4">`WriteByte`</ph> módszerrel, amely örökli a <ph id="ph5">`System.IO.Stream`</ph> osztály, nincsenek támogatva, mert a <ph id="ph6">`BFILE`</ph> adattípus csak olvasható.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream can be read.</source>
+          <target state="translated">Lekérdezi, hogy egy érték, amely jelzi, hogy a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatfolyam olvasható.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha egy <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> lezárt vagy eldobott; egyéb <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether forward-seek and backward-seek operations can be performed.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy előre-keresés és visszafelé pozicionálási műveleteket végezheti el.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha egy <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> lezárt vagy eldobott; egyéb <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the object supports writing.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy az objektum támogatja-e az írást.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> because the Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data type is read-only.</source>
+          <target state="translated">Mindig vissza <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mivel az Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> adattípus csak olvasható.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original.</source>
+          <target state="translated">Másolat készítése a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fizikai fájlt az eredeti rendelt objektumot.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties of the new &lt;xref:System.Data.OracleClient.OracleBFile&gt; object initially have the same values as those of the original object.</source>
+          <target state="translated">Az új tulajdonságok &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum kezdetben értékük azzal megegyezik az eredeti objektum mint.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the Clone is complete, each &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is independent from the other.</source>
+          <target state="translated">Azonban a Klónozás befejezése után, minden egyes &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum nem függ a többi.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, changing the value of the &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; property on the original &lt;xref:System.Data.OracleClient.OracleBFile&gt; does not change the value of &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; on the copy.</source>
+          <target state="translated">Például a értékének módosítása a &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;tulajdonságot az eredeti &lt;xref:System.Data.OracleClient.OracleBFile&gt;nem változtatja meg az értékét &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;a példányon.&lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy új <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított fizikai fájlt az eredeti objektum <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány által használt a <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The connection to a data source.</source>
+          <target state="translated">A kapcsolatot egy adatforrással.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default is a null value.</source>
+          <target state="translated">Az alapértelmezett érték null értékű.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez a teljes tartalmát <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> célt elejére <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">Az alapul szolgáló adattípusok a forrás &lt;xref:System.Data.OracleClient.OracleBFile&gt;és a cél &lt;xref:System.Data.OracleClient.OracleLob&gt;kompatibilisnek kell lenniük.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Például nem lehet másolni a bináris adatok egy célra &lt;xref:System.Data.OracleClient.OracleLob&gt;, amely nem karakteres adattípusú.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the CopyTo operation to execute correctly.</source>
+          <target state="translated">Írási hozzáféréssel kell rendelkeznie a cél- &lt;xref:System.Data.OracleClient.OracleLob&gt;a CopyTo metódus végrehajtása a művelet végrehajtása.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">A cél<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Másolja a bájtok száma.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">A cél <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum null értékű hivatkozás.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A cél nem null értékű <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">– vagy – amely ezt a kapcsolatot <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolódó le van zárva.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lezárt vagy elvetése megtörtént.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> at the specified offset.</source>
+          <target state="translated">Ez a teljes tartalmát <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy célra <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> az adott eltolástól.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">Az alapul szolgáló adattípusok a forrás &lt;xref:System.Data.OracleClient.OracleBFile&gt;és a cél &lt;xref:System.Data.OracleClient.OracleLob&gt;kompatibilisnek kell lenniük.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Például nem lehet másolni a bináris adatok egy célra &lt;xref:System.Data.OracleClient.OracleLob&gt;, amely nem karakteres adattípusú.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">Írási hozzáféréssel kell rendelkeznie a cél- &lt;xref:System.Data.OracleClient.OracleLob&gt;a a &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;megfelelően végrehajtandó művelet.&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A cél <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">Az eltolás, ahová másolni kívánja.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Másolja a bájtok száma.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">A cél <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum null értékű hivatkozás.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A cél nem null értékű <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">– vagy – amely ezt a kapcsolatot <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolódó le van zárva.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lezárt vagy elvetése megtörtént.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Copies from this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified amount of data, the source offset, and the destination offset.</source>
+          <target state="translated">Másolja át a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy célra <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> helyezze el a megadott adatokat, a forrás eltolás és a célként megadott eltolás.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">Az alapul szolgáló adattípusok a forrás &lt;xref:System.Data.OracleClient.OracleBFile&gt;és a cél &lt;xref:System.Data.OracleClient.OracleLob&gt;kompatibilisnek kell lenniük.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Például nem lehet másolni a bináris adatok egy célra &lt;xref:System.Data.OracleClient.OracleLob&gt;, amely nem karakteres adattípusú.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">Írási hozzáféréssel kell rendelkeznie a cél- &lt;xref:System.Data.OracleClient.OracleLob&gt;a a &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;megfelelően végrehajtandó művelet.&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The offset from which to copy.</source>
+          <target state="translated">Az eltolás, amelynek be kell másolni.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A cél <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">Az eltolás, ahová másolni kívánja.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The quantity of data, in bytes, to copy.</source>
+          <target state="translated">Bájt, másolja az adatok mennyiségét.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Másolja a bájtok száma.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the amount parameter is less than zero or greater than 4 gigabytes.</source>
+          <target state="translated">Az összeg paraméter értéke kisebb nullánál vagy nagyobb, mint 4 GB.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">A cél <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum null értékű hivatkozás.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A cél nem null értékű <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">– vagy – amely ezt a kapcsolatot <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolódó le van zárva.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lezárt vagy elvetése megtörtént.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the name of the DIRECTORY object, with which an <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Lekérdezi a nevét, amelyhez a könyvtárobjektum egy <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum társítva.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each non-NULL &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is associated with two entities that define the location of underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">Minden egyes NULL értékű &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum társítva két olyan entitás, amelyek meghatározzák az alapul szolgáló fizikai fájl helye:-az Oracle-DIRECTORY objektum, amely egy adatbázis alias könyvtár van a fájlrendszer, és - a fájlnév, a mögöttes fizikai fájlnak, mely a DIRECTORY objektumhoz rendelt könyvtárban található.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DirectoryName property returns the name of the DIRECTORY object from the Oracle database.</source>
+          <target state="translated">A könyvtárnév tulajdonság a-objektum nevét az Oracle-adatbázishoz adja vissza.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated">További információ a létrehozása és használata az Oracle <ph id="ph1">`BFILE`</ph>, az Oracle dokumentációját megfelelő témakörében talál.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the DIRECTORY object.</source>
+          <target state="translated">A DIRECTORY-objektum neve.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Attempted to call <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on a closed or disposed <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hívását kísérelte meg <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a lezárt és eldobása <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a physical file containing <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data exists in the operating system.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy tartalmazó fizikai fájl <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatok létezik-e az operációs rendszerben.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a physical file containing <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data exists; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha egy fizikai fájlt tartalmazó <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> adatok létezik; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lezárt vagy elvetése megtörtént.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">A kapcsolat, amellyel egy <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolódó le van zárva.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> without the path.</source>
+          <target state="translated">Lekérdezi a nevét a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az elérési út.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, an empty string is returned.</source>
+          <target state="translated">A &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, üres karakterláncot ad vissza.&lt;/xref:System.Data.OracleClient.OracleBFile.Null&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The name of the BFILE.</source>
+          <target state="translated">A BFÁJL neve.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lezárt vagy elvetése megtörtént.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van egy <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> adatfolyam.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a value that returns the length in bytes of the physical file with which the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Egy érték, amely hosszát adja vissza a fizikai fájl, amellyel bájtban lekérdezi a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum társítva.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A long value representing the length of the physical file in bytes.</source>
+          <target state="translated">Egy olyan hosszú értéket képviselő bájtban fizikai fájl hosszát.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Módszerek után az adatfolyam be lett zárva, vagy használaton volt hívják meg.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Represents a null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is not bound to a physical file.</source>
+          <target state="translated">A rendszer NULL értéket jelöli <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely nincs kötve a fizikai fájlt.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Null can be useful when you want to perform a comparison operation on an &lt;xref:System.Data.OracleClient.OracleBFile&gt; to determine nullability.</source>
+          <target state="translated">NULL is lehet hasznos, ha el kíván végezni egy összehasonlítási művelet a egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;meghatározásához nullázhatóságával.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to perform a read operation on a Null object succeeds, but does not return any data.</source>
+          <target state="translated">Null objektum olvasási művelet végrehajtására tett bármilyen kísérlet sikeres, de nem ad vissza adatot.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to perform a write operation on a Null object generates an exception.</source>
+          <target state="translated">Null objektum írási művelet elvégzésére tett bármilyen kísérlet kivételt hoz létre.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Selecting a <ph id="ph1">`BFILE`</ph> column that contains a null value returns Null.</source>
+          <target state="translated">Válassza a <ph id="ph1">`BFILE`</ph> Null értéket ad vissza null értéket tartalmazó oszlop.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the current read position in the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">Lekérdezi az aktuális helyzete, olvassa el a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatfolyam.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">Az adatfolyam hossza túl bárhova nem támogatott.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Position`</ph> property does not keep track of the number of bytes from the stream that have been consumed, skipped, or both.</source>
+          <target state="translated">A <ph id="ph1">`Position`</ph> tulajdonság nem nyomon követjük, hogy az adatfolyam, amely kellett volna használni, kihagyva, vagy mindkettőt bájtok száma.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">Az aktuális pozíció belül a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatfolyam.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">A negatív vagy nagyobb, mint az adatfolyam hossza pozíció megadására történt kísérlet.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Módszerek után az adatfolyam be lett zárva, vagy használaton volt hívják meg.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">Törlődik az aktuális bájt sorrendjét olvasó <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatfolyam és fejlesztéseivel a pozíció az adatfolyam bájtok száma belül olvasni.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Read method read a maximum of <ph id="ph1">`count`</ph> bytes from the current stream and store them in <ph id="ph2">`buffer`</ph> beginning at <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">A Read metódusból, olvassa el a maximális <ph id="ph1">`count`</ph> törlődik az aktuális bájt adatfolyamként, és tárolja őket a <ph id="ph2">`buffer`</ph> kezdődően <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current position within the stream is advanced by the number of bytes read; however, if an exception occurs, the current position within the stream remains unchanged.</source>
+          <target state="translated">Az aktuális pozíció az adatfolyam belül a kiemelt; olvasott bájtok száma azonban ha kivétel történik, az aktuális pozíció az adatfolyam belül változatlan marad.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read returns the number of bytes read.</source>
+          <target state="translated">Olvasási olvasott bájtok számát adja vissza.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is zero only if the position is currently at the end of the stream.</source>
+          <target state="translated">A visszatérési értéke nulla csak akkor, ha a pozíció az adatfolyam végén van.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read will block until at least one byte of data can be read, in the event that no data is available.</source>
+          <target state="translated">Olvasási letiltja az adatok legalább egy bájt beolvasásáig, abban az esetben, ha nem érhetők el adatok.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read returns 0 only when the end of the file has been reached.</source>
+          <target state="translated">Olvassa el a visszatérési érték: 0, csak akkor, ha a rendszer elérte a fájl végét.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read is free to return fewer bytes than requested even if the end of the stream has not been reached.</source>
+          <target state="translated">Olvasási szabad kevesebb, mint a kért bájtok vissza, akkor is, ha még nem érte el az adatfolyam végét.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the Read or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">A lezárt elérésére tett kísérlet &lt;xref:System.Data.OracleClient.OracleBFile&gt;használatával az Olvasás vagy &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;módszerek követően egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;automatikusan streamelni.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the Read and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">Az alábbi C# példa feltételezi, hogy az ebben a sémában az Oracle-tábla: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> a példa bemutatja, hogyan használja az Olvasás és &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;módszerek eléréséhez egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">Bájttömb.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between <ph id="ph1">`offset`</ph> and (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) replaced by the bytes read from the current source.</source>
+          <target state="translated">Adja vissza ezt a módszert, ha a puffer tartalmaz-e a megadott bájttömb közötti értékekkel <ph id="ph1">`offset`</ph> és (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) az aktuális forrásból beolvasott bájtok cserélve.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin storing the data read from the current stream.</source>
+          <target state="translated">A nulla alapú bájteltolás a <ph id="ph1">`buffer`</ph> kezdőpontját az adatok tárolása olvasható be az aktuális adatfolyamból.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">Az aktuális adatfolyamból olvasandó bájtok maximális száma.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">A puffer az olvasott bájtok teljes száma.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This may be less than the number of bytes requested if that many bytes are not currently available, or zero if the end of the file has been reached.</source>
+          <target state="translated">Erre akkor lehet kisebb, mint a bájtok száma irányuló kérés. Ha sok bájt még nem állnak rendelkezésre, vagy nulla, ha a fájl végét elérte.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">Összesített <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> és <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept> nagyobb a puffer hosszánál.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>null hivatkozás (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a Visual Basic nyelvben).</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>vagy <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> negatív.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">A kapcsolat, amellyel egy <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolódó le van zárva.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">I/o-hiba lépett fel.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Módszerek után az adatfolyam be lett zárva, vagy használaton volt hívják meg.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the position on the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">A pozíció állítja be az aktuális <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatfolyam.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position is required to precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> értéke negatív, a helyre kell előznie a megadott pozíció <ph id="ph2">`origin`</ph> által a bájtban megadott <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position is required to be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> nulla, a helyre kell lennie a megadott pozíció <ph id="ph2">`origin`</ph>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position is required to follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> pozitív, az új helyre szükség hajtsa végre a megadott pozíció <ph id="ph2">`origin`</ph> által a bájtban megadott <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">Az adatfolyam hossza túl bárhova nem támogatott.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or Seek methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">A lezárt elérésére tett kísérlet &lt;xref:System.Data.OracleClient.OracleBFile&gt;használatával a &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;vagy a keresési metódusok követően egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;automatikusan adatfolyamként.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and Seek methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">Az alábbi C# példa feltételezi, hogy az ebben a sémában az Oracle-tábla: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> a példa bemutatja, hogyan használja a &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;és módszerek elérésére törekszik egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to origin.</source>
+          <target state="translated">Eredeti mappától kiinduló relatív elérési bájteltolás.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position will precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> értéke negatív, az új helyre az automatikusan kitöltött által megadott pozíciónál <ph id="ph2">`origin`</ph> által a bájtban megadott <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position will be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> nulla, a helyre lesz a megadott pozíció <ph id="ph2">`origin`</ph>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position will follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Ha <ph id="ph1">`offset`</ph> pozitív, az új helyre követi a megadott pozíció <ph id="ph2">`origin`</ph> által a bájtban megadott <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the reference point used to obtain the new position.</source>
+          <target state="translated">Típusú érték <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jelző a hivatkozási pont segítségével kéri le az új helyre.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">Az új helyre, a jelenlegi adatfolyam belül.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">A negatív vagy nagyobb, mint az adatfolyam hossza pozíció megadására történt kísérlet.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Módszerek után az adatfolyam be lett zárva, vagy használaton volt hívják meg.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a different file in the operating system.</source>
+          <target state="translated">Köti a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot egy másik fájlba, az operációs rendszerben.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetFileName operation must be within a transaction to succeed.</source>
+          <target state="translated">A SetFileName művelet sikeres tranzakción belül kell lennie.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Simply calling SetFileName on a <ph id="ph1">`BFILE`</ph> associates the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object with a different file, but does not update the Oracle table.</source>
+          <target state="translated">Egyszerűen hívása SetFileName egy <ph id="ph1">`BFILE`</ph> társítja a &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektumot egy másik fájllal, de nem frissíti, az Oracle-tábla.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To update the Oracle table after calling SetFileName, you must call the <ph id="ph1">`Update`</ph> method of the &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt; and then commit the transaction.</source>
+          <target state="translated">Az Oracle-táblázat frissítése SetFileName hívása után, meg kell hívnia a <ph id="ph1">`Update`</ph> metódusában a &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt;és majd véglegesíteni a tranzakciót.&lt;/xref:System.Data.OracleClient.OracleDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once you retrieve the &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; property, they are cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object and are unaffected by any cloned &lt;xref:System.Data.OracleClient.OracleBFile&gt; objects' calls to SetFileName, or by any changes to the <ph id="ph1">`BFILE`</ph> in the database.</source>
+          <target state="translated">Után visszaállíthatja a &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;vagy &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;tulajdonság, lettek gyorsítótárazva a a &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektumra, és nem érinti a klónozott &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektumok hívások SetFileName, illetve végrehajtott módosítások a <ph id="ph1">`BFILE`</ph> az adatbázisban.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, they might not represent the actual values of the <ph id="ph1">`BFILE`</ph> object in the server.</source>
+          <target state="translated">Ez azt jelenti, hogy nem biztos, hogy a tényleges értékek a <ph id="ph1">`BFILE`</ph> a Server objektum.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Furthermore, retrieving either property (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) causes both property values to be retrieved from the server and cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">Ezenkívül a vagy tulajdonság beolvasása (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; vagy &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) mindkét tulajdonság értékek beolvasása a kiszolgálóról, és a gyorsítótárba helyezett hatására a &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the SetFileName, &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">Az alábbi C# példa feltételezi, hogy az ebben a sémában az Oracle-tábla: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> a példa bemutatja, hogyan használja a SetFileName &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;és &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;módszerek eléréséhez egy &lt;xref:System.Data.OracleClient.OracleBFile&gt;objektum.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The alias of the directory object that contains a physical file.</source>
+          <target state="translated">A fizikai fájlt tartalmazó objektum aliasneve.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The name of the file in the operating system.</source>
+          <target state="translated">Az operációs rendszer a fájl nevét.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The operation must be within a transaction.</source>
+          <target state="translated">A műveletet a tranzakción belül kell lennie.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">A kivétel fordul elő, amikor egy meghívott metódus nem támogatott, vagy ha nincs, olvasási kísérlet történt a keresési, vagy olyan adatfolyamra, amely nem támogatja a meghívott funkciót írni.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">Lekérdezi egy &lt;xref:System.Array&gt;típusú &lt;xref:System.Byte&gt;, amely tartalmazza a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatok.&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Value property reads the entire <ph id="ph1">`BFILE`</ph> at one time.</source>
+          <target state="translated">A Value tulajdonság olvassa be a teljes <ph id="ph1">`BFILE`</ph> egy időben.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A benefit of using <ph id="ph2">`BFILE`</ph>s is the ability to retrieve large amounts of data in chunks at the client.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Használatának előnye a <ph id="ph2">`BFILE`</ph>s azt a képességet nagy mennyiségű adattömbök az ügyfélen lévő adatok beolvasása.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when you use Value, you obtain all the data for the BFILE column as one contiguous chunk, which can significantly increase application overhead.</source>
+          <target state="translated">Azonban érték használata kaphat az BFÁJL oszlop összes adatot, egy egybefüggő adattömbök, ami jelentősen növelheti a alkalmazás terhelés.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">Egy &lt;xref:System.Array&gt;típusú &lt;xref:System.Byte&gt;, amely tartalmazza a <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatok.&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Jelenleg nem támogatott.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">A kivétel fordul elő, amikor egy meghívott metódus nem támogatott, vagy ha nincs, olvasási kísérlet történt a keresési, vagy olyan adatfolyamra, amely nem támogatja a meghívott funkciót írni.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

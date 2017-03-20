@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be07c2748c1e6dee1478cf6d6a2f6f79f9a0bf85</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.ObjRef.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9dd96b8ff31f31124a86adf618553d4ee49eb5e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2fd7837bf173495f2f4fc9b494922a0a3be0755</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Stores all relevant information required to generate a proxy in order to communicate with a remote object.</source>
+          <target state="translated">儲存所有產生的 proxy，才能進行通訊與遠端物件所需的相關資訊。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A ObjRef is a serializable representation of an object that extends &lt;xref:System.MarshalByRefObject&gt; (MBR).</source>
+          <target state="translated">ObjRef 是可擴充物件的序列化表示法&lt;xref:System.MarshalByRefObject&gt;(MBR)。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A ObjRef is used to transfer an object reference across a &lt;xref:System.AppDomain&gt; boundary.</source>
+          <target state="translated">ObjRef 用來傳送跨越物件參考&lt;xref:System.AppDomain&gt;界限。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Creating a ObjRef for an object is known as marshaling.</source>
+          <target state="translated">建立物件的 ObjRef 稱為封送處理。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can create a ObjRef (marshal a &lt;xref:System.MarshalByRefObject&gt;) either explicitly, by registering the MBR object with the remoting infrastructure (see &lt;xref:System.Runtime.Remoting.RemotingConfiguration&gt; and &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt;), or implicitly, by passing an MBR object as a parameter when calling a remote object.</source>
+          <target state="translated">您可以建立 ObjRef (封送處理&lt;xref:System.MarshalByRefObject&gt;) 是明確地註冊 MBR 物件與遠端執行功能基礎結構 (請參閱&lt;xref:System.Runtime.Remoting.RemotingConfiguration&gt;和&lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt;)，或隱含地呼叫遠端物件時，傳遞的 MBR 物件做為參數。&lt;/xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Remoting.RemotingConfiguration&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Remoting uses ObjRef objects to store and transmit all the relevant information about the &lt;xref:System.MarshalByRefObject&gt; being remoted.</source>
+          <target state="translated">遠端使用 ObjRef 物件來儲存和傳輸相關的所有相關的資訊&lt;xref:System.MarshalByRefObject&gt;啟動遠端功能。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ObjRef contains information that describes the &lt;xref:System.Type&gt; and class of the object being marshaled, its exact location, and communication-related information on how to reach the remoting subdivision where the object is located.</source>
+          <target state="translated">ObjRef 包含描述的資訊&lt;xref:System.Type&gt;物件的類別和封送處理，其確切的位置和如何連線到遠端執行功能細分物件所在的位置上的通訊的相關資訊。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After a class implementing &lt;xref:System.MarshalByRefObject&gt; is marshaled, the ObjRef that represents it is transferred through a channel into another application domain, possibly in another process or computer.</source>
+          <target state="translated">在類別實作之後&lt;xref:System.MarshalByRefObject&gt;會封送處理，表示該 ObjRef 傳輸透過的通道至另一個應用程式定義域，可能是在另一個處理序或電腦。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the ObjRef is deserialized (see <bpt id="p1">[</bpt>XML and SOAP Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) in the target application domain, it is parsed to create a transparent proxy for the remote MBR object.</source>
+          <target state="translated">當還原序列化的 ObjRef (請參閱<bpt id="p1">[</bpt>XML 和 SOAP 序列化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) 的目標應用程式定義域中，將會剖析建立 transparent proxy 的遠端 MBR 物件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This operation is known as unmarshaling.</source>
+          <target state="translated">這項作業稱為解封送處理。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A transparent proxy is an object that provides the illusion that the actual object resides in the client's space.</source>
+          <target state="translated">Transparent proxy 是提供實際的物件位於用戶端空間效果的物件。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It achieves this by forwarding calls made on it to the real object using the remoting infrastructure.</source>
+          <target state="translated">它的做法是轉送實際使用的遠端執行功能基礎結構的物件上所進行的呼叫。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The transparent proxy is itself housed by an instance of a managed run-time class of type &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.</source>
+          <target state="translated">透明 proxy 是本身的型別&lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;受管理的執行階段類別的執行個體所裝載</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt; implements a part of the functionality needed to forward the operations from the transparent proxy.</source>
+          <target state="translated">&lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;實作從傳輸 proxy 轉送作業所需的功能的一部分。&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A proxy object can be used without regard to any remoting subdivisions within a &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">可以使用 proxy 物件，而不考慮&lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;內任何遠端處理細分</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applications need not distinguish between proxy references and object references.</source>
+          <target state="translated">應用程式不需要區分 proxy 參考和物件參考。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, service providers dealing with issues such as activation, lifetime management, and transactions need to make such distinctions.</source>
+          <target state="translated">不過，處理問題，例如啟動服務提供者，存留期管理與交易需要進行這類差異。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This class makes a link demand and an inheritance demand at the class level.</source>
+          <target state="translated">此類別可讓連結要求和繼承要求在類別層級。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Security.SecurityException&gt; is thrown when either the immediate caller or the derived class does not have infrastructure permission.</source>
+          <target state="translated">A&lt;xref:System.Security.SecurityException&gt;立即呼叫者或衍生的類別沒有基礎結構的權限時，會擲回。&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For details about security demands, see <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Inheritance Demands<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</source>
+          <target state="translated">如需安全性需求的詳細資訊，請參閱<bpt id="p1">[</bpt>連結要求<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>繼承要求<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有預設值。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to reference a specified <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of a specified &lt;xref:System.Type&gt;.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，參考指定<bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>的指定&lt;xref:System.Type&gt;。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance will reference.</source>
+          <target state="translated">物件的新<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>會參考執行個體。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance will reference.</source>
+          <target state="translated">&lt;xref:System.Type&gt;之物件的新<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>會參考執行個體。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from serialized data.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從序列化資料的類別。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This constructor is called during deserialization to reconstitute the exception object transmitted over a stream.</source>
+          <target state="translated">重新建構所需的資料流上傳輸的例外狀況物件的還原序列化期間呼叫這個建構函式。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Runtime.Serialization.ISerializable&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Runtime.Serialization.ISerializable&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The object that holds the serialized object data.</source>
+          <target state="translated">保存序列化的物件資料的物件。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the exception.</source>
+          <target state="translated">關於來源或目的地例外狀況內容資訊。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The current property holds information contributed by active channels in the process, when the &lt;xref:System.Runtime.Remoting.ObjRef&gt; is created (see &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt; for details on marshaling).</source>
+          <target state="translated">目前的屬性會含有作用中處理序中的通道所提供的資訊時&lt;xref:System.Runtime.Remoting.ObjRef&gt;建立 (請參閱&lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt;如封送處理的詳細資訊)。&lt;/xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt; &lt;/xref:System.Runtime.Remoting.ObjRef&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This information can be used by the channels in other processes or application domains to decide whether or not to create a transport sink to communicate with the object represented by the current instance.</source>
+          <target state="translated">這項資訊可供其他處理序或應用程式定義域中的通道，以決定要建立與目前的執行個體所表示之物件通訊的傳輸接收。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>介面<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The current property contains a serialized chain of message sinks that gets regenerated when a proxy is created to represent the object.</source>
+          <target state="translated">目前的屬性會包含代表的物件建立 proxy 時重新產生的序列化的訊息接收鏈結。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is used for &lt;xref:System.Runtime.Remoting.Contexts.Context&gt; bound object types only, and represents the groups of objects that provide such run-time services as transactions.</source>
+          <target state="translated">這用於&lt;xref:System.Runtime.Remoting.Contexts.Context&gt;型別，繫結的物件，而且代表提供這類交易的執行階段服務的物件群組。&lt;/xref:System.Runtime.Remoting.Contexts.Context&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>介面<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Populates a specified <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the current <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">填入指定<bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>序列化目前所需的資料<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>執行個體。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The current method fills the provided &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data needed to recreate the &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">目前的方法填滿提供&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;重新建立&lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt;所需的所有資料&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The current method is an implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">目前的方法是實作的&lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;。&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来填入資料。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the serialization.</source>
+          <target state="translated">關於來源或目的地的序列化內容資訊。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have serialization formatter permission.</source>
+          <target state="translated">直接呼叫端沒有序列化格式子權限。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns a reference to the remote object that the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">傳回遠端物件的參考<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>描述。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The current method is called during the fix-up stage of deserialization.</source>
+          <target state="translated">還原序列化的修復階段期間，會呼叫目前的方法。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The context where the current object resides.</source>
+          <target state="translated">目前物件所在的內容。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A reference to the remote object that the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">遠端的參考物件<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>描述。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have serialization formatter permission.</source>
+          <target state="translated">直接呼叫端沒有序列化格式子權限。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回布林值，指出是否目前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考物件位於目前的執行個體<bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">布林值，指出是否目前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考物件位於目前的執行個體<bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current process.</source>
+          <target state="translated">傳回布林值，指出是否目前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考物件位於目前的處理序的執行個體。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current process.</source>
+          <target state="translated">布林值，指出是否目前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考物件位於目前的處理序的執行個體。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object that the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件的<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>描述。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>TypeInfo contains detailed information about the type of remote object represented by the current &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">TypeInfo 包含表示由目前&lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt;的遠端物件類型的詳細的資訊</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The current property contains a list of interfaces that the type implements, as well as the type hierarchy.</source>
+          <target state="translated">目前的屬性包含型別階層架構以及該型別實作的介面的清單。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This information might be used to refine the proxy incrementally to adjust to the client's view of the remote object's type.</source>
+          <target state="translated">這項資訊可能用於 proxy，以累加方式來調整到用戶端的遠端物件的類型檢視。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object that the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件的<bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>描述。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URI of the specific object instance.</source>
+          <target state="translated">取得或設定特定物件執行個體的 URI。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A URI uniquely identifies the specific object instance.</source>
+          <target state="translated">URI 可唯一識別特定物件執行個體。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The URI of the specific object instance.</source>
+          <target state="translated">特定物件執行個體的 URI。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

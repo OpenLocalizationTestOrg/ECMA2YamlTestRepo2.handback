@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8d3b90cc61cb8485c67013eacc28e199c881638</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.TcpListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15d399a800376aaf3ec8384a8316992621d9d31e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f47c5db24bd2a28ecad5c445b42bb9a893e6b0d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Listens for connections from TCP network clients.</source>
+          <target state="translated">會接聽 TCP 網路用戶端的連接。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The TcpListener class provides simple methods that listen for and accept incoming connection requests in blocking synchronous mode.</source>
+          <target state="translated">TcpListener 類別提供接聽及接受連入連線要求中封鎖同步模式的簡單方法。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use either a &lt;xref:System.Net.Sockets.TcpClient&gt; or a &lt;xref:System.Net.Sockets.Socket&gt; to connect with a TcpListener.</source>
+          <target state="translated">您可以使用&lt;xref:System.Net.Sockets.TcpClient&gt;或&lt;xref:System.Net.Sockets.Socket&gt;要用來連接 TcpListener。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a TcpListener using an &lt;xref:System.Net.IPEndPoint&gt;, a Local IP address and port number, or just a port number.</source>
+          <target state="translated">建立 TcpListener 使用&lt;xref:System.Net.IPEndPoint&gt;，本機 IP 位址和連接埠號碼或連接埠的數字。&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Specify &lt;xref:System.Net.IPAddress.Any&gt; for the local IP address and 0 for the local port number if you want the underlying service provider to assign those values for you.</source>
+          <target state="translated">指定&lt;xref:System.Net.IPAddress.Any&gt;本機 IP 位址和本機連接埠號碼，如果您希望基礎服務提供者，針對您指定這些值為 0。&lt;/xref:System.Net.IPAddress.Any&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you choose to do this, you can use the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property to identify the assigned information, after the socket has connected.</source>
+          <target state="translated">如果您選擇這樣做，您可以使用&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;內容來識別已指派的資訊之後已連接的通訊端。&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection requests.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;開始接聽連入連線要求的方法。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; will queue incoming connections until you either call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method or it has queued &lt;xref:System.Net.Sockets.SocketOptionName&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;將佇列連入連線，直到您呼叫的&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法，或它已經排入佇列&lt;xref:System.Net.Sockets.SocketOptionName&gt;.&lt;/xref:System.Net.Sockets.SocketOptionName&gt;&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;嗎&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use either &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; or &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; to pull a connection from the incoming connection request queue.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;或&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;提取來自內送連接要求佇列的連接。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These two methods will block.</source>
+          <target state="translated">這兩個方法會封鎖。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you want to avoid blocking, you can use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method first to determine if connection requests are available in the queue.</source>
+          <target state="translated">如果您想要避免封鎖，您可以使用&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;方法，以判斷連線要求是否有可用的佇列中。&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the TcpListener.</source>
+          <target state="translated">呼叫&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法，關閉 TcpListener。&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method does not close any accepted connections.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法不會關閉任何已接受的連接。&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing these separately.</source>
+          <target state="translated">您必須負責個別關閉這些項目。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that listens on the specified port.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定通訊埠接聽的類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This constructor is obsolete.</source>
+          <target state="translated">這個建構函式已過時。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt; or &lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt; constructors.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt;或&lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt;建構函式。&lt;/xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">這個建構函式可讓您指定要接聽連入連線嘗試的連接埠號碼。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With this constructor, the underlying service provider assigns the most appropriate network address.</source>
+          <target state="translated">這個建構函式，以基礎的服務提供者會指派最適當的網路位址。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can specify 0 for the port number.</source>
+          <target state="translated">如果您並不在意哪些本機連接埠使用，您可以指定連接埠號碼 0。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">在此情況下，服務提供者會指派可用的通訊埠編號介於 1024年到 5000 之間。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">如果您使用此方法時，您可以探索哪些本機網路位址和通訊埠編號已被指派使用&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;屬性。&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼叫&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;開始接聽連入連線嘗試的方法。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">用來接聽連入連線嘗試的連接埠。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph> is not between <ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph> and <ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph>不是介於<ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph>和<ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified local endpoint.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的本機端點。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the local IP address and port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">這個建構函式可讓您指定的本機 IP 位址和通訊埠編號上接聽連入連線嘗試。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Before using this constructor, you must create an &lt;xref:System.Net.IPEndPoint&gt; using the desired local IP address and port number.</source>
+          <target state="translated">之前使用這個建構函式，您必須建立&lt;xref:System.Net.IPEndPoint&gt;使用所需的本機 IP 位址和連接埠號碼。&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Pass this &lt;xref:System.Net.IPEndPoint&gt; to the constructor as the <ph id="ph1">`localEP`</ph> parameter.</source>
+          <target state="translated">將此變數傳遞&lt;xref:System.Net.IPEndPoint&gt;做為建構函式<ph id="ph1">`localEP`</ph>參數。&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you do not care which local address is assigned, you can create an &lt;xref:System.Net.IPEndPoint&gt; using &lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt; as the address parameter, and the underlying service provider will assign the most appropriate network address.</source>
+          <target state="translated">如果您並不在意哪些本機位址指派，您可以建立&lt;xref:System.Net.IPEndPoint&gt;使用&lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;位址參數，以及基礎的服務提供者會指派最適當的網路位址。&lt;/xref:System.Net.IPAddress.Any?displayProperty=fullName&gt; &lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This might help simplify your application if you have multiple network interfaces.</source>
+          <target state="translated">這有助於簡化您的應用程式，如果您有多個網路介面。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can create an &lt;xref:System.Net.IPEndPoint&gt; using 0 for the port number.</source>
+          <target state="translated">如果您並不在意哪些本機連接埠使用，您可以建立&lt;xref:System.Net.IPEndPoint&gt;使用連接埠號碼 0。&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">在此情況下，服務提供者會指派可用的通訊埠編號介於 1024年到 5000 之間。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">如果您使用此方法時，您可以探索哪些本機網路位址和通訊埠編號已被指派使用&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;屬性。&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼叫&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;開始接聽連入連線嘗試的方法。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.IPEndPoint&gt; that represents the local endpoint to which to bind the listener &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.IPEndPoint&gt;，代表要繫結&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;的接聽程式的本機端點&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localEP&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localEP&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that listens for incoming connection attempts on the specified local IP address and port number.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接聽連入連線的類別會嘗試在指定的本機 IP 位址和連接埠號碼。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the local IP address and port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">這個建構函式可讓您指定的本機 IP 位址和通訊埠編號上接聽連入連線嘗試。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Before calling this constructor you must first create an &lt;xref:System.Net.IPAddress&gt; using the desired local address.</source>
+          <target state="translated">呼叫這個建構函式之前您必須先建立&lt;xref:System.Net.IPAddress&gt;使用所需的本機位址。&lt;/xref:System.Net.IPAddress&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Pass this &lt;xref:System.Net.IPAddress&gt; to the constructor as the <ph id="ph1">`localaddr`</ph> parameter.</source>
+          <target state="translated">將此變數傳遞&lt;xref:System.Net.IPAddress&gt;做為建構函式<ph id="ph1">`localaddr`</ph>參數。&lt;/xref:System.Net.IPAddress&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you do not care which local address is assigned, specify &lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt; for the <ph id="ph1">`localaddr`</ph> parameter, and the underlying service provider will assign the most appropriate network address.</source>
+          <target state="translated">如果您並不在意哪些本機位址指派，指定&lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;如<ph id="ph1">`localaddr`</ph>參數和基礎的服務提供者將會指派最適當的網路位址。&lt;/xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This might help simplify your application if you have multiple network interfaces.</source>
+          <target state="translated">這有助於簡化您的應用程式，如果您有多個網路介面。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can specify 0 for the port number.</source>
+          <target state="translated">如果您並不在意哪些本機連接埠使用，您可以指定連接埠號碼 0。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">在此情況下，服務提供者會指派可用的通訊埠編號介於 1024年到 5000 之間。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">如果您使用此方法時，您可以探索哪些本機網路位址和通訊埠編號已被指派使用&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;屬性。&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼叫&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;開始接聽連入連線嘗試的方法。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.IPAddress&gt; that represents the local IP address.</source>
+          <target state="translated">&lt;xref:System.Net.IPAddress&gt;表示本機 IP 位址。&lt;/xref:System.Net.IPAddress&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">用來接聽連入連線嘗試的連接埠。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localaddr&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localaddr&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph> is not between <ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph> and <ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph>不是介於<ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph>和<ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request.</source>
+          <target state="translated">接受暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>AcceptSocket is a blocking method that returns a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to send and receive data.</source>
+          <target state="translated">AcceptSocket 是封鎖的方法會傳回&lt;xref:System.Net.Sockets.Socket&gt;可用來傳送和接收資料。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you want to avoid blocking, use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method to determine if connection requests are available in the incoming connection queue.</source>
+          <target state="translated">如果您想要避免封鎖，使用&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;方法來判斷連線要求是否有可用的連入連線佇列中。&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; returned is initialized with the IP address and port number of the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;傳回初始化與遠端主機的 IP 位址和連接埠號碼。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can use any of the &lt;xref:System.Net.Sockets.Socket.Send%2A&gt; and &lt;xref:System.Net.Sockets.Socket.Receive%2A&gt; methods available in the &lt;xref:System.Net.Sockets.Socket&gt; class to communicate with the remote host.</source>
+          <target state="translated">您可以使用任一&lt;xref:System.Net.Sockets.Socket.Send%2A&gt;和&lt;xref:System.Net.Sockets.Socket.Receive%2A&gt;中可用的方法&lt;xref:System.Net.Sockets.Socket&gt;類別來與遠端主機通訊。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket.Receive%2A&gt; &lt;/xref:System.Net.Sockets.Socket.Send%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Net.Sockets.Socket&gt;, be sure to call its &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; method.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Net.Sockets.Socket&gt;，務必呼叫其&lt;xref:System.Net.Sockets.Socket.Close%2A&gt;方法。&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If your application is relatively simple, consider using the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method rather than the AcceptSocket method.</source>
+          <target state="translated">如果您的應用程式相當簡單，請考慮使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法，而不是 AcceptSocket 方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpClient&gt; provides you with simple methods for sending and receiving data over a network in blocking synchronous mode.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;您提供簡單的方法來傳送和接收資料，透過封鎖同步模式中的網路。&lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated">A&lt;xref:System.Net.Sockets.Socket&gt;用來傳送和接收資料。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">藉由呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;尚未啟動接聽程式</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request as an asynchronous operation.</source>
+          <target state="translated">以非同步作業會接受暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This operation will not block.</source>
+          <target state="translated">這項作業不會封鎖。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task%601&gt; object will complete after the socket connection has been accepted.</source>
+          <target state="translated">傳回&lt;xref:System.Threading.Tasks.Task%601&gt;已接受通訊端連線之後，物件會完成。&lt;/xref:System.Threading.Tasks.Task%601&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; returned in &lt;xref:System.Threading.Tasks.Task%601&gt; is initialized with the IP address and port number of the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;中傳回&lt;xref:System.Threading.Tasks.Task%601&gt;初始化與遠端主機的 IP 位址和連接埠號碼。&lt;/xref:System.Threading.Tasks.Task%601&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can use any of the &lt;xref:System.Net.Sockets.Socket.Send%2A&gt; and &lt;xref:System.Net.Sockets.Socket.Receive%2A&gt; methods available in the &lt;xref:System.Net.Sockets.Socket&gt; class to communicate with the remote host.</source>
+          <target state="translated">您可以使用任一&lt;xref:System.Net.Sockets.Socket.Send%2A&gt;和&lt;xref:System.Net.Sockets.Socket.Receive%2A&gt;中可用的方法&lt;xref:System.Net.Sockets.Socket&gt;類別來與遠端主機通訊。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket.Receive%2A&gt; &lt;/xref:System.Net.Sockets.Socket.Send%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Net.Sockets.Socket&gt;, be sure to call its &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; method.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Net.Sockets.Socket&gt;，務必呼叫其&lt;xref:System.Net.Sockets.Socket.Close%2A&gt;方法。&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If your application is relatively simple, consider using the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method rather than the AcceptSocketAsync method.</source>
+          <target state="translated">如果您的應用程式相當簡單，請考慮使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法，而不是 AcceptSocketAsync 方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpClient&gt; provides you with simple methods for sending and receiving data over a network in blocking synchronous mode.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;您提供簡單的方法來傳送和接收資料，透過封鎖同步模式中的網路。&lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>       The task object representing the asynchronous operation.</source>
+          <target state="translated">傳回<ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>工作物件，表示非同步作業。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph> property on the task object returns a &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph>工作物件上的屬性會傳回&lt;xref:System.Net.Sockets.Socket&gt;用來傳送和接收資料。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">藉由呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;尚未啟動接聽程式</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request.</source>
+          <target state="translated">接受暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>AcceptTcpClient is a blocking method that returns a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">AcceptTcpClient 是封鎖的方法會傳回&lt;xref:System.Net.Sockets.TcpClient&gt;可用來傳送和接收資料。&lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method to determine if connection requests are available in the incoming connection queue if you want to avoid blocking.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;方法來判斷是否連線要求可以使用連入連線佇列，是否您想要避免封鎖。&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt; method to obtain the underlying &lt;xref:System.Net.Sockets.NetworkStream&gt; of the returned &lt;xref:System.Net.Sockets.TcpClient&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;方法，以取得基礎&lt;xref:System.Net.Sockets.NetworkStream&gt;的傳回&lt;xref:System.Net.Sockets.TcpClient&gt;。&lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; will provide you with methods for sending and receiving with the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;會為您提供方法來傳送和接收的遠端主機。&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you are through with the &lt;xref:System.Net.Sockets.TcpClient&gt;, be sure to call its &lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt; method.</source>
+          <target state="translated">如果您是透過與&lt;xref:System.Net.Sockets.TcpClient&gt;，務必呼叫其&lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpClient.Close%2A&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you want greater flexibility than a &lt;xref:System.Net.Sockets.TcpClient&gt; offers, consider using &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.</source>
+          <target state="translated">如果您想要更大的彈性比&lt;xref:System.Net.Sockets.TcpClient&gt;提供，請考慮使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來傳送和接收資料。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">藉由呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;尚未啟動接聽程式</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用<ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>屬性，以取得特定的錯誤碼。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">當您取得這個程式碼時，您可以參考 Windows Sockets 第 2 版 API 錯誤的程式碼中的文件 MSDN 如需詳細的錯誤說明。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request as an asynchronous operation.</source>
+          <target state="translated">以非同步作業會接受暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This operation will not block.</source>
+          <target state="translated">這項作業不會封鎖。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task%601&gt; object will complete after the TCP connection has been accepted.</source>
+          <target state="translated">傳回&lt;xref:System.Threading.Tasks.Task%601&gt;已接受 TCP 連線之後，物件會完成。&lt;/xref:System.Threading.Tasks.Task%601&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt; method to obtain the underlying &lt;xref:System.Net.Sockets.NetworkStream&gt; of the returned &lt;xref:System.Net.Sockets.TcpClient&gt; in the &lt;xref:System.Threading.Tasks.Task%601&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;方法，以取得基礎&lt;xref:System.Net.Sockets.NetworkStream&gt;傳回&lt;xref:System.Net.Sockets.TcpClient&gt;&lt;xref:System.Threading.Tasks.Task%601&gt;。&lt;/xref:System.Threading.Tasks.Task%601&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; will provide you with methods for sending and receiving with the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;會為您提供方法來傳送和接收的遠端主機。&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you are through with the &lt;xref:System.Net.Sockets.TcpClient&gt;, be sure to call its &lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt; method.</source>
+          <target state="translated">如果您是透過與&lt;xref:System.Net.Sockets.TcpClient&gt;，務必呼叫其&lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpClient.Close%2A&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you want greater flexibility than a &lt;xref:System.Net.Sockets.TcpClient&gt; offers, consider using &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; or &lt;xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt;.</source>
+          <target state="translated">如果您想要更大的彈性比&lt;xref:System.Net.Sockets.TcpClient&gt;提供，請考慮使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;或&lt;xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt;.&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Returns <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>       The task object representing the asynchronous operation.</source>
+          <target state="translated">傳回<ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>工作物件，表示非同步作業。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph> property on the task object returns a <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph>工作物件上的屬性會傳回<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來傳送和接收資料。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">藉由呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;尚未啟動接聽程式</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用<ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>屬性，以取得特定的錯誤碼。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">當您取得這個程式碼時，您可以參考 Windows Sockets 第 2 版 API 錯誤的程式碼中的文件 MSDN 如需詳細的錯誤說明。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is actively listening for client connections.</source>
+          <target state="translated">取得值，指出是否<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>主動接聽用戶端連線。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Classes deriving from &lt;xref:System.Net.Sockets.TcpListener&gt; can use this property to determine if the &lt;xref:System.Net.Sockets.Socket&gt; is currently listening for incoming connection attempts.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Net.Sockets.TcpListener&gt;可以使用這個屬性來判斷如果&lt;xref:System.Net.Sockets.Socket&gt;目前正在接聽連入連線嘗試。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpClient.Active%2A&gt; property can be used to avoid redundant &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; attempts.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient.Active%2A&gt;屬性可以用來避免多餘&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;嘗試。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt; &lt;/xref:System.Net.Sockets.TcpClient.Active%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is actively listening; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>主動接聽，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Enables or disables Network Address Translation (NAT) traversal on a <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">啟用或停用上的網路位址轉譯 (NAT) 周遊<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>執行個體。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method is used to enable or disable NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; instance.</source>
+          <target state="translated">AllowNatTraversal 方法用來啟用或停用的 NAT 周遊&lt;xref:System.Net.Sockets.TcpListener&gt;執行個體。&lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>NAT traversal may be provided using Teredo, 6to4, or an ISATAP tunnel.</source>
+          <target state="translated">您可以使用 Teredo、 6to4 或 ISATAP 通道提供 NAT 周遊。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`allowed`</ph> parameter is false, the &lt;xref:System.Net.Sockets.SocketOptionName&gt; option on the associated socket is set to &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.</source>
+          <target state="translated">當<ph id="ph1">`allowed`</ph>參數為 false，&lt;xref:System.Net.Sockets.SocketOptionName&gt;相關聯的通訊端上的選項設定為&lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.&lt;/xref:System.Net.Sockets.IPProtectionLevel&gt; &lt;/xref:System.Net.Sockets.SocketOptionName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This explicitly disables NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; instance.</source>
+          <target state="translated">此明確地停用的 NAT 周遊&lt;xref:System.Net.Sockets.TcpListener&gt;執行個體。&lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`allowed`</ph> parameter is true, the &lt;xref:System.Net.Sockets.SocketOptionName&gt; option on the associated socket is set to &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.</source>
+          <target state="translated">當<ph id="ph1">`allowed`</ph>參數為 true，&lt;xref:System.Net.Sockets.SocketOptionName&gt;相關聯的通訊端上的選項設定為&lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.&lt;/xref:System.Net.Sockets.IPProtectionLevel&gt; &lt;/xref:System.Net.Sockets.SocketOptionName&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This may allow NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; depending on firewall rules in place on the system.</source>
+          <target state="translated">這可能會讓 NAT 周遊&lt;xref:System.Net.Sockets.TcpListener&gt;根據在系統上的防火牆規則。&lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method must be invoked prior to calling the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection requests (before the socket is bound).</source>
+          <target state="translated">AllowNatTraversal 方法必須在呼叫之前叫用&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;方法開始接聽連入連線要求 （繫結通訊端） 之前。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If AllowNatTraversal method is called after the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method, then an &lt;xref:System.InvalidOperationException&gt; will be thrown.</source>
+          <target state="translated">如果之後呼叫 AllowNatTraversal 方法&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;方法，則&lt;xref:System.InvalidOperationException&gt;就會擲回。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A Teredo address is an IPv6 address with the prefix of 2001::/32.</source>
+          <target state="translated">Teredo 位址是 IPv6 位址首碼為 2001年:: / 32。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Teredo addresses can be returned through normal DNS name resolution or enumerated as an IPv6 address assigned to a local interface.</source>
+          <target state="translated">Teredo 位址可透過一般的 DNS 名稱解析傳回或列舉為指派給本機介面的 IPv6 位址。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A Boolean value that specifies whether to enable or disable NAT traversal.</source>
+          <target state="translated">布林值，指定是否要啟用或停用的 NAT 周遊。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method was called after calling the &lt;xref:System.Net.Sockets.TcpListener.Start*&gt; method</source>
+          <target state="translated">在呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;方法&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;之後呼叫 AllowNatTraversal 方法</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to accept an incoming connection attempt.</source>
+          <target state="translated">開始非同步作業以接受連入連線嘗試。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The asynchronous BeginAcceptSocket operation must be completed by calling the &lt;xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt; method.</source>
+          <target state="translated">非同步 BeginAcceptSocket 作業必須完成呼叫&lt;xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Typically, the method is invoked by the <ph id="ph1">`callback`</ph> delegate.</source>
+          <target state="translated">一般而言，方法由叫用<ph id="ph1">`callback`</ph>委派。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This method does not block until the operation completes.</source>
+          <target state="translated">這個方法不會封鎖直到作業完成為止。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To block until the operation completes, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">若要封鎖的作業完成之前，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For detailed information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需使用非同步程式設計模型的詳細資訊，請參閱<bpt id="p1">[</bpt>呼叫同步方法以非同步方式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the returned &lt;xref:System.Net.Sockets.Socket&gt; to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;，您可以呼叫&lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;屬性傳回之&lt;xref:System.Net.Sockets.Socket&gt;來識別遠端主機的網路位址和連接埠號碼。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果您收到&lt;xref:System.Net.Sockets.SocketException&gt;，使用&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;屬性來取得特定錯誤碼，並請參閱 Windows Sockets 第 2 版 API 錯誤的程式碼文件位於 MSDN library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>如需詳細的錯誤說明。&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;委派，參考要叫用作業完成時的方法。&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A user-defined object containing information about the accept operation.</source>
+          <target state="translated">使用者定義的物件，其中包含接受作業的相關資訊。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation is complete.</source>
+          <target state="translated">這個物件傳遞至<ph id="ph1">`callback`</ph>委派作業完成時。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous creation of the &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;參考非同步&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;建立&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the socket.</source>
+          <target state="translated">嘗試存取通訊端時發生錯誤。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;已關閉。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to accept an incoming connection attempt.</source>
+          <target state="translated">開始非同步作業以接受連入連線嘗試。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The asynchronous BeginAcceptTcpClient operation must be completed by calling the &lt;xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">非同步 BeginAcceptTcpClient 作業必須完成呼叫&lt;xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Typically, the method is invoked by the <ph id="ph1">`callback`</ph> delegate.</source>
+          <target state="translated">一般而言，方法由叫用<ph id="ph1">`callback`</ph>委派。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This method does not block until the operation completes.</source>
+          <target state="translated">這個方法不會封鎖直到作業完成為止。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To block until the operation completes, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">若要封鎖的作業完成之前，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For detailed information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需使用非同步程式設計模型的詳細資訊，請參閱<bpt id="p1">[</bpt>呼叫同步方法以非同步方式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果您收到&lt;xref:System.Net.Sockets.SocketException&gt;，使用&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;屬性來取得特定錯誤碼，並請參閱 Windows Sockets 第 2 版 API 錯誤的程式碼文件位於 MSDN library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>如需詳細的錯誤說明。&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;委派，參考要叫用作業完成時的方法。&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A user-defined object containing information about the accept operation.</source>
+          <target state="translated">使用者定義的物件，其中包含接受作業的相關資訊。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation is complete.</source>
+          <target state="translated">這個物件傳遞至<ph id="ph1">`callback`</ph>委派作業完成時。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous creation of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;會參考非同步建立<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the socket.</source>
+          <target state="translated">嘗試存取通訊端時發生錯誤。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;已關閉。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to listen on the specified port.</source>
+          <target state="translated">建立新<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定通訊埠上接聽的執行個體。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">用來接聽連入連線嘗試的連接埠。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returns <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to listen on the specified port.</source>
+          <target state="translated">新<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定通訊埠上接聽的執行個體。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Asynchronously accepts an incoming connection attempt and creates a new &lt;xref:System.Net.Sockets.Socket&gt; to handle remote host communication.</source>
+          <target state="translated">以非同步方式接受連入連線嘗試，並建立新&lt;xref:System.Net.Sockets.Socket&gt;來處理遠端主機通訊。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This method blocks until the operation is complete.</source>
+          <target state="translated">這個方法會封鎖直到作業完成。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To perform this operation synchronously, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">若要以同步方式執行這項作業，使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the returned &lt;xref:System.Net.Sockets.Socket&gt; to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;，您可以呼叫&lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;屬性傳回之&lt;xref:System.Net.Sockets.Socket&gt;來識別遠端主機的網路位址和連接埠號碼。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果您收到&lt;xref:System.Net.Sockets.SocketException&gt;，使用&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;屬性來取得特定錯誤碼，並請參閱 Windows Sockets 第 2 版 API 錯誤的程式碼文件位於 MSDN library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>如需詳細的錯誤說明。&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;呼叫所傳回的&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">A &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;用來傳送和接收資料。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">基礎&lt;xref:System.Net.Sockets.Socket&gt;已關閉。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter was not created by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt; method.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">asyncResult</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是由呼叫&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The EndAcceptSocket method was previously called.</source>
+          <target state="translated">之前已呼叫 EndAcceptSocket 方法。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">嘗試存取&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;時發生錯誤</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Asynchronously accepts an incoming connection attempt and creates a new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to handle remote host communication.</source>
+          <target state="translated">以非同步方式接受連入連線嘗試，並建立新<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來處理遠端主機通訊。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This method blocks until the operation is complete.</source>
+          <target state="translated">這個方法會封鎖直到作業完成。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>To perform this operation synchronously, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">若要以同步方式執行這項作業，使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the underlying socket (&lt;xref:System.Net.Sockets.TcpClient.Client%2A&gt;) to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;，您可以呼叫&lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;基礎通訊端的屬性 (&lt;xref:System.Net.Sockets.TcpClient.Client%2A&gt;) 來識別遠端主機的網路位址和連接埠號碼。&lt;/xref:System.Net.Sockets.TcpClient.Client%2A&gt; &lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果您收到&lt;xref:System.Net.Sockets.SocketException&gt;，使用&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;屬性來取得特定錯誤碼，並請參閱 Windows Sockets 第 2 版 API 錯誤的程式碼文件位於 MSDN library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>如需詳細的錯誤說明。&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;呼叫所傳回的&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來傳送和接收資料。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets or sets a &lt;xref:System.Boolean&gt; value that specifies whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> allows only one underlying socket to listen to a specific port.</source>
+          <target state="translated">取得或設定&lt;xref:System.Boolean&gt;值，指定是否<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>允許只能有一個接聽特定通訊埠的基礎通訊端&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>By default, multiple listeners can listen to a specific port.</source>
+          <target state="translated">根據預設，多個接聽程式可以接聽特定通訊埠。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>However, only one of the listeners can perform operations on the network traffic sent to the port.</source>
+          <target state="translated">不過，只有其中一個接聽程式可以執行網路流量傳送至連接埠的作業。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If more than one listener attempts to bind to a particular port, then the one with the more specific IP address handles the network traffic sent to that port.</source>
+          <target state="translated">如果多個接聽程式所要繫結至特定的連接埠，則具有更特定的 IP 位址會處理傳送至該通訊埠的網路流量。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt; property to prevent multiple listeners from listening to a specific port.</source>
+          <target state="translated">您可以使用&lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt;屬性可防止多個接聽程式接聽特定通訊埠&lt;/xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Set this property before calling &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;, or call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method and then set this property.</source>
+          <target state="translated">設定這個屬性，然後再呼叫&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;，或呼叫&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法並將這個屬性。&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> allows only one <bpt id="p3">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to listen to a specific port; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>允許只有一個<bpt id="p3">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>為接聽特定的通訊埠; 否則<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>.</source>
+          <target state="translated">。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for Windows Server 2003 and Windows XP Service Pack 2 and later, and <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for all other versions.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>為 Windows Server 2003 和 Windows XP Service Pack 2 和更新版本，和<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>對於所有其他版本。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been started.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>已啟動。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener.Stop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method and then set the &lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt; property.</source>
+          <target state="translated">呼叫<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener.Stop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>方法並將其設定&lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt;屬性。&lt;/xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>An error occurred when attempting to access the underlying socket.</source>
+          <target state="translated">嘗試存取基礎通訊端時發生錯誤。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">基礎&lt;xref:System.Net.Sockets.Socket&gt;已關閉。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Net.EndPoint&gt; of the current <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得基礎&lt;xref:System.Net.EndPoint&gt;的目前<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Net.EndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>You can use the LocalEndpoint property to identify the local network interface and port number being used to listen for incoming client connection requests, after a socket connection has been made.</source>
+          <target state="translated">您可以使用 LocalEndpoint 屬性來識別用來接聽內送的用戶端連接要求，通訊端連線建立之後的區域網路介面和連接埠號碼。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>You must first cast this &lt;xref:System.Net.EndPoint&gt; to an &lt;xref:System.Net.IPEndPoint&gt;.</source>
+          <target state="translated">您必須先轉換此&lt;xref:System.Net.EndPoint&gt;至&lt;xref:System.Net.IPEndPoint&gt;。&lt;/xref:System.Net.IPEndPoint&gt; &lt;/xref:System.Net.EndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You can then call the &lt;xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt; property to retrieve the local IP address, and the &lt;xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt; property to retrieve the local port number.</source>
+          <target state="translated">您可以接著呼叫&lt;xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt;屬性，以擷取本機 IP 位址，而&lt;xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt;屬性，以擷取本機連接埠號碼。&lt;/xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.EndPoint&gt; to which the &lt;xref:System.Net.Sockets.Socket&gt; is bound.</source>
+          <target state="translated">&lt;xref:System.Net.EndPoint&gt;的&lt;xref:System.Net.Sockets.Socket&gt;繫結。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.EndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Determines if there are pending connection requests.</source>
+          <target state="translated">判斷是否有暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>This non-blocking method determines if there are any pending connection requests.</source>
+          <target state="translated">此非封鎖的方法會判斷是否有任何暫止的連接要求。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; and &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; methods block execution until the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method has queued an incoming connection request, the Pending method can be used to determine if connections are available before attempting to accept them.</source>
+          <target state="translated">因為&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;和&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法封鎖執行，直到&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;方法已放入佇列的連入連線要求，暫止的方法可以用來判斷連線是否可用，然後再嘗試將同意這些授權條款。&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if connections are pending; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果連接為擱置中。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">藉由呼叫&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;尚未啟動接聽程式</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Gets the underlying network &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">取得基礎網路&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpListener&gt; creates a &lt;xref:System.Net.Sockets.Socket&gt; to listen for incoming client connection requests.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener&gt;建立&lt;xref:System.Net.Sockets.Socket&gt;接聽內送的用戶端連接要求。&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Classes deriving from &lt;xref:System.Net.Sockets.TcpListener&gt; can use this property to get this &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Net.Sockets.TcpListener&gt;可以使用這個屬性，以取得此&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Use the underlying &lt;xref:System.Net.Sockets.Socket&gt; returned by the Server property if you require access beyond that which &lt;xref:System.Net.Sockets.TcpListener&gt; provides.</source>
+          <target state="translated">使用基礎&lt;xref:System.Net.Sockets.Socket&gt;伺服器屬性所傳回，如果您需要存取超過其&lt;xref:System.Net.Sockets.TcpListener&gt;提供。&lt;/xref:System.Net.Sockets.TcpListener&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Server property only returns the &lt;xref:System.Net.Sockets.Socket&gt; used to listen for incoming client connection requests.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 伺服器屬性只會傳回&lt;xref:System.Net.Sockets.Socket&gt;用來接聽內送的用戶端連接要求。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method to accept a pending connection request and obtain a &lt;xref:System.Net.Sockets.Socket&gt; for sending and receiving data.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法接受暫止的連接要求，並取得&lt;xref:System.Net.Sockets.Socket&gt;來傳送和接收資料。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>You can also use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method to accept a pending connection request and obtain a &lt;xref:System.Net.Sockets.TcpClient&gt; for sending and receiving data.</source>
+          <target state="translated">您也可以使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法接受暫止的連接要求，並取得&lt;xref:System.Net.Sockets.TcpClient&gt;來傳送和接收資料。&lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">基礎&lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Starts listening for incoming connection requests.</source>
+          <target state="translated">開始接聽連入連線要求。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The Start method initializes the underlying &lt;xref:System.Net.Sockets.Socket&gt;, binds it to a local endpoint, and listens for incoming connection attempts.</source>
+          <target state="translated">Start 方法初始化基礎&lt;xref:System.Net.Sockets.Socket&gt;、 將它繫結至的本機端點和接聽連入連線嘗試。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If a connection request is received, the Start method will queue the request and continue listening for additional requests until you call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method.</source>
+          <target state="translated">Start 方法如果收到連線要求時，將要求排入佇列，並繼續接聽其他要求，直到您呼叫&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Net.Sockets.TcpListener&gt; receives a connection request after it has already queued the maximum number of connections, it will throw a &lt;xref:System.Net.Sockets.SocketException&gt; on the client.</source>
+          <target state="translated">如果&lt;xref:System.Net.Sockets.TcpListener&gt;收到連接要求它有已排入佇列的連線數目上限之後，它將會擲回&lt;xref:System.Net.Sockets.SocketException&gt;用戶端上。&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To remove a connection from the incoming connection queue, use either the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method or the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">若要從連入連線佇列中移除連接，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法或&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method will remove a connection from the queue and return a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法會從佇列移除的連接，並傳回&lt;xref:System.Net.Sockets.TcpClient&gt;可用來傳送和接收資料。&lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method will return a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to do the same.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法會傳回&lt;xref:System.Net.Sockets.Socket&gt;可用來執行相同的動作。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If your application only requires synchronous I/O, use &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.</source>
+          <target state="translated">如果您的應用程式只需要同步 I/O，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>For more detailed behavioral control, use &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.</source>
+          <target state="translated">對於更詳細的行為控制項，使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Both of these methods block until a connection request is available in the queue.</source>
+          <target state="translated">這兩種方法封鎖，直到連接要求佇列中可用為止。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the &lt;xref:System.Net.Sockets.TcpListener&gt; and stop listening.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法，關閉&lt;xref:System.Net.Sockets.TcpListener&gt;並停止接聽。&lt;/xref:System.Net.Sockets.TcpListener&gt; &lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">您必須負責個別關閉已接受的連接。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用<ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>屬性，以取得特定的錯誤碼。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">當您取得這個程式碼時，您可以參考 Windows Sockets 第 2 版 API 錯誤的程式碼中的文件 MSDN 如需詳細的錯誤說明。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Starts listening for incoming connection requests with a maximum number of pending connection.</source>
+          <target state="translated">開始接聽連入連線要求的暫止的連接數目上限。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method initializes the underlying &lt;xref:System.Net.Sockets.Socket&gt;, binds it to a local endpoint, and listens for incoming connection attempts.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;方法會初始化基礎&lt;xref:System.Net.Sockets.Socket&gt;、 將它繫結至的本機端點和接聽連入連線嘗試。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>If a connection request is received, &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; will queue the request and continue listening for additional requests until you call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method.</source>
+          <target state="translated">如果收到連線要求時，&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;將要求排入佇列並繼續接聽其他要求，直到您呼叫&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Net.Sockets.TcpListener&gt; receives a connection request after it has already queued the maximum number of connections it will throw a &lt;xref:System.Net.Sockets.SocketException&gt; on the client.</source>
+          <target state="translated">如果&lt;xref:System.Net.Sockets.TcpListener&gt;收到連接要求時，它有已排入佇列的則會擲回的連線數目上限之後&lt;xref:System.Net.Sockets.SocketException&gt;用戶端上。&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To remove a connection from the incoming connection queue, use either the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method or the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">若要從連入連線佇列中移除連接，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法或&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method will remove a connection from the queue and return a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;方法會從佇列移除的連接，並傳回&lt;xref:System.Net.Sockets.TcpClient&gt;可用來傳送和接收資料。&lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method will return a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to do the same.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法會傳回&lt;xref:System.Net.Sockets.Socket&gt;可用來執行相同的動作。&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>If your application only requires synchronous I/O, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.</source>
+          <target state="translated">如果您的應用程式只需要同步 I/O，請使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For more detailed behavioral control, use &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">如需詳細的行為的控制項，使用&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;方法。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Both of these methods block until a connection request is available in the queue.</source>
+          <target state="translated">這兩種方法封鎖，直到連接要求佇列中可用為止。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the &lt;xref:System.Net.Sockets.TcpListener&gt; and stop listening.</source>
+          <target state="translated">使用&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;方法，關閉&lt;xref:System.Net.Sockets.TcpListener&gt;並停止接聽。&lt;/xref:System.Net.Sockets.TcpListener&gt; &lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">您必須負責個別關閉已接受的連接。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 使用&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;屬性來取得特定錯誤碼，並請參閱 Windows Sockets 第 2 版 API 錯誤的程式碼文件位於 MSDN library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>如需詳細的錯誤說明。&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The maximum length of the pending connections queue.</source>
+          <target state="translated">擱置連線佇列的長度上限。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>An error occurred while accessing the socket.</source>
+          <target state="translated">存取通訊端時發生錯誤。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> backlog</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero or exceeds the maximum number of permitted connections.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> backlog</ph> <ept id="p1">&lt;/code&gt;</ept>參數小於零或超過允許的連線數目上限。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is null.</source>
+          <target state="translated">基礎&lt;xref:System.Net.Sockets.Socket&gt;為 null。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Closes the listener.</source>
+          <target state="translated">關閉接聽程式。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Stop closes the listener.</source>
+          <target state="translated">停止關閉接聽程式。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Any unaccepted connection requests in the queue will be lost.</source>
+          <target state="translated">佇列中的任何不被接受的連接要求將會遺失。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Remote hosts waiting for a connection to be accepted will throw a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">遠端主機連線正在等待被接受，將會擲回&lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">您必須負責個別關閉已接受的連接。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 應用程式中啟用網路追蹤時，這個成員會輸出追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>網路追蹤.NET Framework 中<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用<ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>屬性，以取得特定的錯誤碼。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">當您取得這個程式碼時，您可以參考 Windows Sockets 第 2 版 API 錯誤的程式碼中的文件 MSDN 如需詳細的錯誤說明。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

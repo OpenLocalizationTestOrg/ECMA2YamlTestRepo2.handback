@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fe825b0e3302114a18599c28654a920c712ab70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.DSA.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd592d1c116b30bcc616ed6c4e171badd4d68a2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">832ee39d6867b8e14e50e051b8960671d69786fe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract base class from which all implementations of the Digital Signature Algorithm (DSA) must inherit.</source>
+          <target state="translated">Representerar den abstrakt basklass för alla implementeringar av DSA Digital Signature Algorithm () måste ärva från vilken.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the DSA class and derived classes to create digital signatures that help protect the integrity of your data.</source>
+          <target state="translated">Du kan använda DSA-klass och härledda klasser för att skapa digitala signaturer som hjälper dig skydda integriteten hos dina data.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; provides an implementation of this class.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;Tillhandahåller en implementering av den här klassen.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use a public-key system to digitally sign a message, the sender first applies a hash function to the message to create a message digest.</source>
+          <target state="translated">Om du vill använda ett system med offentlig nyckel för att signera ett meddelande, gäller avsändaren först en hash-funktionen i meddelandet för att skapa ett meddelandesammandrag.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender then encrypts the message digest with the sender's private key to create the sender's personal signature.</source>
+          <target state="translated">Avsändaren krypterar message digest med avsändarens privat nyckel för att skapa avsändarens personlig signatur.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon receiving the message and signature, the receiver decrypts the signature using the sender's public key to recover the message digest and hashes the message using the same hash algorithm that the sender used.</source>
+          <target state="translated">Vid mottagning av meddelandet och signatur kan mottagaren dekrypterar signaturen i avsändarens offentliga nyckel för att återställa meddelandesammandraget, och hashar meddelandet med samma hash-algoritm som används av avsändaren.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message digest that the receiver computes exactly matches the message digest received from the sender, the receiver can assume that the message was not altered while in transit.</source>
+          <target state="translated">Om meddelandesammandrag att mottagaren beräknar exakt matchar meddelandesammandraget som tagits emot från avsändaren, förutsätter mottagaren att meddelandet inte har ändrats under överföringen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a signature can be verified by anyone, because the sender's public key is common knowledge.</source>
+          <target state="translated">Observera att en signatur kan verifieras av vem som helst, eftersom avsändarens offentliga nyckel är vanliga kunskap.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Newer asymmetric algorithms are available.</source>
+          <target state="translated">Det finns nyare asymmetriska algoritmer.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consider using the &lt;xref:System.Security.Cryptography.RSA&gt; class, the &lt;xref:System.Security.Cryptography.ECDsa&gt; class, or the &lt;xref:System.Security.Cryptography.ECDiffieHellman&gt; class instead of the DSA class.</source>
+          <target state="translated">Överväg att använda &lt;xref:System.Security.Cryptography.RSA&gt;klassen, på &lt;xref:System.Security.Cryptography.ECDsa&gt;klassen eller &lt;xref:System.Security.Cryptography.ECDiffieHellman&gt;klassen i stället för DSA-klass&lt;/xref:System.Security.Cryptography.ECDiffieHellman&gt; &lt;/xref:System.Security.Cryptography.ECDsa&gt; &lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use DSA only for compatibility with legacy applications and data.</source>
+          <target state="translated">Använd DSA endast för kompatibilitet med äldre program och data.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">Den här algoritmen stöder nyckellängder från 512 bitar till 1 024 bitar i steg om 64 bitar.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creates the default cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">Skapar standard kryptografiska objektet används för att utföra den asymmetriska algoritmen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">Ett kryptografiska-objekt som används för att utföra den asymmetriska algoritmen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates the specified cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">Skapar det angivna kryptografiska objektet som används för att utföra den asymmetriska algoritmen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For &lt;xref:System.Security.Cryptography.DSA&gt;, use the name System.Security.Cryptography.DSA.</source>
+          <target state="translated">För &lt;xref:System.Security.Cryptography.DSA&gt;, Använd namn System.Security.Cryptography.DSA.&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the specific implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">Namnet på den specifika implementeringen av <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ska användas.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">Ett kryptografiska-objekt som används för att utföra den asymmetriska algoritmen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">När åsidosätts i en härledd klass, skapar den <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> signatur för angivna data.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The data to be signed.</source>
+          <target state="translated">Data som ska signeras.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The digital signature for the specified data.</source>
+          <target state="translated">Den digitala signaturen för angivna data.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, exports the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">När åsidosätts i en härledd klass, exporterar den <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>att inkludera privata parametrar. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Parametrarna för <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Reconstructs a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from an XML string.</source>
+          <target state="translated">Rekonstruerar en <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt från en XML-sträng.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The XML string to use to reconstruct the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">XML-strängen som ska användas för att återskapa den <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The format of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">Formatet på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xmlString</ph> <ept id="p1">&lt;/code&gt;</ept> är inte giltig.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, computes the hash value of a specified binary stream by using a specified hashing algorithm.</source>
+          <target state="translated">När åsidosätts i en härledd klass beräknar hash-värdet för en angiven binär dataström med hjälp av en angiven hash-algoritm.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The binary stream to hash.</source>
+          <target state="translated">Binär dataström till hash.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The algorithm to use to hash the data.</source>
+          <target state="translated">Algoritmen som du använder för att hash-data.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The hashed data.</source>
+          <target state="translated">Data som hashformaterats.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A derived class must override this method.</source>
+          <target state="translated">En härledd klass måste åsidosätta den här metoden.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, computes the hash value of a specified portion of a byte array by using a specified hashing algorithm.</source>
+          <target state="translated">När åsidosätts i en härledd klass beräknar hash-värdet för en viss del av en bytematris med hjälp av en angiven hash-algoritm.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The data to be hashed.</source>
+          <target state="translated">Data som ska kodas.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The index of the first byte in <ph id="ph1">`data`</ph> that is to be hashed.</source>
+          <target state="translated">Index för den första byten i <ph id="ph1">`data`</ph> som ska kodas.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The number of bytes to hash.</source>
+          <target state="translated">Antal byte som hash.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The algorithm to use to hash the data.</source>
+          <target state="translated">Algoritmen som du använder för att hash-data.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The hashed data.</source>
+          <target state="translated">Data som hashformaterats.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A derived class must override this method.</source>
+          <target state="translated">En härledd klass måste åsidosätta den här metoden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, imports the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">När åsidosätts i en härledd klass importerar det angivna <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Parametrarna för <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified byte array using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">Beräknar hash-värdet för den angivna byte-matris med hjälp av den angivna hashalgoritmen och signerar det resulterande hash-värdet.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">Indata för att beräkna hash.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">Hash-algoritmen för att skapa hash-värdet.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">DSA-signaturen för angivna data.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified stream using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">Beräknar hash-värdet för det angivna stream med hjälp av den angivna hashalgoritmen och signerar det resulterande hash-värdet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The input stream for which to compute the hash.</source>
+          <target state="translated">Indataströmmen som du vill beräkna hash.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">Hash-algoritmen för att skapa hash-värdet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">DSA-signaturen för angivna data.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of a portion of the specified byte array using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">Beräknar hash-värdet för en del av den angivna byte-matris med hjälp av den angivna hashalgoritmen och signerar det resulterande hash-värdet.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">Indata för att beräkna hash.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The offset into the array at which to begin using data.</source>
+          <target state="translated">Förskjutningen i matrisen som du vill börja använda data.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the array to use as data.</source>
+          <target state="translated">Antal byte i matrisen som ska användas som data.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">Hash-algoritmen för att skapa hash-värdet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">DSA-signaturen för angivna data.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph><ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 results in an index that is beyond the upper bound of <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> <ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 resulterar i ett index som är större än den övre gränsen för <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates and returns an XML string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Skapar och returnerar en XML-sträng som innehåller aktuella <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>att inkludera privata parametrar. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An XML string encoding of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En XML-strängen kodning av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the specified data using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">Kontrollerar att en digital signatur är giltig genom att beräkna hash-värdet för den angivna data med hjälp av den angivna hash-algoritmen och jämföra med den angivna signaturen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">Signerade data.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">Signaturdata verifieras.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">Hash-algoritmen som används för att skapa hash-värdet för data.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den digitala signaturen är ogiltig. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the specified stream using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">Kontrollerar att en digital signatur är giltig genom att beräkna hash-värdet för den angivna strömma med hjälp av den angivna hashalgoritmen och jämföra dem med den angivna signaturen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">Signerade data.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">Signaturdata verifieras.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">Hash-algoritmen som används för att skapa hash-värdet för data.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den digitala signaturen är ogiltig. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the data in a portion of a byte array using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">Kontrollerar att en digital signatur är giltig genom att beräkna hash-värdet för data i en del av en byte matrisen med hjälp av den angivna hashalgoritmen och jämföra dem med den angivna signaturen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">Signerade data.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The starting index at which to compute the hash.</source>
+          <target state="translated">StartIndex som du vill beräkna hash.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The number of bytes to hash.</source>
+          <target state="translated">Antal byte som hash.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">Signaturdata verifieras.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">Hash-algoritmen som används för att skapa hash-värdet för data.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den digitala signaturen är ogiltig. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph><ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 results in an index that is beyond the upper bound of <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> <ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 resulterar i ett index som är större än den övre gränsen för <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, verifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">När åsidosätts i en härledd klass, verifierar den <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> signatur för angivna data.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The hash of the data signed with <ph id="ph1">`rgbSignature`</ph>.</source>
+          <target state="translated">Hash för informationen signeras med <ph id="ph1">`rgbSignature`</ph>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The signature to be verified for <ph id="ph1">`rgbData`</ph>.</source>
+          <target state="translated">Signaturen verifieras för <ph id="ph1">`rgbData`</ph>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p2">&lt;/code&gt;</ept> matches the signature computed using the specified hash algorithm and key on <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">rgbHash</ph><ept id="p3">&lt;/code&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rgbSignature</ph> <ept id="p2">&lt;/code&gt;</ept> matchar signaturen som beräknats med det angivna hash-algoritmen och nyckeln på <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">rgbHash</ph> <ept id="p3">&lt;/code&gt;</ept>, annars <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

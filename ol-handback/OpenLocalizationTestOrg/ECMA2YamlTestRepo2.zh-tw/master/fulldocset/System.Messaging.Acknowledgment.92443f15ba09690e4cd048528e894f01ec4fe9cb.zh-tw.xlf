@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57cb2523261cae90415c6e9c0c966c72574f831f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.Acknowledgment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a782f188a88a4da3632522bd9d3a0c29fcc6f5e0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12305f6154a368f9b71a2c0ad3676d0c6d97c615</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the result of an attempted message delivery.</source>
+          <target state="translated">指定的訊息傳遞的結果。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Acknowledgment class defines the types of acknowledgment messages that Message Queuing posts in the administration queue and the conditions that cause an acknowledgment message to be sent.</source>
+          <target state="translated">通知類別定義訊息佇列會管理佇列的認可訊息和導致傳送認可訊息的條件的類型。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Acknowledgment types can be divided broadly into four groups: positive arrival acknowledgments, positive read acknowledgments, negative arrival acknowledgments, and negative read acknowledgments.</source>
+          <target state="translated">通知類型可以大致可分為四個群組︰ 正抵達通知、 正讀取的通知、 負抵達通知和負讀取的通知。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The administration queue associated with message is specified in the &lt;xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">中指定與訊息相關聯的管理佇列&lt;xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Message Queuing sets the &lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt; property to one of the Acknowledgment enumeration values when it creates an acknowledgment message.</source>
+          <target state="translated">訊息佇列設定&lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;建立通知訊息時，才會進行認可列舉值的其中一個屬性。&lt;/xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt; property value is typically meaningful only when the instance refers to a system-sent acknowledgment message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;屬性值有意義通常只有當執行個體是指系統傳送通知訊息。&lt;/xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Reading the &lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt; property for a message other than an acknowledgment message throws an exception.</source>
+          <target state="translated">讀取&lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;以外的通知訊息的訊息屬性會擲回的例外狀況。&lt;/xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Message Queuing does not send an acknowledgment message unless the sending application requests that it do so.</source>
+          <target state="translated">訊息佇列不會傳送通知訊息，除非傳送應用程式要求它這樣。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Your application makes this request by setting the appropriate value for the &lt;xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">應用程式中對這項要求所設定的適當值&lt;xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Message Queuing sends all acknowledgment messages to the administration queue specified in the &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; property of the original &lt;xref:System.Messaging.Message&gt;.</source>
+          <target state="translated">訊息佇列會將所有通知訊息都傳送給&lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;原始&lt;xref:System.Messaging.Message&gt;.&lt;/xref:System.Messaging.Message&gt;屬性&lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt;中指定的管理佇列</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the sending application does not have the necessary rights to send a message to the destination queue.</source>
+          <target state="translated">負抵達通知，指出傳送應用程式沒有將訊息傳送到目的地佇列的必要權限。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the destination queue is not available to the sending application.</source>
+          <target state="translated">負抵達通知，指出目的地佇列無法傳送應用程式使用。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the destination queue manager could not decrypt a private message.</source>
+          <target state="translated">負抵達通知，指出目的佇列管理員無法解密私用訊息。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the original message's digital signature is not valid and could not be authenticated by Message Queuing.</source>
+          <target state="translated">負抵達通知，表示原始訊息的數位簽章不正確，且由訊息佇列無法驗證。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the source queue manager could not encrypt a private message.</source>
+          <target state="translated">負抵達通知，表示來源佇列管理員無法加密私用訊息。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the original message's hop count (which indicates the number of intermediate servers) was exceeded.</source>
+          <target state="translated">表示原始訊息的躍點計數 （表示中繼伺服器的數目） 已超過負抵達通知。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The maximum hop count, 15, is set by Message Queuing and is immutable.</source>
+          <target state="translated">最大躍點計數，15，會設定由訊息佇列，而是不可變的。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message is not an acknowledgment message.</source>
+          <target state="translated">訊息不是將通知訊息。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that a non-transactional message was sent to a transactional queue.</source>
+          <target state="translated">負抵達通知，表示非交易式訊息已傳送至異動式佇列。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that a transactional message was sent to a non-transactional queue.</source>
+          <target state="translated">負抵達通知，表示異動式訊息已傳送至非異動式佇列。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the message was purged before reaching its destination queue.</source>
+          <target state="translated">負抵達通知表示訊息已到達其目的地佇列之前被清除。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A negative read acknowledgment indicating that the queue was deleted before the message could be read.</source>
+          <target state="translated">負讀取通知，指出無法讀取訊息之前已刪除佇列。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the original message was not delivered because its destination queue is full.</source>
+          <target state="translated">負抵達通知，指出，原始訊息未傳遞因為目的端佇列已滿。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A negative read acknowledgment indicating that the queue was purged before the message could be read.</source>
+          <target state="translated">負讀取通知，指出無法讀取訊息之前，已清除佇列。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A positive arrival acknowledgment indicating that the original message reached its destination queue.</source>
+          <target state="translated">正抵達通知，指出原始訊息已到達其目的地佇列。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A negative arrival acknowledgment indicating that the time-to-reach-queue or time-to-be-received timer expired before the original message could reach the destination queue.</source>
+          <target state="translated">負抵達通知，指出到達佇列或接收時間計時器過期之前的原始訊息抵達目的端佇列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A positive read acknowledgment indicating that the original message was received by the receiving application.</source>
+          <target state="translated">正讀取指出原始訊息已由接收應用程式接收的通知。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A negative read acknowledgment indicating that the original message was not received from the queue before its time-to-be-received timer expired.</source>
+          <target state="translated">負讀取指出，原始訊息不來自佇列的時間計時器過期之前的通知。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">147af22747abd0a8896992f1c99ba659da49419b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.Menu.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fec1143b4bdaa001a38653cffe7fb19f76d0a22</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4467a2aedadfdf30076563361f26662913149298</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Displays a menu in an ASP.NET Web page.</source>
+          <target state="translated">ASP.NET 网页中显示菜单。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Menu Items<ept id="p2">](#menu_items)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Static Data<ept id="p3">](#static_data)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Binding to Data<ept id="p4">](#binding_to_data)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Customizing the User Interface<ept id="p5">](#customizing_the_user_interface)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Events<ept id="p6">](#events)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Accessibility<ept id="p7">](#accessibility)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Declarative Syntax<ept id="p8">](#declarative_syntax)</ept>      <bpt id="p9">&lt;a name="introduction"&gt;</bpt><ept id="p9">&lt;/a&gt;</ept>    ## Introduction    The Menu control is used to display a menu in an ASP.NET Web page and is often used in combination with a &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control for navigating a Web site.</source>
+          <target state="translated">本主题中:-<bpt id="p1">[</bpt>简介<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>菜单项<ept id="p2">](#menu_items)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>静态数据<ept id="p3">](#static_data)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>绑定到数据<ept id="p4">](#binding_to_data)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>自定义用户界面<ept id="p5">](#customizing_the_user_interface)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>事件<ept id="p6">](#events)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>可访问性<ept id="p7">](#accessibility)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>声明性语法<ept id="p8">](#declarative_syntax)</ept><bpt id="p9">&lt;a name="introduction"&gt;</bpt> <ept id="p9">&lt;/a&gt;</ept> # # 简介菜单控件可用于在 ASP.NET Web 页中显示的菜单，并通常与结合使用&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;导航网站上的控件。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Menu control supports the following features:      -   Data binding that allows the control's menu items to be bound to hierarchal data sources.</source>
+          <target state="translated">菜单控件支持以下功能:-数据绑定，允许控件的菜单项绑定到分层数据源。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Site navigation through integration with the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control.</source>
+          <target state="translated">-站点通过与集成导航&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;控件。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   Programmatic access to the Menu object model to dynamically create menus, populate menu items, set properties, and so on.</source>
+          <target state="translated">-以编程方式访问菜单对象模型，以便动态创建菜单，填充菜单项、 设置的属性，依次类推。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   Customizable appearance through themes, user-defined images, styles, and user-defined templates.</source>
+          <target state="translated">通过主题、 用户定义的映像，样式和用户定义的模板的自定义外观。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the user clicks a menu item, the Menu control can either navigate to a linked Web page or simply post back to the server.</source>
+          <target state="translated">当用户单击菜单项时，菜单控件可以导航到链接的网页或只需将回发到服务器。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt; property of a menu item is set, the Menu control navigates to the linked page; otherwise, it posts the page back to the server for processing.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;设置菜单项的属性，控件导航到链接的页的菜单; 否则，它将页面回发到服务器进行处理。&lt;/xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, a linked page is displayed in the same window or frame as the Menu control.</source>
+          <target state="translated">默认情况下，链接的页在相同的窗口或框架中显示为菜单控件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To display the linked content in a different window or frame, use the &lt;xref:System.Web.UI.WebControls.Menu.Target%2A&gt; property of the Menu control.</source>
+          <target state="translated">若要在不同的窗口或框架显示链接的内容，请使用&lt;xref:System.Web.UI.WebControls.Menu.Target%2A&gt;菜单控件的属性。&lt;/xref:System.Web.UI.WebControls.Menu.Target%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.WebControls.Menu.Target%2A&gt; property affects every menu item in the control.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;&lt;xref:System.Web.UI.WebControls.Menu.Target%2A&gt;属性会影响在控件中的每个菜单项。&lt;/xref:System.Web.UI.WebControls.Menu.Target%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To specify a window or frame for an individual menu item, set the &lt;xref:System.Web.UI.WebControls.MenuItem.Target%2A&gt; property of the &lt;xref:System.Web.UI.WebControls.MenuItem&gt; object directly.</source>
+          <target state="translated">若要指定的窗口或框架的各个菜单项，设置&lt;xref:System.Web.UI.WebControls.MenuItem.Target%2A&gt;属性&lt;xref:System.Web.UI.WebControls.MenuItem&gt;直接对象。&lt;/xref:System.Web.UI.WebControls.MenuItem&gt; &lt;/xref:System.Web.UI.WebControls.MenuItem.Target%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Menu control displays two types of menus: a static menu and a dynamic menu.</source>
+          <target state="translated">菜单控件显示的菜单的两种类型︰ 静态菜单和动态菜单。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The static menu is always displayed in a Menu control.</source>
+          <target state="translated">始终以菜单控件显示静态菜单。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, the menu items at the root level (level 0) are displayed in the static menu.</source>
+          <target state="translated">默认情况下，在根级别 （级别 0） 的菜单项显示在静态菜单中。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can display additional menu levels (static submenus) within the static menu by setting the &lt;xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt; property.</source>
+          <target state="translated">可以通过设置静态菜单中显示更多菜单级别 （静态子菜单）&lt;xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Menu items (if any) with a higher level than the value specified by the &lt;xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt; property are displayed in a dynamic menu.</source>
+          <target state="translated">菜单比指定的值以更高级别的项 （如果有）&lt;xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt;属性显示动态菜单中。&lt;/xref:System.Web.UI.WebControls.Menu.StaticDisplayLevels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A dynamic menu appears only when the user positions the mouse pointer over the parent menu item that contains a dynamic submenu.</source>
+          <target state="translated">仅当用户将鼠标指针定位在父菜单项包含动态子菜单会显示动态菜单。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Dynamic menus automatically disappear after a certain duration.</source>
+          <target state="translated">在某段持续时间后自动消失动态菜单。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.UI.WebControls.Menu.DisappearAfter%2A&gt; property to specify the duration.</source>
+          <target state="translated">使用&lt;xref:System.Web.UI.WebControls.Menu.DisappearAfter%2A&gt;属性指定持续时间。&lt;/xref:System.Web.UI.WebControls.Menu.DisappearAfter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A dynamic menu also disappears when the user clicks outside of the menu.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 当用户单击菜单之外，动态菜单也会消失。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of levels displayed in a dynamic menu by setting the &lt;xref:System.Web.UI.WebControls.Menu.MaximumDynamicDisplayLevels%2A&gt; property.</source>
+          <target state="translated">您还可以限制通过设置动态菜单中显示的级别数&lt;xref:System.Web.UI.WebControls.Menu.MaximumDynamicDisplayLevels%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.MaximumDynamicDisplayLevels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Menu levels higher than the specified value are discarded.</source>
+          <target state="translated">菜单级别高于指定的值将被丢弃。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Menu control is not designed to be used inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 菜单控件不是在内部使用&lt;xref:System.Web.UI.UpdatePanel&gt;控件。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can add the Menu control only to a page outside an &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">你可以将菜单控件添加到之外的网页仅&lt;xref:System.Web.UI.UpdatePanel&gt;控件。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.UpdatePanel&gt; controls are used to update selected regions of a page instead of updating the whole page with a postback.</source>
+          <target state="translated">&lt;xref:System.Web.UI.UpdatePanel&gt;控制用于更新而不是使用回发更新整个页面的页面的选定的区域。&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>UpdatePanel Control Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Partial-Page Rendering Overview<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>UpdatePanel 控件概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>局部页面呈现概述<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="menu_items"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Menu Items    A Menu control is made up of a tree of menu items represented by &lt;xref:System.Web.UI.WebControls.MenuItem&gt; objects.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="menu_items"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 菜单项菜单控件的菜单项由树组成&lt;xref:System.Web.UI.WebControls.MenuItem&gt;对象。&lt;/xref:System.Web.UI.WebControls.MenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Menu items at the top level (level 0) are called root menu items.</source>
+          <target state="translated">在顶层 （级别 0） 的菜单项称为根菜单项。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A menu item that has a parent menu item is called a child menu item.</source>
+          <target state="translated">具有父菜单项的菜单项称为子菜单项。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All root menu items are stored in the &lt;xref:System.Web.UI.WebControls.Menu.Items%2A&gt; collection.</source>
+          <target state="translated">所有根菜单项都存储在&lt;xref:System.Web.UI.WebControls.Menu.Items%2A&gt;集合。&lt;/xref:System.Web.UI.WebControls.Menu.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Child menu items are stored in a parent menu item's &lt;xref:System.Web.UI.WebControls.MenuItem.ChildItems%2A&gt; collection.</source>
+          <target state="translated">子菜单项存储在父菜单项的&lt;xref:System.Web.UI.WebControls.MenuItem.ChildItems%2A&gt;集合。&lt;/xref:System.Web.UI.WebControls.MenuItem.ChildItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Each menu item has a &lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt; and a &lt;xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt; property.</source>
+          <target state="translated">每个菜单项包含&lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;和&lt;xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value of the &lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt; property is displayed in the Menu control, while the &lt;xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt; property is used to store any additional data about the menu item, such as data passed to the postback event associated with the menu item.</source>
+          <target state="translated">值&lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;属性显示在菜单控件中，虽然&lt;xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt;属性用于存储有关菜单项中，任何其他数据如传递给与菜单项关联的回发事件数据。&lt;/xref:System.Web.UI.WebControls.MenuItem.Value%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When clicked, a menu item can navigate to another Web page indicated by the &lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt; property.</source>
+          <target state="translated">单击时，菜单项可以导航到指示的另一个 Web 页&lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt; property is not set for a menu item, the Menu control simply submits the page to the server for processing when the menu item is clicked.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果&lt;xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;属性未设置为菜单项，菜单控件只需将页提交到服务器进行处理时单击该菜单项。&lt;/xref:System.Web.UI.WebControls.MenuItem.NavigateUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can also optionally display an image in a menu item by setting the &lt;xref:System.Web.UI.WebControls.MenuItem.ImageUrl%2A&gt; property.</source>
+          <target state="translated">你可以还 （可选） 中显示图像的菜单项通过设置&lt;xref:System.Web.UI.WebControls.MenuItem.ImageUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.MenuItem.ImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information on menu items, see &lt;xref:System.Web.UI.WebControls.MenuItem&gt;.</source>
+          <target state="translated">菜单项的详细信息，请参阅&lt;xref:System.Web.UI.WebControls.MenuItem&gt;。&lt;/xref:System.Web.UI.WebControls.MenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="static_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Static Data    The simplest data model of the Menu control is static menu items.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="static_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 静态数据的最简单的数据模型的菜单控件是静态菜单项。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To display static menu items using declarative syntax, first nest opening and closing <ph id="ph1">`&lt;Items&gt;`</ph> tags between the opening and closing tags of the Menu control.</source>
+          <target state="translated">若要显示静态菜单项使用声明性语法，请首先打开和关闭<ph id="ph1">`&lt;Items&gt;`</ph>开始和结束标记的菜单控件之间的标记。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Next, create the menu structure by nesting <ph id="ph1">`&lt;asp:MenuItem&gt;`</ph> elements between the opening and closing <ph id="ph2">`&lt;Items&gt;`</ph> tags.</source>
+          <target state="translated">接下来，创建嵌套的菜单结构<ph id="ph1">`&lt;asp:MenuItem&gt;`</ph>元素开始标记和结束之间<ph id="ph2">`&lt;Items&gt;`</ph>标记。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`&lt;asp:MenuItem&gt;`</ph> element represents a menu item in the control and maps to a &lt;xref:System.Web.UI.WebControls.MenuItem&gt; object.</source>
+          <target state="translated">每个<ph id="ph1">`&lt;asp:MenuItem&gt;`</ph>元素表示控件中的菜单项并将映射到&lt;xref:System.Web.UI.WebControls.MenuItem&gt;对象。&lt;/xref:System.Web.UI.WebControls.MenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can set the properties of each menu item by setting the attributes of its <ph id="ph1">`&lt;asp:MenuItem&gt;`</ph> element.</source>
+          <target state="translated">你可以通过设置特性的设置每个菜单项的属性及其<ph id="ph1">`&lt;asp:MenuItem&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To create submenu items, nest additional <ph id="ph1">`&lt;asp:MenuItem&gt;`</ph> elements between the opening and closing <ph id="ph2">`&lt;asp:MenuItem&gt;`</ph> tags of the parent menu item.</source>
+          <target state="translated">若要创建子菜单项，嵌套其他<ph id="ph1">`&lt;asp:MenuItem&gt;`</ph>元素开始标记和结束之间<ph id="ph2">`&lt;asp:MenuItem&gt;`</ph>父菜单项的标记。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="binding_to_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Binding to Data    The Menu control can use any hierarchal data source control, such as an &lt;xref:System.Web.UI.WebControls.XmlDataSource&gt; control or a &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; control.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="binding_to_data"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 绑定到数据菜单控件可以使用任何以分层方式进行数据源控件，如&lt;xref:System.Web.UI.WebControls.XmlDataSource&gt;控件或&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;控件。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt; &lt;/xref:System.Web.UI.WebControls.XmlDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To bind to a hierarchal data source control, set the &lt;xref:System.Web.UI.WebControls.DataBoundControl.DataSourceID%2A&gt; property of the Menu control to the &lt;xref:System.Web.UI.Control.ID%2A&gt; value of the data source control.</source>
+          <target state="translated">若要将绑定到分层数据源控件，将设置&lt;xref:System.Web.UI.WebControls.DataBoundControl.DataSourceID%2A&gt;菜单控件的属性&lt;xref:System.Web.UI.Control.ID%2A&gt;数据源控件的值。&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataBoundControl.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Menu control automatically binds to the specified data source control.</source>
+          <target state="translated">菜单控件自动将绑定到指定的数据源控件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is the preferred method to bind to data.</source>
+          <target state="translated">这是将绑定到数据的首选的方法。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When binding to a data source where each data item contains multiple properties (such as an XML element with several attributes), a menu item displays the value returned by the <ph id="ph1">`ToString`</ph> method of the data item by default.</source>
+          <target state="translated">当绑定到数据源，其中每个数据项包含多个属性 （如具有多个特性的 XML 元素），菜单项显示返回的值<ph id="ph1">`ToString`</ph>默认情况下的数据项的方法。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the case of an XML element, the menu item displays the element name, which shows the underlying structure of the menu tree but is not very useful otherwise.</source>
+          <target state="translated">对于 XML 元素，该菜单项显示显示菜单树的基础结构，但其他方面不是非常有用的元素名称。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can bind a menu item to a specific data item property by using the &lt;xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt; collection to specify menu item bindings.</source>
+          <target state="translated">你可以通过使用菜单项绑定到特定数据项属性&lt;xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt;集合，以指定菜单项绑定。&lt;/xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt; collection contains &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; objects that define the relationship between a data item and the menu item it is binding to.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt;集合包含&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;定义数据项和它所绑定到的菜单项之间的关系的对象。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DataBindings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can specify the criteria for binding and the data item property to display in the node.</source>
+          <target state="translated">你可以指定的绑定和数据项属性的节点中显示的条件。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information on menu item bindings, see &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;.</source>
+          <target state="translated">菜单项绑定的详细信息，请参阅&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You cannot create empty nodes in a Menu control by setting the &lt;xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt; or &lt;xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt; properties to the empty string ("").</source>
+          <target state="translated">无法在菜单控件中创建空节点，通过设置&lt;xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt;或&lt;xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt;属性为空字符串 ("")。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Setting these properties to the empty string has the same effect as not setting the properties.</source>
+          <target state="translated">将这些属性设置为空字符串作为未设置这些属性的效果相同。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In that case, the Menu control creates a default binding using the &lt;xref:System.Web.UI.WebControls.BaseDataBoundControl.DataSource%2A&gt; property.</source>
+          <target state="translated">在这种情况下，菜单控件创建默认绑定使用&lt;xref:System.Web.UI.WebControls.BaseDataBoundControl.DataSource%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.BaseDataBoundControl.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Binding to Databases<ept id="p1">](http://msdn.microsoft.com/en-us/ab7b2846-975b-4057-a948-45527497c742)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>绑定到数据库<ept id="p1">](http://msdn.microsoft.com/en-us/ab7b2846-975b-4057-a948-45527497c742)</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="customizing_the_user_interface"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Customizing the User Interface    There are many ways to customize the appearance of the Menu control.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="customizing_the_user_interface"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 自定义用户界面那里很多种自定义菜单控件的外观。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>First, you can specify whether the Menu control is rendered horizontally or vertically by setting the &lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt; property.</source>
+          <target state="translated">首先，你可以指定是否菜单控件呈现水平或垂直通过设置&lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can also specify a different style (such as font size and color) for each of the menu item types.</source>
+          <target state="translated">此外可以为每个菜单项类型指定不同的样式 （如字体大小和颜色）。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you use cascading style sheets (CSS) to customize the appearance of the control, use either inline styles or a separate CSS file, but not both.</source>
+          <target state="translated">级联样式表 (CSS) 用于自定义控件的外观，如果使用内联样式或单独的 CSS 文件，但不要同时。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Using both inline styles and a separate CSS file could cause unexpected results.</source>
+          <target state="translated">使用内联样式和单独的 CSS 文件可能会导致意外的结果。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information on using style sheets with controls, see <bpt id="p1">[</bpt>Web Server Controls and CSS Styles<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">在上使用的控件的样式表的详细信息，请参阅<bpt id="p1">[</bpt>Web 服务器控件和 CSS 样式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The following table lists the available menu item styles.</source>
+          <target state="translated">下表列出可用菜单项样式。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>|Menu item style property|Description|   |------------------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;|The style settings for a dynamic menu item when the mouse pointer is positioned over it.|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;|The style settings for an individual dynamic menu item.|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;|The style settings for a dynamic menu.|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;|The style settings for the currently selected dynamic menu item.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticHoverStyle%2A&gt;|The style settings for a static menu item when the mouse pointer is positioned over it.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticMenuItemStyle%2A&gt;|The style settings for an individual static menu item.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticMenuStyle%2A&gt;|The style settings for a static menu.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticSelectedStyle%2A&gt;|The style settings for the currently selected static menu item.|       Instead of setting the individual style properties, you can specify styles that are applied to menu items based on their level by using the following style collections.</source>
+          <target state="translated">|菜单项样式属性 |说明 |  |------------------------------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;|当鼠标指针置于动态菜单项的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;|单个动态菜单项的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;|动态菜单的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;|当前所选动态菜单项的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticHoverStyle%2A&gt;|当鼠标指针置于静态菜单项的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticMenuItemStyle%2A&gt;|单个静态菜单项的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticMenuStyle%2A&gt;|静态菜单的样式设置。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticSelectedStyle%2A&gt;|当前所选的静态菜单项的样式设置。 |      而不是设置的单个样式属性，可以指定应用于根据其级别，通过使用下列样式集合的菜单项的样式。&lt;/xref:System.Web.UI.WebControls.Menu.StaticSelectedStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticMenuStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticMenuItemStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticHoverStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>|Level style collections|Description|   |-----------------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;|A collection of &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; objects that control the style of the menu items on a level basis.|   |&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;|A collection of &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; objects that control the style of selected menu items on a level basis.|   |&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;|A collection of &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; objects that control the style of the submenu items on a level basis.|       The first style in the collection corresponds to the style of the menu items at the first depth level in the menu tree.</source>
+          <target state="translated">|级别样式集合 |说明 |  |-----------------------------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;|控件根据级别的菜单项的样式的&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象的集合。 |  |&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;|控件的样式的&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象的集合选择的级别的基础上的菜单项。 |  |&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;|控制根据级别的子菜单项的样式的&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象的集合。 |      集合中的第一个样式对应于在菜单树中的第一个深度级别的菜单项的样式。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The second style in the collection corresponds to the style of the menu items at the second depth level in the menu tree, and so on.</source>
+          <target state="translated">集合中的第二个样式对应于在第二个深度级别菜单树中，依次类推的菜单项的样式。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This is most often used to generate table of contents-style navigation menus where menu items at a certain depth should have the same appearance, regardless of whether they have submenus.</source>
+          <target state="translated">这是最常用于生成表的内容样式导航菜单其中某一深度的菜单项应具有相同的外观，而不考虑是否具有子菜单。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you use any of the level style collections listed in the previous table to define the style for the Menu control, these style settings override the individual menu item style properties.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果你使用上表中列出的级别样式任何的集合定义菜单控件的样式，这些样式设置会替代各个菜单项样式属性。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Another way to alter the appearance of the control is to customize the images displayed in the Menu control.</source>
+          <target state="translated">若要更改控件的外观的另一种方法是自定义菜单控件中显示的图像。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can specify your own custom image for the different parts of the control by setting the properties shown in the following table.</source>
+          <target state="translated">可以通过设置以下表所示的属性来指定控件的不同部分自己自定义映像。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>|Image property|Description|   |--------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt;|An optional image displayed at the bottom of a dynamic menu item to separate it from other menu items.|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;|An optional image displayed in a dynamic menu item to indicate that it has a submenu.|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt;|An optional image displayed at the top of a dynamic menu item to separate it from other menu items.|   |&lt;xref:System.Web.UI.WebControls.Menu.ScrollDownImageUrl%2A&gt;|The image displayed at the bottom of a menu item to indicate that the user can scroll down to view additional menu items.|   |&lt;xref:System.Web.UI.WebControls.Menu.ScrollUpImageUrl%2A&gt;|The image displayed at the top of a menu item to indicate that the user can scroll up to view additional menu items.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticBottomSeparatorImageUrl%2A&gt;|An optional image displayed at the bottom of a static menu item to separate it from other menu items.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticPopOutImageUrl%2A&gt;|An optional image displayed in a static menu item to indicate that it has a submenu.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticTopSeparatorImageUrl%2A&gt;|An optional image displayed at the top of a static menu item to separate it from other menu items.|       For complete control of the user interface (UI), you can define your own custom templates for the Menu control using the following template properties.</source>
+          <target state="translated">|图像属性 |说明 |  |--------------------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt;|要与其他菜单项隔开的动态菜单项底部显示的可选图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;|动态菜单项以指示它具有子菜单中显示的可选图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt;|要与其他菜单项隔开的动态菜单项顶部显示的可选图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.ScrollDownImageUrl%2A&gt;|在菜单项以指示用户可以滚动查看更多菜单项底部显示的图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.ScrollUpImageUrl%2A&gt;|在菜单项以指示用户可以向上滚动到视图额外的菜单项顶部显示的图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticBottomSeparatorImageUrl%2A&gt;|要与其他菜单项隔开的静态菜单项底部显示的可选图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticPopOutImageUrl%2A&gt;|静态菜单项以指示它具有子菜单中显示的可选图像。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticTopSeparatorImageUrl%2A&gt;|要与其他菜单项隔开的静态菜单项顶部显示的可选图像。 |      对于用户界面 (UI) 的完全控制，你可以定义自己自定义模板来使用以下模板属性的菜单控件。&lt;/xref:System.Web.UI.WebControls.Menu.StaticTopSeparatorImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticPopOutImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticBottomSeparatorImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.ScrollUpImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.ScrollDownImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>|Template property|Description|   |-----------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Menu.DynamicItemTemplate%2A&gt;|The template that contains the custom content to render for a dynamic menu item.|   |&lt;xref:System.Web.UI.WebControls.Menu.StaticItemTemplate%2A&gt;|The template that contains the custom content to render for a static menu item.|       You can control the vertical and horizontal position of a dynamic menu relative to its parent menu item by setting the &lt;xref:System.Web.UI.WebControls.Menu.DynamicVerticalOffset%2A&gt; and &lt;xref:System.Web.UI.WebControls.Menu.DynamicHorizontalOffset%2A&gt; properties, respectively.</source>
+          <target state="translated">|模板属性 |说明 |  |-----------------------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Menu.DynamicItemTemplate%2A&gt;|包含动态菜单项呈现自定义内容的模板。 |  |&lt;xref:System.Web.UI.WebControls.Menu.StaticItemTemplate%2A&gt;|包含要呈现为静态菜单项的自定义内容的模板。 |      你可以通过设置来控制动态菜单相对于其父菜单项的垂直和水平位置&lt;xref:System.Web.UI.WebControls.Menu.DynamicVerticalOffset%2A&gt;和&lt;xref:System.Web.UI.WebControls.Menu.DynamicHorizontalOffset%2A&gt;属性，分别。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicHorizontalOffset%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicVerticalOffset%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.StaticItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.DynamicItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To control the indentation of the static submenu items within a static menu, use the &lt;xref:System.Web.UI.WebControls.Menu.StaticSubMenuIndent%2A&gt; property.</source>
+          <target state="translated">若要控制静态菜单中的静态子菜单项的缩进，请使用&lt;xref:System.Web.UI.WebControls.Menu.StaticSubMenuIndent%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.StaticSubMenuIndent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="events"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Events    The Menu control provides several events that you can program against.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="events"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 事件菜单控件提供可以编程的多个事件。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This allows you to run a custom routine whenever an event occurs.</source>
+          <target state="translated">这允许你每次事件发生时运行的自定义的例程。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The following table lists the supported events.</source>
+          <target state="translated">下表列出了受支持的事件。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>|Event|Description|   |-----------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Menu.MenuItemClick&gt;|Occurs when a menu item is clicked.</source>
+          <target state="translated">|事件 |说明 |  |-----------|-----------------|  |&lt;xref:System.Web.UI.WebControls.Menu.MenuItemClick&gt;|单击菜单项时发生。&lt;/xref:System.Web.UI.WebControls.Menu.MenuItemClick&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This event is commonly used to synchronize a Menu control with another control on the page.|   |&lt;xref:System.Web.UI.WebControls.Menu.MenuItemDataBound&gt;|Occurs when a menu item is bound to data.</source>
+          <target state="translated">此事件通常用于将菜单控件与页面上的另一个控件同步。 |  |&lt;xref:System.Web.UI.WebControls.Menu.MenuItemDataBound&gt;|菜单项绑定到数据时发生。&lt;/xref:System.Web.UI.WebControls.Menu.MenuItemDataBound&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This event is commonly used to modify a menu item before it is rendered in a Menu control.|      <bpt id="p1">&lt;a name="accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Accessibility    For information about how to configure this control so that it generates markup that conforms to accessibility standards, see <bpt id="p2">[</bpt>Accessibility in Visual Studio and ASP.NET<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p3">[</bpt>ASP.NET Controls and Accessibility<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">此事件通常用于呈现菜单控件中之前修改菜单项。 |     <bpt id="p1">&lt;a name="accessibility"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # 有关如何配置此控件，以使其生成符合辅助功能标准的标记可访问性的信息，请参阅<bpt id="p2">[</bpt>Visual Studio 和 ASP.NET 中的辅助功能<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p3">[</bpt>ASP.NET 控件和可访问性<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:Menu       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       DataSource="string"       DataSourceID="string"       DisappearAfter="integer"       DynamicBottomSeparatorImageUrl="uri"       DynamicEnableDefaultPopOutImage="True|False"       DynamicHorizontalOffset="integer"       DynamicItemFormatString="string"       DynamicPopOutImageTextFormatString="string"       DynamicPopOutImageUrl="uri"       DynamicTopSeparatorImageUrl="uri"       DynamicVerticalOffset="integer"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       ItemWrap="True|False"       MaximumDynamicDisplayLevels="integer"       OnDataBinding="DataBinding event handler"       OnDataBound="DataBound event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnMenuItemClick="MenuItemClick event handler"       OnMenuItemDataBound="MenuItemDataBound event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       Orientation="Horizontal|Vertical"       PathSeparator="string"       runat="server"       ScrollDownImageUrl="uri"       ScrollDownText="string"       ScrollUpImageUrl="uri"       ScrollUpText="string"       SkinID="string"       SkipLinkText="string"       StaticBottomSeparatorImageUrl="uri"       StaticDisplayLevels="integer"       StaticEnableDefaultPopOutImage="True|False"       StaticItemFormatString="string"       StaticPopOutImageTextFormatString="string"       StaticPopOutImageUrl="uri"       StaticSubMenuIndent="size"       StaticTopSeparatorImageUrl="uri"       Style="string"       TabIndex="integer"       Target="string"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;           &lt;DataBindings&gt;                   &lt;asp:MenuItemBinding                       DataMember="string"                       Depth="integer"                       Enabled="True|False"                       EnabledField="string"                       FormatString="string"                       ImageUrl="uri"                       ImageUrlField="string"                       NavigateUrl="uri"                       NavigateUrlField="string"                       PopOutImageUrl="uri"                       PopOutImageUrlField="string"                       Selectable="True|False"                       SelectableField="string"                       SeparatorImageUrl="uri"                       SeparatorImageUrlField="string"                       Target="string"                       TargetField="string"                       Text="string"                       TextField="string"                       ToolTip="string"                       ToolTipField="string"                       Value="string"                       ValueField="string"                   /&gt;           &lt;/DataBindings&gt;           &lt;DynamicHoverStyle /&gt;           &lt;DynamicItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/DynamicItemTemplate&gt;           &lt;DynamicMenuItemStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;DynamicMenuStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;DynamicSelectedStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;Items /&gt;           &lt;LevelMenuItemStyles&gt;                   &lt;asp:MenuItemStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       ItemSpacing="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelMenuItemStyles&gt;           &lt;LevelSelectedStyles&gt;                   &lt;asp:MenuItemStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       ItemSpacing="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelSelectedStyles&gt;           &lt;LevelSubMenuStyles&gt;                   &lt;asp:SubMenuStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelSubMenuStyles&gt;           &lt;StaticHoverStyle /&gt;           &lt;StaticItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/StaticItemTemplate&gt;           &lt;StaticMenuItemStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|                   X-Small|Small|Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;StaticMenuStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;StaticSelectedStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;   &lt;/asp:Menu&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 声明性语法<ph id="ph1">```   &lt;asp:Menu       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       DataSource="string"       DataSourceID="string"       DisappearAfter="integer"       DynamicBottomSeparatorImageUrl="uri"       DynamicEnableDefaultPopOutImage="True|False"       DynamicHorizontalOffset="integer"       DynamicItemFormatString="string"       DynamicPopOutImageTextFormatString="string"       DynamicPopOutImageUrl="uri"       DynamicTopSeparatorImageUrl="uri"       DynamicVerticalOffset="integer"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       ItemWrap="True|False"       MaximumDynamicDisplayLevels="integer"       OnDataBinding="DataBinding event handler"       OnDataBound="DataBound event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnMenuItemClick="MenuItemClick event handler"       OnMenuItemDataBound="MenuItemDataBound event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       Orientation="Horizontal|Vertical"       PathSeparator="string"       runat="server"       ScrollDownImageUrl="uri"       ScrollDownText="string"       ScrollUpImageUrl="uri"       ScrollUpText="string"       SkinID="string"       SkipLinkText="string"       StaticBottomSeparatorImageUrl="uri"       StaticDisplayLevels="integer"       StaticEnableDefaultPopOutImage="True|False"       StaticItemFormatString="string"       StaticPopOutImageTextFormatString="string"       StaticPopOutImageUrl="uri"       StaticSubMenuIndent="size"       StaticTopSeparatorImageUrl="uri"       Style="string"       TabIndex="integer"       Target="string"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;           &lt;DataBindings&gt;                   &lt;asp:MenuItemBinding                       DataMember="string"                       Depth="integer"                       Enabled="True|False"                       EnabledField="string"                       FormatString="string"                       ImageUrl="uri"                       ImageUrlField="string"                       NavigateUrl="uri"                       NavigateUrlField="string"                       PopOutImageUrl="uri"                       PopOutImageUrlField="string"                       Selectable="True|False"                       SelectableField="string"                       SeparatorImageUrl="uri"                       SeparatorImageUrlField="string"                       Target="string"                       TargetField="string"                       Text="string"                       TextField="string"                       ToolTip="string"                       ToolTipField="string"                       Value="string"                       ValueField="string"                   /&gt;           &lt;/DataBindings&gt;           &lt;DynamicHoverStyle /&gt;           &lt;DynamicItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/DynamicItemTemplate&gt;           &lt;DynamicMenuItemStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;DynamicMenuStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;DynamicSelectedStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;Items /&gt;           &lt;LevelMenuItemStyles&gt;                   &lt;asp:MenuItemStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       ItemSpacing="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelMenuItemStyles&gt;           &lt;LevelSelectedStyles&gt;                   &lt;asp:MenuItemStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       ItemSpacing="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelSelectedStyles&gt;           &lt;LevelSubMenuStyles&gt;                   &lt;asp:SubMenuStyle                       BackColor="color name|#dddddd"                       BorderColor="color name|#dddddd"                       BorderStyle="NotSet|None|Dotted|Dashed|Solid|                           Double|Groove|Ridge|Inset|Outset"                       BorderWidth="size"                       CssClass="string"                       Font-Bold="True|False"                       Font-Italic="True|False"                       Font-Names="string"                       Font-Overline="True|False"                       Font-Size="string|Smaller|Larger|XX-Small|                           X-Small|Small|Medium|Large|X-Large|XX-Large"                       Font-Strikeout="True|False"                       Font-Underline="True|False"                       ForeColor="color name|#dddddd"                       Height="size"                       HorizontalPadding="size"                       OnDisposed="Disposed event handler"                       VerticalPadding="size"                       Width="size"                   /&gt;           &lt;/LevelSubMenuStyles&gt;           &lt;StaticHoverStyle /&gt;           &lt;StaticItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/StaticItemTemplate&gt;           &lt;StaticMenuItemStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|                   X-Small|Small|Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;StaticMenuStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;           &lt;StaticSelectedStyle               BackColor="color name|#dddddd"               BorderColor="color name|#dddddd"               BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|                   Groove|Ridge|Inset|Outset"               BorderWidth="size"               CssClass="string"               Font-Bold="True|False"               Font-Italic="True|False"               Font-Names="string"               Font-Overline="True|False"               Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|                   Medium|Large|X-Large|XX-Large"               Font-Strikeout="True|False"               Font-Underline="True|False"               ForeColor="color name|#dddddd"               Height="size"               HorizontalPadding="size"               ItemSpacing="size"               OnDisposed="Disposed event handler"               VerticalPadding="size"               Width="size"           /&gt;   &lt;/asp:Menu&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use this constructor to create and initialize a new instance of the &lt;xref:System.Web.UI.WebControls.Menu&gt; class.</source>
+          <target state="translated">使用此构造函数来创建和初始化&lt;xref:System.Web.UI.WebControls.Menu&gt;类&lt;/xref:System.Web.UI.WebControls.Menu&gt;的新实例</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To dynamically add a &lt;xref:System.Web.UI.WebControls.Menu&gt; control to a page, create a new &lt;xref:System.Web.UI.WebControls.Menu&gt; object, set its properties, and then add it to the &lt;xref:System.Web.UI.Control.Controls%2A&gt; collection of a container control, such as &lt;xref:System.Web.UI.WebControls.PlaceHolder&gt;.</source>
+          <target state="translated">若要动态添加&lt;xref:System.Web.UI.WebControls.Menu&gt;控件到页中，创建新的&lt;xref:System.Web.UI.WebControls.Menu&gt;对象、 设置其属性，并将其添加到&lt;xref:System.Web.UI.Control.Controls%2A&gt;集合的容器控件，如&lt;xref:System.Web.UI.WebControls.PlaceHolder&gt;.&lt;/xref:System.Web.UI.WebControls.PlaceHolder&gt; &lt;/xref:System.Web.UI.Control.Controls%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Adds HTML attributes and styles that need to be rendered to the specified <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">将 HTML 特性和需要呈现的样式添加到指定<bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Menu&gt; control overrides the &lt;xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A&gt; method to reset the &lt;xref:System.Web.UI.WebControls.WebControl.AccessKey%2A&gt; property to &lt;xref:System.String.Empty&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu&gt;控件重写&lt;xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A&gt;方法来重置&lt;xref:System.Web.UI.WebControls.WebControl.AccessKey%2A&gt;到&lt;xref:System.String.Empty&gt;。&lt;/xref:System.String.Empty&gt;属性&lt;/xref:System.Web.UI.WebControls.WebControl.AccessKey%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebControl.AddAttributesToRender%2A&gt;&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This member is primarily used by control developers when deriving a custom control from the &lt;xref:System.Web.UI.WebControls.Menu&gt; class.</source>
+          <target state="translated">此成员主要由控件开发人员在使用从&lt;xref:System.Web.UI.WebControls.Menu&gt;类&lt;/xref:System.Web.UI.WebControls.Menu&gt;派生自定义控件</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The output stream that renders HTML contents to the client.</source>
+          <target state="translated">客户端上呈现 HTML 内容的输出流。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含的子控件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The Controls property allows you programmatic access to the instance of the &lt;xref:System.Web.UI.ControlCollection&gt; class for the &lt;xref:System.Web.UI.WebControls.Menu&gt; control.</source>
+          <target state="translated">控件属性允许你以编程方式访问的实例&lt;xref:System.Web.UI.ControlCollection&gt;类&lt;xref:System.Web.UI.WebControls.Menu&gt;控件。&lt;/xref:System.Web.UI.WebControls.Menu&gt; &lt;/xref:System.Web.UI.ControlCollection&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can add controls to the collection, remove controls from the collection, or iterate through the server controls in the collection.</source>
+          <target state="translated">你可以将控件添加到集合、 从集合中，删除控件或循环访问集合中的服务器控件。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含子控件</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Creates the child controls of a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">创建子控件的<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This member is primarily used by control developers when deriving a custom control from the &lt;xref:System.Web.UI.WebControls.Menu&gt; class.</source>
+          <target state="translated">此成员主要由控件开发人员在使用从&lt;xref:System.Web.UI.WebControls.Menu&gt;类&lt;/xref:System.Web.UI.WebControls.Menu&gt;派生自定义控件</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET infrastructure to notify any controls that use composition-based implementation, including controls that derive from &lt;xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt; and &lt;xref:System.Web.UI.WebControls.CompositeControl&gt;.</source>
+          <target state="translated">通知使用基于撰写的实现，包括从&lt;xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt;和&lt;xref:System.Web.UI.WebControls.CompositeControl&gt;。&lt;/xref:System.Web.UI.WebControls.CompositeControl&gt;&lt;/xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt;派生的控件的任何控件的 ASP.NET 基础结构调用此方法</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>to create any child controls they contain in preparation for postback or rendering.</source>
+          <target state="translated">若要创建任何子控件它们包含在准备回发或呈现。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Binds the data source to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">将绑定到数据源<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Menu"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">此方法不能被继承。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This member is used primarily by control developers when deriving a custom control from the &lt;xref:System.Web.UI.WebControls.Menu&gt; class.</source>
+          <target state="translated">从&lt;xref:System.Web.UI.WebControls.Menu&gt;类&lt;/xref:System.Web.UI.WebControls.Menu&gt;派生自定义控件时，主要由控件开发人员使用此成员</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use the DataBind method to bind data from a data source to the &lt;xref:System.Web.UI.WebControls.Menu&gt; control.</source>
+          <target state="translated">数据绑定方法用于将数据绑定到数据源从&lt;xref:System.Web.UI.WebControls.Menu&gt;控件。&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This method resolves all data-binding expressions in the active template of the control.</source>
+          <target state="translated">此方法会解析所有活动模板中的控件的数据绑定表达式。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that define the relationship between a data item and the menu item it is binding to.</source>
+          <target state="translated">获取的集合<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>定义数据项和它所绑定到的菜单项之间的关系的对象。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The DataBindings collection contains &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; objects that define the relationship between a data item and the menu item it is binding to.</source>
+          <target state="translated">数据绑定集合包含&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;定义数据项和它所绑定到的菜单项之间的关系的对象。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When binding to a data source where each data item contains multiple properties (such as an XML element with several attributes), a menu item displays the value returned by the <ph id="ph1">`ToString()`</ph> method of the data item by default.</source>
+          <target state="translated">当绑定到数据源，其中每个数据项包含多个属性 （如具有多个特性的 XML 元素），菜单项显示返回的值<ph id="ph1">`ToString()`</ph>默认情况下的数据项的方法。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>In the case of an XML element, the menu item displays the element name, which shows the underlying structure of the tree, but is not very useful otherwise.</source>
+          <target state="translated">对于 XML 元素，该菜单项显示的元素名称，但显示的基础结构的树中，否则不是非常有用。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can bind a menu item to a specific data item property by specifying menu item bindings.</source>
+          <target state="translated">通过指定菜单项绑定，可以将菜单项绑定到特定数据项属性。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When defining the relationship between a data item and a menu item, you must specify both the criteria for binding and the property of a data item to bind to.</source>
+          <target state="translated">在定义数据项和菜单项之间的关系时，你必须指定用于绑定和数据项目的属性将绑定到这两个条件。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The criteria indicate when a data item should be bound to a menu item.</source>
+          <target state="translated">该条件指示何时数据项应绑定到的菜单项。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The criteria can be specified with a depth, a data member, or both.</source>
+          <target state="translated">与深度和 / 或数据成员，可以指定条件。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The depth specifies the menu level that gets bound.</source>
+          <target state="translated">深度指定获取绑定的菜单级别。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For example, if you specify a depth of 0, all menu items in the tree structure at level 0 are bound using the menu item binding.</source>
+          <target state="translated">例如，如果你指定的深度为 0，级别 0 树状结构中的所有菜单项会都绑定使用的菜单项绑定。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A data member specifies the type of the data item in the underlying data source, but can represent different information depending on the data source.</source>
+          <target state="translated">数据成员在基础数据源中，指定的数据项目类型，但可以表示不同的信息，具体取决于数据源。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For example, the data member for an XML element specifies the name of the element.</source>
+          <target state="translated">例如，XML 元素的数据成员指定元素的名称。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If multiple &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; objects are defined that conflict with each other, the &lt;xref:System.Web.UI.WebControls.Menu&gt; control applies the menu item bindings in the following order of precedence:      1.</source>
+          <target state="translated">如果选择多个&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;对象定义相互冲突&lt;xref:System.Web.UI.WebControls.Menu&gt;控件适用以下优先顺序中的菜单项绑定︰ 1。&lt;/xref:System.Web.UI.WebControls.Menu&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object that defines both a depth and a data member.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;定义深度和数据成员的对象。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object that defines only the depth.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;对象，用于定义仅的深度。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object that defines only the data member.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;定义仅的数据成员的对象。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object that defines neither the depth nor the data member.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;对象，用于定义深度和数据成员都不。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Once the binding criteria are established, you can then bind a property of a &lt;xref:System.Web.UI.WebControls.MenuItem&gt; object that is able to be bound to an attribute or field of a data item.</source>
+          <target state="translated">绑定条件建立后，你可以随后绑定的属性&lt;xref:System.Web.UI.WebControls.MenuItem&gt;能够绑定到某个属性或字段的数据项目的对象。&lt;/xref:System.Web.UI.WebControls.MenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For example, you can bind the &lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt; property of a menu item to the text attribute on an XML element by setting the &lt;xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt; property of a &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object.</source>
+          <target state="translated">例如，你可以将绑定&lt;xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;菜单项上设置的 XML 元素的文本属性的属性&lt;xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt;属性&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;对象。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemBinding.TextField%2A&gt; &lt;/xref:System.Web.UI.WebControls.MenuItem.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You can also bind to a static value.</source>
+          <target state="translated">你还可以绑定到静态值。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If you set the &lt;xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt; property of a &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object, all menu items to which the &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt; object is applied share the same static text value.</source>
+          <target state="translated">如果你设置&lt;xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt;属性&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;对象、 对其的所有菜单项&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;应用对象共享相同的静态文本值。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt; &lt;/xref:System.Web.UI.WebControls.MenuItemBinding.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information on binding the properties of a &lt;xref:System.Web.UI.WebControls.MenuItem&gt; object to a value, see &lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;.</source>
+          <target state="translated">有关绑定的&lt;xref:System.Web.UI.WebControls.MenuItem&gt;对象转换为一个值，请参阅&lt;xref:System.Web.UI.WebControls.MenuItemBinding&gt;。&lt;/xref:System.Web.UI.WebControls.MenuItemBinding&gt;&lt;/xref:System.Web.UI.WebControls.MenuItem&gt;属性的详细信息</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Although the DataBindings collection can be programmatically populated, it is usually set declaratively.</source>
+          <target state="translated">尽管可以以编程方式填充数据绑定集合，它通常以声明方式设置。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To specify the menu item bindings, first nest opening and closing <ph id="ph1">`&lt;DataBindings&gt;`</ph> tags between the opening and closing tags of the &lt;xref:System.Web.UI.WebControls.Menu&gt; control.</source>
+          <target state="translated">若要指定菜单项绑定，应首先嵌套开始和结束<ph id="ph1">`&lt;DataBindings&gt;`</ph>开始和结束标记之间的标记&lt;xref:System.Web.UI.WebControls.Menu&gt;控件。&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Next, place <ph id="ph1">`&lt;asp:MenuItemBinding&gt;`</ph> elements between the opening and closing <ph id="ph2">`&lt;DataBindings&gt;`</ph> tags for each menu item binding you want to specify.</source>
+          <target state="translated">接下来，将放置<ph id="ph1">`&lt;asp:MenuItemBinding&gt;`</ph>元素开始标记和结束之间<ph id="ph2">`&lt;DataBindings&gt;`</ph>标记每个菜单项绑定你想要指定。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemBindingCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the relationship between a data item and the menu item it is binding to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemBindingCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示数据项和它所绑定到的菜单项之间的关系。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets or sets the duration for which a dynamic menu is displayed after the mouse pointer is no longer positioned over the menu.</source>
+          <target state="translated">获取或设置为其鼠标指针不再置于菜单上后显示动态菜单的持续时间。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>By default, a dynamic menu automatically disappears after a certain duration when the mouse pointer is no longer positioned over the menu.</source>
+          <target state="translated">默认情况下，动态菜单会自动消失后某些当鼠标指针不再置于菜单的持续时间。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Use the DisappearAfter property to specify the duration.</source>
+          <target state="translated">DisappearAfter 属性用于指定的持续时间。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A dynamic menu disappears immediately if the user clicks outside of the menu.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 动态菜单消失立即如果用户单击菜单之外。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>You can also specify that a dynamic menu should never automatically disappear by setting this property to -1.</source>
+          <target state="translated">你还可以指定动态菜单应永远不会自动消失此属性设置为-1。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>In this case, the dynamic menu item will disappear only when the user clicks outside the menu.</source>
+          <target state="translated">在这种情况下，仅当用户单击菜单之外时，将消失动态菜单项。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">此属性不能通过主题或样式表主题设置。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 主题和皮肤<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The amount of time (in milliseconds) a dynamic menu is displayed after the mouse pointer is no longer positioned over the menu.</source>
+          <target state="translated">量的时间 （以毫秒为单位），鼠标指针不再置于菜单上后会显示动态菜单。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default is 500.</source>
+          <target state="translated">默认值为 500。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The selected value is less than -1.</source>
+          <target state="translated">选定的值是小于-1。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL to an image to display at the bottom of each dynamic menu item to separate it from other menu items.</source>
+          <target state="translated">获取或设置要与其他菜单项隔开每个动态菜单项底部显示的图像的 URL。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Use the DynamicBottomSeparatorImageUrl property to specify an optional custom image to display at the bottom of each dynamic menu item.</source>
+          <target state="translated">DynamicBottomSeparatorImageUrl 属性用于指定一个可选的自定义图像在各动态菜单项底部显示。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This image acts as a separator between menu items and is commonly an image of a line.</source>
+          <target state="translated">此映像充当菜单项之间的分隔符，并且通常是一条线的映像。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can also display a separator image at the top of each dynamic menu item by setting the &lt;xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt; property.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 你还可以显示分隔符图像在各动态菜单项顶部通过设置&lt;xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicTopSeparatorImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The URL to a separator image displayed at the bottom of each dynamic menu item.</source>
+          <target state="translated">在各动态菜单项底部显示分隔符图像的 URL。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">默认值为空字符串 ("")，指示未设置此属性。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the built-in image that indicates that a dynamic menu item has a submenu is displayed.</source>
+          <target state="translated">获取或设置一个值，该值指示是否显示内置图像指示动态菜单项包含子菜单。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>When a dynamic menu item contains a submenu, an image can be displayed to indicate that the user can expand the menu by positioning the mouse pointer over the menu item.</source>
+          <target state="translated">当动态菜单项包含子菜单时，可以显示映像以指示用户可以通过将鼠标指针定位菜单项中展开该菜单。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>There are two ways to display this image:      -   Set the DynamicEnableDefaultPopOutImage property to <ph id="ph1">`true`</ph> to use the built-in image (default).</source>
+          <target state="translated">有两种方法，以显示此图像:-将 DynamicEnableDefaultPopOutImage 属性设置为<ph id="ph1">`true`</ph>以使用的内置映像 （默认值）。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-   Set the &lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt; property to specify a custom image.</source>
+          <target state="translated">-将设置&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;属性指定自定义映像。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt; property is set, that image overrides the built-in image.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;设置属性，该映像重写内置的映像。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt; property is not set and the DynamicEnableDefaultPopOutImage property is set to <ph id="ph2">`false`</ph>, no image is displayed.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;未设置属性和 DynamicEnableDefaultPopOutImage 属性设置为<ph id="ph2">`false`</ph>，不显示任何图像。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can specify alternate text for the image by setting the &lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageTextFormatString%2A&gt; property.</source>
+          <target state="translated">你可以通过设置指定的图像的替换文字&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageTextFormatString%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageTextFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This text is displayed as a ToolTip when the user positions the mouse pointer over the image.</source>
+          <target state="translated">当用户将鼠标指针定位图像上方时，此文本显示为工具提示。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>This text also provides assistive technology devices with a description of the image that can be used to make the control more accessible.</source>
+          <target state="translated">此文本还提供了辅助技术设备可用于使控件更易于访问的映像的说明。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to display the built-in image for dynamic menu items with submenus; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要显示内置图像的动态菜单项具有子菜单;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of pixels to shift a dynamic menu horizontally relative to its parent menu item.</source>
+          <target state="translated">获取或设置菜单项的动态菜单相对于其父级的水平移动像素数。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Use the DynamicHorizontalOffset property to adjust the horizontal position of a dynamic menu relative to its parent menu item.</source>
+          <target state="translated">使用 DynamicHorizontalOffset 属性来调整动态菜单相对于其父菜单项的水平位置。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This property affects the position of a dynamic menu differently depending on whether the &lt;xref:System.Web.UI.WebControls.Menu&gt; control is displayed vertically or horizontally (as specified by the &lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt; property).</source>
+          <target state="translated">此属性影响的位置的动态菜单以不同的方式取决于是否&lt;xref:System.Web.UI.WebControls.Menu&gt;垂直或水平显示的控件 (如指定的那样&lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt;属性)。&lt;/xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The following table describes the differences.</source>
+          <target state="translated">下表介绍的差异。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>|Orientation|Description|   |-----------------|-----------------|   |Horizontal|By default, a dynamic menu is displayed directly below its parent menu item.</source>
+          <target state="translated">|方向 |说明 |  |-----------------|-----------------|  |水平 |默认情况下，其父菜单项的正下方显示动态菜单。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Setting this property shifts the dynamic menu position horizontally from this base position.|   |Vertical|By default, a dynamic menu item is displayed next to its parent menu item without any spacing in between.</source>
+          <target state="translated">如果设置此属性移动动态菜单位置水平从此基位置。 |  |垂直 |默认情况下，没有任何两者之间的间距其父菜单项旁边显示动态菜单项。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Setting this property controls the horizontal spacing between the dynamic menu and its parent menu item.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can set this property to a negative value to shift a dynamic menu in a negative direction.</source>
+          <target state="translated">如果设置此属性可控制动态菜单项和其父菜单项之间的水平间距。 |    &amp;1;&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 可以将此属性设置为负值可动态菜单反方向移动。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If you are displaying a vertical menu, a negative value causes a dynamic menu and its parent menu item to overlap.</source>
+          <target state="translated">如果显示垂直菜单，负值则会导致动态菜单项和重叠其父菜单项。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The number of pixels to shift a dynamic menu horizontally relative to its parent menu item.</source>
+          <target state="translated">动态菜单相对于其父菜单项的水平移动像素数。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The default is 0.</source>
+          <target state="translated">默认值为 0。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that allows you to set the appearance of a dynamic menu item when the mouse pointer is positioned over it.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>可以设置动态菜单项的外观，当鼠标指针悬停的对象。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Use the DynamicHoverStyle property to control the appearance of a dynamic menu item when the mouse pointer is positioned over it.</source>
+          <target state="translated">使用 DynamicHoverStyle 属性控制当鼠标指针置于动态菜单项的外观。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This property is read-only; however, you can set the properties of the &lt;xref:System.Web.UI.WebControls.Style&gt; object it returns.</source>
+          <target state="translated">此属性是只读的;但是，可以设置的属性&lt;xref:System.Web.UI.WebControls.Style&gt;对象返回。&lt;/xref:System.Web.UI.WebControls.Style&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The properties can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.Style&gt; object (for example, <ph id="ph3">`DynamicHoverStyle-ForeColor`</ph>).</source>
+          <target state="translated">可以在窗体以声明方式设置了属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.Style&gt;对象 (例如， <ph id="ph3">`DynamicHoverStyle-ForeColor`</ph>)。&lt;/xref:System.Web.UI.WebControls.Style&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The properties can also be set programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`DynamicHoverStyle.ForeColor`</ph>).</source>
+          <target state="translated">属性也可以设置以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`DynamicHoverStyle.ForeColor`</ph>)。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Style properties for a dynamic menu item are applied in the following order:      1.</source>
+          <target state="translated">动态菜单项的样式属性的应用以下顺序︰ 1。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt; collection or &lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;集合或&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>DynamicHoverStyle.</source>
+          <target state="translated">DynamicHoverStyle。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the style of a dynamic menu item when the mouse pointer is positioned over it.</source>
+          <target state="translated">对引用<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>该对象表示时鼠标指针置于动态菜单项的样式。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets or sets additional text shown with all menu items that are dynamically displayed.</source>
+          <target state="translated">获取或设置与所有动态显示的菜单项显示的附加文本。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This property can be used to insert text to format dynamic menu items in a menu displayed on mobile devices.</source>
+          <target state="translated">此属性可以用于插入文本以设置动态菜单项在移动设备上显示的菜单。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Menu&gt; control supports templates for the display of static and dynamic menu items.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu&gt;控件支持静态和动态菜单项的显示模板。&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For mobile devices, templates are ignored, so this property allows you to add characters or text to apply formatting to menu items without using a template.</source>
+          <target state="translated">对于移动设备，模板将被忽略，因此此属性可用于添加字符或文本格式应用于菜单项不使用模板。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To achieve consistent formatting when you use this property, you should also set the &lt;xref:System.Web.UI.WebControls.Menu.StaticItemFormatString%2A&gt; property if you want the formatting to be identical between the static and dynamic menu items.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 若要获得一致的格式时使用此属性，你应设置&lt;xref:System.Web.UI.WebControls.Menu.StaticItemFormatString%2A&gt;如果你想要静态和动态菜单项之间完全相同的格式设置的属性。&lt;/xref:System.Web.UI.WebControls.Menu.StaticItemFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If both template formatting and this property are applied, the template formatting is ignored for mobile devices.</source>
+          <target state="translated">如果应用模板格式设置和此属性，模板格式对于移动设备将忽略。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The additional text or characters that appear with all menu items.</source>
+          <target state="translated">附加文本或与所有菜单项一起显示的字符。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The default value for this property is "{0}."</source>
+          <target state="translated">此属性的默认值为"{0}。"</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets or sets the template that contains the custom content to render for a dynamic menu.</source>
+          <target state="translated">获取或设置包含动态菜单的呈现的自定义内容的模板。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Instead of using the built-in rendering for a dynamic menu, you can define your own look and feel for a dynamic menu item by using the DynamicItemTemplate property.</source>
+          <target state="translated">而不是为动态菜单中使用的内置呈现，可以使用 DynamicItemTemplate 属性来定义你自己的动态菜单项的外观和感觉。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>To specify a custom template for a dynamic menu item, first place <ph id="ph1">`&lt;DynamicItemTemplate&gt;`</ph> tags between the opening and closing tags of the &lt;xref:System.Web.UI.WebControls.Menu&gt; control.</source>
+          <target state="translated">若要指定动态菜单项的自定义模板，请先<ph id="ph1">`&lt;DynamicItemTemplate&gt;`</ph>开始和结束标记之间的标记&lt;xref:System.Web.UI.WebControls.Menu&gt;控件。&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>You can then list the contents of the template between the opening and closing <ph id="ph1">`&lt;DynamicItemTemplate&gt;`</ph> tags.</source>
+          <target state="translated">然后可以列出在开始和结束之间模板的内容<ph id="ph1">`&lt;DynamicItemTemplate&gt;`</ph>标记。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>You can further control the style of a dynamic menu by using the &lt;xref:System.Web.UI.WebControls.Menu.DynamicItemFormatString%2A&gt; property.</source>
+          <target state="translated">你可以通过使用进一步控制动态菜单的样式&lt;xref:System.Web.UI.WebControls.Menu.DynamicItemFormatString%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicItemFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the custom content for a dynamic menu.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含动态菜单的自定义内容。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The default value is null, which indicates that this property is not set.</source>
+          <target state="translated">默认值为 null，表示未设置此属性。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that allows you to set the appearance of the menu items within a dynamic menu.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，您可以设置动态菜单中的菜单项的外观。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Use the DynamicMenuItemStyle property to control the appearance of the menu items within a dynamic menu.</source>
+          <target state="translated">使用 DynamicMenuItemStyle 属性来控制动态菜单中的菜单项的外观。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>This property is read-only; however, you can set the properties of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object it returns.</source>
+          <target state="translated">此属性是只读的;但是，可以设置的属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象返回。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The properties can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object (for example, <ph id="ph3">`DynamicMenuItemStyle-ForeColor`</ph>).</source>
+          <target state="translated">可以在窗体以声明方式设置了属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象 (例如， <ph id="ph3">`DynamicMenuItemStyle-ForeColor`</ph>)。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The properties can also be set programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`DynamicMenuItemStyle.ForeColor`</ph>).</source>
+          <target state="translated">属性也可以设置以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`DynamicMenuItemStyle.ForeColor`</ph>)。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Style properties for a dynamic menu item are applied in the following order:      1.</source>
+          <target state="translated">动态菜单项的样式属性的应用以下顺序︰ 1。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>DynamicMenuItemStyle.</source>
+          <target state="translated">DynamicMenuItemStyle。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt; collection or &lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;集合或&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the style of the menu items within a dynamic menu.</source>
+          <target state="translated">对引用<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>该对象表示动态菜单中的菜单项的样式。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that allows you to set the appearance of a dynamic menu.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，它允许你设置动态菜单的外观。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Use the DynamicMenuStyle property to control the appearance of a dynamic menu.</source>
+          <target state="translated">使用 DynamicMenuStyle 属性来控制动态菜单的外观。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>This property is read-only; however, you can set the properties of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object it returns.</source>
+          <target state="translated">此属性是只读的;但是，可以设置的属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象返回。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The properties can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object (for example, <ph id="ph3">`DynamicMenuStyle-ForeColor`</ph>).</source>
+          <target state="translated">可以在窗体以声明方式设置了属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象 (例如， <ph id="ph3">`DynamicMenuStyle-ForeColor`</ph>)。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The properties can also be set programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`DynamicMenuStyle.ForeColor`</ph>).</source>
+          <target state="translated">属性也可以设置以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`DynamicMenuStyle.ForeColor`</ph>)。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Style properties for a dynamic menu item are applied in the following order:      1.</source>
+          <target state="translated">动态菜单项的样式属性的应用以下顺序︰ 1。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>DynamicMenuStyle.</source>
+          <target state="translated">DynamicMenuStyle。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt; collection or &lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;集合或&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicSelectedStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>A reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the style of a dynamic menu.</source>
+          <target state="translated">对引用<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>该对象表示动态菜单的样式。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Gets or sets the alternate text for the image used to indicate that a dynamic menu item has a submenu.</source>
+          <target state="translated">获取或设置用于指示动态菜单项包含子菜单的图像的替换文字。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>When a dynamic menu item contains a submenu, an image can be displayed to indicate that the user can expand the menu.</source>
+          <target state="translated">当动态菜单项包含子菜单时，可以显示映像以指示用户可以展开该菜单。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Use the DynamicPopOutImageTextFormatString property to specify the alternate text for this image.</source>
+          <target state="translated">DynamicPopOutImageTextFormatString 属性用于指定此映像的替换文字。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The text that you specify provides assistive technology devices with a description of the image that can be used to make the control more accessible.</source>
+          <target state="translated">你指定的文本，提供可用来使控件更易于访问的映像的说明的辅助技术设备。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>There are two ways to display the image:      -   Set the &lt;xref:System.Web.UI.WebControls.Menu.DynamicEnableDefaultPopOutImage%2A&gt; property to <ph id="ph1">`true`</ph> to use the built-in image (default).</source>
+          <target state="translated">有两种方法来显示图像:-设置&lt;xref:System.Web.UI.WebControls.Menu.DynamicEnableDefaultPopOutImage%2A&gt;属性<ph id="ph1">`true`</ph>以使用的内置映像 （默认值）。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicEnableDefaultPopOutImage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>-   Set the &lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt; property to specify a custom image.</source>
+          <target state="translated">-将设置&lt;xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;属性指定自定义映像。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicPopOutImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property applies to both the built-in image and the custom image.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 此属性适用于内置的映像和自定义映像。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The alternate text for the image used to indicate that a dynamic menu item has a submenu.</source>
+          <target state="translated">用于指示动态菜单项包含子菜单的图像替换文字。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">默认值为空字符串 ("")，指示未设置此属性。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL to a custom image that is displayed in a dynamic menu item when the dynamic menu item has a submenu.</source>
+          <target state="translated">获取或设置动态菜单项包含子菜单时，显示在动态菜单项的自定义图像的 URL。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The URL to an image used to indicate that a dynamic menu item has a submenu.</source>
+          <target state="translated">用于指示动态菜单项包含子菜单的图像 URL。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">默认值为空字符串 ("")，指示未设置此属性。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that allows you to set the appearance of the dynamic menu item selected by the user.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，它允许你设置的用户所选动态菜单项外观。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Use the DynamicSelectedStyle property to control the appearance of a dynamic menu item when the user selects it from the menu.</source>
+          <target state="translated">DynamicSelectedStyle 属性用于控制动态菜单项的外观，当用户从菜单中选择。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>This property is read-only; however, you can set the properties of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object it returns.</source>
+          <target state="translated">此属性是只读的;但是，可以设置的属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象返回。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The properties can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt; object (for example, <ph id="ph3">`DynamicSelectedStyle-ForeColor`</ph>).</source>
+          <target state="translated">可以在窗体以声明方式设置了属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.MenuItemStyle&gt;对象 (例如， <ph id="ph3">`DynamicSelectedStyle-ForeColor`</ph>)。&lt;/xref:System.Web.UI.WebControls.MenuItemStyle&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The properties can also be set programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`DynamicSelectedStyle.ForeColor`</ph>).</source>
+          <target state="translated">属性也可以设置以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`DynamicSelectedStyle.ForeColor`</ph>)。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Style properties for a dynamic menu item are applied in the following order:      1.</source>
+          <target state="translated">动态菜单项的样式属性的应用以下顺序︰ 1。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicMenuItemStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt; collection or &lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;集合或&lt;xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSubMenuStyles%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu.LevelMenuItemStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>DynamicSelectedStyle.</source>
+          <target state="translated">DynamicSelectedStyle。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt; collection is defined, it is applied at this time, overriding the other menu item style properties.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;定义集合，就会应用在此期间，重写其他菜单项样式属性。&lt;/xref:System.Web.UI.WebControls.Menu.LevelSelectedStyles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Menu.DynamicHoverStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>A reference to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the style of the selected dynamic menu item.</source>
+          <target state="translated">对引用<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.MenuItemStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>该对象表示所选动态菜单项样式。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL to an image to display at the top of each dynamic menu item to separate it from other menu items.</source>
+          <target state="translated">获取或设置要与其他菜单项隔开每个动态菜单项顶部显示的图像的 URL。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Use the DynamicTopSeparatorImageUrl property to specify an optional custom image to display at the top of each dynamic menu item.</source>
+          <target state="translated">DynamicTopSeparatorImageUrl 属性用于指定一个可选的自定义图像在各动态菜单项顶部显示。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>This image acts as a separator between menu items and is commonly an image of a line.</source>
+          <target state="translated">此映像充当菜单项之间的分隔符，并且通常是一条线的映像。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can also display a separator image at the bottom of each dynamic menu item by setting the &lt;xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt; property.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 你还可以显示的分隔符图像在各动态菜单项底部通过设置&lt;xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.Menu.DynamicBottomSeparatorImageUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The URL to a separator image displayed at the top of each dynamic menu item.</source>
+          <target state="translated">在各动态菜单项顶部显示分隔符图像的 URL。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">默认值为空字符串 ("")，指示未设置此属性。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of pixels to shift a dynamic menu vertically relative to its parent menu item.</source>
+          <target state="translated">获取或设置菜单项的动态菜单相对于其父级的垂直移动像素数。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Use the DynamicVerticalOffset property to adjust the vertical position of a dynamic menu relative to its parent menu item.</source>
+          <target state="translated">使用 DynamicVerticalOffset 属性来调整动态菜单相对于其父菜单项的垂直位置。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>This property affects the position of a dynamic menu differently depending on whether the &lt;xref:System.Web.UI.WebControls.Menu&gt; control is displayed vertically or horizontally (as specified by the &lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt; property).</source>
+          <target state="translated">此属性影响的位置的动态菜单以不同的方式取决于是否&lt;xref:System.Web.UI.WebControls.Menu&gt;垂直或水平显示的控件 (如指定的那样&lt;xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt;属性)。&lt;/xref:System.Web.UI.WebControls.Menu.Orientation%2A&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The following table describes the differences.</source>
+          <target state="translated">下表介绍的差异。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>|Orientation|Description|   |-----------------|-----------------|   |Horizontal|By default, a dynamic menu is displayed directly below its parent menu item without any spacing in between.</source>
+          <target state="translated">|方向 |说明 |  |-----------------|-----------------|  |水平 |默认情况下，没有任何两者之间的间距其父菜单项的正下方显示动态菜单。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Setting this property controls the vertical spacing between the dynamic menu and its parent menu item.|   |Vertical|By default, a dynamic menu item is displayed next to its parent menu item with the top edges aligned.</source>
+          <target state="translated">如果设置此属性可控制动态菜单项和其父菜单项之间的垂直间距。 |  |垂直 |默认情况下，将显示其父菜单项旁边对齐的上边缘与动态菜单项。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Setting this property shifts the dynamic menu position vertically from this base position.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can set this property to a negative value to shift a dynamic menu in a negative direction.</source>
+          <target state="translated">如果设置此属性移动动态菜单位置垂直从此基位置。 |    &amp;1;&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 可以将此属性设置为负值可动态菜单反方向移动。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>If you are displaying a horizontal menu, a negative value causes a dynamic menu and its parent menu item to overlap.</source>
+          <target state="translated">如果显示水平菜单，负值则会导致动态菜单项和重叠其父菜单项。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>The number of pixels to shift a dynamic menu vertically relative to its parent menu item.</source>
+          <target state="translated">动态菜单相对于其父菜单项的垂直移动像素数。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The default is 0.</source>
+          <target state="translated">默认值为 0。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Verifies that the menu control requires data binding and that a valid data source control is specified before calling the &lt;xref:System.Web.UI.WebControls.Menu.DataBind*&gt; method.</source>
+          <target state="translated">验证菜单控件需要数据绑定，并且在调用之前指定一个有效的数据源控件&lt;xref:System.Web.UI.WebControls.Menu.DataBind*&gt;方法。&lt;/xref:System.Web.UI.WebControls.Menu.DataBind*&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  This method is used primarily by control developers to extend the &lt;xref:System.Web.UI.WebControls.Menu&gt; control.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>1&gt; 此方法主要由控件开发人员来扩展&lt;xref:System.Web.UI.WebControls.Menu&gt;控件。&lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

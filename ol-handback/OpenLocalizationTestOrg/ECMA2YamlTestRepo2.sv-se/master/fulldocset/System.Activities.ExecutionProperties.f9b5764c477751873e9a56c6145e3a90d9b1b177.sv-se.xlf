@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">893d6eea6ed798ce6777d83ebd7055ac54a2a3c7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.ExecutionProperties.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8fea34d03176a788788e43dbaccb8a29c243f4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85322df919adc316883a119b3802918135ddd943</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the collection of properties at a particular scope.</source>
+          <target state="translated">Representerar insamlingen av egenskaper för ett visst område.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Through thread local storage (TLS), the CLR maintains an execution context for each thread.</source>
+          <target state="translated">Via tråd lokal lagring (TLS) upprätthåller CLR en körningskontexten för varje tråd.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This execution context governs well-known thread properties such as the thread identity, the ambient transaction, and the current permission set as well as user-defined thread properties like named slots.</source>
+          <target state="translated">Den här körningskontexten styr välkända tråd egenskaper, till exempel en tråd identitet, den omgivande transaktionen och den aktuella behörighetsgrupp samt användardefinierade tråd egenskaper som namngivna fack.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike programs directly targeting the CLR, workflow programs are hierarchically-scoped trees that execute in a thread-agnostic environment.</source>
+          <target state="translated">Till skillnad från program som direkt mål CLR är arbetsflödesprogram hierarkiskt omfång träd kör i en tråd-oberoende-miljö.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implies that the standard TLS mechanisms cannot directly be used to determine what context is in scope for a given work item.</source>
+          <target state="translated">Detta innebär att standardmekanismer för TLS direkt inte kan användas för att avgöra vilket sammanhang ingår i omfånget för ett visst arbetsobjekt.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, two parallel branches of execution might use different identities yet the scheduler might interleave their execution on the same CLR thread.</source>
+          <target state="translated">Till exempel två parallella grenar av körningen kan använda olika identiteter ännu Schemaläggaren kan interleave körningen på samma CLR-tråd.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Execution properties allow an activity to declare which properties are in scope for its sub-tree as well as provide hooks for setting up and tearing down TLS to properly interoperate with CLR objects.</source>
+          <target state="translated">Körningen av egenskaperna kan en aktivitet för att deklarera vilka egenskaper som ingår i omfattningen för dess underträd samt ger hook för installation och går sönder ned TLS ska fungera korrekt tillsammans med CLR-objekt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registers a new property using the specified name.</source>
+          <target state="translated">Registrerar en ny egenskap med det angivna namnet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">Namnet på egenskapen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The object that represents the property.</source>
+          <target state="translated">Objekt som representerar egenskapen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registers a property using the specified name and child visibility.</source>
+          <target state="translated">Registrerar en egenskap med angivet namn och en underordnad synlighet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">Namnet på egenskapen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The object that represents the property.</source>
+          <target state="translated">Objekt som representerar egenskapen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A value that determines whether this property is visible to the children of the owning activity.</source>
+          <target state="translated">Ett värde som avgör om den här egenskapen är synlig för aktiviteten ägande underordnade.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns the nearest property of the given name.</source>
+          <target state="translated">Returnerar egenskapen närmaste för det angivna namnet.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Find finds the nearest visible property using hierarchical scoping.</source>
+          <target state="translated">Söker efter den närmaste egenskapen visible med hjälp av hierarkiska omfång.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If two properties have the same name, the closest property at the parent scope is returned.</source>
+          <target state="translated">Om två egenskaper med samma namn, returneras närmaste egenskapen på den överordnade omfattningen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">Namnet på egenskapen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The nearest property of the given name.</source>
+          <target state="translated">Egenskapen närmaste för det angivna namnet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the collection of properties.</source>
+          <target state="translated">Returnerar en uppräknare går igenom insamlingen av egenskaper.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An enumerator that iterates through the collection of properties.</source>
+          <target state="translated">En uppräknare går igenom insamlingen av egenskaper.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether there are properties registered at the current scope.</source>
+          <target state="translated">Hämtar ett värde som anger om det finns egenskaper som har registrerats på den aktuella omfattningen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are properties registered; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det finns egenskaper som är registrerat. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Unregisters the property with the specified name.</source>
+          <target state="translated">Avregistrerar egenskapen med det angivna namnet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties are automatically unregistered when the activity completes.</source>
+          <target state="translated">Egenskaperna är automatiskt avregistrera när aktiviteten har slutförts.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to unregister a property before the activity completes.</source>
+          <target state="translated">Den här metoden kan användas för att avregistrera en egenskap innan aktiviteten har slutförts.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the property to unregister.</source>
+          <target state="translated">Namnet på egenskapen att avregistrera.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the property was unregistered; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om egenskapen avregistrerades; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through the collection of properties.</source>
+          <target state="translated">Returnerar en uppräknare går igenom insamlingen av egenskaper.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An enumerator that iterates through the collection of properties.</source>
+          <target state="translated">En uppräknare går igenom insamlingen av egenskaper.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

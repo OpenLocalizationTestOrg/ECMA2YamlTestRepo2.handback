@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45067e92be61e8499bf16b2756ef7c1dcdfdabf9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.BinaryMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb3599af54f408bd979bbdbcb9200825c2fa9f9a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c60982990d4a8c8ec1ef19c0737b143bb56ccaa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes or deserializes an object, or an entire graph of connected objects, to or from the body of a Message Queuing message, using a binary format.</source>
+          <target state="translated">序列化或還原序列化的物件或連接物件，或主體中的訊息佇列的訊息，使用一種二進位格式的整個圖形。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The BinaryMessageFormatter is very efficient and can be used to serialize most objects.</source>
+          <target state="translated">BinaryMessageFormatter 非常有效率，而且可用來序列化大部分的物件。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The result is very compact and fast to parse, but does not allow for loosely coupled messaging as the &lt;xref:System.Messaging.XmlMessageFormatter&gt; does.</source>
+          <target state="translated">結果是相當精簡且快速剖析的但並不允許鬆散偶合的傳訊為&lt;xref:System.Messaging.XmlMessageFormatter&gt;未。&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Loosely coupled means that the client and the server can independently version the type that is sent and received.</source>
+          <target state="translated">鬆散偶合的方式，用戶端和伺服器可以獨立版本傳送和接收的類型。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the application sends a message to the queue using an instance of the &lt;xref:System.Messaging.MessageQueue&gt; class, the formatter serializes the object into a stream and inserts it into the message body.</source>
+          <target state="translated">當應用程式會傳送訊息至佇列使用的執行個體&lt;xref:System.Messaging.MessageQueue&gt;類別，格式器會將物件序列化成資料流，並將它插入訊息本文。&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When reading from a queue using a &lt;xref:System.Messaging.MessageQueue&gt;, the formatter deserializes the message data into the &lt;xref:System.Messaging.Message.Body%2A&gt; property of a &lt;xref:System.Messaging.Message&gt;.</source>
+          <target state="translated">從使用&lt;xref:System.Messaging.MessageQueue&gt;中，格式子還原序列化成&lt;xref:System.Messaging.Message.Body%2A&gt;&lt;xref:System.Messaging.Message&gt;.&lt;/xref:System.Messaging.Message&gt;屬性&lt;/xref:System.Messaging.Message.Body%2A&gt;的訊息資料&lt;/xref:System.Messaging.MessageQueue&gt;的佇列讀取時</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>BinaryMessageFormatter provides faster throughput than the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">BinaryMessageFormatter 提供更快速的輸送量比&lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the BinaryMessageFormatter when pure speed rather than loosely coupled messaging is desired.</source>
+          <target state="translated">需要純速度而不是鬆散偶合的傳訊時，請使用 BinaryMessageFormatter。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class without specifying a type style or top object assembly style.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別而不需要指定型別樣式或最上層物件的組件的樣式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You must specify values for the &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; property (which defines how the root object in a graph is laid out) and the &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; property (which defines how object type descriptions are laid out) before using an instance of the &lt;xref:System.Messaging.BinaryMessageFormatter&gt; class to serialize and send a message.</source>
+          <target state="translated">您必須指定的值&lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;屬性 （會定義在圖形中的根物件的配置方式） 和&lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;屬性 （會定義物件的類型描述的配置方式） 使用的執行個體之前&lt;xref:System.Messaging.BinaryMessageFormatter&gt;類別來序列化，並將訊息傳送。&lt;/xref:System.Messaging.BinaryMessageFormatter&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying the formats of the root object and the type descriptions.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，指定根物件和類型描述的格式。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines how the top (root) object of a graph is laid out in the serialized stream.</source>
+          <target state="translated">決定如何在序列化資料流中配置圖形的最上層 （根） 物件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Determines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">決定如何序列化資料流中配置型別描述。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the contents of the message.</source>
+          <target state="translated">判斷格式器是否可以還原序列化訊息的內容。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CanRead returns <ph id="ph1">`false`</ph> if the message body is not a binary object.</source>
+          <target state="translated">CanRead 傳回<ph id="ph1">`false`</ph>如果訊息本文不是二進位物件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the receiving computer, CanRead returns <ph id="ph1">`true`</ph> if the assembly for the class to be deserialized exists locally.</source>
+          <target state="translated">在接收端電腦上，傳回 CanRead<ph id="ph1">`true`</ph>如果要還原序列化類別的組件存在於本機。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The assembly must be found in the global assembly cache, or be linked to the application (for example, if the object represents a custom class).</source>
+          <target state="translated">組件必須位於全域組件快取中，或連結至應用程式 （例如，如果自訂類別所代表的物件）。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>檢查。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the binary message formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果二進位訊息格式器可以還原序列化訊息。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the root object and type description formats) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">建立的執行個體<bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別的讀取/寫入屬性 （根物件和型別描述格式） 是與目前的<bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.BinaryMessageFormatter&gt;.</source>
+          <target state="translated">這個方法會建立此格式子的複本和所有其屬性初始化為這個&lt;xref:System.Messaging.BinaryMessageFormatter&gt;.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt;值</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It is used for scalability, but does not guarantee read or write thread safety.</source>
+          <target state="translated">用於擴充性，但不保證讀取或寫入執行緒安全。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">其屬性都與這個物件<bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但其中繼資料未指定它的格式器的類別執行個體。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">讀取給定訊息的內容，並建立包含已還原序列化的訊息的物件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 呼叫此方法不受信任的資料時，會造成安全性風險。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">呼叫這個方法僅使用信任的資料。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>不受信任的資料安全性風險<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The body of the message must be in binary format, and the same serializer must be used to deserialize the message as that which initially serialized it.</source>
+          <target state="translated">訊息的主體必須是以二進位格式，而且必須使用相同的序列化程式來還原序列化開始序列化它的訊息。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the body represents a custom class, the assembly for that class must exist locally.</source>
+          <target state="translated">如果主體代表自訂類別，該類別的組件必須存在於本機。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in binary format, to deserialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，還原序列化的二進位格式。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">已還原序列化的訊息。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The message's &lt;xref:System.Messaging.Message.BodyType*&gt; property does not indicate a binary object.</source>
+          <target state="translated">訊息的&lt;xref:System.Messaging.Message.BodyType*&gt;屬性不會指出二進位物件。&lt;/xref:System.Messaging.Message.BodyType*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how the top (root) object of a graph is deserialized with regards to finding and loading its assembly.</source>
+          <target state="translated">取得或設定值，這個值會定義如何最上層 （根） 的物件圖形還原序列化有關尋找和載入其組件。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Currently, you should accept the default value, <ph id="ph1">`AssemblyStyle`</ph>.</source>
+          <target state="translated">目前，您應接受預設值， <ph id="ph1">`AssemblyStyle`</ph>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that defines the deserialization behavior.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>定義還原序列化行為的值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">取得或設定值，這個值會定義如何序列化資料流中配置型別描述。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Currently, you should accept the default value, <ph id="ph1">`TypesWhenNeeded`</ph>.</source>
+          <target state="translated">目前，您應接受預設值， <ph id="ph1">`TypesWhenNeeded`</ph>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type description format.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定義類型描述的格式。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">將物件序列化至訊息的本文。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The top object format and type format need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">最上層物件的格式和型別格式不需要指定讀取時，它們必須是寫入至佇列。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; and &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; properties are used by the formatter only when deserializing a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;和&lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;屬性由格式子還原序列化訊息時，才。&lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter&gt; can serialize most objects, but the result is not loosely coupled.</source>
+          <target state="translated">&lt;xref:System.Messaging.BinaryMessageFormatter&gt;可以序列化大部分的物件，但是結果不鬆散偶合。&lt;/xref:System.Messaging.BinaryMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>However, it is compact, so the formatter is efficient for large objects.</source>
+          <target state="translated">不過，它是壓縮，因此格式器是大型物件時很有效率。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>其&lt;xref:System.Messaging.Message.Body*&gt;屬性會包含已序列化的物件。&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The object to be serialized into the message body.</source>
+          <target state="translated">要序列化為訊息本文的物件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

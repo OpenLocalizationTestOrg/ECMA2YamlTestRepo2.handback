@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ac52e03e3577a2244ec4cdfbfed14314e89e93f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.SuppressUnmanagedCodeSecurityAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b007bd4a439b4ff6375bd7b992c982dbbb1088c7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f01d1b53a78893ee183abb519398d2cfb8073950</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows managed code to call into unmanaged code without a stack walk.</source>
+          <target state="translated">可讓 managed 程式碼呼叫進入 unmanaged 程式碼沒有堆疊查核行程。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!CAUTION]</ph> &gt;  Use this attribute with extreme care.</source>
+          <target state="translated"><ph id="ph1">&gt; [!CAUTION]</ph>&gt; 與必須特別小心使用這個屬性。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Incorrect use can create security weaknesses.</source>
+          <target state="translated">使用不正確，可以建立安全性弱點。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This attribute can be applied to methods that want to call into native code without incurring the performance loss of a run-time security check when doing so.</source>
+          <target state="translated">這個屬性可以套用至想要原生程式碼而不會產生執行階段安全性檢查的效能損失，這麼做時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The stack walk performed when calling unmanaged code is omitted at run time, resulting in substantial performance savings.</source>
+          <target state="translated">執行在執行階段，省略呼叫 unmanaged 程式碼時導致效能大幅節省堆疊查核行程。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using this attribute in a class applies it to all contained methods.</source>
+          <target state="translated">類別中使用這個屬性套用至所有包含的方法。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Generally, whenever managed code calls into unmanaged code (by PInvoke or COM interop into native code), there is a demand for the <ph id="ph1">`UnmanagedCode`</ph> permission to ensure all callers have the necessary permission to allow this.</source>
+          <target state="translated">一般來說，managed 程式碼呼叫 unmanaged 程式碼 （由原生程式碼的 PInvoke 或 COM interop)，只要沒有要求<ph id="ph1">`UnmanagedCode`</ph>權限，以確保所有呼叫端具有必要的權限，允許此。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By applying this explicit attribute, developers can suppress the demand at run time.</source>
+          <target state="translated">藉由套用此明確的屬性，開發人員就可以隱藏執行階段的要求。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The developer must take responsibility for assuring that the transition into unmanaged code is sufficiently protected by other means.</source>
+          <target state="translated">開發人員必須負責確保轉換為 unmanaged 程式碼完全受到其他方式。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The demand for the <ph id="ph1">`UnmanagedCode`</ph> permission will still occur at link time.</source>
+          <target state="translated">要求<ph id="ph1">`UnmanagedCode`</ph>連結時，還是會發生權限。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, if function A calls function B and function B is marked with SuppressUnmanagedCodeSecurityAttribute, function A will be checked for unmanaged code permission during just-in-time compilation, but not subsequently during run time.</source>
+          <target state="translated">比方說，如果函式 A 呼叫函式 B，SuppressUnmanagedCodeSecurityAttribute 會標示函式 B 函式 A 將檢查在 just-in-time 編譯期間，但後續未在執行階段之 unmanaged 程式碼權限。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This attribute is only effective when applied to PInvoke methods (or classes that contain PInvoke methods) or the definition of an interface through which interop calls will be made.</source>
+          <target state="translated">這個屬性才有效時用於 PInvoke 方法 （或包含 PInvoke 方法的類別） 或將透過它進行 interop 呼叫介面的定義。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It will be ignored in all other contexts.</source>
+          <target state="translated">所有其他內容中，會忽略它。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This attribute is useful for implementing a class that provides access to system resources through unmanaged code.</source>
+          <target state="translated">這個屬性可用於實作提供透過 unmanaged 程式碼的系統資源的存取權的類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Code that does not have permission to access unmanaged code can call a class with this attribute to access unmanaged code.</source>
+          <target state="translated">不需要存取 unmanaged 程式碼的權限的程式碼可以呼叫具有存取 unmanaged 程式碼的這個屬性的類別。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is only safe if the writer of the class with this attribute has programmed the class to be secure.</source>
+          <target state="translated">這只是安全的如果具有此屬性之類別的寫入器已設計為安全類別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If not, this attribute is dangerous and can allow the code that uses it to be misused.</source>
+          <target state="translated">如果沒有，此屬性非常危險，並且可以讓使用被誤用的程式碼。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is not a declarative security attribute, but a regular attribute (it derives from &lt;xref:System.Attribute&gt;, not &lt;xref:System.Security.Permissions.SecurityAttribute&gt;).</source>
+          <target state="translated">這不是宣告式安全性屬性，但一般屬性 (其衍生自&lt;xref:System.Attribute&gt;，而非&lt;xref:System.Security.Permissions.SecurityAttribute&gt;)。&lt;/xref:System.Security.Permissions.SecurityAttribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SuppressUnmanagedCodeSecurityAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.SuppressUnmanagedCodeSecurityAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default constructor initializes any fields to their default values.</source>
+          <target state="translated">預設建構函式任何欄位初始化成為其預設值。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
