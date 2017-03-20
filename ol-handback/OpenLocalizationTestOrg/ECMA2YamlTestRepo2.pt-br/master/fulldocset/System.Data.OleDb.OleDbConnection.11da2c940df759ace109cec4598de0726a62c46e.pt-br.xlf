@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">371cb8a83467140ed6a2b741b3a3a0a9e0fdd9ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d78223092dcc8ca6829cb4e6d4b4f3d75043fb4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">601b91497f62c9d193a8c3b8a36efb9ed063ccc6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source.</source>
+          <target state="translated">Representa uma conexão aberta com uma fonte de dados.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An OleDbConnection object represents a unique connection to a data source.</source>
+          <target state="translated">Um objeto OleDbConnection representa uma conexão exclusiva com uma fonte de dados.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With a client/server database system, it is equivalent to a network connection to the server.</source>
+          <target state="translated">Com um sistema de banco de dados cliente/servidor, é equivalente a uma conexão de rede para o servidor.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the functionality supported by the native OLE DB provider, some methods or properties of an OleDbConnection object may not be available.</source>
+          <target state="translated">Dependendo da funcionalidade com suporte do provedor OLE DB nativo, alguns métodos ou propriedades de um objeto OleDbConnection podem não estar disponíveis.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of OleDbConnection, all properties are set to their initial values.</source>
+          <target state="translated">Quando você cria uma instância de OleDbConnection, todas as propriedades são definidas para seus valores iniciais.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of these values, see the OleDbConnection constructor.</source>
+          <target state="translated">Para obter uma lista desses valores, consulte o construtor OleDbConnection.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can open more than one DataReader on a single OleDbConnection.</source>
+          <target state="translated">Você pode abrir mais de um DataReader em um único OleDbConnection.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OLE DB provider you use does not support more than one DataReader on a single connection, the provider implicitly opens an additional connection for each.</source>
+          <target state="translated">Se o provedor OLE DB que você usa não dá suporte a mais de um DataReader em uma única conexão, o provedor abre implicitamente uma conexão adicional para cada um.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OleDbConnection goes out of scope, it is not closed.</source>
+          <target state="translated">Se o OleDbConnection sai do escopo, ele não está fechado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or by using the OleDbConnection object within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Portanto, você deve fechar explicitamente a conexão chamando &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;ou <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, ou usando o objeto OleDbConnection dentro de um <ph id="ph1">`Using`</ph> instrução.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To deploy high-performance applications, you must use connection pooling.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Para implantar aplicativos de alto desempenho, você deve usar o pool de conexão.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the .NET Framework Data Provider for OLE DB, you do not have to enable connection pooling because the provider manages this automatically.</source>
+          <target state="translated">Quando você usa o provedor de dados .NET Framework para OLE DB, você não precisa habilitar o pool de conexão porque o provedor gerencia isso automaticamente.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use connection pooling with the .NET Framework Data Provider for OLE DB, see <bpt id="p1">[</bpt>OLE DB, ODBC, and Oracle Connection Pooling<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como usar a conexão do pool com o provedor de dados .NET Framework para OLE DB, consulte <bpt id="p1">[</bpt>OLE DB, ODBC e pool de Conexão do Oracle<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a fatal &lt;xref:System.Data.OleDb.OleDbException&gt; (for example, a SQL Server severity level of 20 or greater) is generated by the method executing an &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the OleDbConnection might be closed.</source>
+          <target state="translated">Se um fatal &lt;xref:System.Data.OleDb.OleDbException&gt;(por exemplo, uma SQL Server severidade de nível de 20 ou maior) é gerado, o método executando um &lt;xref:System.Data.OleDb.OleDbCommand&gt;, OleDbConnection pode ser fechada.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbException&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">No entanto, o usuário pode reabrir a conexão e continuar.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application that creates an instance of the OleDbConnection object can require all direct and indirect callers to have sufficient permission to the code by setting declarative or imperative security demands.</source>
+          <target state="translated">Um aplicativo que cria uma instância do objeto OleDbConnection pode exigir que todos os chamadores diretos e indiretos tenham permissão suficiente para o código, demandas de segurança declarativa ou obrigatório da configuração.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OleDbConnection makes security demands using the &lt;xref:System.Data.OleDb.OleDbPermission&gt; object.</source>
+          <target state="translated">OleDbConnection faz com que as demandas de segurança usando o &lt;xref:System.Data.OleDb.OleDbPermission&gt;objeto.&lt;/xref:System.Data.OleDb.OleDbPermission&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users can verify that their code has sufficient permissions by using the &lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt; object.</source>
+          <target state="translated">Os usuários podem verificar se o seu código tem permissões suficientes, usando o &lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt;objeto.&lt;/xref:System.Data.OleDb.OleDbPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users and administrators can also use the <bpt id="p1">[</bpt>Caspol.exe (Code Access Security Policy Tool)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to modify security policy at the computer, user, and enterprise levels.</source>
+          <target state="translated">Os usuários e administradores também podem usar o <bpt id="p1">[</bpt>Caspol.exe (ferramenta de política de segurança de acesso do código)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> para modificar a política de segurança nos níveis de computador, usuário e enterprise.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>Code Access Security e ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling warning and informational messages from the data server, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre o tratamento de mensagens de aviso e informativas do servidor de dados, consulte <bpt id="p1">[</bpt>eventos de Conexão<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The OleDbConnection object does not support setting or retrieving dynamic properties specific to an OLE DB provider.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; OleDbConnection o objeto não suporta a configuração ou recuperação de propriedades dinâmicas específicas para um provedor OLE DB.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only properties that can be passed in the connection string for the OLE DB provider are supported.</source>
+          <target state="translated">Há suporte para apenas as propriedades que podem ser passadas na cadeia de conexão para o provedor OLE DB.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Quando uma nova instância da &lt;xref:System.Data.OleDb.OleDbConnection&gt;é criado, a leitura/gravação propriedades são definidas para os seguintes valores iniciais, a menos que eles são definidos especificamente usando palavras-chave associadas no &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;propriedade.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Propriedades | Valor inicial |   |----------------|-------------------|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;| cadeia de caracteres vazia ("") |   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|&amp;15; |   | &lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;| cadeia de caracteres vazia ("") |   | &lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;| cadeia de caracteres vazia ("") |       Você pode alterar o valor dessas propriedades usando somente o &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;propriedade.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified connection string.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com a cadeia de caracteres de conexão especificada.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Quando uma nova instância da &lt;xref:System.Data.OleDb.OleDbConnection&gt;é criado, a leitura/gravação propriedades são definidas para os seguintes valores iniciais, a menos que eles são definidos especificamente usando palavras-chave associadas no &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;propriedade.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Propriedades | Valor inicial |   |----------------|-------------------|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;| <ph id="ph1">`connectionString`</ph>|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|&amp;15; |   | &lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;| cadeia de caracteres vazia ("") |   | &lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;| cadeia de caracteres vazia ("") |       Você pode alterar o valor dessas propriedades usando somente o &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;propriedade.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection used to open the database.</source>
+          <target state="translated">A conexão usada para abrir o banco de dados.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the current <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Inicia uma transação de banco de dados com o atual <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valor.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">Você deve confirmar ou reverter a transação usando explicitamente a &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;ou &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;método.&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; &lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Para certificar-se de que o provedor de dados .NET Framework para o modelo de gerenciamento de transações OLE DB executa corretamente, evite o uso de outros modelos de gerenciamento de transações, como aqueles fornecidos pela fonte de dados.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Um objeto que representa a nova transação.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">Não há suporte para transações paralelas.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the specified isolation level.</source>
+          <target state="translated">Inicia uma transação de banco de dados com o nível de isolamento especificado.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">Você deve confirmar ou reverter a transação usando explicitamente a &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;ou &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;método.&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; &lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Para certificar-se de que o provedor de dados .NET Framework para o modelo de gerenciamento de transações OLE DB executa corretamente, evite o uso de outros modelos de gerenciamento de transações, como aqueles fornecidos pela fonte de dados.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you do not specify an isolation level, the default isolation level for the underlying provider is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se você não especificar um nível de isolamento, o nível de isolamento padrão para o provedor subjacente será usado.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an isolation level with the BeginTransaction method, use the overload that takes the <ph id="ph1">`isolationLevel`</ph> parameter.</source>
+          <target state="translated">Para especificar um nível de isolamento com o método BeginTransaction, use a sobrecarga que utiliza o <ph id="ph1">`isolationLevel`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The isolation level under which the transaction should run.</source>
+          <target state="translated">O nível de isolamento sob a qual a transação deve ser executado.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Um objeto que representa a nova transação.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">Não há suporte para transações paralelas.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Changes the current database for an open <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Altera o banco de dados atual para um aberto <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value supplied in the <ph id="ph1">`database`</ph> parameter must be a valid database name.</source>
+          <target state="translated">O valor fornecido no <ph id="ph1">`database`</ph> parâmetro deve ser um nome de banco de dados válido.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`database`</ph> parameter cannot contain a null value, an empty string, or a string with only blank characters.</source>
+          <target state="translated">O <ph id="ph1">`database`</ph> parâmetro não pode conter um valor nulo, uma cadeia de caracteres vazia ou uma cadeia de caracteres com caracteres apenas em branco.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The database name.</source>
+          <target state="translated">Nome do banco de dados.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The database name is not valid.</source>
+          <target state="translated">O nome do banco de dados não é válido.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The connection is not open.</source>
+          <target state="translated">A conexão não está aberta.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Cannot change the database.</source>
+          <target state="translated">Não é possível alterar o banco de dados.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the data source.</source>
+          <target state="translated">Fecha a conexão à fonte de dados.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">O método Close reverte qualquer transação pendente.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">Ele libera a conexão ao pool de conexão ou fecha a conexão se o pool de conexão está desabilitado.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Close is called while handling a &lt;xref:System.Data.Common.DbConnection.StateChange&gt; event, no additional &lt;xref:System.Data.Common.DbConnection.StateChange&gt; events are fired.</source>
+          <target state="translated">Se fechar é chamado durante a manipulação de um &lt;xref:System.Data.Common.DbConnection.StateChange&gt;evento, não adicional &lt;xref:System.Data.Common.DbConnection.StateChange&gt;os eventos são disparados.&lt;/xref:System.Data.Common.DbConnection.StateChange&gt; &lt;/xref:System.Data.Common.DbConnection.StateChange&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can call Close more than one time.</source>
+          <target state="translated">Um aplicativo pode chamar fechar mais de uma vez.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No exception is generated.</source>
+          <target state="translated">Nenhuma exceção é gerada.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call Close or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> on an &lt;xref:System.Data.OleDb.OleDbConnection&gt;, an &lt;xref:System.Data.OleDb.OleDbDataReader&gt;, or any other managed object in the <ph id="ph2">`Finalize`</ph> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Não chamar fechar ou <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> em um &lt;xref:System.Data.OleDb.OleDbConnection&gt;, um &lt;xref:System.Data.OleDb.OleDbDataReader&gt;, ou qualquer outro objeto gerenciado no <ph id="ph2">`Finalize`</ph> método de sua classe&lt;/xref:System.Data.OleDb.OleDbDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">Em um finalizador, você só deve liberar recursos não gerenciados que sua classe possui diretamente.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">Se sua classe não possui todos os recursos não gerenciados, não inclua um <ph id="ph1">`Finalize`</ph> método em sua definição de classe.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>coleta de lixo<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a database.</source>
+          <target state="translated">Obtém ou define a cadeia de caracteres usada para abrir um banco de dados.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The OLE DB provider connection string that includes the data source name, and other parameters needed to establish the initial connection.</source>
+          <target state="translated">A cadeia de conexão de provedor OLE DB que inclui o nome da fonte de dados e outros parâmetros necessários para estabelecer a conexão inicial.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">O valor padrão é uma cadeia de caracteres vazia.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An invalid connection string argument has been supplied or a required connection string argument has not been supplied.</source>
+          <target state="translated">Um argumento de cadeia de caracteres de conexão inválido foi fornecido ou não foi fornecido um argumento de cadeia de caracteres de conexão necessárias.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">Obtém o tempo de espera durante a tentativa de estabelecer uma conexão antes de encerrar a tentativa e gerar um erro.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates no limit, and should be avoided in a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; because an attempt to connect will wait indefinitely.</source>
+          <target state="translated">Um valor de 0 não indica nenhum limite e deve ser evitado em um &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;porque a tentativa de conexão aguardará indefinidamente.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The time in seconds to wait for a connection to open.</source>
+          <target state="translated">O tempo em segundos a esperar para uma conexão abrir.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">O valor padrão é 15 segundos.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">O valor definido for menor que 0.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates and returns an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Cria e retorna um <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto associado a <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">Obtém o nome do banco de dados atual ou o banco de dados a ser usado depois que uma conexão é aberta.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Database property updates dynamically.</source>
+          <target state="translated">A propriedade de banco de dados atualiza dinamicamente.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you change the current database using a SQL statement or the &lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt; method, an informational message is sent and the property is updated automatically.</source>
+          <target state="translated">Se você alterar o banco de dados atual usando uma instrução SQL ou o &lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;método, uma mensagem informativa será enviada e a propriedade é atualizada automaticamente.&lt;/xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The name of the current database or the name of the database to be used after a connection is opened.</source>
+          <target state="translated">O nome do banco de dados atual ou o nome do banco de dados a ser usado depois que uma conexão é aberta.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">O valor padrão é uma cadeia de caracteres vazia.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the server name or file name of the data source.</source>
+          <target state="translated">Obtém o nome do servidor ou o nome do arquivo da fonte de dados.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection to the database is closed, the <ph id="ph1">`DataSource`</ph> property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword.</source>
+          <target state="translated">Se a conexão ao banco de dados estiver fechado, o <ph id="ph1">`DataSource`</ph> propriedade retorna o que está contido no <ph id="ph2">`ConnectionString`</ph> da palavra-chave fonte de dados.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection is open and the <ph id="ph1">`ConnectionString`</ph> data source keyword's value starts with "&amp;#124;datadirectory&amp;#124;", the property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword only.</source>
+          <target state="translated">Se a conexão está aberta e o <ph id="ph1">`ConnectionString`</ph> valor da palavra de fonte de dados começa com "| datadirectory |", a propriedade retorna o que está contido no <ph id="ph2">`ConnectionString`</ph> da dados fonte palavra-chave somente.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection to the database is open, the property returns what the native provider returns for the <ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph> and if that is empty, the native provider’s <ph id="ph2">`DBPROP_DATASOURCENAME`</ph> is returned.</source>
+          <target state="translated">Se a conexão ao banco de dados estiver aberto, a propriedade retorna o que retorna o provedor nativo para o <ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph> e se for vazio, o provedor nativo <ph id="ph2">`DBPROP_DATASOURCENAME`</ph> é retornado.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The server name or file name of the data source.</source>
+          <target state="translated">O nome do servidor ou o nome do arquivo da fonte de dados.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">O valor padrão é uma cadeia de caracteres vazia.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Inscrever-se na transação especificada como uma transação distribuída.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Novo no ADO.NET 2.0 é suporte para usar o &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;método para se inscrever em uma transação distribuída.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> for this purpose.</source>
+          <target state="translated">Porque ele pede uma conexão em um &lt;xref:System.Transactions.Transaction&gt;instância, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> aproveita a funcionalidade disponível a &lt;xref:System.Transactions&gt;distribuídas de namespace para o gerenciamento de transações, tornando-o melhor <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> para essa finalidade.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>transações distribuídas<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can continue to enlist in an existing distributed transaction using the EnlistDistributedTransaction method if auto-enlistment is disabled.</source>
+          <target state="translated">Você pode continuar a inscrever-se em uma transação distribuída existente usando o método EnlistDistributedTransaction se a inscrição automática está desabilitada.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.</source>
+          <target state="translated">Inscrição em uma transação distribuída existente torna-se de que, se a transação é confirmada ou revertida, as modificações feitas pelo código na fonte de dados são também confirmadas ou revertidas.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre transações distribuídas, consulte <bpt id="p1">[</bpt>transações distribuídas<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EnlistDistributedTransaction returns an exception if the &lt;xref:System.Data.OleDb.OleDbConnection&gt; has already started a transaction using &lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">EnlistDistributedTransaction retornará uma exceção se o &lt;xref:System.Data.OleDb.OleDbConnection&gt;já iniciou uma transação usando &lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an &lt;xref:System.Data.OleDbClient.OleDbCommand&gt; object), EnlistDistributedTransaction rolls back the local transaction and enlists in the existing distributed transaction as requested.</source>
+          <target state="translated">No entanto, se a transação é uma transação local iniciada na fonte de dados (por exemplo, executando explicitamente a instrução BEGIN TRANSACTION usando um &lt;xref:System.Data.OleDbClient.OleDbCommand&gt;objeto), EnlistDistributedTransaction reverte a transação local e se inscrever na transação distribuída existente conforme solicitado.&lt;/xref:System.Data.OleDbClient.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Você não receberá o aviso que a transação local foi revertida e responsável por gerenciar todas as transações locais não é iniciadas usando&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Uma referência a um existente <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que a inscrição.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Inscrever-se na transação especificada como uma transação distribuída.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Novo no ADO.NET 2.0 é suporte para usar o &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;método para se inscrever em uma transação distribuída.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, which uses a &lt;xref:System.EnterpriseServices.ITransaction&gt; object.</source>
+          <target state="translated">Porque ele pede uma conexão em um &lt;xref:System.Transactions.Transaction&gt;instância, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> tira proveito da funcionalidade disponível no &lt;xref:System.Transactions&gt;distribuídas de namespace para o gerenciamento de transações, tornando-o melhor <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, que usa um &lt;xref:System.EnterpriseServices.ITransaction&gt;objeto.&lt;/xref:System.EnterpriseServices.ITransaction&gt; &lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also has slightly different semantics: once a connection is explicitly enlisted on a transaction, it cannot be unenlisted or enlisted in another transaction until the first transaction finishes.</source>
+          <target state="translated">Ele também tem semânticas ligeiramente diferentes: quando uma conexão é explicitamente inscrito em uma transação, ele não pode ser unenlisted ou inscrito em outra transação até que a primeira transação seja concluída.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre transações distribuídas, consulte <bpt id="p1">[</bpt>transações distribuídas<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Uma referência a um existente <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que a inscrição.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns schema information from a data source as indicated by a GUID, and after it applies the specified restrictions.</source>
+          <target state="translated">Retorna informações de esquema de uma fonte de dados, conforme indicado por um GUID, e depois de aplicar as restrições especificadas.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The schema table is returned as a &lt;xref:System.Data.DataTable&gt; that has the same format as the OLE DB schema rowset specified by the <ph id="ph1">`schema`</ph> parameter.</source>
+          <target state="translated">A tabela de esquema é retornada como um &lt;xref:System.Data.DataTable&gt;que tem o mesmo formato que o conjunto de linhas de esquema OLE DB especificado pelo <ph id="ph1">`schema`</ph> parâmetro.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`restrictions`</ph> parameter to filter the rows to be returned in the &lt;xref:System.Data.DataTable&gt; (for example, by specifying restrictions for table name, type, owner, or schema).</source>
+          <target state="translated">Use o <ph id="ph1">`restrictions`</ph> parâmetro para filtrar as linhas sejam retornadas no &lt;xref:System.Data.DataTable&gt;(por exemplo, ao especificar restrições para o nome da tabela, tipo, proprietário ou esquema).&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you pass values in the array, include empty strings or nulls for array elements that do not contain values.</source>
+          <target state="translated">Quando você passa valores na matriz, inclua cadeias de caracteres vazias ou nulos para elementos de matriz que não contenham valores.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass an empty array to <ph id="ph1">`restrictions`</ph>, all rows (one for each table) are returned in default order.</source>
+          <target state="translated">Se você passar uma matriz vazia para <ph id="ph1">`restrictions`</ph>, todas as linhas (uma para cada tabela) são retornadas em default ordem.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values in the array correspond to the order of the columns in the source table and &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Os valores na matriz correspondem à ordem de colunas na tabela de origem e &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each element in the restrictions array is compared with the content of the corresponding column in the schema rowset.</source>
+          <target state="translated">Cada elemento da matriz de restrições é comparado com o conteúdo da coluna correspondente no conjunto de linhas de esquema.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the first element in the restrictions array is compared to first column in the rowset.</source>
+          <target state="translated">Por exemplo, o primeiro elemento na matriz de restrições é comparado a primeira coluna no conjunto de linhas.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction element is not null, only rows from the schema rowset that exactly match the value of the restriction are added to the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Se um elemento de restrição não for nulo, somente linhas do conjunto de linhas de esquema que corresponde exatamente ao valor da restrição serão adicionadas ao resultante &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; method calls the underlying OLE DB <bpt id="p1">**</bpt>IDBSchemaRowset::GetRowset<ept id="p1">**</ept> method using standard common language runtime conversion rules.</source>
+          <target state="translated">O &lt;xref:System.Data.OleDb.OleDbConnection&gt;chamadas de método subjacente OLE DB <bpt id="p1">**</bpt>IDBSchemaRowset:: Getrowset<ept id="p1">**</ept> usando regras comuns de conversão de tempo de execução do idioma padrão do método.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>COM Data Types<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>tipos de dados COM<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve information about literals by using &lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;.</source>
+          <target state="translated">Você pode recuperar informações sobre literais usando &lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;.&lt;/xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides information equivalent to calling the OLE DB <bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept> interface, or the ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept> method with the <ph id="ph1">`adSchemaDBInfoLiterals`</ph> constant.</source>
+          <target state="translated">Isso fornece informações equivalentes a chamar o OLE DB <bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept> interface ou ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept> método com o <ph id="ph1">`adSchemaDBInfoLiterals`</ph> constante.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the schema table to return.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que especifica a tabela de esquema para retornar.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; array of restriction values.</source>
+          <target state="translated">Um &lt;xref:System.Object&gt;matriz de valores de restrição.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>These are applied in the order of the restriction columns.</source>
+          <target state="translated">Elas são aplicadas na ordem de colunas de restrição.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>That is, the first restriction value applies to the first restriction column, the second restriction value applies to the second restriction column, and so on.</source>
+          <target state="translated">Isto é, o primeiro valor de restrição aplica-se a primeira coluna de restrição, o segundo valor de restrição aplica-se a segunda coluna de restrição e assim por diante.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the requested schema information.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém as informações de esquema solicitada.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The specified set of restrictions is invalid.</source>
+          <target state="translated">O conjunto de restrições especificado é inválido.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> está fechado.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The specified schema rowset is not supported by the OLE DB provider.</source>
+          <target state="translated">O conjunto de linhas do esquema especificado não é suportado pelo provedor OLE DB.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">schema</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains a value of <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">restrictions</ph><ept id="p3">&lt;/code&gt;</ept> parameter contains one or more restrictions.</source>
+          <target state="translated">- ou - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">schema</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro contém um valor de <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> e <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">restrictions</ph> <ept id="p3">&lt;/code&gt;</ept> parâmetro contém uma ou mais restrições.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retorna informações de esquema para a fonte de dados deste <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém informações de esquema.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name.</source>
+          <target state="translated">Retorna informações de esquema para a fonte de dados deste <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando a cadeia de caracteres especificada para o nome do esquema.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Quando <ph id="ph1">`collectionName`</ph> é especificado como null, o &lt;xref:System.Data.DataTable&gt;conterá informações sobre todos os metadados que estão disponíveis e suas restrições.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Especifica o nome do esquema para retornar.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém informações de esquema.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name and the specified string array for the restriction values.</source>
+          <target state="translated">Retorna informações de esquema para a fonte de dados deste <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando a cadeia de caracteres especificada para o nome do esquema e a matriz de cadeia de caracteres especificada para os valores de restrição.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Quando <ph id="ph1">`collectionName`</ph> é especificado como null, o &lt;xref:System.Data.DataTable&gt;conterá informações sobre todos os metadados que estão disponíveis e suas restrições.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`restrictionValues`</ph> parameter can supply <bpt id="p1">*</bpt>n<ept id="p1">*</ept> depth of values which are specified by the restrictions collection for a specific collection.</source>
+          <target state="translated">O <ph id="ph1">`restrictionValues`</ph> parâmetro pode fornecer <bpt id="p1">*</bpt>n<ept id="p1">*</ept> profundidade de valores que são especificadas na coleção de restrições para uma coleção específica.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to set values on a given restriction, and not set the values of other restrictions, you need to set the preceding restrictions to null and then put the appropriate value in for the restriction that you would like to specify a value for.</source>
+          <target state="translated">Para definir valores em uma restrição de determinado e não definir os valores das outras restrições, você precisa definir as restrições anteriores para nulo e, em seguida, coloque o valor apropriado para a restrição que você deseja especificar um valor para.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of this is the "Tables" collection.</source>
+          <target state="translated">Um exemplo disso é a coleção de "Tabelas".</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the "Tables" collection has three restrictions (database, owner, and table name), and you want to get back only the tables associated with the owner "Carl," you must pass in the following values (at a minimum): null, "Carl".</source>
+          <target state="translated">Se a coleção "Tabelas" tem três restrições (banco de dados, proprietário e nome de tabela), e você quiser obter somente as tabelas associadas com o proprietário "Carl", você deve passar os valores a seguir (no mínimo): null, "Carl".</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction value is not passed in, the default values are used for that restriction.</source>
+          <target state="translated">Se um valor de restrição não for passado, os valores padrão são usados para essa restrição.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same mapping as passing in null, which is different from passing in an empty string for the parameter value.</source>
+          <target state="translated">Isso é o mesmo mapeamento como passar null, que é diferente da passagem de uma cadeia de caracteres vazia para o valor do parâmetro.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the empty string ("") is considered to be the value for the specified parameter.</source>
+          <target state="translated">Nesse caso, a cadeia de caracteres vazia ("") é considerado o valor para o parâmetro especificado.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Especifica o nome do esquema para retornar.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies a set of restriction values for the requested schema.</source>
+          <target state="translated">Especifica um conjunto de valores de restrição do esquema solicitado.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém informações de esquema.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Occurs when the provider sends a warning or an informational message.</source>
+          <target state="translated">Ocorre quando o provedor envia um aviso ou uma mensagem informativa.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that want to process warnings or informational messages sent by the server should create an &lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt; delegate to listen to this event.</source>
+          <target state="translated">Os clientes que deseja processar avisos ou mensagens informativas enviadas pelo servidor devem criar um &lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;delegado para escutar esse evento.&lt;/xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InfoMessage event occurs when a message with low severity is returned from the data source.</source>
+          <target state="translated">O evento do InfoMessage ocorre quando uma mensagem com severidade baixa é retornada da fonte de dados.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Low severity messages are those that do not cause an exception.</source>
+          <target state="translated">Mensagens de baixa severidade são aqueles que fazem com que uma exceção.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For Microsoft SQL Server, this includes error messages that have a severity of 10 or less       For more information and an example, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para o Microsoft SQL Server, isso inclui mensagens de erro que têm uma severidade de 10 ou menos para obter mais informações e um exemplo, consulte <bpt id="p1">[</bpt>eventos de Conexão<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Opens a database connection with the property settings specified by the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;.</source>
+          <target state="translated">Abre uma conexão de banco de dados com as configurações de propriedade especificadas por &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; draws an open connection from the connection pool if one is available.</source>
+          <target state="translated">O &lt;xref:System.Data.OleDb.OleDbConnection&gt;desenha uma conexão aberta do pool de conexão, se houver um disponível.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it establishes a new connection to the data source.</source>
+          <target state="translated">Caso contrário, ele estabelece uma nova conexão à fonte de dados.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can open more than one DataReader on a single &lt;xref:System.Data.OleDb.OleDbConnection&gt;.</source>
+          <target state="translated">Você pode abrir mais de um DataReader em um único &lt;xref:System.Data.OleDb.OleDbConnection&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OLEDB provider you use does not support more than one active DataReader on a single connection, the OLEDB provider implicitly opens an additional connection for each.</source>
+          <target state="translated">Se o provedor OLE DB que você usa não der suporte a mais de um DataReader ativa em uma única conexão, o provedor OLE DB abre implicitamente uma conexão adicional para cada um.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Data.OleDb.OleDbConnection&gt; goes out of scope, it is not closed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se o &lt;xref:System.Data.OleDb.OleDbConnection&gt;fica fora do escopo, ela não é fechada.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or using the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Portanto, você deve fechar explicitamente a conexão chamando &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;ou <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, ou usando a conexão em um <ph id="ph1">`Using`</ph> instrução.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The connection is already open.</source>
+          <target state="translated">A conexão já está aberto.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A connection-level error occurred while opening the connection.</source>
+          <target state="translated">Ocorreu um erro no nível de conexão ao abrir a conexão.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Gets the name of the OLE DB provider specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">Obtém o nome do provedor OLE DB especificado no "provedor =" cláusula da cadeia de caracteres de conexão.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The name of the provider as specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">O nome do provedor como especificado no "provedor =" cláusula da cadeia de caracteres de conexão.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">O valor padrão é uma cadeia de caracteres vazia.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Indicates that the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object pool can be released when the last underlying connection is released.</source>
+          <target state="translated">Indica que o <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pool de objetos pode ser liberado quando a última conexão subjacente é liberado.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReleaseObjectPool`</ph> can be called to free resources that would otherwise be reserved for pooled &lt;xref:System.Data.OleDb.OleDbConnection&gt; objects.</source>
+          <target state="translated"><ph id="ph1">`ReleaseObjectPool`</ph>pode ser chamado para liberar recursos caso contrário, deve ser reservados para em pool &lt;xref:System.Data.OleDb.OleDbConnection&gt;objetos.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might want to call this method if, for example, the connection object will not be used again for the amount of time that OLE DB services ordinarily keeps pooled connections active.</source>
+          <target state="translated">Você talvez queira chamar este método se, por exemplo, o objeto de conexão não será usado novamente para a quantidade de tempo que serviços OLE DB normalmente mantém conexões em pool ativo.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that calling the method alone does not actually release the active connections that exist in the pool.</source>
+          <target state="translated">Observe que chamar o método sozinho não realmente liberar que existem no pool de conexões ativas.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following must occur before the pool is finally disposed:      1.</source>
+          <target state="translated">O seguinte deve ocorrer antes que o pool for descartado finalmente: 1.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; to return the connection object to the pool.</source>
+          <target state="translated">Chamar &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;para retornar o objeto de conexão para o pool.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Allow each connection object to time out of the pool.</source>
+          <target state="translated">Permitir que cada objeto de conexão para o tempo limite do pool.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call ReleaseObjectPool.</source>
+          <target state="translated">Chame ReleaseObjectPool.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoke garbage collection.</source>
+          <target state="translated">Invocar a coleta de lixo.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, if you call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; on all active connections, and invoke garbage collection, but do not call ReleaseObjectPool, the resources reserved for the pooled objects will remain available.</source>
+          <target state="translated">Por outro lado, se você chamar &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;em todas as conexões ativas e chamar a coleta de lixo, mas não chame ReleaseObjectPool, os recursos reservados para os objetos em pool permanecerá disponíveis.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Updates the &lt;xref:System.Data.OleDb.OleDbConnection.State*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Atualizações de &lt;xref:System.Data.OleDb.OleDbConnection.State*&gt;propriedade o <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.&lt;/xref:System.Data.OleDb.OleDbConnection.State*&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some OLE DB providers can check the current state of the connection.</source>
+          <target state="translated">Alguns provedores OLE DB podem verificar o estado atual da conexão.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the database server has recycled since you opened your &lt;xref:System.Data.OleDb.OleDbConnection&gt;, the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will continue to return <ph id="ph1">`Open`</ph>.</source>
+          <target state="translated">Por exemplo, se o servidor de banco de dados foi reciclado, pois você abriu seu &lt;xref:System.Data.OleDb.OleDbConnection&gt;, o &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;propriedade continuarão a retornar <ph id="ph1">`Open`</ph>.&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are working with an OLE DB Provider that supports polling for this information on a live connection, calling the ResetState method and then checking the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will tell you that the connection is no longer open.</source>
+          <target state="translated">Se você estiver trabalhando com um provedor OLE DB que dá suporte a sondagem para obter essas informações em uma conexão ao vivo, chamar o método ResetState e, em seguida, verificando o &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;propriedade informará que a conexão não está mais aberto.&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ResetState method relies on functionality in the OLE DB Provider to verify the current state of the connection.</source>
+          <target state="translated">O método ResetState depende de funcionalidades em que o provedor OLE DB para verificar o estado atual da conexão.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine if your OLE DB Provider supports this functionality, check the provider's documentation for information on DBPROP_CONNECTIONSTATUS.</source>
+          <target state="translated">Para determinar se o provedor OLE DB dá suporte a essa funcionalidade, verifique a documentação do provedor para obter informações sobre DBPROP_CONNECTIONSTATUS.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the server to which the client is connected.</source>
+          <target state="translated">Obtém uma cadeia de caracteres que contém a versão do servidor ao qual o cliente está conectado.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServerVersion property maps to the OLE DB DBPROP_DBMSVER property.</source>
+          <target state="translated">A propriedade ServerVersion é mapeado para a propriedade do OLE DB DBPROP_DBMSVER.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ServerVersion is not supported by the underlying OLE DB provider, an empty string is returned.</source>
+          <target state="translated">Se não há suporte para a versão do Server pelo provedor OLE DB subjacente, uma cadeia de caracteres vazia é retornada.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The version is of the form <bpt id="p1">*</bpt>##.##.####<ept id="p1">*</ept>, where the first two digits are the major version, the next two digits are the minor version, and the last four digits are the release version.</source>
+          <target state="translated">É a versão do formulário <bpt id="p1">*</bpt># #. # #. # # #<ept id="p1">*</ept>, onde os dois primeiros dígitos são a versão principal, os dois dígitos são a versão secundária, e os quatro últimos dígitos são a versão de lançamento.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider must render the product version in this form but can also append the product-specific version—for example, "04.01.0000 Rdb 4.1".</source>
+          <target state="translated">O provedor deve processar a versão do produto neste formulário, mas também pode acrescentar a versão de produto em específico — por exemplo, "04.01.0000 Rdb 4.1".</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is of the form <bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>, where major and minor are exactly two digits and build is exactly four digits.</source>
+          <target state="translated">A cadeia de caracteres está no formato <bpt id="p1">*</bpt>Minor<ept id="p1">*</ept>, onde principais e secundários são exatamente dois dígitos e compilação é exatamente quatro dígitos.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The version of the connected server.</source>
+          <target state="translated">A versão do servidor conectado.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">A conexão é fechada.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">Obtém o estado atual da conexão.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are allowed state changes:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the &lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">A seguir é permitida alterações de estado: - na <ph id="ph1">`Closed`</ph> para <ph id="ph2">`Open`</ph>, usando o &lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;método o &lt;xref:System.Data.OleDb.OleDbConnection&gt;objeto.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; method or the <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">-De <ph id="ph1">`Open`</ph> para <ph id="ph2">`Closed`</ph>, usando o &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;método ou o <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> método o &lt;xref:System.Data.OleDb.OleDbConnection&gt;objeto.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In previous version of the .NET Framework, calling the State property increased application overhead because each call caused a call to the OLE DB DBPROP_CONNECTIONSTATUS property for an open connection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Na versão anterior do .NET Framework, chamando a propriedade State maior sobrecarga de aplicativo porque cada chamada fez uma chamada para a propriedade DBPROP_CONNECTIONSTATUS do OLE DB para uma conexão aberta.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With the release of the .NET Framework 2.0, this is no longer an issue.</source>
+          <target state="translated">Com a versão do .NET Framework 2.0, isso não é mais um problema.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Uma combinação bit a bit do <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default is Closed.</source>
+          <target state="translated">O padrão é fechado.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Para obter uma descrição desse membro, consulte <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Esse membro é uma implementação de membro de interface explícita.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbConnection&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">Ele pode ser usado somente quando o &lt;xref:System.Data.OleDb.OleDbConnection&gt;instância é convertida em um &lt;xref:System.ICloneable&gt;interface.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">Um novo &lt;xref:System.Object&gt;que é uma cópia dessa instância.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
