@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eea1eb6d307b056bc5c03bde28ca53f9b77dae80</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignerActionService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09f0e2a8e99ddd5e4350eaa5a40954d6034e3b8e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92e0f76d5de3edd5a101a6b34a26f389755cd78f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Establishes a design-time service that manages the collection of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for components.</source>
+          <target state="translated">建立管理的集合的设计时服务<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>组件的对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DesignerActionService class is responsible for managing the collection of &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt; objects for each instance of a component that exists on a form at design time.</source>
+          <target state="translated">DesignerActionService 类负责管理集合&lt;xref:System.ComponentModel.Design.DesignerActionItem&gt;在设计时存在窗体的组件的每个实例的对象。&lt;/xref:System.ComponentModel.Design.DesignerActionItem&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class enables a direct push model of item creation, and is primarily intended for use by design-time tool developers, although it can also be used by component and custom control developers.</source>
+          <target state="translated">此类提供了直接推送模型项创建的并主要用于通过设计时工具开发人员，但它还可以使用的组件和自定义控件开发人员。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Design-time tool developers will need to determine the list of items to display for a component and determine when this list changes.</source>
+          <target state="translated">设计时工具开发人员将需要确定要显示的组件和确定何时更改此列表项的列表。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They may also create add-ins that operate in conjunction with smart tag panel objects.</source>
+          <target state="translated">他们还可能与智能标记面板对象结合使用来创建操作的外接程序。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Advanced component developers may need to dynamically control the items associated with a component, thus replacing or supplementing the standard pull model.</source>
+          <target state="translated">高级开发人员可能需要动态控制的项关联的组件，从而替换或补充标准拉取模式的组件。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, panel commands can be altered depending on the context of their use and the design-time state of the component.</source>
+          <target state="translated">例如，可以根据其使用和组件的设计时状态的上下文更改面板命令。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DesignerActionService is actually the driving service behind both the push and pull models; however, in the latter case it operates implicitly.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; DesignerActionService 实际上是推送和拉取模型背后的推动服务; 但是，在后一种情况中它的操作隐式。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DesignerActionService provides a straightforward interface for accessing and manipulating the items for each component, including the following methods and events:      -   The &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt; method determines whether the DesignerActionService is currently managing a particular component.</source>
+          <target state="translated">DesignerActionService 提供了一个简单的界面，用于访问和操作对于每个组件，包括以下方法和事件的项:-&lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;方法确定是否 DesignerActionService 当前正在管理特定组件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; method supports the enumeration of the lists of items.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;方法支持的项列表的枚举。&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method allows adding a &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; or &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt; to the set of existing items for a component instance.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;方法允许将添加&lt;xref:System.ComponentModel.Design.DesignerActionList&gt;或&lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt;到组件实例的现有项集。&lt;/xref:System.ComponentModel.Design.DesignerActionListCollection&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionList&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; method removes one or all of the item lists associated with a component.</source>
+          <target state="translated">与此相反，&lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;方法中删除一个或多个与组件关联的项列表。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method represents the direct push model of associating panel items with a component.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;&lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;方法表示将控制面板项与组件相关联的直推技术模型。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In contrast, the pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property of the designer class for that component.</source>
+          <target state="translated">与此相反，请求模型依赖于重写&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;为该组件的设计器类的属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The design environment is responsible for adding these items into the current DesignerActionService when a component is created on the design surface.</source>
+          <target state="translated">在设计环境负责将这些项添加到当前 DesignerActionService，设计图面上创建一个组件时。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph>     &gt;  The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;, and &lt;xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt; methods only consider or affect push-model items.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;， &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;， &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;，和&lt;xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt;方法只考虑，或会影响推送模型项。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event indicates when the collection of items changes for a component.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件指示当组件更改的项的集合。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because it is often desirable to use some of the same panel items in both the component's design-time shortcut menu and its panel, a large degree of interoperability exists between &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt; objects and designer verbs.</source>
+          <target state="translated">因为它通常需要将一些组件的设计时快捷菜单和其面板中相同的控制面板项，之间存在很大程度的互操作性&lt;xref:System.ComponentModel.Design.DesignerActionItem&gt;对象和设计器谓词。&lt;/xref:System.ComponentModel.Design.DesignerActionItem&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If a component designer does not explicitly specify a &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; (that is, it does not contain an overridden &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property), then a list will be created from existing designer verbs.</source>
+          <target state="translated">如果组件设计器不显式指定&lt;xref:System.ComponentModel.Design.DesignerActionList&gt;(即，它不包含被重写&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;属性)，则列表将创建从现有的设计器谓词。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionList&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These verbs are specified by the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property.</source>
+          <target state="translated">指定这些谓词&lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this case, an internal verb list class is used to contain the collection of verb item panel entries.</source>
+          <target state="translated">在这种情况下，内部的谓词列表类用于放置的谓词项面板项的集合。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you want a &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; to be used both as a panel entry and a design-time shortcut menu entry, then you can set the <ph id="ph1">`includeAsDesignerVerb`</ph> parameter in the item's constructor.</source>
+          <target state="translated">如果你想&lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;用于同时用作面板条目和设计时快捷菜单项，则可以设置<ph id="ph1">`includeAsDesignerVerb`</ph>该项的构造函数中的参数。&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.ComponentModel.Design.DesignerActionUIService&gt; to control the display of your designer's &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;.</source>
+          <target state="translated">使用&lt;xref:System.ComponentModel.Design.DesignerActionUIService&gt;以控制您的设计器的&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;的显示&lt;/xref:System.ComponentModel.Design.DesignerActionUIService&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A service provider is necessary for monitoring selection and component changes.</source>
+          <target state="translated">服务提供程序是必需的监视所选内容和组件的更改。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It is expected to support the &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; types.</source>
+          <target state="translated">它应支持&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;和&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;类型。&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; class uses an internal table to manage components and their associated &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; smart tags.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;类使用内部表来管理组件和其关联&lt;xref:System.ComponentModel.Design.DesignerActionList&gt;智能标记。&lt;/xref:System.ComponentModel.Design.DesignerActionList&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Typically, component developers will not need to create an instance of this class; instead, they can acquire an existing instance through a call to the &lt;xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">通常情况下，组件开发人员不需要创建此类; 的实例相反，它们能够获取现有实例通过调用&lt;xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The service provider for the current design-time environment.</source>
+          <target state="translated">服务提供程序当前的设计时环境中。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the current collection of managed smart tags.</source>
+          <target state="translated">将添加<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到当前集合的托管的智能标记。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Add method represents the push model of adding smart tag items.</source>
+          <target state="translated">Add 方法表示添加智能标记项推送模型。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The alternate pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property in the designer for the corresponding component.</source>
+          <target state="translated">备用请求模型依赖于重写&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;相应组件的设计器中的属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When this method is called, the lists to be added are scanned for any &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; with the &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">当调用此方法时，扫描要添加的列表中是否有任何&lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;与&lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt;属性设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These items are added to the list of designer verbs for this component, through a call to the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">这些项添加到此组件，通过调用的设计器谓词的列表&lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Smart tags are managed on a component instance basis.</source>
+          <target state="translated">在组件实例的基础上管理智能标记。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The managed collection may contain duplicate entries.</source>
+          <target state="translated">托管的集合可能包含重复条目。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">此方法将引发&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate the smart tags with.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>关联与智能标记。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the new smart tag items to be added.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>其中包含新的智能标记项，要添加。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个或两个参数<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the current collection of managed smart tags.</source>
+          <target state="translated">将添加<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到当前集合的托管的智能标记。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Add method represents the push model of adding smart tag items.</source>
+          <target state="translated">Add 方法表示添加智能标记项推送模型。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The alternate pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property in the designer for the corresponding component.</source>
+          <target state="translated">备用请求模型依赖于重写&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;相应组件的设计器中的属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When this method is called, the lists to be added are scanned for any &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; with the &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">当调用此方法时，扫描要添加的列表中是否有任何&lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;与&lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt;属性设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These items are added to the list of designer verbs for this component, through a call to the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">这些项添加到此组件，通过调用的设计器谓词的列表&lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Smart tags are managed on a component instance basis.</source>
+          <target state="translated">在组件实例的基础上管理智能标记。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The managed collection may contain duplicate entries.</source>
+          <target state="translated">托管的集合可能包含重复条目。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">此方法将引发&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate the smart tags with.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>关联与智能标记。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the new smart tag items to be added.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>其中包含新的智能标记项，要添加。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个或两个参数<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Releases all components from management and clears all push-model smart tag lists.</source>
+          <target state="translated">释放从管理的所有组件并清除所有推送模型智能标记列表。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The Clear method empties the internal table used to store information about components and their push-model smart tag lists.</source>
+          <target state="translated">Clear 方法清空内部表用于存储有关组件和它们推送模型智能标记的列表的信息。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because this method affects all components managed by the current service, and not just the current component, this method should be used judiciously.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 由于此方法会影响管理当前服务，并不只是当前组件的所有组件，此方法应谨慎地使用。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Typically, the design-time tool developer uses it when resetting a design surface.</source>
+          <target state="translated">通常情况下，设计时工具开发人员使用它时重置设计图面。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Component developers should use one of the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; methods instead to remove individual smart tag items or lists.</source>
+          <target state="translated">组件开发人员应使用一种&lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;方法改为删除单个智能标记项或列出。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event is raised for each component that was previously managed by the current service.</source>
+          <target state="translated">A&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;每个组件的以前由当前的服务引发事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Determines whether the current smart tag service manages the action lists for the specified component.</source>
+          <target state="translated">确定是否当前的智能标记服务管理指定组件的操作列表。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The Contains method only recognizes push-model smart tags, which are associated to a component with the &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method.</source>
+          <target state="translated">Contains 方法只识别推送模型智能标记，与具有的组件相关联&lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Although there is no structural limitation on the number of concurrent &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; instances created by a design-time tool, typically only a single instance of the service is created per design surface.</source>
+          <target state="translated">尽管没有结构限制的并发数量&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;设计时工具创建的实例，通常只能运行一个服务实例创建每个设计图面。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to search for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>搜索。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the component is managed by the current service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果该组件由当前的服务;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Occurs when a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is removed or added for any component.</source>
+          <target state="translated">发生时<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是删除或添加任何组件。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The following table shows the set of specialized classes associated with the DesignerActionListsChanged event.</source>
+          <target state="translated">下表显示的一套与 DesignerActionListsChanged 事件相关联的专用类。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>|Specialized type|Description|   |----------------------|-----------------|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;|Adds information specific to smart tag list management.</source>
+          <target state="translated">|专用类型 |说明 |  |----------------------|-----------------|  |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;|将特定的信息添加到智能标记列表管理。&lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This class is specialized from &lt;xref:System.EventArgs&gt;.|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt;|Connects the &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt; with its handler.|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt;|Denotes whether a list has been added or removed.|       For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">此类的专用化时从&lt;xref:System.EventArgs&gt;。 |  |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt;|连接&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;与其处理程序。 |  |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt;|表示是否已添加或删除列表。 |      有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。&lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt; &lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The Dispose method is the implementation of the only method mandated by the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">Dispose 方法是由规定的唯一方法的实现&lt;xref:System.IDisposable&gt;接口。&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Call this method when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">在完成使用&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;时调用此方法</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It performs two main actions:      -   Removes the current service from the list of available services in the design environment through a call to the &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt; method.</source>
+          <target state="translated">它执行两个主要操作:-从通过调用在设计环境中的可用服务列表中删除当前服务&lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-   Unsubscribes to component change events from the associated &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; interface.</source>
+          <target state="translated">-取消订阅组件更改事件从关联&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;接口。&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">在完成使用&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;时调用的 Dispose</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; in an unusable state.</source>
+          <target state="translated">Dispose 方法离开&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;中不可用状态。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; was occupying.</source>
+          <target state="translated">调用 Dispose 后，必须释放对所有引用&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;以便垃圾回收器才能回收的内存，&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;占用。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>清洗向上非托管资源<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>实现 Dispose 方法<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 始终调用释放在发布到&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;最后一个引用之前</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">否则，它所使用的资源之前，不会释放垃圾回收器调用&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;对象的<ph id="ph1">`Finalize`</ph>方法。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt; method is the implementation of the only method mandated by the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt;方法是由规定的唯一方法的实现&lt;xref:System.IDisposable&gt;接口。&lt;/xref:System.IDisposable&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Call this method when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">在完成使用&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;时调用此方法</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>It performs two main actions:      -   Removes the current service from the list of available services in the design environment through a call to the &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt; method.</source>
+          <target state="translated">它执行两个主要操作:-从通过调用在设计环境中的可用服务列表中删除当前服务&lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-   Unsubscribes to component change events from the associated &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; interface.</source>
+          <target state="translated">-取消订阅组件更改事件从关联&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;接口。&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">此方法称为由公共<ph id="ph1">`Dispose()`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>调用受保护<ph id="ph2">`Dispose(Boolean)`</ph>方法替换<ph id="ph3">`disposing`</ph>参数设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;调用<ph id="ph1">`Dispose`</ph>与<ph id="ph2">`disposing`</ph>设置为<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; references.</source>
+          <target state="translated">当<ph id="ph1">`disposing`</ph>参数是<ph id="ph2">`true`</ph>，此方法释放由任何托管对象持有的全部资源此&lt;xref:System.ComponentModel.Design.DesignerActionService&gt;引用。&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">此方法调用<ph id="ph1">`Dispose()`</ph>每个引用对象的方法。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns the collection of smart tag item lists associated with a component.</source>
+          <target state="translated">返回与组件相关联的智能标记项列表的集合。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The GetComponentActions method is equivalent to a call to the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt; method using a <ph id="ph1">`type`</ph> parameter of &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;.</source>
+          <target state="translated">GetComponentActions 方法等效于调用&lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt;方法使用<ph id="ph1">`type`</ph> &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;.&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;参数&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Therefore, the collection returned will contain both the push and pull lists of smart tags.</source>
+          <target state="translated">因此，返回的集合将包含推送和拉取智能标记列表。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt; is the union of item lists added through the &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; methods and also the lists obtained from the &lt;xref:System.ComponentModel.Design.DesignerCommandSet&gt; instance obtained from the component’s site.</source>
+          <target state="translated">返回&lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt;是通过添加的项列表的并集&lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;方法以及列表从获取&lt;xref:System.ComponentModel.Design.DesignerCommandSet&gt;实例获取从组件的站点。&lt;/xref:System.ComponentModel.Design.DesignerCommandSet&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListCollection&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">与之关联的智能标记该组件。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The collection of smart tags for the specified component.</source>
+          <target state="translated">指定组件的智能标记的集合。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns the collection of smart tag item lists of the specified type associated with a component.</source>
+          <target state="translated">返回的智能标记的集合关联的组件的指定类型的项列表。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This version of the overloaded &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; method filters on the <ph id="ph1">`type`</ph> parameter, which can have one of the following values.</source>
+          <target state="translated">此版本的重载&lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;方法筛选<ph id="ph1">`type`</ph>参数，它可以具有以下值之一。&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>|Value|Description|   |-----------|-----------------|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|All associated smart tags.|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|Pull-model smart tags only.|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|Push-model smart tags only.|       If the associated designer for a component does not supply a pull-model smart tag list, then the GetComponentActions method will instead use the designer's design-time shortcut menu items from the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property.</source>
+          <target state="translated">|值 |说明 |  |-----------|-----------------|  |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|所有关联的智能标记。 |  |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|拉出模型智能标记仅。 |  |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|推送模型智能标记仅。 |      如果组件的关联设计器不提供的拉出模型智能标记列表中，则 GetComponentActions 方法将改为使用设计器的设计时快捷菜单项从&lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">与之关联的智能标记该组件。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentActionsType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to filter the associated smart tags with.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentActionsType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来筛选与关联的智能标记。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The collection of smart tags of the specified type for the specified component.</source>
+          <target state="translated">指定组件的指定类型的智能标记的集合。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Retrieves the pull-model smart tags associated with a component.</source>
+          <target state="translated">检索与组件相关联的拉出模型智能标记。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The GetComponentDesignerActions method is a helper method for the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; methods.</source>
+          <target state="translated">GetComponentDesignerActions 方法是为帮助器方法&lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>GetComponentDesignerActions searches for pull-model smart tags of type &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, and then adds these to the supplied <ph id="ph1">`actionLists`</ph> collection.</source>
+          <target state="translated">拉出模型的 GetComponentDesignerActions 搜索智能标记的类型&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;，然后将它们添加到所提供<ph id="ph1">`actionLists`</ph>集合。&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If the component's developer does not explicitly supply a collection of smart tags through the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property of its designer, this method will reuse the design-time shortcut menu entries, which are obtained through the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property of the designer.</source>
+          <target state="translated">如果组件的开发人员未显式提供通过智能标记的集合&lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;及其设计器的属性，此方法将重复使用的设计时快捷菜单项，通过获取&lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;设计器的属性。&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">与之关联的智能标记该组件。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The collection to add the associated smart tags to.</source>
+          <target state="translated">要添加到关联的智能标记的集合。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个或两个参数<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Retrieves the push-model smart tags associated with a component.</source>
+          <target state="translated">检索与组件相关联的推送模型智能标记。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The GetComponentServiceActions method is a helper method for the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; methods.</source>
+          <target state="translated">GetComponentServiceActions 方法是为帮助器方法&lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It searches for push-model smart tags of type &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, and then adds these to the supplied <ph id="ph1">`actionLists`</ph> collection.</source>
+          <target state="translated">搜索推送模型的类型的智能标记&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;，然后将它们添加到所提供<ph id="ph1">`actionLists`</ph>集合。&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">与之关联的智能标记该组件。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The collection to add the associated smart tags to.</source>
+          <target state="translated">要添加到关联的智能标记的集合。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个或两个参数<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Removes the specified smart tag list from all components managed by the current service.</source>
+          <target state="translated">从管理当前服务的所有组件中移除指定的智能标记列表。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This version of the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; method is typically used by design tool developers, because component developers typically do not know what other components exist in the current design space.</source>
+          <target state="translated">此版本的&lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;设计工具开发人员通常使用方法，因为组件开发人员通常不知道哪些其他组件存在于当前设计空间。&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If successful, this method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">如果成功，此方法将引发&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The list of smart tags to be removed.</source>
+          <target state="translated">要删除的智能标记的列表。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;actionList&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;actionList&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Removes all the smart tag lists associated with the specified component.</source>
+          <target state="translated">移除与指定组件关联的所有智能标记列表。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If successful, the Remove method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">如果成功，删除方法将引发&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The component to disassociate the smart tags from.</source>
+          <target state="translated">要取消从的智能标记关联的组件。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Removes the specified smart tag list from the specified component.</source>
+          <target state="translated">从指定的组件中移除指定的智能标记列表。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If successful, the Remove method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">如果成功，删除方法将引发&lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;事件。&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The component to disassociate the smart tags from.</source>
+          <target state="translated">要取消从的智能标记关联的组件。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The smart tag list to remove.</source>
+          <target state="translated">要删除的智能标记列表。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个或两个参数<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

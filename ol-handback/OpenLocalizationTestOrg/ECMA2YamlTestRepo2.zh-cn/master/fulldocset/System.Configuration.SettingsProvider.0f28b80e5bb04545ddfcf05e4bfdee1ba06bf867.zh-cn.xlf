@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">36da134bb1d16ea78037367c0709d3ee22f12ce8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.SettingsProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9dd216044088001d5f5b23b288828c724768c93</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45f9be8e3f06fd366d6ff88b5053da662d44505e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Acts as a base class for deriving custom settings providers in the application settings architecture.</source>
+          <target state="translated">充当用于派生应用程序设置体系结构中的自定义设置提供程序的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A settings provider defines the mechanism for storing configuration data used in the application settings architecture.</source>
+          <target state="translated">设置提供程序定义用于存储在应用程序设置体系结构中使用的配置数据的机制。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The .NET Framework contains a single default settings provider, &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;, which stores configuration data to the local file system.</source>
+          <target state="translated">.NET Framework 包含一个默认设置提供程序， &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;，它存储到本地文件系统的配置数据。&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, you can create alternate storage mechanisms by deriving from the abstract SettingsProvider class.</source>
+          <target state="translated">但是，你可以通过从抽象 SettingsProvider 类派生来创建备用存储机制。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The provider that a wrapper class uses is determined by decorating the wrapper class with the &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.</source>
+          <target state="translated">包装类使用的访问接口确定的修饰&lt;xref:System.Configuration.SettingsProviderAttribute&gt;。&lt;/xref:System.Configuration.SettingsProviderAttribute&gt;的包装类</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If this attribute is not provided, the default, &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;, is used.</source>
+          <target state="translated">如果此属性未提供，默认情况下， &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;，使用。&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you create a custom settings provider, at minimum, you must provide implementations for the three methods of this class: &lt;xref:System.Configuration.SettingsProvider.GetPropertyValues%2A&gt;, &lt;xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt; and &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt;.</source>
+          <target state="translated">当你创建自定义设置提供程序，最小时，必须提供用于三个方法的此类的实现: &lt;xref:System.Configuration.SettingsProvider.GetPropertyValues%2A&gt;、&lt;xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt;和&lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt;。&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; &lt;/xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt; &lt;/xref:System.Configuration.SettingsProvider.GetPropertyValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For client applications, you can add more standardized functionality to a custom provider by also implementing the &lt;xref:System.Configuration.IApplicationSettingsProvider&gt; interface.</source>
+          <target state="translated">对于客户端应用程序，你可以添加多标准化的功能自定义提供程序通过还实现&lt;xref:System.Configuration.IApplicationSettingsProvider&gt;接口。&lt;/xref:System.Configuration.IApplicationSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This interface mirrors methods found in the &lt;xref:System.Configuration.ApplicationSettingsBase&gt; class, which mainly enables versioning support.</source>
+          <target state="translated">此接口镜像方法中找到&lt;xref:System.Configuration.ApplicationSettingsBase&gt;类，该类主要版本控制支持。&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typically, you should design settings providers to be single-instanced to avoid storage resource contention.</source>
+          <target state="translated">通常情况下，你应设计设置提供程序单一实例，以避免存储资源争用。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Providers should also be thread-safe because they can be called simultaneously from multiple wrapper instances in a single application domain or from multiple applications in different domains.</source>
+          <target state="translated">提供程序也应该是线程安全，因为它们可以通过从单个应用程序域中的多个包装实例或不同域中的多个应用程序同时调用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>At minimum, a settings provider must recognize three attributes—&lt;xref:System.Configuration.ApplicationScopedSettingAttribute&gt;, &lt;xref:System.Configuration.UserScopedSettingAttribute&gt;, and &lt;xref:System.Configuration.DefaultSettingValueAttribute&gt;.</source>
+          <target state="translated">在最小值、 设置提供程序必须识别三个特性-&lt;xref:System.Configuration.ApplicationScopedSettingAttribute&gt;， &lt;xref:System.Configuration.UserScopedSettingAttribute&gt;，和&lt;xref:System.Configuration.DefaultSettingValueAttribute&gt;。&lt;/xref:System.Configuration.DefaultSettingValueAttribute&gt; &lt;/xref:System.Configuration.UserScopedSettingAttribute&gt; &lt;/xref:System.Configuration.ApplicationScopedSettingAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For a full listing of attributes that can be applied to application settings, see <bpt id="p1">[</bpt>Application Settings Attributes<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">可以应用于应用程序设置的属性的完整列表，请参阅<bpt id="p1">[</bpt>的应用程序设置属性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A custom setting provider should resolve attributes applied to settings properties in the following manner:      1.</source>
+          <target state="translated">自定义设置提供程序应解决按以下方式应用于设置属性的属性︰ 1。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the provider can fulfill the request implied by the attribute, obviously it should do so.</source>
+          <target state="translated">如果提供程序可以满足所暗示属性的请求，显然应该这样做。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the provider cannot fulfill the request, it should ignore it silently.</source>
+          <target state="translated">如果提供程序无法完成请求，它应以无提示方式忽略它。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If two or more properties conflict; for example, a property being decorated with both &lt;xref:System.Configuration.ApplicationScopedSettingAttribute&gt; and &lt;xref:System.Configuration.UserScopedSettingAttribute&gt;; the provider should throw a &lt;xref:System.Configuration.ConfigurationException&gt;.</source>
+          <target state="translated">如果两个或多个属性发生冲突;例如，使用这两个&lt;xref:System.Configuration.ApplicationScopedSettingAttribute&gt;并且&lt;xref:System.Configuration.UserScopedSettingAttribute&gt;; 提供程序应引发一种&lt;xref:System.Configuration.ConfigurationException&gt;。&lt;/xref:System.Configuration.ConfigurationException&gt;&lt;/xref:System.Configuration.UserScopedSettingAttribute&gt;&lt;/xref:System.Configuration.ApplicationScopedSettingAttribute&gt;正在修饰的属性</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的实例<bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is this default protected constructor for this abstract class.</source>
+          <target state="translated">这是此抽象类此默认受保护构造函数。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Derived custom settings providers are not required to provide an explicit constructor because the &lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt; method typically performs all initialization.</source>
+          <target state="translated">派生自定义设置提供程序不需要提供的显式构造函数，因为&lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt;方法通常会执行所有的初始化。&lt;/xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Client code typically does not directly instantiate a settings provider; instead, you use the following procedure to find a settings provider for a particular settings property:      1.</source>
+          <target state="translated">客户端代码通常不会不直接实例化设置提供程序;相反，使用以下过程设置提供程序查找特定的设置属性︰ 1。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.ComponentModel.Component.GetService%2A&gt; method on the current &lt;xref:System.ComponentModel.Component&gt; or &lt;xref:System.ComponentModel.ISite&gt; to return a reference to the current &lt;xref:System.Configuration.ISettingsProviderService&gt;.</source>
+          <target state="translated">调用&lt;xref:System.ComponentModel.Component.GetService%2A&gt;方法的当前&lt;xref:System.ComponentModel.Component&gt;或&lt;xref:System.ComponentModel.ISite&gt;返回到当前&lt;xref:System.Configuration.ISettingsProviderService&gt;.&lt;/xref:System.Configuration.ISettingsProviderService&gt;的引用&lt;/xref:System.ComponentModel.ISite&gt;&lt;/xref:System.ComponentModel.Component&gt;&lt;/xref:System.ComponentModel.Component.GetService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Configuration.ISettingsProviderService.GetSettingsProvider%2A&gt; method of the &lt;xref:System.Configuration.ISettingsProviderService&gt; retrieved in the first step to return the settings provider.</source>
+          <target state="translated">调用&lt;xref:System.Configuration.ISettingsProviderService.GetSettingsProvider%2A&gt;方法&lt;xref:System.Configuration.ISettingsProviderService&gt;在返回设置提供程序的第一步中检索。&lt;/xref:System.Configuration.ISettingsProviderService&gt; &lt;/xref:System.Configuration.ISettingsProviderService.GetSettingsProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the currently running application.</source>
+          <target state="translated">获取或设置当前正在运行的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The ApplicationName and &lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt; properties help to disambiguate similarly named setting properties in different applications.</source>
+          <target state="translated">应用程序名称和&lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;属性帮助消除在不同的应用程序中命名的设置属性同样的歧义。&lt;/xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the application's shortened name, which does not contain a full path or extension, for example, <ph id="ph1">`SimpleAppSettings`</ph>.</source>
+          <target state="translated">A &lt;xref:System.String&gt;，其中包含应用程序的短的名称，不包含的完整路径或扩展，例如， <ph id="ph1">`SimpleAppSettings`</ph>。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns the collection of settings property values for the specified application instance and settings property group.</source>
+          <target state="translated">返回指定的应用程序实例和设置属性组的属性值的设置的集合。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The GetPropertyValues method must be implemented to handle special settings, those marked with &lt;xref:System.Configuration.SpecialSettingAttribute&gt;, as well as reconcile application and user settings.</source>
+          <target state="translated">必须实现 GetPropertyValues 方法来处理特殊设置，这些标记与&lt;xref:System.Configuration.SpecialSettingAttribute&gt;，以及协调应用程序和用户设置。&lt;/xref:System.Configuration.SpecialSettingAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application use.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述当前的应用程序使用。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the settings property group whose values are to be retrieved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含其值是要检索的设置属性组。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the values for the specified settings property group.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含指定的设置属性组的值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sets the values of the specified group of property settings.</source>
+          <target state="translated">设置指定组的属性设置的值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Configuration.ApplicationSettingsBase&gt; contains the &lt;xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt; method, which is called to persist the values of all of its settings properties.</source>
+          <target state="translated">&lt;xref:System.Configuration.ApplicationSettingsBase&gt;包含&lt;xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt;方法，调用以保留所有其设置属性的值。&lt;/xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt;&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method enumerates through all the settings providers associated with its settings properties, and calls the SetPropertyValues method for each &lt;xref:System.Configuration.SettingsProvider&gt; to perform the actual serialization operation.</source>
+          <target state="translated">此方法通过所有设置提供程序与其设置属性，并为每个调用 SetPropertyValues 方法都枚举&lt;xref:System.Configuration.SettingsProvider&gt;执行实际的序列化操作。&lt;/xref:System.Configuration.SettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The SetPropertyValues method should be implemented with security in mind:      -   Only fully trusted code should be allowed to update application settings.</source>
+          <target state="translated">应考虑到了安全性实现 SetPropertyValues 方法︰ 只有完全受信任的代码应允许更新应用程序设置。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Partially trusted code should be allowed to update only user application settings.</source>
+          <target state="translated">应允许部分受信任的代码更新仅用户应用程序设置。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Untrusted code is not typically allowed to update application settings.</source>
+          <target state="translated">不受信任的代码通常不允许更新应用程序设置。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   Usage quotas should be considered to guard against resource attacks by partially trusted applications.</source>
+          <target state="translated">-使用配额应被视为抵御资源攻击由部分受信任的应用程序。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述当前应用程序使用情况。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the group of property settings to set.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示要设置的属性设置的组。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
