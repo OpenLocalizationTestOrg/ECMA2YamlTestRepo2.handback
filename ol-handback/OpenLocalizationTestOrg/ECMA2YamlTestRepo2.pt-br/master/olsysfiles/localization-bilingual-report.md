@@ -1,31 +1,14 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PaperSize.yml) | InSyncHandedBackSuccess | [Details](#23f51396ae337d3fdc4484d197419d21aa3cd56477707)
  [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
 
 ## Item Details
-##### <a name='23f51396ae337d3fdc4484d197419d21aa3cd56477707'></a> Source: [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PaperSize.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/e66097aeb719a28bdd345718e0186649063d475e/fulldocset/System.Drawing.Printing.PaperSize.yml)
-* Handoff File: [System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf)
-* Handoff Datetime: 2017-03-16 04:26:03
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/ca76842c95299cd8a8b725eb82adb295376306c7/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf)
-* Handback Datetime: 2017-03-20 12:52:57
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-ko-kr-nb-no-nl-nl-pl-pl-pt-br-ru-ru-sv-se-zh-cn-zh-tw_2
-* Bilingual File: [System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/ca76842c95299cd8a8b725eb82adb295376306c7/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.pt-br.xlf)
-* Bilingual Datetime: 2017-03-20 13:11:33
-* [Back to Top](#report-top)
-
 ##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
 * Status: InSyncHandedBackSuccess
 * Target File: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/5f52132cfd6602123f7cc1a9b52f670167c3f210/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
