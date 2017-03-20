@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Web.UI.WebControls.ObjectDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ObjectDataSource.yml) | InSyncHandedBackSuccess | [Details](#d7475d52e369dda78ec42e479dba8991a9f2d03383381)
 
 ## Item Details
-##### <a name='d7475d52e369dda78ec42e479dba8991a9f2d03383381'></a> Source: [fulldocset\System.Web.UI.WebControls.ObjectDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ObjectDataSource.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.ObjectDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/blob/d7eaf9bb4b941029cba05ac696b4f8694c763b84/fulldocset/System.Web.UI.WebControls.ObjectDataSource.yml)
-* Handoff File: [System.Web.UI.WebControls.ObjectDataSource.1a31e13c014e6d36e15d9c44869eb6533ef4cbdf.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/048fd23592e603ad9129cb267e98fb4e977ae69e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Web.UI.WebControls.ObjectDataSource.1a31e13c014e6d36e15d9c44869eb6533ef4cbdf.zh-cn.xlf)
-* Handoff Datetime: 2017-03-16 04:56:23
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.ObjectDataSource.1a31e13c014e6d36e15d9c44869eb6533ef4cbdf.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/6083eeacff1bb8e853a2db80c63e7b9ec4b62c14/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Web.UI.WebControls.ObjectDataSource.1a31e13c014e6d36e15d9c44869eb6533ef4cbdf.zh-cn.xlf)
-* Handback Datetime: 2017-03-20 10:12:27
-* Handback Name: 
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
