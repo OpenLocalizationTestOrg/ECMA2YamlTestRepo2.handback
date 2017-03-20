@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0af5c8f670965d1f8fd2682ca55f1b10e1d69d4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.AuthenticationManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b75d1adb60843492ea4300759011d4887888ca59</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">187a7d000c287b5fa0cbe5c6c1ac0c278951001e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages the authentication modules called during the client authentication process.</source>
+          <target state="translated">管理用戶端驗證程序期間呼叫的驗證模組。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>AuthenticationManager is a static class that manages the authentication modules that an application uses.</source>
+          <target state="translated">AuthenticationManager 是靜態類別，可管理應用程式使用的驗證模組。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When a request is made to protected resources, the AuthenticationManager calls the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method to get an &lt;xref:System.Net.Authorization&gt; instance to use in subsequent requests.</source>
+          <target state="translated">發出要求來保護資源，AuthenticationManager 呼叫&lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;方法來取得&lt;xref:System.Net.Authorization&gt;執行個體將在後續要求中。&lt;/xref:System.Net.Authorization&gt; &lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The AuthenticationManager queries each registered authentication module by calling the &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt; method for each module.</source>
+          <target state="translated">AuthenticationManager 來呼叫查詢的每個已註冊的驗證模組&lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;每個模組的方法。&lt;/xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The first authentication module to return an &lt;xref:System.Net.Authorization&gt; instance is used to authenticate the request.</source>
+          <target state="translated">要傳回的第一個驗證模組&lt;xref:System.Net.Authorization&gt;執行個體用來驗證要求。&lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Modules that provide the basic, digest, negotiate, NTLM, and Kerberos authentication types are registered with the AuthenticationManager by default.</source>
+          <target state="translated">模組可提供基本、 摘要式、 交涉，NTLM，和 Kerberos 驗證類型，預設會註冊與 AuthenticationManager。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Additional authentication modules that implement the &lt;xref:System.Net.IAuthenticationModule&gt; interface can be added using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method.</source>
+          <target state="translated">實作的其他驗證模組&lt;xref:System.Net.IAuthenticationModule&gt;介面可以使用加入&lt;xref:System.Net.AuthenticationManager.Register%2A&gt;方法。&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt; &lt;/xref:System.Net.IAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Authentication modules are called in the order in which they were added to the list.</source>
+          <target state="translated">已加入至清單的順序，會呼叫驗證模組。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Kerberos and negotiate authentication type is not supported on Windows 95/98 or Windows NT 4.0.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Kerberos 和交涉驗證類型不支援 Windows 95/98 或 Windows NT 4.0 上。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Calls each registered authentication module to find the first module that can respond to the authentication request.</source>
+          <target state="translated">呼叫以尋找第一個模組可以驗證要求回應每個已註冊的驗證模組。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Authenticate method calls the &lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt; method on each registered authentication module until one of the module responds with an &lt;xref:System.Net.Authorization&gt; instance.</source>
+          <target state="translated">驗證方法呼叫&lt;xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;方法，直到其中一個模組會以回應每個已註冊的驗證模組在&lt;xref:System.Net.Authorization&gt;執行個體。&lt;/xref:System.Net.Authorization&gt; &lt;/xref:System.Net.IAuthenticationModule.Authenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first &lt;xref:System.Net.Authorization&gt; instance returned is used to authenticate the request.</source>
+          <target state="translated">第一個&lt;xref:System.Net.Authorization&gt;傳回執行個體用來驗證要求。&lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If no authentication module can authenticate the request, the Authenticate method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">如果沒有驗證模組可以驗證要求，則驗證方法會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Authentication modules are called in the order in which they are registered with the &lt;xref:System.Net.AuthenticationManager&gt;.</source>
+          <target state="translated">驗證模組稱為&lt;xref:System.Net.AuthenticationManager&gt;.&lt;/xref:System.Net.AuthenticationManager&gt;向註冊的順序</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The challenge returned by the Internet resource.</source>
+          <target state="translated">傳回與網際網路資源的挑戰。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.WebRequest&gt; that initiated the authentication challenge.</source>
+          <target state="translated">&lt;xref:System.Net.WebRequest&gt;起始驗證挑戰。&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.ICredentials&gt; associated with this request.</source>
+          <target state="translated">&lt;xref:System.Net.ICredentials&gt;與此要求相關聯。&lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class containing the result of the authorization attempt.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含結果的嘗試驗證的類別。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If there is no authentication module to respond to the challenge, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果沒有任何驗證模組的挑戰回應，則這個方法會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;challenge&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;challenge&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;credentials&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;credentials&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the credential policy to be used for resource requests made using the &lt;xref:System.Net.HttpWebRequest&gt; class.</source>
+          <target state="translated">取得或設定認證原則使用資源所提出之要求使用&lt;xref:System.Net.HttpWebRequest&gt;類別。&lt;/xref:System.Net.HttpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The credential policy determines whether to send credentials when sending a request for a network resource, such as the content of a Web page.</source>
+          <target state="translated">認證原則會決定是否要傳送網路資源，例如 Web 網頁內容的要求時傳送的認證。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If credentials are sent, servers that require client authentication can attempt to authenticate the client when the request is received instead of sending a response indicating that the client's credentials are required.</source>
+          <target state="translated">如果傳送認證，需要用戶端驗證的伺服器可以嘗試驗證用戶端，而不是傳送回應，指出用戶端憑證必要在收到要求時。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>While this saves a round trip to the server, this must be balanced against the security risk inherent in sending credentials across the network.</source>
+          <target state="translated">而這會儲存到伺服器來回行程，這必須平衡跨網路傳送認證的固有的安全性風險。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When the destination server does not require client authentication it is best to not send credentials.</source>
+          <target state="translated">目的地伺服器不需要用戶端驗證時最好不傳送認證。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The credential policy will be called only for requests that specify credentials or use a &lt;xref:System.Net.WebProxy&gt; object that specifies credentials.</source>
+          <target state="translated">認證原則將會呼叫只會針對要求指定的認證或不使用&lt;xref:System.Net.WebProxy&gt;物件，指定認證。&lt;/xref:System.Net.WebProxy&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Net.ICredentialPolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that determines whether credentials are sent with requests.</source>
+          <target state="translated">物件，用於實作<bpt id="p1">&lt;xref href="System.Net.ICredentialPolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>決定是否隨著要求傳送認證的介面。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the dictionary that contains Service Principal Names (SPNs) that are used to identify hosts during Kerberos authentication for requests made using &lt;xref:System.Net.WebRequest&gt; and its derived classes.</source>
+          <target state="translated">取得字典，其中包含用來識別主機期間使用所提出之要求的 Kerberos 驗證的服務主體名稱 (Spn)&lt;xref:System.Net.WebRequest&gt;和其衍生的類別。&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An SPN is a name by which a client uniquely identifies an instance of a service or application on a server for purposes of mutual authentication.</source>
+          <target state="translated">SPN 是用戶端用於唯一識別服務或應用程式進行相互驗證的伺服器上的執行個體的名稱。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Mutual authentication is requested by default, and you can require it by setting &lt;xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt; to &lt;xref:System.Net.Security.AuthenticationLevel&gt; in your request.</source>
+          <target state="translated">根據預設，要求相互驗證，而您可以藉由設定要求它&lt;xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt;至&lt;xref:System.Net.Security.AuthenticationLevel&gt;在您的要求。&lt;/xref:System.Net.Security.AuthenticationLevel&gt; &lt;/xref:System.Net.WebRequest.AuthenticationLevel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Net.WebRequest&gt; requires mutual authentication, the SPN for the destination must be supplied by the client.</source>
+          <target state="translated">當&lt;xref:System.Net.WebRequest&gt;需要相互驗證，SPN，如用戶端必須提供目的地。&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you know the SPN, you can add it to the CustomTargetNameDictionary before sending the request.</source>
+          <target state="translated">如果您知道 SPN，您可以將它加入 CustomTargetNameDictionary 傳送要求之前。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you have not added SPN information to this dictionary, the &lt;xref:System.Net.AuthenticationManager&gt; uses the &lt;xref:System.Net.WebRequest.RequestUri%2A&gt; method to compose the most likely SPN; however, this is a computed value and might be incorrect.</source>
+          <target state="translated">如果您不到此字典中，加入 SPN 資訊&lt;xref:System.Net.AuthenticationManager&gt;使用&lt;xref:System.Net.WebRequest.RequestUri%2A&gt;方法來撰寫最可能的 SPN; 不過，這是計算的值，而且可能不正確。&lt;/xref:System.Net.WebRequest.RequestUri%2A&gt; &lt;/xref:System.Net.AuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If mutual authentication is attempted and fails, you can check the dictionary to determine the computed SPN.</source>
+          <target state="translated">如果相互驗證嘗試失敗，您可以檢查字典，以便判斷計算的 SPN。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>No SPN is entered into the dictionary if the authentication protocol does not support mutual authentication.</source>
+          <target state="translated">沒有 SPN 會輸入到字典中，如果驗證通訊協定不支援相互驗證。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To add an SPN value to this dictionary, use the &lt;xref:System.Uri.AbsoluteUri%2A&gt; of the &lt;xref:System.Net.WebRequest.RequestUri%2A&gt; as the key.</source>
+          <target state="translated">若要將 SPN 值新增到此字典，使用&lt;xref:System.Uri.AbsoluteUri%2A&gt;的&lt;xref:System.Net.WebRequest.RequestUri%2A&gt;做為索引鍵。&lt;/xref:System.Net.WebRequest.RequestUri%2A&gt; &lt;/xref:System.Uri.AbsoluteUri%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Internally, the key is truncated to include the &lt;xref:System.Uri.Scheme%2A&gt;, &lt;xref:System.Uri.Host%2A&gt;, and the &lt;xref:System.Uri.Port%2A&gt; if it is not the default port.</source>
+          <target state="translated">就內部而言，索引鍵被截斷成&lt;xref:System.Uri.Scheme%2A&gt;， &lt;xref:System.Uri.Host%2A&gt;，而&lt;xref:System.Uri.Port%2A&gt;如果它不是預設通訊埠&lt;/xref:System.Uri.Port%2A&gt;&lt;/xref:System.Uri.Host%2A&gt;&lt;/xref:System.Uri.Scheme%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Accessing the methods and properties of the CustomTargetNameDictionary requires unrestricted &lt;xref:System.Net.WebPermission&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 存取的方法和屬性的 CustomTargetNameDictionary 需要無限制&lt;xref:System.Net.WebPermission&gt;.&lt;/xref:System.Net.WebPermission&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When Kerberos authentication is performed through a proxy, both the proxy and the ultimate host name need to be resolved to an SPN.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 當 Kerberos 驗證透過 proxy 執行、 proxy 和最終主機名稱都必須解析為 SPN。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The proxy name resolution is protected by a timeout.</source>
+          <target state="translated">Proxy 名稱解析受保護的逾時。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Resolution of the ultimate host name to a SPN requires a DNS lookup, and there is no timeout associated directly with this operation.</source>
+          <target state="translated">為 spn 的最終的主機名稱解析所需的 DNS 查詢，並沒有直接關聯這項作業的逾時。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Therefore synchronous operations may take longer to timeout.</source>
+          <target state="translated">因此同步作業可能需要較長逾時。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To overcome this, add the ultimate host's URI prefix to the SPN cache prior to making requests to it.</source>
+          <target state="translated">若要解決這個問題，將 ultimate 主機的 URI 前置詞加入 SPN 快取之前提出要求。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Version 3.5 SP1 now defaults to specifying the host name used in the request URL in the SPN in the NTLM (NT LAN Manager) authentication exchange when the CustomTargetNameDictionary property is not set.</source>
+          <target state="translated">3.5 版 SP1 現在預設為指定 CustomTargetNameDictionary 屬性未設定時，要求 url 中的 SPN，NTLM (NT LAN Manager) 驗證交換中使用的主機名稱。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The host name used in the request URL may be different from the Host header specified in the &lt;xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt; in the client request.</source>
+          <target state="translated">要求 URL 中使用的主機名稱可能不同的主機標頭中指定&lt;xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt;用戶端要求中。&lt;/xref:System.Net.HttpRequestHeader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The host name used in the request URL may be different from the actual host name of the server, the machine name of the server, the computer's IP address, or the loopback address.</source>
+          <target state="translated">要求 URL 中使用的主機名稱可能不同於伺服器的實際主機名稱、 伺服器、 電腦的 IP 位址或迴路位址的電腦名稱。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In these cases, Windows will fail the authentication request.</source>
+          <target state="translated">在這些情況下，Windows 會讓驗證要求失敗。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To address the issue, you may need to notify Windows that the host name used in the request URL in the client request ("contoso", for example) is actually an alternate name for the local computer.</source>
+          <target state="translated">若要解決這個問題，您可能需要通知使用主機名稱的 Windows 用戶端在要求 URL 中要求 ("contoso"，例如) 是實際的本機電腦的替代名稱。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A writable <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the SPN values for keys composed of host information.</source>
+          <target state="translated">可寫入<bpt id="p1">&lt;xref href="System.Collections.Specialized.StringDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含 SPN 值的索引鍵所組成的主機資訊。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Preauthenticates a request.</source>
+          <target state="translated">預先驗證要求。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the authentication module can preauthenticate the request, the PreAuthenticate method returns an Authentication instance and sends the authorization information to the server preemptively instead of waiting for the resource to issue a challenge.</source>
+          <target state="translated">如果驗證模組可以預先驗證要求，PreAuthenticate 方法會傳回驗證執行個體，並將授權資訊傳送至聯合國而不是等待要發出的挑戰的資源伺服器。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This behavior is outlined in section 3.3 of RFC 2617 (HTTP Authentication: Basic and Digest Access Authentication).</source>
+          <target state="translated">此行為述 RFC 2617 的 3.3 節 (HTTP 驗證︰ 基本與摘要式存取驗證)。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Authentication modules that support preauthentication allow clients to improve server efficiency by avoiding extra round trips caused by authentication challenges.</source>
+          <target state="translated">支援預先驗證的驗證模組會讓用戶端藉由避免發生驗證問題所造成的額外往返改善伺服器效能。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Authorization modules that can preauthenticate requests set the &lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">授權模組可以預先驗證會要求組&lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt;屬性<ph id="ph1">`true`</ph>。&lt;/xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.WebRequest&gt; to an Internet resource.</source>
+          <target state="translated">A&lt;xref:System.Net.WebRequest&gt;對網際網路資源。&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.ICredentials&gt; associated with the request.</source>
+          <target state="translated">&lt;xref:System.Net.ICredentials&gt;與要求相關聯。&lt;/xref:System.Net.ICredentials&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class if the request can be preauthenticated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別要求可能是預先驗證; 否則如果<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">credentials</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, this method returns <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">credentials</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, this method returns <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Registers an authentication module with the authentication manager.</source>
+          <target state="translated">使用驗證管理員中註冊驗證模組。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The Register method adds authentication modules to the end of the list of modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">Register 方法將驗證模組新增至所呼叫的模組清單的結尾&lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;方法。&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Authentication modules are called in the order in which they were added to the list.</source>
+          <target state="translated">已加入至清單的順序，會呼叫驗證模組。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If a module with the same &lt;xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt; is already registered, this method removes the registered module and adds <ph id="ph1">`authenticationModule`</ph> to the end of the list.</source>
+          <target state="translated">如果具有相同的模組&lt;xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt;是已註冊，這個方法會移除已註冊的模組，並且加入<ph id="ph1">`authenticationModule`</ph>到清單的結尾。&lt;/xref:System.Net.IAuthenticationModule.AuthenticationType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to register with the authentication manager.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>向驗證管理員。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets a list of authentication modules that are registered with the authentication manager.</source>
+          <target state="translated">取得驗證管理員註冊的驗證模組的清單。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The RegisteredModules property provides an &lt;xref:System.Collections.IEnumerator&gt; instance that enables the list of registered authentication modules to be read.</source>
+          <target state="translated">RegisteredModules 屬性提供&lt;xref:System.Collections.IEnumerator&gt;，可讓清單執行個體註冊驗證模組來讀取。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method adds modules to the list, and the &lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt; method removes modules from it.</source>
+          <target state="translated">&lt;xref:System.Net.AuthenticationManager.Register%2A&gt;方法會加入至清單，並&lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt;方法中移除。 請從模組&lt;/xref:System.Net.AuthenticationManager.Unregister%2A&gt;的模組&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that enables the registered authentication modules to be read.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;，可讓要讀取的已註冊的驗證模組。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Removes the specified authentication module from the list of registered modules.</source>
+          <target state="translated">已登錄的模組清單中移除指定的驗證模組。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The Unregister method removes the specified authentication module from the list of authentication modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">取消註冊方法所呼叫的驗證模組清單中移除指定的驗證模組&lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;方法。&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The module must have been added to the list using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method before it can be removed from the list.</source>
+          <target state="translated">此模組必須已加入至清單使用&lt;xref:System.Net.AuthenticationManager.Register%2A&gt;方法之前，它可以從清單中移除。&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the list of registered modules.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>若要移除的已登錄的模組清單。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationModule&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not registered.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Net.IAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>未註冊。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Removes authentication modules with the specified authentication scheme from the list of registered modules.</source>
+          <target state="translated">已登錄的模組清單中移除具有指定的驗證配置的驗證模組。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt; method removes the authentication module with the specified authentication scheme from the list of authentication modules called by the &lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Net.AuthenticationManager.Unregister%2A&gt;方法所呼叫的驗證模組清單中移除具有指定的驗證配置的驗證模組&lt;xref:System.Net.AuthenticationManager.Authenticate%2A&gt;方法。&lt;/xref:System.Net.AuthenticationManager.Authenticate%2A&gt; &lt;/xref:System.Net.AuthenticationManager.Unregister%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The module must have been added to the list using the &lt;xref:System.Net.AuthenticationManager.Register%2A&gt; method before it can be removed from the list.</source>
+          <target state="translated">此模組必須已加入至清單使用&lt;xref:System.Net.AuthenticationManager.Register%2A&gt;方法之前，它可以從清單中移除。&lt;/xref:System.Net.AuthenticationManager.Register%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The authentication scheme of the module to remove.</source>
+          <target state="translated">若要移除之模組的驗證配置。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;authenticationScheme&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;authenticationScheme&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A module for this authentication scheme is not registered.</source>
+          <target state="translated">此驗證配置的模組不在登錄中。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
