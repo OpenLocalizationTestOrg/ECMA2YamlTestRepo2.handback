@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14be8aef7bbf0954b3531707eda6ac0d1c8eb140</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Linq.DataContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec73a3276a3d219a2c75da2db86ea7db63ac44fc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15150288bd3c42b577a6b50773bca2a430b4e3e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the main entry point for the <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> framework.</source>
+          <target state="translated">Representa o ponto de entrada principal para o <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> framework.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataContext is the source of all entities mapped over a database connection.</source>
+          <target state="translated">O DataContext é a origem de todas as entidades mapeado através de uma ligação de base de dados.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It tracks changes that you made to all retrieved entities and maintains an "identity cache" that guarantees that entities retrieved more than one time are represented by using the same object instance.</source>
+          <target state="translated">Regista as alterações que efetuou para todas as entidades obtidas e mantém uma "identidade cache da" que garante que as entidades obtidos mais do que uma vez é representados por utilizar a mesma instância de objeto.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, a DataContext instance is designed to last for one "unit of work" however your application defines that term.</source>
+          <target state="translated">Em geral, uma instância de DataContext foi concebida para última para uma "unidade de trabalho", no entanto a sua aplicação define esse termo.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A DataContext is lightweight and is not expensive to create.</source>
+          <target state="translated">Um DataContext é simples e não é Caro criar.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> application creates DataContext instances at method scope or as a member of short-lived classes that represent a logical set of related database operations.</source>
+          <target state="translated">Típica <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> aplicação cria instâncias DataContext no âmbito do método ou como membro de curta duração classes que representam um conjunto lógico de operações de base de dados relacionados.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing the connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe ao consultar a ligação utilizada pelo <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Data.Linq.DataContext&gt; opens and closes a database connection as needed if you provide a closed connection or a connection string.</source>
+          <target state="translated">A &lt;xref:System.Data.Linq.DataContext&gt;abre e fecha uma ligação de base de dados conforme necessário se fornecer uma ligação fechada ou uma cadeia de ligação.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, you should never have to call <ph id="ph1">`Dispose`</ph> on a &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">Em geral, deve nunca tem de chamar <ph id="ph1">`Dispose`</ph> no &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you provide an open connection, the &lt;xref:System.Data.Linq.DataContext&gt; will not close it.</source>
+          <target state="translated">Se fornecer uma ligação aberta, &lt;xref:System.Data.Linq.DataContext&gt;não será fechado mesmo.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, do not instantiate a &lt;xref:System.Data.Linq.DataContext&gt; with an open connection unless you have a good reason to do this.</source>
+          <target state="translated">Por conseguinte, não instanciar um &lt;xref:System.Data.Linq.DataContext&gt;com uma ligação aberta, a menos que tenha um bom motivo para efetuar este procedimento.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a &lt;xref:System.Transactions&gt; transaction, a &lt;xref:System.Data.Linq.DataContext&gt; will not open or close a connection to avoid promotion.</source>
+          <target state="translated">Num &lt;xref:System.Transactions&gt;transação, um &lt;xref:System.Data.Linq.DataContext&gt;não irá abrir ou fechar uma ligação para evitar a promoção.&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">A ligação utilizada pelo <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe por referenciar uma origem de ficheiro.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">Este argumento pode ser qualquer um dos seguintes: O nome de um ficheiro onde reside uma base de dados do SQL Server Express.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">O nome de um servidor onde está presente uma base de dados.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">Neste caso, o fornecedor utiliza a base de dados predefinido para um utilizador.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">Uma cadeia de ligação completa.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>transmite apenas a cadeia para o fornecedor sem modificação.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a connection and a mapping source.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe por referenciar uma ligação e uma origem de mapeamento.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The connection used by the .NET Framework.</source>
+          <target state="translated">A ligação utilizada pelo .NET Framework.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">Uma origem para o mapeamento.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source and a mapping source.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe por referenciar uma origem de ficheiro e uma origem de mapeamento.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">Este argumento pode ser qualquer um dos seguintes: O nome de um ficheiro onde reside uma base de dados do SQL Server Express.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">O nome de um servidor onde está presente uma base de dados.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">Neste caso, o fornecedor utiliza a base de dados predefinido para um utilizador.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">Uma cadeia de ligação completa.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>transmite apenas a cadeia para o fornecedor sem modificação.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">Uma origem para o mapeamento.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a collection of objects that caused concurrency conflicts when &lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt; was called.</source>
+          <target state="translated">Obtém uma coleção de objetos que causou a conflitos de concorrência quando &lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt;foi chamado.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example shows how the collection can be iterated over to retrieve conflict information.</source>
+          <target state="translated">O exemplo seguinte mostra como a coleção pode ser iterated através de obter as informações de conflito.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A collection of objects that caused concurrency conflicts.</source>
+          <target state="translated">Uma coleção de objetos que causou a conflitos de concorrência.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">Obtém ou define um valor que aumenta o período de tempo limite para consultas que seria; caso contrário, o limite de tempo durante o período de tempo limite predefinido.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets or sets the command time-out used to execute generated commands (<ph id="ph1">`IDbCommands`</ph>).</source>
+          <target state="translated">Esta propriedade obtém ou define o limite de tempo do comando utilizado para executar comandos gerados (<ph id="ph1">`IDbCommands`</ph>).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;.&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this property is not set, the default value of &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt; is used for query command execution.</source>
+          <target state="translated">Quando esta propriedade não está definido, o valor predefinido de &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;é utilizada para a execução do comando de consulta.&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This default value is set by the storage provider.</source>
+          <target state="translated">Este valor predefinido é definida pelo fornecedor de armazenamento.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that some providers may throw exceptions if this value is set to a non-zero value.</source>
+          <target state="translated">Tenha em atenção que alguns fornecedores podem acionar exceções se este valor é definido para um valor diferente de zero.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An integer value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">Um número inteiro que aumenta o período de tempo limite para consultas que seria; caso contrário, o limite de tempo durante o período de tempo limite predefinido.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the connection used by the framework.</source>
+          <target state="translated">Obtém a ligação utilizada pelo framework.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to interoperate with relational ADO.NET code.</source>
+          <target state="translated">Pode utilizar esta propriedade para interagir com o código de ADO.NET relacional.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned connection will be closed unless it has been explicitly opened by the user.</source>
+          <target state="translated">A ligação devolvida será fechada, a menos que tenha sido explicitamente aberta pelo utilizador.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The connection used by the framework.</source>
+          <target state="translated">A ligação utilizada pelo framework.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a database on the server.</source>
+          <target state="translated">Cria uma base de dados no servidor.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the database is derived by using the following algorithm:      -   If a database is identified in the connection string, its name is used.</source>
+          <target state="translated">O nome da base de dados é derivado utilizando o seguinte algoritmo:-se uma base de dados for identificado na cadeia de ligação, o respetivo nome é utilizado.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt; attribute is present, its &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; property is used as the name of the database.</source>
+          <target state="translated">-Se um &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;atributo estiver presente, o &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt;propriedade é utilizada como o nome da base de dados.&lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; &lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If there is no database tag in the connection string and a strongly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, a database that has the same name as the &lt;xref:System.Data.Linq.DataContext&gt; inheriting class is checked.</source>
+          <target state="translated">-Se não existir nenhuma tag de base de dados na cadeia de ligação e um com tipo seguro &lt;xref:System.Data.Linq.DataContext&gt;é utilizado, uma base de dados que tenha o mesmo nome que o &lt;xref:System.Data.Linq.DataContext&gt;a herança de classe está marcada.&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a weakly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, an exception is thrown.</source>
+          <target state="translated">-Se escreveu uma weakly &lt;xref:System.Data.Linq.DataContext&gt;é utilizado, é emitida uma exceção.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Data.Linq.DataContext&gt; has been created by using a file name, the database corresponding to that file name is created.</source>
+          <target state="translated">-Se a &lt;xref:System.Data.Linq.DataContext&gt;foi criada utilizando um nome de ficheiro, a base de dados correspondente para esse nome de ficheiro é criado.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Determines whether the associated database can be opened.</source>
+          <target state="translated">Determina se é possível abrir a base de dados associada.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to attempt to open the associated database.</source>
+          <target state="translated">Este método utiliza a ligação no &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;propriedade ao tentar abrir a base de dados associada.&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified database can be opened; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se for possível abrir a base de dados especificado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to delay-load one-to-many or one-to-one relationships.</source>
+          <target state="translated">Obtém ou define um valor que indica se a carga de atraso relações um-para-muitos ou um para uma.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the code accesses one of these relationships, null is returned if the relationship is one-to-one, and an empty collection is returned if it is one-to-many.</source>
+          <target state="translated">Quando o código acede a uma destas relações nulo é devolvido se a relação um para um, e uma coleção vazia é devolvida se se tratar de um-para-muitos.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The relationships can still be filled by setting the &lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt; property.</source>
+          <target state="translated">As relações ainda podem ser preenchidas através da definição de &lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;propriedade.&lt;/xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The main scenario for this property is to enable you to extract a piece of the object model and send it out (for example, to a Web service).</source>
+          <target state="translated">O cenário de principal para esta propriedade é permitir-lhe extrair uma parte do modelo de objetos e enviar (por exemplo, para um serviço Web).</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If this property is set to <ph id="ph2">`false`</ph> after a query has been executed, an exception is thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se esta propriedade estiver definida como <ph id="ph2">`false`</ph> depois de uma consulta foi executada, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the <bpt id="p1">**</bpt>Valid Modes<ept id="p1">**</ept> section below for more information.</source>
+          <target state="translated">Consulte o <bpt id="p1">**</bpt>modos válidos<ept id="p1">**</ept> secção abaixo para obter mais informações.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid modes    Deferred loading requires object tracking.</source>
+          <target state="translated">Carregamento de diferida modos válidos necessita de controlo de objetos.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the following three modes are valid:      -   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Só os seguintes três modos são válidos:- &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;= <ph id="ph1">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeferredLoadingEnabled is ignored and inferred to be <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">DeferredLoadingEnabled é ignorado e inferido ser <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior corresponds to a read-only &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">Este comportamento corresponde a um só de leitura &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeferredLoadingEnabled = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">DeferredLoadingEnabled = <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This situation corresponds to a &lt;xref:System.Data.Linq.DataContext&gt; that allows users to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but it does not enable deferred loading.</source>
+          <target state="translated">Esta situação corresponde a um &lt;xref:System.Data.Linq.DataContext&gt;que permite aos utilizadores carregar um gráfico de objeto, utilizando &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;diretivas, mas não ativar o carregamento deferido.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Both are set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-São definidos como <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default.</source>
+          <target state="translated">Esta é a predefinição.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The flags may not be changed after a query has been executed.</source>
+          <target state="translated">Os sinalizadores não podem ser alterados depois de uma consulta foi executada.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change after the execution of the first query that uses that &lt;xref:System.Data.Linq.DataContext&gt; throws an exception.</source>
+          <target state="translated">Qualquer alteração após a execução da primeira consulta que utiliza esse &lt;xref:System.Data.Linq.DataContext&gt;emite uma exceção.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if deferred loading is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o carregamento deferido está ativado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Deletes the associated database.</source>
+          <target state="translated">Elimina a base de dados associada.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to identify the database to be deleted.</source>
+          <target state="translated">Este método utiliza a ligação no &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;propriedade para identificar a base de dados será eliminada.&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Versões de todos os recursos utilizados pela instância atual do <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resource.</source>
+          <target state="translated">Liberta os recursos não geridos utilizados pelo <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe e opcionalmente liberta os recursos geridos.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Para libertar recursos geridos e; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para libertar recursos apenas não geridos.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Executes SQL commands directly on the database.</source>
+          <target state="translated">Executa comandos do SQL Server diretamente na base de dados.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The SQL command to be executed.</source>
+          <target state="translated">O comando de SQL Server para ser executada.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">A matriz de parâmetros a transmitir ao comando.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">Tenha em atenção o seguinte comportamento: se o número de objetos na matriz é inferior ao número mais elevado identificado na cadeia de comandos, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">Se a matriz contém objetos que não são referenciados na cadeia de comandos, sem exceção é emitida.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If any one of the parameters is null, it is converted to <bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se qualquer um dos parâmetros é nulo, é convertido para <bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The number of rows modified by the executed command.</source>
+          <target state="translated">O número de linhas modificadas pelo comando executado.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Executes, inside delete override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for delete operations.</source>
+          <target state="translated">Executa, dentro de métodos de substituição de eliminação, para redelegate para <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> a tarefa de gerar e executar SQL dinâmica para operações de eliminação.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">Consulte &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The entity to be deleted.</source>
+          <target state="translated">A entidade seja eliminado.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Executes, inside insert override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for insert operations.</source>
+          <target state="translated">Executa, dentro de métodos de substituição de inserção, para redelegate para <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> a tarefa de gerar e executar SQL dinâmica para operações de inserção.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   Because the method has a protected modifier, its use requires subclassing &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">Tenha em atenção as seguintes considerações:-porque o método tem um modificador protegido, a sua utilização requer subclassing &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An exception is thrown if this operation is not called inside a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">-É emitida uma exceção se esta operação não é chamada dentro de um &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;operação.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not intended to be called as a stand-alone operation outside the scope of a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">Não se destina a ser chamado como uma operação autónoma fora do âmbito de um &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;operação.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; itself calls override methods if they are implemented and the previous methods are intended to be called inside the override methods.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;próprio chamadas substituem métodos se são implementados e os métodos anteriores são se destina a ser chamado dentro de métodos de substituição.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is the responsibility of the developer to pass in the correct entity.</source>
+          <target state="translated">-É da responsabilidade do programador para passar na entidade correta.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation verifies that the passed-in entity is tracked.</source>
+          <target state="translated">A implementação verifica que a entidade de transmitido é controlada.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it is the responsibility of the developer to maintain the order or pass in the same entity two times.</source>
+          <target state="translated">No entanto, é da responsabilidade do programador para manter a ordem ou transmita na mesma entidade duas vezes.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is the responsibility of the developer to invoke the correct dynamic API.</source>
+          <target state="translated">-É da responsabilidade do programador para invocar a API dinâmica correta.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the <ph id="ph1">`Update`</ph> override method, only the &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt; method can be called.</source>
+          <target state="translated">Por exemplo, no <ph id="ph1">`Update`</ph> substituir o método, apenas o &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;método pode ser chamado.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> does not detect or verify whether the invoked dynamic method matches the applicable operation.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>não Deteta nem verificar se o método invocado dinâmico corresponde a operação aplicável.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results are undefined if an inapplicable method is called (for example, calling &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt; for an object to be updated).</source>
+          <target state="translated">Os resultados são indefinidos se denomina-se um método forçando (por exemplo, ao chamar &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;para um objeto a ser atualizado).&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The entity to be inserted.</source>
+          <target state="translated">A entidade para inserir.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Executes, inside update override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for update operations.</source>
+          <target state="translated">Executa, dentro de métodos de substituição de atualização, para redelegate para <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> a tarefa de gerar e executar SQL dinâmica para operações de atualização.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">Consulte &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The entity to be updated.</source>
+          <target state="translated">A entidade de ser atualizados.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Executes the stored database procedure or scalar function associated with the specified CLR method.</source>
+          <target state="translated">Executa a função escalar associadas com o método CLR especificado ou o procedimento armazenado de base de dados.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ExecuteMethodCall method is used in automatically generated code and acts as a proxy to database functions.</source>
+          <target state="translated">O método ExecuteMethodCall é utilizado no código gerado automaticamente e age como um proxy para funções de base de dados.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The instance of the method invocation (the current object).</source>
+          <target state="translated">A instância da invocação do método (o objeto atual).</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Identifies the CLR method that corresponds to a database method.</source>
+          <target state="translated">Identifica o método CLR que corresponde a um método de base de dados.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">A matriz de parâmetros a transmitir ao comando.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The result (the return value and output parameters) of executing the specified method.</source>
+          <target state="translated">O resultado (o valor de retorno e os parâmetros de saída) ao executar o método especificado.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Executes SQL queries directly on the database.</source>
+          <target state="translated">Executa as consultas SQL diretamente na base de dados.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">O tipo do <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> a ser devolvido.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result of the query to fields or properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">O algoritmo de correspondência de colunas nos resultados da consulta para os campos ou propriedades no objeto funciona da seguinte forma: se um campo ou propriedade está mapeada para um nome de coluna específico, esse nome de coluna é esperado o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">Se um campo ou propriedade não está mapeada, uma coluna com o mesmo nome que o campo ou propriedade é esperada o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">A comparação é realizada procura primeiro uma correspondência de maiúsculas e minúsculas.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search occurs for a case-insensitive match.</source>
+          <target state="translated">Se esta correspondência não for encontrada, uma pesquisa subsequente ocorre uma correspondência sensível.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A consulta tem de devolver todos os campos controlados e propriedades do objeto (exceto as que são carregadas de forma diferida) quando todas as condições seguintes forem verdadeiras: <ph id="ph1">`T`</ph> é uma entidade explicitamente controlada pelo <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">A entidade tem uma chave primária.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">Caso contrário, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The SQL query to be executed.</source>
+          <target state="translated">A consulta de SQL Server para ser executada.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">A matriz de parâmetros a transmitir ao comando.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">Tenha em atenção o seguinte comportamento: se o número de objetos na matriz é inferior ao número mais elevado identificado na cadeia de comandos, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">Se a matriz contém objetos que não são referenciados na cadeia de comandos, sem exceção é emitida.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If a parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is converted to <bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se for um parâmetro <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, é convertido <bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> collection of objects returned by the query.</source>
+          <target state="translated">Um <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> coleção de objetos devolvidos pela consulta.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the modified objects tracked by <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obtém os objetos modificados controlados pelo <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   GetChangeSet might have side effects, such as inference of insert and delete operations that are usually performed at the time of &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.</source>
+          <target state="translated">Tenha em atenção as seguintes considerações:-GetChangeSet pode ter efeitos secundários, tais como a inferência de insert e eliminar as operações que são normalmente executadas no momento da &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, objects that are used in the following operations can create corresponding inferred operations in the following list:          -   &lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt; to &lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;.</source>
+          <target state="translated">Por exemplo, os objetos que são utilizados nas seguintes operações podem criar operações inferidas correspondentes na lista seguinte:- &lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt;para &lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;.&lt;/xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.EntityRef%601&gt; assignment to null (possibly because of &lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; to &lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;.</source>
+          <target state="translated">- &lt;xref:System.Data.Linq.EntityRef%601&gt;atribuição como nulo (possivelmente devido a &lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt;para &lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;.&lt;/xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; &lt;/xref:System.Data.Linq.EntityRef%601&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The set may not be ordered according to foreign key constraints.</source>
+          <target state="translated">-O conjunto não pode ser ordenado, de acordo com as restrições de chave externas.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Database-generated values (for example, primary and foreign key values, timestamps, and so forth) are not available.</source>
+          <target state="translated">-Base de dados-valores gerados pelo (por exemplo, valores de chaves primários e externas, carimbos e assim sucessivamente) não estão disponíveis.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such information requires database command execution and perhaps the propagation of retrieved information (for example, foreign key from primary key).</source>
+          <target state="translated">Essas informações requerem a execução do comando de base de dados e talvez da propagação das informações obtidas (por exemplo, a chave externa da chave principal).</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The set of changed objects is computed at the time of the call.</source>
+          <target state="translated">-O conjunto de objetos alterados é calculado no momento da chamada.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls to &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; can produce a different set if additional changes are made.</source>
+          <target state="translated">As chamadas subsequentes para &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;pode produzir um conjunto diferente, caso sejam feitas alterações adicionais.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Output when no changes have been made appears as follows:       <ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></source>
+          <target state="translated">Resultado quando não foram feitas alterações aparece da seguinte forma:<ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The set of objects is returned as three read-only collections.</source>
+          <target state="translated">O conjunto de objetos é devolvido como três coleções só de leitura.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the information about SQL commands generated by <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>.</source>
+          <target state="translated">Obtém as informações sobre os comandos SQL gerados pelo <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is only a getter and does not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">Este método é apenas um getter e não afeta &lt;xref:System.Data.Linq.DataContext&gt;Estado.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   The argument must be non-null.</source>
+          <target state="translated">Tenha em atenção as seguintes considerações:-o argumento tem de ser não nulo.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a null argument exception is thrown.</source>
+          <target state="translated">Caso contrário, é emitida uma exceção de argumento nulo.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Normal query translation exceptions thrown during <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> query execution apply for a query that cannot be translated.</source>
+          <target state="translated">-Exceções de tradução de consulta normal emitidas durante <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> a execução da consulta aplicam-se para uma consulta que não pode ser convertida.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Only the first query command is returned.</source>
+          <target state="translated">-Apenas o primeiro comando de consulta é devolvido.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, additional commands that are used for eager loading (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;) are not included.</source>
+          <target state="translated">Especificamente, os comandos adicionais que são utilizados para carregamento eager (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;) não estão incluídos.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.DataContext&gt; does not track what the user does with the command.</source>
+          <target state="translated">- &lt;xref:System.Data.Linq.DataContext&gt;controlar o que faz o utilizador com o comando.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, results from the execution of the returned command are not tracked and do not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">Por exemplo, os resultados da execução do comando devolvido não são controlados e não afetam &lt;xref:System.Data.Linq.DataContext&gt;Estado.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The query whose SQL command information is to be retrieved.</source>
+          <target state="translated">A consulta cujas informações de comando do SQL Server estão a recuperar.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The requested command information object.</source>
+          <target state="translated">O objeto de informações do comando solicitado.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Returns a collection of objects of a particular type, where the type is defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Devolve uma coleção de objetos de um determinado tipo, onde o tipo é definido pelo <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a weakly typed version of &lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.</source>
+          <target state="translated">Esta é uma versão de &lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.GetTable%2A&gt; weakly escrita</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is important to have a weakly typed version because it is a relatively common practice to construct queries dynamically.</source>
+          <target state="translated">É importante que tenha uma versão weakly escrita porque é uma prática comum relativamente ao construir consultas dinamicamente.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It would be inconvenient to force the application to use reflection to call the correct generic method.</source>
+          <target state="translated">Seria inconveniente forçar a aplicação para utilizar reflexão para chamar o método genérico correto.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no collection for a particular type, an exception is thrown.</source>
+          <target state="translated">Se não houver nenhuma coleção para um determinado tipo, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The type of the objects to be returned.</source>
+          <target state="translated">O tipo dos objetos a ser devolvido.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A collection of objects defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Uma coleção de objetos definidos pelo <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obtém ou define o <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associada a este <bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets or sets the options that are used to define prefetch behavior for deferred-loaded members and membership of related collections.</source>
+          <target state="translated">Esta propriedade obtém ou define as opções que são utilizadas para definir o comportamento de obtenção prévia para membros atrasou-carregar e associação de coleções relacionadas.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The prefetch load options for related data.</source>
+          <target state="translated">A obtenção prévia carregar as opções para dados relacionados.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets or sets the destination to write the SQL query or command.</source>
+          <target state="translated">Obtém ou define o destino ao escrever a consulta de SQL Server ou o comando.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set this property to <ph id="ph1">`null`</ph> to disable command logging.</source>
+          <target state="translated">Defina esta propriedade como <ph id="ph1">`null`</ph> para desativar o registo de comando.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; to use for writing the command.</source>
+          <target state="translated">O &lt;xref:System.IO.TextReader&gt;a utilizar para escrever o comando.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the mapping is based.</source>
+          <target state="translated">Obtém o <bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que o mapeamento se baseia.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The mapping between a database and domain objects.</source>
+          <target state="translated">O mapeamento entre objetos de base de dados e de domínio.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether object tracking is enabled.</source>
+          <target state="translated">Obtém ou define um valor que indica se o controlo de objetos está ativado.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to <ph id="ph1">`false`</ph> improves performance at retrieval time, because there are fewer items to track.</source>
+          <target state="translated">Definição desta propriedade como <ph id="ph1">`false`</ph> melhora o desempenho em tempo de obtenção, porque existem menos itens para controlar.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is thrown:      -   If the property is set to <ph id="ph1">`false`</ph> after a query has been executed.</source>
+          <target state="translated">É emitida uma exceção: - se a propriedade está definida como <ph id="ph1">`false`</ph> depois de uma consulta foi executada.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the Valid Modes section in &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">Para obter mais informações, consulte a secção modos válidos &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the property is set to <ph id="ph1">`false`</ph> and &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; is called.</source>
+          <target state="translated">-Se a propriedade estiver definida como <ph id="ph1">`false`</ph> e &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;é chamado.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`false`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is ignored and treated as <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Se for ObjectTrackingEnabled <ph id="ph1">`false`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;é ignorada e tratada como <ph id="ph2">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the &lt;xref:System.Data.Linq.DataContext&gt; is read-only.</source>
+          <target state="translated">Neste caso, o &lt;xref:System.Data.Linq.DataContext&gt;é só de leitura.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Se for ObjectTrackingEnabled <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;é <ph id="ph2">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, &lt;xref:System.Data.Linq.DataContext&gt; allows you to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but does not enable deferred loading.</source>
+          <target state="translated">Neste caso, &lt;xref:System.Data.Linq.DataContext&gt;permite-lhe carregar um gráfico de objeto, utilizando &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;diretivas, mas não a ativar o carregamento deferido.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object tracking is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo de objetos está ativado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Refreshes a collection of entity objects according to the specified mode.</source>
+          <target state="translated">Atualiza uma coleção de objetos de entidade, de acordo com o modo especificado.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">Um valor que especifica os conflitos de concorrência otimista como são processadas.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The collection of entities to be refreshed.</source>
+          <target state="translated">A coleção de entidades para ser atualizado.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Refreshes an entity object according to the specified mode.</source>
+          <target state="translated">Atualiza um objeto de entidade, de acordo com o modo especificado.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">Um valor que especifica os conflitos de concorrência otimista como são processadas.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The object to be refreshed.</source>
+          <target state="translated">O objeto a ser atualizada.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Refreshes an array of entity objects according to the specified mode.</source>
+          <target state="translated">Atualiza uma matriz de objetos de entidade, de acordo com o modo especificado.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">Um valor que especifica os conflitos de concorrência otimista como são processadas.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The array of entity objects to be refreshed.</source>
+          <target state="translated">A matriz de objetos de entidade a atualizar.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Computes the set of modified objects to be inserted, updated, or deleted, and executes the appropriate commands to implement the changes to the database.</source>
+          <target state="translated">Calcula o conjunto de objetos modificados a inserir, atualizar ou eliminar e executa os comandos apropriados para implementar as alterações à base de dados.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If override methods are present for insert, update, or delete, &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; executes these methods instead of the default <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> commands.</source>
+          <target state="translated">Se não estiverem presentes para inserção, atualização ou eliminação, substituição métodos &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;executa destes métodos, em vez do predefinido <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> comandos.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Sends changes that were made to retrieved objects to the underlying database, and specifies the action to be taken if the submission fails.</source>
+          <target state="translated">Envia as alterações efetuadas ao obter os objetos na base de dados subjacente e especifica a ação a executar se falhar a submissão.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Default failure mode is &lt;xref:System.Data.Linq.ConflictMode&gt;.</source>
+          <target state="translated">Modo de falha de predefinido é &lt;xref:System.Data.Linq.ConflictMode&gt;.&lt;/xref:System.Data.Linq.ConflictMode&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The action to be taken if the submission fails.</source>
+          <target state="translated">A ação a ser efetuada se falhar a submissão.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Valid arguments are as follows:       <bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></source>
+          <target state="translated">Argumentos válidos são os seguintes:<bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Gets or sets a local transaction for the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to use to access the database.</source>
+          <target state="translated">Obtém ou define uma transação local para o <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> a utilizar para aceder a base de dados.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The primary scenario for this property is interoperability with relational <ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph> code.</source>
+          <target state="translated">O cenário de principal para esta propriedade é interoperabilidade com relacional <ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph> código.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, use this property when you write your own <ph id="ph1">`Create`</ph><ph id="ph2">/</ph><ph id="ph3">`Update`</ph><ph id="ph4">/</ph><ph id="ph5">`Delete`</ph> methods to set the <ph id="ph6">`Transaction`</ph> property on the ADO <ph id="ph7">`Command`</ph> object.</source>
+          <target state="translated">Por exemplo, utilizar esta propriedade quando escreve os seus próprios <ph id="ph1">`Create`</ph> <ph id="ph2">/</ph> <ph id="ph3">`Update`</ph> <ph id="ph4">/</ph> <ph id="ph5">`Delete`</ph> diversos métodos para definir o <ph id="ph6">`Transaction`</ph> propriedade o ADO <ph id="ph7">`Command`</ph> objeto.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following:      -   If this property has not been explicitly set, the getter returns null.</source>
+          <target state="translated">Tenha em atenção o seguinte:-Se esta propriedade não foi definida explicitamente, o getter devolve um valor nulo.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the code is executing in a &lt;xref:System.Transactions.Transaction&gt; context, setting this property throws an exception.</source>
+          <target state="translated">-Se está a executar o código num &lt;xref:System.Transactions.Transaction&gt;contexto, a definição desta propriedade emite uma exceção.&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If this property is set and a new &lt;xref:System.Transactions.Transaction&gt; is opened, an exception is thrown when a query or update is executed.</source>
+          <target state="translated">-Se esta propriedade está definido e um novo &lt;xref:System.Transactions.Transaction&gt;é aberto, é emitida uma exceção quando uma consulta ou a atualização é executada.&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The transaction object used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when executing queries and commands.</source>
+          <target state="translated">O objeto de transação utilizado pelo <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> quando executar consultas e comandos.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">Converte um existente <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aos objetos.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a converter.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">Uma lista de objetos devolvido pela conversão.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">Converte um existente <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aos objetos.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">O tipo do <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> a ser devolvido.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result to fields and properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">O algoritmo de correspondência de colunas no resultado aos campos e propriedades no objeto funciona da seguinte forma: se um campo ou propriedade está mapeada para um nome de coluna específico, esse nome de coluna é esperado o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">Se um campo ou propriedade não está mapeada, uma coluna com o mesmo nome que o campo ou propriedade é esperada o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">A comparação é realizada procura primeiro uma correspondência de maiúsculas e minúsculas.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search is occurs for a case-insensitive match.</source>
+          <target state="translated">Se esta correspondência não for encontrada, uma pesquisa subsequente é ocorre uma correspondência sensível.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A consulta tem de devolver todos os campos controlados e propriedades do objeto (exceto as que são carregadas de forma diferida) quando todas as condições seguintes forem verdadeiras: <ph id="ph1">`T`</ph> é uma entidade explicitamente controlada pelo <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">A entidade tem uma chave primária.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">Caso contrário, é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a converter.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">Uma lista de objetos devolvido pela conversão.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

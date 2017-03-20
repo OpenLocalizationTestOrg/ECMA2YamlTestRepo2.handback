@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d465d78dd653f427bff5d204743e273823b92bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.SecurityAction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0398d7d67d801c33beb0f8ac0142b7b41e6c343</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea5a8068c2a2b0d7858f63bd80cfd13d5e62efb9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the security actions that can be performed using declarative security.</source>
+          <target state="translated">Especifica as ações de segurança que podem ser efetuadas utilizando a segurança declarativa.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table describes the time that each security action takes place and the targets that it supports.</source>
+          <target state="translated">A tabela seguinte descreve o tempo que demora de cada ação de segurança local e os destinos que suporta.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  In the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, runtime support has been removed for enforcing the Deny, RequestMinimum, RequestOptional, and RequestRefuse permission requests.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; No <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, o suporte de runtime foi removido para impor os pedidos de permissão de negar, RequestMinimum, RequestOptional e RequestRefuse.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These requests should not be used in code that is based on <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> or later.</source>
+          <target state="translated">Estes pedidos não devem ser utilizados no código que é baseado no <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> ou posterior.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about this and other changes, see <bpt id="p1">[</bpt>Security Changes<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre esta e outras alterações, consulte <bpt id="p1">[</bpt>alterações de segurança<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should not useLinkDemand in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</source>
+          <target state="translated">Deve não useLinkDemand no <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use the &lt;xref:System.Security.SecurityCriticalAttribute&gt; to restrict usage to fully trusted applications, or use Demand to restrict partially trusted callers.</source>
+          <target state="translated">Em alternativa, utilize o &lt;xref:System.Security.SecurityCriticalAttribute&gt;para restringir a utilização de aplicações totalmente fidedignas ou utilizar a pedido para restringir os chamadores parcialmente fidedignos.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Declaration of security action|Time of action|Targets supported|   |------------------------------------|--------------------|-----------------------|   |<ph id="ph1">`LinkDemand`</ph> (do not use in the <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>)|Just-in-time compilation|Class, method|   |<ph id="ph3">`InheritanceDemand`</ph>|Load time|Class, method|   |<ph id="ph4">`Demand`</ph>|Run time|Class, method|   |<ph id="ph5">`Assert`</ph>|Run time|Class, method|   |<ph id="ph6">`Deny`</ph> (obsolete in the <ph id="ph7">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>)|Run time|Class, method|   |<ph id="ph8">`PermitOnly`</ph>|Run time|Class, method|   |<ph id="ph9">`RequestMinimum`</ph> (obsolete in the <ph id="ph10">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>)|Grant time|Assembly|   |<ph id="ph11">`RequestOptional`</ph> (obsolete in the <ph id="ph12">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>)|Grant time|Assembly|   |<ph id="ph13">`RequestRefuse`</ph> (obsolete in the <ph id="ph14">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>)|Grant time|Assembly|       For additional information about attribute targets, see &lt;xref:System.Attribute&gt;.</source>
+          <target state="translated">| Declaração de ação de segurança | Tempo de ação | Destinos suportados |   |------------------------------------|--------------------|-----------------------|   | <ph id="ph1">`LinkDemand`</ph> (não utilize o <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>) | Compilação de just-in-time | Classe, método |   | <ph id="ph3">`InheritanceDemand`</ph>| Tempo de carregamento | Classe, método |   | <ph id="ph4">`Demand`</ph>| Tempo de execução | Classe, método |   | <ph id="ph5">`Assert`</ph>| Tempo de execução | Classe, método |   | <ph id="ph6">`Deny`</ph> (obsoletos no <ph id="ph7">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>) | Tempo de execução | Classe, método |   | <ph id="ph8">`PermitOnly`</ph>| Tempo de execução | Classe, método |   | <ph id="ph9">`RequestMinimum`</ph> (obsoletos no <ph id="ph10">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>) | Conceder tempo | Assemblagem |   | <ph id="ph11">`RequestOptional`</ph> (obsoletos no <ph id="ph12">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>) | Conceder tempo | Assemblagem |   | <ph id="ph13">`RequestRefuse`</ph> (obsoletos no <ph id="ph14">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>) | Conceder tempo | Assemblagem |       Para obter informações adicionais sobre destinos de atributo, consulte &lt;xref:System.Attribute&gt;.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The calling code can access the resource identified by the current permission object, even if callers higher in the stack have not been granted permission to access the resource (see <bpt id="p1">[</bpt>Using the Assert Method<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>).</source>
+          <target state="translated">O código de chamada pode aceder ao recurso identificado pelo objecto actual da permissão, mesmo se os chamadores superiores na pilha não tenham sido concedidos permissão para aceder ao recurso (consulte <bpt id="p1">[</bpt>utilizando o método Assert<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>All callers higher in the call stack are required to have been granted the permission specified by the current permission object.</source>
+          <target state="translated">Todos os chamadores superiores na pilha de chamadas são necessários para tenha sido concedida permissão especificado pelo objeto atual a permissão.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The ability to access the resource specified by the current permission object is denied to callers, even if they have been granted permission to access it (see <bpt id="p1">[</bpt>Using the Deny Method<ept id="p1">](http://msdn.microsoft.com/en-us/6b4d2e01-c504-4ac3-b50e-d6f5e7f5df25)</ept>).</source>
+          <target state="translated">A capacidade de aceder ao recurso especificado pelo objeto atual a permissão é negada para os chamadores, mesmo tenham sido concedidas permissão para aceder à mesma (consulte <bpt id="p1">[</bpt>utilizando o método negar<ept id="p1">](http://msdn.microsoft.com/en-us/6b4d2e01-c504-4ac3-b50e-d6f5e7f5df25)</ept>).</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The derived class inheriting the class or overriding a method is required to have been granted the specified permission..</source>
+          <target state="translated">A classe derivada herdar da classe ou substituir um método é necessária para lhe concedeu permissão especificado...</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller is required to have been granted the specified permission.</source>
+          <target state="translated">O chamador imediato é necessário para lhe concedeu permissão especificado.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Do not use in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</source>
+          <target state="translated">Não utilize o <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For full trust, use &lt;xref:System.Security.SecurityCriticalAttribute&gt; instead; for partial trust, use Demand.</source>
+          <target state="translated">Confiança completa, utilize &lt;xref:System.Security.SecurityCriticalAttribute&gt;em vez disso; de fidedignidade parcial, utilize a pedido.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Only the resources specified by this permission object can be accessed, even if the code has been granted permission to access other resources.</source>
+          <target state="translated">Podem ser acedidos apenas os recursos especificados este objeto de permissão, mesmo que o código tem permissão para aceder a outros recursos.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The request for the minimum permissions required for code to run.</source>
+          <target state="translated">O pedido para as permissões mínimas necessárias para o código para executar.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This action can only be used within the scope of the assembly.</source>
+          <target state="translated">Esta ação só pode ser utilizada no âmbito da assemblagem.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The request for additional permissions that are optional (not required to run).</source>
+          <target state="translated">O pedido para permissões adicionais que são opcionais (não é necessário para executar).</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This request implicitly refuses all other permissions not specifically requested.</source>
+          <target state="translated">Este pedido implicitamente recusa-se todas as outras permissões não especificamente solicitadas.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This action can only be used within the scope of the assembly.</source>
+          <target state="translated">Esta ação só pode ser utilizada no âmbito da assemblagem.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The request that permissions that might be misused will not be granted to the calling code.</source>
+          <target state="translated">O pedido não terão o código de chamada de permissões que podem ser utilizado indevidamente.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This action can only be used within the scope of the assembly.</source>
+          <target state="translated">Esta ação só pode ser utilizada no âmbito da assemblagem.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

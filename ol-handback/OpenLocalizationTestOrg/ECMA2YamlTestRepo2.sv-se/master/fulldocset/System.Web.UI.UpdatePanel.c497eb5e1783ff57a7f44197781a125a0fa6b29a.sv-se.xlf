@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">efac7803b565a181d8e19ceb83c6112c434bc9bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.UpdatePanel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4488409970feeda34f1864d05aad336b78b89191</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">272ca70a79920fd7bd3723df5baf492737f12dec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables sections of a page to be partially rendered without a postback.</source>
+          <target state="translated">Kan delar av en sida som delvis ska renderas utan ett återanslående.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Refreshing UpdatePanel Content<ept id="p2">](#refreshing_updatepanel_content)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>UpdatePanel Usage<ept id="p3">](#updatepanel_usage)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Applying Styles<ept id="p4">](#applying_styles)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Declarative Syntax<ept id="p5">](#declarative_syntax)</ept>      <bpt id="p6">&lt;a name="introduction"&gt;</bpt><ept id="p6">&lt;/a&gt;</ept>    ## Introduction    UpdatePanel controls are a central part of AJAX functionality in ASP.NET.</source>
+          <target state="translated">I det här avsnittet:- <bpt id="p1">[</bpt>introduktion<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>uppdateras UpdatePanel innehåll<ept id="p2">](#refreshing_updatepanel_content)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>UpdatePanel användning<ept id="p3">](#updatepanel_usage)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>tillämpa formatmallar<ept id="p4">](#applying_styles)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>deklarativa syntaxen<ept id="p5">](#declarative_syntax)</ept> <bpt id="p6">&lt;a name="introduction"&gt;</bpt> <ept id="p6">&lt;/a&gt;</ept> ## introduktion UpdatePanel kontroller är en central del av AJAX-funktioner i ASP.NET.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They are used with the &lt;xref:System.Web.UI.ScriptManager&gt; control to enable partial-page rendering.</source>
+          <target state="translated">De används med den &lt;xref:System.Web.UI.ScriptManager&gt;kontroll för att kunna aktivera partiell sidåtergivningen.&lt;/xref:System.Web.UI.ScriptManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Partial-page rendering reduces the need for synchronous postbacks and complete page updates when only part of the page has to be updated.</source>
+          <target state="translated">Partiell sidåtergivningen minskar behovet av synkron återanslag och sidan uppdateringar när endast en del av sidan måste uppdateras.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Partial-page rendering improves the user experience because it reduces the screen flicker that occurs during a full-page postback and improves Web page interactivity.</source>
+          <target state="translated">Partiell sidåtergivningen förbättrar användarupplevelsen, eftersom skärmflimmer som uppstår under hela sidan återanslående och förbättrar webbsida interaktivitet.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="refreshing_updatepanel_content"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Refreshing UpdatePanel Content    When partial-page rendering is enabled, a control can perform a postback that updates the whole page or an asynchronous postback that updates the content of one or more UpdatePanel controls.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="refreshing_updatepanel_content"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Uppdateras UpdatePanel innehåll när partiell sidan återgivning är aktiverad är en kontroll kan utföra ett återanslående som uppdaterar hela sidan eller ett asynkront återanslag som uppdaterar innehållet i en eller flera kontroller för UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether a control causes an asynchronous postback and updates an UpdatePanel control depends on the following:      -   If the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property of the UpdatePanel control is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the UpdatePanel control's content is updated on every postback that originates from the page.</source>
+          <target state="translated">Om en kontroll gör ett asynkront återanslag och uppdaterar en UpdatePanel-kontroll som beror på följande: – om den &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;för kontrollen UpdatePanel egenskapen &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, innehållet i kontrollen UpdatePanel uppdateras vid varje återanslående som härrör från sidan.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes asynchronous postbacks from controls that are inside other UpdatePanel controls and postbacks from controls that are not inside UpdatePanel controls.</source>
+          <target state="translated">Det omfattar asynkrona återanslag från kontroller som finns inuti andra kontroller för UpdatePanel och postbacks från kontroller som inte är i UpdatePanel kontroller.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the UpdatePanel control's content is updated in the following circumstances:          -   When you call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the UpdatePanel control explicitly.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;egenskap är inställd på &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, innehållet i kontrollen UpdatePanel uppdateras under följande omständigheter: – när du anropar den &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metod för UpdatePanel styra uttryckligen.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the UpdatePanel control is nested inside another UpdatePanel control, and the parent panel is updated.</source>
+          <target state="translated">– När kontrollen UpdatePanel är kapslad i en annan UpdatePanel kontroll och panelen överordnade uppdateras.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When a postback is caused by a control that is defined as a trigger by using the <ph id="ph1">`Triggers`</ph> property of the UpdatePanel control.</source>
+          <target state="translated">-När ett återanslående orsakas av en kontroll som har definierats som en utlösare med hjälp av den <ph id="ph1">`Triggers`</ph> egenskapen för kontrollen UpdatePanel.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, the control explicitly triggers an update of the panel content.</source>
+          <target state="translated">I det här scenariot utlöser kontrollen uttryckligen en uppdatering av innehåll på.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control can be either inside or outside the UpdatePanel control that the trigger is associated with.</source>
+          <target state="translated">Kontrollen kan vara antingen inom eller utanför kontrollen UpdatePanel som utlösaren är kopplad till.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is set to <ph id="ph1">`true`</ph> and a child control of the UpdatePanel control causes a postback.</source>
+          <target state="translated">– När den &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph> och en underordnad kontroll för kontrollen UpdatePanel utlöser ett återanslående.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Child controls of nested UpdatePanel controls do not cause an update to the outer UpdatePanel control unless they are explicitly defined as triggers.</source>
+          <target state="translated">Underordnade kontroller av kapslade UpdatePanel kontroller utlöser inte en uppdatering av den yttersta UpdatePanel kontrollen om de uttryckligen definieras som utlösare.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The combination of setting the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property to <ph id="ph1">`false`</ph> and the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt; is not allowed and will throw an exception.</source>
+          <target state="translated">Kombinationen av inställningen i &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;egenskapen <ph id="ph1">`false`</ph> och &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;egenskapen &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;är inte tillåtet och genereras ett undantagsfel.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UpdatePanel control performs an asynchronous post, it adds a custom HTTP header.</source>
+          <target state="translated">När kontrollen UpdatePanel utför en asynkron post, läggs ett anpassat HTTP-huvud.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some proxies remove this custom HTTP header.</source>
+          <target state="translated">Vissa proxyservrar ta bort den här anpassade HTTP-huvudet.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this occurs, the server handles the request as a regular postback, which causes a client error.</source>
+          <target state="translated">Om detta inträffar hanterar servern begäran som ett reguljärt återanslående som orsakar ett klientfel.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To resolve this issue, insert a custom form field when you perform asynchronous posts.</source>
+          <target state="translated">Lös problemet genom att infoga ett anpassat formulärfält när du utför asynkrona meddelandena.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then check the header or the custom form field in server code.</source>
+          <target state="translated">Kontrollera sedan huvudet eller anpassat formulär i serverkoden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="updatepanel_usage"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## UpdatePanel Usage    You can use multiple UpdatePanel controls to update different page regions independently.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="updatepanel_usage"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## UpdatePanel användning du kan använda flera UpdatePanel kontroller för att uppdatera sidan olika regioner oberoende av varandra.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the page that contains one or more UpdatePanel controls is first rendered, all the content of all UpdatePanel controls are rendered and sent to the browser.</source>
+          <target state="translated">När den sida som innehåller en eller flera kontroller för UpdatePanel återges, allt innehåll för alla kontroller i UpdatePanel är återges och skickas till webbläsaren.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On subsequent asynchronous postbacks, the content of each UpdatePanel control might not be updated depending on the panel settings and on client or server logic for individual panels.</source>
+          <target state="translated">På efterföljande asynkrona återanslag kan innehållet i varje UpdatePanel kontroll inte uppdateras beroende på Panelinställningar samt på klient eller server logik för enskilda paneler.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use UpdatePanel controls in the following scenarios:      -   In user controls.</source>
+          <target state="translated">Du kan också använda UpdatePanel kontroller i följande scenarier: - användarkontroller.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On master and content pages.</source>
+          <target state="translated">-På huvudservern och innehåll sidor.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Nested inside other UpdatePanel controls.</source>
+          <target state="translated">-Kapslas i andra UpdatePanel-kontroller.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Inside templated controls such as the &lt;xref:System.Web.UI.WebControls.GridView&gt; or &lt;xref:System.Web.UI.WebControls.Repeater&gt; controls.</source>
+          <target state="translated">-Innanför mallbaserat som styr de &lt;xref:System.Web.UI.WebControls.GridView&gt;eller &lt;xref:System.Web.UI.WebControls.Repeater&gt;kontroller.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>UpdatePanel controls can be added declaratively or programmatically.</source>
+          <target state="translated">UpdatePanel kontroller kan läggas deklarativt eller programmässigt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add an UpdatePanel control programmatically, but you cannot add triggers programmatically.</source>
+          <target state="translated">Du kan lägga till en kontroll för UpdatePanel programmässigt, men du kan inte lägga till utlösare programmässigt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create trigger-like behavior, you can register a control on the page as an asynchronous postback control.</source>
+          <target state="translated">Du kan registrera en kontroll på sidan som en asynkron återanslående kontroll för att skapa utlösaren-liknande beteende.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by calling the &lt;xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt; method of the &lt;xref:System.Web.UI.ScriptManager&gt; control.</source>
+          <target state="translated">Du kan göra detta genom att anropa den &lt;xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt;metod för den &lt;xref:System.Web.UI.ScriptManager&gt;kontroll.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.RegisterAsyncPostBackControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then create an event handler that runs in response to the asynchronous postback, and in the handler, call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the UpdatePanel control.</source>
+          <target state="translated">Du kan sedan skapa en händelsehanterare som körs som svar på asynkront återanslag och på hanteraren anrop av &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;-metoden för kontrollen UpdatePanel.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="applying_styles"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Applying Styles    The UpdatePanel control accepts expando attributes.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="applying_styles"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Använda format UpdatePanel kontrollen accepterar expando attribut.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This lets you set a CSS class for the HTMLelements that the controls render.</source>
+          <target state="translated">På så sätt kan du ange en CSS-klass för HTMLelements som kontrollerna renderas.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might create the markup shown in the following example:      <ph id="ph1">```   &lt;asp:UpdatePanel runat="server" class="myStyle"&gt;   &lt;/asp:UpdatePanel&gt;    ```</ph>       The markup in the previous example renders HTML similar to the following when the page runs:      <ph id="ph2">```   &lt;div id="ctl00_MainContent_UpdatePanel1" class="MyStyle"&gt;   &lt;/div&gt;   ```</ph>      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph3">```   &lt;asp:UpdatePanel       ChildrenAsTriggers="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       RenderMode="Block|Inline"       runat="server"       SkinID="string"       UpdateMode="Always|Conditional"       Visible="True|False"   &gt;       &lt;ContentTemplate&gt;           &lt;!-- child controls --&gt;       &lt;/ContentTemplate&gt;       &lt;Triggers&gt;           &lt;asp:AsyncPostBackTrigger                ControlID="string"               EventName="string"           /&gt;           &lt;asp:PostBackTrigger                ControlID="string"           /&gt;       &lt;/Triggers&gt;   &lt;/asp:UpdatePanel&gt;   ```</ph></source>
+          <target state="translated">Du kan till exempel skapa koden som visas i följande exempel: <ph id="ph1">```   &lt;asp:UpdatePanel runat="server" class="myStyle"&gt;   &lt;/asp:UpdatePanel&gt;    ```</ph> markering i föregående exempel renderar HTML liknar när sidan körs: <ph id="ph2">```   &lt;div id="ctl00_MainContent_UpdatePanel1" class="MyStyle"&gt;   &lt;/div&gt;   ```</ph> <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> ## deklarativa syntaxen      <ph id="ph3">```   &lt;asp:UpdatePanel       ChildrenAsTriggers="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       RenderMode="Block|Inline"       runat="server"       SkinID="string"       UpdateMode="Always|Conditional"       Visible="True|False"   &gt;       &lt;ContentTemplate&gt;           &lt;!-- child controls --&gt;       &lt;/ContentTemplate&gt;       &lt;Triggers&gt;           &lt;asp:AsyncPostBackTrigger                ControlID="string"               EventName="string"           /&gt;           &lt;asp:PostBackTrigger                ControlID="string"           /&gt;       &lt;/Triggers&gt;   &lt;/asp:UpdatePanel&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to initialize a new instance of the &lt;xref:System.Web.UI.UpdatePanel&gt; class.</source>
+          <target state="translated">Använd den här konstruktorn för att initiera en ny instans av &lt;xref:System.Web.UI.UpdatePanel&gt;klassen.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dynamically add an &lt;xref:System.Web.UI.UpdatePanel&gt; control to a page, create a new &lt;xref:System.Web.UI.UpdatePanel&gt; instance and then add child controls to the control object that is exposed by the instance's &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Att dynamiskt lägga till en &lt;xref:System.Web.UI.UpdatePanel&gt;Kontrollera till en sida, skapa en ny &lt;xref:System.Web.UI.UpdatePanel&gt;instansen och sedan lägga till underordnade kontroller kontrollobjekt som exponeras av instansen &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;egenskap.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the cascading style sheet (CSS) attributes collection of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Hämtar attribut i CSS (CSS) samling av <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Attributes property contains a collection of CSS style attributes that can be used in the enclosing <ph id="ph1">`div`</ph> element of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Egenskapen attribut innehåller en samling av CSS-formatattribut som kan användas i den omslutande <ph id="ph1">`div`</ph> element i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The names of the CSS style rules in the attributes collection.</source>
+          <target state="translated">Namn på CSS stil regler i samlingen attribut.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether postbacks from immediate child controls of an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control update the panel's content.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om återanslag från omedelbara underordnade kontroller av en <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll uppdatera panelens innehåll.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the ChildrenAsTriggers property to <ph id="ph1">`true`</ph> if you want postbacks from immediate child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to cause an update of the panel's content.</source>
+          <target state="translated">Ange egenskapen childrenastriggers värdet till <ph id="ph1">`true`</ph> om du vill återanslag från omedelbara underordnade kontroller av den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll för att en uppdatering av panelens innehåll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Child controls of nested &lt;xref:System.Web.UI.UpdatePanel&gt; controls will not cause an update of the parent &lt;xref:System.Web.UI.UpdatePanel&gt; control's content unless you call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method explicitly or you define the child controls as triggers.</source>
+          <target state="translated">Underordnade kontroller av kapslade &lt;xref:System.Web.UI.UpdatePanel&gt;kontroller som inte orsakar en uppdatering av överordnat &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollens innehåll om du anropar den &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metoden explicit eller du definiera de underordnade kontrollerna som utlösare.&lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt; and the ChildrenAsTriggers property is set to <ph id="ph2">`false`</ph>, an &lt;xref:System.InvalidOperationException&gt; exception is thrown during the &lt;xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; När den &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;egenskapen &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;och egenskapen childrenastriggers värdet anges till <ph id="ph2">`false`</ph>, en &lt;xref:System.InvalidOperationException&gt;undantag under den &lt;xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt;metoden.&lt;/xref:System.Web.UI.UpdatePanel.OnPreRender%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination of properties is not allowed for the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Den här kombinationen av egenskaper tillåts inte för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A scenario where you might set ChildrenAsTriggers to <ph id="ph1">`false`</ph> is when you have two &lt;xref:System.Web.UI.UpdatePanel&gt; controls and you want a postback from the first panel to update the content of the second panel but not update its own content.</source>
+          <target state="translated">Ett scenario där du kan ange childrenastriggers värdet till <ph id="ph1">`false`</ph> är när du har två &lt;xref:System.Web.UI.UpdatePanel&gt;kontroller och du vill att ett återanslående från första panelen om du vill uppdatera innehållet på panelen andra men inte att uppdatera eget innehåll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the first panel might be a list of products to buy and the second panel might be a shopping cart.</source>
+          <target state="translated">Till exempel den första panelen kan vara en lista över produkter köpa och panelen andra kan vara en kundvagn.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if postbacks from immediate child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control update the panel's content; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om återanslag från omedelbara underordnade kontroller av den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll uppdatera panelen är innehåll, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets the template that defines the content of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Hämtar eller anger den mall som definierar innehållet i den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentTemplate property contains the content that appears inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control when it is rendered.</source>
+          <target state="translated">Egenskapen ContentTemplate innehåller det innehåll som visas inuti en &lt;xref:System.Web.UI.UpdatePanel&gt;styr när den återges.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create the template's content declaratively or programmatically.</source>
+          <target state="translated">Du kan skapa mallens innehåll deklarativt eller programmässigt.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content template of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is a single-instance template.</source>
+          <target state="translated">Innehållsmallen av en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen är en eninstanskategori mall.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the properties of the controls it contains can be accessed directly on the page without using the &lt;xref:System.Web.UI.Page.FindControl%2A&gt; method.</source>
+          <target state="translated">Därför egenskaper för de kontroller som den innehåller kan nås direkt på sidan utan att använda den &lt;xref:System.Web.UI.Page.FindControl%2A&gt;metoden.&lt;/xref:System.Web.UI.Page.FindControl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.UI.TemplateInstanceAttribute&gt; class overview.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Web.UI.TemplateInstanceAttribute&gt;Översikt över klassen.&lt;/xref:System.Web.UI.TemplateInstanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add items to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively, add an <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element between the opening and closing tags of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Att lägga till objekt till den &lt;xref:System.Web.UI.UpdatePanel&gt;styra deklarativt, lägga till en <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element mellan inledande och avslutande taggar för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Inside the <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element tags, declare other controls and HTML elements.</source>
+          <target state="translated">I den <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> elementtaggar deklarera andra kontroller och HTML-element.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add items to the &lt;xref:System.Web.UI.UpdatePanel&gt; control dynamically, use the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property, which enables you to add child controls without having to create a custom template that implements the &lt;xref:System.Web.UI.ITemplate&gt; interface.</source>
+          <target state="translated">Att lägga till objekt till den &lt;xref:System.Web.UI.UpdatePanel&gt;styra dynamiskt använder den &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;egenskapen som du kan lägga till underordnade kontroller utan att behöva skapa en anpassad mall som implementerar det &lt;xref:System.Web.UI.ITemplate&gt;gränssnittet.&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that defines the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -instans som definierar innehållet i den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The ContentTemplate property of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is set after an instance of the template is created or after the content template container is created.</source>
+          <target state="translated">Egenskapen ContentTemplate för den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollen anges när en instans av mallen har skapats eller när innehållsmallen behållaren har skapats.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a control object to which you can programmatically add child controls.</source>
+          <target state="translated">Hämtar en control-objekt som du kan via programmering lägga till underordnade kontroller.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentTemplateContainer property enables you to programmatically add child controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control without having to define a custom template that inherits from the &lt;xref:System.Web.UI.ITemplate&gt; interface.</source>
+          <target state="translated">Egenskapen ContentTemplateContainer kan du lägga till underordnade kontroller till den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll utan att definiera en anpassad mall som ärver från den &lt;xref:System.Web.UI.ITemplate&gt;gränssnitt.&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are adding content to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively or through a designer, you should add content to the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property by using a <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element.</source>
+          <target state="translated">Om du lägger till innehåll till den &lt;xref:System.Web.UI.UpdatePanel&gt;styr deklarativt eller via en designer ska du lägga till innehåll i den &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;egenskapen genom att använda en <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som definierar innehållet i den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the child controls for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Hämtar den <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller underordnat kontroller för den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Controls property is overridden from the base &lt;xref:System.Web.UI.Control&gt; class and sealed to prevent additional derivation.</source>
+          <target state="translated">Egenskapen Controls åsidosätts från basklassen &lt;xref:System.Web.UI.Control&gt;klassen och förseglat för att förhindra att ytterligare härledning.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control declaratively, create a <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> element inside the &lt;xref:System.Web.UI.UpdatePanel&gt; control markup.</source>
+          <target state="translated">Att lägga till kontroller i den &lt;xref:System.Web.UI.UpdatePanel&gt;styra deklarativt, skapa en <ph id="ph1">`&lt;ContentTemplate&gt;`</ph> -element inuti den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll markup.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add controls to the &lt;xref:System.Web.UI.UpdatePanel&gt; control programmatically, use the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Att lägga till kontroller i den &lt;xref:System.Web.UI.UpdatePanel&gt;styra programmässigt använder den &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;egenskapen.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Mängden med underordnade kontroller för den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlCollection.Add<bpt id="p1">*</bpt>&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt<ept id="p1">*</ept>&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear<bpt id="p2">*</bpt>&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove<ept id="p2">*</ept>&gt;, or &lt;xref:System.Web.UI.ControlCollection.RemoveAt<bpt id="p3">*</bpt>&gt; method of the <bpt id="p4">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> class has been called. To change the content of the <bpt id="p5">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> control, modify the child controls of the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer<ept id="p3">*</ept>&gt; property.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt;, &lt;&gt;<ept id="p1">*</ept>&gt;, &lt;&gt;<bpt id="p2">*</bpt>&gt;, &lt;&gt;<ept id="p2">*</ept>&gt;, or &lt;&gt;<bpt id="p3">*</bpt>&gt; method of the <bpt id="p4">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> class has been called. Så här ändrar du innehållet i den <bpt id="p5">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept> styra genom att ändra de underordnade kontrollerna för den &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; egenskapen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that acts as a container for child controls that define the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content.</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som fungerar som en behållare för underordnade kontroller som definierar den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontrollens innehåll.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for use by control developers who want to extend the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Den här metoden är avsedd att användas av kontrollen utvecklare som vill utöka den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in derived classes, you can provide a different root control that acts as a container for your &lt;xref:System.Web.UI.UpdatePanel&gt; control's content.</source>
+          <target state="translated">I härledda klasser kan du exempelvis ange en annan rot-kontroll som fungerar som en behållare för dina &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollens innehåll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns a &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Standardimplementering returnerar en &lt;xref:System.Web.UI.Control&gt;objektet.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> container for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> behållare för den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontrollens innehåll.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns the collection of all controls that are contained in the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Returnerar mängden med alla kontroller som finns i den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateControlCollection method is used by control developers.</source>
+          <target state="translated">Metoden CreateControlCollection används av kontrollen utvecklare.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this method is protected and sealed, it is visible to classes that inherit from the &lt;xref:System.Web.UI.UpdatePanel&gt; class, but it cannot be overridden.</source>
+          <target state="translated">Eftersom den här metoden är skyddade och förseglat, den är synlig för klasser som ärver från den &lt;xref:System.Web.UI.UpdatePanel&gt;klass, men det går inte att åsidosätta.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the base implementation to return a specialized &lt;xref:System.Web.UI.ControlCollection&gt; object that throws an &lt;xref:System.InvalidOperationException&gt; when the &lt;xref:System.Web.UI.ControlCollection.Add%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove%2A&gt;, or &lt;xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt; method of the &lt;xref:System.Web.UI.ControlCollection&gt; class is invoked.</source>
+          <target state="translated">Den här metoden åsidosätter basimplementering för att returnera ett speciellt &lt;xref:System.Web.UI.ControlCollection&gt;objekt som genererar en &lt;xref:System.InvalidOperationException&gt;när den &lt;xref:System.Web.UI.ControlCollection.Add%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.AddAt%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Clear%2A&gt;, &lt;xref:System.Web.UI.ControlCollection.Remove%2A&gt;, eller &lt;xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt;-metoden i den &lt;xref:System.Web.UI.ControlCollection&gt;klassen anropas.&lt;/xref:System.Web.UI.ControlCollection&gt; &lt;/xref:System.Web.UI.ControlCollection.RemoveAt%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Remove%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Clear%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.AddAt%2A&gt; &lt;/xref:System.Web.UI.ControlCollection.Add%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.UI.ControlCollection&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control, modify the child controls of the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; property.</source>
+          <target state="translated">Så här ändrar du innehållet i den &lt;xref:System.Web.UI.UpdatePanel&gt;styra genom att ändra de underordnade kontrollerna för den &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt;egenskapen.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplateContainer%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that consists of all controls that define the content of the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som består av alla kontroller som används för att definiera innehållet i den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control trigger collection if partial-page rendering is enabled.</source>
+          <target state="translated">Initierar den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> styra utlösaren samlingen om partiell sidåtergivningen är aktiverad.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If partial-page rendering is not enabled, the triggers that are defined in the &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt; property are not initialized because they have no effect.</source>
+          <target state="translated">Om partiell sidan återgivning inte är aktiverad utlösare som definieras i den &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;egenskapen har inte initierats eftersom de har ingen effekt.&lt;/xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt; property of the &lt;xref:System.Web.UI.ScriptManager&gt; control gets or sets a value that indicates whether partial-page rendering is enabled.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt;egenskapen för den &lt;xref:System.Web.UI.ScriptManager&gt;kontrollen hämtar eller anger ett värde som anger om partiell sidåtergivningen har aktiverats.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.EnablePartialRendering%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt; property of the &lt;xref:System.Web.UI.ScriptManager&gt; control gets or sets a value that indicates whether partial-page rendering is supported.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt;egenskapen för den &lt;xref:System.Web.UI.ScriptManager&gt;kontrollen hämtar eller anger ett värde som anger om partiell sidåtergivningen stöds.&lt;/xref:System.Web.UI.ScriptManager&gt; &lt;/xref:System.Web.UI.ScriptManager.SupportsPartialRendering%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is being updated as a result of an asynchronous postback.</source>
+          <target state="translated">Hämtar ett värde som anger om den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll uppdateras på grund av ett asynkront återanslag.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsInPartialRendering property is intended for use by control developers who want to know when an &lt;xref:System.Web.UI.UpdatePanel&gt; control is being updated as a result of an asynchronous postback.</source>
+          <target state="translated">Egenskapen IsInPartialRendering är avsedd att användas av kontrollen utvecklare som vill veta när en &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll uppdateras på grund av ett asynkront återanslag.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In page development scenarios, use the &lt;xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt; property to determine whether a page is processing as a result of an asynchronous postback.</source>
+          <target state="translated">I sidan utvecklingsscenarier använder den &lt;xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt;egenskapen för att avgöra om en sida bearbetas på grund av ett asynkront återanslag.&lt;/xref:System.Web.UI.ScriptManager.IsInAsyncPostBack%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is being updated as a result of an asynchronous postback; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om aktuellt <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontrollen används uppdaterade på grund av ett asynkront återanslag, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel&gt; control's &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property is instantiated during the OnInit method.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollens &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;egenskapen instansieras under metoden OnInit.&lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnInit method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoden OnInit används av kontrollen utvecklare för att utöka funktionerna i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Ett &lt;xref:System.EventArgs&gt;-objekt som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate<bpt id="p1">*</bpt>&gt; property is being defined when the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplateContainer<ept id="p1">*</ept>&gt; property has already been created.</source>
+          <target state="translated">Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen som definierats när den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskapen har redan skapats.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event for the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control and invokes the &lt;xref:System.Web.UI.UpdatePanel.Initialize*&gt; method when partial-page rendering is not enabled.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelsen för den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> styr och anropar den &lt;xref:System.Web.UI.UpdatePanel.Initialize*&gt;metoden när partiell sidan återgivning inte är aktiverad.&lt;/xref:System.Web.UI.UpdatePanel.Initialize*&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Ett &lt;xref:System.EventArgs&gt;-objekt som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoden OnPreRender används av kontrollen utvecklare för att utöka funktionerna i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">Ett &lt;xref:System.EventArgs&gt;-objekt som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers<bpt id="p1">*</bpt>&gt; property is set to <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode<ept id="p1">*</ept>&gt; property is set to <bpt id="p3">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskap är inställd på <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, och &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskap är inställd på <bpt id="p3">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Raises the base <bpt id="p1">&lt;xref href="System.Web.UI.Control.Unload"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Aktiverar basen <bpt id="p1">&lt;xref href="System.Web.UI.Control.Unload"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnUnload method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control</source>
+          <target state="translated">Metoden VidAvslut används av kontrollen utvecklare för att utöka funktionerna i &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains event data.</source>
+          <target state="translated">Ett &lt;xref:System.EventArgs&gt;-objekt som innehåller händelsedata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Web.UI.Control.Render*&gt; event.</source>
+          <target state="translated">Genererar den &lt;xref:System.Web.UI.Control.Render*&gt;händelse.&lt;/xref:System.Web.UI.Control.Render*&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoden Render används av kontrollen utvecklare för att utöka funktionerna i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method writes the rendered content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to the browser by using the supplied &lt;xref:System.Web.UI.HtmlTextWriter&gt; object.</source>
+          <target state="translated">Metoden Render skriver renderade innehållet i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen till webbläsaren med hjälp av den angivna &lt;xref:System.Web.UI.HtmlTextWriter&gt;objektet.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you override the Render method in a derived class, make sure to call the Render method of the base class so that the child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control are rendered.</source>
+          <target state="translated">När du åsidosätter metoden Render i en härledd klass, se till att anropa metoden Render i basklassen så att underordnat kontroller av den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen återges.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream for rendering HTML content.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar utdataströmmen för att återge HTML-innehåll.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Raises the RenderChildren event.</source>
+          <target state="translated">Aktiverar RenderChildren-händelse.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderChildren method is used by control developers to extend the functionality of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Metoden RenderChildren används av kontrollen utvecklare för att utöka funktionerna i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderChildren method writes the rendered content of the &lt;xref:System.Web.UI.UpdatePanel&gt; control to the browser by using the supplied &lt;xref:System.Web.UI.HtmlTextWriter&gt; object.</source>
+          <target state="translated">Metoden RenderChildren skriver renderade innehållet i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen till webbläsaren med hjälp av den angivna &lt;xref:System.Web.UI.HtmlTextWriter&gt;objektet.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you override the RenderChildren method in a derived class, make sure to call the RenderChildren method of the base class so that the child controls of the &lt;xref:System.Web.UI.UpdatePanel&gt; control are rendered.</source>
+          <target state="translated">När du åsidosätter metoden RenderChildren i en härledd klass, se till att anropa metoden RenderChildren i basklassen så att underordnat kontroller av den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen återges.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream for rendering HTML content.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar utdataströmmen för att återge HTML-innehåll.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's content is enclosed in an HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om en <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollens innehåll är inom en HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> eller <bpt id="p3">&lt;xref uid="langword_csharp_&amp;lt;span&amp;gt;" name="&amp;lt;span&amp;gt;" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> element.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RenderMode property is set to &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, the content of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is rendered inside an HTML <ph id="ph1">`&lt;span&gt;`</ph> element.</source>
+          <target state="translated">Om egenskapen RenderMode anges till &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, innehållet i en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen återges i en HTML <ph id="ph1">`&lt;span&gt;`</ph> element.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanelRenderMode&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RenderMode property is set to &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, it is rendered inside an HTML <ph id="ph1">`&lt;div&gt;`</ph> element.</source>
+          <target state="translated">Om egenskapen RenderMode anges till &lt;xref:System.Web.UI.UpdatePanelRenderMode&gt;, den återges i en HTML <ph id="ph1">`&lt;div&gt;`</ph> element.&lt;/xref:System.Web.UI.UpdatePanelRenderMode&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> so that the content of the panel is enclosed in an HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelRenderMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> så att innehållet i panelen omges av ett HTML <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;div&amp;gt;" name="&amp;lt;div&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> element.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the content of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control will be updated.</source>
+          <target state="translated">Hämtar ett värde som anger om innehållet i den <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollen kommer att uppdateras.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the RequiresUpdate property returns <ph id="ph1">`true`</ph> if the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method was explicitly called or if the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.</source>
+          <target state="translated">Som standard RequiresUpdate-egenskap returnerar <ph id="ph1">`true`</ph> om den &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metoden anropades explicit eller om &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;egenskapen &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is intended for use by control developers who want to extend the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Den här egenskapen är avsedd att användas av kontrollen utvecklare som vill utöka den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in derived classes, you might provide additional logic to determine whether an &lt;xref:System.Web.UI.UpdatePanel&gt; control should be updated.</source>
+          <target state="translated">I härledda klasser kan du exempelvis ange ytterligare logik för att avgöra om en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen ska uppdateras.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's content will be updated; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den <bpt id="p2">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontrollens innehåll kommer att vara uppdaterade, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Returns an attribute of a Web control by using a specified name.</source>
+          <target state="translated">Returnerar ett attribut för en webbkontroll med hjälp av ett angivet namn.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.UpdatePanel&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.Web.UI.UpdatePanel&gt;instans omvandlas till ett &lt;xref:System.Web.UI.IAttributeAccessor&gt;gränssnitt.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Namnet på attributet.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Värdet för attributet.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the value of the specified control attribute.</source>
+          <target state="translated">Anger värdet för attributet angivna kontrollen.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.UpdatePanel&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.Web.UI.UpdatePanel&gt;instans omvandlas till ett &lt;xref:System.Web.UI.IAttributeAccessor&gt;gränssnitt.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The name of the attribute to set.</source>
+          <target state="translated">Namnet på attributet som ska anges.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value of the attribute to set.</source>
+          <target state="translated">Värdet för attributet som ska anges.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelTriggerCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains <bpt id="p2">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> objects that were registered declaratively for the <bpt id="p4">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Hämtar en <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelTriggerCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller <bpt id="p2">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> och <bpt id="p3">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objekt som har registrerats deklarativt för den <bpt id="p4">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Triggers property gets a collection of all the triggers that have been defined for the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Egenskapen utlösare hämtar en mängd utlösare som har definierats för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(You can define triggers declaratively by using the <bpt id="p1">**</bpt>UpdatePanelTrigger Collection Editor<ept id="p1">**</ept> dialog box in the designer or by using the <ph id="ph1">`&lt;Triggers&gt;`</ph> element of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.) The collection includes &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt; and &lt;xref:System.Web.UI.PostBackTrigger&gt; objects.</source>
+          <target state="translated">(Du kan definiera utlösare deklarativt med hjälp av den <bpt id="p1">**</bpt>UpdatePanelTrigger Samlingsredigeraren<ept id="p1">**</ept> dialogruta i designer eller med hjälp av den <ph id="ph1">`&lt;Triggers&gt;`</ph> element i den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.)&lt;/xref:System.Web.UI.UpdatePanel&gt; Samlingen innehåller &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt;och &lt;xref:System.Web.UI.PostBackTrigger&gt;objekt.&lt;/xref:System.Web.UI.PostBackTrigger&gt; &lt;/xref:System.Web.UI.AsyncPostBackTrigger&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Declarative triggers that are defined in the Triggers collection are not tracked in view state.</source>
+          <target state="translated">Deklarativ utlösare som har definierats i samlingen inte är utlösare spåras i vyn tillstånd.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a control that is a naming container is used as a trigger, all its child controls that cause postback behave as triggers.</source>
+          <target state="translated">När en kontroll som är en namngivande behållare används som en utlösare, fungerar alla dess underordnade kontroller som orsakar återanslående som utlösare.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A collection of objects of type <bpt id="p1">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En samling objekt av typen <bpt id="p1">&lt;xref href="System.Web.UI.AsyncPostBackTrigger"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och <bpt id="p2">&lt;xref href="System.Web.UI.PostBackTrigger"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Causes an update of the content of an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Gör en uppdatering av innehållet i en <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the page is enabled for partial-page rendering, when you invoke the Update method, the &lt;xref:System.Web.UI.UpdatePanel&gt; control's content is updated in the browser.</source>
+          <target state="translated">Om sidan har aktiverats för partiellt sidåtergivningen, när du anropar metoden Update på &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollens innehåll uppdateras i webbläsaren.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the Update method if you have server code that must execute to determine whether an &lt;xref:System.Web.UI.UpdatePanel&gt; control should be updated.</source>
+          <target state="translated">Anropa metoden Update om du har serverkod som måste köras för att avgöra om en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen ska uppdateras.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you plan to use the Update method, set the &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt; property to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.</source>
+          <target state="translated">Om du planerar att använda metoden Update ange &lt;xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;egenskapen till &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;.&lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel.UpdateMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the decision to update the panel in server logic, make sure that the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is <ph id="ph1">`false`</ph> and that no explicit triggers are defined for the panel.</source>
+          <target state="translated">Om du vill beslutet att uppdatera panelen i logik för servern, kontrollera att den &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;egenskapen är <ph id="ph1">`false`</ph> och att ingen explicit utlösare som har definierats för panelen.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a typical page development scenario, if you define triggers or if the &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is <ph id="ph1">`true`</ph> for the &lt;xref:System.Web.UI.UpdatePanel&gt; control, the Update method is automatically called during the page life cycle.</source>
+          <target state="translated">I en typisk sida development scenario om du definiera utlösare eller om den &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;egenskapen är <ph id="ph1">`true`</ph> för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll, Update-metoden anropas automatiskt under sidan livscykel.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt; property is not defined for the &lt;xref:System.Web.UI.UpdatePanel&gt; control, no updates of the panel will occur.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;egenskapen har inte definierats för den &lt;xref:System.Web.UI.UpdatePanel&gt;styra, sker inga uppdateringar för panelen.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ContentTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates when an <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's content is updated.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger när en <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollens innehåll har uppdaterats.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an &lt;xref:System.Web.UI.UpdatePanel&gt; control is not inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control, the panel is updated according to the settings of the UpdateMode and &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; properties, together with the collection of triggers.</source>
+          <target state="translated">När en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen är inte inuti ett annat &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll, panelen uppdateras enligt inställningarna för UpdateMode och &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;Egenskaper, tillsammans med mängd utlösare.&lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an &lt;xref:System.Web.UI.UpdatePanel&gt; control is inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control, the child panel is automatically updated when the parent panel is updated.</source>
+          <target state="translated">När en &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen är inuti ett annat &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll, panelen underordnade uppdateras automatiskt när den överordnade panelen uppdateras.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content of an &lt;xref:System.Web.UI.UpdatePanel&gt; control is updated in the following circumstances:      -   If the UpdateMode property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, the &lt;xref:System.Web.UI.UpdatePanel&gt; control's content is updated on every postback that originates from anywhere on the page.</source>
+          <target state="translated">Innehållet i en &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll uppdateras under följande omständigheter: - om egenskapen UpdateMode har värdet &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollens innehåll uppdateras på varje återanslag som kommer från var som helst på sidan.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes asynchronous postbacks from controls that are inside other &lt;xref:System.Web.UI.UpdatePanel&gt; controls and postbacks from controls that are not inside &lt;xref:System.Web.UI.UpdatePanel&gt; controls.</source>
+          <target state="translated">Detta inkluderar asynkrona återanslag från kontroller som finns inuti andra &lt;xref:System.Web.UI.UpdatePanel&gt;kontroller och återanslag från kontroller som inte är inuti &lt;xref:System.Web.UI.UpdatePanel&gt;kontroller.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.UpdatePanel&gt; control is nested inside another &lt;xref:System.Web.UI.UpdatePanel&gt; control and the parent update panel is updated.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll är kapslad i en annan &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll och panelen överordnade uppdateringen uppdateras.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the UpdateMode property is set to &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, and one of the following conditions occurs:          -   You call the &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt; method of the &lt;xref:System.Web.UI.UpdatePanel&gt; control explicitly.</source>
+          <target state="translated">– Om egenskapen UpdateMode har värdet &lt;xref:System.Web.UI.UpdatePanelUpdateMode&gt;, och en av följande villkor inträffar:-du anropar den &lt;xref:System.Web.UI.UpdatePanel.Update%2A&gt;metod för den &lt;xref:System.Web.UI.UpdatePanel&gt;styra uttryckligen.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.Update%2A&gt; &lt;/xref:System.Web.UI.UpdatePanelUpdateMode&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The postback is caused by a control that is defined as a trigger by using the &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt; property of the &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">-Återanslåendet orsakas av en kontroll som har definierats som en utlösare med hjälp av den &lt;xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;egenskapen för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.Triggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, the control explicitly triggers an update of the panel content.</source>
+          <target state="translated">I det här scenariot utlöser kontrollen uttryckligen en uppdatering av innehåll på.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control can be either inside or outside the &lt;xref:System.Web.UI.UpdatePanel&gt; control that defines the trigger.</source>
+          <target state="translated">Kontrollen kan vara antingen inom eller utanför den &lt;xref:System.Web.UI.UpdatePanel&gt;kontroll som definierar utlösaren.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt; property is set to <ph id="ph1">`true`</ph> and a child control of the &lt;xref:System.Web.UI.UpdatePanel&gt; control causes a postback.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;Egenskap är inställd på <ph id="ph1">`true`</ph> och en underordnad kontroll för den &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen utlöser ett återanslående.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel.ChildrenAsTriggers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A child control of a nested &lt;xref:System.Web.UI.UpdatePanel&gt; control does not cause an update to the outer &lt;xref:System.Web.UI.UpdatePanel&gt; control unless it is explicitly defined as a trigger.</source>
+          <target state="translated">En underordnad kontroll för en kapslad &lt;xref:System.Web.UI.UpdatePanel&gt;kontrollen inte orsakar en uppdatering av den yttre &lt;xref:System.Web.UI.UpdatePanel&gt;styra om inte definieras uttryckligen som en utlösare.&lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The specified type is not one of the <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Den angivna typen är inte en av de <bpt id="p1">&lt;xref href="System.Web.UI.UpdatePanelUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
