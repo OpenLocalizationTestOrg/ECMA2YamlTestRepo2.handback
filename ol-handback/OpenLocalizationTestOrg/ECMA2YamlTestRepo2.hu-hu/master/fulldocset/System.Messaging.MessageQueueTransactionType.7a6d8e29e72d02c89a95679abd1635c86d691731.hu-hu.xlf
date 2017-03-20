@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5ca45347a248d1da83d4d2adf19d552d1c79061</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageQueueTransactionType.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ba507b69cd1fb665905d6cfd0e9fd671c43619a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0825ad1c9624c5b12bfe8102a460c5e12ac09d9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the type of a Message Queuing transaction.</source>
+          <target state="translated">Határozza meg a Message Queuing tranzakció.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read or write a message using an overload of the &lt;xref:System.Messaging.MessageQueue&gt; class's &lt;xref:System.Messaging.MessageQueue.Send%2A&gt; or &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; methods (including &lt;xref:System.Messaging.MessageQueue.ReceiveById%2A&gt; and &lt;xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt;) that takes a <ph id="ph1">`transactionType`</ph> parameter, you can specify how you are interacting with the queue.</source>
+          <target state="translated">Ha olvasni vagy egy üzenetet az olyan túlterhelés használata a &lt;xref:System.Messaging.MessageQueue&gt;osztályának &lt;xref:System.Messaging.MessageQueue.Send%2A&gt;vagy &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;módszerek (beleértve &lt;xref:System.Messaging.MessageQueue.ReceiveById%2A&gt;és &lt;xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt;), amely fogad egy <ph id="ph1">`transactionType`</ph> paraméter, megadhatja, hogyan interakció a várólista.&lt;/xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt; &lt;/xref:System.Messaging.MessageQueue.ReceiveById%2A&gt; &lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue.Send%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Automatic`</ph> enables you to send and receive from external transactions (such as when you are interacting with database applications), while <ph id="ph2">`Single`</ph> is used for single internal Message Queuing transactions.</source>
+          <target state="translated"><ph id="ph1">`Automatic`</ph>lehetővé teszi a küldése és fogadása (például amikor való interakció adatbázis-alkalmazások) külső tranzakciók, miközben <ph id="ph2">`Single`</ph> egyetlen belső Message Queuing tranzakciók szolgál.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`None`</ph> enables you to receive a message from a transactional queue outside of a transaction or send a transactional message to a non-transactional queue.</source>
+          <target state="translated"><ph id="ph1">`None`</ph>hibaüzenetet küld egy tranzakció kívül tranzakcionális várósor, vagy nem tranzakciós várólista tranzakciós üzenetküldéshez teszi lehetővé.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful, for example, when routing several messages sent within a single transaction.</source>
+          <target state="translated">Ez akkor hasznos, például ha egy tranzakción belül több üzenetek útválasztási.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to send or receive a message using an internal Message Queuing transaction but not a single internal transaction, create an instance of the &lt;xref:System.Messaging.MessageQueueTransaction&gt; class and pass it into an overload of the &lt;xref:System.Messaging.MessageQueue.Send%2A&gt; or &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; methods that takes a <ph id="ph1">`transaction`</ph> parameter rather than one that takes a <ph id="ph2">`transactionType`</ph> parameter.</source>
+          <target state="translated">Szeretne elküldeni vagy fogadni a használ egy Message Queuing belső tranzakció, de nem egy egyetlen belső tranzakciót egy üzenetet, ha egy példányának létrehozásakor a &lt;xref:System.Messaging.MessageQueueTransaction&gt;osztályhoz, és adja át azt egy túlterhelése az a &lt;xref:System.Messaging.MessageQueue.Send%2A&gt;vagy &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;módszerek, amely fogad egy <ph id="ph1">`transaction`</ph> paraméter helyett, amely fogad egy egy <ph id="ph2">`transactionType`</ph> paraméter.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue.Send%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A transaction type used for Microsoft Transaction Server (MTS) or COM+ 1.0 Services.</source>
+          <target state="translated">A tranzakció típusát, vagy a Microsoft Transaction Server (MTS) vagy a COM + 1.0-szolgáltatásokat használja.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If there is already an MTS transaction context, it will be used when sending or receiving the message.</source>
+          <target state="translated">Ha már létezik egy MTS tranzakciós környezet lett átadva, küldésekor vagy fogadásakor az üzenet lesz.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Operation will not be transactional.</source>
+          <target state="translated">A művelet nem lesz tranzakciós.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A transaction type used for single internal transactions.</source>
+          <target state="translated">A tranzakció típusát egyetlen belső tranzakció esetén.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

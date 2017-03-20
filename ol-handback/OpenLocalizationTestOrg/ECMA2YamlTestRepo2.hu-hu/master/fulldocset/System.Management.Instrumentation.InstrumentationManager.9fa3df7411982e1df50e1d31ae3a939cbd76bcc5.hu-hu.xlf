@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">374eb1b43b33ea113bf7babe1da894a751bf1790</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Management.Instrumentation.InstrumentationManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e52e5e8e4f951633bba3cca806442df504576484</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f26e0b3e4d6fd2b6ba5058255556ca645075297b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods that manage the lifetime and the model used for decoupled providers.</source>
+          <target state="translated">Felügyelt élettartama, és a modell leválasztott szolgáltatók használt metódusokat biztosít.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: the WMI .NET libraries are now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.</source>
+          <target state="translated">Megjegyzés: a WMI .NET-kódtárakra most minősülnek végső állapot, és nincs további fejlesztési, fejlesztések, vagy frissítések állnak rendelkezésre a tárak érintő nem biztonsági problémákat.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>MI APIs<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj152383%28v=vs.80%29.aspx)</ept> should be used for all new development.</source>
+          <target state="translated">A <bpt id="p1">[</bpt>MI API-k<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj152383%28v=vs.80%29.aspx)</ept> használja a rendszer minden új fejlesztését.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Decoupled providers are hosted by an application.</source>
+          <target state="translated">Az alkalmazás által üzemeltetett leválasztott szolgáltatók.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two methods can be used by the application to make instances of WMI classes available: publish/revoke or the callback method.</source>
+          <target state="translated">Két módszer használható az alkalmazás elérhetővé a WMI-osztályok példányai: közzététel vagy a visszavonáshoz, vagy a visszahívási metódus.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback method uses the &lt;xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt; and &lt;xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt; methods.</source>
+          <target state="translated">A visszahívási metódusnak a &lt;xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt;és &lt;xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt;módszerek.&lt;/xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt; &lt;/xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the publish/revoke model, the WMI infrastructure provides default behavior for many of the methods you have to write yourself in the callback method.</source>
+          <target state="translated">A közzététel vagy a visszavonáshoz modellben a a WMI-infrastruktúra alapértelmezett viselkedést biztosít az visszahívási metódus írási saját magának kell módszerek közül.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These include the enumeration and bind methods.</source>
+          <target state="translated">Ezek közé tartozik a számbavételi és módszerek kötni.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this model, the application creates instances and publishes them.</source>
+          <target state="translated">Ebben a modellben az alkalmazás létrehozza, és közzéteszi őket.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application is responsible for ensuring that the key properties of the classes are respected.</source>
+          <target state="translated">Az alkalmazásra az, hogy az osztály kulcstulajdonságát tiszteletben tartják biztosításáért felelős.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application is also responsible for deleting instances.</source>
+          <target state="translated">Az alkalmazás felelős is példányok törlése.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the callback model, the WMI infrastructure expects the application to have methods that handle enumeration, binding and any other methods required to implement the functionality of the provider.</source>
+          <target state="translated">A visszahívási modellben a WMI-infrastruktúra az alkalmazás rendelkezik, amelyek kezelik a számbavételi, binding és a szolgáltató funkcióinak végrehajtásához szükséges semmilyen más metódus módszerek vár.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It calls into the application for this functionality and fails if it does not exist or is not implemented properly.</source>
+          <target state="translated">Meghívja az alkalmazás erre a funkcióra, és sikertelen lesz, ha nem létezik, vagy nem megfelelően van implementálva.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application registers the type of its WMI classes with the infrastructure by calling &lt;xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt; and indicates that it no longer wants the WMI classes exposed by calling &lt;xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt;.</source>
+          <target state="translated">Az alkalmazás az infrastruktúra a WMI-osztályok típusú regisztrálja &lt;xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt;azt jelzi, hogy már nem szeretné a WMI-osztályokat &lt;xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt;.&lt;/xref:System.Management.Instrumentation.InstrumentationManager.UnregisterType%2A&gt; meghívásával kitett&lt;/xref:System.Management.Instrumentation.InstrumentationManager.RegisterType%2A&gt; meghívásával</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Makes an instance of a provider available within the WMI infrastructure.</source>
+          <target state="translated">Elérhetővé teszi a szolgáltató példányt a WMI-infrastruktúrájában.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An instance of the class that implements the provider to publish.</source>
+          <target state="translated">A szolgáltató közzététele megvalósító osztály példánya.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Registers an assembly with the WMI infrastructure.</source>
+          <target state="translated">Egy szerelvény regisztrálja a WMI-infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The assembly to register.</source>
+          <target state="translated">A szerelvény regisztrálni.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Registers a class with the WMI infrastructure.</source>
+          <target state="translated">A WMI-infrastruktúra egy osztály regisztrálja.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The type of the class.</source>
+          <target state="translated">Az osztály típusa.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Takes an instance of a currently available provider and makes it unavailable within the WMI infrastructure.</source>
+          <target state="translated">A jelenleg rendelkezésre álló-szolgáltató példányát veszi, és lehetővé teszi az nem érhető el, a WMI-infrastruktúrájában.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An instance of the class that implements the provider to revoke.</source>
+          <target state="translated">A szolgáltató visszavonására megvalósító osztály példánya.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Unregisters an assembly currently registered with the WMI infrastructure.</source>
+          <target state="translated">Megszünteti egy szerelvény jelenleg regisztrálva a WMI-infrastruktúrával.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The registered assembly to unregister.</source>
+          <target state="translated">A regisztrált szerelvény regisztrációját.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Unregisters a class registered with the WMI infrastructure.</source>
+          <target state="translated">A WMI-infrastruktúra regisztrált osztály regisztrációjának törlése.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The registered type to unregister.</source>
+          <target state="translated">A regisztrált típus regisztrációjának törlése.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

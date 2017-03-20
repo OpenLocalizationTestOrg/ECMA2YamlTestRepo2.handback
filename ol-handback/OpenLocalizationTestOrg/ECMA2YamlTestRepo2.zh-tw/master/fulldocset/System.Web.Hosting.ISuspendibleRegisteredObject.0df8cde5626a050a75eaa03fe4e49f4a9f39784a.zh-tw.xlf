@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7e2fb9494cde42b398544f5d8ce5caab930d420</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Hosting.ISuspendibleRegisteredObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e76e3f06fd528421c74147a88bd111aae4d7108c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eaa6933539f108b32a1d41cc37ce74862723fa63</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Listens for suspend and resume notifications.</source>
+          <target state="translated">[在.NET Framework 4.5.1 及更新版本中支援]      接聽暫停和繼續通知。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>If an application passes to the &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt; method an object that implements the ISuspendibleRegisteredObject interface, the hosting environment will subscribe the object to listen for suspend or resume notifications.</source>
+          <target state="translated">如果應用程式將傳遞至&lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;方法實作 ISuspendibleRegisteredObject 介面，而裝載環境的物件會訂閱要接聽的物件暫停或繼續通知。&lt;/xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Called when ASP.NET notifies an application that a process is being suspended.</source>
+          <target state="translated">[在.NET Framework 4.5.1 及更新版本中支援]      當 ASP.NET 通知應用程式處理程序已被暫停時呼叫。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Suspend method must not throw exceptions, otherwise the behavior is undefined and the process will likely be terminated.</source>
+          <target state="translated">暫停方法未擲回例外狀況，否則行為是未定義，而且可能會終止處理程序。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Suspend method should not block execution, because after five seconds ASP.NET will allow the process to be suspended, even if not all Suspend methods have completed.</source>
+          <target state="translated">暫停方法應該不會封鎖執行，因為在五秒後 ASP.NET 將允許處理序遭擱置，即使 Suspend 方法並非都已完成。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If a callback returns, it will be invoked when the process resumes from suspension.</source>
+          <target state="translated">如果回呼傳回，它會叫用時繼續從暫止的處理序。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Suspend method may return <ph id="ph1">`null`</ph> if it does not have to be notified when the process resumes.</source>
+          <target state="translated">Suspend 方法可能會傳回<ph id="ph1">`null`</ph>如果並沒有繼續處理序時收到通知。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Suspend method is supported only when running in IIS integrated mode.</source>
+          <target state="translated">只有在 IIS 整合模式執行時，才支援暫停方法。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ASP.NET runtime does not guarantee that the Suspend method will ever fire.</source>
+          <target state="translated">ASP.NET 執行階段不保證，暫停方法會引發。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Called when ASP.NET notifies an application that a process is being suspended.</source>
+          <target state="translated">[在.NET Framework 4.5.1 及更新版本中支援]      當 ASP.NET 通知應用程式處理程序已被暫停時呼叫。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

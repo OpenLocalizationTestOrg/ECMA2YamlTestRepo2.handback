@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e674a08da3b960e30128d1630787f553764af671</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OracleClient.OracleBFile.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f854c29974ff3ec91382c4e15cce34b9925da898</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a6357e2b92e69ae6219d65418d496dd74cc4a2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a managed OracleBFile object designed to work with the Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data type.</source>
+          <target state="translated">表示托管的 OracleBFile 对象设计用于使用 Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>数据类型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Oracle <ph id="ph1">`BFILE`</ph> data type is an Oracle <ph id="ph2">`LOB`</ph> data type that contains a reference to binary data with a maximum size of 4 gigabytes.</source>
+          <target state="translated">Oracle<ph id="ph1">`BFILE`</ph>数据类型是一种 Oracle<ph id="ph2">`LOB`</ph>数据类型，包含最大大小为 4 千兆字节的二进制数据的引用。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An Oracle <ph id="ph1">`BFILE`</ph> differs from other Oracle <ph id="ph2">`LOB`</ph> data types in that its data is stored in a physical file in the operating system instead of on the server.</source>
+          <target state="translated">Oracle<ph id="ph1">`BFILE`</ph>不同于其他 Oracle<ph id="ph2">`LOB`</ph>数据类型，因为其数据存储在服务器上的物理文件中而不是操作系统。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Note that the <ph id="ph1">`BFILE`</ph> data type provides read-only access to data.</source>
+          <target state="translated">请注意，<ph id="ph1">`BFILE`</ph>数据类型提供对数据的只读访问。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Therefore, write-oriented methods inherited from the &lt;xref:System.IO.Stream&gt; class are not supported.</source>
+          <target state="translated">因此，面向写的方法继承自&lt;xref:System.IO.Stream&gt;不支持类。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Other characteristics of a <ph id="ph1">`BFILE`</ph> data type that distinguish it from a <ph id="ph2">`LOB`</ph> data type are that it:      -   Contains unstructured data.</source>
+          <target state="translated">其他特征<ph id="ph1">`BFILE`</ph>将它从区分开来的数据类型<ph id="ph2">`LOB`</ph>数据类型是:-包含非结构化的数据。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Supports server-side chunking.</source>
+          <target state="translated">-支持服务器端分块。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   Uses reference copy semantics.</source>
+          <target state="translated">-使用引用复制语义。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, if you perform a copy operation on a <ph id="ph1">`BFILE`</ph>, only the <ph id="ph2">`BFILE`</ph> locator (which is a reference to the file) is copied.</source>
+          <target state="translated">例如，如果在执行复制操作<ph id="ph1">`BFILE`</ph>，则只<ph id="ph2">`BFILE`</ph>复制定位符 （这是对文件的引用）。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The data in the file is not copied.</source>
+          <target state="translated">不复制文件中的数据。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`BFILE`</ph> data type should be used for referencing <ph id="ph2">`LOB`</ph>s that are large in size, and therefore, not practical to store in the database.</source>
+          <target state="translated"><ph id="ph1">`BFILE`</ph>数据类型应该用于引用<ph id="ph2">`LOB`</ph>s 较大的大小，因此，在数据库中存储不可行。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There is client, server, and communication overhead for using a <ph id="ph1">`BFILE`</ph> data type compared to the <ph id="ph2">`LOB`</ph> data type.</source>
+          <target state="translated">没有使用的客户端、 服务器和通信开销<ph id="ph1">`BFILE`</ph>数据类型相比<ph id="ph2">`LOB`</ph>数据类型。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It is more efficient to access a <ph id="ph1">`BFILE`</ph> if you only need to obtain a small amount of data.</source>
+          <target state="translated">它会更加高效访问<ph id="ph1">`BFILE`</ph>如果你只需以获取少量的数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is more efficient to access database-resident <ph id="ph1">`LOB`</ph>s if you need to obtain the entire object.</source>
+          <target state="translated">访问驻留在数据库中的更高效<ph id="ph1">`LOB`</ph>s 如果你需要获取整个对象。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each non-NULL OracleBFile object is associated with two entities that define the location of the underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">每个非 NULL OracleBFile 对象都与两个定义基础物理文件的位置的实体相关联:-一个 Oracle DIRECTORY 对象，它是一个目录的数据库别名中文件系统和基础物理文件，它位于与 DIRECTORY 对象关联的目录中的文件名称。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After a <ph id="ph1">`BFILE`</ph> is created, you can retrieve its locator in the form of an OracleBFile object using the &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt; or &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; methods.</source>
+          <target state="translated">后<ph id="ph1">`BFILE`</ph>是创建，你可以检索其 OracleBFile 对象使用窗体中的定位符&lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;或&lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt;方法。&lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; &lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To obtain an OracleBFile object, call the &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt; method.</source>
+          <target state="translated">若要获取 OracleBFile 对象，请调用&lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;方法。&lt;/xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The physical file that an OracleBFile object is associated with does not need to exist until you attempt to access it.</source>
+          <target state="translated">OracleBFile 对象与之关联的物理文件不需要存在，直到你尝试访问它。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An application can bind an OracleBFile to a nonexistent file, create the physical file in the expected location, and then call &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.</source>
+          <target state="translated">应用程序可以将 OracleBFile 绑定到不存在的文件，在预期位置中，创建物理文件，然后调用&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed OracleBFile using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an OracleBFile stream automatically.</source>
+          <target state="translated">任何尝试访问已关闭 OracleBFile 使用&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;或&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;方法将自动重新打开 OracleBFile 流。&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following C# example demonstrates how you can create a <ph id="ph1">`BFILE`</ph> in an Oracle table, and then retrieve it in the form of an OracleBFile object.</source>
+          <target state="translated">下面的 C# 示例演示如何创建<ph id="ph1">`BFILE`</ph>在 Oracle 表，，然后检索 OracleBFile 对象的形式。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The example demonstrates the use of the &lt;xref:System.Data.OracleClient.OracleDataReader&gt; object and the OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; methods.</source>
+          <target state="translated">该示例演示如何使用&lt;xref:System.Data.OracleClient.OracleDataReader&gt;对象和 OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;和&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;方法。&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept><ept id="p1">]</ept>       For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept> <ept id="p1">]</ept>有关创建和使用 Oracle 更多信息<ph id="ph1">`BFILE`</ph>，请参阅 Oracle 文档中的相应主题。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, and <ph id="ph4">`WriteByte`</ph> methods, which are inherited from the <ph id="ph5">`System.IO.Stream`</ph> class, are not supported because the <ph id="ph6">`BFILE`</ph> data type is read-only.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; <ph id="ph2">`BeginWrite`</ph>， <ph id="ph3">`EndWrite`</ph>，和<ph id="ph4">`WriteByte`</ph>方法，继承自<ph id="ph5">`System.IO.Stream`</ph>类中，不支持，因为<ph id="ph6">`BFILE`</ph>数据类型是只读的。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream can be read.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>可以读取流。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已关闭或释放; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether forward-seek and backward-seek operations can be performed.</source>
+          <target state="translated">获取一个值，该值指示是否向前和向后查找操作可以执行。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已关闭或释放; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the object supports writing.</source>
+          <target state="translated">获取一个值，该值指示对象是否支持写入。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> because the Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data type is read-only.</source>
+          <target state="translated">始终返回<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>因为 Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>数据类型是只读的。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original.</source>
+          <target state="translated">创建一份<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与原始与相同的物理文件关联的对象。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The properties of the new &lt;xref:System.Data.OracleClient.OracleBFile&gt; object initially have the same values as those of the original object.</source>
+          <target state="translated">新属性&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象最初具有与原始对象相同的值。&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, after the Clone is complete, each &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is independent from the other.</source>
+          <target state="translated">但是，克隆完成后，每个在&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象是相互独立。&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, changing the value of the &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; property on the original &lt;xref:System.Data.OracleClient.OracleBFile&gt; does not change the value of &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; on the copy.</source>
+          <target state="translated">例如，更改的值&lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;原始属性&lt;xref:System.Data.OracleClient.OracleBFile&gt;不会更改的值&lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;的副本。&lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">一个新<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与原始与相同的物理文件相关联对象<bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的此实例所使用的<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The connection to a data source.</source>
+          <target state="translated">到数据源的连接。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default is a null value.</source>
+          <target state="translated">默认值为 null 值。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">将复制的全部内容<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到的目标开头<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">基础数据源类型的&lt;xref:System.Data.OracleClient.OracleBFile&gt;和目标&lt;xref:System.Data.OracleClient.OracleLob&gt;必须兼容。&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">例如，不能将二进制数据复制到目标&lt;xref:System.Data.OracleClient.OracleLob&gt;，其字符数据类型。&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the CopyTo operation to execute correctly.</source>
+          <target state="translated">你必须具有写入访问权限目标&lt;xref:System.Data.OracleClient.OracleLob&gt;CopyTo 操作才能正确执行。&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">目标<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">复制的字节数。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">目标<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是空对象引用。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目标为 null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">-与此连接<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>关联已关闭。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象已关闭或已释放。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> at the specified offset.</source>
+          <target state="translated">将复制的全部内容<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到目标<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>指定偏移量处。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">基础数据源类型的&lt;xref:System.Data.OracleClient.OracleBFile&gt;和目标&lt;xref:System.Data.OracleClient.OracleLob&gt;必须兼容。&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">例如，不能将二进制数据复制到目标&lt;xref:System.Data.OracleClient.OracleLob&gt;，其字符数据类型。&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">你必须具有写入访问权限目标&lt;xref:System.Data.OracleClient.OracleLob&gt;为&lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;操作才能正确执行。&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目标<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">要将复制到偏移量。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">复制的字节数。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">目标<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是空对象引用。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目标为 null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">-与此连接<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>关联已关闭。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象已关闭或已释放。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Copies from this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified amount of data, the source offset, and the destination offset.</source>
+          <target state="translated">从该副本<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到目标<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>具有指定量数据、 源偏移量，以及目标偏移量。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">基础数据源类型的&lt;xref:System.Data.OracleClient.OracleBFile&gt;和目标&lt;xref:System.Data.OracleClient.OracleLob&gt;必须兼容。&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">例如，不能将二进制数据复制到目标&lt;xref:System.Data.OracleClient.OracleLob&gt;，其字符数据类型。&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">你必须具有写入访问权限目标&lt;xref:System.Data.OracleClient.OracleLob&gt;为&lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;操作才能正确执行。&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The offset from which to copy.</source>
+          <target state="translated">要从其中复制偏移量。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目标<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">要将复制到偏移量。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The quantity of data, in bytes, to copy.</source>
+          <target state="translated">数据，以字节为单位，以将复制的数量。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">复制的字节数。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the amount parameter is less than zero or greater than 4 gigabytes.</source>
+          <target state="translated">量参数的值小于零或大于 4 千兆字节。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">目标<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是空对象引用。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目标为 null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">-与此连接<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>关联已关闭。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象已关闭或已释放。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the name of the DIRECTORY object, with which an <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">获取与其的目录对象的名称<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象所关联。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Each non-NULL &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is associated with two entities that define the location of underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">每个非 NULL&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象都与两个定义基础物理文件的位置的实体关联:-一个 Oracle DIRECTORY 对象，它是一个目录的数据库别名中文件系统和基础物理文件，它位于与 DIRECTORY 对象关联的目录中的文件名称。&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The DirectoryName property returns the name of the DIRECTORY object from the Oracle database.</source>
+          <target state="translated">DirectoryName 属性从 Oracle 数据库中返回的目录对象的名称。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated">有关详细信息，有关创建和使用 Oracle <ph id="ph1">`BFILE`</ph>，请参阅 Oracle 文档中的相应主题。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the DIRECTORY object.</source>
+          <target state="translated">目录对象的名称。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Attempted to call <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on a closed or disposed <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">尝试调用<bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对已关闭或释放<bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a physical file containing <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data exists in the operating system.</source>
+          <target state="translated">获取一个值，该值指示是否包含的物理文件<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在操作系统中存在的数据。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a physical file containing <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data exists; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果物理文件包含<bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>数据存在; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象已关闭或已释放。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">与其连接<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>关联已关闭。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> without the path.</source>
+          <target state="translated">获取的名称<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不含路径。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, an empty string is returned.</source>
+          <target state="translated">有关&lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;，则返回空字符串。&lt;/xref:System.Data.OracleClient.OracleBFile.Null&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The name of the BFILE.</source>
+          <target state="translated">BFILE 的名称。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象已关闭或已释放。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>流。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a value that returns the length in bytes of the physical file with which the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">获取一个值，返回的长度以字节为单位的物理文件与其<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象所关联。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A long value representing the length of the physical file in bytes.</source>
+          <target state="translated">表示以字节为单位的物理文件的长度的长值。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">流已关闭或断开后调用方法。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Represents a null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is not bound to a physical file.</source>
+          <target state="translated">表示 null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>未绑定到的物理文件的对象。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Null can be useful when you want to perform a comparison operation on an &lt;xref:System.Data.OracleClient.OracleBFile&gt; to determine nullability.</source>
+          <target state="translated">如果你想要上执行的比较运算，null 可&lt;xref:System.Data.OracleClient.OracleBFile&gt;以确定可为 null。&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Any attempt to perform a read operation on a Null object succeeds, but does not return any data.</source>
+          <target state="translated">任何尝试执行对 Null 对象的读取的操作成功，但不返回任何数据。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Any attempt to perform a write operation on a Null object generates an exception.</source>
+          <target state="translated">任何尝试执行 Null 对象上的写入操作将引发异常。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Selecting a <ph id="ph1">`BFILE`</ph> column that contains a null value returns Null.</source>
+          <target state="translated">选择<ph id="ph1">`BFILE`</ph>包含一个 null 值的列返回 Null。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the current read position in the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">获取当前读取位置中的<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>流。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">不支持查找到流的长度超出任何位置。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Position`</ph> property does not keep track of the number of bytes from the stream that have been consumed, skipped, or both.</source>
+          <target state="translated"><ph id="ph1">`Position`</ph>属性不会不跟踪的从和 / 或已用完，跳过，流的字节数。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">中的当前位置<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>流。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">尝试设置一个含有负值或大于流的长度的位置。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">流已关闭或断开后调用方法。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">从当前读取的字节序列<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>流以及技术进步读取的字节数的流中的位置。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The Read method read a maximum of <ph id="ph1">`count`</ph> bytes from the current stream and store them in <ph id="ph2">`buffer`</ph> beginning at <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Read 方法读取的最多<ph id="ph1">`count`</ph>字节从当前流，并且将它们存储在<ph id="ph2">`buffer`</ph>开始<ph id="ph3">`offset`</ph>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The current position within the stream is advanced by the number of bytes read; however, if an exception occurs, the current position within the stream remains unchanged.</source>
+          <target state="translated">流中的当前位置高级通过读取; 的字节数但是，如果发生异常，将流中的当前位置保持不变。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Read returns the number of bytes read.</source>
+          <target state="translated">读取返回读取的字节数。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The return value is zero only if the position is currently at the end of the stream.</source>
+          <target state="translated">仅当位置当前在流末尾，则返回值为零。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Read will block until at least one byte of data can be read, in the event that no data is available.</source>
+          <target state="translated">读取将一直阻止到至少一个字节的数据可供读取的事件中不会提供数据。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Read returns 0 only when the end of the file has been reached.</source>
+          <target state="translated">已达到文件末尾时为只读，则返回 0。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Read is free to return fewer bytes than requested even if the end of the stream has not been reached.</source>
+          <target state="translated">读取可以自由地返回少于所请求的字节，即使尚未达到流结尾。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the Read or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">任何尝试访问已关闭&lt;xref:System.Data.OracleClient.OracleBFile&gt;使用只读或&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;方法重新打开&lt;xref:System.Data.OracleClient.OracleBFile&gt;自动流式传输。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the Read and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">下面的 C# 示例假定在 Oracle 表中的此架构︰<ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>示例演示如何使用读取和&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;方法，以访问&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">字节数组。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between <ph id="ph1">`offset`</ph> and (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) replaced by the bytes read from the current source.</source>
+          <target state="translated">此方法返回时，该缓冲区包含指定的字节数组之间的值<ph id="ph1">`offset`</ph>和 (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) 由从当前源中读取的字节替换。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin storing the data read from the current stream.</source>
+          <target state="translated">中的从零开始的字节偏移量<ph id="ph1">`buffer`</ph>从此处开始存储读取的数据从当前流。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">最大要从当前流中读取的字节数。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">读取到缓冲区的字节总数。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This may be less than the number of bytes requested if that many bytes are not currently available, or zero if the end of the file has been reached.</source>
+          <target state="translated">这可能小于请求的字节数如果很多字节当前不可用，或零个如果已到达文件末尾。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">总和<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept>大于缓冲区长度。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>为负。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">与其连接<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>关联已关闭。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">发生 I/O 错误。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">流已关闭或断开后调用方法。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the position on the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">对当前设置的位置<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>流。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position is required to precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为负，则要求新位置指定的位置之前<ph id="ph2">`origin`</ph>按指定的字节数<ph id="ph3">`offset`</ph>。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position is required to be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为零，则要求指定的位置的新位置，位于<ph id="ph2">`origin`</ph>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position is required to follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为正，则要求按照指定的位置新位置位于<ph id="ph2">`origin`</ph>按指定的字节数<ph id="ph3">`offset`</ph>。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">不支持查找到流的长度超出任何位置。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or Seek methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">任何尝试访问已关闭&lt;xref:System.Data.OracleClient.OracleBFile&gt;使用&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;或查找方法重新打开&lt;xref:System.Data.OracleClient.OracleBFile&gt;自动流式传输。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and Seek methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">下面的 C# 示例假定在 Oracle 表中的此架构︰<ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>示例演示如何使用&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;和查找方法，以访问&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to origin.</source>
+          <target state="translated">相对于原点的字节偏移量。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position will precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为负，新的位置将指定的位置之前通过<ph id="ph2">`origin`</ph>按指定的字节数<ph id="ph3">`offset`</ph>。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position will be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为零，则新的位置是由指定的位置<ph id="ph2">`origin`</ph>。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position will follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`offset`</ph>为正，新的位置将遵循由指定的位置<ph id="ph2">`origin`</ph>按指定的字节数<ph id="ph3">`offset`</ph>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the reference point used to obtain the new position.</source>
+          <target state="translated">类型的值<bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，该值指示用于获取新位置的参考点。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">当前流中的新位置。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">尝试设置一个含有负值或大于流的长度的位置。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">流已关闭或断开后调用方法。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a different file in the operating system.</source>
+          <target state="translated">将绑定<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到不同的文件在操作系统中的对象。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The SetFileName operation must be within a transaction to succeed.</source>
+          <target state="translated">SetFileName 操作必须在事务才能成功。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Simply calling SetFileName on a <ph id="ph1">`BFILE`</ph> associates the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object with a different file, but does not update the Oracle table.</source>
+          <target state="translated">只需调用 SetFileName<ph id="ph1">`BFILE`</ph>将相关联&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象与另一个文件，但不是更新 Oracle 表。&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>To update the Oracle table after calling SetFileName, you must call the <ph id="ph1">`Update`</ph> method of the &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt; and then commit the transaction.</source>
+          <target state="translated">若要在调用 SetFileName 之后更新 Oracle 表，必须调用<ph id="ph1">`Update`</ph>方法&lt;xref:System.Data.OracleClient.OracleDataAdapter&gt;然后提交事务。&lt;/xref:System.Data.OracleClient.OracleDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Once you retrieve the &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; property, they are cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object and are unaffected by any cloned &lt;xref:System.Data.OracleClient.OracleBFile&gt; objects' calls to SetFileName, or by any changes to the <ph id="ph1">`BFILE`</ph> in the database.</source>
+          <target state="translated">一旦您检索&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;或&lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;属性，则它们将缓存在&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象并不会受到任何克隆&lt;xref:System.Data.OracleClient.OracleBFile&gt;SetFileName，或到所做的任何更改的对象的调用<ph id="ph1">`BFILE`</ph>数据库中。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>In other words, they might not represent the actual values of the <ph id="ph1">`BFILE`</ph> object in the server.</source>
+          <target state="translated">换而言之，它们可能无法反映的实际值<ph id="ph1">`BFILE`</ph>服务器中的对象。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Furthermore, retrieving either property (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) causes both property values to be retrieved from the server and cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">此外，检索这两个属性 (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;或&lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) 会导致两个属性值被从服务器检索并缓存在&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the SetFileName, &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">下面的 C# 示例假定在 Oracle 表中的此架构︰<ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>示例演示如何使用 SetFileName，&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;和&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;方法，以访问&lt;xref:System.Data.OracleClient.OracleBFile&gt;对象。&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The alias of the directory object that contains a physical file.</source>
+          <target state="translated">包含的物理文件的目录对象的别名。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The name of the file in the operating system.</source>
+          <target state="translated">在操作系统中的文件的名称。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The operation must be within a transaction.</source>
+          <target state="translated">操作必须在事务中。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">搜索或写入不支持所调用的功能的流时不支持调用的方法，或者当尝试读取，则会引发的异常。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">获取&lt;xref:System.Array&gt;类型的&lt;xref:System.Byte&gt;包含<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>数据。&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The Value property reads the entire <ph id="ph1">`BFILE`</ph> at one time.</source>
+          <target state="translated">Value 属性读取整个<ph id="ph1">`BFILE`</ph>一次。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A benefit of using <ph id="ph2">`BFILE`</ph>s is the ability to retrieve large amounts of data in chunks at the client.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 使用的优点<ph id="ph2">`BFILE`</ph>s 是能够检索大量在客户端的小区块中的数据。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>However, when you use Value, you obtain all the data for the BFILE column as one contiguous chunk, which can significantly increase application overhead.</source>
+          <target state="translated">但是，当使用值时，你作为一个连续的区块，这可以显著提高应用程序开销获取 BFILE 列的所有数据。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">&lt;xref:System.Array&gt;类型的&lt;xref:System.Byte&gt;包含<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>数据。&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">当前不受支持。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">搜索或写入不支持所调用的功能的流时不支持调用的方法，或者当尝试读取，则会引发的异常。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
