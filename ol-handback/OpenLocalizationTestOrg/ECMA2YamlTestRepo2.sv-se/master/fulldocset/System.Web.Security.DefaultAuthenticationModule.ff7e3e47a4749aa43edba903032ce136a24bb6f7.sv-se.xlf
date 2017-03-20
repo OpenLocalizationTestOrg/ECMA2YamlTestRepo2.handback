@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a49050d24e3aa35652e8bd7f01cedd7bbdd6093</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.DefaultAuthenticationModule.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3faed9bfe3f58767bb7849374bedeec4ad6645ec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7056bbc5c3251cfd515096e95ffca99318d23738</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Ensures that an authentication object is present in the context.</source>
+          <target state="translated">Garanterar att ett autentiseringsobjekt finns i kontexten.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Den här klassen kan inte ärvas.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule ensures that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is set to an &lt;xref:System.Security.Principal.IPrincipal&gt; object for each request.</source>
+          <target state="translated">DefaultAuthenticationModule garanterar att den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen för aktuellt &lt;xref:System.Web.HttpContext&gt;instans anges till ett &lt;xref:System.Security.Principal.IPrincipal&gt;objekt för varje begäran.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule examines the &lt;xref:System.Web.HttpContext.User%2A&gt; property after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated">DefaultAuthenticationModule undersöker den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen när den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;händelse och innan den &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;händelse.&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.HttpContext.User%2A&gt; property is <ph id="ph1">`null`</ph>, the DefaultAuthenticationModule sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">Om den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen är <ph id="ph1">`null`</ph>, DefaultAuthenticationModule anger den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen till ett &lt;xref:System.Security.Principal.GenericPrincipal&gt;objekt som innehåller ingen användarinformation.&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the authentication module sets the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property to 401, the DefaultAuthenticationModule will render an access-denied error page.</source>
+          <target state="translated">Om autentiseringsmodul anger den &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;egenskapen till 401 återges i DefaultAuthenticationModule en nekad felsida.&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property is set to a value greater than 200, the DefaultAuthenticationModule object will end the request.</source>
+          <target state="translated">Om värdet för den &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;egenskapen har angetts till ett värde större än 200, DefaultAuthenticationModule objektet avslutas begäran.&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, only HTTP modules that subscribe to the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event are called prior to the completion of the current request.</source>
+          <target state="translated">I så fall endast HTTP-moduler som prenumererar på den &lt;xref:System.Web.HttpApplication.EndRequest&gt;händelse anropas innan slutförandet av den aktuella begäranden.&lt;/xref:System.Web.HttpApplication.EndRequest&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule exposes an &lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt; event.</source>
+          <target state="translated">DefaultAuthenticationModule Exponerar en &lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;händelse.&lt;/xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this event to provide a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object for the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance.</source>
+          <target state="translated">Du kan använda den här händelsen för att ange ett eget &lt;xref:System.Security.Principal.IPrincipal&gt;objekt för den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen för aktuellt &lt;xref:System.Web.HttpContext&gt;instans.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt; event is accessed by specifying an event named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">Den &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;händelse nås genom att ange en händelse med namnet <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> i filen Global.asax för programmets.&lt;/xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be called from application code.</source>
+          <target state="translated">Den här konstruktorn är inte avsedd att anropas från programkod.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET calls this constructor to create an instance of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class.</source>
+          <target state="translated">ASP.NET anropar den här konstruktorn för att skapa en instans av &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;klassen.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling the constructor, it calls the &lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt; method to initialize the new &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; object.</source>
+          <target state="translated">När du anropar konstruktorn, anropar den &lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;metod för att initiera den nya &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;objektet.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Occurs after the request has been authenticated.</source>
+          <target state="translated">Inträffar efter att begäran har verifierats.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event.</source>
+          <target state="translated">Autentisera händelsen inträffar när den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;händelse.&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used to ensure that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is populated with an &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">Används för att se till att den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen för aktuellt &lt;xref:System.Web.HttpContext&gt;instans fylls med ett &lt;xref:System.Security.Principal.IPrincipal&gt;objekt.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class by specifying a subroutine named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">Du kan komma åt autentisera händelsen för den &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;klass genom att ange en subrutin med namnet <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> i filen Global.asax för programmets.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt; property of the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; object in the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event to set the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance to a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">Du kan använda den &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;egenskapen för den &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt;objekt i den <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> händelsen för att ange den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen för aktuellt &lt;xref:System.Web.HttpContext&gt;instans till en anpassad &lt;xref:System.Security.Principal.IPrincipal&gt;objektet.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a value for the &lt;xref:System.Web.HttpContext.User%2A&gt; property, the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the &lt;xref:System.Web.HttpContext&gt; instance to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">Om du inte anger ett värde för den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen den &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;anger den &lt;xref:System.Web.HttpContext.User%2A&gt;-egenskapen för den &lt;xref:System.Web.HttpContext&gt;instansen till en &lt;xref:System.Security.Principal.GenericPrincipal&gt;objekt som innehåller ingen användarinformation.&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated">Den <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> händelse utlöses efter att den &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;händelse och innan den &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;händelse.&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have an  section that depends on the user name to deny or allow access to your application, modifying the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance can affect the behavior of your application.</source>
+          <target state="translated">Om du har ett avsnitt som är beroende av användarnamn för att neka eller tillåter åtkomst till ditt program, ändra den &lt;xref:System.Web.HttpContext.User%2A&gt;egenskapen för aktuellt &lt;xref:System.Web.HttpContext&gt;instans kan påverka hur dina program.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be sure that the user name you set during the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is considered when you specify the  section in your configuration.</source>
+          <target state="translated">Kontrollera att användarnamnet som du anger under den <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> händelse anses när du anger i avsnittet i konfigurationen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the Web application is running in IIS 7.0 in Integrated mode, the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is not raised.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Om webbprogrammet körs i IIS 7.0 i integrerat läge, autentisera händelsen för den &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;utlöses inte.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`mode`</ph> attribute of the  configuration element is set to "None" and the application subscribes to the Authenticate event, a &lt;xref:System.PlatformNotSupportedException&gt; error is raised.</source>
+          <target state="translated">Om den <ph id="ph1">`mode`</ph> attribut för konfigurationselementet anges till "None" och programmet prenumererar på händelsen autentisera en &lt;xref:System.PlatformNotSupportedException&gt;fel inträffar.&lt;/xref:System.PlatformNotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, to receive authentication notification, subscribe to the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event of the &lt;xref:System.Web.HttpApplication&gt; instance.</source>
+          <target state="translated">I det här scenariot för att ta emot meddelande om authentication prenumerera på &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;händelsen för den &lt;xref:System.Web.HttpApplication&gt;instans.&lt;/xref:System.Web.HttpApplication&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about compatibility issues in Integrated mode, see <bpt id="p1">[</bpt>Moving an ASP.NET Application from IIS 6.0 to IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information om kompatibilitet i integrerat läge finns <bpt id="p1">[</bpt>flyttar ett ASP.NET-program från IIS 6.0 till IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Releases all resources, other than memory, used by the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigör alla resurser, förutom minne som används av den <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Den här metoden ska inte anropas från programkod.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Initierar den <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Den här metoden ska inte anropas från programkod.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Init method ensures that the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is included in the processing of events.</source>
+          <target state="translated">Init-metoden garanterar att den &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;ingår i bearbetningen av händelser.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Aktuellt <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

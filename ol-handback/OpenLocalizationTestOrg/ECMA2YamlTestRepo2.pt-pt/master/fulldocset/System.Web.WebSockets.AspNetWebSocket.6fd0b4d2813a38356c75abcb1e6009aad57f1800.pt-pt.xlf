@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ea7a1b4956f70959f1897582612fb1b99353a7d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.WebSockets.AspNetWebSocket.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57d9862879da28ca4e41ca450c556c2d56a18f22</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c93e8cb88fd2bb3fc18c3e7a289d1586e455e770</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a real-time full-duplex connection between a web server and a client in an ASP.NET application.</source>
+          <target state="translated">Representa uma ligação de full-duplex em tempo real entre um servidor web e um cliente de uma aplicação ASP.NET.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Cancels any pending I/O operations on the <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and sets the state of the object so that it cannot be used to start additional I/O operations.</source>
+          <target state="translated">Cancela quaisquer operações de e/s pendentes no <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> de objeto e define o estado do objeto de modo a que não pode ser utilizado para iniciar as operações de e/s adicionais.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the Abort method has been called, you can still access properties and methods that do not involve I/O operations.</source>
+          <target state="translated">Depois de ter sido chamado o método de abortar, ainda pode aceder a propriedades e métodos que não envolvem operações de e/s.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends an asynchronous message to a client to close the connection.</source>
+          <target state="translated">Envia uma mensagem assíncrona para um cliente para fechar a ligação.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the server initiates the request to close the connection, the method waits for the client to acknowledge the request before it returns.</source>
+          <target state="translated">Se o servidor inicia o pedido para fechar a ligação, o método aguarda para confirmar o pedido antes de devolve ao cliente.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the CloseAsync and &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt; methods for both client-initiated and server-initiated requests to close an &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; connection.</source>
+          <target state="translated">Pode utilizar o CloseAsync e &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;métodos para pedidos de iniciadas por clientes e iniciadas pelo servidor fechar um &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;ligação.&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt; &lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The two methods handle client-initiated requests in the same way: After the client sends a message to the server to close the connection, the server calls one of these methods and sends an acknowledgment to the client, and then the method returns.</source>
+          <target state="translated">Os dois métodos processarem pedidos iniciada pelo cliente da mesma forma: depois do cliente envia uma mensagem para o servidor para fechar a ligação, o servidor chama um destes métodos e envia uma confirmação para o cliente e, em seguida, o método devolve.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For server-initiated requests, the two methods work differently.</source>
+          <target state="translated">Para pedidos iniciadas pelo servidor, os dois métodos funcionam de forma diferente.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CloseAsync method sends a message to the client to close the connection, waits for a response, and then returns.</source>
+          <target state="translated">O método CloseAsync envia uma mensagem para o cliente para fechar a ligação, aguarda uma resposta e, em seguida, devolve.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The server does not wait for any additional data sent by the client.</source>
+          <target state="translated">O servidor não aguardar quaisquer dados adicionais enviados pelo cliente.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt; method sends a message to the client to close the connection and returns without waiting for a response.</source>
+          <target state="translated">Em contrapartida, o &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;método envia uma mensagem para o cliente para fechar a ligação e devolve sem aguardar uma resposta.&lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the method returns, you can call the &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt; method and handle either additional data or the acknowledgment that the client sends.</source>
+          <target state="translated">Depois do método devolve, pode chamar o &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;método e processar dados adicionais ou a confirmação do que o cliente envia.&lt;/xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The status code of the close operation.</source>
+          <target state="translated">O código de estado da operação de fecho.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The status message of the close operation.</source>
+          <target state="translated">A mensagem de estado da operação de fechada.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">O objecto cancela uma operação pendente.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A reference to the operation.</source>
+          <target state="translated">Uma referência para a operação.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was previously disposed.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está num Estado abortado.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">- ou - operações de envio estão indisponíveis.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-or-       Receiving operations are unavailable.</source>
+          <target state="translated">- ou - receção de operações não estão disponíveis.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Sends an asynchronous message to a client to close the connection.</source>
+          <target state="translated">Envia uma mensagem assíncrona para um cliente para fechar a ligação.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the server initiates the request to close the connection, the method returns without waiting for a response.</source>
+          <target state="translated">Se o servidor inicia o pedido para fechar a ligação, o método devolve sem aguardar uma resposta.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt; and CloseOutputAsync methods for both client-initiated and server-initiated requests to close an &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; connection.</source>
+          <target state="translated">Pode utilizar o &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;CloseOutputAsync métodos e para pedidos de iniciadas por clientes e iniciadas pelo servidor fechar um &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;ligação.&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt; &lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The two methods handle client-initiated requests in the same way: After the client sends a message to the server to close the connection, the server calls one of these methods and sends an acknowledgment to the client, and then the method returns.</source>
+          <target state="translated">Os dois métodos processarem pedidos iniciada pelo cliente da mesma forma: depois do cliente envia uma mensagem para o servidor para fechar a ligação, o servidor chama um destes métodos e envia uma confirmação para o cliente e, em seguida, o método devolve.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For server-initiated requests, the two methods work differently.</source>
+          <target state="translated">Para pedidos iniciadas pelo servidor, os dois métodos funcionam de forma diferente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt; method sends a message to the client to close the connection, waits for a response, and then returns.</source>
+          <target state="translated">O &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;método envia uma mensagem para o cliente para fechar a ligação, aguarda uma resposta e, em seguida, devolve.&lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The server does not wait for any additional data sent by the client.</source>
+          <target state="translated">O servidor não aguardar quaisquer dados adicionais enviados pelo cliente.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the CloseOutputAsync method sends a message to the client to close the connection and returns without waiting for a response.</source>
+          <target state="translated">Em contrapartida, o método CloseOutputAsync envia uma mensagem para o cliente para fechar a ligação e devolve sem aguardar uma resposta.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the method returns, you can call the &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt; method and handle either additional data or the acknowledgment that the client sends.</source>
+          <target state="translated">Depois do método devolve, pode chamar o &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;método e processar dados adicionais ou a confirmação do que o cliente envia.&lt;/xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The status code of the close operation.</source>
+          <target state="translated">O código de estado da operação de fecho.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The status message of the close operation.</source>
+          <target state="translated">A mensagem de estado da operação de fechada.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">O objecto cancela uma operação pendente.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A reference to the operation.</source>
+          <target state="translated">Uma referência para a operação.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está num Estado abortado.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">- ou - operações de envio estão indisponíveis.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a status code that indicates why an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed.</source>
+          <target state="translated">Obtém um código de estado que indica a razão por um <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The status code.</source>
+          <target state="translated">O código de estado.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a status message that explains why an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed.</source>
+          <target state="translated">Obtém uma mensagem de estado que explica porquê uma <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi fechado.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The status message.</source>
+          <target state="translated">A mensagem de estado.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Versões de todos os recursos utilizados por um <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically calls the Dispose method on a &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; object to release any resources that remain after your code has finished executing.</source>
+          <target state="translated">ASP.NET automaticamente chama o método de Dispose num &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;objeto para libertar os recursos que permanecem após terminar o seu código em execução.&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Receives a single message fragment from a remote client.</source>
+          <target state="translated">Recebe um fragmento de única mensagem de um cliente remoto.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The array that contains the message data.</source>
+          <target state="translated">A matriz que contém os dados da mensagem.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">O objecto cancela uma operação pendente.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A reference to the task of receiving a message.</source>
+          <target state="translated">Uma referência a tarefa de receber uma mensagem.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was previously disposed.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está num Estado abortado.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-or-       Receiving operations are unavailable.</source>
+          <target state="translated">- ou - receção de operações não estão disponíveis.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Sends a single message fragment to a remote client.</source>
+          <target state="translated">Envia um fragmento de única mensagem para um cliente remoto.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The array that contains the message data.</source>
+          <target state="translated">A matriz que contém os dados da mensagem.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The message type.</source>
+          <target state="translated">O tipo de mensagem.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that a fragment is the end of a complete message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para indicar que um fragmento é final de uma mensagem completa; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">O objecto cancela uma operação pendente.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A reference to the task of sending a message.</source>
+          <target state="translated">Uma referência a tarefa de enviar uma mensagem.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is disposed.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> o objeto foi eliminado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto está num Estado abortado.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">- ou - operações de envio estão indisponíveis.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the open or closed state of an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Obtém um valor que indica o estado open ou closed de um <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The current state.</source>
+          <target state="translated">O estado atual.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the name of an application-specific protocol that a remote client and a server can use to exchange data over an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> connection.</source>
+          <target state="translated">Obtém o nome de um protocolo de específicas da aplicação que um cliente remoto e um servidor, podem utilizar para trocar dados através de um <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ligação.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The name of the protocol.</source>
+          <target state="translated">O nome do protocolo.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">O objeto foi eliminado anteriormente.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

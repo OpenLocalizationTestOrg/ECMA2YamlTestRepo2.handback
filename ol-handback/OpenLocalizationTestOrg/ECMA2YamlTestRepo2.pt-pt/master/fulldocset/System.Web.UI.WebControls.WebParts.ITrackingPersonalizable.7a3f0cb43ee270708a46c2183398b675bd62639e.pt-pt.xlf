@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f5f0fb84f5ab91f6e30b9b4e3d9713238b0506a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90aec0665f1ed092fa4d48b186df9f0a4c1694c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45c4f07c36d0d475b09a775a981fb424d8d52774</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows Web Parts controls to track the specific phases of the personalization load and save process.</source>
+          <target state="translated">Permite que os controlos de peças Web controlar as fases específicas da carga do personalização e guardar o processo.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This interface allows control developers to track different phases of the personalization life cycle, including the loading and saving of personalization data.</source>
+          <target state="translated">Esta interface permite aos programadores controlo controlar diferentes fases do ciclo de vida personalização, incluindo o carregamento e guardar de dados de personalização.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, to use this interface you would create a custom &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; and implement this interface.</source>
+          <target state="translated">Na maioria dos casos, para utilizar esta interface criaria um personalizado &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;ou &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;e implemente esta interface.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, controls that need to manage their own change ("dirty") tracking should implement this interface.</source>
+          <target state="translated">Além disso, os controlos que necessitam de gerir as seus próprios alterações ("desatualização") devem implementar esta interface.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that manage their own change tracking should return <ph id="ph1">`true`</ph> from the &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt; property.</source>
+          <target state="translated">Os controlos de gerir as seus próprios alterações deverá devolver <ph id="ph1">`true`</ph> do &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph> is returned, then ASP.NET is responsible for determining changes by comparing the property information loaded with the property information that was saved.</source>
+          <target state="translated">Se <ph id="ph1">`false`</ph> é devolvido, em seguida, o ASP.NET é responsável para determinar as alterações ao comparar as informações de propriedade carregado com as informações de propriedade que foi guardadas.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the load phase for personalization information.</source>
+          <target state="translated">Representa o início da fase de carga para obter informações de personalização.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to applying personalization data.</source>
+          <target state="translated">O conjunto de controlo de peças Web chama este método antes de aplicar os dados de personalização.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its own change state should use this method to set an internal flag indicating that properties should not call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">Um controlo que controla a suas próprias alteração de estado deve utilizar este método para definir um sinalizador interno que indica que as propriedades não devem chamar &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because property-setting methods can be called during the application of personalization data, subsequent to the call to BeginLoad.</source>
+          <target state="translated">Isto acontece porque os métodos de definição de propriedade podem ser chamados durante a aplicação de dados de personalização, tem de chamar BeginLoad.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, a control should not be considered changed ("dirty") just because its personalizable properties have been set based on data loaded from the underlying data store.</source>
+          <target state="translated">Na maioria dos cenários, um controlo não deve ser considerado alterado ("dirty") apenas porque as respetivas propriedades personalizável foram definidas com base nos dados carregados a partir do arquivo de dados subjacente.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Este método é também denominado quando os dados de personalização são aplicados após a importação de um controlo de peças Web.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Represents the phase prior to extracting personalization data from a control.</source>
+          <target state="translated">Representa a fase de antes de extrair dados de personalização de um controlo.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to extracting personalization data from the control.</source>
+          <target state="translated">O conjunto de controlo de peças Web chama este método antes de extrair dados de personalização do controlo.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been applied to a control.</source>
+          <target state="translated">Representa a fase de depois dos dados de personalização foi aplicados a um controlo.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been applied to the control.</source>
+          <target state="translated">O controlo de peças Web definido chamadas este método depois dos dados de personalização foi aplicado ao controlo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its change state should use this method to reset its internal state to indicate that subsequent property-setting methods should call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">Um controlo que controla o estado de alteração deve utilizar este método para repor o respetivo estado para indicar que métodos de definição de propriedade subsequentes devem chamar &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; interno</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By the time the EndLoad method is called, the Web Parts control set has completed any application of personalization data to the control.</source>
+          <target state="translated">O método EndLoad denomina-se do tempo, o conjunto de controlo de peças Web foi concluída qualquer aplicação dos dados de personalização para o controlo.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, subsequent changes to the control's state should be considered valid indicators that the control has changed (is "dirty").</source>
+          <target state="translated">Como resultado, as alterações subsequentes para o estado do controlo devem ser consideradas válidos indicadores que o controlo foi alterada (é "desatualização").</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Este método é também denominado quando os dados de personalização são aplicados após a importação de um controlo de peças Web.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been extracted from a control.</source>
+          <target state="translated">Representa a fase de depois de extraídos de um controlo de dados de personalização.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been extracted from the control.</source>
+          <target state="translated">O controlo de peças Web definido chamadas foi extraído este método depois dos dados de personalização do controlo.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates whether the control tracks the status of its changes.</source>
+          <target state="translated">Indica se o controlo controla o estado das alterações do mesmo.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, then it is the Web Parts control's responsibility to determine when it considers itself "dirty."</source>
+          <target state="translated">Se um controlo devolve <ph id="ph1">`true`</ph> esta propriedade, em seguida, é responsabilidade o controlo de peças Web para determinar quando considera-se "desatualização".</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control determines that it has changed (is "dirty"), that control must call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; on itself.</source>
+          <target state="translated">Se um controlo determina que foi alterada (é "desatualização"), que controlo tem de chamar &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;em si próprio.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Web Parts control is responsible for determining when the control is considered changed ("dirty"); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo de peças Web é responsável por determinar quando o controlo é considerado alterado ("incorreto"); caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
