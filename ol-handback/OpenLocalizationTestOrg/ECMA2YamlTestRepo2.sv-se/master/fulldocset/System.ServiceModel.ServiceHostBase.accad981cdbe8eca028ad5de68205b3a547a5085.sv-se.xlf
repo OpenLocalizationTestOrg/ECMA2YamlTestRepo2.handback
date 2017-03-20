@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0201620333a3d8ecd693283dec3ed1d92bb73aa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ServiceHostBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf6f4571b00ecfc4d70da58ba4640a09bf41e288</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e445e2d4d267677b16b06b66f40c8206553570c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Extends the ServiceHostBase class to implement hosts that expose custom programming models.</source>
+          <target state="translated">Utökar klassen ServiceHostBase om du vill implementera värdar som exponerar anpassade programmeringsmodeller.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ServiceHostBase class to create hosts that provide a custom programming model.</source>
+          <target state="translated">Använd klassen ServiceHostBase för att skapa värdar som tillhandahåller en anpassad programmeringsmodell.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service programming model uses the &lt;xref:System.ServiceModel.ServiceHost&gt; class.</source>
+          <target state="translated">Den <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> programmeringsmodell för tjänsten använder &lt;xref:System.ServiceModel.ServiceHost&gt;klass.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Special note for Managed C++ users deriving from this class:      -   Put your cleanup code in (On)(Begin)Close (and/or OnAbort), not in a destructor.</source>
+          <target state="translated">Särskild anmärkning för hanterade C++ användare som härleds från den här klassen:-placera din Rensa koden i (på) (Begin) Stäng (och/eller OnAbort), inte i en destruktorn.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid destructors; they cause the compiler to auto-generate &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">-Undvika destruktorer; de orsakar kompilatorn att Autogenerera &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid non-reference members; they can cause the compiler to auto-generate &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">-Undvika-referens medlemmar. de kan orsaka kompilatorn att Autogenerera &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Avoid finalizers; but if you include one, you should suppress the build warning and call &lt;xref:System.GC.SuppressFinalize%28System.Object%29&gt; and the finalizer itself from (On)(Begin)Close (and/or OnAbort) to emulate what would have been the auto-generated &lt;xref:System.IDisposable&gt; behavior.</source>
+          <target state="translated">-Undvika finaliserare; men om du inkluderar en build-varning och anrop ska ignorera &lt;xref:System.GC.SuppressFinalize%28System.Object%29&gt;och den slutföraren sig själv från (på) (Begin) Stäng (och/eller OnAbort) att emulera vad som skulle ha varit den automatiskt genererade &lt;xref:System.IDisposable&gt;beteende.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.GC.SuppressFinalize%28System.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Adds a base address to the service host.</source>
+          <target state="translated">Lägger till en basadress tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property allows users extending &lt;xref:System.ServiceModel.ServiceHostBase&gt; to provide the base address after the host is constructed.</source>
+          <target state="translated">Den här egenskapen kan användare utöka &lt;xref:System.ServiceModel.ServiceHostBase&gt;att tillhandahålla basadressen när värden har skapats.&lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddBaseAddress can be used to add base addresses to an existing host, but throws an exception if the description is already initialized.</source>
+          <target state="translated">AddBaseAddress kan användas för att lägga till basadresser i en befintlig värd, men genererar ett undantag om beskrivningen har redan initierats.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; that contains the base address for services hosted on the current host.</source>
+          <target state="translated">En &lt;xref:System.Uri&gt;som innehåller basadressen för tjänster som ligger på den aktuella värddatorn.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">baseAddress</ph><ept id="p1">&lt;/code&gt;</ept> cannot be called.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">baseAddress</ph> <ept id="p1">&lt;/code&gt;</ept> kan inte anropas.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Adds service endpoints for all base addresses in each contract found in the service host with the default binding.</source>
+          <target state="translated">Lägger till slutpunkter för alla basadresser i varje kontrakt hittades i värden för tjänsten med standard-bindning.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A read-only collection of default endpoints.</source>
+          <target state="translated">En skrivskyddad samling slutpunkter.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds the specified service endpoint to the hosted service.</source>
+          <target state="translated">Lägger till den angivna tjänstslutpunkten värdtjänsten.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using the method, the service host does a "by-configuration-name" validation on the contract description.</source>
+          <target state="translated">När du använder metoden har en "efter-konfiguration – namn" verifiering på Kontraktbeskrivningen tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, the host verifies that &lt;xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt; exists in the list of configuration names of the service contracts implemented by the service.</source>
+          <target state="translated">Med andra ord värddatorn verifierar att &lt;xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt;finns i listan över konfigurationsnamn för tjänstekontrakt som implementerats av tjänst.&lt;/xref:System.ServiceModel.Description.ContractDescription.ConfigurationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the validation passes, the description in the &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; is used as it is, even if the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; reflected from the service is different.</source>
+          <target state="translated">Om valideringen skickar beskrivningen i den &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;används eftersom det är även om den &lt;xref:System.ServiceModel.Description.ContractDescription&gt;reflekteras från tjänsten är olika.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt; &lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example, assume that the description in the ServiceEndpoint and the contract description reflected from the service have the same name, but different operation behaviors.</source>
+          <target state="translated">Anta exempelvis att beskrivningen i ServiceEndpoint och Kontraktbeskrivningen återspeglas från tjänsten har samma namn men olika åtgärden beteenden.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implication of only “by-configuration-name” validation is that there is no validation that the behaviors are the same and there are one updates to one description because of another description.</source>
+          <target state="translated">Konsekvenserna av "efter-konfiguration – namn"-verifiering är att det finns ingen verifiering att beteenden är identiska och det finns uppdateringar till en beskrivning på grund av en annan beskrivning.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`address`</ph> is a relative URI, one of the base addresses of the &lt;xref:System.ServiceModel.ServiceHost&gt; (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om den <ph id="ph1">`address`</ph> är en relativ URI en basadresser för den &lt;xref:System.ServiceModel.ServiceHost&gt;(beroende på bindningsprotokollet) används som bas slutpunktsadress.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">Tjänstslutpunkten.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Endpoint&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Endpoint&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The host is not in a Created or an Opening state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">Värden finns inte i en skapad eller ett inledande tillstånd eller så finns det ingen <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Address</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">Binding,</ph><ept id="p2"> &lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">Contract</ph><ept id="p3">&lt;/code&gt;</ept> property is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Address</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">Binding,</ph><ept id="p2"> &lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">Contract</ph><ept id="p3">&lt;/code&gt;</ept> property is <bpt id="p4">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, and endpoint address.</source>
+          <target state="translated">Lägger till en tjänstslutpunkt värdtjänst med en angiven kontraktet, bindningen och slutpunktsadress.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">Kontrakt som implementerats av slutpunkten.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Channels.Binding&gt;för den slutpunkt som lagts till.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The address for the endpoint added.</source>
+          <target state="translated">Adressen för den slutpunkt som lagts till.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This can be an absolute or relative URI.</source>
+          <target state="translated">Detta kan vara en absolut eller relativ URI.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om det är en relativ URI en basadress för den <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (beroende på bindningsprotokollet) som ska användas som basadress för slutpunkten.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;lagts till i den värdbaserade tjänsten.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added or the binding lacks a transport of binding scheme.</source>
+          <target state="translated">Värden är inte i en &lt;xref:System.ServiceModel.CommunicationState&gt;eller en &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd eller att det är ingen <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten, så en slutpunkt kan inte läggas till eller Bindningen saknar en transport av ett schema för bindningen.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, and a URI that contains the endpoint address.</source>
+          <target state="translated">Lägger till en tjänstslutpunkt till den värdbaserade tjänsten med angivna kontraktet, bindningen och en URI som innehåller slutpunktsadressen.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">Kontrakt som implementerats av slutpunkten.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Channels.Binding&gt;för den slutpunkt som lagts till.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.Uri&gt;som innehåller adressen för den slutpunkt som lagts till.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This can be an absolute or relative URI.</source>
+          <target state="translated">Detta kan vara en absolut eller relativ URI.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om det är en relativ URI en basadress för den <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (beroende på bindningsprotokollet) som ska användas som basadress för slutpunkten.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;lagts till i den värdbaserade tjänsten.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">Värden är inte i en &lt;xref:System.ServiceModel.CommunicationState&gt;eller en &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd eller att det är ingen <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten, så en slutpunkt kan inte läggas till.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with a specified contract, binding, endpoint address and URI that contains the address at which it listens.</source>
+          <target state="translated">Lägger till en tjänstslutpunkt värdtjänst med en angiven kontraktet, bindningen, slutpunktsadress och URI som innehåller adressen som lyssnar.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`address`</ph> is a relative URI, one of the base addresses of the &lt;xref:System.ServiceModel.ServiceHost&gt; (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om den <ph id="ph1">`address`</ph> är en relativ URI en basadresser för den &lt;xref:System.ServiceModel.ServiceHost&gt;(beroende på bindningsprotokollet) används som bas slutpunktsadress.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">Kontrakt som implementerats av slutpunkten.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Channels.Binding&gt;för den slutpunkt som lagts till.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The address for the endpoint added.</source>
+          <target state="translated">Adressen för den slutpunkt som lagts till.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This address can be an absolute or relative URI.</source>
+          <target state="translated">Den här adressen kan vara en absolut eller relativ URI.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om det är en relativ URI en basadress för den <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (beroende på bindningsprotokollet) som ska användas som basadress för slutpunkten.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address which the endpoint listens to for incoming messages.</source>
+          <target state="translated">Den &lt;xref:System.Uri&gt;som innehåller adressen som slutpunkten lyssnar på efter inkommande meddelanden.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This URI can be relative or absolute.</source>
+          <target state="translated">Den här URI kan vara relativ eller absolut.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;lagts till i den värdbaserade tjänsten.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">Värden är inte i en &lt;xref:System.ServiceModel.CommunicationState&gt;eller en &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd eller att det är ingen <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten, så en slutpunkt kan inte läggas till.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Adds a service endpoint to the hosted service with the specified contract, binding, and URIs that contain the endpoint and listening addresses.</source>
+          <target state="translated">Lägger till en tjänstslutpunkt till den värdbaserade tjänsten med angivna kontraktet, bindningen och URI: er som innehåller slutpunkt och lyssnande adresser.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The contract implemented by the endpoint.</source>
+          <target state="translated">Kontrakt som implementerats av slutpunkten.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Binding&gt; for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Channels.Binding&gt;för den slutpunkt som lagts till.&lt;/xref:System.ServiceModel.Channels.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address for the endpoint added.</source>
+          <target state="translated">Den &lt;xref:System.Uri&gt;som innehåller adressen för den slutpunkt som lagts till.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If it is a relative URI, one of the base address of the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (depending on the binding protocol) is used as the endpoint's base address.</source>
+          <target state="translated">Om det är en relativ URI en basadress för den <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (beroende på bindningsprotokollet) som ska användas som basadress för slutpunkten.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Uri&gt; that contains the address at which the endpoint listens for incoming messages.</source>
+          <target state="translated">Den &lt;xref:System.Uri&gt;som innehåller adressen som slutpunkten lyssnar efter inkommande meddelanden.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt; added to the hosted service.</source>
+          <target state="translated">Den &lt;xref:System.ServiceModel.Description.ServiceEndpoint&gt;lagts till i den värdbaserade tjänsten.&lt;/xref:System.ServiceModel.Description.ServiceEndpoint&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This URI can be absolute or relative.</source>
+          <target state="translated">Den här URI kan vara absolut eller relativ.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;implementedContract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;binding&lt;/code&gt;</ph> or</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The host is not in a &lt;xref:System.ServiceModel.CommunicationState&gt; or an &lt;xref:System.ServiceModel.CommunicationState&gt; state or there is no <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service and so an endpoint cannot be added.</source>
+          <target state="translated">Värden är inte i en &lt;xref:System.ServiceModel.CommunicationState&gt;eller en &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd eller att det är ingen <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten, så en slutpunkt kan inte läggas till.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Loads the service description information from the configuration file and applies it to the runtime being constructed.</source>
+          <target state="translated">Läser in beskrivning tjänstinformation från konfigurationsfilen och gäller för körning som skapats.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Beskrivningen av tjänsten värd är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the service authentication behavior.</source>
+          <target state="translated">Hämtar tjänstbeteende för autentisering.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The service authentication behavior.</source>
+          <target state="translated">Autentiseringsinställningar för tjänsten.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the authorization behavior for the service hosted.</source>
+          <target state="translated">Hämtar tillståndet beteendet för tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceAuthorizationBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service hosted.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceAuthorizationBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the base addresses used by the hosted service.</source>
+          <target state="translated">Hämtar basadresser som används av den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of type &lt;xref:System.Uri&gt; that contains the base addresses for the hosted service.</source>
+          <target state="translated">En <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> av typen &lt;xref:System.Uri&gt;som innehåller basadresser för den värdbaserade tjänsten.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the collection of channel dispatchers used by the service host.</source>
+          <target state="translated">Hämtar mängden kanal avsändare som används av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the channel dispatchers used by the service host.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller de kanal avsändare som används av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the interval of time allowed for the service host to close.</source>
+          <target state="translated">Hämtar eller anger intervallet för tillåtna tiden att stänga tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time allowed for the service host to close.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger intervallet för tillåtna tiden att stänga tjänstvärden.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value, in milliseconds, is less than zero or is larger than &lt;xref:System.Int32.MaxValue&gt; (2,147,483,647 or, in hexadecimal notation, 0X7FFFFFFF).</source>
+          <target state="translated">Värde, i millisekunder, är mindre än noll eller större än &lt;xref:System.Int32.MaxValue&gt;(2 147 483 647 eller hexadecimalt 0X7FFFFFFF).&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The host is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;eller &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The host is already in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden redan är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The host is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, creates the description of the hosted service.</source>
+          <target state="translated">Skapar beskrivning av den värdbaserade tjänsten implementeras i en härledd klass.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> that contains the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; objects for the service.</source>
+          <target state="translated">Den <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> som innehåller den &lt;xref:System.ServiceModel.Description.ContractDescription&gt;objekt för tjänsten.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets the credential for the service hosted.</source>
+          <target state="translated">Hämtar autentiseringsuppgifterna för tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceCredentials"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service hosted.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceCredentials"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets the default interval of time allowed for the service host to close.</source>
+          <target state="translated">Hämtar av tiden som tillåts att stänga tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the default interval of time allowed for the service host to close.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger tiden som tillåts att stänga tjänstvärden standardintervallet.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the default interval of time allowed for the service host to open.</source>
+          <target state="translated">Hämtar av tiden som tillåts att öppna tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the default interval of time allowed for the service host to open.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger tiden som tillåts att öppna tjänstvärden standardintervallet.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets the description of the service hosted.</source>
+          <target state="translated">Hämtar en beskrivning av tjänst som finns.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted service.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Description.ServiceDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets the extensions for the current specified service host.</source>
+          <target state="translated">Hämtar tilläggen för den aktuella angivna tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.IExtensionCollection%601<ph id="ph2">&amp;gt;</ph> of type <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.IExtensionCollection%601<ph id="ph2">&amp;gt;</ph> av typen <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Retrieves the contracts implemented by the service hosted.</source>
+          <target state="translated">Hämtar de kontrakt som implementerats av tjänst som finns.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> that contains the &lt;xref:System.ServiceModel.Description.ContractDescription&gt; objects for the service.</source>
+          <target state="translated">Den <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> som innehåller den &lt;xref:System.ServiceModel.Description.ContractDescription&gt;objekt för tjänsten.&lt;/xref:System.ServiceModel.Description.ContractDescription&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Increases the limit on the flow rate of messages to the hosted service by a specified increment.</source>
+          <target state="translated">Ökar gränsen för flödet av meddelanden till den värdbaserade tjänsten med ett angivet värde.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limit can be accessed using the &lt;xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt; property.</source>
+          <target state="translated">Den här gränsen nås från den &lt;xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt;egenskapen.&lt;/xref:System.ServiceModel.ServiceHostBase.ManualFlowControlLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The number of messages by which to increase the flow control limit.</source>
+          <target state="translated">Antal meddelanden som du vill öka antalet flödet för kontrollen.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The new limit after the increment is added.</source>
+          <target state="translated">Den nya gränsen när ökningen har lagts till.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The value is less than zero.</source>
+          <target state="translated">Värdet är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creates and initializes the service host with the contract and service descriptions.</source>
+          <target state="translated">Skapar och initierar tjänstvärden med kontrakt- och beskrivningar.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceModel.UriSchemeKeyedCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the base addresses for the service hosted.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ServiceModel.UriSchemeKeyedCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller basadresser för tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Initializes the runtime for the service host.</source>
+          <target state="translated">Initierar körningsmiljön för tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Beskrivningen av tjänsten värd är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Loads the service element from the configuration file of the hosted service.</source>
+          <target state="translated">Läser in tjänstelementet i konfigurationsfilen för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ServiceElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be loaded from configuration.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ServiceModel.Configuration.ServiceElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som ska läsas in från konfigurationen.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceSection&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceSection&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The description of the service hosted is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Beskrivningen av tjänsten värd är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets the flow control limit for messages received by the service hosted.</source>
+          <target state="translated">Hämtar eller anger flödet kontrollen gränsen för meddelanden som tagits emot av tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limit can be incremented using the &lt;xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt; method.</source>
+          <target state="translated">Den här gränsen kan ökas med hjälp av den &lt;xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt;metoden.&lt;/xref:System.ServiceModel.ServiceHostBase.IncrementManualFlowControlLimit%28System.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The flow control limit for messages received by the service hosted.</source>
+          <target state="translated">Flödet kontrollen gränsen för meddelanden som tagits emot av tjänsten finns.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value is less than zero.</source>
+          <target state="translated">Värdet är mindre än noll.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Aborts the service.</source>
+          <target state="translated">Avbryter tjänsten.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation invoked on the close of the service host.</source>
+          <target state="translated">Börjar en asynkron åtgärd som anropas i slutet av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-close operation has to complete before timing out.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger hur länge-sista åtgärden måste köras innan tidsgränsen nåtts.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous operation on-close completion.</source>
+          <target state="translated">Den &lt;xref:System.AsyncCallback&gt;delegat som tar emot ett meddelande om asynkron åtgärd på Stäng genomförandet.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous on-close operation.</source>
+          <target state="translated">Ett objekt som har angetts av det program som innehåller information om tillstånd som associeras med den asynkrona åtgärden på Stäng.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous on-close operation.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;som refererar till den asynkrona åtgärden på Stäng.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation invoked on the opening of the service host.</source>
+          <target state="translated">Börjar en asynkron åtgärd som anropas på öppnandet av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-open operation has to complete before timing out.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger hur länge på open-åtgärden måste köras innan tidsgränsen nåtts.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous operation on-open completion.</source>
+          <target state="translated">Den &lt;xref:System.AsyncCallback&gt;delegat som tar emot ett meddelande om asynkron åtgärd på Öppna genomförandet.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous on-open operation.</source>
+          <target state="translated">Ett objekt som har angetts av det program som innehåller information om tillstånd som associeras med den asynkrona åtgärden vid öppning.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous on-open operation.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;som refererar till den asynkrona åtgärden vid öppning.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Closes down the hosted service, including their channel dispatchers and associated instance contexts and listeners.</source>
+          <target state="translated">Stänger ned den värdbaserade tjänsten, inklusive kanal avsändare och associerade Instanskontexterna och lyssnare.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling OnClose does the following:      -   Closes all input to &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;, which also closes their associated &lt;xref:System.ServiceModel.Channels.IChannelListener&gt; instances.</source>
+          <target state="translated">Anropar VidStängning händer följande:-stänger alla indata till &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;, vilket också stänger deras associerade &lt;xref:System.ServiceModel.Channels.IChannelListener&gt;instanser.&lt;/xref:System.ServiceModel.Channels.IChannelListener&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This stops any new channels from being accepting.</source>
+          <target state="translated">Detta stoppar alla nya kanaler som accepterar.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calls &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt; on all &lt;xref:System.ServiceModel.InstanceContext&gt; objects, which mean they stop accepting new messages.</source>
+          <target state="translated">-Anropar &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt;på alla &lt;xref:System.ServiceModel.InstanceContext&gt;objekt, vilket innebär att de slutar ta emot nya meddelanden.&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.CloseInput%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Waits for all &lt;xref:System.ServiceModel.InstanceContext&gt; objects to close down, which happens when their associated channels finish sending all pending messages.</source>
+          <target state="translated">-Väntar på att alla &lt;xref:System.ServiceModel.InstanceContext&gt;objekt att stänga, vilket sker när deras associerade kanaler är klar skickar alla väntande meddelanden.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Closes the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; objects associated with the host.</source>
+          <target state="translated">-Stänger den &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;objekt som hör till värden.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-close operation has to complete before timing out.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger hur länge-sista åtgärden måste köras innan tidsgränsen nåtts.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the service host.</source>
+          <target state="translated">Frigör resurser som används av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous operation invoked on the closing of the service host.</source>
+          <target state="translated">Slutför en asynkron åtgärd som anropas på stängning av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginClose%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returneras av ett anrop till den <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginClose%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> metod.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous operation invoked on the opening of the service host.</source>
+          <target state="translated">Slutför en asynkron åtgärd som anropas på öppnandet av värden för tjänsten.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginOpen%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returneras av ett anrop till den <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.ServiceHostBase.OnBeginOpen%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> metod.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Opens the channel dispatchers.</source>
+          <target state="translated">Öppnar kanal-avsändare.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the on-open operation has to complete before timing out.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger hur länge på open-åtgärden måste köras innan tidsgränsen nåtts.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets the service credentials,service authentication and authorization behavior for the hosted service.</source>
+          <target state="translated">Hämtar Tjänstereferenser, tjänstbeteende för autentisering och auktorisering för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once these behaviors are initialized when opening the service, they cannot be changed.</source>
+          <target state="translated">När dessa beteenden initieras när du öppnar tjänsten, kan de inte ändras.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets or sets the interval of time allowed for the service host to open.</source>
+          <target state="translated">Hämtar eller anger intervallet för tillåtna tiden att öppna tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time allowed for the service host to open.</source>
+          <target state="translated">Den &lt;xref:System.TimeSpan&gt;som anger intervallet för tillåtna tiden att öppna tjänstvärden.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The value is less than zero or is larger than &lt;xref:System.Int32.MaxValue&gt; (2,147,483,647 or, in hexadecimal notation, 0X7FFFFFFF).</source>
+          <target state="translated">Värdet är mindre än noll eller större än &lt;xref:System.Int32.MaxValue&gt;(2 147 483 647 eller hexadecimalt 0X7FFFFFFF).&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The host is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;eller &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The host is already in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden redan är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The host is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state and cannot be modified.</source>
+          <target state="translated">Värden är i ett &lt;xref:System.ServiceModel.CommunicationState&gt;tillstånd och kan inte ändras.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Releases the service and channel dispatcher performance counters for the hosted service.</source>
+          <target state="translated">Frigör tjänst och channel dispatcher prestandaräknarna för den värdbaserade tjänsten.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is invoked when calling &lt;xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt; and       &lt;xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt;.</source>
+          <target state="translated">Den här metoden anropas när du anropar &lt;xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt;och &lt;xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt;.&lt;/xref:System.ServiceModel.ServiceHostBase.OnEndClose%28System.IAsyncResult%29&gt; &lt;/xref:System.ServiceModel.ServiceHostBase.OnClose%28System.TimeSpan%29&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Sets the endpoint address of the specified endpoint to the specified address.</source>
+          <target state="translated">Anger slutpunktsadress för den angivna slutpunktsresursen till den angivna adressen.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">Tjänstslutpunkten.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The endpoint address.</source>
+          <target state="translated">Slutpunktsadress.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Closes the service host.</source>
+          <target state="translated">Stänger tjänstvärden.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Occurs when an unknown message is received.</source>
+          <target state="translated">Inträffar när ett okänt meddelande tas emot.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

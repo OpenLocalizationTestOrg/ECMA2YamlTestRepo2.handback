@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccad41ad00ba86be0f4041b848c7b9b43afa6fe1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.CommittableTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1f6a063bfb2dd845caede00389db21813627d9a3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5dfad97f107ec792589460840ed49fc52c7bd8c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes a committable transaction.</source>
+          <target state="translated">Beskriver en som transaktion.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CommittableTransaction class provides an explicit way for applications to use a transaction, as opposed to using the &lt;xref:System.Transactions.TransactionScope&gt; class implicitly.</source>
+          <target state="translated">Klassen CommittableTransaction ger ett explicit sätt för program att använda en transaktion, till skillnad från med hjälp av den &lt;xref:System.Transactions.TransactionScope&gt;klassen implicit.&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Transactions.TransactionScope&gt; class, the application writer needs to specifically call the &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; and &lt;xref:System.Transactions.Transaction.Rollback%2A&gt; methods in order to commit or abort the transaction.</source>
+          <target state="translated">Till skillnad från den &lt;xref:System.Transactions.TransactionScope&gt;programskrivaren behöver anropa specifikt klassen, de &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;och &lt;xref:System.Transactions.Transaction.Rollback%2A&gt;metoder för att utföra eller avbryta transaktionen.&lt;/xref:System.Transactions.Transaction.Rollback%2A&gt; &lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, only the creator of a transaction can commit the transaction.</source>
+          <target state="translated">Endast skaparen av en transaktion kan dock genomföra transaktionen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, copies of a committable transaction, obtained through the &lt;xref:System.Transactions.Transaction.Clone%2A&gt; method are not committable.</source>
+          <target state="translated">Därför kopior av en transaktion som som erhållits via den &lt;xref:System.Transactions.Transaction.Clone%2A&gt;metoden är inte som.&lt;/xref:System.Transactions.Transaction.Clone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is recommended that you create implicit transactions using the &lt;xref:System.Transactions.TransactionScope&gt; class, so that the ambient transaction context is automatically managed for you.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Bör du skapa implicit transaktioner med hjälp av den &lt;xref:System.Transactions.TransactionScope&gt;class, så att den omgivande transaktionskontexten hanteras automatiskt.&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should also use the &lt;xref:System.Transactions.TransactionScope&gt; and &lt;xref:System.Transactions.DependentTransaction&gt; class for applications that require the use of the same transaction across multiple function calls or multiple thread calls.</source>
+          <target state="translated">Du bör också använda den &lt;xref:System.Transactions.TransactionScope&gt;och &lt;xref:System.Transactions.DependentTransaction&gt;klass för program som kräver användning av samma transaktion i flera funktionsanrop eller flera tråd anrop.&lt;/xref:System.Transactions.DependentTransaction&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on this model, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Mer information om den här modellen finns i <bpt id="p1">[</bpt>implementera en Implicit transaktion med transaktionsomfånget<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> avsnittet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creating a CommittableTransaction does not automatically set the ambient transaction, which is the transaction your code executes in.</source>
+          <target state="translated">Skapa en CommittableTransaction anger inte den omgivande transaktionen är transaktionen koden körs i automatiskt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can get or set the ambient transaction by calling the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property of the global &lt;xref:System.Transactions.Transaction&gt; object.</source>
+          <target state="translated">Du kan hämta eller ange den omgivande transaktionen genom att anropa statiskhet &lt;xref:System.Transactions.Transaction.Current%2A&gt;-egenskapen för den globala &lt;xref:System.Transactions.Transaction&gt;objektet.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on ambient transactions, see the " Managing Transaction Flow using TransactionScopeOption" section of the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">Mer information om omgivande transaktioner finns i avsnittet "Managing transaktionsflöde med TransactionScopeOption" för den <bpt id="p1">[</bpt>implementera en Implicit transaktion med transaktionsomfånget<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> avsnittet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the ambient transaction is not set, any operation on a resource manager is not part of that transaction.</source>
+          <target state="translated">Om den omgivande transaktionen inte har angetts ingår någon åtgärd på en resurshanterare inte i den aktuella transaktionen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You need to explicitly set and reset the ambient transaction, to ensure that resource managers operate under the right transaction context.</source>
+          <target state="translated">Du måste uttryckligen ange och återställa den omgivande transaktionen för att säkerställa att resurshanterare fungerar under rätt transaktionskontext.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Until a CommittableTransaction has been committed, all the resources involved with the transaction are still locked.</source>
+          <target state="translated">Tills en CommittableTransaction har genomförts, är alla resurser som ingår i transaktionen låst.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A CommittableTransaction object cannot be reused.</source>
+          <target state="translated">Ett CommittableTransaction objekt kan inte återanvändas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once it has been committed or rolled back, it cannot be used again in a transaction or set as the current ambient transaction context.</source>
+          <target state="translated">När det har bekräftats eller återställts, kan inte de används igen i en transaktion eller angetts som den aktuella kontexten omgivande transaktion.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">Ett försök att skapa en transaktion under Windows 98, Windows 98, andra utgåvan eller Windows ME.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p2">&lt;/code&gt;</ept> value.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med det angivna <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p2">&lt;/code&gt;</ept> värde.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The maximum amount of time the transaction can exist, before it is aborted.</source>
+          <target state="translated">Den maximala tidsperiod transaktionen kan finnas innan den avbryts.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">Ett försök att skapa en transaktion under Windows 98, Windows 98, andra utgåvan eller Windows ME.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified transaction options.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med alternativen angivna transaktionen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use for the new transaction.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur som beskriver transaktionsalternativ ska användas för den nya transaktionen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">Ett försök att skapa en transaktion under Windows 98, Windows 98, andra utgåvan eller Windows ME.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;options&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;options&lt;/code&gt;</ph>är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Begins an attempt to commit the transaction asynchronously.</source>
+          <target state="translated">Startar ett försök att genomföra transaktionen asynkront.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns immediately, before the transaction has been completed.</source>
+          <target state="translated">Den här metoden returnerar omedelbart innan transaktionen har slutförts.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction then commits on a different thread, and the <ph id="ph1">`asyncCallback`</ph> delegate is invoked when it has completed.</source>
+          <target state="translated">Transaktionen sedan incheckningar på en annan tråd och <ph id="ph1">`asyncCallback`</ph> ombud anropas när den har slutförts.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After this method is called, you do not receive the outcome of the transaction until you call &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;.</source>
+          <target state="translated">När den här metoden anropas, visas resultatet av transaktionen förrän du anropar &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;.&lt;/xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The commit process may complete synchronously inside this method call.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Genomförandet synkront slutföra i det här metodanropet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that is invoked when the transaction completes.</source>
+          <target state="translated">Den &lt;xref:System.AsyncCallback&gt;delegat som anropas när transaktionen avslutas.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in which case the application is not notified of the transaction's completion.</source>
+          <target state="translated">Den här parametern kan vara <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, då meddelas inte programmet transaktionens färdigt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Instead, the application must use the &lt;xref:System.IAsyncResult&gt; interface to check for completion and wait accordingly, or call &lt;xref:System.Transactions.CommittableTransaction.EndCommit*&gt; to wait for completion.</source>
+          <target state="translated">Använd i stället programmet måste den &lt;xref:System.IAsyncResult&gt;gränssnitt för att söka efter slutförande och därför vänta eller anropa &lt;xref:System.Transactions.CommittableTransaction.EndCommit*&gt;att vänta på slutförande.&lt;/xref:System.Transactions.CommittableTransaction.EndCommit*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object, which might contain arbitrary state information, associated with the asynchronous commitment.</source>
+          <target state="translated">Ett-objekt som kan innehålla godtycklig statusinformation, som är associerade med den asynkrona åtaganden.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This object is passed to the callback, and is not interpreted by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Det här objektet har överförts till återanropet och inte tolkas av <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A null reference is permitted.</source>
+          <target state="translated">En null-referens tillåts.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; interface that can be used by the caller to check the status of the asynchronous operation, or to wait for the operation to complete.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;gränssnitt som kan användas av anroparen för att kontrollera status för den asynkrona åtgärden eller vänta tills åtgärden har slutförts.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Attempts to commit the transaction.</source>
+          <target state="translated">Försök att genomföra transaktionen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method is called, all objects that have registered to participate in the transaction are polled and can independently indicate their vote to either commit or roll back the transaction.</source>
+          <target state="translated">När den här metoden anropas, alla objekt som har registrerats för att delta i transaktionen är avsökas och oberoende kan tyda på sin röst att genomföra eller Återställ transaktionen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any participant votes to roll back the transaction, it is rolled back and this method throws a &lt;xref:System.Transactions.TransactionException&gt; exception.</source>
+          <target state="translated">Om en part röster för att återställa transaktionen, den återställs och den här metoden genererar en &lt;xref:System.Transactions.TransactionException&gt;undantag.&lt;/xref:System.Transactions.TransactionException&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a normal occurrence for a transaction and your code should catch and process such exceptions.</source>
+          <target state="translated">Detta är ett vanligt förekommande för en transaktion och koden ska fånga och bearbeta sådana undantag.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Commit and &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt; block until the first phase of transaction processing is complete.</source>
+          <target state="translated">Genomför och &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;Blockera tills den första fasen av transaktionsbearbetning har slutförts.&lt;/xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first phase ends after all resource managers and enlistments in the transaction have voted on the transaction outcome and the &lt;xref:System.Transactions.TransactionManager&gt; has durably decided to commit or abort the transaction.</source>
+          <target state="translated">Den första fasen slutar efter att alla resurshanterare och registreringar i transaktionen har avvisat på resultatet av denna transaktion och &lt;xref:System.Transactions.TransactionManager&gt;varaktigt har valt att avbryta eller genomföra transaktionen.&lt;/xref:System.Transactions.TransactionManager&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second phase of processing is always asynchronous.</source>
+          <target state="translated">Den andra fasen för bearbetning är alltid asynkront.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, there is no guarantee that data just committed from within a given transaction will be immediately available afterwards when not using another transaction to view this data.</source>
+          <target state="translated">Det finns därför ingen garanti för att data bara överträdelser från inom en given transaktion kommer att omedelbart tillgängliga senare när du inte använder en annan transaktion för att visa dessa data.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this method blocks until the first phase of transaction processing is complete, you should be extremely careful when using this method in a Windows Form (WinForm) application, or a deadlock can occur.</source>
+          <target state="translated">Eftersom den här metoden block tills den första fasen av transaktionsbearbetning är klar bör du vara mycket försiktig när du använder den här metoden i ett program för Windows-formulär (WinForm) eller ett dödläge kan uppstå.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call this method inside one WinForm Control event (for example, clicking a button), and use the synchronous &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method to direct the control to perform some UI tasks (for example, changing colors) in the middle of processing the transaction, a deadlock will happen.</source>
+          <target state="translated">Om du anropa den här metoden inuti en händelse för WinForm-kontroll (t.ex, klicka på en knapp) och använder den synkrona &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;metod för att dirigera kontrollen att utföra vissa uppgifter för Användargränssnittet (till exempel ändra färger) under bearbetningen transaktionen, sker ett dödläge.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method is synchronous and blocks the worker thread until the UI thread finishes its job.</source>
+          <target state="translated">Detta beror på att den &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;metoden synkront, blockerar arbetstråden tills UI-tråden har slutförts fjäderlayoutjobbet.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in our scenario, the UI thread is also waiting for the worker thread to commit the transaction.</source>
+          <target state="translated">Men i vårt scenario väntar UI-tråden också arbetstråd att genomföra transaktionen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is that none is able to proceed and the scope waits indefinitely for the Commit to finish.</source>
+          <target state="translated">Resultatet är att det inte kan fortsätta och omfånget väntar på obestämd tid genomförandet avslutas.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should use &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt; rather than &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; wherever possible, because it is asynchronous and thus less prone to deadlock.</source>
+          <target state="translated">Du bör använda &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;stället &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;om möjligt eftersom den är asynkron och därmed mindre risk för dödläge.&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt; &lt;/xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Commit is called on a transaction and the transaction becomes <bpt id="p1">&lt;xref href="System.Transactions.TransactionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Commit anropas på en transaktion och transaktionen blir <bpt id="p1">&lt;xref href="System.Transactions.TransactionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Commit is called and the transaction rolls back for the first time.</source>
+          <target state="translated">Commit anropas och transaktionen återställs för första gången.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Ends an attempt to commit the transaction asynchronously.</source>
+          <target state="translated">Avslutar ett försök att genomföra transaktionen asynkront.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should call this method in the callback delegate specified as a parameter to the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt; method, when you have finished any cleanup work associated with the asynchronous commitment.</source>
+          <target state="translated">Du bör anropa den här metoden i återanrop delegaten anges som parameter till den &lt;xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt;metoden när du har slutfört alla Rensa arbetsuppgiften som associeras med den asynkrona åtaganden.&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also call this method early without waiting for the delegate.</source>
+          <target state="translated">Du kan också anropa den här metoden tidigt utan att vänta på ombudet.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If, by the time you call this method, the transaction has not completed, this method waits for its completion.</source>
+          <target state="translated">Om transaktionen inte har slutförts när du anropar den här metoden, väntar den här metoden i slutförandet.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The &lt;xref:System.IAsyncResult.CompletedSynchronously%2A&gt; property returned by <ph id="ph2">`asyncResult`</ph> is always <ph id="ph3">`false`</ph>, even if the operation completed synchronously.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Den &lt;xref:System.IAsyncResult.CompletedSynchronously%2A&gt;egenskapen som returneras av <ph id="ph2">`asyncResult`</ph> är alltid <ph id="ph3">`false`</ph>, även om åtgärden slutfördes synkront.&lt;/xref:System.IAsyncResult.CompletedSynchronously%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; and EndCommit block until the first phase of transaction processing is complete.</source>
+          <target state="translated">&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;och EndCommit blockera tills den första fasen av transaktionsbearbetning är klar.&lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first phase ends after all resource managers and enlistments in the transaction have voted on the transaction outcome and the &lt;xref:System.Transactions.TransactionManager&gt; has durably decided to commit or abort the transaction.</source>
+          <target state="translated">Den första fasen slutar efter att alla resurshanterare och registreringar i transaktionen har avvisat på resultatet av denna transaktion och &lt;xref:System.Transactions.TransactionManager&gt;varaktigt har valt att avbryta eller genomföra transaktionen.&lt;/xref:System.Transactions.TransactionManager&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second phase of processing is always asynchronous.</source>
+          <target state="translated">Den andra fasen för bearbetning är alltid asynkront.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, there is no guarantee that data just committed from within a given transaction will be immediately available afterwards when not using another transaction to view this data.</source>
+          <target state="translated">Det finns därför ingen garanti för att data bara överträdelser från inom en given transaktion kommer att omedelbart tillgängliga senare när du inte använder en annan transaktion för att visa dessa data.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object associated with the asynchronous commitment.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;som är associerat med den asynkrona åtaganden.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; is called and the transaction rolls back for the first time.</source>
+          <target state="translated">&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;kallas och transaktionen återställs för första gången.&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the object provided as the last parameter of the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; method call.</source>
+          <target state="translated">Hämtar det angivna objektet som den sista parametern för den &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;metodanrop.&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The object provided as the last parameter of the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; method call.</source>
+          <target state="translated">Det angivna objektet som den sista parametern för den &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;metodanrop.&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a &lt;xref:System.Threading.WaitHandle&gt; that is used to wait for an asynchronous operation to complete.</source>
+          <target state="translated">Hämtar en &lt;xref:System.Threading.WaitHandle&gt;som används för att vänta på att en asynkron åtgärd skulle slutföras.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.WaitHandle&gt; that is used to wait for an asynchronous operation to complete.</source>
+          <target state="translated">En &lt;xref:System.Threading.WaitHandle&gt;som används för att vänta på att en asynkron åtgärd skulle slutföras.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets an indication of whether the asynchronous commit operation completed synchronously.</source>
+          <target state="translated">Hämtar en uppgift om asynkron commit-åtgärden slutfördes synkront.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the asynchronous commit operation completed synchronously; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om asynkron commit-åtgärden slutfördes synkront; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This property always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> even if the operation completed synchronously.</source>
+          <target state="translated">Den här egenskapen returnerar alltid <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> även om åtgärden slutfördes synkront.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets an indication whether the asynchronous commit operation has completed.</source>
+          <target state="translated">Hämtar en indikation om asynkron commit-åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the operation is complete; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om åtgärden har slutförts; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef4b58af79a5110f98c898e79c16e4defbcc3a68</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.SqlPersistenceProviderFactory.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00056207cb9d7b3b28bbc487c3b7b406e6dfce4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84ef24d83bde8733af0524ca09864e517dbab449</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A system-provided <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation used to create a <bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance that uses a SQL database to store persisted service state data.</source>
+          <target state="translated">En systembaserade <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> implementering som används för att skapa en <bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> -instans som använder en SQL-databas för att lagra data i beständiga tillstånd.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlPersistenceProviderFactory class represents a factory class for a fully-functional, durable service persistence provider.</source>
+          <target state="translated">Klassen SqlPersistenceProviderFactory representerar en fabriksklass för en fullt fungerande, beständig tjänst beständig provider.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this system-provided provider to persist and retrieve state information about a durable <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service.</source>
+          <target state="translated">Du kan använda den här providern systembaserade att spara och hämta statusinformation om en varaktiga <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to persistence, the provider created by the SqlPersistenceProviderFactory class implements locking of service state data records by inheriting from the abstract &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt; class.</source>
+          <target state="translated">Förutom beständiga providern som skapats av SqlPersistenceProviderFactory-klassen implementerar låsning av tjänsten tillstånd dataposter med arv från en abstrakt &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt;klass.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that interact with persisted data (such as &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt; or &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) have an optional parameter (<ph id="ph1">`lockInstance`</ph>) that defines whether locks on the data in question are released or maintained.</source>
+          <target state="translated">Metoder som interagerar med sparade data (exempelvis &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;eller &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) har en valfri parameter (<ph id="ph1">`lockInstance`</ph>) som definierar om lås på data i fråga släpps eller underhålls.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt; &lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  &lt;xref:System.ServiceModel.Persistence.PersistenceException&gt; exceptions thrown by SqlPersistenceProviderFactory do not have their exception details hidden by default.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; &lt;xref:System.ServiceModel.Persistence.PersistenceException&gt;undantag från SqlPersistenceProviderFactory inte har sina undantagsinformation döljs som standard.&lt;/xref:System.ServiceModel.Persistence.PersistenceException&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To protect against security vulnerabilities, these details can be hidden by setting &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">För att skydda mot säkerhetsrisker dessa uppgifter kan döljas genom att ange &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;till <ph id="ph1">`false`</ph>.&lt;/xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The SQL Persistence Provider stores and retrieves data from a SQL Server database.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SQL beständiga providern lagrar och hämtar data från en SQL Server-databas.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host must create a secure SQL Server environment to protect against attackers gaining read/write access to the instance state either in the database or on the wire between the application and the database.</source>
+          <target state="translated">Värden måste skapa en säker miljö för SQL Server som skyddar mot angripare tillgång läsning och skrivning till instanstillståndet i databasen eller i uppkopplat läge mellan programmet och databasen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified parameter collection.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen som konfigurerats med den angivna parameter-samlingen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor can be used to arbitrarily specify <ph id="ph1">`lockTimeout`</ph>, <ph id="ph2">`connectionString`</ph>, and <ph id="ph3">`serializeAsText`</ph> without specifying the other parameters as required by the other constructors (for example, to specify the <ph id="ph4">`connectionString`</ph> and <ph id="ph5">`lockTimeout`</ph> parameters without specifying the <ph id="ph6">`serializeAsText`</ph> parameter.)</source>
+          <target state="translated">Den här konstruktorn kan användas för att ange godtyckligt <ph id="ph1">`lockTimeout`</ph>, <ph id="ph2">`connectionString`</ph>, och <ph id="ph3">`serializeAsText`</ph> utan att ange andra parametrar som krävs av andra konstruktorer (till exempel för att ange den <ph id="ph4">`connectionString`</ph> och <ph id="ph5">`lockTimeout`</ph> parametrar utan att ange den <ph id="ph6">`serializeAsText`</ph> parameter.)</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The collection of parameters used by the new persistence provider factory.</source>
+          <target state="translated">Parametermängd som används av den nya beständig providertillverkning.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Valid parameters include <bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Giltiga parametrar inkluderar <bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, och <bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen som konfigurerats med den angivna anslutningssträngen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">Parametrarna för anslutningen för den nya instansen för beständig provider.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string and <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen som konfigurerats med den angivna anslutningssträngen och <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> parametrar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">Standardvärdet för <ph id="ph1">`serializeAsText`</ph> är <ph id="ph2">`false`</ph>, vilket anger att beständiga information är serialiserad som binära data.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">Parametrarna för anslutningen för den nya instansen för beständig provider.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">Anger om data är serialiserad som text i stället för binary.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string, <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen som konfigurerats med den angivna anslutningssträngen <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, och <bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> parametrar.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">Standardvärdet för <ph id="ph1">`serializeAsText`</ph> är <ph id="ph2">`false`</ph>, vilket anger att beständiga information är serialiserad som binära data.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`lockTimeout`</ph> is <ph id="ph2">`TimeSpan.Zero`</ph>, which indicates that locking is not used.</source>
+          <target state="translated">Standardvärdet för <ph id="ph1">`lockTimeout`</ph> är <ph id="ph2">`TimeSpan.Zero`</ph>, vilket tyder på att låsa används inte.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TimeSpan.MaxValue`</ph> is used, then locks are maintained indefinitely.</source>
+          <target state="translated">Om <ph id="ph1">`TimeSpan.MaxValue`</ph> används, och sedan Lås bevaras under obestämd tid.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider factory instance.</source>
+          <target state="translated">Parametrarna för anslutningen för den nya instansen för beständig provider fabriken.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">Anger om data är serialiserad som text i stället för binary.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership.</source>
+          <target state="translated">Timeout för lås ägarskap.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">Låst instanser är automatiskt bort efter den här tidsperioden.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A time-out of <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies that no locking is used.</source>
+          <target state="translated">En timeout för <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> anger att ingen låsning används.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">Hämtar anslutningsparametrarna för persistence provider instanser som skapats med den här fabriken.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">Anslutningsparametrar för persistence provider instanser som skapats med den här fabriken.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that uses a SQL database as its persistence store.</source>
+          <target state="translated">Initierar en ny <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans som använder en SQL-databas som beständiga arkivet.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The initialized persistence provider uses the current parameters of the creating factory (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;, &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;, and &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;), even if the factory's parameters are changed after the persistence provider is created.</source>
+          <target state="translated">Initierad beständiga providern använder aktuella parametrarna för att skapa fabriken (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;, &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;, och &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;), även om den factory parametrar ändras när den beständiga providern har skapats.&lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the persistence provider being created.</source>
+          <target state="translated">Den unika identifieraren för den beständiga providern som håller på att skapas.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A newly-created <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En nyligen skapade <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence providers created with this factory are closed.</source>
+          <target state="translated">Hämtar standardtimeout-värdet används när beständig providers som skapats med den här fabriken stängs.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for close time-out is 15 seconds.</source>
+          <target state="translated">Standardvärdet för Stäng timeout är 15 sekunder.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">Standardtimeout-värdet.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence provider is opened.</source>
+          <target state="translated">Hämtar standardtimeout-värdet används när beständig provider öppnas.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for open time-out is 15 seconds.</source>
+          <target state="translated">Standardvärdet för öppna timeout är 15 sekunder.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">Standardtimeout-värdet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership used by persistence provider instances created by this instance.</source>
+          <target state="translated">Timeout för lås ägarskap som används av persistence provider instanser som skapats av den här instansen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">Låst instanser är automatiskt bort efter den här tidsperioden.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A time-out of <ph id="ph1">`TimeSpan.Zero`</ph> specifies that no locking is used.</source>
+          <target state="translated">En timeout för <ph id="ph1">`TimeSpan.Zero`</ph> anger att ingen låsning används.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The time-out value for lock ownership.</source>
+          <target state="translated">Timeout-värdet för lås ägarskap.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Represents the Abort phase.</source>
+          <target state="translated">Representerar avbrytningsfasen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`OnAbort`</ph> fires when the service host shuts down abruptly and active commands currently being processed are closed.</source>
+          <target state="translated"><ph id="ph1">`OnAbort`</ph>Utlöses när tjänstvärden plötsligt stängs av och aktiva kommandon som för närvarande bearbetas stängs.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Close phase.</source>
+          <target state="translated">Representerar i början av fasen Stäng.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Stäng fasen inträffar när tjänsten är stängd.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">Den tidsperiod efter vilken den beständiga providern avbryter det här försöket.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">Metoden som ska anropas när åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">Ett användardefinierade objekt som särskiljer denna asynkrona åtgärd från andra åtgärder.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginClose asynchronous method call.</source>
+          <target state="translated">Tillståndet för det asynkrona metodanropet OnBeginClose.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Open phase.</source>
+          <target state="translated">Representerar i början av den öppna fasen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Öppna fasen inträffar när tjänsten har öppnats.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">Den tidsperiod efter vilken den beständiga providern avbryter det här försöket.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">Metoden som ska anropas när åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">Ett användardefinierade objekt som särskiljer denna asynkrona åtgärd från andra åtgärder.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginOpen asynchronous method call.</source>
+          <target state="translated">Tillståndet för det asynkrona metodanropet OnBeginOpen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Represents the Close phase.</source>
+          <target state="translated">Representerar fasen Stäng.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Stäng fasen inträffar när tjänsten är stängd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">Den tidsperiod efter vilken den beständiga providern avbryter det här försöket.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Close phase.</source>
+          <target state="translated">Representerar slutet av Stäng fasen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Stäng fasen inträffar när tjänsten är stängd.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">En referens till resultatet av åtgärden.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Open phase.</source>
+          <target state="translated">Representerar slutet på den öppna fasen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Öppna fasen inträffar när tjänsten har öppnats.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">En referens till resultatet av åtgärden.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Represents the Open phase.</source>
+          <target state="translated">Representerar den öppna fasen.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Öppna fasen inträffar när tjänsten har öppnats.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">Den tidsperiod efter vilken den beständiga providern avbryter det här försöket.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary in persistence providers created with this factory.</source>
+          <target state="translated">Anger om data är serialiserad som text i stället för binära i beständig provider som skapats med den här fabriken.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">Standardvärdet för <ph id="ph1">`serializeAsText`</ph> är <ph id="ph2">`false`</ph>, vilket anger att beständiga information är serialiserad som binära data.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service information is serialized as text; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om tjänstinformation är serialiserad som text. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

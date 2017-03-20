@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef71cbfeb9712b66e3e8dd45ae65122336cd3cf1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.WorkflowEnvironment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e363aace6370f26184379082ebbc658167998858</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">79d1ee3edabe1cac26f8f9b96f0ab73394805dec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the transactional environment of the workflow instance that is running on the current thread.</source>
+          <target state="translated">Представляет среду выполнения транзакций экземпляра рабочего процесса, который выполняется в текущем потоке.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The WorkflowEnvironment represents the transactional environment of the workflow instance that is running on the current thread.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>WorkflowEnvironment представляет среду выполнения транзакций экземпляра рабочего процесса, который выполняется в текущем потоке.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowEnvironment has two properties: the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; property, which exposes the current work batch and allows a host or a host service to participate in the current transaction by adding &lt;xref:System.Workflow.Runtime.IPendingWork&gt; items to this property; and the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkflowInstanceId%2A&gt; property, which exposes the &lt;xref:System.Guid&gt; of the workflow instance currently running on this thread.</source>
+          <target state="translated">WorkflowEnvironment имеет два свойства: &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;свойство, которое показывает текущий пакет работ и позволяет узлу или службе узла участвовать в текущей транзакции, добавляя &lt;xref:System.Workflow.Runtime.IPendingWork&gt;элементов, это свойство; и &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkflowInstanceId%2A&gt;Свойства, которое предоставляет &lt;xref:System.Guid&gt;экземпляра рабочего процесса, выполняющегося в данный момент в этом потоке.&lt;/xref:System.Guid&gt; &lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkflowInstanceId%2A&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Gets the current work batch.</source>
+          <target state="translated">Возвращает текущий пакет работ.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WorkBatch property allows hosts or host services to participate in the current transaction by adding pending work items to the current work batch.</source>
+          <target state="translated">Свойство пакета WorkBatch позволяет узлам или службам узлов участвовать в текущей транзакции, добавляя ожидающие работы в текущий пакет работ.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A host or a host service that wants to participate in the current transaction must implement the &lt;xref:System.Workflow.Runtime.IPendingWork&gt; interface and use &lt;xref:System.Workflow.Runtime.IWorkBatch.Add%2A?displayProperty=fullName&gt; to add pending work items to WorkBatch.</source>
+          <target state="translated">Узел или служба узла, в которой необходимо участвовать в текущей транзакции должны реализовывать &lt;xref:System.Workflow.Runtime.IPendingWork&gt;интерфейса и использовать &lt;xref:System.Workflow.Runtime.IWorkBatch.Add%2A?displayProperty=fullName&gt;для добавления ожидающих работ для пакета WorkBatch.&lt;/xref:System.Workflow.Runtime.IWorkBatch.Add%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Durable services should add items to WorkBatch to keep the state of their data stores consistent with the state of the workflow instance.</source>
+          <target state="translated">Постоянные службы должны добавлять элементы для пакета WorkBatch, чтобы поддерживать состояние своих хранилищ данных, согласованные с состоянием экземпляра рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The out-of-box durable services, &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; and &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, both implement this functionality.</source>
+          <target state="translated">Out-of-box устойчивых служб, а также &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;и &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, как реализовать эту функцию.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IWorkBatch"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current work batch.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.IWorkBatch"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Представляющий текущий пакет работ.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Guid&gt; of the workflow instance associated with the current thread.</source>
+          <target state="translated">Возвращает &lt;xref:System.Guid&gt;экземпляра рабочего процесса, связанного с текущим потоком.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowInstanceId contains the &lt;xref:System.Guid&gt; of the workflow instance currently running in this thread.</source>
+          <target state="translated">Содержит WorkflowInstanceId &lt;xref:System.Guid&gt;экземпляра рабочего процесса, выполняемых в этом потоке.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whenever code is run from within a workflow thread, you can get the &lt;xref:System.Guid&gt; of the workflow instance through the WorkflowInstanceId property.</source>
+          <target state="translated">Когда код запускается из потока рабочего процесса, можно получить &lt;xref:System.Guid&gt;экземпляра рабочего процесса через свойство WorkflowInstanceId.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if your code is in a service called by an activity, WorkflowInstanceId will provide &lt;xref:System.Guid&gt; of the workflow instance for the calling activity.</source>
+          <target state="translated">Например, если код находится в службе, вызванной действием, WorkflowInstanceId предоставляет &lt;xref:System.Guid&gt;экземпляра рабочего процесса для вызывающего действия.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; that identifies the current workflow instance.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;Определяет текущий экземпляр рабочего процесса.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
