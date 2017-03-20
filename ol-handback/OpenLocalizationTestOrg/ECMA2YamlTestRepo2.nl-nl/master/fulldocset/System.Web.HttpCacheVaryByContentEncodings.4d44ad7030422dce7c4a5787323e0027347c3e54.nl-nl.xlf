@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">707a802f6c13f9a11f596a09282f85a91083f54f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpCacheVaryByContentEncodings.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">618dfd7095fe3bcc82ca1ee83a67122f072db43b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed4e969331e9bf0047293dbac25e1bb18a95bb3a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a type-safe way to set the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt; property of the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Is een type-veilige manier om in te stellen de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt;eigenschap van de <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings*&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property is used to specify whether dynamically compressed responses are cached.</source>
+          <target state="translated">De &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;eigenschap wordt gebruikt om op te geven of dynamisch gecomprimeerde reacties in cache zijn opgeslagen.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Caching dynamically compressed responses means that the cost of compression is incurred only one time, during the first request for the resource (or after an application restart) and when the cache item expires.</source>
+          <target state="translated">Opslaan in cache dynamisch gecomprimeerde reacties betekent dat de kosten van compressie slechts één keer worden gemaakt tijdens de eerste aanvraag voor de resource (of na een herstart van toepassing) en als het item cache verloopt.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property of the &lt;xref:System.Web.HttpCachePolicy&gt; class identifies which request header parameters ASP.NET uses to uniquely identify a variation of the response if there are multiple cached responses for a resource.</source>
+          <target state="translated">De &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;eigenschap van de &lt;xref:System.Web.HttpCachePolicy&gt;klasse identificeert welke header aanvraagparameters ASP.NET gebruikt om een variant van het antwoord uniek te identificeren als er meerdere in cache opgeslagen reacties voor een resource.&lt;/xref:System.Web.HttpCachePolicy&gt; &lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful when a response depends on a set of client inputs, such as headers, parameters, or content encodings.</source>
+          <target state="translated">Dit is handig wanneer een reactie is afhankelijk van een reeks invoer van de client, zoals kopteksten, parameters of inhoud coderingen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HttpCacheVaryByContentEncodings class is not directly related to HTTP cache-control headers.</source>
+          <target state="translated">De klasse HttpCacheVaryByContentEncodings is niet direct gerelateerd aan de cache-control-HTTP-headers.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it helps make sure that a response to a client or a proxy varies by the specified content encoding.</source>
+          <target state="translated">Het kan echter nuttig Zorg ervoor dat een reactie op een client of een proxy is afhankelijk van de opgegeven codering van inhoud.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the cache to vary by content encoding enables ASP.NET to vary the response by the <ph id="ph1">`Accept-Encoding`</ph> header.</source>
+          <target state="translated">Instellen van de cache is afhankelijk van de codering van inhoud Hiermee kan ASP.NET variëren van het antwoord van de <ph id="ph1">`Accept-Encoding`</ph> header.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a request is processed, the <ph id="ph1">`Accept-Encoding`</ph> header is checked and the first acceptable encoding is identified and used to take one of the following actions:      -   If a matching encoding is also found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list and a cached response exists, the cached response is sent.</source>
+          <target state="translated">Wanneer een aanvraag wordt verwerkt, het <ph id="ph1">`Accept-Encoding`</ph> header is ingeschakeld en de eerste acceptabele codering is geïdentificeerd en waarmee één van de volgende acties ondernemen: - als een overeenkomende codering staat ook in de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;lijst en een cacheantwoord bestaat, wordt het in cache opgeslagen antwoord verzonden.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is also found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list but a cached response does not exist, a response is generated and inserted into the cache.</source>
+          <target state="translated">-Als een overeenkomende codering staat ook in de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;lijst, maar een cacheantwoord niet bestaat, wordt een antwoord wordt gegenereerd en in de cache geplaatst.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is not found in the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; list, the cache is searched for a non-encoded response, also referred to as the identity response.</source>
+          <target state="translated">-Als een overeenkomende codering is niet gevonden in de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;lijst van de cache wordt gezocht naar een niet-gecodeerde antwoord ook aangeduid als de identiteitsreactie.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the identity response is found, it is sent.</source>
+          <target state="translated">Als de identiteitsreactie wordt gevonden, wordt het verzonden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise a new non-encoded response is generated and stored in the cache.</source>
+          <target state="translated">Anders wordt een nieuw antwoord voor niet-gecodeerde gegenereerd en opgeslagen in de cache.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Voor meer informatie over de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;eigenschap, Zie RFC 2616: Hypertext Transfer Protocol--HTTP/1.1, beschikbaar is op de <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) website<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 14, "Header Field Definitions", for complete details.</source>
+          <target state="translated">Zie de sectie 14, 'Header velddefinities', voor meer informatie.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt; property by using the  directive or by adding a profile to the  element in the Web.config file.</source>
+          <target state="translated">U kunt instellen de &lt;xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;eigenschap met de instructie of door een profiel toe te voegen aan het element in het bestand Web.config.&lt;/xref:System.Web.HttpCachePolicy.VaryByContentEncodings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByContentEncodings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByContentEncodings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets an array of values which specify the content encodings to be used for varying the cache.</source>
+          <target state="translated">Hiermee haalt u een matrix met waarden die de inhoud coderingen moet worden gebruikt voor het variëren van de cache opgeven.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An array of values which contain the content encodings for varying the cache.</source>
+          <target state="translated">Een matrix met waarden die de inhoud coderingen voor het variëren van de cache bevatten.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the cache varies according to the specified content encoding.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft of de cache afhankelijk van de opgegeven codering van inhoud is.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The name of the content encoding.</source>
+          <target state="translated">De naam van de codering van inhoud.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache should vary by the specified content encoding; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de cache verschillen moet van de opgegeven codering van inhoud; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The content encoding is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Is de inhoudsversleuteling <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Sets an array of values which specify the content encodings to be used for varying the cache.</source>
+          <target state="translated">Hiermee stelt u een matrix met waarden die de inhoud coderingen moet worden gebruikt voor het variëren van de cache opgeven.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An array of values which contain the content encodings for varying the cache.</source>
+          <target state="translated">Een matrix met waarden die de inhoud coderingen voor het variëren van de cache bevatten.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">666b55ba1c9474b2276b718dba411dc9d06952bb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpRequestValidationException.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">635d24cb2d01cd2c1cc1649ff02db5f48e417060</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10d0178f4e32597b8b436182be3e281ca26ddefc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when a potentially malicious input string is received from the client as part of the request data.</source>
+          <target state="translated">De uitzondering die wordt gegenereerd wanneer een mogelijk schadelijke invoerreeks wordt ontvangen van de client als onderdeel van de gegevens van aanvragen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Deze klasse kan niet worden overgenomen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Constraining and validating user input is essential in a Web application to prevent hacker attacks that rely on malicious input strings.</source>
+          <target state="translated">Beperkingen en valideren van invoer van de gebruiker is het essentieel zijn in een webtoepassing om hackeraanvallen die afhankelijk van schadelijke invoer tekenreeksen zijn te voorkomen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Cross-site scripting attacks are one example of such hacks.</source>
+          <target state="translated">Cross-site scripting aanvallen zijn een voorbeeld van dergelijke hacks.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other types of malicious or undesired data can be passed in a request through various forms of input.</source>
+          <target state="translated">Andere typen schadelijke of ongewenste gegevens kunnen worden doorgegeven in een aanvraag tot en met verschillende vormen van de invoer.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By limiting the kinds of data that is passed at a low level in an application, you can prevent undesirable events, even when programmers who are using your code do not put the proper validation techniques in place.</source>
+          <target state="translated">Door het beperken van de soorten gegevens die op een laag niveau in een toepassing wordt doorgegeven, kunt u voorkomen dat ongewenste gebeurtenissen, zelfs als programmeurs die met behulp van uw code plaats niet de juiste validatie-technieken aanwezig.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Request validation detects potentially malicious client input and throws this exception to abort processing of the request.</source>
+          <target state="translated">Aanvraagvalidatie detecteert mogelijk schadelijke client invoer en genereert deze uitzondering om af te breken verwerking van de aanvraag.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A request abort can indicate an attempt to compromise the security of your application, such as a cross-site scripting attack.</source>
+          <target state="translated">Een aanvraag afbreken kan duiden op een poging tot inbreuk op de beveiliging van uw toepassing, zoals een cross-site scripting-aanval.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is strongly recommended that your application explicitly check all input regarding request aborts.</source>
+          <target state="translated">Het is raadzaam dat uw toepassing expliciet controleren alle invoer met betrekking tot de aanvraag wordt afgebroken.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can disable request validation by setting the <ph id="ph1">`validateRequest`</ph> attribute in the  directive to <ph id="ph2">`false`</ph>, as shown in the following example:       <ph id="ph3">`&lt;%@ Page validateRequest="false" %&gt;`</ph>       To disable request validation for your application, you must modify or create a Web.config file for your application and set the <ph id="ph4">`validateRequest`</ph> attribute of the <ph id="ph5">`pages`</ph> section to <ph id="ph6">`false`</ph>, as shown in the following example:      <ph id="ph7">```   &lt;configuration&gt;      &lt;system.web&gt;        &lt;pages validateRequest="false" /&gt;      &lt;/system.web&gt;    &lt;/configuration&gt;    ```</ph>       To disable request validation for all applications on your server, you can make this modification to the Machine.config file.</source>
+          <target state="translated">U kunt echter uitschakelen Aanvraagvalidatie door in te stellen de <ph id="ph1">`validateRequest`</ph> kenmerk in de richtlijn <ph id="ph2">`false`</ph>, zoals wordt weergegeven in het volgende voorbeeld: <ph id="ph3">`&lt;%@ Page validateRequest="false" %&gt;`</ph> als wilt uitschakelen aanvraagvalidatie voor uw toepassing, moet u aanpast of een Web.config-bestand voor uw toepassing en een set maakt de <ph id="ph4">`validateRequest`</ph> kenmerk van de <ph id="ph5">`pages`</ph> sectie naar <ph id="ph6">`false`</ph>, zoals wordt weergegeven in het volgende voorbeeld: <ph id="ph7">```   &lt;configuration&gt;      &lt;system.web&gt;        &lt;pages validateRequest="false" /&gt;      &lt;/system.web&gt;    &lt;/configuration&gt;    ```</ph> aanvraagvalidatie voor alle toepassingen op uw server uitschakelen , kunt u deze wijziging in het Machine.config-bestand.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is strongly recommended that your application explicitly check all inputs it uses in addition to the request validation performed by ASP.NET.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Is het raadzaam dat uw toepassing expliciet alle invoer gebruikt naast de Aanvraagvalidatie uitgevoerd door ASP.NET controleren.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The request validation feature cannot catch all attacks, especially those crafted specifically against your application logic.</source>
+          <target state="translated">De validatiefunctie aanvraag kan niet alle catch-aanvallen, met name voor die specifiek op basis van uw toepassingslogica worden ontworpen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Maakt een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception with the specified error message.</source>
+          <target state="translated">Maakt een nieuw <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uitzondering met het opgegeven foutbericht.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content of the <ph id="ph1">`message`</ph> parameter is intended to be human readable.</source>
+          <target state="translated">De inhoud van de <ph id="ph1">`message`</ph> parameter is bedoeld als menselijke kan worden gelezen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller of the HttpRequestValidationException constructor is required to ensure that the <ph id="ph1">`message`</ph> string has been localized.</source>
+          <target state="translated">De aanroeper van de constructor HttpRequestValidationException is vereist om ervoor te zorgen dat de <ph id="ph1">`message`</ph> tekenreeks is gelokaliseerd.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A string that describes the error.</source>
+          <target state="translated">Een tekenreeks die de fout wordt beschreven.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message and a reference to the inner exception that is the cause of the exception.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.HttpRequestValidationException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een opgegeven foutbericht en een verwijzing naar de interne uitzondering dat de oorzaak van de uitzondering.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception that is thrown as a direct result of a previous exception should include a reference to the previous exception in the &lt;xref:System.Exception.InnerException%2A&gt; property.</source>
+          <target state="translated">Een uitzondering die is gegenereerd als direct resultaat van een eerdere uitzondering moet een verwijzing bevatten naar de vorige uitzondering in de &lt;xref:System.Exception.InnerException%2A&gt;eigenschap.&lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Exception.InnerException%2A&gt; property returns the same value that is passed into the HttpRequestValidationException constructor, or <ph id="ph1">`null`</ph> if the &lt;xref:System.Exception.InnerException%2A&gt; property does not supply the inner exception value to the HttpRequestValidationException constructor.</source>
+          <target state="translated">De &lt;xref:System.Exception.InnerException%2A&gt;eigenschap dezelfde waarde die is doorgegeven aan de constructor HttpRequestValidationException of <ph id="ph1">`null`</ph> als de &lt;xref:System.Exception.InnerException%2A&gt;eigenschap levert niet de waarde van de binnenste uitzondering voor de constructor HttpRequestValidationException.&lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An error message that explains the reason for the exception.</source>
+          <target state="translated">Een foutbericht met uitleg over de reden voor de uitzondering.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The exception that is the cause of the current exception.</source>
+          <target state="translated">De uitzondering die de oorzaak van de huidige uitzondering.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If this parameter is not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the current exception is raised in a <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> block that handles the inner exception.</source>
+          <target state="translated">Als deze parameter niet <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, de huidige uitzondering is opgetreden tijdens een <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> blok die verantwoordelijk is voor de interne uitzondering.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

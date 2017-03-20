@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b90800bf25ee07e938a378813f6c4ad0b8f2c6f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.UserTrackPoint.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bdb0039b9219327ceb4b85a313e10c89523210e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6a2faddcb5345bfc50a98ab3c1bb608115ccf31</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a point, associated with a user event, to be tracked in the potential execution path of a root workflow instance.</source>
+          <target state="translated">Define um ponto, associado um evento de utilizador, para ser controlado no potencial caminho de execução de uma instância de fluxo de trabalho raiz.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Esta classe não pode ser herdada.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       An activity designer or a workflow designer may use the overloaded &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt; and &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; methods to instrument the workflow to emit data to the runtime tracking infrastructure as a user event.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>Um designer de atividade ou um estruturador de fluxo de trabalho pode utilizar o sobrecarregado &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;e &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt;métodos para instrumentar o emitir dados para o tempo de execução de infraestrutura como um evento de utilizador de controlo do fluxo de trabalho.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data emitted is referred to as user data.</source>
+          <target state="translated">Os dados emitidos são referidos como dados de utilizador.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike activity status events, and workflow status events, which occur only on status changes, user events can occur at any location that is instrumented in a workflow.</source>
+          <target state="translated">Ao contrário dos eventos de estado de atividade e eventos de estado do fluxo de trabalho, que ocorrem apenas no alterações de estado, podem ocorrer eventos de utilizador em qualquer local que está instrumentada num fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are many reasons to instrument a workflow to emit user events.</source>
+          <target state="translated">Existem muitos motivos para instrumentar um fluxo de trabalho para emitir os eventos de utilizador.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a workflow designer may want to communicate logical state information about the progress of a workflow, or an activity designer might want to provide an opportunity to activity members at times other than an activity status change.</source>
+          <target state="translated">Por exemplo, poderá pretender um estruturador de fluxo de trabalho comunicar Estado lógico informações sobre o progresso de um fluxo de trabalho ou um designer da actividade poderá pretender fornecer uma oportunidade de atividade membros por vezes que não seja um Estado de atividade alterar.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A UserTrackPoint defines a point of interest in the potential execution path of a root workflow instance associated with a user event.</source>
+          <target state="translated">Um UserTrackPoint define um ponto de interesse no caminho potenciais execução de uma instância de fluxo de trabalho de raiz associada um evento de utilizador.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A UserTrackPoint contains locations that are included in matching, locations that are excluded from matching, and any additional data that should be extracted from the workflow instance when the track point is matched.</source>
+          <target state="translated">Um UserTrackPoint contenha localizações que estão incluídas na correspondência, as localizações que são excluídas da correspondência e quaisquer dados adicionais que devem ser extraídos da instância de fluxo de trabalho quando o ponto de registo é correspondido.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add a UserTrackPoint to &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt; to instruct the runtime tracking infrastructure to send a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; to the tracking service when the track point is matched.</source>
+          <target state="translated">Pode adicionar um UserTrackPoint para &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt;ao instruir o tempo de execução do controlo de infraestrutura para enviar um &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;para o serviço de controlo quando o ponto de registo é correspondido.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user data is returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Os dados de utilizador são devolvidos em &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A single UserTrackPoint may be matched at multiple points in the workflow instance.</source>
+          <target state="translated">Um único UserTrackPoint pode corresponder a vários pontos de uma instância de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; contains match conditions for a location associated with a user event in the potential execution path of a workflow instance.</source>
+          <target state="translated">A &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;contém as condições de correspondência para uma localização associado um evento de utilizador no caminho potenciais execução de uma instância de fluxo de trabalho.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; to define locations that should be included in matching for the track point.</source>
+          <target state="translated">Pode adicionar &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;objetos a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;Definir localizações que devem ser incluídas na correspondência para o ponto de registo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, you can add &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; to define locations that should be excluded from matching for the track point.</source>
+          <target state="translated">Da mesma forma, pode adicionar &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;objetos a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;Definir localizações que devem ser excluídas da correspondência para o ponto de registo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt; objects and &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; to specify data that should be extracted from the workflow instance when the track point is matched.</source>
+          <target state="translated">Pode adicionar &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;objetos e &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt;objetos a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;para especificar dados que devem ser extraídos da instância de fluxo de trabalho quando o ponto de registo é correspondido.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extracted data will be returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Os dados extraídos serão devolvidos na &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt; to specify additional information associated with the track point.</source>
+          <target state="translated">Pode adicionar a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;para especificar informações adicionais associadas com o ponto de registo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These annotations will be returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Estes anotações serão devolvidas na &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of how to use this class, see the <bpt id="p1">[</bpt>Tracking Using User Track Points Sample<ept id="p1">](http://msdn.microsoft.com/en-us/d894a18a-a4c6-467e-9a42-8be025ecd4d5)</ept>.</source>
+          <target state="translated">Para obter um exemplo de como utilizar esta classe, consulte o <bpt id="p1">[</bpt>controlo utilizando o utilizador controle pontos exemplo<ept id="p1">](http://msdn.microsoft.com/en-us/d894a18a-a4c6-467e-9a42-8be025ecd4d5)</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor initializes an empty track point.</source>
+          <target state="translated">O construtor predefinido inicializa um ponto de registo vazio.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No matching locations, excluded locations, data extracts or annotations are specified.</source>
+          <target state="translated">Não existem localizações correspondentes, localizações excluídas, extrai dados ou anotações estão especificadas.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must configure the track point by adding at least one &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;.</source>
+          <target state="translated">Tem de configurar o ponto de registo adicionando-a, pelo menos, um &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;para &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may optionally add the appropriate objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;.</source>
+          <target state="translated">Opcionalmente, pode adicionar os objetos apropriados para &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;e &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the collection of annotations associated with the track point.</source>
+          <target state="translated">Obtém a coleção de anotações associados com o ponto de registo.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add to Annotations to specify annotations to be returned in Annotations when the track point is matched.</source>
+          <target state="translated">Pode adicionar anotações para especificar as anotações devem ser devolvidos em anotações quando o ponto de registo é correspondido.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Annotations is empty, no annotations are associated with the track point.</source>
+          <target state="translated">Se estiver vazia anotações, não anotações associadas com o ponto de registo.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Annotations are <ph id="ph1">`strings`</ph> that you define that contain information associated with the track point.</source>
+          <target state="translated">As anotações são <ph id="ph1">`strings`</ph> definir que contêm informações associadas com o ponto de registo.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an annotation could contain information about the possible execution path the workflow can take from this track point, or it could contain information to be displayed in a user interface.</source>
+          <target state="translated">Por exemplo, uma anotação pode conter informações sobre o caminho de execução possíveis o fluxo de trabalho pode demorar a partir deste ponto de registo ou pode conter informações a apresentar numa interface de utilizador.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingAnnotationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingAnnotationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">A predefinição é uma coleção vazia.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the collection of locations that should be excluded from the track point by the runtime tracking infrastructure.</source>
+          <target state="translated">Obtém a coleção de localizações que deve ser excluído do ponto de controlar a infraestrutura de controlo do tempo de execução.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in ExcludedLocations is matched for a particular user event, the track point will not be matched and no &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; will be sent to the tracking service.</source>
+          <target state="translated">Se qualquer uma do &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;objetos ExcludedLocations é correspondido um evento de utilizador em particular, não será possível corresponder o ponto de controlar e nenhum &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;serão enviados para o serviço de controlo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ExcludedLocations is empty, there are no excluded locations.</source>
+          <target state="translated">Se ExcludedLocations está vazio, não existem nenhum localizações excluídas.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use ExcludedLocations to exclude specific locations from being tracked by the runtime tracking infrastructure.</source>
+          <target state="translated">Pode utilizar ExcludedLocations para excluir localizações específicas a ser controlada pelo tempo de execução a infraestrutura de controlo.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can exclude a subset of locations that are specified in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; in order to more precisely refine the locations that should be tracked by the track point.</source>
+          <target state="translated">Por exemplo, pode excluir um subconjunto das localizações especificadas na &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;para poder mais precisamente refinar as localizações que devem ser controladas pelo ponto de registo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies locations to be excluded from the track point.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que especifica as localizações a serem excluídos o ponto de registo.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">A predefinição é uma coleção vazia.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets a collection that specifies data to be extracted from the workflow instance and sent to the tracking service.</source>
+          <target state="translated">Obtém uma coleção que especifica os dados a ser extraído da instância de fluxo de trabalho e enviados para o serviço de controlo.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the track point is matched, the runtime tracking infrastructure sends a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; to the tracking service.</source>
+          <target state="translated">Quando o ponto de registo é correspondido, o tempo de execução controlo infraestrutura envia um &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;para o serviço de controlo.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user data is returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Os dados de utilizador são devolvidos em &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure can also extract data specified in Extracts from the workflow instance and send this in the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;.</source>
+          <target state="translated">A infraestrutura de controlo do tempo de execução também pode extrair dados especificados na extrai da instância de fluxo de trabalho e enviar isto &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extracted data is encapsulated in &lt;xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt; records and returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Os dados extraídos são encapsulados no &lt;xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt;regista e devolvida &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt; objects to Extracts to specify member data that should be extracted from the activity associated with the user event and you can add &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; objects to Extracts to specify member data that should be extracted from the root activity of the workflow.</source>
+          <target state="translated">Pode adicionar &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;objetos extrai para especificar os dados de membro que devem ser extraídos da atividade associada o eventos de utilizador e podem adicionar &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt;objetos extrai para especificar os dados de membro que devem ser extraídos da atividade raiz do fluxo de trabalho.&lt;/xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.ExtractCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies data to be extracted and sent to the tracking service.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.ExtractCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que especifica os dados a ser extraído e enviados para o serviço de controlo.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">A predefinição é uma coleção vazia.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the collection of locations that should be included in matching for the track point by the runtime tracking infrastructure.</source>
+          <target state="translated">Obtém a coleção de localizações que devem ser incluídas correspondente para o ponto de controlar a infraestrutura de controlo do tempo de execução.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If MatchingLocations is empty, the track point cannot be matched by the runtime tracking infrastructure.</source>
+          <target state="translated">Se MatchingLocations tem um valor está vazio, o ponto de registo não pode ser correspondido pelo runtime infraestrutura de controlo.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must add at least one &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to MatchingLocations for the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; to participate in matching.</source>
+          <target state="translated">Tem de adicionar pelo menos um &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;para MatchingLocations tem um valor para o &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt;participar no correspondente.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The track point will be matched if any of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in MatchingLocations is matched and none of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; is matched.</source>
+          <target state="translated">O ponto de registo será correspondido se qualquer uma do &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;objetos MatchingLocations tem um valor é correspondido e nenhuma do &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;objetos no &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;é correspondido.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the locations to be matched for the track point.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que especifica as localizações de correspondência para o ponto de registo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">A predefinição é uma coleção vazia.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
