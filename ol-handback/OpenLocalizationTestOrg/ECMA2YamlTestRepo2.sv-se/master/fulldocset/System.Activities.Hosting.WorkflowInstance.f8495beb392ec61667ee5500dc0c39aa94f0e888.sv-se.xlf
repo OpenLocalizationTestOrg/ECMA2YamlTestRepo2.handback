@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">930ac95ff671b66ba5f8573e049a24cbc598dc05</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Hosting.WorkflowInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df0058954fe7f6d73d618669ef2ef912f6af1a1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67a9ef1bba121f95d14f52bf556741e8cf4f96ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is a lightweight, per-instance runtime for executing a workflow program.</source>
+          <target state="translated">WorkflowInstance är en förenklad, per instans runtime för att köra ett arbetsflödesprogram.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It can be constructed to create a new workflow instance or from existing instance state.</source>
+          <target state="translated">Det kan konstrueras för att skapa en ny arbetsflödesinstans eller från den befintliga instanstillstånd.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The APIs that &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; exposes are the minimal set of runtime controls from which higher level operations can be implemented.</source>
+          <target state="translated">API: erna som &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;visar är den minsta uppsättningen av runtime-kontroller som högre nivå åtgärder kan genomföras.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This API set represents the entire breadth of functionality of the runtime.</source>
+          <target state="translated">Den här API-uppsättningen representerar hela bredden av funktionerna i körningsmiljön.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is an abstract class and relies on a host’s implementation of its abstract methods in order to provide host functionality such as synchronization, persistence, tracking, and extensions.</source>
+          <target state="translated">WorkflowInstance är en abstrakt klass och bygger på en värd implementering av de abstrakta metoderna för att kunna tillhandahålla värdfunktioner såsom synkronisering, beständighet, spårning och tillägg.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowInstance is single threaded and assumes that the host synchronizes all access to it.</source>
+          <target state="translated">WorkflowInstance är en enskild flertrådade och förutsätter att värden synkroniserar all åtkomst till den.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call multiple APIs simultaneously will result in an &lt;xref:System.InvalidOperationException&gt; being thrown.</source>
+          <target state="translated">Ett försök att anropa flera API: er samtidigt resulterar i en &lt;xref:System.InvalidOperationException&gt;som genereras.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, a WorkflowInstance has two states: Running and Paused.</source>
+          <target state="translated">Internt, en WorkflowInstance har två lägen: körs och pausad.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cause the runtime to transition from paused to running is to call &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">Det enda sättet att körningstiden till övergången från pausats körs är att anropa &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All actions (except Pause) can only be taken while the runtime is Paused.</source>
+          <target state="translated">Alla åtgärder (utom Pause) kan bara hämtas när körningen har pausats.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime will become spontaneously Paused in the following situations:      -   An error fatal to the runtime has occurred.</source>
+          <target state="translated">Körningen ska bli spontant pausad i följande situationer:-ett allvarligt körningstillstånd fel har uppstått.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be signaled through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; (which does not signal a transition to Paused) and then notified through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.</source>
+          <target state="translated">Värden signaleras via &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;(som ogiltig indikation på en övergång till pausad) och sedan meddelas via &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An exception in the workflow was uncaught and escaped the root.</source>
+          <target state="translated">-Ett undantag i arbetsflödet var utan felhantering och föregås av roten.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt; method.</source>
+          <target state="translated">Värden kommer att meddelas via den &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;metoden.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The scheduler has run out of work items and is now &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.</source>
+          <target state="translated">-Schemaläggaren har slut arbetsobjekt och är nu &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstanceState&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; method.</source>
+          <target state="translated">Värden kommer att meddelas via den &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;metoden.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the scheduler could have run out of work items because the instance is idle or because the instance is complete.</source>
+          <target state="translated">Observera att Schemaläggaren kan ha slut arbetsobjekt eftersom instansen är inaktiv eller eftersom instansen är klar.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to differentiate between the two.</source>
+          <target state="translated">Den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;värdet för den &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;egenskapen kan användas för att skilja mellan två.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can request a change from Running to Paused by calling the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; or &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; methods of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property.</source>
+          <target state="translated">Värden kan begära en ändring från att köras på Paused genom att anropa den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;eller &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt;metoder för den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;instans som returneras av den &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;egenskapen.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This request should not be considered to have a specific response meaning that the host should not attempt to correlate an OnNotify<bpt id="p1">*</bpt> or &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; with a specific call to pause. In response to a pause request, the runtime may transition to Paused and call &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; while the scheduler still has pending work items. The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to determine whether the scheduler has no more work or was interrupted by a request to pause.       The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; method of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property is the only method which can be called while the WorkflowInstance is in the Running state. All other methods will throw an &lt;xref:System.InvalidOperationException&gt; if called.Given the rules for how WorkflowInstance transitions from one state to another, the public notion of Running and Paused can be defined as follows:      -   Running – The state between a call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; and the next WorkflowInstance.OnNotify<ept id="p1">*</ept>.</source>
+          <target state="translated">Denna begäran ska inte betraktas som har ett visst svar vilket innebär att värden inte ska försöka att korrelera ett OnNotify<bpt id="p1">*</bpt> eller &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;med ett specifikt anrop till pausa.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; Som svar på en begäran om paus körningen kan övergå till pausas och anropet &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;medan Schemaläggaren har fortfarande väntande arbetsobjekt.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; Den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;värdet för den &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;egenskapen kan användas för att avgöra om Schemaläggaren har inga fler arbete eller avbröts av en begäran om att pausa.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;       Den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;metod för den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;instans som returneras av den &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;egenskapen är den enda metoden som kan anropas när WorkflowInstance är i tillståndet körs.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; Alla andra metoder genereras ett &lt;xref:System.InvalidOperationException&gt;om den anropas. Angivna regler för WorkflowInstance övergången från ett tillstånd till en annan offentlig begreppet körs och pausad kan definieras enligt följande: - kör – tillstånd mellan ett anrop till &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;och nästa WorkflowInstance.OnNotify<ept id="p1">*</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Paused – The state between the last WorkflowInstance.OnNotify* and the next call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">-Pausad – tillstånd mellan den sista WorkflowInstance.OnNotify* och nästa anrop till &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med den angivna arbetsflödesdefinitionen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">Aktiviteten som definierar arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition and definition identity.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med angivna arbetsflödesdefinitionen och definitionsidentitet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">Aktiviteten som definierar arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The definition identity.</source>
+          <target state="translated">Definitionsidentitet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to begin sending pending tracking records to tracking participants asynchronously.</source>
+          <target state="translated">Anropas av arbetsflödet körningen ska börja skicka väntande spåra poster att spåra deltagare asynkront.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">Tidsperiod efter vilken att avbryta försöket.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">Metoden som ska anropas när spåra åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">Information om den asynkrona åtgärden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">Status för den aktuella åtgärden spåra.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance for this <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar den &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;instansen för den här <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The controller instance for this workflow instance.</source>
+          <target state="translated">Instansen som domänkontrollant för denna arbetsflödesinstans.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets the definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar eller anger definitionsidentitet <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Definition av identiteten för <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Calls &lt;xref:System.Disposable.Dispose*&gt; on all extensions that implement &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">Anropar &lt;xref:System.Disposable.Dispose*&gt;på alla tillägg som implementerar &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.Disposable.Dispose*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to end the track operation.</source>
+          <target state="translated">Anropas av arbetsflödet körningen ska sluta spåra igen.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous track operation.</source>
+          <target state="translated">Status för asynkron spåra igen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to send pending tracking records to tracking participants.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att skicka väntande spåra poster för spårning av deltagare.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">Tidsperiod efter vilken att avbryta försöket.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Retrieves the list of activity that is blocking the update of the workflow.</source>
+          <target state="translated">Hämtar listan över aktiviteter som blockerar uppdateringen av arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The deserialized runtime state.</source>
+          <target state="translated">Avserialiserat runtime-tillståndet.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">Uppdateringsmappningen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The list of activity that is blocking the update.</source>
+          <target state="translated">Lista över aktiviteter som blockerar uppdateringen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets the root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">Hämtar eller anger rot-miljö för arbetsflödesinstansen argument och variabler.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Om den här egenskapen anges när arbetsflödesinstansen har initierats och &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;returnerar <ph id="ph1">`true`</ph>, en &lt;xref:System.InvalidOperationException&gt;genereras.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">Rot-miljö för arbetsflödesinstansen argument och variabler.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the unique identifier for the workflow instance.</source>
+          <target state="translated">Hämtar den unika identifieraren för arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the workflow instance.</source>
+          <target state="translated">Den unika identifieraren för arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state.</source>
+          <target state="translated">Anropas av värden för att initiera arbetsflödesinstans med arbetsflödets körtid tillstånd.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">Körning status används för att köra arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the argument values and execution properties.</source>
+          <target state="translated">Anropas av värden för att initiera arbetsflödesinstans med argumentet värdena och körningsegenskaper.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The input parameters to the workflow, keyed by argument name.</source>
+          <target state="translated">Indataparametrarna för arbetsflödet, Nyckelbaserade av argumentnamnet.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The list of workflow execution properties.</source>
+          <target state="translated">Lista över körningsegenskaper för arbetsflöde.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state and update map.</source>
+          <target state="translated">Kallas för värden att initiera arbetsflödesinstans med arbetsflödets körtid tillstånd och uppdatera kartan.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">Körning status används för att köra arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">Uppdateringsmappningen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the workflow instance has been initialized.</source>
+          <target state="translated">Hämtar ett värde som anger om arbetsflödesinstansen har initierats.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow instance has been initialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om arbetsflödesinstansen har initierats. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that new instance keys should be associated with this instance.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att den nya instansen nycklar ska associeras med den här instansen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The instance keys to associate with this workflow instance.</source>
+          <target state="translated">Instansen nycklar ska associeras med den här arbetsflödesinstans.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation completes.</source>
+          <target state="translated">Metoden som ska anropas när åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Ett valfritt programspecifika-objekt som innehåller information om den asynkrona åtgärden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous associate keys operation.</source>
+          <target state="translated">En referens till den asynkrona associera nycklar igen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask host to flush pending tracking records to tracking participants.</source>
+          <target state="translated">Asynkront anrop till be värden för att tömma väntande spåra poster för spårning av deltagare.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">Metoden som ska anropas när spåra åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">Information om den asynkrona åtgärden.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">Status för den aktuella åtgärden spåra.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask the host to persist the workflow.</source>
+          <target state="translated">Asynkront anrop till be värden att bevara arbetsflödet.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The method to be called when the persist operation has completed.</source>
+          <target state="translated">Metoden som ska anropas när spara-åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Ett valfritt programspecifika-objekt som innehåller information om den asynkrona åtgärden.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A reference to the current persist operation.</source>
+          <target state="translated">En referens till aktuellt spara igen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is beginning.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela den värd som ett bokmärke återställningsförsöket börjar.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The bookmark to resume.</source>
+          <target state="translated">Bokmärket att återuppta.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The data to be passed to the activity that created the <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Data som ska skickas till den aktivitet som skapade den <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The interval in which the resume operation must complete before the operation is canceled and a &lt;xref:System.TimeoutException&gt; is thrown.</source>
+          <target state="translated">Åtgärden återuppta måste slutföras innan åtgärden avbryts och en intervallet &lt;xref:System.TimeoutException&gt;genereras.&lt;/xref:System.TimeoutException&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The method to be called when the resume operation has completed.</source>
+          <target state="translated">Metoden som ska anropas när återuppta åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Ett valfritt programspecifika-objekt som innehåller information om den asynkrona åtgärden.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous resume operation.</source>
+          <target state="translated">En referens till åtgärden för asynkron återuppta.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a certain set of instance keys should no longer be associated with this instance.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att en viss uppsättning instans nycklar inte längre ska vara associerat med den här instansen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The list of keys to disassociate.</source>
+          <target state="translated">Lista över nycklar koppla.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an associate keys operation is complete.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att en associera nycklar åtgärd har slutförts.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous associate keys operation.</source>
+          <target state="translated">Referensen till den asynkrona associera nycklar igen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host when the flush tracking records operation is complete.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden när flush spårning poster åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous flush tracking records operation.</source>
+          <target state="translated">Status för asynkron tömning spårning poster igen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a persist operation is complete.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att en spara-åtgärden har slutförts.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous persist operation.</source>
+          <target state="translated">Referensen till den asynkrona spara igen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is complete.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att en återuppta bokmärke åtgärd har slutförts.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous resume bookmark operation.</source>
+          <target state="translated">Referens till åtgärden för asynkron återuppta bokmärket.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that indicates the result of a <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> resume operation.</source>
+          <target state="translated">En av uppräkningsvärdena som visar resultatet av en <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> åtgärden återuppta.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that the workflow instance has transitioned from the running state to the paused state.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela den värd som arbetsflödesinstansen har övergått från körs till pausläge.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host an unhandled exception has occurred in the workflow instance.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden ett ohanterat undantag uppstod i arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The unhandled exception.</source>
+          <target state="translated">Ohanterat undantag.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The activity that threw the exception.</source>
+          <target state="translated">Den aktivitet som utlöste undantaget.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the activity that threw the exception.</source>
+          <target state="translated">Den unika identifieraren för den <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar den aktivitet som utlöste undantaget.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an abort operation has been requested for the workflow instance.</source>
+          <target state="translated">Anropas av arbetsflödet körningen att meddela värden att åtgärden Avbryt har begärts för arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once OnRequestAbort is called, most &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; APIs except &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">En gång OnRequestAbort anropas, de flesta &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;API: er utom &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt;genereras &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is expected that after OnRequestAbort is called a host will trend toward a state in which it can satisfy the abort.</source>
+          <target state="translated">Det förväntas att en värd kommer trenden mot ett tillstånd där den klarar avbrottet när OnRequestAbort anropas.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The reason for aborting the workflow instance.</source>
+          <target state="translated">Orsak till avbryts arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Called by the host to register the specified extension manager, validate that all required extensions are present, and to initialize the collection of extensions to be used.</source>
+          <target state="translated">Kallas för värden att registrera den angivna Tilläggshanteraren, verifiera att alla nödvändiga tillägg finns och att initiera uppsättning tillägg som ska användas.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions are keyed by type, and a host provided extension will always be used if provided.</source>
+          <target state="translated">Tillägg är anpassade efter typ och en värd som tillägget används alltid om.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the runtime type of the object as the type key.</source>
+          <target state="translated">Tillägg som lagts till via &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;Använd runtime-typen av objekt som nyckel för typen.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions providers added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the decared type T of the Func<ph id="ph1">\&lt;</ph>T&gt; as the type key.</source>
+          <target state="translated">Tillägg providers som lagts till via &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;använder funktionen decared typen T<ph id="ph1">\&lt;</ph>T &gt; som typen nyckel.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extension providers contributed by activities through the various *ActivityMetadata.AddDefaultExtensionProvider methods are dropped if a host extension exists for the declared type or if there is a broader type provided through AddDefaultExtensionProvider (ex.</source>
+          <target state="translated">Tilläggsproviders har bidragit med aktiviteter på olika sätt *ActivityMetadata.AddDefaultExtensionProvider släpps om filnamnstillägget värden finns för den deklarerade typen eller om det finns en bredare typ som tillhandahålls via AddDefaultExtensionProvider (t.ex.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>if Func<ph id="ph1">\&lt;</ph>StreamWriter&gt; is provided and Func<ph id="ph2">\&lt;</ph>TextWriter&gt; is provided, only Func<ph id="ph3">\&lt;</ph>StreamWriter&gt; will be kept).</source>
+          <target state="translated">Om funktionen<ph id="ph1">\&lt;</ph>StreamWriter &gt; tillhandahålls och Func<ph id="ph2">\&lt;</ph>TextWriter &gt; tillhandahålls endast Func<ph id="ph3">\&lt;</ph>StreamWriter &gt; sparas).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an extension does not exist in the collection that is required by an activity (expressed by calling <ph id="ph1">\*</ph>ActivityMetadata.RequireExtension) a &lt;xref:System.Activities.ValidationException&gt; is thrown.</source>
+          <target state="translated">Om ett tillägg inte finns i samlingen som krävs av en aktivitet (uttryckt genom att anropa <ph id="ph1">\*</ph>ActivityMetadata.RequireExtension) en &lt;xref:System.Activities.ValidationException&gt;genereras.&lt;/xref:System.Activities.ValidationException&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The extension manager to register.</source>
+          <target state="translated">Tilläggshanteraren för att registrera.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a run-time instance.</source>
+          <target state="translated">Hämtar ett värde som anger om värden stöder associering av &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;med en instans för körning.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a workflow instance; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om värden stöder associering av &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;med en arbetsflödesinstans; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Threading.SynchronizationContext&gt; used for scheduling the workflow instance.</source>
+          <target state="translated">Hämtar eller anger den &lt;xref:System.Threading.SynchronizationContext&gt;används för schemaläggning av arbetsflödesinstansen.&lt;/xref:System.Threading.SynchronizationContext&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Om den här egenskapen anges när arbetsflödesinstansen har initierats och &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;returnerar <ph id="ph1">`true`</ph>, en &lt;xref:System.InvalidOperationException&gt;genereras.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The synchronization context used for scheduling the workflow instance.</source>
+          <target state="translated">Synkroniseringskontext som används för schemaläggning av arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Throws an &lt;xref:System.InvalidOperationException&gt; if the workflow instance has been initialized, as determined by &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.</source>
+          <target state="translated">Genererar en &lt;xref:System.InvalidOperationException&gt;om arbetsflödesinstansen har initierats, enligt systemets &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, then an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Om &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;returnerar <ph id="ph1">`true`</ph>, och sedan en &lt;xref:System.InvalidOperationException&gt;genereras.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets the workflow definition of the workflow instance.</source>
+          <target state="translated">Hämtar Arbetsflödesdefinitionen för arbetsflödesinstansen.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The workflow definition of the workflow instance.</source>
+          <target state="translated">Arbetsflödesdefinitionen för arbetsflödesinstansen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

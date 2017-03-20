@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c13677414398dac8311553105e2eca31ca499fe7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2030db1812feafe0d89f1c482894cf81cb344123</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b468f1c84ba2d8d111c799c7ea53ce4bf1f8d344</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source.</source>
+          <target state="translated">Adatforrás-kapcsolat jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An OdbcConnection object represents a unique connection to a data source created by using a connection string or ODBC data source name (DSN).</source>
+          <target state="translated">OdbcConnection objektum egy adatforrást a kapcsolati karakterlánc- vagy ODBC adatforrásnevet (DSN) használatával létrehozott egyedi kapcsolatot jelöli.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With a client/server database system, it is equivalent to a network connection to the server.</source>
+          <target state="translated">Egy ügyfél-kiszolgáló adatbázis rendszerrel megegyezik a hálózati kapcsolat a kiszolgálóval.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the functionality supported by the native ODBC driver, some methods or properties of an OdbcConnection object may not be available.</source>
+          <target state="translated">Attól függően, hogy a funkció a natív ODBC-illesztőprogram támogatja néhány módszerek vagy egy OdbcConnection objektum tulajdonságai nem érhetők el.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OdbcConnection object uses native resources such as ODBC environment and connection handles.</source>
+          <target state="translated">A OdbcConnection objektum például ODBC környezet és a kapcsolat leírók natív erőforrásokat használ.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should always explicitly close any open OdbcConnection objects by calling &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> before the OdbcConnection object goes out of scope, or by placing the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Mindig explicit módon zárjon be minden nyitott OdbcConnection objektumok meghívásával &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;vagy <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept> a OdbcConnection mielőtt objektum kerül hatókörén kívül, vagy úgy, hogy a kapcsolat belül egy <ph id="ph1">`Using`</ph> utasítást.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not doing this leaves the freeing of these native resources to garbage collection.</source>
+          <target state="translated">Ezzel nem hagyja ezeket a szemétgyűjtés natív erőforrásokat szabadítson fel.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It might not free them immediately.</source>
+          <target state="translated">Akkor lehet, hogy nem szabad őket azonnal.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This, in turn, can eventually cause the underlying driver to run out of resources or reach a maximum limit.</source>
+          <target state="translated">Az alapul szolgáló illesztőprogram erőforrások vagy eléri a maximális határértéket, ez pedig végül eredményezheti.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This has resulted in intermittent failures.</source>
+          <target state="translated">Ez időszakos hibák eredményezte.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might experience <ph id="ph1">`Maximum Connections`</ph> -related errors while many connections are waiting to be deleted by the garbage collector.</source>
+          <target state="translated">Például az Ön is szembesülhet <ph id="ph1">`Maximum Connections`</ph> -kapcsolódó hibák, miközben sok a kapcsolat a szemétgyűjtő által törlendő várnak.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Explicitly closing the connections allows for a more efficient use of native resources, enhancing scalability and improving overall application performance.</source>
+          <target state="translated">Explicit módon a tartozó kapcsolatok bezárása lehetővé teszi a natív erőforrásokat, a méretezhetőség fokozása és alkalmazások teljesítményének növelése hatékonyabb kihasználását.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To deploy high-performance applications, you frequently must use connection pooling.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nagy teljesítményű alkalmazások központi telepítése, gyakran kell használnia kapcsolatkészletezést.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when you use the .NET Framework Data Provider for ODBC, you do not have to enable connection pooling because the provider manages this automatically.</source>
+          <target state="translated">Azonban ha a .NET Framework Data Provider ODBC használja, nincs engedélyezni a kapcsolatkészletezést, mert a szolgáltató automatikusan kezeli ezt a.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If one of the <ph id="ph1">`Execute`</ph> methods of the &lt;xref:System.Data.Odbc.OdbcCommand&gt; class causes a fatal &lt;xref:System.Data.Odbc.OdbcException&gt; (for example, a SQL Server severity level of 20 or greater), the OdbcConnection may close.</source>
+          <target state="translated">Ha egy, a <ph id="ph1">`Execute`</ph> módszerek a &lt;xref:System.Data.Odbc.OdbcCommand&gt;osztály hatására egy végzetes &lt;xref:System.Data.Odbc.OdbcException&gt;(például egy SQL Server súlyossági szint 20 vagy nagyobb), a OdbcConnection bezárhatja.&lt;/xref:System.Data.Odbc.OdbcException&gt; &lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">Azonban a felhasználó újra megnyitni és folytatható.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application that creates an instance of the OdbcConnection object can require all direct and indirect callers to have sufficient permission to the code by setting declarative or imperative security demands.</source>
+          <target state="translated">Egy alkalmazás által létrehozott a OdbcConnection objektum egy példányát megkövetelheti az összes közvetlen és közvetett hívó számára rendelkezik megfelelő engedéllyel a kód által beállítás deklaratív vagy imperatív biztonsági követelményeinek.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OdbcConnection creates security demands by using the &lt;xref:System.Data.Odbc.OdbcPermission&gt; object.</source>
+          <target state="translated">OdbcConnection biztonsági követelményeinek használatával hozza létre a &lt;xref:System.Data.Odbc.OdbcPermission&gt;objektum.&lt;/xref:System.Data.Odbc.OdbcPermission&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users can verify that their code has sufficient permissions by using the &lt;xref:System.Data.Odbc.OdbcPermissionAttribute&gt; object.</source>
+          <target state="translated">Felhasználók ellenőrizheti, hogy a kód a megfelelő engedélyekkel rendelkezik a &lt;xref:System.Data.Odbc.OdbcPermissionAttribute&gt;objektum.&lt;/xref:System.Data.Odbc.OdbcPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users and administrators can also use the Code Access Security Policy Tool (Caspol.exe) to modify security policy at the computer, user, and enterprise levels.</source>
+          <target state="translated">Felhasználók és rendszergazdák is használhatja a kód hozzáférés biztonsági házirend eszközzel (Caspol.exe) a számítógép, a felhasználó és a vállalati szintű biztonsági házirend módosítására.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>kódelérés-biztonsági és ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling warning and informational messages from the data source, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Az adatforrás figyelmeztetési és tájékoztató üzeneteit kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>Kapcsolateseményei<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.Odbc.OdbcConnection&gt; is created, the write-only and read-only properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Ha egy új példányát &lt;xref:System.Data.Odbc.OdbcConnection&gt;jön létre, a csak írható és olvasható csak olvasható tulajdonságok beállítása a következő kezdeti értékekre, kivéve, ha kifejezetten megfelelőek-e a kapcsolódó kulcsszavak használatával a &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;|empty string ("")|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Tulajdonságok |} A kezdeti érték |}   |----------------|-------------------|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;|} üres karakterlánc ("") |}   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|}&amp;15; |}   | &lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|} üres karakterlánc ("") |}       Ezek a tulajdonságok értékét csak használatával módosíthatja a &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Database%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified connection string.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott kapcsolati karakterlánccal.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.Odbc.OdbcConnection&gt; is created, the write-only and read-only properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Ha egy új példányát &lt;xref:System.Data.Odbc.OdbcConnection&gt;jön létre, a csak írható és olvasható csak olvasható tulajdonságok beállítása a következő kezdeti értékekre, kivéve, ha kifejezetten megfelelőek-e a kapcsolódó kulcsszavak használatával a &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|   |&lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Tulajdonságok |} A kezdeti érték |}   |----------------|-------------------|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;| <ph id="ph1">`connectionString`</ph>|   | &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt;|}&amp;15; |}   | &lt;xref:System.Data.Odbc.OdbcConnection.Database%2A&gt;|} üres karakterlánc ("") |}       Ezek a tulajdonságok értékét csak használatával módosíthatja a &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Database%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The connection used to open the data source.</source>
+          <target state="translated">A kapcsolat az adatforrás megnyitásához használt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Starts a transaction at the data source.</source>
+          <target state="translated">Az adatforrásban egy transaction kezdődik.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To commit or roll back the transaction, you must explicitly use the &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt; or &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">Véglegesítse vagy állítsa vissza a tranzakciót, explicit módon használja a &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;vagy &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt;módszerek.&lt;/xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; &lt;/xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for ODBC transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Győződjön meg arról, hogy a .NET Framework Data Provider ODBC tranzakció felügyeleti modell megfelelően végez-e, hogy kerülje a más tranzakció felügyeleti modellek, például az adatforrás által kínáltak mellett.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you do not specify an isolation level, the isolation level will be determined by the driver being used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nem ad meg egy elkülönítési szintet, ha a elkülönítési szint határozza meg, használt.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an isolation level with the BeginTransaction method, use the overload that takes the <ph id="ph1">`isolevel`</ph> parameter.</source>
+          <target state="translated">Adja meg egy elkülönítési szintet a BeginTransaction metódus, használja a rendelkező túlterhelést a <ph id="ph1">`isolevel`</ph> paraméter.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Az új tranzakció képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A transaction is currently active.</source>
+          <target state="translated">Egy tranzakció jelenleg aktív.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">A párhuzamos tranzakciók nem támogatottak.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Starts a transaction at the data source with the specified <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Az adatforrásban egy transaction kezdődik-e a megadott <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To commit or roll back the transaction, you must explicitly use the &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt; or &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">Véglegesítse vagy állítsa vissza a tranzakciót, explicit módon használja a &lt;xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;vagy &lt;xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt;módszerek.&lt;/xref:System.Data.Odbc.OdbcTransaction.Rollback%2A&gt; &lt;/xref:System.Data.Odbc.OdbcTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for ODBC transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Győződjön meg arról, hogy a .NET Framework Data Provider ODBC tranzakció felügyeleti modell megfelelően végez-e, hogy kerülje a más tranzakció felügyeleti modellek, például az adatforrás által kínáltak mellett.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The transaction isolation level for this connection.</source>
+          <target state="translated">A tranzakció elkülönítési szintjét, ehhez a kapcsolathoz.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you do not specify an isolation level, the default isolation level for the driver is used.</source>
+          <target state="translated">Ha nem ad meg egy elkülönítési szintet, az alapértelmezett elkülönítési szint az illesztőprogramhoz szolgál.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Az új tranzakció képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A transaction is currently active.</source>
+          <target state="translated">Egy tranzakció jelenleg aktív.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">A párhuzamos tranzakciók nem támogatottak.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Changes the current database associated with an open <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Módosítja az aktuális adatbázisban a megnyitott társított <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter must contain a valid database name, and cannot contain a null value, an empty string (""), or a string with only blank characters.</source>
+          <target state="translated">A <ph id="ph1">`value`</ph> paraméter egy érvényes adatbázisnevet kell tartalmaznia, és nem tartalmazhat null értékű, üres karakterlánc (""), vagy csak üres karaktereket tartalmazó karakterláncot.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The database name.</source>
+          <target state="translated">AZ adatbázis neve.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The database name is not valid.</source>
+          <target state="translated">Az adatbázisnév érvénytelen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The connection is not open.</source>
+          <target state="translated">A kapcsolat nincs megnyitva.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Cannot change the database.</source>
+          <target state="translated">Az adatbázis nem módosítható.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the data source.</source>
+          <target state="translated">Megszünteti a kapcsolatot az adatforráshoz.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">A Close metódus visszaállítja a folyamatban lévő tranzakciók.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">Majd kiadja a kapcsolatkészletbe csatlakozni, vagy bezárja a kapcsolatot, ha kapcsolatkészletezést le van tiltva.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Close is called while handling a &lt;xref:System.Data.Common.DbConnection.StateChange&gt; event, no additional &lt;xref:System.Data.Common.DbConnection.StateChange&gt; events are fired.</source>
+          <target state="translated">Zárja be a kezelési közben hívása esetén egy &lt;xref:System.Data.Common.DbConnection.StateChange&gt;esemény, nem további &lt;xref:System.Data.Common.DbConnection.StateChange&gt;eseményeket.&lt;/xref:System.Data.Common.DbConnection.StateChange&gt; &lt;/xref:System.Data.Common.DbConnection.StateChange&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can call Close more than one time without generating an exception.</source>
+          <target state="translated">Egy alkalmazás meghívhatja zárja be egynél többször kivétel létrehozása nélkül.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you use the .NET Framework Data Provider for ODBC, you do not have to enable connection pooling because the ODBC Driver Manager manages this automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A .NET-keretrendszer adatszolgáltatója az ODBC használatakor nem kell engedélyezni a kapcsolatkészletezést, mert az ODBC illesztőprogram-kezelő automatikusan kezeli ezt.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to enable and disabling connection pooling, see the Microsoft Open Database Connectivity (ODBC) documentation.</source>
+          <target state="translated">Engedélyezése és letiltása a kapcsolatkészletezést kapcsolatos további információkért a Microsoft nyílt adatbázis kapcsolat (ODBC) dokumentációjában talál.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call Close or <ph id="ph2">`Dispose`</ph> on a Connection, a DataReader, or any other managed object in the <ph id="ph3">`Finalize`</ph> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Nem meghívni a Close eljárást vagy <ph id="ph2">`Dispose`</ph> a kapcsolatot, a DataReader vagy más felügyelt objektum az az <ph id="ph3">`Finalize`</ph> az osztály.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">A véglegesítőt, a kiadás csak nem felügyelt erőforrást, amely a osztály birtokolja közvetlenül.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">Ha az osztály nem rendelkezik a nem felügyelt erőforrás nem tartalmaznak egy <ph id="ph1">`Finalize`</ph> az osztálydefiníció metódust.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>szemétgyűjtés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a data source.</source>
+          <target state="translated">Lekérdezi vagy beállítja az adatforrás megnyitásához használt karakterlánc.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The ODBC driver connection string that includes settings, such as the data source name, needed to establish the initial connection.</source>
+          <target state="translated">Az ODBC illesztőprogram kapcsolati karakterlánc, amely tartalmazza a beállításokat, például az adatforrás nevét, a kezdeti kapcsolat létrehozásához szükséges.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc ("").</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The maximum length is 1024 characters.</source>
+          <target state="translated">A hossza legfeljebb 1024 karakter lehet.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">Lekérdezi vagy beállítja a kapcsolat létrehozása előtt megszakítja a kísérletet és hibát generál közben várakozási időt.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the .NET Framework data providers for SQL Server and OLE DB, the .NET Framework Data Provider for ODBC does not support setting this property as a connection string value, because it is not a valid ODBC connection keyword.</source>
+          <target state="translated">A .NET-keretrendszer adatszolgáltatók az SQL Server és az OLE DB, eltérően a .NET Framework Data Provider ODBC nem támogatja a tulajdonság beállítása esetén a kapcsolati karakterlánc értéknek, mivel már nem érvényes ODBC kapcsolati kulcsszó.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a connection time-out, set the ConnectionTimeout property before calling &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;.</source>
+          <target state="translated">A kapcsolódási időkorlát megadásához a ConnectionTimeout tulajdonság hívása előtt állítsa be &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is equivalent to setting the ODBC <ph id="ph1">`SQLSetConnectAttr`</ph> SQL_ATTR_LOGIN_TIMOUT attribute.</source>
+          <target state="translated">Ez az annak az ODBC <ph id="ph1">`SQLSetConnectAttr`</ph> SQL_ATTR_LOGIN_TIMOUT attribútum.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The time in seconds to wait for a connection to open.</source>
+          <target state="translated">Az az idő, várjon egy kapcsolat megnyitásához.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">Az alapértelmezett érték 15 másodpercre.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">A beállított érték a 0-nál kisebb.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates and returns an <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hoz létre, és adja vissza egy <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> rendelt objektumot a <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">Lekérdezi az aktuális adatbázisban vagy használható egy kapcsolat megnyitása után az adatbázis nevét.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At first, the Database property is set in the connection string.</source>
+          <target state="translated">Először az adatbázis beállítása a kapcsolati karakterláncban.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Database property can be updated by using the &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt; method.</source>
+          <target state="translated">Az adatbázis-tulajdonság használatával frissíthető az &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;metódus.&lt;/xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you change the current database using an SQL statement or the &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt; method, an informational message is sent and then the property is updated.</source>
+          <target state="translated">Ha módosítja az aktuális adatbázisra egy SQL-utasítás használatával, vagy a &lt;xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;módszer, egy tájékoztató üzenetet küld, és a tulajdonság frissül majd.&lt;/xref:System.Data.Odbc.OdbcConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the Database property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`Attribute`</ph> parameter set to SQL_ATTR_CURRENT_CATALOG.</source>
+          <target state="translated">Az adatbázis-tulajdonság lekérése értéke megegyezik a ODBC függvény <ph id="ph1">`SQLGetInfo`</ph> rendelkező a <ph id="ph2">`Attribute`</ph> SQL_ATTR_CURRENT_CATALOG paraméter értéke.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The name of the current database.</source>
+          <target state="translated">Az aktuális adatbázis neve.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc (""), amíg a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets the server name or file name of the data source.</source>
+          <target state="translated">Lekérdezi a kiszolgáló neve vagy az adatforrás nevét.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the DataSource property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`InfoType`</ph> parameter set to SQL_SERVER_NAME.</source>
+          <target state="translated">A DataSource tulajdonság beolvasása értéke megegyezik a ODBC függvény <ph id="ph1">`SQLGetInfo`</ph> rendelkező a <ph id="ph2">`InfoType`</ph> SQL_kiszolgáló_neve paraméter értéke.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The server name or file name of the data source.</source>
+          <target state="translated">A kiszolgáló neve vagy az adatforrás nevét.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc (""), amíg a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the name of the ODBC driver specified for the current connection.</source>
+          <target state="translated">Lekérdezi az aktuális kapcsolathoz megadott ODBC-illesztőprogram neve.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the Driver property is equivalent to calling the ODBC function <ph id="ph1">`SQLGetInfo`</ph> with the <ph id="ph2">`InfoType`</ph> parameter set to SQL_DRIVER_NAME.</source>
+          <target state="translated">Az illesztőprogram-tulajdonság lekérése értéke megegyezik a ODBC függvény <ph id="ph1">`SQLGetInfo`</ph> rendelkező a <ph id="ph2">`InfoType`</ph> SQL_DRIVER_NAME paraméter értéke.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The name of the ODBC driver.</source>
+          <target state="translated">Az ODBC-illesztőprogram neve.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This typically is the DLL name (for example, Sqlsrv32.dll).</source>
+          <target state="translated">Ez általában a dll-fájl nevét (például Sqlsrv32.dll).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("") until the connection is opened.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc (""), amíg a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Felveszi a megadott tranzakció elosztott tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Új ADO.NET 2.0 van támogatási használatához a &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metódus az elosztott tranzakciókba való.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> for this purpose.</source>
+          <target state="translated">Mivel azt felveszi a kapcsolatot a &lt;xref:System.Transactions.Transaction&gt;példány, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> funkcionalitást kihasználja a &lt;xref:System.Transactions&gt;névtér kezelésére szolgáló elosztott tranzakciók, így azt előnyösebb <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> erre a célra.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can continue to enlist in an existing distributed transaction using the &lt;xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt; method if auto-enlistment is disabled.</source>
+          <target state="translated">A tranzakcióban való részvételre használó meglévő elosztott tranzakció folytathatja a &lt;xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt;módszert, ha automatikus-általi bejegyzés le van tiltva.&lt;/xref:System.Data.OdbcClient.OdbcConnection.EnlistDistributedTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.</source>
+          <target state="translated">Meglévő elosztott tranzakcióban történő besorolásakor biztosítja, hogy ha a tranzakció van véglegesítés vagy visszaállítás, a kódot az adatforrásban által végrehajtott módosítások vannak is véglegesítés vagy visszaállítás.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</source>
+          <target state="translated">Az elosztott tranzakciók kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EnlistDistributedTransaction returns an exception if the &lt;xref:System.Data.OdbcClient.OdbcConnection&gt; has already started a transaction using &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">EnlistDistributedTransaction kivételt adja vissza, ha &lt;xref:System.Data.OdbcClient.OdbcConnection&gt;már elindította a tranzakció &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt; használatával&lt;/xref:System.Data.OdbcClient.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an &lt;xref:System.Data.OdbcClient.OdbcCommand&gt; object), EnlistDistributedTransaction rolls back the local transaction and enlists in the existing distributed transaction as requested.</source>
+          <target state="translated">Azonban ha a tranzakció nem egy helyi tranzakció elindult az adatforrásban (például végrehajtásával explicit módon a BEGIN TRANSACTION utasítás használatával egy &lt;xref:System.Data.OdbcClient.OdbcCommand&gt;objektum), EnlistDistributedTransaction visszaállítja a helyi tranzakció, és felveszi a meglévő elosztott tranzakció a kérelemnek megfelelően.&lt;/xref:System.Data.OdbcClient.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Ön nem kap értesítést, hogy a helyi tranzakció vissza lett állítva, és a helyi tranzakciók nem kezeléséért indított &lt;xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OdbcClient.OdbcConnection.BeginTransaction%2A&gt; használatával</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Egy meglévő hivatkozás <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyben a besorolásra.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Felveszi a megadott tranzakció elosztott tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Új ADO.NET 2.0 van támogatási használatához a &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metódus az elosztott tranzakciókba való.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, which uses a <bpt id="p3">**</bpt>System.EnterpriseServices.ITransaction<ept id="p3">**</ept> object.</source>
+          <target state="translated">Mivel azt felveszi a kapcsolatot a &lt;xref:System.Transactions.Transaction&gt;példány, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> funkcionalitást kihasználja a &lt;xref:System.Transactions&gt;névtér kezelésére szolgáló elosztott tranzakciók, így azt előnyösebb <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, használó egy <bpt id="p3">**</bpt>System.EnterpriseServices.ITransaction<ept id="p3">**</ept> objektum.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also has slightly different semantics: once a connection is explicitly enlisted on a transaction, it cannot be unenlisted or enlisted in another transaction until the first transaction finishes.</source>
+          <target state="translated">Azt is némileg eltérő szemantika: Miután kapcsolat explicit módon feliratkozott a tranzakcióra, nem lehet unenlisted és egy másik tranzakció bejelentkezve, amíg befejeződik az első tranzakció.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Az elosztott tranzakciók kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Egy meglévő hivatkozás <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyben a besorolásra.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified name for the schema name.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megadott adja meg a séma neve.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is null, the &lt;xref:System.Data.DataTable&gt; contains information about all available metadata and any restrictions.</source>
+          <target state="translated">Ha <ph id="ph1">`collectionName`</ph> értéke null, a &lt;xref:System.Data.DataTable&gt;mind elérhetők a metaadatok és korlátozásokat tartalmaz információkat.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All restrictions that apply to the <ph id="ph2">`SQLStatistics`</ph> method also apply to the <ph id="ph3">`ODBCConnection.GetSchema("`</ph>indexes<ph id="ph4">`")`</ph> collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Összes korlátozásokat, amelyek érvényesek a <ph id="ph2">`SQLStatistics`</ph> módszer is alkalmazhat a <ph id="ph3">`ODBCConnection.GetSchema("`</ph>indexek<ph id="ph4">`")`</ph> gyűjtemény.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Vissza a séma neve.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name and the specified string array for the restriction values.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott karakterlánc használata a sémanév és a korlátozás értékeket a megadott karakterlánc-tömbben.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; contains information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Ha <ph id="ph1">`collectionName`</ph> beállítása null, a &lt;xref:System.Data.DataTable&gt;érhető el minden metaadat és a korlátozásokat tartalmaz információkat.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`restrictionValues`</ph> parameter can supply <bpt id="p1">*</bpt>n<ept id="p1">*</ept> depth of values which are specified by the restrictions collection for a specific collection.</source>
+          <target state="translated">A <ph id="ph1">`restrictionValues`</ph> paraméter megadhatja <bpt id="p1">*</bpt>n<ept id="p1">*</ept> a korlátozásgyűjtemény egy adott gyűjtemény által megadott értékek mélységét.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to set values on a given restriction, and not set the values of other restrictions, you must set the preceding restrictions to null and then put the appropriate value in for the restriction that you would like to specify a value for.</source>
+          <target state="translated">Ahhoz, hogy egy adott korlátozás kapacitásértékeinek beállítása, és nincs beállítva az egyéb korlátozások értékeit, be kell állítani az előző korlátozások null, és majd írja be a megfelelő értéket a korlátozásokat, amelyeket szeretne, adjon meg egy értéket.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of this is the "Tables" collection.</source>
+          <target state="translated">Például az "Tábla" gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the "Tables" collection has three restrictions (database, owner, and table name), and you want to get back only the tables associated with the owner "Carl," then you would need to pass in at least the following values: null, "Carl".</source>
+          <target state="translated">Ha a "Tábla" gyűjtemény három korlátozások (adatbázis tulajdonosa és táblanév), és le szeretné kérdezni vissza csak a "Carl" tulajdonosa társított táblákat, akkor az a legalább a következő értéket átadni kell: null, a "Carl".</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction value is not passed in, the default values are used for that restriction.</source>
+          <target state="translated">Egy korlátozási érték nem kerül át, a, ha az alapértelmezett értékeket használják, hogy korlátozásra vonatkozóan.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same mapping as passing in null, which is different from passing in an empty string for the parameter value.</source>
+          <target state="translated">Ez az azonos leképezése null, a sikeres, ami eltér a paraméter értéke üres karakterláncot a sikeres.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the empty string ("") is considered to be the value for the specified parameter.</source>
+          <target state="translated">Ebben az esetben, az üres karakterlánc ("") a megadott paraméter értéke számít.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All restrictions that apply to SQLStatistics method will apply to the ODBCConnection.GetSchema("indexes") collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SQLStatistics metódus vonatkozó korlátozások vonatkoznak a ODBCConnection.GetSchema("indexes") gyűjteményben.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Vissza a séma neve.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies a set of restriction values for the requested schema.</source>
+          <target state="translated">Itt adhatja meg a kért séma korlátozás értékeit.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Occurs when the ODBC driver sends a warning or an informational message.</source>
+          <target state="translated">Akkor következik be, amikor az ODBC-illesztőprogram egy figyelmeztető vagy tájékoztató üzenetet küld.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that want to process warnings or informational messages sent by the server should create an &lt;xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt; delegate to listen to this event.</source>
+          <target state="translated">Ügyfelek, figyelmeztetés vagy a kiszolgáló által küldött tájékoztató üzeneteket dolgozni hozzon létre egy &lt;xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt;delegált figyelni ezt az eseményt.&lt;/xref:System.Data.Odbc.OdbcInfoMessageEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Opens a connection to a data source with the property settings specified by the &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt;.</source>
+          <target state="translated">A tulajdonság a &lt;xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt;.&lt;/xref:System.Data.Odbc.OdbcConnection.ConnectionString*&gt; által megadott beállításokkal adatforrás kapcsolat megnyitása</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcConnection&gt; draws an open connection from the connection pool if one is available.</source>
+          <target state="translated">A &lt;xref:System.Data.Odbc.OdbcConnection&gt;megrajzolja a kapcsolat készletből nyitott kapcsolat, ha elérhető ilyen.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it establishes a new connection to the data source.</source>
+          <target state="translated">Ellenkező esetben az adatforráshoz való új kapcsolat létesítése.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Data.Odbc.OdbcConnection&gt; goes out of scope, the connection it represents does not close automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ha a &lt;xref:System.Data.Odbc.OdbcConnection&gt;is megnőnek hatókörén kívül, a kapcsolatot, amely nem zárja be automatikusan.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;, <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or by placing the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Ezért kifejezetten zárja be a kapcsolat meghívásával &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;, <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept>, vagy úgy, hogy a kapcsolat belül egy <ph id="ph1">`Using`</ph> utasítást.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The functionality of this method is unsupported in the base class and must be implemented in a derived class instead.</source>
+          <target state="translated">Ez a módszer funkcióit az alaposztály nem támogatott, és kell megvalósítani a származtatott osztály helyett.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Indicates that the ODBC Driver Manager environment handle can be released when the last underlying connection is released.</source>
+          <target state="translated">Azt jelzi, hogy az ODBC-illesztőprogram kezelőjének környezet leíró kiadott, amikor megjelenik az utolsó alapul szolgáló kapcsolatban.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReleaseObjectPool`</ph> can be called to release the ODBC environment handle.</source>
+          <target state="translated"><ph id="ph1">`ReleaseObjectPool`</ph>az ODBC-környezet leírójának kibocsátási hívható.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might want to call this method if, for example, the connection object will not be used again.</source>
+          <target state="translated">Ha például a kapcsolati objektum nem használható újra ez a metódus meghívható kívánt.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all connections in the environment are closed, the environment can be disposed.</source>
+          <target state="translated">Ha be van zárva, az összes kapcsolat a környezetben, a környezet is távolíthatók el.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that calling the method alone does not actually release the active connections that exist in the environment.</source>
+          <target state="translated">Vegye figyelembe, hogy kizárólag a metódus hívása nem ténylegesen kiadási az aktív kapcsolatok, amely szerepel a környezetben.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following must occur before the environment is finally disposed:      1.</source>
+          <target state="translated">A következő kell történnie, végül a környezet eldobása előtt: 1.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; to release the &lt;xref:System.Data.Odbc.OdbcConnection&gt; object from the environment.</source>
+          <target state="translated">Hívás &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;felszabadítása a &lt;xref:System.Data.Odbc.OdbcConnection&gt;objektum a környezetből.&lt;/xref:System.Data.Odbc.OdbcConnection&gt; &lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Allow each connection object to time out.</source>
+          <target state="translated">Lehetővé teszi minden objektum túllépi az időkorlátot.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call ReleaseObjectPool.</source>
+          <target state="translated">ReleaseObjectPool hívja.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoke garbage collection.</source>
+          <target state="translated">A szemétgyűjtés meghívni.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, if you call &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; on all active connections, and invoke garbage collection, but do not call ReleaseObjectPool, the resources reserved for the environment remain available.</source>
+          <target state="translated">Ezzel szemben ha meghívja a &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;minden aktív kapcsolatok használata esetén, és meghívása a szemétgyűjtés, de ne hívja meg ReleaseObjectPool, a környezet számára fenntartott erőforrások elérhetők maradnak.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After an environment handle is released, a request for a new &lt;xref:System.Data.Odbc.OdbcConnection&gt; creates a new environment.</source>
+          <target state="translated">Miután környezetleírót megjelenik, egy új kérelmet &lt;xref:System.Data.Odbc.OdbcConnection&gt;környezetet hoz létre új.&lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the server to which the client is connected.</source>
+          <target state="translated">Lekérdezi a kiszolgálót, amelyhez az ügyfél csatlakozik a verzióját tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ServerVersion is not supported by the underlying ODBC driver, an empty string ("") is returned.</source>
+          <target state="translated">Ha az OWA nem támogatja az alapul szolgáló ODBC-illesztőprogram, üres karakterlánc ("") adja vissza.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServerVersion property takes the form '<bpt id="p1">*</bpt>##.##.####<ept id="p1">*</ept>,' where the first two digits are the major version, the next two digits are the minor version, and the last four digits are the release version.</source>
+          <target state="translated">Az OWA tulajdonság formájában történik "<bpt id="p1">*</bpt>##. ##. ###<ept id="p1">*</ept>," Ha az első két szám főverziója, a következő két szám a alverzió, és utolsó négy számjegye a végleges verziót.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The driver must render the product version in this form but can also append the product-specific version as a string (for example, "04.01.0000 Rdb 4.1").</source>
+          <target state="translated">Az illesztőprogram a termék verzióját ezen a képernyőn kell igazodnia, de is fűzze hozzá a termékspecifikus verzió karakterláncként (például "04.01.0000 rekordadatbázis 4.1").</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This string takes the form '<bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>' where <bpt id="p2">*</bpt>major<ept id="p2">*</ept> and <bpt id="p3">*</bpt>minor<ept id="p3">*</ept> are exactly two digits and <bpt id="p4">*</bpt>build<ept id="p4">*</ept> is exactly four digits.</source>
+          <target state="translated">Ez a karakterlánc formájában történik "<bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>" ahol <bpt id="p2">*</bpt>fő<ept id="p2">*</ept> és <bpt id="p3">*</bpt>kisebb<ept id="p3">*</ept> pontosan két számjegy és <bpt id="p4">*</bpt>build<ept id="p4">*</ept> pontosan négy számjegyből áll.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The version of the connected server.</source>
+          <target state="translated">A csatlakoztatott kiszolgáló verziója.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">A kapcsolat le van zárva.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">A kapcsolat jelenlegi állapotának beolvasása.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are allowed state changes:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt; method.</source>
+          <target state="translated">A következő engedélyezettek állapotváltozások: – a <ph id="ph1">`Closed`</ph> való <ph id="ph2">`Open`</ph>használatával a &lt;xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;metódus.&lt;/xref:System.Data.Odbc.OdbcConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> method.</source>
+          <target state="translated">-A <ph id="ph1">`Open`</ph> való <ph id="ph2">`Closed`</ph>, segítségével a &lt;xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;vagy <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept> metódus.&lt;/xref:System.Data.Odbc.OdbcConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Calling the State property on an open connection increases application overhead because each such call causes a SQL_ATTR_CONNECTION_DEAD call to the underlying ODBC driver to determine whether the connection is still valid.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; State tulajdonsága hívása a nyitott kapcsolat növeli alkalmazás terhelést, mivel minden ilyen hívás hatására SQL_ATTR_CONNECTION_DEAD hívása az alapul szolgáló ODBC-illesztőprogram annak megállapításához, hogy a kapcsolat továbbra is érvényes.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Tagértékeinek a <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Closed" name="Closed" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_Closed" name="Closed" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Ez a tag ismertetését lásd: <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ez a tag egy explicit illesztőfelületet tag megvalósítása.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Odbc.OdbcConnection&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">Használat csak akkor, ha a &lt;xref:System.Data.Odbc.OdbcConnection&gt;példány típusúvá egy &lt;xref:System.ICloneable&gt;felületet.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.Odbc.OdbcConnection&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">Egy új &lt;xref:System.Object&gt;ezt a példányt, amely egy példányát.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
